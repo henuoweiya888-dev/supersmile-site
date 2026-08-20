@@ -145,9 +145,13 @@ collections:
               - {label: "内容(中)", name: "text_zh", widget: "text"}
               - {label: "内容(英)", name: "text_en", widget: "text"}
               - {label: "图片", name: "image", widget: "image", required: false}
-              - {label: "链接地址(可选)", name: "link", widget: "string", required: false}
-              - {label: "链接文字(中)", name: "link_text_zh", widget: "string", required: false}
-              - {label: "链接文字(英)", name: "link_text_en", widget: "string", required: false}
+              - label: "按钮链接地址(可选，站内页填 /products.html 这类路径)"
+                name: "link"
+                widget: "string"
+                required: false
+                hint: "填了链接和按钮文字，板块里就会显示一个按钮。站内页面：/products.html /custom.html /about.html /contact.html /index.html；外部链接：填完整 https://..."
+              - {label: "按钮文字(中)", name: "link_text_zh", widget: "string", required: false}
+              - {label: "按钮文字(英)", name: "link_text_en", widget: "string", required: false}
 
   - name: "products"
     label: "产品中心 / Products"
