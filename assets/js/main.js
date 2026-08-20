@@ -182,11 +182,25 @@ function renderTitle(){
   document.title=`Super Smile | ${t({en:'Custom Wiring Harness & Diagnostic Cable Manufacturer',zh:'定制线束与诊断线制造商'})}`;
 }
 
+function renderFab(){
+  if(!SITE) return;
+  const wa=$('#fab-wa'); if(wa && SITE.contact) wa.href = SITE.contact.whatsapp_link || 'https://wa.me/447516289817';
+  const online=$('#fab-online'); if(online && SITE.nav) online.textContent = t(SITE.nav.contact);
+  const main=$('#fab-main'), menu=$('#fab-menu');
+  if(main && menu){
+    main.onclick=(e)=>{ e.stopPropagation(); menu.classList.toggle('open'); };
+    if(!window.__fabBound){
+      window.__fabBound=true;
+      document.addEventListener('click',(e)=>{ if(!e.target.closest('#fab')) menu.classList.remove('open'); });
+    }
+  }
+}
+
 function renderAll(){
   renderNav(); renderLangSelector();
   renderHero(); renderCustom(); renderProcess(); renderApps();
   renderFactory(); renderCerts(); renderProductsTeaser(); renderBlocks(); renderCTA();
-  renderFooter(); renderProductsPage(); renderContact(); renderAbout(); renderTitle();
+  renderFooter(); renderProductsPage(); renderContact(); renderAbout(); renderTitle(); renderFab();
 }
 
 document.addEventListener('DOMContentLoaded', async ()=>{
