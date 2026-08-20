@@ -52,9 +52,24 @@
   <button class="fab-main" id="fab-main" type="button" aria-label="Contact">💬</button>
   <div class="fab-menu" id="fab-menu">
     <a class="fab-item wa" id="fab-wa" href="https://wa.me/447516289817" target="_blank" rel="noopener">WhatsApp</a>
-    <a class="fab-item online" href="contact.html" id="fab-online">Online Message</a>
+    <button class="fab-item online" id="fab-online" type="button">Online Message</button>
   </div>
 </div>
+<div class="contact-modal" id="contact-modal">
+  <div class="contact-modal-overlay" data-close></div>
+  <div class="contact-modal-box" role="dialog" aria-modal="true">
+    <button class="modal-close" type="button" data-close aria-label="Close">×</button>
+    <h3 id="modal-title">Send Us a Message</h3>
+    <form id="modal-form">
+      <div class="field"><label id="modal-label-name">Name</label><input id="modal-name" required placeholder="Your name"></div>
+      <div class="field"><label id="modal-label-email">Email</label><input id="modal-email" type="email" required placeholder="you@company.com"></div>
+      <div class="field"><label id="modal-label-message">Message</label><textarea id="modal-message" required placeholder="Describe your requirement..."></textarea></div>
+      <button class="btn btn-primary" type="submit" id="modal-submit" style="width:100%">Send Message</button>
+    </form>
+    <p style="margin-top:12px;font-size:13px;text-align:center"><a id="modal-wa" href="#" target="_blank" rel="noopener">Chat on WhatsApp</a></p>
+  </div>
+</div>
+
 <a class="admin-link" href="/admin/" target="_blank">⚙️ Admin</a>
 <script src="/assets/js/main.js"></script>
 </body>

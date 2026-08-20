@@ -13,6 +13,30 @@ const LANGS = [
   {code:'pl',name:'Polski',flag:'🇵🇱'},{code:'th',name:'ไทย',flag:'🇹🇭'}
 ];
 
+
+const UI = {
+  en:{title:'Send Us a Message',name:'Name',email:'Email',message:'Message',send:'Send Message',wa:'Chat on WhatsApp'},
+  zh:{title:'给我们留言',name:'姓名',email:'邮箱',message:'留言内容',send:'发送消息',wa:'在 WhatsApp 上聊'},
+  hi:{title:'हमें संदेश भेजें',name:'नाम',email:'ईमेल',message:'संदेश',send:'संदेश भेजें',wa:'WhatsApp पर चैट करें'},
+  es:{title:'Envíenos un mensaje',name:'Nombre',email:'Correo electrónico',message:'Mensaje',send:'Enviar mensaje',wa:'Chatear por WhatsApp'},
+  fr:{title:'Envoyez-nous un message',name:'Nom',email:'E-mail',message:'Message',send:'Envoyer le message',wa:'Discuter sur WhatsApp'},
+  ar:{title:'أرسل لنا رسالة',name:'الاسم',email:'البريد الإلكتروني',message:'الرسالة',send:'إرسال الرسالة',wa:'الدردشة عبر واتساب'},
+  bn:{title:'আমাদের মেসেজ পাঠান',name:'নাম',email:'ইমেইল',message:'মেসেজ',send:'মেসেজ পাঠান',wa:'WhatsApp-এ চ্যাট করুন'},
+  pt:{title:'Envie-nos uma mensagem',name:'Nome',email:'E-mail',message:'Mensagem',send:'Enviar mensagem',wa:'Conversar no WhatsApp'},
+  ru:{title:'Напишите нам',name:'Имя',email:'Email',message:'Сообщение',send:'Отправить сообщение',wa:'Написать в WhatsApp'},
+  ur:{title:'ہمیں پیغام بھیجیں',name:'نام',email:'ای میل',message:'پیغام',send:'پیغام بھیجیں',wa:'WhatsApp پر چیٹ کریں'},
+  id:{title:'Kirim Pesan kepada Kami',name:'Nama',email:'Email',message:'Pesan',send:'Kirim Pesan',wa:'Chat via WhatsApp'},
+  de:{title:'Nachricht senden',name:'Name',email:'E-Mail',message:'Nachricht',send:'Nachricht senden',wa:'Auf WhatsApp chatten'},
+  ja:{title:'メッセージを送る',name:'名前',email:'メール',message:'メッセージ',send:'送信する',wa:'WhatsAppでチャット'},
+  tr:{title:'Bize Mesaj Gönderin',name:'Ad',email:'E-posta',message:'Mesaj',send:'Mesaj Gönder',wa:"WhatsApp'ta Sohbet Et"},
+  vi:{title:'Gửi tin nhắn cho chúng tôi',name:'Tên',email:'Email',message:'Tin nhắn',send:'Gửi tin nhắn',wa:'Trò chuyện trên WhatsApp'},
+  ko:{title:'메시지 보내기',name:'이름',email:'이메일',message:'메시지',send:'메시지 보내기',wa:'WhatsApp으로 채팅'},
+  it:{title:'Inviaci un messaggio',name:'Nome',email:'Email',message:'Messaggio',send:'Invia messaggio',wa:'Chatta su WhatsApp'},
+  nl:{title:'Stuur ons een bericht',name:'Naam',email:'E-mail',message:'Bericht',send:'Bericht versturen',wa:'Chatten op WhatsApp'},
+  pl:{title:'Wyślij nam wiadomość',name:'Imię',email:'E-mail',message:'Wiadomość',send:'Wyślij wiadomość',wa:'Czatuj na WhatsApp'},
+  th:{title:'ส่งข้อความถึงเรา',name:'ชื่อ',email:'อีเมล',message:'ข้อความ',send:'ส่งข้อความ',wa:'แชทบน WhatsApp'}
+};
+
 const $ = (s, el=document) => el.querySelector(s);
 const $$ = (s, el=document) => [...el.querySelectorAll(s)];
 function setText(sel, val){ const el=$(sel); if(el) el.textContent = val ?? ''; }
@@ -194,6 +218,26 @@ function renderFab(){
       document.addEventListener('click',(e)=>{ if(!e.target.closest('#fab')) menu.classList.remove('open'); });
     }
   }
+  if(online && !window.__modalOpenBound){
+    window.__modalOpenBound=true;
+    online.onclick=(e)=>{ e.stopPropagation(); menu && menu.classList.remove('open'); openModal(); };
+  }
+  renderModal();
+}
+
+function openModal(){
+  const m=$('#contact-modal'); if(m) m.classList.add('open');
+}
+function closeModal(){
+  const m=$('#contact-modal'); if(m) m.classList.remove('open');
+}
+function renderModal(){
+  const m=$('#contact-modal'); if(!m || !SITE) return;
+  const u=UI[LANG]||UI.en;
+  setText('#modal-title', u.title); setText('#modal-label-name', u.name);
+  setText('#modal-label-email', u.email); setText('#modal-label-message', u.message);
+  setText('#modal-submit', u.send); setText('#modal-wa', u.wa);
+  const wa=$('#modal-wa'); if(wa && SITE.contact) wa.href = SITE.contact.whatsapp_link || 'https://wa.me/447516289817';
 }
 
 function renderAll(){
@@ -210,4 +254,13 @@ document.addEventListener('DOMContentLoaded', async ()=>{
   const form=$('#contact-form');
   if(form) form.onsubmit=(ev)=>{ ev.preventDefault(); const name=$('#cf-name').value, email=$('#cf-email').value, msg=$('#cf-msg').value;
     window.location.href=`mailto:${SITE.contact.email}?subject=${encodeURIComponent('Inquiry from website - '+name)}&body=${encodeURIComponent('Name: '+name+'\nEmail: '+email+'\n\n'+msg)}`; };
+  const modal=$('#contact-modal');
+  if(modal){
+    $$('[data-close]', modal).forEach(el=>el.onclick=closeModal);
+    const overlay=modal.querySelector('.contact-modal-overlay');
+    if(overlay) overlay.onclick=closeModal;
+    const mf=$('#modal-form');
+    if(mf) mf.onsubmit=(ev)=>{ ev.preventDefault(); const name=$('#modal-name').value, email=$('#modal-email').value, msg=$('#modal-message').value;
+      window.location.href=`mailto:${SITE.contact.email}?subject=${encodeURIComponent('Website inquiry - '+name)}&body=${encodeURIComponent('Name: '+name+'\nEmail: '+email+'\n\n'+msg)}`; };
+  }
 });
