@@ -1,0 +1,157 @@
+backend:
+  name: git-gateway
+  branch: main
+  commit_messages:
+    create: 'Create {{collection}} "{{slug}}"'
+    update: 'Update {{collection}} "{{slug}}"'
+    delete: 'Delete {{collection}} "{{slug}}"'
+    uploadMedia: '[skip ci] Upload "{{path}}"'
+    deleteMedia: '[skip ci] Delete "{{path}}"'
+
+media_folder: "assets/images/uploads"
+public_folder: "/assets/images/uploads"
+publish_mode: editorial_workflow
+
+collections:
+  - name: "settings"
+    label: "网站设置 / Site Settings"
+    files:
+      - name: "site"
+        label: "全站内容 / Site Content"
+        file: "data/site.json"
+        fields:
+          - label: "公司信息 / Company"
+            name: "company"
+            widget: "object"
+            fields:
+              - {label: "中文名", name: "name_zh", widget: "string"}
+              - {label: "英文名", name: "name_en", widget: "string"}
+              - {label: "品牌", name: "brand", widget: "string"}
+              - {label: "中文地址", name: "address_zh", widget: "string"}
+              - {label: "英文地址", name: "address_en", widget: "string"}
+              - {label: "员工数", name: "employees", widget: "string"}
+              - {label: "厂房面积", name: "area_sqm", widget: "string"}
+              - {label: "认证说明(中)", name: "cert_notes_zh", widget: "string"}
+              - {label: "认证说明(英)", name: "cert_notes_en", widget: "string"}
+          - label: "联系方式 / Contact"
+            name: "contact"
+            widget: "object"
+            fields:
+              - {label: "邮箱", name: "email", widget: "string"}
+              - {label: "WhatsApp号码", name: "whatsapp", widget: "string"}
+              - {label: "WhatsApp链接", name: "whatsapp_link", widget: "string"}
+              - {label: "Facebook", name: "facebook", widget: "string"}
+              - {label: "阿里国际站", name: "alibaba", widget: "string"}
+          - label: "首页大图区 / Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "徽标(中)", name: "badge_zh", widget: "string"}
+              - {label: "徽标(英)", name: "badge_en", widget: "string"}
+              - {label: "主标题(中)", name: "title_zh", widget: "text"}
+              - {label: "主标题(英)", name: "title_en", widget: "text"}
+              - {label: "副标题(中)", name: "subtitle_zh", widget: "text"}
+              - {label: "副标题(英)", name: "subtitle_en", widget: "text"}
+              - {label: "背景大图", name: "image", widget: "image"}
+              - {label: "按钮1(中)", name: "btn1_zh", widget: "string"}
+              - {label: "按钮1(英)", name: "btn1_en", widget: "string"}
+              - {label: "按钮2(中)", name: "btn2_zh", widget: "string"}
+              - {label: "按钮2(英)", name: "btn2_en", widget: "string"}
+          - label: "数据指标 / Stats"
+            name: "stats"
+            widget: "list"
+            fields:
+              - {label: "数字", name: "num", widget: "string"}
+              - {label: "单位", name: "unit", widget: "string"}
+              - {label: "标签(中)", name: "label_zh", widget: "string"}
+              - {label: "标签(英)", name: "label_en", widget: "string"}
+          - label: "定制能力介绍 / Custom Intro"
+            name: "custom_intro"
+            widget: "object"
+            fields:
+              - {label: "小标题(中)", name: "tag_zh", widget: "string"}
+              - {label: "小标题(英)", name: "tag_en", widget: "string"}
+              - {label: "标题(中)", name: "title_zh", widget: "string"}
+              - {label: "标题(英)", name: "title_en", widget: "string"}
+              - {label: "描述(中)", name: "desc_zh", widget: "text"}
+              - {label: "描述(英)", name: "desc_en", widget: "text"}
+          - label: "定制能力4板块 / Features"
+            name: "features"
+            widget: "list"
+            fields:
+              - {label: "图标", name: "ico", widget: "string"}
+              - {label: "标题(中)", name: "title_zh", widget: "string"}
+              - {label: "标题(英)", name: "title_en", widget: "string"}
+              - {label: "描述(中)", name: "desc_zh", widget: "text"}
+              - {label: "描述(英)", name: "desc_en", widget: "text"}
+          - label: "定制流程 / Process"
+            name: "process"
+            widget: "object"
+            fields:
+              - {label: "标题(中)", name: "title_zh", widget: "string"}
+              - {label: "标题(英)", name: "title_en", widget: "string"}
+              - label: "步骤"
+                name: "steps"
+                widget: "list"
+                fields:
+                  - {label: "序号", name: "num", widget: "string"}
+                  - {label: "标题(中)", name: "title_zh", widget: "string"}
+                  - {label: "标题(英)", name: "title_en", widget: "string"}
+                  - {label: "描述(中)", name: "desc_zh", widget: "text"}
+                  - {label: "描述(英)", name: "desc_en", widget: "text"}
+          - label: "工厂介绍 / Factory"
+            name: "factory"
+            widget: "object"
+            fields:
+              - {label: "描述(中)", name: "desc_zh", widget: "text"}
+              - {label: "描述(英)", name: "desc_en", widget: "text"}
+              - {label: "合作客户(中)", name: "clients_zh", widget: "string"}
+              - {label: "合作客户(英)", name: "clients_en", widget: "string"}
+              - {label: "工厂图片", name: "images", widget: "list", field: {label: "图片", name: "img", widget: "image"}}
+          - label: "认证 / Certs"
+            name: "certs"
+            widget: "object"
+            fields:
+              - label: "认证项目"
+                name: "items"
+                widget: "list"
+                fields:
+                  - {label: "名称", name: "name", widget: "string"}
+                  - {label: "证书图片", name: "img", widget: "image"}
+                  - {label: "说明(中)", name: "desc_zh", widget: "string"}
+                  - {label: "说明(英)", name: "desc_en", widget: "string"}
+          - label: "CTA区块 / CTA"
+            name: "cta"
+            widget: "object"
+            fields:
+              - {label: "标题(中)", name: "title_zh", widget: "string"}
+              - {label: "标题(英)", name: "title_en", widget: "string"}
+              - {label: "描述(中)", name: "desc_zh", widget: "string"}
+              - {label: "描述(英)", name: "desc_en", widget: "string"}
+
+  - name: "products"
+    label: "产品中心 / Products"
+    label_singular: "分类 / Category"
+    files:
+      - name: "catalog"
+        label: "产品分类与产品 / Categories & Products"
+        file: "data/products.json"
+        fields:
+          - label: "分类列表 / Categories"
+            name: "categories"
+            widget: "list"
+            fields:
+              - {label: "分类ID", name: "id", widget: "string"}
+              - {label: "分类名(中)", name: "cn", widget: "string"}
+              - {label: "分类名(英)", name: "en", widget: "string"}
+              - {label: "描述(中)", name: "desc_cn", widget: "text"}
+              - {label: "描述(英)", name: "desc_en", widget: "text"}
+              - label: "产品 / Products"
+                name: "products"
+                widget: "list"
+                fields:
+                  - {label: "ID", name: "id", widget: "string"}
+                  - {label: "序号", name: "no", widget: "number"}
+                  - {label: "中文名", name: "cn", widget: "string"}
+                  - {label: "英文名", name: "en", widget: "string"}
+                  - {label: "图片列表", name: "images", widget: "list", field: {label: "图片", name: "img", widget: "image"}}

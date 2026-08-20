@@ -1,0 +1,147 @@
+/* ========== Super Smile Website ========== */
+:root{
+  --navy:#0A2540; --navy2:#123a63; --blue:#1E6FD9; --accent:#FF6B35;
+  --bg:#f6f8fb; --white:#fff; --text:#2a3342; --muted:#5b6b7b; --line:#e3e8ef;
+  --shadow:0 4px 20px rgba(10,37,64,.08);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:"Helvetica Neue",Arial,"PingFang SC","Microsoft YaHei",sans-serif;color:var(--text);background:var(--bg);line-height:1.65}
+img{max-width:100%;display:block}
+a{color:var(--blue);text-decoration:none}
+.container{max-width:1200px;margin:0 auto;padding:0 20px}
+section{padding:72px 0}
+
+/* header */
+.header{position:sticky;top:0;z-index:100;background:var(--navy);color:#fff}
+.header .container{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font-size:20px;font-weight:800;color:#fff;letter-spacing:.5px}
+.logo span{color:var(--accent)}
+.nav{display:flex;gap:26px}
+.nav a{color:#cbd8e8;font-size:15px;font-weight:600;transition:.2s}
+.nav a:hover,.nav a.active{color:#fff}
+.nav-cta{background:var(--accent);color:#fff!important;padding:8px 16px;border-radius:6px}
+.nav-toggle{display:none;background:none;border:none;color:#fff;font-size:24px;cursor:pointer}
+
+/* hero */
+.hero{background:linear-gradient(135deg,var(--navy) 0%,var(--navy2) 60%,#1a4f8a 100%);color:#fff;padding:90px 0 70px;position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;right:-120px;top:-120px;width:420px;height:420px;border-radius:50%;background:rgba(255,107,53,.12)}
+.hero-badge{display:inline-block;background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.25);padding:6px 14px;border-radius:20px;font-size:13px;letter-spacing:1px;margin-bottom:18px}
+.hero h1{font-size:46px;line-height:1.2;margin-bottom:20px;font-weight:800}
+.hero h1 em{font-style:normal;color:var(--accent)}
+.hero p{font-size:18px;color:#c9d8ea;max-width:640px;margin-bottom:32px}
+.hero-btns{display:flex;gap:16px;flex-wrap:wrap}
+.btn{display:inline-block;padding:13px 28px;border-radius:8px;font-weight:700;font-size:15px;transition:.2s;cursor:pointer;border:none}
+.btn-primary{background:var(--accent);color:#fff}
+.btn-primary:hover{background:#e85a22}
+.btn-ghost{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.5)}
+.btn-ghost:hover{border-color:#fff}
+.hero-stats{display:flex;gap:40px;margin-top:48px;flex-wrap:wrap}
+.stat b{font-size:34px;color:#fff;display:block}
+.stat span{color:#9fb6d0;font-size:14px}
+
+/* section headers */
+.sec-head{text-align:center;max-width:760px;margin:0 auto 48px}
+.sec-head .tag{color:var(--accent);font-weight:700;letter-spacing:2px;font-size:13px;text-transform:uppercase;margin-bottom:8px;display:block}
+.sec-head h2{font-size:34px;color:var(--navy);margin-bottom:12px}
+.sec-head p{color:var(--muted);font-size:16px}
+
+/* cards */
+.cards{display:grid;gap:24px}
+.cards-4{grid-template-columns:repeat(4,1fr)}
+.cards-3{grid-template-columns:repeat(3,1fr)}
+.cards-2{grid-template-columns:repeat(2,1fr)}
+.card{background:#fff;border-radius:12px;padding:28px;box-shadow:var(--shadow);transition:.25s;border:1px solid var(--line)}
+.card:hover{transform:translateY(-4px)}
+.card .ico{font-size:34px;margin-bottom:14px}
+.card h3{font-size:18px;color:var(--navy);margin-bottom:8px}
+.card p{color:var(--muted);font-size:14px}
+
+/* process */
+.process{background:var(--navy);color:#fff}
+.process .sec-head h2{color:#fff}
+.process .sec-head p{color:#9fb6d0}
+.process-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+.step{background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.12);border-radius:12px;padding:26px;position:relative}
+.step .num{font-size:38px;font-weight:800;color:var(--accent);opacity:.9;display:block;margin-bottom:10px}
+.step h4{font-size:17px;margin-bottom:8px}
+.step p{color:#aebfd5;font-size:14px}
+
+/* apps */
+.apps{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.app{background:#fff;border:1px solid var(--line);border-radius:10px;padding:16px;text-align:center;font-size:14px;font-weight:600;color:var(--navy)}
+
+/* products preview */
+.prod-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.prod{background:#fff;border-radius:10px;overflow:hidden;border:1px solid var(--line);transition:.25s;box-shadow:var(--shadow)}
+.prod:hover{transform:translateY(-4px)}
+.prod img{width:100%;height:190px;object-fit:cover;background:#fff}
+.prod .info{padding:14px}
+.prod .info b{font-size:14px;color:var(--navy);display:block}
+.prod .info span{font-size:12px;color:var(--muted)}
+
+/* category cards */
+.cat-card{background:#fff;border-radius:12px;overflow:hidden;border:1px solid var(--line);box-shadow:var(--shadow);transition:.25s;display:block;color:inherit}
+.cat-card:hover{transform:translateY(-4px)}
+.cat-card img{width:100%;height:200px;object-fit:cover}
+.cat-card .cat-body{padding:18px}
+.cat-card h3{font-size:17px;color:var(--navy);margin-bottom:4px}
+.cat-card p{font-size:13px;color:var(--muted)}
+
+/* about / factory */
+.fact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.fact-grid img{height:220px;width:100%;object-fit:cover;border-radius:10px}
+.two-col{display:grid;grid-template-columns:1.1fr 1fr;gap:48px;align-items:center}
+.two-col img{border-radius:12px;box-shadow:var(--shadow)}
+
+/* certs */
+.cert-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.cert{background:#fff;border:1px solid var(--line);border-radius:12px;padding:24px;text-align:center;box-shadow:var(--shadow)}
+.cert b{display:block;color:var(--navy);font-size:16px;margin-bottom:6px}
+.cert span{color:var(--muted);font-size:13px}
+
+/* contact CTA */
+.cta{background:linear-gradient(135deg,var(--accent),#f0541e);color:#fff;text-align:center;padding:64px 0}
+.cta h2{font-size:30px;margin-bottom:12px}
+.cta p{margin-bottom:26px;opacity:.95}
+.cta .btn-primary{background:#fff;color:var(--accent)}
+.cta .btn-ghost{border-color:#fff}
+
+/* footer */
+.footer{background:var(--navy);color:#9fb6d0;padding:48px 0 28px}
+.footer .container{display:grid;grid-template-columns:2fr 1fr 1fr;gap:32px}
+.footer h5{color:#fff;font-size:15px;margin-bottom:12px}
+.footer a{color:#9fb6d0;display:block;margin-bottom:6px}
+.footer a:hover{color:#fff}
+.footer .bot{border-top:1px solid rgba(255,255,255,.1);margin-top:32px;padding-top:18px;font-size:13px;text-align:center}
+
+/* filter buttons */
+.filters{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-bottom:32px}
+.filter-btn{padding:9px 20px;border-radius:20px;border:1px solid var(--line);background:#fff;cursor:pointer;font-size:14px;font-weight:600;color:var(--muted);transition:.2s}
+.filter-btn.active,.filter-btn:hover{background:var(--navy);color:#fff;border-color:var(--navy)}
+
+/* forms */
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+.field{margin-bottom:16px}
+.field label{display:block;font-size:13px;font-weight:600;margin-bottom:6px;color:var(--navy)}
+.field input,.field textarea,.field select{width:100%;padding:11px 14px;border:1px solid var(--line);border-radius:8px;font-size:14px;font-family:inherit}
+.field textarea{min-height:120px;resize:vertical}
+.contact-info .ci{display:flex;gap:12px;margin-bottom:18px;align-items:flex-start}
+.contact-info .ci b{display:block;color:var(--navy)}
+.contact-info .ci span{color:var(--muted);font-size:14px}
+
+/* admin link */
+.admin-link{position:fixed;right:14px;bottom:14px;background:rgba(10,37,64,.75);color:#fff;padding:8px 14px;border-radius:8px;font-size:12px;z-index:99}
+
+@media(max-width:900px){
+  .cards-4,.cards-3,.process-steps,.apps,.fact-grid,.cert-grid{grid-template-columns:repeat(2,1fr)}
+  .prod-grid{grid-template-columns:repeat(2,1fr)}
+  .two-col,.contact-grid,.footer .container{grid-template-columns:1fr}
+  .hero h1{font-size:34px}
+  .nav{display:none;position:absolute;top:64px;left:0;right:0;background:var(--navy);flex-direction:column;padding:16px 20px;gap:14px}
+  .nav.open{display:flex}
+  .nav-toggle{display:block}
+}
+@media(max-width:560px){
+  .cards-4,.cards-3,.cards-2,.process-steps,.apps,.fact-grid,.cert-grid,.prod-grid{grid-template-columns:1fr}
+}

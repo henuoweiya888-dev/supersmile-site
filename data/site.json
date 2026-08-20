@@ -1,0 +1,241 @@
+{
+ "company": {
+  "name_zh": "深圳市超斯迈尔科技有限公司",
+  "name_en": "Shenzhen Super Smile Electronic Technology Co., Ltd.",
+  "brand": "Super Smile",
+  "slogan_zh": "驱动世界 连接未来",
+  "slogan_en": "Driving the World, Connecting the Future",
+  "founded": 2019,
+  "employees": "100+",
+  "area_sqm": "3,000",
+  "address_zh": "深圳市龙华区观澜街道桂香社区观澜桂花路366号A栋402",
+  "address_en": "Room 402, Building A, No. 366 Guanlan Guihua Road, Guixiang Community, Guanlan Subdistrict, Longhua District, Shenzhen, China",
+  "cert_notes_zh": "UL / RoHS / SVHC(242项) 认证",
+  "cert_notes_en": "UL / RoHS / SVHC (242 items) Certified"
+ },
+ "contact": {
+  "email": "henuoweiya888@gmail.com",
+  "whatsapp": "+44 7516 289817",
+  "whatsapp_link": "https://wa.me/message/MPSCOMW4WCTJO1",
+  "facebook": "https://www.facebook.com/share/1Cm3DUH6Bz/?mibextid=wwXIfr",
+  "alibaba": "https://hnwydz.en.alibaba.com",
+  "sales_zh": "外贸部：曹诗源",
+  "sales_en": "Foreign Trade Dept.: Shiyuan Cao"
+ },
+ "hero": {
+  "badge_zh": "线束定制工厂 · 2019年成立 · 深圳",
+  "badge_en": "Custom Wiring Harness Factory · Shenzhen · Est. 2019",
+  "title_zh": "从图纸或样品到量产，<em>99% 的线束我们都能做</em>",
+  "title_en": "From drawing or sample to mass production — <em>we can build 99% of wiring harnesses</em>",
+  "subtitle_zh": "汽车诊断线 · 重卡J1939 · 特斯拉/新能源 · 定制线束。OEM/ODM 工厂直供，支持按图纸、样品或针脚定义开模定制。",
+  "subtitle_en": "Automotive diagnostic cables, heavy-duty J1939, Tesla/EV and custom harnesses. OEM/ODM factory-direct, tooled from drawings, samples or pinouts.",
+  "image": "/assets/images/factory/_MG_5473.jpg",
+  "btn1_zh": "获取报价",
+  "btn1_en": "Get a Quote",
+  "btn2_zh": "查看定制能力",
+  "btn2_en": "Our Custom Capability"
+ },
+ "stats": [
+  {
+   "num": "3,000",
+   "unit": "sqm",
+   "label_zh": "厂房面积",
+   "label_en": "Factory Area"
+  },
+  {
+   "num": "100+",
+   "unit": "",
+   "label_zh": "在职员工",
+   "label_en": "Employees"
+  },
+  {
+   "num": "100+",
+   "unit": "",
+   "label_zh": "现货诊断线款式",
+   "label_en": "Stock Cable Models"
+  },
+  {
+   "num": "IP68",
+   "unit": "",
+   "label_zh": "防水等级(超行业标准)",
+   "label_en": "Waterproof Rating"
+  },
+  {
+   "num": "100%",
+   "unit": "",
+   "label_zh": "出货前全检",
+   "label_en": "Pre-shipment Inspection"
+  }
+ ],
+ "custom_intro": {
+  "tag_zh": "定制能力",
+  "tag_en": "CUSTOM CAPABILITY",
+  "title_zh": "OEM/ODM 定制线束，我们按你的需求造",
+  "title_en": "OEM/ODM Custom Harnesses — Built to Your Specification",
+  "desc_zh": "不管你是要一根还是十万根，只要有图纸、样品、接口图或针脚定义，我们就能匹配接口、设计工艺并量产。汽车、重卡、新能源、医疗、机器人、家电、办公设备、高铁动车…我们都能做。",
+  "desc_en": "One piece or a hundred thousand — send us a drawing, sample, connector photo or pinout, and we'll match connectors, define the process and produce in volume. Automotive, heavy-duty trucks, EV, medical, robotics, appliances, office equipment, rail… we build them all."
+ },
+ "features": [
+  {
+   "ico": "🔌",
+   "title_zh": "接口与端子定制",
+   "title_en": "Connector & Terminal",
+   "desc_zh": "OBD2、Deutsch、DB15、RJ45、Type-C、XT系列、安德森及客户指定接口。",
+   "desc_en": "OBD2, Deutsch, DB15, RJ45, Type-C, XT series, Anderson and customer-specified connectors."
+  },
+  {
+   "ico": "🧠",
+   "title_zh": "针脚与信号定制",
+   "title_en": "Pinout & Signal Route",
+   "desc_zh": "按针脚定义、诊断协议和设备接口要求制作。",
+   "desc_en": "Built according to pin definition, diagnostic protocol and equipment interface requirements."
+  },
+  {
+   "ico": "📏",
+   "title_zh": "线材结构定制",
+   "title_en": "Cable Structure",
+   "desc_zh": "线长、线规、芯数、屏蔽、外被材料和分支结构均可调整。",
+   "desc_en": "Length, wire gauge, core count, shielding, jacket material and branching can all be adjusted."
+  },
+  {
+   "ico": "📦",
+   "title_zh": "品牌与包装定制",
+   "title_en": "Branding & Packaging",
+   "desc_zh": "中性包装、客户标签、型号贴纸、条码和说明书。",
+   "desc_en": "Neutral packaging, buyer labels, model stickers, barcodes and instruction sheets."
+  }
+ ],
+ "process": {
+  "tag_zh": "定制流程",
+  "tag_en": "HOW IT WORKS",
+  "title_zh": "4步，从想法到交付",
+  "title_en": "4 Steps, From Idea to Delivery",
+  "steps": [
+   {
+    "num": "01",
+    "title_zh": "提供资料",
+    "title_en": "Send Your Info",
+    "desc_zh": "图纸、样品、接口图、针脚定义或目标设备型号。",
+    "desc_en": "Drawing, sample, connector photos, pinout or target device model."
+   },
+   {
+    "num": "02",
+    "title_zh": "工程确认",
+    "title_en": "Engineering Review",
+    "desc_zh": "确认接口型号、接线方式、材料规格与可行性。",
+    "desc_en": "Confirm connector type, wiring route, material spec and feasibility."
+   },
+   {
+    "num": "03",
+    "title_zh": "打样验证",
+    "title_en": "Sampling",
+    "desc_zh": "制作样品，用于匹配、导通和功能验证。",
+    "desc_en": "Sample made for fit, continuity and function testing."
+   },
+   {
+    "num": "04",
+    "title_zh": "批量生产",
+    "title_en": "Mass Production",
+    "desc_zh": "样品确认后量产，出货前可按批次全检。",
+    "desc_en": "Mass production after approval, batch inspection before shipment."
+   }
+  ]
+ },
+ "apps": {
+  "tag_zh": "应用领域",
+  "tag_en": "APPLICATIONS",
+  "title_zh": "覆盖各行各业的线束需求",
+  "title_en": "Harness Solutions Across Industries",
+  "items_zh": [
+   "汽车诊断与ECU编程",
+   "重型柴油车与J1939",
+   "新能源车与电池测试",
+   "工业设备/打印机/空调",
+   "医疗设备",
+   "智能机器人",
+   "船舶/高铁/航空航天",
+   "OEM替换与后市场维修"
+  ],
+  "items_en": [
+   "Automotive Diagnostic & ECU",
+   "Heavy-Duty Diesel & J1939",
+   "EV & Battery Test",
+   "Industrial / Printer / AC",
+   "Medical Equipment",
+   "Robotics",
+   "Marine / Rail / Aerospace",
+   "OEM Replacement & Aftermarket"
+  ]
+ },
+ "factory": {
+  "tag_zh": "工厂实力",
+  "tag_en": "OUR FACTORY",
+  "title_zh": "直供工厂，品质可控",
+  "title_en": "Factory-Direct, Quality Controlled",
+  "desc_zh": "超斯迈尔科技成立于2019年，位于深圳观澜，是一家专业生产汽车连接线、新能源储能线束、防水连接线及汽车诊断线的高新技术企业。拥有线束加工与电子开发中心，采用AMP、Molex、JST、KET、TE等品牌连接器，先后为道通科技、朗仁科技等知名企业配套服务。",
+  "desc_en": "Founded in 2019 in Shenzhen Guanlan, Super Smile is a high-tech manufacturer of automotive wiring, new-energy/storage harnesses, waterproof connectors and diagnostic cables. With our own harness processing and electronics development center, we use AMP, Molex, JST, KET, TE connectors and have supplied Autel, Launch and other well-known brands.",
+  "images": [
+   "/assets/images/factory/_MG_5474.jpg",
+   "/assets/images/factory/_MG_5478.jpg",
+   "/assets/images/factory/_MG_5480.jpg"
+  ],
+  "clients_zh": "合作客户：道通科技、朗仁科技、TTI、深圳科列、贝斯新能源等",
+  "clients_en": "Clients include: Autel, Launch, TTI, Kelie, BESS New Energy and more"
+ },
+ "certs": {
+  "tag_zh": "认证资质",
+  "tag_en": "CERTIFICATIONS",
+  "title_zh": "合规认证，放心采购",
+  "title_en": "Compliant & Certified",
+  "items": [
+   {
+    "name": "UL",
+    "img": "/assets/images/certs/UL-1.jpg",
+    "desc_zh": "产品安全认证",
+    "desc_en": "Product safety certification"
+   },
+   {
+    "name": "RoHS",
+    "img": "/assets/images/certs/ROHS-1.jpg",
+    "desc_zh": "有害物质限制",
+    "desc_en": "Restriction of hazardous substances"
+   },
+   {
+    "name": "SVHC (242项)",
+    "img": "/assets/images/certs/SVHC-1.jpg",
+    "desc_zh": "高关注物质检测",
+    "desc_en": "Substances of very high concern (242 items)"
+   }
+  ]
+ },
+ "products_teaser": {
+  "tag_zh": "产品中心",
+  "tag_en": "PRODUCTS",
+  "title_zh": "现货诊断线 · 六大系列",
+  "title_en": "In-Stock Diagnostic Cables · 6 Series",
+  "desc_zh": "以下是我们现货的六大系列诊断线——同时也是我们定制能力的实力证明。点击分类查看代表产品。",
+  "desc_en": "Six in-stock diagnostic cable series below — proof of our capability. Click a category to see representative products."
+ },
+ "cta": {
+  "title_zh": "有图纸、样品或需求？马上联系我们",
+  "title_en": "Have a drawing, sample or requirement? Contact us now",
+  "desc_zh": "发送图纸、样品、接口图或目标设备型号，我们协助确认线束方案与报价，7个工作日可打样。",
+  "desc_en": "Send your drawing, sample, connector photos or target device model — we'll confirm the solution and quote, with samples in as little as 7 working days."
+ },
+ "footer_about_zh": "深圳市超斯迈尔科技有限公司——专业线束与汽车诊断线制造商，支持OEM/ODM定制。",
+ "footer_about_en": "Shenzhen Super Smile Electronic Technology Co., Ltd. — professional wiring harness and automotive diagnostic cable manufacturer, OEM/ODM custom supported.",
+ "nav": {
+  "home_zh": "首页",
+  "home_en": "Home",
+  "custom_zh": "定制服务",
+  "custom_en": "Custom",
+  "products_zh": "产品中心",
+  "products_en": "Products",
+  "about_zh": "关于我们",
+  "about_en": "About",
+  "contact_zh": "联系我们",
+  "contact_en": "Contact",
+  "quote_zh": "获取报价",
+  "quote_en": "Get Quote"
+ }
+}
