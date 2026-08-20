@@ -129,6 +129,24 @@ function renderCerts(){
   }
 }
 
+function renderBlocks(){
+  const c = $('#blocks');
+  if(!c || !SITE.blocks) return;
+  c.innerHTML = SITE.blocks.map((b, i)=>{
+    const hasImg = b.image ? true : false;
+    const hasLink = b.link ? true : false;
+    const rev = i % 2 === 1 ? 'block-rev' : '';
+    return `<div class="block ${rev}">
+      ${hasImg ? `<div class="block-img"><img src="${b.image}" alt="${tf(b,'title_zh','title_en')}" loading="lazy"></div>` : ''}
+      <div class="block-txt">
+        <h3>${tf(b,'title_zh','title_en')}</h3>
+        <p>${tf(b,'text_zh','text_en')}</p>
+        ${hasLink ? `<a class="btn btn-primary" href="${b.link}" target="_blank">${tf(b,'link_text_zh','link_text_en') || 'Learn More'}</a>` : ''}
+      </div>
+    </div>`;
+  }).join('');
+}
+
 function renderProductsTeaser(){
   if(!PRODS) return;
   setText('#pt-tag', tf(SITE.products_teaser,'tag_zh','tag_en'));
@@ -158,6 +176,9 @@ function renderFooter(){
   const fe = $('#f-email'); if(fe){ fe.textContent = c.email; fe.href = 'mailto:'+c.email; }
   const fw = $('#f-whatsapp'); if(fw){ fw.textContent = c.whatsapp; fw.href = c.whatsapp_link; }
   const fa = $('#f-alibaba'); if(fa) fa.href = c.alibaba;
+  const fl = $('#f-links'); if(fl && c.links){
+    fl.innerHTML = c.links.map(l=>`<a href="${l.url}" target="_blank">${tf(l,'label_zh','label_en')}</a>`).join('');
+  }
   const year = $('#f-year'); if(year) year.textContent = new Date().getFullYear();
   const co = $('#f-company'); if(co) co.textContent = SITE.company.name_en;
 }
@@ -185,10 +206,12 @@ function renderProductsPage(){
 function renderContact(){
   const c = $('#contact-info'); if(!c || !SITE) return;
   const ct = SITE.contact, co = SITE.company;
+  const links = (ct.links && ct.links.length) ? ct.links.map(l=>
+    `<div class="ci">🔗<div><b>${tf(l,'label_zh','label_en')}</b><span><a href="${l.url}" target="_blank">${l.url}</a></span></div></div>`).join('') : '';
   c.innerHTML = `
     <div class="ci">📧<div><b>Email</b><span>${ct.email}</span></div></div>
     <div class="ci">💬<div><b>WhatsApp</b><span>${ct.whatsapp} (${tf(ct,'sales_zh','sales_en')})</span></div></div>
-    <div class="ci">🌐<div><b>Alibaba Store</b><span><a href="${ct.alibaba}" target="_blank">${ct.alibaba}</a></span></div></div>
+    ${links}
     <div class="ci">📍<div><b>${t({en:'Address',zh:'地址'})}</b><span>${tf(co,'address_zh','address_en')}</span></div></div>
     <div class="ci">🏭<div><b>${t({en:'Company',zh:'公司'})}</b><span>${co.name_en}</span></div></div>`;
   const wa = $('#contact-wa'); if(wa){ wa.textContent = ct.whatsapp; wa.href = ct.whatsapp_link; }
@@ -210,7 +233,7 @@ function renderAll(){
   renderNav(); renderLangToggle();
   renderHero(); renderCustom(); renderProcess(); renderApps();
   renderFactory(); renderCerts(); renderProductsTeaser(); renderCTA();
-  renderFooter(); renderProductsPage(); renderContact(); renderAbout(); renderTitle();
+  renderFooter(); renderBlocks(); renderProductsPage(); renderContact(); renderAbout(); renderTitle();
 }
 
 document.addEventListener('DOMContentLoaded', async ()=>{

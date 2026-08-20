@@ -20,7 +20,24 @@
   "facebook": "https://www.facebook.com/share/1Cm3DUH6Bz/?mibextid=wwXIfr",
   "alibaba": "https://hnwydz.en.alibaba.com",
   "sales_zh": "外贸部：曹诗源",
-  "sales_en": "Foreign Trade Dept.: Shiyuan Cao"
+  "sales_en": "Foreign Trade Dept.: Shiyuan Cao",
+  "links": [
+   {
+    "label_zh": "WhatsApp",
+    "label_en": "WhatsApp",
+    "url": "https://wa.me/message/MPSCOMW4WCTJO1"
+   },
+   {
+    "label_zh": "Facebook",
+    "label_en": "Facebook",
+    "url": "https://www.facebook.com/share/1Cm3DUH6Bz/?mibextid=wwXIfr"
+   },
+   {
+    "label_zh": "阿里国际站",
+    "label_en": "Alibaba Store",
+    "url": "https://hnwydz.en.alibaba.com"
+   }
+  ]
  },
  "hero": {
   "badge_zh": "线束定制工厂 · 2019年成立 · 深圳",
@@ -237,5 +254,27 @@
   "contact_en": "Contact",
   "quote_zh": "获取报价",
   "quote_en": "Get Quote"
- }
+ },
+ "blocks": [
+  {
+   "title_zh": "为什么选择我们",
+   "title_en": "Why Choose Us",
+   "text_zh": "工厂直供、接口匹配精准、支持小批量打样与OEM/自有品牌包装。出货前100%导通与外观检验，UL/RoHS/SVHC合规认证，长期稳定供货。",
+   "text_en": "Factory-direct supply, precise connector matching, low-MOQ samples and OEM/private-label packaging. 100% continuity & appearance inspection before shipment, UL/RoHS/SVHC compliant, stable long-term supply.",
+   "image": "/assets/images/factory/_MG_5482.jpg",
+   "link": "",
+   "link_text_zh": "",
+   "link_text_en": ""
+  },
+  {
+   "title_zh": "定制开发流程",
+   "title_en": "Custom Development Workflow",
+   "text_zh": "提供图纸/样品/接口图 → 工程确认 → 7个工作日打样 → 批量生产。清晰接口图和针脚信息可大幅减少样品修改时间。",
+   "text_en": "Send drawing/sample/connector photos → engineering review → samples in 7 working days → mass production. Clear connector photos and pinouts greatly reduce sample revision time.",
+   "image": "/assets/images/factory/_MG_5484.jpg",
+   "link": "",
+   "link_text_zh": "",
+   "link_text_en": ""
+  }
+ ]
 }
