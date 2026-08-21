@@ -45,7 +45,7 @@ function setHTML(sel, val){ const el=$(sel); if(el) el.innerHTML = val ?? ''; }
 function t(o){
   if(!o) return '';
   if(typeof o === 'string') return o;
-  return o[LANG] ?? o.en ?? o.zh ?? Object.values(o)[0] ?? '';
+  return o[LANG] || o.en || o.zh || Object.values(o).find(v=>v) || '';
 }
 
 async function loadData(){
