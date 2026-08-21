@@ -14,14 +14,14 @@ section{padding:72px 0}
 
 /* header */
 .header{position:sticky;top:0;z-index:100;background:var(--navy);color:#fff}
-.header .container{display:flex;align-items:center;justify-content:space-between;height:64px}
-.logo{display:flex;align-items:center;gap:10px;height:48px}
-.logo-img{height:42px;width:auto;display:block;object-fit:contain}
+.header .container{display:flex;align-items:center;justify-content:space-between;height:78px}
+.logo{display:flex;align-items:center;gap:10px;height:63px}
+.logo-img{height:63px;width:auto;display:block;object-fit:contain}
 .logo-text{display:flex;flex-direction:column;line-height:1.15}
 .logo-name{font-size:20px;font-weight:800;color:#fff;letter-spacing:.5px}
 .logo-name span{color:var(--accent)}
 .logo-sub{font-size:11px;color:#9fb6d0;font-weight:400;letter-spacing:.2px}
-@media(max-width:560px){.logo-img{height:34px}.logo-name{font-size:17px}.logo-sub{font-size:10px}}
+@media(max-width:560px){.logo-img{height:51px}.logo-name{font-size:17px}.logo-sub{font-size:10px}}
 .nav{display:flex;gap:26px}
 .nav a{color:#cbd8e8;font-size:15px;font-weight:600;transition:.2s}
 .nav a:hover,.nav a.active{color:#fff}
