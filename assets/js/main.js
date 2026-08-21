@@ -219,8 +219,15 @@ function renderAbout(){
   setText('#about-intl-name', t(co.international_name));
 }
 
+const TITLES = {
+  en:{index:'Wire Harness Factory | Custom Wiring Harness | China Harness Factory | Super Smile',products:'Harness Products | Custom Wiring Harness | Automotive Diagnostic Cables',custom:'Custom Wire Harness | OEM/ODM Harness Factory',about:'About Us | Wire Harness Factory | Shenzhen Super Smile',contact:'Contact Harness Factory | Custom Harness Quote'},
+  zh:{index:'线束工厂 | 定制线束 | 中国线束工厂 | 深圳市超斯迈尔科技有限公司',products:'线束产品中心 | 定制线束 | 汽车诊断线束 | 中国线束工厂',custom:'线束定制 | OEM/ODM线束工厂 | 中国线束定制厂家',about:'关于我们 | 线束工厂 | 深圳市超斯迈尔科技有限公司',contact:'联系线束工厂 | 定制线束询价 | 深圳市超斯迈尔科技有限公司'}
+};
 function renderTitle(){
-  document.title=`Super Smile | ${t({en:'Custom Wiring Harness & Diagnostic Cable Manufacturer',zh:'定制线束与诊断线制造商'})}`;
+  const page=location.pathname.split('/').pop()||'index.html';
+  const key=page.replace('.html','')||'index';
+  const map=TITLES[LANG]||TITLES.en;
+  document.title=map[key]||map.index||document.title;
 }
 
 function renderFab(){
