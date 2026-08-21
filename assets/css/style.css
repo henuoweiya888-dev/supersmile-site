@@ -188,3 +188,28 @@ section{padding:72px 0}
 .lang-opt{display:block;width:100%;text-align:left;padding:7px 10px;border:none;background:none;font-size:13px;cursor:pointer;border-radius:5px;color:#2a3342}
 .lang-opt:hover,.lang-opt.active{background:#eef3fb;font-weight:700}
 @media(max-width:560px){.lang-btn{padding:5px 8px;font-size:12px}}
+
+/* ===== mobile compact layout ===== */
+@media(max-width:900px){
+  section{padding:44px 0}
+  .hero{padding:56px 0 44px}
+  .sec-head{margin:0 auto 32px}
+}
+@media(max-width:560px){
+  section{padding:30px 0}
+  .hero{padding:44px 0 36px}
+  .hero h1{font-size:28px;margin-bottom:14px}
+  .hero p{font-size:15px;margin-bottom:20px}
+  .hero-stats{margin-top:22px;gap:16px}
+  .stat b{font-size:26px}
+  .sec-head{margin:0 auto 24px}
+  .sec-head h2{font-size:26px}
+  .card{padding:20px}
+  .card .ico{font-size:26px;margin-bottom:10px}
+  .step{padding:20px}
+  .step .num{font-size:30px;margin-bottom:6px}
+  .cat-card img{height:150px}
+  .prod img{height:150px}
+  .cta{padding:40px 0}
+  .footer{padding:32px 0 20px}
+}
