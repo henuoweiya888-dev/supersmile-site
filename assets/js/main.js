@@ -102,7 +102,7 @@ function renderCustom(){
   setText('#ci-title', t(SITE.custom_intro.title));
   setText('#ci-desc', t(SITE.custom_intro.desc));
   const f=$('#features');
-  if(f && SITE.features) f.innerHTML=SITE.features.map(x=>`<div class="card"><div class="ico">${x.ico}</div><h3>${t(x.title)}</h3><p>${t(x.desc)}</p></div>`).join('');
+  if(f && SITE.features) f.innerHTML=SITE.features.map(x=>`<div class="card"><div class="card-head"><span class="ico">${x.ico}</span><h3>${t(x.title)}</h3></div><p>${t(x.desc)}</p></div>`).join('');
 }
 
 function renderProcess(){
@@ -110,7 +110,7 @@ function renderProcess(){
   setText('#pr-tag', t(SITE.process.tag));
   setText('#pr-title', t(SITE.process.title));
   const ps=$('#process-steps');
-  if(ps && SITE.process.steps) ps.innerHTML=SITE.process.steps.map(s=>`<div class="step"><span class="num">${s.num}</span><h4>${t(s.title)}</h4><p>${t(s.desc)}</p></div>`).join('');
+  if(ps && SITE.process.steps) ps.innerHTML=SITE.process.steps.map(s=>`<div class="step"><div class="step-head"><span class="num">${s.num}</span><h4>${t(s.title)}</h4></div><p>${t(s.desc)}</p></div>`).join('');
 }
 
 function renderApps(){
