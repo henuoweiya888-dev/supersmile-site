@@ -80,6 +80,10 @@ function renderLangSelector(){
   });
 }
 
+function renderLogoCompany(){
+  if(SITE && SITE.company) setText('#logo-company', t(SITE.company.name));
+}
+
 function renderNav(){
   const nav=$('#nav-links'); if(!nav) return;
   const n=SITE.nav;
@@ -180,7 +184,7 @@ function renderFooter(){
   const fa=$('#f-alibaba'); if(fa) fa.href=c.alibaba;
   const fl=$('#f-links'); if(fl && c.links) fl.innerHTML=c.links.map(l=>`<a href="${l.url}" target="_blank">${t(l.label)}</a>`).join('');
   const year=$('#f-year'); if(year) year.textContent=new Date().getFullYear();
-  const co=$('#f-company'); if(co) co.textContent=SITE.company.name_en;
+  const co=$('#f-company'); if(co) co.textContent=t(SITE.company.name);
 }
 
 function renderProductsPage(){
@@ -198,15 +202,19 @@ function renderContact(){
   const c=$('#contact-info'); if(!c || !SITE) return;
   const ct=SITE.contact, co=SITE.company;
   const links=(ct.links&&ct.links.length)?ct.links.map(l=>`<div class="ci">🔗<div><b>${t(l.label)}</b><span><a href="${l.url}" target="_blank">${l.url}</a></span></div></div>`).join(''):'';
-  c.innerHTML=`<div class="ci">📧<div><b>Email</b><span>${ct.email}</span></div></div><div class="ci">💬<div><b>WhatsApp</b><span>${ct.whatsapp} (${t(ct.sales)})</span></div></div>${links}<div class="ci">📍<div><b>${t({en:'Address',zh:'地址'})}</b><span>${t(co.address)}</span></div></div><div class="ci">🏭<div><b>${t({en:'Company',zh:'公司'})}</b><span>${co.name_en}</span></div></div>`;
+  c.innerHTML=`<div class="ci">📧<div><b>Email</b><span>${ct.email}</span></div></div><div class="ci">💬<div><b>WhatsApp</b><span>${ct.whatsapp} (${t(ct.sales)})</span></div></div>${links}<div class="ci">📍<div><b>${t({en:'Address',zh:'地址'})}</b><span>${t(co.address)}</span></div></div><div class="ci">🏭<div><b>${t({en:'Company',zh:'公司'})}</b><span>${t(co.name)}</span></div></div>`;
   const wa=$('#contact-wa'); if(wa){ wa.textContent=ct.whatsapp; wa.href=ct.whatsapp_link; }
 }
 
 function renderAbout(){
   const co=SITE&&SITE.company; if(!co) return;
-  const el=$('#about-company'); if(el) el.textContent=co.name_en;
+  const el=$('#about-company'); if(el) el.textContent=t(co.name);
   setText('#about-addr', t(co.address));
   setText('#about-certs', t(co.cert_notes));
+  setText('#about-credit-label', (t(co.credit_label)||'Unified Social Credit Code')+': ');
+  setText('#about-credit-code', co.credit_code || '');
+  setText('#about-intl-label', (t(co.international_label)||'International Sales Dept.')+': ');
+  setText('#about-intl-name', t(co.international_name));
 }
 
 function renderTitle(){
@@ -254,7 +262,7 @@ function renderHotProduct(){
 }
 
 function renderAll(){
-  renderNav(); renderLangSelector();
+  renderNav(); renderLogoCompany(); renderLangSelector();
   renderHero(); renderHotProduct(); renderCustom(); renderProcess(); renderApps();
   renderFactory(); renderCerts(); renderProductsTeaser(); renderBlocks(); renderCTA();
   renderFooter(); renderProductsPage(); renderContact(); renderAbout(); renderTitle(); renderFab();
