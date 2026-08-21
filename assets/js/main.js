@@ -16,8 +16,8 @@ const LANGS = [
 
 
 const HOT = {
-  en:{title:'Hot Products', desc:'Turbo actuator connecting harness — heat-resistant fiberglass tube, custom OEM/ODM for turbo actuator wiring. Samples available.'},
-  zh:{title:'热卖产品', desc:'涡轮增压执行器连接线，耐高温玻纤管，适配涡轮执行器线束定制，OEM/ODM可打样。'}
+  en:{title:'Hot Products · Turbo Actuator Connecting Harness', desc:'Heat-resistant fiberglass tube, custom OEM/ODM for turbo actuator wiring. Samples available.'},
+  zh:{title:'热卖产品·涡轮增压执行器连接线', desc:'耐高温玻纤管，适配涡轮执行器线束定制，OEM/ODM可打样。'}
 };
 
 const UI = {
