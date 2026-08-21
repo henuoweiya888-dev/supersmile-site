@@ -61,9 +61,11 @@ async function loadData(){
     fetch('/data/products.json').then(r=>r.json())
   ]);
   SITE=s; PRODS=p;
-  LANG = localStorage.getItem('lang') || 'en';
+  const q=new URLSearchParams(location.search);
+  LANG = q.get('lang') || localStorage.getItem('lang') || 'en';
   // 若存储的语言不在列表，回退en
   if(!LANGS.some(l=>l.code===LANG)) LANG='en';
+  localStorage.setItem('lang', LANG);
 }
 
 function renderLangSelector(){
