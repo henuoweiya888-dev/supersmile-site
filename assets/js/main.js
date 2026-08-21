@@ -14,6 +14,12 @@ const LANGS = [
 ];
 
 
+
+const HOT = {
+  en:{title:'Hot Products', desc:'Turbo actuator connecting harness — heat-resistant fiberglass tube, custom OEM/ODM for turbo actuator wiring. Samples available.'},
+  zh:{title:'热卖产品', desc:'涡轮增压执行器连接线，耐高温玻纤管，适配涡轮执行器线束定制，OEM/ODM可打样。'}
+};
+
 const UI = {
   en:{title:'Send Us a Message',name:'Name',email:'Email',message:'Message',send:'Send Message',wa:'Chat on WhatsApp'},
   zh:{title:'给我们留言',name:'姓名',email:'邮箱',message:'留言内容',send:'发送消息',wa:'在 WhatsApp 上聊'},
@@ -241,9 +247,15 @@ function renderModal(){
   const wa=$('#modal-wa'); if(wa && SITE.contact) wa.href = SITE.contact.whatsapp_link || 'https://wa.me/447516289817';
 }
 
+function renderHotProduct(){
+  const h=HOT[LANG]||HOT.en;
+  setText('#hot-title', h.title);
+  setText('#hot-desc', h.desc);
+}
+
 function renderAll(){
   renderNav(); renderLangSelector();
-  renderHero(); renderCustom(); renderProcess(); renderApps();
+  renderHero(); renderHotProduct(); renderCustom(); renderProcess(); renderApps();
   renderFactory(); renderCerts(); renderProductsTeaser(); renderBlocks(); renderCTA();
   renderFooter(); renderProductsPage(); renderContact(); renderAbout(); renderTitle(); renderFab();
 }
