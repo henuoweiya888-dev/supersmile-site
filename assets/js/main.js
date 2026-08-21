@@ -110,7 +110,7 @@ function renderProcess(){
   setText('#pr-tag', t(SITE.process.tag));
   setText('#pr-title', t(SITE.process.title));
   const ps=$('#process-steps');
-  if(ps && SITE.process.steps) ps.innerHTML=SITE.process.steps.map(s=>`<div class="step"><div class="step-head"><span class="num">${s.num}</span><h4>${t(s.title)}</h4></div><p>${t(s.desc)}</p></div>`).join('');
+  if(ps && SITE.process.steps) ps.innerHTML=SITE.process.steps.map((s,i)=>`${i>0?'<div class="step-arrow">→</div>':''}<div class="step"><div class="step-head"><span class="num">${s.num}</span><h4>${t(s.title)}</h4></div></div>`).join('');
 }
 
 function renderApps(){
@@ -118,7 +118,8 @@ function renderApps(){
   setText('#ap-tag', t(SITE.apps.tag));
   setText('#ap-title', t(SITE.apps.title));
   const a=$('#apps');
-  if(a && SITE.apps.items){ const items=SITE.apps.items[LANG]||SITE.apps.items.en||[]; a.innerHTML=items.map(x=>`<div class="app">${x}</div>`).join(''); }
+  const icons=['🔌','🚛','🔋','🏭','🏥','🤖','🚢','🔧'];
+  if(a && SITE.apps.items){ let items=SITE.apps.items[LANG]||SITE.apps.items.en||[]; if(typeof items==='string') items=items.split('|').map(x=>x.trim()).filter(Boolean); a.innerHTML=`<div class="apps-box">${items.map((x,i)=>`<div class="app"><span class="app-ico">${icons[i]||'🔌'}</span><span>${x}</span></div>`).join('')}</div>`; }
 }
 
 function renderFactory(){
