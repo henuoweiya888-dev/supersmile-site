@@ -159,14 +159,14 @@ section{padding:72px 0}
 }
 
 
-.about-hero-info{display:flex;align-items:center;gap:14px;margin-top:14px;max-width:820px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.2);border-radius:14px;padding:12px 16px;color:#fff}
+.about-hero-info{display:flex;align-items:center;gap:10px;margin-top:6px;max-width:820px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.2);border-radius:14px;padding:8px 12px;color:#fff}
 .about-hero-info img{width:88px;height:auto;flex:none;object-fit:contain}
 .about-hero-info p{font-size:14px;margin:2px 0;color:#e7eef7}
 .about-hero-info strong{color:#fff}
 @media(max-width:560px){.about-hero-info{flex-direction:column;align-items:flex-start;gap:10px}.about-hero-info img{width:64px}}
 
 
-.about-credit{font-size:15px;color:#fff;margin-top:12px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.2);border-radius:10px;padding:8px 14px;max-width:560px;display:inline-block}
+.about-credit{font-size:15px;color:#fff;margin-top:6px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.2);border-radius:10px;padding:4px 10px;max-width:560px;display:inline-block}
 .about-credit strong{color:#fff}
 
 /* floating contact FAB */
