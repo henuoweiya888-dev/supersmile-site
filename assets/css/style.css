@@ -169,6 +169,10 @@ section{padding:72px 0}
 .about-credit{font-size:15px;color:#fff;margin-top:6px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.2);border-radius:10px;padding:4px 10px;max-width:560px;display:inline-block}
 .about-credit strong{color:#fff}
 
+
+.about-stats .stat b{color:#000}
+.about-stats .stat span{color:#000}
+
 /* floating contact FAB */
 .fab{position:fixed;right:18px;bottom:80px;z-index:250;display:flex;flex-direction:column;align-items:flex-end;gap:12px}
 .fab-main{width:68px;height:68px;border-radius:50%;border:none;background:#25D366;color:#fff;font-size:32px;cursor:pointer;box-shadow:0 12px 28px rgba(0,0,0,.30);transition:.2s;line-height:1;display:flex;align-items:center;justify-content:center}
