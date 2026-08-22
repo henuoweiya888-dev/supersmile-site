@@ -405,7 +405,8 @@ function renderTitle(){
 function renderFab(){
   if(!SITE) return;
   const wa=$('#fab-wa'); if(wa && SITE.contact) wa.href = SITE.contact.whatsapp_link || 'https://wa.me/447516289817';
-  const online=$('#fab-online'); if(online && SITE.nav) online.textContent = t(SITE.nav.contact);
+  const em=$('#fab-email'); if(em && SITE.contact){ em.href = 'mailto:' + SITE.contact.email; em.textContent = LANG==='zh' ? '邮箱' : 'Email'; }
+  const online=$('#fab-online'); if(online) online.textContent = LANG==='zh' ? '在线联系' : 'Online Message';
   const main=$('#fab-main'), menu=$('#fab-menu');
   if(main && menu){
     main.onclick=(e)=>{ e.stopPropagation(); menu.classList.toggle('open'); };
