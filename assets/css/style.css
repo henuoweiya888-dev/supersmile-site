@@ -141,7 +141,10 @@ section{padding:72px 0}
 .field textarea{min-height:120px;resize:vertical}
 .contact-info .ci{display:flex;gap:12px;margin-bottom:18px;align-items:flex-start}
 .contact-info .ci b{display:block;color:var(--navy)}
-.contact-info .ci span{color:var(--muted);font-size:14px}
+ .contact-info .ci span{color:var(--muted);font-size:14px}
+.contact-info .ci .ci-ic{width:22px;height:22px;flex:0 0 auto}
+.contact-info .ci a{color:inherit;text-decoration:none}
+.contact-info .ci a:hover{color:var(--navy);text-decoration:underline}
 
 
 
