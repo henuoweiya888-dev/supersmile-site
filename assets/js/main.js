@@ -87,6 +87,53 @@ function positionPop(m, prodEl){
   m.style.left=left+'px';
   m.style.top=top+'px';
 }
+function copyText(text){
+  try{
+    if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(text); return true; }
+  }catch(e){}
+  try{
+    const ta=document.createElement('textarea');
+    ta.value=text; ta.style.position='fixed'; ta.style.opacity='0';
+    document.body.appendChild(ta); ta.select();
+    document.execCommand('copy'); document.body.removeChild(ta);
+    return true;
+  }catch(e){ return false; }
+}
+function mailComposeUrl(d, to, subject, body){
+  const T=encodeURIComponent(to), S=encodeURIComponent(subject), B=encodeURIComponent(body);
+  let provider='', compose=null, login=null;
+  if(/gmail\.com|googlemail\.com/.test(d)){ provider='Gmail'; compose=`https://mail.google.com/mail/?view=cm&fs=1&to=${T}&su=${S}&body=${B}`; login='https://mail.google.com/'; }
+  else if(/outlook\.com|hotmail\.com|live\.com|msn\.com/.test(d)){ provider='Outlook'; compose=`https://outlook.live.com/mail/0/deeplink/compose?to=${T}&subject=${S}&body=${B}`; login='https://outlook.live.com/'; }
+  else if(/yahoo\.com|ymail\.com|rocketmail\.com/.test(d)){ provider='Yahoo Mail'; compose=`https://compose.mail.yahoo.com/?to=${T}&subject=${S}&body=${B}`; login='https://mail.yahoo.com/'; }
+  else if(/qq\.com|vip\.qq\.com|foxmail\.com/.test(d)){ provider='QQ邮箱'; compose=null; login='https://mail.qq.com/'; }
+  else if(/163\.com|126\.com|yeah\.net/.test(d)){ provider='163邮箱'; compose=null; login='https://mail.163.com/'; }
+  else { provider='Email'; compose=null; login=null; }
+  return {provider, compose, login};
+}
+let __toastTimer=null;
+function showToast(msg){
+  const t=$('#toast'); if(!t) return;
+  t.textContent=msg; t.classList.add('show');
+  clearTimeout(__toastTimer);
+  __toastTimer=setTimeout(()=>t.classList.remove('show'), 5000);
+}
+function sendMail(subject, body, customerEmail){
+  const to=SITE.contact.email;
+  const d=(customerEmail||'').split('@')[1]||'';
+  const r=mailComposeUrl(d, to, subject, body);
+  if(r.compose){
+    copyText('To: '+to+'\nSubject: '+subject+'\n\n'+body);
+    window.open(r.compose, '_blank');
+    showToast(LANG==='zh' ? ('已打开 '+r.provider+' 写信页面，内容已复制，请确认后发送') : ('Opened '+r.provider+' compose, content copied. Please review and send.'));
+  } else if(r.login){
+    copyText('To: '+to+'\nSubject: '+subject+'\n\n'+body);
+    window.open(r.login, '_blank');
+    showToast(LANG==='zh' ? ('已复制邮件内容，请在 '+r.provider+' 登录后粘贴发送') : ('Content copied. Please log in to '+r.provider+' and paste to send.'));
+  } else {
+    window.location.href='mailto:'+to+'?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);
+  }
+}
+
 function renderProductSelect(){
   const panel=$('#ps-panel'); if(!panel || !PRODS) return;
   const pc=PC[LANG]||PC.en;
@@ -381,7 +428,7 @@ document.addEventListener('DOMContentLoaded', async ()=>{
   if(form) form.onsubmit=(ev)=>{ ev.preventDefault(); const name=$('#cf-name').value, email=$('#cf-email').value, msg=$('#cf-msg').value;
     const prodLine = selectedProducts.length ? 'Products: '+selectedProducts.map(pid=>{const p=findProduct(pid);return p?t(p.name):pid;}).join(', ') : '';
     const body = 'Name: '+name+'\nEmail: '+email+'\n'+(prodLine?prodLine+'\n':'')+'\n'+msg;
-    window.location.href=`mailto:${SITE.contact.email}?subject=${encodeURIComponent('Inquiry from website - '+name)}&body=${encodeURIComponent(body)}`; };
+    sendMail('Inquiry from website - '+name, body, email); };
   const ppop=$('#product-pop');
   if(ppop){
     document.addEventListener('click',(e)=>{
@@ -405,6 +452,6 @@ document.addEventListener('DOMContentLoaded', async ()=>{
     if(overlay) overlay.onclick=closeModal;
     const mf=$('#modal-form');
     if(mf) mf.onsubmit=(ev)=>{ ev.preventDefault(); const name=$('#modal-name').value, email=$('#modal-email').value, msg=$('#modal-message').value;
-      window.location.href=`mailto:${SITE.contact.email}?subject=${encodeURIComponent('Website inquiry - '+name)}&body=${encodeURIComponent('Name: '+name+'\nEmail: '+email+'\n\n'+msg)}`; };
+      sendMail('Website inquiry - '+name, 'Name: '+name+'\nEmail: '+email+'\n\n'+msg, email); };
   }
 });
