@@ -43,6 +43,76 @@ const UI = {
   th:{title:'ส่งข้อความถึงเรา',name:'ชื่อ',email:'อีเมล',message:'ข้อความ',send:'ส่งข้อความ',wa:'แชทบน WhatsApp'}
 };
 
+const PC = {
+  en:{contact:'Contact the merchant about this product', label:'Select Products (optional)', trigger:'Select products...', sel:'selected'},
+  zh:{contact:'通过这款产品与商家取得联系', label:'选择产品（可选）', trigger:'选择产品...', sel:'已选'}
+};
+let selectedProducts = [];
+function findProduct(pid){
+  if(!PRODS) return null;
+  for(const c of (PRODS.categories||[])){
+    const p=(c.products||[]).find(x=>x.id===pid);
+    if(p) return p;
+  }
+  return null;
+}
+function getUrlProducts(){
+  const q=new URLSearchParams(location.search);
+  return (q.get('products')||'').split(',').map(s=>s.trim()).filter(Boolean);
+}
+function openProductModal(pid){
+  const p=findProduct(pid); if(!p) return;
+  const pc=PC[LANG]||PC.en;
+  setText('#pm-product-name', t(p.name));
+  const btn=$('#pm-contact-btn');
+  if(btn){ btn.textContent=pc.contact; btn.href='contact.html?products='+encodeURIComponent(pid); }
+  const m=$('#product-modal'); if(m) m.classList.add('open');
+}
+function closeProductModal(){
+  const m=$('#product-modal'); if(m) m.classList.remove('open');
+}
+function renderProductSelect(){
+  const panel=$('#ps-panel'); if(!panel || !PRODS) return;
+  const pc=PC[LANG]||PC.en;
+  if(!window.__psInit){
+    window.__psInit=true;
+    const preset=getUrlProducts();
+    selectedProducts=preset.filter(pid=>findProduct(pid));
+  }
+  panel.innerHTML=PRODS.categories.map(c=>{
+    const prods=c.products||[];
+    return `<div class="ps-group"><div class="ps-group-title">${t(c.name)}</div>`+
+      prods.map(p=>`<label class="ps-item"><input type="checkbox" value="${p.id}" ${selectedProducts.includes(p.id)?'checked':''}> <span>${t(p.name)}</span></label>`).join('')+
+      `</div>`;
+  }).join('');
+  $$('#ps-panel input[type=checkbox]').forEach(cb=>{
+    cb.onchange=()=>{
+      if(cb.checked){ if(!selectedProducts.includes(cb.value)) selectedProducts.push(cb.value); }
+      else { selectedProducts=selectedProducts.filter(v=>v!==cb.value); }
+      updatePsTrigger();
+    };
+  });
+  const label=$('#cf-products-label'); if(label) label.textContent=pc.label;
+  updatePsTrigger();
+}
+function updatePsTrigger(){
+  const pc=PC[LANG]||PC.en;
+  const trig=$('#ps-trigger'); if(!trig) return;
+  if(selectedProducts.length===0){ trig.textContent=pc.trigger; return; }
+  if(selectedProducts.length<=2){
+    trig.textContent=selectedProducts.map(pid=>{const p=findProduct(pid);return p?t(p.name):pid;}).join(', ');
+    return;
+  }
+  trig.textContent=selectedProducts.length+' '+pc.sel;
+}
+function bindPsToggle(){
+  const trig=$('#ps-trigger'), panel=$('#ps-panel');
+  if(!trig||!panel||window.__psBound) return;
+  window.__psBound=true;
+  trig.onclick=(e)=>{ e.stopPropagation(); panel.classList.toggle('open'); };
+  document.addEventListener('click',(e)=>{ if(!e.target.closest('#ps')) panel.classList.remove('open'); });
+}
+
 const $ = (s, el=document) => el.querySelector(s);
 const $$ = (s, el=document) => [...el.querySelectorAll(s)];
 function setText(sel, val){ const el=$(sel); if(el) el.textContent = val ?? ''; }
@@ -197,7 +267,8 @@ function renderProductsPage(){
   $$('.filter-btn[data-cat]',f||document).forEach(b=>b.onclick=()=>{ location.hash=b.dataset.cat; renderProductsPage(); });
   const cat=PRODS.categories.find(c=>c.id===here)||PRODS.categories[0];
   const head=$('#cat-head'); if(head) head.innerHTML=`<h2>${t(cat.name)}</h2><p>${t(cat.desc)}</p>`;
-  grid.innerHTML=cat.products.map(p=>`<div class="prod"><img src="${p.images[0]}" alt="${t(p.name)}" loading="lazy"><div class="info"><b>${t(p.name)}</b><span>${t(p.name)===p.name.en?'':p.name.en}</span></div></div>`).join('');
+  grid.innerHTML=cat.products.map(p=>`<div class="prod" data-pid="${p.id}"><img src="${p.images[0]}" alt="${t(p.name)}" loading="lazy"><div class="info"><b>${t(p.name)}</b><span>${t(p.name)===p.name.en?'':p.name.en}</span></div></div>`).join('');
+  $$('#prod-grid .prod').forEach(el=>el.onclick=()=>openProductModal(el.dataset.pid));
 }
 
 function renderContact(){
@@ -274,7 +345,7 @@ function renderAll(){
   renderNav(); renderLogoCompany(); renderLangSelector();
   renderHero(); renderHotProduct(); renderCustom(); renderProcess(); renderApps();
   renderFactory(); renderCerts(); renderProductsTeaser(); renderBlocks(); renderCTA();
-  renderFooter(); renderProductsPage(); renderContact(); renderAbout(); renderTitle(); renderFab();
+  renderFooter(); renderProductsPage(); renderContact(); renderAbout(); renderTitle(); renderFab(); renderProductSelect(); bindPsToggle();
 }
 
 document.addEventListener('DOMContentLoaded', async ()=>{
@@ -283,7 +354,15 @@ document.addEventListener('DOMContentLoaded', async ()=>{
   const tg=$('#nav-toggle'); if(tg) tg.onclick=()=>{ $('#nav-links').classList.toggle('open'); };
   const form=$('#contact-form');
   if(form) form.onsubmit=(ev)=>{ ev.preventDefault(); const name=$('#cf-name').value, email=$('#cf-email').value, msg=$('#cf-msg').value;
-    window.location.href=`mailto:${SITE.contact.email}?subject=${encodeURIComponent('Inquiry from website - '+name)}&body=${encodeURIComponent('Name: '+name+'\nEmail: '+email+'\n\n'+msg)}`; };
+    const prodLine = selectedProducts.length ? 'Products: '+selectedProducts.map(pid=>{const p=findProduct(pid);return p?t(p.name):pid;}).join(', ') : '';
+    const body = 'Name: '+name+'\nEmail: '+email+'\n'+(prodLine?prodLine+'\n':'')+'\n'+msg;
+    window.location.href=`mailto:${SITE.contact.email}?subject=${encodeURIComponent('Inquiry from website - '+name)}&body=${encodeURIComponent(body)}`; };
+  const pmodal=$('#product-modal');
+  if(pmodal){
+    $$('[data-close]', pmodal).forEach(el=>el.onclick=closeProductModal);
+    const pov=pmodal.querySelector('.product-modal-overlay');
+    if(pov) pov.onclick=closeProductModal;
+  }
   const modal=$('#contact-modal');
   if(modal){
     $$('[data-close]', modal).forEach(el=>el.onclick=closeModal);
