@@ -299,12 +299,15 @@ section{padding:72px 0}
 }
 
 /* ===== product contact modal ===== */
-.product-modal{display:none;position:fixed;inset:0;z-index:410}
-.product-modal.open{display:block}
-.product-modal-overlay{position:absolute;inset:0;background:rgba(10,37,64,.58);backdrop-filter:blur(2px)}
-.product-modal-box{position:relative;z-index:1;max-width:460px;margin:10vh auto;background:#fff;border-radius:14px;padding:28px;box-shadow:0 20px 60px rgba(0,0,0,.35);text-align:center}
-.product-modal-box h3{font-size:20px;color:#0A2540;margin-bottom:18px;padding:0 20px;line-height:1.4}
-@media(max-width:560px){.product-modal-box{margin:6vh 14px;padding:22px}}
+.product-pop{position:fixed;z-index:420;top:0;left:0;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .22s ease, visibility 0s linear .22s}
+.product-pop.open{opacity:1;visibility:visible;pointer-events:auto;transition:opacity .22s ease, visibility 0s}
+.product-pop-card{position:relative;width:300px;max-width:calc(100vw - 32px);background:rgba(255,255,255,.88);-webkit-backdrop-filter:blur(24px) saturate(180%);backdrop-filter:blur(24px) saturate(180%);border:1px solid rgba(255,255,255,.55);border-radius:22px;padding:24px 24px 22px;text-align:center;box-shadow:0 24px 70px rgba(0,0,0,.28), 0 6px 18px rgba(0,0,0,.12);transform:scale(.85) translateY(8px);transform-origin:center top;transition:transform .38s cubic-bezier(.175,.885,.32,1.275)}
+.product-pop.open .product-pop-card{transform:scale(1) translateY(0)}
+.product-pop-card h3{font-size:17px;color:#0A2540;margin-bottom:14px;line-height:1.45;padding:0 16px;font-weight:700}
+.product-pop-card .btn{width:100%;border-radius:12px;padding:12px 20px}
+.pop-close{position:absolute;top:12px;right:14px;width:26px;height:26px;border:none;border-radius:50%;background:rgba(0,0,0,.05);color:#7d8aa0;font-size:17px;line-height:1;cursor:pointer;transition:.2s}
+.pop-close:hover{background:rgba(0,0,0,.1);color:#0A2540}
+@media(max-width:560px){.product-pop-card{padding:20px 18px 18px}}
 
 /* ===== product multi-select dropdown ===== */
 .prod{cursor:pointer}

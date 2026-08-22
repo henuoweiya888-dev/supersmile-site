@@ -60,16 +60,31 @@ function getUrlProducts(){
   const q=new URLSearchParams(location.search);
   return (q.get('products')||'').split(',').map(s=>s.trim()).filter(Boolean);
 }
-function openProductModal(pid){
+function openProductModal(pid, x, y){
   const p=findProduct(pid); if(!p) return;
   const pc=PC[LANG]||PC.en;
   setText('#pm-product-name', t(p.name));
   const btn=$('#pm-contact-btn');
   if(btn){ btn.textContent=pc.contact; btn.href='contact.html?products='+encodeURIComponent(pid); }
-  const m=$('#product-modal'); if(m) m.classList.add('open');
+  const m=$('#product-pop');
+  if(!m) return;
+  positionPop(m, x, y);
+  m.classList.add('open');
 }
 function closeProductModal(){
-  const m=$('#product-modal'); if(m) m.classList.remove('open');
+  const m=$('#product-pop'); if(m) m.classList.remove('open');
+}
+function positionPop(m, x, y){
+  const margin=16, vw=window.innerWidth, vh=window.innerHeight;
+  const w=m.offsetWidth||300, h=m.offsetHeight||180;
+  let left=(x==null?vw/2:x)-w/2;
+  let top=(y==null?vh/2:y)+16;
+  if(left<margin) left=margin;
+  if(left+w>vw-margin) left=vw-w-margin;
+  if(top+h>vh-margin) top=(y!=null?y-h-16:vh/2-h/2);
+  if(top<margin) top=margin;
+  m.style.left=left+'px';
+  m.style.top=top+'px';
 }
 function renderProductSelect(){
   const panel=$('#ps-panel'); if(!panel || !PRODS) return;
@@ -268,7 +283,7 @@ function renderProductsPage(){
   const cat=PRODS.categories.find(c=>c.id===here)||PRODS.categories[0];
   const head=$('#cat-head'); if(head) head.innerHTML=`<h2>${t(cat.name)}</h2><p>${t(cat.desc)}</p>`;
   grid.innerHTML=cat.products.map(p=>`<div class="prod" data-pid="${p.id}"><img src="${p.images[0]}" alt="${t(p.name)}" loading="lazy"><div class="info"><b>${t(p.name)}</b><span>${t(p.name)===p.name.en?'':p.name.en}</span></div></div>`).join('');
-  $$('#prod-grid .prod').forEach(el=>el.onclick=()=>openProductModal(el.dataset.pid));
+  $$('#prod-grid .prod').forEach(el=>el.onclick=(e)=>openProductModal(el.dataset.pid, e.clientX, e.clientY));
 }
 
 function renderContact(){
@@ -357,11 +372,14 @@ document.addEventListener('DOMContentLoaded', async ()=>{
     const prodLine = selectedProducts.length ? 'Products: '+selectedProducts.map(pid=>{const p=findProduct(pid);return p?t(p.name):pid;}).join(', ') : '';
     const body = 'Name: '+name+'\nEmail: '+email+'\n'+(prodLine?prodLine+'\n':'')+'\n'+msg;
     window.location.href=`mailto:${SITE.contact.email}?subject=${encodeURIComponent('Inquiry from website - '+name)}&body=${encodeURIComponent(body)}`; };
-  const pmodal=$('#product-modal');
-  if(pmodal){
-    $$('[data-close]', pmodal).forEach(el=>el.onclick=closeProductModal);
-    const pov=pmodal.querySelector('.product-modal-overlay');
-    if(pov) pov.onclick=closeProductModal;
+  const ppop=$('#product-pop');
+  if(ppop){
+    const pc=ppop.querySelector('.pop-close'); if(pc) pc.onclick=closeProductModal;
+    document.addEventListener('click',(e)=>{
+      if(ppop.classList.contains('open') && !e.target.closest('#product-pop') && !e.target.closest('.prod')){
+        closeProductModal();
+      }
+    });
   }
   const modal=$('#contact-modal');
   if(modal){
