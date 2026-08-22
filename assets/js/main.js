@@ -283,7 +283,6 @@ function ico(name){
 
 function renderCustom(){
   if(!SITE.custom_intro) return;
-  setText('#ci-tag', t(SITE.custom_intro.tag));
   setText('#ci-title', t(SITE.custom_intro.title));
   setText('#ci-desc', t(SITE.custom_intro.desc));
   const f=$('#features');

@@ -330,9 +330,11 @@ section{padding:72px 0}
 
 /* ===== 定制能力背景 + 白色蒙版 ===== */
 #custom-intro{position:relative;background:url('/assets/images/factory/_MG_6437.jpg') center/cover no-repeat}
-#custom-intro::before{content:"";position:absolute;inset:0;background:rgba(255,255,255,.5);z-index:0}
+#custom-intro::before{content:"";position:absolute;inset:0;background:rgba(255,255,255,.68);z-index:0}
 #custom-intro .container{position:relative;z-index:1}
 
 /* ===== SVG 图标 ===== */
 .ico-svg{width:28px;height:28px;color:var(--accent);flex:none;display:block}
 .app-ico .ico-svg{width:26px;height:26px;color:var(--accent)}
+
+#custom-intro #ci-desc{color:#1a1a1a}
