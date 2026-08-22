@@ -301,11 +301,10 @@ function renderProcess(){
 
 function renderApps(){
   if(!SITE.apps) return;
-  setText('#ap-tag', t(SITE.apps.tag));
   setText('#ap-title', t(SITE.apps.title));
   const a=$('#apps');
   const ac=['car','truck','battery','factory','medical','robot','plane','wrench'];
-  if(a && SITE.apps.items){ let items=SITE.apps.items[LANG]||SITE.apps.items.en||[]; if(typeof items==='string') items=items.split('|').map(x=>x.trim()).filter(Boolean); a.innerHTML=`<div class="apps-box">${items.map((x,i)=>`<div class="app"><span class="app-ico">${ico(ac[i])}</span><span>${x}</span></div>`).join('')}</div>`; }
+  if(a && SITE.apps.items){ let items=SITE.apps.items[LANG]||SITE.apps.items.en||[]; if(typeof items==='string') items=items.split('|').map(x=>x.trim()).filter(Boolean); a.innerHTML=`<div class="cards cards-4">${items.map((x,i)=>`<div class="card"><div class="card-head">${ico(ac[i])}<h3>${x}</h3></div></div>`).join('')}</div>`; }
 }
 
 function renderFactory(){
