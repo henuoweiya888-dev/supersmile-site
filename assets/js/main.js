@@ -263,13 +263,32 @@ function renderHero(){
   if(st && SITE.stats) st.innerHTML=SITE.stats.map(s=>`<div class="stat"><b>${s.num}${s.unit?' '+s.unit:''}</b><span>${t(s.label)}</span></div>`).join('');
 }
 
+const ICONS = {
+  connector:'<rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><line x1="9" y1="1" x2="9" y2="4"/><line x1="15" y1="1" x2="15" y2="4"/><line x1="9" y1="20" x2="9" y2="23"/><line x1="15" y1="20" x2="15" y2="23"/><line x1="20" y1="9" x2="23" y2="9"/><line x1="20" y1="14" x2="23" y2="14"/><line x1="1" y1="9" x2="4" y2="9"/><line x1="1" y1="14" x2="4" y2="14"/>',
+  signal:'<polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>',
+  cable:'<line x1="6" y1="3" x2="6" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/>',
+  package:'<path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/><polyline points="3.27 6.96 12 12.01 20.73 6.96"/><line x1="12" y1="22.08" x2="12" y2="12"/>',
+  car:'<path d="M5 16l1.2-4A2 2 0 0 1 8.1 10h7.8a2 2 0 0 1 1.9 2l1.2 4"/><path d="M4 16h16"/><circle cx="7.5" cy="18.5" r="1.5"/><circle cx="16.5" cy="18.5" r="1.5"/>',
+  truck:'<rect x="1" y="6" width="14" height="12"/><path d="M15 10h4l4 4v4h-2"/><circle cx="6.5" cy="18" r="2"/><circle cx="17.5" cy="18" r="2"/>',
+  battery:'<rect x="1" y="6" width="18" height="12" rx="2"/><line x1="23" y1="11" x2="23" y2="13"/><rect x="4" y="9" width="12" height="6" rx="1"/>',
+  factory:'<path d="M2 21h20"/><path d="M4 21V9l5 3V9l5 3V4h6v17"/>',
+  medical:'<rect x="3" y="3" width="18" height="18" rx="3"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/>',
+  robot:'<rect x="4" y="8" width="16" height="12" rx="2"/><path d="M12 8V5"/><circle cx="12" cy="4" r="1"/><circle cx="9" cy="13" r="1"/><circle cx="15" cy="13" r="1"/><path d="M9 17h6"/>',
+  plane:'<path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4z"/>',
+  wrench:'<path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>'
+};
+function ico(name){
+  return `<svg class="ico-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[name]||ICONS.connector}</svg>`;
+}
+
 function renderCustom(){
   if(!SITE.custom_intro) return;
   setText('#ci-tag', t(SITE.custom_intro.tag));
   setText('#ci-title', t(SITE.custom_intro.title));
   setText('#ci-desc', t(SITE.custom_intro.desc));
   const f=$('#features');
-  if(f && SITE.features) f.innerHTML=SITE.features.map(x=>`<div class="card"><div class="card-head"><span class="ico">${x.ico}</span><h3>${t(x.title)}</h3></div><p>${t(x.desc)}</p></div>`).join('');
+  const fc=['connector','signal','cable','package'];
+  if(f && SITE.features) f.innerHTML=SITE.features.map((x,i)=>`<div class="card"><div class="card-head">${ico(fc[i])}<h3>${t(x.title)}</h3></div><p>${t(x.desc)}</p></div>`).join('');
 }
 
 function renderProcess(){
@@ -285,8 +304,8 @@ function renderApps(){
   setText('#ap-tag', t(SITE.apps.tag));
   setText('#ap-title', t(SITE.apps.title));
   const a=$('#apps');
-  const icons=['🔌','🚛','🔋','🏭','🏥','🤖','🚢','🔧'];
-  if(a && SITE.apps.items){ let items=SITE.apps.items[LANG]||SITE.apps.items.en||[]; if(typeof items==='string') items=items.split('|').map(x=>x.trim()).filter(Boolean); a.innerHTML=`<div class="apps-box">${items.map((x,i)=>`<div class="app"><span class="app-ico">${icons[i]||'🔌'}</span><span>${x}</span></div>`).join('')}</div>`; }
+  const ac=['car','truck','battery','factory','medical','robot','plane','wrench'];
+  if(a && SITE.apps.items){ let items=SITE.apps.items[LANG]||SITE.apps.items.en||[]; if(typeof items==='string') items=items.split('|').map(x=>x.trim()).filter(Boolean); a.innerHTML=`<div class="apps-box">${items.map((x,i)=>`<div class="app"><span class="app-ico">${ico(ac[i])}</span><span>${x}</span></div>`).join('')}</div>`; }
 }
 
 function renderFactory(){
