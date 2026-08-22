@@ -305,8 +305,6 @@ section{padding:72px 0}
 .product-pop.open .product-pop-card{transform:scale(1) translateY(0)}
 .product-pop-card h3{font-size:17px;color:#0A2540;margin-bottom:14px;line-height:1.45;padding:0 16px;font-weight:700}
 .product-pop-card .btn{width:100%;border-radius:12px;padding:12px 20px}
-.pop-close{position:absolute;top:12px;right:14px;width:26px;height:26px;border:none;border-radius:50%;background:rgba(0,0,0,.05);color:#7d8aa0;font-size:17px;line-height:1;cursor:pointer;transition:.2s}
-.pop-close:hover{background:rgba(0,0,0,.1);color:#0A2540}
 @media(max-width:560px){.product-pop-card{padding:20px 18px 18px}}
 
 /* ===== product multi-select dropdown ===== */

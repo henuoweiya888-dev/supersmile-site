@@ -374,7 +374,6 @@ document.addEventListener('DOMContentLoaded', async ()=>{
     window.location.href=`mailto:${SITE.contact.email}?subject=${encodeURIComponent('Inquiry from website - '+name)}&body=${encodeURIComponent(body)}`; };
   const ppop=$('#product-pop');
   if(ppop){
-    const pc=ppop.querySelector('.pop-close'); if(pc) pc.onclick=closeProductModal;
     document.addEventListener('click',(e)=>{
       if(ppop.classList.contains('open') && !e.target.closest('#product-pop') && !e.target.closest('.prod')){
         closeProductModal();
