@@ -44,8 +44,8 @@ const UI = {
 };
 
 const PC = {
-  en:{contact:'Contact the merchant about this product', label:'Select Products (optional)', trigger:'Select products...', sel:'selected', none:'No product'},
-  zh:{contact:'通过这款产品与商家取得联系', label:'选择产品（可选）', trigger:'选择产品...', sel:'已选', none:'不选择产品'}
+  en:{contact:'Contact the merchant about this product', label:'Select Products (optional)', trigger:'Select products...', sel:'selected', none:'No product', search:'Search products...'},
+  zh:{contact:'通过这款产品与商家取得联系', label:'选择产品（可选）', trigger:'选择产品...', sel:'已选', none:'不选择产品', search:'搜索产品...'}
 };
 let selectedProducts = [];
 function findProduct(pid){
@@ -142,13 +142,25 @@ function renderProductSelect(){
     const preset=getUrlProducts();
     selectedProducts=preset.filter(pid=>findProduct(pid));
   }
-  panel.innerHTML=`<div class="ps-none-row ${selectedProducts.length===0?'active':''}" id="ps-none-row">${pc.none}</div>`+
+  panel.innerHTML=`<div class="ps-search"><input type="text" id="ps-search" placeholder="${pc.search}" autocomplete="off"></div>`+
+    `<div class="ps-none-row ${selectedProducts.length===0?'active':''}" id="ps-none-row">${pc.none}</div>`+
     PRODS.categories.map(c=>{
       const prods=c.products||[];
       return `<div class="ps-group"><div class="ps-group-title">${t(c.name)}</div>`+
-        prods.map(p=>`<label class="ps-item"><input type="checkbox" value="${p.id}" ${selectedProducts.includes(p.id)?'checked':''}> <span>${t(p.name)}</span></label>`).join('')+
+        prods.map(p=>{const sk=Object.values(p.name||{}).join(' ').toLowerCase().replace(/"/g,'&quot;'); return `<label class="ps-item" data-search="${sk}"><input type="checkbox" value="${p.id}" ${selectedProducts.includes(p.id)?'checked':''}> <img src="${p.images[0]}" alt="${t(p.name)}" loading="lazy"> <span>${t(p.name)}</span></label>`;}).join('')+
         `</div>`;
     }).join('');
+  const sInput=$('#ps-search');
+  if(sInput) sInput.oninput=()=>{
+    const kw=(sInput.value||'').toLowerCase().trim();
+    $$('#ps-panel .ps-item').forEach(item=>{
+      item.style.display=(!kw || (item.dataset.search||'').includes(kw)) ? '' : 'none';
+    });
+    $$('#ps-panel .ps-group').forEach(g=>{
+      const any=[...g.querySelectorAll('.ps-item')].some(it=>it.style.display!=='none');
+      g.style.display=any?'':'none';
+    });
+  };
   const noneRow=$('#ps-none-row');
   if(noneRow) noneRow.onclick=()=>{
     selectedProducts=[];
@@ -426,7 +438,8 @@ document.addEventListener('DOMContentLoaded', async ()=>{
   const tg=$('#nav-toggle'); if(tg) tg.onclick=()=>{ $('#nav-links').classList.toggle('open'); };
   const form=$('#contact-form');
   if(form) form.onsubmit=(ev)=>{ ev.preventDefault(); const name=$('#cf-name').value, email=$('#cf-email').value, msg=$('#cf-msg').value;
-    const prodLine = selectedProducts.length ? 'Products: '+selectedProducts.map(pid=>{const p=findProduct(pid);return p?t(p.name):pid;}).join(', ') : '';
+    const prodItems = selectedProducts.map(pid=>{const p=findProduct(pid); if(!p) return '- '+pid; const img=p.images&&p.images[0]?location.origin+p.images[0]:''; return '- '+t(p.name)+(img?'\n  '+img:'');}).join('\n');
+    const prodLine = prodItems ? 'Products:\n'+prodItems : '';
     const body = 'Name: '+name+'\nEmail: '+email+'\n'+(prodLine?prodLine+'\n':'')+'\n'+msg;
     sendMail('Inquiry from website - '+name, body, email); };
   const ppop=$('#product-pop');

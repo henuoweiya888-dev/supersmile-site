@@ -316,6 +316,10 @@ section{padding:72px 0}
 .ps-item{display:flex;align-items:center;gap:8px;padding:6px 10px;font-size:14px;color:var(--text);cursor:pointer;border-radius:5px;margin:0}
 .ps-item:hover{background:#eef3fb}
 .ps-item input{width:16px;height:16px;cursor:pointer;flex:none}
+.ps-item img{width:36px;height:36px;object-fit:contain;background:#fff;border:1px solid var(--line);border-radius:6px;flex:none}
+.ps-search{padding:4px 8px 6px}
+.ps-search input{width:100%;padding:9px 12px;border:1px solid var(--line);border-radius:8px;font-size:14px;font-family:inherit;color:var(--text)}
+.ps-search input:focus{outline:none;border-color:var(--blue)}
 .ps-none-row{padding:8px 10px;font-size:14px;font-weight:600;color:var(--muted);cursor:pointer;border-radius:6px;margin-bottom:4px;border-bottom:1px solid var(--line)}
 .ps-none-row:hover{background:#eef3fb;color:var(--navy)}
 .ps-none-row.active{color:var(--blue);background:#eef3fb}
