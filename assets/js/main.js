@@ -117,14 +117,6 @@ function showToast(msg){
   clearTimeout(__toastTimer);
   __toastTimer=setTimeout(()=>t.classList.remove('show'), 5000);
 }
-const WEB3FORMS_KEY='0f9cc7da-187f-460e-a7ee-9214a7b7f021';
-async function submitWeb3Forms(data){
-  try{
-    const r=await fetch('https://api.web3forms.com/submit',{method:'POST',headers:{'Content-Type':'application/json','Accept':'application/json'},body:JSON.stringify(data)});
-    const j=await r.json();
-    return !!(j && j.success===true);
-  }catch(e){ return false; }
-}
 function sendMail(subject, body, customerEmail){
   const to=SITE.contact.email;
   const d=(customerEmail||'').split('@')[1]||'';
