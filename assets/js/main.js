@@ -445,16 +445,11 @@ document.addEventListener('DOMContentLoaded', async ()=>{
   renderAll();
   const tg=$('#nav-toggle'); if(tg) tg.onclick=()=>{ $('#nav-links').classList.toggle('open'); };
   const form=$('#contact-form');
-  if(form) form.onsubmit=async (ev)=>{ ev.preventDefault(); const name=$('#cf-name').value, email=$('#cf-email').value, msg=$('#cf-msg').value;
+  if(form) form.onsubmit=(ev)=>{ ev.preventDefault(); const name=$('#cf-name').value, email=$('#cf-email').value, msg=$('#cf-msg').value;
     const prodItems = selectedProducts.map(pid=>{const p=findProduct(pid); if(!p) return '- '+pid; const img=p.images&&p.images[0]?location.origin+p.images[0]:''; return '- '+t(p.name)+(img?'\n  '+img:'');}).join('\n');
     const prodLine = prodItems ? 'Products:\n'+prodItems : '';
     const body = 'Name: '+name+'\nEmail: '+email+'\n'+(prodLine?prodLine+'\n':'')+'\n'+msg;
-    const btn=form.querySelector('button[type=submit]'); const oldText=btn?btn.textContent:'';
-    if(btn){ btn.disabled=true; btn.textContent=(LANG==='zh'?'发送中...':'Sending...'); }
-    const ok=await submitWeb3Forms({access_key:WEB3FORMS_KEY, subject:'Inquiry from website - '+name, name:name, email:email, message:body});
-    if(btn){ btn.disabled=false; btn.textContent=oldText; }
-    if(ok){ showToast(LANG==='zh'?'询盘已发送成功，我们会尽快回复您！':'Inquiry sent! We will reply soon.'); form.reset(); selectedProducts=[]; updatePsTrigger(); }
-    else { showToast(LANG==='zh'?'发送失败，请稍后重试或直接邮件联系我们':'Send failed. Please retry or email us directly.'); } };
+    sendMail('Inquiry from website - '+name, body, email); };
   const ppop=$('#product-pop');
   if(ppop){
     document.addEventListener('click',(e)=>{
@@ -477,12 +472,7 @@ document.addEventListener('DOMContentLoaded', async ()=>{
     const overlay=modal.querySelector('.contact-modal-overlay');
     if(overlay) overlay.onclick=closeModal;
     const mf=$('#modal-form');
-    if(mf) mf.onsubmit=async (ev)=>{ ev.preventDefault(); const name=$('#modal-name').value, email=$('#modal-email').value, msg=$('#modal-message').value;
-      const mbtn=$('#modal-submit'); const oldText2=mbtn?mbtn.textContent:'';
-      if(mbtn){ mbtn.disabled=true; mbtn.textContent=(LANG==='zh'?'发送中...':'Sending...'); }
-      const ok=await submitWeb3Forms({access_key:WEB3FORMS_KEY, subject:'Website inquiry - '+name, name:name, email:email, message:'Name: '+name+'\nEmail: '+email+'\n\n'+msg});
-      if(mbtn){ mbtn.disabled=false; mbtn.textContent=oldText2; }
-      if(ok){ closeModal(); showToast(LANG==='zh'?'留言已发送成功，我们会尽快回复您！':'Message sent! We will reply soon.'); }
-      else { showToast(LANG==='zh'?'发送失败，请稍后重试':'Send failed. Please retry.'); } };
+    if(mf) mf.onsubmit=(ev)=>{ ev.preventDefault(); const name=$('#modal-name').value, email=$('#modal-email').value, msg=$('#modal-message').value;
+      sendMail('Website inquiry - '+name, 'Name: '+name+'\nEmail: '+email+'\n\n'+msg, email); };
   }
 });
