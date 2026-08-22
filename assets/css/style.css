@@ -301,11 +301,9 @@ section{padding:72px 0}
 /* ===== product contact modal ===== */
 .product-pop{position:fixed;z-index:420;top:0;left:0;opacity:0;visibility:hidden;pointer-events:none;transition:opacity .22s ease, visibility 0s linear .22s}
 .product-pop.open{opacity:1;visibility:visible;pointer-events:auto;transition:opacity .22s ease, visibility 0s}
-.product-pop-card{position:relative;width:300px;max-width:calc(100vw - 32px);background:rgba(255,255,255,.88);-webkit-backdrop-filter:blur(24px) saturate(180%);backdrop-filter:blur(24px) saturate(180%);border:1px solid rgba(255,255,255,.55);border-radius:22px;padding:24px 24px 22px;text-align:center;box-shadow:0 24px 70px rgba(0,0,0,.28), 0 6px 18px rgba(0,0,0,.12);transform:scale(.85) translateY(8px);transform-origin:center top;transition:transform .38s cubic-bezier(.175,.885,.32,1.275)}
+.product-pop-card{position:relative;width:230px;max-width:calc(100vw - 24px);background:rgba(255,255,255,.88);-webkit-backdrop-filter:blur(24px) saturate(180%);backdrop-filter:blur(24px) saturate(180%);border:1px solid rgba(255,255,255,.55);border-radius:16px;padding:12px;text-align:center;box-shadow:0 20px 55px rgba(0,0,0,.26), 0 5px 14px rgba(0,0,0,.12);transform:scale(.85) translateY(8px);transform-origin:center top;transition:transform .38s cubic-bezier(.175,.885,.32,1.275)}
 .product-pop.open .product-pop-card{transform:scale(1) translateY(0)}
-.product-pop-card h3{font-size:17px;color:#0A2540;margin-bottom:14px;line-height:1.45;padding:0 16px;font-weight:700}
-.product-pop-card .btn{width:100%;border-radius:12px;padding:12px 20px}
-@media(max-width:560px){.product-pop-card{padding:20px 18px 18px}}
+.product-pop-card .btn{width:100%;border-radius:10px;padding:11px 14px;font-size:14px}
 
 /* ===== product multi-select dropdown ===== */
 .prod{cursor:pointer}
@@ -318,3 +316,6 @@ section{padding:72px 0}
 .ps-item{display:flex;align-items:center;gap:8px;padding:6px 10px;font-size:14px;color:var(--text);cursor:pointer;border-radius:5px;margin:0}
 .ps-item:hover{background:#eef3fb}
 .ps-item input{width:16px;height:16px;cursor:pointer;flex:none}
+.ps-none-row{padding:8px 10px;font-size:14px;font-weight:600;color:var(--muted);cursor:pointer;border-radius:6px;margin-bottom:4px;border-bottom:1px solid var(--line)}
+.ps-none-row:hover{background:#eef3fb;color:var(--navy)}
+.ps-none-row.active{color:var(--blue);background:#eef3fb}

@@ -44,8 +44,8 @@ const UI = {
 };
 
 const PC = {
-  en:{contact:'Contact the merchant about this product', label:'Select Products (optional)', trigger:'Select products...', sel:'selected'},
-  zh:{contact:'通过这款产品与商家取得联系', label:'选择产品（可选）', trigger:'选择产品...', sel:'已选'}
+  en:{contact:'Contact the merchant about this product', label:'Select Products (optional)', trigger:'Select products...', sel:'selected', none:'No product'},
+  zh:{contact:'通过这款产品与商家取得联系', label:'选择产品（可选）', trigger:'选择产品...', sel:'已选', none:'不选择产品'}
 };
 let selectedProducts = [];
 function findProduct(pid){
@@ -60,28 +60,29 @@ function getUrlProducts(){
   const q=new URLSearchParams(location.search);
   return (q.get('products')||'').split(',').map(s=>s.trim()).filter(Boolean);
 }
-function openProductModal(pid, x, y){
+function openProductModal(pid, prodEl){
   const p=findProduct(pid); if(!p) return;
   const pc=PC[LANG]||PC.en;
-  setText('#pm-product-name', t(p.name));
   const btn=$('#pm-contact-btn');
   if(btn){ btn.textContent=pc.contact; btn.href='contact.html?products='+encodeURIComponent(pid); }
   const m=$('#product-pop');
   if(!m) return;
-  positionPop(m, x, y);
+  positionPop(m, prodEl);
+  m.dataset.pid=pid;
   m.classList.add('open');
 }
 function closeProductModal(){
   const m=$('#product-pop'); if(m) m.classList.remove('open');
 }
-function positionPop(m, x, y){
-  const margin=16, vw=window.innerWidth, vh=window.innerHeight;
-  const w=m.offsetWidth||300, h=m.offsetHeight||180;
-  let left=(x==null?vw/2:x)-w/2;
-  let top=(y==null?vh/2:y)+16;
+function positionPop(m, prodEl){
+  const margin=12, vw=window.innerWidth, vh=window.innerHeight;
+  const rect=prodEl?prodEl.getBoundingClientRect():{right:vw/2,bottom:vh/2,top:vh/2};
+  const w=m.offsetWidth||230, h=m.offsetHeight||64;
+  let left=rect.right-w;
+  let top=rect.bottom+10;
   if(left<margin) left=margin;
   if(left+w>vw-margin) left=vw-w-margin;
-  if(top+h>vh-margin) top=(y!=null?y-h-16:vh/2-h/2);
+  if(top+h>vh-margin) top=rect.top-h-10;
   if(top<margin) top=margin;
   m.style.left=left+'px';
   m.style.top=top+'px';
@@ -94,12 +95,19 @@ function renderProductSelect(){
     const preset=getUrlProducts();
     selectedProducts=preset.filter(pid=>findProduct(pid));
   }
-  panel.innerHTML=PRODS.categories.map(c=>{
-    const prods=c.products||[];
-    return `<div class="ps-group"><div class="ps-group-title">${t(c.name)}</div>`+
-      prods.map(p=>`<label class="ps-item"><input type="checkbox" value="${p.id}" ${selectedProducts.includes(p.id)?'checked':''}> <span>${t(p.name)}</span></label>`).join('')+
-      `</div>`;
-  }).join('');
+  panel.innerHTML=`<div class="ps-none-row ${selectedProducts.length===0?'active':''}" id="ps-none-row">${pc.none}</div>`+
+    PRODS.categories.map(c=>{
+      const prods=c.products||[];
+      return `<div class="ps-group"><div class="ps-group-title">${t(c.name)}</div>`+
+        prods.map(p=>`<label class="ps-item"><input type="checkbox" value="${p.id}" ${selectedProducts.includes(p.id)?'checked':''}> <span>${t(p.name)}</span></label>`).join('')+
+        `</div>`;
+    }).join('');
+  const noneRow=$('#ps-none-row');
+  if(noneRow) noneRow.onclick=()=>{
+    selectedProducts=[];
+    $$('#ps-panel input[type=checkbox]').forEach(cb=>cb.checked=false);
+    updatePsTrigger();
+  };
   $$('#ps-panel input[type=checkbox]').forEach(cb=>{
     cb.onchange=()=>{
       if(cb.checked){ if(!selectedProducts.includes(cb.value)) selectedProducts.push(cb.value); }
@@ -112,7 +120,10 @@ function renderProductSelect(){
 }
 function updatePsTrigger(){
   const pc=PC[LANG]||PC.en;
-  const trig=$('#ps-trigger'); if(!trig) return;
+  const trig=$('#ps-trigger');
+  const noneRow=$('#ps-none-row');
+  if(noneRow) noneRow.classList.toggle('active', selectedProducts.length===0);
+  if(!trig) return;
   if(selectedProducts.length===0){ trig.textContent=pc.trigger; return; }
   if(selectedProducts.length<=2){
     trig.textContent=selectedProducts.map(pid=>{const p=findProduct(pid);return p?t(p.name):pid;}).join(', ');
@@ -283,7 +294,6 @@ function renderProductsPage(){
   const cat=PRODS.categories.find(c=>c.id===here)||PRODS.categories[0];
   const head=$('#cat-head'); if(head) head.innerHTML=`<h2>${t(cat.name)}</h2><p>${t(cat.desc)}</p>`;
   grid.innerHTML=cat.products.map(p=>`<div class="prod" data-pid="${p.id}"><img src="${p.images[0]}" alt="${t(p.name)}" loading="lazy"><div class="info"><b>${t(p.name)}</b><span>${t(p.name)===p.name.en?'':p.name.en}</span></div></div>`).join('');
-  $$('#prod-grid .prod').forEach(el=>el.onclick=(e)=>openProductModal(el.dataset.pid, e.clientX, e.clientY));
 }
 
 function renderContact(){
@@ -375,9 +385,17 @@ document.addEventListener('DOMContentLoaded', async ()=>{
   const ppop=$('#product-pop');
   if(ppop){
     document.addEventListener('click',(e)=>{
-      if(ppop.classList.contains('open') && !e.target.closest('#product-pop') && !e.target.closest('.prod')){
-        closeProductModal();
+      if(e.target.closest('#product-pop')) return;
+      const prodEl=e.target.closest('.prod');
+      if(prodEl){
+        if(ppop.classList.contains('open')){
+          closeProductModal();
+        } else {
+          openProductModal(prodEl.dataset.pid, prodEl);
+        }
+        return;
       }
+      if(ppop.classList.contains('open')) closeProductModal();
     });
   }
   const modal=$('#contact-modal');
