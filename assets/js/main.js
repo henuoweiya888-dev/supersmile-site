@@ -212,8 +212,8 @@ function t(o){
 async function loadData(){
   if(SITE) return;
   const [s,p] = await Promise.all([
-    fetch('/data/site.json?v=20260822l').then(r=>r.json()),
-    fetch('/data/products.json?v=20260822l').then(r=>r.json())
+    fetch('/data/site.json?v=20260822m').then(r=>r.json()),
+    fetch('/data/products.json?v=20260822m').then(r=>r.json())
   ]);
   SITE=s; PRODS=p;
   const q=new URLSearchParams(location.search);
