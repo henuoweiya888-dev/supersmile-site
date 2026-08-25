@@ -345,3 +345,4 @@ section{padding:72px 0}
 .app-ico .ico-svg{width:26px;height:26px;color:var(--accent)}
 
 #custom-intro #ci-desc{color:#1a1a1a}
+a.prod{display:block;color:inherit;text-decoration:none}

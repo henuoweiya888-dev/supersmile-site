@@ -393,7 +393,7 @@ function renderProductsPage(){
   $$('.filter-btn[data-cat]',f||document).forEach(b=>b.onclick=()=>{ location.hash=b.dataset.cat; renderProductsPage(); });
   const cat=PRODS.categories.find(c=>c.id===here)||PRODS.categories[0];
   const head=$('#cat-head'); if(head) head.innerHTML=`<h2>${t(cat.name)}</h2><p>${t(cat.desc)}</p>`;
-  grid.innerHTML=cat.products.map(p=>`<div class="prod" data-pid="${p.id}"><img src="${p.images[0]}" alt="${t(p.name)}" loading="lazy"><div class="info"><b>${t(p.name)}</b><span>${t(p.name)===p.name.en?'':p.name.en}</span></div></div>`).join('');
+  grid.innerHTML=cat.products.map(p=>`<a class="prod" href="/product/${p.slug}.html" data-pid="${p.id}"><img src="${p.images[0]}" alt="${t(p.name)}" loading="lazy"><div class="info"><b>${t(p.name)}</b><span>${t(p.name)===p.name.en?'':p.name.en}</span></div></a>`).join('');
 }
 
 const CONTACT_ICONS = {
@@ -524,15 +524,7 @@ document.addEventListener('DOMContentLoaded', async ()=>{
   if(ppop){
     document.addEventListener('click',(e)=>{
       if(e.target.closest('#product-pop')) return;
-      const prodEl=e.target.closest('.prod');
-      if(prodEl){
-        if(ppop.classList.contains('open')){
-          closeProductModal();
-        } else {
-          openProductModal(prodEl.dataset.pid, prodEl);
-        }
-        return;
-      }
+      if(e.target.closest('.prod')) return; // product cards now link to dedicated pages
       if(ppop.classList.contains('open')) closeProductModal();
     });
   }
