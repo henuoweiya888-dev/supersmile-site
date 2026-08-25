@@ -445,14 +445,21 @@ function renderAbout(){
 }
 
 const TITLES = {
-  en:{index:'Wire Harness Factory | Custom Wiring Harness | China Harness Factory | Super Smile',products:'Harness Products | Custom Wiring Harness | Automotive Diagnostic Cables',custom:'Custom Wire Harness | OEM/ODM Harness Factory',about:'About Us | Wire Harness Factory | Shenzhen Super Smile',contact:'Contact Harness Factory | Custom Harness Quote'},
+  en:{index:'Custom Wiring Harness Manufacturer in China | OEM/ODM | Super Smile',products:'Wire Harness Products | OBD2 Diagnostic Cables, Turbo Actuator Harness, J1939',custom:'Custom Wiring Harness | OEM/ODM Wire Harness Manufacturer China',about:'About Us | 3,000㎡ Wiring Harness Factory in Shenzhen, China',contact:'Contact the Wire Harness Factory | Get a Custom Harness Quote','turbo-actuator-harness':'Turbo Actuator Harness | OEM Turbo Actuator Wiring Harness Manufacturer','obd2-diagnostic-cable':'OBD2 Diagnostic Cable | Custom OBD2 Cable Manufacturer China','j1939-cable':'J1939 Cable | Heavy-Duty Truck Diagnostic Cable Manufacturer','custom-wiring-harness':'Custom Wiring Harness Manufacturer | OEM/ODM Wire Harness Factory China'},
   zh:{index:'线束工厂 | 定制线束 | 中国线束工厂 | 深圳市超斯迈尔科技有限公司',products:'线束产品中心 | 定制线束 | 汽车诊断线束 | 中国线束工厂',custom:'线束定制 | OEM/ODM线束工厂 | 中国线束定制厂家',about:'关于我们 | 线束工厂 | 深圳市超斯迈尔科技有限公司',contact:'联系线束工厂 | 定制线束询价 | 深圳市超斯迈尔科技有限公司'}
+};
+const DESCS = {
+  en:{index:'Shenzhen Super Smile is a 3,000㎡ custom wiring harness & cable assembly factory in China — OBD2 diagnostic cables, turbo actuator harnesses, heavy-duty J1939 cables. OEM/ODM, low MOQ, 7-day samples.',products:'Browse our stock & custom wire harness products: OBD2 diagnostic cables, heavy-duty J1939 cables, turbo actuator harnesses, EV/new-energy cables and more. OEM/ODM factory direct.',custom:'Custom wire harness & cable assemblies built from drawing, sample or pinout — MOQ from 10 pcs, 7-day samples, 100% continuity tested. OEM/ODM factory in Shenzhen, China.',about:'Meet Shenzhen Super Smile — a 3,000㎡ wiring harness factory with 100+ staff. OEM/ODM custom wire harnesses for automotive, turbo, medical, robotics, appliances and more.',contact:'Get a fast quote for custom wire harnesses, OBD2 diagnostic cables and turbo actuator harnesses. Contact us by WhatsApp, email or online form — we reply within 24 hours.','turbo-actuator-harness':'OEM turbo actuator connecting harness & pigtail manufacturer in China. Heat-resistant, built to drawing, sample or pinout — MOQ from 10 pcs, 7-day samples, 100% tested.','obd2-diagnostic-cable':'Custom OBD2 diagnostic cable manufacturer in China — OBD2 16-pin, heavy-duty truck and EV diagnostic cables, OEM/ODM, low MOQ, fast samples.','j1939-cable':'J1939 cable and heavy-duty truck diagnostic cable manufacturer — custom connectors, pinout and cable structure, OEM/ODM factory direct from China.','custom-wiring-harness':'Custom wiring harness manufacturer for OEM/ODM — automotive, turbo, medical, robotics, appliance harnesses from drawing or sample. MOQ 10 pcs, 7-day samples.'},
+  zh:{index:'深圳市超斯迈尔科技有限公司是专业线束工厂，提供定制线束、汽车诊断线、重卡J1939线束、新能源线束、涡轮增压执行器线束，OEM/ODM工厂直供。',products:'线束产品中心：现货诊断线、OBD2诊断线、重卡柴油诊断线、涡轮增压执行器连接线、转接头，支持OEM/ODM定制。',custom:'定制线束：连接器、针脚、线材结构、品牌包装均可定制，99%线束可根据图纸或样品开模。',about:'深圳市超斯迈尔科技有限公司，3000平方米线束工厂，100+员工，专业生产汽车诊断线束和定制线束。',contact:'联系深圳市超斯迈尔科技有限公司，获取定制线束、汽车诊断线、重卡线束、新能源线束报价。'}
 };
 function renderTitle(){
   const page=location.pathname.split('/').pop()||'index.html';
   const key=page.replace('.html','')||'index';
-  const map=TITLES[LANG]||TITLES.en;
-  document.title=map[key]||map.index||document.title;
+  const tmap=TITLES[LANG]||TITLES.en;
+  const dmap=DESCS[LANG]||DESCS.en;
+  if(tmap[key]) document.title=tmap[key];
+  const m=document.querySelector('meta[name="description"]');
+  if(m && dmap[key]) m.setAttribute('content', dmap[key]);
 }
 
 function renderFab(){
