@@ -64,7 +64,7 @@ function openProductModal(pid, prodEl){
   const p=findProduct(pid); if(!p) return;
   const pc=PC[LANG]||PC.en;
   const btn=$('#pm-contact-btn');
-  if(btn){ btn.textContent=pc.contact; btn.href='contact.html?products='+encodeURIComponent(pid); }
+  if(btn){ btn.textContent=pc.contact; btn.href='contact?products='+encodeURIComponent(pid); }
   const m=$('#product-pop');
   if(!m) return;
   positionPop(m, prodEl);
@@ -244,10 +244,10 @@ function renderLogoCompany(){
 function renderNav(){
   const nav=$('#nav-links'); if(!nav) return;
   const n=SITE.nav;
-  const links=[['index.html','home'],['custom.html','custom'],['products.html','products'],['about.html','about'],['contact.html','contact']];
-  const here=location.pathname.split('/').pop()||'index.html';
+  const links=[['/','home'],['custom','custom'],['products','products'],['about','about'],['contact','contact']];
+  const here=(location.pathname==='/'||location.pathname==='/index.html')?'/':location.pathname.split('/').pop();
   nav.innerHTML=links.map(([href,k])=>`<a href="${href}" class="${href===here?'active':''}">${t(n[k])}</a>`).join('')
-    +`<a href="contact.html" class="nav-cta">${t(n.quote)}</a>`;
+    +`<a href="contact" class="nav-cta">${t(n.quote)}</a>`;
 }
 
 function renderHero(){
@@ -331,7 +331,7 @@ function renderProductsTeaser(){
   const grid=$('#cat-cards');
   if(grid) grid.innerHTML=PRODS.categories.map(c=>{
     const img=c.products[0] && c.products[0].images[0] || '';
-    return `<a class="cat-card" href="products.html#${c.id}"><img src="${img}" alt="${t(c.name)}" loading="lazy"><div class="cat-body"><h3>${t(c.name)}</h3><p>${t(c.desc)}</p></div></a>`;
+    return `<a class="cat-card" href="products#${c.id}"><img src="${img}" alt="${t(c.name)}" loading="lazy"><div class="cat-body"><h3>${t(c.name)}</h3><p>${t(c.desc)}</p></div></a>`;
   }).join('');
 }
 
