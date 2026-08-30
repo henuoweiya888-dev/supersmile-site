@@ -1,16 +1,16 @@
 /* Super Smile site - 20 languages */
 let SITE = null, PRODS = null, LANG = 'en';
 const LANGS = [
-  {code:'en',name:'English',flag:'🇬🇧'},{code:'zh',name:'中文',flag:'🇨🇳'},
-  {code:'hi',name:'हिन्दी',flag:'🇮🇳'},{code:'es',name:'Español',flag:'🇪🇸'},
-  {code:'fr',name:'Français',flag:'🇫🇷'},{code:'ar',name:'العربية',flag:'🇸🇦'},
-  {code:'bn',name:'বাংলা',flag:'🇧🇩'},{code:'pt',name:'Português',flag:'🇵🇹'},
-  {code:'ru',name:'Русский',flag:'🇷🇺'},{code:'ur',name:'اردو',flag:'🇵🇰'},
-  {code:'id',name:'Indonesia',flag:'🇮🇩'},{code:'de',name:'Deutsch',flag:'🇩🇪'},
-  {code:'ja',name:'日本語',flag:'🇯🇵'},{code:'tr',name:'Türkçe',flag:'🇹🇷'},
-  {code:'vi',name:'Tiếng Việt',flag:'🇻🇳'},{code:'ko',name:'한국어',flag:'🇰🇷'},
-  {code:'it',name:'Italiano',flag:'🇮🇹'},{code:'nl',name:'Nederlands',flag:'🇳🇱'},
-  {code:'pl',name:'Polski',flag:'🇵🇱'},{code:'th',name:'ไทย',flag:'🇹🇭'}
+  {code:'en',name:'English'},{code:'zh',name:'中文'},
+  {code:'hi',name:'हिन्दी'},{code:'es',name:'Español'},
+  {code:'fr',name:'Français'},{code:'ar',name:'العربية'},
+  {code:'bn',name:'বাংলা'},{code:'pt',name:'Português'},
+  {code:'ru',name:'Русский'},{code:'ur',name:'اردو'},
+  {code:'id',name:'Indonesia'},{code:'de',name:'Deutsch'},
+  {code:'ja',name:'日本語'},{code:'tr',name:'Türkçe'},
+  {code:'vi',name:'Tiếng Việt'},{code:'ko',name:'한국어'},
+  {code:'it',name:'Italiano'},{code:'nl',name:'Nederlands'},
+  {code:'pl',name:'Polski'},{code:'th',name:'ไทย'}
 ];
 
 
@@ -212,8 +212,8 @@ function t(o){
 async function loadData(){
   if(SITE) return;
   const [s,p] = await Promise.all([
-    fetch('/data/site.json?v=20260830v1').then(r=>r.json()),
-    fetch('/data/products.json?v=20260830v1').then(r=>r.json())
+    fetch('/data/site.json?v=20260830v2').then(r=>r.json()),
+    fetch('/data/products.json?v=20260830v2').then(r=>r.json())
   ]);
   SITE=s; PRODS=p;
   const q=new URLSearchParams(location.search);
@@ -226,12 +226,27 @@ async function loadData(){
 function renderLangSelector(){
   const box = $('#lang-box'); if(!box) return;
   const cur = LANGS.find(l=>l.code===LANG) || LANGS[0];
-  box.innerHTML = `<button class="lang-btn" id="lang-btn">${cur.flag} ${cur.name} ▾</button>
-    <div class="lang-menu" id="lang-menu">${LANGS.map(l=>
-      `<button class="lang-opt ${l.code===LANG?'active':''}" data-lang="${l.code}">${l.flag} ${l.name}</button>`).join('')}</div>`;
+  box.innerHTML = `<button class="lang-btn" id="lang-btn" type="button" aria-haspopup="listbox" aria-expanded="false">
+      <span class="lang-globe">${ico('globe')}</span><span class="lang-current">${cur.name}</span>${ico('chevronDown','lang-chevron')}
+    </button>
+    <div class="lang-menu" id="lang-menu" role="listbox" aria-hidden="true">${LANGS.map(l=>
+      `<button class="lang-opt ${l.code===LANG?'active':''}" type="button" role="option" aria-selected="${l.code===LANG}" data-lang="${l.code}"><span class="lang-code">${l.code.toUpperCase()}</span><span class="lang-name">${l.name}</span>${l.code===LANG?ico('check','lang-check'):''}</button>`).join('')}</div>`;
   const btn=$('#lang-btn'), menu=$('#lang-menu');
-  btn.onclick=(e)=>{ e.stopPropagation(); menu.classList.toggle('open'); };
-  document.addEventListener('click',()=>menu.classList.remove('open'));
+  btn.setAttribute('aria-label',LANG==='zh'?'选择语言':'Choose language');
+  btn.onclick=(e)=>{
+    e.stopPropagation();
+    const open=menu.classList.toggle('open');
+    btn.setAttribute('aria-expanded',String(open));
+    menu.setAttribute('aria-hidden',String(!open));
+  };
+  if(!window.__langOutsideBound){
+    window.__langOutsideBound=true;
+    document.addEventListener('click',()=>{
+      const currentMenu=$('#lang-menu'), currentBtn=$('#lang-btn');
+      if(currentMenu){currentMenu.classList.remove('open');currentMenu.setAttribute('aria-hidden','true');}
+      if(currentBtn) currentBtn.setAttribute('aria-expanded','false');
+    });
+  }
   $$('.lang-opt', box).forEach(b=>b.onclick=()=>{
     LANG=b.dataset.lang; localStorage.setItem('lang', LANG); menu.classList.remove('open'); renderAll();
   });
@@ -260,7 +275,7 @@ function renderHero(){
   setText('#hero-btn1', t(hero.btn1));
   setText('#hero-btn2', t(hero.btn2));
   const st=$('#hero-stats');
-  if(st && SITE.stats) st.innerHTML=SITE.stats.map(s=>`<div class="stat"><b>${s.num}${s.unit?' '+s.unit:''}</b><span>${t(s.label)}</span></div>`).join('');
+  if(st && SITE.stats) st.innerHTML=SITE.stats.map(s=>`<div class="stat"><b>${s.icon?ico(s.icon,'stat-icon'):`${s.num}${s.unit?' '+s.unit:''}`}</b><span>${t(s.label)}</span></div>`).join('');
 }
 
 const ICONS = {
@@ -275,10 +290,30 @@ const ICONS = {
   medical:'<rect x="3" y="3" width="18" height="18" rx="3"/><line x1="12" y1="8" x2="12" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/>',
   robot:'<rect x="4" y="8" width="16" height="12" rx="2"/><path d="M12 8V5"/><circle cx="12" cy="4" r="1"/><circle cx="9" cy="13" r="1"/><circle cx="15" cy="13" r="1"/><path d="M9 17h6"/>',
   plane:'<path d="M22 2 11 13"/><path d="M22 2 15 22l-4-9-9-4z"/>',
-  wrench:'<path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>'
+  wrench:'<path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>',
+  globe:'<circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"/>',
+  chevronDown:'<path d="m7 9.5 5 5 5-5"/>',
+  chevronRight:'<path d="m9.5 6.5 5.5 5.5-5.5 5.5"/>',
+  arrowRight:'<path d="M5 12h13M14 7l5 5-5 5"/>',
+  check:'<path d="m5 12.5 4.2 4.2L19 7"/>',
+  checkCircle:'<circle cx="12" cy="12" r="9"/><path d="m8 12.3 2.7 2.7 5.6-6"/>',
+  close:'<path d="m7 7 10 10M17 7 7 17"/>',
+  mail:'<rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4.5 7 7.5 6 7.5-6"/>',
+  chat:'<path d="M20 11.5a8 8 0 0 1-8.4 8 8.8 8.8 0 0 1-3.5-.8L3.5 20l1.4-4.1A8 8 0 1 1 20 11.5Z"/><path d="M8.2 11.8h.01M12 11.8h.01M15.8 11.8h.01"/>',
+  chatPhone:'<path d="M20 11.5a8 8 0 0 1-8.4 8 8.8 8.8 0 0 1-3.5-.8L3.5 20l1.4-4.1A8 8 0 1 1 20 11.5Z"/><path d="M9 8.5c.7 2.7 2.8 4.8 5.5 5.5l1.1-1.1c.2-.2.5-.3.8-.2.5.2 1 .3 1.6.3"/>',
+  phone:'<path d="M8.7 3.5 6.3 4.6c-.8.4-1.2 1.3-1 2.1 1.5 6.1 6.2 10.8 12.3 12.3.9.2 1.8-.2 2.1-1l1.1-2.4-4.2-2-1.2 1.6c-2.8-1.2-5-3.4-6.2-6.2l1.6-1.2-2.1-4.3Z"/>',
+  mapPin:'<path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/>',
+  building:'<path d="M4 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16M16 9h2a2 2 0 0 1 2 2v10M8 7h4M8 11h4M8 15h4M8 19h4M2 21h20"/>',
+  image:'<rect x="3" y="4" width="18" height="16" rx="3"/><circle cx="9" cy="9" r="1.5"/><path d="m5 17 4.5-4.5 3 3 2.5-2.5 4 4"/>',
+  diagram:'<path d="M7 3h10v5H7zM4 16h7v5H4zM13 16h7v5h-7zM12 8v4M7.5 16v-2h9v2"/>',
+  ruler:'<path d="m4 17 13-13 3 3L7 20H4v-3Z"/><path d="m14 7 3 3M11 10l2 2M8 13l3 3"/>',
+  spark:'<path d="M12 3c.8 3.1 2.4 4.8 5.5 5.5C14.4 9.3 12.8 11 12 14c-.8-3-2.4-4.7-5.5-5.5C9.6 7.8 11.2 6.1 12 3Z"/><path d="M18.5 14.5c.4 1.5 1.2 2.3 2.5 2.7-1.3.4-2.1 1.2-2.5 2.8-.4-1.6-1.2-2.4-2.5-2.8 1.3-.4 2.1-1.2 2.5-2.7Z"/>',
+  network:'<circle cx="7" cy="12" r="2.5"/><circle cx="17" cy="6" r="2.5"/><circle cx="17" cy="18" r="2.5"/><path d="m9.3 10.8 5.4-3.6M9.3 13.2l5.4 3.6"/>',
+  storefront:'<path d="M4 10v10h16V10M3 10l2-6h14l2 6"/><path d="M3 10a3 3 0 0 0 5 2 3 3 0 0 0 4 0 3 3 0 0 0 4 0 3 3 0 0 0 5-2M9 20v-5h6v5"/>',
+  externalLink:'<path d="M14 5h5v5M19 5l-8 8"/><path d="M19 13v5a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2h5"/>'
 };
-function ico(name){
-  return `<svg class="ico-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">${ICONS[name]||ICONS.connector}</svg>`;
+function ico(name, extraClass=''){
+  return `<svg class="ico-svg${extraClass?' '+extraClass:''}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${ICONS[name]||ICONS.connector}</svg>`;
 }
 
 function renderCustom(){
@@ -287,7 +322,7 @@ function renderCustom(){
   setText('#ci-desc', t(SITE.custom_intro.desc));
   const f=$('#features');
   const fc=['connector','signal','cable','package'];
-  if(f && SITE.features) f.innerHTML=SITE.features.map((x,i)=>`<div class="card"><div class="card-head">${ico(fc[i])}<h3>${t(x.title)}</h3></div><p>${t(x.desc)}</p></div>`).join('');
+  if(f && SITE.features) f.innerHTML=SITE.features.map((x,i)=>`<div class="card"><div class="card-head"><span class="icon-tile">${ico(fc[i])}</span><h3>${t(x.title)}</h3></div><p>${t(x.desc)}</p></div>`).join('');
 }
 
 function renderProcess(){
@@ -295,7 +330,7 @@ function renderProcess(){
   setText('#pr-tag', t(SITE.process.tag));
   setText('#pr-title', t(SITE.process.title));
   const ps=$('#process-steps');
-  if(ps && SITE.process.steps) ps.innerHTML=SITE.process.steps.map((s,i)=>`${i>0?'<div class="step-arrow">→</div>':''}<div class="step"><div class="step-head"><span class="num">${s.num}</span><h4>${t(s.title)}</h4></div></div>`).join('');
+  if(ps && SITE.process.steps) ps.innerHTML=SITE.process.steps.map((s,i)=>`${i>0?`<div class="step-arrow">${ico('chevronRight')}</div>`:''}<div class="step"><div class="step-head"><span class="num">${s.num}</span><h4>${t(s.title)}</h4></div></div>`).join('');
 }
 
 function renderApps(){
@@ -303,7 +338,7 @@ function renderApps(){
   setText('#ap-title', t(SITE.apps.title));
   const a=$('#apps');
   const ac=['car','truck','battery','factory','medical','robot','plane','wrench'];
-  if(a && SITE.apps.items){ let items=SITE.apps.items[LANG]||SITE.apps.items.en||[]; if(typeof items==='string') items=items.split('|').map(x=>x.trim()).filter(Boolean); a.innerHTML=`<div class="cards cards-4">${items.map((x,i)=>`<div class="card"><div class="card-head">${ico(ac[i])}<h3>${x}</h3></div></div>`).join('')}</div>`; }
+  if(a && SITE.apps.items){ let items=SITE.apps.items[LANG]||SITE.apps.items.en||[]; if(typeof items==='string') items=items.split('|').map(x=>x.trim()).filter(Boolean); a.innerHTML=`<div class="cards cards-4">${items.map((x,i)=>`<div class="card"><div class="card-head"><span class="icon-tile">${ico(ac[i])}</span><h3>${x}</h3></div></div>`).join('')}</div>`; }
 }
 
 function renderFactory(){
@@ -339,7 +374,8 @@ function renderBlocks(){
   const c=$('#blocks'); if(!c || !SITE.blocks) return;
   c.innerHTML=SITE.blocks.map((b,i)=>{
     const hasImg=b.image?true:false, hasLink=b.link?true:false, rev=i%2===1?'block-rev':'';
-    return `<div class="block ${rev}">${hasImg?`<div class="block-img"><img src="${b.image}" alt="${t(b.title)}" loading="lazy"></div>`:''}<div class="block-txt"><h3>${t(b.title)}</h3><p>${t(b.text)}</p>${hasLink?`<a class="btn btn-primary" href="${b.link}">${t(b.link_text)||'Learn More'}</a>`:''}</div></div>`;
+    const linkLabel=(t(b.link_text)||'Learn More').replace(/\s*[→›]\s*$/,'');
+    return `<div class="block ${rev}">${hasImg?`<div class="block-img"><img src="${b.image}" alt="${t(b.title)}" loading="lazy"></div>`:''}<div class="block-txt"><h3>${t(b.title)}</h3><p>${t(b.text)}</p>${hasLink?`<a class="btn btn-primary btn-with-icon" href="${b.link}"><span>${linkLabel}</span>${ico('arrowRight','btn-icon')}</a>`:''}</div></div>`;
   }).join('');
 }
 
@@ -356,9 +392,8 @@ const FOOT_ICONS = {
   alibaba:'M3.996 4.517h5.291L8.01 6.324 4.153 7.506a1.668 1.668 0 0 0-1.165 1.601v5.786a1.668 1.668 0 0 0 1.165 1.6l3.857 1.183 1.277 1.807H3.996A3.996 3.996 0 0 1 0 15.487V8.513a3.996 3.996 0 0 1 3.996-3.996m16.008 0h-5.291l1.277 1.807 3.857 1.182c.715.227 1.17.889 1.165 1.601v5.786a1.668 1.668 0 0 1-1.165 1.6l-3.857 1.183-1.277 1.807h5.291A3.996 3.996 0 0 0 24 15.487V8.513a3.996 3.996 0 0 0-3.996-3.996m-4.007 8.345H8.002v-1.804h7.995Z'
 };
 function footIcon(name){
-  const d = FOOT_ICONS[name];
-  if(!d) return '';
-  return '<svg class="ficon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="currentColor" d="'+d+'"/></svg>';
+  const map={mail:'mail',whatsapp:'chatPhone',facebook:'network',alibaba:'storefront',link:'externalLink'};
+  return ico(map[name]||map.link,'ficon');
 }
 
 function renderFooter(){
@@ -405,6 +440,7 @@ const CONTACT_ICONS = {
   address:'<svg class="ci-ic" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="#1f5fd6" d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/></svg>',
   company:'<svg class="ci-ic" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path fill="#1f5fd6" d="M12 7V3H2v18h20V7H12zM6 19H4v-2h2v2zm0-4H4v-2h2v2zm0-4H4V9h2v2zm0-4H4V5h2v2zm4 12H8v-2h2v2zm0-4H8v-2h2v2zm0-4H8V9h2v2zm0-4H8V5h2v2zm10 12h-8v-2h2v-2h-2v-2h2v-2h-2V9h8v10zm-2-8h-2v2h2v-2zm0 4h-2v2h2v-2z"/></svg>'
 };
+const CONTACT_ICON_NAMES = {email:'mail',whatsapp:'chatPhone',phone:'phone',facebook:'network',alibaba:'storefront',address:'mapPin',company:'building'};
 const CL = {
   email:{en:'Email', zh:'邮箱'},
   whatsapp:{en:'WhatsApp', zh:'WhatsApp'},
@@ -418,7 +454,7 @@ const CL = {
 function renderContact(){
   const c=$('#contact-info'); if(!c || !SITE) return;
   const ct=SITE.contact, co=SITE.company;
-  const item=(ic,label,inner)=>`<div class="ci">${CONTACT_ICONS[ic]}<div><b>${t(CL[label])}</b>${inner}</div></div>`;
+  const item=(ic,label,inner)=>`<div class="ci"><span class="ci-icon">${ico(CONTACT_ICON_NAMES[ic]||'externalLink')}</span><div><b>${t(CL[label])}</b>${inner}</div></div>`;
   const phones=(ct.phones||[]).map(p=>`<span><a href="tel:${p.replace(/[^+\d]/g,'')}">${p}</a></span>`).join('');
   const short=u=>u.replace(/^https?:\/\//,'').replace(/^www\./,'').split('/')[0];
   const html =
@@ -465,12 +501,13 @@ function renderTitle(){
 function renderFab(){
   if(!SITE) return;
   const wa=$('#fab-wa'); if(wa && SITE.contact) wa.href = SITE.contact.whatsapp_link || 'https://wa.me/447516289817';
-  const em=$('#fab-email'); if(em && SITE.contact){ em.href = 'mailto:' + SITE.contact.email; em.textContent = LANG==='zh' ? '邮箱' : 'Email'; }
-  const online=$('#fab-online'); if(online) online.textContent = LANG==='zh' ? '在线联系' : 'Online Message';
+  const em=$('#fab-email'); if(em && SITE.contact){ em.href = 'mailto:' + SITE.contact.email; em.innerHTML = ico('mail','fab-item-icon')+'<span>'+(LANG==='zh' ? '邮箱' : 'Email')+'</span>'; }
+  const online=$('#fab-online'); if(online) online.innerHTML = ico('chat','fab-item-icon')+'<span>'+(LANG==='zh' ? '在线联系' : 'Online Message')+'</span>';
+  if(wa) wa.innerHTML=ico('chatPhone','fab-item-icon')+'<span>WhatsApp</span>';
   const main=$('#fab-main'), menu=$('#fab-menu');
   if(main && menu){
     const label=LANG==='zh'?'联系询价':'Contact';
-    main.innerHTML='<span class="fab-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 11.4a8.2 8.2 0 0 1-8.7 8.1 9.2 9.2 0 0 1-3.7-.8L3.5 20l1.4-4.2a8.2 8.2 0 1 1 15.6-4.4Z"/><path d="M8.2 11.8h.01M12 11.8h.01M15.8 11.8h.01"/></svg></span><span class="fab-label">'+label+'</span>';
+    main.innerHTML='<span class="fab-icon">'+ico('chat')+'</span><span class="fab-label">'+label+'</span>';
     main.setAttribute('aria-label',LANG==='zh'?'联系与询价':'Contact and inquiry');
     main.setAttribute('aria-controls','fab-menu');
     const setFabOpen=(open)=>{
@@ -504,12 +541,29 @@ function renderModal(){
   setText('#modal-label-email', u.email); setText('#modal-label-message', u.message);
   setText('#modal-submit', u.send); setText('#modal-wa', u.wa);
   const wa=$('#modal-wa'); if(wa && SITE.contact) wa.href = SITE.contact.whatsapp_link || 'https://wa.me/447516289817';
+  $$('.modal-close').forEach(btn=>{
+    btn.innerHTML=ico('close','modal-close-icon');
+    btn.setAttribute('aria-label',LANG==='zh'?'关闭':'Close');
+  });
 }
 
 function renderHotProduct(){
   const h=HOT[LANG]||HOT.en;
   setText('#hot-title', h.title);
   setText('#hot-desc', h.desc);
+  const badge=$('.hot-badge');
+  if(badge) badge.innerHTML=ico('spark','hot-icon')+'<span>Hot</span>';
+}
+
+function hydrateStaticIcons(){
+  const navToggle=$('#nav-toggle');
+  if(navToggle){
+    if(!navToggle.querySelector('.menu-icon')) navToggle.innerHTML='<span class="menu-icon" aria-hidden="true"><span></span><span></span></span>';
+    navToggle.setAttribute('aria-label',LANG==='zh'?'打开导航菜单':'Open navigation menu');
+  }
+  $$('[data-ui-icon]').forEach(el=>{
+    if(!el.querySelector('svg')) el.innerHTML=ico(el.dataset.uiIcon||'connector');
+  });
 }
 
 /* Apple-inspired progressive enhancement layer.
@@ -655,6 +709,7 @@ function renderAll(){
   renderHero(); renderHotProduct(); renderCustom(); renderProcess(); renderApps();
   renderFactory(); renderCerts(); renderProductsTeaser(); renderBlocks(); renderCTA();
   renderFooter(); renderProductsPage(); renderContact(); renderAbout(); renderTitle(); renderFab(); renderProductSelect(); bindPsToggle();
+  hydrateStaticIcons();
   syncDocumentLanguage();
   if(window.__siteDecorated) requestAnimationFrame(refreshMotion);
 }

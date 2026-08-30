@@ -605,7 +605,8 @@
    }
   },
   {
-   "num": "√",
+   "num": "",
+   "icon": "checkCircle",
    "unit": "",
    "label": {
     "en": "Factory Audit Welcome",
@@ -701,7 +702,7 @@
  },
  "features": [
   {
-   "ico": "🔌",
+   "ico": "connector",
    "title": {
     "en": "Connector & Terminal",
     "zh": "接口与端子定制",
@@ -748,7 +749,7 @@
    }
   },
   {
-   "ico": "🧠",
+   "ico": "signal",
    "title": {
     "en": "Pinout & Signal Route",
     "zh": "针脚与信号定制",
@@ -795,7 +796,7 @@
    }
   },
   {
-   "ico": "📏",
+   "ico": "cable",
    "title": {
     "en": "Cable Structure",
     "zh": "线材结构定制",
@@ -842,7 +843,7 @@
    }
   },
   {
-   "ico": "📦",
+   "ico": "package",
    "title": {
     "en": "Branding & Packaging",
     "zh": "品牌与包装定制",
@@ -1946,102 +1947,102 @@
   {
    "code": "en",
    "name": "English",
-   "flag": "🇬🇧"
+   "flag": "EN"
   },
   {
    "code": "zh",
    "name": "中文",
-   "flag": "🇨🇳"
+   "flag": "ZH"
   },
   {
    "code": "hi",
    "name": "हिन्दी",
-   "flag": "🇮🇳"
+   "flag": "HI"
   },
   {
    "code": "es",
    "name": "Español",
-   "flag": "🇪🇸"
+   "flag": "ES"
   },
   {
    "code": "fr",
    "name": "Français",
-   "flag": "🇫🇷"
+   "flag": "FR"
   },
   {
    "code": "ar",
    "name": "العربية",
-   "flag": "🇸🇦"
+   "flag": "AR"
   },
   {
    "code": "bn",
    "name": "বাংলা",
-   "flag": "🇧🇩"
+   "flag": "BN"
   },
   {
    "code": "pt",
    "name": "Português",
-   "flag": "🇵🇹"
+   "flag": "PT"
   },
   {
    "code": "ru",
    "name": "Русский",
-   "flag": "🇷🇺"
+   "flag": "RU"
   },
   {
    "code": "ur",
    "name": "اردو",
-   "flag": "🇵🇰"
+   "flag": "UR"
   },
   {
    "code": "id",
    "name": "Bahasa Indonesia",
-   "flag": "🇮🇩"
+   "flag": "ID"
   },
   {
    "code": "de",
    "name": "Deutsch",
-   "flag": "🇩🇪"
+   "flag": "DE"
   },
   {
    "code": "ja",
    "name": "日本語",
-   "flag": "🇯🇵"
+   "flag": "JA"
   },
   {
    "code": "tr",
    "name": "Türkçe",
-   "flag": "🇹🇷"
+   "flag": "TR"
   },
   {
    "code": "vi",
    "name": "Tiếng Việt",
-   "flag": "🇻🇳"
+   "flag": "VI"
   },
   {
    "code": "ko",
    "name": "한국어",
-   "flag": "🇰🇷"
+   "flag": "KO"
   },
   {
    "code": "it",
    "name": "Italiano",
-   "flag": "🇮🇹"
+   "flag": "IT"
   },
   {
    "code": "nl",
    "name": "Nederlands",
-   "flag": "🇳🇱"
+   "flag": "NL"
   },
   {
    "code": "pl",
    "name": "Polski",
-   "flag": "🇵🇱"
+   "flag": "PL"
   },
   {
    "code": "th",
    "name": "ไทย",
-   "flag": "🇹🇭"
+   "flag": "TH"
   }
  ]
 }
