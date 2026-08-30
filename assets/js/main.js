@@ -377,7 +377,6 @@ const ICONS = {
   image:'<rect x="3" y="4" width="18" height="16" rx="3"/><circle cx="9" cy="9" r="1.5"/><path d="m5 17 4.5-4.5 3 3 2.5-2.5 4 4"/>',
   diagram:'<path d="M7 3h10v5H7zM4 16h7v5H4zM13 16h7v5h-7zM12 8v4M7.5 16v-2h9v2"/>',
   ruler:'<path d="m4 17 13-13 3 3L7 20H4v-3Z"/><path d="m14 7 3 3M11 10l2 2M8 13l3 3"/>',
-  flame:'<path fill="currentColor" stroke="none" d="M13.3 2.2c.5 3-1 4.7-2.5 6.3-1.3 1.4-2.5 2.9-2.5 5.3 0 2 1.4 3.6 3.4 3.9-1-1.2-.9-2.7-.2-3.8.8-1.2 2-2.1 2.1-4.2 2.1 1.7 3.4 3.7 3.4 6 0 3.5-2.6 6.1-6 6.1s-6.3-2.7-6.3-6.4c0-3.1 1.8-5.4 3.7-7.4 1.7-1.8 3.5-3.3 4.9-5.8Z"/>',
   spark:'<path d="M12 3c.8 3.1 2.4 4.8 5.5 5.5C14.4 9.3 12.8 11 12 14c-.8-3-2.4-4.7-5.5-5.5C9.6 7.8 11.2 6.1 12 3Z"/><path d="M18.5 14.5c.4 1.5 1.2 2.3 2.5 2.7-1.3.4-2.1 1.2-2.5 2.8-.4-1.6-1.2-2.4-2.5-2.8 1.3-.4 2.1-1.2 2.5-2.7Z"/>',
   network:'<circle cx="7" cy="12" r="2.5"/><circle cx="17" cy="6" r="2.5"/><circle cx="17" cy="18" r="2.5"/><path d="m9.3 10.8 5.4-3.6M9.3 13.2l5.4 3.6"/>',
   storefront:'<path d="M4 10v10h16V10M3 10l2-6h14l2 6"/><path d="M3 10a3 3 0 0 0 5 2 3 3 0 0 0 4 0 3 3 0 0 0 4 0 3 3 0 0 0 5-2M9 20v-5h6v5"/>',
@@ -661,15 +660,6 @@ function renderHotProduct(){
     title.append(prefix,name);
   }
   setText('#hot-desc', cat?t(cat.desc):t(SITE.products_teaser.desc));
-  const badge=$('.hot-badge');
-  if(badge){
-    badge.setAttribute('aria-hidden','true');
-    badge.innerHTML='<span class="hot-flame-cluster">'+
-      ico('flame','hot-flame hot-flame-left')+
-      ico('flame','hot-flame hot-flame-main')+
-      ico('flame','hot-flame hot-flame-right')+
-    '</span>';
-  }
 }
 
 function hydrateStaticIcons(){
