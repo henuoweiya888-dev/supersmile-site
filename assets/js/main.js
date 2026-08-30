@@ -212,8 +212,8 @@ function t(o){
 async function loadData(){
   if(SITE) return;
   const [s,p] = await Promise.all([
-    fetch('/data/site.json?v=20260825v3').then(r=>r.json()),
-    fetch('/data/products.json?v=20260825v3').then(r=>r.json())
+    fetch('/data/site.json?v=20260830v1').then(r=>r.json()),
+    fetch('/data/products.json?v=20260830v1').then(r=>r.json())
   ]);
   SITE=s; PRODS=p;
   const q=new URLSearchParams(location.search);
@@ -503,17 +503,173 @@ function renderHotProduct(){
   setText('#hot-desc', h.desc);
 }
 
+/* Apple-inspired progressive enhancement layer.
+   All features remain usable when motion APIs are unavailable. */
+let __revealObserver=null;
+
+function syncDocumentLanguage(){
+  document.documentElement.lang=LANG||'en';
+  document.documentElement.dir=['ar','ur'].includes(LANG)?'rtl':'ltr';
+}
+
+function pageIdentity(){
+  const path=location.pathname.replace(/\/+$/,'')||'/';
+  const leaf=(path.split('/').pop()||'index').replace(/\.html$/,'');
+  if(path==='/' || leaf==='index') return 'page-home';
+  if(path.includes('/product/')) return 'page-product';
+  if(['turbo-actuator-harness','obd2-diagnostic-cable','j1939-cable','custom-wiring-harness'].includes(leaf)) return 'page-landing';
+  return 'page-'+leaf;
+}
+
+function decoratePage(){
+  if(window.__siteDecorated) return;
+  window.__siteDecorated=true;
+  const body=document.body;
+  const identity=pageIdentity();
+  body.classList.add('site-redesign',identity);
+
+  const main=$('main');
+  if(main){
+    if(identity==='page-product') main.classList.add('product-main');
+    if(identity==='page-landing'){
+      const crumb=main.querySelector('nav[aria-label="Breadcrumb"]');
+      if(crumb) crumb.classList.add('breadcrumb');
+      const actions=[...main.children].find(el=>el.tagName==='DIV' && el.querySelector('.btn'));
+      if(actions) actions.classList.add('landing-actions');
+      const sections=[...main.children].filter(el=>el.tagName==='SECTION');
+      if(sections.length) sections[sections.length-1].classList.add('landing-cta');
+    }
+  }
+
+  const crumb=$('nav[aria-label="Breadcrumb"]');
+  if(crumb) crumb.classList.add('breadcrumb');
+
+  const fab=$('#fab-main');
+  if(fab){
+    fab.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.5 9.5 9.5 0 0 1-4-.9L3 21l1.7-4.7A8.4 8.4 0 1 1 21 11.5Z"/><path d="M8 12h.01M12 12h.01M16 12h.01"/></svg>';
+    fab.setAttribute('aria-label',LANG==='zh'?'联系与询价':'Contact and inquiry');
+  }
+
+  setupHeaderMotion();
+  setupProductGallery();
+  refreshMotion();
+  requestAnimationFrame(()=>body.classList.add('page-ready'));
+}
+
+function setupHeaderMotion(){
+  if(window.__headerMotionBound) return;
+  window.__headerMotionBound=true;
+  const header=$('.header');
+  if(!header) return;
+  let ticking=false;
+  const update=()=>{
+    header.classList.toggle('scrolled',window.scrollY>16);
+    ticking=false;
+  };
+  window.addEventListener('scroll',()=>{
+    if(!ticking){ticking=true;requestAnimationFrame(update);}
+  },{passive:true});
+  update();
+}
+
+function setupProductGallery(){
+  const mainImg=$('.pd-img img');
+  const thumbs=$$('.pd-gallery img');
+  if(!mainImg || !thumbs.length || mainImg.dataset.galleryBound) return;
+  mainImg.dataset.galleryBound='true';
+  const activate=(thumb)=>{
+    if(!thumb || !thumb.src || mainImg.src===thumb.src) return;
+    mainImg.classList.add('is-switching');
+    const preload=new Image();
+    preload.onload=()=>{
+      mainImg.src=thumb.src;
+      mainImg.alt=thumb.alt||mainImg.alt;
+      thumbs.forEach(t=>t.classList.toggle('active',t===thumb));
+      requestAnimationFrame(()=>mainImg.classList.remove('is-switching'));
+    };
+    preload.onerror=()=>mainImg.classList.remove('is-switching');
+    preload.src=thumb.src;
+  };
+  thumbs.forEach(thumb=>{
+    thumb.tabIndex=0;
+    thumb.setAttribute('role','button');
+    thumb.setAttribute('aria-label',(LANG==='zh'?'查看图片：':'View image: ')+(thumb.alt||''));
+    thumb.addEventListener('click',()=>activate(thumb));
+    thumb.addEventListener('keydown',e=>{
+      if(e.key==='Enter'||e.key===' '){e.preventDefault();activate(thumb);}
+    });
+  });
+}
+
+function refreshMotion(){
+  const body=document.body;
+  if(!body || matchMedia('(prefers-reduced-motion: reduce)').matches){
+    body&&body.classList.add('motion-ready');
+    return;
+  }
+  body.classList.add('motion-ready');
+  const items=$$(
+    'section:not(.hero) .sec-head, .hot-wrap, .two-col, .contact-grid, '+
+    '.page-landing main > section, .page-product .pd-wrap'
+  );
+  const groups=$$(
+    '#features, #apps .cards, .process-steps, #fact-imgs, #cert-grid, '+
+    '#cat-cards, #prod-grid, #blocks, .page-custom .cards-2, .pd-gallery, .pd-adv'
+  );
+
+  items.forEach(el=>el.classList.add('reveal-item'));
+  groups.forEach(group=>{
+    group.classList.add('reveal-group');
+    [...group.children].forEach((child,i)=>{
+      child.classList.add('reveal-child');
+      child.style.setProperty('--reveal-delay',Math.min(i,7)*65+'ms');
+    });
+  });
+
+  const targets=[...new Set([...items,...groups])].filter(el=>!el.dataset.revealObserved);
+  if(!('IntersectionObserver' in window)){
+    targets.forEach(el=>el.classList.add('is-visible'));
+    return;
+  }
+  if(!__revealObserver){
+    __revealObserver=new IntersectionObserver(entries=>{
+      entries.forEach(entry=>{
+        if(entry.isIntersecting){
+          entry.target.classList.add('is-visible');
+          __revealObserver.unobserve(entry.target);
+        }
+      });
+    },{rootMargin:'0px 0px -9% 0px',threshold:.08});
+  }
+  targets.forEach(el=>{
+    el.dataset.revealObserved='true';
+    __revealObserver.observe(el);
+  });
+}
+
 function renderAll(){
   renderNav(); renderLogoCompany(); renderLangSelector();
   renderHero(); renderHotProduct(); renderCustom(); renderProcess(); renderApps();
   renderFactory(); renderCerts(); renderProductsTeaser(); renderBlocks(); renderCTA();
   renderFooter(); renderProductsPage(); renderContact(); renderAbout(); renderTitle(); renderFab(); renderProductSelect(); bindPsToggle();
+  syncDocumentLanguage();
+  if(window.__siteDecorated) requestAnimationFrame(refreshMotion);
 }
 
 document.addEventListener('DOMContentLoaded', async ()=>{
   try{ await loadData(); }catch(e){ console.error(e); return; }
   renderAll();
-  const tg=$('#nav-toggle'); if(tg) tg.onclick=()=>{ $('#nav-links').classList.toggle('open'); };
+  decoratePage();
+  const tg=$('#nav-toggle'); if(tg){
+    tg.setAttribute('aria-label',LANG==='zh'?'打开导航菜单':'Open navigation menu');
+    tg.setAttribute('aria-expanded','false');
+    tg.onclick=()=>{
+      const nav=$('#nav-links'); if(!nav) return;
+      const open=nav.classList.toggle('open');
+      tg.setAttribute('aria-expanded',String(open));
+      document.body.classList.toggle('nav-open',open);
+    };
+  }
   const form=$('#contact-form');
   if(form) form.onsubmit=(ev)=>{ ev.preventDefault(); const name=$('#cf-name').value, email=$('#cf-email').value, msg=$('#cf-msg').value;
     const prodItems = selectedProducts.map(pid=>{const p=findProduct(pid); if(!p) return '- '+pid; const img=p.images&&p.images[0]?location.origin+p.images[0]:''; return '- '+t(p.name)+(img?'\n  '+img:'');}).join('\n');
@@ -537,4 +693,12 @@ document.addEventListener('DOMContentLoaded', async ()=>{
     if(mf) mf.onsubmit=(ev)=>{ ev.preventDefault(); const name=$('#modal-name').value, email=$('#modal-email').value, msg=$('#modal-message').value;
       sendMail('Website inquiry - '+name, 'Name: '+name+'\nEmail: '+email+'\n\n'+msg, email); };
   }
+  document.addEventListener('keydown',e=>{
+    if(e.key==='Escape'){
+      closeModal(); closeProductModal();
+      const nav=$('#nav-links'); if(nav) nav.classList.remove('open');
+      document.body.classList.remove('nav-open');
+      const tg=$('#nav-toggle'); if(tg) tg.setAttribute('aria-expanded','false');
+    }
+  });
 });
