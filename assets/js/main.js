@@ -16,8 +16,8 @@ const LANGS = [
 
 
 const HOT = {
-  en:{title:'Hot Products · Turbo Actuator Connecting Harness', desc:'Heat-resistant fiberglass tube, custom OEM/ODM for turbo actuator wiring. Samples available.'},
-  zh:{title:'热卖产品·涡轮增压执行器连接线', desc:'耐高温玻纤管，适配涡轮执行器线束定制，OEM/ODM可打样。'}
+  en:{title:'Turbo Actuator Harness', desc:'Heat-resistant fiberglass tube, custom OEM/ODM for turbo actuator wiring. Samples available.'},
+  zh:{title:'涡轮执行器连接线束', desc:'耐高温玻纤管，适配涡轮执行器线束定制，OEM/ODM可打样。'}
 };
 
 const UI = {
@@ -56,15 +56,24 @@ function findProduct(pid){
   }
   return null;
 }
+function findProductCategory(product){
+  if(!PRODS || !product) return null;
+  return PRODS.categories.find(c=>(c.products||[]).some(p=>p.id===product.id))||null;
+}
+function productDisplayName(product,category=findProductCategory(product)){
+  if(!product) return '';
+  if(LANG==='en' || LANG==='zh') return product.name[LANG] || product.name.en || product.id;
+  return `${category?t(category.name):t(SITE.nav.products)} · ${String(product.id||'').toUpperCase()}`;
+}
 function getUrlProducts(){
   const q=new URLSearchParams(location.search);
   return (q.get('products')||'').split(',').map(s=>s.trim()).filter(Boolean);
 }
 function openProductModal(pid, prodEl){
   const p=findProduct(pid); if(!p) return;
-  const pc=PC[LANG]||PC.en;
+  const pc=productCopy();
   const btn=$('#pm-contact-btn');
-  if(btn){ btn.textContent=pc.contact; btn.href='contact?products='+encodeURIComponent(pid); }
+  if(btn){ btn.textContent=pc.contact; btn.href=routeWithLang('/contact?products='+encodeURIComponent(pid)); }
   const m=$('#product-pop');
   if(!m) return;
   positionPop(m, prodEl);
@@ -124,11 +133,11 @@ function sendMail(subject, body, customerEmail){
   if(r.compose){
     copyText('To: '+to+'\nSubject: '+subject+'\n\n'+body);
     window.open(r.compose, '_blank');
-    showToast(LANG==='zh' ? ('已打开 '+r.provider+' 写信页面，内容已复制，请确认后发送') : ('Opened '+r.provider+' compose, content copied. Please review and send.'));
+    showToast(r.provider+' ✓');
   } else if(r.login){
     copyText('To: '+to+'\nSubject: '+subject+'\n\n'+body);
     window.open(r.login, '_blank');
-    showToast(LANG==='zh' ? ('已复制邮件内容，请在 '+r.provider+' 登录后粘贴发送') : ('Content copied. Please log in to '+r.provider+' and paste to send.'));
+    showToast(r.provider+' ✓');
   } else {
     window.location.href='mailto:'+to+'?subject='+encodeURIComponent(subject)+'&body='+encodeURIComponent(body);
   }
@@ -136,7 +145,7 @@ function sendMail(subject, body, customerEmail){
 
 function renderProductSelect(){
   const panel=$('#ps-panel'); if(!panel || !PRODS) return;
-  const pc=PC[LANG]||PC.en;
+  const pc=productCopy();
   if(!window.__psInit){
     window.__psInit=true;
     const preset=getUrlProducts();
@@ -147,7 +156,7 @@ function renderProductSelect(){
     PRODS.categories.map(c=>{
       const prods=c.products||[];
       return `<div class="ps-group"><div class="ps-group-title">${t(c.name)}</div>`+
-        prods.map(p=>{const sk=Object.values(p.name||{}).join(' ').toLowerCase().replace(/"/g,'&quot;'); return `<label class="ps-item" data-search="${sk}"><input type="checkbox" value="${p.id}" ${selectedProducts.includes(p.id)?'checked':''}> <img src="${p.images[0]}" alt="${t(p.name)}" loading="lazy"> <span>${t(p.name)}</span></label>`;}).join('')+
+        prods.map(p=>{const sk=Object.values(p.name||{}).join(' ').toLowerCase().replace(/"/g,'&quot;'); const pn=productDisplayName(p,c); return `<label class="ps-item" data-search="${sk}"><input type="checkbox" value="${p.id}" ${selectedProducts.includes(p.id)?'checked':''}> <img src="${p.images[0]}" alt="${pn}" loading="lazy"> <span>${pn}</span></label>`;}).join('')+
         `</div>`;
     }).join('');
   const sInput=$('#ps-search');
@@ -178,14 +187,14 @@ function renderProductSelect(){
   updatePsTrigger();
 }
 function updatePsTrigger(){
-  const pc=PC[LANG]||PC.en;
+  const pc=productCopy();
   const trig=$('#ps-trigger');
   const noneRow=$('#ps-none-row');
   if(noneRow) noneRow.classList.toggle('active', selectedProducts.length===0);
   if(!trig) return;
   if(selectedProducts.length===0){ trig.textContent=pc.trigger; return; }
   if(selectedProducts.length<=2){
-    trig.textContent=selectedProducts.map(pid=>{const p=findProduct(pid);return p?t(p.name):pid;}).join(', ');
+    trig.textContent=selectedProducts.map(pid=>{const p=findProduct(pid);return p?productDisplayName(p):pid;}).join(', ');
     return;
   }
   trig.textContent=selectedProducts.length+' '+pc.sel;
@@ -194,8 +203,16 @@ function bindPsToggle(){
   const trig=$('#ps-trigger'), panel=$('#ps-panel');
   if(!trig||!panel||window.__psBound) return;
   window.__psBound=true;
-  trig.onclick=(e)=>{ e.stopPropagation(); panel.classList.toggle('open'); };
-  document.addEventListener('click',(e)=>{ if(!e.target.closest('#ps')) panel.classList.remove('open'); });
+  panel.setAttribute('aria-hidden',String(!panel.classList.contains('open')));
+  trig.setAttribute('aria-controls','ps-panel');
+  trig.setAttribute('aria-expanded',String(panel.classList.contains('open')));
+  const setOpen=(open)=>{
+    panel.classList.toggle('open',open);
+    panel.setAttribute('aria-hidden',String(!open));
+    trig.setAttribute('aria-expanded',String(open));
+  };
+  trig.onclick=(e)=>{ e.stopPropagation(); setOpen(!panel.classList.contains('open')); };
+  document.addEventListener('click',(e)=>{ if(!e.target.closest('#ps')) setOpen(false); });
 }
 
 const $ = (s, el=document) => el.querySelector(s);
@@ -209,11 +226,49 @@ function t(o){
   return o[LANG] || o.en || o.zh || Object.values(o).find(v=>v) || '';
 }
 
+function currentUI(){ return UI[LANG] || UI.en; }
+function productCopy(){
+  if(PC[LANG]) return PC[LANG];
+  const products=SITE ? t(SITE.nav.products) : '';
+  const quote=SITE ? t(SITE.nav.quote) : '';
+  return {
+    contact:quote,
+    label:products,
+    trigger:products+'…',
+    sel:'✓',
+    none:'—',
+    search:products+'…'
+  };
+}
+function routeWithLang(href){
+  if(!href || /^(?:#|mailto:|tel:|javascript:)/i.test(href)) return href;
+  try{
+    const url=new URL(href,location.origin);
+    if(url.origin!==location.origin) return href;
+    url.searchParams.set('lang',LANG);
+    return url.pathname+url.search+url.hash;
+  }catch(e){ return href; }
+}
+function syncLanguageUrl(){
+  try{
+    const url=new URL(location.href);
+    url.searchParams.set('lang',LANG);
+    history.replaceState(history.state,'',url.pathname+url.search+url.hash);
+  }catch(e){}
+}
+function localizeInternalLinks(){
+  $$('a[href]').forEach(a=>{
+    const href=a.getAttribute('href');
+    const localized=routeWithLang(href);
+    if(localized!==href) a.setAttribute('href',localized);
+  });
+}
+
 async function loadData(){
   if(SITE) return;
   const [s,p] = await Promise.all([
-    fetch('/data/site.json?v=20260830v2').then(r=>r.json()),
-    fetch('/data/products.json?v=20260830v2').then(r=>r.json())
+    fetch('/data/site.json?v=20260831v6').then(r=>r.json()),
+    fetch('/data/products.json?v=20260831v6').then(r=>r.json())
   ]);
   SITE=s; PRODS=p;
   const q=new URLSearchParams(location.search);
@@ -232,7 +287,7 @@ function renderLangSelector(){
     <div class="lang-menu" id="lang-menu" role="listbox" aria-hidden="true">${LANGS.map(l=>
       `<button class="lang-opt ${l.code===LANG?'active':''}" type="button" role="option" aria-selected="${l.code===LANG}" data-lang="${l.code}"><span class="lang-code">${l.code.toUpperCase()}</span><span class="lang-name">${l.name}</span>${l.code===LANG?ico('check','lang-check'):''}</button>`).join('')}</div>`;
   const btn=$('#lang-btn'), menu=$('#lang-menu');
-  btn.setAttribute('aria-label',LANG==='zh'?'选择语言':'Choose language');
+  btn.setAttribute('aria-label',cur.name);
   btn.onclick=(e)=>{
     e.stopPropagation();
     const open=menu.classList.toggle('open');
@@ -248,7 +303,11 @@ function renderLangSelector(){
     });
   }
   $$('.lang-opt', box).forEach(b=>b.onclick=()=>{
-    LANG=b.dataset.lang; localStorage.setItem('lang', LANG); menu.classList.remove('open'); renderAll();
+    LANG=b.dataset.lang;
+    localStorage.setItem('lang', LANG);
+    syncLanguageUrl();
+    menu.classList.remove('open');
+    renderAll();
   });
 }
 
@@ -259,23 +318,34 @@ function renderLogoCompany(){
 function renderNav(){
   const nav=$('#nav-links'); if(!nav) return;
   const n=SITE.nav;
-  const links=[['/','home'],['custom','custom'],['products','products'],['about','about'],['contact','contact']];
-  const here=(location.pathname==='/'||location.pathname==='/index.html')?'/':location.pathname.split('/').pop();
+  const links=[['/','home'],['/custom','custom'],['/products','products'],['/about','about'],['/contact','contact']];
+  const here=(location.pathname||'/').replace(/\/index\.html$/,'/').replace(/\.html$/,'').replace(/\/$/,'')||'/';
   nav.innerHTML=links.map(([href,k])=>`<a href="${href}" class="${href===here?'active':''}">${t(n[k])}</a>`).join('')
-    +`<a href="contact" class="nav-cta">${t(n.quote)}</a>`;
+    +`<a href="/contact" class="nav-cta">${t(n.quote)}</a>`;
 }
 
 function renderHero(){
   if(!SITE.hero) return;
   const h=$('#hero'); const hero=SITE.hero;
-  if(h){ h.style.backgroundImage=`linear-gradient(135deg, rgba(10,37,64,.94), rgba(18,58,99,.9), rgba(26,79,138,.88)), url(${hero.image})`; h.style.backgroundSize='cover'; h.style.backgroundPosition='center'; }
+  if(h && !h.querySelector('.hero-media')){
+    h.style.backgroundImage=`linear-gradient(135deg, rgba(10,37,64,.94), rgba(18,58,99,.9), rgba(26,79,138,.88)), url(${hero.image})`;
+    h.style.backgroundSize='cover';
+    h.style.backgroundPosition='center';
+  }else if(h){
+    h.style.removeProperty('background-image');
+    h.style.removeProperty('background-size');
+    h.style.removeProperty('background-position');
+  }
   setText('#hero-badge', t(hero.badge));
   setHTML('#hero-title', t(hero.title));
   setText('#hero-sub', t(hero.subtitle));
   setText('#hero-btn1', t(hero.btn1));
   setText('#hero-btn2', t(hero.btn2));
   const st=$('#hero-stats');
-  if(st && SITE.stats) st.innerHTML=SITE.stats.map(s=>`<div class="stat"><b>${s.icon?ico(s.icon,'stat-icon'):`${s.num}${s.unit?' '+s.unit:''}`}</b><span>${t(s.label)}</span></div>`).join('');
+  if(st && SITE.stats) st.innerHTML=SITE.stats.map(s=>{
+    const unit=typeof s.unit==='object'?t(s.unit):(s.unit||'');
+    return `<div class="stat"><b>${s.icon?ico(s.icon,'stat-icon'):`${s.num}${unit?' '+unit:''}`}</b><span>${t(s.label)}</span></div>`;
+  }).join('');
 }
 
 const ICONS = {
@@ -322,7 +392,7 @@ function renderCustom(){
   setText('#ci-desc', t(SITE.custom_intro.desc));
   const f=$('#features');
   const fc=['connector','signal','cable','package'];
-  if(f && SITE.features) f.innerHTML=SITE.features.map((x,i)=>`<div class="card"><div class="card-head"><span class="icon-tile">${ico(fc[i])}</span><h3>${t(x.title)}</h3></div><p>${t(x.desc)}</p></div>`).join('');
+  if(f && SITE.features) f.innerHTML=SITE.features.map((x,i)=>`<div class="card">${x.image?`<div class="feature-media"><img src="${x.image}" alt="${t(x.title)}" loading="lazy"></div>`:''}<div class="card-head"><span class="icon-tile">${ico(fc[i])}</span><h3>${t(x.title)}</h3></div><p>${t(x.desc)}</p></div>`).join('');
 }
 
 function renderProcess(){
@@ -330,11 +400,12 @@ function renderProcess(){
   setText('#pr-tag', t(SITE.process.tag));
   setText('#pr-title', t(SITE.process.title));
   const ps=$('#process-steps');
-  if(ps && SITE.process.steps) ps.innerHTML=SITE.process.steps.map((s,i)=>`${i>0?`<div class="step-arrow">${ico('chevronRight')}</div>`:''}<div class="step"><div class="step-head"><span class="num">${s.num}</span><h4>${t(s.title)}</h4></div></div>`).join('');
+  if(ps && SITE.process.steps) ps.innerHTML=SITE.process.steps.map((s,i)=>`${i>0?`<div class="step-arrow">${ico('chevronRight')}</div>`:''}<div class="step">${s.image?`<div class="step-media"><img src="${s.image}" alt="${t(s.title)}" loading="lazy"></div>`:''}<div class="step-head"><h4>${t(s.title)}</h4></div><p>${t(s.desc)}</p></div>`).join('');
 }
 
 function renderApps(){
   if(!SITE.apps) return;
+  setText('#ap-tag', t(SITE.apps.tag));
   setText('#ap-title', t(SITE.apps.title));
   const a=$('#apps');
   const ac=['car','truck','battery','factory','medical','robot','plane','wrench'];
@@ -347,7 +418,8 @@ function renderFactory(){
   setText('#fa-title', t(SITE.factory.title));
   setText('#fa-desc', t(SITE.factory.desc));
   setText('#fa-clients', t(SITE.factory.clients));
-  const fi=$('#fact-imgs'); if(fi && SITE.factory.images) fi.innerHTML=SITE.factory.images.map(i=>`<img src="${i}" alt="factory" loading="lazy">`).join('');
+  const fi=$('#fact-imgs');
+  if(fi && SITE.factory.images) fi.innerHTML=SITE.factory.images.map((src,index)=>`<img src="${src}" alt="${t(SITE.factory.title)} ${index+1}" loading="lazy">`).join('');
 }
 
 function renderCerts(){
@@ -355,7 +427,7 @@ function renderCerts(){
   setText('#ce-tag', t(SITE.certs.tag));
   setText('#ce-title', t(SITE.certs.title));
   const cg=$('#cert-grid');
-  if(cg && SITE.certs.items) cg.innerHTML=SITE.certs.items.map(x=>`<div class="cert">${x.img?`<img src="${x.img}" alt="${x.name}" style="max-height:160px;margin:0 auto 10px;object-fit:contain">`:''}<b>${x.name}</b><span>${t(x.desc)}</span></div>`).join('');
+  if(cg && SITE.certs.items) cg.innerHTML=SITE.certs.items.map(x=>`<div class="cert">${x.img?`<img src="${x.img}" alt="${t(x.name)}" style="max-height:160px;margin:0 auto 10px;object-fit:contain">`:''}<b>${t(x.name)}</b><span>${t(x.desc)}</span></div>`).join('');
 }
 
 function renderProductsTeaser(){
@@ -366,7 +438,7 @@ function renderProductsTeaser(){
   const grid=$('#cat-cards');
   if(grid) grid.innerHTML=PRODS.categories.map(c=>{
     const img=c.products[0] && c.products[0].images[0] || '';
-    return `<a class="cat-card" href="products#${c.id}"><span class="cat-media"><img src="${img}" alt="${t(c.name)}" loading="lazy"></span><div class="cat-body"><h3>${t(c.name)}</h3><p>${t(c.desc)}</p></div></a>`;
+    return `<a class="cat-card" href="/products#${c.id}"><span class="cat-media"><img src="${img}" alt="${t(c.name)}" loading="lazy"></span><div class="cat-body"><h3>${t(c.name)}</h3><p>${t(c.desc)}</p></div></a>`;
   }).join('');
 }
 
@@ -374,7 +446,7 @@ function renderBlocks(){
   const c=$('#blocks'); if(!c || !SITE.blocks) return;
   c.innerHTML=SITE.blocks.map((b,i)=>{
     const hasImg=b.image?true:false, hasLink=b.link?true:false, rev=i%2===1?'block-rev':'';
-    const linkLabel=(t(b.link_text)||'Learn More').replace(/\s*[→›]\s*$/,'');
+    const linkLabel=(t(b.link_text)||t(SITE.nav.products)).replace(/\s*[→›]\s*$/,'');
     return `<div class="block ${rev}">${hasImg?`<div class="block-img"><img src="${b.image}" alt="${t(b.title)}" loading="lazy"></div>`:''}<div class="block-txt"><h3>${t(b.title)}</h3><p>${t(b.text)}</p>${hasLink?`<a class="btn btn-primary btn-with-icon" href="${b.link}"><span>${linkLabel}</span>${ico('arrowRight','btn-icon')}</a>`:''}</div></div>`;
   }).join('');
 }
@@ -424,11 +496,12 @@ function renderProductsPage(){
   const grid=$('#prod-grid'); if(!grid || !PRODS) return;
   const here=location.hash?location.hash.slice(1):PRODS.categories[0].id;
   const f=$('#filters');
-  if(f) f.innerHTML=PRODS.categories.map(c=>`<button class="filter-btn ${c.id===here?'active':''}" data-cat="${c.id}">${t(c.name)}</button>`).join('');
+  if(f) f.innerHTML=PRODS.categories.map(c=>`<button class="filter-btn ${c.id===here?'active':''}" type="button" aria-pressed="${c.id===here?'true':'false'}" data-cat="${c.id}">${t(c.name)}</button>`).join('');
   $$('.filter-btn[data-cat]',f||document).forEach(b=>b.onclick=()=>{ location.hash=b.dataset.cat; renderProductsPage(); });
   const cat=PRODS.categories.find(c=>c.id===here)||PRODS.categories[0];
   const head=$('#cat-head'); if(head) head.innerHTML=`<h2>${t(cat.name)}</h2><p>${t(cat.desc)}</p>`;
-  grid.innerHTML=cat.products.map(p=>`<a class="prod" href="/product/${p.slug}.html" data-pid="${p.id}"><span class="prod-media"><img src="${p.images[0]}" alt="${t(p.name)}" loading="lazy"></span><div class="info"><b>${t(p.name)}</b><span>${t(p.name)===p.name.en?'':p.name.en}</span></div></a>`).join('');
+  grid.innerHTML=cat.products.map(p=>{const pn=productDisplayName(p,cat); return `<a class="prod" href="/product/${p.slug}.html" data-pid="${p.id}"><span class="prod-media"><img src="${p.images[0]}" alt="${pn}" loading="lazy"></span><div class="info"><b>${pn}</b><span>${t(cat.name)}</span></div></a>`;}).join('');
+  localizeInternalLinks();
 }
 
 const CONTACT_ICONS = {
@@ -451,10 +524,21 @@ const CL = {
   company:{en:'Company', zh:'公司'}
 };
 
+function contactLabel(key){
+  if(CL[key] && CL[key][LANG]) return CL[key][LANG];
+  const u=currentUI();
+  if(key==='email') return u.email;
+  if(key==='whatsapp') return 'WhatsApp';
+  if(key==='facebook') return 'Facebook';
+  if(key==='alibaba') return 'Alibaba';
+  if(key==='address' || key==='company') return t(SITE.nav.about);
+  return t(SITE.nav.contact);
+}
+
 function renderContact(){
   const c=$('#contact-info'); if(!c || !SITE) return;
   const ct=SITE.contact, co=SITE.company;
-  const item=(ic,label,inner)=>`<div class="ci"><span class="ci-icon">${ico(CONTACT_ICON_NAMES[ic]||'externalLink')}</span><div><b>${t(CL[label])}</b>${inner}</div></div>`;
+  const item=(ic,label,inner)=>`<div class="ci"><span class="ci-icon">${ico(CONTACT_ICON_NAMES[ic]||'externalLink')}</span><div><b>${contactLabel(label)}</b>${inner}</div></div>`;
   const phones=(ct.phones||[]).map(p=>`<span><a href="tel:${p.replace(/[^+\d]/g,'')}">${p}</a></span>`).join('');
   const short=u=>u.replace(/^https?:\/\//,'').replace(/^www\./,'').split('/')[0];
   const html =
@@ -500,15 +584,16 @@ function renderTitle(){
 
 function renderFab(){
   if(!SITE) return;
+  const u=currentUI();
   const wa=$('#fab-wa'); if(wa && SITE.contact) wa.href = SITE.contact.whatsapp_link || 'https://wa.me/447516289817';
-  const em=$('#fab-email'); if(em && SITE.contact){ em.href = 'mailto:' + SITE.contact.email; em.innerHTML = ico('mail','fab-item-icon')+'<span>'+(LANG==='zh' ? '邮箱' : 'Email')+'</span>'; }
-  const online=$('#fab-online'); if(online) online.innerHTML = ico('chat','fab-item-icon')+'<span>'+(LANG==='zh' ? '在线联系' : 'Online Message')+'</span>';
+  const em=$('#fab-email'); if(em && SITE.contact){ em.href = 'mailto:' + SITE.contact.email; em.innerHTML = ico('mail','fab-item-icon')+'<span>'+u.email+'</span>'; }
+  const online=$('#fab-online'); if(online) online.innerHTML = ico('chat','fab-item-icon')+'<span>'+u.title+'</span>';
   if(wa) wa.innerHTML=ico('chatPhone','fab-item-icon')+'<span>WhatsApp</span>';
   const main=$('#fab-main'), menu=$('#fab-menu');
   if(main && menu){
-    const label=LANG==='zh'?'联系询价':'Contact';
+    const label=t(SITE.nav.contact);
     main.innerHTML='<span class="fab-icon">'+ico('chat')+'</span><span class="fab-label">'+label+'</span>';
-    main.setAttribute('aria-label',LANG==='zh'?'联系与询价':'Contact and inquiry');
+    main.setAttribute('aria-label',label);
     main.setAttribute('aria-controls','fab-menu');
     const setFabOpen=(open)=>{
       menu.classList.toggle('open',open);
@@ -528,45 +613,59 @@ function renderFab(){
   renderModal();
 }
 
+let __modalReturnFocus=null;
 function openModal(){
-  const m=$('#contact-modal'); if(m) m.classList.add('open');
+  const m=$('#contact-modal'); if(!m) return;
+  __modalReturnFocus=document.activeElement;
+  m.classList.add('open');
+  requestAnimationFrame(()=>{ const target=m.querySelector('input,textarea,button,a[href]'); if(target) target.focus(); });
 }
 function closeModal(){
-  const m=$('#contact-modal'); if(m) m.classList.remove('open');
+  const m=$('#contact-modal'); if(!m) return;
+  const wasOpen=m.classList.contains('open');
+  m.classList.remove('open');
+  if(wasOpen && __modalReturnFocus && typeof __modalReturnFocus.focus==='function') __modalReturnFocus.focus();
+  __modalReturnFocus=null;
 }
 function renderModal(){
   const m=$('#contact-modal'); if(!m || !SITE) return;
+  const dialog=m.querySelector('[role="dialog"]'); if(dialog) dialog.setAttribute('aria-labelledby','modal-title');
   const u=UI[LANG]||UI.en;
   setText('#modal-title', u.title); setText('#modal-label-name', u.name);
   setText('#modal-label-email', u.email); setText('#modal-label-message', u.message);
   setText('#modal-submit', u.send); setText('#modal-wa', u.wa);
+  const name=$('#modal-name'), email=$('#modal-email'), message=$('#modal-message');
+  if(name) name.placeholder=u.name;
+  if(email) email.placeholder=u.email;
+  if(message) message.placeholder=u.message;
   const wa=$('#modal-wa'); if(wa && SITE.contact) wa.href = SITE.contact.whatsapp_link || 'https://wa.me/447516289817';
   $$('.modal-close').forEach(btn=>{
     btn.innerHTML=ico('close','modal-close-icon');
-    btn.setAttribute('aria-label',LANG==='zh'?'关闭':'Close');
+    btn.setAttribute('aria-label',u.title);
   });
 }
 
 function renderHotProduct(){
-  const h=HOT[LANG]||HOT.en;
-  setText('#hot-title', h.title);
-  setText('#hot-desc', h.desc);
+  const p=findProduct('p081');
+  const cat=PRODS && PRODS.categories.find(c=>(c.products||[]).some(x=>x.id==='p081'));
+  setText('#hot-title', p?productDisplayName(p,cat):t(SITE.products_teaser.title));
+  setText('#hot-desc', cat?t(cat.desc):t(SITE.products_teaser.desc));
   const badge=$('.hot-badge');
-  if(badge) badge.innerHTML=ico('spark','hot-icon')+'<span>Hot</span>';
+  if(badge) badge.innerHTML=ico('spark','hot-icon')+'<span>'+t(SITE.products_teaser.tag)+'</span>';
 }
 
 function hydrateStaticIcons(){
   const navToggle=$('#nav-toggle');
   if(navToggle){
     if(!navToggle.querySelector('.menu-icon')) navToggle.innerHTML='<span class="menu-icon" aria-hidden="true"><span></span><span></span></span>';
-    navToggle.setAttribute('aria-label',LANG==='zh'?'打开导航菜单':'Open navigation menu');
+    navToggle.setAttribute('aria-label',t(SITE.nav.products));
   }
   $$('[data-ui-icon]').forEach(el=>{
     if(!el.querySelector('svg')) el.innerHTML=ico(el.dataset.uiIcon||'connector');
   });
 }
 
-/* Apple-inspired progressive enhancement layer.
+/* Progressive enhancement layer for the shared industrial UI.
    All features remain usable when motion APIs are unavailable. */
 let __revealObserver=null;
 
@@ -595,7 +694,7 @@ function decoratePage(){
   if(main){
     if(identity==='page-product') main.classList.add('product-main');
     if(identity==='page-landing'){
-      const crumb=main.querySelector('nav[aria-label="Breadcrumb"]');
+      const crumb=main.querySelector('nav[aria-label="Breadcrumb"],nav.breadcrumb');
       if(crumb) crumb.classList.add('breadcrumb');
       const actions=[...main.children].find(el=>el.tagName==='DIV' && el.querySelector('.btn'));
       if(actions) actions.classList.add('landing-actions');
@@ -604,13 +703,37 @@ function decoratePage(){
     }
   }
 
-  const crumb=$('nav[aria-label="Breadcrumb"]');
+  const crumb=$('nav[aria-label="Breadcrumb"],nav.breadcrumb');
   if(crumb) crumb.classList.add('breadcrumb');
 
   setupHeaderMotion();
+  setupScrollProgress();
   setupProductGallery();
   refreshMotion();
   requestAnimationFrame(()=>body.classList.add('page-ready'));
+}
+
+function setupScrollProgress(){
+  if(window.__scrollProgressBound) return;
+  window.__scrollProgressBound=true;
+  const bar=document.createElement('div');
+  bar.className='scroll-progress';
+  bar.setAttribute('aria-hidden','true');
+  bar.innerHTML='<span></span>';
+  document.body.appendChild(bar);
+  const fill=bar.firstElementChild;
+  let ticking=false;
+  const update=()=>{
+    const max=Math.max(1,document.documentElement.scrollHeight-window.innerHeight);
+    fill.style.transform='scaleX('+Math.min(1,Math.max(0,window.scrollY/max))+')';
+    ticking=false;
+  };
+  const request=()=>{
+    if(!ticking){ticking=true;requestAnimationFrame(update);}
+  };
+  window.addEventListener('scroll',request,{passive:true});
+  window.addEventListener('resize',request,{passive:true});
+  update();
 }
 
 function setupHeaderMotion(){
@@ -621,6 +744,7 @@ function setupHeaderMotion(){
   let ticking=false;
   const update=()=>{
     header.classList.toggle('scrolled',window.scrollY>16);
+    document.body.classList.toggle('has-scrolled',window.scrollY>160);
     ticking=false;
   };
   window.addEventListener('scroll',()=>{
@@ -632,7 +756,9 @@ function setupHeaderMotion(){
 function setupProductGallery(){
   const mainImg=$('.pd-img img');
   const thumbs=$$('.pd-gallery img');
-  if(!mainImg || !thumbs.length || mainImg.dataset.galleryBound) return;
+  if(!mainImg || !thumbs.length) return;
+  thumbs.forEach((thumb,index)=>thumb.setAttribute('aria-label',t(SITE.nav.products)+' '+(index+1)+'/'+thumbs.length+': '+(thumb.alt||'')));
+  if(mainImg.dataset.galleryBound) return;
   mainImg.dataset.galleryBound='true';
   const activate=(thumb)=>{
     if(!thumb || !thumb.src || mainImg.src===thumb.src) return;
@@ -647,10 +773,9 @@ function setupProductGallery(){
     preload.onerror=()=>mainImg.classList.remove('is-switching');
     preload.src=thumb.src;
   };
-  thumbs.forEach(thumb=>{
+  thumbs.forEach((thumb,index)=>{
     thumb.tabIndex=0;
     thumb.setAttribute('role','button');
-    thumb.setAttribute('aria-label',(LANG==='zh'?'查看图片：':'View image: ')+(thumb.alt||''));
     thumb.addEventListener('click',()=>activate(thumb));
     thumb.addEventListener('keydown',e=>{
       if(e.key==='Enter'||e.key===' '){e.preventDefault();activate(thumb);}
@@ -666,15 +791,17 @@ function refreshMotion(){
   }
   body.classList.add('motion-ready');
   const items=$$(
-    'section:not(.hero) .sec-head, .hot-wrap, .two-col, .contact-grid, '+
+    'section:not(.hero) .sec-head, section:not(.hero) .chapter-meta, .hot-wrap, .two-col, .contact-grid, '+
     '.page-landing main > section, .page-product .pd-wrap'
   );
   const groups=$$(
     '#features, #apps .cards, .process-steps, #fact-imgs, #cert-grid, '+
     '#cat-cards, #prod-grid, #blocks, .page-custom .cards-2, .pd-gallery, .pd-adv'
   );
+  const media=$$('#fact-imgs img, .block-img, .cat-media, .prod-media, .pd-img');
 
   items.forEach(el=>el.classList.add('reveal-item'));
+  media.forEach(el=>el.classList.add('media-reveal'));
   groups.forEach(group=>{
     group.classList.add('reveal-group');
     [...group.children].forEach((child,i)=>{
@@ -683,7 +810,7 @@ function refreshMotion(){
     });
   });
 
-  const targets=[...new Set([...items,...groups])].filter(el=>!el.dataset.revealObserved);
+  const targets=[...new Set([...items,...groups,...media])].filter(el=>!el.dataset.revealObserved);
   if(!('IntersectionObserver' in window)){
     targets.forEach(el=>el.classList.add('is-visible'));
     return;
@@ -704,11 +831,325 @@ function refreshMotion(){
   });
 }
 
+function textIn(root,selector,value){
+  const el=root && root.querySelector(selector);
+  if(el) el.textContent=value==null?'':value;
+  return el;
+}
+
+function renderSharedChrome(){
+  if(!SITE) return;
+  const footer=$('.footer');
+  if(footer){
+    const columns=$$(':scope > .container:first-child > div',footer);
+    if(columns[1]) textIn(columns[1],'h5',t(SITE.nav.contact));
+    if(columns[2]){
+      textIn(columns[2],'h5',t(SITE.nav.products));
+      const links=$$('a',columns[2]);
+      const categories=(PRODS&&PRODS.categories)||[];
+      const labels=[
+        t(SITE.nav.home),t(SITE.nav.custom),t(SITE.nav.products),
+        categories[0]?t(categories[0].name):t(SITE.nav.products),
+        categories[1]?t(categories[1].name):t(SITE.nav.products),
+        categories[2]?t(categories[2].name):t(SITE.nav.products),
+        t(SITE.nav.about),t(SITE.nav.contact)
+      ];
+      links.forEach((a,i)=>{ if(labels[i]) a.textContent=labels[i]; });
+    }
+    const keywords=$('.seo-keywords',footer);
+    if(keywords){ keywords.hidden=true; keywords.setAttribute('aria-hidden','true'); }
+    const bot=$(':scope > .container.bot',footer);
+    if(bot) bot.innerHTML=`© <span id="f-year">${new Date().getFullYear()}</span> <span id="f-company">${t(SITE.company.name)}</span>`;
+  }
+
+  const heroLabel=$('.hero:not(.hero-home) .container');
+  if(heroLabel) heroLabel.dataset.sectionLabel=t(SITE.custom_intro.tag);
+  $$('.block-txt').forEach((el,i)=>el.dataset.sectionLabel=t((SITE.blocks[i]||SITE.blocks[0]).title));
+  $$('.cta .container').forEach(el=>el.dataset.sectionLabel=t(SITE.nav.quote));
+  const productsLead=pageIdentity()==='page-products'?$('body > section:first-of-type'):null;
+  if(productsLead) productsLead.dataset.sectionLabel=t(SITE.products_teaser.tag);
+  const modalBox=$('.contact-modal-box');
+  if(modalBox) modalBox.dataset.sectionLabel=currentUI().title;
+
+  $$('nav[aria-label="Breadcrumb"],nav.breadcrumb').forEach(nav=>{
+    nav.classList.add('breadcrumb');
+    nav.setAttribute('aria-label',t(SITE.nav.products));
+  });
+}
+
+function renderHomeStatic(){
+  if(pageIdentity()!=='page-home') return;
+  const top=$$('.hero-topline span');
+  if(top[0]) top[0].textContent='SS / SuperSmile';
+  if(top[1]) top[1].textContent=t(SITE.factory.tag);
+  setText('.hero-kicker',t(SITE.custom_intro.tag));
+  const specs=$$('.hero-spec span');
+  const specText=[
+    `${t(SITE.factory.tag)} / 3,000 m²`,
+    `${t(SITE.stats[0].label)} / 10`,
+    `${t(SITE.stats[2].label)} / 100%`
+  ];
+  specs.forEach((el,i)=>el.textContent=specText[i]||'');
+  setText('.hero-data-label',t(SITE.custom_intro.tag));
+  const scroll=$('.hero-scroll');
+  if(scroll){ textIn(scroll,'span',t(SITE.products_teaser.tag)); scroll.setAttribute('aria-label',t(SITE.products_teaser.title)); }
+  setText('.hot-action',t(SITE.nav.products));
+
+  const chapterLabels={
+    'custom-intro':SITE.custom_intro.tag,
+    process:SITE.process.tag,
+    factory:SITE.factory.tag,
+    'products-teaser':SITE.products_teaser.tag,
+    'blocks-sec':SITE.blocks[0].title,
+    guides:SITE.blocks[2].title,
+    certs:SITE.certs.tag
+  };
+  Object.entries(chapterLabels).forEach(([id,label])=>{
+    const el=$(`#${id} .chapter-meta span`);
+    if(el) el.textContent=t(label);
+  });
+  const appTag=$('.applications-manifest .tag');
+  if(appTag) appTag.textContent=t(SITE.apps.tag);
+  setText('#all-products-btn',t(SITE.nav.products));
+  setText('#cta-btn',t(SITE.nav.contact));
+
+  const guides=$('#guides');
+  if(guides){
+    textIn(guides,'.sec-head h2',t(SITE.blocks[2].title));
+    textIn(guides,'.sec-head p',t(SITE.blocks[2].text));
+    const cards=$$('.cards .card',guides);
+    const wanted=[0,1,2,4];
+    cards.forEach((card,i)=>{
+      const cat=PRODS.categories[wanted[i]]||PRODS.categories[i];
+      if(!cat) return;
+      textIn(card,'h3',t(cat.name));
+      textIn(card,'p',t(cat.desc));
+    });
+  }
+}
+
+function renderProductsStatic(){
+  if(pageIdentity()!=='page-products') return;
+  const lead=$('body > section:first-of-type .sec-head');
+  if(lead){
+    textIn(lead,'.tag',t(SITE.products_teaser.tag));
+    textIn(lead,'h1',t(SITE.products_teaser.title));
+    textIn(lead,'p',t(SITE.products_teaser.desc));
+  }
+  const cta=$('body > section.cta');
+  if(cta){
+    textIn(cta,'h2',t(SITE.blocks[2].title));
+    textIn(cta,'p',t(SITE.blocks[2].text));
+    textIn(cta,'.btn',t(SITE.nav.quote));
+  }
+}
+
+function renderCustomStatic(){
+  if(pageIdentity()!=='page-custom') return;
+  const hero=$('body > section.hero');
+  if(hero){
+    textIn(hero,'.hero-badge',t(SITE.custom_intro.tag));
+    textIn(hero,'h1',t(SITE.custom_intro.title));
+    textIn(hero,'p',t(SITE.custom_intro.desc));
+  }
+  const sections=$$('body > section:not(.hero):not(.cta)');
+  const heads=[
+    [SITE.custom_intro.tag,SITE.custom_intro.title],
+    [SITE.process.tag,SITE.process.title],
+    [SITE.apps.tag,SITE.apps.title],
+    [SITE.cta.title,SITE.cta.desc]
+  ];
+  sections.forEach((section,i)=>{
+    if(!heads[i]) return;
+    textIn(section,'.sec-head .tag',t(heads[i][0]));
+    textIn(section,'.sec-head h2',t(heads[i][1]));
+  });
+  const quoteCards=sections[3]?$$('.quote-card',sections[3]):[];
+  quoteCards.forEach((card,i)=>{
+    const item=SITE.process.steps[i]||SITE.features[i];
+    if(!item) return;
+    textIn(card,'h3',t(item.title));
+    textIn(card,'p',t(item.desc));
+  });
+  const cta=$('body > section.cta');
+  if(cta){
+    textIn(cta,'h2',t(SITE.cta.title));
+    textIn(cta,'p',t(SITE.cta.desc));
+    textIn(cta,'.btn',t(SITE.nav.contact));
+  }
+}
+
+function renderAboutStatic(){
+  if(pageIdentity()!=='page-about') return;
+  const sections=$$('body > section');
+  const hero=sections[0];
+  if(hero){
+    textIn(hero,'.hero-badge',t(SITE.factory.tag));
+    const intro=$(':scope > .container > p:not(.about-credit)',hero);
+    if(intro) intro.textContent=t(SITE.factory.desc);
+    const imgs=$$('img',hero); imgs.forEach(img=>img.alt=t(SITE.company.name));
+  }
+  const heads=[
+    null,
+    [SITE.nav.about,SITE.factory.title],
+    [SITE.factory.tag,SITE.factory.title],
+    [SITE.certs.tag,SITE.certs.title],
+    [SITE.hero.badge,SITE.company.name]
+  ];
+  sections.forEach((section,i)=>{
+    if(!heads[i]) return;
+    textIn(section,'.sec-head .tag',t(heads[i][0]));
+    textIn(section,'.sec-head h2',t(heads[i][1]));
+  });
+  const factoryImg=sections[1]&&$('img',sections[1]); if(factoryImg) factoryImg.alt=t(SITE.factory.title);
+  const cards=sections[4]?$$('.card',sections[4]):[];
+  const labels=[t(SITE.hero.badge),t(SITE.factory.tag),t(SITE.factory.title),t(SITE.certs.title)];
+  const values=[SITE.company.founded,'3,000 m²','100+','IP68'];
+  cards.forEach((card,i)=>{ textIn(card,'h3',labels[i]); textIn(card,'p',values[i]); });
+  const cta=sections.find(s=>s.classList.contains('cta'));
+  if(cta){
+    textIn(cta,'h2',t(SITE.cta.title));
+    textIn(cta,'p',t(SITE.cta.desc));
+    textIn(cta,'.btn',t(SITE.nav.contact));
+  }
+}
+
+function renderContactStatic(){
+  if(pageIdentity()!=='page-contact') return;
+  const u=currentUI();
+  const hero=$('body > section.hero');
+  if(hero){
+    textIn(hero,'.hero-badge',t(SITE.nav.quote));
+    textIn(hero,'h1',t(SITE.cta.title));
+    textIn(hero,'p',t(SITE.cta.desc));
+  }
+  const form=$('#contact-form');
+  if(form){
+    const name=$('#cf-name'),email=$('#cf-email'),message=$('#cf-msg');
+    if(name){ name.placeholder=u.name; textIn(name.closest('.field'),'label',u.name+' *'); }
+    if(email){ email.placeholder=u.email; textIn(email.closest('.field'),'label',u.email+' *'); }
+    if(message){ message.placeholder=u.message; textIn(message.closest('.field'),'label',u.message+' *'); }
+    textIn(form,'button[type="submit"]',u.send);
+    const hint=$('p',form);
+    if(hint){
+      const href=(SITE.contact&&SITE.contact.whatsapp_link)||'#';
+      hint.innerHTML=`${u.wa}: <a id="contact-wa" href="${href}" target="_blank" rel="noopener">WhatsApp</a>`;
+    }
+  }
+}
+
+function landingData(){
+  const leaf=(location.pathname.split('/').pop()||'').replace(/\.html$/,'');
+  const map={'turbo-actuator-harness':'turbo','obd2-diagnostic-cable':'universal','j1939-cable':'heavyduty'};
+  const category=PRODS.categories.find(c=>c.id===map[leaf]);
+  return {leaf,category};
+}
+
+function renderLandingPage(){
+  if(pageIdentity()!=='page-landing') return;
+  const main=$('main'); if(!main) return;
+  const {leaf,category}=landingData();
+  const custom=leaf==='custom-wiring-harness';
+  const name=custom?t(SITE.custom_intro.title):(category?t(category.name):t(SITE.products_teaser.title));
+  const intro=custom?t(SITE.custom_intro.desc):(category?t(category.desc):t(SITE.products_teaser.desc));
+  const detailItems=SITE.features||[];
+  main.innerHTML=`
+    <nav class="breadcrumb" aria-label="${t(SITE.nav.products)}"><a href="/">${t(SITE.nav.home)}</a><span class="crumb-sep" aria-hidden="true"></span><span>${name}</span></nav>
+    <h1>${name}</h1>
+    <p>${intro}</p>
+    <div class="landing-actions"><a class="btn btn-primary" href="/contact">${t(SITE.nav.quote)}</a><a class="btn btn-ghost" href="/products">${t(SITE.nav.products)}</a></div>
+    <section><h2>${t(SITE.custom_intro.title)}</h2><p>${t(SITE.custom_intro.desc)}</p></section>
+    <section><h2>${t(SITE.blocks[0].title)}</h2><p>${t(SITE.blocks[0].text)}</p></section>
+    <section><h2>${t(SITE.factory.title)}</h2><p>${t(SITE.factory.desc)}</p></section>
+    <section><h2>${t(SITE.process.title)}</h2>${detailItems.map(item=>`<details><summary>${t(item.title)}</summary><p>${t(item.desc)}</p></details>`).join('')}</section>
+    <section class="landing-cta"><h2>${t(SITE.cta.title)}</h2><p>${t(SITE.cta.desc)}</p><a class="btn btn-primary" href="/contact">${t(SITE.nav.contact)}</a></section>`;
+}
+
+function productRecordByRoute(){
+  if(!PRODS) return null;
+  const slug=(location.pathname.split('/').pop()||'').replace(/\.html$/,'');
+  for(const category of PRODS.categories){
+    const product=(category.products||[]).find(p=>p.slug===slug);
+    if(product) return {product,category};
+  }
+  return null;
+}
+
+function renderProductDetail(){
+  if(pageIdentity()!=='page-product') return;
+  const record=productRecordByRoute(); if(!record) return;
+  const {product,category}=record;
+  const name=productDisplayName(product,category);
+  const main=$('main'); if(!main) return;
+  const crumb=$('nav',main);
+  if(crumb){
+    crumb.classList.add('breadcrumb');
+    crumb.setAttribute('aria-label',t(SITE.nav.products));
+    crumb.innerHTML=`<a href="/">${t(SITE.nav.home)}</a><span class="crumb-sep" aria-hidden="true"></span><a href="/products">${t(SITE.nav.products)}</a><span class="crumb-sep" aria-hidden="true"></span><a href="/products#${category.id}">${t(category.name)}</a><span class="crumb-sep" aria-hidden="true"></span><span>${name}</span>`;
+  }
+  textIn(main,'.pd-side h1',name);
+  $$('.pd-img img,.pd-gallery img',main).forEach(img=>img.alt=name);
+  const list=$('.pd-hl',main);
+  if(list){
+    const lines=LANG==='en' && Array.isArray(product.highlights)
+      ? product.highlights
+      : [...SITE.features.map(item=>`${name} — ${t(item.desc)}`),t(SITE.blocks[0].text)];
+    list.innerHTML=lines.map(line=>`<li>${line}</li>`).join('');
+  }
+  const units=SITE.stats.map(s=>typeof s.unit==='object'?t(s.unit):(s.unit||''));
+  const values=[`10${units[0]?' '+units[0]:''}`,`7${units[1]?' '+units[1]:''}`,'100%','UL/RoHS'];
+  const adv=$('.pd-adv',main);
+  const advLabels=[t(SITE.stats[0].label),t(SITE.stats[1].label),t(SITE.stats[2].label),t(SITE.certs.title)];
+  if(adv) adv.innerHTML=values.map((value,i)=>`<div class="adv"><b>${value}</b>${advLabels[i]}</div>`).join('');
+  const contact=$('.pd-side > a.btn',main);
+  if(contact){ contact.textContent=t(SITE.nav.quote); contact.href=`/contact?products=${encodeURIComponent(product.id)}`; }
+  const meta=$('.pd-meta',main);
+  if(meta) meta.textContent=`SKU: ${product.id} · OEM/ODM · ${t(SITE.custom_intro.tag)}`;
+}
+
+function renderDynamicSeo(){
+  const identity=pageIdentity();
+  let title=t(SITE.company.name),description=t(SITE.footer_about);
+  if(identity==='page-home'){ title=t(SITE.hero.title)+' | '+title; description=t(SITE.hero.subtitle); }
+  else if(identity==='page-products'){ title=t(SITE.products_teaser.title)+' | '+title; description=t(SITE.products_teaser.desc); }
+  else if(identity==='page-custom'){ title=t(SITE.custom_intro.title)+' | '+title; description=t(SITE.custom_intro.desc); }
+  else if(identity==='page-about'){ title=t(SITE.nav.about)+' | '+title; description=t(SITE.factory.desc); }
+  else if(identity==='page-contact'){ title=t(SITE.nav.contact)+' | '+title; description=t(SITE.cta.desc); }
+  else if(identity==='page-landing'){
+    const {leaf,category}=landingData();
+    const name=leaf==='custom-wiring-harness'?t(SITE.custom_intro.title):(category?t(category.name):t(SITE.products_teaser.title));
+    title=name+' | '+title;
+    description=leaf==='custom-wiring-harness'?t(SITE.custom_intro.desc):(category?t(category.desc):t(SITE.products_teaser.desc));
+  }else if(identity==='page-product'){
+    const record=productRecordByRoute();
+    if(record){ title=productDisplayName(record.product,record.category)+' | '+title; description=t(record.category.desc); }
+  }
+  document.title=title;
+  const desc=$('meta[name="description"]'); if(desc) desc.content=description;
+  const ogTitle=$('meta[property="og:title"]'); if(ogTitle) ogTitle.content=title;
+  const ogDesc=$('meta[property="og:description"]'); if(ogDesc) ogDesc.content=description;
+}
+
+function renderStaticPages(){
+  renderLandingPage();
+  renderProductDetail();
+  setupProductGallery();
+  renderHomeStatic();
+  renderProductsStatic();
+  renderCustomStatic();
+  renderAboutStatic();
+  renderContactStatic();
+  renderSharedChrome();
+  renderDynamicSeo();
+  localizeInternalLinks();
+}
+
 function renderAll(){
   renderNav(); renderLogoCompany(); renderLangSelector();
   renderHero(); renderHotProduct(); renderCustom(); renderProcess(); renderApps();
   renderFactory(); renderCerts(); renderProductsTeaser(); renderBlocks(); renderCTA();
   renderFooter(); renderProductsPage(); renderContact(); renderAbout(); renderTitle(); renderFab(); renderProductSelect(); bindPsToggle();
+  renderStaticPages();
   hydrateStaticIcons();
   syncDocumentLanguage();
   if(window.__siteDecorated) requestAnimationFrame(refreshMotion);
@@ -729,11 +1170,11 @@ document.addEventListener('DOMContentLoaded', async ()=>{
     };
   }
   const form=$('#contact-form');
-  if(form) form.onsubmit=(ev)=>{ ev.preventDefault(); const name=$('#cf-name').value, email=$('#cf-email').value, msg=$('#cf-msg').value;
-    const prodItems = selectedProducts.map(pid=>{const p=findProduct(pid); if(!p) return '- '+pid; const img=p.images&&p.images[0]?location.origin+p.images[0]:''; return '- '+t(p.name)+(img?'\n  '+img:'');}).join('\n');
-    const prodLine = prodItems ? 'Products:\n'+prodItems : '';
-    const body = 'Name: '+name+'\nEmail: '+email+'\n'+(prodLine?prodLine+'\n':'')+'\n'+msg;
-    sendMail('Inquiry from website - '+name, body, email); };
+  if(form) form.onsubmit=(ev)=>{ ev.preventDefault(); const name=$('#cf-name').value, email=$('#cf-email').value, msg=$('#cf-msg').value, u=currentUI();
+    const prodItems = selectedProducts.map(pid=>{const p=findProduct(pid); if(!p) return '- '+pid; const img=p.images&&p.images[0]?location.origin+p.images[0]:''; return '- '+productDisplayName(p)+(img?'\n  '+img:'');}).join('\n');
+    const prodLine = prodItems ? t(SITE.nav.products)+':\n'+prodItems : '';
+    const body = u.name+': '+name+'\n'+u.email+': '+email+'\n'+(prodLine?prodLine+'\n':'')+'\n'+msg;
+    sendMail(t(SITE.nav.contact)+' - '+name, body, email); };
   const ppop=$('#product-pop');
   if(ppop){
     document.addEventListener('click',(e)=>{
@@ -748,10 +1189,19 @@ document.addEventListener('DOMContentLoaded', async ()=>{
     const overlay=modal.querySelector('.contact-modal-overlay');
     if(overlay) overlay.onclick=closeModal;
     const mf=$('#modal-form');
-    if(mf) mf.onsubmit=(ev)=>{ ev.preventDefault(); const name=$('#modal-name').value, email=$('#modal-email').value, msg=$('#modal-message').value;
-      sendMail('Website inquiry - '+name, 'Name: '+name+'\nEmail: '+email+'\n\n'+msg, email); };
+    if(mf) mf.onsubmit=(ev)=>{ ev.preventDefault(); const name=$('#modal-name').value, email=$('#modal-email').value, msg=$('#modal-message').value, u=currentUI();
+      sendMail(t(SITE.nav.contact)+' - '+name, u.name+': '+name+'\n'+u.email+': '+email+'\n\n'+msg, email); };
   }
   document.addEventListener('keydown',e=>{
+    const openModalEl=$('#contact-modal.open');
+    if(e.key==='Tab' && openModalEl){
+      const focusable=$$('a[href],button:not([disabled]),input:not([disabled]),textarea:not([disabled]),select:not([disabled]),[tabindex]:not([tabindex="-1"])',openModalEl).filter(el=>!el.hidden);
+      if(focusable.length){
+        const first=focusable[0], last=focusable[focusable.length-1];
+        if(e.shiftKey && document.activeElement===first){e.preventDefault();last.focus();}
+        else if(!e.shiftKey && document.activeElement===last){e.preventDefault();first.focus();}
+      }
+    }
     if(e.key==='Escape'){
       closeModal(); closeProductModal();
       const nav=$('#nav-links'); if(nav) nav.classList.remove('open');
@@ -760,6 +1210,12 @@ document.addEventListener('DOMContentLoaded', async ()=>{
       const fabMenu=$('#fab-menu'),fabMain=$('#fab-main');
       if(fabMenu){fabMenu.classList.remove('open');fabMenu.setAttribute('aria-hidden','true');}
       if(fabMain) fabMain.setAttribute('aria-expanded','false');
+      const langMenu=$('#lang-menu'),langBtn=$('#lang-btn');
+      if(langMenu){langMenu.classList.remove('open');langMenu.setAttribute('aria-hidden','true');}
+      if(langBtn) langBtn.setAttribute('aria-expanded','false');
+      const psPanel=$('#ps-panel'),psTrigger=$('#ps-trigger');
+      if(psPanel){psPanel.classList.remove('open');psPanel.setAttribute('aria-hidden','true');}
+      if(psTrigger) psTrigger.setAttribute('aria-expanded','false');
     }
   });
 });
