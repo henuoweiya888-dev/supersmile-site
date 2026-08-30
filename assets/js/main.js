@@ -331,7 +331,7 @@ function renderProductsTeaser(){
   const grid=$('#cat-cards');
   if(grid) grid.innerHTML=PRODS.categories.map(c=>{
     const img=c.products[0] && c.products[0].images[0] || '';
-    return `<a class="cat-card" href="products#${c.id}"><img src="${img}" alt="${t(c.name)}" loading="lazy"><div class="cat-body"><h3>${t(c.name)}</h3><p>${t(c.desc)}</p></div></a>`;
+    return `<a class="cat-card" href="products#${c.id}"><span class="cat-media"><img src="${img}" alt="${t(c.name)}" loading="lazy"></span><div class="cat-body"><h3>${t(c.name)}</h3><p>${t(c.desc)}</p></div></a>`;
   }).join('');
 }
 
@@ -393,7 +393,7 @@ function renderProductsPage(){
   $$('.filter-btn[data-cat]',f||document).forEach(b=>b.onclick=()=>{ location.hash=b.dataset.cat; renderProductsPage(); });
   const cat=PRODS.categories.find(c=>c.id===here)||PRODS.categories[0];
   const head=$('#cat-head'); if(head) head.innerHTML=`<h2>${t(cat.name)}</h2><p>${t(cat.desc)}</p>`;
-  grid.innerHTML=cat.products.map(p=>`<a class="prod" href="/product/${p.slug}.html" data-pid="${p.id}"><img src="${p.images[0]}" alt="${t(p.name)}" loading="lazy"><div class="info"><b>${t(p.name)}</b><span>${t(p.name)===p.name.en?'':p.name.en}</span></div></a>`).join('');
+  grid.innerHTML=cat.products.map(p=>`<a class="prod" href="/product/${p.slug}.html" data-pid="${p.id}"><span class="prod-media"><img src="${p.images[0]}" alt="${t(p.name)}" loading="lazy"></span><div class="info"><b>${t(p.name)}</b><span>${t(p.name)===p.name.en?'':p.name.en}</span></div></a>`).join('');
 }
 
 const CONTACT_ICONS = {
@@ -469,15 +469,24 @@ function renderFab(){
   const online=$('#fab-online'); if(online) online.textContent = LANG==='zh' ? '在线联系' : 'Online Message';
   const main=$('#fab-main'), menu=$('#fab-menu');
   if(main && menu){
-    main.onclick=(e)=>{ e.stopPropagation(); menu.classList.toggle('open'); };
+    const label=LANG==='zh'?'联系询价':'Contact';
+    main.innerHTML='<span class="fab-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20.5 11.4a8.2 8.2 0 0 1-8.7 8.1 9.2 9.2 0 0 1-3.7-.8L3.5 20l1.4-4.2a8.2 8.2 0 1 1 15.6-4.4Z"/><path d="M8.2 11.8h.01M12 11.8h.01M15.8 11.8h.01"/></svg></span><span class="fab-label">'+label+'</span>';
+    main.setAttribute('aria-label',LANG==='zh'?'联系与询价':'Contact and inquiry');
+    main.setAttribute('aria-controls','fab-menu');
+    const setFabOpen=(open)=>{
+      menu.classList.toggle('open',open);
+      menu.setAttribute('aria-hidden',String(!open));
+      main.setAttribute('aria-expanded',String(open));
+    };
+    setFabOpen(false);
+    main.onclick=(e)=>{ e.stopPropagation(); setFabOpen(!menu.classList.contains('open')); };
     if(!window.__fabBound){
       window.__fabBound=true;
-      document.addEventListener('click',(e)=>{ if(!e.target.closest('#fab')) menu.classList.remove('open'); });
+      document.addEventListener('click',(e)=>{ if(!e.target.closest('#fab')) setFabOpen(false); });
     }
-  }
-  if(online && !window.__modalOpenBound){
-    window.__modalOpenBound=true;
-    online.onclick=(e)=>{ e.stopPropagation(); menu && menu.classList.remove('open'); openModal(); };
+    if(online){
+      online.onclick=(e)=>{ e.stopPropagation(); setFabOpen(false); openModal(); };
+    }
   }
   renderModal();
 }
@@ -543,12 +552,6 @@ function decoratePage(){
 
   const crumb=$('nav[aria-label="Breadcrumb"]');
   if(crumb) crumb.classList.add('breadcrumb');
-
-  const fab=$('#fab-main');
-  if(fab){
-    fab.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.5 9.5 9.5 0 0 1-4-.9L3 21l1.7-4.7A8.4 8.4 0 1 1 21 11.5Z"/><path d="M8 12h.01M12 12h.01M16 12h.01"/></svg>';
-    fab.setAttribute('aria-label',LANG==='zh'?'联系与询价':'Contact and inquiry');
-  }
 
   setupHeaderMotion();
   setupProductGallery();
@@ -699,6 +702,9 @@ document.addEventListener('DOMContentLoaded', async ()=>{
       const nav=$('#nav-links'); if(nav) nav.classList.remove('open');
       document.body.classList.remove('nav-open');
       const tg=$('#nav-toggle'); if(tg) tg.setAttribute('aria-expanded','false');
+      const fabMenu=$('#fab-menu'),fabMain=$('#fab-main');
+      if(fabMenu){fabMenu.classList.remove('open');fabMenu.setAttribute('aria-hidden','true');}
+      if(fabMain) fabMain.setAttribute('aria-expanded','false');
     }
   });
 });
