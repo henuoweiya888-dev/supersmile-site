@@ -1160,6 +1160,17 @@ html[lang^="zh"] .page-about .about-story-copy p{text-indent:4em}
   }
 }
 
+/* Desktop-only density pass; mobile story rhythm remains unchanged. */
+@media(min-width:761px){
+  .page-about #about-story{padding:46px 0 58px!important}
+  .page-about #about-story .about-story-head{margin-block-end:20px!important}
+  .page-about .about-story-flow{gap:18px}
+  .page-about .about-story-beat{gap:12px}
+  .page-about .about-story-media img{height:clamp(200px,20vw,275px)}
+  .page-about .about-story-team .about-story-media{grid-column:4/-4}
+  .page-about .about-story-team .about-story-media img{height:auto}
+}
+
 /* Mobile homepage proof rows: square media, one aligned image/copy row, then a full-width action. */
 @media(max-width:760px){
   .page-home #blocks{border-block-end:0}
