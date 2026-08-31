@@ -1154,9 +1154,14 @@ html[lang^="zh"] .page-about .about-story-copy p{text-indent:4em}
     order:2;
   }
   .page-about .about-story-media img{height:clamp(150px,44vw,188px)}
+  .page-about .about-story-team .about-story-media{
+    align-self:center;
+    width:min(100%,280px);
+  }
   .page-about .about-story-team .about-story-media img{
-    height:clamp(166px,48vw,204px);
-    aspect-ratio:auto;
+    height:auto;
+    aspect-ratio:16/9;
+    object-fit:cover;
   }
 }
 
