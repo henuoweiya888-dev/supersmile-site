@@ -1067,11 +1067,11 @@ html[lang^="zh"] .page-about #about-company{
 }
 .page-about #about-snapshot{padding-block:clamp(48px,5vw,72px)!important}
 
-.page-about #about-story{padding:clamp(76px,8vw,116px) 0!important}
+.page-about #about-story{padding:clamp(58px,6vw,78px) 0!important}
 .page-about #about-story .about-story-head{
   max-width:none;
   margin-inline:auto;
-  margin-block-end:clamp(48px,5vw,72px)!important;
+  margin-block-end:clamp(28px,3vw,40px)!important;
   text-align:center;
 }
 .page-about #about-story .about-story-head .tag{
@@ -1087,16 +1087,16 @@ html[lang^="zh"] .page-about #about-company{
   text-align:center;
 }
 html[lang^="zh"] .page-about #about-story .sec-head h2{white-space:nowrap;text-wrap:nowrap}
-.page-about .about-story-flow{display:grid;gap:clamp(48px,5.6vw,76px)}
+.page-about .about-story-flow{display:grid;gap:clamp(28px,3.4vw,44px)}
 .page-about .about-story-beat{
   display:grid;
   grid-template-columns:repeat(12,minmax(0,1fr));
   align-items:center;
-  gap:clamp(24px,3.5vw,52px);
+  gap:clamp(14px,1.6vw,22px);
 }
 .page-about .about-story-copy{
-  grid-column:1/span 5;
-  max-width:62ch;
+  grid-column:1/span 7;
+  max-width:68ch;
   color:var(--v2-copy);
 }
 .page-about .about-story-copy p{margin:0 0 1.05em;font-size:17px;line-height:1.74}
@@ -1118,11 +1118,11 @@ html[lang^="zh"] .page-about .about-story-copy p{text-indent:4em}
   display:block;
 }
 .page-about .about-story-beat:nth-child(even):not(.about-story-team) .about-story-copy{
-  grid-column:8/-1;
+  grid-column:6/-1;
   grid-row:1;
 }
 .page-about .about-story-beat:nth-child(even):not(.about-story-team) .about-story-media{
-  grid-column:2/span 5;
+  grid-column:1/span 5;
   grid-row:1;
 }
 .page-about .about-story-team .about-story-media{grid-column:3/-3}
@@ -1135,17 +1135,17 @@ html[lang^="zh"] .page-about .about-story-copy p{text-indent:4em}
 @media(max-width:760px){
   .page-about>.hero:not(.hero-home){padding:88px 0 28px!important}
   html[lang^="zh"] .page-about #about-company{font-size:clamp(24px,6.5vw,29px)}
-  .page-about #about-story{padding:48px 0 56px!important}
-  .page-about #about-story .about-story-head{margin-block-end:36px!important}
+  .page-about #about-story{padding:36px 0 44px!important}
+  .page-about #about-story .about-story-head{margin-block-end:24px!important}
   .page-about #about-story .about-story-head .tag{font-size:12px}
   .page-about #about-story .sec-head h2{max-width:none;font-size:clamp(24px,6.5vw,28px);line-height:1.08}
-  .page-about .about-story-flow{gap:38px}
+  .page-about .about-story-flow{gap:26px}
   .page-about .about-story-beat,
   .page-about .about-story-beat:nth-child(even):not(.about-story-team){
     display:flex;
     flex-direction:column;
     align-items:stretch;
-    gap:18px;
+    gap:14px;
   }
   .page-about .about-story-copy p{font-size:16px;line-height:1.72}
   .page-about .about-story-media,
