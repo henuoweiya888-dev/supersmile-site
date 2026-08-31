@@ -1193,3 +1193,21 @@ html:lang(ar) .step h4,html:lang(ur) .step h4,html:lang(hi) .step h4,html:lang(b
     border-radius:0;
   }
 }
+
+/* Compact mobile certification ledger while keeping the Chinese heading on one line. */
+@media(max-width:760px){
+  .page-home #certs{padding:44px 0 40px}
+  .page-home #certs .sec-head{margin-block-end:22px}
+  html[lang^="zh"] .page-home #certs .sec-head h2{
+    max-width:none;
+    font-size:clamp(28px,8.2vw,32px);
+    line-height:1.05;
+    letter-spacing:-.04em;
+    white-space:nowrap;
+    text-wrap:nowrap;
+  }
+  .page-home #cert-grid .cert{padding:10px 4px 14px}
+  .page-home #cert-grid .cert img{height:clamp(82px,24vw,100px)}
+  .page-home #cert-grid .cert b{margin-block-start:10px;font-size:13px;line-height:1.3}
+  .page-home #cert-grid .cert span{font-size:10px;line-height:1.35}
+}
