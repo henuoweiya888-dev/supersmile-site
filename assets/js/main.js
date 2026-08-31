@@ -267,7 +267,7 @@ function localizeInternalLinks(){
 async function loadData(){
   if(SITE) return;
   const [s,p] = await Promise.all([
-    fetch('/data/site.json?v=20260831v14').then(r=>r.json()),
+    fetch('/data/site.json?v=20260831v15').then(r=>r.json()),
     fetch('/data/products.json?v=20260831v7').then(r=>r.json())
   ]);
   SITE=s; PRODS=p;
@@ -432,7 +432,18 @@ function renderFactory(){
   setText('#fa-desc', t(SITE.factory.desc));
   setText('#fa-clients', t(SITE.factory.clients));
   const fi=$('#fact-imgs');
-  if(fi && SITE.factory.images) fi.innerHTML=SITE.factory.images.map((src,index)=>`<img src="${src}" alt="${t(SITE.factory.title)} ${index+1}" loading="lazy">`).join('');
+  if(fi && SITE.factory.images){
+    fi.replaceChildren(...SITE.factory.images.map((item,index)=>{
+      const src=typeof item==='string'?item:item.src;
+      const alt=typeof item==='object'&&item.alt?t(item.alt):`${t(SITE.factory.title)} ${index+1}`;
+      const img=document.createElement('img');
+      img.src=src;
+      img.alt=alt;
+      img.loading='lazy';
+      img.decoding='async';
+      return img;
+    }));
+  }
 }
 
 function renderCerts(){
@@ -972,36 +983,51 @@ function renderCustomStatic(){
 
 function renderAboutStatic(){
   if(pageIdentity()!=='page-about') return;
-  const sections=$$('body > section');
-  const hero=sections[0];
+  const hero=$('body.page-about > section.hero');
   if(hero){
     textIn(hero,'.hero-badge',t(SITE.factory.tag));
     const intro=$(':scope > .container > p:not(.about-credit)',hero);
     if(intro) intro.textContent=t(SITE.factory.desc);
     const imgs=$$('img',hero); imgs.forEach(img=>img.alt=t(SITE.company.name));
   }
+  const aboutStory=SITE.about_story||{};
+  const aboutStoryTag=SITE.about_story_tag||SITE.nav.about;
   const heads=[
-    null,
-    [SITE.nav.about,SITE.factory.title],
-    [SITE.factory.tag,SITE.factory.title],
-    [SITE.certs.tag,SITE.certs.title],
-    [SITE.hero.badge,SITE.company.name]
+    [$('#about-story'),aboutStoryTag,aboutStory.title||SITE.factory.title],
+    [$('#about-factory'),SITE.factory.tag,SITE.factory.title],
+    [$('#about-snapshot'),SITE.hero.badge,SITE.company.name]
   ];
-  sections.forEach((section,i)=>{
-    if(!heads[i]) return;
-    textIn(section,'.sec-head .tag',t(heads[i][0]));
-    textIn(section,'.sec-head h2',t(heads[i][1]));
+  heads.forEach(([section,tag,title])=>{
+    if(!section) return;
+    textIn(section,'.sec-head .tag',t(tag));
+    textIn(section,'.sec-head h2',t(title));
   });
-  const aboutIntro=SITE.about_intro&&SITE.about_intro[LANG]
-    ? SITE.about_intro[LANG]
-    : t(SITE.factory.desc);
-  setText('#fa-desc',aboutIntro);
-  const factoryImg=sections[1]&&$('img',sections[1]); if(factoryImg) factoryImg.alt=t(SITE.factory.title);
-  const cards=sections[4]?$$('.card',sections[4]):[];
+  const storyCopy=$('#about-story-copy');
+  if(storyCopy){
+    const localizedBody=aboutStory.body&&aboutStory.body[LANG];
+    const paragraphs=Array.isArray(localizedBody)
+      ? localizedBody
+      : (Array.isArray(aboutStory.body&&aboutStory.body.en)?aboutStory.body.en:[]);
+    storyCopy.replaceChildren(...paragraphs.map(text=>{
+      const p=document.createElement('p');
+      const highlight=aboutStory.highlight?t(aboutStory.highlight):'';
+      const highlightAt=highlight?text.indexOf(highlight):-1;
+      if(highlightAt<0) p.textContent=text;
+      else{
+        p.append(document.createTextNode(text.slice(0,highlightAt)));
+        const strong=document.createElement('strong');
+        strong.textContent=highlight;
+        p.append(strong,document.createTextNode(text.slice(highlightAt+highlight.length)));
+      }
+      return p;
+    }));
+  }
+  const factoryImg=$('#about-story img'); if(factoryImg) factoryImg.alt=t(aboutStory.title||SITE.factory.title);
+  const cards=$$('#about-snapshot .card');
   const labels=[t(SITE.hero.badge),t(SITE.factory.tag),t(SITE.factory.title),t(SITE.certs.title)];
   const values=[SITE.company.founded,'3,000 m²','100+','IP68'];
   cards.forEach((card,i)=>{ textIn(card,'h3',labels[i]); textIn(card,'p',values[i]); });
-  const cta=sections.find(s=>s.classList.contains('cta'));
+  const cta=$('body.page-about > section.cta');
   if(cta){
     textIn(cta,'h2',t(SITE.cta.title));
     textIn(cta,'p',t(SITE.cta.desc));

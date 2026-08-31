@@ -146,6 +146,57 @@
   "en": "Every project moves through one coordinated quality workflow—from engineering review and incoming inspection to crimping, assembly, continuity testing and shipment release. We can start from a drawing, sample or pinout, validate a low-volume run first, then transfer it into repeatable batch production with inspection records retained for traceability.",
   "zh": "我们把工程确认、来料检验、压接加工、组装测试和出货复核纳入同一套质量流程。项目可从图纸、样品或针脚定义开始，先完成小批量验证，再稳定转入量产；每批成品均保留检验记录，便于持续复购与质量追溯。"
  },
+ "about_story_tag": {
+  "en": "Company Story",
+  "zh": "企业故事",
+  "hi": "कंपनी की कहानी",
+  "es": "Historia de la empresa",
+  "fr": "Histoire de l’entreprise",
+  "ar": "قصة الشركة",
+  "bn": "কোম্পানির গল্প",
+  "pt": "História da empresa",
+  "ru": "История компании",
+  "ur": "کمپنی کی کہانی",
+  "id": "Kisah Perusahaan",
+  "de": "Unternehmensgeschichte",
+  "ja": "企業ストーリー",
+  "tr": "Şirket Hikâyesi",
+  "vi": "Câu chuyện doanh nghiệp",
+  "ko": "기업 이야기",
+  "it": "Storia dell’azienda",
+  "nl": "Bedrijfsverhaal",
+  "pl": "Historia firmy",
+  "th": "เรื่องราวของบริษัท"
+ },
+ "about_story": {
+  "title": {
+   "en": "Through Every Storm, We Get Every Wire Right",
+   "zh": "在风浪中，把每一根线做好"
+  },
+  "highlight": {
+   "en": "100% continuity testing on every wiring harness",
+   "zh": "对每条线束进行100%导通测试"
+  },
+  "body": {
+   "zh": [
+    "疫情最艰难的几年，全球供应链仿佛一根被反复弯折的线。工厂停工、物流受阻，铜材与连接器价格持续波动。在某国，一些客户的设备已经完成装配，却可能因为缺少一个接头、一条线束，迟迟无法交付。那时，超斯迈尔的成员还分散在生产、工程、品质和外贸等不同岗位。我们见过客户因为一个不起眼的零件被迫停线，也见过有人为了赶交期而省略必要的检测。",
+    "正是这些经历，让团队逐渐形成了一个共同的认识：线束虽然藏在设备内部，却连接着机器的稳定运行、企业的商业信誉，以及最终使用者的安全与信任。",
+    "风浪逐渐平息后，团队没有急着追求规模，而是先把多年积累的经验整理成工艺标准、检验流程和交付规范。2023年，这些经验正式汇聚成超斯迈尔。创业之后，公司同样经历过订单起伏、成本波动、设备调整和生产线升级。订单繁忙时，我们守住交期与品质；市场放缓时，我们重新审视每一道工序，改进压接标准，完善物料管理，为下一次出发做好准备。",
+    "今天，我们坚持对每条线束进行100%导通测试，也愿意认真对待小批量、定制化和看似不起眼的需求。我们不依靠虚构的荣誉证明自己，因为客户的复购、完整的检测记录、可追溯的材料，以及一次次兑现的承诺，本身就是最有分量的背书。",
+    "我们相信，商业不只是完成一笔交易，更是认真对待每一次托付。诚实、守约、勤勉、责任与尊重，不应只是写在墙上的口号，而应体现在每一次报价、压接、检验和交付之中。公司或许年轻，但它所坚持的原则，来自更早的经历，也将支撑我们走向更远的地方。"
+   ],
+   "en": [
+    "During the most difficult years of the pandemic, the global supply chain felt like a wire being bent back and forth again and again. Factories shut down, logistics were disrupted, and the prices of copper and connectors continued to fluctuate. In one country, some customers had already finished assembling their equipment, yet delivery was delayed simply because a connector or a wiring harness was missing.",
+    "At that time, the people who would later form the Super Smile team were still working in different roles across production, engineering, quality control, and international trade. We saw customers forced to halt production because of a seemingly insignificant component, and we also saw necessary inspections skipped in the rush to meet delivery deadlines.",
+    "Those experiences gradually led us to a shared understanding: although wiring harnesses are hidden inside equipment, they connect far more than components. They support the stable operation of machines, the commercial reputation of businesses, and the safety and trust of the people who ultimately use them.",
+    "As the turbulence began to subside, the team did not rush to pursue scale. Instead, we first turned years of accumulated experience into process standards, inspection procedures, and delivery protocols. In 2023, those experiences were formally brought together under Super Smile.",
+    "Since then, the company has faced its own ups and downs, including fluctuations in orders and costs, equipment adjustments, and production-line upgrades. When orders were strong, we protected both delivery schedules and quality. When the market slowed, we re-examined every process, improved our crimping standards, strengthened material management, and prepared ourselves for the next stage of growth.",
+    "Today, we perform 100% continuity testing on every wiring harness. We also take small-batch orders, customized projects, and seemingly minor requirements seriously. We do not rely on fabricated honors to prove ourselves, because repeat orders, complete testing records, traceable materials, and promises kept time after time are the strongest endorsements of all.",
+    "We believe that business is not merely about completing a transaction; it is about honoring every trust placed in us. Honesty, keeping our word, diligence, responsibility, and respect should not be slogans written on a wall. They should be reflected in every quotation, every crimp, every inspection, and every delivery.",
+    "Our company may be young, but the principles we uphold were shaped by experiences that began long before it was founded—and they will continue to carry us forward."
+   ]
+  }
+ },
  "contact": {
   "email": "sales@supersmile-tech.com",
   "whatsapp": "+44 7516 289817",
@@ -1588,9 +1639,48 @@
    "th": "ลูกค้า: Autel, Launch, TTI, Kelie, BESS New Energy และอื่น ๆ"
   },
   "images": [
-   "/assets/images/factory/factory-floor-polished.jpg",
-   "/assets/images/factory/quality-continuity-test-v2.jpg",
-   "/assets/images/factory/automated-processing-v2.jpg"
+   {
+    "src": "/assets/images/factory/factory-floor-polished.jpg",
+    "alt": {
+     "en": "Super Smile wire harness production floor and processing lines",
+     "zh": "超斯迈尔线束生产车间与加工线"
+    }
+   },
+   {
+    "src": "/assets/images/factory/quality-continuity-test-v2.jpg",
+    "alt": {
+     "en": "Operator conducting wiring harness continuity testing",
+     "zh": "操作人员进行线束导通测试"
+    }
+   },
+   {
+    "src": "/assets/images/factory/automated-processing-v2.jpg",
+    "alt": {
+     "en": "Automated wire cutting and terminal processing equipment",
+     "zh": "自动裁线与端子加工设备"
+    }
+   },
+   {
+    "src": "/assets/images/factory/factory-team-assembly-ai-v3.jpg",
+    "alt": {
+     "en": "Super Smile assembly team working across the production floor",
+     "zh": "超斯迈尔装配团队在生产车间作业"
+    }
+   },
+   {
+    "src": "/assets/images/factory/factory-workbench-ai-v3.jpg",
+    "alt": {
+     "en": "Technician assembling wire harnesses at a production workstation",
+     "zh": "技术人员在线束生产工作台装配"
+    }
+   },
+   {
+    "src": "/assets/images/factory/factory-wire-bundles-ai-v3.jpg",
+    "alt": {
+     "en": "Color-coded terminal wires prepared for harness assembly",
+     "zh": "待装配的彩色端子线材"
+    }
+   }
   ]
  },
  "certs": {
