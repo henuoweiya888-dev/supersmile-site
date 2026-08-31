@@ -1100,7 +1100,7 @@ html[lang^="zh"] .page-about #about-story .sec-head h2{white-space:nowrap;text-w
   color:var(--v2-copy);
 }
 .page-about .about-story-copy p{margin:0 0 1.05em;font-size:17px;line-height:1.74}
-html[lang^="zh"] .page-about .about-story-copy p{text-indent:4em}
+.page-about .about-story-copy p{text-indent:4em}
 .page-about .about-story-copy strong{color:var(--v2-ink);font-weight:800}
 .page-about .about-story-copy p:last-child{margin-block-end:0}
 .page-about .about-story-media{
