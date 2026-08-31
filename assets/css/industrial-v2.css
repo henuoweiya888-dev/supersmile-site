@@ -1167,8 +1167,16 @@ html[lang^="zh"] .page-about .about-story-copy p{text-indent:4em}
   .page-about .about-story-flow{gap:18px}
   .page-about .about-story-beat{gap:12px}
   .page-about .about-story-media img{height:clamp(200px,20vw,275px)}
-  .page-about .about-story-team .about-story-media{grid-column:4/-4}
-  .page-about .about-story-team .about-story-media img{height:auto}
+  .page-about .about-story-team .about-story-media{
+    grid-column:1/-1;
+    justify-self:center;
+    width:min(100%,340px);
+  }
+  .page-about .about-story-team .about-story-media img{
+    height:auto;
+    aspect-ratio:16/9;
+    object-fit:cover;
+  }
 }
 
 /* Mobile homepage proof rows: square media, one aligned image/copy row, then a full-width action. */
