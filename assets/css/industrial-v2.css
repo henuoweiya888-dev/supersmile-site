@@ -1066,14 +1066,15 @@ html:lang(ar) .step h4,html:lang(ur) .step h4,html:lang(hi) .step h4,html:lang(b
   border-radius:var(--v2-media-radius,14px);
 }
 
-.page-about #about-factory .fact-grid{
+.page-about #about-story .fact-grid{
   display:grid;
   grid-template-columns:repeat(12,minmax(0,1fr));
   grid-template-rows:none;
   grid-auto-rows:clamp(210px,19vw,300px);
   gap:10px;
+  margin-block-start:clamp(56px,6vw,88px);
 }
-.page-about #about-factory .fact-grid>img{
+.page-about #about-story .fact-grid>img{
   grid-column:span 4;
   grid-row:auto;
   width:100%;
@@ -1081,9 +1082,9 @@ html:lang(ar) .step h4,html:lang(ur) .step h4,html:lang(hi) .step h4,html:lang(b
   min-height:0;
   max-height:none;
 }
-.page-about #about-factory .fact-grid>img:first-child{grid-column:span 7;grid-row:span 2;min-height:0}
-.page-about #about-factory .fact-grid>img:nth-child(2),
-.page-about #about-factory .fact-grid>img:nth-child(3){grid-column:span 5}
+.page-about #about-story .fact-grid>img:first-child{grid-column:span 7;grid-row:span 2;min-height:0}
+.page-about #about-story .fact-grid>img:nth-child(2),
+.page-about #about-story .fact-grid>img:nth-child(3){grid-column:span 5}
 
 @media(max-width:760px){
   .page-about #about-story{padding:48px 0 56px!important}
@@ -1098,21 +1099,22 @@ html:lang(ar) .step h4,html:lang(ur) .step h4,html:lang(hi) .step h4,html:lang(b
   .page-about #about-story .sec-head h2{max-width:12ch;font-size:clamp(36px,10.2vw,44px);line-height:1.08}
   .page-about .about-story-copy p{font-size:16px;line-height:1.78}
 
-  .page-about #about-factory .fact-grid{
+  .page-about #about-story .fact-grid{
     grid-template-columns:repeat(2,minmax(0,1fr));
     grid-auto-rows:auto;
     gap:6px;
+    margin-block-start:40px;
   }
-  .page-about #about-factory .fact-grid>img,
-  .page-about #about-factory .fact-grid>img:nth-child(2),
-  .page-about #about-factory .fact-grid>img:nth-child(3){
+  .page-about #about-story .fact-grid>img,
+  .page-about #about-story .fact-grid>img:nth-child(2),
+  .page-about #about-story .fact-grid>img:nth-child(3){
     grid-column:auto;
     grid-row:auto;
     height:clamp(116px,32vw,136px);
     min-height:0;
     max-height:136px;
   }
-  .page-about #about-factory .fact-grid>img:first-child{
+  .page-about #about-story .fact-grid>img:first-child{
     grid-column:1/-1;
     grid-row:auto;
     height:clamp(168px,45vw,190px);
@@ -1122,12 +1124,12 @@ html:lang(ar) .step h4,html:lang(ur) .step h4,html:lang(hi) .step h4,html:lang(b
 }
 
 @media(min-width:761px) and (max-width:1080px){
-  .page-about #about-factory .fact-grid{
+  .page-about #about-story .fact-grid{
     grid-template-columns:repeat(2,minmax(0,1fr));
     grid-auto-rows:220px;
   }
-  .page-about #about-factory .fact-grid>img,
-  .page-about #about-factory .fact-grid>img:nth-child(2),
-  .page-about #about-factory .fact-grid>img:nth-child(3){grid-column:auto;grid-row:auto;min-height:0}
-  .page-about #about-factory .fact-grid>img:first-child{grid-column:1/-1;grid-row:auto;min-height:0}
+  .page-about #about-story .fact-grid>img,
+  .page-about #about-story .fact-grid>img:nth-child(2),
+  .page-about #about-story .fact-grid>img:nth-child(3){grid-column:auto;grid-row:auto;min-height:0}
+  .page-about #about-story .fact-grid>img:first-child{grid-column:1/-1;grid-row:auto;min-height:0}
 }

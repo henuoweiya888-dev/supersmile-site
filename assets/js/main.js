@@ -994,7 +994,6 @@ function renderAboutStatic(){
   const aboutStoryTag=SITE.about_story_tag||SITE.nav.about;
   const heads=[
     [$('#about-story'),aboutStoryTag,aboutStory.title||SITE.factory.title],
-    [$('#about-factory'),SITE.factory.tag,SITE.factory.title],
     [$('#about-snapshot'),SITE.hero.badge,SITE.company.name]
   ];
   heads.forEach(([section,tag,title])=>{
