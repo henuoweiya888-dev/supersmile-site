@@ -5,7 +5,7 @@
 <title>Custom Wiring Harness | OEM/ODM Wire Harness Manufacturer China</title>
 <meta name="description" content="Custom wire harness &amp; cable assemblies built from drawing, sample or pinout — MOQ from 10 pcs, 7-day samples, 100% continuity tested. OEM/ODM factory in Shenzhen, China.">
 <link rel="stylesheet" href="/assets/css/style.css?v=20260825v3">
-<link rel="stylesheet" href="/assets/css/industrial-v2.css?v=20260831v8">
+<link rel="stylesheet" href="/assets/css/industrial-v2.css?v=20260831v23">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -48,52 +48,62 @@
   <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false"><span class="menu-icon" aria-hidden="true"><span></span><span></span></span></button>
 </div></header>
 
-<section class="hero" style="padding:64px 0">
+<section class="hero custom-hero">
   <div class="container">
-    <span class="hero-badge">OEM / ODM</span>
     <h1 id="cu-title">Custom Wiring Harness Solutions</h1>
     <p id="cu-desc">From drawing or sample to mass production: connector matching, pinout definition, cable length, material, labeling and packaging can all be customized.</p>
   </div>
 </section>
 
-<section>
+<section class="custom-details" aria-labelledby="cu-details-title">
   <div class="container">
-    <div class="sec-head"><span class="tag">WHAT WE CUSTOMIZE</span><h2>4 Things We Customize for You</h2></div>
+    <div class="sec-head custom-section-head"><h2 id="cu-details-title">Customization Details</h2></div>
     <div class="cards cards-4" id="features"></div>
   </div>
 </section>
 
 <section class="process">
   <div class="container">
-    <div class="sec-head"><span class="tag">HOW IT WORKS</span><h2 id="cu-process-title">Custom Development Workflow</h2></div>
+    <div class="sec-head custom-section-head"><h2 id="cu-process-title">Customization Process</h2></div>
     <div class="process-steps" id="process-steps"></div>
   </div>
 </section>
 
-<section>
+<section class="custom-scope" aria-labelledby="cu-scope-title">
   <div class="container">
-    <div class="sec-head"><span class="tag">APPLICATIONS</span><h2>Harness Solutions Across Industries</h2></div>
+    <div class="sec-head custom-section-head"><h2 id="cu-scope-title">Customization Scope</h2></div>
     <div class="apps" id="apps"></div>
   </div>
 </section>
 
-<section style="background:#fff">
+<section class="cta custom-inquiry">
   <div class="container">
-    <div class="sec-head"><span class="tag">FAST QUOTE</span><h2 id="cu-q-title">Info Needed for a Fast Quote</h2></div>
-    <div class="cards cards-2" style="max-width:860px;margin:0 auto">
-      <div class="card quote-card"><span class="quote-icon" data-ui-icon="image" aria-hidden="true"></span><h3>Product / Connector Photo</h3><p>Clear connector photos reduce sample revision time.</p></div>
-      <div class="card quote-card"><span class="quote-icon" data-ui-icon="car" aria-hidden="true"></span><h3>Vehicle / Equipment Model</h3><p>Application model or target device for accurate matching.</p></div>
-      <div class="card quote-card"><span class="quote-icon" data-ui-icon="diagram" aria-hidden="true"></span><h3>Pinout or Wiring Diagram</h3><p>Pin definition or wiring diagram for signal routing.</p></div>
-      <div class="card quote-card"><span class="quote-icon" data-ui-icon="ruler" aria-hidden="true"></span><h3>Length, Spec &amp; Quantity</h3><p>Cable length, gauge, core count, labeling and expected quantity.</p></div>
+    <div class="custom-inquiry-grid">
+      <div class="custom-inquiry-copy">
+        <span class="tag">GET A QUOTE</span>
+        <h2 id="cu-cta-title">Ready to Build Your Harness?</h2>
+        <p class="custom-inquiry-lead">Send your drawing, sample, connector photos or target device model. We will confirm the solution and quote.</p>
+      </div>
+      <form id="contact-form">
+        <div class="field">
+          <label id="cf-products-label">Select Products (optional)</label>
+          <div class="ps" id="ps">
+            <button type="button" class="ps-trigger" id="ps-trigger">Select products...</button>
+            <div class="ps-panel" id="ps-panel"></div>
+          </div>
+        </div>
+        <div class="form-name-grid">
+          <div class="field"><label for="cf-first-name">First name *</label><input id="cf-first-name" name="first_name" type="text" autocomplete="given-name" required placeholder="First name"></div>
+          <div class="field"><label for="cf-last-name">Last name *</label><input id="cf-last-name" name="last_name" type="text" autocomplete="family-name" required placeholder="Last name"></div>
+        </div>
+        <div class="field"><label for="cf-email">Your Email *</label><input id="cf-email" name="email" type="email" autocomplete="email" required placeholder="you@company.com"></div>
+        <div class="field"><label for="cf-msg">Message / Requirement *</label><textarea id="cf-msg" name="message" required placeholder="Describe your harness: drawing, sample, connector photo, pinout, quantity..."></textarea></div>
+        <button class="btn btn-primary" type="submit">Send via Email</button>
+        <p class="contact-form-hint">Or chat on WhatsApp directly: <a id="contact-wa" href="#" target="_blank" rel="noopener"></a></p>
+      </form>
     </div>
   </div>
 </section>
-
-<section class="cta"><div class="container">
-  <h2 id="cu-cta-title">Have a drawing, sample or requirement? Send it to us</h2>
-  <p>We confirm the wiring solution and quote within 1-2 working days. Samples in as little as 7 working days.</p>
-  <a class="btn btn-primary" href="/contact">Contact Us Now</a>
-</div></section>
 
 <footer class="footer">
   <div class="container">
@@ -136,6 +146,6 @@
 
 
 <div class="toast" id="toast"></div>
-<script src="/assets/js/main.js?v=20260831v14"></script>
+<script src="/assets/js/main.js?v=20260831v23"></script>
 </body>
 </html>

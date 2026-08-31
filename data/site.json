@@ -142,6 +142,10 @@
    "th": "ฝ่ายขายต่างประเทศ"
   }
  },
+ "about_intro": {
+  "en": "Every project moves through one coordinated quality workflow—from engineering review and incoming inspection to crimping, assembly, continuity testing and shipment release. We can start from a drawing, sample or pinout, validate a low-volume run first, then transfer it into repeatable batch production with inspection records retained for traceability.",
+  "zh": "我们把工程确认、来料检验、压接加工、组装测试和出货复核纳入同一套质量流程。项目可从图纸、样品或针脚定义开始，先完成小批量验证，再稳定转入量产；每批成品均保留检验记录，便于持续复购与质量追溯。"
+ },
  "contact": {
   "email": "sales@supersmile-tech.com",
   "whatsapp": "+44 7516 289817",
@@ -718,6 +722,22 @@
    }
   }
  ],
+ "custom_page": {
+  "headings": {
+   "details": {
+    "en": "Customization Details",
+    "zh": "定制细节"
+   },
+   "process": {
+    "en": "Customization Process",
+    "zh": "定制流程"
+   },
+   "scope": {
+    "en": "Customization Scope",
+    "zh": "定制范围"
+   }
+  }
+ },
  "custom_intro": {
   "tag": {
    "en": "CUSTOM CAPABILITY",
@@ -789,7 +809,7 @@
  "features": [
   {
    "ico": "connector",
-   "image": "/assets/images/products/feature-connectors-real-v1.jpg",
+   "image": "/assets/images/features/custom-connectors-v4.jpg",
    "title": {
     "en": "Connector & Terminal",
     "zh": "接口与端子定制",
@@ -837,7 +857,7 @@
   },
   {
    "ico": "signal",
-   "image": "/assets/images/factory/process-engineering-ai-v2.jpg",
+   "image": "/assets/images/features/custom-pinout-signal-v4.jpg",
    "title": {
     "en": "Pinout & Signal Route",
     "zh": "针脚与信号定制",
@@ -885,7 +905,7 @@
   },
   {
    "ico": "cable",
-   "image": "/assets/images/products/feature-harness-structure-real-v1.jpg",
+   "image": "/assets/images/features/custom-cable-structure-v4.jpg",
    "title": {
     "en": "Cable Structure",
     "zh": "线材结构定制",
@@ -933,7 +953,7 @@
   },
   {
    "ico": "package",
-   "image": "/assets/images/factory/process-packing-ai-v2.jpg",
+   "image": "/assets/images/features/custom-brand-packaging-v4.jpg",
    "title": {
     "en": "Branding & Packaging",
     "zh": "品牌与包装定制",
@@ -1028,7 +1048,7 @@
   "steps": [
    {
     "num": "01",
-    "image": "/assets/images/factory/process-submit-requirements.jpg",
+    "image": "/assets/images/factory/process-submit-photoreal-v3.jpg",
     "title": {
      "en": "Send Your Info",
      "zh": "提供资料",
@@ -1124,7 +1144,7 @@
    },
    {
     "num": "03",
-    "image": "/assets/images/factory/quality-continuity-test-v2.jpg",
+    "image": "/assets/images/factory/process-sample-validation-photoreal-v3.jpg",
     "title": {
      "en": "Sampling",
      "zh": "打样验证",
@@ -1172,7 +1192,7 @@
    },
    {
     "num": "04",
-    "image": "/assets/images/factory/process-packing-ai-v2.jpg",
+    "image": "/assets/images/factory/process-batch-production-photoreal-v3.jpg",
     "title": {
      "en": "Mass Production",
      "zh": "批量生产",
@@ -1266,14 +1286,14 @@
    "th": "โซลูชันสายไฟสำหรับทุกอุตสาหกรรม"
   },
   "images": [
-   "/assets/images/applications/automotive-diagnostics.jpg",
-   "/assets/images/applications/heavy-duty-j1939.jpg",
-   "/assets/images/applications/ev-battery-testing.jpg",
-   "/assets/images/applications/industrial-maintenance.jpg",
-   "/assets/images/applications/medical-equipment.jpg",
-   "/assets/images/applications/intelligent-robotics.jpg",
-   "/assets/images/applications/transportation-engineering.jpg",
-   "/assets/images/applications/oem-remanufacturing.jpg"
+   "/assets/images/applications/automotive-diagnostics-photoreal-v2.jpg",
+   "/assets/images/applications/heavy-duty-j1939-photoreal-v2.jpg",
+   "/assets/images/applications/ev-battery-testing-photoreal-v2.jpg",
+   "/assets/images/applications/industrial-equipment-photoreal-v2.jpg",
+   "/assets/images/applications/medical-equipment-photoreal-v2.jpg",
+   "/assets/images/applications/intelligent-robotics-photoreal-v2.jpg",
+   "/assets/images/applications/transportation-engineering-photoreal-v2.jpg",
+   "/assets/images/applications/oem-remanufacturing-photoreal-v2.jpg"
   ],
   "items": {
    "en": [
@@ -1925,28 +1945,28 @@
     "th": "จัดส่งตรงจากโรงงาน จับคู่หัวต่อแม่นยำ ตัวอย่าง MOQ ต่ำ บรรจุ OEM ตรวจ 100% ก่อนจัดส่ง ผ่าน UL/RoHS/SVHC จัดหาสม่ำเสมอ"
    },
    "image": "/assets/images/factory/_MG_5489.jpg",
-   "link": "",
+   "link": "/about.html",
    "link_text": {
-    "en": "",
-    "zh": "",
-    "hi": "",
-    "es": "",
-    "fr": "",
-    "ar": "",
-    "bn": "",
-    "pt": "",
-    "ru": "",
-    "ur": "",
-    "id": "",
-    "de": "",
-    "ja": "",
-    "tr": "",
-    "vi": "",
-    "ko": "",
-    "it": "",
-    "nl": "",
-    "pl": "",
-    "th": ""
+    "en": "Explore Our Factory →",
+    "zh": "进入工厂介绍 →",
+    "hi": "कारखाना परिचय देखें →",
+    "es": "Conozca nuestra fábrica →",
+    "fr": "Découvrir notre usine →",
+    "ar": "التعرّف على المصنع →",
+    "bn": "কারখানা পরিচিতি দেখুন →",
+    "pt": "Conheça nossa fábrica →",
+    "ru": "О нашем заводе →",
+    "ur": "فیکٹری کا تعارف دیکھیں →",
+    "id": "Lihat Profil Pabrik →",
+    "de": "Unsere Fabrik entdecken →",
+    "ja": "工場紹介を見る →",
+    "tr": "Fabrikamızı Tanıyın →",
+    "vi": "Xem giới thiệu nhà máy →",
+    "ko": "공장 소개 보기 →",
+    "it": "Scopri la nostra fabbrica →",
+    "nl": "Bekijk onze fabriek →",
+    "pl": "Poznaj naszą fabrykę →",
+    "th": "ดูข้อมูลโรงงาน →"
    }
   },
   {
@@ -1995,28 +2015,28 @@
     "th": "ส่งแบบ/ตัวอย่าง/รูปหัวต่อ → ตรวจสอบทางวิศวกรรม → ตัวอย่างใน 7 วัน → ผลิตจำนวนมาก"
    },
    "image": "/assets/images/factory/_MG_5484.jpg",
-   "link": "",
+   "link": "/custom.html",
    "link_text": {
-    "en": "",
-    "zh": "",
-    "hi": "",
-    "es": "",
-    "fr": "",
-    "ar": "",
-    "bn": "",
-    "pt": "",
-    "ru": "",
-    "ur": "",
-    "id": "",
-    "de": "",
-    "ja": "",
-    "tr": "",
-    "vi": "",
-    "ko": "",
-    "it": "",
-    "nl": "",
-    "pl": "",
-    "th": ""
+    "en": "Enter Custom Services →",
+    "zh": "进入定制服务 →",
+    "hi": "कस्टम सेवाएँ देखें →",
+    "es": "Acceder a servicios personalizados →",
+    "fr": "Accéder aux services sur mesure →",
+    "ar": "دخول خدمات التخصيص →",
+    "bn": "কাস্টম সেবায় যান →",
+    "pt": "Acessar serviços personalizados →",
+    "ru": "Перейти к услугам на заказ →",
+    "ur": "کسٹم سروسز دیکھیں →",
+    "id": "Masuk Layanan Kustom →",
+    "de": "Zu den Sonderanfertigungen →",
+    "ja": "カスタムサービスへ →",
+    "tr": "Özel Üretim Hizmetlerine Git →",
+    "vi": "Vào dịch vụ tùy chỉnh →",
+    "ko": "맞춤 제작 서비스로 이동 →",
+    "it": "Vai ai servizi su misura →",
+    "nl": "Naar maatwerkdiensten →",
+    "pl": "Przejdź do usług na zamówienie →",
+    "th": "เข้าสู่บริการสั่งทำพิเศษ →"
    }
   },
   {
@@ -2094,102 +2114,102 @@
   {
    "code": "en",
    "name": "English",
-   "flag": "EN"
+   "flag": "gb"
   },
   {
    "code": "zh",
    "name": "中文",
-   "flag": "ZH"
+   "flag": "cn"
   },
   {
    "code": "hi",
    "name": "हिन्दी",
-   "flag": "HI"
+   "flag": "in"
   },
   {
    "code": "es",
    "name": "Español",
-   "flag": "ES"
+   "flag": "es"
   },
   {
    "code": "fr",
    "name": "Français",
-   "flag": "FR"
+   "flag": "fr"
   },
   {
    "code": "ar",
    "name": "العربية",
-   "flag": "AR"
+   "flag": "sa"
   },
   {
    "code": "bn",
    "name": "বাংলা",
-   "flag": "BN"
+   "flag": "bd"
   },
   {
    "code": "pt",
    "name": "Português",
-   "flag": "PT"
+   "flag": "pt"
   },
   {
    "code": "ru",
    "name": "Русский",
-   "flag": "RU"
+   "flag": "ru"
   },
   {
    "code": "ur",
    "name": "اردو",
-   "flag": "UR"
+   "flag": "pk"
   },
   {
    "code": "id",
    "name": "Bahasa Indonesia",
-   "flag": "ID"
+   "flag": "id"
   },
   {
    "code": "de",
    "name": "Deutsch",
-   "flag": "DE"
+   "flag": "de"
   },
   {
    "code": "ja",
    "name": "日本語",
-   "flag": "JA"
+   "flag": "jp"
   },
   {
    "code": "tr",
    "name": "Türkçe",
-   "flag": "TR"
+   "flag": "tr"
   },
   {
    "code": "vi",
    "name": "Tiếng Việt",
-   "flag": "VI"
+   "flag": "vn"
   },
   {
    "code": "ko",
    "name": "한국어",
-   "flag": "KO"
+   "flag": "kr"
   },
   {
    "code": "it",
    "name": "Italiano",
-   "flag": "IT"
+   "flag": "it"
   },
   {
    "code": "nl",
    "name": "Nederlands",
-   "flag": "NL"
+   "flag": "nl"
   },
   {
    "code": "pl",
    "name": "Polski",
-   "flag": "PL"
+   "flag": "pl"
   },
   {
    "code": "th",
    "name": "ไทย",
-   "flag": "TH"
+   "flag": "th"
   }
  ]
 }

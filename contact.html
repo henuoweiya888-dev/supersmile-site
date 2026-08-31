@@ -5,7 +5,7 @@
 <title>Contact the Wire Harness Factory | Get a Custom Harness Quote</title>
 <meta name="description" content="Get a fast quote for custom wire harnesses, OBD2 diagnostic cables and turbo actuator harnesses. Contact us by WhatsApp, email or online form — we reply within 24 hours.">
 <link rel="stylesheet" href="/assets/css/style.css?v=20260825v3">
-<link rel="stylesheet" href="/assets/css/industrial-v2.css?v=20260831v8">
+<link rel="stylesheet" href="/assets/css/industrial-v2.css?v=20260831v23">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -48,15 +48,20 @@
   <button class="nav-toggle" id="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false"><span class="menu-icon" aria-hidden="true"><span></span><span></span></span></button>
 </div></header>
 
-<section class="hero" style="padding:64px 0">
+<section class="hero contact-hero">
+  <figure class="contact-hero-media">
+    <img src="/assets/images/features/custom-cable-structure-v4.jpg" width="1536" height="1024" alt="Shielded multi-core cable structure" decoding="async" fetchpriority="high">
+  </figure>
   <div class="container">
-    <span class="hero-badge">GET A QUOTE</span>
-    <h1>Send us your drawing, sample or requirement</h1>
-    <p>We confirm the wiring solution and quote within 1-2 working days.</p>
+    <div class="contact-hero-copy">
+      <span class="hero-badge">GET A QUOTE</span>
+      <h1>Send us your drawing, sample or requirement</h1>
+      <p>We confirm the wiring solution and quote within 1-2 working days.</p>
+    </div>
   </div>
 </section>
 
-<section>
+<section class="contact-main">
   <div class="container">
     <div class="contact-grid">
       <div class="contact-info" id="contact-info"></div>
@@ -69,9 +74,12 @@
               <div class="ps-panel" id="ps-panel"></div>
             </div>
           </div>
-          <div class="field"><label>Your Name *</label><input id="cf-name" required placeholder="Your name"></div>
-          <div class="field"><label>Your Email *</label><input id="cf-email" type="email" required placeholder="you@company.com"></div>
-          <div class="field"><label>Message / Requirement *</label><textarea id="cf-msg" required placeholder="Describe your harness: drawing, sample, connector photo, pinout, quantity..."></textarea></div>
+          <div class="form-name-grid">
+            <div class="field"><label for="cf-first-name">First name *</label><input id="cf-first-name" name="first_name" type="text" autocomplete="given-name" required placeholder="First name"></div>
+            <div class="field"><label for="cf-last-name">Last name *</label><input id="cf-last-name" name="last_name" type="text" autocomplete="family-name" required placeholder="Last name"></div>
+          </div>
+          <div class="field"><label for="cf-email">Your Email *</label><input id="cf-email" name="email" type="email" autocomplete="email" required placeholder="you@company.com"></div>
+          <div class="field"><label for="cf-msg">Message / Requirement *</label><textarea id="cf-msg" name="message" required placeholder="Describe your harness: drawing, sample, connector photo, pinout, quantity..."></textarea></div>
           <button class="btn btn-primary" type="submit" style="width:100%">Send via Email</button>
           <p style="font-size:12px;color:var(--muted);margin-top:10px">Or chat on WhatsApp directly: <a id="contact-wa" href="#" target="_blank" style="font-weight:700"></a></p>
         </form>
@@ -121,6 +129,6 @@
 
 
 <div class="toast" id="toast"></div>
-<script src="/assets/js/main.js?v=20260831v14"></script>
+<script src="/assets/js/main.js?v=20260831v23"></script>
 </body>
 </html>

@@ -1,16 +1,16 @@
 /* Super Smile site - 20 languages */
 let SITE = null, PRODS = null, LANG = 'en';
 const LANGS = [
-  {code:'en',name:'English'},{code:'zh',name:'中文'},
-  {code:'hi',name:'हिन्दी'},{code:'es',name:'Español'},
-  {code:'fr',name:'Français'},{code:'ar',name:'العربية'},
-  {code:'bn',name:'বাংলা'},{code:'pt',name:'Português'},
-  {code:'ru',name:'Русский'},{code:'ur',name:'اردو'},
-  {code:'id',name:'Indonesia'},{code:'de',name:'Deutsch'},
-  {code:'ja',name:'日本語'},{code:'tr',name:'Türkçe'},
-  {code:'vi',name:'Tiếng Việt'},{code:'ko',name:'한국어'},
-  {code:'it',name:'Italiano'},{code:'nl',name:'Nederlands'},
-  {code:'pl',name:'Polski'},{code:'th',name:'ไทย'}
+  {code:'en',name:'English',flag:'gb'},{code:'zh',name:'中文',flag:'cn'},
+  {code:'hi',name:'हिन्दी',flag:'in'},{code:'es',name:'Español',flag:'es'},
+  {code:'fr',name:'Français',flag:'fr'},{code:'ar',name:'العربية',flag:'sa'},
+  {code:'bn',name:'বাংলা',flag:'bd'},{code:'pt',name:'Português',flag:'pt'},
+  {code:'ru',name:'Русский',flag:'ru'},{code:'ur',name:'اردو',flag:'pk'},
+  {code:'id',name:'Indonesia',flag:'id'},{code:'de',name:'Deutsch',flag:'de'},
+  {code:'ja',name:'日本語',flag:'jp'},{code:'tr',name:'Türkçe',flag:'tr'},
+  {code:'vi',name:'Tiếng Việt',flag:'vn'},{code:'ko',name:'한국어',flag:'kr'},
+  {code:'it',name:'Italiano',flag:'it'},{code:'nl',name:'Nederlands',flag:'nl'},
+  {code:'pl',name:'Polski',flag:'pl'},{code:'th',name:'ไทย',flag:'th'}
 ];
 
 
@@ -21,26 +21,26 @@ const HOT = {
 };
 
 const UI = {
-  en:{title:'Send Us a Message',name:'Name',email:'Email',message:'Message',send:'Send Message',wa:'Chat on WhatsApp'},
-  zh:{title:'给我们留言',name:'姓名',email:'邮箱',message:'留言内容',send:'发送消息',wa:'在 WhatsApp 上聊'},
-  hi:{title:'हमें संदेश भेजें',name:'नाम',email:'ईमेल',message:'संदेश',send:'संदेश भेजें',wa:'WhatsApp पर चैट करें'},
-  es:{title:'Envíenos un mensaje',name:'Nombre',email:'Correo electrónico',message:'Mensaje',send:'Enviar mensaje',wa:'Chatear por WhatsApp'},
-  fr:{title:'Envoyez-nous un message',name:'Nom',email:'E-mail',message:'Message',send:'Envoyer le message',wa:'Discuter sur WhatsApp'},
-  ar:{title:'أرسل لنا رسالة',name:'الاسم',email:'البريد الإلكتروني',message:'الرسالة',send:'إرسال الرسالة',wa:'الدردشة عبر واتساب'},
-  bn:{title:'আমাদের মেসেজ পাঠান',name:'নাম',email:'ইমেইল',message:'মেসেজ',send:'মেসেজ পাঠান',wa:'WhatsApp-এ চ্যাট করুন'},
-  pt:{title:'Envie-nos uma mensagem',name:'Nome',email:'E-mail',message:'Mensagem',send:'Enviar mensagem',wa:'Conversar no WhatsApp'},
-  ru:{title:'Напишите нам',name:'Имя',email:'Email',message:'Сообщение',send:'Отправить сообщение',wa:'Написать в WhatsApp'},
-  ur:{title:'ہمیں پیغام بھیجیں',name:'نام',email:'ای میل',message:'پیغام',send:'پیغام بھیجیں',wa:'WhatsApp پر چیٹ کریں'},
-  id:{title:'Kirim Pesan kepada Kami',name:'Nama',email:'Email',message:'Pesan',send:'Kirim Pesan',wa:'Chat via WhatsApp'},
-  de:{title:'Nachricht senden',name:'Name',email:'E-Mail',message:'Nachricht',send:'Nachricht senden',wa:'Auf WhatsApp chatten'},
-  ja:{title:'メッセージを送る',name:'名前',email:'メール',message:'メッセージ',send:'送信する',wa:'WhatsAppでチャット'},
-  tr:{title:'Bize Mesaj Gönderin',name:'Ad',email:'E-posta',message:'Mesaj',send:'Mesaj Gönder',wa:"WhatsApp'ta Sohbet Et"},
-  vi:{title:'Gửi tin nhắn cho chúng tôi',name:'Tên',email:'Email',message:'Tin nhắn',send:'Gửi tin nhắn',wa:'Trò chuyện trên WhatsApp'},
-  ko:{title:'메시지 보내기',name:'이름',email:'이메일',message:'메시지',send:'메시지 보내기',wa:'WhatsApp으로 채팅'},
-  it:{title:'Inviaci un messaggio',name:'Nome',email:'Email',message:'Messaggio',send:'Invia messaggio',wa:'Chatta su WhatsApp'},
-  nl:{title:'Stuur ons een bericht',name:'Naam',email:'E-mail',message:'Bericht',send:'Bericht versturen',wa:'Chatten op WhatsApp'},
-  pl:{title:'Wyślij nam wiadomość',name:'Imię',email:'E-mail',message:'Wiadomość',send:'Wyślij wiadomość',wa:'Czatuj na WhatsApp'},
-  th:{title:'ส่งข้อความถึงเรา',name:'ชื่อ',email:'อีเมล',message:'ข้อความ',send:'ส่งข้อความ',wa:'แชทบน WhatsApp'}
+  en:{title:'Send Us a Message',name:'Name',firstName:'First name',lastName:'Last name',email:'Email',message:'Message',send:'Send Message',wa:'Chat on WhatsApp'},
+  zh:{title:'给我们留言',name:'姓名',firstName:'名',lastName:'姓',email:'邮箱',message:'留言内容',send:'发送消息',wa:'在 WhatsApp 上聊'},
+  hi:{title:'हमें संदेश भेजें',name:'नाम',firstName:'प्रथम नाम',lastName:'उपनाम',email:'ईमेल',message:'संदेश',send:'संदेश भेजें',wa:'WhatsApp पर चैट करें'},
+  es:{title:'Envíenos un mensaje',name:'Nombre',firstName:'Nombre',lastName:'Apellidos',email:'Correo electrónico',message:'Mensaje',send:'Enviar mensaje',wa:'Chatear por WhatsApp'},
+  fr:{title:'Envoyez-nous un message',name:'Nom',firstName:'Prénom',lastName:'Nom',email:'E-mail',message:'Message',send:'Envoyer le message',wa:'Discuter sur WhatsApp'},
+  ar:{title:'أرسل لنا رسالة',name:'الاسم',firstName:'الاسم الأول',lastName:'اسم العائلة',email:'البريد الإلكتروني',message:'الرسالة',send:'إرسال الرسالة',wa:'الدردشة عبر واتساب'},
+  bn:{title:'আমাদের মেসেজ পাঠান',name:'নাম',firstName:'নাম',lastName:'পদবি',email:'ইমেইল',message:'মেসেজ',send:'মেসেজ পাঠান',wa:'WhatsApp-এ চ্যাট করুন'},
+  pt:{title:'Envie-nos uma mensagem',name:'Nome',firstName:'Nome',lastName:'Sobrenome',email:'E-mail',message:'Mensagem',send:'Enviar mensagem',wa:'Conversar no WhatsApp'},
+  ru:{title:'Напишите нам',name:'Имя',firstName:'Имя',lastName:'Фамилия',email:'Email',message:'Сообщение',send:'Отправить сообщение',wa:'Написать в WhatsApp'},
+  ur:{title:'ہمیں پیغام بھیجیں',name:'نام',firstName:'پہلا نام',lastName:'خاندانی نام',email:'ای میل',message:'پیغام',send:'پیغام بھیجیں',wa:'WhatsApp پر چیٹ کریں'},
+  id:{title:'Kirim Pesan kepada Kami',name:'Nama',firstName:'Nama depan',lastName:'Nama belakang',email:'Email',message:'Pesan',send:'Kirim Pesan',wa:'Chat via WhatsApp'},
+  de:{title:'Nachricht senden',name:'Name',firstName:'Vorname',lastName:'Nachname',email:'E-Mail',message:'Nachricht',send:'Nachricht senden',wa:'Auf WhatsApp chatten'},
+  ja:{title:'メッセージを送る',name:'名前',firstName:'名',lastName:'姓',email:'メール',message:'メッセージ',send:'送信する',wa:'WhatsAppでチャット'},
+  tr:{title:'Bize Mesaj Gönderin',name:'Ad',firstName:'Ad',lastName:'Soyad',email:'E-posta',message:'Mesaj',send:'Mesaj Gönder',wa:"WhatsApp'ta Sohbet Et"},
+  vi:{title:'Gửi tin nhắn cho chúng tôi',name:'Tên',firstName:'Tên',lastName:'Họ',email:'Email',message:'Tin nhắn',send:'Gửi tin nhắn',wa:'Trò chuyện trên WhatsApp'},
+  ko:{title:'메시지 보내기',name:'이름',firstName:'이름',lastName:'성',email:'이메일',message:'메시지',send:'메시지 보내기',wa:'WhatsApp으로 채팅'},
+  it:{title:'Inviaci un messaggio',name:'Nome',firstName:'Nome',lastName:'Cognome',email:'Email',message:'Messaggio',send:'Invia messaggio',wa:'Chatta su WhatsApp'},
+  nl:{title:'Stuur ons een bericht',name:'Naam',firstName:'Voornaam',lastName:'Achternaam',email:'E-mail',message:'Bericht',send:'Bericht versturen',wa:'Chatten op WhatsApp'},
+  pl:{title:'Wyślij nam wiadomość',name:'Imię',firstName:'Imię',lastName:'Nazwisko',email:'E-mail',message:'Wiadomość',send:'Wyślij wiadomość',wa:'Czatuj na WhatsApp'},
+  th:{title:'ส่งข้อความถึงเรา',name:'ชื่อ',firstName:'ชื่อ',lastName:'นามสกุล',email:'อีเมล',message:'ข้อความ',send:'ส่งข้อความ',wa:'แชทบน WhatsApp'}
 };
 
 const PC = {
@@ -267,7 +267,7 @@ function localizeInternalLinks(){
 async function loadData(){
   if(SITE) return;
   const [s,p] = await Promise.all([
-    fetch('/data/site.json?v=20260831v8').then(r=>r.json()),
+    fetch('/data/site.json?v=20260831v14').then(r=>r.json()),
     fetch('/data/products.json?v=20260831v7').then(r=>r.json())
   ]);
   SITE=s; PRODS=p;
@@ -282,10 +282,10 @@ function renderLangSelector(){
   const box = $('#lang-box'); if(!box) return;
   const cur = LANGS.find(l=>l.code===LANG) || LANGS[0];
   box.innerHTML = `<button class="lang-btn" id="lang-btn" type="button" aria-haspopup="listbox" aria-expanded="false">
-      <span class="lang-globe">${ico('globe')}</span><span class="lang-current">${cur.name}</span>${ico('chevronDown','lang-chevron')}
+      <span class="lang-globe"><img class="lang-flag lang-current-flag" src="/assets/images/flags/${cur.flag}.svg" alt="" aria-hidden="true" width="28" height="21"></span><span class="lang-current">${cur.name}</span>${ico('chevronDown','lang-chevron')}
     </button>
     <div class="lang-menu" id="lang-menu" role="listbox" aria-hidden="true">${LANGS.map(l=>
-      `<button class="lang-opt ${l.code===LANG?'active':''}" type="button" role="option" aria-selected="${l.code===LANG}" data-lang="${l.code}"><span class="lang-code">${l.code.toUpperCase()}</span><span class="lang-name">${l.name}</span>${l.code===LANG?ico('check','lang-check'):''}</button>`).join('')}</div>`;
+      `<button class="lang-opt ${l.code===LANG?'active':''}" type="button" role="option" aria-selected="${l.code===LANG}" data-lang="${l.code}"><span class="lang-flag-slot"><img class="lang-flag" src="/assets/images/flags/${l.flag}.svg" alt="" aria-hidden="true" width="28" height="21"></span><span class="lang-name">${l.name}</span>${l.code===LANG?ico('check','lang-check'):''}</button>`).join('')}</div>`;
   const btn=$('#lang-btn'), menu=$('#lang-menu');
   btn.setAttribute('aria-label',cur.name);
   btn.onclick=(e)=>{
@@ -320,8 +320,7 @@ function renderNav(){
   const n=SITE.nav;
   const links=[['/','home'],['/custom','custom'],['/products','products'],['/about','about'],['/contact','contact']];
   const here=(location.pathname||'/').replace(/\/index\.html$/,'/').replace(/\.html$/,'').replace(/\/$/,'')||'/';
-  nav.innerHTML=links.map(([href,k])=>`<a href="${href}" class="${href===here?'active':''}">${t(n[k])}</a>`).join('')
-    +`<a href="/contact" class="nav-cta">${t(n.quote)}</a>`;
+  nav.innerHTML=links.map(([href,k])=>`<a href="${href}" class="${href===here?'active':''}">${t(n[k])}</a>`).join('');
 }
 
 function renderHero(){
@@ -509,12 +508,19 @@ function renderFooter(){
 
 function renderProductsPage(){
   const grid=$('#prod-grid'); if(!grid || !PRODS) return;
-  const here=location.hash?location.hash.slice(1):PRODS.categories[0].id;
+  const requested=location.hash?location.hash.slice(1):'';
+  const cat=PRODS.categories.find(c=>c.id===requested)||PRODS.categories[0];
+  const here=cat.id;
   const f=$('#filters');
-  if(f) f.innerHTML=PRODS.categories.map(c=>`<button class="filter-btn ${c.id===here?'active':''}" type="button" aria-pressed="${c.id===here?'true':'false'}" data-cat="${c.id}">${t(c.name)}</button>`).join('');
-  $$('.filter-btn[data-cat]',f||document).forEach(b=>b.onclick=()=>{ location.hash=b.dataset.cat; renderProductsPage(); });
-  const cat=PRODS.categories.find(c=>c.id===here)||PRODS.categories[0];
-  const head=$('#cat-head'); if(head) head.innerHTML=`<h2>${t(cat.name)}</h2><p>${t(cat.desc)}</p>`;
+  if(f){
+    f.setAttribute('aria-label',t(SITE.products_teaser.title));
+    f.innerHTML=PRODS.categories.map(c=>`<button class="filter-btn ${c.id===here?'active':''}" type="button" aria-pressed="${c.id===here?'true':'false'}" aria-controls="prod-grid" data-cat="${c.id}">${t(c.name)}</button>`).join('');
+    $$('.filter-btn[data-cat]',f).forEach(b=>b.onclick=()=>{
+      const next=b.dataset.cat;
+      if(location.hash.slice(1)!==next) location.hash=next;
+    });
+  }
+  grid.setAttribute('aria-label',t(cat.name));
   grid.innerHTML=cat.products.map(p=>{const pn=productDisplayName(p,cat); return `<a class="prod" href="/product/${p.slug}.html" data-pid="${p.id}"><span class="prod-media"><img src="${p.images[0]}" alt="${pn}" loading="lazy"></span><div class="info"><b>${pn}</b><span>${t(cat.name)}</span></div></a>`;}).join('');
   localizeInternalLinks();
 }
@@ -886,11 +892,9 @@ function renderSharedChrome(){
   }
 
   const heroLabel=$('.hero:not(.hero-home) .container');
-  if(heroLabel) heroLabel.dataset.sectionLabel=t(SITE.custom_intro.tag);
+  if(heroLabel && pageIdentity()!=='page-custom') heroLabel.dataset.sectionLabel=t(SITE.custom_intro.tag);
   $$('.block-txt').forEach((el,i)=>el.dataset.sectionLabel=t((SITE.blocks[i]||SITE.blocks[0]).title));
   $$('.cta .container').forEach(el=>el.dataset.sectionLabel=t(SITE.nav.quote));
-  const productsLead=pageIdentity()==='page-products'?$('body > section:first-of-type'):null;
-  if(productsLead) productsLead.dataset.sectionLabel=t(SITE.products_teaser.tag);
   const modalBox=$('.contact-modal-box');
   if(modalBox) modalBox.dataset.sectionLabel=currentUI().title;
 
@@ -932,23 +936,17 @@ function renderHomeStatic(){
   const appTag=$('.applications-manifest .tag');
   if(appTag) appTag.textContent=t(SITE.apps.tag);
   setText('#all-products-btn',t(SITE.nav.products));
-  setText('#cta-btn',t(SITE.nav.contact));
+  setText('#cta-tag',t(SITE.nav.quote));
+  localizeContactForm();
 
 }
 
 function renderProductsStatic(){
   if(pageIdentity()!=='page-products') return;
-  const lead=$('body > section:first-of-type .sec-head');
+  const lead=$('.products-hero .sec-head');
   if(lead){
-    textIn(lead,'.tag',t(SITE.products_teaser.tag));
     textIn(lead,'h1',t(SITE.products_teaser.title));
     textIn(lead,'p',t(SITE.products_teaser.desc));
-  }
-  const cta=$('body > section.cta');
-  if(cta){
-    textIn(cta,'h2',t(SITE.blocks[2].title));
-    textIn(cta,'p',t(SITE.blocks[2].text));
-    textIn(cta,'.btn',t(SITE.nav.quote));
   }
 }
 
@@ -956,34 +954,19 @@ function renderCustomStatic(){
   if(pageIdentity()!=='page-custom') return;
   const hero=$('body > section.hero');
   if(hero){
-    textIn(hero,'.hero-badge',t(SITE.custom_intro.tag));
     textIn(hero,'h1',t(SITE.custom_intro.title));
     textIn(hero,'p',t(SITE.custom_intro.desc));
   }
-  const sections=$$('body > section:not(.hero):not(.cta)');
-  const heads=[
-    [SITE.custom_intro.tag,SITE.custom_intro.title],
-    [SITE.process.tag,SITE.process.title],
-    [SITE.apps.tag,SITE.apps.title],
-    [SITE.cta.title,SITE.cta.desc]
-  ];
-  sections.forEach((section,i)=>{
-    if(!heads[i]) return;
-    textIn(section,'.sec-head .tag',t(heads[i][0]));
-    textIn(section,'.sec-head h2',t(heads[i][1]));
-  });
-  const quoteCards=sections[3]?$$('.quote-card',sections[3]):[];
-  quoteCards.forEach((card,i)=>{
-    const item=SITE.process.steps[i]||SITE.features[i];
-    if(!item) return;
-    textIn(card,'h3',t(item.title));
-    textIn(card,'p',t(item.desc));
-  });
+  const customHeading=(key,fallback)=>SITE.custom_page?.headings?.[key]?.[LANG] || t(fallback);
+  setText('#cu-details-title',customHeading('details',SITE.custom_intro.tag));
+  setText('#cu-process-title',customHeading('process',SITE.process.title));
+  setText('#cu-scope-title',customHeading('scope',SITE.apps.title));
   const cta=$('body > section.cta');
   if(cta){
     textIn(cta,'h2',t(SITE.cta.title));
-    textIn(cta,'p',t(SITE.cta.desc));
-    textIn(cta,'.btn',t(SITE.nav.contact));
+    textIn(cta,'.custom-inquiry-lead',t(SITE.cta.desc));
+    textIn(cta,'.custom-inquiry-copy .tag',t(SITE.nav.quote));
+    localizeContactForm();
   }
 }
 
@@ -1009,6 +992,10 @@ function renderAboutStatic(){
     textIn(section,'.sec-head .tag',t(heads[i][0]));
     textIn(section,'.sec-head h2',t(heads[i][1]));
   });
+  const aboutIntro=SITE.about_intro&&SITE.about_intro[LANG]
+    ? SITE.about_intro[LANG]
+    : t(SITE.factory.desc);
+  setText('#fa-desc',aboutIntro);
   const factoryImg=sections[1]&&$('img',sections[1]); if(factoryImg) factoryImg.alt=t(SITE.factory.title);
   const cards=sections[4]?$$('.card',sections[4]):[];
   const labels=[t(SITE.hero.badge),t(SITE.factory.tag),t(SITE.factory.title),t(SITE.certs.title)];
@@ -1022,18 +1009,13 @@ function renderAboutStatic(){
   }
 }
 
-function renderContactStatic(){
-  if(pageIdentity()!=='page-contact') return;
+function localizeContactForm(){
   const u=currentUI();
-  const hero=$('body > section.hero');
-  if(hero){
-    textIn(hero,'.hero-badge',t(SITE.nav.quote));
-    textIn(hero,'h1',t(SITE.cta.title));
-    textIn(hero,'p',t(SITE.cta.desc));
-  }
   const form=$('#contact-form');
   if(form){
-    const name=$('#cf-name'),email=$('#cf-email'),message=$('#cf-msg');
+    const firstName=$('#cf-first-name'),lastName=$('#cf-last-name'),name=$('#cf-name'),email=$('#cf-email'),message=$('#cf-msg');
+    if(firstName){ firstName.placeholder=u.firstName||u.name; textIn(firstName.closest('.field'),'label',(u.firstName||u.name)+' *'); }
+    if(lastName){ lastName.placeholder=u.lastName||u.name; textIn(lastName.closest('.field'),'label',(u.lastName||u.name)+' *'); }
     if(name){ name.placeholder=u.name; textIn(name.closest('.field'),'label',u.name+' *'); }
     if(email){ email.placeholder=u.email; textIn(email.closest('.field'),'label',u.email+' *'); }
     if(message){ message.placeholder=u.message; textIn(message.closest('.field'),'label',u.message+' *'); }
@@ -1044,6 +1026,17 @@ function renderContactStatic(){
       hint.innerHTML=`${u.wa}: <a id="contact-wa" href="${href}" target="_blank" rel="noopener">WhatsApp</a>`;
     }
   }
+}
+
+function renderContactStatic(){
+  if(pageIdentity()!=='page-contact') return;
+  const hero=$('body > section.hero');
+  if(hero){
+    textIn(hero,'.hero-badge',t(SITE.nav.quote));
+    textIn(hero,'h1',t(SITE.cta.title));
+    textIn(hero,'p',t(SITE.cta.desc));
+  }
+  localizeContactForm();
 }
 
 function landingData(){
@@ -1167,6 +1160,7 @@ document.addEventListener('DOMContentLoaded', async ()=>{
   try{ await loadData(); }catch(e){ console.error(e); return; }
   renderAll();
   decoratePage();
+  if(pageIdentity()==='page-products') window.addEventListener('hashchange',renderProductsPage);
   const tg=$('#nav-toggle'); if(tg){
     tg.setAttribute('aria-label',LANG==='zh'?'打开导航菜单':'Open navigation menu');
     tg.setAttribute('aria-expanded','false');
@@ -1178,10 +1172,15 @@ document.addEventListener('DOMContentLoaded', async ()=>{
     };
   }
   const form=$('#contact-form');
-  if(form) form.onsubmit=(ev)=>{ ev.preventDefault(); const name=$('#cf-name').value, email=$('#cf-email').value, msg=$('#cf-msg').value, u=currentUI();
+  if(form) form.onsubmit=(ev)=>{ ev.preventDefault();
+    const firstNameEl=$('#cf-first-name'),lastNameEl=$('#cf-last-name'),legacyNameEl=$('#cf-name');
+    const firstName=firstNameEl?firstNameEl.value.trim():'',lastName=lastNameEl?lastNameEl.value.trim():'';
+    const name=legacyNameEl?legacyNameEl.value.trim():[firstName,lastName].filter(Boolean).join(' ');
+    const email=$('#cf-email').value.trim(),msg=$('#cf-msg').value,u=currentUI();
     const prodItems = selectedProducts.map(pid=>{const p=findProduct(pid); if(!p) return '- '+pid; const img=p.images&&p.images[0]?location.origin+p.images[0]:''; return '- '+productDisplayName(p)+(img?'\n  '+img:'');}).join('\n');
     const prodLine = prodItems ? t(SITE.nav.products)+':\n'+prodItems : '';
-    const body = u.name+': '+name+'\n'+u.email+': '+email+'\n'+(prodLine?prodLine+'\n':'')+'\n'+msg;
+    const nameLines=firstNameEl&&lastNameEl?(u.firstName||u.name)+': '+firstName+'\n'+(u.lastName||u.name)+': '+lastName:u.name+': '+name;
+    const body = nameLines+'\n'+u.email+': '+email+'\n'+(prodLine?prodLine+'\n':'')+'\n'+msg;
     sendMail(t(SITE.nav.contact)+' - '+name, body, email); };
   const ppop=$('#product-pop');
   if(ppop){
