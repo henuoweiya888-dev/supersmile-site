@@ -267,7 +267,7 @@ function localizeInternalLinks(){
 async function loadData(){
   if(SITE) return;
   const [s,p] = await Promise.all([
-    fetch('/data/site.json?v=20260831v15').then(r=>r.json()),
+    fetch('/data/site.json?v=20260831v16').then(r=>r.json()),
     fetch('/data/products.json?v=20260831v7').then(r=>r.json())
   ]);
   SITE=s; PRODS=p;
