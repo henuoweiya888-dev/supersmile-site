@@ -267,8 +267,8 @@ function localizeInternalLinks(){
 async function loadData(){
   if(SITE) return;
   const [s,p] = await Promise.all([
-    fetch('/data/site.json?v=20260831v7').then(r=>r.json()),
-    fetch('/data/products.json?v=20260831v6').then(r=>r.json())
+    fetch('/data/site.json?v=20260831v8').then(r=>r.json()),
+    fetch('/data/products.json?v=20260831v7').then(r=>r.json())
   ]);
   SITE=s; PRODS=p;
   const q=new URLSearchParams(location.search);
@@ -338,6 +338,7 @@ function renderHero(){
   }
   setText('#hero-badge', t(hero.badge));
   setHTML('#hero-title', t(hero.title));
+  setText('#hero-coverage', t(hero.coverage));
   setText('#hero-sub', t(hero.subtitle));
   setText('#hero-btn1', t(hero.btn1));
   setText('#hero-btn2', t(hero.btn2));
@@ -368,9 +369,9 @@ const ICONS = {
   check:'<path d="m5 12.5 4.2 4.2L19 7"/>',
   checkCircle:'<circle cx="12" cy="12" r="9"/><path d="m8 12.3 2.7 2.7 5.6-6"/>',
   close:'<path d="m7 7 10 10M17 7 7 17"/>',
-  mail:'<rect x="3" y="5" width="18" height="14" rx="3"/><path d="m4.5 7 7.5 6 7.5-6"/>',
-  chat:'<path d="M20 11.5a8 8 0 0 1-8.4 8 8.8 8.8 0 0 1-3.5-.8L3.5 20l1.4-4.1A8 8 0 1 1 20 11.5Z"/><path d="M8.2 11.8h.01M12 11.8h.01M15.8 11.8h.01"/>',
-  chatPhone:'<path d="M20 11.5a8 8 0 0 1-8.4 8 8.8 8.8 0 0 1-3.5-.8L3.5 20l1.4-4.1A8 8 0 1 1 20 11.5Z"/><path d="M9 8.5c.7 2.7 2.8 4.8 5.5 5.5l1.1-1.1c.2-.2.5-.3.8-.2.5.2 1 .3 1.6.3"/>',
+  mail:'<rect x="3.5" y="5.5" width="17" height="13" rx="2"/><path d="m5 7 7 5.25L19 7"/>',
+  chat:'<path d="M21 11.5a8.5 8.5 0 0 1-9 8.5 9.5 9.5 0 0 1-4-.9L3 21l1.8-4.8A8.5 8.5 0 1 1 21 11.5Z"/><path d="M8.5 12h.01M12 12h.01M15.5 12h.01"/>',
+  chatPhone:'<circle cx="12" cy="12" r="9"/><path d="M8.6 7.6c.7 4 3.8 7.1 7.8 7.8l1-1.3-2.3-1.1-.8.8a8 8 0 0 1-4.1-4.1l.8-.8-1.1-2.3-1.3 1Z"/>',
   phone:'<path d="M8.7 3.5 6.3 4.6c-.8.4-1.2 1.3-1 2.1 1.5 6.1 6.2 10.8 12.3 12.3.9.2 1.8-.2 2.1-1l1.1-2.4-4.2-2-1.2 1.6c-2.8-1.2-5-3.4-6.2-6.2l1.6-1.2-2.1-4.3Z"/>',
   mapPin:'<path d="M20 10c0 5-8 11-8 11S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/>',
   building:'<path d="M4 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16M16 9h2a2 2 0 0 1 2 2v10M8 7h4M8 11h4M8 15h4M8 19h4M2 21h20"/>',
@@ -384,6 +385,15 @@ const ICONS = {
 };
 function ico(name, extraClass=''){
   return `<svg class="ico-svg${extraClass?' '+extraClass:''}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.65" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${ICONS[name]||ICONS.connector}</svg>`;
+}
+
+const BRAND_ICONS = {
+  whatsapp:'M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z'
+};
+function brandIcon(name, extraClass=''){
+  const path=BRAND_ICONS[name];
+  if(!path) return ico('externalLink',extraClass);
+  return `<svg class="ico-svg brand-icon${extraClass?' '+extraClass:''}" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true" focusable="false"><path d="${path}"/></svg>`;
 }
 
 function renderCustom(){
@@ -408,8 +418,12 @@ function renderApps(){
   setText('#ap-tag', t(SITE.apps.tag));
   setText('#ap-title', t(SITE.apps.title));
   const a=$('#apps');
-  const ac=['car','truck','battery','factory','medical','robot','plane','wrench'];
-  if(a && SITE.apps.items){ let items=SITE.apps.items[LANG]||SITE.apps.items.en||[]; if(typeof items==='string') items=items.split('|').map(x=>x.trim()).filter(Boolean); a.innerHTML=`<div class="cards cards-4">${items.map((x,i)=>`<div class="card"><div class="card-head"><span class="icon-tile">${ico(ac[i])}</span><h3>${x}</h3></div></div>`).join('')}</div>`; }
+  if(a && SITE.apps.items){
+    let items=SITE.apps.items[LANG]||SITE.apps.items.en||[];
+    if(typeof items==='string') items=items.split('|').map(x=>x.trim()).filter(Boolean);
+    const images=SITE.apps.images||[];
+    a.innerHTML=`<div class="cards cards-4">${items.map((x,i)=>`<div class="card"${images[i]?` style="--app-image:url('${images[i]}')"`:''}><div class="card-head"><h3>${x}</h3></div></div>`).join('')}</div>`;
+  }
 }
 
 function renderFactory(){
@@ -464,6 +478,7 @@ const FOOT_ICONS = {
   alibaba:'M3.996 4.517h5.291L8.01 6.324 4.153 7.506a1.668 1.668 0 0 0-1.165 1.601v5.786a1.668 1.668 0 0 0 1.165 1.6l3.857 1.183 1.277 1.807H3.996A3.996 3.996 0 0 1 0 15.487V8.513a3.996 3.996 0 0 1 3.996-3.996m16.008 0h-5.291l1.277 1.807 3.857 1.182c.715.227 1.17.889 1.165 1.601v5.786a1.668 1.668 0 0 1-1.165 1.6l-3.857 1.183-1.277 1.807h5.291A3.996 3.996 0 0 0 24 15.487V8.513a3.996 3.996 0 0 0-3.996-3.996m-4.007 8.345H8.002v-1.804h7.995Z'
 };
 function footIcon(name){
+  if(name==='whatsapp') return brandIcon('whatsapp','ficon');
   const map={mail:'mail',whatsapp:'chatPhone',facebook:'network',alibaba:'storefront',link:'externalLink'};
   return ico(map[name]||map.link,'ficon');
 }
@@ -538,7 +553,7 @@ function contactLabel(key){
 function renderContact(){
   const c=$('#contact-info'); if(!c || !SITE) return;
   const ct=SITE.contact, co=SITE.company;
-  const item=(ic,label,inner)=>`<div class="ci"><span class="ci-icon">${ico(CONTACT_ICON_NAMES[ic]||'externalLink')}</span><div><b>${contactLabel(label)}</b>${inner}</div></div>`;
+  const item=(ic,label,inner)=>`<div class="ci"><span class="ci-icon">${ic==='whatsapp'?brandIcon('whatsapp'):ico(CONTACT_ICON_NAMES[ic]||'externalLink')}</span><div><b>${contactLabel(label)}</b>${inner}</div></div>`;
   const phones=(ct.phones||[]).map(p=>`<span><a href="tel:${p.replace(/[^+\d]/g,'')}">${p}</a></span>`).join('');
   const short=u=>u.replace(/^https?:\/\//,'').replace(/^www\./,'').split('/')[0];
   const html =
@@ -588,7 +603,7 @@ function renderFab(){
   const wa=$('#fab-wa'); if(wa && SITE.contact) wa.href = SITE.contact.whatsapp_link || 'https://wa.me/447516289817';
   const em=$('#fab-email'); if(em && SITE.contact){ em.href = 'mailto:' + SITE.contact.email; em.innerHTML = ico('mail','fab-item-icon')+'<span>'+u.email+'</span>'; }
   const online=$('#fab-online'); if(online) online.innerHTML = ico('chat','fab-item-icon')+'<span>'+u.title+'</span>';
-  if(wa) wa.innerHTML=ico('chatPhone','fab-item-icon')+'<span>WhatsApp</span>';
+  if(wa) wa.innerHTML=brandIcon('whatsapp','fab-item-icon')+'<span>WhatsApp</span>';
   const main=$('#fab-main'), menu=$('#fab-menu');
   if(main && menu){
     const label=t(SITE.nav.contact);
@@ -889,16 +904,15 @@ function renderHomeStatic(){
   if(pageIdentity()!=='page-home') return;
   const top=$$('.hero-topline span');
   if(top[0]) top[0].textContent='SS / SuperSmile';
-  if(top[1]) top[1].textContent=t(SITE.factory.tag);
-  setText('.hero-kicker',t(SITE.custom_intro.tag));
+  if(top[1]) top[1].textContent=t(SITE.hero.motto);
   const specs=$$('.hero-spec span');
-  const specText=[
-    `${t(SITE.factory.tag)} / 3,000 m²`,
-    `${t(SITE.stats[0].label)} / 10`,
-    `${t(SITE.stats[2].label)} / 100%`
-  ];
+  const specFor=(s)=>{
+    const unit=typeof s.unit==='object'?t(s.unit):(s.unit||'');
+    if(LANG==='zh') return `${t(s.label)}/${s.num}${unit}`;
+    return `${t(s.label)} / ${s.num}${unit?` ${unit}`:''}`;
+  };
+  const specText=[specFor(SITE.stats[1]),specFor(SITE.stats[0]),specFor(SITE.stats[2])];
   specs.forEach((el,i)=>el.textContent=specText[i]||'');
-  setText('.hero-data-label',t(SITE.custom_intro.tag));
   const scroll=$('.hero-scroll');
   if(scroll){ textIn(scroll,'span',t(SITE.products_teaser.tag)); scroll.setAttribute('aria-label',t(SITE.products_teaser.title)); }
   setText('.hot-action',t(SITE.nav.products));
@@ -909,7 +923,6 @@ function renderHomeStatic(){
     factory:SITE.factory.tag,
     'products-teaser':SITE.products_teaser.tag,
     'blocks-sec':SITE.blocks[0].title,
-    guides:SITE.blocks[2].title,
     certs:SITE.certs.tag
   };
   Object.entries(chapterLabels).forEach(([id,label])=>{
@@ -921,19 +934,6 @@ function renderHomeStatic(){
   setText('#all-products-btn',t(SITE.nav.products));
   setText('#cta-btn',t(SITE.nav.contact));
 
-  const guides=$('#guides');
-  if(guides){
-    textIn(guides,'.sec-head h2',t(SITE.blocks[2].title));
-    textIn(guides,'.sec-head p',t(SITE.blocks[2].text));
-    const cards=$$('.cards .card',guides);
-    const wanted=[0,1,2,4];
-    cards.forEach((card,i)=>{
-      const cat=PRODS.categories[wanted[i]]||PRODS.categories[i];
-      if(!cat) return;
-      textIn(card,'h3',t(cat.name));
-      textIn(card,'p',t(cat.desc));
-    });
-  }
 }
 
 function renderProductsStatic(){
