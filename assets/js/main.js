@@ -471,7 +471,7 @@ function renderBlocks(){
   c.innerHTML=SITE.blocks.map((b,i)=>{
     const hasImg=b.image?true:false, hasLink=b.link?true:false, rev=i%2===1?'block-rev':'';
     const linkLabel=(t(b.link_text)||t(SITE.nav.products)).replace(/\s*[→›]\s*$/,'');
-    return `<div class="block ${rev}">${hasImg?`<div class="block-img"><img src="${b.image}" alt="${t(b.title)}" loading="lazy"></div>`:''}<div class="block-txt"><h3>${t(b.title)}</h3><p>${t(b.text)}</p>${hasLink?`<a class="btn btn-primary btn-with-icon" href="${b.link}"><span>${linkLabel}</span>${ico('arrowRight','btn-icon')}</a>`:''}</div></div>`;
+    return `<div class="block ${rev}">${hasImg?`<div class="block-img"><img src="${b.image}" alt="${t(b.title)}" loading="lazy"></div>`:''}<div class="block-txt"><div class="block-copy"><h3>${t(b.title)}</h3><p>${t(b.text)}</p></div>${hasLink?`<a class="btn btn-primary btn-with-icon" href="${b.link}"><span>${linkLabel}</span>${ico('arrowRight','btn-icon')}</a>`:''}</div></div>`;
   }).join('');
 }
 
@@ -1001,13 +1001,13 @@ function renderAboutStatic(){
     textIn(section,'.sec-head .tag',t(tag));
     textIn(section,'.sec-head h2',t(title));
   });
-  const storyCopy=$('#about-story-copy');
-  if(storyCopy){
+  const storyFlow=$('#about-story-flow');
+  if(storyFlow){
     const localizedBody=aboutStory.body&&aboutStory.body[LANG];
     const paragraphs=Array.isArray(localizedBody)
       ? localizedBody
       : (Array.isArray(aboutStory.body&&aboutStory.body.en)?aboutStory.body.en:[]);
-    storyCopy.replaceChildren(...paragraphs.map(text=>{
+    const makeParagraph=text=>{
       const p=document.createElement('p');
       const highlight=aboutStory.highlight?t(aboutStory.highlight):'';
       const highlightAt=highlight?text.indexOf(highlight):-1;
@@ -1019,9 +1019,40 @@ function renderAboutStatic(){
         p.append(strong,document.createTextNode(text.slice(highlightAt+highlight.length)));
       }
       return p;
-    }));
+    };
+    const images=(SITE.factory&&Array.isArray(SITE.factory.images))?SITE.factory.images.slice(0,6):[];
+    const textGroups=[];
+    let cursor=0;
+    for(let i=0;i<Math.max(0,images.length-1);i++){
+      const remaining=paragraphs.length-cursor;
+      const slots=Math.max(1,images.length-1-i);
+      const take=Math.max(0,Math.ceil(remaining/slots));
+      textGroups.push(paragraphs.slice(cursor,cursor+take));
+      cursor+=take;
+    }
+    const beats=images.map((item,index)=>{
+      const beat=document.createElement('article');
+      beat.className=`about-story-beat${index===images.length-1?' about-story-team':''}`;
+      const figure=document.createElement('figure');
+      figure.className='about-story-media';
+      const img=document.createElement('img');
+      img.src=typeof item==='string'?item:item.src;
+      img.alt=typeof item==='object'&&item.alt?t(item.alt):`${t(SITE.factory.title)} ${index+1}`;
+      img.loading=index===0?'eager':'lazy';
+      img.decoding='async';
+      figure.append(img);
+      if(index<images.length-1){
+        const copy=document.createElement('div');
+        copy.className='about-story-copy';
+        (textGroups[index]||[]).forEach(text=>copy.append(makeParagraph(text)));
+        beat.append(copy,figure);
+      }else{
+        beat.append(figure);
+      }
+      return beat;
+    });
+    storyFlow.replaceChildren(...beats);
   }
-  const factoryImg=$('#about-story img'); if(factoryImg) factoryImg.alt=t(aboutStory.title||SITE.factory.title);
   const cards=$$('#about-snapshot .card');
   const labels=[t(SITE.hero.badge),t(SITE.factory.tag),t(SITE.factory.title),t(SITE.certs.title)];
   const values=[SITE.company.founded,'3,000 m²','100+','IP68'];
