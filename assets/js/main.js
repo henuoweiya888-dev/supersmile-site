@@ -903,7 +903,7 @@ function renderSharedChrome(){
   }
 
   const heroLabel=$('.hero:not(.hero-home) .container');
-  if(heroLabel && pageIdentity()!=='page-custom') heroLabel.dataset.sectionLabel=t(SITE.custom_intro.tag);
+  if(heroLabel && !['page-custom','page-about'].includes(pageIdentity())) heroLabel.dataset.sectionLabel=t(SITE.custom_intro.tag);
   $$('.block-txt').forEach((el,i)=>el.dataset.sectionLabel=t((SITE.blocks[i]||SITE.blocks[0]).title));
   $$('.cta .container').forEach(el=>el.dataset.sectionLabel=t(SITE.nav.quote));
   const modalBox=$('.contact-modal-box');
@@ -1054,7 +1054,7 @@ function renderAboutStatic(){
     storyFlow.replaceChildren(...beats);
   }
   const cards=$$('#about-snapshot .card');
-  const labels=[t(SITE.hero.badge),t(SITE.factory.tag),t(SITE.factory.title),t(SITE.certs.title)];
+  const labels=[t({zh:'中国·深圳',en:'Shenzhen, China'}),t(SITE.factory.tag),t(SITE.factory.title),t(SITE.certs.title)];
   const values=[SITE.company.founded,'3,000 m²','100+','IP68'];
   cards.forEach((card,i)=>{ textIn(card,'h3',labels[i]); textIn(card,'p',values[i]); });
   const cta=$('body.page-about > section.cta');
