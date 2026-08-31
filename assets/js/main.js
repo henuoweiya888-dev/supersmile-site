@@ -285,7 +285,7 @@ function renderLangSelector(){
       <span class="lang-globe"><img class="lang-flag lang-current-flag" src="/assets/images/flags/${cur.flag}.svg" alt="" aria-hidden="true" width="28" height="21"></span><span class="lang-current">${cur.name}</span>${ico('chevronDown','lang-chevron')}
     </button>
     <div class="lang-menu" id="lang-menu" role="listbox" aria-hidden="true">${LANGS.map(l=>
-      `<button class="lang-opt ${l.code===LANG?'active':''}" type="button" role="option" aria-selected="${l.code===LANG}" data-lang="${l.code}"><span class="lang-flag-slot"><img class="lang-flag" src="/assets/images/flags/${l.flag}.svg" alt="" aria-hidden="true" width="28" height="21"></span><span class="lang-name">${l.name}</span>${l.code===LANG?ico('check','lang-check'):''}</button>`).join('')}</div>`;
+      `<button class="lang-opt ${l.code===LANG?'active':''}" type="button" role="option" aria-selected="${l.code===LANG}" data-lang="${l.code}"><span class="lang-flag-slot"><img class="lang-flag" src="/assets/images/flags/${l.flag}.svg" alt="" aria-hidden="true" width="28" height="21" loading="lazy" decoding="async"></span><span class="lang-name">${l.name}</span>${l.code===LANG?ico('check','lang-check'):''}</button>`).join('')}</div>`;
   const btn=$('#lang-btn'), menu=$('#lang-menu');
   btn.setAttribute('aria-label',cur.name);
   btn.onclick=(e)=>{
