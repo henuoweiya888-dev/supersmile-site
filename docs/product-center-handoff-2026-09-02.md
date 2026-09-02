@@ -6,12 +6,14 @@
 - 分支：`main`
 - 远端：`origin/main`
 - 已推送提交：`d980f6c6155534717ddc5b0dcf4d8e89f8f710c8`
+- 原站入口补丁：`88dda51`。该提交正式上线新版 `products.html`，并把首页、关于、联系、定制及原产品页的 CSS/JS 版本统一提升到 `industrial-v2.css?v=20260902v52` 与 `main.js?v=20260902v47`，用于绕开 Chrome 对旧导航资源的缓存。
 - 前四个已上线小类：
   1. `custom-harness-01` — `/products/industrial-equipment-harness`
   2. `custom-harness-02` — `/products/control-panel-harness`
   3. `custom-harness-03` — `/products/robotic-harness`
   4. `custom-harness-04` — `/products/instrument-and-sensor-harness`
 - 顶部导航已经由“现货中心”改为“产品中心”，20 种语言的导航名称均已同步。
+- `/products` 已由原现货商品列表替换为六大类产品能力目录；旧商品区只保留在不渲染的兼容模板中，不再作为产品中心主体显示。
 - 桌面端鼠标悬停“产品中心”展开 Mega Menu；移动端先打开主导航，再点产品中心右侧箭头展开。
 - Mega Menu 按六大类显示 83 个小类。已上线 4 项为正常链接；未上线 79 项置灰、无 `href`、不可点击。
 - 点亮逻辑不维护第二份名单：`data/product-category-details.json` 中对应 key 只要存在 `page` 字段，就自动变成可点击链接；新增页面后无需改菜单代码。
@@ -21,6 +23,7 @@
 - 桌面 1280×720：6 个大类、83 项、4 个链接、79 个禁用项，悬停一次展开，无横向溢出。
 - 手机 390×844：固定顶部栏，首次点击箭头即可展开，6 个大类、4/79 状态正确，无横向溢出。
 - 前四条本地路由均返回 HTTP 200。
+- 正式域名复验：主页已返回 `v52/v47` 新资源版本，`/products?lang=zh` 已返回 `pc-directory`，不再返回旧的 `In-Stock Series` 主体。
 - JavaScript 语法检查、JSON 检查和 `git diff --check` 通过；浏览器控制台无 error。
 - 顶部栏桌面和手机均固定；正文已经补偿固定栏高度，不遮挡首屏。
 
