@@ -1180,6 +1180,13 @@ function productCategoryPageRecord(){
 function renderProductCategoryRichMarkup(page,item){
   const heading=key=>htmlEscape(t(page.headings?.[key]));
   const image=(src,alt,className='')=>`<figure class="pcc-rich-media ${className}"><img src="${htmlEscape(src)}" alt="${htmlEscape(alt)}" width="1536" height="1024" loading="lazy" decoding="async"></figure>`;
+  if(page.layout==='connector-atlas'){
+    const atlasImage=(src,alt,className='')=>`<figure class="pcc-atlas-media ${className}"><img src="${htmlEscape(src)}" alt="${htmlEscape(alt)}" width="1200" height="900" loading="lazy" decoding="async"></figure>`;
+    const chapters=(page.chapters||[]).map((chapter,index)=>`<article class="pcc-atlas-chapter pcc-atlas-chapter-${index%4+1}"><span class="pcc-atlas-index">${String(index+1).padStart(2,'0')}</span>${atlasImage(chapter.image,t(chapter.title))}<div class="pcc-atlas-copy"><p class="pcc-atlas-kicker">${htmlEscape(t(chapter.kicker))}</p><h2>${htmlEscape(t(chapter.title))}</h2><p class="pcc-atlas-summary">${htmlEscape(t(chapter.copy))}</p><div class="pcc-atlas-points">${(chapter.points||[]).map(point=>`<section><h3>${htmlEscape(t(point.title))}</h3><p>${htmlEscape(t(point.copy))}</p></section>`).join('')}</div></div></article>`).join('');
+    const faq=(page.faq||[]).map((entry,index)=>`<details${index===0?' open':''}><summary>${htmlEscape(t(entry.q))}</summary><p>${htmlEscape(t(entry.a))}</p></details>`).join('');
+    const credits=(page.mediaCredits||[]).map(entry=>`<li><a href="${htmlEscape(entry.url)}" target="_blank" rel="noopener">${htmlEscape(entry.file)}</a><span>${htmlEscape(entry.author)} · ${htmlEscape(entry.license)}</span></li>`).join('');
+    return `<section class="pcc-atlas-opening"><div><span>CONNECTOR ATLAS</span><h2>${heading('introduction')}</h2><p>${htmlEscape(t(page.lead))}</p></div>${atlasImage(page.images.range,`${item} ${LANG==='zh'?'产品系列':'product family'}`,'pcc-atlas-opening-media')}</section><section class="pcc-atlas-sequence">${chapters}</section><section class="pcc-rich-section pcc-rich-faq pcc-atlas-faq"><header class="pcc-rich-heading"><h2>${heading('faq')}</h2></header><div class="pcc-faq-grid">${faq}</div></section><details class="pcc-media-credits"><summary>${htmlEscape(t(page.creditHeading))}</summary><ul>${credits}</ul></details>`;
+  }
   const cards=(items,className='pcc-photo-notes',ordered=false)=>{
     const wrapper=ordered?'ol':'div';
     const card=ordered?'li':'article';

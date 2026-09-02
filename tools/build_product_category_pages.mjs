@@ -41,7 +41,23 @@ function richCards(items,className='pcc-photo-notes',ordered=false,fallbackImage
   return `<${wrapper} class="${className}">${(items||[]).map((item,index)=>`<${card} class="pcc-photo-note"><figure class="pcc-item-media pcc-mask-${index%4+1}"><img src="${esc(item.image||fallbackImage)}" alt="${esc(localized(item.title))}" width="800" height="600" loading="lazy" decoding="async"></figure><div class="pcc-photo-copy"><h3>${esc(localized(item.title))}</h3><p>${esc(localized(item.copy))}</p></div></${card}>`).join('')}</${wrapper}>`;
 }
 
+function connectorAtlasMarkup(page,name){
+  const image=(src,alt,className='')=>`<figure class="pcc-atlas-media ${className}"><img src="${esc(src)}" alt="${esc(alt)}" width="1200" height="900" loading="lazy" decoding="async"></figure>`;
+  const chapters=(page.chapters||[]).map((chapter,index)=>`<article class="pcc-atlas-chapter pcc-atlas-chapter-${index%4+1}">
+    <span class="pcc-atlas-index">${String(index+1).padStart(2,'0')}</span>
+    ${image(chapter.image,localized(chapter.title))}
+    <div class="pcc-atlas-copy"><p class="pcc-atlas-kicker">${esc(localized(chapter.kicker))}</p><h2>${esc(localized(chapter.title))}</h2><p class="pcc-atlas-summary">${esc(localized(chapter.copy))}</p><div class="pcc-atlas-points">${(chapter.points||[]).map(point=>`<section><h3>${esc(localized(point.title))}</h3><p>${esc(localized(point.copy))}</p></section>`).join('')}</div></div>
+  </article>`).join('');
+  const faq=(page.faq||[]).map((item,index)=>`<details${index===0?' open':''}><summary>${esc(localized(item.q))}</summary><p>${esc(localized(item.a))}</p></details>`).join('');
+  const credits=(page.mediaCredits||[]).map(item=>`<li><a href="${esc(item.url)}" target="_blank" rel="noopener">${esc(item.file)}</a><span>${esc(item.author)} · ${esc(item.license)}</span></li>`).join('');
+  return `<section class="pcc-atlas-opening"><div><span>CONNECTOR ATLAS</span><h2>${esc(localized(page.headings?.introduction))}</h2><p>${esc(localized(page.lead))}</p></div>${image(page.images.range,`${name} product family`,'pcc-atlas-opening-media')}</section>
+  <section class="pcc-atlas-sequence">${chapters}</section>
+  <section class="pcc-rich-section pcc-rich-faq pcc-atlas-faq"><header class="pcc-rich-heading"><h2>${esc(localized(page.headings?.faq))}</h2></header><div class="pcc-faq-grid">${faq}</div></section>
+  <details class="pcc-media-credits"><summary>${esc(localized(page.creditHeading))}</summary><ul>${credits}</ul></details>`;
+}
+
 function richPageMarkup(page,name){
+  if(page.layout==='connector-atlas') return connectorAtlasMarkup(page,name);
   const heading=key=>esc(localized(page.headings?.[key]));
   const image=(src,alt,className='')=>`<figure class="pcc-rich-media ${className}"><img src="${esc(src)}" alt="${esc(alt)}" width="1536" height="1024" loading="lazy" decoding="async"></figure>`;
   const faq=(page.faq||[]).map((item,index)=>`<details${index===0?' open':''}><summary>${esc(localized(item.q))}</summary><p>${esc(localized(item.a))}</p></details>`).join('');
@@ -118,7 +134,7 @@ function pageTemplate({key,slug,name,group,image,intro,knowledge,notes,delivery,
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(intro)}">
-<link rel="stylesheet" href="/assets/css/style.css?v=20260825v3"><link rel="stylesheet" href="/assets/css/industrial-v2.css?v=20260902v53">
+<link rel="stylesheet" href="/assets/css/style.css?v=20260825v3"><link rel="stylesheet" href="/assets/css/industrial-v2.css?v=20260902v55">
 <link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#090a0d"><link rel="canonical" href="${canonical}">
 <meta property="og:type" content="website"><meta property="og:url" content="${canonical}"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(intro)}"><meta property="og:image" content="https://supersmile-tech.com${esc(image)}">
@@ -142,7 +158,7 @@ ${alternates(slug)}
 <footer class="footer"><div class="container"><div><h5>SuperSmile</h5><p id="footer-about" style="font-size:14px"></p></div><div><h5>Contact</h5><div id="f-contact" class="footer-contact"></div></div><div><h5>Links</h5><a href="/">Home</a><a href="/custom">Custom Wiring Harness</a><a href="/products">Products</a><a href="/products/turbo-actuator-cables">Turbo Actuator Cables</a><a href="/products/obd2-and-universal-diagnostic-cables">OBD2 &amp; Universal Diagnostic Cables</a><a href="/products/heavy-duty-j1939-diagnostic-cables">Heavy-Duty J1939 Diagnostic Cables</a><a href="/about">About</a><a href="/contact">Contact</a></div></div><p class="seo-keywords">${esc(name.toLowerCase())} | ${esc(groupName.toLowerCase())} | custom cable manufacturer</p><div class="container bot">© <span id="f-year"></span> <span id="f-company"></span> · All Rights Reserved</div></footer>
 <div class="fab" id="fab"><button class="fab-main" id="fab-main" type="button" aria-label="Contact"><span class="fab-icon"></span><span class="fab-label">Contact</span></button><div class="fab-menu" id="fab-menu"><a class="fab-item email" id="fab-email" href="mailto:sales@supersmile-tech.com">Email</a><button class="fab-item online" id="fab-online" type="button">Online Message</button><a class="fab-item wa" id="fab-wa" href="https://wa.me/447516289817" target="_blank" rel="noopener">WhatsApp</a></div></div>
 <div class="contact-modal" id="contact-modal"><div class="contact-modal-overlay" data-close></div><div class="contact-modal-box" role="dialog" aria-modal="true"><button class="modal-close" type="button" data-close aria-label="Close">×</button><h3 id="modal-title">Send Us a Message</h3><form id="modal-form"><div class="field"><label id="modal-label-name">Name</label><input id="modal-name" required placeholder="Your name"></div><div class="field"><label id="modal-label-email">Email</label><input id="modal-email" type="email" required placeholder="you@company.com"></div><div class="field"><label id="modal-label-message">Message</label><textarea id="modal-message" required placeholder="Describe your requirement..."></textarea></div><button class="btn btn-primary" type="submit" id="modal-submit" style="width:100%">Send Message</button></form><p style="margin-top:12px;font-size:13px;text-align:center"><a id="modal-wa" href="#" target="_blank" rel="noopener">Chat on WhatsApp</a></p></div></div>
-<div class="toast" id="toast"></div><script src="/assets/js/main.js?v=20260902v47"></script>
+<div class="toast" id="toast"></div><script src="/assets/js/main.js?v=20260902v48"></script>
 </body>
 </html>`;
 }

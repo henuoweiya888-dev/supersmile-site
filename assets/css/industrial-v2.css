@@ -32,6 +32,112 @@
   --shadow:none;
 }
 
+/* Circular connector editorial atlas: dense technical reading with one unique photo per topic. */
+body.pcc-rich-page[data-category-key="cable-assembly-02"] #pcc-rich-content{
+  --atlas-edge:clamp(28px,5.2vw,84px);
+  background:#f3f1eb;
+}
+body.pcc-rich-page[data-category-key="cable-assembly-02"] .pcc-hero-media img{
+  object-fit:contain;
+  padding:clamp(20px,4vw,58px);
+  background:#151719;
+  filter:saturate(.78) contrast(1.08);
+}
+body.pcc-rich-page[data-category-key="cable-assembly-02"] .pcc-hero-copy>p{text-indent:2em}
+.pcc-atlas-opening{
+  display:grid;
+  grid-template-columns:minmax(320px,.78fr) minmax(500px,1.22fr);
+  gap:clamp(36px,5vw,76px);
+  align-items:center;
+  padding:48px var(--atlas-edge);
+  background:#dedfdc;
+}
+.pcc-atlas-opening>div>span,.pcc-atlas-kicker{
+  display:flex;
+  align-items:center;
+  gap:12px;
+  margin:0 0 10px;
+  color:#eb4324;
+  font:700 10px/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;
+  letter-spacing:.14em;
+}
+.pcc-atlas-opening>div>span::before,.pcc-atlas-kicker::before{content:"";width:24px;height:2px;background:#eb4324;flex:none}
+.pcc-atlas-opening h2{margin:0 0 14px;font-size:clamp(26px,2.6vw,42px);font-weight:560;letter-spacing:-.035em}
+.pcc-atlas-opening p{margin:0;max-width:760px;font-size:15px;line-height:1.82;color:#454a4e;text-indent:2em}
+.pcc-atlas-opening .pcc-atlas-opening-media{
+  min-height:320px;
+  height:34vw;
+  max-height:470px;
+  margin-right:calc(var(--atlas-edge)*-1);
+  background:#17191b;
+}
+.pcc-atlas-opening .pcc-atlas-opening-media img{object-fit:contain;padding:28px;filter:saturate(.74) contrast(1.1)}
+.pcc-atlas-sequence{counter-reset:atlas;background:#f3f1eb}
+.pcc-atlas-chapter{
+  position:relative;
+  display:grid;
+  grid-template-columns:36px minmax(300px,36%) minmax(0,1fr);
+  gap:clamp(22px,3.8vw,58px);
+  align-items:center;
+  min-height:330px;
+  padding:34px var(--atlas-edge);
+}
+.pcc-atlas-chapter:nth-child(4n+2){background:#e7e8e5}
+.pcc-atlas-chapter:nth-child(4n+3){background:#dddeda}
+.pcc-atlas-chapter:nth-child(4n){background:#f7f5ef}
+.pcc-atlas-chapter:nth-child(even){grid-template-columns:36px minmax(0,1fr) minmax(300px,34%)}
+.pcc-atlas-chapter:nth-child(even) .pcc-atlas-media{grid-column:3;grid-row:1}
+.pcc-atlas-chapter:nth-child(even) .pcc-atlas-copy{grid-column:2;grid-row:1}
+.pcc-atlas-index{align-self:start;padding-top:5px;color:#eb4324;font:700 10px/1 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.08em}
+.pcc-atlas-media{height:250px;margin:0;overflow:hidden;background:#d2d3cf}
+.pcc-atlas-media img{width:100%;height:100%;display:block;object-fit:cover;filter:saturate(.76) contrast(1.08)}
+.pcc-atlas-chapter:nth-child(3n+1) .pcc-atlas-media{height:280px}
+.pcc-atlas-chapter:nth-child(5n+2) .pcc-atlas-media{height:220px}
+.pcc-atlas-copy{max-width:900px}
+.pcc-atlas-copy h2{margin:0 0 8px;font-size:clamp(22px,2.15vw,34px);line-height:1.16;font-weight:560;letter-spacing:-.028em}
+.pcc-atlas-summary{margin:0 0 14px;font-size:14.5px;line-height:1.75;color:#34393c;text-indent:2em}
+.pcc-atlas-points{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px 30px}
+.pcc-atlas-points section{position:relative;padding:12px 0 0}
+.pcc-atlas-points section::before{content:"";position:absolute;left:0;top:0;width:32px;height:1px;background:#a8aaa7}
+.pcc-atlas-points h3{margin:0 0 4px;font-size:15px;line-height:1.35;font-weight:650}
+.pcc-atlas-points p{margin:0;font-size:13.5px;line-height:1.68;color:#555b5f;text-indent:2em}
+.pcc-atlas-faq{padding:48px var(--atlas-edge)!important;background:#ebeae5!important}
+.pcc-atlas-faq .pcc-rich-heading{margin-bottom:20px!important}
+.pcc-media-credits{padding:16px var(--atlas-edge) 28px;background:#ebeae5;color:#666d70;font-size:11px}
+.pcc-media-credits summary{cursor:pointer;font-weight:650;color:#34393c}
+.pcc-media-credits ul{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px 26px;margin:12px 0 0;padding:0;list-style:none}
+.pcc-media-credits li{display:flex;justify-content:space-between;gap:12px;padding-top:6px;border-top:1px solid rgba(80,84,86,.18)}
+.pcc-media-credits a{color:#34393c;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:2px}
+.pcc-media-credits span{text-align:right}
+
+@media (max-width:900px){
+  .pcc-atlas-opening{grid-template-columns:1fr;padding:34px var(--atlas-edge) 0;gap:26px}
+  .pcc-atlas-opening .pcc-atlas-opening-media{width:calc(100% + var(--atlas-edge)*2);height:310px;min-height:0;margin:0 calc(var(--atlas-edge)*-1)}
+  .pcc-atlas-chapter,.pcc-atlas-chapter:nth-child(even){grid-template-columns:28px minmax(220px,32%) minmax(0,1fr);gap:20px;padding-block:28px;min-height:270px}
+  .pcc-atlas-chapter:nth-child(even) .pcc-atlas-media{grid-column:2;grid-row:1}
+  .pcc-atlas-chapter:nth-child(even) .pcc-atlas-copy{grid-column:3;grid-row:1}
+  .pcc-atlas-media,.pcc-atlas-chapter:nth-child(3n+1) .pcc-atlas-media,.pcc-atlas-chapter:nth-child(5n+2) .pcc-atlas-media{height:210px}
+  .pcc-atlas-points{grid-template-columns:1fr;gap:10px}
+}
+@media (max-width:640px){
+  body.pcc-rich-page[data-category-key="cable-assembly-02"] #pcc-rich-content{--atlas-edge:20px}
+  .pcc-atlas-opening{padding-top:28px}
+  .pcc-atlas-opening h2{font-size:25px}
+  .pcc-atlas-opening p{font-size:13.5px;line-height:1.72}
+  .pcc-atlas-opening .pcc-atlas-opening-media{height:250px}
+  .pcc-atlas-opening .pcc-atlas-opening-media img{padding:16px}
+  .pcc-atlas-chapter,.pcc-atlas-chapter:nth-child(even){display:flex;flex-direction:column;align-items:stretch;gap:0;padding:26px var(--atlas-edge) 24px;min-height:0}
+  .pcc-atlas-index{position:absolute;z-index:2;top:34px;left:var(--atlas-edge);padding:7px 8px;background:#0f1113;color:#fff}
+  .pcc-atlas-media,.pcc-atlas-chapter:nth-child(3n+1) .pcc-atlas-media,.pcc-atlas-chapter:nth-child(5n+2) .pcc-atlas-media{width:calc(100% + var(--atlas-edge)*2);height:205px;margin:0 calc(var(--atlas-edge)*-1) 22px}
+  .pcc-atlas-copy h2{font-size:21px;white-space:normal}
+  .pcc-atlas-summary{font-size:13.5px;line-height:1.68}
+  .pcc-atlas-points h3{font-size:14px}
+  .pcc-atlas-points p{font-size:12.8px;line-height:1.62}
+  .pcc-atlas-faq{padding:34px var(--atlas-edge)!important}
+  .pcc-media-credits{padding-inline:var(--atlas-edge)}
+  .pcc-media-credits ul{grid-template-columns:1fr}
+}
+
 /* Dense image-led product-category chapters. The page follows the competitor's
    information hierarchy while keeping Super Smile's restrained editorial grid. */
 .pcc-rich-page .pcc-main{padding-block-start:0;background:var(--v2-paper)}
