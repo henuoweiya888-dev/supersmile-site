@@ -187,7 +187,87 @@
     "intro": {"en": "Robotic harnesses carry power, control or sensor signals through moving axes, robot arms or end-of-arm tooling. Static cable construction is not automatically suitable for repeated bending or torsion.", "zh": "机器人线束用于在运动轴、机械臂或末端工具之间传输电源、控制或传感信号。适用于固定安装的线材，不一定适合持续弯折或扭转。"},
     "knowledge": {"en": "Repeated bending, torsion and drag-chain travel create different mechanical loads. Bend radius, torsion angle, travel length, acceleration, clamping position and connector strain relief must be considered as one routing system.", "zh": "往复弯折、扭转和拖链运动产生的机械载荷不同。弯曲半径、扭转角度、行程、加速度、固定位置和接口应力消除需要作为一套运动系统共同评估。"},
     "notes": {"en": "Do not select only by conductor count. Provide the robot or axis layout, motion video or path, expected cycle range, available bend radius, torsion angle, cable carrier information and electrical function. Actual life must be validated under the project motion profile.", "zh": "不能只按芯数选型。应提供机器人或运动轴布局、运动视频或路径、预期循环次数范围、可用弯曲半径、扭转角度、拖链信息和电气功能；实际寿命需按项目运动工况验证。"},
-    "delivery": {"en": "The sample stage confirms routing length, clamp points and connector orientation before motion testing by the customer or an agreed method. Production specifications are frozen only after the sample and motion conditions are accepted.", "zh": "样品阶段先确认布线长度、固定点和接口方向，再由客户或按约定方法进行运动验证；样品与运动条件确认后，才冻结量产规格。"}
+    "delivery": {"en": "The sample stage confirms routing length, clamp points and connector orientation before motion testing by the customer or an agreed method. Production specifications are frozen only after the sample and motion conditions are accepted.", "zh": "样品阶段先确认布线长度、固定点和接口方向，再由客户或按约定方法进行运动验证；样品与运动条件确认后，才冻结量产规格。"},
+    "page": {
+      "subtitle": {"en": "Motion begins with the routing system", "zh": "运动可靠性从布线路径开始"},
+      "lead": {"en": "A robotic harness is a family of power, servo, brake, encoder, sensor, communication and tool-side assemblies developed around the real axis motion. Cable construction, bend radius, torsion, clamp position and connector support must work as one system.", "zh": "机器人线束是一类围绕真实轴运动开发的动力、伺服、制动、编码器、传感、通信及工具端组件。线材结构、弯曲半径、扭转、固定点和接口支撑必须作为同一系统协同设计。"},
+      "headings": {
+        "introduction": {"en": "Product Introduction", "zh": "产品介绍"},
+        "advantages": {"en": "Robotic Harness Types", "zh": "机器人线束类型"},
+        "materials": {"en": "Motion Details and Materials", "zh": "运动细节与材料"},
+        "solution": {"en": "Custom Robotic Solutions", "zh": "机器人定制解决方案"},
+        "applications": {"en": "Robots and Applications", "zh": "机器人与应用"},
+        "method": {"en": "Robotic Harness Making Method", "zh": "机器人线束制作方法"},
+        "reliability": {"en": "Motion Validation and Review", "zh": "运动验证与项目审核"},
+        "benefits": {"en": "What the Finished Harness Improves", "zh": "成品线束带来的改进"},
+        "faq": {"en": "Frequently Asked Questions", "zh": "常见问题"}
+      },
+      "images": {
+        "hero": "/assets/images/product-categories/stock/robotic/robot-machine-wiring.jpg",
+        "range": "/assets/images/product-categories/stock/robotic/robot-line.jpg",
+        "variants": "/assets/images/product-categories/stock/robotic/yellow-robot-arm.jpg",
+        "materials": "/assets/images/product-categories/stock/industrial-equipment/cable-insulation.jpg",
+        "applications": "/assets/images/product-categories/stock/robotic/factory-conveyor.jpg",
+        "process": "/assets/images/product-categories/stock/robotic/robot-assembly-team.jpg",
+        "testing": "/assets/images/product-categories/stock/industrial-equipment/panel-testing.jpg"
+      },
+      "variants": [
+        {"image":"/assets/images/product-categories/stock/robotic/yellow-robot-arm.jpg","title":{"en":"Robot-arm dress pack","zh":"机械臂随动线束"},"copy":{"en":"Power, brake, feedback and signal branches follow several rotating joints while maintaining defined service loops and supported transitions.","zh":"动力、制动、反馈和信号分支随多个旋转关节运动，同时保持明确的检修余量与受控过渡。"}},
+        {"image":"/assets/images/product-categories/stock/robotic/delta-robot.jpg","title":{"en":"High-speed axis harness","zh":"高速运动轴线束"},"copy":{"en":"Compact moving assemblies require low-mass routing, stable branch geometry and clamp positions matched to acceleration and stroke.","zh":"紧凑型高速机构需要低负载布线、稳定分支几何，并使固定位置与加速度和行程相匹配。"}},
+        {"image":"/assets/images/product-categories/stock/robotic/robotic-welding.jpg","title":{"en":"Welding robot harness","zh":"焊接机器人线束"},"copy":{"en":"Welding cells may combine power, control, cooling, sensing and tool circuits with protection selected for heat, sparks and mechanical contact.","zh":"焊接单元可能同时包含动力、控制、冷却、传感与工具回路，并按热量、飞溅和机械接触选择防护。"}},
+        {"image":"/assets/images/product-categories/stock/robotic/robot-line.jpg","title":{"en":"End-of-arm tool harness","zh":"末端执行器线束"},"copy":{"en":"Replaceable grippers, vision units, valves and sensors can use a defined tool-side interface for quicker service and changeover.","zh":"可更换夹具、视觉单元、阀组和传感器可采用明确的工具端接口，便于检修和换型。"}},
+        {"image":"/assets/images/product-categories/stock/robotic/factory-conveyor.jpg","title":{"en":"Drag-chain motion harness","zh":"拖链运动线束"},"copy":{"en":"Linear travel assemblies are developed around carrier size, neutral-axis placement, cable fill, stroke and supported entry and exit points.","zh":"直线往复组件围绕拖链尺寸、中性轴位置、填充率、行程及受支撑的进出口位置开发。"}},
+        {"image":"/assets/images/product-categories/stock/robotic/robot-lab.jpg","title":{"en":"Collaborative robot cable set","zh":"协作机器人线缆套件"},"copy":{"en":"Compact joint routing can combine low-voltage power, sensing and communication while preserving assembly access and controlled movement.","zh":"紧凑关节布线可组合低压电源、传感和通信回路，同时保留装配空间并控制运动路径。"}}
+      ],
+      "materials": [
+        {"image":"/assets/images/product-categories/stock/industrial-equipment/copper-wire.jpg","title":{"en":"Flexible conductor construction","zh":"柔性导体结构"},"copy":{"en":"Strand design and conductor size are selected from circuit load, voltage drop, bending duty, termination and project temperature requirements.","zh":"依据回路负载、压降、弯折工况、端接方式及项目温度要求选择绞合结构与导体规格。"}},
+        {"image":"/assets/images/product-categories/stock/industrial-equipment/cable-insulation.jpg","title":{"en":"Jacket and flex duty","zh":"护套与运动工况"},"copy":{"en":"PUR, TPE, PVC or specified cable families are reviewed against oil, abrasion, temperature, drag-chain travel, torsion and cleaning conditions.","zh":"PUR、TPE、PVC或指定线材体系，需要结合油污、磨损、温度、拖链运动、扭转与清洁条件审核。"}},
+        {"image":"/assets/images/product-categories/stock/industrial-equipment/cable-bundle.jpg","title":{"en":"Shielding and signal integrity","zh":"屏蔽与信号完整性"},"copy":{"en":"Encoder, resolver, vision and communication circuits may require paired conductors, shielding and grounding defined with the controller interface.","zh":"编码器、旋变、视觉与通信回路可能需要双绞、屏蔽和接地，并与控制器接口共同定义。"}},
+        {"image":"/assets/images/product-categories/stock/industrial-equipment/sealed-connector.jpg","title":{"en":"Strain relief and support","zh":"应力消除与支撑"},"copy":{"en":"Connector backshells, boots, clamps, sleeves and transition points must prevent motion load from concentrating at terminals or cable exits.","zh":"连接器尾附件、护套、夹具、套管与过渡位置，需要避免运动载荷集中在端子或出线口。"}}
+      ],
+      "solutions": [
+        {"image":"/assets/images/product-categories/stock/robotic/robot-assembly-team.jpg","title":{"en":"Develop from drawings and motion data","zh":"依据图纸与运动资料开发"},"copy":{"en":"Review pin definitions, axis layout, motion path, stroke, torsion, bend radius, clamp locations, electrical load and installation sequence before sampling.","zh":"打样前审核针脚定义、轴布局、运动路径、行程、扭转、弯曲半径、固定位置、电气负载与安装顺序。"}},
+        {"image":"/assets/images/product-categories/stock/robotic/robot-lab.jpg","title":{"en":"Match an existing robot or sample","zh":"匹配现有机器人或样品"},"copy":{"en":"A reference assembly can establish interfaces and routing, but hidden electrical functions and the real motion profile still require customer confirmation.","zh":"参考组件可用于确认接口与路径，但隐藏的电气功能和真实运动曲线仍需客户确认。"}},
+        {"image":"/assets/images/product-categories/stock/robotic/robot-machine-wiring.jpg","title":{"en":"Separate replaceable modules","zh":"划分可更换模块"},"copy":{"en":"Tool-side, arm-side and cabinet-side segments can use agreed interface boundaries so one serviced branch does not require replacing the full dress pack.","zh":"工具端、臂端与柜端可设置约定接口边界，使单个检修分支无需更换整套随动线束。"}},
+        {"image":"/assets/images/product-categories/stock/robotic/factory-conveyor.jpg","title":{"en":"Freeze the approved motion sample","zh":"冻结已验证的运动样品"},"copy":{"en":"After fit and motion verification, branch datums, clamp points, materials, labels and inspection items are recorded for repeat production.","zh":"完成装配与运动验证后，记录分支基准、固定点、材料、标识和检验项目，用于后续重复生产。"}}
+      ],
+      "applications": [
+        {"image":"/assets/images/product-categories/stock/robotic/robot-line.jpg","title":{"en":"Assembly and handling robots","zh":"装配与搬运机器人"},"copy":{"en":"Axis power, encoders, sensors, grippers, valves and safety interfaces on automated lines.","zh":"自动化产线中的轴动力、编码器、传感器、夹具、阀组和安全接口。"}},
+        {"image":"/assets/images/product-categories/stock/robotic/robotic-welding.jpg","title":{"en":"Welding and metalworking cells","zh":"焊接与金属加工单元"},"copy":{"en":"Dress packs and tool circuits exposed to repeated motion, heat, sparks and shop-floor contact.","zh":"承受重复运动、热量、飞溅和车间接触的随动线束与工具回路。"}},
+        {"image":"/assets/images/product-categories/stock/robotic/delta-robot.jpg","title":{"en":"Packaging and pick-and-place","zh":"包装与高速取放"},"copy":{"en":"Compact lightweight routing for fast axes, end effectors, sensors and machine interfaces.","zh":"面向高速运动轴、末端执行器、传感器和设备接口的紧凑轻量化布线。"}},
+        {"image":"/assets/images/product-categories/stock/robotic/robot-lab.jpg","title":{"en":"Laboratory and collaborative robotics","zh":"实验室与协作机器人"},"copy":{"en":"Low-voltage power, control, sensing and communication inside compact articulated systems.","zh":"紧凑多关节系统内部的低压电源、控制、传感与通信连接。"}},
+        {"image":"/assets/images/product-categories/stock/robotic/factory-conveyor.jpg","title":{"en":"Linear motion and gantries","zh":"直线模组与龙门系统"},"copy":{"en":"Carrier-guided power, signal and feedback assemblies for long repetitive travel.","zh":"用于长距离往复行程的拖链动力、信号与反馈组件。"}},
+        {"image":"/assets/images/product-categories/stock/robotic/yellow-robot-arm.jpg","title":{"en":"Machine tending and CNC automation","zh":"机床上下料与CNC自动化"},"copy":{"en":"Robot-to-machine interfaces for doors, grippers, presence sensing and production control.","zh":"用于柜门、夹具、到位检测和生产控制的机器人至机床接口。"}}
+      ],
+      "process": [
+        {"image":"/assets/images/product-categories/stock/robotic/robot-assembly-team.jpg","title":{"en":"Motion and circuit review","zh":"运动与回路审核"},"copy":{"en":"Confirm interfaces, loads, axis path, bending, torsion, stroke, environment, quantities and installation constraints.","zh":"确认接口、负载、轴路径、弯折、扭转、行程、环境、数量和安装限制。"}},
+        {"image":"/assets/images/product-categories/stock/robotic/robot-machine-wiring.jpg","title":{"en":"Routing definition","zh":"布线路径定义"},"copy":{"en":"Define branch datums, neutral-axis placement, clamp positions, connector orientation and service loops.","zh":"定义分支基准、中性轴位置、固定点、接口方向和检修余量。"}},
+        {"image":"/assets/images/product-categories/stock/industrial-equipment/copper-wire.jpg","title":{"en":"Material confirmation","zh":"物料确认"},"copy":{"en":"Confirm cable families, connectors, terminals, shielding, sleeves, clamps, labels and approved alternatives.","zh":"确认线材体系、连接器、端子、屏蔽、套管、夹具、标识及批准替代料。"}},
+        {"image":"/assets/images/product-categories/stock/industrial-equipment/machine-build.jpg","title":{"en":"First article build","zh":"首件制作"},"copy":{"en":"Cut, strip, crimp, assemble, form and protect the harness to the reviewed engineering data.","zh":"依据审核后的工程资料完成下线、剥线、压接、组装、成型与防护。"}},
+        {"image":"/assets/images/product-categories/stock/industrial-equipment/panel-testing.jpg","title":{"en":"Electrical and dimensional check","zh":"电气与尺寸检查"},"copy":{"en":"Check continuity, circuit mapping, polarity where applicable, labels, dimensions and agreed mechanical items.","zh":"检查导通、回路对应、适用时的极性、标识、尺寸及约定机械项目。"}},
+        {"image":"/assets/images/product-categories/stock/robotic/factory-conveyor.jpg","title":{"en":"Fit and motion validation","zh":"装配与运动验证"},"copy":{"en":"Verify the sample on the actual machine or an agreed motion setup before the production configuration is released.","zh":"在实际设备或约定运动装置上验证样品，再放行量产配置。"}}
+      ],
+      "reliability": [
+        {"image":"/assets/images/product-categories/stock/robotic/yellow-robot-arm.jpg","title":{"en":"Bending and torsion are different","zh":"弯折与扭转并不相同"},"copy":{"en":"Cable construction and routing are reviewed for the real movement type; a cable suitable for a carrier is not automatically suitable for robot-joint torsion.","zh":"线材结构和路径必须对应真实运动类型；适合拖链的线材并不自动适合机器人关节扭转。"}},
+        {"image":"/assets/images/product-categories/stock/robotic/factory-conveyor.jpg","title":{"en":"Bend radius and carrier fill","zh":"弯曲半径与拖链填充"},"copy":{"en":"Available radius, cable separation, carrier space and entry support are confirmed together rather than treating the cable alone.","zh":"可用半径、线缆隔离、拖链空间和入口支撑需要整体确认，不能只看线材本身。"}},
+        {"image":"/assets/images/product-categories/stock/industrial-equipment/sealed-connector.jpg","title":{"en":"Connector and terminal protection","zh":"连接器与端子保护"},"copy":{"en":"Backshell support, clamp distance and service loops reduce repeated load at crimps, solder joints and connector exits.","zh":"尾附件支撑、固定距离和检修余量可减少压接点、焊点和接口出线处的重复载荷。"}},
+        {"image":"/assets/images/product-categories/stock/robotic/robot-lab.jpg","title":{"en":"Project-specific life validation","zh":"按项目验证运动寿命"},"copy":{"en":"Cycle life depends on the complete motion profile, materials and routing. Any target must be defined and validated for the customer's actual project.","zh":"循环寿命取决于完整运动曲线、材料与路径；任何目标都必须针对客户实际项目定义并验证。"}}
+      ],
+      "benefits": [
+        {"image":"/assets/images/product-categories/stock/robotic/robot-line.jpg","title":{"en":"Motion matched to the machine","zh":"让运动与设备真正匹配"},"copy":{"en":"The harness is developed around real axes, routes and interfaces instead of forcing a static cable set into a moving system.","zh":"线束围绕真实轴、路径和接口开发，不把固定布线组件强行用于运动系统。"}},
+        {"image":"/assets/images/product-categories/stock/robotic/robot-machine-wiring.jpg","title":{"en":"Cleaner replacement boundaries","zh":"更清晰的更换边界"},"copy":{"en":"Defined modules and labels help technicians isolate a serviced tool, branch or axis without disturbing unrelated wiring.","zh":"明确的模块和标识便于技术人员隔离检修工具、分支或运动轴，不扰动无关布线。"}},
+        {"image":"/assets/images/product-categories/stock/robotic/robot-assembly-team.jpg","title":{"en":"Repeatable build information","zh":"形成可重复的制造资料"},"copy":{"en":"Approved datums, materials, forming references and inspection points turn a successful sample into a controlled repeat build.","zh":"把已批准基准、材料、成型参考和检验点记录下来，使成功样品转化为受控制的重复生产。"}},
+        {"image":"/assets/images/product-categories/stock/robotic/delta-robot.jpg","title":{"en":"A system view of cable reliability","zh":"从系统角度看线缆可靠性"},"copy":{"en":"Electrical function, mechanical motion, installation and maintenance are reviewed together instead of optimizing only one cable attribute.","zh":"把电气功能、机械运动、安装和维护共同审核，而不是只优化线材某一个属性。"}}
+      ],
+      "faq": [
+        {"q":{"en":"Is a drag-chain cable automatically suitable for a robot arm?","zh":"拖链电缆可以直接用于机器人手臂吗？"},"a":{"en":"Not necessarily. Linear bending and multi-axis torsion impose different loads. The actual path, bend radius, torsion and clamp layout must be reviewed.","zh":"不一定。直线弯折与多轴扭转产生的载荷不同，必须审核真实路径、弯曲半径、扭转和固定布局。"}},
+        {"q":{"en":"What information is needed for a quotation?","zh":"报价需要提供哪些资料？"},"a":{"en":"Provide drawings or samples, pin definitions, circuit functions, robot or axis layout, motion path or video, stroke, bend radius, torsion, environment, quantity and testing needs.","zh":"建议提供图纸或样品、针脚定义、回路功能、机器人或运动轴布局、运动路径或视频、行程、弯曲半径、扭转、环境、数量和测试需求。"}},
+        {"q":{"en":"Can you match an existing robotic harness?","zh":"可以匹配现有机器人线束吗？"},"a":{"en":"A sample can establish dimensions, interfaces and visible construction. Electrical function, hidden components and the real motion profile still require customer confirmation.","zh":"样品可用于确认尺寸、接口和可见结构，但电气功能、隐藏元件与真实运动曲线仍需客户确认。"}},
+        {"q":{"en":"Can power, feedback and communication be combined?","zh":"动力、反馈和通信可以组合吗？"},"a":{"en":"They may share an assembly when separation, shielding, grounding, connector capability and mechanical routing are suitable for the project.","zh":"当隔离、屏蔽、接地、接口能力和机械路径适合项目时，可以在同一组件内组织这些回路。"}},
+        {"q":{"en":"How is motion life confirmed?","zh":"运动寿命如何确认？"},"a":{"en":"A target motion profile and acceptance method must be agreed. Fit and motion validation may be performed on the customer's equipment or another approved setup before production release.","zh":"需要约定目标运动曲线与验收方法，可在客户设备或其他已批准装置上完成装配和运动验证，再放行量产。"}},
+        {"q":{"en":"Which inspections are performed before shipment?","zh":"出货前进行哪些检查？"},"a":{"en":"Finished harnesses receive continuity and appearance inspection. Circuit mapping, polarity, dimensions, pull force or motion-related items are included when specified in the approved project plan.","zh":"成品进行导通与外观检查；回路对应、极性、尺寸、拉力或运动相关项目，按已批准项目计划执行。"}}
+      ]
+    }
   },
   "custom-harness-04": {
     "intro": {"en": "Instrument and sensor harnesses connect sensing elements, transmitters, gauges, acquisition modules and controllers. They may carry low-level analog signals, digital communication, excitation power or mixed circuits.", "zh": "仪表与传感器线束连接传感元件、变送器、仪表、采集模块和控制器，可能承载低电平模拟信号、数字通信、激励电源或混合回路。"},
