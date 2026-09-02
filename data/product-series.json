@@ -1,0 +1,159 @@
+{
+  "series": [
+    {
+      "id": "turbo",
+      "slug": "turbo-actuator-series",
+      "title": {
+        "en": "Turbo Actuator Parts and Harness Series",
+        "zh": "涡轮执行器配件与线束系列"
+      },
+      "description": {
+        "en": "Real product references for turbo actuator harnesses, actuator components and sealing parts. Confirm the actuator model, connector, operating environment and required component before ordering.",
+        "zh": "汇总涡轮执行器连接线、执行器组件与密封配件等真实产品。采购前需要核对执行器型号、接口、工作环境和目标部件。"
+      },
+      "eyebrow": {"en": "TURBO / PRODUCT SERIES", "zh": "涡轮 / 产品系列"},
+      "decisionTitle": {"en": "Identify the Required Part Before Comparing Price", "zh": "先确认目标部件，再比较价格"},
+      "decisionIntro": {
+        "en": "A harness, complete actuator, motor component and rubber sealing part solve different service problems. Photos and model names should be checked together rather than treating the whole series as interchangeable.",
+        "zh": "连接线、完整执行器、电机组件与橡胶密封件解决的是不同维修问题。不能把整个系列视为通用件，应结合照片与型号一起核对。"
+      },
+      "checks": {
+        "en": ["Actuator or turbo model reference", "Connector views and locking features", "Required part: harness, actuator or seal", "Heat, oil and routing conditions", "Current sample or dimensional reference"],
+        "zh": ["执行器或涡轮型号参考", "接口视图与锁止结构", "所需部件：连接线、执行器或密封件", "温度、油液与布线条件", "现有样品或尺寸参考"]
+      },
+      "scopeTitle": {"en": "Series Scope", "zh": "系列范围"},
+      "scopeText": {
+        "en": "Product names and images are purchasing references. Exact engine, turbo or actuator compatibility must be verified for each item and does not imply authorization by a referenced brand.",
+        "zh": "产品名称和图片用于采购识别。发动机、涡轮或执行器的准确兼容范围需要逐项核实，提及品牌不代表获得其授权。"
+      },
+      "faqs": [
+        {"q":{"en":"Is a turbo actuator harness the same as a complete actuator?","zh":"涡轮执行器连接线与完整执行器是同一种产品吗？"},"a":{"en":"No. The harness provides an electrical connection, while the complete actuator and individual sealing or motor parts have different functions and ordering references.","zh":"不是。连接线负责电气连接，完整执行器以及单独的密封或电机配件具有不同功能和订购依据。"}},
+        {"q":{"en":"What information should be sent for compatibility review?","zh":"核对兼容性需要提供哪些信息？"},"a":{"en":"Send the turbo or actuator model, equipment or engine reference, clear connector photos, the current part or sample and the required function.","zh":"请提供涡轮或执行器型号、设备或发动机信息、清晰接口照片、现有部件或样品以及目标功能。"}},
+        {"q":{"en":"Can the harness length or protection be changed?","zh":"连接线长度或防护结构可以调整吗？"},"a":{"en":"Length, protection and identification can be reviewed for a harness project after the connector, pin definition, environment and materials are confirmed.","zh":"在接口、针脚定义、环境与材料确认后，可以按线束项目评估长度、防护与标识调整。"}}
+      ],
+      "related": ["heavyduty", "specialty"]
+    },
+    {
+      "id": "universal",
+      "slug": "obd2-and-universal-diagnostic-cables",
+      "title": {"en": "OBD2 and Universal Diagnostic Cable Series", "zh": "OBD2与通用诊断线系列"},
+      "description": {
+        "en": "Browse real OBD2 extension, splitter, breakout, scanner-main and service-tool cable products. Mechanical fit, pin assignment, tool model and intended function must be verified together.",
+        "zh": "浏览真实的 OBD2 延长线、分线器、引出线、诊断设备主线和维修工具连接线。机械配合、针脚定义、设备型号与目标功能必须一起核对。"
+      },
+      "heroImage": "/assets/images/applications/automotive-diagnostics-photoreal-v2.jpg",
+      "heroAlt": {"en": "Automotive diagnostics and ECU programming", "zh": "汽车诊断与ECU编程"},
+      "eyebrow": {"en": "OBD2 / PRODUCT SERIES", "zh": "OBD2 / 产品系列"},
+      "decisionTitle": {"en": "Choose by Tool, Pinout and Task — Not Plug Shape Alone", "zh": "按设备、针脚和任务选择，不只看插头外形"},
+      "decisionIntro": {
+        "en": "The 16-pin OBD2 form appears across extensions, splitters, breakout leads, power cables and diagnostic-tool main cables. Similar housings can contain different wiring and serve different equipment.",
+        "zh": "16 针 OBD2 外形会出现在延长线、分线器、引出线、电源线和诊断设备主线中。相似外壳可能具有不同接线，也可能服务于不同设备。"
+      },
+      "checks": {
+        "en": ["Vehicle or equipment range", "Diagnostic tool brand and model", "Both connector faces", "Pin assignment and required signals", "Extension, splitter, breakout or main-cable task"],
+        "zh": ["车辆或设备范围", "诊断设备品牌与型号", "两端接口正面视图", "针脚定义与所需信号", "延长、分线、引出或设备主线任务"]
+      },
+      "scopeTitle": {"en": "Compatibility Boundary", "zh": "兼容范围说明"},
+      "scopeText": {
+        "en": "OBD2 connector shape does not prove protocol, power routing or scan-tool compatibility. Every product reference must be matched to the exact vehicle, tool and task before purchase or customization.",
+        "zh": "OBD2 接口外形不能证明协议、供电路径或诊断设备兼容性。采购或定制前，必须将产品参考与准确车型、设备和任务进行匹配。"
+      },
+      "faqs": [
+        {"q":{"en":"Can one OBD2 cable work with every scan tool?","zh":"一条 OBD2 线能适用于所有诊断设备吗？"},"a":{"en":"No. Tool-side connectors, pin maps, power requirements and supported functions can differ even when the vehicle-side connector looks familiar.","zh":"不能。即使车辆端接口外形常见，设备端接口、针脚图、供电要求和支持功能也可能不同。"}},
+        {"q":{"en":"What is the difference between an extension and a splitter?","zh":"延长线与分线器有什么区别？"},"a":{"en":"An extension moves one connection point, while a splitter provides more than one branch. The pin routing and permitted simultaneous use still need to be checked.","zh":"延长线用于延长一个连接点，分线器提供多个分支；两者仍需核对针脚路径和是否允许同时使用。"}},
+        {"q":{"en":"Can a current cable be used as a custom reference?","zh":"可以用现有线缆作为定制参考吗？"},"a":{"en":"Yes. Clear photos or a physical sample can be reviewed with the tool model, pin information, length and required changes before a sample is built.","zh":"可以。打样前可结合清晰照片或实物样品、设备型号、针脚信息、长度和需要调整的项目进行审核。"}}
+      ],
+      "related": ["adapter", "specialty", "heavyduty"]
+    },
+    {
+      "id": "heavyduty",
+      "slug": "heavy-duty-and-diesel-diagnostic-cables",
+      "title": {"en": "Heavy-Duty and Diesel Diagnostic Cable Series", "zh": "重卡与柴油诊断线系列"},
+      "description": {
+        "en": "Real 9-pin Deutsch, DB15, ECU-service, common-rail and diesel diagnostic cable references. Confirm the vehicle or engine, diagnostic tool, connector type and task for each request.",
+        "zh": "汇总真实的 9 针 Deutsch、DB15、ECU 维修、共轨和柴油诊断线。每项需求都需要核对车辆或发动机、诊断设备、接口类型与目标任务。"
+      },
+      "eyebrow": {"en": "HEAVY-DUTY / PRODUCT SERIES", "zh": "重卡柴油 / 产品系列"},
+      "decisionTitle": {"en": "Separate Vehicle Interface, Tool Interface and Service Function", "zh": "分别确认车辆接口、设备接口与维修功能"},
+      "decisionIntro": {
+        "en": "Heavy-duty diagnostic requests may involve 9-pin Deutsch connectors, DB15 tool interfaces, ECU programming routes or engine-specific service leads. One label such as J1939 does not define the complete cable.",
+        "zh": "重卡诊断需求可能涉及 9 针 Deutsch、DB15 设备接口、ECU 编程路径或发动机专用维修线。“J1939”一个名称不能完整定义整条线缆。"
+      },
+      "checks": {
+        "en": ["Truck, engine or equipment reference", "Diagnostic or programming tool", "Deutsch color/keying or other interface", "Pin map and intended service function", "Existing cable, label or part reference"],
+        "zh": ["卡车、发动机或设备信息", "诊断或编程设备", "Deutsch 颜色/防错或其他接口", "针脚图与目标维修功能", "现有线缆、标签或部件参考"]
+      },
+      "scopeTitle": {"en": "Protocol and Function Boundary", "zh": "协议与功能边界"},
+      "scopeText": {
+        "en": "A cable should only be described for diagnostics, programming or flashing when that exact equipment path and use have been verified. Mechanical connection alone is insufficient.",
+        "zh": "只有在准确设备路径与用途得到核实后，才能将线缆描述为诊断、编程或刷写用途；仅能机械插合并不充分。"
+      },
+      "faqs": [
+        {"q":{"en":"Are all 9-pin Deutsch diagnostic connectors wired the same?","zh":"所有 9 针 Deutsch 诊断接口的接线都一样吗？"},"a":{"en":"No. Connector color, keying, generation, equipment requirements and pin allocation can differ. The exact interface must be identified.","zh":"不一样。接口颜色、防错结构、代次、设备要求与针脚分配可能不同，必须识别准确接口。"}},
+        {"q":{"en":"Is an ECU flashing cable a general diagnostic cable?","zh":"ECU 刷写线就是普通诊断线吗？"},"a":{"en":"Not necessarily. Flashing depends on the target ECU, tool, power and communication path and the operating procedure. The verified task should be named precisely.","zh":"不一定。刷写取决于目标 ECU、设备、供电与通信路径以及操作流程，应准确描述已核实的任务。"}},
+        {"q":{"en":"What should be sent for a replacement diesel diagnostic cable?","zh":"采购替换柴油诊断线需要提供什么？"},"a":{"en":"Provide the engine or equipment, diagnostic tool, both connector views, current cable label or sample, intended task and required length.","zh":"请提供发动机或设备、诊断工具、两端接口视图、现有线缆标签或样品、目标任务和所需长度。"}}
+      ],
+      "related": ["universal", "adapter", "turbo"]
+    },
+    {
+      "id": "specialty",
+      "slug": "specialty-diagnostic-cables",
+      "title": {"en": "Specialty Diagnostic Cable Series", "zh": "专用诊断线系列"},
+      "description": {
+        "en": "Device-specific, gateway, low-voltage EV service, Ethernet, CAN and brand-compatible diagnostic cable references. Each product is reviewed against the exact model, generation and task.",
+        "zh": "汇总设备专用、网关、低压新能源维修、以太网、CAN及品牌兼容诊断线。每个产品都需结合准确型号、代次与任务进行核对。"
+      },
+      "eyebrow": {"en": "SPECIALTY / PRODUCT SERIES", "zh": "专用诊断 / 产品系列"},
+      "decisionTitle": {"en": "Record the Exact Model and Generation", "zh": "记录准确型号与代次"},
+      "decisionIntro": {
+        "en": "Specialty cables are selected for a defined vehicle, tool, gateway or service procedure. A family name is not enough because connectors, networks and tool support can change between generations.",
+        "zh": "专用线缆针对明确车型、设备、网关或维修流程选择。仅有系列名称并不够，因为接口、网络和设备支持可能随代次变化。"
+      },
+      "checks": {
+        "en": ["Vehicle or equipment model and generation", "Service tool and software context", "Gateway, Ethernet, CAN or other network", "Connector variant and pin route", "Verified low-voltage task"],
+        "zh": ["车型或设备型号与代次", "维修设备与软件环境", "网关、以太网、CAN或其他网络", "接口版本与针脚路径", "已核实的低压任务"]
+      },
+      "scopeTitle": {"en": "Brand and EV Boundary", "zh": "品牌与新能源范围"},
+      "scopeText": {
+        "en": "Brand names identify compatibility targets and do not imply authorization. EV-related products in this catalogue are low-voltage diagnostic or service connections, not high-voltage traction harnesses.",
+        "zh": "品牌名称仅用于识别兼容目标，不代表获得授权。本系列新能源相关产品属于低压诊断或维修连接，不是高压动力线束。"
+      },
+      "faqs": [
+        {"q":{"en":"Does a brand name mean the cable is an official product?","zh":"页面出现品牌名称是否代表官方产品？"},"a":{"en":"No. Brand and model references describe an intended compatibility target. They do not imply endorsement, affiliation or authorization.","zh":"不代表。品牌和型号用于描述目标兼容范围，不表示获得背书、存在关联或取得授权。"}},
+        {"q":{"en":"Are the EV cables in this series high-voltage harnesses?","zh":"本系列新能源线缆属于高压线束吗？"},"a":{"en":"No. The current EV-related records are low-voltage diagnostic, gateway or service-tool connections. High-voltage harness capability is not claimed here.","zh":"不是。当前新能源相关记录属于低压诊断、网关或维修设备连接，本页不宣传高压线束能力。"}},
+        {"q":{"en":"Why are model year and generation important?","zh":"为什么需要提供年款与代次？"},"a":{"en":"Gateway architecture, connector versions, pin routes and tool support may change. Exact generation information reduces the risk of a mechanically fitting but functionally incorrect cable.","zh":"网关架构、接口版本、针脚路径和设备支持可能变化；准确代次信息可降低“能插但不能用”的风险。"}}
+      ],
+      "related": ["universal", "adapter", "heavyduty"]
+    },
+    {
+      "id": "adapter",
+      "slug": "diagnostic-adapters-and-connectors",
+      "title": {"en": "Diagnostic Adapter and Connector Series", "zh": "诊断转接头与接口系列"},
+      "description": {
+        "en": "Compact diagnostic adapters and connector references for selected scan tools and vehicle interfaces. Verify both sides, pin routing, model and intended task before purchase.",
+        "zh": "汇总适用于指定诊断设备和车辆接口的紧凑型转接头与接口产品。采购前需核对两端接口、针脚路径、型号与目标任务。"
+      },
+      "eyebrow": {"en": "ADAPTER / PRODUCT SERIES", "zh": "转接头 / 产品系列"},
+      "decisionTitle": {"en": "A Mechanical Adapter Still Has an Electrical Definition", "zh": "机械转接同样需要明确电气定义"},
+      "decisionIntro": {
+        "en": "An adapter may look simple, but orientation, keying, terminal population and internal pin routing determine whether it is correct for a tool and vehicle combination.",
+        "zh": "转接头外形可能很简单，但方向、防错结构、端子装配与内部针脚路径决定它是否适用于目标设备与车辆组合。"
+      },
+      "checks": {
+        "en": ["Tool-side interface and model", "Vehicle-side interface", "Connector orientation and keying", "Populated terminals and pin route", "Required diagnostic or service task"],
+        "zh": ["设备端接口与型号", "车辆端接口", "接口方向与防错结构", "端子装配与针脚路径", "所需诊断或维修任务"]
+      },
+      "scopeTitle": {"en": "Adapter Identification", "zh": "转接头识别边界"},
+      "scopeText": {
+        "en": "Similar shells may be used with different internal wiring. Product photos help identify the housing, but the exact model and pin definition remain part of the purchasing specification.",
+        "zh": "相似外壳可能具有不同内部接线。产品照片可帮助识别壳体，但准确型号与针脚定义仍属于采购规格的一部分。"
+      },
+      "faqs": [
+        {"q":{"en":"Can two adapters with the same outer shape be interchangeable?","zh":"外形相同的两个转接头可以互换吗？"},"a":{"en":"Not automatically. Terminal population, pin routing, keying and tool requirements can differ even when the housing appears identical.","zh":"不能直接判断。即使壳体外观相同，端子装配、针脚路径、防错结构和设备要求也可能不同。"}},
+        {"q":{"en":"What photos are useful for adapter identification?","zh":"识别转接头时需要哪些照片？"},"a":{"en":"Provide both mating faces, side views showing keying and locks, labels or part numbers and the connected tool or cable when available.","zh":"请提供两端插合面、可见防错和锁止结构的侧面、标签或料号，以及可用时连接的设备或线缆。"}},
+        {"q":{"en":"Can an adapter be customized?","zh":"转接头可以定制吗？"},"a":{"en":"Connector selection and pin routing can be reviewed when both interfaces, terminal requirements, function and expected quantity are defined.","zh":"在两端接口、端子要求、功能和预计数量明确后，可以评估接口选型与针脚路径定制。"}}
+      ],
+      "related": ["universal", "specialty", "heavyduty"]
+    }
+  ]
+}

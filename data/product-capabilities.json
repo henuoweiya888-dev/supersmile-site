@@ -1,0 +1,167 @@
+{
+  "hero": {
+    "eyebrow": {"en": "PRODUCT CAPABILITY CENTRE", "zh": "产品能力中心"},
+    "title": {"en": "Wire Harnesses and Cable Assemblies by Category", "zh": "按大类选择线束与电缆组件"},
+    "description": {
+      "en": "Start with the product family, application and interface requirement instead of searching through hundreds of individual part numbers. Drawings, samples, connector photos and pin definitions can all be used for project review.",
+      "zh": "不再从数百个具体料号中查找，而是先按产品大类、应用场景和接口需求选择。图纸、样品、接口照片或针脚定义都可以作为项目审核起点。"
+    }
+  },
+  "directory": {
+    "eyebrow": {"en": "01 / CATEGORY DIRECTORY", "zh": "01 / 大类目录"},
+    "title": {"en": "Choose the Closest Product Family", "zh": "选择最接近需求的产品大类"},
+    "description": {
+      "en": "The list is an engineering navigation aid, not a fixed stock catalogue. Final materials, construction, testing and compliance requirements are confirmed for each project.",
+      "zh": "以下分类用于工程需求导航，并非固定现货目录。最终材料、结构、测试与合规要求均按具体项目确认。"
+    }
+  },
+  "groups": [
+    {
+      "id": "custom-harness",
+      "title": {"en": "Custom Wire Harnesses", "zh": "定制线束"},
+      "directoryTitle": {"en": "Custom Harness", "zh": "定制线束"},
+      "description": {"en": "Built around the equipment layout, connector system, signal path and installation environment.", "zh": "围绕设备布局、连接器系统、信号路径和安装环境定制。"},
+      "image": "/assets/images/factory/process-engineering-ai-v2.jpg",
+      "items": {
+        "en": ["Industrial Equipment Harness", "Control Panel Harness", "Robotic Harness", "Instrument & Sensor Harness", "Appliance Harness", "Jumper Harness", "Pigtail & Branch Harness", "Turnkey Harness", "Braided Protection Harness", "Prototype & Small-Batch Harness", "Outdoor Waterproof Harness", "Low-Voltage New-Energy Harness"],
+        "zh": ["工业设备线束", "控制面板线束", "机器人线束", "仪表与传感器线束", "电器设备线束", "跳线线束", "尾线与分支线束", "交钥匙线束", "编织防护线束", "样品与小批量线束", "户外防水线束", "新能源低压线束"]
+      }
+    },
+    {
+      "id": "cable-assembly",
+      "title": {"en": "Custom Cable Assemblies", "zh": "定制电缆组件"},
+      "directoryTitle": {"en": "Cable Assemblies", "zh": "定制电缆组件"},
+      "description": {"en": "Connectorized cable assemblies reviewed for signal, power, shielding, flexibility and environmental protection.", "zh": "针对信号、供电、屏蔽、柔性和环境防护要求审核的连接电缆组件。"},
+      "image": "/assets/images/features/custom-cable-structure-v4.jpg",
+      "items": {
+        "en": ["Overmolded Cable Assembly", "Circular Connector Assembly", "D-Sub Cable Assembly", "USB Cable Assembly", "Audio Cable Assembly", "Video Cable Assembly", "Power Cable Assembly", "Battery Cable Assembly", "LED Cable Assembly", "LVDS Cable Assembly", "RF & Coaxial Assembly", "Aerospace Project Assembly", "Medical Equipment Assembly", "Military-Spec Project Assembly", "Solar Cable Assembly"],
+        "zh": ["包覆成型电缆组件", "圆形连接器电缆组件", "D-Sub电缆组件", "USB电缆组件", "音频电缆组件", "视频电缆组件", "电源线组件", "电池电缆组件", "LED线缆组件", "LVDS电缆组件", "RF与同轴电缆组件", "航空航天项目组件", "医疗设备电缆组件", "军规项目电缆组件", "太阳能电缆组件"]
+      }
+    },
+    {
+      "id": "automotive",
+      "title": {"en": "Automotive & Transportation Harnesses", "zh": "汽车与交通线束"},
+      "directoryTitle": {"en": "Automotive", "zh": "汽车线束"},
+      "description": {"en": "Vehicle, diagnostic and service harnesses defined by the exact platform, interface, pin route and operating task.", "zh": "依据具体平台、接口、针脚路径和目标任务定义的车辆、诊断与维修线束。"},
+      "image": "/assets/images/applications/automotive-diagnostics-photoreal-v2.jpg",
+      "items": {
+        "en": ["Automotive Diagnostic & OBD Harness", "ECU / DCU Service Harness", "J1939 Heavy-Duty Harness", "Truck Harness", "Construction Vehicle Harness", "Trailer Harness", "Vehicle Lighting Harness", "Engine Harness", "Relay & Fuse-Box Harness", "Battery Jump Cable", "High-Voltage Project Harness", "GPS & In-Vehicle Communication", "Fakra / LVDS Automotive Cable", "Turbo Actuator Harness"],
+        "zh": ["汽车诊断与OBD线束", "ECU / DCU维修线束", "J1939重卡线束", "卡车线束", "工程车辆线束", "拖车线束", "汽车灯线束", "发动机线束", "继电器与保险丝盒线束", "汽车电瓶搭接线", "高压项目线束", "GPS与车载通信线束", "Fakra / LVDS汽车电缆", "涡轮执行器线束"]
+      }
+    },
+    {
+      "id": "connector-systems",
+      "title": {"en": "Connector & Brand-Compatible Systems", "zh": "连接器与品牌兼容系统"},
+      "directoryTitle": {"en": "Connectors & Brands", "zh": "连接器与品牌"},
+      "description": {"en": "Connector-family selection and compatible sourcing reviewed by series, keying, terminal, seal and availability.", "zh": "按系列、防错结构、端子、密封与供应情况审核连接器家族和兼容选型。"},
+      "image": "/assets/images/features/custom-connectors-v4.jpg",
+      "items": {
+        "en": ["TE / AMP Compatible", "Molex Compatible", "JST Compatible", "Deutsch Compatible", "Aptiv Compatible", "Amphenol Compatible", "Hirose Compatible", "JAE Compatible", "FCI Compatible", "LEMO Compatible", "Binder Compatible", "Phoenix Compatible", "Panduit Compatible", "Littelfuse / Bussmann Fuse Harness"],
+        "zh": ["TE / AMP兼容组件", "Molex兼容组件", "JST兼容组件", "Deutsch兼容组件", "Aptiv兼容组件", "Amphenol兼容组件", "Hirose兼容组件", "JAE兼容组件", "FCI兼容组件", "LEMO兼容组件", "Binder兼容组件", "Phoenix兼容组件", "Panduit兼容组件", "Littelfuse / Bussmann保险丝线束"]
+      }
+    },
+    {
+      "id": "specialty",
+      "title": {"en": "Specialty Cable Assemblies & Molding", "zh": "特种电缆组件与注塑"},
+      "directoryTitle": {"en": "Specialty & Molding", "zh": "特种电缆与注塑"},
+      "description": {"en": "Special constructions for compact routing, strain relief, shielding, waterproofing and molded protection.", "zh": "面向紧凑布线、应力消除、屏蔽、防水和成型防护的特殊结构。"},
+      "image": "/assets/images/features/custom-pinout-signal-v4.jpg",
+      "items": {
+        "en": ["32AWG Fine-Pitch Harness", "Molded Strain Relief", "PTFE Cable Termination", "IDC Ribbon Cable Assembly", "FPC / FFC Assembly", "Micro-D Cable Assembly", "Panel-Mount Cable", "Waterproof Design Harness", "FTDI Cable Assembly", "EMI-Shielded Cable Design", "Ultrasonic-Welded Branch", "Spiral Coiled Cable", "High-Temperature Overmolding", "Low-Pressure Molding"],
+        "zh": ["32AWG细间距线束", "模制应力消除", "PTFE电缆端接", "IDC带状电缆组件", "FPC / FFC组件", "Micro-D线缆组件", "面板安装电缆", "防水设计线束", "FTDI电缆组件", "EMI屏蔽电缆设计", "超声波焊接分支", "螺旋电缆组件", "高温注塑包胶", "低压成型"]
+      }
+    },
+    {
+      "id": "wire-cable",
+      "title": {"en": "Wire, Cable & Material Options", "zh": "电线电缆与材料选项"},
+      "directoryTitle": {"en": "Wire & Cable", "zh": "电线电缆"},
+      "description": {"en": "Wire and cable construction selected around current, signal, motion, temperature, chemical and regulatory needs.", "zh": "围绕电流、信号、运动、温度、化学环境与法规要求选择电线电缆结构。"},
+      "image": "/assets/images/features/feature-cable-structure-photoreal-v2.jpg",
+      "items": {
+        "en": ["Automotive Primary Wire", "Appliance Wire & Cable", "Equipment Wire", "CAN Bus Cable", "Coaxial Cable", "Drag-Chain Cable", "Flame-Retardant Cable", "Heavy-Duty High-Voltage Cable", "Shielded Twisted Pair", "Halogen-Free Cable", "Marine Project Cable", "Medical Project Cable", "Measurement Instrument Cable", "Outdoor Cable"],
+        "zh": ["汽车电线电缆", "电器电线电缆", "设备用电线", "CAN总线电缆", "同轴电缆", "拖链电缆", "阻燃电线电缆", "高压重型电缆", "屏蔽双绞线", "无卤电缆", "船用项目电缆", "医疗项目电缆", "测量仪器电缆", "户外电缆"]
+      }
+    }
+  ],
+  "categoryDetail": {
+    "eyebrow": {"en": "PRODUCT TYPE", "zh": "产品小类"},
+    "overviewTitle": {"en": "About This Product Type", "zh": "了解这一类产品"},
+    "knowledgeTitle": {"en": "Construction & Engineering Basics", "zh": "结构与科普"},
+    "notesTitle": {"en": "Selection Notes", "zh": "选型与注意事项"},
+    "deliveryTitle": {"en": "Sampling & Delivery", "zh": "打样与交付过程"},
+    "inputsTitle": {"en": "Information to Send", "zh": "咨询时建议提供"},
+    "reviewTitle": {"en": "Engineering Review Focus", "zh": "工程审核重点"},
+    "cta": {"en": "Consult About This Product Type", "zh": "咨询这一类产品"},
+    "back": {"en": "Back to All Categories", "zh": "返回全部分类"},
+    "sets": {
+      "custom-harness": {
+        "intro": {"en": "This custom harness type is defined around the target equipment rather than a fixed model. Connector selection, pin routing, wire structure, protection and installation details are confirmed before sampling.", "zh": "这一类定制线束围绕目标设备定义，并非固定型号。打样前需要确认连接器、针脚路径、线材结构、防护方式和安装细节。"},
+        "inputs": {"en": ["Drawing, sample or equipment layout", "Connector photos and mating information", "Pin definition and required signals", "Length, branch and installation constraints", "Operating environment and quantity range"], "zh": ["图纸、样品或设备布局", "连接器照片与插合信息", "针脚定义和所需信号", "长度、分支与安装限制", "工作环境和数量范围"]},
+        "review": {"en": ["Connector and terminal compatibility", "Wire gauge, length and branch structure", "Sleeving, labels and strain protection", "Crimping and assembly feasibility", "Continuity and project-specific inspection"], "zh": ["连接器与端子兼容性", "线径、长度和分支结构", "套管、标签与应力防护", "压接与装配可行性", "导通与项目专项检验"]}
+      },
+      "cable-assembly": {
+        "intro": {"en": "This cable assembly type is selected by the two interfaces, electrical function, cable construction and environmental protection. Similar connector shells may still require different pin routes, shielding or molding.", "zh": "这一类电缆组件需要根据两端接口、电气功能、线缆结构和环境防护进行选型。即使连接器外形相似，针脚路径、屏蔽或注塑结构也可能不同。"},
+        "inputs": {"en": ["Both connector interfaces and orientation", "Required signal, power or communication function", "Cable length, gauge and flexibility", "Shielding, impedance or molding requirement", "Sample quantity and acceptance method"], "zh": ["两端接口及方向", "所需信号、供电或通信功能", "线长、线径与柔性要求", "屏蔽、阻抗或注塑需求", "样品数量与验收方式"]},
+        "review": {"en": ["Pin route and conductor construction", "Shield termination and grounding", "Bend radius and strain relief", "Overmold or backshell feasibility", "Electrical and appearance checks"], "zh": ["针脚路径与导体结构", "屏蔽端接与接地方式", "弯曲半径与应力消除", "注塑或尾壳工艺可行性", "电气与外观检查"]}
+      },
+      "automotive": {
+        "intro": {"en": "This automotive or transportation harness type must be matched to the exact vehicle, equipment, tool or controller. Connector shape alone cannot prove pinout, protocol, power routing or functional compatibility.", "zh": "这一类汽车或交通线束必须与准确车型、设备、工具或控制器匹配。仅凭接口外形不能确认针脚、协议、供电路径或功能兼容性。"},
+        "inputs": {"en": ["Vehicle, engine, controller or tool model", "Model year, generation and target task", "Both connector faces and current sample", "Pin map, protocol and power requirement", "Routing environment and quantity range"], "zh": ["车型、发动机、控制器或设备型号", "年款、代次与目标任务", "两端接口正面和现有样品", "针脚图、协议与供电要求", "布线环境和数量范围"]},
+        "review": {"en": ["Vehicle-side and tool-side interface", "Pin assignment and communication path", "Heat, vibration, oil and abrasion exposure", "Sealing, locking and routing", "Functional checks agreed for the project"], "zh": ["车辆端与设备端接口", "针脚定义与通信路径", "温度、振动、油液与磨损环境", "密封、锁止与布线路径", "项目约定的功能检查"]}
+      },
+      "connector-systems": {
+        "intro": {"en": "This connector-system type is reviewed by family, series, keying, terminal, seal and mating requirement. Brand names describe compatibility targets and do not imply authorization or universal interchangeability.", "zh": "这一类连接器系统需要按家族、系列、防错结构、端子、密封件和插合要求审核。品牌名称仅用于描述兼容目标，不代表授权或可以无条件互换。"},
+        "inputs": {"en": ["Connector brand, family or known part number", "Clear mating-face and side photos", "Terminal count, wire gauge and seals", "Mating connector or target equipment", "Original-only or compatible-source preference"], "zh": ["连接器品牌、系列或已知料号", "清晰插合面和侧面照片", "端子数量、线径与密封件", "对插端或目标设备", "原厂件或兼容来源偏好"]},
+        "review": {"en": ["Keying and polarization", "Terminal and seal compatibility", "Current rating and wire range", "Locking and environmental protection", "Availability and approved substitution scope"], "zh": ["防错与方向结构", "端子与密封件兼容性", "额定电流与适用线径", "锁止与环境防护", "供应情况与允许替代范围"]}
+      },
+      "specialty": {
+        "intro": {"en": "This specialty assembly or molding type is used when standard construction cannot meet space, movement, shielding, waterproofing, temperature or strain-relief requirements. Tooling and validation are reviewed before quotation.", "zh": "当标准结构无法满足空间、运动、屏蔽、防水、温度或应力防护要求时，可审核这一类特种组件或注塑结构。报价前需要确认工装和验证方案。"},
+        "inputs": {"en": ["Target geometry and available installation space", "Cable and connector dimensional references", "Temperature, movement and protection needs", "Molding, shielding or waterproofing target", "Sample, tooling and validation quantity"], "zh": ["目标几何结构与安装空间", "线缆和连接器尺寸参考", "温度、运动与防护需求", "注塑、屏蔽或防水目标", "样品、工装与验证数量"]},
+        "review": {"en": ["Material compatibility", "Mold flow and strain-relief geometry", "Shielding and termination method", "Bending and movement risk", "Tooling, sample and validation plan"], "zh": ["材料兼容性", "模流与应力消除结构", "屏蔽与端接方式", "弯折和运动风险", "工装、样品与验证计划"]}
+      },
+      "wire-cable": {
+        "intro": {"en": "This wire or cable type is selected as part of the complete assembly specification. Current, voltage, signal, movement, temperature, chemical exposure and applicable standards determine the construction.", "zh": "这一类电线电缆属于完整组件规格的一部分。电流、电压、信号、运动、温度、化学环境和适用标准共同决定线缆结构。"},
+        "inputs": {"en": ["Voltage, current and signal type", "Conductor size and required length", "Temperature and chemical environment", "Flexing, drag-chain or fixed installation", "Applicable standard and marking requirement"], "zh": ["电压、电流与信号类型", "导体规格和所需长度", "温度与化学环境", "弯折、拖链或固定安装方式", "适用标准与标识要求"]},
+        "review": {"en": ["Conductor and insulation construction", "Shielding, twisting and impedance", "Flex life and bend radius", "Temperature, flame and chemical properties", "Source traceability and inspection documents"], "zh": ["导体与绝缘结构", "屏蔽、绞距与阻抗", "弯折寿命与弯曲半径", "温度、阻燃与化学性能", "来源追溯与检验文件"]}
+      }
+    }
+  },
+  "guide": {
+    "eyebrow": {"en": "02 / HOW TO USE THIS CENTRE", "zh": "02 / 如何使用产品中心"},
+    "title": {"en": "Select by Requirement, Not by Part Number", "zh": "按需求选择，而不是按料号查找"},
+    "description": {
+      "en": "A product family page should help a buyer understand the construction, application, customization inputs, risks and delivery path. Individual models remain internal references for matching samples and quotations.",
+      "zh": "产品大类用于帮助采购方理解结构、应用、定制资料、风险点和交付路径；具体型号仅作为样品匹配与报价时的内部参考。"
+    },
+    "items": [
+      {"title":{"en":"Product Introduction","zh":"产品介绍"},"text":{"en":"Understand what the assembly connects, which functions it carries and where it is normally used.","zh":"说明组件连接什么、承载哪些功能以及通常用于哪些场景。"}},
+      {"title":{"en":"Engineering Knowledge","zh":"结构与科普"},"text":{"en":"Explain connector, conductor, shielding, protection and routing choices in plain purchasing language.","zh":"用采购人员容易理解的方式说明连接器、导体、屏蔽、防护与布线路径。"}},
+      {"title":{"en":"Selection Notes","zh":"选型与注意事项"},"text":{"en":"Identify the information that prevents an incorrect fit, pin route, material or testing assumption.","zh":"明确哪些资料能够避免接口、针脚、材料或测试要求判断错误。"}},
+      {"title":{"en":"Delivery Process","zh":"打样与交付过程"},"text":{"en":"Show how the requirement moves through engineering review, material confirmation, sampling, inspection and shipment review.","zh":"说明需求如何经过工程审核、物料确认、打样、检验和出货复核。"}}
+    ]
+  },
+  "process": {
+    "eyebrow": {"en": "03 / PROJECT DELIVERY", "zh": "03 / 项目交付"},
+    "title": {"en": "From Requirement to Repeatable Production", "zh": "从需求确认到稳定生产"},
+    "steps": [
+      {"title":{"en":"Requirement Input","zh":"提交需求"},"text":{"en":"Drawing, sample, connector photos, pin definition, target equipment and quantity range.","zh":"提供图纸、样品、接口照片、针脚定义、目标设备和数量范围。"}},
+      {"title":{"en":"Engineering Review","zh":"工程确认"},"text":{"en":"Review interfaces, wire structure, materials, process feasibility and inspection points.","zh":"审核接口、线材结构、物料、工艺可行性与检验项目。"}},
+      {"title":{"en":"Sample Validation","zh":"样品验证"},"text":{"en":"Build and confirm the sample against the agreed drawing, function and appearance requirements.","zh":"依据确认的图纸、功能和外观要求制作并确认样品。"}},
+      {"title":{"en":"Production & Shipment","zh":"生产与交付"},"text":{"en":"Incoming inspection, crimping, assembly, continuity checks, identification, packing and shipment review.","zh":"执行来料检验、压接、组装、导通检查、标识、包装与出货复核。"}}
+    ]
+  },
+  "scope": {
+    "eyebrow": {"en": "CAPABILITY BOUNDARY", "zh": "能力边界说明"},
+    "title": {"en": "Special Industries Are Reviewed Project by Project", "zh": "特殊行业需求按项目逐项审核"},
+    "text": {
+      "en": "Medical, military-spec, high-voltage, aerospace, RF, overmolded and other specialized requirements can enter capability review. Materials, standards, validation methods, tooling and compliance documents must be defined before quotation; a category name does not claim an existing certification or universal qualification.",
+      "zh": "医疗、军规、高压、航空航天、RF、注塑包胶等特殊需求可以进入能力审核。报价前必须明确材料、适用标准、验证方法、工装与合规文件；页面出现某个类别不等同于宣称已经持有相应认证或适用于所有项目。"
+    }
+  },
+  "cta": {
+    "eyebrow": {"en": "START A PROJECT", "zh": "开始项目"},
+    "title": {"en": "Send the Requirement You Already Have", "zh": "把现有需求资料发给我们"},
+    "text": {"en": "A complete drawing is helpful but not mandatory. A sample, interface photo or pin definition can also start the review.", "zh": "完整图纸最有帮助，但不是唯一方式；样品、接口照片或针脚定义也可以开始审核。"},
+    "button": {"en": "Submit a Requirement", "zh": "提交产品需求"}
+  }
+}
