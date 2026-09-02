@@ -227,6 +227,112 @@ function t(o){
   return o[LANG] || o.en || o.zh || Object.values(o).find(v=>v) || '';
 }
 
+const PCC_COPY={
+  type:{en:'Product type',zh:'产品小类'},
+  overview:{en:'Overview',zh:'产品介绍'},
+  back:{en:'Back to Products',zh:'返回产品中心'},
+  consult:{en:'Ask About This Product Type',zh:'咨询这一类产品'},
+  range:{en:'custom product range',zh:'可定制产品范围'}
+};
+
+function collectLocalizedNodes(value,nodes=[],seen=new Set()){
+  if(!value||typeof value!=='object'||seen.has(value)) return nodes;
+  seen.add(value);
+  if(!Array.isArray(value)&&typeof value.en==='string'){
+    if(!value[LANG]) nodes.push(value);
+    return nodes;
+  }
+  if(Array.isArray(value)) value.forEach(item=>collectLocalizedNodes(item,nodes,seen));
+  else Object.values(value).forEach(item=>collectLocalizedNodes(item,nodes,seen));
+  return nodes;
+}
+
+function translationCache(lang){
+  try{return JSON.parse(localStorage.getItem(`ss-page-translations-v1-${lang}`)||'{}');}catch(e){return {};}
+}
+
+function saveTranslationCache(lang,cache){
+  try{localStorage.setItem(`ss-page-translations-v1-${lang}`,JSON.stringify(cache));}catch(e){}
+}
+
+function translationChunks(entries,maxLength=2400){
+  const chunks=[];let current=[];let length=0;
+  entries.forEach(entry=>{
+    const addition=entry.source.length+18;
+    if(current.length&&length+addition>maxLength){chunks.push(current);current=[];length=0;}
+    current.push(entry);length+=addition;
+  });
+  if(current.length) chunks.push(current);
+  return chunks;
+}
+
+async function googleTranslateChunk(chunk,lang){
+  const source=chunk.map((entry,index)=>`[[SS${String(index).padStart(3,'0')}]]\n${entry.source}`).join('\n');
+  const query=new URLSearchParams({client:'gtx',sl:'en',tl:lang,dt:'t',q:source});
+  const controller=new AbortController();
+  const timer=setTimeout(()=>controller.abort(),5000);
+  try{
+    const response=await fetch(`https://translate.googleapis.com/translate_a/single?${query}`,{signal:controller.signal,referrerPolicy:'no-referrer'});
+    if(!response.ok) throw new Error(`translation HTTP ${response.status}`);
+    const payload=await response.json();
+    const translated=(payload[0]||[]).map(part=>part[0]||'').join('');
+    const matches=[...translated.matchAll(/\[\[SS(\d{3})\]\]\s*([\s\S]*?)(?=\n?\[\[SS\d{3}\]\]|$)/g)];
+    if(matches.length!==chunk.length) throw new Error('translation segment mismatch');
+    matches.forEach(match=>{const entry=chunk[Number(match[1])];if(entry) entry.translation=match[2].trim();});
+  }finally{clearTimeout(timer);}
+}
+
+async function translateLocalizedNodes(nodes,lang){
+  if(lang==='en'||lang==='zh'||!nodes.length) return;
+  const cache=translationCache(lang);
+  const unique=new Map();
+  nodes.forEach(node=>{
+    const source=node.en.trim();
+    if(cache[source]) node[lang]=cache[source];
+    else if(!unique.has(source)) unique.set(source,{source,nodes:[]});
+    if(!node[lang]&&unique.has(source)) unique.get(source).nodes.push(node);
+  });
+  const entries=[...unique.values()];
+  if(!entries.length) return;
+  try{
+    for(const chunk of translationChunks(entries)) await googleTranslateChunk(chunk,lang);
+    entries.forEach(entry=>{
+      if(!entry.translation) return;
+      cache[entry.source]=entry.translation;
+      entry.nodes.forEach(node=>{node[lang]=entry.translation;});
+    });
+    saveTranslationCache(lang,cache);
+  }catch(error){console.warn('Page translation unavailable:',error);}
+}
+
+async function ensureCurrentPageLanguage(){
+  if(LANG==='en'||LANG==='zh'||!CAPABILITIES) return;
+  const nodes=collectLocalizedNodes(PCC_COPY);
+  collectLocalizedNodes(CAPABILITIES,nodes);
+  const itemEntries=[];
+  for(const group of CAPABILITIES.groups||[]){
+    const translated=[];
+    for(const source of group.items?.en||[]){
+      const holder={en:source};translated.push(holder);itemEntries.push(holder);
+    }
+    group.items[LANG]=translated;
+  }
+  if(pageIdentity()==='page-product-category'){
+    const record=productCategoryPageRecord();
+    if(record){
+      const itemDetail=(CATEGORY_DETAILS||{})[record.key]||{};
+      const fallback=CAPABILITIES.categoryDetail?.sets?.[record.group.id]||{};
+      collectLocalizedNodes(itemDetail,nodes);
+      collectLocalizedNodes(fallback,nodes);
+      collectLocalizedNodes(CAPABILITIES.categoryDetail,nodes);
+    }
+  }
+  await translateLocalizedNodes([...nodes,...itemEntries],LANG);
+  for(const group of CAPABILITIES.groups||[]){
+    group.items[LANG]=(group.items[LANG]||[]).map(item=>item[LANG]||item.en);
+  }
+}
+
 function currentUI(){ return UI[LANG] || UI.en; }
 function productCopy(){
   if(PC[LANG]) return PC[LANG];
@@ -349,6 +455,7 @@ function renderLangSelector(){
     syncLanguageUrl();
     menu.classList.remove('open');
     renderAll();
+    ensureCurrentPageLanguage().then(()=>renderAll());
   });
 }
 
@@ -363,8 +470,44 @@ function renderNav(){
   const here=(location.pathname||'/').replace(/\/index\.html$/,'/').replace(/\.html$/,'').replace(/\/$/,'')||'/';
   nav.innerHTML=links.map(([href,k])=>{
     const active=href==='/products'?(here==='/products'||here.startsWith('/products/')):href===here;
-    return `<a href="${href}" class="${active?'active':''}">${t(n[k])}</a>`;
+    const link=`<a href="${href}" class="${active?'active':''}${k==='products'?' nav-products-link':''}"${k==='products'?' aria-haspopup="true" aria-expanded="false"':''}>${t(n[k])}</a>`;
+    return k==='products'?`<div class="nav-products-entry">${link}<button class="product-mega-toggle" type="button" aria-label="${htmlEscape(t(n.products))}" aria-expanded="false">${ico('chevronDown')}</button></div>`:link;
   }).join('');
+  renderProductMegaMenu();
+}
+
+function renderProductMegaMenu(){
+  const nav=$('#nav-links');if(!nav||!CAPABILITIES) return;
+  const menu=document.createElement('section');
+  menu.className='product-mega';menu.id='product-mega';menu.setAttribute('aria-label',t(SITE.nav.products));
+  menu.innerHTML=(CAPABILITIES.groups||[]).map(group=>{
+    const items=t(group.items)||group.items?.en||[];
+    return `<article class="product-mega-group"><h2><a href="/products#${group.id}">${htmlEscape(t(group.directoryTitle||group.title))}</a></h2><ul>${items.map((item,index)=>{
+      const key=`${group.id}-${String(index+1).padStart(2,'0')}`;
+      const live=Boolean((CATEGORY_DETAILS||{})[key]?.page);
+      return live?`<li><a href="${productCapabilityHref(group,index)}" data-category-key="${key}">${htmlEscape(item)}</a></li>`:`<li><span class="is-pending" aria-disabled="true">${htmlEscape(item)}</span></li>`;
+    }).join('')}</ul></article>`;
+  }).join('');
+  nav.appendChild(menu);
+  const header=$('.header'),entry=$('.nav-products-entry'),link=$('.nav-products-link'),toggle=$('.product-mega-toggle');
+  if(!header||!entry||!link||!toggle) return;
+  let closeTimer;
+  const setOpen=open=>{
+    clearTimeout(closeTimer);header.classList.toggle('product-mega-open',open);
+    link.setAttribute('aria-expanded',String(open));toggle.setAttribute('aria-expanded',String(open));
+  };
+  const scheduleClose=()=>{closeTimer=setTimeout(()=>setOpen(false),140);};
+  if(matchMedia('(min-width:1081px) and (hover:hover) and (pointer:fine)').matches){
+    entry.addEventListener('mouseenter',()=>setOpen(true));menu.addEventListener('mouseenter',()=>setOpen(true));
+    entry.addEventListener('mouseleave',scheduleClose);menu.addEventListener('mouseleave',scheduleClose);
+  }
+  entry.addEventListener('focusin',event=>{if(event.target!==toggle) setOpen(true);});menu.addEventListener('focusin',()=>setOpen(true));
+  menu.addEventListener('focusout',event=>{if(!menu.contains(event.relatedTarget)&&!entry.contains(event.relatedTarget)) scheduleClose();});
+  toggle.onclick=event=>{event.preventDefault();event.stopPropagation();setOpen(!header.classList.contains('product-mega-open'));};
+  if(!window.__productMegaOutsideBound){
+    window.__productMegaOutsideBound=true;
+    document.addEventListener('click',event=>{if(!event.target.closest('.nav-products-entry,.product-mega')) $('.header')?.classList.remove('product-mega-open');});
+  }
 }
 
 function renderHero(){
@@ -1095,7 +1238,7 @@ function renderProductCategoryPage(){
   const knowledge=itemDetail.knowledge?t(itemDetail.knowledge):intro;
   const notes=itemDetail.notes?t(itemDetail.notes):`${t(fallback.review||[]).slice(0,3).join(LANG==='zh'?'；':'; ')}${LANG==='zh'?'。':'.'}`;
   const delivery=itemDetail.delivery?t(itemDetail.delivery):(LANG==='zh'?'确认需求与接口后进入物料审核、样品制作、验证和受控生产，具体检验项目按订单约定。':'After the requirement and interfaces are confirmed, the project moves through material review, sampling, validation and controlled production. Inspection points are agreed for each order.');
-  const ui=LANG==='zh'?{home:'首页',products:'产品中心',type:'产品小类',overview:'产品介绍',back:'返回产品中心',consult:'咨询这一类产品'}:{home:'Home',products:'Products',type:'Product type',overview:'Overview',back:'Back to Products',consult:'Ask About This Product Type'};
+  const ui={home:t(SITE.nav.home),products:t(SITE.nav.products),type:t(PCC_COPY.type),overview:t(PCC_COPY.overview),back:t(PCC_COPY.back),consult:t(PCC_COPY.consult)};
   setText('#pcc-home',ui.home);setText('#pcc-products',ui.products);setText('#pcc-group',group);
   setText('#pcc-eyebrow',ui.type);setText('#pcc-title',item);setText('#pcc-overview-label',ui.overview);setText('#pcc-intro',intro);
   const titleEl=$('#pcc-title');if(titleEl){const length=[...item].length;titleEl.classList.toggle('is-medium',length>15&&length<=24);titleEl.classList.toggle('is-long',length>24);}
@@ -2150,6 +2293,7 @@ document.addEventListener('DOMContentLoaded', async ()=>{
   try{ await loadData(); }catch(e){ console.error(e); return; }
   renderAll();
   decoratePage();
+  ensureCurrentPageLanguage().then(()=>renderAll());
   if(pageIdentity()==='page-products') window.addEventListener('hashchange',renderProductsPage);
   const tg=$('#nav-toggle'); if(tg){
     tg.setAttribute('aria-label',LANG==='zh'?'打开导航菜单':'Open navigation menu');
@@ -2202,6 +2346,7 @@ document.addEventListener('DOMContentLoaded', async ()=>{
     if(e.key==='Escape'){
       closeModal(); closeProductModal();
       const nav=$('#nav-links'); if(nav) nav.classList.remove('open');
+      $('.header')?.classList.remove('product-mega-open');
       document.body.classList.remove('nav-open');
       const tg=$('#nav-toggle'); if(tg) tg.setAttribute('aria-expanded','false');
       const fabMenu=$('#fab-menu'),fabMain=$('#fab-main');
