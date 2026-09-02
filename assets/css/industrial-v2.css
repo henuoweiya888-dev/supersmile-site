@@ -2261,3 +2261,22 @@ body.pcc-rich-page .pcc-rich-process .pcc-rich-heading h2{color:#171a1c}
   body.pcc-rich-page .pcc-photo-copy{padding:22px 16px 24px}
   body.pcc-rich-page .pcc-photo-copy::before{top:12px}
 }
+
+/* Robotic harness material notes: compact motion-specimen rhythm v50. */
+@media(min-width:901px){
+  body.pcc-rich-page[data-category-key="custom-harness-03"] .pcc-rich-materials{padding-top:34px}
+  body.pcc-rich-page[data-category-key="custom-harness-03"] .pcc-rich-materials>.pcc-rich-heading{margin-bottom:16px}
+  body.pcc-rich-page[data-category-key="custom-harness-03"] .pcc-material-list{padding-bottom:20px}
+  body.pcc-rich-page[data-category-key="custom-harness-03"] .pcc-material-list .pcc-photo-note:nth-child(n){min-height:150px}
+  body.pcc-rich-page[data-category-key="custom-harness-03"] .pcc-material-list .pcc-photo-note:nth-child(n) .pcc-item-media{height:150px;min-height:150px}
+  body.pcc-rich-page[data-category-key="custom-harness-03"] .pcc-material-list .pcc-photo-copy{padding-block:16px}
+}
+
+@media(max-width:620px){
+  body.pcc-rich-page[data-category-key="custom-harness-03"] #pcc-rich-content>.pcc-rich-materials{padding-top:30px!important}
+  body.pcc-rich-page[data-category-key="custom-harness-03"] .pcc-rich-materials>.pcc-rich-heading{margin-bottom:14px}
+  body.pcc-rich-page[data-category-key="custom-harness-03"] .pcc-material-list{padding-bottom:14px}
+  body.pcc-rich-page[data-category-key="custom-harness-03"] .pcc-material-list .pcc-item-media{height:128px;min-height:128px}
+  body.pcc-rich-page[data-category-key="custom-harness-03"] .pcc-material-list .pcc-photo-copy{padding:18px 16px 20px}
+  body.pcc-rich-page[data-category-key="custom-harness-03"] .pcc-material-list .pcc-photo-copy::before{top:9px}
+}
