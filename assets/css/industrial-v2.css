@@ -2280,3 +2280,15 @@ body.pcc-rich-page .pcc-rich-process .pcc-rich-heading h2{color:#171a1c}
   body.pcc-rich-page[data-category-key="custom-harness-03"] .pcc-material-list .pcc-photo-copy{padding:18px 16px 20px}
   body.pcc-rich-page[data-category-key="custom-harness-03"] .pcc-material-list .pcc-photo-copy::before{top:9px}
 }
+
+/* Product-category navigation: persistent access across viewports v51. */
+body.page-product-category>.header{
+  position:fixed;
+  inset-block-start:0;
+  inset-inline:0;
+  z-index:500;
+}
+body.page-product-category>.pcc-main{padding-block-start:76px}
+@media(max-width:1080px){
+  body.page-product-category>.pcc-main{padding-block-start:68px}
+}
