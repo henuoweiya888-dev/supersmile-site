@@ -378,7 +378,7 @@ async function loadData(){
     fetch('/data/products.json?v=20260831v7').then(r=>r.json()),
     fetch('/data/product-series.json?v=20260902v1').then(r=>r.json()),
     fetch('/data/product-capabilities.json?v=20260902v4').then(r=>r.json()),
-    fetch('/data/product-category-details.json?v=20260910v10').then(r=>r.json())
+    fetch('/data/product-category-details.json?v=20260910v11').then(r=>r.json())
   ]);
   SITE=s; PRODS=p; SERIES=series; CAPABILITIES=capabilities; CATEGORY_DETAILS=categoryDetails;
   applyEvidenceBoundaries();
@@ -1256,6 +1256,13 @@ function renderProductCategoryRichMarkup(page,item){
     const faq=(page.faq||[]).map((entry,index)=>`<details${index===0?' open':''}><summary>${htmlEscape(t(entry.q))}</summary><p>${htmlEscape(t(entry.a))}</p></details>`).join('');
     const credits=(page.mediaCredits||[]).map(entry=>`<li><a href="${htmlEscape(entry.url)}" target="_blank" rel="noopener">${htmlEscape(entry.file)}</a><span>${htmlEscape(entry.author)} · ${htmlEscape(entry.license)}</span></li>`).join('');
     return `<section class="pcc-aerospace-opening">${aerospaceImage(page.images.range,`${item} ${LANG==='zh'?'任务环境':'mission environment'}`,'pcc-aerospace-opening-media')}<div class="pcc-aerospace-opening-copy"><span>AIRFRAME / AVIONICS / MISSION / EVIDENCE</span><h2>${heading('introduction')}</h2><p>${htmlEscape(t(page.lead))}</p><div class="pcc-aerospace-route"><b>01 DESIGN</b><i></i><b>02 BUILD</b><i></i><b>03 VERIFY</b><i></i><b>04 RELEASE</b></div></div></section><section class="pcc-aerospace-log">${chapters}</section><section class="pcc-rich-section pcc-rich-faq pcc-aerospace-faq"><header class="pcc-rich-heading"><h2>${heading('faq')}</h2></header><div class="pcc-faq-grid">${faq}</div></section><details class="pcc-media-credits"><summary>${htmlEscape(t(page.creditHeading))}</summary><ul>${credits}</ul></details>`;
+  }
+  if(page.layout==='military-field-dossier'){
+    const fieldImage=(src,alt,className='')=>`<figure class="pcc-field-media ${className}"><img src="${htmlEscape(src)}" alt="${htmlEscape(alt)}" width="1400" height="960" loading="lazy" decoding="async"></figure>`;
+    const chapters=(page.chapters||[]).map((chapter,index)=>`<article class="pcc-field-chapter pcc-field-chapter-${index+1}"><div class="pcc-field-meta"><span>${String(index+1).padStart(2,'0')}</span><p>${htmlEscape(t(chapter.kicker))}</p></div><header class="pcc-field-heading"><h2>${htmlEscape(t(chapter.title))}</h2></header>${fieldImage(chapter.image,t(chapter.title))}<div class="pcc-field-copy"><p class="pcc-field-summary">${htmlEscape(t(chapter.copy))}</p><div class="pcc-field-points">${(chapter.points||[]).map(point=>`<section><h3>${htmlEscape(t(point.title))}</h3><p>${htmlEscape(t(point.copy))}</p></section>`).join('')}</div></div></article>`).join('');
+    const faq=(page.faq||[]).map((entry,index)=>`<details${index===0?' open':''}><summary>${htmlEscape(t(entry.q))}</summary><p>${htmlEscape(t(entry.a))}</p></details>`).join('');
+    const credits=(page.mediaCredits||[]).map(entry=>`<li><a href="${htmlEscape(entry.url)}" target="_blank" rel="noopener">${htmlEscape(entry.file)}</a><span>${htmlEscape(entry.author)} · ${htmlEscape(entry.license)}</span></li>`).join('');
+    return `<section class="pcc-field-opening"><div class="pcc-field-opening-copy"><span>PLATFORM / INTERFACE / ENVIRONMENT / EVIDENCE</span><h2>${heading('introduction')}</h2><p>${htmlEscape(t(page.lead))}</p><div class="pcc-field-baseline"><b>${LANG==='zh'?'需求':'REQUIREMENT'}</b><i></i><b>${LANG==='zh'?'配置':'CONFIGURATION'}</b><i></i><b>${LANG==='zh'?'验收':'ACCEPTANCE'}</b></div></div>${fieldImage(page.images.range,`${item} ${LANG==='zh'?'加固连接细节':'rugged interconnect detail'}`,'pcc-field-opening-media')}</section><section class="pcc-field-dossier">${chapters}</section><section class="pcc-rich-section pcc-rich-faq pcc-field-faq"><header class="pcc-rich-heading"><h2>${heading('faq')}</h2></header><div class="pcc-faq-grid">${faq}</div></section><details class="pcc-media-credits"><summary>${htmlEscape(t(page.creditHeading))}</summary><ul>${credits}</ul></details>`;
   }
   if(page.layout==='medical-clinical-atlas'){
     const medicalImage=(src,alt,className='')=>`<figure class="pcc-medical-media ${className}"><img src="${htmlEscape(src)}" alt="${htmlEscape(alt)}" width="1400" height="960" loading="lazy" decoding="async"></figure>`;

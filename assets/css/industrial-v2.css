@@ -275,6 +275,80 @@ body[data-category-key="cable-assembly-13"] .pcc-hero-media img{object-position:
   .pcc-medical-points{grid-template-columns:1fr;gap:13px;margin-top:14px}
 }
 
+/* Military project assembly: compact field dossier with controlled, non-camouflage hierarchy. */
+body.pcc-rich-page[data-category-key="cable-assembly-14"] #pcc-rich-content{--field-edge:clamp(28px,4.8vw,76px);background:#eeeee8;color:#181b19}
+body[data-category-key="cable-assembly-14"] .pcc-hero{background:#151814;color:#f2f1e9}
+body[data-category-key="cable-assembly-14"] .pcc-hero-media:after{background:linear-gradient(90deg,rgba(10,12,10,.95),rgba(10,12,10,.68) 52%,rgba(10,12,10,.2))}
+body[data-category-key="cable-assembly-14"] .pcc-hero-media img{object-position:58% 48%;filter:saturate(.5) contrast(1.2) brightness(.58)}
+body[data-category-key="cable-assembly-14"] .pcc-hero-copy>p{text-indent:2em}
+.pcc-field-media{margin:0;overflow:hidden;background:#292d29}
+.pcc-field-media img{display:block;width:100%;height:100%;object-fit:cover;filter:saturate(.58) contrast(1.14) brightness(.82)}
+.pcc-field-opening{display:grid;grid-template-columns:minmax(0,1.48fr) minmax(300px,.52fr);min-height:312px;background:#d9dbd4}
+.pcc-field-opening-copy{align-self:center;padding:37px var(--field-edge)}
+.pcc-field-opening-copy>span,.pcc-field-meta p{font:650 9px/1.4 var(--font-mono);letter-spacing:.15em;color:#6b402b;text-transform:uppercase}
+.pcc-field-opening-copy h2{max-width:900px;margin:11px 0 13px;font-size:clamp(29px,3vw,46px);font-weight:520;line-height:1.04;letter-spacing:-.037em}
+.pcc-field-opening-copy>p,.pcc-field-summary,.pcc-field-points p{margin:0;text-indent:2em}
+.pcc-field-opening-copy>p{max-width:940px;color:#4d534e;font-size:13.7px;line-height:1.79}
+.pcc-field-opening-media{min-height:312px}
+.pcc-field-opening-media img{object-position:48% 55%;filter:saturate(.48) contrast(1.22) brightness(.69)}
+.pcc-field-baseline{display:flex;align-items:center;gap:8px;max-width:610px;margin-top:20px;font:650 8px/1 var(--font-mono);letter-spacing:.09em;color:#626a63}
+.pcc-field-baseline i{height:1px;flex:1;background:linear-gradient(90deg,#8c4b31,#777e75)}
+.pcc-field-dossier{background:#efefe9}
+.pcc-field-chapter{display:grid;grid-template-columns:72px minmax(210px,.72fr) minmax(220px,.72fr) minmax(0,1.56fr);grid-template-areas:"meta heading image copy";min-height:258px;border-bottom:1px solid rgba(36,42,36,.14)}
+.pcc-field-meta{grid-area:meta;padding:31px 10px 24px var(--field-edge)}
+.pcc-field-meta span{display:block;color:#7c402a;font:700 15px/1 var(--font-mono)}
+.pcc-field-meta p{writing-mode:vertical-rl;margin:13px 0 0;font-size:8px}
+.pcc-field-heading{grid-area:heading;align-self:center;padding:29px 24px 29px 14px}
+.pcc-field-heading h2{margin:0;font-size:clamp(20px,1.85vw,29px);font-weight:540;line-height:1.1;letter-spacing:-.028em}
+.pcc-field-chapter>.pcc-field-media{grid-area:image;min-height:258px}
+.pcc-field-copy{grid-area:copy;align-self:center;padding:27px var(--field-edge) 27px clamp(25px,3.5vw,55px)}
+.pcc-field-summary{max-width:980px;color:#3f4540;font-size:13.4px;line-height:1.76}
+.pcc-field-points{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:21px;margin-top:15px}
+.pcc-field-points section{position:relative;padding-top:10px}
+.pcc-field-points section:before{content:"";position:absolute;top:0;inset-inline-start:0;width:34px;height:1px;background:#8a6c58}
+.pcc-field-points h3{margin:0 0 4px;font-size:12.8px;font-weight:660}
+.pcc-field-points p{color:#666d67;font-size:11.9px;line-height:1.62}
+.pcc-field-chapter:nth-child(even){grid-template-columns:72px minmax(220px,.72fr) minmax(0,1.56fr) minmax(210px,.72fr);grid-template-areas:"meta image copy heading";background:#e2e3dc}
+.pcc-field-chapter:nth-child(3n){grid-template-columns:72px minmax(210px,.72fr) minmax(0,1.56fr) minmax(220px,.72fr);grid-template-areas:"meta heading copy image"}
+.pcc-field-chapter:nth-child(5n){background:#20241f;color:#f0f0e8}
+.pcc-field-chapter:nth-child(5n) .pcc-field-summary,.pcc-field-chapter:nth-child(5n) .pcc-field-points p{color:rgba(240,240,232,.69)}
+.pcc-field-chapter:nth-child(5n) .pcc-field-points section:before{background:#9c765e}
+.pcc-field-chapter:nth-child(2)>.pcc-field-media img{object-position:center 42%}
+.pcc-field-chapter:nth-child(3)>.pcc-field-media img{object-position:center 55%}
+.pcc-field-chapter:nth-child(6)>.pcc-field-media img{object-position:center 49%}
+.pcc-field-chapter:nth-child(9)>.pcc-field-media img{object-position:center 42%}
+.pcc-field-faq{padding:47px var(--field-edge)!important;background:#daddd5!important}
+
+@media(max-width:1000px){
+  .pcc-field-chapter,.pcc-field-chapter:nth-child(even),.pcc-field-chapter:nth-child(3n){grid-template-columns:55px minmax(190px,.7fr) minmax(0,1.3fr) 190px;grid-template-areas:"meta heading copy image";min-height:244px}
+  .pcc-field-meta{padding-left:24px}
+  .pcc-field-heading{padding-inline:14px}
+  .pcc-field-copy{padding:23px}
+  .pcc-field-chapter>.pcc-field-media{min-height:244px}
+}
+@media(max-width:640px){
+  body.pcc-rich-page[data-category-key="cable-assembly-14"] #pcc-rich-content{--field-edge:var(--v2-mobile-gutter)}
+  .pcc-field-opening{display:flex;flex-direction:column-reverse;min-height:0}
+  .pcc-field-opening-media{height:184px;min-height:0;margin-inline:calc(var(--field-edge)*-1)}
+  .pcc-field-opening-copy{padding:27px var(--field-edge) 29px}
+  .pcc-field-opening-copy h2{font-size:27px}
+  .pcc-field-opening-copy>p{font-size:13.4px;line-height:1.7}
+  .pcc-field-baseline{gap:5px;font-size:7px}
+  .pcc-field-chapter,.pcc-field-chapter:nth-child(even),.pcc-field-chapter:nth-child(3n){display:grid;grid-template-columns:42px 1fr;grid-template-areas:"meta heading" "image image" "copy copy";min-height:0;padding:0 var(--field-edge) 25px}
+  .pcc-field-meta{display:flex;flex-direction:column;align-items:flex-start;padding:22px 8px 11px 0}
+  .pcc-field-meta span{font-size:14px}
+  .pcc-field-meta p{writing-mode:initial;margin-top:6px;font-size:7px}
+  .pcc-field-heading{padding:21px 0 11px}
+  .pcc-field-heading h2{font-size:21px;line-height:1.12}
+  .pcc-field-chapter>.pcc-field-media{height:174px;min-height:0;margin-inline:calc(var(--field-edge)*-1)}
+  .pcc-field-copy{padding:18px 0 0}
+  .pcc-field-summary{font-size:13.2px;line-height:1.68}
+  .pcc-field-points{grid-template-columns:1fr;gap:12px;margin-top:14px}
+  .pcc-field-points h3{font-size:13px}
+  .pcc-field-points p{font-size:12.2px}
+  .pcc-field-faq{padding:34px var(--field-edge)!important}
+}
+
 /* Circular connector editorial atlas: dense technical reading with one unique photo per topic. */
 body.pcc-rich-page[data-category-key="cable-assembly-02"] #pcc-rich-content{
   --atlas-edge:clamp(28px,5.2vw,84px);
