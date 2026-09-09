@@ -156,6 +156,65 @@ body[data-category-key="cable-assembly-11"] .pcc-hero-media img{object-position:
   .pcc-rf-points{grid-template-columns:1fr;gap:13px;margin-top:14px}
 }
 
+/* Aerospace project assembly: a controlled mission log, not a catalogue card wall. */
+body[data-category-key="cable-assembly-12"] .pcc-hero{background:#121516;color:#f4f1e8}
+body[data-category-key="cable-assembly-12"] .pcc-hero-media:after{background:linear-gradient(90deg,rgba(7,9,10,.95),rgba(7,9,10,.62) 54%,rgba(7,9,10,.2))}
+body[data-category-key="cable-assembly-12"] .pcc-hero-media img{object-position:54% 48%;filter:saturate(.35) contrast(1.28) brightness(.48)}
+.pcc-aerospace-media{margin:0;overflow:hidden;background:#141718}
+.pcc-aerospace-media img{display:block;width:100%;height:100%;object-fit:cover;filter:saturate(.48) contrast(1.16)}
+.pcc-aerospace-opening{display:grid;grid-template-columns:minmax(310px,.72fr) minmax(0,1.28fr);min-height:326px;padding:0;background:#d9ddd9;color:#171b1b}
+.pcc-aerospace-opening-media{min-height:326px}
+.pcc-aerospace-opening-media img{object-position:44% 52%;filter:saturate(.42) contrast(1.18) brightness(.8)}
+.pcc-aerospace-opening-copy{align-self:center;padding:36px clamp(34px,5.4vw,86px)}
+.pcc-aerospace-opening-copy>span{font-family:var(--font-mono);font-size:9px;letter-spacing:.17em;color:#7b4b38}
+.pcc-aerospace-opening-copy h2{max-width:920px;margin:12px 0;font-size:clamp(30px,3.15vw,48px);font-weight:520;line-height:1.03;letter-spacing:-.038em}
+.pcc-aerospace-opening-copy>p,.pcc-aerospace-summary,.pcc-aerospace-points p{margin:0;text-indent:2em}
+.pcc-aerospace-opening-copy>p{max-width:980px;color:#505857;font-size:14px;line-height:1.8}
+.pcc-aerospace-route{display:flex;align-items:center;gap:8px;max-width:670px;margin-top:22px;font-family:var(--font-mono);font-size:8px;letter-spacing:.1em;color:#58615f}
+.pcc-aerospace-route i{height:1px;flex:1;background:linear-gradient(90deg,#a74b34,#708084)}
+.pcc-aerospace-log{background:#f2f0e9}
+.pcc-aerospace-chapter{display:grid;grid-template-columns:minmax(225px,.68fr) minmax(0,1.52fr) minmax(250px,.8fr);grid-template-areas:"heading copy image";min-height:252px;border-bottom:1px solid rgba(27,33,32,.14)}
+.pcc-aerospace-heading{grid-area:heading;align-self:center;padding:28px 22px 28px clamp(25px,3.6vw,56px)}
+.pcc-aerospace-heading>span{display:block;margin-bottom:8px;font-family:var(--font-mono);font-size:15px;color:#45575a}
+.pcc-aerospace-heading>p{margin:0 0 10px;font-family:var(--font-mono);font-size:9px;line-height:1.4;letter-spacing:.15em;color:#ad4c34;text-transform:uppercase}
+.pcc-aerospace-heading h2{margin:0;font-size:clamp(20px,1.9vw,29px);font-weight:540;line-height:1.1;letter-spacing:-.028em}
+.pcc-aerospace-copy{grid-area:copy;align-self:center;padding:27px clamp(28px,4.3vw,66px)}
+.pcc-aerospace-summary{max-width:1040px;color:#424947;font-size:13.4px;line-height:1.76}
+.pcc-aerospace-points{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin-top:16px}
+.pcc-aerospace-points section{position:relative;padding-left:14px}
+.pcc-aerospace-points section:before{content:"";position:absolute;left:0;top:3px;width:1px;height:32px;background:#a95038}
+.pcc-aerospace-points h3{margin:0 0 4px;font-size:12.8px;font-weight:650}
+.pcc-aerospace-points p{color:#68706e;font-size:12px;line-height:1.62}
+.pcc-aerospace-chapter>.pcc-aerospace-media{grid-area:image;min-height:252px}
+.pcc-aerospace-chapter:nth-child(even){grid-template-columns:minmax(250px,.8fr) minmax(225px,.68fr) minmax(0,1.52fr);grid-template-areas:"image heading copy";background:#dde0dc}
+.pcc-aerospace-chapter:nth-child(3n){grid-template-columns:minmax(225px,.68fr) minmax(250px,.8fr) minmax(0,1.52fr);grid-template-areas:"heading image copy"}
+.pcc-aerospace-chapter:nth-child(4n){background:#172020;color:#f3f0e8}
+.pcc-aerospace-chapter:nth-child(4n) .pcc-aerospace-heading>span{color:#d6ddd9}
+.pcc-aerospace-chapter:nth-child(4n) .pcc-aerospace-summary,.pcc-aerospace-chapter:nth-child(4n) .pcc-aerospace-points p{color:rgba(243,240,232,.68)}
+.pcc-aerospace-chapter:nth-child(4n) .pcc-aerospace-points section:before{background:#9bacaa}
+.pcc-aerospace-faq{padding-block:48px;background:#e0e3df}
+@media(max-width:900px){
+  .pcc-aerospace-chapter,.pcc-aerospace-chapter:nth-child(even),.pcc-aerospace-chapter:nth-child(3n){grid-template-columns:176px minmax(0,1fr) 214px;grid-template-areas:"heading copy image";min-height:238px}
+  .pcc-aerospace-copy{padding:23px}
+  .pcc-aerospace-heading{padding:23px 17px}
+  .pcc-aerospace-chapter>.pcc-aerospace-media{min-height:238px}
+}
+@media(max-width:640px){
+  .pcc-aerospace-opening{display:flex;flex-direction:column;min-height:0}
+  .pcc-aerospace-opening-media{height:184px;min-height:0;margin-inline:calc(var(--v2-mobile-gutter)*-1)}
+  .pcc-aerospace-opening-copy{padding:27px var(--v2-mobile-gutter) 30px}
+  .pcc-aerospace-opening-copy h2{font-size:28px}
+  .pcc-aerospace-route{gap:5px;font-size:7px}
+  .pcc-aerospace-chapter,.pcc-aerospace-chapter:nth-child(even),.pcc-aerospace-chapter:nth-child(3n){display:grid;grid-template-columns:1fr;grid-template-areas:"heading" "image" "copy";min-height:0;padding:0 var(--v2-mobile-gutter) 26px}
+  .pcc-aerospace-heading{padding:21px 0 11px}
+  .pcc-aerospace-heading>span{display:inline;margin-right:9px;font-size:14px}
+  .pcc-aerospace-heading>p{display:inline}
+  .pcc-aerospace-heading h2{margin-top:8px;font-size:23px}
+  .pcc-aerospace-chapter>.pcc-aerospace-media{height:176px;min-height:0;margin-inline:calc(var(--v2-mobile-gutter)*-1)}
+  .pcc-aerospace-copy{padding:18px 0 0}
+  .pcc-aerospace-points{grid-template-columns:1fr;gap:13px;margin-top:14px}
+}
+
 /* Circular connector editorial atlas: dense technical reading with one unique photo per topic. */
 body.pcc-rich-page[data-category-key="cable-assembly-02"] #pcc-rich-content{
   --atlas-edge:clamp(28px,5.2vw,84px);

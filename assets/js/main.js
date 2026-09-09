@@ -378,7 +378,7 @@ async function loadData(){
     fetch('/data/products.json?v=20260831v7').then(r=>r.json()),
     fetch('/data/product-series.json?v=20260902v1').then(r=>r.json()),
     fetch('/data/product-capabilities.json?v=20260902v4').then(r=>r.json()),
-    fetch('/data/product-category-details.json?v=20260910v8').then(r=>r.json())
+    fetch('/data/product-category-details.json?v=20260910v9').then(r=>r.json())
   ]);
   SITE=s; PRODS=p; SERIES=series; CAPABILITIES=capabilities; CATEGORY_DETAILS=categoryDetails;
   applyEvidenceBoundaries();
@@ -1249,6 +1249,13 @@ function renderProductCategoryRichMarkup(page,item){
     const faq=(page.faq||[]).map((entry,index)=>`<details${index===0?' open':''}><summary>${htmlEscape(t(entry.q))}</summary><p>${htmlEscape(t(entry.a))}</p></details>`).join('');
     const credits=(page.mediaCredits||[]).map(entry=>`<li><a href="${htmlEscape(entry.url)}" target="_blank" rel="noopener">${htmlEscape(entry.file)}</a><span>${htmlEscape(entry.author)} · ${htmlEscape(entry.license)}</span></li>`).join('');
     return `<section class="pcc-rf-opening"><div class="pcc-rf-opening-copy"><span>INTERFACE / CABLE / FREQUENCY / ENVIRONMENT</span><h2>${heading('introduction')}</h2><p>${htmlEscape(t(page.lead))}</p><div class="pcc-rf-scale"><i></i><b>DC</b><i></i><b>RF</b><i></i><b>GHz</b></div></div>${rfImage(page.images.range,`${item} ${LANG==='zh'?'连接器系列':'connector range'}`,'pcc-rf-opening-media')}</section><section class="pcc-rf-ledger">${chapters}</section><section class="pcc-rich-section pcc-rich-faq pcc-rf-faq"><header class="pcc-rich-heading"><h2>${heading('faq')}</h2></header><div class="pcc-faq-grid">${faq}</div></section><details class="pcc-media-credits"><summary>${htmlEscape(t(page.creditHeading))}</summary><ul>${credits}</ul></details>`;
+  }
+  if(page.layout==='aerospace-mission-log'){
+    const aerospaceImage=(src,alt,className='')=>`<figure class="pcc-aerospace-media ${className}"><img src="${htmlEscape(src)}" alt="${htmlEscape(alt)}" width="1400" height="960" loading="lazy" decoding="async"></figure>`;
+    const chapters=(page.chapters||[]).map((chapter,index)=>`<article class="pcc-aerospace-chapter pcc-aerospace-chapter-${index+1}"><header class="pcc-aerospace-heading"><span>${String(index+1).padStart(2,'0')}</span><p>${htmlEscape(t(chapter.kicker))}</p><h2>${htmlEscape(t(chapter.title))}</h2></header><div class="pcc-aerospace-copy"><p class="pcc-aerospace-summary">${htmlEscape(t(chapter.copy))}</p><div class="pcc-aerospace-points">${(chapter.points||[]).map(point=>`<section><h3>${htmlEscape(t(point.title))}</h3><p>${htmlEscape(t(point.copy))}</p></section>`).join('')}</div></div>${aerospaceImage(chapter.image,t(chapter.title))}</article>`).join('');
+    const faq=(page.faq||[]).map((entry,index)=>`<details${index===0?' open':''}><summary>${htmlEscape(t(entry.q))}</summary><p>${htmlEscape(t(entry.a))}</p></details>`).join('');
+    const credits=(page.mediaCredits||[]).map(entry=>`<li><a href="${htmlEscape(entry.url)}" target="_blank" rel="noopener">${htmlEscape(entry.file)}</a><span>${htmlEscape(entry.author)} · ${htmlEscape(entry.license)}</span></li>`).join('');
+    return `<section class="pcc-aerospace-opening">${aerospaceImage(page.images.range,`${item} ${LANG==='zh'?'任务环境':'mission environment'}`,'pcc-aerospace-opening-media')}<div class="pcc-aerospace-opening-copy"><span>AIRFRAME / AVIONICS / MISSION / EVIDENCE</span><h2>${heading('introduction')}</h2><p>${htmlEscape(t(page.lead))}</p><div class="pcc-aerospace-route"><b>01 DESIGN</b><i></i><b>02 BUILD</b><i></i><b>03 VERIFY</b><i></i><b>04 RELEASE</b></div></div></section><section class="pcc-aerospace-log">${chapters}</section><section class="pcc-rich-section pcc-rich-faq pcc-aerospace-faq"><header class="pcc-rich-heading"><h2>${heading('faq')}</h2></header><div class="pcc-faq-grid">${faq}</div></section><details class="pcc-media-credits"><summary>${htmlEscape(t(page.creditHeading))}</summary><ul>${credits}</ul></details>`;
   }
   const cards=(items,className='pcc-photo-notes',ordered=false)=>{
     const wrapper=ordered?'ol':'div';
