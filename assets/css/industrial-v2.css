@@ -346,6 +346,78 @@ body.pcc-rich-page[data-category-key="cable-assembly-05"] .pcc-hero-copy>p{text-
   .pcc-audio-faq{padding:30px var(--audio-edge)!important}
 }
 
+/* Video frame line: compact widescreen editorial cuts, not a repeated card grid. */
+body.pcc-rich-page[data-category-key="cable-assembly-06"] #pcc-rich-content{
+  --video-edge:clamp(30px,5vw,82px);color:#151719;background:#efeee9;
+}
+body.pcc-rich-page[data-category-key="cable-assembly-06"] .pcc-hero-media::after{
+  content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,rgba(7,9,10,.12),rgba(7,9,10,.54));
+}
+body.pcc-rich-page[data-category-key="cable-assembly-06"] .pcc-hero-media img{object-fit:cover;object-position:63% 58%;filter:saturate(.42) contrast(1.18) brightness(.67)}
+body.pcc-rich-page[data-category-key="cable-assembly-06"] .pcc-hero-copy>p{text-indent:2em}
+.pcc-video-opening{display:grid;grid-template-columns:minmax(320px,.92fr) minmax(0,1.08fr);min-height:330px;background:#111416;color:#f4f2ec}
+.pcc-video-opening-copy{display:flex;flex-direction:column;justify-content:center;padding:36px var(--video-edge)}
+.pcc-video-opening-copy>span{margin:0 0 10px;color:var(--v2-signal);font:650 9.5px/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.18em}
+.pcc-video-opening h2{max-width:23ch;margin:0 0 13px;font-size:clamp(26px,2.4vw,38px);font-weight:520;line-height:1.05;letter-spacing:-.035em}
+.pcc-video-opening-copy>p{max-width:76ch;margin:0;color:#c7caca;font-size:13.8px;line-height:1.68;text-indent:2em}
+.pcc-video-media{position:relative;min-width:0;margin:0;overflow:hidden;background:#c8c7c2}
+.pcc-video-media img{display:block;width:100%;height:100%;object-fit:cover;filter:saturate(.55) contrast(1.13) brightness(.9)}
+.pcc-video-opening-media{min-height:330px;background:#080a0b}
+.pcc-video-opening-media img{object-position:center 55%;filter:saturate(.48) contrast(1.16) brightness(.72)}
+.pcc-video-sequence{background:#efeee9}
+.pcc-video-chapter{position:relative;display:grid;grid-template-columns:54px repeat(10,minmax(0,1fr));gap:0 clamp(16px,2vw,30px);align-items:center;min-height:255px;padding:23px var(--video-edge)}
+.pcc-video-index{grid-column:1;align-self:stretch;padding-top:4px;border-inline-end:1px solid rgba(20,23,25,.22)}
+.pcc-video-index span{display:block;margin:0 0 11px;font:520 19px/1 ui-monospace,SFMono-Regular,Menlo,monospace}
+.pcc-video-index p{margin:0;color:var(--v2-signal);font:650 8.8px/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.12em;writing-mode:vertical-rl}
+.pcc-video-copy{grid-column:2/span 6;max-width:920px}
+.pcc-video-media{grid-column:8/-1;height:188px}
+.pcc-video-copy h2{margin:0 0 6px;font-size:clamp(20px,1.65vw,27px);font-weight:530;line-height:1.12;letter-spacing:-.025em}
+.pcc-video-summary{margin:0 0 11px;color:#3f4446;font-size:13.6px;line-height:1.62;text-indent:2em}
+.pcc-video-points{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 26px}
+.pcc-video-points section{position:relative;padding-top:8px}
+.pcc-video-points section::before{content:"";position:absolute;inset:0 auto auto 0;width:23px;height:1px;background:#747a7c}
+.pcc-video-points h3{margin:0 0 3px;font-size:13.8px;font-weight:650;line-height:1.32}
+.pcc-video-points p{margin:0;color:#5a6062;font-size:12.6px;line-height:1.52;text-indent:2em}
+.pcc-video-chapter:nth-child(3n+2){background:#d9dcda}
+.pcc-video-chapter:nth-child(3n+2) .pcc-video-media{grid-column:2/span 3;grid-row:1;height:204px}
+.pcc-video-chapter:nth-child(3n+2) .pcc-video-copy{grid-column:5/-1;grid-row:1}
+.pcc-video-chapter:nth-child(3n){color:#f2f1ec;background:#171a1c}
+.pcc-video-chapter:nth-child(3n) .pcc-video-index{border-color:rgba(255,255,255,.22)}
+.pcc-video-chapter:nth-child(3n) .pcc-video-summary{color:#c7caca}
+.pcc-video-chapter:nth-child(3n) .pcc-video-points p{color:#aeb3b4}
+.pcc-video-chapter:nth-child(5n){grid-template-columns:54px repeat(10,minmax(0,1fr));min-height:282px;background:#faf8f3}
+.pcc-video-chapter:nth-child(5n) .pcc-video-copy{grid-column:2/span 5}
+.pcc-video-chapter:nth-child(5n) .pcc-video-media{grid-column:7/-1;height:224px}
+.pcc-video-chapter:nth-child(4n+1) .pcc-video-media img{object-position:center 38%}
+.pcc-video-faq{padding:38px var(--video-edge)!important;background:#e1e2de!important}
+.pcc-video-faq .pcc-rich-heading{margin-bottom:17px!important}
+@media(max-width:900px){
+  .pcc-video-opening{grid-template-columns:.82fr 1.18fr}
+  .pcc-video-chapter,.pcc-video-chapter:nth-child(3n+2),.pcc-video-chapter:nth-child(5n){grid-template-columns:45px minmax(180px,31%) minmax(0,1fr);gap:0 17px;min-height:236px}
+  .pcc-video-chapter .pcc-video-media,.pcc-video-chapter:nth-child(3n+2) .pcc-video-media,.pcc-video-chapter:nth-child(5n) .pcc-video-media{grid-column:2;grid-row:1;height:178px}
+  .pcc-video-chapter .pcc-video-copy,.pcc-video-chapter:nth-child(3n+2) .pcc-video-copy,.pcc-video-chapter:nth-child(5n) .pcc-video-copy{grid-column:3;grid-row:1}
+  .pcc-video-points{grid-template-columns:1fr;gap:7px}
+}
+@media(max-width:640px){
+  body.pcc-rich-page[data-category-key="cable-assembly-06"] #pcc-rich-content{--video-edge:20px}
+  .pcc-video-opening{display:flex;flex-direction:column-reverse;min-height:0}
+  .pcc-video-opening-copy{padding:27px var(--video-edge)}
+  .pcc-video-opening h2{font-size:24.5px}
+  .pcc-video-opening-copy>p{font-size:13.1px;line-height:1.64}
+  .pcc-video-opening-media{width:100%;min-height:0;height:188px}
+  .pcc-video-chapter,.pcc-video-chapter:nth-child(3n+2),.pcc-video-chapter:nth-child(5n){display:flex;flex-direction:column;align-items:stretch;min-height:0;padding:0 var(--video-edge) 21px}
+  .pcc-video-index{display:flex;align-items:center;gap:9px;min-height:38px;border-inline-end:0}
+  .pcc-video-index span{margin:0;font-size:15px}
+  .pcc-video-index p{margin:0;font-size:8.7px;writing-mode:horizontal-tb}
+  .pcc-video-chapter .pcc-video-media,.pcc-video-chapter:nth-child(3n+2) .pcc-video-media,.pcc-video-chapter:nth-child(5n) .pcc-video-media{order:1;width:calc(100% + var(--video-edge)*2);height:164px;margin:0 calc(var(--video-edge)*-1) 15px}
+  .pcc-video-copy{order:2}
+  .pcc-video-copy h2{font-size:19px}
+  .pcc-video-summary{font-size:13px;line-height:1.6}
+  .pcc-video-points h3{font-size:13.6px}
+  .pcc-video-points p{font-size:12.5px;line-height:1.52}
+  .pcc-video-faq{padding:29px var(--video-edge)!important}
+}
+
 /* Dense image-led product-category chapters. The page follows the competitor's
    information hierarchy while keeping Super Smile's restrained editorial grid. */
 .pcc-rich-page .pcc-main{padding-block-start:0;background:var(--v2-paper)}
