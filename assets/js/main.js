@@ -378,7 +378,7 @@ async function loadData(){
     fetch('/data/products.json?v=20260831v7').then(r=>r.json()),
     fetch('/data/product-series.json?v=20260902v1').then(r=>r.json()),
     fetch('/data/product-capabilities.json?v=20260902v4').then(r=>r.json()),
-    fetch('/data/product-category-details.json?v=20260902v1').then(r=>r.json())
+    fetch('/data/product-category-details.json?v=20260909v2').then(r=>r.json())
   ]);
   SITE=s; PRODS=p; SERIES=series; CAPABILITIES=capabilities; CATEGORY_DETAILS=categoryDetails;
   applyEvidenceBoundaries();
@@ -1200,6 +1200,13 @@ function renderProductCategoryRichMarkup(page,item){
     const faq=(page.faq||[]).map((entry,index)=>`<details${index===0?' open':''}><summary>${htmlEscape(t(entry.q))}</summary><p>${htmlEscape(t(entry.a))}</p></details>`).join('');
     const credits=(page.mediaCredits||[]).map(entry=>`<li><a href="${htmlEscape(entry.url)}" target="_blank" rel="noopener">${htmlEscape(entry.file)}</a><span>${htmlEscape(entry.author)} · ${htmlEscape(entry.license)}</span></li>`).join('');
     return `<section class="pcc-usb-opening"><div class="pcc-usb-opening-copy"><span>SIGNAL / POWER / MECHANICS</span><h2>${heading('introduction')}</h2><p>${htmlEscape(t(page.lead))}</p></div>${flowImage(page.images.range,`${item} ${LANG==='zh'?'接口家族':'interface family'}`,'pcc-usb-opening-media')}</section><section class="pcc-usb-sequence">${chapters}</section><section class="pcc-rich-section pcc-rich-faq pcc-usb-faq"><header class="pcc-rich-heading"><h2>${heading('faq')}</h2></header><div class="pcc-faq-grid">${faq}</div></section><details class="pcc-media-credits"><summary>${htmlEscape(t(page.creditHeading))}</summary><ul>${credits}</ul></details>`;
+  }
+  if(page.layout==='audio-signal-chain'){
+    const audioImage=(src,alt,className='')=>`<figure class="pcc-audio-media ${className}"><img src="${htmlEscape(src)}" alt="${htmlEscape(alt)}" width="1200" height="900" loading="lazy" decoding="async"></figure>`;
+    const chapters=(page.chapters||[]).map((chapter,index)=>`<article class="pcc-audio-chapter pcc-audio-chapter-${index%4+1}"><div class="pcc-audio-meta"><span>${String(index+1).padStart(2,'0')}</span><p>${htmlEscape(t(chapter.kicker))}</p></div>${audioImage(chapter.image,t(chapter.title))}<div class="pcc-audio-copy"><h2>${htmlEscape(t(chapter.title))}</h2><p class="pcc-audio-summary">${htmlEscape(t(chapter.copy))}</p><div class="pcc-audio-points">${(chapter.points||[]).map(point=>`<section><h3>${htmlEscape(t(point.title))}</h3><p>${htmlEscape(t(point.copy))}</p></section>`).join('')}</div></div></article>`).join('');
+    const faq=(page.faq||[]).map((entry,index)=>`<details${index===0?' open':''}><summary>${htmlEscape(t(entry.q))}</summary><p>${htmlEscape(t(entry.a))}</p></details>`).join('');
+    const credits=(page.mediaCredits||[]).map(entry=>`<li><a href="${htmlEscape(entry.url)}" target="_blank" rel="noopener">${htmlEscape(entry.file)}</a><span>${htmlEscape(entry.author)} · ${htmlEscape(entry.license)}</span></li>`).join('');
+    return `<section class="pcc-audio-opening"><div class="pcc-audio-opening-copy"><span>FROM SOURCE TO LISTENER</span><h2>${heading('introduction')}</h2><p>${htmlEscape(t(page.lead))}</p></div>${audioImage(page.images.range,`${item} ${LANG==='zh'?'信号路径':'signal path'}`,'pcc-audio-opening-media')}</section><section class="pcc-audio-sequence">${chapters}</section><section class="pcc-rich-section pcc-rich-faq pcc-audio-faq"><header class="pcc-rich-heading"><h2>${heading('faq')}</h2></header><div class="pcc-faq-grid">${faq}</div></section><details class="pcc-media-credits"><summary>${htmlEscape(t(page.creditHeading))}</summary><ul>${credits}</ul></details>`;
   }
   const cards=(items,className='pcc-photo-notes',ordered=false)=>{
     const wrapper=ordered?'ol':'div';

@@ -271,6 +271,81 @@ body.pcc-rich-page[data-category-key="cable-assembly-04"] .pcc-hero-copy>p{text-
   .pcc-usb-faq{padding:32px var(--usb-edge)!important}
 }
 
+/* Audio signal chain: dense editorial strips with small documentary photographs. */
+body.pcc-rich-page[data-category-key="cable-assembly-05"] #pcc-rich-content{
+  --audio-edge:clamp(30px,5vw,82px);
+  color:#141719;
+  background:#eeece6;
+}
+body.pcc-rich-page[data-category-key="cable-assembly-05"] .pcc-hero-media::after{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background:linear-gradient(90deg,rgba(7,9,10,.06),rgba(7,9,10,.28));
+}
+body.pcc-rich-page[data-category-key="cable-assembly-05"] .pcc-hero-media img{object-fit:cover;object-position:52% 52%;filter:saturate(.58) contrast(1.13) brightness(.82)}
+body.pcc-rich-page[data-category-key="cable-assembly-05"] .pcc-hero-copy>p{text-indent:2em}
+.pcc-audio-opening{display:grid;grid-template-columns:minmax(360px,.88fr) minmax(0,1.12fr);min-height:340px;color:#f4f2ec;background:#101315}
+.pcc-audio-opening-copy{display:flex;flex-direction:column;justify-content:center;padding:38px var(--audio-edge)}
+.pcc-audio-opening-copy>span{margin:0 0 11px;color:var(--v2-signal);font:650 10px/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.17em}
+.pcc-audio-opening h2{max-width:20ch;margin:0 0 13px;font-size:clamp(27px,2.55vw,40px);font-weight:520;line-height:1.04;letter-spacing:-.035em}
+.pcc-audio-opening-copy>p{max-width:74ch;margin:0;color:#c6c9c8;font-size:14px;line-height:1.7;text-indent:2em}
+.pcc-audio-media{position:relative;min-width:0;margin:0;overflow:hidden;background:#c8c7c2}
+.pcc-audio-media img{display:block;width:100%;height:100%;object-fit:cover;filter:saturate(.62) contrast(1.12) brightness(.94)}
+.pcc-audio-opening-media{min-height:340px;background:#080a0b}
+.pcc-audio-opening-media img{object-position:center 60%;filter:saturate(.58) contrast(1.14) brightness(.78)}
+.pcc-audio-sequence{background:#eeece6}
+.pcc-audio-chapter{position:relative;display:grid;grid-template-columns:58px repeat(11,minmax(0,1fr));column-gap:clamp(15px,2vw,30px);align-items:center;min-height:258px;padding:24px var(--audio-edge)}
+.pcc-audio-chapter:nth-child(4n+2){background:#daddda}
+.pcc-audio-chapter:nth-child(4n+3){color:#f3f1eb;background:#181b1d}
+.pcc-audio-chapter:nth-child(4n){background:#faf8f3}
+.pcc-audio-meta{grid-column:1;align-self:stretch;padding-top:3px;border-inline-end:1px solid rgba(20,23,25,.22)}
+.pcc-audio-chapter:nth-child(4n+3) .pcc-audio-meta{border-color:rgba(255,255,255,.22)}
+.pcc-audio-meta span{display:block;margin:0 0 12px;font:520 20px/1 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:-.04em}
+.pcc-audio-meta p{margin:0;color:var(--v2-signal);font:650 9px/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.12em;writing-mode:vertical-rl}
+.pcc-audio-chapter .pcc-audio-media{grid-column:2/span 3;height:196px}
+.pcc-audio-chapter .pcc-audio-copy{grid-column:5/-1;max-width:960px}
+.pcc-audio-chapter:nth-child(even) .pcc-audio-copy{grid-column:2/span 7;grid-row:1}
+.pcc-audio-chapter:nth-child(even) .pcc-audio-media{grid-column:9/-1;grid-row:1;height:188px}
+.pcc-audio-chapter:nth-child(4n+3) .pcc-audio-media{grid-column:2/span 4;height:210px}
+.pcc-audio-chapter:nth-child(4n+3) .pcc-audio-copy{grid-column:6/-1}
+.pcc-audio-chapter:nth-child(4n) .pcc-audio-copy{grid-column:2/span 6}
+.pcc-audio-chapter:nth-child(4n) .pcc-audio-media{grid-column:8/-1;height:202px}
+.pcc-audio-copy h2{margin:0 0 6px;font-size:clamp(20px,1.72vw,28px);font-weight:530;line-height:1.13;letter-spacing:-.026em}
+.pcc-audio-summary{margin:0 0 12px;color:#363b3d;font-size:13.8px;line-height:1.64;text-indent:2em}
+.pcc-audio-chapter:nth-child(4n+3) .pcc-audio-summary{color:#c4c8c8}
+.pcc-audio-points{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 28px}
+.pcc-audio-points section{position:relative;padding-top:9px}
+.pcc-audio-points section::before{content:"";position:absolute;inset-block-start:0;inset-inline-start:0;width:25px;height:1px;background:#777d7f}
+.pcc-audio-points h3{margin:0 0 3px;font-size:14px;font-weight:650;line-height:1.34}
+.pcc-audio-points p{margin:0;color:#565c5e;font-size:12.7px;line-height:1.55;text-indent:2em}
+.pcc-audio-chapter:nth-child(4n+3) .pcc-audio-points p{color:#aeb3b3}
+.pcc-audio-faq{padding:40px var(--audio-edge)!important;background:#e2e2de!important}
+.pcc-audio-faq .pcc-rich-heading{margin-bottom:18px!important}
+@media(max-width:900px){
+  .pcc-audio-opening{grid-template-columns:1fr}
+  .pcc-audio-opening-media{height:265px;min-height:0}
+  .pcc-audio-chapter,.pcc-audio-chapter:nth-child(even),.pcc-audio-chapter:nth-child(4n+3),.pcc-audio-chapter:nth-child(4n){grid-template-columns:48px minmax(190px,32%) minmax(0,1fr);column-gap:18px;min-height:240px}
+  .pcc-audio-chapter .pcc-audio-media,.pcc-audio-chapter:nth-child(even) .pcc-audio-media,.pcc-audio-chapter:nth-child(4n+3) .pcc-audio-media,.pcc-audio-chapter:nth-child(4n) .pcc-audio-media{grid-column:2;grid-row:1;height:180px}
+  .pcc-audio-chapter .pcc-audio-copy,.pcc-audio-chapter:nth-child(even) .pcc-audio-copy,.pcc-audio-chapter:nth-child(4n+3) .pcc-audio-copy,.pcc-audio-chapter:nth-child(4n) .pcc-audio-copy{grid-column:3;grid-row:1}
+  .pcc-audio-points{grid-template-columns:1fr;gap:7px}
+}
+@media(max-width:640px){
+  body.pcc-rich-page[data-category-key="cable-assembly-05"] #pcc-rich-content{--audio-edge:20px}
+  .pcc-audio-opening-copy{padding:28px var(--audio-edge)}
+  .pcc-audio-opening h2{font-size:25px}
+  .pcc-audio-opening-copy>p{font-size:13.2px;line-height:1.66}
+  .pcc-audio-opening-media{width:100%;height:210px}
+  .pcc-audio-chapter,.pcc-audio-chapter:nth-child(even),.pcc-audio-chapter:nth-child(4n+3),.pcc-audio-chapter:nth-child(4n){display:flex;flex-direction:column;align-items:stretch;min-height:0;padding:0 var(--audio-edge) 22px}
+  .pcc-audio-meta{display:flex;align-items:center;gap:9px;min-height:39px;border-inline-end:0}
+  .pcc-audio-meta span{margin:0;font-size:15px}
+  .pcc-audio-meta p{margin:0;font-size:8.8px;writing-mode:horizontal-tb}
+  .pcc-audio-chapter .pcc-audio-media,.pcc-audio-chapter:nth-child(even) .pcc-audio-media,.pcc-audio-chapter:nth-child(4n+3) .pcc-audio-media,.pcc-audio-chapter:nth-child(4n) .pcc-audio-media{width:calc(100% + var(--audio-edge)*2);height:170px;margin:0 calc(var(--audio-edge)*-1) 16px}
+  .pcc-audio-copy h2{font-size:19.5px;white-space:normal}
+  .pcc-audio-summary{font-size:13.1px;line-height:1.62}
+  .pcc-audio-points h3{font-size:13.7px}
+  .pcc-audio-points p{font-size:12.6px;line-height:1.54}
+  .pcc-audio-faq{padding:30px var(--audio-edge)!important}
+}
+
 /* Dense image-led product-category chapters. The page follows the competitor's
    information hierarchy while keeping Super Smile's restrained editorial grid. */
 .pcc-rich-page .pcc-main{padding-block-start:0;background:var(--v2-paper)}
