@@ -3395,3 +3395,64 @@ body[data-category-key="automotive-01"] .pcc-hero-media img{object-position:44% 
   .pcc-diagnostic-summary{font-size:12.8px}
   .pcc-diagnostic-points{gap:12px}
 }
+
+/* ECU / DCU service harness: controller-stack editorial */
+body[data-category-key="automotive-02"] .pcc-hero{background:#101314;color:#f4f1e8}
+body[data-category-key="automotive-02"] .pcc-hero-media:after{background:linear-gradient(90deg,rgba(8,10,11,.96),rgba(8,10,11,.58) 56%,rgba(8,10,11,.18))}
+body[data-category-key="automotive-02"] .pcc-hero-media img{object-position:54% 48%;filter:saturate(.52) contrast(1.2) brightness(.62)}
+.pcc-ecu-media{margin:0;overflow:hidden;background:#171b1b}
+.pcc-ecu-media img{display:block;width:100%;height:100%;object-fit:cover;filter:saturate(.57) contrast(1.14) brightness(.86)}
+.pcc-ecu-opening{display:grid;grid-template-columns:minmax(0,1.28fr) minmax(320px,.72fr);min-height:322px;background:#1b2221;color:#f3f0e8}
+.pcc-ecu-opening-copy{align-self:center;padding:38px clamp(32px,5.2vw,80px)}
+.pcc-ecu-opening-copy>span,.pcc-ecu-heading>p{font-family:var(--font-mono);font-size:9px;letter-spacing:.16em;text-transform:uppercase;color:#c7874c}
+.pcc-ecu-opening-copy h2{max-width:920px;margin:9px 0 13px;font-size:clamp(28px,3.1vw,47px);font-weight:530;line-height:1.04;letter-spacing:-.038em}
+.pcc-ecu-opening-copy>p,.pcc-ecu-summary,.pcc-ecu-points p{margin:0;text-indent:2em}
+.pcc-ecu-opening-copy>p{max-width:940px;color:rgba(243,240,232,.7);font-size:14px;line-height:1.78}
+.pcc-ecu-opening-media{min-height:322px}
+.pcc-ecu-opening-media img{object-position:48% 62%}
+.pcc-ecu-stack{display:flex;align-items:center;gap:8px;max-width:455px;margin-top:21px;font-family:var(--font-mono);font-size:8.5px;letter-spacing:.1em;color:#dfc0a2}
+.pcc-ecu-stack i{position:relative;flex:1;height:1px;background:rgba(223,192,162,.38)}
+.pcc-ecu-stack i:after{content:"";position:absolute;right:0;top:-2px;width:5px;height:5px;border-radius:50%;background:#c7874c}
+.pcc-ecu-sequence{padding:0;background:#f1eee6}
+.pcc-ecu-chapter{display:grid;grid-template-columns:minmax(230px,.64fr) minmax(260px,.78fr) minmax(0,1.58fr);min-height:292px;padding:0;border-bottom:1px solid rgba(31,40,38,.13)}
+.pcc-ecu-heading{align-self:center;padding:27px 26px 27px clamp(24px,3.6vw,56px)}
+.pcc-ecu-heading>span{display:block;margin-bottom:12px;color:#a35e2f;font-family:var(--font-mono);font-size:18px;letter-spacing:-.03em}
+.pcc-ecu-heading>p{margin:0 0 9px;font-size:8.3px}
+.pcc-ecu-heading h2{margin:0;font-size:clamp(18px,1.6vw,25px);font-weight:560;line-height:1.13;letter-spacing:-.025em}
+.pcc-ecu-chapter>.pcc-ecu-media{min-height:292px}
+.pcc-ecu-copy{align-self:center;padding:28px clamp(28px,4vw,62px)}
+.pcc-ecu-summary{max-width:1050px;color:#454c4a;font-size:12.8px;line-height:1.72}
+.pcc-ecu-points{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px;margin-top:15px}
+.pcc-ecu-points section{position:relative;padding:0 0 0 12px}
+.pcc-ecu-points section:before{content:"";position:absolute;left:0;top:3px;width:2px;height:22px;background:#b56c38}
+.pcc-ecu-points h3{margin:0 0 3px;font-size:12.2px;font-weight:650}
+.pcc-ecu-points p{color:#68706d;font-size:11.4px;line-height:1.58}
+.pcc-ecu-chapter:nth-child(even){grid-template-columns:minmax(230px,.64fr) minmax(0,1.58fr) minmax(260px,.78fr);background:#dde1dd}
+.pcc-ecu-chapter:nth-child(even)>.pcc-ecu-media{grid-column:3;grid-row:1}
+.pcc-ecu-chapter:nth-child(even)>.pcc-ecu-copy{grid-column:2;grid-row:1}
+.pcc-ecu-chapter:nth-child(4n){background:#202726;color:#f2efe7}
+.pcc-ecu-chapter:nth-child(4n) .pcc-ecu-summary,.pcc-ecu-chapter:nth-child(4n) .pcc-ecu-points p{color:rgba(242,239,231,.66)}
+.pcc-ecu-chapter:nth-child(4n) .pcc-ecu-points section:before{background:#c7874c}
+.pcc-ecu-chapter:nth-child(5),.pcc-ecu-chapter:nth-child(9){grid-template-columns:minmax(255px,.72fr) minmax(300px,.86fr) minmax(0,1.42fr)}
+.pcc-ecu-chapter:nth-child(3)>.pcc-ecu-media img,.pcc-ecu-chapter:nth-child(7)>.pcc-ecu-media img{object-position:center 62%}
+.pcc-ecu-faq{padding-block:46px;background:#d8ddd9}
+@media(max-width:1050px){
+  .pcc-ecu-chapter,.pcc-ecu-chapter:nth-child(even),.pcc-ecu-chapter:nth-child(5),.pcc-ecu-chapter:nth-child(9){grid-template-columns:205px minmax(230px,.8fr) minmax(0,1.2fr)}
+  .pcc-ecu-chapter:nth-child(even)>.pcc-ecu-media{grid-column:2}.pcc-ecu-chapter:nth-child(even)>.pcc-ecu-copy{grid-column:3}
+  .pcc-ecu-heading{padding-inline:24px}
+  .pcc-ecu-copy{padding:25px 25px}
+}
+@media(max-width:760px){
+  .pcc-ecu-opening{grid-template-columns:1fr 1fr}.pcc-ecu-opening-copy{padding:31px 25px}
+  .pcc-ecu-chapter,.pcc-ecu-chapter:nth-child(even),.pcc-ecu-chapter:nth-child(5),.pcc-ecu-chapter:nth-child(9){grid-template-columns:175px minmax(205px,.75fr) minmax(0,1.25fr)}
+}
+@media(max-width:640px){
+  .pcc-ecu-opening{display:flex;flex-direction:column-reverse;min-height:0}
+  .pcc-ecu-opening-copy{padding:27px var(--v2-mobile-gutter) 30px}
+  .pcc-ecu-opening-copy h2{font-size:28px}.pcc-ecu-opening-media{height:190px;min-height:0;margin-inline:calc(var(--v2-mobile-gutter)*-1)}
+  .pcc-ecu-chapter,.pcc-ecu-chapter:nth-child(even),.pcc-ecu-chapter:nth-child(5),.pcc-ecu-chapter:nth-child(9){display:grid;grid-template-columns:1fr;min-height:0;padding:0 var(--v2-mobile-gutter) 28px}
+  .pcc-ecu-heading{grid-column:1;grid-row:auto;padding:19px 0 11px}.pcc-ecu-heading>span{display:inline;margin:0 9px 0 0;font-size:14px}.pcc-ecu-heading>p{display:inline}.pcc-ecu-heading h2{margin-top:7px;font-size:22px}
+  .pcc-ecu-chapter>.pcc-ecu-media,.pcc-ecu-chapter:nth-child(even)>.pcc-ecu-media{grid-column:1;grid-row:auto;height:180px;min-height:0;margin-inline:calc(var(--v2-mobile-gutter)*-1)}
+  .pcc-ecu-chapter>.pcc-ecu-copy,.pcc-ecu-chapter:nth-child(even)>.pcc-ecu-copy{grid-column:1;grid-row:auto;padding:18px 0 0}
+  .pcc-ecu-summary{font-size:12.7px}.pcc-ecu-points{grid-template-columns:1fr;gap:12px;margin-top:14px}
+}
