@@ -144,6 +144,58 @@ body[data-category-key="automotive-03"] .pcc-hero-media img{object-position:49% 
   .pcc-j1939-notes{grid-template-columns:1fr;gap:11px;margin-top:14px}
 }
 
+/* Truck harness: vehicle-zone map with compact cab-to-rear rhythm */
+body[data-category-key="automotive-04"] .pcc-hero{background:#111311;color:#f3f0e8}
+body[data-category-key="automotive-04"] .pcc-hero-media:after{background:linear-gradient(90deg,rgba(8,10,9,.96),rgba(8,10,9,.56) 58%,rgba(8,10,9,.12))}
+body[data-category-key="automotive-04"] .pcc-hero-media img{object-position:50% 38%;filter:saturate(.55) contrast(1.22) brightness(.59)}
+.pcc-truck-media{margin:0;overflow:hidden;background:#151715}
+.pcc-truck-media img{display:block;width:100%;height:100%;object-fit:cover;filter:saturate(.58) contrast(1.16) brightness(.82)}
+.pcc-truck-opening{display:grid;grid-template-columns:minmax(0,1.23fr) minmax(340px,.77fr);grid-template-rows:342px;height:342px;background:#d9d5ca;color:#171915}
+.pcc-truck-opening-copy{align-self:center;padding:36px clamp(34px,5.5vw,84px)}
+.pcc-truck-opening-copy>span,.pcc-truck-heading>p{font-family:var(--font-mono);font-size:8.8px;letter-spacing:.17em;text-transform:uppercase;color:#86633f}
+.pcc-truck-opening-copy h2{max-width:940px;margin:10px 0 13px;font-size:clamp(28px,3.05vw,47px);font-weight:520;line-height:1.04;letter-spacing:-.038em}
+.pcc-truck-opening-copy>p,.pcc-truck-summary,.pcc-truck-points p{margin:0;text-indent:2em}
+.pcc-truck-opening-copy>p{max-width:940px;color:#55594f;font-size:13.8px;line-height:1.76}
+.pcc-truck-opening-media{height:342px;min-width:0}.pcc-truck-opening-media img{object-position:center 58%}
+.pcc-truck-zones{display:flex;align-items:center;gap:8px;max-width:540px;margin-top:22px;font-family:var(--font-mono);font-size:8px;letter-spacing:.1em;color:#574839}
+.pcc-truck-zones i{position:relative;flex:1;height:1px;background:#9f8c77}.pcc-truck-zones i:after{content:"";position:absolute;right:0;top:-2px;width:5px;height:5px;border-radius:50%;background:#c66b32}
+.pcc-truck-map{background:#f1eee6}
+.pcc-truck-chapter{display:grid;grid-template-columns:minmax(220px,.58fr) minmax(270px,.7fr) minmax(0,1.72fr);min-height:288px;border-bottom:1px solid rgba(34,36,31,.13)}
+.pcc-truck-heading{align-self:center;padding:29px 24px 29px clamp(25px,3.8vw,58px)}
+.pcc-truck-heading>span{display:block;margin-bottom:9px;font-family:var(--font-mono);font-size:16px;letter-spacing:-.03em;color:#a45628}
+.pcc-truck-heading>p{margin:0 0 10px;font-size:8.2px;line-height:1.35}
+.pcc-truck-heading h2{margin:0;font-size:clamp(18px,1.55vw,24px);font-weight:555;line-height:1.14;letter-spacing:-.024em}
+.pcc-truck-chapter>.pcc-truck-media{min-height:288px}
+.pcc-truck-copy{align-self:center;padding:28px clamp(30px,4.5vw,70px)}
+.pcc-truck-summary{max-width:1080px;color:#484d46;font-size:12.8px;line-height:1.73}
+.pcc-truck-points{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:25px;margin-top:17px}
+.pcc-truck-points section{position:relative;padding-left:13px}.pcc-truck-points section:before{content:"";position:absolute;left:0;top:3px;width:1px;height:27px;background:#b45e2c}
+.pcc-truck-points h3{margin:0 0 3px;font-size:12px;font-weight:650}.pcc-truck-points p{color:#696e66;font-size:11.2px;line-height:1.55}
+.pcc-truck-chapter:nth-child(even){grid-template-columns:minmax(270px,.7fr) minmax(0,1.72fr) minmax(220px,.58fr);background:#dde0d9}
+.pcc-truck-chapter:nth-child(even)>.pcc-truck-media{grid-column:1;grid-row:1}.pcc-truck-chapter:nth-child(even)>.pcc-truck-copy{grid-column:2;grid-row:1}.pcc-truck-chapter:nth-child(even)>.pcc-truck-heading{grid-column:3;grid-row:1;padding-left:24px;padding-right:clamp(25px,3.8vw,58px)}
+.pcc-truck-chapter:nth-child(4),.pcc-truck-chapter:nth-child(8){background:#20231f;color:#f2efe7}
+.pcc-truck-chapter:nth-child(4) .pcc-truck-summary,.pcc-truck-chapter:nth-child(4) .pcc-truck-points p,.pcc-truck-chapter:nth-child(8) .pcc-truck-summary,.pcc-truck-chapter:nth-child(8) .pcc-truck-points p{color:rgba(242,239,231,.67)}
+.pcc-truck-chapter:nth-child(4) .pcc-truck-points section:before,.pcc-truck-chapter:nth-child(8) .pcc-truck-points section:before{background:#d88950}
+.pcc-truck-chapter:nth-child(3),.pcc-truck-chapter:nth-child(7),.pcc-truck-chapter:nth-child(11){grid-template-columns:minmax(245px,.66fr) minmax(320px,.86fr) minmax(0,1.48fr)}
+.pcc-truck-chapter:nth-child(2)>.pcc-truck-media img{object-position:center 44%}.pcc-truck-chapter:nth-child(7)>.pcc-truck-media img{object-position:center 54%}
+.pcc-truck-faq{padding-block:46px;background:#d7d8d0}
+@media(max-width:1040px){
+  .pcc-truck-chapter,.pcc-truck-chapter:nth-child(even),.pcc-truck-chapter:nth-child(3),.pcc-truck-chapter:nth-child(7),.pcc-truck-chapter:nth-child(11){grid-template-columns:190px 230px minmax(0,1fr)}
+  .pcc-truck-chapter:nth-child(even)>.pcc-truck-media{grid-column:2}.pcc-truck-chapter:nth-child(even)>.pcc-truck-copy{grid-column:3}.pcc-truck-chapter:nth-child(even)>.pcc-truck-heading{grid-column:1;padding-inline:22px}
+  .pcc-truck-copy{padding:25px}.pcc-truck-heading{padding-inline:22px}
+}
+@media(max-width:760px){
+  .pcc-truck-opening{grid-template-columns:1fr 1fr}.pcc-truck-opening-copy{padding:30px 25px}
+  .pcc-truck-chapter,.pcc-truck-chapter:nth-child(even),.pcc-truck-chapter:nth-child(3),.pcc-truck-chapter:nth-child(7),.pcc-truck-chapter:nth-child(11){grid-template-columns:166px 210px minmax(0,1fr)}
+}
+@media(max-width:640px){
+  .pcc-truck-opening{display:flex;flex-direction:column;height:auto;min-height:0}.pcc-truck-opening-copy{padding:26px var(--v2-mobile-gutter) 29px}.pcc-truck-opening-copy h2{font-size:27px}.pcc-truck-opening-media{height:188px;min-height:0;margin-inline:calc(var(--v2-mobile-gutter)*-1)}
+  .pcc-truck-chapter,.pcc-truck-chapter:nth-child(even),.pcc-truck-chapter:nth-child(3),.pcc-truck-chapter:nth-child(7),.pcc-truck-chapter:nth-child(11){display:grid;grid-template-columns:1fr;min-height:0;padding:0 var(--v2-mobile-gutter) 27px}
+  .pcc-truck-chapter>.pcc-truck-heading,.pcc-truck-chapter:nth-child(even)>.pcc-truck-heading{grid-column:1;grid-row:auto;padding:19px 0 10px}.pcc-truck-heading>span{display:inline;margin-right:9px;font-size:14px}.pcc-truck-heading>p{display:inline}.pcc-truck-heading h2{margin-top:7px;font-size:22px}
+  .pcc-truck-chapter>.pcc-truck-media,.pcc-truck-chapter:nth-child(even)>.pcc-truck-media{grid-column:1;grid-row:auto;height:178px;min-height:0;margin-inline:calc(var(--v2-mobile-gutter)*-1)}
+  .pcc-truck-chapter>.pcc-truck-copy,.pcc-truck-chapter:nth-child(even)>.pcc-truck-copy{grid-column:1;grid-row:auto;padding:18px 0 0}.pcc-truck-summary{font-size:12.7px}.pcc-truck-points{grid-template-columns:1fr;gap:11px;margin-top:14px}
+}
+
 /* RF and coaxial assembly: frequency ledger with compact instrument rhythm */
 body[data-category-key="cable-assembly-11"] .pcc-hero{background:#0d0d0c;color:#f5f2e9}
 body[data-category-key="cable-assembly-11"] .pcc-hero-media:after{background:linear-gradient(90deg,rgba(7,8,8,.94),rgba(7,8,8,.57) 56%,rgba(7,8,8,.14))}
