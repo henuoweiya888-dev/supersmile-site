@@ -378,7 +378,7 @@ async function loadData(){
     fetch('/data/products.json?v=20260831v7').then(r=>r.json()),
     fetch('/data/product-series.json?v=20260902v1').then(r=>r.json()),
     fetch('/data/product-capabilities.json?v=20260902v4').then(r=>r.json()),
-    fetch('/data/product-category-details.json?v=20260910v16').then(r=>r.json())
+    fetch('/data/product-category-details.json?v=20260910v17').then(r=>r.json())
   ]);
   SITE=s; PRODS=p; SERIES=series; CAPABILITIES=capabilities; CATEGORY_DETAILS=categoryDetails;
   applyEvidenceBoundaries();
@@ -1291,6 +1291,13 @@ function renderProductCategoryRichMarkup(page,item){
     const faq=(page.faq||[]).map((entry,index)=>`<details${index===0?' open':''}><summary>${htmlEscape(t(entry.q))}</summary><p>${htmlEscape(t(entry.a))}</p></details>`).join('');
     const credits=(page.mediaCredits||[]).map(entry=>`<li><a href="${htmlEscape(entry.url)}" target="_blank" rel="noopener">${htmlEscape(entry.file)}</a><span>${htmlEscape(entry.author)} · ${htmlEscape(entry.license)}</span></li>`).join('');
     return `<section class="pcc-truck-opening"><div class="pcc-truck-opening-copy"><span>VEHICLE ELECTRICAL ZONES</span><h2>${heading('introduction')}</h2><p>${htmlEscape(t(page.lead))}</p><div class="pcc-truck-zones" aria-hidden="true"><b>${LANG==='zh'?'驾驶室':'CAB'}</b><i></i><b>${LANG==='zh'?'动力':'POWERTRAIN'}</b><i></i><b>${LANG==='zh'?'底盘':'CHASSIS'}</b><i></i><b>${LANG==='zh'?'车尾':'REAR'}</b></div></div>${truckImage(page.images.range,`${item} ${LANG==='zh'?'驾驶室电气区域':'cab electrical zone'}`,'pcc-truck-opening-media')}</section><section class="pcc-truck-map">${chapters}</section><section class="pcc-rich-section pcc-rich-faq pcc-truck-faq"><header class="pcc-rich-heading"><h2>${heading('faq')}</h2></header><div class="pcc-faq-grid">${faq}</div></section><details class="pcc-media-credits"><summary>${htmlEscape(t(page.creditHeading))}</summary><ul>${credits}</ul></details>`;
+  }
+  if(page.layout==='construction-motion-field'){
+    const fieldImage=(src,alt,className='')=>`<figure class="pcc-construction-media ${className}"><img src="${htmlEscape(src)}" alt="${htmlEscape(alt)}" width="1400" height="960" loading="lazy" decoding="async"></figure>`;
+    const chapters=(page.chapters||[]).map((chapter,index)=>`<article class="pcc-construction-chapter pcc-construction-chapter-${index+1}"><div class="pcc-construction-meta"><span>${String(index+1).padStart(2,'0')}</span><p>${htmlEscape(t(chapter.kicker))}</p></div><div class="pcc-construction-copy"><h2>${htmlEscape(t(chapter.title))}</h2><p class="pcc-construction-summary">${htmlEscape(t(chapter.copy))}</p><div class="pcc-construction-points">${(chapter.points||[]).map(point=>`<section><h3>${htmlEscape(t(point.title))}</h3><p>${htmlEscape(t(point.copy))}</p></section>`).join('')}</div></div>${fieldImage(chapter.image,t(chapter.title))}</article>`).join('');
+    const faq=(page.faq||[]).map((entry,index)=>`<details${index===0?' open':''}><summary>${htmlEscape(t(entry.q))}</summary><p>${htmlEscape(t(entry.a))}</p></details>`).join('');
+    const credits=(page.mediaCredits||[]).map(entry=>`<li><a href="${htmlEscape(entry.url)}" target="_blank" rel="noopener">${htmlEscape(entry.file)}</a><span>${htmlEscape(entry.author)} · ${htmlEscape(entry.license)}</span></li>`).join('');
+    return `<section class="pcc-construction-opening">${fieldImage(page.images.range,`${item} ${LANG==='zh'?'工地运动环境':'worksite motion environment'}`,'pcc-construction-opening-media')}<div class="pcc-construction-opening-copy"><span>MACHINE / MOTION / EXPOSURE / SERVICE</span><h2>${heading('introduction')}</h2><p>${htmlEscape(t(page.lead))}</p><div class="pcc-construction-axis" aria-hidden="true"><b>${LANG==='zh'?'驾驶室':'CAB'}</b><i></i><b>${LANG==='zh'?'液压':'HYDRAULICS'}</b><i></i><b>${LANG==='zh'?'运动':'MOTION'}</b><i></i><b>${LANG==='zh'?'现场':'FIELD'}</b></div></div></section><section class="pcc-construction-sequence">${chapters}</section><section class="pcc-rich-section pcc-rich-faq pcc-construction-faq"><header class="pcc-rich-heading"><h2>${heading('faq')}</h2></header><div class="pcc-faq-grid">${faq}</div></section><details class="pcc-media-credits"><summary>${htmlEscape(t(page.creditHeading))}</summary><ul>${credits}</ul></details>`;
   }
   if(page.layout==='solar-energy-flow'){
     const solarImage=(src,alt,className='')=>`<figure class="pcc-solar-media ${className}"><img src="${htmlEscape(src)}" alt="${htmlEscape(alt)}" width="1400" height="960" loading="lazy" decoding="async"></figure>`;
