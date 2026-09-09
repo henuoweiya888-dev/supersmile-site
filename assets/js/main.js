@@ -378,7 +378,7 @@ async function loadData(){
     fetch('/data/products.json?v=20260831v7').then(r=>r.json()),
     fetch('/data/product-series.json?v=20260902v1').then(r=>r.json()),
     fetch('/data/product-capabilities.json?v=20260902v4').then(r=>r.json()),
-    fetch('/data/product-category-details.json?v=20260910v3').then(r=>r.json())
+    fetch('/data/product-category-details.json?v=20260910v4').then(r=>r.json())
   ]);
   SITE=s; PRODS=p; SERIES=series; CAPABILITIES=capabilities; CATEGORY_DETAILS=categoryDetails;
   applyEvidenceBoundaries();
@@ -1214,6 +1214,13 @@ function renderProductCategoryRichMarkup(page,item){
     const faq=(page.faq||[]).map((entry,index)=>`<details${index===0?' open':''}><summary>${htmlEscape(t(entry.q))}</summary><p>${htmlEscape(t(entry.a))}</p></details>`).join('');
     const credits=(page.mediaCredits||[]).map(entry=>`<li><a href="${htmlEscape(entry.url)}" target="_blank" rel="noopener">${htmlEscape(entry.file)}</a><span>${htmlEscape(entry.author)} · ${htmlEscape(entry.license)}</span></li>`).join('');
     return `<section class="pcc-video-opening">${frameImage(page.images.range,`${item} ${LANG==='zh'?'视频链路':'video link'}`,'pcc-video-opening-media')}<div class="pcc-video-opening-copy"><span>SOURCE / LINK / DISPLAY</span><h2>${heading('introduction')}</h2><p>${htmlEscape(t(page.lead))}</p></div></section><section class="pcc-video-sequence">${chapters}</section><section class="pcc-rich-section pcc-rich-faq pcc-video-faq"><header class="pcc-rich-heading"><h2>${heading('faq')}</h2></header><div class="pcc-faq-grid">${faq}</div></section><details class="pcc-media-credits"><summary>${htmlEscape(t(page.creditHeading))}</summary><ul>${credits}</ul></details>`;
+  }
+  if(page.layout==='power-load-path'){
+    const powerImage=(src,alt,className='')=>`<figure class="pcc-power-media ${className}"><img src="${htmlEscape(src)}" alt="${htmlEscape(alt)}" width="1200" height="900" loading="lazy" decoding="async"></figure>`;
+    const chapters=(page.chapters||[]).map((chapter,index)=>`<article class="pcc-power-chapter pcc-power-chapter-${index%4+1}"><div class="pcc-power-rail"><span>${String(index+1).padStart(2,'0')}</span><p>${htmlEscape(t(chapter.kicker))}</p></div>${powerImage(chapter.image,t(chapter.title))}<div class="pcc-power-copy"><h2>${htmlEscape(t(chapter.title))}</h2><p class="pcc-power-summary">${htmlEscape(t(chapter.copy))}</p><div class="pcc-power-points">${(chapter.points||[]).map(point=>`<section><h3>${htmlEscape(t(point.title))}</h3><p>${htmlEscape(t(point.copy))}</p></section>`).join('')}</div></div></article>`).join('');
+    const faq=(page.faq||[]).map((entry,index)=>`<details${index===0?' open':''}><summary>${htmlEscape(t(entry.q))}</summary><p>${htmlEscape(t(entry.a))}</p></details>`).join('');
+    const credits=(page.mediaCredits||[]).map(entry=>`<li><a href="${htmlEscape(entry.url)}" target="_blank" rel="noopener">${htmlEscape(entry.file)}</a><span>${htmlEscape(entry.author)} · ${htmlEscape(entry.license)}</span></li>`).join('');
+    return `<section class="pcc-power-opening"><div class="pcc-power-opening-copy"><span>SOURCE / LOAD / PROTECTION</span><h2>${heading('introduction')}</h2><p>${htmlEscape(t(page.lead))}</p></div>${powerImage(page.images.range,`${item} ${LANG==='zh'?'供电路径':'power path'}`,'pcc-power-opening-media')}</section><section class="pcc-power-sequence">${chapters}</section><section class="pcc-rich-section pcc-rich-faq pcc-power-faq"><header class="pcc-rich-heading"><h2>${heading('faq')}</h2></header><div class="pcc-faq-grid">${faq}</div></section><details class="pcc-media-credits"><summary>${htmlEscape(t(page.creditHeading))}</summary><ul>${credits}</ul></details>`;
   }
   const cards=(items,className='pcc-photo-notes',ordered=false)=>{
     const wrapper=ordered?'ol':'div';
