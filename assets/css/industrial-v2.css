@@ -215,6 +215,66 @@ body[data-category-key="cable-assembly-12"] .pcc-hero-media img{object-position:
   .pcc-aerospace-points{grid-template-columns:1fr;gap:13px;margin-top:14px}
 }
 
+/* Medical equipment assembly: a compact clinical atlas with calm hierarchy. */
+body[data-category-key="cable-assembly-13"] .pcc-hero{background:#0d1719;color:#f3f4ef}
+body[data-category-key="cable-assembly-13"] .pcc-hero-media:after{background:linear-gradient(90deg,rgba(6,14,16,.94),rgba(6,14,16,.62) 55%,rgba(6,14,16,.22))}
+body[data-category-key="cable-assembly-13"] .pcc-hero-media img{object-position:54% 48%;filter:saturate(.38) contrast(1.22) brightness(.58)}
+.pcc-medical-media{margin:0;overflow:hidden;background:#172326}
+.pcc-medical-media img{display:block;width:100%;height:100%;object-fit:cover;filter:saturate(.58) contrast(1.14) brightness(.86)}
+.pcc-medical-opening{display:grid;grid-template-columns:minmax(0,1.32fr) minmax(310px,.68fr);min-height:324px;padding:0;background:#dce5e5;color:#142124}
+.pcc-medical-opening-copy{align-self:center;padding:38px clamp(32px,5vw,80px)}
+.pcc-medical-opening-copy>span,.pcc-medical-heading>p{font-family:var(--font-mono);font-size:9px;line-height:1.42;letter-spacing:.16em;color:#316875;text-transform:uppercase}
+.pcc-medical-opening-copy h2{max-width:820px;margin:11px 0 12px;font-size:clamp(29px,3vw,46px);font-weight:520;line-height:1.04;letter-spacing:-.036em}
+.pcc-medical-opening-copy>p,.pcc-medical-summary,.pcc-medical-points p{margin:0;text-indent:2em}
+.pcc-medical-opening-copy>p{max-width:960px;color:#4d5d60;font-size:13.8px;line-height:1.8}
+.pcc-medical-opening-media{min-height:324px}
+.pcc-medical-opening-media img{object-position:52% 50%;filter:saturate(.45) contrast(1.18) brightness(.72)}
+.pcc-medical-spectrum{display:flex;align-items:center;gap:9px;max-width:610px;margin-top:21px;font-family:var(--font-mono);font-size:8px;letter-spacing:.1em;color:#506a70}
+.pcc-medical-spectrum i{height:1px;flex:1;background:linear-gradient(90deg,#51818b,#a25a45)}
+.pcc-medical-atlas{background:#f4f2ec}
+.pcc-medical-chapter{display:grid;grid-template-columns:minmax(245px,.78fr) minmax(220px,.7fr) minmax(0,1.52fr);grid-template-areas:"heading image copy";min-height:254px;border-bottom:1px solid rgba(24,42,46,.13)}
+.pcc-medical-heading{grid-area:heading;align-self:center;padding:27px 22px 27px clamp(26px,3.8vw,59px)}
+.pcc-medical-heading>span{display:block;margin-bottom:7px;font-family:var(--font-mono);font-size:15px;color:#45686f}
+.pcc-medical-heading>p{margin:0 0 9px}
+.pcc-medical-heading h2{margin:0;font-size:clamp(20px,1.86vw,29px);font-weight:540;line-height:1.1;letter-spacing:-.027em}
+.pcc-medical-chapter>.pcc-medical-media{grid-area:image;min-height:254px}
+.pcc-medical-copy{grid-area:copy;align-self:center;padding:27px clamp(28px,4.2vw,65px)}
+.pcc-medical-summary{max-width:1050px;color:#435155;font-size:13.4px;line-height:1.76}
+.pcc-medical-points{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px;margin-top:16px}
+.pcc-medical-points section{position:relative;padding-inline-start:13px}
+.pcc-medical-points section:before{content:"";position:absolute;inset-inline-start:0;top:3px;width:1px;height:31px;background:#45808c}
+.pcc-medical-points h3{margin:0 0 4px;font-size:12.8px;font-weight:650}
+.pcc-medical-points p{color:#687579;font-size:12px;line-height:1.64}
+.pcc-medical-chapter:nth-child(even){grid-template-columns:minmax(220px,.7fr) minmax(0,1.52fr) minmax(245px,.78fr);grid-template-areas:"image copy heading";background:#e3e8e6}
+.pcc-medical-chapter:nth-child(3n){grid-template-columns:minmax(245px,.78fr) minmax(0,1.52fr) minmax(220px,.7fr);grid-template-areas:"heading copy image"}
+.pcc-medical-chapter:nth-child(5n){background:#172629;color:#f1f2ed}
+.pcc-medical-chapter:nth-child(5n) .pcc-medical-heading>span{color:#c9dadb}
+.pcc-medical-chapter:nth-child(5n) .pcc-medical-summary,.pcc-medical-chapter:nth-child(5n) .pcc-medical-points p{color:rgba(241,242,237,.69)}
+.pcc-medical-chapter:nth-child(5n) .pcc-medical-points section:before{background:#7fa7ad}
+.pcc-medical-chapter:nth-child(1)>.pcc-medical-media img,.pcc-medical-chapter:nth-child(4)>.pcc-medical-media img,.pcc-medical-chapter:nth-child(9)>.pcc-medical-media img{object-position:center 38%}
+.pcc-medical-faq{padding-block:48px;background:#dfe7e6}
+@media(max-width:900px){
+  .pcc-medical-chapter,.pcc-medical-chapter:nth-child(even),.pcc-medical-chapter:nth-child(3n){grid-template-columns:176px minmax(0,1fr) 208px;grid-template-areas:"heading copy image";min-height:238px}
+  .pcc-medical-heading{padding:23px 17px}
+  .pcc-medical-copy{padding:23px}
+  .pcc-medical-chapter>.pcc-medical-media{min-height:238px}
+}
+@media(max-width:640px){
+  .pcc-medical-opening{display:flex;flex-direction:column-reverse;min-height:0}
+  .pcc-medical-opening-media{height:186px;min-height:0;margin-inline:calc(var(--v2-mobile-gutter)*-1)}
+  .pcc-medical-opening-copy{padding:27px var(--v2-mobile-gutter) 30px}
+  .pcc-medical-opening-copy h2{font-size:28px}
+  .pcc-medical-spectrum{gap:5px;font-size:7px}
+  .pcc-medical-chapter,.pcc-medical-chapter:nth-child(even),.pcc-medical-chapter:nth-child(3n){display:grid;grid-template-columns:1fr;grid-template-areas:"heading" "image" "copy";min-height:0;padding:0 var(--v2-mobile-gutter) 26px}
+  .pcc-medical-heading{padding:21px 0 11px}
+  .pcc-medical-heading>span{display:inline;margin-inline-end:9px;font-size:14px}
+  .pcc-medical-heading>p{display:inline}
+  .pcc-medical-heading h2{margin-top:8px;font-size:23px}
+  .pcc-medical-chapter>.pcc-medical-media{height:176px;min-height:0;margin-inline:calc(var(--v2-mobile-gutter)*-1)}
+  .pcc-medical-copy{padding:18px 0 0}
+  .pcc-medical-points{grid-template-columns:1fr;gap:13px;margin-top:14px}
+}
+
 /* Circular connector editorial atlas: dense technical reading with one unique photo per topic. */
 body.pcc-rich-page[data-category-key="cable-assembly-02"] #pcc-rich-content{
   --atlas-edge:clamp(28px,5.2vw,84px);
