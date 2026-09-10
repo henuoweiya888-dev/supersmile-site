@@ -1,4 +1,12 @@
 {
+  "specialty-01": {
+    "title":{"en":"32AWG Fine-Pitch Harnesses","zh":"32AWG 细间距线束"},
+    "intro":{"en":"Custom fine-pitch wire-to-board and compact sensor harnesses using project-approved 32AWG or other fine conductors.","zh":"采用项目认可的 32AWG 或其他细导体制作细间距板端与紧凑传感线束。"},
+    "knowledge":{"en":"Fine geometry requires exact control of contact, wire, stripping, crimping, insertion and strain relief.","zh":"精细几何需要准确控制触点、线材、剥线、压接、装壳与应力释放。"},
+    "notes":{"en":"Provide complete connector references, wire construction, circuit map, routing envelope and inspection limits.","zh":"提供完整接口料号、线材结构、回路图、布线包络与检验限值。"},
+    "delivery":{"en":"Approve the crimp setup, sample, magnified inspection and electrical test records before repeat production.","zh":"重复生产前确认压接设置、样品、放大检验与电气测试记录。"},
+    "page":{"layout":"fine-pitch-editorial","displayTitle":{"en":"32AWG Fine-Pitch Harnesses","zh":"32AWG 细间距线束"},"headings":{"introduction":{"en":"Small Geometry, Full Engineering Definition","zh":"尺寸更小，工程定义不能更少"},"faq":{"en":"Fine-Pitch Harness Questions","zh":"细间距线束常见问题"}},"subtitle":{"en":"Fine wire, micro terminals and controlled assembly","zh":"细导体、微型端子与受控装配"},"lead":{"en":"Define the complete miniature connection system.","zh":"定义完整微型连接体系。"},"images":{"range":"/assets/images/product-categories/stock/fine-pitch/opening.jpg"},"faq":[]}
+  },
   "connector-systems-14": {
     "title": {"en":"Littelfuse / Bussmann Fuse Harnesses","zh":"Littelfuse / Bussmann 保险丝线束"},
     "intro": {"en":"Custom fuse-holder, battery-feed and power-distribution harnesses built around specified Littelfuse or Eaton Bussmann components.","zh":"围绕指定 Littelfuse 或 Eaton Bussmann 元件制作熔断器座、电池馈电与配电线束。"},
