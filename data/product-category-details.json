@@ -1904,7 +1904,7 @@
       "layout":"truck-zone-map",
       "headings":{"introduction":{"en":"Engineer the Harness by Vehicle Zone, Circuit Duty and Service Access","zh":"按车辆分区、回路任务与维修可达性定义卡车线束"},"faq":{"en":"Truck Harness Questions","zh":"卡车线束常见问题"}},
       "subtitle":{"en":"Cab, chassis, powertrain, power distribution, lighting and rear equipment as one controlled system","zh":"把驾驶室、底盘、动力总成、配电、照明与车尾设备作为一套受控系统"},
-      "lead":{"en":"One truck platform can contain many harness families and configuration branches. The correct assembly is defined by vehicle architecture, installed options, load and route—not by connector appearance alone.","zh":"同一卡车平台可以包含多种线束家族与配置分支。正确组件由车辆架构、选装配置、负载与走线路径共同定义，不能只凭连接器外观判断。"},
+      "lead":{"en":"One truck platform can contain many harness families and configuration branches. The correct assembly is defined by vehicle architecture, installed options, load and route, not by connector appearance alone.","zh":"同一卡车平台可以包含多种线束家族与配置分支。正确组件由车辆架构、选装配置、负载与走线路径共同定义，不能只凭连接器外观判断。"},
       "creditHeading":{"en":"Image sources and licenses","zh":"图片来源与许可"},
       "images":{"hero":"/assets/images/product-categories/stock/truck/hero-heavy-truck.jpg","range":"/assets/images/product-categories/stock/truck/opening-cab-dashboard.jpg"},
       "chapters":[
