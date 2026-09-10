@@ -37,6 +37,19 @@ body[data-category-layout="technical-editorial"] .pcc-hero-media img{filter:satu
 .te-theme-navigation #technical-topic-6 .te-photo{grid-column:1}.te-theme-navigation #technical-topic-6 .te-copy{grid-column:2}
 .te-theme-navigation #technical-topic-6 .te-photo img{object-fit:contain;background:#e4e7e1}
 .te-theme-navigation .te-pair{background:#f1efe9}.te-theme-navigation .te-pair:nth-of-type(3){background:#e6e9e3}
+/* Signal-channel dossier: quiet blue-grey spreads and small connector cut-ins. */
+.te-theme-signal-channel{--te-tint:#dfe5e7;--te-accent:#ab4c31;--te-muted:#45535a}
+.te-theme-signal-channel .te-opening{grid-template-columns:minmax(0,1fr) 210px}
+.te-theme-signal-channel .te-opening .te-photo img{height:165px}
+.te-theme-signal-channel #technical-topic-0{grid-template-columns:270px minmax(0,1fr);padding-left:0;padding-right:var(--te-gutter)}
+.te-theme-signal-channel #technical-topic-0 .te-photo{grid-column:1}.te-theme-signal-channel #technical-topic-0 .te-copy{grid-column:2}
+.te-theme-signal-channel #technical-topic-1 .te-photo{width:150px}
+.te-theme-signal-channel #technical-topic-1 .te-photo img{height:150px;background:#f6f3e9}
+.te-theme-signal-channel #technical-topic-4{background:#e3e6e4}
+.te-theme-signal-channel #technical-topic-6 .te-photo img{object-fit:contain;background:#f7f7f4;height:155px}
+.te-theme-signal-channel .te-pair{background:#eeede6}
+.te-theme-signal-channel #technical-topic-9 .te-photo img{object-fit:contain;background:#dfe3e3}
+.te-theme-signal-channel #technical-topic-10 .te-photo img{object-fit:contain;background:#dfe3e3}
 @media(max-width:767px){
  body[data-category-layout="technical-editorial"] .pcc-hero-grid{min-height:0;padding-block:56px 32px}body[data-category-layout="technical-editorial"] .pcc-hero-copy h1{font-size:30px}
  .te-page{--te-gutter:16px}.te-page h2{font-size:21px}.te-page p{font-size:13px;line-height:1.85}
@@ -45,5 +58,6 @@ body[data-category-layout="technical-editorial"] .pcc-hero-media img{filter:satu
  .pcc-rich-page .te-page .te-opening>figure.te-photo{width:calc(100% + 32px);margin-inline:-16px}
  .te-page .te-photo img{height:155px}.te-opening .te-photo img{height:170px}
  .te-pair{display:block}.te-pair:after{display:none}.te-pair .te-topic:nth-child(2){background:#f1efe9}
- .te-theme-navigation .te-opening,.te-theme-navigation #technical-topic-6{display:flex;padding:23px 16px}
+ .te-theme-navigation .te-opening,.te-theme-navigation #technical-topic-6,.te-theme-signal-channel #technical-topic-0{display:flex;padding:23px 16px}
+ .te-theme-signal-channel #technical-topic-1 .te-photo{width:calc(100% + 32px)}
 }

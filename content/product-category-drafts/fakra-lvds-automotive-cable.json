@@ -1,0 +1,471 @@
+{
+  "key": "automotive-13",
+  "slug": "fakra-lvds-automotive-cable",
+  "title": {
+    "en": "Fakra / LVDS Automotive Cable",
+    "zh": "Fakra / LVDS汽车电缆"
+  },
+  "seoTitle": "FAKRA / LVDS Automotive Cable | HSD, Mini-FAKRA, Camera & Antenna Links | Super Smile",
+  "intro": {
+    "en": "Custom automotive antenna, camera and display interconnects, with FAKRA coaxial and HSD differential paths specified separately for the actual equipment.",
+    "zh": "面向车载天线、摄像头与显示设备定制连接组件，依据实际设备分别定义 FAKRA 同轴路径与 HSD 差分路径。"
+  },
+  "knowledge": {
+    "en": "Connector family, signaling method and cable impedance describe different parts of the link. A keyed housing is not proof of electrical compatibility.",
+    "zh": "连接器系列、信号方式与线缆阻抗描述链路的不同部分，带防错键的壳体不等于电气兼容证明。"
+  },
+  "notes": {
+    "en": "Provide exact connector codes, cable specification, channel requirements, serializer/deserializer references and any power-over-coax conditions.",
+    "zh": "请提供准确接头编码、线缆规格、通道要求、串行器与解串器型号，以及可能存在的同轴供电条件。"
+  },
+  "delivery": {
+    "en": "Confirm the complete channel, assembly geometry, sample checks and agreed RF or differential measurements before release.",
+    "zh": "放行前确认完整通道、装配形状、样件检查及约定的射频或差分测量。"
+  },
+  "page": {
+    "layout": "technical-editorial",
+    "theme": "signal-channel",
+    "headings": {
+      "introduction": {
+        "en": "Product Introduction",
+        "zh": "产品介绍"
+      },
+      "faq": {
+        "en": "FAKRA / LVDS Questions",
+        "zh": "FAKRA / LVDS 常见问题"
+      }
+    },
+    "subtitle": {
+      "en": "Identify the interface before defining the channel",
+      "zh": "先识别接口，再定义通道"
+    },
+    "lead": {
+      "en": "This category covers several automotive signal paths: coaxial antenna extensions, camera links, display connections and equipment adapters. Conventional FAKRA is a keyed coaxial connector system, normally used in a 50-ohm channel. HSD is a different, shielded differential interconnect system commonly associated with 100-ohm channels. LVDS describes an electrical signaling method, not a connector shape. A product called an automotive LVDS cable therefore needs an actual interface drawing and equipment reference. Super Smile develops the cable assembly around those requirements; similar colors or housings alone cannot establish compatibility between a camera, head unit and display.",
+      "zh": "本小类包含多种车载信号路径：同轴天线延长、摄像头连接、显示连接与设备转接。常规 FAKRA 是带防错键的同轴连接器体系，通常用于 50 Ω 通道；HSD 则是不同的屏蔽差分连接体系，常与 100 Ω 通道对应。LVDS 描述电气信号方式，并不是某种接头外形。因此，被称为车载 LVDS 线的产品仍需要实际接口图与设备型号。超斯迈尔围绕这些要求开发连接组件，仅凭相近线色或壳体外观，不能确认摄像头、主机与显示屏之间的兼容关系。"
+    },
+    "images": {
+      "hero": "/assets/images/product-categories/stock/fakra-lvds/hero.jpg",
+      "range": "/assets/images/product-categories/stock/fakra-lvds/range.jpg"
+    },
+    "openingCaption": {
+      "en": "A tailgate camera is one application; its actual interface and protocol still need verification.",
+      "zh": "尾门摄像头是应用之一，实际接口与协议仍需核对。"
+    },
+    "chapters": [
+      {
+        "id": "keying",
+        "style": "wide",
+        "title": {
+          "en": "Product Advantages: Click-In Fit and Mechanical Coding",
+          "zh": "产品优势：锁止配合与机械编码"
+        },
+        "copy": {
+          "en": "FAKRA combines a coaxial contact interface with a keyed plastic housing and latch. The code and the corresponding mating part belong on the drawing alongside cable length and exit direction. Color is a useful assembly aid, but it should not replace the part number or a check of the mechanical key. Straight, right-angle, sealed and unsealed versions solve different packaging problems. A positive latch does not remove the need for cable support, and service procedures must respect the permitted mating cycles. For adaptations between equipment generations, verify both sides rather than selecting a connector solely because it clicks into place.",
+          "zh": "FAKRA 将同轴接触界面与带键位、卡扣的塑料壳体结合。编码及对应对插件应和线长、出线方向一起标注在图纸中。颜色有助于装配识别，但不能替代料号和机械键位检查。直头、弯头、密封与非密封版本解决不同的安装问题。可靠锁止不能免除线缆支撑，维修还应遵守允许的插拔次数。连接不同代际设备时需要核对两端条件，不能只因为插入后能卡住，就认定连接器选对了。"
+        },
+        "image": "/assets/images/product-categories/stock/fakra-lvds/keying.jpg",
+        "caption": {
+          "en": "AI illustration of keyed coaxial housings; not a dimensional or mating reference.",
+          "zh": "带键位同轴壳体的 AI 示意，不作为尺寸或对插依据。"
+        }
+      },
+      {
+        "id": "coax",
+        "style": "inset-left",
+        "title": {
+          "en": "Material Recommendation: Electronic Wire and RF Coax",
+          "zh": "材料建议：电子线与射频同轴线"
+        },
+        "copy": {
+          "en": "The center conductor, dielectric and outer conductor define a coaxial transmission structure; the jacket adds environmental and mechanical protection. RG174, RG178 and RG316 are familiar small-cable references, not identical substitutes. Their materials, diameter, flexibility and attenuation differ. Select a cable approved for the chosen contact and ferrule dimensions, then review loss across the required band and installed length. A thick jacket does not prove a low-loss channel. Separate power wires are selected for their load and environment, while coax carrying power needs explicit current and bias-network review. Do not merge these requirements under one generic wire-gauge label.",
+          "zh": "中心导体、介质与外导体构成同轴传输结构，护套再提供环境和机械防护。RG174、RG178、RG316 是常见的小型线缆参考，不是完全相同的替代品，其材料、直径、柔性与衰减不同。应选用适配目标接点和压接套尺寸的线材，再审核所需频段及安装长度上的损耗。护套厚并不能证明通道低损耗。独立电源线依据负载与环境选型，而经同轴传送电源则需要明确电流与偏置网络审核，不能将这些要求合并成一个通用线规标签。"
+        },
+        "image": "/assets/images/product-categories/stock/fakra-lvds/coax.jpg",
+        "caption": {
+          "en": "A 3C-2V cross-section illustrates concentric layers, not a recommended 50-ohm automotive cable.",
+          "zh": "3C-2V 截面用于说明同心层结构，不代表推荐采用该线材作为 50 Ω 车载线。"
+        }
+      },
+      {
+        "id": "connector",
+        "style": "inset-right",
+        "title": {
+          "en": "FAKRA Connector: Contact, Housing and Shield Transition",
+          "zh": "FAKRA 连接器：接点、壳体与屏蔽过渡"
+        },
+        "copy": {
+          "en": "The full connector set includes more than the colored shell. Inner contact, dielectric support, outer contact, crimp sleeve, housing and any seal must belong to a compatible system. The transition should preserve the intended geometry with controlled strip lengths and no loose shield strands near the center conductor. TE FAKRA, Rosenberger FAKRA and Amphenol RF FAKRA are reference product families; exact parts and tooling still require review. Between-series adapters add another interface and its loss. A connector's published frequency capability is not automatically the bandwidth of an arbitrary finished cable, especially after additional adapters, bends or damaged terminations.",
+          "zh": "完整接头不仅是彩色外壳，还包括内接点、介质支撑、外接点、压接套、壳体及适用密封件，这些元件必须属于兼容系统。过渡位置需要受控剥线长度与几何形状，避免屏蔽散股靠近中心导体。TE FAKRA、Rosenberger FAKRA 与 Amphenol RF FAKRA 可作为产品系列参考，具体零件和工装仍需审核。跨系列转接会增加新的界面及其损耗。连接器公开的频率能力不会自动成为任意成品线缆的带宽，尤其在增加转接、弯折或端接受损之后。"
+        },
+        "image": "/assets/images/product-categories/stock/fakra-lvds/connector.jpg",
+        "caption": {
+          "en": "Bare SMB interfaces show a coaxial contact arrangement, without FAKRA coding housings.",
+          "zh": "裸 SMB 接口说明同轴接触排列，图中并无 FAKRA 编码壳体。"
+        }
+      },
+      {
+        "id": "polymer",
+        "style": "compact",
+        "title": {
+          "en": "Plastic Materials and Heat-Shrink Protection",
+          "zh": "塑料材料与热缩防护"
+        },
+        "copy": {
+          "en": "Housing stiffness, latch recovery and seal retention depend on the specified polymer and component design. A resin name alone does not establish oil resistance, flame behavior or temperature capability. Heat shrink can support a local transition or label area, but it should not obstruct latch operation or force a tight bend at the connector. Adhesive-lined tubing requires compatible surfaces and dimensions; adding it does not certify the whole assembly as waterproof. Define the mated state, cable entry and environmental test conditions. For cabin links, packaging and service access may matter more than adding unnecessary bulk around an already protected connector.",
+          "zh": "壳体刚性、卡扣回弹与密封保持取决于指定聚合物和零件设计，单凭树脂名称无法证明耐油、阻燃或温度能力。热缩材料可辅助局部过渡或标识区域，但不能挡住卡扣，也不能迫使线缆在接头根部急弯。带胶热缩管需要适配的表面与尺寸，加上一段热缩并不等于整套组件已经防水。应规定对插状态、线缆入口和环境试验条件。车内连接有时更应关注空间与维修可达性，而不是在已受保护的接头外继续增加体积。"
+        },
+        "image": "/assets/images/product-categories/stock/fakra-lvds/polymer.jpg",
+        "caption": {
+          "en": "Uncolored resin granules: material identity and validated properties must be specified separately.",
+          "zh": "未着色树脂颗粒；材料牌号与经验证性能需要另行规定。"
+        }
+      },
+      {
+        "id": "mini",
+        "style": "wide",
+        "title": {
+          "en": "Solution: Mini-FAKRA and Multi-Port Modules",
+          "zh": "解决方案：Mini-FAKRA 与多端口模块"
+        },
+        "copy": {
+          "en": "Multiple coaxial channels can be grouped into a compact connector block to reduce the number of separate housings and organize camera or antenna routes. Rosenberger HFM is one example of a miniaturized 50-ohm system. Mini-FAKRA is not a promise that every supplier's compact connector will mate with every other one. Specify family, cavity assignment, keying, cable references and any connector-position assurance. A four-channel block contains four defined paths; it is not an RF splitter that combines or duplicates one signal. Channel identification and branch lengths remain important when the bundle separates near individual cameras or sensors.",
+          "zh": "多个同轴通道可集中到紧凑接头模块中，减少独立壳体并整理摄像头或天线路线。Rosenberger HFM 是小型化 50 Ω 系统的一个例子。Mini-FAKRA 这一名称不保证不同供应商的紧凑接头都能互插。应明确系列、腔位分配、键位、线材及连接位置保证功能。四通道模块包含四条已定义路径，并不是将一路信号合并或复制的射频分配器。当线束在不同摄像头或传感器附近分开时，通道标识与分支长度仍然重要。"
+        },
+        "image": "/assets/images/product-categories/stock/fakra-lvds/mini.jpg",
+        "caption": {
+          "en": "A parking-camera display illustrates a camera channel; the pictured vehicle does not establish a Mini-FAKRA fitment.",
+          "zh": "泊车显示说明摄像头通道的用途，不据此认定图示车辆采用 Mini-FAKRA。"
+        }
+      },
+      {
+        "id": "adapters",
+        "style": "inset-left",
+        "title": {
+          "en": "FAKRA-to-SMB / SMA Adapter Assemblies",
+          "zh": "FAKRA 转 SMB / SMA 转接组件"
+        },
+        "copy": {
+          "en": "An adapter cable can connect a vehicle-side interface to receiver hardware or a measurement fixture, provided both electrical and mechanical requirements are known. Specify connector gender by the actual contact interface, not only the outer nut or housing. SMA and reverse-polarity SMA need particular care because appearance can mislead. A coding option intended for flexible test use should not erase production identification rules. Keep adapters short enough for the channel budget but long enough to prevent strain. The assembly changes the physical interface; it does not convert a radio frequency, video format or camera protocol into another standard.",
+          "zh": "转接线可以把车辆侧接口连接到接收硬件或测量夹具，前提是电气和机械条件都明确。接头公母应根据实际接触界面定义，不能只看外部螺帽或壳体。SMA 与反极性 SMA 尤其容易因外观判断错误。面向灵活测试使用的编码选项，不应消除生产中的识别规则。转接线既要满足通道预算，也要留出避免受力所需的长度。这类组件改变物理接口，不会将一种射频、视频格式或摄像头协议自动转换成另一种标准。"
+        },
+        "image": "/assets/images/product-categories/stock/fakra-lvds/adapters.jpg",
+        "caption": {
+          "en": "An SMA cable termination: verify the center contact as well as the outer coupling.",
+          "zh": "SMA 线缆端接：除外部连接结构外，还需核对中心接点。"
+        }
+      },
+      {
+        "id": "differential",
+        "style": "feature-right",
+        "title": {
+          "en": "LVDS and HSD: A Separate Differential Path",
+          "zh": "LVDS 与 HSD：独立的差分路径"
+        },
+        "copy": {
+          "en": "HSD systems use paired or star-quad conductors rather than a single coaxial center contact. The common RosenbergerHSD architecture is a shielded 100-ohm differential interconnect, with several power-contact and pair variants. Preserve pair assignment and polarity through the entire assembly; untwist, skew and an uncontrolled shield transition can affect the channel. LVDS, USB, Ethernet and automotive serialized-video interfaces have different electrical requirements even if related connector families appear in their installations. Obtain the equipment's interface specification before assigning pins. A FAKRA coax lead cannot become an HSD differential cable through a passive change of colored housing.",
+          "zh": "HSD 系统采用成对或星绞导体，而不是单一同轴中心接点。常见 RosenbergerHSD 架构是屏蔽的 100 Ω 差分连接，另有不同电源接点和线对变型。完整组件需要保持线对分配与极性，解绞、偏斜和失控的屏蔽过渡都可能影响通道。LVDS、USB、以太网和车载串行视频接口的电气要求不同，即使安装中出现相近的连接器系列也不能混用。分配针脚前需取得设备接口规格。FAKRA 同轴线不能通过被动更换彩色壳体就变成 HSD 差分线。"
+        },
+        "image": "/assets/images/product-categories/stock/fakra-lvds/differential.jpg",
+        "caption": {
+          "en": "Foil-shielded paired cable illustrates pair construction; it is not an automotive HSD assembly.",
+          "zh": "箔屏蔽线对说明成对导体结构，不是车载 HSD 成品组件。"
+        }
+      },
+      {
+        "id": "applications",
+        "style": "wide",
+        "title": {
+          "en": "Industries and Applications: Cameras, Displays and Antennas",
+          "zh": "行业与应用：摄像头、显示与天线"
+        },
+        "copy": {
+          "en": "Automotive applications include navigation antennas, radio receivers, telematics units, rear-view cameras, surround-view systems and display connections. The cable route may pass a headliner, dashboard, door or tailgate, each with different support and motion requirements. Industrial vision and test equipment can use related interconnects only when their interface specification supports them. FPD-Link III camera designs demonstrate that video, control and power may share coax in a defined serializer/deserializer system. That does not mean every coaxial camera accepts the same power or protocol. Confirm the active devices and full channel before replacing a camera lead with a visually similar cable.",
+          "zh": "车载应用包括导航天线、无线电接收器、通信终端、倒车摄像头、环视系统与显示连接。路线可能经过顶棚、仪表台、车门或尾门，各处的支撑和运动条件不同。工业视觉与测试设备只有在接口规格允许时，才能使用相关连接体系。FPD-Link III 摄像头设计说明，在规定的串行器与解串器系统中，视频、控制和电源可以共用同轴。但这不代表所有同轴摄像头接受相同电源或协议。更换外观相似的摄像头线之前，需要确认有源设备与完整通道。"
+        },
+        "image": "/assets/images/product-categories/stock/fakra-lvds/applications.jpg",
+        "caption": {
+          "en": "Rear-view display application; camera electronics determine the required channel.",
+          "zh": "倒车显示应用；所需通道由摄像头电子系统决定。"
+        }
+      },
+      {
+        "id": "integration",
+        "style": "inset-right",
+        "title": {
+          "en": "Integration Support and Vibration-Resistant Routing",
+          "zh": "集成支持与耐振布线"
+        },
+        "copy": {
+          "en": "A useful drawing includes datum-to-datum length, connector clocking, breakout position, mounting clips and service loops. Check the route with the door or tailgate moving through its intended travel rather than measuring only a closed position. Support should prevent the connector from carrying the weight or repeated pull of the cable. Bend limits depend on cable construction and whether motion is occasional or continuous. Verify sealed variants at exposed entries and avoid unnecessary intermediate adapters. Prototype installation can reveal packaging issues before production; a successful fit check complements, but does not replace, electrical channel validation.",
+          "zh": "有效图纸包含基准到基准的长度、接头转角、分支位置、固定夹与检修余量。需要检查车门或尾门在规定行程中的路线，而不是只测关闭位置。支撑应避免接头承受线缆重量或反复拉力。弯曲限制取决于线缆结构，以及运动是偶发还是持续。外露入口需确认密封版本，并避免不必要的中间转接。样件试装有助于在生产前发现空间问题；成功的装配检查可补充电气通道验证，但不能替代它。"
+        },
+        "image": "/assets/images/product-categories/stock/fakra-lvds/integration.jpg",
+        "caption": {
+          "en": "Moving tailgate routes need travel clearance and a supported service loop.",
+          "zh": "活动尾门路线需要行程间隙与有支撑的检修余量。"
+        }
+      },
+      {
+        "id": "process",
+        "style": "process",
+        "title": {
+          "en": "From Sketch to Shipment: Manufacturing and Customization",
+          "zh": "从草图到交付：制造与定制"
+        },
+        "copy": {
+          "en": "Requirement review establishes the application, interfaces and channel limits. Engineering then confirms the bill of materials, termination dimensions and inspection plan. Prototype assemblies can be used to check fit, signal behavior and installation access. During production, controlled stripping, contact assembly, shield termination and housing insertion preserve the released design. Labels identify channels without obscuring codes or latches. Inspection and packaging follow the agreed drawing, with protection for contacts and bend-sensitive exits. Repeatability comes from stable component references and process records; changing a cable or connector variant requires review even when the outside dimensions seem unchanged.",
+          "zh": "需求审核先确定应用、接口和通道限值，工程阶段再确认物料表、端接尺寸与检验计划。样件可用于检查配合、信号表现和装配操作空间。生产时通过受控剥线、接点装配、屏蔽端接及壳体插入保持已放行设计。标签识别通道，但不能遮挡编码与卡扣。检验和包装依据约定图纸执行，并保护接点及对弯折敏感的出线位置。重复一致性来自稳定的元件型号与工艺记录，即使外部尺寸没有明显变化，更换线材或接头版本也需要审核。"
+        },
+        "image": "/assets/images/product-categories/stock/fakra-lvds/process.jpg",
+        "caption": {
+          "en": "A hand stripping tool illustrates cable preparation; production tooling must match the cable and termination.",
+          "zh": "手动剥线工具说明线缆准备步骤，生产工装仍需适配线材与端接。"
+        }
+      },
+      {
+        "id": "testing",
+        "style": "compact",
+        "title": {
+          "en": "Signal Integrity and Finished-Assembly Verification",
+          "zh": "信号完整性与成品验证"
+        },
+        "copy": {
+          "en": "Basic checks establish continuity, correct mapping and absence of shorts. RF performance requires measurements appropriate to the channel, such as insertion loss and return loss over the agreed frequency range. Differential links may additionally require pair balance, skew or time-domain evaluation. Calibration and fixture effects matter: an adapter left outside the measurement reference plane can change the apparent result. A connector's maximum frequency is not a substitute for testing the assembled route. Environmental conditioning and retention checks are specified separately. Report actual results against agreed limits; neither a visible image on a screen nor a continuity beep proves every channel requirement.",
+          "zh": "基础检查确认导通、正确映射与无短路。射频性能需要适合该通道的测量，例如约定频段内的插入损耗和回波损耗。差分链路还可能需要线对平衡、偏斜或时域评估。校准与夹具影响很重要，测量参考面之外留下的转接件可能改变表观结果。连接器最高频率不能替代对已装配路线的验证。环境处理与保持力检查另行规定，并按约定限值报告实际结果。屏幕能显示画面或万用表蜂鸣，均不能证明所有通道要求已经满足。"
+        },
+        "image": "/assets/images/product-categories/stock/fakra-lvds/testing.jpg",
+        "caption": {
+          "en": "A compact vector network analyzer illustrates RF measurement, not a certified test result.",
+          "zh": "小型矢量网络分析仪用于说明射频测量，并非已认证试验结果。"
+        }
+      }
+    ],
+    "composition": [
+      {
+        "kind": "single",
+        "items": [
+          0
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          1
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          4
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          5
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          6
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          7,
+          8
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          9
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          10
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": {
+          "en": "Are FAKRA and automotive LVDS the same thing?",
+          "zh": "FAKRA 和车载 LVDS 是同一个概念吗？"
+        },
+        "a": {
+          "en": "No. FAKRA describes a coaxial connector family, while LVDS describes signaling. Determine whether the equipment requires coax, HSD differential wiring or another interface.",
+          "zh": "不是。FAKRA 描述同轴接头系列，LVDS 描述信号方式。应确认设备需要同轴、HSD 差分连接还是其他接口。"
+        }
+      },
+      {
+        "q": {
+          "en": "Does matching color prove compatibility?",
+          "zh": "颜色一致就代表兼容吗？"
+        },
+        "a": {
+          "en": "No. Confirm coding, contact interface, cable type and the electrical function on both sides. Color is an aid, not a complete specification.",
+          "zh": "不代表。还需确认两端编码、接触界面、线缆类型和电气功能。颜色只是辅助识别，不是完整规格。"
+        }
+      },
+      {
+        "q": {
+          "en": "Can a passive adapter convert a camera protocol?",
+          "zh": "无源转接线可以转换摄像头协议吗？"
+        },
+        "a": {
+          "en": "No. Protocol conversion requires compatible electronics. A cable adapter changes a physical connection and must preserve the required channel.",
+          "zh": "不能。协议转换需要兼容的电子设备，线缆转接改变物理连接，并需保持所要求的通道特性。"
+        }
+      },
+      {
+        "q": {
+          "en": "What do you need for a custom quotation?",
+          "zh": "定制报价需要哪些资料？"
+        },
+        "a": {
+          "en": "Provide equipment references, both mating connectors and codes, cable requirements, lengths, branch layout, environment, quantity and the required measurement plan.",
+          "zh": "请提供设备型号、两端对插件与编码、线缆要求、长度、分支布局、环境、数量及所需测量计划。"
+        }
+      }
+    ],
+    "creditHeading": {
+      "en": "Photo credits and technical references",
+      "zh": "图片来源与技术参考"
+    },
+    "mediaCredits": [
+      {
+        "file": "Toyota Prius C Infotainment Night.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Toyota_Prius_C_Infotainment_Night.jpg",
+        "author": "Andrepoiy",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "VW Rearview camera.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:VW_Rearview_camera.jpg",
+        "author": "Nozilla",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      {
+        "file": "3C-2V cable 5.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:3C-2V_cable_5.jpg",
+        "author": "Mx. Granger",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "file": "SMB-Steckverbinder.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:SMB-Steckverbinder.jpg",
+        "author": "DH4YM at German Wikipedia",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+        "file": "Uncolored plastic granules.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Uncolored_plastic_granules.jpg",
+        "author": "Rohini",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      {
+        "file": "Rearview Camera - 2013 Volvo XC60 (8381066418).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Rearview_Camera_-_2013_Volvo_XC60_(8381066418).jpg",
+        "author": "Michael Sheehan",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      {
+        "file": "Sma kabelsetecker rg174 1.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Sma_kabelsetecker_rg174_1.jpg",
+        "author": "KaiMartin",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      {
+        "file": "TwistedPair F-UTP.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:TwistedPair_F-UTP.jpg",
+        "author": "Hurzelchen",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+        "file": "2023 Audi A4 B9 Avant Allroad - infotainment screen (MMI display) back camera.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:2023_Audi_A4_B9_Avant_Allroad_-_infotainment_screen_(MMI_display)_back_camera.jpg",
+        "author": "Acgskup",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "file": "Toyota 2010 Matrix XRS Rear Tailgate Open.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Toyota_2010_Matrix_XRS_Rear_Tailgate_Open.jpg",
+        "author": "Tabercil from Canadian",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      {
+        "file": "Micro wire stripper.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:Micro_wire_stripper.JPG",
+        "author": "Varnav",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "file": "NanoVNA AIS-PassBand filter.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:NanoVNA_AIS-PassBand_filter.jpg",
+        "author": "Xofc",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "FAKRA keyed-coax illustration (AI)",
+        "url": "/assets/images/product-categories/stock/fakra-lvds/keying.jpg",
+        "author": "AI-generated for Super Smile",
+        "license": "AI illustration — not a product photograph"
+      },
+      {
+        "file": "RosenbergerHSD architecture",
+        "url": "https://www.rosenberger.com/product/rosenberger-hsd/",
+        "author": "Technical reference",
+        "license": "Linked reference; images not reproduced"
+      },
+      {
+        "file": "HFM multi-port system",
+        "url": "https://www.rosenberger.com/product/hfm-high-speed-fakra-mini/",
+        "author": "Technical reference",
+        "license": "Linked reference; images not reproduced"
+      },
+      {
+        "file": "FPD-Link III camera reference design",
+        "url": "https://www.ti.com/tool/TIDA-00262",
+        "author": "Technical reference",
+        "license": "Linked reference; images not reproduced"
+      },
+      {
+        "file": "FAKRA connector families",
+        "url": "https://www.amphenolrf.com/en-us/products/rf-connectors/fakra-connectors/",
+        "author": "Technical reference",
+        "license": "Linked reference; images not reproduced"
+      },
+      {
+        "file": "FAKRA adapter families",
+        "url": "https://www.amphenolrf.com/en-us/products/rf-adapters/fakra-adapters/",
+        "author": "Technical reference",
+        "license": "Linked reference; images not reproduced"
+      }
+    ],
+    "hasAiImages": true
+  }
+}
