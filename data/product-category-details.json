@@ -1,4 +1,12 @@
 {
+  "specialty-02": {
+    "title":{"en":"Molded Strain Relief","zh":"注塑应力消除"},
+    "intro":{"en":"Custom molded cable exits that manage pull, bend and torsion through coordinated geometry, resin compatibility, insert control and validation.","zh":"通过协同几何、树脂相容性、嵌件控制与验证，定制管理拉力、弯曲与扭转的注塑出线结构。"},
+    "knowledge":{"en":"A cable boot is a controlled mechanical transition between a rigid interface and a flexible cable.","zh":"线缆护套是刚性接口与柔性线缆之间的受控机械过渡。"},
+    "notes":{"en":"Provide insert and cable drawings, jacket construction, installed bend envelope, environment and test method.","zh":"提供嵌件与线缆图纸、护套结构、安装弯曲包络、环境与试验方法。"},
+    "delivery":{"en":"Approve tooling, first article, critical dimensions and mechanical/electrical evidence before repeat production.","zh":"重复生产前确认模具、首件、关键尺寸以及机械与电气证据。"},
+    "page":{"layout":"strain-relief-editorial","displayTitle":{"en":"Molded Strain Relief","zh":"注塑应力消除"},"headings":{"introduction":{"en":"A Small Boot Carries a Large Mechanical Job","zh":"一个小护套，承担完整的机械任务"},"faq":{"en":"Molded Strain-Relief Questions","zh":"注塑应力消除常见问题"}},"subtitle":{"en":"Load transfer, bend control and verified overmolding","zh":"载荷转移、弯曲控制与受验证包覆成型"},"lead":{"en":"Coordinate the cable, insert, resin, geometry and test plan as one system.","zh":"把线缆、嵌件、树脂、几何与试验计划作为一个系统协同。"},"images":{"range":"/assets/images/product-categories/stock/strain-relief/hero.jpg"},"faq":[]}
+  },
   "specialty-01": {
     "title":{"en":"32AWG Fine-Pitch Harnesses","zh":"32AWG 细间距线束"},
     "intro":{"en":"Custom fine-pitch wire-to-board and compact sensor harnesses using project-approved 32AWG or other fine conductors.","zh":"采用项目认可的 32AWG 或其他细导体制作细间距板端与紧凑传感线束。"},
