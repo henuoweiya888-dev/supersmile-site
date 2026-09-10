@@ -138,7 +138,39 @@ body[data-category-layout="technical-editorial"] .pcc-hero-media img{filter:satu
 .te-theme-rugged-connections #technical-topic-7 .te-photo img{height:165px;object-fit:cover}
 .te-theme-rugged-connections #technical-topic-8{grid-template-columns:minmax(0,1fr) 155px}.te-theme-rugged-connections #technical-topic-8 .te-photo img{height:180px;object-fit:contain;background:#eef0e9}
 .te-theme-rugged-connections #technical-topic-9{grid-template-columns:210px minmax(0,1fr);background:#f1efe9}.te-theme-rugged-connections #technical-topic-9 .te-photo img{height:160px;object-fit:contain}
+/* Vehicle interfaces: a compact systems journal, with longer routing notes and small documentary cut-ins. */
+.te-theme-vehicle-interface{--te-tint:#dfe4e2;--te-accent:#a54b30;--te-muted:#46534f}
+.te-theme-vehicle-interface .te-opening{grid-template-columns:205px minmax(0,1fr);padding-left:0;padding-right:var(--te-gutter);gap:30px;background:#e8e5dd}
+.te-theme-vehicle-interface .te-opening>figure{grid-column:1;grid-row:1}.te-theme-vehicle-interface .te-opening>div{grid-column:2;grid-row:1}
+.te-theme-vehicle-interface .te-opening .te-photo img{height:180px;object-fit:contain;background:#e8e5dd}
+.te-theme-vehicle-interface .te-index{margin-bottom:5px}
+.te-theme-vehicle-interface #technical-topic-0{grid-template-columns:minmax(0,1fr) 190px;padding-block:24px}
+.te-theme-vehicle-interface #technical-topic-0 .te-photo img{height:175px}
+.te-theme-vehicle-interface .te-pair{background:#e5e8e3}.te-theme-vehicle-interface .te-pair .te-photo{width:150px;margin-top:32px}
+.te-theme-vehicle-interface .te-pair .te-photo img{height:150px;object-fit:cover}
+.te-theme-vehicle-interface #technical-topic-3{grid-template-columns:205px minmax(0,1fr);padding-left:0;padding-right:var(--te-gutter);background:#ece9e1}
+.te-theme-vehicle-interface #technical-topic-3 .te-photo{grid-column:1}.te-theme-vehicle-interface #technical-topic-3 .te-copy{grid-column:2}
+.te-theme-vehicle-interface #technical-topic-3 .te-photo img{object-fit:contain;height:160px;background:#ece9e1}
+.te-theme-vehicle-interface #technical-topic-4{grid-template-columns:minmax(0,1fr) 200px}
+.te-theme-vehicle-interface #technical-topic-4 .te-photo img{object-fit:contain;height:165px}
+.te-theme-vehicle-interface #technical-topic-7{grid-template-columns:235px minmax(0,1fr);padding-left:0;padding-right:var(--te-gutter)}
+.te-theme-vehicle-interface #technical-topic-7 .te-photo{grid-column:1}.te-theme-vehicle-interface #technical-topic-7 .te-copy{grid-column:2}
+.te-theme-vehicle-interface #technical-topic-7 .te-photo img{object-fit:contain;height:165px;background:#e4e5df}
+.te-theme-vehicle-interface #technical-topic-8{background:#ebe8e0;grid-template-columns:minmax(0,1fr) 185px}
+.te-theme-vehicle-interface #technical-topic-9{grid-template-columns:155px minmax(0,1fr);gap:28px;background:#f1efe9}
+.te-theme-vehicle-interface #technical-topic-9 .te-photo img{object-fit:contain;height:160px;background:#f4f3ed}
+.te-theme-vehicle-interface #technical-topic-12 .te-photo{width:150px;margin-top:4px}.te-theme-vehicle-interface #technical-topic-12 .te-photo img{height:155px;object-fit:contain}
+.te-theme-vehicle-interface #technical-topic-15 .te-photo{width:220px;margin-top:4px}.te-theme-vehicle-interface #technical-topic-15 .te-photo img{object-fit:cover;height:170px}
+.te-theme-vehicle-interface #technical-topic-16{background:#e0e5e2;grid-template-columns:minmax(0,1fr) 200px}
+.te-theme-vehicle-interface #technical-topic-19{grid-template-columns:230px minmax(0,1fr);padding-left:0;padding-right:var(--te-gutter);background:#ece9e0}
+.te-theme-vehicle-interface #technical-topic-19 .te-photo{grid-column:1}.te-theme-vehicle-interface #technical-topic-19 .te-copy{grid-column:2}
+.te-theme-vehicle-interface #technical-topic-19 .te-photo img{object-fit:contain;height:140px;background:#f6f5ee}
+.te-theme-vehicle-interface #technical-topic-20 .te-photo{width:185px;margin-top:4px}.te-theme-vehicle-interface #technical-topic-20 .te-photo img{object-fit:cover;height:170px}
+.te-theme-vehicle-interface #technical-topic-21{background:#f1efe9;grid-template-columns:minmax(0,1fr) 215px}
+.te-theme-vehicle-interface #technical-topic-22{grid-template-columns:160px minmax(0,1fr);background:#dfe4e2}.te-theme-vehicle-interface #technical-topic-22 .te-photo img{height:175px}
 @media(max-width:767px){
+ .te-theme-vehicle-interface .te-opening,.te-theme-vehicle-interface #technical-topic-3,.te-theme-vehicle-interface #technical-topic-7,.te-theme-vehicle-interface #technical-topic-19{display:flex;padding:23px 16px}
+ .te-theme-vehicle-interface .te-pair .te-photo,.te-theme-vehicle-interface #technical-topic-12 .te-photo,.te-theme-vehicle-interface #technical-topic-15 .te-photo,.te-theme-vehicle-interface #technical-topic-20 .te-photo{width:calc(100% + 32px);margin:16px -16px 0}
  .te-theme-rugged-connections #technical-topic-0{display:flex;padding:23px 16px}
  .te-theme-rugged-connections .te-pair .te-photo,.te-theme-rugged-connections #technical-topic-7 .te-photo{width:calc(100% + 32px);margin:16px -16px 0}
  body[data-category-layout="technical-editorial"] .pcc-hero-grid{min-height:0;padding-block:56px 32px}body[data-category-layout="technical-editorial"] .pcc-hero-copy h1{font-size:30px}

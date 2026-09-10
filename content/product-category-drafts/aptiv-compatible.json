@@ -1,0 +1,808 @@
+{
+  "key": "connector-systems-05",
+  "slug": "aptiv-compatible",
+  "title": {
+    "en": "Aptiv / Delphi Compatible Harnesses",
+    "zh": "Aptiv／Delphi 兼容线束"
+  },
+  "seoTitle": "Custom Aptiv Delphi Wire Harnesses | Weather-Pack, Metri-Pack & GT | Super Smile",
+  "intro": {
+    "en": "Custom Aptiv-interface harnesses for vehicle and equipment projects, with defined circuits, materials, routing and inspection.",
+    "zh": "面向车辆与设备项目的 Aptiv 接口定制线束，明确回路、材料、布线与检验要求。"
+  },
+  "knowledge": {
+    "en": "Weather-Pack, Metri-Pack and GT are distinct systems; match the complete mating references.",
+    "zh": "Weather-Pack、Metri-Pack 与 GT 是不同系统，需匹配完整对插型号。"
+  },
+  "notes": {
+    "en": "Confirm part references, pin mapping, wire dimensions, environment and quantities.",
+    "zh": "确认零件料号、针脚映射、线材尺寸、环境与数量。"
+  },
+  "delivery": {
+    "en": "Approve the BOM, tooling and first article before repeat production.",
+    "zh": "认可物料表、工装和首件后，再开展重复生产。"
+  },
+  "page": {
+    "displayTitle": {"en":"Aptiv / Delphi Compatible Harnesses","zh":"Aptiv／Delphi 兼容线束"},
+    "layout": "technical-editorial",
+    "theme": "vehicle-interface",
+    "headings": {
+      "introduction": {
+        "en": "About Aptiv / Delphi Wiring Harnesses",
+        "zh": "关于 Aptiv／Delphi 线束"
+      },
+      "faq": {
+        "en": "Engineering and Procurement Questions",
+        "zh": "工程与采购常见问题"
+      }
+    },
+    "subtitle": {
+      "en": "A connection family is the starting point, not the whole specification",
+      "zh": "连接系列是起点，不是完整规格"
+    },
+    "lead": {
+      "en": "Aptiv-interface cable assemblies connect power, sensing and control functions across vehicle and equipment architectures. This category includes sealed branches, powertrain looms, extension leads and project-reviewed high-voltage assemblies. Super Smile develops the requested harness from drawings, samples or confirmed mating references. The approved BOM identifies original branded components and any separately proposed alternatives. The following guide moves from connector families to manufacturing, applications and platform routing so an enquiry can describe the complete assembly rather than a connector photograph alone.",
+      "zh": "Aptiv 接口电缆组件在车辆与设备架构中连接供电、感知和控制功能，本类包含密封分支、动力总成线束、延长线，以及经项目审核的高压组件。超斯迈尔依据图纸、样品或明确对插型号开发所需线束，认可物料表区分原厂品牌件与另行提出的替代方案。以下从接口系列讲到制造、应用及平台布线，使询价能够描述完整组件，而不只提供一张接头照片。"
+    },
+    "images": {
+      "hero": "/assets/images/product-categories/stock/aptiv/hero.jpg",
+      "range": "/assets/images/product-categories/stock/aptiv/range.jpg"
+    },
+    "openingCaption": {
+      "en": "A vehicle instrument-cluster harness illustrates branch and connector diversity; not an Aptiv part identification.",
+      "zh": "车辆仪表线束展示分支与接头差异，不作为 Aptiv 料号识别依据。"
+    },
+    "chapters": [
+      {
+        "id": "classic",
+        "style": "wide",
+        "title": {
+          "en": "Classic Connector Families",
+          "zh": "经典连接器系列"
+        },
+        "copy": {
+          "en": "Aptiv is not a single mating interface. Weather-Pack, Metri-Pack and GT describe different connection systems. Metri-Pack includes sealed and unsealed arrangements; an unsealed M/P 150 housing must not inherit a waterproof claim from another family member. GT 150 and GT 280 are useful catalogue search terms, not permission to substitute terminals or housings. Identify the complete male and female references, cavity layout, keying, contact finish and lock accessories. Keep a photograph for recognition, but release production against a controlled drawing and bill of materials.",
+          "zh": "Aptiv 不是一种统一对插接口。Weather-Pack、Metri-Pack 和 GT 分别描述不同连接系统。Metri-Pack 包含密封与非密封配置，非密封 M/P 150 胶壳不能沿用其他系列成员的防水宣称。GT 150、GT 280 是有用的目录检索词，并不意味着端子或胶壳可以互换。应识别完整公母料号、腔位排列、键位、接点镀层与锁止附件。照片用于识别，生产放行则依据受控图纸和物料表。"
+        },
+        "image": "/assets/images/product-categories/stock/aptiv/classic.jpg",
+        "caption": {
+          "en": "Super Smile terminated leads: identify housings and contacts by the approved BOM, not appearance alone.",
+          "zh": "超斯迈尔端接线实拍：依据认可物料表识别胶壳与端子，不只看外观。"
+        }
+      },
+      {
+        "id": "sealed",
+        "style": "feature-left",
+        "title": {
+          "en": "Product Series: Sealed Harnesses",
+          "zh": "产品系列：密封线束"
+        },
+        "copy": {
+          "en": "A sealed branch is a system of matched housing, interface seal, wire seals, contacts and unused-cavity treatment. The seal grips the insulation outside diameter, while the crimp grips the conductor; specifying AWG alone does not settle both requirements. Weather-Pack or a specified sealed Metri-Pack arrangement may suit an exposed branch when its approved application conditions match the project. Define the mated state, rear support, fluid exposure and required test method. A dust cap or rubber boot does not by itself convert an unsealed connector into a qualified sealed assembly.",
+          "zh": "密封分支由匹配胶壳、界面密封、线封、端子及空腔处理共同构成。线封贴合绝缘外径，压接部位连接导体，仅指定 AWG 不能同时解决两个要求。Weather-Pack 或指定密封 Metri-Pack 配置，在认可应用条件与项目相符时可用于暴露分支。需明确对插状态、后部支撑、油液暴露和所需试验方法。单独加防尘盖或橡胶护套，不能把非密封接头变成经过鉴定的密封组件。"
+        },
+        "image": "/assets/images/product-categories/stock/aptiv/sealed.jpg",
+        "caption": {
+          "en": "Heavy rain illustrates exposure; it is not a waterproof test or a rating for an assembly.",
+          "zh": "暴雨展示使用环境，不代表组件已完成防水试验或取得防护等级。"
+        }
+      },
+      {
+        "id": "powertrain",
+        "style": "inset-right",
+        "title": {
+          "en": "Product Series: Powertrain Harnesses",
+          "zh": "产品系列：动力总成线束"
+        },
+        "copy": {
+          "en": "An engine and transmission loom combines circuits with very different jobs: temperature and pressure sensing, ignition control, solenoid actuation and auxiliary loads. Define each connection from the approved equipment interface rather than treating all branches alike. Routing near exhaust surfaces, moving pulleys or service covers requires local protection and deliberate support. Heat sleeve selection must consider the cable beneath it and the duration of exposure. Document breakout locations, connector orientation and permitted movement so the replacement assembly can be installed without pulling on contacts or obstructing maintenance.",
+          "zh": "发动机与变速箱线束集成温压检测、点火控制、电磁阀驱动和辅助负载等不同任务。每个连接均应从设备认可接口出发定义，不能把所有分支同等处理。靠近排气热表面、运动皮带轮或检修盖的位置需要局部防护与合理支撑。隔热套选型应考虑内部电缆及暴露持续时间。记录分支位置、接头朝向和允许运动，使组件安装时不牵拉端子，也不妨碍维护。"
+        },
+        "image": "/assets/images/product-categories/stock/aptiv/powertrain.jpg",
+        "caption": {
+          "en": "An installed engine-control module shows the crowded routing around powertrain electronics.",
+          "zh": "实车发动机控制模块周边的紧凑布线空间。"
+        }
+      },
+      {
+        "id": "high-voltage",
+        "style": "compact",
+        "title": {
+          "en": "Product Series: High-Voltage Harnesses",
+          "zh": "产品系列：高压线束"
+        },
+        "copy": {
+          "en": "High-voltage work starts with a project review, not an orange cable. Aptiv ShieldPack references such as HV280 identify systems with specific contact, sealing, shielding and interlock options. The selected connector must be checked against voltage, current, conductor size, clearance, creepage and installation constraints. HVIL routing and shield termination belong in the drawing when required. Component literature does not certify the finished harness. High-voltage manufacture and verification are accepted only after the material specification, tooling, safety process and inspection scope have been confirmed for the project.",
+          "zh": "高压项目从能力审核开始，而不是从一根橙色电缆开始。Aptiv ShieldPack HV280 等名称描述具有特定接点、密封、屏蔽与互锁选项的系统。所选接头需结合电压、电流、导体截面、电气间隙、爬电距离及安装限制核对；需要时，将 HVIL 布线和屏蔽端接纳入图纸。零件资料不等于成品线束认证。高压制造与验证须在材料规范、工装、安全流程及检验范围得到项目确认后开展。"
+        },
+        "image": "/assets/images/product-categories/stock/aptiv/high-voltage.jpg",
+        "caption": {
+          "en": "A traction-battery pack illustrates the scale of the high-voltage system review.",
+          "zh": "动力电池包展示高压系统需要整体审核的范围。"
+        }
+      },
+      {
+        "id": "extended",
+        "style": "wide",
+        "title": {
+          "en": "Product Series: Custom Extended Harnesses",
+          "zh": "产品系列：定制延长线束"
+        },
+        "copy": {
+          "en": "Extending a cable changes more than its length. Additional conductor resistance affects voltage drop and heating; an added signal segment can also change capacitance, shielding continuity or communication behaviour. Define the original and new mating interfaces, pin-to-pin map, installed route and maximum load before choosing wire construction. Place service loops where they are supported, not where they can snag or chafe. For data circuits, obtain the protocol and channel requirements. A successful continuity test alone does not prove that an extended sensor or communications link will perform correctly in the equipment.",
+          "zh": "延长电缆改变的不只是长度。增加的导体电阻影响压降与发热，信号段延长还可能改变电容、屏蔽连续性或通信表现。选线前应明确原有与新增接口、逐针映射、安装路线及最大负载。维修余量应布置在有支撑的位置，避免挂碰或磨损。数据回路需取得协议和链路要求，仅通过导通测试不能证明延长后的传感器或通信连接在设备中正常运行。"
+        },
+        "image": "/assets/images/product-categories/stock/aptiv/extended.jpg",
+        "caption": {
+          "en": "A wired inverter assembly illustrates defined branch lengths and termination positions.",
+          "zh": "已布线的逆变器组件展示分支长度与端接位置的定义。"
+        }
+      },
+      {
+        "id": "vehicle-solutions",
+        "style": "feature-right",
+        "title": {
+          "en": "Custom Solutions for Vehicle Platforms",
+          "zh": "车辆平台定制方案"
+        },
+        "copy": {
+          "en": "Passenger, commercial and special vehicles can share some connector families while requiring different harness designs. Start with the platform drawing, mounting points, variant list and service strategy. Separate common trunk wiring from optional branches so a missing feature does not leave an uncontrolled open circuit. Confirm the polarity and pin assignment even when two housings mate mechanically. Super Smile can review a defined assembly or replacement sub-harness against customer data; compatibility is tied to the approved configuration, not to a broad claim covering every vehicle carrying an Aptiv component.",
+          "zh": "乘用车、商用车和专用车辆可能使用相同接头系列，却需要不同线束设计。应从平台图纸、安装点、配置清单与维修策略出发，区分共用主干与选装分支，避免缺少某项功能时留下未定义的开路。即使两个胶壳机械上能够对插，也要核对极性和针位。超斯迈尔可依据客户资料审核明确组件或替换子线束，兼容性对应认可配置，不笼统覆盖所有使用 Aptiv 零件的车型。"
+        },
+        "image": "/assets/images/product-categories/stock/aptiv/vehicle-solutions.jpg",
+        "caption": {
+          "en": "Dashboard assembly shows why service access and installation sequence matter.",
+          "zh": "仪表台装配场景说明检修空间与安装顺序的重要性。"
+        }
+      },
+      {
+        "id": "ev-solutions",
+        "style": "inset-left",
+        "title": {
+          "en": "Custom Solutions for Electric Vehicles",
+          "zh": "电动车定制方案"
+        },
+        "copy": {
+          "en": "An electric platform contains low-voltage sensing and control as well as high-voltage power distribution. Keep these systems distinct in drawings, identification and verification. A battery-temperature branch, coolant-pump lead and traction-power connection do not use the same qualification assumptions. Specify grounding, shielding, interlock functions and the required connector coding where applicable. Assembly review should include the service disconnect sequence and the space needed to operate locks. We assess the requested cable assembly within the supplied vehicle architecture; battery safety or whole-vehicle certification cannot be inferred from one connector selection.",
+          "zh": "电动平台既有低压感知与控制，也有高压配电，图纸、标识和验证中应将两类系统清楚区分。电池温度分支、冷却泵线与牵引供电连接不能采用相同的鉴定假设。按需要规定接地、屏蔽、互锁功能及接头编码，装配审核也应考虑维修断开顺序和锁扣操作空间。我们在客户提供的车辆架构内评估所需电缆组件，不从单个接头选型推导电池安全或整车认证。"
+        },
+        "image": "/assets/images/product-categories/stock/aptiv/ev-solutions.jpg",
+        "caption": {
+          "en": "Electric-drive power electronics: a reference for interface and shielding discussions.",
+          "zh": "电驱动功率电子装置，用于理解接口与屏蔽需求。"
+        }
+      },
+      {
+        "id": "industrial-solutions",
+        "style": "wide",
+        "title": {
+          "en": "Custom Solutions for Industrial Equipment",
+          "zh": "工业设备定制方案"
+        },
+        "copy": {
+          "en": "A machine harness may join valve manifolds, limit switches, pumps, motor controllers and operator controls. Record which connections move and which remain fixed. The connector supports a serviceable interface, while clamps and cable construction manage mechanical loads along the route. Oil, cleaning agents, dust and repeated bending should be considered independently. For a replacement assembly, inspect the mating device and the installed branch geometry rather than copying a loose cable's relaxed shape. Drawings should identify the reference point for each length so installation and inspection use the same dimensions.",
+          "zh": "设备线束可连接阀岛、限位开关、泵、电机控制器和操作部件，应记录哪些连接运动、哪些固定。接头提供便于维护的接口，沿线机械载荷则由卡箍和电缆结构管理。油液、清洁剂、粉尘与反复弯曲需分别评估。替换组件应检查对插设备与安装后的分支几何，而不是照抄散线自然松弛形状。图纸应指出每个长度的测量基准，使安装与检验使用同一尺寸定义。"
+        },
+        "image": "/assets/images/product-categories/stock/aptiv/industrial-solutions.jpg",
+        "caption": {
+          "en": "ESO safety-PLC technology demonstrator, shown as an industrial-control reference.",
+          "zh": "ESO 安全 PLC 技术演示装置，作为工业控制应用参考。"
+        }
+      },
+      {
+        "id": "legacy",
+        "style": "compact",
+        "title": {
+          "en": "Aptiv and the Former Delphi Name",
+          "zh": "Aptiv 与原 Delphi 名称"
+        },
+        "copy": {
+          "en": "Delphi Automotive announced the Aptiv name for its mobility business in 2017 as part of the separation from Delphi Technologies. Legacy drawings, moulded markings and purchasing records may therefore use different names. A historical brand name is helpful for searching, but it is not a substitute for the complete part reference and current drawing revision. Cross-check superseded numbers, mating parts and terminal requirements in the manufacturer's catalogue. Keep the approved original part and any proposed alternative separate on the BOM. This page describes interface options and does not imply that Super Smile is an authorized Aptiv distributor.",
+          "zh": "Delphi Automotive 在 2017 年的业务分拆安排中宣布，其移动业务采用 Aptiv 名称，与 Delphi Technologies 区分。因此旧图纸、模压标记和采购记录可能使用不同名称。历史品牌名有助于检索，但不能替代完整料号与当前图纸版本。应在制造商目录核对替代料号、对插件及端子要求，在物料表中区分认可原件与拟议替代件。本页描述接口选项，不表示超斯迈尔是 Aptiv 授权分销商。"
+        },
+        "image": "/assets/images/product-categories/stock/aptiv/legacy.jpg",
+        "caption": {
+          "en": "Delphi power-converter demonstration, 2012; historical context, not a current product offer.",
+          "zh": "2012 年 Delphi 功率转换器演示，仅作历史背景，不代表当前供货产品。"
+        }
+      },
+      {
+        "id": "advantages",
+        "style": "feature-left",
+        "title": {
+          "en": "Core Advantages: A Defined Connection System",
+          "zh": "核心优势：完整定义连接系统"
+        },
+        "copy": {
+          "en": "The practical value of a custom harness is controlled fit and repeatability. Matched interfaces reduce assembly ambiguity; suitable seals and protection address the actual environment; correct conductor and contact choices support the electrical duty. Weight can be reduced through route planning rather than by removing necessary copper or protection. These benefits depend on engineering decisions and process control, not on a brand name alone. We document the mating system, circuit map, dimensions and inspection criteria so purchasing, assembly and maintenance teams work from the same agreed configuration.",
+          "zh": "定制线束的实际价值在于装配匹配与重复一致性。匹配接口减少装配歧义，合适密封和防护针对实际环境，正确导体与接点选择支持电气工况。减重可通过路线规划实现，而不是删减必要铜材或防护。这些收益来自工程决策与过程控制，不只来自品牌名称。我们记录对插系统、回路图、尺寸与检验标准，让采购、装配和维护团队使用同一认可配置。"
+        },
+        "image": "/assets/images/product-categories/stock/aptiv/advantages.jpg",
+        "caption": {
+          "en": "Cable-entry bend protection illustrates the mechanical side of a defined connection system.",
+          "zh": "电缆引入处的弯曲防护，展示连接系统的机械防护环节。"
+        }
+      },
+      {
+        "id": "production",
+        "style": "process",
+        "title": {
+          "en": "Production: Controlled Termination",
+          "zh": "生产：受控端接工艺"
+        },
+        "copy": {
+          "en": "Release wire cutting and stripping only after the conductor, insulation and terminal specification is settled. Use the contact-specific application instruction to set strip length, crimp tooling and the acceptance criteria. Inspect strands for damage and verify conductor capture and insulation support where the terminal design provides it. After insertion, confirm cavity assignment and terminal retention before closing secondary locks. A similar-looking terminal can need a different applicator or setting. Keep tooling and drawing revisions linked to the job so repeat batches do not inherit an undocumented adjustment.",
+          "zh": "导体、绝缘与端子规格明确后，再放行裁线和剥皮。依据端子专用应用说明确定剥皮长度、压接工具和判定标准，检查线股损伤、导体包覆，以及端子设计提供的绝缘支撑。插入后先确认腔位分配和端子保持，再闭合二次锁。外观相近的端子可能需要不同模具或设置。将工装与图纸版本关联到工单，防止后续批次沿用未记录的调整。"
+        },
+        "image": "/assets/images/product-categories/stock/aptiv/production.jpg",
+        "caption": {
+          "en": "Super Smile production workstation; tooling is confirmed for the specified terminal.",
+          "zh": "超斯迈尔生产工位实拍，工装按指定端子确认。"
+        }
+      },
+      {
+        "id": "quality",
+        "style": "wide",
+        "title": {
+          "en": "Quality Inspection Across the Assembly",
+          "zh": "贯穿装配的质量检查"
+        },
+        "copy": {
+          "en": "Incoming checks identify the specified housings, terminals, seals and wire construction. In-process checks address strip quality, termination, cavity position and branch dimensions. Final electrical verification follows the agreed circuit map, including intended splices, blank cavities and any fitted components. Continuity is not a measurement of insulation resistance, sealing or communication performance. Additional tests must be specified with conditions and acceptance limits. Record the first-article results and agree how repeat production will be sampled or checked, rather than presenting a generic test list as evidence that every test has already been performed.",
+          "zh": "来料检查识别指定胶壳、端子、密封件与线材结构；过程检查覆盖剥皮、端接、腔位和分支尺寸；最终电气验证依据约定回路图，包括设计并线、空腔及装入元件。导通检查不是绝缘电阻、密封或通信性能测量。附加试验须明确条件和判定限值，记录首件结果并约定重复生产的抽样或检查方式，不把通用测试清单当作所有试验已完成的证据。"
+        },
+        "image": "/assets/images/product-categories/stock/aptiv/quality.jpg",
+        "caption": {
+          "en": "Super Smile assembly workbench; inspection scope follows the approved job requirements.",
+          "zh": "超斯迈尔装配工作台实拍，检验范围依据认可工单要求。"
+        }
+      },
+      {
+        "id": "compliance",
+        "style": "inset-right",
+        "title": {
+          "en": "Compliance and Qualification Records",
+          "zh": "合规与鉴定记录"
+        },
+        "copy": {
+          "en": "Separate component qualification, workmanship criteria and the finished assembly's project requirements. A manufacturer's rating applies to its stated configuration and test conditions, not automatically to a modified harness. Where a customer specifies standards such as IPC/WHMA-A-620 or an automotive connector test specification, agree the applicable revision, class, scope and evidence required before quoting. Material declarations and test records are different documents and should not be substituted for each other. We confirm which records are included with an order and which validation activities require a separately approved plan.",
+          "zh": "应区分零件鉴定、工艺验收标准与成品组件的项目要求。制造商额定值对应其规定配置和试验条件，不自动适用于修改后的线束。客户指定 IPC/WHMA-A-620 或汽车连接器试验规范时，应在报价前约定适用版本、等级、范围与所需证据。材料声明与试验记录属于不同文件，不能互相替代。我们确认订单包含哪些记录，以及哪些验证活动需要另行认可的计划。"
+        },
+        "image": "/assets/images/product-categories/stock/aptiv/compliance.jpg",
+        "caption": {
+          "en": "A milliohmmeter illustrates a specific measurement, not a complete qualification record.",
+          "zh": "毫欧计对应特定测量，并不等于完整鉴定记录。"
+        }
+      },
+      {
+        "id": "passenger",
+        "style": "compact",
+        "title": {
+          "en": "Industries: Passenger Vehicles",
+          "zh": "行业应用：乘用车辆"
+        },
+        "copy": {
+          "en": "Cabin, body and engine-area branches have different exposure and packaging requirements. Lighting, seat functions, climate controls and sensors may use related connection technologies but require distinct pin maps and wire construction. Review the specific trim level and mating device before making a replacement. Secure the loom against trim edges and moving mechanisms, and preserve the intended service access. Airbag and other safety-related circuits require the customer's explicit approved design and verification route; a visually compatible connector is not sufficient authorization to alter them.",
+          "zh": "座舱、车身与机舱分支具有不同暴露和布置要求。灯光、座椅、空调控制及传感器可能采用相关连接技术，但针脚表和线材结构不同。制作替换件前应审核准确配置与对插设备，固定线束以避开饰板锐边和运动机构，并保留检修通道。气囊及其他安全相关回路必须遵循客户明确认可的设计与验证路径，外观可匹配不足以作为更改依据。"
+        },
+        "image": "/assets/images/product-categories/stock/aptiv/passenger.jpg",
+        "caption": {
+          "en": "Passenger-cabin controls and displays form one installation zone, not the whole vehicle environment.",
+          "zh": "乘用车座舱控制与显示装置属于一种安装区域，不能代表整车环境。"
+        }
+      },
+      {
+        "id": "trucks",
+        "style": "feature-right",
+        "title": {
+          "en": "Industries: Commercial Trucks and Fleets",
+          "zh": "行业应用：商用卡车与车队"
+        },
+        "copy": {
+          "en": "Long routes, cab movement, frame flex and frequent maintenance influence commercial-vehicle harnesses. Define the articulation points and avoid carrying cable weight through a connector latch. Distinguish power, lighting and communication branches even when they run in the same corridor. Labels should identify circuit function and revision so workshop replacement is controlled. Fleet commonality is useful only when vehicle variants have been checked. Keep a traceable record of the assembly version fitted to each application rather than promising one harness for every truck in a fleet.",
+          "zh": "长距离路线、驾驶室运动、车架挠曲及频繁维护都会影响商用车线束。应明确相对运动点，避免让接头锁扣承载电缆重量；即使共用布线路径，也要区分供电、灯光和通信分支。标签应标明回路功能与版本，便于受控维修更换。车队共用设计须以车型配置核对为前提，记录每种应用装入的组件版本，而不是承诺一根线束适配所有车辆。"
+        },
+        "image": "/assets/images/product-categories/stock/aptiv/trucks.jpg",
+        "caption": {
+          "en": "A commercial-vehicle chassis shows long routes and moving-system clearances.",
+          "zh": "商用车底盘展示较长布线路径及运动系统间隙。"
+        }
+      },
+      {
+        "id": "electric",
+        "style": "inset-left",
+        "title": {
+          "en": "Industries: New-Energy Vehicles",
+          "zh": "行业应用：新能源汽车"
+        },
+        "copy": {
+          "en": "Electric vehicles need accurate low-voltage interfaces for battery sensing, thermal management and control modules alongside their traction-power architecture. State whether the requested assembly carries measurement signals, auxiliary power or high voltage. Shielding, isolation and interlock requirements follow that classification. A low-voltage sealed plug is not a high-voltage substitute. For prototype programmes, freeze the mating references and pin map before comparing sample feedback, so a wiring revision is not mistaken for a component performance change.",
+          "zh": "新能源汽车在牵引供电架构之外，还需要准确低压接口用于电池检测、热管理与控制模块。应说明所需组件承载测量信号、辅助供电还是高压，并据此确定屏蔽、隔离和互锁要求。低压密封插头不能替代高压接口。样机项目应先固定对插型号与针脚表再比较样品反馈，避免把接线版本变化误认为零件性能变化。"
+        },
+        "image": "/assets/images/product-categories/stock/aptiv/electric.jpg",
+        "caption": {
+          "en": "An electric vehicle's charging and motor bay illustrates distinct HV and auxiliary interfaces.",
+          "zh": "电动车充电口与电机舱，展示高压及辅助接口的区分。"
+        }
+      },
+      {
+        "id": "robotics",
+        "style": "wide",
+        "title": {
+          "en": "Industries: Machinery and Robotics",
+          "zh": "行业应用：机械与机器人"
+        },
+        "copy": {
+          "en": "A fixed connection and a moving robot dress pack face different mechanical demands. Record bend radius, travel, torsion, cycle expectation and the space around each axis. The cable construction and support method must manage movement; the connector should not become the flex point. Keep electrical noise sources and sensitive measurement circuits in view when selecting routing and shielding. The applicable Aptiv interface is specified from the controller or device drawing. Dynamic suitability requires evaluation of the complete installed system, not only a terminal catalogue entry.",
+          "zh": "固定连接与机器人随动线束具有不同机械要求，应记录弯曲半径、行程、扭转、循环预期及各轴周边空间。电缆结构和支撑方式负责管理运动，接头不应成为弯折点。选择路线和屏蔽时需考虑电气噪声源与敏感测量回路。Aptiv 接口依据控制器或设备图纸规定，动态适用性要评估完整安装系统，不能只看端子目录条目。"
+        },
+        "image": "/assets/images/product-categories/stock/aptiv/robotics.jpg",
+        "caption": {
+          "en": "Robotic welding illustrates heat, motion and electromagnetic exposure around equipment wiring.",
+          "zh": "机器人焊接展示设备布线周边的热、运动与电磁暴露。"
+        }
+      },
+      {
+        "id": "marine",
+        "style": "feature-left",
+        "title": {
+          "en": "Industries: Marine and Off-Road Equipment",
+          "zh": "行业应用：船舶与越野设备"
+        },
+        "copy": {
+          "en": "Salt, spray, mud and washdown are different exposures. A marine sensor lead may also face ultraviolet light and dissimilar-metal corrosion at mounting hardware. Match the chosen connection system, cable jacket and protective accessories to the specific installation and required validation. Locate service connectors above persistent water traps when the design allows it, and provide strain relief that does not damage the seal. A generic IP description does not establish salt-spray resistance or suitability for permanent immersion; those requirements need their own documented review.",
+          "zh": "盐雾、飞溅、泥水与冲洗属于不同暴露条件。船用传感器线还可能受到紫外线及安装件异种金属腐蚀影响。所选连接系统、电缆护套和附件应匹配具体安装与验证要求。设计允许时，将维修接头避开持续积水位置，并提供不损坏密封的应力防护。一般 IP 描述不能证明耐盐雾或永久浸水适用性，这些要求需单独记录审核。"
+        },
+        "image": "/assets/images/product-categories/stock/aptiv/marine.jpg",
+        "caption": {
+          "en": "An outboard engine illustrates the spray and corrosion environment around marine equipment.",
+          "zh": "舷外机展示船用设备周边的飞溅与腐蚀环境。"
+        }
+      },
+      {
+        "id": "agriculture",
+        "style": "compact",
+        "title": {
+          "en": "Industries: Agricultural Equipment",
+          "zh": "行业应用：农业设备"
+        },
+        "copy": {
+          "en": "Sprayers, irrigation equipment, harvesters and tractors can expose harnesses to dust, fertiliser, crop debris and relative movement between attachments. Define implement disconnect points, branch supports and the route through folding or lifting mechanisms. Chemical compatibility should be checked against the actual substance and concentration, not simply described as oil resistance. Clear cavity mapping and accessible locks make seasonal attachment changes more controlled. Specify the approved interface at both ends and any sensing or control requirements before treating two agricultural leads as interchangeable.",
+          "zh": "喷洒机、灌溉设备、收割机和拖拉机线束可能暴露于粉尘、肥料、作物残屑及属具相对运动。应定义农具断开点、分支支撑及折叠或举升机构中的路线。化学相容性需针对实际物质与浓度检查，不能只用耐油概括。清楚针位映射与可操作锁扣有助于受控更换季节性属具。应先规定两端认可接口以及感知、控制要求，再判断两条农业设备线是否可互换。"
+        },
+        "image": "/assets/images/product-categories/stock/aptiv/agriculture.jpg",
+        "caption": {
+          "en": "Field irrigation equipment illustrates exposed outdoor machinery and distributed control points.",
+          "zh": "田间灌溉设备展示露天机械及分布式控制位置。"
+        }
+      },
+      {
+        "id": "lightweight",
+        "style": "wide",
+        "title": {
+          "en": "Lighter Harnesses Through Route Planning",
+          "zh": "通过路线规划减轻线束重量"
+        },
+        "copy": {
+          "en": "Reducing unnecessary length can lower material use without reducing conductor size below the required electrical duty. Review branch topology, connector location and service allowance together. A shorter route is not better if it crosses a heat source or removes access needed for maintenance. Where alternative conductor materials or thinner insulation are proposed, review termination compatibility, voltage drop, thermal behaviour and mechanical durability before approval. We compare the defined options in the BOM and drawing; no percentage weight saving or vehicle range improvement is claimed without a measured baseline.",
+          "zh": "减少不必要长度可降低材料用量，而不必把导体削减到电气要求以下。应共同审核分支拓扑、接头位置与维修余量。更短路线若跨越热源或取消必要检修空间，并不更好。拟采用替代导体材料或更薄绝缘时，需在认可前审核端接相容性、压降、热表现与机械耐久。我们在物料表和图纸中比较明确方案，没有实测基准时不宣称减重百分比或整车续航提升。"
+        },
+        "image": "/assets/images/product-categories/stock/aptiv/lightweight.jpg",
+        "caption": {
+          "en": "AWG diameter comparison diagram; conductor selection still requires electrical and thermal review.",
+          "zh": "AWG 直径对比示意；导体选型仍需电气与热审核。"
+        }
+      },
+      {
+        "id": "zones",
+        "style": "inset-right",
+        "title": {
+          "en": "Tailored Routing for Each Vehicle Zone",
+          "zh": "按车辆区域规划布线"
+        },
+        "copy": {
+          "en": "Design review begins with the installation envelope. Chassis routes need clearance from suspension and steering movement; powertrain routes need local heat and vibration assessment. Interior branches must avoid seat tracks, trim fasteners and service panels. Underbody routes need protection against road debris and retained moisture. Mark clips, grommets, pass-throughs and inspection datums on the drawing rather than leaving them to assembly judgement. The same connector family can appear in several zones, but the cable, protection and verification requirements may be different in each one.",
+          "zh": "设计审核从安装空间开始。底盘路线需避开悬架及转向运动，动力总成路线需评估局部热量与振动；内饰分支要避开座椅滑轨、饰板紧固件和检修面板；车底路线则需防护道路碎屑与残留水分。图纸应标明卡扣、护线圈、穿板点和检验基准，不将它们留给现场自行判断。同一接头系列可出现在多个区域，但电缆、防护及验证要求各不相同。"
+        },
+        "image": "/assets/images/product-categories/stock/aptiv/zones.jpg",
+        "caption": {
+          "en": "Chassis-mounted equipment and lines illustrate clearance and support planning.",
+          "zh": "底盘安装件与管线展示间隙及支撑规划需求。"
+        }
+      },
+      {
+        "id": "platform",
+        "style": "feature-right",
+        "title": {
+          "en": "Systems Built for Platform Flexibility",
+          "zh": "面向平台扩展的模块化系统"
+        },
+        "copy": {
+          "en": "A modular harness separates a shared trunk from defined optional branches. That can simplify servicing and variant management, provided the interfaces, pin assignments and protection remain controlled. An unused option needs a specified termination or cavity treatment. Adding a sensor or module also requires confirmation of the circuit capacity and communication architecture; an available connector position is not automatically a spare functional circuit. Use revision-controlled labels and a compatibility matrix in the engineering package so upgrades and replacement assemblies can be matched to the correct platform version.",
+          "zh": "模块化线束将共用主干与明确选装分支分开，在接口、针位和防护受控时，有助于维护及配置管理。未使用选项需要规定端接或空腔处理。新增传感器或模块还需确认回路容量与通信架构，空余接头腔位不自动等于可用功能回路。工程资料应使用受控版本标签与适配清单，使升级件和替换组件能够匹配正确平台版本。"
+        },
+        "image": "/assets/images/product-categories/stock/aptiv/platform.jpg",
+        "caption": {
+          "en": "Vehicle assembly-line modules illustrate platform and variant management.",
+          "zh": "车辆装配线的模块化装配场景，辅助理解平台与配置管理。"
+        }
+      },
+      {
+        "id": "sourcing",
+        "style": "process",
+        "title": {
+          "en": "Sourcing the Specified Harness",
+          "zh": "采购准确配置的线束"
+        },
+        "copy": {
+          "en": "Send the full mating references, pin map, wire requirements, installed dimensions, environment and sample and production quantities. Identify whether original branded components are mandatory and whether alternatives may be proposed for approval. A quotation should separate assembly scope, tooling, documentation and any specialised validation. Availability of the housing alone does not establish availability of terminals, seals and locks. We confirm the sourcing and delivery plan for the approved BOM rather than advertising universal stock. The final release should connect the agreed drawing revision to the supplied assembly and inspection record.",
+          "zh": "请提供完整对插型号、针脚表、线材要求、安装尺寸、环境，以及样品和生产数量。明确是否必须使用原厂品牌件，是否允许提出替代方案供认可。报价应区分装配范围、工装、文件与特殊验证。胶壳可采购不代表端子、密封和锁件同时可得。我们针对认可物料表确认采购及交付计划，不宣传全系列现货；最终放行需将约定图纸版本与供货组件及检验记录关联。"
+        },
+        "image": "/assets/images/product-categories/stock/aptiv/sourcing.jpg",
+        "caption": {
+          "en": "Super Smile wire-handling area; material readiness is checked against the approved BOM.",
+          "zh": "超斯迈尔线材周转区实拍，物料准备按认可物料表核对。"
+        }
+      }
+    ],
+    "composition": [
+      {
+        "kind": "single",
+        "items": [
+          0
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          3
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          4
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          5,
+          6
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          7
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          8
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          9
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          10,
+          11
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          12
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          13,
+          14
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          15
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          16
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          17,
+          18
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          19
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          20
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          21
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          22
+        ]
+      }
+    ],
+    "guide": [
+      {
+        "index": 0,
+        "label": {
+          "en": "Connector systems",
+          "zh": "连接系统"
+        }
+      },
+      {
+        "index": 10,
+        "label": {
+          "en": "Production and QC",
+          "zh": "生产与质检"
+        }
+      },
+      {
+        "index": 13,
+        "label": {
+          "en": "Applications",
+          "zh": "行业应用"
+        }
+      },
+      {
+        "index": 20,
+        "label": {
+          "en": "Routing and sourcing",
+          "zh": "布线与采购"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "q": {
+          "en": "Does an Aptiv label establish compatibility?",
+          "zh": "Aptiv 标记能证明兼容吗？"
+        },
+        "a": {
+          "en": "No. Confirm the complete mating references, cavity arrangement, keying, contacts and pin map. A shared brand or shell colour is not sufficient.",
+          "zh": "不能。需确认完整对插料号、腔位排列、键位、端子与针脚表，相同品牌或壳体颜色不足以证明兼容。"
+        }
+      },
+      {
+        "q": {
+          "en": "Are all Metri-Pack connectors sealed?",
+          "zh": "所有 Metri-Pack 接头都密封吗？"
+        },
+        "a": {
+          "en": "No. The portfolio contains sealed and unsealed configurations. Specify the exact version and its application conditions.",
+          "zh": "不是。产品范围包含密封与非密封配置，应指定准确版本及应用条件。"
+        }
+      },
+      {
+        "q": {
+          "en": "Can an extension use the original wire size?",
+          "zh": "延长线可以沿用原来线径吗？"
+        },
+        "a": {
+          "en": "It requires review. Length affects resistance and voltage drop, while signal circuits can also have channel constraints. Confirm load and protocol requirements.",
+          "zh": "需要审核。长度影响电阻和压降，信号回路还可能具有链路约束，应确认负载及协议要求。"
+        }
+      },
+      {
+        "q": {
+          "en": "What is included in a production quotation?",
+          "zh": "生产报价包含哪些内容？"
+        },
+        "a": {
+          "en": "The quote should identify the approved BOM, assembly quantity, tooling, included inspections and documentation. Special validation and unapproved alternatives are separately scoped.",
+          "zh": "报价应明确认可物料表、装配数量、工装、包含的检查和文件，特殊验证及未认可替代方案另行规定。"
+        }
+      }
+    ],
+    "hasAiImages": false,
+    "hasOwnImages": true,
+    "mediaCredits": [
+      {
+        "file": "hero.jpg",
+        "url": "https://supersmile-tech.com/about",
+        "author": "Super Smile / _MG_6436.jpg",
+        "license": "Company-supplied photograph"
+      },
+      {
+        "file": "range.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:2008-04-17_Geo_Storm_instrument_cluster_wiring_harness.jpg",
+        "author": "Ildar Sagdejev (Specious)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "classic.jpg",
+        "url": "https://supersmile-tech.com/about",
+        "author": "Super Smile / _MG_6466.jpg",
+        "license": "Company-supplied photograph"
+      },
+      {
+        "file": "sealed.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Cars_crossing_intersection_on_Nathan_Road_during_heavy_rain.jpg",
+        "author": "Benlisquare",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "powertrain.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Jeep_Liberty_Gas_PCM_2005.jpg",
+        "author": "Michael Robinson (unixxx)",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+        "file": "high-voltage.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Lucid_battery_pack_01.jpg",
+        "author": "Votpuske",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "extended.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Wechselrichter-kabelbaum_hg.jpg",
+        "author": "Hannes Grobe",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "vehicle-solutions.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:003_Car_dashboard_manufacturing_process_-_Opel_car_factory_in_Gliwice,_Poland.jpg",
+        "author": "Marek Ślusarczyk (Tupungato) Photo portfolio",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      },
+      {
+        "file": "ev-solutions.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Audi_electric_motor_control,_Paris_Motor_Show_2018,_Paris_(1Y7A1113).jpg",
+        "author": "Matti Blume",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "industrial-solutions.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:ELT_PLC_(e-elt-plc-9860).jpg",
+        "author": "ESO",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "file": "legacy.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Delphi_Automotive_(6944417073).jpg",
+        "author": "ENERGY.GOV",
+        "license": "Public domain"
+      },
+      {
+        "file": "advantages.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Cable_glands_with_bend_protection.jpg",
+        "author": "Phiarc",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "production.jpg",
+        "url": "https://supersmile-tech.com/about",
+        "author": "Super Smile / _MG_6485.jpg",
+        "license": "Company-supplied photograph"
+      },
+      {
+        "file": "quality.jpg",
+        "url": "https://supersmile-tech.com/about",
+        "author": "Super Smile / _MG_6492.jpg",
+        "license": "Company-supplied photograph"
+      },
+      {
+        "file": "compliance.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:HP_4328A_Milliohmmeter.jpg",
+        "author": "Shelby Jueden",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "passenger.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Car_dashboard_on_highway_(Unsplash).jpg",
+        "author": "Arkady Lifshits overdriv3",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "file": "trucks.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Tatra_truck_chassis.jpg",
+        "author": "Kornatka at Polish Wikipedia",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+      },
+      {
+        "file": "electric.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Nissan_Leaf_motor_bay_%26_charging_port_08_2013_Rio_6900.JPG",
+        "author": "Mariordo (Mario Roberto Duran Ortiz)",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      {
+        "file": "robotics.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Aerosud%E2%80%99s_aluminium_robot_welding_capability.jpg",
+        "author": "Carinapapa",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "marine.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Honda_Boat_Engine_(49052153027).jpg",
+        "author": "Tony Webster from Minneapolis, Minnesota, United States",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      {
+        "file": "agriculture.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Agricultural_sprayer_(465585464).jpg",
+        "author": "William Matheson from Bedford, Nova Scotia, Canada",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      {
+        "file": "lightweight.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:American_wire_gauge.jpg",
+        "author": "Unknown authorUnknown author",
+        "license": "Public domain"
+      },
+      {
+        "file": "zones.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:A_truck_chassis_section.jpg",
+        "author": "Panoha",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      {
+        "file": "platform.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Tour_of_GM%27s_Oshawa_Car_Assembly_plant,_2011-06-10,_IMG_7397_(46923449344).jpg",
+        "author": "Robert T Bell from Oshawa, Canada",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      {
+        "file": "sourcing.jpg",
+        "url": "https://supersmile-tech.com/about",
+        "author": "Super Smile / _MG_6502.jpg",
+        "license": "Company-supplied photograph"
+      }
+    ]
+  }
+}

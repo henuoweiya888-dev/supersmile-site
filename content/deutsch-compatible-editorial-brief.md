@@ -1,6 +1,6 @@
 # Deutsch compatible assemblies
 
-Status: local implementation and bilingual desktop/mobile QA passed; public deployment pending verification.
+Status: published in e390916 and public desktop/mobile verification passed on 2026-09-10. Initial propagation returned mixed old assets; repeated fresh verification passed for English/Chinese at 1280 and 390 with all images, fixed navigation and inquiry links working. Public navigation has 45 active and 38 disabled categories.
 
 QL outline: https://www.ql-custom.com/what-is-deutschte-connector-the-types-pricesanna.html. Current QL navigation has no dedicated Deutsch product route; use this corresponding knowledge article. Keep introduction, DT/DTM/DTP/DTHD/HDP20-HD30 families, engine/chassis/lighting applications, lead times, pricing and FAQ. Add seal/secondary-lock and contact-processing detail. Original text; no copying distributor relationships, stock claims or unconditional test performance.
 
