@@ -50,6 +50,17 @@ body[data-category-layout="technical-editorial"] .pcc-hero-media img{filter:satu
 .te-theme-signal-channel .te-pair{background:#eeede6}
 .te-theme-signal-channel #technical-topic-9 .te-photo img{object-fit:contain;background:#dfe3e3}
 .te-theme-signal-channel #technical-topic-10 .te-photo img{object-fit:contain;background:#dfe3e3}
+/* Actuator service guide: white product details and warm, compact workshop spreads. */
+.te-theme-actuator-service{--te-tint:#e6e4dc;--te-accent:#a84c2e;--te-muted:#504e46}
+.te-theme-actuator-service .te-opening{grid-template-columns:220px minmax(0,1fr);padding-left:0;padding-right:var(--te-gutter)}
+.te-theme-actuator-service .te-opening>figure{grid-column:1;grid-row:1}.te-theme-actuator-service .te-opening>div{grid-column:2;grid-row:1}
+.te-theme-actuator-service .te-opening .te-photo img,.te-theme-actuator-service #technical-topic-0 .te-photo img,.te-theme-actuator-service #technical-topic-1 .te-photo img,.te-theme-actuator-service #technical-topic-2 .te-photo img,.te-theme-actuator-service #technical-topic-3 .te-photo img,.te-theme-actuator-service #technical-topic-5 .te-photo img{object-fit:contain;background:#fff}
+.te-theme-actuator-service #technical-topic-4{background:#eee8df}
+.te-theme-actuator-service #technical-topic-6{grid-template-columns:205px minmax(0,1fr);padding-left:0;padding-right:var(--te-gutter)}
+.te-theme-actuator-service #technical-topic-6 .te-photo{grid-column:1}.te-theme-actuator-service #technical-topic-6 .te-copy{grid-column:2}
+.te-theme-actuator-service .te-pair{background:#eeece5}
+.te-theme-actuator-service #technical-topic-9{background:#e1e4e0}.te-theme-actuator-service #technical-topic-9 .te-photo img{object-fit:contain}
+.te-theme-actuator-service #technical-topic-10 .te-photo{width:140px}
 @media(max-width:767px){
  body[data-category-layout="technical-editorial"] .pcc-hero-grid{min-height:0;padding-block:56px 32px}body[data-category-layout="technical-editorial"] .pcc-hero-copy h1{font-size:30px}
  .te-page{--te-gutter:16px}.te-page h2{font-size:21px}.te-page p{font-size:13px;line-height:1.85}
@@ -59,5 +70,6 @@ body[data-category-layout="technical-editorial"] .pcc-hero-media img{filter:satu
  .te-page .te-photo img{height:155px}.te-opening .te-photo img{height:170px}
  .te-pair{display:block}.te-pair:after{display:none}.te-pair .te-topic:nth-child(2){background:#f1efe9}
  .te-theme-navigation .te-opening,.te-theme-navigation #technical-topic-6,.te-theme-signal-channel #technical-topic-0{display:flex;padding:23px 16px}
- .te-theme-signal-channel #technical-topic-1 .te-photo{width:calc(100% + 32px)}
+ .te-theme-signal-channel #technical-topic-1 .te-photo,.te-theme-actuator-service #technical-topic-10 .te-photo{width:calc(100% + 32px)}
+ .te-theme-actuator-service .te-opening,.te-theme-actuator-service #technical-topic-6{display:flex;padding:23px 16px}
 }

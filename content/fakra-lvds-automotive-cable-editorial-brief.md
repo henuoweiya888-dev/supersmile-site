@@ -1,6 +1,6 @@
 # FAKRA / LVDS automotive cable dossier
 
-Status: authored and locally implemented; public verification pending.
+Status: published in commit 6a6e994. Public 1280/390 en/zh verified 2026-09-10: 11 chapters, no broken images or overflow, fixed header, FAQ and inquiry category/language preserved. Initial desktop English check occurred during deployment propagation; repeated check passed. Local 320 also passed.
 
 Original en/zh copy: 11 technical chapters and 4 FAQ. QL-Custom outline reference: https://www.ql-custom.com/fakra-cable-assembly — introduction, click-in/keying advantages, wire/connector/polymer/heat-shrink materials, Mini-FAKRA and adapters, applications, integration, manufacturing, verification. Differential-path clarification is added because this combined category also includes automotive LVDS. Do not repeat universal fit, perfect signal, certification, review or customer claims.
 

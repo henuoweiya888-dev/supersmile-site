@@ -1,0 +1,478 @@
+{
+  "key": "automotive-14",
+  "slug": "turbo-actuator-harness",
+  "title": {
+    "en": "Turbo Actuator Harness",
+    "zh": "涡轮执行器线束"
+  },
+  "seoTitle": "Turbo Actuator Harness | VGT / VNT Connector Leads, Pigtails & Custom Wiring | Super Smile",
+  "intro": {
+    "en": "Turbo actuator connector leads, repair pigtails and custom engine-side harnesses, defined by the exact actuator interface, circuit, materials and installation route.",
+    "zh": "涡轮执行器连接线、维修尾线与定制发动机侧线束，依据准确的执行器接口、回路、材料和安装路线开发。"
+  },
+  "knowledge": {
+    "en": "The harness carries the specified power and signal paths. It does not replace actuator electronics, turbocharger diagnosis or model-specific calibration.",
+    "zh": "线束承载规定的供电与信号路径，不能替代执行器电子系统、增压器诊断或具体型号的标定。"
+  },
+  "notes": {
+    "en": "Provide actuator and turbocharger part numbers, connector views, circuit definition, cable length, routing environment and quantity.",
+    "zh": "请提供执行器与增压器料号、接口照片、回路定义、线长、布线环境及数量。"
+  },
+  "delivery": {
+    "en": "Confirm mating components and wiring, approve the sample, then release controlled production and agreed inspection records.",
+    "zh": "确认对插件及接线，完成样件认可后，按受控文件生产并提交约定检验记录。"
+  },
+  "page": {
+    "layout": "technical-editorial",
+    "theme": "actuator-service",
+    "hasOwnImages": true,
+    "headings": {
+      "introduction": {
+        "en": "Product Introduction",
+        "zh": "产品介绍"
+      },
+      "faq": {
+        "en": "Turbo Actuator Harness Questions",
+        "zh": "涡轮执行器线束常见问题"
+      }
+    },
+    "subtitle": {
+      "en": "A small connection with a specific engineering job",
+      "zh": "小型连接，明确的工程职责"
+    },
+    "lead": {
+      "en": "A turbo actuator harness is the electrical connection around an actuator, not a complete turbocharger or a universal replacement actuator. The category includes short connector leads, repair pigtails, engine-side extensions, defined adapter assemblies and workshop test connections. A VGT or VNT application may share the same broad description while using a different housing, circuit assignment or control interface. Super Smile can develop these configurations from a drawing, authorized sample or confirmed mating parts. Our product photographs show connector-lead examples; the approved specification determines the version supplied. Correct identification keeps a small replacement part from becoming a larger installation problem.",
+      "zh": "涡轮执行器线束是执行器周围的电气连接，并不是整台涡轮增压器，也不是通用替换执行器。本小类包含短连接线、维修尾线、发动机侧延长线、已定义转接组件与维修测试连接。VGT 或 VNT 应用可能使用相近名称，却采用不同壳体、回路分配或控制接口。超斯迈尔可依据图纸、获准使用的样品或已确认对插件开发这些结构。页面实物照片展示连接线示例，实际供货版本由已认可规格确定。准确识别，可以避免一件小型更换件引发更大的安装问题。"
+    },
+    "images": {
+      "hero": "/assets/images/product-categories/stock/turbo-actuator/hero.jpg",
+      "range": "/assets/images/product-categories/stock/turbo-actuator/range.jpg"
+    },
+    "openingCaption": {
+      "en": "Super Smile actuator connector-lead examples; supplied configuration follows the approved drawing.",
+      "zh": "超斯迈尔执行器连接线实物示例，供货配置以认可图纸为准。"
+    },
+    "chapters": [
+      {
+        "id": "interface",
+        "style": "feature-right",
+        "title": {
+          "en": "Product Advantages: A Defined Actuator-Side Interface",
+          "zh": "产品优势：明确执行器侧接口"
+        },
+        "copy": {
+          "en": "A purpose-made connector lead can preserve the existing equipment interface while placing the joint and service length where they are accessible. Check housing keying, cavity count, contact gender, latch geometry and the position of any secondary lock. Holset VGT, Garrett VNT and HELLA actuator names help identify an application family, but are not an interchangeable connector specification. Even within one turbocharger family, actuator revisions can change the required connection. Record the actual part number and both mating faces. The result is a controlled assembly, not a guess based on a similar black plug or a familiar engine name.",
+          "zh": "专门定义的连接线可以保留设备原有接口，同时把连接位置与检修长度安排在便于操作的地方。需要检查壳体键位、腔数、接点公母、卡扣几何和二次锁位置。Holset VGT、Garrett VNT 与 HELLA 执行器等名称有助于识别应用系列，但不是可互换的接头规格。同一增压器系列中的执行器版本变化，也可能改变连接要求。应记录实际料号与两端对插界面，形成受控组件，而不是根据相似黑色插头或熟悉的发动机名称猜测。"
+        },
+        "image": "/assets/images/product-categories/stock/turbo-actuator/interface.jpg",
+        "caption": {
+          "en": "Super Smile connector-lead detail; exact mating geometry is defined by the approved part.",
+          "zh": "超斯迈尔连接线接口细节，准确对插几何以认可零件为准。"
+        }
+      },
+      {
+        "id": "pinout",
+        "style": "inset-left",
+        "title": {
+          "en": "Pin Definition: Cavity Numbers Before Wire Colors",
+          "zh": "针脚定义：先看腔位，再看线色"
+        },
+        "copy": {
+          "en": "A pin table should state the connector view, cavity number, circuit function, conductor size and destination. Mating-face and wire-entry views can mirror one another, so a clear view arrow is as important as the numbers. Colors help production and service teams trace a released design; they do not establish a universal power or signal assignment. A sample can be mapped for continuity, but hidden electronics or an unknown interface still need equipment documentation. Do not energize an unidentified connector to discover its pinout. Controlled labeling and an independent circuit check reduce reversed connections before a sample reaches the actuator.",
+          "zh": "针脚表应写明观察方向、腔位编号、回路功能、导体规格和目标端。对插面与进线面可能呈镜像，因此清晰的视向标记和编号同样重要。线色帮助生产与维修人员追踪已放行设计，并不能定义通用电源或信号分配。可以对样品测绘导通关系，但隐藏电子元件或未知接口仍需设备文件确认。不能通过给未知接头通电来试探针脚。受控标识与独立回路复核，有助于在样件接入执行器之前减少反接问题。"
+        },
+        "image": "/assets/images/product-categories/stock/turbo-actuator/pinout.jpg",
+        "caption": {
+          "en": "Our sample lead exposes the conductor path; colors alone do not define cavity functions.",
+          "zh": "本公司样品展示导体路径，线色本身不定义腔位功能。"
+        }
+      },
+      {
+        "id": "wire",
+        "style": "wide",
+        "title": {
+          "en": "Material Recommendation: Conductors and Insulation",
+          "zh": "材料建议：导体与绝缘"
+        },
+        "copy": {
+          "en": "Select conductor cross-section for load, permissible voltage drop, length, ambient heat and the terminal's supported wire range. Insulation outside diameter also has to suit the wire seal and crimp support. Thin-wall automotive cable, cross-linked insulation and fluoropolymer options address different packaging or temperature needs; their names alone do not define a finished harness rating. ISO 19642 and SAE J1128 are relevant automotive-cable reference families when called up by the project. Specify the applicable part and revision rather than printing a standard number as an unverified certification. Sample approval should confirm the selected wire construction, not only its external color.",
+          "zh": "导体截面积需要结合负载、允许压降、长度、环境温度及端子支持的线径范围选择。绝缘外径还必须适配线封与压接支撑。薄壁汽车线、交联绝缘和氟聚合物等选项满足不同的空间或温度需求，但名称本身不能定义成品线束等级。项目适用时，可采用 ISO 19642、SAE J1128 等汽车电缆标准系列作为参考。应写明适用部分和版本，而不是把标准编号当作未经验证的认证印在页面上。样件认可需确认线材结构，不能只确认外部颜色。"
+        },
+        "image": "/assets/images/product-categories/stock/turbo-actuator/wire.jpg",
+        "caption": {
+          "en": "Our lead construction shows separate insulated conductors and outer protection.",
+          "zh": "本公司连接线结构展示独立绝缘导体与外层防护。"
+        }
+      },
+      {
+        "id": "seal",
+        "style": "compact",
+        "title": {
+          "en": "Automotive Connectors, Seals and Polymer Components",
+          "zh": "汽车连接器、密封与聚合物零件"
+        },
+        "copy": {
+          "en": "A sealed connection depends on a compatible housing, contacts, wire seals, cavity plugs and mating component. A cable that is too small can leave a leakage path; one that is too large can distort the seal or prevent correct assembly. The latch and secondary retention must remain operable after sleeving or molding. Resin selection affects heat behavior, chemical exposure and mechanical recovery, while seal material has its own limits. Define environmental performance for the complete mated assembly and the intended installation. Water resistance should not be inferred from a white sealing ring, a thick boot or the appearance of a sample photograph.",
+          "zh": "密封连接依赖兼容的壳体、接点、线封、空腔堵头与对插件。线缆过细可能留下泄漏路径，过粗则可能使密封变形或妨碍正确装配。加套管或成型后，卡扣与二次保持结构仍需正常操作。树脂选择影响受热、化学暴露和机械回弹，密封材料也有自己的限制。环境性能应针对完整对插组件及实际安装位置规定，不能仅凭白色密封圈、较厚护套或样品照片的外观推断防水能力。"
+        },
+        "image": "/assets/images/product-categories/stock/turbo-actuator/seal.jpg",
+        "caption": {
+          "en": "Our connector-lead examples; sealing performance requires the complete specified assembly.",
+          "zh": "本公司连接线实物示例，密封性能需针对完整指定组件验证。"
+        }
+      },
+      {
+        "id": "heat",
+        "style": "feature-left",
+        "title": {
+          "en": "Corrugated Protection and Heat Management",
+          "zh": "波纹防护与热管理"
+        },
+        "copy": {
+          "en": "Turbocharger surroundings combine radiant heat, hot surfaces, vibration and possible oil contamination. Routing distance and a supported path come before adding more sleeve. Corrugated conduit mainly organizes and protects the bundle; a split tube is not automatically a water seal or a thermal barrier. Heat-shrink elastomers, glass-fiber sleeves and reflective protection have different duties. Raychem DR-25 is a fluid-resistant harnessing-tubing reference, not a universal solution for contact with a hot turbine housing. Review the temperature limits of the weakest component, clearance throughout engine movement, and the sleeve ends where heat or abrasion may concentrate.",
+          "zh": "增压器周围同时存在辐射热、热表面、振动和可能的油污。布线距离与有支撑的路径，应先于继续叠加套管考虑。波纹管主要整理和防护线束，开口管不自动构成水密封或隔热屏障。热缩弹性体、玻纤套管与反射防护承担不同职责。Raychem DR-25 可作为耐流体线束套管参考，但不是能直接接触高温涡轮壳体的通用方案。需要审核最弱元件的温度限制、发动机运动全程的间隙，以及热或磨损可能集中的套管端部。"
+        },
+        "image": "/assets/images/product-categories/stock/turbo-actuator/heat.jpg",
+        "caption": {
+          "en": "A displayed turbocharged engine illustrates the proximity of exhaust hardware and heat protection.",
+          "zh": "展出的增压发动机说明排气部件与热防护的空间关系。"
+        }
+      },
+      {
+        "id": "solutions",
+        "style": "inset-right",
+        "title": {
+          "en": "Our Solution: Pigtails, Extensions and Defined Adapters",
+          "zh": "解决方案：尾线、延长与已定义转接"
+        },
+        "copy": {
+          "en": "A repair pigtail replaces a defined damaged connector section; an extension changes reach; an adapter changes a documented physical interface. These are different products and need different drawings. Keep repair joints away from the highest-strain location and follow the equipment maker's approved repair method. An adapter does not turn a 12-volt actuator into a 24-volt unit or translate one communication protocol into another. For workshop leads, identify the test equipment and permitted operating conditions. Prototype and small-batch requests can begin with an authorized sample, but production release still requires an agreed circuit, length, material list and inspection scope.",
+          "zh": "维修尾线用于替换已定义的受损接口段，延长线改变可达距离，转接线改变已记录的物理接口。这些是不同产品，需要不同图纸。维修连接应避开最大受力位置，并遵循设备制造商认可的维修方法。转接线不会把 12 V 执行器变成 24 V 设备，也不会把一种通信协议转换成另一种。维修测试线还需明确测试设备与允许工作条件。样件和小批量需求可以从获准使用的样品开始，但生产放行仍需约定回路、长度、物料及检验范围。"
+        },
+        "image": "/assets/images/product-categories/stock/turbo-actuator/solutions.jpg",
+        "caption": {
+          "en": "Super Smile connector-lead variants, with length and circuit defined for each request.",
+          "zh": "超斯迈尔连接线结构示例，每项需求分别定义长度与回路。"
+        }
+      },
+      {
+        "id": "control",
+        "style": "wide",
+        "title": {
+          "en": "Control Signals: CAN, PWM and Position Feedback",
+          "zh": "控制信号：CAN、PWM 与位置反馈"
+        },
+        "copy": {
+          "en": "Electronic actuator designs may use CAN, PWM, SENT or an analog interface, depending on the device architecture. These labels do not assign pins by themselves. Preserve the required pair arrangement, return path and shielding treatment shown in the equipment specification. Separate actuator supply requirements from low-level feedback requirements. A passive harness cannot implement a control algorithm or make a mismatched actuator compatible. On CAN-equipped systems, branch length and termination belong to the complete network design; adding a resistor to a replacement lead without the circuit definition can alter that network. Review the full connection before defining a test fixture or replacement branch.",
+          "zh": "电子执行器可能采用 CAN、PWM、SENT 或模拟接口，具体取决于设备架构。这些名称本身并不分配针脚，应保持设备规格要求的线对排列、回流路径与屏蔽处理。执行器供电要求需要和低电平反馈要求分开。无源线束不能实现控制算法，也不能让不匹配的执行器变得兼容。采用 CAN 的系统中，分支长度和终端属于完整网络设计；没有回路定义就给替换线加入电阻，可能改变整个网络。定义测试夹具或替换分支之前，应审核完整连接。"
+        },
+        "image": "/assets/images/product-categories/stock/turbo-actuator/control.jpg",
+        "caption": {
+          "en": "Reference waveforms illustrate distinct signal shapes, not a valid actuator test trace.",
+          "zh": "参考波形说明不同信号形态，不是有效执行器测试记录。"
+        }
+      },
+      {
+        "id": "applications",
+        "style": "feature-right",
+        "title": {
+          "en": "Industries and Applications: Engines, Fleets and Equipment",
+          "zh": "行业与应用：发动机、车队与设备"
+        },
+        "copy": {
+          "en": "Applications include passenger-car turbo systems, commercial diesel engines, off-highway equipment and engine service facilities. An engine installed in a truck and a related engine used in a generator may have different harness routing, connectors or control revisions. Organize an enquiry by equipment model, engine serial or application reference, turbocharger number and actuator number. This makes supplier review more useful than a list of vehicle brands. For marine or other special environments, define the additional materials and validation requirements rather than assuming an automotive lead is suitable. The connection can be customized; the application boundary must remain explicit.",
+          "zh": "应用包括乘用车增压系统、商用柴油机、非道路设备和发动机维修场所。装在卡车上的发动机与用于发电机组的相关机型，可能采用不同路线、接头或控制版本。询价时按设备型号、发动机序列号或应用参考、增压器料号和执行器料号整理资料，比单纯罗列汽车品牌更有利于供应商审核。船用等特殊环境还需规定额外材料与验证要求，不能默认汽车连接线即可适用。连接结构可以定制，但应用边界必须明确。"
+        },
+        "image": "/assets/images/product-categories/stock/turbo-actuator/applications.jpg",
+        "caption": {
+          "en": "A diesel rail-engine turbocharger illustrates application diversity, not a claimed actuator fitment.",
+          "zh": "柴油轨道发动机增压器说明应用差异，不据此声明执行器适配。"
+        }
+      },
+      {
+        "id": "calibration",
+        "style": "compact",
+        "title": {
+          "en": "Design and Quality: Wiring Is Not Actuator Calibration",
+          "zh": "设计与质量：接线不等于执行器标定"
+        },
+        "copy": {
+          "en": "Harness checks and actuator calibration answer different questions. The first establishes the electrical path; the second relates the actuator to the turbocharger and its control system. Cummins describes the Holset E-Tool as a diagnostic and installation/calibration tool for compatible electric actuators. Garrett also warns against changing turbo settings outside the prescribed procedure. A replacement connector lead therefore should not be advertised as eliminating calibration or correcting every boost-control fault. Confirm wiring condition, the correct component combination and the manufacturer's service procedure. Mechanical restriction or an actuator fault remains possible even when the harness passes continuity checks.",
+          "zh": "线束检查与执行器标定回答的是不同问题：前者确认电气路径，后者涉及执行器与增压器及控制系统的匹配。Cummins 将 Holset E-Tool 描述为适用于相应电子执行器的诊断与安装、标定工具；Garrett 也提示不要在规定程序之外改变增压器设置。因此，替换连接线不能宣传为免除标定，也不能承诺修复所有增压控制故障。需确认接线状态、正确元件组合与制造商维修程序。即使线束导通合格，机械卡滞或执行器故障仍可能存在。"
+        },
+        "image": "/assets/images/product-categories/stock/turbo-actuator/calibration.jpg",
+        "caption": {
+          "en": "A turbocharger and actuator assembly illustrates why mechanical and electrical matching must be considered together.",
+          "zh": "增压器与执行器总成说明机械、电气匹配需要一起考虑。"
+        }
+      },
+      {
+        "id": "manufacturing",
+        "style": "process",
+        "title": {
+          "en": "Manufacturing and Quality Assurance",
+          "zh": "制造与质量确认"
+        },
+        "copy": {
+          "en": "The production record starts with the approved interface drawing and bill of materials. Cutting and stripping establish the wire length without damaged strands; terminal crimping uses the contact maker's specified wire range and tooling. Insertion, retention checks, seals, sleeves and labels follow a defined sequence so that protection does not hide an incomplete assembly. A first article confirms dimensions and circuit mapping before repeat production. Any substitute wire, terminal, seal or housing requires review against the released design. Photographs and inspection records support traceability, while packaging protects the contacts, latch and cable exit from transport damage.",
+          "zh": "生产记录从已认可接口图和物料表开始。下线、剥线需形成规定长度并避免损伤线股；端子压接依据接点制造商规定的线径范围与工装进行。插入、保持检查、密封、套管和标识按明确顺序完成，避免防护层遮住尚未完成的装配。首件先确认尺寸与回路映射，再进入重复生产。替代线材、端子、密封或壳体，均需对照已放行设计审核。照片和检验记录支持追溯，包装则保护接点、卡扣和出线位置免受运输损伤。"
+        },
+        "image": "/assets/images/product-categories/stock/turbo-actuator/manufacturing.jpg",
+        "caption": {
+          "en": "A hand crimp tool illustrates termination work; actual tooling follows the specified contact system.",
+          "zh": "手动压接工具说明端接工艺，实际工装依据指定接点系统选择。"
+        }
+      },
+      {
+        "id": "inspection",
+        "style": "inset-left",
+        "title": {
+          "en": "Finished-Assembly Checks and Service Evidence",
+          "zh": "成品检查与维修证据"
+        },
+        "copy": {
+          "en": "Continuity and short-circuit checks confirm the passive wiring map, but a low-current meter check does not prove the connection will behave correctly under load. Where required, specify contact resistance or voltage-drop verification with suitable fixtures and agreed limits. Mechanical retention, dimensions and visual condition are separate checks; environmental tests require a defined method and sample state. Diagnostic work on an installed vehicle must follow its service instructions, using appropriate probes that do not spread contacts or damage seals. Keep actual measured results distinct from planned tests. A reported fault should be linked to evidence, not automatically attributed to the harness or actuator.",
+          "zh": "导通与短路检查确认无源接线映射，但小电流仪表检查不能证明连接在负载下始终正常。需要时应规定接触电阻或压降验证，并采用合适夹具与约定限值。机械保持、尺寸和外观属于其他检查；环境试验还需明确方法与样件状态。车辆上的诊断工作必须遵循维修说明，使用不会撑大接点或损伤密封的合适探针。实际测量结果应和计划试验分开，故障判断需关联证据，不能自动归因于线束或执行器。"
+        },
+        "image": "/assets/images/product-categories/stock/turbo-actuator/inspection.jpg",
+        "caption": {
+          "en": "A test probe illustrates the measurement interface; probing must not damage contacts or seals.",
+          "zh": "测试探针说明测量接口，探测操作不能损伤接点或密封。"
+        }
+      }
+    ],
+    "composition": [
+      {
+        "kind": "single",
+        "items": [
+          0
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          1
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          4
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          5
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          6
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          7,
+          8
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          9
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          10
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": {
+          "en": "Can the same harness fit every VGT or VNT actuator?",
+          "zh": "同一线束能适配所有 VGT 或 VNT 执行器吗？"
+        },
+        "a": {
+          "en": "No. Match the exact actuator, mating connector, circuit assignment and installation. A family name or similar housing is only a starting point.",
+          "zh": "不能。需要匹配准确执行器、对插件、回路分配和安装条件，系列名称或相似壳体只是识别起点。"
+        }
+      },
+      {
+        "q": {
+          "en": "Does replacing the lead remove the need for calibration?",
+          "zh": "更换连接线就不需要标定了吗？"
+        },
+        "a": {
+          "en": "No such assumption should be made. Wiring repair and actuator calibration are different operations; follow the equipment-specific service procedure.",
+          "zh": "不能这样推断。接线维修与执行器标定是不同操作，应遵循具体设备的维修程序。"
+        }
+      },
+      {
+        "q": {
+          "en": "Can you make a cable from an existing sample?",
+          "zh": "可以按现有样品制作连接线吗？"
+        },
+        "a": {
+          "en": "Yes, subject to authorization and confirmation of the interfaces, circuit, materials, dimensions and inspection requirements. Unknown pin functions need documentation.",
+          "zh": "可以，但需具备使用授权，并确认接口、回路、材料、尺寸和检验要求。未知针脚功能仍需文件依据。"
+        }
+      },
+      {
+        "q": {
+          "en": "What helps obtain an accurate quotation?",
+          "zh": "哪些资料有助于准确报价？"
+        },
+        "a": {
+          "en": "Send the actuator and turbocharger references, both connector views, pin table, length, quantity, installation conditions and any required test specification.",
+          "zh": "请发送执行器与增压器型号、两端接口照片、针脚表、长度、数量、安装条件及所需试验规格。"
+        }
+      }
+    ],
+    "creditHeading": {
+      "en": "Product photographs and technical references",
+      "zh": "实物照片与技术参考"
+    },
+    "mediaCredits": [
+      {
+        "file": "_MG_6310.jpg — range",
+        "url": "/assets/images/product-categories/stock/turbo-actuator/range.jpg",
+        "author": "Super Smile product photograph",
+        "license": "Company-supplied image; all rights reserved"
+      },
+      {
+        "file": "_MG_6313.jpg — interface",
+        "url": "/assets/images/product-categories/stock/turbo-actuator/interface.jpg",
+        "author": "Super Smile product photograph",
+        "license": "Company-supplied image; all rights reserved"
+      },
+      {
+        "file": "_MG_6317.jpg — pinout",
+        "url": "/assets/images/product-categories/stock/turbo-actuator/pinout.jpg",
+        "author": "Super Smile product photograph",
+        "license": "Company-supplied image; all rights reserved"
+      },
+      {
+        "file": "_MG_6318.jpg — wire",
+        "url": "/assets/images/product-categories/stock/turbo-actuator/wire.jpg",
+        "author": "Super Smile product photograph",
+        "license": "Company-supplied image; all rights reserved"
+      },
+      {
+        "file": "_MG_6314.jpg — seal",
+        "url": "/assets/images/product-categories/stock/turbo-actuator/seal.jpg",
+        "author": "Super Smile product photograph",
+        "license": "Company-supplied image; all rights reserved"
+      },
+      {
+        "file": "_MG_6319.jpg — solutions",
+        "url": "/assets/images/product-categories/stock/turbo-actuator/solutions.jpg",
+        "author": "Super Smile product photograph",
+        "license": "Company-supplied image; all rights reserved"
+      },
+      {
+        "file": "Turbocharger assembly.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Turbocharger_assembly.jpg",
+        "author": "Panoha",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+        "file": "Turbocharged racing V engine, Deutsches Museum.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Turbocharged_racing_V_engine,_Deutsches_Museum.jpg",
+        "author": "Wilfredor",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "file": "Triangular wave and square wave on oscilloscope screen.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Triangular_wave_and_square_wave_on_oscilloscope_screen.jpg",
+        "author": "User:Xato",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "file": "Turbocharger of DMF13HZ.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Turbocharger_of_DMF13HZ.jpg",
+        "author": "Chatama",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      {
+        "file": "Turbocharger 3.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Turbocharger_3.jpg",
+        "author": "Tiia Monto",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "file": "Hand crimp tool DX-1008 closing.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Hand_crimp_tool_DX-1008_closing.jpg",
+        "author": "魔私利戸",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      {
+        "file": "DIGITAL MULTIMETER PROBE.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:DIGITAL_MULTIMETER_PROBE.jpg",
+        "author": "Ranjithkumar Murugesan",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "file": "HELLA actuator electrical interfaces",
+        "url": "https://www.hella.com/microsite-electronics/en/Engine-compartment-actuators-120.html",
+        "author": "Technical reference",
+        "license": "Linked reference; images not reproduced"
+      },
+      {
+        "file": "Turbo actuator diagnostic principles",
+        "url": "https://www.hella.com/techworld/us/technical/car-electronics-and-electrics/electronic-boost-pressure-control-turbocharger-actuator-testing/",
+        "author": "Technical reference",
+        "license": "Linked reference; images not reproduced"
+      },
+      {
+        "file": "Holset E-Tool scope",
+        "url": "https://www.cummins.com/en-in/support/digital-products-and-services-support/holset-e-tool-support",
+        "author": "Technical reference",
+        "license": "Linked reference; images not reproduced"
+      },
+      {
+        "file": "Garrett installation guidance",
+        "url": "https://www.garrettmotion.com/knowledge-center-category/turbo-replacement/part-1-garrett-turbocharger-installation-guide/",
+        "author": "Technical reference",
+        "license": "Linked reference; images not reproduced"
+      },
+      {
+        "file": "ISO 19642-1 automotive-cable vocabulary",
+        "url": "https://www.iso.org/standard/81326.html",
+        "author": "Technical reference",
+        "license": "Linked reference; images not reproduced"
+      },
+      {
+        "file": "SAE J1128 low-voltage primary cable",
+        "url": "https://saemobilus.sae.org/standards/j1128_202012-low-voltage-primary-cable",
+        "author": "Technical reference",
+        "license": "Linked reference; images not reproduced"
+      },
+      {
+        "file": "Raychem harnessing-tubing materials",
+        "url": "https://www.te.com/en/products/heat-shrink-tubing/harnessing-tubing.html?tab=pgp-story",
+        "author": "Technical reference",
+        "license": "Linked reference; images not reproduced"
+      }
+    ]
+  }
+}
