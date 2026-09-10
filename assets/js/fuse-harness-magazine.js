@@ -1,0 +1,34 @@
+(() => {
+  const host = document.getElementById('pcc-rich-content'); if (!host) return;
+  const base = '/assets/images/product-categories/stock/fuse-harness/';
+  const esc = value => String(value || '').replace(/[&<>"']/g, character => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[character]));
+  const captions = {
+    families: ['不同片式保险丝外形说明必须按系列与料号识别，而不是只看颜色。','Blade-fuse formats show why family and part number matter more than color alone.'],
+    duty: ['已熔断 MAXI 保险丝展示保护元件的动作结果，不代表具体项目额定值。','A cleared MAXI fuse illustrates protection action, not a rating for a specific project.'],
+    holder: ['车辆保险丝盒展示底座、回路标识与维护空间之间的关系。','A vehicle fuse box shows the relationship among holders, circuit identification and service access.'],
+    pdu: ['保险丝与继电器集中布置说明配电盒必须作为完整组件审核。','Grouped fuses and relays show why a power-distribution box is reviewed as a complete assembly.'],
+    busbar: ['裸露母排展示连接界面的几何与紧固条件会影响载流路径。','An exposed busbar illustrates how joint geometry and fastening affect the current path.'],
+    'power-leads': ['线鼻压接步骤说明导体、端子与模具需要形成认可组合。','Crimping steps show why conductor, lug and die need an approved combination.'],
+    ev: ['电动车电池包用于说明高压保护需要从完整储能系统出发。','An EV battery pack illustrates why high-voltage protection starts with the complete energy system.'],
+    inspection: ['导通测试展示成品检验的一项基础检查，而非全部验证。','A continuity check illustrates one basic inspection, not the complete validation plan.']
+  };
+  async function render() {
+    const response = await fetch('/content/product-category-drafts/littelfuse-bussmann-fuse-harness.json', {cache:'no-store'}); if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const data = await response.json(), page = data.page, lang = new URLSearchParams(location.search).get('lang') || 'en', zh = lang === 'zh', pick = value => value?.[zh ? 'zh' : 'en'] || '';
+    document.documentElement.lang = zh ? 'zh-CN' : 'en'; const title = pick(page.displayTitle), heroTitle = zh ? '保险丝保护\n与配电线束' : 'Fuse Protection\nHarnesses';
+    const syncHeader = () => {
+      const values = {'pcc-title':heroTitle,'pcc-intro':pick(data.intro),'pcc-closing-title':title}; Object.entries(values).forEach(([id,value]) => { const node=document.getElementById(id); if(node && node.textContent!==value) node.textContent=value; });
+      const hero=document.getElementById('pcc-hero-image'); if(hero && !hero.src.endsWith('/fuse-harness/hero.jpg')) hero.src=`${base}hero.jpg`;
+      const query=new URLSearchParams({category:data.key,category_name:title,lang:zh?'zh':'en'}); ['pcc-cta','pcc-closing-cta'].forEach(id=>{const link=document.getElementById(id);if(link)link.href=`/contact?${query}`;});
+      document.title=zh?'Littelfuse / Bussmann 保险丝线束 | 配电盒、电池线与熔断器座 | 超斯迈尔':'Custom Littelfuse & Bussmann Fuse Harnesses | Super Smile';
+    };
+    syncHeader(); const syncObserver=new MutationObserver(syncHeader); ['pcc-title','pcc-intro','pcc-closing-title','pcc-hero-image'].forEach(id=>{const node=document.getElementById(id);if(node)syncObserver.observe(node,id==='pcc-hero-image'?{attributes:true,attributeFilter:['src']}:{subtree:true,childList:true,characterData:true});}); window.setTimeout(()=>syncObserver.disconnect(),2800); window.setTimeout(syncHeader,3000);
+    const topic = item => `<article class="fh-topic fh-${esc(item.id)}"><figure><img src="${base}${esc(item.image)}" alt="${esc(pick(item.title))}" width="1600" height="1100" loading="lazy" decoding="async"><figcaption>${esc(captions[item.id]?.[zh?0:1]||'')}</figcaption></figure><div><h3>${esc(pick(item.title))}</h3><p>${esc(pick(item.copy))}</p></div></article>`;
+    const group = name => page.topics.filter(item=>item.group===name).map(topic).join('');
+    const specification=`<section class="fh-spec" id="fuse-specification"><header class="fh-heading"><span>05</span><h2>${esc(pick(page.headings.specification))}</h2></header><ol>${page.specification.map((item,index)=>`<li><strong>${String(index+1).padStart(2,'0')}</strong><p>${esc(pick(item))}</p></li>`).join('')}</ol></section>`;
+    const faq=`<section class="fh-faq"><header class="fh-heading"><span>06</span><h2>${esc(pick(page.headings.faq))}</h2></header><div>${page.faq.map((item,index)=>`<details${index===0?' open':''}><summary>${esc(pick(item.q))}</summary><p>${esc(pick(item.a))}</p></details>`).join('')}</div></section>`;
+    host.innerHTML=`<div class="fh-page"><section class="fh-opening"><figure><img src="${base}opening.jpg" alt="${esc(zh?'发动机舱保险丝盒与回路标识':'Engine-bay fuse box and circuit identification')}" width="1350" height="1800" loading="lazy" decoding="async"><figcaption>${esc(zh?'车辆保险丝盒说明保护器件、回路标识、安装与维护需要同时定义。':'A vehicle fuse box shows why protection devices, circuit labels, installation and service must be defined together.')}</figcaption></figure><div><span>01 / CIRCUIT PROTECTION</span><h2>${esc(pick(page.headings.introduction))}</h2><p>${esc(pick(page.lead))}</p><nav><a href="#fuse-selection">${esc(pick(page.headings.selection))}</a><a href="#fuse-distribution">${esc(pick(page.headings.distribution))}</a><a href="#fuse-validation">${esc(pick(page.headings.validation))}</a></nav></div></section><section class="fh-selection" id="fuse-selection"><header class="fh-heading"><span>02</span><h2>${esc(pick(page.headings.selection))}</h2></header><div class="fh-selection-grid">${group('selection')}</div></section><section class="fh-distribution" id="fuse-distribution"><header class="fh-heading"><span>03</span><h2>${esc(pick(page.headings.distribution))}</h2></header><div class="fh-distribution-grid">${group('distribution')}</div></section><section class="fh-validation" id="fuse-validation"><header class="fh-heading"><span>04</span><h2>${esc(pick(page.headings.validation))}</h2></header><div class="fh-validation-grid">${group('validation')}</div></section>${specification}${faq}<details class="fh-sources"><summary>${zh?'图片来源与使用说明':'Photo sources and use notes'}</summary><p>${zh?'页面图片用于说明保护器件、工艺与安装环境，不代表超斯迈尔产品实拍或品牌授权。':'Images illustrate protection devices, processes and installation environments; they do not represent Super Smile products or brand authorization.'}</p><a href="/assets/images/product-categories/stock/fuse-harness/SOURCES.md" target="_blank" rel="noopener">${zh?'查看来源与许可记录':'View source and license record'}</a></details></div>`;
+    const nodes=host.querySelectorAll('.fh-heading,.fh-topic'); if(!matchMedia('(prefers-reduced-motion: reduce)').matches){const observer=new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-visible');observer.unobserve(entry.target);}}),{threshold:.12,rootMargin:'0px 0px -7%'});nodes.forEach(node=>observer.observe(node));}else nodes.forEach(node=>node.classList.add('is-visible'));
+  }
+  const run=()=>render().catch(()=>{host.innerHTML='<p class="fh-error">Page content could not load. Please refresh and try again.</p>';}); run(); window.setTimeout(run,1600);
+})();

@@ -1,0 +1,79 @@
+{
+  "key": "connector-systems-14",
+  "intro": {
+    "en": "Custom fuse-holder, battery-feed and power-distribution harnesses built around specified Littelfuse or Eaton Bussmann components, with the circuit duty, conductor, mounting and validation method defined together.",
+    "zh": "围绕指定 Littelfuse 或 Eaton Bussmann 元件制作熔断器座、电池馈电与配电线束，并同步定义回路工况、导体、安装和验证方法。"
+  },
+  "page": {
+    "displayTitle": {"en": "Littelfuse / Bussmann Fuse Harnesses", "zh": "Littelfuse / Bussmann 保险丝线束"},
+    "headings": {
+      "introduction": {"en": "Protection Starts With the Circuit", "zh": "保护设计从回路开始"},
+      "selection": {"en": "Fuse Selection and Interface", "zh": "熔断器选型与接口"},
+      "distribution": {"en": "Power Distribution and Harness Construction", "zh": "配电结构与线束制造"},
+      "validation": {"en": "Validation and Application Boundaries", "zh": "验证与应用边界"},
+      "specification": {"en": "Information Needed for Quotation", "zh": "询价与工程输入"},
+      "faq": {"en": "Fuse Harness Engineering Questions", "zh": "保险丝线束工程问题"}
+    },
+    "lead": {
+      "en": "A fuse family name or ampere marking does not define a protected circuit. The fuse, holder, cable, terminals, busbar, enclosure and fault conditions form one thermal and electrical system. We translate the customer's exact protection scheme into a controlled harness drawing, material list and inspection plan.",
+      "zh": "保险丝系列名称或安培标识不能单独定义受保护回路。熔断器、底座、线缆、端子、母排、外壳与故障条件共同构成一个热—电系统。我们把客户的保护方案转化为受控线束图纸、物料清单与检验计划。"
+    },
+    "topics": [
+      {
+        "id": "families", "group": "selection", "image": "blade.jpg",
+        "title": {"en": "Blade and Cartridge Families: Size Is Not the Rating", "zh": "片式与盒式系列：外形不等于额定值"},
+        "copy": {"en": "Automotive formats include MICRO2, MICRO3, MINI, low-profile MINI, ATO, MAXI, JCASE and MCASE families. Similar color or envelope dimensions do not prove equal voltage rating, terminal geometry, time-current behavior or interrupting capacity. The approved family, exact part number and mating holder must therefore be recorded before the harness drawing is released.", "zh": "汽车熔断器常见 MICRO2、MICRO3、MINI、低矮 MINI、ATO、MAXI、JCASE 与 MCASE 等系列。颜色相近或外形相似，并不代表额定电压、端子几何、时间—电流特性或分断能力相同。因此在线束图纸发行前，应记录认可系列、准确料号及配套底座。"}
+      },
+      {
+        "id": "duty", "group": "selection", "image": "maxi.jpg",
+        "title": {"en": "Electrical Duty: Voltage, Interrupting Rating and I²t", "zh": "电气工况：电压、分断能力与 I²t"},
+        "copy": {"en": "Rated current is only one selection input. System voltage, available fault current, ambient temperature, pulse profile, time-current curve, melting I²t, total clearing I²t and required coordination with downstream conductors all matter. Continuous-current derating must be based on the holder, enclosure and measured thermal environment rather than a universal percentage copied between projects.", "zh": "额定电流只是选型输入之一。系统电压、预期故障电流、环境温度、脉冲负载、时间—电流曲线、熔化 I²t、总分断 I²t，以及与下游导体的保护配合都需要审核。连续载流降额应依据底座、外壳与实测热环境确定，不能把某个固定比例直接套用到所有项目。"}
+      },
+      {
+        "id": "holder", "group": "selection", "image": "holder.jpg",
+        "title": {"en": "Fuse Holder: Contact Force, Sealing and Service Access", "zh": "熔断器座：接触力、密封与维护空间"},
+        "copy": {"en": "An inline fuse holder, JCASE holder or panel-mounted block adds contact interfaces and heat sources to the circuit. Terminal material, spring force, wire range, seal set, cover retention, orientation and service clearance must match the selected fuse and installation. For engine-bay or outdoor assemblies, sealing claims are reviewed together with cable exits, cap engagement and pressure paths.", "zh": "串联熔断器座、JCASE 底座或面板式保险丝盒都会在回路中增加接触界面与发热点。端子材料、弹性接触力、适用线径、密封件、上盖保持、安装方向及维护空间，应与所选熔断器和设备安装条件匹配。发动机舱或户外组件还要把密封声明与出线口、上盖啮合及压力通道一并审核。"}
+      },
+      {
+        "id": "pdu", "group": "distribution", "image": "relay.jpg",
+        "title": {"en": "Fuse and Relay Box: A Controlled Distribution Assembly", "zh": "保险丝继电器盒：受控配电组件"},
+        "copy": {"en": "A power distribution box may combine fuses, relays, diodes, spare cavities and diagnostic access. The harness definition must preserve cavity numbering, common feeds, branch protection, relay coil polarity and service labeling. We can build from a released schematic, connector view and BOM, then translate those records into a harness-board baseline and electrical test program.", "zh": "配电盒可能同时包含保险丝、继电器、二极管、备用孔位与诊断接口。线束定义必须保留孔位编号、公共馈电、支路保护、继电器线圈极性及维护标识。我们可依据已确认原理图、接口视图与 BOM，转化为线束板基准和电气测试程序。"}
+      },
+      {
+        "id": "busbar", "group": "distribution", "image": "busbar.jpg",
+        "title": {"en": "Busbars and Bolt-Down Fuses: Control Every Joint", "zh": "母排与螺栓式熔断器：控制每个连接点"},
+        "copy": {"en": "MIDI, MEGA, ZCASE and Bussmann bolt-down solutions are used where the protected feed and fault energy exceed small blade-fuse applications. Hole spacing, stud size, plating, flatness, stack order, washer system and tightening torque affect joint resistance and heat rise. Cable support must prevent vibration or harness mass from loading the fuse element or busbar joint.", "zh": "当受保护馈电与故障能量高于小型片式保险丝的适用范围时，常会采用 MIDI、MEGA、ZCASE 或 Bussmann 螺栓式方案。孔距、螺柱规格、镀层、平面度、叠装顺序、垫圈体系及紧固扭矩都会影响接触电阻与温升。线缆支撑还应避免振动或线束重量作用到熔体及母排连接点。"}
+      },
+      {
+        "id": "power-leads", "group": "distribution", "image": "crimp.jpg",
+        "title": {"en": "Battery and Power Leads: Crimping Is Part of Protection", "zh": "电池与电源引线：压接也是保护系统的一部分"},
+        "copy": {"en": "A correctly selected fuse cannot compensate for an undersized conductor or unstable lug crimp. Conductor area, strand class, insulation temperature, lug barrel, strip length, crimp die and pull-test criterion should be approved as one combination. Adhesive-lined heat shrink, boots and abrasion protection are added according to the actual exposed route, not merely to improve appearance.", "zh": "即使熔断器选择正确，也无法弥补导体截面积不足或线鼻压接不稳定。导体面积、绞合等级、绝缘耐温、线鼻筒部、剥线长度、压接模具及拉力判定应作为同一组合认可。带胶热缩管、护帽与耐磨保护应按真实暴露路径配置，而不是只为改善外观。"}
+      },
+      {
+        "id": "ev", "group": "validation", "image": "ev-battery.jpg",
+        "title": {"en": "EV and High-Voltage Protection: Coordinate the Whole Fault Path", "zh": "新能源与高压保护：协调完整故障路径"},
+        "copy": {"en": "High-voltage battery circuits can include service disconnects, contactors, current sensors, pre-charge paths and dedicated EV fuses. Fuse voltage class, DC interrupting capability, prospective short-circuit current, enclosure clearance and isolation monitoring must come from the vehicle or equipment safety architecture. ISO 8820-8, IEC 60269-1 and UL 248-20 may be relevant references, but the applicable edition and acceptance authority belong in the project specification.", "zh": "高压电池回路可能包含维修断开器、接触器、电流传感器、预充支路及专用 EV 熔断器。熔断器电压等级、直流分断能力、预期短路电流、外壳电气间隙与绝缘监测要求，应来自整车或设备安全架构。ISO 8820-8、IEC 60269-1 与 UL 248-20 可作为相关参考，但适用版本及认可机构必须写入项目规范。"}
+      },
+      {
+        "id": "inspection", "group": "validation", "image": "test.jpg",
+        "title": {"en": "Inspection: Verify the Built Circuit, Not Only Continuity", "zh": "检验：验证成品回路，而不只是导通"},
+        "copy": {"en": "Final inspection can include point-to-point continuity, shorts and miswire checks, fuse and relay population, label verification, cavity locks, cover engagement and dimensional review. Where specified, millivolt-drop, insulation resistance, dielectric or thermal-rise testing is defined with fixtures, current, duration and acceptance limits. Test records should identify the drawing revision and serial or batch traceability used for repeat production.", "zh": "成品检验可包括点对点导通、短路与错线检查、保险丝及继电器装配核对、标签、孔位锁止、上盖啮合和尺寸检查。若项目要求毫伏压降、绝缘电阻、耐压或温升测试，还需定义工装、电流、时长与判定限值。测试记录应关联图纸版本以及用于重复生产的序列号或批次追溯。"}
+      }
+    ],
+    "specification": [
+      {"en": "Exact Littelfuse or Eaton Bussmann fuse and holder part numbers, or the approved electrical selection data.", "zh": "准确的 Littelfuse 或 Eaton Bussmann 熔断器与底座料号，或已认可的电气选型数据。"},
+      {"en": "Nominal and maximum system voltage, continuous current, pulse profile and prospective fault current.", "zh": "标称及最高系统电压、持续电流、脉冲负载与预期故障电流。"},
+      {"en": "Schematic, cavity map, connector views, relay/diode orientation and protected branch list.", "zh": "原理图、孔位表、接口视图、继电器/二极管方向及受保护支路清单。"},
+      {"en": "Cable sizes, conductor class, insulation temperature, lug details and required voltage-drop limits.", "zh": "线缆截面积、导体等级、绝缘耐温、线鼻细节及所需压降限值。"},
+      {"en": "Mounting position, sealing level, ambient and fluid exposure, vibration and service-access limits.", "zh": "安装位置、密封等级、环境与液体暴露、振动及维护空间限制。"},
+      {"en": "Sample approval, torque record, electrical test, thermal validation and traceability requirements.", "zh": "样品认可、扭矩记录、电气测试、热验证及追溯要求。"}
+    ],
+    "faq": [
+      {"q": {"en": "Can you select the fuse only from the normal operating current?", "zh": "能否只按正常工作电流选择保险丝？"}, "a": {"en": "No. Voltage, inrush and pulse profile, ambient temperature, available fault current, time-current response, holder temperature and protected-wire capacity must also be reviewed.", "zh": "不能。还要审核电压、浪涌与脉冲曲线、环境温度、预期故障电流、时间—电流响应、底座温度及被保护导体的载流能力。"}},
+      {"q": {"en": "Are Littelfuse and Bussmann parts interchangeable when the footprint looks similar?", "zh": "Littelfuse 与 Bussmann 元件外形相似就能互换吗？"}, "a": {"en": "Not automatically. The exact series, ratings, terminals, holder geometry, agency approvals and validation evidence must support any substitution.", "zh": "不能直接判断。任何替代都应由准确系列、额定参数、端子、底座几何、认证要求与验证证据共同支持。"}},
+      {"q": {"en": "How close should a main fuse be to the battery?", "zh": "主保险丝应离电池多近？"}, "a": {"en": "It should protect the unprotected conductor as early as the equipment architecture allows. The exact distance, enclosure and routing requirements must come from the vehicle or equipment design authority.", "zh": "应在设备架构允许的前提下尽早保护未受保护导体。准确距离、外壳与路径要求应由整车或设备设计责任方确定。"}},
+      {"q": {"en": "Can you build from an existing fuse-box sample?", "zh": "可以依据现有保险丝盒样品开发吗？"}, "a": {"en": "A sample can support dimensional and component identification, but schematic intent, fuse ratings, protected circuits and safety acceptance still require customer confirmation before production.", "zh": "样品可帮助确认尺寸与部件，但原理图意图、熔断器额定值、受保护回路及安全认可仍需客户在生产前确认。"}},
+      {"q": {"en": "What records can be controlled for repeat production?", "zh": "重复生产可以控制哪些记录？"}, "a": {"en": "Depending on the project: approved BOM, harness-board data, crimp settings, pull-test results, torque records, electrical-test programs, inspection photographs and batch traceability.", "zh": "可按项目控制已认可 BOM、线束板数据、压接参数、拉力结果、扭矩记录、电测程序、检验照片与批次追溯。"}}
+    ]
+  }
+}

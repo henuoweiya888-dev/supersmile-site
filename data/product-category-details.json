@@ -1,4 +1,12 @@
 {
+  "connector-systems-14": {
+    "title": {"en":"Littelfuse / Bussmann Fuse Harnesses","zh":"Littelfuse / Bussmann 保险丝线束"},
+    "intro": {"en":"Custom fuse-holder, battery-feed and power-distribution harnesses built around specified Littelfuse or Eaton Bussmann components.","zh":"围绕指定 Littelfuse 或 Eaton Bussmann 元件制作熔断器座、电池馈电与配电线束。"},
+    "knowledge": {"en":"Fuse, holder, conductor, busbar, enclosure and fault conditions form one protection system.","zh":"熔断器、底座、导体、母排、外壳与故障条件共同构成保护系统。"},
+    "notes": {"en":"Provide exact part numbers, circuit duty, fault current, cable sizes, environment and validation requirements.","zh":"提供准确料号、回路工况、故障电流、线缆规格、环境与验证要求。"},
+    "delivery": {"en":"Approve the schematic, BOM, sample, torque and electrical inspection records before repeat production.","zh":"重复生产前确认原理图、BOM、样品、扭矩及电气检验记录。"},
+    "page": {"layout":"fuse-editorial","displayTitle":{"en":"Littelfuse / Bussmann Fuse Harnesses","zh":"Littelfuse / Bussmann 保险丝线束"},"headings":{"introduction":{"en":"Protection Starts With the Circuit","zh":"保护设计从回路开始"},"faq":{"en":"Fuse Harness Engineering Questions","zh":"保险丝线束工程问题"}},"subtitle":{"en":"Fuse selection, power distribution and controlled validation","zh":"熔断器选型、配电与受控验证"},"lead":{"en":"Define the complete protection system before production.","zh":"生产前定义完整保护系统。"},"images":{"range":"/assets/images/product-categories/stock/fuse-harness/opening.jpg"},"faq":[]}
+  },
   "connector-systems-13": {
     "title": {"en":"Panduit-Compatible Harness Components","zh":"Panduit 兼容线束组件"},
     "intro": {"en":"Custom wire harnesses using specified Panduit terminals, cable ties, identification and routing components, reviewed by exact part number, material and installation method.","zh":"采用指定 Panduit 端子、扎带、标识及布线部件制作定制线束，并按准确料号、材料与安装方法审核。"},
