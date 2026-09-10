@@ -1,0 +1,508 @@
+/* Binder compatible assemblies: a compact industrial editorial system. */
+body.binder-magazine{
+  --bm-black:#090b0d;
+  --bm-charcoal:#171a1d;
+  --bm-paper:#f3f1eb;
+  --bm-white:#fff;
+  --bm-ink:#121518;
+  --bm-muted:#555b60;
+  --bm-soft:#dedbd2;
+  --bm-rule:rgba(18,21,24,.20);
+  --bm-orange:#f04b27;
+  --bm-ease:cubic-bezier(.22,1,.36,1);
+  background:var(--bm-black);
+  color:var(--bm-ink);
+}
+
+/* Hero: inherit the homepage's black, white and orange visual language. */
+.binder-magazine .pcc-hero{
+  position:relative;
+  overflow:hidden;
+  background:var(--bm-black);
+  color:var(--bm-white);
+  border-bottom:1px solid rgba(255,255,255,.18);
+}
+.binder-magazine .pcc-breadcrumb{
+  position:relative;
+  z-index:2;
+  color:rgba(255,255,255,.62);
+  border-color:rgba(255,255,255,.14);
+}
+.binder-magazine .pcc-breadcrumb a{color:inherit}
+.binder-magazine .pcc-hero-grid{
+  position:relative;
+  z-index:2;
+  display:grid;
+  grid-template-columns:minmax(0,5fr) minmax(360px,7fr);
+  gap:0;
+  min-height:460px!important;
+  padding-block:42px 46px!important;
+  align-items:center;
+}
+.binder-magazine .pcc-hero-copy{
+  position:relative;
+  z-index:2;
+  padding-right:clamp(24px,5vw,76px);
+}
+.binder-magazine .pcc-kicker{
+  color:var(--bm-orange);
+  font-size:12px;
+  font-weight:700;
+  letter-spacing:.16em;
+  text-transform:uppercase;
+}
+.binder-magazine .pcc-hero-copy h1{
+  margin:14px 0 20px;
+  max-width:12ch;
+  color:var(--bm-white);
+  font-family:"Helvetica Neue",Arial,"PingFang SC","Microsoft YaHei",sans-serif;
+  font-size:clamp(38px,4.3vw,62px);
+  font-weight:650;
+  line-height:1.03;
+  letter-spacing:-.045em;
+  text-wrap:balance;
+}
+.binder-magazine .pcc-copy-label{display:none}
+.binder-magazine .pcc-hero-copy p{
+  max-width:52ch;
+  color:rgba(255,255,255,.72);
+  font-size:15px;
+  line-height:1.85;
+}
+.binder-magazine .pcc-hero-media{
+  position:relative;
+  display:grid;
+  place-items:center;
+  align-self:stretch;
+  background:#111417;
+  border-left:1px solid rgba(255,255,255,.16);
+  overflow:hidden;
+}
+.binder-magazine .pcc-hero-media:after{
+  content:"";
+  position:absolute;
+  inset:0;
+  pointer-events:none;
+  background:linear-gradient(90deg,rgba(9,11,13,.34),transparent 38%);
+}
+.binder-magazine .pcc-hero-media img{
+  width:100%;
+  height:auto;
+  max-height:430px;
+  object-fit:contain;
+  filter:saturate(.76) contrast(1.06) brightness(.78);
+}
+.binder-magazine .pcc-actions{align-items:center}
+.binder-magazine .pcc-actions .btn{
+  border-radius:0;
+  min-height:46px;
+  padding:13px 24px;
+  background:var(--bm-orange);
+  transition:transform .28s var(--bm-ease),background-color .28s ease;
+}
+.binder-magazine .pcc-actions .btn:hover{transform:translateY(-2px);background:#ff5a34}
+.binder-magazine .pcc-back-link{color:rgba(255,255,255,.72);text-underline-offset:6px}
+
+.bm-page{
+  --bm-gutter:clamp(24px,5vw,72px);
+  --bm-max:1440px;
+  background:var(--bm-paper);
+  color:var(--bm-ink);
+  font-family:"Helvetica Neue",Arial,"PingFang SC","Microsoft YaHei",sans-serif;
+  -webkit-font-smoothing:antialiased;
+}
+.bm-page ::selection{background:var(--bm-orange);color:var(--bm-white)}
+.bm-page p{
+  margin:0;
+  color:var(--bm-muted);
+  font-size:14px;
+  line-height:1.82;
+  text-indent:2em;
+}
+.bm-page h3{
+  margin:0 0 7px;
+  color:var(--bm-ink);
+  font-size:clamp(17px,1.35vw,20px);
+  font-weight:620;
+  line-height:1.32;
+  letter-spacing:-.016em;
+  text-wrap:pretty;
+}
+
+/* Opening deck. */
+.bm-page .te-opening{
+  display:grid;
+  grid-template-columns:minmax(0,1.05fr) minmax(290px,.62fr);
+  align-items:center;
+  gap:clamp(28px,5vw,76px);
+  max-width:var(--bm-max);
+  margin-inline:auto;
+  padding:32px var(--bm-gutter) 28px;
+  background:var(--bm-white);
+}
+.bm-page .te-opening>div{max-width:780px}
+.bm-page .te-opening h2{
+  margin:0 0 12px;
+  max-width:22ch;
+  color:var(--bm-ink);
+  font-size:clamp(24px,2.5vw,38px);
+  font-weight:580;
+  line-height:1.15;
+  letter-spacing:-.035em;
+  text-wrap:balance;
+}
+.bm-page .te-opening p{font-size:14.5px;line-height:1.9}
+
+/* Shared media treatment: original aspect and full composition remain visible. */
+.bm-page .te-photo,.bm-page .te-photo button,.bm-page .te-photo img{background:transparent}
+.bm-page .te-photo{min-width:0;margin:0}
+.bm-page .te-photo button{
+  display:block;
+  width:fit-content;
+  max-width:100%;
+  margin-inline:auto;
+  padding:0;
+  overflow:visible;
+  border:0;
+  border-radius:0;
+  cursor:zoom-in;
+}
+.bm-page .te-photo button:focus-visible{outline:2px solid var(--bm-orange);outline-offset:5px}
+.bm-page .te-photo img{
+  display:block;
+  width:auto!important;
+  height:auto!important;
+  max-width:100%;
+  max-height:var(--bm-image-height,230px);
+  border-radius:0;
+  object-fit:contain;
+  object-position:center;
+  filter:saturate(.78) contrast(1.035);
+  transition:filter .35s ease,transform .45s var(--bm-ease);
+}
+.bm-page .te-photo button:hover img{filter:saturate(.88) contrast(1.06);transform:translateY(-2px)}
+.bm-page .te-photo figcaption{
+  max-width:48ch;
+  margin:6px auto 0;
+  color:#686d70;
+  font-size:10px;
+  line-height:1.45;
+  letter-spacing:.015em;
+  text-align:left;
+}
+.bm-page .bm-object-photo{mix-blend-mode:multiply}
+
+/* Compact chapter rail: navigation, not a row of buttons. */
+.bm-contents{
+  position:sticky;
+  top:78px;
+  z-index:25;
+  display:grid;
+  grid-template-columns:repeat(8,minmax(0,1fr));
+  max-width:var(--bm-max);
+  margin-inline:auto;
+  padding-inline:var(--bm-gutter);
+  background:rgba(9,11,13,.96);
+  border-top:1px solid rgba(255,255,255,.12);
+  border-bottom:1px solid rgba(255,255,255,.14);
+  backdrop-filter:blur(12px);
+}
+.bm-contents:before{
+  content:"";
+  position:absolute;
+  inset:0 calc(50% - 50vw);
+  z-index:-1;
+  background:inherit;
+}
+.bm-contents a{
+  position:relative;
+  display:flex;
+  align-items:center;
+  gap:7px;
+  min-height:54px;
+  padding:0 8px;
+  overflow:hidden;
+  color:rgba(255,255,255,.64);
+  font-size:11px;
+  line-height:1.25;
+  text-decoration:none;
+  white-space:nowrap;
+  transition:color .22s ease;
+}
+.bm-contents a span{color:var(--bm-orange);font-size:9px;font-variant-numeric:tabular-nums}
+.bm-contents a:after{
+  content:"";
+  position:absolute;
+  left:8px;
+  right:8px;
+  bottom:0;
+  height:2px;
+  background:var(--bm-orange);
+  transform:scaleX(0);
+  transform-origin:left;
+  transition:transform .34s var(--bm-ease);
+}
+.bm-contents a:hover,.bm-contents a:focus-visible{color:var(--bm-white)}
+.bm-contents a:hover:after,.bm-contents a:focus-visible:after{transform:scaleX(1)}
+
+/* Chapter framework: no outer boxes, only editorial rules and spacing. */
+.bm-page .bm-group{
+  max-width:var(--bm-max);
+  margin-inline:auto;
+  padding:34px var(--bm-gutter) 38px;
+  scroll-margin-top:145px;
+}
+.bm-page .bm-group:nth-of-type(even){background:var(--bm-white)}
+.bm-page .bm-group:nth-of-type(even):before{
+  content:"";
+  position:absolute;
+  inset-inline:0;
+  pointer-events:none;
+}
+.bm-section-header{
+  display:grid;
+  grid-template-columns:54px minmax(0,1fr);
+  align-items:end;
+  gap:16px;
+  margin:0 0 24px;
+  padding-bottom:12px;
+  border-bottom:1px solid var(--bm-rule);
+}
+.bm-section-header:after{
+  content:"";
+  grid-column:2;
+  width:54px;
+  height:3px;
+  margin-top:-3px;
+  background:var(--bm-orange);
+  transform:scaleX(.15);
+  transform-origin:left;
+  transition:transform .8s var(--bm-ease);
+}
+.bm-section-header.is-visible:after{transform:scaleX(1)}
+.bm-chapter-number{
+  grid-row:1;
+  color:var(--bm-orange);
+  font-size:11px;
+  font-weight:700;
+  letter-spacing:.1em;
+}
+.bm-page .bm-heading{
+  grid-column:2;
+  margin:0;
+  color:var(--bm-ink);
+  font-size:clamp(26px,2.6vw,38px);
+  font-weight:590;
+  line-height:1.08;
+  letter-spacing:-.035em;
+  text-align:left;
+  text-wrap:balance;
+}
+.bm-spread{display:grid;gap:26px 34px}
+.bm-story{position:relative;min-width:0;padding-top:22px;scroll-margin-top:150px}
+.bm-story .te-copy{min-width:0}
+.bm-story:before{
+  content:attr(data-topic);
+  display:none;
+}
+
+/* 01 Connector families: six balanced, wide-reading reference entries. */
+.bm-interfaces .bm-spread{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 42px}
+.bm-interfaces .bm-story,
+.bm-interfaces .bm-story-1,
+.bm-interfaces .bm-story-2,
+.bm-interfaces .bm-story-6{
+  display:grid;
+  grid-template-columns:minmax(145px,32%) minmax(0,1fr);
+  align-items:start;
+  gap:22px;
+  min-height:0;
+  padding:24px 0;
+  color:var(--bm-ink);
+  background:transparent;
+  border:0;
+  border-top:1px solid var(--bm-rule);
+}
+.bm-interfaces .bm-story:nth-child(-n+2){padding-top:0;border-top:0}
+.bm-interfaces .bm-story .te-photo{width:100%;padding:0;justify-self:stretch}
+.bm-interfaces .bm-story .te-photo button{width:100%}
+.bm-interfaces .bm-story .te-photo img{width:100%!important;max-height:205px}
+.bm-interfaces .bm-story .te-copy{padding:0}
+.bm-interfaces .bm-story h3{color:var(--bm-ink)}
+.bm-interfaces .bm-story p{color:var(--bm-muted)}
+
+/* 02 A single manufacturing feature. */
+.bm-workmanship{background:#d9d6ce!important}
+.bm-workmanship .bm-story{display:grid;grid-template-columns:minmax(260px,.72fr) minmax(0,1.28fr);align-items:center;gap:clamp(30px,6vw,86px)}
+.bm-workmanship .bm-story:before{position:absolute;left:calc(50% - 2px);top:0}
+.bm-workmanship .bm-story .te-copy{padding-left:24px;border-left:1px solid var(--bm-rule)}
+.bm-workmanship .bm-story h3{font-size:clamp(22px,2.2vw,31px)}
+
+/* 03 Solutions: three equal field reports with no dead grid row. */
+.bm-solutions .bm-spread{grid-template-columns:repeat(3,minmax(0,1fr));gap:0 34px}
+.bm-solutions .bm-story,
+.bm-solutions .bm-story-1,
+.bm-solutions .bm-story-2,
+.bm-solutions .bm-story-3{
+  display:flex;
+  min-width:0;
+  flex-direction:column;
+  gap:0;
+  padding:0;
+  border:0;
+}
+.bm-solutions .bm-story+.bm-story{padding-left:34px;border-left:1px solid var(--bm-rule)}
+.bm-solutions .bm-story .te-photo{order:1;width:100%;margin:0 0 16px;justify-self:stretch}
+.bm-solutions .bm-story .te-photo button{width:100%;height:190px;display:grid;place-items:center;overflow:hidden}
+.bm-solutions .bm-story .te-photo img{width:100%!important;height:100%!important;max-height:none;object-fit:cover}
+.bm-solutions .bm-story .te-copy{order:2;padding:0}
+
+/* 04 Materials: consistent vertical studies, visually precise rather than boxed. */
+.bm-materials .bm-spread{grid-template-columns:repeat(4,minmax(0,1fr));gap:0}
+.bm-materials .bm-story{display:flex;flex-direction:column;padding:22px 22px 0}
+.bm-materials .bm-story:first-child{padding-left:0}
+.bm-materials .bm-story:last-child{padding-right:0}
+.bm-materials .bm-story+.bm-story{border-left:1px solid var(--bm-rule)}
+.bm-materials .bm-story .te-photo{order:2;margin-top:14px}
+.bm-materials .bm-story .te-photo button{width:100%;height:180px;display:grid;place-items:center;margin-left:0;overflow:hidden}
+.bm-materials .bm-story .te-photo img{width:100%!important;height:100%!important;max-height:none;object-fit:cover}
+.bm-materials .bm-story .te-photo figcaption{margin-left:0}
+
+/* 05 Environmental protection: two deliberate opposing spreads. */
+.bm-protection{background:var(--bm-charcoal)!important;color:white}
+.bm-protection .bm-section-header{border-color:rgba(255,255,255,.18)}
+.bm-protection .bm-heading{color:white}
+.bm-protection .bm-spread{grid-template-columns:repeat(2,minmax(0,1fr));gap:0}
+.bm-protection .bm-story{display:grid;grid-template-columns:minmax(150px,.72fr) minmax(0,1fr);align-items:center;gap:24px;padding-right:34px}
+.bm-protection .bm-story+.bm-story{padding:22px 0 0 34px;border-left:1px solid rgba(255,255,255,.18)}
+.bm-protection .bm-story-2 .te-photo{grid-column:2;grid-row:1}
+.bm-protection .bm-story-2 .te-copy{grid-column:1;grid-row:1}
+.bm-protection h3{color:white}
+.bm-protection p{color:rgba(255,255,255,.68)}
+.bm-protection .te-photo figcaption{color:rgba(255,255,255,.48)}
+.bm-protection .bm-object-photo{mix-blend-mode:normal}
+
+/* 06 Applications: consistent vertical examples in a five-part editorial grid. */
+.bm-applications .bm-spread{grid-template-columns:repeat(6,minmax(0,1fr));gap:26px 30px}
+.bm-applications .bm-story,
+.bm-applications .bm-story-1,
+.bm-applications .bm-story-2{
+  grid-column:span 2;
+  display:flex;
+  min-width:0;
+  flex-direction:column;
+  align-content:start;
+  gap:0;
+  padding:0;
+  border:0;
+}
+.bm-applications .bm-story-4,.bm-applications .bm-story-5{padding-top:24px;border-top:1px solid var(--bm-rule)}
+.bm-applications .bm-story-4{grid-column:2/span 2;padding-inline:0;border-inline:0}
+.bm-applications .bm-story-5{grid-column:4/span 2;padding-left:0}
+.bm-applications .bm-story .te-photo{order:1;width:100%;margin:0 0 15px}
+.bm-applications .bm-story .te-photo button{width:100%;aspect-ratio:16/9;display:grid;place-items:center;overflow:hidden}
+.bm-applications .bm-story .te-photo img{width:100%!important;height:100%!important;max-height:none;object-fit:cover}
+.bm-applications .bm-story .te-copy{order:2;padding:0}
+
+/* 07 Quality: three long-form proof points with alternating image side. */
+.bm-quality{background:#d9d6ce!important}
+.bm-quality .bm-spread{grid-template-columns:1fr;gap:0}
+.bm-quality .bm-story{display:grid;grid-template-columns:minmax(210px,.58fr) minmax(0,1.42fr);align-items:center;gap:clamp(26px,5vw,72px);padding:42px 0 22px}
+.bm-quality .bm-story+.bm-story{border-top:1px solid var(--bm-rule)}
+.bm-quality .bm-story-2{grid-template-columns:minmax(0,1.42fr) minmax(210px,.58fr)}
+.bm-quality .bm-story-2 .te-photo{grid-column:2;grid-row:1}
+.bm-quality .bm-story-2 .te-copy{grid-column:1;grid-row:1}
+
+/* 08 Specification: compact technical ledger without a table wall. */
+.bm-specification .bm-spread{grid-template-columns:repeat(2,minmax(0,1fr));gap:0 54px}
+.bm-specification .bm-story{display:grid;grid-template-columns:132px minmax(0,1fr);align-items:start;gap:18px;padding:38px 0 18px;border-top:1px solid var(--bm-rule)}
+.bm-specification .bm-story-1{grid-column:1/-1;grid-template-columns:minmax(240px,.65fr) minmax(0,1.35fr);align-items:center;border-top:0;padding-top:22px;padding-bottom:24px}
+.bm-specification .bm-story-2,.bm-specification .bm-story-4{grid-template-columns:minmax(0,1fr) 132px}
+.bm-specification .bm-story-2 .te-photo,.bm-specification .bm-story-4 .te-photo{grid-column:2;grid-row:1}
+.bm-specification .bm-story-2 .te-copy,.bm-specification .bm-story-4 .te-copy{grid-column:1;grid-row:1}
+
+.bm-page .pcc-rich-faq{
+  max-width:var(--bm-max);
+  margin-inline:auto;
+  padding:36px var(--bm-gutter) 44px;
+  background:var(--bm-white);
+  border-top:3px solid var(--bm-orange);
+}
+.bm-page .pcc-rich-faq h2{font-size:clamp(25px,2.5vw,36px);font-weight:590;letter-spacing:-.03em}
+.bm-page .pcc-media-credits{background:var(--bm-paper)}
+
+@media(max-width:1100px){
+  .bm-contents{grid-template-columns:repeat(4,1fr)}
+  .bm-contents a{min-height:42px}
+  .bm-interfaces .bm-spread{grid-template-columns:1fr}
+  .bm-interfaces .bm-story,.bm-interfaces .bm-story-1,.bm-interfaces .bm-story-2,.bm-interfaces .bm-story-6{grid-column:auto;grid-template-columns:minmax(150px,28%) minmax(0,1fr);padding:22px 0;border-top:1px solid var(--bm-rule)}
+  .bm-interfaces .bm-story:first-child{padding-top:0;border-top:0}
+  .bm-materials .bm-spread{grid-template-columns:repeat(2,1fr);gap:28px 0}
+  .bm-materials .bm-story:nth-child(3){border-left:0;padding-left:0}
+  .bm-applications .bm-spread{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .bm-applications .bm-story,.bm-applications .bm-story-4,.bm-applications .bm-story-5{grid-column:auto}
+  .bm-applications .bm-story-4{border-right:0}
+}
+
+@media(max-width:767px){
+  .binder-magazine .pcc-hero-grid{grid-template-columns:1fr;min-height:0!important;padding-block:28px 0!important}
+  .binder-magazine .pcc-hero-copy{padding-right:0}
+  .binder-magazine .pcc-hero-copy h1{max-width:none;font-size:clamp(32px,10vw,43px);line-height:1.08}
+  .binder-magazine .pcc-hero-media{width:calc(100% + 32px);margin:28px -16px 0;border-left:0;border-top:1px solid rgba(255,255,255,.16)}
+  .binder-magazine .pcc-hero-media img{max-height:310px}
+  .bm-page{--bm-gutter:20px}
+  .bm-page p{font-size:14px;line-height:1.84}
+  .bm-page .te-opening{grid-template-columns:1fr;gap:16px;padding:24px 20px 20px}
+  .bm-page .te-opening .te-photo{width:calc(100% + 40px);margin-inline:-20px}
+  .bm-page .te-opening .te-photo img{max-height:225px}
+  .bm-page .te-opening .te-photo figcaption{padding-inline:20px}
+  .bm-contents{position:relative;top:auto;display:flex;gap:0;padding:0 14px;overflow-x:auto;scrollbar-width:thin;scrollbar-color:var(--bm-orange) var(--bm-black)}
+  .bm-contents a{flex:0 0 auto;min-height:48px;padding-inline:10px}
+  .bm-page .bm-group{padding:26px 20px 30px}
+  .bm-section-header{grid-template-columns:34px 1fr;gap:10px;margin-bottom:20px;padding-bottom:10px}
+  .bm-page .bm-heading{font-size:26px}
+  .bm-spread,.bm-interfaces .bm-spread,.bm-solutions .bm-spread,.bm-materials .bm-spread,.bm-protection .bm-spread,.bm-applications .bm-spread,.bm-quality .bm-spread,.bm-specification .bm-spread{display:grid;grid-template-columns:minmax(0,1fr);gap:22px}
+  .bm-page .bm-group .bm-story,.bm-interfaces .bm-story,.bm-interfaces .bm-story-1,.bm-interfaces .bm-story-2,.bm-interfaces .bm-story-6,.bm-workmanship .bm-story,.bm-solutions .bm-story,.bm-solutions .bm-story-1,.bm-solutions .bm-story-2,.bm-solutions .bm-story-3,.bm-materials .bm-story,.bm-protection .bm-story,.bm-protection .bm-story+.bm-story,.bm-applications .bm-story,.bm-applications .bm-story-1,.bm-applications .bm-story-2,.bm-quality .bm-story,.bm-quality .bm-story-2,.bm-specification .bm-story,.bm-specification .bm-story-1,.bm-specification .bm-story-2,.bm-specification .bm-story-4{
+    grid-column:auto;
+    grid-row:auto;
+    display:grid;
+    grid-template-columns:116px minmax(0,1fr);
+    gap:16px;
+    align-items:start;
+    padding:0 0 20px;
+    border:0;
+    border-bottom:1px solid var(--bm-rule);
+    background:transparent;
+  }
+  .bm-page .bm-group .bm-story:last-child{padding-bottom:0;border-bottom:0}
+  .bm-page .bm-story .te-copy{grid-column:2;grid-row:1;padding:0;border:0}
+  .bm-page .bm-story .te-photo{grid-column:1;grid-row:1;width:100%;margin:0;padding:0;align-self:start}
+  .bm-page .bm-story .te-photo button{width:100%;margin:0}
+  .bm-page .bm-story .te-photo img{width:100%!important;max-height:var(--bm-image-height,190px);margin:0 auto}
+  .bm-page .bm-story .te-photo figcaption{font-size:9px;margin-top:5px}
+  .bm-page .bm-story h3{font-size:17px;padding-right:4px}
+  .bm-page .bm-story p{font-size:13.5px;line-height:1.75}
+  .bm-protection .bm-story{border-color:rgba(255,255,255,.18)!important}
+  .bm-materials .bm-story .te-photo{order:initial}
+  .bm-solutions .bm-story,.bm-solutions .bm-story-1,.bm-solutions .bm-story-2,.bm-solutions .bm-story-3,.bm-applications .bm-story,.bm-applications .bm-story-1,.bm-applications .bm-story-2,.bm-applications .bm-story-4,.bm-applications .bm-story-5{display:flex;flex-direction:column;padding:0 0 20px;border:0;border-bottom:1px solid var(--bm-rule)}
+  .bm-solutions .bm-story:last-child,.bm-applications .bm-story:last-child{padding-bottom:0;border-bottom:0}
+  .bm-solutions .bm-story .te-photo,.bm-applications .bm-story .te-photo{order:1;width:calc(100% + 40px);margin:0 -20px 14px}
+  .bm-solutions .bm-story .te-photo button,.bm-applications .bm-story .te-photo button{width:100%;height:auto;aspect-ratio:16/9}
+  .bm-solutions .bm-story .te-photo figcaption,.bm-applications .bm-story .te-photo figcaption{padding-inline:20px}
+  .bm-solutions .bm-story .te-copy,.bm-applications .bm-story .te-copy{order:2;padding:0}
+  .bm-page .pcc-rich-faq{padding:30px 20px 36px}
+}
+
+@media(max-width:420px){
+  .bm-page .bm-group .bm-story,.bm-interfaces .bm-story,.bm-workmanship .bm-story,.bm-solutions .bm-story,.bm-materials .bm-story,.bm-protection .bm-story,.bm-applications .bm-story,.bm-quality .bm-story,.bm-specification .bm-story{
+    grid-template-columns:102px minmax(0,1fr);
+    gap:14px;
+  }
+  .bm-page .bm-story h3{font-size:16px}
+  .bm-page .bm-story p{font-size:13px}
+}
+
+@media(prefers-reduced-motion:reduce){
+  .bm-page *,.binder-magazine .pcc-actions .btn{scroll-behavior:auto!important;transition:none!important;animation:none!important}
+  .bm-section-header:after{transform:scaleX(1)}
+}
