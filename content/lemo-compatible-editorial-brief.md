@@ -20,4 +20,8 @@ Reference: https://www.ql-custom.com/lemo-cable-assembly — brand and push-pull
 
 ## Visual direction
 
+## Publication verification — 2026-09-10
+
+Published in commit 5818e1f. Fresh public EN/ZH checks at 1280 and 390 pixels passed: 26 chapters, no overflow, broken images, console errors or image-edge failures; fixed header, category inquiry, return link and FAQ verified. Public desktop and mobile screenshots were visually inspected. Navigation reports six groups, 51 active and 32 disabled pending categories. Local EN/ZH also passed at 320 pixels. Initial deployment-transition failures were superseded by the complete fresh public run, not ignored.
+
 Compact technical magazine. Text first, unique small real photographs second. No repeated image sources from active pages. Gentle neutral section shifts, small outer-edge photographs, short internal column rules. No enclosing cards, decorative masks or heavy oversized type. All EN/ZH paragraph indentation, fixed navigation, inquiries, mobile edges and FAQ behavior retained. Public verification required before publication is reported complete.

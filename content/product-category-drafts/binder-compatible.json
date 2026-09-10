@@ -1,0 +1,1039 @@
+{
+  "key": "connector-systems-11",
+  "slug": "binder-compatible",
+  "title": {
+    "en": "Binder Compatible Cable Assemblies",
+    "zh": "Binder 兼容电缆组件"
+  },
+  "seoTitle": "Custom Binder Cable Assemblies | M8, M12 A/D/X, Power & Sensor Wiring | Super Smile",
+  "intro": {
+    "en": "Custom Binder-interface sensor, data and equipment cables, with specified coding, pinouts, materials and installation support.",
+    "zh": "定制 Binder 接口传感、数据及设备电缆，明确编码、针脚、材料与安装支撑。"
+  },
+  "knowledge": {
+    "en": "Select the exact family, coding and protection condition before defining the cable.",
+    "zh": "定义电缆前，先选择准确系列、编码及防护条件。"
+  },
+  "notes": {
+    "en": "Provide mating references, wiring views, lengths and the actual environment.",
+    "zh": "提供对插料号、接线视图、长度及实际环境。"
+  },
+  "delivery": {
+    "en": "Approve the sample and controlled material and inspection documents.",
+    "zh": "认可样品及受控物料、检验文件。"
+  },
+  "page": {
+    "layout": "technical-editorial",
+    "theme": "binder-installation",
+    "displayTitle": {
+      "en": "Binder Compatible Cable Assemblies",
+      "zh": "Binder 兼容电缆组件"
+    },
+    "headings": {
+      "introduction": {
+        "en": "Binder Cable Assemblies: Selection, Installation and Service",
+        "zh": "Binder 电缆组件：选型、安装与维护"
+      },
+      "faq": {
+        "en": "Engineering and Purchasing Questions",
+        "zh": "工程与采购问题"
+      }
+    },
+    "subtitle": {
+      "en": "Connector families, material decisions and field-ready wiring",
+      "zh": "接头系列、材料决策与现场布线"
+    },
+    "lead": {
+      "en": "Binder-compatible wiring covers a broad set of signal, data and power connections. The right design starts with the actual interface and follows the cable through the equipment: how it is mounted, exposed, moved and serviced. This guide explains the family choices, materials, applications and production details that turn a connector selection into a controlled cable assembly.",
+      "zh": "Binder 兼容布线覆盖多种信号、数据及供电连接。合适设计从实际接口开始，并沿电缆在设备内的路径考虑安装、暴露、运动及维护。以下介绍系列选择、材料、应用与生产细节，说明如何将接头选型转化为受控电缆组件。"
+    },
+    "images": {
+      "hero": "/assets/images/product-categories/stock/binder/hero.jpg",
+      "range": "/assets/images/product-categories/stock/binder/opening.jpg"
+    },
+    "openingCaption": {
+      "en": "Ultrasonic sensor illustrates the equipment end of a sensor connection.",
+      "zh": "超声传感器展示传感连接的设备端。"
+    },
+    "chapters": [
+      {
+        "id": "overview",
+        "title": {
+          "en": "Binder Connector Cables: More Than One Interface",
+          "zh": "Binder 连接电缆：不止一种接口"
+        },
+        "copy": {
+          "en": "This category covers sensor leads, equipment extensions, panel feedthroughs, distribution branches and power or data connections built around specified Binder interfaces. A connector family name is not a complete cable definition. Identify the mating part, circuit, cable construction, length and installation environment together. Super Smile reviews original components and approved alternatives separately, with the supplied part references and required inspection recorded before production.",
+          "zh": "本小类覆盖围绕指定 Binder 接口制作的传感器引线、设备延长线、面板穿通、分配支路及供电或数据连接。接头系列名称不是完整电缆定义，应共同识别对插件、回路、线缆结构、长度与安装环境。超斯迈尔分别审核原装零件和认可替代件，在生产前记录所供应料号及所需检验。"
+        },
+        "style": "wide",
+        "image": "/assets/images/product-categories/stock/binder/overview.jpg",
+        "caption": {
+          "en": "Industrial network converter shows one equipment interface context.",
+          "zh": "工业网络转换器展示设备接口应用。"
+        }
+      },
+      {
+        "id": "m8",
+        "title": {
+          "en": "M8: Compact Sensor and Actuator Wiring",
+          "zh": "M8：紧凑传感器与执行器布线"
+        },
+        "copy": {
+          "en": "Binder 768 and 718 series include M8 automation connections with different contact counts and cable or panel configurations. Small size is useful near sensors, but access to the coupling and cable bend must still be checked. Confirm the complete reference, straight or angled exit and appropriate conductor range. More contacts within a similar envelope do not imply the same current rating or identical installation clearances.",
+          "zh": "Binder 768、718 系列包含不同触点数量及线端、面板配置的 M8 自动化连接。小尺寸适合传感器附近空间，但仍需检查锁紧操作及线缆弯曲位置。应确认完整料号、直出或弯出形式和适用导体范围；相近外形内增加触点，不代表电流额定值或安装间隙相同。"
+        },
+        "style": "inset-left",
+        "image": "/assets/images/product-categories/stock/binder/m8.jpg",
+        "caption": {
+          "en": "Compact inductive switch illustrates sensor installation space; not a Binder M8 part reference.",
+          "zh": "紧凑电感开关说明传感器安装空间，不作为 Binder M8 料号参考。"
+        }
+      },
+      {
+        "id": "m12a",
+        "title": {
+          "en": "M12 A-Coding: Define the Sensor Circuit",
+          "zh": "M12 A 编码：明确传感器回路"
+        },
+        "copy": {
+          "en": "The 713 and 763 M12-A families provide cable and panel connections for many automation configurations. A-coding identifies the mating geometry, not one universal wiring map. Confirm pin count, contact gender, circuit assignment and panel mounting thread. A prewired receptacle tail also needs the correct length and end preparation. Compare the front mating view with the equipment drawing before transferring a pinout to the manufacturing document.",
+          "zh": "713、763 M12-A 系列为多种自动化配置提供线端及面板连接。A 编码识别对插几何，并不代表统一接线图。应确认针数、触点公母、回路分配及面板安装螺纹；预接线插座尾线还需匹配长度与末端处理。将针脚写入制造文件前，应先用前端对插视图核对设备图纸。"
+        },
+        "style": "compact",
+        "image": "/assets/images/product-categories/stock/binder/m12a.jpg",
+        "caption": {
+          "en": "Cylindrical proximity sensor: confirm the actual connector and circuit separately.",
+          "zh": "圆柱接近传感器，实际接口及回路须另行确认。"
+        }
+      },
+      {
+        "id": "ethernet",
+        "title": {
+          "en": "M12 D and X: Match the Data Channel",
+          "zh": "M12 D 与 X：匹配数据通道"
+        },
+        "copy": {
+          "en": "D- and X-coded M12 systems serve different Ethernet channel arrangements. They differ in contact layout and shielding architecture, so an adapter must preserve the intended pairs rather than merely join numbered pins. Binder 825 and 876 references include data-connection variants; select the exact termination and cable construction. Connector capability is not a promise of complete-channel speed: cable length, pair handling and the other interface remain part of the verification.",
+          "zh": "D、X 编码 M12 系统面向不同以太网通道结构，触点布局及屏蔽架构不同，因此转接组件应保留预定线对，而不只是连接相同编号。Binder 825、876 参考系列包含数据连接版本，应选择准确端接与线缆结构。接头能力不代表完整通道速率承诺，线长、线对处理及另一端接口都属于验证范围。"
+        },
+        "style": "feature-right",
+        "image": "/assets/images/product-categories/stock/binder/ethernet.jpg",
+        "caption": {
+          "en": "Industrial Ethernet switch and installed network cabling.",
+          "zh": "工业以太网交换机及现场网络布线。"
+        }
+      },
+      {
+        "id": "power",
+        "title": {
+          "en": "K and L Coding: Separate AC and DC Power",
+          "zh": "K 与 L 编码：区分交流与直流供电"
+        },
+        "copy": {
+          "en": "M12 power connectors are not interchangeable with signal-coded versions. Binder K-coded configurations address AC supply, while L-coded configurations address DC supply. Confirm protective or functional earth requirements from the exact device circuit, not cable color alone. Conductor size, terminal range, load profile and temperature rise require joint review. The connector rating does not remove the need for suitable protection and installation rules in the finished equipment.",
+          "zh": "M12 供电接头不能与信号编码版本互换。Binder K 编码配置用于交流供电，L 编码配置用于直流供电。应依据具体设备回路确认保护接地或功能接地需求，不能只凭线色判断。导体尺寸、端接范围、负载特征及温升需共同审核，接头额定值不能代替整机适当的保护与安装要求。"
+        },
+        "style": "inset-right",
+        "image": "/assets/images/product-categories/stock/binder/power.jpg",
+        "caption": {
+          "en": "Servo training equipment illustrates separate power and control connections.",
+          "zh": "伺服教学设备展示供电与控制连接的区分。"
+        }
+      },
+      {
+        "id": "snap",
+        "title": {
+          "en": "Snap-In, Bayonet and ELC Families",
+          "zh": "卡扣、卡口与 ELC 系列"
+        },
+        "copy": {
+          "en": "Not every Binder interface uses a threaded metal coupling. Snap-in and bayonet families provide other handling options, including selected medical-grade versions. The 570 ELC uses a snap-in mechanism with a plastic housing; 620, 720 and 770 are separate systems. Check the release action, keying, cable grip and specified protection of the exact version. A medical-grade component designation does not certify the complete device or establish compatibility with every cleaning agent.",
+          "zh": "并非所有 Binder 接口都采用金属螺纹锁紧，卡扣与卡口系列提供其他操作方式，其中包含指定医疗级版本。570 ELC 使用塑料外壳及卡扣机构，620、720、770 则是不同系统。应核对具体版本的解锁动作、键位、电缆夹持及规定防护。医疗级元件名称不会认证整机，也不能证明适应所有清洁剂。"
+        },
+        "style": "wide",
+        "image": "/assets/images/product-categories/stock/binder/snap.jpg",
+        "caption": {
+          "en": "Tuchel circular connectors illustrate differing coupling geometries, not Binder snap-in or ELC products.",
+          "zh": "Tuchel 圆形接头用于观察不同锁紧几何，并非 Binder 卡扣或 ELC 产品。"
+        }
+      },
+      {
+        "id": "workmanship",
+        "title": {
+          "en": "Materials and Workmanship: Control the Interface",
+          "zh": "材料与工艺：控制接口细节"
+        },
+        "copy": {
+          "en": "Incoming parts should match the approved reference, finish and dimensional requirements. During assembly, control stripping, termination, contact seating and cable support; a visually neat jacket cannot compensate for a damaged strand or incomplete contact insertion. Record the inspection points that matter to this configuration. Where an ingress or mechanical test is required, agree its method and acceptance criteria rather than assuming every assembly receives every possible laboratory test.",
+          "zh": "来料应符合认可料号、表面及尺寸要求。装配时需控制剥线、端接、端子到位与电缆支撑；外观整齐的护套不能补偿导体损伤或端子未完全插入。应记录对本配置有意义的检验点，若需要防护或机械试验，应约定方法及验收标准，而不是默认每个组件都进行所有实验室测试。"
+        },
+        "style": "process",
+        "image": "/assets/images/product-categories/stock/binder/workmanship.jpg",
+        "caption": {
+          "en": "Contact crimp tool; the correct tool and terminal combination must be specified.",
+          "zh": "触点压接工具，需规定正确工具与端子的组合。"
+        }
+      },
+      {
+        "id": "industrialsolution",
+        "title": {
+          "en": "Industrial Connection Solutions",
+          "zh": "工业连接方案"
+        },
+        "copy": {
+          "en": "Start with the equipment topology: which sensors remain on the machine, which modules are removed and where the cabinet boundary lies. This determines whether a direct lead, extension, splitter or panel feedthrough is useful. Keep installation datums and branch lengths unambiguous. The practical aim is a repeatable circuit that can be installed and serviced without forcing the cable across a sharp edge, hot surface or moving component.",
+          "zh": "从设备连接关系开始：哪些传感器固定在机器上，哪些模块需要拆卸，控制柜边界位于哪里。这决定采用直连引线、延长、分线或面板穿通是否合适。安装基准与分支长度应清楚，实际目标是形成可重复的回路，使安装及维修时不必强迫电缆跨越锐边、热表面或运动部件。"
+        },
+        "style": "wide",
+        "image": "/assets/images/product-categories/stock/binder/industrialsolution.jpg",
+        "caption": {
+          "en": "Cable identification equipment illustrates circuit tracing during installation.",
+          "zh": "电缆识别设备说明安装中的回路核对。"
+        }
+      },
+      {
+        "id": "medicalsolution",
+        "title": {
+          "en": "Medical Connections: Handling and Cleaning",
+          "zh": "医疗连接：操作与清洁"
+        },
+        "copy": {
+          "en": "For a medical-equipment project, identify whether the cable is internal, operator handled or patient adjacent. These positions create different material and documentation requirements. Connector color and keying can support identification, while jacket selection should follow the specified cleaning process. Repeated wiping, fluid exposure and storage bends should be described before sampling. Required device-safety or cleaning validation remains a project-specific requirement, not a consequence of selecting a familiar connector brand.",
+          "zh": "医疗设备项目应识别电缆属于内部布线、操作者手持还是患者附近连接，不同位置带来不同材料及文件要求。接头颜色和键位可辅助识别，护套则应跟随规定清洁工艺。打样前应说明反复擦拭、液体暴露及存放弯折；所需整机安全或清洁验证属于项目要求，不是选用熟悉品牌后自动获得的结果。"
+        },
+        "style": "compact",
+        "image": "/assets/images/product-categories/stock/binder/medicalsolution.jpg",
+        "caption": {
+          "en": "Cleaning-wipe context; chemical compatibility must be confirmed for the actual assembly.",
+          "zh": "清洁湿巾作为维护场景参考，实际组件须确认化学兼容性。"
+        }
+      },
+      {
+        "id": "outdoorsolution",
+        "title": {
+          "en": "Outdoor Connections: Review Every Entry Path",
+          "zh": "户外连接：审核每一条进入路径"
+        },
+        "copy": {
+          "en": "Rain may reach the mating face, rear cable entry, enclosure joint or an open branch. Define all of those boundaries before selecting a sealing configuration. The same lead may also experience sunlight, cold starts and vibration, which an ingress code alone does not describe. Plan cable support and drainage so liquid is not encouraged toward an unsealed end. Any environmental test should represent the intended assembled condition.",
+          "zh": "雨水可能到达对插面、尾部进线、机壳接缝或开放分支，选密封配置前应明确所有边界。同一引线还可能经历日晒、低温启动及振动，而防护代码不能独自描述这些条件。应规划电缆支撑及排水，避免液体被引向未密封末端；环境试验应对应预定装配状态。"
+        },
+        "style": "feature-left",
+        "image": "/assets/images/product-categories/stock/binder/outdoorsolution.jpg",
+        "caption": {
+          "en": "Outdoor monitoring sensor exposed to a real field environment.",
+          "zh": "真实户外环境中的监测传感器。"
+        }
+      },
+      {
+        "id": "cable",
+        "title": {
+          "en": "Cable Construction: Load, Signal and Motion",
+          "zh": "线缆结构：负载、信号与运动"
+        },
+        "copy": {
+          "en": "Choose the conductor from load, voltage drop, termination range and the installation duty. For a data channel, preserve the required pairs and shielding; thinner insulation alone does not suppress interference. PVC and PUR are construction choices with grade-specific properties, not universal performance rankings. Verify the actual jacket diameter against the connector entry. Static bending, repeated flexing and torsion must be distinguished when evaluating a cable for moving equipment.",
+          "zh": "应依据负载、压降、端接范围及安装工况选择导体。数据通道需保留规定线对和屏蔽，单纯减薄绝缘不能抑制干扰。PVC 与 PUR 是具有具体牌号属性的结构选择，并非通用性能排名。实际护套外径应匹配接头进线口，为运动设备评估线缆时，应区分静态弯曲、反复弯折及扭转。"
+        },
+        "style": "inset-left",
+        "image": "/assets/images/product-categories/stock/binder/cable.jpg",
+        "caption": {
+          "en": "Copper-tape shielded cable cross-section illustrates layered construction, not a specified Binder cable size.",
+          "zh": "铜带屏蔽电缆截面展示分层结构，并非指定 Binder 线缆规格。"
+        }
+      },
+      {
+        "id": "housing",
+        "title": {
+          "en": "Housing Materials and Mounting",
+          "zh": "外壳材料与安装"
+        },
+        "copy": {
+          "en": "Metal and polymer housings solve different mechanical, handling and environmental requirements. Use the selected part specification rather than assuming all Binder shells use one alloy. A metal shell contributes to shielding only when the intended electrical path is maintained. Mounting thickness, nut access and anti-rotation features affect the installed connection. Review the connector with the actual panel stack so tightening does not distort the enclosure or strain an internal lead.",
+          "zh": "金属与聚合物外壳解决不同机械、操作及环境需求，应使用所选零件规范，而不是假设所有 Binder 外壳采用同一种合金。金属壳只有保持预定电气通路时才能参与屏蔽。安装厚度、螺母操作空间及防转结构会影响成品连接，应结合实际面板叠层审核，避免拧紧时使机壳变形或拉紧内部引线。"
+        },
+        "style": "compact",
+        "image": "/assets/images/product-categories/stock/binder/housing.jpg",
+        "caption": {
+          "en": "Cable glands in different materials illustrate mounting and cable-entry choices.",
+          "zh": "不同材质电缆夹头展示安装及进线口选择。"
+        }
+      },
+      {
+        "id": "seal",
+        "title": {
+          "en": "Seals: Geometry Before a Material Label",
+          "zh": "密封件：材料名称之外还要看几何"
+        },
+        "copy": {
+          "en": "An elastomer works as a seal only with suitable compression, surface condition and dimensions. Cable diameter, roundness and jacket softness affect the rear seal, while panel seals must fit the actual mounting face. Check compatibility with temperature and the specified fluid rather than assigning one chemical resistance to all rubber. Assembly cleanliness matters: a trapped fiber or damaged sealing edge can defeat an otherwise appropriate component selection.",
+          "zh": "弹性体只有在压缩量、表面状况及尺寸合适时才能形成密封。线缆直径、圆度及护套软硬影响尾部密封，面板密封则必须适合实际安装面。应核对温度及指定液体相容性，而不是为所有橡胶赋予同一种耐化学性能。装配清洁同样重要，夹入纤维或损伤密封边缘会破坏原本合适的元件选择。"
+        },
+        "style": "compact",
+        "image": "/assets/images/product-categories/stock/binder/seal.jpg",
+        "caption": {
+          "en": "A distorted O-ring illustrates why seal geometry and installation matter.",
+          "zh": "变形 O 形圈说明密封几何与安装的重要性。"
+        }
+      },
+      {
+        "id": "contact",
+        "title": {
+          "en": "Contacts and Plating: Preserve the Approved Pair",
+          "zh": "触点与镀层：保持认可组合"
+        },
+        "copy": {
+          "en": "Contact alloy, mating finish and termination geometry act together. Select the exact contact reference and approved wire range; a similar-looking terminal is not a substitute for a documented match. Plating color cannot establish thickness or condition. For mixed-source assemblies, assess both mating finishes and the required evidence before approval. The finished circuit should be checked against its electrical requirements, with damaged or incompletely seated contacts handled under a defined rework rule.",
+          "zh": "触点合金、对插镀层及端接几何共同起作用。应选择准确端子料号及认可线材范围，外观相似的端子不能代替有文件依据的匹配。镀层颜色不能证明厚度或状态；混合来源组件应在认可前审核两端表面及所需证据。成品回路应按电气要求检查，受损或未到位端子需按明确返工规则处理。"
+        },
+        "style": "inset-right",
+        "image": "/assets/images/product-categories/stock/binder/contact.jpg",
+        "caption": {
+          "en": "Electrolytic nickel as a material reference, not a finished connector coating certificate.",
+          "zh": "电解镍作为材料参考，并非成品接头镀层认证。"
+        }
+      },
+      {
+        "id": "dust",
+        "title": {
+          "en": "Industrial Dust and Humidity",
+          "zh": "工业粉尘与湿气"
+        },
+        "copy": {
+          "en": "Dust protection and water protection describe different challenges. Consider whether fine particles are present during mating, whether the enclosure breathes through temperature changes and whether condensation can form inside. A sealed mating interface does not remove moisture already trapped in the assembly. Keep unused ports protected with the specified accessories and define inspection after service. Do not treat an IP rating as a universal guarantee against dust, cleaning jets and long-term immersion together.",
+          "zh": "防尘与防水描述不同挑战。应考虑对插时是否存在细颗粒、机壳是否随温度变化换气，以及内部是否可能结露。密封对插面不能排除装配时已被困在内部的水分。未用端口应采用指定附件保护，并规定维修后的检查，不能将某个 IP 等级同时当作防尘、耐清洗喷射及长期浸水的通用保证。"
+        },
+        "style": "feature-right",
+        "image": "/assets/images/product-categories/stock/binder/dust.jpg",
+        "caption": {
+          "en": "Dust-suppression spray in a mining environment illustrates combined dust and moisture exposure.",
+          "zh": "矿业现场抑尘喷雾展示粉尘与潮湿共同暴露。"
+        }
+      },
+      {
+        "id": "unmated",
+        "title": {
+          "en": "Unmated Protection and NCC Configurations",
+          "zh": "未对插防护与 NCC 配置"
+        },
+        "copy": {
+          "en": "The environmental boundary changes when a cable is unplugged. Binder NCC families include closed-contact arrangements, but the protected receptacle condition must be distinguished from the exposed cable plug. Confirm the exact series and use the specified cap where required. This distinction matters for washable equipment and removable accessories. State protection in the drawing for both normal operation and service, instead of listing a single code without the mating condition.",
+          "zh": "拔下电缆后，环境边界会改变。Binder NCC 系列包含闭合触点结构，但需区分受保护插座状态与暴露电缆插头。应确认具体系列，并在需要时使用指定防护盖，这对可清洗设备及可拆卸附件尤为重要。图纸应分别描述正常工作与维修状态的防护，而不是不带对插条件地列出单一代码。"
+        },
+        "style": "compact",
+        "image": "/assets/images/product-categories/stock/binder/unmated.jpg",
+        "caption": {
+          "en": "A diving light connector closure illustrates the need to examine openings; not an NCC rating example.",
+          "zh": "潜水灯接头封闭结构说明检查开口的重要性，并非 NCC 防护等级示例。"
+        }
+      },
+      {
+        "id": "automation",
+        "title": {
+          "en": "Industrial Automation: Sensors to Control",
+          "zh": "工业自动化：从传感到控制"
+        },
+        "copy": {
+          "en": "Sensor clusters, I/O modules, valve islands and cabinet interfaces create different branch and connector needs. An approved wiring diagram should describe the signal type and any shared supply before a splitter is built. Label branches where they remain visible after installation. Check the service route with the machine guards in place; accessible coupling nuts and clear channel identification can simplify replacement without changing the validated circuit.",
+          "zh": "传感器组、I/O 模块、阀岛及控制柜接口带来不同分支和接头需求。制作分线组件前，认可接线图应描述信号类型及共享供电。分支标识应在安装后仍可见，并在机器防护罩装好时检查检修路径；可操作的锁紧螺母和清楚通道识别，有助于在不改变认可回路的情况下更换。"
+        },
+        "style": "wide",
+        "image": "/assets/images/product-categories/stock/binder/automation.jpg",
+        "caption": {
+          "en": "Sensor board and pin adapter illustrate the connection from sensing to electronics.",
+          "zh": "传感器板与针脚转接展示从感知到电子系统的连接。"
+        }
+      },
+      {
+        "id": "medical",
+        "title": {
+          "en": "Medical Equipment: Define the Accessory Boundary",
+          "zh": "医疗设备：明确附件边界"
+        },
+        "copy": {
+          "en": "A monitor cable and a removable diagnostic accessory may require different flexibility, cleaning and safety evidence. Record the intended equipment and the approved electrical interface rather than calling every lead medical grade. Connector component data can support material selection, but the complete accessory must be assessed within the device requirements. Clear labels and controlled replacement specifications are particularly important when multiple similar channels sit next to one another.",
+          "zh": "监护电缆与可拆卸诊断附件可能要求不同柔性、清洁及安全证据。应记录目标设备及认可电气接口，而不是把每根引线都称为医疗级。接头元件资料可以支持选材，但完整附件仍需按整机要求评估。多个相似通道紧邻时，清晰标签和受控替换规范尤其重要。"
+        },
+        "style": "compact",
+        "image": "/assets/images/product-categories/stock/binder/medical.jpg",
+        "caption": {
+          "en": "Ultrasound probe illustrates a handled medical accessory, not our medical-device approval.",
+          "zh": "超声探头展示需要手持操作的医疗附件，不代表我们的医疗器械批准。"
+        }
+      },
+      {
+        "id": "robotics",
+        "title": {
+          "en": "Robotics: Separate Bending from Torsion",
+          "zh": "机器人：区分弯曲与扭转"
+        },
+        "copy": {
+          "en": "A robot dress pack may twist, while a cable carrier may primarily bend through a defined radius. Select construction for the actual motion, not a generic flexible label. Keep connectors outside the repeated flex zone and support the cable without crushing it. Describe travel, orientation and duty cycle before agreeing a prototype evaluation. Intermittent continuity under motion should be investigated at its source rather than hidden with a longer sleeve.",
+          "zh": "机器人管线包可能承受扭转，拖链则可能主要沿规定半径弯曲。应按实际运动选择结构，而不是依赖笼统的柔性标签。接头应离开反复弯折区域，电缆支撑不能挤伤护套。约定样品评估前，应描述行程、方向及工作循环；运动中的间歇导通应追查根因，而不是用更长套管遮盖。"
+        },
+        "style": "compact",
+        "image": "/assets/images/product-categories/stock/binder/robotics.jpg",
+        "caption": {
+          "en": "Industrial robot demonstration illustrates moving equipment and routing constraints.",
+          "zh": "工业机器人演示展示运动设备与布线路径约束。"
+        }
+      },
+      {
+        "id": "energy",
+        "title": {
+          "en": "Renewable Energy and Outdoor Equipment",
+          "zh": "新能源与户外设备"
+        },
+        "copy": {
+          "en": "Outdoor monitoring, control actuators and local equipment power can each need different cable assemblies. Distinguish low-voltage control connections from a generation system main power circuit. Sunlight, temperature variation, water exposure and maintenance access all affect material selection. Route the cable to avoid abrasive supports and standing water where possible. A connector used in an energy project does not by itself establish suitability for every photovoltaic or wind-power circuit.",
+          "zh": "户外监测、控制执行器及设备局部供电可能各需不同电缆组件。应将低压控制连接与发电系统主功率回路区分，日晒、温差、水暴露及维护空间都会影响选材。布线应尽量避免磨损性支撑和积水。接头用于能源项目，并不代表它适合所有光伏或风电回路。"
+        },
+        "style": "inset-left",
+        "image": "/assets/images/product-categories/stock/binder/energy.jpg",
+        "caption": {
+          "en": "Installed solar inverters illustrate outdoor energy equipment and cable routing.",
+          "zh": "已安装太阳能逆变器展示户外能源设备及布线。"
+        }
+      },
+      {
+        "id": "transport",
+        "title": {
+          "en": "Transportation and Rail: Installation Matters",
+          "zh": "交通与轨道：安装方式同样重要"
+        },
+        "copy": {
+          "en": "Vehicle and rail equipment can impose vibration, temperature and fire-performance requirements beyond a stationary cabinet. Identify the mounting location and applicable customer specification before choosing a cable. Connector locking cannot compensate for unsupported mass or a harness rubbing against a bracket. Material declarations, routing restraints and any required qualification evidence must apply to the actual configuration; a general industrial family name is not a rail approval.",
+          "zh": "车辆及轨道设备可能提出超出固定控制柜的振动、温度和燃烧性能要求。选线前应识别安装位置及适用客户规范。接头锁紧不能补偿未支撑重量或线束与支架摩擦的问题。材料声明、布线约束及所需资格证据必须对应实际配置，普通工业系列名称并不等于轨道认可。"
+        },
+        "style": "feature-left",
+        "image": "/assets/images/product-categories/stock/binder/transport.jpg",
+        "caption": {
+          "en": "Rail transport in heavy rain illustrates the actual exposure environment.",
+          "zh": "暴雨中的轨道交通展示实际环境暴露。"
+        }
+      },
+      {
+        "id": "quality",
+        "title": {
+          "en": "Quality Control That Matches the Drawing",
+          "zh": "与图纸对应的质量控制"
+        },
+        "copy": {
+          "en": "A meaningful inspection plan checks the features that could make this assembly wrong: the interface, circuit, dimensions, contact seating, labels and required protection. Use an approved sample as a reference alongside the drawing, not as a replacement for it. Continuity and visual inspection are basic checks; additional tests follow project requirements. Keep results linked to the production version so a later change can be evaluated against the same baseline.",
+          "zh": "有意义的检验方案应检查可能使组件不合格的特征：接口、回路、尺寸、端子到位、标签及规定防护。认可样品应与图纸共同作为参考，而不能代替图纸。导通及外观属于基础检查，其他试验按项目要求执行。结果需关联生产版本，便于后续变更在同一基准下评估。"
+        },
+        "style": "wide",
+        "image": "/assets/images/product-categories/stock/binder/quality.jpg",
+        "caption": {
+          "en": "Multimeter as an electrical inspection tool; project-specific checks remain necessary.",
+          "zh": "万用表作为电气检查工具，仍需按项目规定检验。"
+        }
+      },
+      {
+        "id": "locking",
+        "title": {
+          "en": "Locking Systems and Installation Loads",
+          "zh": "锁紧系统与安装载荷"
+        },
+        "copy": {
+          "en": "Threaded, snap-in and bayonet couplings require different handling. Follow the exact connector instructions for alignment and tightening rather than twisting a cable until it feels secure. Check access with neighboring connections present. A cable clamp should carry the planned service load so the coupling is not used as the only support. After maintenance, verify both mechanical engagement and circuit identification before restoring operation.",
+          "zh": "螺纹、卡扣及卡口锁紧需要不同操作。应按具体接头说明对准及拧紧，而不是扭动电缆直到主观感觉牢固。检查时应装上邻近连接，确认实际操作空间。固定夹应承受预定使用载荷，避免锁紧接头成为唯一支撑；维修后恢复运行前，应同时核对机械到位及回路识别。"
+        },
+        "style": "inset-right",
+        "image": "/assets/images/product-categories/stock/binder/locking.jpg",
+        "caption": {
+          "en": "Secured Hirschmann industrial connector illustrates a mechanical retention feature; not a Binder interchangeability claim.",
+          "zh": "已锁紧的 Hirschmann 工业接头展示机械保持结构，不代表与 Binder 可互换。"
+        }
+      },
+      {
+        "id": "wear",
+        "title": {
+          "en": "Wear, Selection and Service Cost",
+          "zh": "磨损、选型与维护成本"
+        },
+        "copy": {
+          "en": "Contact wear, a damaged seal and a broken conductor can produce similar intermittent symptoms but need different corrections. Preserve evidence from the failed location before choosing a replacement. The lowest purchase price may not be the lowest installed cost when access, labeling and replacement time are considered. A suitable configuration should balance electrical requirements, environment and serviceability, without promising a universal lifespan or eliminating every possible failure.",
+          "zh": "触点磨损、密封损伤及导体断裂可能产生相似间歇症状，却需要不同修正。选择替换件前应保留失效位置证据。考虑操作空间、标识及更换时间后，最低采购价未必对应最低安装使用成本。合适配置应平衡电气要求、环境及可维修性，但不承诺统一寿命或消除所有失效可能。"
+        },
+        "style": "compact",
+        "image": "/assets/images/product-categories/stock/binder/wear.jpg",
+        "caption": {
+          "en": "Corrosion on electronics illustrates the value of preserving physical failure evidence.",
+          "zh": "电子部件腐蚀说明保留实物失效证据的价值。"
+        }
+      },
+      {
+        "id": "length",
+        "title": {
+          "en": "Custom Lengths and Installation Datums",
+          "zh": "定制长度与安装基准"
+        },
+        "copy": {
+          "en": "Specify where each length starts and ends: mating face, backshell exit, branch point or prepared wire end. A drawing should separate useful installed reach from service allowance. Too little length loads the connection; unnecessary loops can rub, trap dirt or occupy maintenance space. Agree dimensional tolerance with the cable and assembly process, and check a sample on the equipment when the routing is complex.",
+          "zh": "应规定每个长度从何处起止：对插面、尾壳出口、分支点或处理后的线端。图纸应区分有效安装距离与检修余量，过短会加载接头，多余线圈则可能摩擦、积污或占据检修空间。尺寸公差需结合线缆与装配工艺约定，复杂布线应在设备上检查样品。"
+        },
+        "style": "compact",
+        "image": "/assets/images/product-categories/stock/binder/length.jpg",
+        "caption": {
+          "en": "Tape measure illustrates dimensional datums and installation allowance.",
+          "zh": "卷尺说明尺寸基准与安装余量。"
+        }
+      },
+      {
+        "id": "pinout",
+        "title": {
+          "en": "Wiring Layouts and Contact Views",
+          "zh": "接线布局与触点视图"
+        },
+        "copy": {
+          "en": "Document the connector view, circuit name and wire identity before assembly. Front and rear views can appear mirrored, and a standard shell does not guarantee a standard device pinout. For a branch harness, record shared connections explicitly instead of relying on color alone. Final circuit testing should compare the finished assembly with the approved map, including intended unused contacts and any shield connection.",
+          "zh": "装配前应记录接头观察方向、回路名称及电线身份。正反视图可能呈镜像，标准外壳不保证设备针脚标准化。分支线束应明确记录共享连接，不能仅靠颜色推断。最终回路测试应将成品与认可接线表比较，包括预定空置触点及屏蔽连接。"
+        },
+        "style": "inset-left",
+        "image": "/assets/images/product-categories/stock/binder/pinout.jpg",
+        "caption": {
+          "en": "An eight-pin DIN mating face illustrates contact-view orientation; not a Binder pinout.",
+          "zh": "八针 DIN 对插端面说明触点观察方向，并非 Binder 针脚表。"
+        }
+      },
+      {
+        "id": "mixed",
+        "title": {
+          "en": "Mixed Interfaces in One Assembly",
+          "zh": "一条组件中的混合接口"
+        },
+        "copy": {
+          "en": "A Binder-interface lead can transition to a terminal block, another circular connector or a defined equipment plug. Identify each end separately and confirm that the circuit, shielding and mechanical support remain appropriate through the transition. An adapter is not a protocol converter unless electronics are explicitly included. Mixed connectors can simplify installation, but only when the new assembly is documented and tested as one complete electrical path.",
+          "zh": "Binder 接口引线可过渡至端子台、另一种圆形接头或明确设备插头。应分别识别每一端，并确认过渡过程中的回路、屏蔽及机械支撑保持适当。除非明确包含电子电路，否则转接组件不是协议转换器。混合接口可以简化安装，但新组件必须作为完整电气通路进行文件定义与测试。"
+        },
+        "style": "feature-right",
+        "image": "/assets/images/product-categories/stock/binder/mixed.jpg",
+        "caption": {
+          "en": "Microphone and interface accessories illustrate different connection forms in one system.",
+          "zh": "麦克风与接口附件展示同一系统中的不同连接形式。"
+        }
+      },
+      {
+        "id": "jacket",
+        "title": {
+          "en": "Jackets Matched to the Site",
+          "zh": "与现场匹配的护套"
+        },
+        "copy": {
+          "en": "Describe the actual heat, cold, oil, chemicals, sunlight and movement rather than requesting a tough cable without conditions. Material performance depends on grade and exposure time. A jacket change can also alter outer diameter, stiffness and the fit of seals or clamps. Review those effects before substituting cable. The acceptance sample should reflect the intended jacket, markings and protection, not a temporary material that only resembles the production choice.",
+          "zh": "应描述实际高低温、油液、化学品、日晒及运动，而不是不带条件地要求耐用电缆。材料表现取决于牌号和暴露时间，护套变化还会改变外径、刚度及密封或固定夹配合，替换前需审核这些影响。验收样品应体现预定护套、标识和防护，而不是外观近似量产选择的临时材料。"
+        },
+        "style": "compact",
+        "image": "/assets/images/product-categories/stock/binder/jacket.jpg",
+        "caption": {
+          "en": "EPR-insulated cable section illustrates material layers, not a recommended small-signal cable gauge.",
+          "zh": "EPR 绝缘电缆截面展示材料层次，并非推荐的小信号线径。"
+        }
+      },
+      {
+        "id": "production",
+        "title": {
+          "en": "From Prototype to Repeat Production",
+          "zh": "从样品到重复生产"
+        },
+        "copy": {
+          "en": "Start with the mating references, circuit drawing, dimensions, quantity range and operating conditions. Engineering review resolves uncertain interfaces and material choices before sampling. After approval, release the drawing, material list and inspection plan together. Lead time depends on confirmed parts, tooling and checks, so it is quoted for the project rather than promised universally. Any approved substitution should be recorded before the next batch is built.",
+          "zh": "从对插料号、回路图、尺寸、数量范围及工作条件开始。工程审核在打样前解决不确定接口与材料选择，认可后共同放行图纸、物料清单和检验方案。交期取决于确认零件、工装及检查，应按项目报价而非统一承诺。任何认可替代都应在下一批生产前记录。"
+        },
+        "style": "process",
+        "image": "/assets/images/product-categories/stock/binder/production.jpg",
+        "caption": {
+          "en": "Gauged wire-stripping scissors illustrate controlled end preparation before assembly.",
+          "zh": "带规格孔的剥线剪展示装配前的受控线端处理。"
+        }
+      }
+    ],
+    "composition": [
+      {
+        "kind": "single",
+        "items": [
+          0
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          1
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          2
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          3
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          4
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          5
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          6
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          7
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          8
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          9
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          10
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          11,
+          12
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          13
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          14
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          15
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          16
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          17,
+          18
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          19
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          20
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          21
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          22
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          23,
+          24
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          25
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          26
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          27
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          28
+        ]
+      }
+    ],
+    "guide": [
+      {
+        "index": 1,
+        "label": {
+          "en": "Connector families",
+          "zh": "接头系列"
+        }
+      },
+      {
+        "index": 10,
+        "label": {
+          "en": "Materials",
+          "zh": "材料"
+        }
+      },
+      {
+        "index": 14,
+        "label": {
+          "en": "Environment",
+          "zh": "环境"
+        }
+      },
+      {
+        "index": 16,
+        "label": {
+          "en": "Applications",
+          "zh": "应用"
+        }
+      },
+      {
+        "index": 24,
+        "label": {
+          "en": "Customization",
+          "zh": "定制"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "q": {
+          "en": "Are all M12 connectors interchangeable?",
+          "zh": "所有 M12 接头都可互换吗？"
+        },
+        "a": {
+          "en": "No. Coding, contact count, gender, termination and circuit assignment must match. Physical diameter alone cannot define a compatible interface.",
+          "zh": "不是。编码、触点数量、公母、端接及回路分配都需匹配，仅凭外径不能定义兼容接口。"
+        }
+      },
+      {
+        "q": {
+          "en": "Does Binder mean an office cable clip?",
+          "zh": "Binder 是指办公夹子吗？"
+        },
+        "a": {
+          "en": "Here Binder refers to connector-interface families. Cable clamps and routing supports are separate components chosen for the equipment, not office binder clips.",
+          "zh": "这里 Binder 指连接器接口系列。电缆夹及布线支撑是按设备选用的独立零件，不是办公长尾夹。"
+        }
+      },
+      {
+        "q": {
+          "en": "Can you supply an original-brand build or an alternative?",
+          "zh": "可以采用原品牌件或替代件吗？"
+        },
+        "a": {
+          "en": "The project review and quotation identify the approved source. Original components and alternatives are listed separately; this page does not claim Binder authorization.",
+          "zh": "项目审核及报价会明确认可来源，原品牌件与替代件分别列明，本页不表示获得 Binder 授权。"
+        }
+      },
+      {
+        "q": {
+          "en": "Is the assembly protected when unplugged?",
+          "zh": "拔下后组件仍有防护吗？"
+        },
+        "a": {
+          "en": "That depends on the exact plug, receptacle and cap configuration. The drawing must define mated and unmated conditions separately.",
+          "zh": "取决于具体插头、插座及防护盖配置，图纸需分别定义对插和未对插状态。"
+        }
+      },
+      {
+        "q": {
+          "en": "What is needed for a custom harness?",
+          "zh": "定制线束需要什么？"
+        },
+        "a": {
+          "en": "Provide the mating references or samples, circuit map, length datums, cable requirements, quantity and operating conditions. Unclear interfaces are resolved before sample production.",
+          "zh": "提供对插料号或样品、回路表、长度基准、线缆要求、数量及工作条件；不明确接口应在样品制作前解决。"
+        }
+      },
+      {
+        "q": {
+          "en": "How is a failed connection evaluated?",
+          "zh": "连接故障如何评估？"
+        },
+        "a": {
+          "en": "Record where and when it occurs, retain the failed sample and compare wiring, contact seating, support and exposure with the approved specification. Replacement should address the cause, not only the visible symptom.",
+          "zh": "记录故障位置及发生条件，保留失效样品，并将接线、端子到位、支撑及暴露与认可规范比较。替换应针对原因，而不只处理可见症状。"
+        }
+      }
+    ],
+    "creditHeading": {
+      "en": "Photo Sources and Context",
+      "zh": "图片来源与使用说明"
+    },
+    "hasAiImages": false,
+    "hasOwnImages": false,
+    "mediaCredits": [
+      {
+        "file": "Hirschmann Octopus 8M и 24M.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Hirschmann_Octopus_8M_%D0%B8_24M.jpg",
+        "author": "Mixabest",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      {
+        "file": "Senix ToughSonic 50 Rear Mount Ultrasonic Sensor.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Senix_ToughSonic_50_Rear_Mount_Ultrasonic_Sensor.jpg",
+        "author": "Bpducharme",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "Eks Medienkonverter2 Industrial Ethernet Switch.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Eks_Medienkonverter2_Industrial_Ethernet_Switch.jpg",
+        "author": "eks Engel GmbH & Co. KG",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+      },
+      {
+        "file": "Inductive Proximity Switch.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Inductive_Proximity_Switch.jpg",
+        "author": "IP83",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+        "file": "Inductive proximity sensor.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Inductive_proximity_sensor.jpg",
+        "author": "Ekbsensor",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "Siemens ESM TP80.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:Siemens_ESM_TP80.JPG",
+        "author": "Mixabest",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain"
+      },
+      {
+        "file": "LabVolt Digital Servo motor with rail and controller.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:LabVolt_Digital_Servo_motor_with_rail_and_controller.jpg",
+        "author": "Arr4",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      },
+      {
+        "file": "Tuchel connectors.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Tuchel_connectors.jpg",
+        "author": "Bastler",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+        "file": "Hand crimp tool MH-17 closing.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Hand_crimp_tool_MH-17_closing.jpg",
+        "author": "魔私利戸",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      {
+        "file": "Cable Identifier measurement system.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Cable_Identifier_measurement_system.jpg",
+        "author": "Powerfox",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "Disinfectant wipes.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Disinfectant_wipes.jpg",
+        "author": "MrBeastRapper",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "Volcano sensor (Mount Ontake).JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:Volcano_sensor_(Mount_Ontake).JPG",
+        "author": "Alpsdake",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "CopperTapeShieldedCable.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:CopperTapeShieldedCable.jpg",
+        "author": "Nova ryan",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "Presse-etoupe.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Presse-etoupe.jpg",
+        "author": "1-1111",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain"
+      },
+      {
+        "file": "Distorted O-ring (4680308128).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Distorted_O-ring_(4680308128).jpg",
+        "author": "Dwight Sipler from Stow, MA, USA",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      {
+        "file": "Electrolytic nickel section.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Electrolytic_nickel_section.jpg",
+        "author": "Hi-Res Images of Chemical Elements",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      },
+      {
+        "file": "WATER IN A CONTINUOUS SPRAY IS USED ALONG THE FACE OF THE LONG WALL WHEN THE COAL MACHINE IS IN OPERATION TO CUT DOWN... - NARA - 556361.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:WATER_IN_A_CONTINUOUS_SPRAY_IS_USED_ALONG_THE_FACE_OF_THE_LONG_WALL_WHEN_THE_COAL_MACHINE_IS_IN_OPERATION_TO_CUT_DOWN..._-_NARA_-_556361.jpg",
+        "author": "Jack Corn",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain"
+      },
+      {
+        "file": "Metalsub umbilical torch top connector detail.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Metalsub_umbilical_torch_top_connector_detail.jpg",
+        "author": "Nick Birse",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "QTR Sensor with Pin adapter.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:QTR_Sensor_with_Pin_adapter.jpg",
+        "author": "Skwon9642",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "A medical ultrasound linear array probe, scan head, transducer.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:A_medical_ultrasound_linear_array_probe,_scan_head,_transducer.jpg",
+        "author": "Harrison Keely",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "file": "FANUC Robot Assembly Demo.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:FANUC_Robot_Assembly_Demo.jpg",
+        "author": "Steve Jurvetson",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      {
+        "file": "NNHS solar array inverters.agr.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:NNHS_solar_array_inverters.agr.jpg",
+        "author": "ArnoldReinhold",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "Haga Industrial Park Management Center station in heavy rain.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Haga_Industrial_Park_Management_Center_station_in_heavy_rain.jpg",
+        "author": "Miyuki Meinaka",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "Digital Multimeter Aka.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Digital_Multimeter_Aka.jpg",
+        "author": "André Karwath aka Aka",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+      },
+      {
+        "file": "Hirschmann ST-series mated and secured.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Hirschmann_ST-series_mated_and_secured.jpg",
+        "author": "Phiarc",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "PCB corrosion.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:PCB_corrosion.jpg",
+        "author": "Binarysequence",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      {
+        "file": "Measuring-tape.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Measuring-tape.jpg",
+        "author": "Evan-Amos",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain"
+      },
+      {
+        "file": "Eight-pin DIN connector.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Eight-pin_DIN_connector.jpg",
+        "author": "Jud McCranie",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "Tandberg Microphone 5 (TM 5) and accessories.png",
+        "url": "https://commons.wikimedia.org/wiki/File:Tandberg_Microphone_5_(TM_5)_and_accessories.png",
+        "author": "Gutten på Hemsen",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "file": "Cable with ethylene propylene insulation.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Cable_with_ethylene_propylene_insulation.jpg",
+        "author": "Холдинг \"Кабельный альянс\"",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "Gauged wire stripping scissors.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:Gauged_wire_stripping_scissors.JPG",
+        "author": "Dmitry G",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      }
+    ]
+  }
+}
