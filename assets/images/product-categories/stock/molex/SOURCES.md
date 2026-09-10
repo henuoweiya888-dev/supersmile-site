@@ -1,0 +1,20 @@
+# Molex interface reference images
+
+Retrieved 2026-09-10. Sixteen distinct licensed real photographs; no AI. Each is a product/interface/material or application reference, not evidence of Super Smile production, stock, testing or brand authorization. Resized, display-cropped and tonally adjusted; share-alike adaptations retain the source license. Excluded an already-used stranded-wire photo, a blurry ATX photo, a questionable crimp-workmanship example and a pneumatic assembly that did not fit this electrical topic.
+
+- hero.jpg — [Molex logo at hardriver.jpg](https://commons.wikimedia.org/wiki/File:Molex_logo_at_hardriver.jpg); 王者也; [CC BY 3.0](https://creativecommons.org/licenses/by/3.0).
+- range.jpg — [Molex Power Connections (5821888754).jpg](https://commons.wikimedia.org/wiki/File:Molex_Power_Connections_(5821888754).jpg); syvwlch; [CC BY 2.0](https://creativecommons.org/licenses/by/2.0).
+- features.jpg — [Electronics of 3D Printer.jpg](https://commons.wikimedia.org/wiki/File:Electronics_of_3D_Printer.jpg); disinterpreter; [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0).
+- backplane.jpg — [Picmg backplane.jpg](https://commons.wikimedia.org/wiki/File:Picmg_backplane.jpg); The original uploader was Quark48 at German Wikipedia.; [Public domain](https://commons.wikimedia.org/wiki/File:Picmg_backplane.jpg).
+- board.jpg — [Supermicro AOC-IBH-001 DDR InfiniBand mezzanine card (bottom).jpg](https://commons.wikimedia.org/wiki/File:Supermicro_AOC-IBH-001_DDR_InfiniBand_mezzanine_card_(bottom).jpg); Dmitry Nosachev; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+- cardedge.jpg — [2 cache on a stick modules, left Apple, right PC.jpg](https://commons.wikimedia.org/wiki/File:2_cache_on_a_stick_modules,_left_Apple,_right_PC.jpg); Sgroey; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+- ffc.jpg — [ZIF connector and FFC.jpg](https://commons.wikimedia.org/wiki/File:ZIF_connector_and_FFC.jpg); Zeroping; [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en).
+- heavy.jpg — [Hirschmann ST series STAK 200 and STAS 200 2+PE industrial connectors.jpg](https://commons.wikimedia.org/wiki/File:Hirschmann_ST_series_STAK_200_and_STAS_200_2%2BPE_industrial_connectors.jpg); Phiarc; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+- io.jpg — [USB 3.0 Micro-B connector receptacle.jpg](https://commons.wikimedia.org/wiki/File:USB_3.0_Micro-B_connector_receptacle.jpg); M-ogino; [CC BY 4.0](https://creativecommons.org/licenses/by/4.0).
+- memory.jpg — [SIM Socket2.jpg](https://commons.wikimedia.org/wiki/File:SIM_Socket2.jpg); 在原ヶ谷戸; [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/).
+- coax.jpg — [MMCX Straight Male P.C.B..jpg](https://commons.wikimedia.org/wiki/File:MMCX_Straight_Male_P.C.B..jpg); Cmpter; [Public domain](https://commons.wikimedia.org/wiki/File:MMCX_Straight_Male_P.C.B..jpg).
+- wireboard.jpg — [ATX PS connector 2024.jpg](https://commons.wikimedia.org/wiki/File:ATX_PS_connector_2024.jpg); Baran Ivo; [Public domain](https://commons.wikimedia.org/wiki/File:ATX_PS_connector_2024.jpg).
+- wirewire.jpg — [Molex 093 Pin and Socket Power Connectors.jpg](https://commons.wikimedia.org/wiki/File:Molex_093_Pin_and_Socket_Power_Connectors.jpg); Michael Holley en:User:Swtpc6800; [Public domain](https://commons.wikimedia.org/wiki/File:Molex_093_Pin_and_Socket_Power_Connectors.jpg).
+- service.jpg — [Molex 0674901220 box tag 20140525.jpg](https://commons.wikimedia.org/wiki/File:Molex_0674901220_box_tag_20140525.jpg); Solomon203; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+- process.jpg — [Blue digital multimeter.jpg](https://commons.wikimedia.org/wiki/File:Blue_digital_multimeter.jpg); Publunch~enwikibooks at English Wikibooks; [Public domain](https://commons.wikimedia.org/wiki/File:Blue_digital_multimeter.jpg).
+- materials.jpg — [Copper wire rod produced by LS Cable & System.jpg](https://commons.wikimedia.org/wiki/File:Copper_wire_rod_produced_by_LS_Cable_%26_System.jpg); Lsgeeks; [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0).

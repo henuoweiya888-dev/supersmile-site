@@ -80,6 +80,26 @@ body[data-category-layout="technical-editorial"] .pcc-hero-media img{filter:satu
 .te-theme-connector-selection #technical-topic-7 .te-photo{width:155px}.te-theme-connector-selection #technical-topic-7 .te-photo img{height:145px}
 .te-theme-connector-selection #technical-topic-8{grid-template-columns:215px minmax(0,1fr);background:#e3e6e3}.te-theme-connector-selection #technical-topic-8 .te-photo img{height:170px}
 .te-theme-connector-selection #technical-topic-11 .te-photo img{object-fit:cover}
+/* Interconnect field notes: board details, cable sections and small wayfinding links. */
+.te-theme-interconnect-fieldnotes{--te-tint:#dfe5e2;--te-accent:#a14d33;--te-muted:#42544d}
+.te-guide{display:flex;gap:12px 22px;flex-wrap:wrap;margin-top:16px}.te-guide a{font-size:12px;color:var(--te-ink);text-decoration:none;border-bottom:1px solid #98a79e;padding-bottom:4px}.te-guide a:hover,.te-guide a:focus-visible{color:var(--te-accent);border-color:currentColor}
+.te-theme-interconnect-fieldnotes .te-opening{grid-template-columns:190px minmax(0,1fr);padding-left:0;padding-right:var(--te-gutter);gap:28px}
+.te-theme-interconnect-fieldnotes .te-opening>figure{grid-column:1;grid-row:1}.te-theme-interconnect-fieldnotes .te-opening>div{grid-column:2;grid-row:1}
+.te-theme-interconnect-fieldnotes .te-opening .te-photo img{height:185px;object-fit:contain;background:#e8e9e2}
+.te-theme-interconnect-fieldnotes .te-index{margin-bottom:4px}
+.te-theme-interconnect-fieldnotes #technical-topic-0{padding-block:24px;grid-template-columns:minmax(0,1fr) 225px}
+.te-theme-interconnect-fieldnotes .te-pair{background:#e8e8e0}.te-theme-interconnect-fieldnotes .te-pair .te-photo{width:150px;margin-top:28px}.te-theme-interconnect-fieldnotes .te-pair .te-photo img{height:150px;background:#e8e8e0}
+.te-theme-interconnect-fieldnotes #technical-topic-3{grid-template-columns:165px minmax(0,1fr);padding-left:0;padding-right:var(--te-gutter)}
+.te-theme-interconnect-fieldnotes #technical-topic-3 .te-photo{grid-column:1}.te-theme-interconnect-fieldnotes #technical-topic-3 .te-copy{grid-column:2}.te-theme-interconnect-fieldnotes #technical-topic-3 .te-photo img{object-fit:contain}
+.te-theme-interconnect-fieldnotes #technical-topic-4{grid-template-columns:minmax(0,1fr) 225px;background:#dfe5e2}
+.te-theme-interconnect-fieldnotes #technical-topic-5{grid-template-columns:minmax(0,1fr) 190px}.te-theme-interconnect-fieldnotes #technical-topic-5 .te-photo img{object-fit:contain}
+.te-theme-interconnect-fieldnotes #technical-topic-8{grid-template-columns:145px minmax(0,1fr);gap:26px;background:#ebe8de}.te-theme-interconnect-fieldnotes #technical-topic-8 .te-photo img{height:135px;object-fit:contain;background:#ebe8de}
+.te-theme-interconnect-fieldnotes #technical-topic-9{grid-template-columns:minmax(0,1fr) 260px}
+.te-theme-interconnect-fieldnotes #technical-topic-9 .te-photo img{object-fit:contain;background:#eeeee6}
+.te-theme-interconnect-fieldnotes #technical-topic-10 .te-photo{width:210px;margin-top:0}.te-theme-interconnect-fieldnotes #technical-topic-10 .te-photo img{height:180px}
+.te-theme-interconnect-fieldnotes #technical-topic-11{grid-template-columns:220px minmax(0,1fr);padding-left:0;padding-right:var(--te-gutter)}.te-theme-interconnect-fieldnotes #technical-topic-11 .te-photo{grid-column:1}.te-theme-interconnect-fieldnotes #technical-topic-11 .te-copy{grid-column:2}
+.te-theme-interconnect-fieldnotes #technical-topic-12{grid-template-columns:minmax(0,1fr) 185px}.te-theme-interconnect-fieldnotes #technical-topic-12 .te-photo img{object-fit:contain;background:#e8e5d9}
+.te-theme-interconnect-fieldnotes #technical-topic-13{grid-template-columns:155px minmax(0,1fr)}.te-theme-interconnect-fieldnotes #technical-topic-13 .te-photo img{object-fit:contain;height:160px}
 @media(max-width:767px){
  body[data-category-layout="technical-editorial"] .pcc-hero-grid{min-height:0;padding-block:56px 32px}body[data-category-layout="technical-editorial"] .pcc-hero-copy h1{font-size:30px}
  .te-page{--te-gutter:16px}.te-page h2{font-size:21px}.te-page p{font-size:13px;line-height:1.85}
@@ -93,4 +113,6 @@ body[data-category-layout="technical-editorial"] .pcc-hero-media img{filter:satu
  .te-theme-actuator-service .te-opening,.te-theme-actuator-service #technical-topic-6{display:flex;padding:23px 16px}
  .te-theme-connector-selection .te-opening,.te-theme-connector-selection #technical-topic-0,.te-theme-connector-selection #technical-topic-6{display:flex;padding:23px 16px}
  .te-theme-connector-selection #technical-topic-3 .te-photo,.te-theme-connector-selection #technical-topic-7 .te-photo,.te-theme-connector-selection .te-pair .te-photo{width:calc(100% + 32px);margin:16px -16px 0}
+ .te-theme-interconnect-fieldnotes .te-opening,.te-theme-interconnect-fieldnotes #technical-topic-3,.te-theme-interconnect-fieldnotes #technical-topic-11{display:flex;padding:23px 16px}
+ .te-theme-interconnect-fieldnotes .te-pair .te-photo,.te-theme-interconnect-fieldnotes #technical-topic-10 .te-photo{width:calc(100% + 32px);margin:16px -16px 0}
 }

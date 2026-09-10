@@ -1,4 +1,590 @@
 {
+"connector-systems-02": {
+  "intro": {
+    "en": "Custom wire-to-board, wire-to-wire and equipment cable assemblies built around specified Molex interfaces, with defined circuits, materials and inspection requirements.",
+    "zh": "围绕指定 Molex 接口开发线对板、线对线及设备电缆组件，明确回路、材料与检验要求。"
+  },
+  "knowledge": {
+    "en": "Molex is a manufacturer, not one plug size. Family, mating geometry, terminal and electrical duty must be identified together.",
+    "zh": "Molex 是制造商名称，不是一种插头尺寸。系列、对插几何、端子及电气工况需要一起识别。"
+  },
+  "notes": {
+    "en": "Provide full mating references, cavity views, circuit table, wire specification, dimensions, routing conditions and order quantities.",
+    "zh": "请提供完整对插型号、腔位视图、接线表、线材规格、尺寸、布线条件与订购数量。"
+  },
+  "delivery": {
+    "en": "Confirm the BOM and interface, approve the sample and test plan, then release controlled assembly and agreed verification.",
+    "zh": "确认物料与接口，认可样品及测试计划后，执行受控装配与约定验证。"
+  },
+  "page": {
+    "layout": "technical-editorial",
+    "theme": "interconnect-fieldnotes",
+    "headings": {
+      "introduction": {
+        "en": "What Is a Molex Assembly?",
+        "zh": "什么是 Molex 接口组件？"
+      },
+      "faq": {
+        "en": "Molex Assembly Questions",
+        "zh": "Molex 组件常见问题"
+      }
+    },
+    "subtitle": {
+      "en": "From board interfaces to serviceable equipment wiring",
+      "zh": "从板端接口到可维护设备配线"
+    },
+    "lead": {
+      "en": "A “Molex cable” can mean a compact sensor lead, an appliance power loom, an inline extension, an RF jumper or a cable linked to a board interface. These products share a supplier name, not a universal contact geometry. Super Smile can develop the harness portion from your drawing, approved sample or confirmed mating references. The connector overview below explains the surrounding interface choices; it does not claim that we manufacture every Molex board connector or every complete electronic subsystem. Genuine specified parts and proposed alternatives must be distinguished in the quotation and approved BOM. Brand names identify the requested interface and do not imply authorization or endorsement.",
+      "zh": "“Molex 电缆”可能指紧凑传感器连接线、电器供电线束、直连延长线、射频跳线，或与板端接口连接的组件。它们共享的是供应商品牌名称，不是通用接点几何。超斯迈尔可依据图纸、认可样品或已确认对插型号开发线束部分。下文连接器概览用于解释相关接口选择，不表示我们制造所有 Molex 板端连接器或完整电子系统。指定原厂零件与提出的替代方案，应在报价和认可清单中区分。品牌名称用于识别所需接口，不代表授权或背书。"
+    },
+    "images": {
+      "hero": "/assets/images/product-categories/stock/molex/hero.jpg",
+      "range": "/assets/images/product-categories/stock/molex/range.jpg"
+    },
+    "openingCaption": {
+      "en": "Connector and cable reference: identify the exact system before defining the assembly.",
+      "zh": "连接器与电缆参考：先识别准确系统，再定义组件。"
+    },
+    "chapters": [
+      {
+        "id": "features",
+        "style": "wide",
+        "title": {
+          "en": "Features and Applications",
+          "zh": "特点与应用"
+        },
+        "copy": {
+          "en": "Select the connection around its job: power delivery, low-level signals, high-speed data, repeated servicing or installation in a confined enclosure. A larger connector is not automatically the better choice, and a smaller pitch does not describe the whole electrical capability. Appliance, automation, communications and instrument harnesses have different routing and maintenance needs. Record the number of loaded circuits, ambient conditions, wire length and allowable movement before choosing the family. Then consider locking, polarization and access for insertion or release. This application-first approach keeps a procurement name such as “Molex plug” from hiding the details that determine whether the harness actually fits the equipment.",
+          "zh": "应围绕连接任务选型：供电、低电平信号、高速数据、重复维护，或狭小机壳内安装。接头更大不代表一定更合适，间距更小也不能概括全部电气能力。电器、自动化、通信和仪器线束的布线与维护需求不同。选择系列前，应记录带载回路数量、环境条件、线长及允许运动，再考虑锁止、防误插和插拔操作空间。这样可以避免“Molex 插头”之类采购名称，掩盖真正决定线束是否适配设备的细节。"
+        },
+        "image": "/assets/images/product-categories/stock/molex/features.jpg",
+        "caption": {
+          "en": "Equipment electronics illustrate differing power, signal and service requirements; the connector brand is not inferred from the scene.",
+          "zh": "设备电子系统用于说明供电、信号与维护需求差异，不据场景推定连接器品牌。"
+        }
+      },
+      {
+        "id": "backplane",
+        "style": "feature-left",
+        "title": {
+          "en": "Backplane Connectors",
+          "zh": "背板连接器"
+        },
+        "copy": {
+          "en": "A backplane connects several boards within a chassis. Molex families such as Impel and Impulse address defined high-density interconnect architectures, including different board and cable arrangements. For a cable project, first separate the board connector, cable connector and complete channel requirements. Pin assignment, differential-pair mapping, return paths and mechanical alignment belong in the interface definition. A simple continuity check cannot establish high-speed channel performance. Where a project uses proprietary high-speed assemblies or licensed components, sourcing and validation must be reviewed before making a manufacturing commitment. Our enquiry can cover the applicable harness or auxiliary wiring without implying that a generic lead replaces the complete backplane system.",
+          "zh": "背板在机箱内部连接多块板卡。Molex 的 Impel、Impulse 等系列面向规定的高密度互连架构，包含不同板端与电缆布置。进入电缆项目时，应先区分板端连接器、电缆端连接器和完整通道要求；针脚分配、差分对映射、回流路径及机械对准都属于接口定义。简单导通不能证明高速通道性能。涉及专用高速组件或受限零件的项目，需要先审核采购与验证条件，再承诺制造范围。我们可讨论适用线束或辅助配线，但不把普通连接线说成完整背板系统的替代品。"
+        },
+        "image": "/assets/images/product-categories/stock/molex/backplane.jpg",
+        "caption": {
+          "en": "Backplane reference: the board interface and cable channel are separate engineering boundaries.",
+          "zh": "背板结构参考：板端接口与电缆通道是需要分别定义的工程边界。"
+        }
+      },
+      {
+        "id": "board",
+        "style": "inset-right",
+        "title": {
+          "en": "Board-to-Board Connectors",
+          "zh": "板对板连接器"
+        },
+        "copy": {
+          "en": "SlimStack is one example of a Molex board-to-board and board-to-FPC family. Mated height, pitch, circuit count, mounting orientation and alignment features vary by series. If an equipment redesign replaces a rigid board link with a flexible connection, the new assembly needs more than a matching position count. Check the required mating interface, mechanical support, bend location and signal assignment. Avoid allowing cable pull to become a load on a small surface-mount connector. The PCB layout and soldering process remain part of the board design; a harness quotation should define where our supplied assembly starts and where the customer’s board assembly ends.",
+          "zh": "SlimStack 是 Molex 板对板及板对 FPC 系列的一个例子。对接高度、间距、回路数量、安装朝向与对准结构因系列而异。设备改型若把刚性板间连接改成柔性连接，需要考虑的不只是相同位数，还包括对插界面、机械支撑、弯折位置与信号分配。应避免电缆拉力直接作用于小型表贴接头。PCB 布局与焊接过程仍属于板级设计；线束报价应明确我们供货组件从哪里开始、客户板级装配在哪里结束。"
+        },
+        "image": "/assets/images/product-categories/stock/molex/board.jpg",
+        "caption": {
+          "en": "Small board interconnect detail illustrates alignment and mounting constraints, not a verified SlimStack part.",
+          "zh": "小型板间互连细节用于说明对准与安装限制，不将其认定为 SlimStack 料号。"
+        }
+      },
+      {
+        "id": "cardedge",
+        "style": "compact",
+        "title": {
+          "en": "Card-Edge Connectors",
+          "zh": "卡边连接器"
+        },
+        "copy": {
+          "en": "Card-edge sockets connect to conductive fingers on a PCB rather than to individually crimped wire contacts. EdgeLine is a Molex family within this field. Board thickness, contact placement, keying and insertion geometry are therefore central specifications. A cable adapter or test extension requires the correct card interface plus a defined electrical mapping; it is not an ordinary wire-to-wire conversion. Consider whether repeated insertion, fixture support or restricted access changes the mechanical arrangement. For high-speed paths, the added adapter length and transitions must be included in the validation plan rather than assumed harmless because all circuits show continuity.",
+          "zh": "卡边插座连接 PCB 边缘的导电金手指，而不是逐根压接的导线接点。EdgeLine 是 Molex 在这一领域的系列之一，因此板厚、接点位置、键位与插入几何是核心规格。电缆转接件或测试延长件需要正确卡边界面和明确电气映射，并不是普通线对线转换。还需考虑重复插拔、治具支撑或操作空间是否改变机械安排。高速路径增加的转接长度与过渡应纳入验证，不能因为各回路导通，就认为对信号没有影响。"
+        },
+        "image": "/assets/images/product-categories/stock/molex/cardedge.jpg",
+        "caption": {
+          "en": "PCB edge contacts show the mating principle; board thickness and contact pattern must match the specified socket.",
+          "zh": "PCB 金手指展示对接原理，板厚和接点排列须匹配指定插座。"
+        }
+      },
+      {
+        "id": "ffc",
+        "style": "feature-right",
+        "title": {
+          "en": "FFC / FPC Connectors",
+          "zh": "FFC / FPC 连接器"
+        },
+        "copy": {
+          "en": "Easy-On connectors and Premo-Flex cables are names used in Molex flat-flex interconnect solutions. A reliable specification includes pitch, circuit count, cable thickness, exposed-contact side, insertion depth and actuator type. FFC and FPC are related forms of flexible interconnect, but they are not interchangeable names for every construction. A top-contact socket and a bottom-contact socket may require different cable-end orientation. Also check stiffener dimensions and the space needed to open a latch. A display or sensor flex extension should preserve the intended pin order and strain relief; forcing a cable into a nearly matching socket risks damage to both the contact surface and the actuator.",
+          "zh": "Easy-On 连接器与 Premo-Flex 电缆是 Molex 柔性扁平互连方案中的系列名称。完整规格包含间距、回路数、电缆厚度、露铜面、插入深度和操作机构类型。FFC 与 FPC 属于相关柔性互连形式，但不能对所有结构混用名称。上接点与下接点插座可能需要不同的线端朝向，还应检查补强板尺寸与打开锁扣所需空间。显示或传感器柔性延长件应保持规定针序和应力释放；把电缆强行插入“差不多”的插座，可能损伤接触面和锁扣。"
+        },
+        "image": "/assets/images/product-categories/stock/molex/ffc.jpg",
+        "caption": {
+          "en": "Flexible interconnect reference: contact-side orientation and reinforcement matter as much as pitch.",
+          "zh": "柔性互连参考：接触面朝向与补强结构和间距同样重要。"
+        }
+      },
+      {
+        "id": "heavy",
+        "style": "wide",
+        "title": {
+          "en": "Heavy-Duty Rectangular Connectors",
+          "zh": "重载矩形连接器"
+        },
+        "copy": {
+          "en": "Heavy-duty rectangular systems can bring many circuits through a machine panel in one serviceable connection. Molex HMC documentation describes this class of rugged, high-position-count interface. The insert, hood, base, cable entry, retention and sealing details form a complete system. Select them with the installation route and operating environment rather than treating the outer metal shell as the entire specification. A machine harness may need separate power and control branches, panel labels and accessible disconnect points. Any stated environmental or electrical capability must correspond to the selected configuration and approved installation, not to the general appearance of an industrial connector.",
+          "zh": "重载矩形系统可以通过一个便于维护的连接点，让多路回路穿过机械面板。Molex HMC 文件介绍了这类坚固、多位接口。插芯、上壳、底座、进线口、保持与密封细节共同组成系统，应结合安装路线和运行环境选择，而不是把外部金属壳当成全部规格。机械线束可能需要分开的供电与控制分支、面板标签及方便断开的检修位置。任何环境或电气能力，都应对应选定配置与认可安装条件，不能依据工业接头的外观推定。"
+        },
+        "image": "/assets/images/product-categories/stock/molex/heavy.jpg",
+        "caption": {
+          "en": "Hirschmann industrial connector reference illustrates a detachable equipment interface; it is not a Molex HMC product.",
+          "zh": "Hirschmann 工业接头用于说明可拆设备接口，并非 Molex HMC 产品。"
+        }
+      },
+      {
+        "id": "io",
+        "style": "inset-left",
+        "title": {
+          "en": "I/O Connectors",
+          "zh": "输入 / 输出连接器"
+        },
+        "copy": {
+          "en": "External I/O links connect the equipment to users, peripherals or other machines. Molex offers USB and other I/O connector families, but the shape of a receptacle does not establish the finished cable’s data rate, power capability or environmental rating. A USB Type-C interface, for example, needs a configuration-specific cable definition rather than a blanket “USB4” label. Describe host and device roles, supported functions, length, shield termination and panel mounting. If an adapter is required, identify whether it is passive wiring or includes electronics. Compliance or certification should only be claimed for the exact tested product and authorized scope.",
+          "zh": "外部 I/O 将设备连接到用户、外设或其他机器。Molex 提供 USB 等 I/O 系列，但插座外形不能确定成品电缆的数据速率、功率能力或防护等级。例如 USB Type-C 接口需要具体电缆配置定义，不能一概标注为“USB4”。应描述主机与设备角色、支持功能、长度、屏蔽端接和面板安装。需要转接时，还应确认它是无源配线还是包含电子电路。符合性或认证声明，只能针对确实经过测试的产品及获准范围。"
+        },
+        "image": "/assets/images/product-categories/stock/molex/io.jpg",
+        "caption": {
+          "en": "External-port reference: connector shape alone cannot define the completed cable’s supported functions.",
+          "zh": "外部接口参考：连接器外形本身不能定义成品电缆支持的功能。"
+        }
+      },
+      {
+        "id": "memory",
+        "style": "compact",
+        "title": {
+          "en": "Memory / SIM Card Connectors",
+          "zh": "存储卡 / SIM 卡连接器"
+        },
+        "copy": {
+          "en": "Memory and SIM sockets are board-mounted interfaces with their own card format, contact arrangement and insertion or ejection mechanism. Molex lists push-push, push-pull, hinge, tray and pin-eject configurations across its portfolio. These differences affect enclosure access and servicing. A remote card extension or service fixture needs the exact host-side interface and a controlled signal path; it cannot be specified by the word “SIM” alone. The socket is not itself a wire harness. For enquiries that include such an interface, we first confirm whether the requested deliverable is a cable assembly, a customer-defined adapter or a separate board-level item.",
+          "zh": "存储卡与 SIM 插座是具有独立卡片格式、接点排列及插入或弹出机构的板端接口。Molex 产品范围包含推推式、推拉式、翻盖式、卡托式和顶针弹出式等配置，这些差异会影响机壳开口与维护方式。远置卡片延长件或服务治具需要准确主机侧界面和受控信号路径，不能只用“SIM”一词定义。插座本身不是线束；遇到这类接口咨询时，我们先确认交付对象是电缆组件、客户定义转接件，还是独立板级零件。"
+        },
+        "image": "/assets/images/product-categories/stock/molex/memory.jpg",
+        "caption": {
+          "en": "Card-socket reference: access and retention mechanisms are part of the interface requirement.",
+          "zh": "卡座参考：操作空间与保持机构同样属于接口要求。"
+        }
+      },
+      {
+        "id": "coax",
+        "style": "feature-left",
+        "title": {
+          "en": "Coaxial Connectors and RF Jumpers",
+          "zh": "同轴连接器与射频跳线"
+        },
+        "copy": {
+          "en": "Molex RF offerings span multiple connector series, impedances and frequency requirements. A coaxial jumper needs the connector pair, cable type, length, routing and performance limits defined as one channel. SMA, MCX and MMCX identify different interface families, not interchangeable ends. Compact antenna leads also need care with mating direction and cable pull. For a proposed assembly, specify whether insertion loss, return loss or other RF measurements are required and at which frequencies. DC continuity is useful but does not demonstrate RF performance. Keep shield termination and bend constraints in the drawing so that production handling does not undermine the intended channel.",
+          "zh": "Molex 射频产品覆盖多个接口系列、阻抗和频率要求。同轴跳线应把两端连接器、电缆类型、长度、布线及性能限值作为完整通道定义。SMA、MCX 与 MMCX 表示不同接口系列，并非可互换端部。紧凑天线连接还需注意对插方向与电缆拉力。组件方案应明确是否需要插入损耗、回波损耗等射频测量，以及对应频率。直流导通有用，但不能证明射频性能。屏蔽端接与弯曲限制应写入图纸，避免生产操作破坏预期通道。"
+        },
+        "image": "/assets/images/product-categories/stock/molex/coax.jpg",
+        "caption": {
+          "en": "Coaxial connector detail illustrates the centre-contact and outer-conductor interface, not a universal RF rating.",
+          "zh": "同轴接头细节用于说明中心接点与外导体接口，不代表通用射频等级。"
+        }
+      },
+      {
+        "id": "wireboard",
+        "style": "wide",
+        "title": {
+          "en": "Wire-to-Board: Mini-Fit, Micro-Fit and PicoBlade",
+          "zh": "线对板：Mini-Fit、Micro-Fit 与 PicoBlade"
+        },
+        "copy": {
+          "en": "Wire-to-board systems join a terminated cable to a PCB header. Mini-Fit’s 4.20 mm platform, Micro-Fit 3.0 and PicoBlade’s 1.25 mm interface are useful identification starting points, but pitch is only the first filter. Each family has its own housings, terminals and mating options. As an example, PicoBlade documentation for the 51021 family must be read with the corresponding terminal and header information. Check wire gauge, insulation diameter, plating, circuit count and latch access. The published maximum for a family is not an automatic allowable load for every fully populated harness. The approved component configuration and actual operating conditions determine the engineering decision.",
+          "zh": "线对板系统把已端接电缆连接至 PCB 针座。Mini-Fit 的 4.20 mm 平台、Micro-Fit 3.0 与 PicoBlade 的 1.25 mm 接口，可以作为初步识别线索，但间距只是第一道筛选。各系列都有独立壳体、端子与对插选项。例如 PicoBlade 51021 系列文件应结合对应端子和针座资料一起阅读，并检查线径、绝缘外径、镀层、回路数量及锁扣操作空间。系列公布的最高值，不是每条满位线束都可直接采用的允许负载；工程决定应依据认可零件配置和实际运行条件。"
+        },
+        "image": "/assets/images/product-categories/stock/molex/wireboard.jpg",
+        "caption": {
+          "en": "ATX cable-end reference illustrates keyed cavities and terminated wires; exact family and origin require part identification.",
+          "zh": "ATX 电缆端参考用于说明键位腔形与已端接导线，准确系列和来源仍需料号识别。"
+        }
+      },
+      {
+        "id": "wirewire",
+        "style": "inset-right",
+        "title": {
+          "en": "Wire-to-Wire Connectors",
+          "zh": "线对线连接器"
+        },
+        "copy": {
+          "en": "Inline connections are useful for detachable modules, repair sections and serviceable branches. Molex’s wire-to-wire portfolio includes multiple systems with different retention, sealing and contact arrangements. A matching circuit count or familiar white housing is not proof that two parts belong together. Identify both cable halves, terminal genders, latch direction and the approved wire range. If a branch combines power and signals, preserve the intended circuit allocation and marking. The harness drawing should show the assembled length and the reference points used to measure it, not just the cut length of each wire. This avoids unexpected short leads after terminals, seals and protective parts have been fitted.",
+          "zh": "直连连接适用于可拆模块、维修段和便于检修的分支。Molex 线对线产品包含保持、密封与接点安排不同的多个系统。相同回路数或熟悉的白色壳体，不能证明两个零件配套。应识别两侧电缆端、端子公母、卡扣方向及认可线径；分支组合供电与信号时，还应保持规定回路分配和标识。线束图应标明装配后长度及测量基准，而不只是每根导线的裁切长度，避免端子、密封及防护零件装上后，连接线实际长度不足。"
+        },
+        "image": "/assets/images/product-categories/stock/molex/wirewire.jpg",
+        "caption": {
+          "en": "Inline power-connector reference: both mating halves and terminal systems require identification.",
+          "zh": "直连供电接头参考：两侧对插件与端子系统均需识别。"
+        }
+      },
+      {
+        "id": "materials",
+        "style": "feature-right",
+        "title": {
+          "en": "Materials and Termination Details",
+          "zh": "用料与端接细节"
+        },
+        "copy": {
+          "en": "A small terminal still needs a complete material and process definition. Conductor size, strand construction, insulation diameter, contact plating and the crimp support zone must agree with the selected terminal documents. Housing resin and any glow-wire requirement are part-specific decisions, not properties that can be inferred from colour. Sleeving, heat shrink, labels and branch protection should have defined positions and functions. Do not add solder to a crimp or substitute a contact finish unless the approved specification permits it. For alternatives, compare the mating system and application requirements first, then obtain written approval of the proposed BOM and verification scope.",
+          "zh": "小型端子同样需要完整材料与过程定义。导体截面积、绞线结构、绝缘外径、接点镀层及压接支撑区域，应与所选端子文件一致。壳体树脂与灼热丝要求属于具体料号层面的决定，不能从颜色推断。套管、热缩管、标签及分支防护应有明确位置和功能。未经认可规格允许，不应在压接处额外加焊锡或更换接点表面处理。替代方案应先比较对插系统与应用要求，再取得对物料清单和验证范围的书面批准。"
+        },
+        "image": "/assets/images/product-categories/stock/molex/materials.jpg",
+        "caption": {
+          "en": "Copper wire-rod production reference: the final conductor and insulation specifications still require definition.",
+          "zh": "铜线坯生产参考：最终导体与绝缘规格仍需单独定义。"
+        }
+      },
+      {
+        "id": "service",
+        "style": "wide",
+        "title": {
+          "en": "What Super Smile Can Develop",
+          "zh": "超斯迈尔可以开发哪些组件？"
+        },
+        "copy": {
+          "en": "Our assembly work can include specified connector leads, branch harnesses, equipment looms, panel connections and approved adapter configurations. The starting point can be a drawing, an authorized sample or a confirmed set of mating parts. We help turn those inputs into a BOM, circuit definition, dimensions, protection details and an inspection plan. Scope and sourcing are confirmed for the actual project; the Molex name does not imply a stock commitment or distributor relationship. Pricing depends on the approved materials, contact count, preparation and assembly work, tooling, validation and order quantity. Sample and production schedules are agreed after the necessary inputs and approval steps are understood.",
+          "zh": "我们可开发指定接口连接线、分支线束、设备整机配线、面板连接及已认可转接配置。起点可以是图纸、获准使用的样品或已确认对插件，再将这些输入整理为物料清单、回路定义、尺寸、防护细节及检验计划。具体范围与采购条件按项目确认，Molex 名称不表示现货承诺或经销关系。价格取决于认可材料、接点数量、准备与装配工作、工装、验证和订单数量；样品与量产安排需在明确必要资料和认可步骤后约定。"
+        },
+        "image": "/assets/images/product-categories/stock/molex/service.jpg",
+        "caption": {
+          "en": "Historical Molex packaging label illustrates part-number and lot identification, not current Super Smile stock or pricing.",
+          "zh": "历史 Molex 包装标签用于说明料号与批次识别，不代表超斯迈尔当前库存或价格。"
+        }
+      },
+      {
+        "id": "process",
+        "style": "process",
+        "title": {
+          "en": "From First Article to Repeat Production",
+          "zh": "从首件到重复生产"
+        },
+        "copy": {
+          "en": "First-article review connects the drawing to the physical assembly. Confirm cavity numbering from the stated viewing direction, terminal seating, latch operation, insulation support, branch length and the test map. A fixture should test the agreed circuits rather than rely on wire colours. Continuity and appearance checks do not replace a specific requirement for contact retention, sealing or signal performance; those checks need their own method and acceptance criteria. After approval, control the BOM, tooling setup and work instructions. Record any material or process change and evaluate whether it requires renewed sample approval. This is how a one-off prototype becomes a repeatable equipment connection.",
+          "zh": "首件审核把图纸与实物对应起来，需要按规定观察方向核对腔位编号、端子就位、卡扣操作、绝缘支撑、分支长度及测试网络。治具应检测约定回路，而不是依靠线色判断。导通和外观检查不能替代明确要求的接点保持、密封或信号性能，这些检查需要各自方法和接收准则。认可后应控制物料清单、工装设置及作业说明，记录材料或过程变化，并判断是否需要重新送样认可，使一次性样件转化为可重复的设备连接。"
+        },
+        "image": "/assets/images/product-categories/stock/molex/process.jpg",
+        "caption": {
+          "en": "Multimeter reference: continuity is one check, not proof of sealing, retention or high-speed performance.",
+          "zh": "万用表参考：导通是一项检查，不能证明密封、保持力或高速性能。"
+        }
+      }
+    ],
+    "composition": [
+      {
+        "kind": "single",
+        "items": [
+          0
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          6,
+          7
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": {
+          "en": "Is “Molex” enough information to identify a connector?",
+          "zh": "只提供“Molex”就能识别接头吗？"
+        },
+        "a": {
+          "en": "No. Provide the full family and part number, mating reference, cavity views and wire requirements. Similar housings can belong to different systems.",
+          "zh": "不能。请提供完整系列与料号、对插型号、腔位视图和导线要求。相似壳体可能属于不同系统。"
+        }
+      },
+      {
+        "q": {
+          "en": "Can any connector with the same pitch be substituted?",
+          "zh": "间距相同的连接器可以直接替换吗？"
+        },
+        "a": {
+          "en": "No. Pitch does not define the contact shape, housing keying, retention or electrical duty. Substitution needs a documented comparison and explicit approval.",
+          "zh": "不能。间距不能定义接点形状、壳体键位、保持结构和电气工况。替代需要文件比较和明确批准。"
+        }
+      },
+      {
+        "q": {
+          "en": "Do all configurations use genuine Molex parts?",
+          "zh": "所有配置都采用 Molex 原厂零件吗？"
+        },
+        "a": {
+          "en": "The quotation and approved BOM define component origin. Genuine specified parts and any approved alternatives are identified separately; no unstated substitution is assumed.",
+          "zh": "物料来源由报价与认可清单定义。指定原厂零件和认可替代物料分别列明，不默认存在未说明的替代。"
+        }
+      },
+      {
+        "q": {
+          "en": "What is needed for a custom cable quotation?",
+          "zh": "定制电缆报价需要哪些资料？"
+        },
+        "a": {
+          "en": "Send both mating references, circuit table, dimensions, wire and protection requirements, environment, quantities and required inspection or validation.",
+          "zh": "请提供两端对插型号、回路表、尺寸、线材与防护要求、环境、数量及所需检验或验证。"
+        }
+      }
+    ],
+    "creditHeading": {
+      "en": "Image credits and technical reading",
+      "zh": "图片来源与技术阅读"
+    },
+    "mediaCredits": [
+      {
+        "file": "Molex logo at hardriver.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Molex_logo_at_hardriver.jpg",
+        "author": "王者也",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      },
+      {
+        "file": "Molex Power Connections (5821888754).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Molex_Power_Connections_(5821888754).jpg",
+        "author": "syvwlch",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      {
+        "file": "Electronics of 3D Printer.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Electronics_of_3D_Printer.jpg",
+        "author": "disinterpreter",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      {
+        "file": "Picmg backplane.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Picmg_backplane.jpg",
+        "author": "The original uploader was Quark48 at German Wikipedia.",
+        "license": "Public domain"
+      },
+      {
+        "file": "Supermicro AOC-IBH-001 DDR InfiniBand mezzanine card (bottom).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Supermicro_AOC-IBH-001_DDR_InfiniBand_mezzanine_card_(bottom).jpg",
+        "author": "Dmitry Nosachev",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "2 cache on a stick modules, left Apple, right PC.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:2_cache_on_a_stick_modules,_left_Apple,_right_PC.jpg",
+        "author": "Sgroey",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "ZIF connector and FFC.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:ZIF_connector_and_FFC.jpg",
+        "author": "Zeroping",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "file": "Hirschmann ST series STAK 200 and STAS 200 2+PE industrial connectors.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Hirschmann_ST_series_STAK_200_and_STAS_200_2%2BPE_industrial_connectors.jpg",
+        "author": "Phiarc",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "USB 3.0 Micro-B connector receptacle.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:USB_3.0_Micro-B_connector_receptacle.jpg",
+        "author": "M-ogino",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+      },
+      {
+        "file": "SIM Socket2.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:SIM_Socket2.jpg",
+        "author": "在原ヶ谷戸",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+        "file": "MMCX Straight Male P.C.B..jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:MMCX_Straight_Male_P.C.B..jpg",
+        "author": "Cmpter",
+        "license": "Public domain"
+      },
+      {
+        "file": "ATX PS connector 2024.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:ATX_PS_connector_2024.jpg",
+        "author": "Baran Ivo",
+        "license": "Public domain"
+      },
+      {
+        "file": "Molex 093 Pin and Socket Power Connectors.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Molex_093_Pin_and_Socket_Power_Connectors.jpg",
+        "author": "Michael Holley en:User:Swtpc6800",
+        "license": "Public domain"
+      },
+      {
+        "file": "Molex 0674901220 box tag 20140525.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Molex_0674901220_box_tag_20140525.jpg",
+        "author": "Solomon203",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "Blue digital multimeter.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Blue_digital_multimeter.jpg",
+        "author": "Publunch~enwikibooks at English Wikibooks",
+        "license": "Public domain"
+      },
+      {
+        "file": "Copper wire rod produced by LS Cable & System.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Copper_wire_rod_produced_by_LS_Cable_%26_System.jpg",
+        "author": "Lsgeeks",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      {
+        "file": "Molex backplane connector portfolio",
+        "url": "https://www.molex.com/en-us/products/connectors/backplane-connectors",
+        "author": "Molex",
+        "license": "Technical reference — verify the current part-specific document"
+      },
+      {
+        "file": "Molex SlimStack board interfaces",
+        "url": "https://www.molex.com/en-us/products/connectors/board-to-board-connectors/slimstack-connectors",
+        "author": "Molex",
+        "license": "Technical reference — verify the current part-specific document"
+      },
+      {
+        "file": "Molex EdgeLine card-edge interfaces",
+        "url": "https://www.molex.com/en-us/products/connectors/card-edge-connectors/high-speed-card-edge-connectors-edgeline",
+        "author": "Molex",
+        "license": "Technical reference — verify the current part-specific document"
+      },
+      {
+        "file": "Molex Easy-On FFC/FPC connectors",
+        "url": "https://www.molex.com/en-us/products/connectors/ffc-fpc-connectors",
+        "author": "Molex",
+        "license": "Technical reference — verify the current part-specific document"
+      },
+      {
+        "file": "Molex HMC heavy-duty rectangular connectors",
+        "url": "https://www.content.molex.com/dxdam/literature/987650-8681.pdf",
+        "author": "Molex",
+        "license": "Technical reference — verify the current part-specific document"
+      },
+      {
+        "file": "Molex I/O connectors",
+        "url": "https://www.molex.com/en-us/products/connectors/io-connectors",
+        "author": "Molex",
+        "license": "Technical reference — verify the current part-specific document"
+      },
+      {
+        "file": "Molex memory / SIM card connectors",
+        "url": "https://www.molex.com/en-us/products/connectors/memory-sim-card-connectors",
+        "author": "Molex",
+        "license": "Technical reference — verify the current part-specific document"
+      },
+      {
+        "file": "Molex RF connectors",
+        "url": "https://www.molex.com/en-us/products/connectors/rf-connectors-by-series",
+        "author": "Molex",
+        "license": "Technical reference — verify the current part-specific document"
+      },
+      {
+        "file": "Molex Mini-Fit family",
+        "url": "https://www.molex.com/en-us/products/connectors/wire-to-board-connectors/mini-fit-connectors",
+        "author": "Molex",
+        "license": "Technical reference — verify the current part-specific document"
+      },
+      {
+        "file": "Molex Micro-Fit family",
+        "url": "https://www.molex.com/en-us/products/connectors/wire-to-board-connectors/micro-fit-connectors",
+        "author": "Molex",
+        "license": "Technical reference — verify the current part-specific document"
+      },
+      {
+        "file": "Molex PicoBlade 51021 product specification",
+        "url": "https://www.molex.com/content/dam/molex/molex-dot-com/products/automated/en-us/productspecificationpdf/510/51021/510211006-PS-000.pdf?inline=",
+        "author": "Molex",
+        "license": "Technical reference — verify the current part-specific document"
+      },
+      {
+        "file": "Molex wire-to-wire portfolio",
+        "url": "https://www.molex.com/en-us/products/connectors/wire-to-wire-connectors",
+        "author": "Molex",
+        "license": "Technical reference — verify the current part-specific document"
+      }
+    ],
+    "guide": [
+      {
+        "index": 1,
+        "label": {
+          "en": "Board interfaces",
+          "zh": "板端接口"
+        }
+      },
+      {
+        "index": 4,
+        "label": {
+          "en": "Flexible links",
+          "zh": "柔性连接"
+        }
+      },
+      {
+        "index": 9,
+        "label": {
+          "en": "Cable connections",
+          "zh": "电缆连接"
+        }
+      },
+      {
+        "index": 12,
+        "label": {
+          "en": "Custom development",
+          "zh": "定制开发"
+        }
+      }
+    ]
+  }
+},
 "connector-systems-01": {
   "intro": {
     "en": "Custom connector leads and harness assemblies defined around specified TE / AMP interfaces, terminal systems, wire, sealing and installation requirements.",

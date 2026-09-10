@@ -378,7 +378,7 @@ async function loadData(){
     fetch('/data/products.json?v=20260831v7').then(r=>r.json()),
     fetch('/data/product-series.json?v=20260902v1').then(r=>r.json()),
     fetch('/data/product-capabilities.json?v=20260902v4').then(r=>r.json()),
-    fetch('/data/product-category-details.json?v=20260910v28').then(r=>r.json())
+    fetch('/data/product-category-details.json?v=20260910v29').then(r=>r.json())
   ]);
   SITE=s; PRODS=p; SERIES=series; CAPABILITIES=capabilities; CATEGORY_DETAILS=categoryDetails;
   applyEvidenceBoundaries();
@@ -1185,11 +1185,12 @@ function renderProductCategoryRichMarkup(page,item){
     const topic=i=>{const c=chapters[i];return `<article id="technical-topic-${i}" class="te-topic te-${htmlEscape(c.style||'wide')}">${photo(c.image,t(c.caption))}<div class="te-copy"><span class="te-index" aria-hidden="true">${String(i+1).padStart(2,'0')}</span><h2>${htmlEscape(t(c.title))}</h2><p>${htmlEscape(t(c.copy))}</p>${(c.points||[]).map(p=>`<h3>${htmlEscape(t(p.title))}</h3><p>${htmlEscape(t(p.copy))}</p>`).join('')}</div></article>`;};
     const composition=page.composition||chapters.map((_,i)=>({kind:'single',items:[i]}));
     const body=composition.map(c=>c.kind==='pair'?`<div class="te-pair">${c.items.map(topic).join('')}</div>`:c.items.map(topic).join('')).join('');
+    const guide=page.guide?.length?`<nav class="te-guide" aria-label="${LANG==='zh'?'本页导读':'On this page'}">${page.guide.map(g=>`<a href="#technical-topic-${Number(g.index)}">${htmlEscape(t(g.label))}</a>`).join('')}</nav>`:'';
     const faq=(page.faq||[]).map((e,i)=>`<details${i===0?' open':''}><summary>${htmlEscape(t(e.q))}</summary><p>${htmlEscape(t(e.a))}</p></details>`).join('');
     const credits=(page.mediaCredits||[]).map(e=>`<li><a href="${htmlEscape(e.url)}" target="_blank" rel="noopener">${htmlEscape(e.file)}</a><span>${htmlEscape(e.author)} · ${e.licenseUrl?`<a href="${htmlEscape(e.licenseUrl)}" target="_blank" rel="noopener">${htmlEscape(e.license)}</a>`:htmlEscape(e.license)}</span></li>`).join('');
     const notice=LANG==='zh'?'第三方实拍参考用于说明结构、材料或应用，不代表本公司产品、合格安装、试验结果或品牌授权。图片经尺寸、裁切和显示色调调整；衍生图片沿用原图适用的共享许可。':'Third-party reference photographs illustrate construction, materials or applications, not company products, approved installations, test results or brand authorization. Images are resized, display-cropped and tonally adjusted; adaptations retain the applicable original share-alike license.';
     const aiNotice=(page.hasAiImages?(LANG==='zh'?' 标注为 AI 示意的图片不是实拍或尺寸依据。':' Images labeled AI illustration are not photographs or dimensional references.'):'')+(page.hasOwnImages?(LANG==='zh'?' 标注为超斯迈尔实物的照片来自本公司提供的产品素材，供货版本以认可规格为准。':' Photographs identified as Super Smile products come from company-supplied material; the approved specification determines the supplied version.'):'');
-    return `<div class="te-page te-theme-${htmlEscape(page.theme||'industrial')}"><section class="te-opening"><div><h2>${heading('introduction')}</h2><p>${htmlEscape(t(page.lead))}</p></div>${photo(page.images.range,t(page.openingCaption))}</section>${body}<section class="pcc-rich-section pcc-rich-faq"><header class="pcc-rich-heading"><h2>${heading('faq')}</h2></header><div class="pcc-faq-grid">${faq}</div></section><details class="pcc-media-credits"><summary>${htmlEscape(t(page.creditHeading))}</summary><ul>${credits}<li>${notice}${aiNotice}</li></ul></details></div>`;
+    return `<div class="te-page te-theme-${htmlEscape(page.theme||'industrial')}"><section class="te-opening"><div><h2>${heading('introduction')}</h2><p>${htmlEscape(t(page.lead))}</p>${guide}</div>${photo(page.images.range,t(page.openingCaption))}</section>${body}<section class="pcc-rich-section pcc-rich-faq"><header class="pcc-rich-heading"><h2>${heading('faq')}</h2></header><div class="pcc-faq-grid">${faq}</div></section><details class="pcc-media-credits"><summary>${htmlEscape(t(page.creditHeading))}</summary><ul>${credits}<li>${notice}${aiNotice}</li></ul></details></div>`;
   }
   if(page.layout==='battery-link-editorial'){
     const photo=(src,caption)=>`<figure class="bl-photo"><img src="${htmlEscape(src)}" alt="${htmlEscape(caption)}" width="1200" height="900" loading="lazy" decoding="async"><figcaption>${htmlEscape(caption)}</figcaption></figure>`;

@@ -1,6 +1,6 @@
 # TE / AMP compatible assemblies
 
-Status: local English/Chinese QA passed at 1280, 390 and 320 px: 12 chapters, four FAQ, all images loaded, fixed header, correct enquiry links, no horizontal overflow or console errors. Desktop hover and mobile menu both show six groups, 42 active and 41 disabled entries. Fourteen unique licensed real photographs, no source URL repeated from previous category credits. Public release verification pending.
+Status: published in bd1d07c. Public English/Chinese QA passed at 1280 and 390 px after deployment propagation: 12 chapters, four FAQ, all images loaded, fixed header, correct enquiry links, no horizontal overflow or console errors. Local 320 px also passed. Public desktop hover and mobile menu both show six groups, 42 active and 41 disabled entries. Fourteen unique licensed real photographs, no source URL repeated from previous category credits.
 
 QL-Custom navigation directs the Tyco/TE item to Coming Soon. The actual corresponding knowledge article is https://www.ql-custom.com/what-is-tyco-connector-the-typesprices.html. Its outline is What is Tyco/TE connector, connector series, waterproof automotive applications, lead time, pricing and FAQ. This page follows those topics, adds manufacturing and material selection, and writes original bilingual copy. It does not copy QL distributor relationships, lead-time promises or brand claims.
 
