@@ -378,7 +378,7 @@ async function loadData(){
     fetch('/data/products.json?v=20260831v7').then(r=>r.json()),
     fetch('/data/product-series.json?v=20260902v1').then(r=>r.json()),
     fetch('/data/product-capabilities.json?v=20260902v4').then(r=>r.json()),
-    fetch('/data/product-category-details.json?v=20260910v19').then(r=>r.json())
+    fetch('/data/product-category-details.json?v=20260910v20').then(r=>r.json())
   ]);
   SITE=s; PRODS=p; SERIES=series; CAPABILITIES=capabilities; CATEGORY_DETAILS=categoryDetails;
   applyEvidenceBoundaries();
@@ -1298,6 +1298,13 @@ function renderProductCategoryRichMarkup(page,item){
     const faq=(page.faq||[]).map((entry,index)=>`<details${index===0?' open':''}><summary>${htmlEscape(t(entry.q))}</summary><p>${htmlEscape(t(entry.a))}</p></details>`).join('');
     const credits=(page.mediaCredits||[]).map(entry=>`<li><a href="${htmlEscape(entry.url)}" target="_blank" rel="noopener">${htmlEscape(entry.file)}</a><span>${htmlEscape(entry.author)} · ${htmlEscape(entry.license)}</span></li>`).join('');
     return `<section class="pcc-construction-opening">${fieldImage(page.images.range,`${item} ${LANG==='zh'?'工地运动环境':'worksite motion environment'}`,'pcc-construction-opening-media')}<div class="pcc-construction-opening-copy"><span>MACHINE / MOTION / EXPOSURE / SERVICE</span><h2>${heading('introduction')}</h2><p>${htmlEscape(t(page.lead))}</p><div class="pcc-construction-axis" aria-hidden="true"><b>${LANG==='zh'?'驾驶室':'CAB'}</b><i></i><b>${LANG==='zh'?'液压':'HYDRAULICS'}</b><i></i><b>${LANG==='zh'?'运动':'MOTION'}</b><i></i><b>${LANG==='zh'?'现场':'FIELD'}</b></div></div></section><section class="pcc-construction-sequence">${chapters}</section><section class="pcc-rich-section pcc-rich-faq pcc-construction-faq"><header class="pcc-rich-heading"><h2>${heading('faq')}</h2></header><div class="pcc-faq-grid">${faq}</div></section><details class="pcc-media-credits"><summary>${htmlEscape(t(page.creditHeading))}</summary><ul>${credits}</ul></details>`;
+  }
+  if(page.layout==='engine-systems-map'){
+    const engineImage=(src,alt,className='')=>`<figure class="pcc-engine-media ${className}"><img src="${htmlEscape(src)}" alt="${htmlEscape(alt)}" width="1400" height="960" loading="lazy" decoding="async"></figure>`;
+    const chapters=(page.chapters||[]).map((chapter,index)=>`<article class="pcc-engine-chapter pcc-engine-chapter-${index+1}"><header class="pcc-engine-heading"><p>${htmlEscape(t(chapter.kicker))}</p><h2>${htmlEscape(t(chapter.title))}</h2></header>${engineImage(chapter.image,t(chapter.title))}<div class="pcc-engine-copy"><p class="pcc-engine-summary">${htmlEscape(t(chapter.copy))}</p><div class="pcc-engine-points">${(chapter.points||[]).map(point=>`<section><h3>${htmlEscape(t(point.title))}</h3><p>${htmlEscape(t(point.copy))}</p></section>`).join('')}</div></div></article>`).join('');
+    const faq=(page.faq||[]).map((entry,index)=>`<details${index===0?' open':''}><summary>${htmlEscape(t(entry.q))}</summary><p>${htmlEscape(t(entry.a))}</p></details>`).join('');
+    const credits=(page.mediaCredits||[]).map(entry=>`<li><a href="${htmlEscape(entry.url)}" target="_blank" rel="noopener">${htmlEscape(entry.file)}</a><span>${htmlEscape(entry.author)} · ${htmlEscape(entry.license)}</span></li>`).join('');
+    return `<section class="pcc-engine-opening">${engineImage(page.images.range,`${item} ${LANG==='zh'?'发动机电气系统':'engine electrical system'}`,'pcc-engine-opening-media')}<div class="pcc-engine-opening-copy"><h2>${heading('introduction')}</h2><p>${htmlEscape(t(page.lead))}</p><div class="pcc-engine-route" aria-hidden="true"><b>${LANG==='zh'?'电源':'POWER'}</b><i></i><b>ECU</b><i></i><b>${LANG==='zh'?'信号':'SIGNALS'}</b><i></i><b>${LANG==='zh'?'执行器':'ACTUATORS'}</b></div></div></section><section class="pcc-engine-system">${chapters}</section><section class="pcc-rich-section pcc-rich-faq pcc-engine-faq"><header class="pcc-rich-heading"><h2>${heading('faq')}</h2></header><div class="pcc-faq-grid">${faq}</div></section><details class="pcc-media-credits"><summary>${htmlEscape(t(page.creditHeading))}</summary><ul>${credits}</ul></details>`;
   }
   if(page.layout==='lighting-optical-circuit'){
     const lightingImage=(src,alt,className='')=>`<figure class="pcc-lighting-media ${className}"><img src="${htmlEscape(src)}" alt="${htmlEscape(alt)}" width="1400" height="960" loading="lazy" decoding="async"></figure>`;

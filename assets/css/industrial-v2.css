@@ -158,6 +158,58 @@ body[data-category-key="automotive-06"] .pcc-hero-media img{object-position:58% 
   .pcc-trailer-points{grid-template-columns:1fr;gap:10px;margin-top:13px}
 }
 
+/* Engine harness: compact power-signal-motion systems map */
+body[data-category-key="automotive-08"] .pcc-hero{background:#0c0f10;color:#f3f0e9}
+body[data-category-key="automotive-08"] .pcc-hero-media:after{background:linear-gradient(90deg,rgba(5,8,9,.97),rgba(5,8,9,.66) 57%,rgba(5,8,9,.2))}
+body[data-category-key="automotive-08"] .pcc-hero-media img{object-position:61% 53%;filter:saturate(.38) contrast(1.3) brightness(.55)}
+.pcc-engine-media{position:relative;min-width:0;margin:0;overflow:hidden;background:#151718}
+.pcc-engine-media img{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover;filter:saturate(.47) contrast(1.23) brightness(.78)}
+.pcc-engine-opening{display:grid;grid-template-columns:minmax(300px,.72fr) minmax(0,1.28fr);height:322px;padding:0;background:#d9dbd7;color:#171a19}
+.pcc-engine-opening-media{height:322px}.pcc-engine-opening-media img{object-position:center 48%}
+.pcc-engine-opening-copy{align-self:center;padding:34px clamp(38px,6vw,94px)}
+.pcc-engine-opening-copy h2{max-width:920px;margin:0 0 12px;font-size:clamp(28px,3vw,46px);font-weight:520;line-height:1.04;letter-spacing:-.038em}
+.pcc-engine-opening-copy>p,.pcc-engine-summary,.pcc-engine-points p{margin:0;text-indent:2em}
+.pcc-engine-opening-copy>p{max-width:930px;color:#525a56;font-size:13.6px;line-height:1.75}
+.pcc-engine-route{display:flex;align-items:center;gap:8px;max-width:610px;margin-top:20px;color:#3f504a;font-family:var(--v2-mono);font-size:8px;letter-spacing:.09em}
+.pcc-engine-route i{position:relative;flex:1;height:1px;background:#8e9e98}.pcc-engine-route i:after{content:"";position:absolute;right:0;top:-2px;width:5px;height:5px;border-radius:50%;background:#df5a34}
+.pcc-engine-system{padding:0;background:#f1f0ea}
+.pcc-engine-chapter{display:grid;grid-template-columns:minmax(275px,.72fr) minmax(235px,.62fr) minmax(0,1.66fr);min-height:258px;border-bottom:1px solid rgba(24,30,28,.13)}
+.pcc-engine-heading{align-self:center;padding:24px clamp(22px,3vw,48px)}
+.pcc-engine-heading>p{position:relative;margin:0 0 10px;padding-inline-start:20px;color:#9b563b;font-family:var(--v2-mono);font-size:8.4px;line-height:1.4;letter-spacing:.13em;text-transform:uppercase}
+.pcc-engine-heading>p:before{content:"";position:absolute;left:0;top:.55em;width:12px;height:1px;background:#df5a34}
+.pcc-engine-heading h2{max-width:580px;margin:0;font-size:clamp(19px,1.75vw,27px);font-weight:550;line-height:1.13;letter-spacing:-.026em}
+.pcc-engine-chapter>.pcc-engine-media{min-height:258px}
+.pcc-engine-copy{align-self:center;padding:24px clamp(30px,4.5vw,72px)}
+.pcc-engine-summary{max-width:1050px;color:#48504d;font-size:12.7px;line-height:1.72}
+.pcc-engine-points{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin-top:15px}
+.pcc-engine-points section{position:relative;padding-block:0;padding-inline-start:13px}
+.pcc-engine-points section:before{content:"";position:absolute;left:0;top:3px;width:2px;height:25px;background:#b86345}
+.pcc-engine-points h3{margin:0 0 3px;font-size:12px;font-weight:650}.pcc-engine-points p{color:#6b716e;font-size:11.2px;line-height:1.52}
+.pcc-engine-chapter:nth-child(even){grid-template-columns:minmax(275px,.72fr) minmax(0,1.66fr) minmax(235px,.62fr);background:#dfe2de}
+.pcc-engine-chapter:nth-child(even)>.pcc-engine-media{grid-column:3;grid-row:1}.pcc-engine-chapter:nth-child(even)>.pcc-engine-copy{grid-column:2;grid-row:1}
+.pcc-engine-chapter:nth-child(3),.pcc-engine-chapter:nth-child(6),.pcc-engine-chapter:nth-child(9){grid-template-columns:minmax(235px,.62fr) minmax(275px,.72fr) minmax(0,1.66fr);background:#181c1b;color:#f1efe9}
+.pcc-engine-chapter:nth-child(3)>.pcc-engine-media,.pcc-engine-chapter:nth-child(6)>.pcc-engine-media,.pcc-engine-chapter:nth-child(9)>.pcc-engine-media{grid-column:1;grid-row:1}
+.pcc-engine-chapter:nth-child(3)>.pcc-engine-heading,.pcc-engine-chapter:nth-child(6)>.pcc-engine-heading,.pcc-engine-chapter:nth-child(9)>.pcc-engine-heading{grid-column:2;grid-row:1}
+.pcc-engine-chapter:nth-child(3)>.pcc-engine-copy,.pcc-engine-chapter:nth-child(6)>.pcc-engine-copy,.pcc-engine-chapter:nth-child(9)>.pcc-engine-copy{grid-column:3;grid-row:1}
+.pcc-engine-chapter:nth-child(3) .pcc-engine-summary,.pcc-engine-chapter:nth-child(6) .pcc-engine-summary,.pcc-engine-chapter:nth-child(9) .pcc-engine-summary,.pcc-engine-chapter:nth-child(3) .pcc-engine-points p,.pcc-engine-chapter:nth-child(6) .pcc-engine-points p,.pcc-engine-chapter:nth-child(9) .pcc-engine-points p{color:rgba(241,239,233,.68)}
+.pcc-engine-chapter-2 .pcc-engine-media img{object-position:center 44%}.pcc-engine-chapter-3 .pcc-engine-media img{object-position:center 68%}.pcc-engine-chapter-4 .pcc-engine-media img{object-position:center 48%}.pcc-engine-chapter-5 .pcc-engine-media img{object-position:center 37%}.pcc-engine-chapter-6 .pcc-engine-media img{object-position:center 58%}.pcc-engine-chapter-8 .pcc-engine-media img{object-position:center 55%}.pcc-engine-chapter-10 .pcc-engine-media img{object-position:center 44%}.pcc-engine-chapter-11 .pcc-engine-media img{object-position:center 56%}
+.pcc-engine-faq{padding-block:45px;background:#d9ddd9}
+@media(max-width:1040px){
+  .pcc-engine-chapter,.pcc-engine-chapter:nth-child(even),.pcc-engine-chapter:nth-child(3),.pcc-engine-chapter:nth-child(6),.pcc-engine-chapter:nth-child(9){grid-template-columns:minmax(215px,.64fr) minmax(205px,.58fr) minmax(0,1.78fr)}
+  .pcc-engine-chapter:nth-child(even)>.pcc-engine-media{grid-column:2}.pcc-engine-chapter:nth-child(even)>.pcc-engine-copy{grid-column:3}
+  .pcc-engine-chapter:nth-child(3)>.pcc-engine-media,.pcc-engine-chapter:nth-child(6)>.pcc-engine-media,.pcc-engine-chapter:nth-child(9)>.pcc-engine-media{grid-column:2}.pcc-engine-chapter:nth-child(3)>.pcc-engine-heading,.pcc-engine-chapter:nth-child(6)>.pcc-engine-heading,.pcc-engine-chapter:nth-child(9)>.pcc-engine-heading{grid-column:1}.pcc-engine-chapter:nth-child(3)>.pcc-engine-copy,.pcc-engine-chapter:nth-child(6)>.pcc-engine-copy,.pcc-engine-chapter:nth-child(9)>.pcc-engine-copy{grid-column:3}
+  .pcc-engine-heading{padding:23px 20px}.pcc-engine-copy{padding:23px 26px}
+}
+@media(max-width:760px){.pcc-engine-opening{grid-template-columns:.9fr 1.1fr}.pcc-engine-opening-copy{padding:29px 25px}}
+@media(max-width:640px){
+  .pcc-engine-opening{display:flex;flex-direction:column;height:auto}.pcc-engine-opening-media{height:184px;margin-inline:calc(var(--v2-mobile-gutter)*-1)}.pcc-engine-opening-copy{padding:25px var(--v2-mobile-gutter) 27px}.pcc-engine-opening-copy h2{font-size:26px}.pcc-engine-route{gap:5px;font-size:7px}.pcc-engine-route i{min-width:10px}
+  .pcc-engine-chapter,.pcc-engine-chapter:nth-child(even),.pcc-engine-chapter:nth-child(3),.pcc-engine-chapter:nth-child(6),.pcc-engine-chapter:nth-child(9){display:grid;grid-template-columns:1fr;min-height:0;padding:0 var(--v2-mobile-gutter) 25px}
+  .pcc-engine-chapter>.pcc-engine-heading,.pcc-engine-chapter:nth-child(even)>.pcc-engine-heading,.pcc-engine-chapter:nth-child(3)>.pcc-engine-heading,.pcc-engine-chapter:nth-child(6)>.pcc-engine-heading,.pcc-engine-chapter:nth-child(9)>.pcc-engine-heading{grid-column:1;grid-row:auto;padding:19px 0 9px}.pcc-engine-heading h2{font-size:20.5px}
+  .pcc-engine-chapter>.pcc-engine-copy,.pcc-engine-chapter:nth-child(even)>.pcc-engine-copy,.pcc-engine-chapter:nth-child(3)>.pcc-engine-copy,.pcc-engine-chapter:nth-child(6)>.pcc-engine-copy,.pcc-engine-chapter:nth-child(9)>.pcc-engine-copy{grid-column:1;grid-row:auto;padding:0 0 15px}.pcc-engine-summary{font-size:12.5px}
+  .pcc-engine-chapter>.pcc-engine-media,.pcc-engine-chapter:nth-child(even)>.pcc-engine-media,.pcc-engine-chapter:nth-child(3)>.pcc-engine-media,.pcc-engine-chapter:nth-child(6)>.pcc-engine-media,.pcc-engine-chapter:nth-child(9)>.pcc-engine-media{grid-column:1;grid-row:auto;height:174px;min-height:0;margin-inline:calc(var(--v2-mobile-gutter)*-1)}
+  .pcc-engine-points{grid-template-columns:1fr;gap:10px;margin-top:13px}
+}
+
 /* Vehicle lighting harness: optical circuit editorial sequence */
 body[data-category-key="automotive-07"] .pcc-hero{background:#0b0c0e;color:#f4f1ea}
 body[data-category-key="automotive-07"] .pcc-hero-media:after{background:linear-gradient(90deg,rgba(4,5,7,.97),rgba(4,5,7,.64) 56%,rgba(4,5,7,.18))}
