@@ -168,7 +168,58 @@ body[data-category-layout="technical-editorial"] .pcc-hero-media img{filter:satu
 .te-theme-vehicle-interface #technical-topic-20 .te-photo{width:185px;margin-top:4px}.te-theme-vehicle-interface #technical-topic-20 .te-photo img{object-fit:cover;height:170px}
 .te-theme-vehicle-interface #technical-topic-21{background:#f1efe9;grid-template-columns:minmax(0,1fr) 215px}
 .te-theme-vehicle-interface #technical-topic-22{grid-template-columns:160px minmax(0,1fr);background:#dfe4e2}.te-theme-vehicle-interface #technical-topic-22 .te-photo img{height:175px}
+/* Amphenol: compact material references, long technical notes and application spreads. */
+.te-theme-materials-atlas{--te-tint:#e1e5e2;--te-accent:#a54b30;--te-muted:#46524e}
+.te-theme-materials-atlas .te-index{display:none}
+.te-theme-materials-atlas .te-opening{grid-template-columns:minmax(0,1fr) 240px;gap:28px;background:#e9e7df}
+.te-theme-materials-atlas .te-opening .te-photo img{height:190px;object-fit:contain;background:#e9e7df}
+.te-theme-materials-atlas .te-topic{padding-block:24px}
+.te-theme-materials-atlas .te-pair{background:#e3e7e2}
+.te-theme-materials-atlas .te-pair .te-photo{width:155px;margin-top:34px}
+.te-theme-materials-atlas .te-pair .te-photo img{height:150px;object-fit:cover}
+.te-theme-materials-atlas .te-pair .te-topic:nth-child(2) .te-photo{margin-top:34px}
+.te-theme-materials-atlas #technical-topic-0{grid-template-columns:195px minmax(0,1fr);padding-left:0;padding-right:var(--te-gutter)}
+.te-theme-materials-atlas #technical-topic-0 .te-photo{grid-column:1}.te-theme-materials-atlas #technical-topic-0 .te-copy{grid-column:2}
+.te-theme-materials-atlas #technical-topic-0 .te-photo img{object-fit:contain;height:180px;background:#e4e7e1}
+.te-theme-materials-atlas #technical-topic-3{grid-template-columns:minmax(0,1fr) 155px;background:#ece9e1}
+.te-theme-materials-atlas #technical-topic-3 .te-photo img{height:175px}
+.te-theme-materials-atlas #technical-topic-6{display:flow-root;padding-right:var(--te-gutter)}
+.te-theme-materials-atlas #technical-topic-6 .te-photo{float:left;width:185px;margin:8px 28px 0 calc(-1*var(--te-gutter))}
+.te-theme-materials-atlas #technical-topic-6 .te-photo img{object-fit:contain;height:160px;background:#f1efe9}
+.te-theme-materials-atlas #technical-topic-7{grid-template-columns:minmax(0,1fr) 225px;background:#e9e7df}
+.te-theme-materials-atlas #technical-topic-7 .te-photo img{height:135px;object-fit:contain;background:#efefe7}
+.te-theme-materials-atlas #technical-topic-9 .te-photo img{object-fit:contain;background:#e8e9e2}
+.te-theme-materials-atlas #technical-topic-10{grid-template-columns:minmax(0,1fr) 230px}
+.te-theme-materials-atlas #technical-topic-10 .te-photo img{height:125px;object-fit:contain;background:#f1efe9}
+.te-theme-materials-atlas #technical-topic-11{grid-template-columns:225px minmax(0,1fr);background:#e5e7e0}
+.te-theme-materials-atlas #technical-topic-11 .te-photo img{height:115px;object-fit:contain;background:#f2f1e9}
+.te-theme-materials-atlas #technical-topic-14 .te-photo{width:165px;margin-top:4px}
+.te-theme-materials-atlas #technical-topic-14 .te-photo img{height:210px;object-fit:contain;background:#e7e7df}
+.te-theme-materials-atlas #technical-topic-17{grid-template-columns:minmax(0,1fr) 245px}
+.te-theme-materials-atlas #technical-topic-17 .te-photo img{height:155px}
+.te-theme-materials-atlas #technical-topic-18{display:flow-root;padding-right:var(--te-gutter);background:#e1e5e2}
+.te-theme-materials-atlas #technical-topic-18 .te-photo{float:right;width:190px;margin:2px calc(-1*var(--te-gutter)) 0 30px}
+.te-theme-materials-atlas #technical-topic-18 .te-photo img{height:170px;object-fit:cover;object-position:center 78%;background:#dce1dc}
+.te-theme-materials-atlas #technical-topic-20 .te-photo img{object-fit:contain;background:#e7e5df}
+.te-theme-materials-atlas #technical-topic-21{grid-template-columns:minmax(0,1fr) 145px;background:#edeae2}
+.te-theme-materials-atlas #technical-topic-21 .te-photo img{height:180px;object-fit:contain}
+.te-theme-materials-atlas #technical-topic-22{grid-template-columns:165px minmax(0,1fr);padding-left:0;padding-right:var(--te-gutter)}
+.te-theme-materials-atlas #technical-topic-22 .te-photo{grid-column:1}.te-theme-materials-atlas #technical-topic-22 .te-copy{grid-column:2}
+.te-theme-materials-atlas #technical-topic-22 .te-photo img{object-fit:contain;height:180px;background:#e3e3dd}
+.te-theme-materials-atlas #technical-topic-24 .te-photo img{object-fit:contain;background:#e9eae3}
+.te-theme-materials-atlas #technical-topic-25{grid-template-columns:175px minmax(0,1fr);padding-left:0;padding-right:var(--te-gutter);background:#e8e6de}
+.te-theme-materials-atlas #technical-topic-25 .te-photo{grid-column:1}.te-theme-materials-atlas #technical-topic-25 .te-copy{grid-column:2}
+.te-theme-materials-atlas #technical-topic-25 .te-photo img{height:175px;object-position:center 35%}
+.te-theme-materials-atlas #technical-topic-26{grid-template-columns:minmax(0,1fr) 145px}
+.te-theme-materials-atlas #technical-topic-26 .te-photo img{height:175px;object-position:center 38%}
+.te-theme-materials-atlas #technical-topic-27 .te-photo img{object-fit:contain;background:#e9e9e2}
+.te-theme-materials-atlas #technical-topic-28 .te-photo img{object-position:center 30%}
+.te-theme-materials-atlas #technical-topic-29{grid-template-columns:200px minmax(0,1fr);background:#e1e5e2}
+.te-theme-materials-atlas #technical-topic-29 .te-photo img{height:160px}
 @media(max-width:767px){
+ .te-theme-materials-atlas .te-opening,.te-theme-materials-atlas #technical-topic-0,.te-theme-materials-atlas #technical-topic-6,.te-theme-materials-atlas #technical-topic-18,.te-theme-materials-atlas #technical-topic-22,.te-theme-materials-atlas #technical-topic-25{display:flex;padding:23px 16px}
+ .te-theme-materials-atlas .te-pair .te-photo,.te-theme-materials-atlas .te-pair .te-topic:nth-child(2) .te-photo,.te-theme-materials-atlas #technical-topic-6 .te-photo,.te-theme-materials-atlas #technical-topic-14 .te-photo,.te-theme-materials-atlas #technical-topic-18 .te-photo{float:none;width:calc(100% + 32px);margin:16px -16px 0}
+ .te-theme-materials-atlas #technical-topic-14 .te-photo img,.te-theme-materials-atlas #technical-topic-18 .te-photo img{height:170px}
  .te-theme-vehicle-interface .te-opening,.te-theme-vehicle-interface #technical-topic-3,.te-theme-vehicle-interface #technical-topic-7,.te-theme-vehicle-interface #technical-topic-19{display:flex;padding:23px 16px}
  .te-theme-vehicle-interface .te-pair .te-photo,.te-theme-vehicle-interface #technical-topic-12 .te-photo,.te-theme-vehicle-interface #technical-topic-15 .te-photo,.te-theme-vehicle-interface #technical-topic-20 .te-photo{width:calc(100% + 32px);margin:16px -16px 0}
  .te-theme-rugged-connections #technical-topic-0{display:flex;padding:23px 16px}

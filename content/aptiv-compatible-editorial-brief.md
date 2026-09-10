@@ -1,6 +1,6 @@
 # Aptiv / Delphi compatible harnesses
 
-Status: local integration and visual/functional QA passed on 2026-09-10. Publishing pending public verification.
+Status: published as 1010dae and verified on the public domain on 2026-09-10. Fresh English/Chinese desktop/mobile checks pass with all 25 images, correct theme, full Aptiv / Delphi title, fixed header and functioning links/FAQ. Public menu confirms 46 active / 37 disabled categories. Initial deployment propagation briefly mixed old assets and a fallback route; the complete repeat pass succeeded.
 
 QA: English and Chinese at 1280, 390 and 320 px; 23 chapters / 25 unique assets / 1,992 English chapter words; no broken images, horizontal overflow or browser errors; fixed header, inquiry/back links, FAQ interaction and edge-aligned media pass. Desktop/mobile menu: 6 groups, 46 active, 37 disabled, no pending links. Normalized third-party source URLs do not duplicate previously published category credits. Main heading explicitly preserves Aptiv / Delphi. Local desktop upper/middle and mobile layouts visually reviewed.
 

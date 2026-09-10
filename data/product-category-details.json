@@ -1,4 +1,1022 @@
 {
+  "connector-systems-06": {
+    "title": {
+      "en": "Amphenol Compatible Cable Assemblies",
+      "zh": "Amphenol 兼容电缆组件"
+    },
+    "intro": {
+      "en": "Project-defined Amphenol-interface cables and harnesses, with documented connector selection, materials, routing and inspection.",
+      "zh": "按项目定义 Amphenol 接口电缆与线束，明确连接器选型、材料、布线及检验。"
+    },
+    "knowledge": {
+      "en": "Choose the exact family, mating references and cable construction; a brand name does not define the assembly.",
+      "zh": "明确系列、对插料号及电缆结构，品牌名不能定义完整组件。"
+    },
+    "notes": {
+      "en": "Provide circuit mapping, dimensions, environment, quantities and required evidence.",
+      "zh": "提供回路、尺寸、环境、数量及所需证据。"
+    },
+    "delivery": {
+      "en": "Review parts and tooling, confirm the first article and release repeat production.",
+      "zh": "审核零件与工装，确认首件后放行重复生产。"
+    },
+    "page": {
+      "layout": "technical-editorial",
+      "theme": "materials-atlas",
+      "displayTitle": {
+        "en": "Amphenol Compatible Cable Assemblies",
+        "zh": "Amphenol 兼容电缆组件"
+      },
+      "headings": {
+        "introduction": {
+          "en": "Amphenol Cable Assemblies",
+          "zh": "Amphenol 电缆组件"
+        },
+        "faq": {
+          "en": "Engineering and Purchasing Questions",
+          "zh": "工程与采购问题"
+        }
+      },
+      "subtitle": {
+        "en": "Connectors, materials and the installation as one system",
+        "zh": "连接器、材料与安装共同构成系统"
+      },
+      "lead": {
+        "en": "Amphenol describes a broad group of interconnection technologies, not one standard cable. A project may involve a circular industrial connector, a sealed vehicle branch, a battery power link or a specialized communication channel. Super Smile develops defined assemblies from drawings, samples and confirmed mating references. This guide follows the selection from connector families through materials, application environments and manufacturing controls. It explains what the assembly needs to do and what evidence must be agreed before supply, rather than treating every catalogue option as an already qualified company product.",
+        "zh": "Amphenol 涵盖广泛互连技术，并非一种标准电缆。项目可能涉及圆形工业接头、密封车辆分支、电池供电连接或专用通信通道。超斯迈尔依据图纸、样品和明确对插料号开发指定组件。以下从连接系列讲到材料、应用环境及制造控制，说明组件需要完成的功能和供货前应约定的证据，而不将所有目录选项视作本公司已鉴定产品。"
+      },
+      "images": {
+        "hero": "/assets/images/product-categories/stock/amphenol/hero.jpg",
+        "range": "/assets/images/product-categories/stock/amphenol/range.jpg"
+      },
+      "openingCaption": {
+        "en": "Amphenol circular connectors before and after wire termination.",
+        "zh": "Amphenol 圆形接头端接前后实拍。"
+      },
+      "chapters": [
+        {
+          "id": "circular",
+          "style": "wide",
+          "title": {
+            "en": "Amphenol Circular Connectors",
+            "zh": "Amphenol 圆形连接器"
+          },
+          "copy": {
+            "en": "Circular is a shape, not a universal interface. C091 signalmate, ecomate C16, ecomate RM and MIL-DTL-38999 families differ in coupling, inserts, contact systems and intended qualification. Specify the shell size, insert arrangement, contact gender and key orientation before selecting a backshell. The cable exit, panel thickness and space needed to rotate a coupling ring also matter. An assembly that mates on the bench can still be impossible to install behind a crowded panel. Identify both ends with manufacturer drawings; never infer interchangeability from diameter or pin count.",
+            "zh": "圆形只是外形，不是统一接口。C091 signalmate、ecomate C16、ecomate RM 与 MIL-DTL-38999 系列在锁紧、绝缘体排列、接点系统及适用鉴定要求上各不相同。选择尾壳前，应明确壳号、排列、接点公母和键位方向。出线方向、面板厚度及旋转锁环的空间同样重要：工作台上能对插的组件，不一定能装进拥挤面板后方。两端应依据制造商图纸识别，不能根据直径或针数推断互换。"
+          },
+          "image": "/assets/images/product-categories/stock/amphenol/circular.jpg",
+          "caption": {
+            "en": "An Amphenol cable connector used on Elinchrom equipment; identify the exact family before mating.",
+            "zh": "Elinchrom 设备上的 Amphenol 电缆接头；对插前须识别确切系列。"
+          }
+        },
+        {
+          "id": "battery",
+          "style": "feature-left",
+          "title": {
+            "en": "Battery Connectors",
+            "zh": "电池连接器"
+          },
+          "copy": {
+            "en": "Battery links are selected as a power path, including the cable, compression joint, connector and equipment terminal. SurLok and SurLok Plus are useful Amphenol search terms, but they are not the same environmental configuration. The selected variant determines sealing, contact size, cable acceptance and accessory options. Continuous current, pulse duration, enclosure temperature and cooling affect the thermal review. Provide polarity, mechanical keying and an installation drawing with the enquiry. High-voltage work also requires an approved safety and validation plan; colour alone is not evidence of electrical capability.",
+            "zh": "电池连接应作为完整供电路径选择，包含电缆、压接部位、连接器及设备端子。SurLok 与 SurLok Plus 是有用的 Amphenol 检索词，但环境配置并不相同。密封、接点尺寸、适用电缆及附件取决于所选变体。持续电流、脉冲时间、箱体温度和散热条件影响热审核。询价应提供极性、防错键位和安装图；涉及高压时，还需认可的安全及验证计划，颜色本身不能证明电气能力。"
+          },
+          "image": "/assets/images/product-categories/stock/amphenol/battery.jpg",
+          "caption": {
+            "en": "Battery storage installation: power connections are reviewed within their enclosure and thermal environment.",
+            "zh": "储能设备实景：供电连接需要结合箱体和热环境审核。"
+          }
+        },
+        {
+          "id": "selection",
+          "style": "inset-right",
+          "title": {
+            "en": "Why Use an Amphenol Connection System?",
+            "zh": "为什么选择 Amphenol 连接系统？"
+          },
+          "copy": {
+            "en": "A broad catalogue can make it easier to find a documented interface for a particular job. Reliability still comes from matching that interface to the environment and manufacturing it correctly. Compare quotations on a complete BOM basis: contacts, seals, locks, backshells, tooling, inspection and minimum purchasing quantities can change the total cost. A cheaper housing can become an expensive assembly if its contacts are unavailable or installation needs extra labour. We explain the selected family and proposed alternatives, without claiming that one brand is always cheaper, more reliable or suitable for every application.",
+            "zh": "较广的产品目录有助于找到适合特定任务、资料明确的接口，但可靠性仍来自正确选型和制造。报价比较应基于完整物料表：端子、密封、锁件、尾壳、工装、检验及最低采购量都会影响总成本。更便宜的胶壳，如果配套端子缺货或安装需要额外工时，成品成本反而可能更高。我们说明所选系列及拟议替代方案，不宣称某一品牌永远更便宜、更可靠或适合全部应用。"
+          },
+          "image": "/assets/images/product-categories/stock/amphenol/selection.jpg",
+          "caption": {
+            "en": "A legacy nine-pin Amphenol equipment interface illustrates why the mating reference matters.",
+            "zh": "旧式九针 Amphenol 设备接口，说明对插料号的重要性。"
+          }
+        },
+        {
+          "id": "traceability",
+          "style": "compact",
+          "title": {
+            "en": "Materials and Supply-Chain Traceability",
+            "zh": "材料与供应链追溯"
+          },
+          "copy": {
+            "en": "Material control begins with identifiable part references and purchasing records. The wire specification should describe conductor construction, insulation, outer diameter and required markings, not just a colour and nominal area. Record housing and contact revisions where they affect fit or processing. Material declarations, certificates of conformity and inspection records answer different questions. Agree which documents are needed and how they relate to the supplied batch before ordering. A familiar supplier name is not a substitute for checking the actual material delivered to the line.",
+            "zh": "材料控制从可识别料号与采购记录开始。线材规格应描述导体结构、绝缘、外径及必要标识，而不只是颜色和标称截面。胶壳及端子的版本如果影响装配或加工，也应记录。材料声明、符合性文件与检验记录解决不同问题，应在下单前约定所需文件及其与供货批次的对应关系。供应商名称熟悉，并不能替代对实际投入生产材料的检查。"
+          },
+          "image": "/assets/images/product-categories/stock/amphenol/traceability.jpg",
+          "caption": {
+            "en": "Cable stock and reels: construction, batch and material records must stay identifiable.",
+            "zh": "电缆库存与线盘：结构、批次及材料记录需要清晰对应。"
+          }
+        },
+        {
+          "id": "seals",
+          "style": "feature-right",
+          "title": {
+            "en": "Silicone Seals and Complete Sealing Paths",
+            "zh": "硅胶密封与完整密封路径"
+          },
+          "copy": {
+            "en": "Rear wire seals, interface seals, cavity plugs and panel seals protect different entry paths. Their dimensions and compression must match the specified housing and cable. A seal selected by conductor gauge alone can be wrong because two wires with the same copper area may have different insulation diameters. Chemical exposure also depends on the particular elastomer compound and fluid. Amphenol's ecomate RSSM guidance, for example, requires RSSM plugs and receptacles together for its stated IP69K performance. Do not transfer that rating to a mixed pair or a finished harness without the relevant evidence.",
+            "zh": "后部线封、对插界面密封、空腔堵头与面板密封分别防护不同进水路径，其尺寸和压缩量必须匹配指定壳体及电缆。只按导体线规选线封可能出错，因为相同铜截面的线材可有不同绝缘外径。耐化学性也取决于具体弹性体配方和介质。例如 Amphenol 的 ecomate RSSM 说明要求 RSSM 插头与插座配套，才能满足其规定的 IP69K 性能；不能将该额定值移用到混配接头或缺少验证的成品线束。"
+          },
+          "image": "/assets/images/product-categories/stock/amphenol/seals.jpg",
+          "caption": {
+            "en": "NBR O-rings shown as sealing-material examples, not the seals specified for every connector.",
+            "zh": "NBR O 形圈作为密封材料示例，并非所有接头的指定密封件。"
+          }
+        },
+        {
+          "id": "housings",
+          "style": "inset-left",
+          "title": {
+            "en": "Connector Housing Materials",
+            "zh": "连接器壳体材料"
+          },
+          "copy": {
+            "en": "Thermoplastic and metal shells solve different packaging problems. A lightweight polymer housing can integrate latches and colour coding; a metal shell may support a defined shielding and mechanical interface. Neither material is automatically the better choice. Review impact, vibration, temperature, cleaning fluids, UV exposure and panel mounting together. Resin type, reinforcement and flame classification belong to the exact component specification. A UL94 classification for a plastic specimen is not a fire-survival claim for the entire cable assembly. Preserve the manufacturer's approved accessories and installation conditions.",
+            "zh": "热塑性塑料与金属外壳解决不同布置问题。轻质聚合物壳体可集成锁扣与颜色标识，金属壳体则可能承担明确的屏蔽及机械接口功能，两者没有绝对优劣。应共同审核冲击、振动、温度、清洗介质、紫外线和面板安装。树脂、增强材料与阻燃分类属于准确零件规格；塑料试样的 UL94 分类不是整条组件的耐火运行承诺。应保留制造商认可的附件与安装条件。"
+          },
+          "image": "/assets/images/product-categories/stock/amphenol/housings.jpg",
+          "caption": {
+            "en": "Polymer granules: the specified resin grade matters more than appearance.",
+            "zh": "聚合物粒料：指定树脂牌号比外观更重要。"
+          }
+        },
+        {
+          "id": "termination",
+          "style": "wide",
+          "title": {
+            "en": "Terminals: Conductor Crimp and Insulation Support",
+            "zh": "端子：导体压接与绝缘支撑"
+          },
+          "copy": {
+            "en": "Stamped-and-formed contacts and machined contacts need their own tooling and acceptance instructions. In an open-barrel contact, the conductor crimp establishes the electrical and mechanical joint while a separate support feature may grip the insulation or seal. That support must not be confused with the conductor crimp. A machined contact may use an indentation process and a different locator. Strip length, strand damage, contact position and pull-test requirements are therefore contact-specific. There is no single universal crimp setting for all Amphenol families or wire sizes.",
+            "zh": "冲压成形端子与车制端子需要各自的工装和判定说明。开口端子的导体压接建立电气与机械连接，独立支撑结构可能夹持绝缘或密封件，不能将它与导体压接混为一谈。车制端子则可能采用压痕工艺及不同定位器。因此，剥皮长度、线股损伤、端子位置与拉力要求均应针对具体端子确定，不存在适用于全部 Amphenol 系列和线径的统一压接设置。"
+          },
+          "image": "/assets/images/product-categories/stock/amphenol/termination.jpg",
+          "caption": {
+            "en": "Blade crimp terminals illustrate conductor and terminal matching; each contact needs its own tooling instruction.",
+            "zh": "插片压接端子展示导体与端子的配合；每种接点均需对应工装说明。"
+          }
+        },
+        {
+          "id": "plating",
+          "style": "compact",
+          "title": {
+            "en": "Gold-Plated Contacts: Specify the Finish",
+            "zh": "镀金接点：明确镀层配置"
+          },
+          "copy": {
+            "en": "Contact plating is a controlled material stack, not merely a visible colour. Gold, tin and other finishes must match the selected contact design and mating partner. The approved drawing establishes thickness and underplate where applicable; a catalogue value from one family does not apply to every Amphenol pin. Low-level signals can be sensitive to unstable contact resistance, while power contacts need a thermal review at their actual load. Keep contact finish in the BOM and avoid unapproved mixing during a supply substitution. Mating-cycle capability is also configuration-dependent.",
+            "zh": "接点镀层是受控材料组合，不只是可见颜色。金、锡及其他镀层必须匹配所选端子设计和对插件；厚度及适用底镀层以认可图纸为准，某一系列目录中的数值不能套用到所有 Amphenol 插针。低电平信号可能对接触电阻波动敏感，功率接点则需按实际负载审核温升。物料表应保留镀层配置，缺料替代时避免未经认可的混配；插拔寿命同样取决于具体配置。"
+          },
+          "image": "/assets/images/product-categories/stock/amphenol/plating.jpg",
+          "caption": {
+            "en": "Metal contact surfaces on a pin header; colour alone cannot establish the plating specification.",
+            "zh": "排针金属接触表面；仅凭颜色不能确认镀层规格。"
+          }
+        },
+        {
+          "id": "high-voltage",
+          "style": "feature-left",
+          "title": {
+            "en": "High-Voltage Connector Harnesses",
+            "zh": "高压连接器线束"
+          },
+          "copy": {
+            "en": "A high-voltage connection can combine power contacts, touch protection, shielding and an interlock circuit, depending on the selected series. HVIL reports a connection state to the equipment's control system; it does not independently make every exposed conductor safe. The project must define voltage, current, creepage and clearance, shield termination, cable retention and the isolation procedure. High-voltage cable assemblies enter engineering and process review before a supply commitment. Any dielectric or insulation-resistance test must use approved limits and account for fitted electronics, rather than applying an arbitrary test voltage to every assembly.",
+            "zh": "高压连接可依据所选系列组合功率接点、触碰防护、屏蔽及互锁回路。HVIL 将连接状态传给设备控制系统，并不会独立保证所有暴露导体安全。项目必须定义电压、电流、爬电与电气间隙、屏蔽端接、电缆保持及隔离程序。高压组件在承诺供货前进入工程与工艺审核；耐压或绝缘电阻试验须采用认可限值，并考虑已装电子元件，不能对所有组件任意施加同一种试验电压。"
+          },
+          "image": "/assets/images/product-categories/stock/amphenol/high-voltage.jpg",
+          "caption": {
+            "en": "Battery-pack warning labels highlight the need for defined high-voltage handling and validation.",
+            "zh": "电池包警示标识提示高压操作及验证必须明确。"
+          }
+        },
+        {
+          "id": "automotive-crossref",
+          "style": "inset-right",
+          "title": {
+            "en": "Automotive Interfaces and Deutsch Cross-References",
+            "zh": "汽车接口与 Deutsch 对照"
+          },
+          "copy": {
+            "en": "AT, ATM, ATP and AHD are distinct Amphenol Sine product families. Cross-reference information can help identify a candidate, but approval needs the exact original and proposed part numbers, including suffixes. Check keying, seal range, contact system, accessories and mating dimensions. ATM uses a smaller contact system than AT or ATP; the names are not synonyms. A diagnostic AHD connector also needs the agreed vehicle pin map and mechanical coding. Treat a cross-reference as the beginning of a comparison, not proof that every colour, cavity count or special variant is interchangeable.",
+            "zh": "AT、ATM、ATP 与 AHD 是 Amphenol Sine 的不同产品系列。对照资料有助于筛选候选件，但认可必须依据原件及拟替代件的准确料号，包括后缀，并检查键位、线封范围、接点系统、附件和对插尺寸。ATM 使用比 AT 或 ATP 更小的接点系统，名称不能互换。AHD 诊断接口还需要约定车辆针脚表与机械编码。对照关系只是比较起点，不证明所有颜色、孔位和特殊变体都可互换。"
+          },
+          "image": "/assets/images/product-categories/stock/amphenol/automotive-crossref.jpg",
+          "caption": {
+            "en": "A vehicle ECU and its interface: confirm the equipment reference, not only connector appearance.",
+            "zh": "车辆 ECU 及其接口：确认设备料号，不只比较接头外观。"
+          }
+        },
+        {
+          "id": "telecom-connectors",
+          "style": "wide",
+          "title": {
+            "en": "Telecom Connectors and Cable Architecture",
+            "zh": "通信连接器与电缆架构"
+          },
+          "copy": {
+            "en": "The expression 'Amphenol cable' can refer to very different products: a multipair telecom loom, an RF coaxial assembly or a high-speed copper interconnect. Clarify the interface and signal standard before discussing length. A 25-pair telecom lead needs pair mapping and termination identification; a coaxial channel needs the impedance and connector/cable combination; a high-speed link needs the defined channel and performance limits. Physical continuity cannot establish bandwidth, return loss or crosstalk. Fibre-optic and advanced high-speed work require a separate capability and measurement review rather than a generic harness quotation.",
+            "zh": "“Amphenol 电缆”可能指差异很大的产品：多对通信线束、RF 同轴组件或高速铜互连。讨论长度前，应先明确接口及信号标准。25 对通信线需要线对映射和端接标识，同轴通道需要阻抗及连接器与电缆组合，高速链路则需要定义通道和性能限值。物理导通不能证明带宽、回波损耗或串扰表现。光纤及先进高速项目需单独审核能力和测量条件，不能直接按普通线束报价。"
+          },
+          "image": "/assets/images/product-categories/stock/amphenol/telecom-connectors.jpg",
+          "caption": {
+            "en": "An Amphenol RF antenna assembly; communication links differ from ordinary continuity circuits.",
+            "zh": "Amphenol 射频天线组件；通信链路不同于普通导通回路。"
+          }
+        },
+        {
+          "id": "compliance",
+          "style": "process",
+          "title": {
+            "en": "Secure, Compliant and Documented",
+            "zh": "安全、合规与证据文件"
+          },
+          "copy": {
+            "en": "Component approvals, factory quality systems and finished-assembly acceptance are separate subjects. Specify which standards and revisions apply to the order, which documents must accompany it and which tests need a dedicated plan. RoHS or REACH declarations are not electrical test reports. IPC/WHMA-A-620 addresses cable and harness workmanship where contractually adopted; it does not automatically qualify a harness for a vehicle, aircraft or space mission. Super Smile confirms the available records for the approved BOM and manufacturing scope. Brand names and reference standards on this page do not imply authorization or certification.",
+            "zh": "零件认可、工厂质量体系与成品验收属于不同事项。订单应规定适用标准及版本、随货文件和需要专项计划的试验。RoHS 或 REACH 声明不是电气测试报告。合同采用 IPC/WHMA-A-620 时，它用于线缆及线束工艺验收，不会自动使线束具备车辆、航空或航天项目资格。超斯迈尔按认可物料表及制造范围确认可提供记录，本页出现品牌和参考标准不代表授权或认证。"
+          },
+          "image": "/assets/images/product-categories/stock/amphenol/compliance.jpg",
+          "caption": {
+            "en": "Dimensional inspection is one part of the agreed acceptance plan, not proof of every qualification.",
+            "zh": "尺寸检验属于约定验收项目之一，不能证明所有鉴定要求。"
+          }
+        },
+        {
+          "id": "vehicle-industry",
+          "style": "compact",
+          "title": {
+            "en": "Industries: Automotive and EV",
+            "zh": "行业应用：汽车与电动车"
+          },
+          "copy": {
+            "en": "Vehicle assemblies may serve body controls, sensors, charging auxiliaries, thermal management or high-voltage power. These circuits have different electrical and safety boundaries even when they occupy the same compartment. Capture the mating device, trim or platform version, local heat, fluid exposure and attachment points. The installed route must allow service without loading terminals or bypassing protective features. A prototype should be reviewed on the target equipment, including moving parts and access for locking. Safety-related and high-voltage circuits remain subject to the customer's approved design and qualification process.",
+            "zh": "车辆组件可服务车身控制、传感器、充电辅助、热管理或高压供电。即使位于同一舱室，这些回路的电气与安全边界也不同。应记录对插设备、配置或平台版本、局部热量、介质暴露及固定点。安装路线需允许检修，同时不向端子施加载荷或绕过防护结构。样品应在目标设备上审核，包含运动部件和锁扣操作空间；安全相关及高压回路仍须遵循客户认可设计与鉴定流程。"
+          },
+          "image": "/assets/images/product-categories/stock/amphenol/vehicle-industry.jpg",
+          "caption": {
+            "en": "An electric delivery truck represents a vehicle installation environment, not a claimed supplied project.",
+            "zh": "电动配送卡车展示车辆应用环境，不代表本公司供货项目。"
+          }
+        },
+        {
+          "id": "aerospace",
+          "style": "feature-right",
+          "title": {
+            "en": "Industries: Aerospace and Defense",
+            "zh": "行业应用：航空与防务"
+          },
+          "copy": {
+            "en": "MIL-DTL-38999 identifies a connector specification family, not an automatic approval for any cable built around a circular shell. A project can require exact shell finish, insert arrangement, contact specification, shielding, identification and material traceability. The drawing may also control routing, lacing and inspection records. We first review the proposed assembly and evidence requirements; regulated or mission-critical work is not offered solely because a commercial connector appears similar. Where an application requires a qualified source or a specific manufacturing approval, that requirement must be resolved before accepting the work.",
+            "zh": "MIL-DTL-38999 指一种连接器规范体系，不会自动认可围绕圆形壳体制作的任何电缆。项目可能要求准确壳体镀层、排列、端子规范、屏蔽、标识及材料追溯，图纸还可能控制布线、绑扎与检验记录。我们先审核拟制组件及证据要求，不因商业接头外观相近就承接受监管或关键任务用途。应用要求合格供方或特定制造认可时，必须在接受任务前解决该条件。"
+          },
+          "image": "/assets/images/product-categories/stock/amphenol/aerospace.jpg",
+          "caption": {
+            "en": "Historical aircraft wiring integration reference from the Convair archive.",
+            "zh": "Convair 档案中的飞机布线集成实拍参考。"
+          }
+        },
+        {
+          "id": "space",
+          "style": "inset-left",
+          "title": {
+            "en": "Industries: Space Applications",
+            "zh": "行业应用：航天应用"
+          },
+          "copy": {
+            "en": "Space hardware adds concerns that ordinary outdoor ratings do not cover: vacuum outgassing, contamination of sensitive surfaces, thermal cycling and radiation exposure. NASA's materials database reports outgassing measurements such as total mass loss and collected volatile condensable material; it is a material-selection resource, not approval of a complete harness. Adhesives, sleeves, marking materials and potting can matter as much as the wire insulation. Space-related enquiries require a project-specific qualification and sourcing review. No flight heritage or space manufacturing qualification is implied by the examples discussed here.",
+            "zh": "航天硬件还涉及一般户外等级未覆盖的问题：真空放气、敏感表面污染、热循环与辐射暴露。NASA 材料数据库提供总质量损失和可凝结挥发物等放气测量，是材料选择资源，不是整条线束的认可。胶黏剂、套管、标识材料与灌封材料可能和线材绝缘同样重要。航天相关需求必须进行专项鉴定及采购审核，本页示例不表示本公司拥有飞行履历或航天制造资质。"
+          },
+          "image": "/assets/images/product-categories/stock/amphenol/space.jpg",
+          "caption": {
+            "en": "NPP satellite in a cleanroom: cleanliness and qualification are mission-specific.",
+            "zh": "洁净室中的 NPP 卫星：清洁度与鉴定要求取决于任务。"
+          }
+        },
+        {
+          "id": "data-industry",
+          "style": "wide",
+          "title": {
+            "en": "Industries: Telecom and Data",
+            "zh": "行业应用：通信与数据"
+          },
+          "copy": {
+            "en": "Equipment rooms and outdoor cabinets can need power distribution, copper data links, coaxial feeders and optical connections in the same system. Preserve the distinction between those channels. Cable routing, bend limits, shielding and connector cleanliness affect different performance measures. Amphenol's high-speed catalogue includes specialized cable architectures that cannot be replicated by simply changing plugs on general-purpose wire. For a project enquiry, provide the interface standard, channel length, topology and required test evidence. We identify which assembly operations are within scope and which need specialist supply or validation.",
+            "zh": "机房与户外机柜可能在同一系统内使用配电、铜数据链路、同轴馈线及光纤连接，应保持这些通道的区别。布线路径、弯曲限制、屏蔽与接口清洁影响不同性能指标。Amphenol 高速目录中的专用电缆架构，不能靠给普通线材更换插头来复制。项目询价应提供接口标准、通道长度、拓扑及所需测试证据；我们明确哪些装配操作在范围内，哪些需要专业采购或验证。"
+          },
+          "image": "/assets/images/product-categories/stock/amphenol/data-industry.jpg",
+          "caption": {
+            "en": "A network equipment rack with different cable routes and interfaces.",
+            "zh": "网络设备机架中的不同电缆路径及接口。"
+          }
+        },
+        {
+          "id": "robotics",
+          "style": "feature-left",
+          "title": {
+            "en": "Industries: Industrial Equipment and Robotics",
+            "zh": "行业应用：工业设备与机器人"
+          },
+          "copy": {
+            "en": "An industrial harness can connect a stationary controller to moving sensors, valves, drives or an end effector. Separate fixed routing from repeated bending and torsion before selecting cable construction. Protect the connector from becoming the mechanical stop at the end of travel. Coolant, welding debris and cleaning chemicals require their own exposure review. On-machine circular connectors can make maintenance more modular, but an accessible coupling and a replaceable branch must be planned into the equipment. Movement life belongs to the tested cable-and-installation combination, not to the connector brand alone.",
+            "zh": "工业线束可连接固定控制器与运动传感器、阀组、驱动器或末端执行器。选择电缆结构前，应区分固定布线、反复弯曲与扭转，避免接头成为行程终点的机械限位。冷却液、焊接碎屑和清洗介质需分别审核。机载圆形接口有助于模块化维护，但可操作锁环与可更换分支必须在设备内提前规划。运动寿命属于经过试验的电缆与安装组合，不只取决于连接器品牌。"
+          },
+          "image": "/assets/images/product-categories/stock/amphenol/robotics.jpg",
+          "caption": {
+            "en": "A welding robot installation illustrates motion, heat and cable-support constraints.",
+            "zh": "焊接机器人现场展示运动、热环境及电缆支撑约束。"
+          }
+        },
+        {
+          "id": "renewables",
+          "style": "compact",
+          "title": {
+            "en": "Industries: Renewable Energy",
+            "zh": "行业应用：可再生能源"
+          },
+          "copy": {
+            "en": "Solar, storage and wind equipment combine long service intervals with different electrical environments. A photovoltaic string connector, a battery-rack power link and a turbine control harness are not interchangeable products. Review voltage, loading, temperature rise, UV exposure, water paths and maintenance access for the actual circuit. Preserve approved mating pairs and cable dimensions, particularly where a connector's seal depends on cable diameter. We can review defined power and control assemblies; field installation and system-level electrical protection remain part of the equipment's engineering and approval process.",
+            "zh": "光伏、储能与风电设备具有较长维护间隔，但电气环境不同。光伏组串接头、电池柜供电连接与风机控制线束不是可互换产品。应针对实际回路审核电压、负载、温升、紫外线、水分路径及检修空间，保留认可对插组合和电缆尺寸，尤其是密封依赖电缆外径时。我们可审核明确的供电与控制组件；现场安装及系统电气保护仍属于设备工程与认可流程。"
+          },
+          "image": "/assets/images/product-categories/stock/amphenol/renewables.jpg",
+          "caption": {
+            "en": "Solar-farm installation: equipment layout and outdoor exposure shape the connection specification.",
+            "zh": "光伏场站安装现场：设备布局及户外暴露影响连接规格。"
+          }
+        },
+        {
+          "id": "hybrid",
+          "style": "wide",
+          "title": {
+            "en": "Consolidating Hybrid Power and Signal",
+            "zh": "整合混合供电与信号"
+          },
+          "copy": {
+            "en": "A hybrid insert places defined power and signal contacts in one housing. Families such as ecomate C16 offer mixed arrangements, but the exact insert determines the supported circuits. Combining functions can reduce separate connection points and simplify a modular machine interface; it also concentrates more requirements in one assembly. Allocate each contact by function, then review voltage separation, current loading, shielding and the consequences of a shared disconnect. A power contact and a low-level signal contact need different cable and termination choices. Preserve pair geometry where required and document how shields are connected to the shell or equipment. Built-in shielding is not a promise of zero interference. Mechanical routing, return paths and the equipment's EMC design still matter. Compare the combined layout with separate connectors for installation time, service access and replacement cost. Any weight or time saving should be measured against the actual alternative, not quoted as a universal percentage.",
+            "zh": "混合绝缘体在一个壳体内布置明确的供电与信号接点。ecomate C16 等系列提供混合排列，但具体可承载回路由准确绝缘体配置决定。功能合并可能减少独立连接点，简化模块化机器接口，同时也将更多要求集中到一条组件。应先按功能分配接点，再审核电压隔离、电流负载、屏蔽及共同断开带来的影响。功率接点和低电平信号接点需要不同线材及端接选择，必要时保留线对几何关系，并记录屏蔽如何连接壳体或设备。内置屏蔽不等于零干扰，机械布线、回流路径与设备 EMC 设计仍然重要。应将合并方案与分离接头比较，考虑安装工时、维修空间和替换成本；减重或节时收益需对实际方案测量，不能引用统一百分比。"
+          },
+          "image": "/assets/images/product-categories/stock/amphenol/hybrid.jpg",
+          "caption": {
+            "en": "An escalator control cabinet shows power and control circuits sharing equipment space, not a specific hybrid connector.",
+            "zh": "扶梯控制柜展示动力与控制回路共处设备空间，并非特定混合接头。"
+          }
+        },
+        {
+          "id": "heat-jacket",
+          "style": "feature-right",
+          "title": {
+            "en": "Jackets: High Temperature, XLPE and Silicone",
+            "zh": "护套：高温、XLPE 与硅胶"
+          },
+          "copy": {
+            "en": "The hottest point is often local: near an exhaust, heater, power contact or tightly packed cable group. Review the conductor's operating temperature and the surrounding equipment separately. XLPE and silicone constructions are available for elevated-temperature duties, but their ratings depend on the complete cable specification. Insulation, jacket, connector seal and sleeve may have different limits. A heat-resistant jacket cannot compensate for an overloaded contact or a route touching a hot surface. Define continuous exposure, short excursions and abrasion protection before selecting the material.",
+            "zh": "最热点往往是局部位置，例如排气附近、加热器旁、功率接点或密集电缆组内。应分别审核导体工作温度与周边设备温度。XLPE 和硅胶结构可用于相应高温工况，但额定值取决于完整线材规格。绝缘、外护套、接头密封与套管可能有不同限制，耐热护套不能补偿接点过载或直接接触高温表面的路线。选材前应定义持续暴露、短时温升及磨损防护。"
+          },
+          "image": "/assets/images/product-categories/stock/amphenol/heat-jacket.jpg",
+          "caption": {
+            "en": "An exhaust heat shield illustrates why local radiant heat must be reviewed separately from ambient temperature.",
+            "zh": "排气隔热罩说明局部辐射热应与环境温度分别审核。"
+          }
+        },
+        {
+          "id": "chemical-jacket",
+          "style": "inset-left",
+          "title": {
+            "en": "Jackets: PTFE, FEP and Chemical Exposure",
+            "zh": "护套：PTFE、FEP 与化学暴露"
+          },
+          "copy": {
+            "en": "PTFE and FEP are fluoropolymer options used in demanding cable constructions, but 'chemical resistant' is not a complete specification. Name the chemical, concentration, temperature and duration, and distinguish occasional splashes from immersion. The jacket, core insulation, printing, adhesive and connector seal can respond differently to the same fluid. A material selected for excellent chemical behaviour may need additional mechanical protection or different termination processing. Compare the cable manufacturer's resistance information with the actual exposure; do not infer compatibility from the polymer abbreviation alone.",
+            "zh": "PTFE 与 FEP 是严苛电缆结构中使用的氟聚合物选项，但“耐化学”不是完整规格。应说明介质、浓度、温度和时间，区分偶发飞溅与浸泡。同一种介质对护套、芯线绝缘、印字、胶黏剂及接头密封的影响可能不同。化学表现优良的材料可能仍需额外机械防护或不同端接工艺。应将制造商耐介质资料与实际暴露对照，不能只根据聚合物缩写判断相容性。"
+          },
+          "image": "/assets/images/product-categories/stock/amphenol/chemical-jacket.jpg",
+          "caption": {
+            "en": "PTFE-backed tapes as a fluoropolymer material example, not a specified cable jacket.",
+            "zh": "PTFE 背材胶带作为氟聚合物材料示例，并非指定电缆护套。"
+          }
+        },
+        {
+          "id": "uv-jacket",
+          "style": "compact",
+          "title": {
+            "en": "Jackets: UV and Outdoor Weathering",
+            "zh": "护套：紫外线与户外老化"
+          },
+          "copy": {
+            "en": "Outdoor exposure combines sunlight, moisture, temperature cycling and mechanical movement. Black colour by itself does not establish UV resistance, and an indoor flame-retardant cable is not automatically suitable outside. Specify a cable grade with the required weathering evidence and review markings, boots and ties as part of the same installation. Avoid layouts that hold water at cable entries or abrade the jacket against a bracket. Protective conduit can help with mechanical exposure, but it does not remove the need to consider heat build-up and drainage.",
+            "zh": "户外暴露同时包含日晒、水分、温度循环与机械运动。黑色本身不能证明耐紫外线，室内阻燃线也不自动适合户外。应选用具有所需耐候证据的线材牌号，并将标识、护套靴和扎带作为同一安装系统审核。避免在电缆入口积水，或让护套与支架持续摩擦。保护管有助于机械防护，但仍需考虑内部积热与排水。"
+          },
+          "image": "/assets/images/product-categories/stock/amphenol/uv-jacket.jpg",
+          "caption": {
+            "en": "An accelerated UV-weathering chamber used to evaluate sunlight and moisture exposure.",
+            "zh": "用于评估日照与湿气暴露的紫外加速老化试验箱。"
+          }
+        },
+        {
+          "id": "lszh",
+          "style": "wide",
+          "title": {
+            "en": "Jackets: Low Smoke and Halogen-Free Requirements",
+            "zh": "护套：低烟与无卤要求"
+          },
+          "copy": {
+            "en": "Low smoke, halogen content and flame propagation describe different properties and may require different test methods. IEC 61034 addresses smoke-density measurement under defined burning conditions; a result there is not a complete fire-performance classification. An LSZH or LSOH designation must be tied to the specified cable and supporting documentation. It does not mean the cable is fireproof, emits no harmful gases or keeps a circuit operating during a fire. Where such behaviour matters, identify the installation standard, test scope and acceptance evidence before choosing the jacket and other assembly materials.",
+            "zh": "低烟、卤素含量和火焰蔓延描述不同性质，可能需要不同试验方法。IEC 61034 涉及规定燃烧条件下的烟密度测量，该结果不是完整防火性能分类。LSZH 或 LSOH 标识必须关联指定线材及支持文件，并不意味着电缆不燃、完全不产生有害气体或火中仍能维持回路。需要相关表现时，应先明确安装标准、试验范围与验收证据，再选择护套及其他组件材料。"
+          },
+          "image": "/assets/images/product-categories/stock/amphenol/lszh.jpg",
+          "caption": {
+            "en": "A cable-tray fire test illustrates fire exposure; it is not evidence of this assembly's LSZH performance.",
+            "zh": "电缆桥架燃烧试验展示火灾暴露，并非本组件低烟无卤性能的证据。"
+          }
+        },
+        {
+          "id": "cold-jacket",
+          "style": "feature-left",
+          "title": {
+            "en": "Jackets: Flexibility in Cold Weather",
+            "zh": "护套：低温柔韧性"
+          },
+          "copy": {
+            "en": "Storage temperature, fixed-installation temperature and permitted movement temperature can be different. A cable that survives a cold night while stationary may be damaged if bent immediately at that temperature. Review the actual grade's minimum installation and moving limits, not just its lowest published number. Cable stiffness also changes the force applied to an entry seal or clamp. Provide the start-up temperature, motion profile and bend radius for refrigerated equipment or outdoor winter service. TPE and other low-temperature constructions must be assessed as complete cables, not selected by material name alone.",
+            "zh": "储存温度、固定安装温度与允许运动温度可能不同。线材静止度过寒冷夜晚后，如果立即在相同温度弯折，仍可能受损。应审核准确牌号的最低安装和运动限制，而不只看资料中的最低数值。刚度变化还会改变入口密封或夹具承受的力。冷库设备及冬季户外项目应提供启动温度、运动方式与弯曲半径；TPE 等低温结构需按完整电缆评估，不能只凭材料名选择。"
+          },
+          "image": "/assets/images/product-categories/stock/amphenol/cold-jacket.jpg",
+          "caption": {
+            "en": "Snow-covered surroundings illustrate outdoor cold-weather installation conditions.",
+            "zh": "积雪环境展示户外低温安装工况。"
+          }
+        },
+        {
+          "id": "flex-jacket",
+          "style": "inset-right",
+          "title": {
+            "en": "Jackets: High-Flex and Robotic Motion",
+            "zh": "护套：高柔性与机器人运动"
+          },
+          "copy": {
+            "en": "A flexible jacket does not by itself create a continuous-flex cable. Stranding, conductor lay, fillers, shield construction and the jacket work together. Repeated linear bending and torsion impose different loads, so a drag-chain cable should not automatically be assigned to a rotating robot joint. Use the cable's specified bend factor with its actual outer diameter, and review travel, acceleration and the support arrangement. Keep termination transitions outside uncontrolled bending where possible. Any cycle-life statement must include the relevant test conditions and installation limits.",
+            "zh": "柔软护套本身不能造就连续弯曲电缆。绞股、芯线节距、填充、屏蔽结构与护套共同作用；反复直线弯曲和扭转施加载荷不同，拖链电缆不能自动用于旋转机器人关节。应将规定弯曲倍数与实际外径结合，并审核行程、加速度及支撑布置，尽可能让端接过渡处避开不受控弯曲。任何循环寿命说明都应包含相关试验条件和安装限制。"
+          },
+          "image": "/assets/images/product-categories/stock/amphenol/flex-jacket.jpg",
+          "caption": {
+            "en": "A cable carrier guides repeated movement; bend radius and cable construction remain separate checks.",
+            "zh": "拖链引导重复运动；弯曲半径与电缆结构仍需分别确认。"
+          }
+        },
+        {
+          "id": "design-review",
+          "style": "wide",
+          "title": {
+            "en": "Technical Support: Design Review and Parts",
+            "zh": "技术支持：设计审核与零件"
+          },
+          "copy": {
+            "en": "Start with the mating references and electrical schematic, then work outward to the installed route. We review cavity assignment, current paths, cable construction, protective accessories and assembly access. A clear bill of materials distinguishes original branded parts from alternatives offered for approval. It also identifies items that are not supplied with the housing, such as contacts or backshell accessories. Open questions are resolved before tooling or material commitments. The review's scope and any associated engineering work are agreed for the project rather than advertised as an unlimited free service.",
+            "zh": "从对插料号和电气图开始，再扩展到实际安装路线。我们审核腔位分配、电流路径、电缆结构、防护附件及装配空间。清楚的物料表区分原厂品牌件与供认可的替代件，并列明未随壳体附带的端子、尾壳附件等项目。工装或材料投入前先解决待确认问题；审核范围与相关工程工作按项目约定，不宣传无限范围的免费服务。"
+          },
+          "image": "/assets/images/product-categories/stock/amphenol/design-review.jpg",
+          "caption": {
+            "en": "Coordination on the Super Smile factory floor.",
+            "zh": "超斯迈尔车间现场沟通。"
+          }
+        },
+        {
+          "id": "prototype",
+          "style": "compact",
+          "title": {
+            "en": "Technical Support: Length, Layout and Prototypes",
+            "zh": "技术支持：长度、布局与样品"
+          },
+          "copy": {
+            "en": "Overall length needs a measurement datum: connector face, backshell exit, branch junction or another defined feature. A loose cable laid on a table can give a different result from the installed path. Record branch lengths, breakout angles, labels and connector orientation on the drawing. A first article checks fit, routing and electrical function before repeat production. Timing depends on part availability, tooling, engineering questions and the agreed validation. We confirm a realistic sample plan instead of promising every Amphenol configuration within a fixed number of days.",
+            "zh": "总长必须有测量基准，例如接头端面、尾壳出口、分支点或其他规定特征。松放桌面的电缆与实际安装路径可能得到不同结果。应在图纸记录分支长度、出线角度、标识和接头方向。首件在重复生产前检查装配、布线与电气功能；时间取决于零件可得性、工装、工程问题及约定验证。我们确认实际样品计划，不承诺所有 Amphenol 配置都能在固定天数完成。"
+          },
+          "image": "/assets/images/product-categories/stock/amphenol/prototype.jpg",
+          "caption": {
+            "en": "Wire processing at Super Smile; project samples follow the approved drawing and work instructions.",
+            "zh": "超斯迈尔线材加工现场；项目样品依据认可图纸及作业文件制作。"
+          }
+        },
+        {
+          "id": "tooling-test",
+          "style": "feature-right",
+          "title": {
+            "en": "Technical Support: Tooling and Electrical Tests",
+            "zh": "技术支持：工装与电气检查"
+          },
+          "copy": {
+            "en": "The contact's application instruction determines the tool, locator and settings. Process checks and equipment calibration support repeatability, while final inspection checks the agreed assembly. A continuity fixture can verify mapped circuits and detect specified open, short or crossed connections. Insulation resistance, dielectric testing, shield continuity and signal performance are separate requirements with their own methods and limits. Fitted resistors, diodes or electronics can change the permitted test. The quotation and inspection plan should state which checks are included and which need additional equipment or external validation.",
+            "zh": "端子应用说明决定工具、定位器和设置。过程检查及设备校准支持重复一致性，最终检查则针对约定组件。导通治具可核对映射回路并检测规定的断路、短路或错接。绝缘电阻、耐压、屏蔽连续性和信号性能是独立要求，各有方法与限值。已装电阻、二极管或电子元件可能改变允许试验条件。报价与检验计划应写明包含哪些检查，哪些需要附加设备或外部验证。"
+          },
+          "image": "/assets/images/product-categories/stock/amphenol/tooling-test.jpg",
+          "caption": {
+            "en": "Network cable test instruments illustrate channel-specific verification beyond continuity.",
+            "zh": "网络电缆测试仪说明链路验证不止导通检查。"
+          }
+        },
+        {
+          "id": "after-sale",
+          "style": "inset-left",
+          "title": {
+            "en": "Technical Assistance After Delivery",
+            "zh": "交付后的技术支持"
+          },
+          "copy": {
+            "en": "A useful service enquiry identifies the drawing revision, affected batch, mating equipment and observed symptom. Photographs of the installed route, locking features and cable entries can distinguish a geometry problem from an electrical one. Avoid modifying a returned sample before the agreed inspection, because the original condition may be important evidence. If the design changes, update the BOM, drawing and inspection criteria together. The aim is a traceable correction that can be repeated in later production, not an undocumented adjustment made only to one replacement lead.",
+            "zh": "有用的售后反馈应标明图纸版本、涉及批次、对插设备和故障表现。安装路线、锁止结构及电缆入口照片有助于区分几何问题和电气问题。按约定检查前，避免自行改变退回样品，因为原始状态可能是重要证据。设计更改时，应同步更新物料表、图纸和检验标准。目标是可追溯且能用于后续生产的修正，而不只对单条替换线进行无记录调整。"
+          },
+          "image": "/assets/images/product-categories/stock/amphenol/after-sale.jpg",
+          "caption": {
+            "en": "An electrician locating a fault with a multimeter; public maintenance reference.",
+            "zh": "电工使用万用表定位故障，公开维护实拍参考。"
+          }
+        },
+        {
+          "id": "procurement",
+          "style": "process",
+          "title": {
+            "en": "Select the Correct Amphenol Assembly",
+            "zh": "选择准确的 Amphenol 组件"
+          },
+          "copy": {
+            "en": "For an accurate enquiry, provide connector references at both ends, circuit mapping, wire or cable requirements, branch dimensions, installation conditions and quantities. State whether original branded components are mandatory and whether alternatives may be reviewed. Identify required documentation and any special tests before comparing prices. Availability must be checked for the complete set of housings, contacts, seals and accessories. Super Smile offers project-defined cable and harness assembly; this page is not a claim of Amphenol distributorship, universal stock or approval for every regulated application.",
+            "zh": "准确询价请提供两端连接器料号、回路映射、线材要求、分支尺寸、安装条件及数量。明确是否必须使用原厂品牌件，以及是否可以审核替代方案。比较价格前，应说明文件和特殊试验要求。可采购性必须针对完整壳体、端子、密封与附件组合确认。超斯迈尔提供按项目定义的电缆及线束装配，本页不表示 Amphenol 分销授权、全系列现货或全部受监管应用资格。"
+          },
+          "image": "/assets/images/product-categories/stock/amphenol/procurement.jpg",
+          "caption": {
+            "en": "Parts protected and documented for storage; archival logistics reference, not company inventory.",
+            "zh": "零件储存时的保护与文件，物流档案参考，并非本公司库存。"
+          }
+        }
+      ],
+      "composition": [
+        {
+          "kind": "single",
+          "items": [
+            0
+          ]
+        },
+        {
+          "kind": "pair",
+          "items": [
+            1,
+            2
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            3
+          ]
+        },
+        {
+          "kind": "pair",
+          "items": [
+            4,
+            5
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            6
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            7
+          ]
+        },
+        {
+          "kind": "pair",
+          "items": [
+            8,
+            9
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            10
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            11
+          ]
+        },
+        {
+          "kind": "pair",
+          "items": [
+            12,
+            13
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            14
+          ]
+        },
+        {
+          "kind": "pair",
+          "items": [
+            15,
+            16
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            17
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            18
+          ]
+        },
+        {
+          "kind": "pair",
+          "items": [
+            19,
+            20
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            21
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            22
+          ]
+        },
+        {
+          "kind": "pair",
+          "items": [
+            23,
+            24
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            25
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            26
+          ]
+        },
+        {
+          "kind": "pair",
+          "items": [
+            27,
+            28
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            29
+          ]
+        }
+      ],
+      "guide": [
+        {
+          "index": 0,
+          "label": {
+            "en": "Connector families",
+            "zh": "连接系列"
+          }
+        },
+        {
+          "index": 3,
+          "label": {
+            "en": "Materials",
+            "zh": "材料"
+          }
+        },
+        {
+          "index": 12,
+          "label": {
+            "en": "Applications",
+            "zh": "应用"
+          }
+        },
+        {
+          "index": 19,
+          "label": {
+            "en": "Cable jackets",
+            "zh": "电缆护套"
+          }
+        },
+        {
+          "index": 25,
+          "label": {
+            "en": "Project support",
+            "zh": "项目支持"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "en": "Are all Amphenol circular connectors interchangeable?",
+            "zh": "所有 Amphenol 圆形接头都能互换吗？"
+          },
+          "a": {
+            "en": "No. Match the complete series, shell and insert arrangement, contact system, keying and accessories using the approved mating references.",
+            "zh": "不能。应依据认可对插料号，匹配完整系列、壳体与排列、接点系统、键位及附件。"
+          }
+        },
+        {
+          "q": {
+            "en": "Does a connector rating establish the finished harness rating?",
+            "zh": "接头额定值等于成品线束额定值吗？"
+          },
+          "a": {
+            "en": "No. Cable construction, seals, termination, installation and test conditions must also be reviewed. Project evidence determines what may be claimed for the assembly.",
+            "zh": "不等于。还需审核电缆结构、密封、端接、安装与试验条件，成品可宣称性能由项目证据确定。"
+          }
+        },
+        {
+          "q": {
+            "en": "Can one enquiry cover power, signal and hybrid options?",
+            "zh": "能否在同一询价中比较供电、信号及混合方案？"
+          },
+          "a": {
+            "en": "Yes. Provide circuit requirements and the installation layout so the options can be compared on a complete BOM, routing and validation basis.",
+            "zh": "可以。请提供回路要求与安装布局，以便基于完整物料表、布线及验证范围比较方案。"
+          }
+        },
+        {
+          "q": {
+            "en": "What determines lead time and documentation?",
+            "zh": "交期与文件范围由什么决定？"
+          },
+          "a": {
+            "en": "The approved BOM, component availability, tooling, engineering questions, quantities and test plan. These are confirmed for the order rather than promised universally.",
+            "zh": "由认可物料表、零件可得性、工装、工程问题、数量及试验计划决定，应按订单确认，而非统一承诺。"
+          }
+        }
+      ],
+      "creditHeading": {
+        "en": "Image sources and usage notes",
+        "zh": "图片来源与使用说明"
+      },
+      "hasAiImages": false,
+      "hasOwnImages": true,
+      "mediaCredits": [
+        {
+          "file": "_MG_6432.jpg",
+          "url": "https://supersmile-tech.com/about.html",
+          "author": "Super Smile",
+          "license": "Company-owned photograph"
+        },
+        {
+          "file": "Amphenol connectors uninstalled and installed.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amphenol_connectors_uninstalled_and_installed.jpg",
+          "author": "No machine-readable author provided. W0lfie assumed (based on copyright claims).",
+          "license": "Public domain",
+          "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain"
+        },
+        {
+          "file": "Amphenol connector for Elinchrom flash.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Amphenol_connector_for_Elinchrom_flash.jpg",
+          "author": "ClickRick",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "World’s 1st Low-Emission Hybrid Battery Storage, Gas Turbine Peaker System.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:World%E2%80%99s_1st_Low-Emission_Hybrid_Battery_Storage,_Gas_Turbine_Peaker_System.jpg",
+          "author": "Ysc usc",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "file": "9 pin amphenol connector.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:9_pin_amphenol_connector.JPG",
+          "author": "Ritchie333",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Flexible cable spools in warehouse.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Flexible_cable_spools_in_warehouse.jpg",
+          "author": "Santeri Viinamäki",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "1990s 29 2 x 3 mm 70 Shore acrylonitrile butadiene rubber O rings from Teknikprodukter i Bankeryd AB Bankeryd Sweden view 1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:1990s_29_2_x_3_mm_70_Shore_acrylonitrile_butadiene_rubber_O_rings_from_Teknikprodukter_i_Bankeryd_AB_Bankeryd_Sweden_view_1.jpg",
+          "author": "R. Henrik Nilsson",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "file": "Plastic pellets.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Plastic_pellets.jpg",
+          "author": "SuSanA Secretariat",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Blue and yellow blade crimp terminals - B.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Blue_and_yellow_blade_crimp_terminals_-_B.jpg",
+          "author": "Fructibus",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        },
+        {
+          "file": "36 Pin Header.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:36_Pin_Header.jpg",
+          "author": "oomlout",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        },
+        {
+          "file": "Tesla Roadster Sport warning labels.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Tesla_Roadster_Sport_warning_labels.jpg",
+          "author": "Norio Nakayama",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        },
+        {
+          "file": "JECS GA16DE ECU.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:JECS_GA16DE_ECU.jpg",
+          "author": "RB30DE at English Wikipedia",
+          "license": "Public domain",
+          "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain"
+        },
+        {
+          "file": "Wi-Fi Antenna by Amphenol-9712.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Wi-Fi_Antenna_by_Amphenol-9712.jpg",
+          "author": "Raimond Spekking",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "TESA CCMA-P 150 mm 0.02 mm dial caliper.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:TESA_CCMA-P_150_mm_0.02_mm_dial_caliper.jpg",
+          "author": "Lucasbosch",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Toll's Electric Vehicle (13616177184).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Toll%27s_Electric_Vehicle_(13616177184).jpg",
+          "author": "Toll Group",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "23 0060047 Convair Negative Image - Aircraft component in production - wiring closeup (54035895585).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:23_0060047_Convair_Negative_Image_-_Aircraft_component_in_production_-_wiring_closeup_(54035895585).jpg",
+          "author": "San Diego Air & Space Museum Archives",
+          "license": "Public domain",
+          "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain"
+        },
+        {
+          "file": "NPP satellite in cleanroom.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:NPP_satellite_in_cleanroom.jpg",
+          "author": "NASA/GSFC",
+          "license": "Public domain",
+          "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain"
+        },
+        {
+          "file": "RIT CSH - Network Rack (183803274).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:RIT_CSH_-_Network_Rack_(183803274).jpg",
+          "author": "Jon Parise",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        },
+        {
+          "file": "Welding robot system 002.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Welding_robot_system_002.jpg",
+          "author": "KOMATSU Ltd.",
+          "license": "CC BY-SA 2.1 jp",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en"
+        },
+        {
+          "file": "Topaz Solar Farm, maintenance of a huge solar farm with 5 million solar panels (1712).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Topaz_Solar_Farm,_maintenance_of_a_huge_solar_farm_with_5_million_solar_panels_(1712).jpg",
+          "author": "Sarah Swenty / USFWS",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Escalator electronics, Schrack WSMX17601, control cabinet in drive station.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Escalator_electronics,_Schrack_WSMX17601,_control_cabinet_in_drive_station.jpg",
+          "author": "Alexis Jazz",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "file": "Ford Focus-exhaust heat shield-01ASD.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Ford_Focus-exhaust_heat_shield-01ASD.jpg",
+          "author": "Asurnipal",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "PTFE tapes with pressure-sensitive adhesive backing, rolls of 15 and 25 mm widths.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:PTFE_tapes_with_pressure-sensitive_adhesive_backing,_rolls_of_15_and_25_mm_widths.jpg",
+          "author": "Dsimic",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "UV degradation test chamber.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:UV_degradation_test_chamber.jpg",
+          "author": "Cjp24",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Cable tray fire sweden.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cable_tray_fire_sweden.jpg",
+          "author": "Achim Hering",
+          "license": "Public domain",
+          "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain"
+        },
+        {
+          "file": "Solar panels in the snow (9250).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Solar_panels_in_the_snow_(9250).jpg",
+          "author": "Stephen Yang / The Solutions Project",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Cable drag chain-with-pencil-1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cable_drag_chain-with-pencil-1.jpg",
+          "author": "Silberwolf",
+          "license": "CC BY-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+        },
+        {
+          "file": "_MG_6449.jpg",
+          "url": "https://supersmile-tech.com/about.html",
+          "author": "Super Smile",
+          "license": "Company-owned photograph"
+        },
+        {
+          "file": "_MG_6467.jpg",
+          "url": "https://supersmile-tech.com/about.html",
+          "author": "Super Smile",
+          "license": "Company-owned photograph"
+        },
+        {
+          "file": "Cable-tester-and-analyzer-0c.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cable-tester-and-analyzer-0c.jpg",
+          "author": "Adamantios",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "US Navy 050315-N-3390M-278 Electrician's Mate 3rd Class Michael Vanderwalt, troubleshoots a fuse box with a multimeter aboard the guided missile frigate USS Ingraham (FFG 61).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:US_Navy_050315-N-3390M-278_Electrician%27s_Mate_3rd_Class_Michael_Vanderwalt,_troubleshoots_a_fuse_box_with_a_multimeter_aboard_the_guided_missile_frigate_USS_Ingraham_(FFG_61).jpg",
+          "author": "U.S. Navy photo by Photographer’s Mate 3rd Class Douglas G. Morrison",
+          "license": "Public domain",
+          "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain"
+        },
+        {
+          "file": "23 0073147 Convair Negative Image - Components and parts storage area (54267309117).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:23_0073147_Convair_Negative_Image_-_Components_and_parts_storage_area_(54267309117).jpg",
+          "author": "San Diego Air & Space Museum Archives",
+          "license": "Public domain",
+          "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain"
+        }
+      ]
+    }
+  },
   "connector-systems-05": {
     "title": {
       "en": "Aptiv / Delphi Compatible Harnesses",
