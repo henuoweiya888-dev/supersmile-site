@@ -100,6 +100,28 @@ body[data-category-layout="technical-editorial"] .pcc-hero-media img{filter:satu
 .te-theme-interconnect-fieldnotes #technical-topic-11{grid-template-columns:220px minmax(0,1fr);padding-left:0;padding-right:var(--te-gutter)}.te-theme-interconnect-fieldnotes #technical-topic-11 .te-photo{grid-column:1}.te-theme-interconnect-fieldnotes #technical-topic-11 .te-copy{grid-column:2}
 .te-theme-interconnect-fieldnotes #technical-topic-12{grid-template-columns:minmax(0,1fr) 185px}.te-theme-interconnect-fieldnotes #technical-topic-12 .te-photo img{object-fit:contain;background:#e8e5d9}
 .te-theme-interconnect-fieldnotes #technical-topic-13{grid-template-columns:155px minmax(0,1fr)}.te-theme-interconnect-fieldnotes #technical-topic-13 .te-photo img{object-fit:contain;height:160px}
+/* Precision connections: measured margins, small hardware details and denser application spreads. */
+.te-theme-precision-connections{--te-tint:#e0e5e7;--te-accent:#9a4932;--te-muted:#465258}
+.te-theme-precision-connections .te-opening{grid-template-columns:minmax(0,1fr) 185px;gap:26px;background:#e9e8e1}
+.te-theme-precision-connections .te-opening .te-photo img{height:165px;object-fit:contain}
+.te-theme-precision-connections .te-index{margin-bottom:4px}
+.te-theme-precision-connections #technical-topic-0{grid-template-columns:minmax(0,1fr) 235px;background:#e0e5e7}
+.te-theme-precision-connections #technical-topic-0 .te-photo img{height:180px;object-fit:contain;background:#f0f0ea}
+.te-theme-precision-connections .te-pair{background:#eeece5}
+.te-theme-precision-connections .te-pair .te-photo{width:150px;margin-top:30px}
+.te-theme-precision-connections .te-pair .te-photo img{height:145px;object-fit:cover}
+.te-theme-precision-connections #technical-topic-1 .te-photo img,.te-theme-precision-connections #technical-topic-2 .te-photo img{object-fit:contain;background:#e9e9e2}
+.te-theme-precision-connections #technical-topic-3{grid-template-columns:180px minmax(0,1fr);gap:28px}
+.te-theme-precision-connections #technical-topic-3 .te-photo img{height:175px}
+.te-theme-precision-connections #technical-topic-4{grid-template-columns:minmax(0,1fr) 225px;background:#eceae3}
+.te-theme-precision-connections #technical-topic-5{grid-template-columns:minmax(0,1fr) 195px;background:#f1efe9}
+.te-theme-precision-connections #technical-topic-8{grid-template-columns:155px minmax(0,1fr);gap:28px}
+.te-theme-precision-connections #technical-topic-8 .te-photo img{height:190px;object-fit:contain;background:#e0e5e7}
+.te-theme-precision-connections #technical-topic-13{grid-template-columns:minmax(0,1fr) 210px;background:#e0e5e7}
+.te-theme-precision-connections #technical-topic-14{grid-template-columns:210px minmax(0,1fr);background:#f1efe9}
+.te-theme-precision-connections #technical-topic-14 .te-photo img{height:170px;object-fit:contain}
+.te-theme-precision-connections #technical-topic-15{grid-template-columns:165px minmax(0,1fr);gap:26px}
+.te-theme-precision-connections #technical-topic-15 .te-photo img{height:160px;object-fit:contain}
 @media(max-width:767px){
  body[data-category-layout="technical-editorial"] .pcc-hero-grid{min-height:0;padding-block:56px 32px}body[data-category-layout="technical-editorial"] .pcc-hero-copy h1{font-size:30px}
  .te-page{--te-gutter:16px}.te-page h2{font-size:21px}.te-page p{font-size:13px;line-height:1.85}
@@ -115,4 +137,5 @@ body[data-category-layout="technical-editorial"] .pcc-hero-media img{filter:satu
  .te-theme-connector-selection #technical-topic-3 .te-photo,.te-theme-connector-selection #technical-topic-7 .te-photo,.te-theme-connector-selection .te-pair .te-photo{width:calc(100% + 32px);margin:16px -16px 0}
  .te-theme-interconnect-fieldnotes .te-opening,.te-theme-interconnect-fieldnotes #technical-topic-3,.te-theme-interconnect-fieldnotes #technical-topic-11{display:flex;padding:23px 16px}
  .te-theme-interconnect-fieldnotes .te-pair .te-photo,.te-theme-interconnect-fieldnotes #technical-topic-10 .te-photo{width:calc(100% + 32px);margin:16px -16px 0}
+ .te-theme-precision-connections .te-pair .te-photo{width:calc(100% + 32px);margin:16px -16px 0}
 }

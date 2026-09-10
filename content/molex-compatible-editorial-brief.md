@@ -1,6 +1,6 @@
 # Molex compatible assemblies
 
-Status: local English/Chinese QA passed at 1280, 390 and 320 px: 14 chapters, four FAQ, all images loaded, fixed header, correct enquiry links, no horizontal overflow or console errors. Desktop and mobile category menus show six groups, 43 active and 40 disabled entries. Sixteen unique licensed real images, no repeated source URLs against earlier category credits. Public release verification pending.
+Status: published in f285142. Public English/Chinese QA passed at 1280 and 390 px: 14 chapters, four FAQ, all images loaded, fixed header, correct enquiry links, no horizontal overflow or console errors. Local QA also passed at 320 px. Desktop and mobile category menus show six groups, 43 active and 40 disabled entries. Sixteen unique licensed real images, no repeated source URLs against earlier category credits.
 
 QL-Custom source outline: https://www.ql-custom.com/molex-connector-introduction.html — introduction, features/applications, backplane, board-to-board, card-edge, FFC/FPC, heavy-duty rectangular, I/O, memory/SIM, coaxial, wire-to-board, wire-to-wire, service scope and FAQ. These topics are retained with original copy; materials and first-article/repeat production are added. No copying of their supplier relationships or pricing promises.
 

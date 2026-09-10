@@ -1,4 +1,653 @@
 {
+  "connector-systems-03": {
+    "intro": {
+      "en": "Custom JST-interface wiring for compact electronics, sensors, equipment and lighting, with series identification, defined pinouts and application-specific materials.",
+      "zh": "面向紧凑电子、传感器、设备与照明的 JST 接口定制配线，明确系列、针脚定义及适用材料。"
+    },
+    "knowledge": {
+      "en": "JST identifies a manufacturer, not a universal plug. PH, XH, SH, GH, SM and JWPF differ in pitch, mating geometry and application limits.",
+      "zh": "JST 是制造商名称，不是通用插头。PH、XH、SH、GH、SM 和 JWPF 的间距、对插几何及应用限制各不相同。"
+    },
+    "notes": {
+      "en": "Send the mating part number, cavity view, circuit list, wire size, lengths, environmental conditions and required verification.",
+      "zh": "请提供对插件型号、腔位视图、回路表、线径、长度、环境条件和所需验证。"
+    },
+    "delivery": {
+      "en": "Review the interface and BOM, confirm the first article, then manufacture and inspect against the approved documents.",
+      "zh": "审核接口及物料，确认首件后按认可文件制造与检验。"
+    },
+    "page": {
+      "layout": "technical-editorial",
+      "theme": "precision-connections",
+      "headings": {
+        "introduction": {
+          "en": "JST Harnesses · Brand and Product Overview",
+          "zh": "JST 线束 · 品牌与产品概览"
+        },
+        "faq": {
+          "en": "JST Harness Questions",
+          "zh": "JST 线束常见问题"
+        }
+      },
+      "subtitle": {
+        "en": "Small interfaces, complete assembly definition",
+        "zh": "小型接口，完整装配定义"
+      },
+      "lead": {
+        "en": "A JST-interface harness can be a single pre-crimped lead, a board connection, an inline extension or a multi-branch equipment assembly. Super Smile can review these configurations from your drawing, approved sample and confirmed mating references. The connector family, wire and circuit definition come before the product nickname. We distinguish specified original parts from any proposed alternative in the approved BOM; brand references do not imply endorsement or authorized distribution. The following guide explains product choices, customization, applications and the evidence needed to release a repeatable assembly.",
+        "zh": "JST 接口线束可以是单根预压接线、板端连接线、直连延长线，也可以是多分支设备组件。超斯迈尔可依据图纸、认可样品及明确对插型号审核这些配置。接头系列、线材与回路定义应先于产品俗称，在认可物料表中区分指定原厂件与任何拟议替代件；品牌引用不代表背书或授权经销。以下介绍产品选择、定制方案、应用，以及实现可重复装配所需的证据。"
+      },
+      "images": {
+        "hero": "/assets/images/product-categories/stock/jst/hero.jpg",
+        "range": "/assets/images/product-categories/stock/jst/range.jpg"
+      },
+      "openingCaption": {
+        "en": "Compact interconnect reference; exact series and circuit order must be confirmed.",
+        "zh": "紧凑互连参考，准确系列与回路顺序需另行确认。"
+      },
+      "chapters": [
+        {
+          "id": "types",
+          "style": "feature-right",
+          "title": {
+            "en": "JST Connector Types",
+            "zh": "JST 连接器类型"
+          },
+          "copy": {
+            "en": "PH uses a 2.0 mm pitch, XH 2.5 mm, SH 1.0 mm, ZH 1.5 mm, GH 1.25 mm and VH 3.96 mm. These are separate systems, not size options for one interchangeable plug. Pitch is the center-to-center distance between adjacent contacts; measure several positions where possible and check the housing drawing. Identify the mating header, terminal, number of circuits and entry direction together. GH has a positive locking arrangement, while other families use different retention structures. A photograph of a white housing alone cannot confirm its manufacturer or series. Supply markings and dimensions before requesting a replacement.",
+            "zh": "PH 间距为 2.0 mm，XH 为 2.5 mm，SH 为 1.0 mm，ZH 为 1.5 mm，GH 为 1.25 mm，VH 为 3.96 mm。它们是不同接口系统，不是同一种通用插头的尺寸选项。间距指相邻接点中心距，建议跨多位测量，并对照胶壳图纸。对插针座、端子、回路数和插入朝向应一起识别。GH 具有明确锁止结构，其他系列采用不同保持方式。仅凭白色胶壳照片无法确认制造商或系列；替换询价前，请提供标记与尺寸。"
+          },
+          "image": "/assets/images/product-categories/stock/jst/types.jpg",
+          "caption": {
+            "en": "XH balance-interface example: verify pitch, cavity count and pin numbering rather than the housing color.",
+            "zh": "XH 平衡接口实例：核对间距、腔位数与针脚编号，不靠胶壳颜色识别。"
+          }
+        },
+        {
+          "id": "docking",
+          "style": "wide",
+          "title": {
+            "en": "Full Product Range · Mating Harnesses",
+            "zh": "产品范围 · 对接线束"
+          },
+          "copy": {
+            "en": "A detachable inline lead needs two compatible cable-side halves, not merely a plug described as male and another described as female. Specify housing gender separately from the pin or socket contact. JST SM is a 2.5 mm wire-to-wire system with an arm lock; its components should not be confused with PH or XH board headers. Define both ends, polarity, total length, free branch lengths and the mating view used for numbering. If a connector must pass through a panel, review the cutout and cable-installation sequence before selecting the locking arrangement. A click confirms mechanical engagement, not correct electrical polarity.",
+            "zh": "可拆卸直连线需要两套互相匹配的电缆端零件，不只是一个所谓公头加一个母头。胶壳性别与针、孔端子的性别应分别注明。JST SM 是带臂式锁扣的 2.5 mm 线对线系统，不应与 PH、XH 板端针座混淆。需定义两端型号、极性、总长、分支自由长度及编号所依据的对插视图。接头需要穿过面板时，应在选锁止方式前审核开孔与安装顺序。听到卡扣声只能说明机械接合，不能证明电气极性正确。"
+          },
+          "image": "/assets/images/product-categories/stock/jst/docking.jpg",
+          "caption": {
+            "en": "JST RCY mating leads illustrate a detachable inline pair; RCY is a different family from SM.",
+            "zh": "JST RCY 对接线展示可拆直连结构，RCY 与 SM 是不同系列。"
+          }
+        },
+        {
+          "id": "terminated",
+          "style": "inset-left",
+          "title": {
+            "en": "Single- and Double-Ended Terminal Leads",
+            "zh": "单端与双端端接线"
+          },
+          "copy": {
+            "en": "A single-ended lead has one prepared connector or contact end and a second end defined for the next assembly operation. A double-ended lead connects two specified interfaces; it does not mean that the harness has only two circuits. Options include individual pre-crimped wires, multi-position housings, stripped tails, ferrules or a second connector family. Record the cut length and its measurement datum, strip length, conductor construction and insulation diameter. Pre-crimped contacts must remain protected during packing. Unhoused terminals require an insertion plan so the next operator can populate cavities without reversing the circuit order.",
+            "zh": "单端连接线的一端完成接头或端子加工，另一端按后续装配要求定义；双端连接线连接两种已指定接口，并不表示线束只有两路回路。可讨论单根预压接线、多位胶壳、剥皮尾端、管形端头或另一系列接头。需记录切线长度及测量基准、剥皮长度、导体结构和绝缘外径。预压接端子在包装中应受到保护；未装壳端子还需要清楚的插位方案，避免下一工序倒置回路顺序。"
+          },
+          "image": "/assets/images/product-categories/stock/jst/terminated.jpg",
+          "caption": {
+            "en": "A two-wire prepared lead illustrates one-ended termination; its polarity comes from the equipment drawing.",
+            "zh": "两线预制连接线说明单端加工，极性应以设备图纸为准。"
+          }
+        },
+        {
+          "id": "sealed",
+          "style": "feature-left",
+          "title": {
+            "en": "Waterproof and Temperature-Specific Harnesses",
+            "zh": "防水与温度适配线束"
+          },
+          "copy": {
+            "en": "Sealed and heat-resistant are different requirements. The JWPF wire-to-wire catalog describes an IPX7 configuration under IEC 60529 / JIS C 0920; this is not evidence that every JST connector is waterproof, pressure-wash resistant or suitable for permanent immersion. Its stated temperature limit also includes current-related temperature rise. Review seals, wire insulation diameter, unused cavities, mating condition and the route by which water could travel along the cable. For hot equipment, select the exact connector and wire specification against the local temperature profile. An environmental image illustrates the exposure being discussed, not a passed test on our product.",
+            "zh": "密封与耐热是两个不同要求。JWPF 线对线目录介绍了按 IEC 60529／JIS C 0920 定义的 IPX7 配置，这不能证明所有 JST 接头都防水、耐高压冲洗或适合长期浸没，其温度范围也包含通电温升。应审核密封件、绝缘外径、空腔处理、对插状态及水沿电缆进入的路径。热环境设备需按局部温度分布选择准确接头和线材规格。环境照片用于说明讨论的暴露条件，不代表我们的产品已通过相应试验。"
+          },
+          "image": "/assets/images/product-categories/stock/jst/sealed.jpg",
+          "caption": {
+            "en": "Rainwater is the exposure to consider; this environmental photo is not a connector ingress-test result.",
+            "zh": "雨水是需要考虑的环境暴露，本图不是接头防护试验结果。"
+          }
+        },
+        {
+          "id": "multipin",
+          "style": "compact",
+          "title": {
+            "en": "Multi-Pin Integrated Harnesses",
+            "zh": "多针集成线束"
+          },
+          "copy": {
+            "en": "A multi-pin assembly can combine switches, sensors, indicators and supply branches in one defined loom. More positions make cavity identification and breakout control more important, not less. Mark connector references, pin-one orientation, branch datums and any intentionally unpopulated positions in the drawing. Define whether grounds are separate, joined at a splice or returned to the board. Do not increase an interface current rating simply by paralleling contacts: load sharing and protection require an engineering review. A controlled wire list and first-article check turn a complex harness into a repeatable assembly rather than a bundle matched by color.",
+            "zh": "多针组件可以把开关、传感器、指示器和供电分支整合为一套明确线束。位数越多，腔位识别和分支控制越重要。图纸应标明接头代号、第一针方向、分支基准及有意留空的腔位，同时定义地线是独立返回、在接点汇合，还是回到板端。不能简单通过并联接点提高接口额定电流，分流和保护需工程审核。受控线表与首件确认，才能把复杂线束变成可重复装配的产品，而不是依靠颜色匹配的一束线。"
+          },
+          "image": "/assets/images/product-categories/stock/jst/multipin.jpg",
+          "caption": {
+            "en": "Multi-position board interface reference; every occupied and unused cavity needs a defined assignment.",
+            "zh": "多位板端接口参考：已用与空置腔位都需要明确分配。"
+          }
+        },
+        {
+          "id": "smart",
+          "style": "feature-right",
+          "title": {
+            "en": "Customization · Smart Home and Precision Electronics",
+            "zh": "定制方案 · 智能家居与精密电子"
+          },
+          "copy": {
+            "en": "A sensor hub, smart lock or compact instrument has limited space for both the connector and the operator's fingers. Begin with the board interface and the actual enclosure, then define cable exit, slack and service access. PH, SH, ZH or GH may be candidates only when their mating parts and operating limits match the design. Small connectors do not define a communication protocol: supply voltage, ground, clock and data order still come from the equipment circuit. Separate sensitive analog routes from noisy switching paths where the system design requires it. Review wire length and shielding as electrical decisions rather than decorative cable options.",
+            "zh": "传感器网关、智能锁与紧凑仪器不仅接头空间有限，操作人员手指的空间也有限。先核对板端接口和真实机壳，再定义出线、余量与维护通道。PH、SH、ZH、GH 只有在对插件及工作限制匹配时才是候选方案。小型接头并不定义通信协议，供电、地、时钟和数据的顺序仍由设备电路规定。按系统设计需要，让敏感模拟路径远离开关噪声路径；线长和屏蔽属于电气选择，而不是装饰性配置。"
+          },
+          "image": "/assets/images/product-categories/stock/jst/smart.jpg",
+          "caption": {
+            "en": "Compact Qwiic / JST connector reference: a small interface still needs a defined electrical pinout.",
+            "zh": "紧凑 Qwiic／JST 接头参考：接口虽小，电气针序仍需明确。"
+          }
+        },
+        {
+          "id": "industrial",
+          "style": "inset-right",
+          "title": {
+            "en": "Customization · Industrial Equipment",
+            "zh": "定制方案 · 工业设备"
+          },
+          "copy": {
+            "en": "Internal control wiring may connect a controller to fans, sensors, small drives or an operator panel. The required connector is determined by the approved equipment interface, not by the word industrial. VH is a 3.96 mm wire-to-board family, but its published current conditions differ with wire and header selection. A current value for one combination cannot be transferred to every VH assembly. Review continuous and transient load, enclosure temperature, bend space and restraint near the connector. Service loops should permit maintenance without rubbing against sharp sheet metal. External exposed wiring may need a different sealed system from the protected internal board connection.",
+            "zh": "设备内部控制配线可连接控制器、风扇、传感器、小型驱动器或操作面板。所需接头由认可设备接口决定，不能只凭“工业”两字选择。VH 是 3.96 mm 线对板系列，但其公布电流条件随线材和针座选择变化，某种组合的电流值不能套用到所有 VH 组件。应审核持续与瞬态负载、机壳温度、弯曲空间和接头附近固定。检修余量应允许维护，又不接触钣金锐边；外露线束可能需要不同于受保护板端连接的密封系统。"
+          },
+          "image": "/assets/images/product-categories/stock/jst/industrial.jpg",
+          "caption": {
+            "en": "Drive cabinet application reference; internal control wiring and high-power circuits have separate requirements.",
+            "zh": "驱动柜应用参考：内部控制配线与大功率回路的要求需要区分。"
+          }
+        },
+        {
+          "id": "automotive",
+          "style": "wide",
+          "title": {
+            "en": "Customization · Automotive Electronics",
+            "zh": "定制方案 · 汽车电子"
+          },
+          "copy": {
+            "en": "Vehicle electronics introduce vibration, temperature cycling, supply transients and service constraints that are not resolved by choosing a familiar connector name. Establish whether the assembly is inside a protected module, in the cabin or exposed outside the vehicle. Confirm the exact approved interface, conductor insulation and retention requirements for that location. If the customer specifies a vehicle test standard, identify the required clauses, samples, fixtures and acceptance limits before quotation. We do not infer automotive qualification from a JST brand marking or promise a universal drop-in replacement. An approved pin map remains essential even where two housings mate mechanically.",
+            "zh": "汽车电子涉及振动、温度循环、供电瞬态和维修限制，选择熟悉的接头名称并不能解决这些问题。应明确组件位于受保护模块内部、乘员舱内，还是车外暴露位置，再确认该位置认可的接口、导线绝缘与保持要求。客户指定整车试验标准时，应在报价前确认条款、样品、治具及判定限值。我们不会凭 JST 标记推定汽车认证，也不承诺通用直接替换；即使两个胶壳机械上可插合，认可针脚表仍不可缺少。"
+          },
+          "image": "/assets/images/product-categories/stock/jst/automotive.jpg",
+          "caption": {
+            "en": "Vehicle control-module interior illustrates the equipment context, not a claim that this module uses JST parts.",
+            "zh": "车辆控制模块内部用于说明应用环境，不表示该模块使用 JST 零件。"
+          }
+        },
+        {
+          "id": "advantages",
+          "style": "feature-left",
+          "title": {
+            "en": "Harness Kit Advantages",
+            "zh": "线束套件的优势"
+          },
+          "copy": {
+            "en": "The useful advantage of a kit is a consistent assembly definition: approved components, known wire preparation, readable identification and an agreed inspection plan. Genuine specified JST parts and any proposed substitute must be distinguished on the BOM and quotation. Material choices include conductor size and strand construction, insulation thickness and the terminal's permitted wire range. Flexible customization covers circuit count, lengths, branch arrangements and labels, subject to the chosen interface. Cost control starts by resolving ambiguous ends and unnecessary operations before production. Small pilot quantities can confirm fit and assembly sequence without turning an unverified prototype into a claim of proven field durability.",
+            "zh": "套件真正的优势是装配定义一致：认可零件、明确线端加工、可读标识及约定检验计划。指定 JST 原厂件与任何拟议替代件，必须在物料表和报价中区分。材料选择涵盖导体线径与绞合结构、绝缘厚度及端子允许线材范围；在已选接口条件下，可定制回路数、长度、分支和标签。成本控制从生产前澄清模糊接口、消除不必要工序开始。小批试制可确认适配与装配顺序，但不能把未经充分验证的样品说成已证明长期现场耐用。"
+          },
+          "image": "/assets/images/product-categories/stock/jst/advantages.jpg",
+          "caption": {
+            "en": "JST CZH crimp-tool reference: tooling is terminal-specific, not universal across all JST families.",
+            "zh": "JST CZH 压接工具参考：工具对应具体端子，不通用于所有 JST 系列。"
+          }
+        },
+        {
+          "id": "consumer",
+          "style": "inset-left",
+          "title": {
+            "en": "Applications · Consumer Electronics",
+            "zh": "行业与应用 · 消费电子"
+          },
+          "copy": {
+            "en": "Speakers, appliances, cameras and handheld devices use compact internal leads for different combinations of power and signal. The design must allow assembly without pulling on the terminal or bending the PCB header. Check polarity at battery and charging connections against the actual board: wire color and a two-position housing are not enough to establish a standard pinout. Where a enclosure can be opened for service, include a repeatable unplugging method and accessible slack. Product electrical safety and thermal behavior are assessed at equipment level; a small connector's catalog entry does not certify the complete device.",
+            "zh": "音箱、电器、摄像设备与手持设备通过紧凑内部连接线传输不同供电与信号组合。设计应允许装配时不拉扯端子、不弯折板端针座。电池和充电接口极性必须对照实际电路板，不能凭线色和两位胶壳认定统一针序。机壳可拆维修时，应提供可重复的拔插方式及可触及余量。产品电气安全与热表现需在设备层面评估，小型接头的目录参数不能认证整台设备。"
+          },
+          "image": "/assets/images/product-categories/stock/jst/consumer.jpg",
+          "caption": {
+            "en": "An instrument cooling-fan connection illustrates internal routing and access for maintenance.",
+            "zh": "仪器散热风扇连接展示内部布线及检修操作空间。"
+          }
+        },
+        {
+          "id": "drone",
+          "style": "feature-right",
+          "title": {
+            "en": "Applications · RC Models and Drones",
+            "zh": "行业与应用 · 航模与无人机"
+          },
+          "copy": {
+            "en": "Lightweight sensor and flight-controller leads require exact pin order, secure routing and clearance from propellers or moving mechanisms. GH and other compact families may appear in controller ecosystems, but a shared connector family does not ensure identical voltage or signal assignment. Document each endpoint and its circuit function before making an adapter. Keep strain away from soldered board headers, and avoid unsupported cable mass at small contacts. The harness may carry telemetry, positioning or control signals; the aircraft's electromagnetic, vibration and flight validation remain system responsibilities. Do not treat a connector photograph as proof of compatibility with a particular flight controller.",
+            "zh": "轻量化传感器及飞控连接线需要准确针序、可靠布线，并避开螺旋桨或运动机构。GH 等紧凑系列可用于控制器系统，但相同接头系列并不保证电压或信号分配一致。制作转接线前，应记录每一端点及回路功能，让应力远离焊接在板上的针座，避免小接点承受悬空电缆重量。线束可传输遥测、定位或控制信号，航空器的电磁、振动与飞行验证仍属于系统责任。接头照片不能作为适配某飞控型号的证明。"
+          },
+          "image": "/assets/images/product-categories/stock/jst/drone.jpg",
+          "caption": {
+            "en": "MindPX controller reference: verify endpoint mapping and cable restraint in the complete aircraft.",
+            "zh": "MindPX 控制器参考：在完整飞行器中确认端点映射与电缆固定。"
+          }
+        },
+        {
+          "id": "medical",
+          "style": "compact",
+          "title": {
+            "en": "Applications · Medical Devices",
+            "zh": "行业与应用 · 医疗设备"
+          },
+          "copy": {
+            "en": "Medical-device projects can include internal display, control and sensor harnesses, but the intended use defines the risk and evidence required. Distinguish wiring inside an enclosure from patient-connected circuits, disposable accessories or parts exposed to cleaning and sterilization. Confirm approved materials, leakage-related requirements, traceability and any customer-mandated verification before accepting the design. A JST interface name is not medical-device approval. Where the customer controls the device design, our harness documentation should clearly identify supplied boundaries and agreed tests. Changes in wire insulation, terminal finish or component source require the appropriate review rather than an informal substitution.",
+            "zh": "医疗设备项目可包括内部显示、控制和传感器线束，但预期用途决定风险与证据要求。需区分机壳内部配线、患者连接回路、一次性附件及暴露于清洁或灭菌过程的部件。接受设计前，应确认认可材料、相关漏电要求、追溯范围和客户指定验证。JST 接口名称不是医疗设备批准。在客户控制整机设计的项目中，线束文件应明确供货边界与约定测试；绝缘、端子镀层或零件来源改变，都需要相应审核，而不是随意替代。"
+          },
+          "image": "/assets/images/product-categories/stock/jst/medical.jpg",
+          "caption": {
+            "en": "Wearable oximeter application reference; medical suitability is assessed for the specified device and circuit.",
+            "zh": "腕式血氧仪应用参考：医疗适用性需按指定设备与回路评估。"
+          }
+        },
+        {
+          "id": "lighting",
+          "style": "inset-right",
+          "title": {
+            "en": "Applications · LED Lighting",
+            "zh": "行业与应用 · LED 照明"
+          },
+          "copy": {
+            "en": "LED modules can need supply leads, dimming wires or separate data connections. Identify voltage, current direction and pin assignment before selecting a familiar two-, three- or four-wire connector. An SM-style locking inline connection is not automatically waterproof, and a sealed assembly still needs suitable cable entries and strain relief. Longer supply runs need a voltage-drop review at the intended load. For addressable lighting, preserve the specified signal reference and routing rather than assuming that every connector can carry any data scheme. Separate replaceable light modules at practical service points while keeping the wiring protected from heat around the driver or LED board.",
+            "zh": "LED 模组可能需要供电线、调光线或独立数据连接。选择常见两线、三线或四线接头前，应确认电压、电流方向及针脚定义。SM 式锁止直连接头并不自动防水，即使使用密封组件，仍需要合适的进线和应力释放。较长供电线路应按实际负载审核压降；可寻址灯光需保持指定信号参考与布线，不能假设任何接头都适用于任意数据方案。可替换灯模组应在合理检修点断开，同时保护线材免受驱动器或灯板附近热量影响。"
+          },
+          "image": "/assets/images/product-categories/stock/jst/lighting.jpg",
+          "caption": {
+            "en": "LED strip and supply illustrate the distinction between supply wiring, control and module connections.",
+            "zh": "LED 灯带与电源用于说明供电、控制及模组连接的区别。"
+          }
+        },
+        {
+          "id": "dfm",
+          "style": "wide",
+          "title": {
+            "en": "DFM Feedback Before Assembly",
+            "zh": "生产前的可制造性审核"
+          },
+          "copy": {
+            "en": "Early review connects the circuit drawing to the real assembly sequence. First resolve the mating interface and cavity view, then check fit, latch access and cable bending within the enclosure. Match insulation diameter and conductor size to the terminal rather than choosing a tool solely by wire gauge. Review whether seals, sleeves, ferrules or labels must be fitted before a connector is populated. A first article should check dimensions and routing in the actual mating equipment where available. Record approved deviations on the drawing, not only in an email. These checks help prevent a correctly crimped harness from becoming impossible to install.",
+            "zh": "前期审核把电路图与真实装配顺序连接起来。先澄清对插接口和腔位视图，再检查机壳中的配合、锁扣操作和电缆弯曲。绝缘外径与导体线径应匹配端子，不能仅凭线规选工具。还需审核密封件、套管、管形端头或标签是否必须在装壳前安装。条件允许时，首件应在实际对插设备中检查尺寸和布线路径。认可偏差应记录在图纸上，而不只留在邮件中。这些检查可避免线束虽然压接正确，却无法装入设备。"
+          },
+          "image": "/assets/images/product-categories/stock/jst/dfm.jpg",
+          "caption": {
+            "en": "Dimensional inspection supports fit review; pitch alone does not establish connector compatibility.",
+            "zh": "尺寸检查支持配合审核，单凭间距不能确认接头兼容。"
+          }
+        },
+        {
+          "id": "resistance",
+          "style": "feature-left",
+          "title": {
+            "en": "Contact Resistance and Service Reliability",
+            "zh": "接触电阻与使用可靠性"
+          },
+          "copy": {
+            "en": "Contact resistance depends on the selected contact system and the condition of both mating surfaces. A continuity tester can identify an open circuit, but it cannot by itself characterize a low-resistance joint or long-term stability. Where required, specify a suitable low-resistance measurement method, test current, sampling and acceptance criteria. Review crimp height, conductor capture and insulation support against the terminal's application specification. Insertion cycles, temperature exposure and vibration are separate test conditions; do not assume a universal 500-cycle rating across JST families. Any durability statement for the supplied harness needs evidence tied to its actual materials, construction and agreed test configuration.",
+            "zh": "接触电阻取决于选定接点系统及两侧接触面的状态。导通仪可以发现断路，却不能单独表征低电阻接头或长期稳定性。有要求时，应规定合适的低电阻测量方法、测试电流、抽样及判定标准，并按端子应用规范审核压接高度、导体包覆与绝缘支撑。插拔次数、温度暴露与振动是不同试验条件，不能假设所有 JST 系列都具有统一的 500 次寿命。供货线束的任何耐久性说明，都需要与实际材料、结构及约定试验配置相关的证据。"
+          },
+          "image": "/assets/images/product-categories/stock/jst/resistance.jpg",
+          "caption": {
+            "en": "Low-resistance measurement equipment reference; select the method and test conditions for the actual joint.",
+            "zh": "低电阻测量设备参考，测量方法及条件需按实际接头确定。"
+          }
+        },
+        {
+          "id": "traceability",
+          "style": "process",
+          "title": {
+            "en": "Lot and Material Traceability",
+            "zh": "批次与材料追溯"
+          },
+          "copy": {
+            "en": "Define the required record package when the order is reviewed. It may link the assembly revision, approved BOM, component labels, wire lots, production date and inspection results to a shipment batch. Keep original specified components distinguishable from approved alternatives so later investigation can reconstruct what was supplied. A build history should include approved changes and first-article feedback, not just a final packing list. Customer audits and regulated applications may need additional retention periods or records; agree these before production. Traceability supports investigation and change control, but it is not a substitute for correct design or the tests required by the application.",
+            "zh": "订单审核时应定义所需记录包，可将组件版本、认可物料表、零件标签、线材批次、生产日期和检验结果关联到出货批次。指定原厂零件与认可替代件需清楚区分，使后续调查能够还原实际供货配置。制造履历应包含认可变更及首件反馈，而不只是最终装箱单。客户审核或受监管应用可能需要额外保存期限和记录，应在生产前约定。追溯支持问题调查与变更控制，但不能代替正确设计或应用所需测试。"
+          },
+          "image": "/assets/images/product-categories/stock/jst/traceability.jpg",
+          "caption": {
+            "en": "Equipment identification example illustrates linking records to a physical unit; it is not our production label.",
+            "zh": "设备编号实例说明记录与实物的关联，不是我司生产标签。"
+          }
+        }
+      ],
+      "composition": [
+        {
+          "kind": "single",
+          "items": [
+            0
+          ]
+        },
+        {
+          "kind": "pair",
+          "items": [
+            1,
+            2
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            3
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            4
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            5
+          ]
+        },
+        {
+          "kind": "pair",
+          "items": [
+            6,
+            7
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            8
+          ]
+        },
+        {
+          "kind": "pair",
+          "items": [
+            9,
+            10
+          ]
+        },
+        {
+          "kind": "pair",
+          "items": [
+            11,
+            12
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            13
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            14
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            15
+          ]
+        }
+      ],
+      "guide": [
+        {
+          "index": 0,
+          "label": {
+            "en": "Identify the series",
+            "zh": "识别系列"
+          }
+        },
+        {
+          "index": 5,
+          "label": {
+            "en": "Develop the harness",
+            "zh": "定制开发"
+          }
+        },
+        {
+          "index": 9,
+          "label": {
+            "en": "Application notes",
+            "zh": "应用说明"
+          }
+        },
+        {
+          "index": 13,
+          "label": {
+            "en": "Review and verify",
+            "zh": "审核验证"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "en": "Are JST XH and a 2.54 mm connector interchangeable?",
+            "zh": "JST XH 与 2.54 mm 接头能通用吗？"
+          },
+          "a": {
+            "en": "Do not assume so. JST specifies XH at 2.5 mm. Pitch, contact geometry, keying and housing dimensions must all match; a similar-looking 2.54 mm product is not automatically compatible.",
+            "zh": "不能这样假设。JST 将 XH 定义为 2.5 mm 间距；间距、接点几何、键位及胶壳尺寸都须匹配，外观相似的 2.54 mm 产品不自动兼容。"
+          }
+        },
+        {
+          "q": {
+            "en": "Does a two-pin PH cable have a standard battery polarity?",
+            "zh": "两针 PH 电缆具有统一电池极性吗？"
+          },
+          "a": {
+            "en": "The connector geometry does not establish the equipment's polarity. Confirm the board pinout, mating view and wire assignment before building or connecting the cable.",
+            "zh": "接头几何不决定设备极性。制造或连接前，必须确认板端针脚、对插视图及导线分配。"
+          }
+        },
+        {
+          "q": {
+            "en": "Can you provide wire-to-wire and waterproof versions?",
+            "zh": "能否制作线对线与防水版本？"
+          },
+          "a": {
+            "en": "We can review specified inline and sealed interfaces, including SM or JWPF where appropriate. Their geometry and environmental limits differ; a seal or locking latch alone does not qualify the whole harness.",
+            "zh": "可审核指定直连与密封接口，在适用时包括 SM 或 JWPF。它们的几何与环境限制不同，仅有密封件或锁扣不能证明整套线束的性能。"
+          }
+        },
+        {
+          "q": {
+            "en": "What is needed for a quotation and prototype?",
+            "zh": "报价和打样需要哪些资料？"
+          },
+          "a": {
+            "en": "Provide both mating references, circuit list, wire specification, dimensions, operating environment and quantities. Identify original-part requirements, approved substitutions, inspection records and any special validation before the prototype is released.",
+            "zh": "请提供两端对插型号、回路表、线材规格、尺寸、运行环境和数量，打样前明确原厂件要求、认可替代、检验记录及特殊验证。"
+          }
+        }
+      ],
+      "hasAiImages": false,
+      "hasOwnImages": false,
+      "mediaCredits": [
+        {
+          "file": "Moving head noname control board top component side PC261924.webp",
+          "url": "https://commons.wikimedia.org/wiki/File:Moving_head_noname_control_board_top_component_side_PC261924.webp",
+          "author": "Alexey Vazhnov",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "JSTS-02-X-04PI-01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:JSTS-02-X-04PI-01.jpg",
+          "author": "oomlout",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        },
+        {
+          "file": "Balancer Buchse XH.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Balancer_Buchse_XH.JPG",
+          "author": "Laurenz Wagner",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+        },
+        {
+          "file": "JST RCY.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:JST_RCY.JPG",
+          "author": "Mike mahoney aus4810",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "JST 2 wire.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:JST_2_wire.jpg",
+          "author": "Christopher.nunez",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Rain on a window pane.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rain_on_a_window_pane.jpg",
+          "author": "Theactivistuk",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "JSTS-02-X-04PI-SM.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:JSTS-02-X-04PI-SM.jpg",
+          "author": "oomlout",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        },
+        {
+          "file": "Qwiic JST Connector - SMD 4-pin (36428734893).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Qwiic_JST_Connector_-_SMD_4-pin_(36428734893).jpg",
+          "author": "SparkFun Electronics from Boulder, USA",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "POWTRAN 690V 315KW Inverter.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:POWTRAN_690V_315KW_Inverter.jpg",
+          "author": "Huangsunshan",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Motorsteuerung VW Golf TDI innen.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Motorsteuerung_VW_Golf_TDI_innen.jpg",
+          "author": "Cschirp at German Wikipedia",
+          "license": "CC BY-SA 3.0 de",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+        },
+        {
+          "file": "JST CZH hand crimper tool.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:JST_CZH_hand_crimper_tool.jpg",
+          "author": "4300streetcar",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "file": "Yamaha Montage M7 - DM T cover with cooling fan.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Yamaha_Montage_M7_-_DM_T_cover_with_cooling_fan.jpg",
+          "author": "DmitryKo",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "file": "1 MindPX.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:1_MindPX.jpg",
+          "author": "Owen.zhang.airmind.co",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Wrist-oximeter.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Wrist-oximeter.jpg",
+          "author": "UusiAjaja",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        },
+        {
+          "file": "How to wire LED-strip.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:How_to_wire_LED-strip.JPG",
+          "author": "Dmitry G",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "2020 Suwmiarka cyfrowa.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:2020_Suwmiarka_cyfrowa.jpg",
+          "author": "Jacek Halicki",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Revox B215 - serial number inside the cabinet.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Revox_B215_-_serial_number_inside_the_cabinet.jpg",
+          "author": "Retired electrician",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        },
+        {
+          "file": "Microohmmeter.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Microohmmeter.jpg",
+          "author": "FearChild",
+          "license": "Public domain"
+        },
+        {
+          "file": "JST PH connector catalog",
+          "url": "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf",
+          "author": "JST",
+          "license": "Technical reference — verify the current part-specific document"
+        },
+        {
+          "file": "JST XH connector catalog",
+          "url": "https://www.jst-mfg.com/product/pdf/eng/eXH.pdf",
+          "author": "JST",
+          "license": "Technical reference — verify the current part-specific document"
+        },
+        {
+          "file": "JST SH connector catalog",
+          "url": "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf",
+          "author": "JST",
+          "license": "Technical reference — verify the current part-specific document"
+        },
+        {
+          "file": "JST ZH connector catalog",
+          "url": "https://www.jst-mfg.com/product/pdf/eng/eZH.pdf",
+          "author": "JST",
+          "license": "Technical reference — verify the current part-specific document"
+        },
+        {
+          "file": "JST GH connector catalog",
+          "url": "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf",
+          "author": "JST",
+          "license": "Technical reference — verify the current part-specific document"
+        },
+        {
+          "file": "JST VH connector catalog",
+          "url": "https://www.jst-mfg.com/product/pdf/eng/eVH.pdf",
+          "author": "JST",
+          "license": "Technical reference — verify the current part-specific document"
+        },
+        {
+          "file": "JST SM connector catalog",
+          "url": "https://www.jst-mfg.com/product/pdf/eng/eSM.pdf",
+          "author": "JST",
+          "license": "Technical reference — verify the current part-specific document"
+        },
+        {
+          "file": "JST JWPF connector catalog",
+          "url": "https://www.jst-mfg.com/product/pdf/eng/eJWPF.pdf",
+          "author": "JST",
+          "license": "Technical reference — verify the current part-specific document"
+        }
+      ]
+    }
+  },
 "connector-systems-02": {
   "intro": {
     "en": "Custom wire-to-board, wire-to-wire and equipment cable assemblies built around specified Molex interfaces, with defined circuits, materials and inspection requirements.",
