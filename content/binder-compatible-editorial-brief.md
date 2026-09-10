@@ -27,3 +27,9 @@ Do not copy its office binder-clip or software assembly-binding detours, univers
 ## Planned design
 
 Compact field-installation magazine. Preserve established typography and warm neutral/orange system; combine short series references, wide commissioning notes and modest documentary cut-ins. Content before unique licensed real photos, each topic its own image. No table walls or repeated masks. EN/ZH, fixed nav, 2em indent, photo edges, inquiries and FAQ must be checked locally and publicly. Next cache version after LEMO: v38. Next activation key connector-systems-11.
+
+## Editorial balance revision — 2026-09-10
+
+User requested larger useful photographs, content-aware wrapping, and freedom over type, colour and restrained interaction. Binder now uses 243–397 px desktop studies, 225 px-tall mobile photographs, outer-edge paired material spreads and full-width technical notes. Lightweight headings and muted green-charcoal text preserve the existing warm neutral/orange identity. No decorative masks or boxed-card wall.
+
+The page opts into an accessible native photo dialog with keyboard/Escape support, caption preservation and reduced-motion-aware hover feedback. Local EN/ZH at 1280, 390 and 320 px passed image loading, overflow, fixed navigation, photo-edge, inquiry and FAQ checks. Actual desktop/mobile screenshots inspected. Photo opening and Escape closing verified separately. Public verification must follow the revision deployment.

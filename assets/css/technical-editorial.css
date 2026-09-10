@@ -304,34 +304,75 @@ body[data-category-key="connector-systems-09"] .pcc-hero-media img{object-positi
 .te-theme-fci-assembly-notes #technical-topic-28 .te-photo img{height:175px}
 .te-theme-fci-assembly-notes #technical-topic-33{grid-template-columns:210px minmax(0,1fr)}
 .te-theme-fci-assembly-notes #technical-topic-33 .te-photo img{height:165px}
-/* Binder: installation notes, small interface studies and environmental context. */
-.te-theme-binder-installation{--te-tint:#e2e6e2;--te-muted:#48544f}
+/* Binder: text-led editorial spreads. Variance 6 / motion 2 / density 6.
+   Images occupy a useful reading area rather than becoming thumbnail footnotes. */
+.te-theme-binder-installation{--te-tint:#e2e6e2;--te-muted:#48544f;--te-study:clamp(265px,25vw,365px)}
 .te-theme-binder-installation .te-index{display:none}
-.te-theme-binder-installation .te-topic{padding-block:22px}
-.te-theme-binder-installation .te-opening{grid-template-columns:minmax(0,1fr) 190px;gap:28px;background:#e9e6de}
-.te-theme-binder-installation .te-opening .te-photo img{height:150px}
-.te-theme-binder-installation .te-wide{grid-template-columns:minmax(0,1fr) 195px}
-.te-theme-binder-installation #technical-topic-0 .te-photo img,.te-theme-binder-installation #technical-topic-2 .te-photo img,.te-theme-binder-installation #technical-topic-5 .te-photo img,.te-theme-binder-installation #technical-topic-21 .te-photo img,.te-theme-binder-installation #technical-topic-27 .te-photo img{object-fit:contain;background:#eeece5}
-.te-theme-binder-installation .te-inset-left .te-photo,.te-theme-binder-installation .te-inset-right .te-photo{width:160px;margin-top:4px}
-.te-theme-binder-installation .te-inset-left .te-photo img,.te-theme-binder-installation .te-inset-right .te-photo img{height:150px;object-fit:contain}
-.te-theme-binder-installation .te-pair{background:#e7e8e1}
-.te-theme-binder-installation .te-pair .te-photo,.te-theme-binder-installation .te-pair .te-topic:nth-child(2) .te-photo{width:135px;margin-top:30px}
-.te-theme-binder-installation .te-pair .te-photo img{height:135px;object-fit:contain}
-.te-theme-binder-installation #technical-topic-3{grid-template-columns:minmax(0,1fr) 205px;background:#e1e6e3}
-.te-theme-binder-installation #technical-topic-3 .te-photo img{height:170px}
-.te-theme-binder-installation #technical-topic-6{grid-template-columns:175px minmax(0,1fr)}
-.te-theme-binder-installation #technical-topic-6 .te-photo img{height:155px;object-fit:contain}
-.te-theme-binder-installation #technical-topic-9{grid-template-columns:210px minmax(0,1fr);background:#e2e5df}
-.te-theme-binder-installation #technical-topic-9 .te-photo img{height:155px}
-.te-theme-binder-installation #technical-topic-14{grid-template-columns:minmax(0,1fr) 190px;background:#e8e4db}
-.te-theme-binder-installation #technical-topic-14 .te-photo img{height:150px}
-.te-theme-binder-installation #technical-topic-20{grid-template-columns:220px minmax(0,1fr);background:#e1e5e2}
-.te-theme-binder-installation #technical-topic-20 .te-photo img{height:160px}
-.te-theme-binder-installation #technical-topic-26{grid-template-columns:minmax(0,1fr) 180px;background:#e8e5de}
-.te-theme-binder-installation #technical-topic-26 .te-photo img{height:150px;object-fit:contain}
-.te-theme-binder-installation #technical-topic-28{grid-template-columns:200px minmax(0,1fr);background:#e4e7e1}
-.te-theme-binder-installation #technical-topic-28 .te-photo img{height:160px}
+.te-theme-binder-installation{font-family:"Helvetica Neue",Arial,"PingFang SC","Microsoft YaHei",sans-serif;color:#27352f}
+.te-theme-binder-installation .te-copy p{color:#48514c;line-height:1.85}
+.te-theme-binder-installation .te-guide a{transition:color .2s,background-color .2s;text-underline-offset:5px}
+.te-theme-binder-installation .te-guide a:hover{color:#a94024;text-decoration:underline}
+.te-theme-binder-installation summary{transition:color .2s}
+.te-theme-binder-installation summary:hover{color:#a94024}
+.te-photo-open{display:block;width:100%;padding:0;border:0;border-radius:0;background:transparent;cursor:zoom-in;overflow:hidden}
+.te-photo-open img{transition:transform .35s ease}
+.te-photo-open:focus-visible{outline:2px solid #bc4d2c;outline-offset:4px}
+@media(hover:hover){.te-photo-open:hover img{transform:scale(1.025)}}
+.te-image-dialog{width:min(1100px,94vw);max-height:94vh;padding:44px 20px 18px;border:0;background:#f0eee7;color:#303c36;overflow:auto}
+.te-image-dialog::backdrop{background:rgb(8 16 13 / .85)}
+.te-image-dialog>img{display:block;width:100%;max-height:72vh;object-fit:contain}
+.te-image-dialog>p{font-size:13px;line-height:1.6;margin:14px 0 0}
+.te-image-close{position:absolute;right:8px;top:0;width:44px;height:44px;border:0;background:transparent;font-size:30px;cursor:pointer;color:inherit}
+@media(prefers-reduced-motion:reduce){.te-photo-open img,.te-theme-binder-installation .te-guide a,.te-theme-binder-installation summary{transition:none}}
+.te-theme-binder-installation .te-topic{padding-block:25px}
+.te-theme-binder-installation h2{font-weight:500;margin-bottom:10px}
+.te-theme-binder-installation .te-opening{grid-template-columns:minmax(0,1fr) clamp(300px,31vw,420px);gap:32px;background:#e9e6de;align-items:center}
+.te-theme-binder-installation .te-opening .te-photo img{height:225px;object-fit:cover;object-position:center 45%}
+.te-theme-binder-installation .te-wide{grid-template-columns:minmax(0,1fr) var(--te-study);gap:30px}
+.te-theme-binder-installation .te-compact{grid-template-columns:minmax(0,1fr) var(--te-study);gap:30px}
+.te-theme-binder-installation .te-photo img{height:205px;object-fit:cover}
+.te-theme-binder-installation .te-photo figcaption{font-size:11px;line-height:1.5;padding-top:8px;max-width:44ch}
+.te-theme-binder-installation .te-inset-left .te-photo,.te-theme-binder-installation .te-inset-right .te-photo{width:var(--te-study);margin-top:0;margin-bottom:12px}
+.te-theme-binder-installation .te-inset-left .te-photo{margin-right:30px}
+.te-theme-binder-installation .te-inset-right .te-photo{margin-left:30px}
+.te-theme-binder-installation .te-inset-left .te-copy,.te-theme-binder-installation .te-inset-right .te-copy{display:contents}
+.te-theme-binder-installation .te-inset-left .te-photo img,.te-theme-binder-installation .te-inset-right .te-photo img{height:190px;object-fit:cover}
+.te-theme-binder-installation .te-feature-left,.te-theme-binder-installation .te-process{grid-template-columns:clamp(310px,31vw,425px) minmax(0,1fr);gap:32px}
+.te-theme-binder-installation .te-feature-right{grid-template-columns:minmax(0,1fr) clamp(310px,31vw,425px);gap:32px}
+.te-theme-binder-installation .te-feature-left .te-photo img,.te-theme-binder-installation .te-feature-right .te-photo img,.te-theme-binder-installation .te-process .te-photo img{height:225px}
+.te-theme-binder-installation .te-pair{display:block;background:#e7e8e1}
+.te-theme-binder-installation .te-pair:after{display:none}
+.te-theme-binder-installation .te-pair .te-topic{padding-block:22px;display:flow-root}
+.te-theme-binder-installation .te-pair .te-copy{display:contents}
+.te-theme-binder-installation .te-pair .te-photo,.te-theme-binder-installation .te-pair .te-topic:nth-child(2) .te-photo{width:var(--te-study);margin-top:0;margin-bottom:8px}
+.te-theme-binder-installation .te-pair .te-photo img{height:175px;object-fit:cover}
+.te-theme-binder-installation .te-pair .te-topic:nth-child(2){background:#eeece5}
+.te-theme-binder-installation #technical-topic-3{background:#e1e6e3}
+.te-theme-binder-installation #technical-topic-9{background:#e2e5df}
+.te-theme-binder-installation #technical-topic-14{background:#e8e4db}
+.te-theme-binder-installation #technical-topic-20{background:#e1e5e2}
+.te-theme-binder-installation #technical-topic-26{background:#e8e5de}
+.te-theme-binder-installation #technical-topic-28{background:#e4e7e1}
+/* Component silhouettes need breathing room; contextual photos can fill the crop. */
+.te-theme-binder-installation #technical-topic-1 .te-photo img,.te-theme-binder-installation #technical-topic-2 .te-photo img,.te-theme-binder-installation #technical-topic-5 .te-photo img,.te-theme-binder-installation #technical-topic-6 .te-photo img,.te-theme-binder-installation #technical-topic-11 .te-photo img,.te-theme-binder-installation #technical-topic-13 .te-photo img,.te-theme-binder-installation #technical-topic-15 .te-photo img,.te-theme-binder-installation #technical-topic-21 .te-photo img,.te-theme-binder-installation #technical-topic-22 .te-photo img,.te-theme-binder-installation #technical-topic-24 .te-photo img,.te-theme-binder-installation #technical-topic-26 .te-photo img{object-fit:contain;background:#eeece5}
+.te-theme-binder-installation #technical-topic-0 .te-photo img{object-position:center 42%}
+.te-theme-binder-installation #technical-topic-10 .te-photo img{object-position:center 52%}
+.te-theme-binder-installation #technical-topic-18 .te-photo img{object-position:center 62%}
+.te-theme-binder-installation #technical-topic-27 .te-photo img{object-position:35% center}
+@media(min-width:768px) and (max-width:1000px){
+ .te-theme-binder-installation{--te-study:245px}
+ .te-theme-binder-installation .te-feature-left,.te-theme-binder-installation .te-process{grid-template-columns:280px minmax(0,1fr)}
+ .te-theme-binder-installation .te-feature-right{grid-template-columns:minmax(0,1fr) 280px}
+}
 /* LEMO: a compact handling journal, with outer-edge component studies. */
+@media(min-width:1001px){
+ .te-theme-binder-installation .te-pair{display:grid;grid-template-columns:1fr 1fr}
+ .te-theme-binder-installation .te-pair .te-photo,.te-theme-binder-installation .te-pair .te-topic:nth-child(2) .te-photo{width:clamp(220px,19vw,280px);margin-inline:0 22px;float:left}
+ .te-theme-binder-installation .te-pair .te-photo img{height:180px}
+ .te-theme-binder-installation .te-pair .te-topic:first-child .te-photo{margin-left:calc(-1 * var(--te-gutter))}
+ .te-theme-binder-installation .te-pair .te-topic:nth-child(2) .te-photo{float:right;margin-inline:22px calc(-1 * var(--te-gutter))}
+ .te-theme-binder-installation .te-pair h2{font-size:19px;line-height:1.45}
+}
 .te-theme-push-pull-journal{--te-tint:#e4e6e1;--te-muted:#4b514d;--te-accent:#ad4d30}
 .te-theme-push-pull-journal .te-index{display:none}
 .te-theme-push-pull-journal .te-topic{padding-block:24px}
@@ -367,6 +408,9 @@ body[data-category-key="connector-systems-09"] .pcc-hero-media img{object-positi
 .te-theme-push-pull-journal #technical-topic-25 .te-photo img{height:155px;object-fit:contain}
 @media(max-width:767px){
  .te-theme-binder-installation .te-opening,.te-theme-binder-installation .te-topic{display:flex;padding:23px 16px}
+ .te-theme-binder-installation .te-pair .te-topic{display:flex;padding:23px 16px}
+ .te-theme-binder-installation .te-topic .te-copy{display:block}
+ .te-theme-binder-installation .te-photo img,.te-theme-binder-installation .te-opening .te-photo img,.te-theme-binder-installation .te-inset-left .te-photo img,.te-theme-binder-installation .te-inset-right .te-photo img,.te-theme-binder-installation .te-pair .te-photo img,.te-theme-binder-installation .te-feature-left .te-photo img,.te-theme-binder-installation .te-feature-right .te-photo img,.te-theme-binder-installation .te-process .te-photo img{height:225px}
  .te-theme-binder-installation .te-pair .te-photo,.te-theme-binder-installation .te-pair .te-topic:nth-child(2) .te-photo,.te-theme-binder-installation .te-inset-left .te-photo,.te-theme-binder-installation .te-inset-right .te-photo{float:none;width:calc(100% + 32px);margin:16px -16px 0}
  .te-theme-push-pull-journal .te-opening,.te-theme-push-pull-journal .te-topic{display:flex;padding:23px 16px}
  .te-theme-push-pull-journal .te-pair .te-photo,.te-theme-push-pull-journal .te-pair .te-topic:nth-child(2) .te-photo,.te-theme-push-pull-journal .te-inset-left .te-photo,.te-theme-push-pull-journal .te-inset-right .te-photo,.te-theme-push-pull-journal #technical-topic-19 .te-photo{float:none;width:calc(100% + 32px);margin:16px -16px 0}
