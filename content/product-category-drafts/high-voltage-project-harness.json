@@ -1,0 +1,439 @@
+{
+  "key": "automotive-11",
+  "slug": "high-voltage-project-harness",
+  "title": {
+    "en": "High-Voltage Project Harness",
+    "zh": "高压项目线束"
+  },
+  "intro": {
+    "en": "Project-reviewed high-voltage interconnections for electrified equipment, with defined insulation, shielding, interlock and validation requirements.",
+    "zh": "面向电气化设备，按项目审核绝缘、屏蔽、互锁与验证要求的高压连接组件。"
+  },
+  "knowledge": {
+    "en": "Voltage withstand, temperature rise, shielding and HVIL are separate requirements that must work together.",
+    "zh": "绝缘耐受、温升、屏蔽与高压互锁是不同要求，需要在系统中协调。"
+  },
+  "notes": {
+    "en": "High-voltage projects require engineering and validation review before quotation. This page is not an energized-service procedure.",
+    "zh": "高压项目报价前需完成工程与验证条件审核，本页不是带电维修操作指南。"
+  },
+  "delivery": {
+    "en": "Agree component sources, tooling, drawings, samples and verification scope before releasing a production build.",
+    "zh": "生产放行前确认物料来源、工装、图纸、样件及验证范围。"
+  },
+  "page": {
+    "layout": "technical-editorial",
+    "theme": "high-voltage",
+    "headings": {
+      "introduction": {
+        "en": "Product Introduction",
+        "zh": "产品介绍"
+      },
+      "faq": {
+        "en": "High-Voltage Harness Questions",
+        "zh": "高压线束常见问题"
+      }
+    },
+    "subtitle": {
+      "en": "Power, insulation and controlled interfaces",
+      "zh": "动力连接、绝缘与受控接口"
+    },
+    "lead": {
+      "en": "High-voltage harnesses connect an electrified vehicle's energy and conversion equipment. Battery-to-inverter leads, motor phase cables, charging interconnections and auxiliary feeds are related but different assemblies. A project may need shielded single-core cable, multi-core cable, a panel interface or a protected branch with a low-voltage interlock loop. Orange identification alone does not establish a voltage rating or a safe installation. We first review the circuit, mating interfaces, operating environment and verification requirements, then confirm whether the materials, tooling and production controls match that specific project.",
+      "zh": "高压线束连接电气化车辆的储能与能量转换设备。电池至逆变器连接线、电机相线、充电连接线和高压附件馈线相互关联，但不是同一种组件。项目可能需要屏蔽单芯线、多芯线、穿板接口，或带低压互锁回路的受保护分支。橙色标识本身不能证明额定电压或安装安全。我们先审核回路、对插接口、运行环境和验证要求，再确认材料、工装与生产控制是否适合具体项目。"
+    },
+    "images": {
+      "hero": "/assets/images/product-categories/stock/high-voltage/hero.jpg",
+      "range": "/assets/images/product-categories/stock/high-voltage/range.jpg"
+    },
+    "openingCaption": {
+      "en": "Electric-vehicle chassis exhibit: energy storage, structure and cable routes must be coordinated.",
+      "zh": "电动车底盘展品：储能、车体结构与线缆路线需要协调设计。"
+    },
+    "chapters": [
+      {
+        "id": "advantages",
+        "style": "wide",
+        "title": {
+          "en": "Product Advantages",
+          "zh": "产品优势"
+        },
+        "copy": {
+          "en": "An engineered assembly controls cable length, bend direction, support positions and connector access as one installation. A short auxiliary feed for an electric compressor does not have the same duty as a traction inverter link. Lower circuit resistance can reduce loss, but simply increasing conductor size may compromise the terminal, seal or bending space. Defined variants allow a platform to use different cable lengths or connector orientations without losing traceability. Our review separates electrical performance from packaging convenience: a harness that fits physically still needs the correct current profile, voltage class, insulation system and component documentation.",
+          "zh": "工程化组件把电缆长度、弯曲方向、支撑位置和接头操作空间作为一个安装整体控制。电动压缩机的短附件馈线，与牵引逆变器连接线承担不同的任务。降低回路电阻有助于减少损耗，但单纯加粗导体可能破坏端子、密封或弯曲空间的匹配。通过明确的变型资料，同一平台可以采用不同长度或接头方向，同时保持版本可追溯。审核时需把电气性能与空间便利分开：能够装进去的线束，仍需匹配电流曲线、电压类别、绝缘体系及元件资料。"
+        },
+        "caption": {
+          "en": "A hybrid engine bay illustrates the restricted space around power-conversion equipment.",
+          "zh": "混合动力机舱说明功率变换设备周围的安装空间限制。"
+        },
+        "image": "/assets/images/product-categories/stock/high-voltage/advantages.jpg"
+      },
+      {
+        "id": "wire",
+        "style": "inset-left",
+        "title": {
+          "en": "Material Recommendation: EV High-Voltage Wire",
+          "zh": "材料建议：电动车高压线材"
+        },
+        "copy": {
+          "en": "Conductor material and cross-section are selected with continuous current, short-duration peaks, route length, bundling and ambient temperature. Copper and aluminum need different compatible termination systems. XLPE, silicone and other insulation families have grade-specific thermal, mechanical and fluid-resistance properties; a polymer name is not a complete cable specification. Record conductor construction, insulation thickness, overall diameter, minimum bend radius and required evidence. ISO 19642 includes automotive cable construction and test documents, with separate parts for voltage class, material and configuration. The agreed edition and applicable part belong in the purchase specification, not a blanket statement that every orange cable is compliant.",
+          "zh": "导体材料与截面需要结合连续电流、短时峰值、路线长度、成束状态和环境温度选择。铜与铝需要不同的兼容端接体系。XLPE、硅橡胶等绝缘材料的热、机械和耐液体性能取决于具体等级；材料名称不是完整电缆规格。资料应明确导体结构、绝缘厚度、总外径、最小弯曲半径及所需证据。ISO 19642 系列包含汽车电缆结构和试验文件，不同电压类别、材料与配置对应不同分册。采购规格应写明约定版本与适用分册，而不能笼统宣称所有橙色电缆均符合标准。"
+        },
+        "caption": {
+          "en": "An EV charging-cable cross-section illustrates conductor and insulation layers, not a rating for a traction harness.",
+          "zh": "电动车充电电缆截面说明导体与绝缘层结构，不代表牵引线束的额定参数。"
+        },
+        "image": "/assets/images/product-categories/stock/high-voltage/wire.jpg"
+      },
+      {
+        "id": "protection",
+        "style": "compact",
+        "title": {
+          "en": "Corrugated and Heat-Shrink Protection",
+          "zh": "波纹管与热缩防护"
+        },
+        "copy": {
+          "en": "External sleeving manages abrasion, local heat and contact with brackets; it does not replace the cable's electrical insulation. A split corrugated tube is not a watertight conduit. Heat-shrink and adhesive-lined products require a compatible substrate, diameter range and process, while sharp edges may need a grommet or a separate barrier. Position sleeves so that connector seals and latches remain accessible. Protection must not conceal damaged insulation or become the only support for a heavy cable. Water paths, drainage and strain relief are reviewed together, particularly where a cable enters a battery enclosure or passes through a body panel.",
+          "zh": "外部套管用于管理摩擦、局部热源及与支架的接触，不能替代电缆自身的电气绝缘。开口波纹管并不是水密导管。热缩和带胶产品需要匹配基材、直径范围与加工条件；锐利边缘可能还需要护线圈或独立隔离件。套管位置应保留密封和锁扣的操作空间。防护层不能用于掩盖绝缘损伤，也不应成为重电缆的唯一支撑。电缆进入电池外壳或穿过车身板时，需要共同审核进水路径、排水条件和应力释放。"
+        },
+        "caption": {
+          "en": "Heat-shrink tubing illustrates local sleeving; material and adhesive selection remain project-specific.",
+          "zh": "热缩管说明局部套管防护，材料与胶层仍需按项目选择。"
+        },
+        "image": "/assets/images/product-categories/stock/high-voltage/protection.jpg"
+      },
+      {
+        "id": "connectors",
+        "style": "feature-right",
+        "title": {
+          "en": "Connectors and Copper Lug Terminals",
+          "zh": "连接器与铜端子"
+        },
+        "copy": {
+          "en": "A connector specification includes the exact plug, header, contacts, seals, shield parts and locking configuration. TE AMP+ HVA 280, HVA 1200 and Amphenol ePower are examples of different high-voltage interconnect families, not mutually interchangeable names. Verify the manufacturer drawing and application specification for the chosen variant rather than transferring a headline rating from another wire size. Lug and busbar interfaces also need defined contact surfaces, fastening details and insulation clearances. Original components or any proposed alternative must be identified explicitly in the quotation and bill of materials. Listing a brand does not indicate manufacturer authorization or approval of our finished assembly.",
+          "zh": "连接器规格应包含准确的插头、座端、接点、密封件、屏蔽零件与锁止配置。TE AMP+ HVA 280、HVA 1200 和 Amphenol ePower 是不同高压互连系列的例子，名称之间不能互换。选定变型后，应核对制造商图纸与应用规范，不能把其他线径的宣传额定值直接移用。铜端子与母排接口同样需要明确接触面、紧固要求和绝缘间距。原厂物料或拟采用的替代方案均应在报价和物料清单中说明。列出品牌不表示厂家授权，也不表示对方已认可我们的成品组件。"
+        },
+        "caption": {
+          "en": "A small crimped ring terminal illustrates barrel and palm geometry; high-voltage lugs need their own approved specification.",
+          "zh": "小型压接环形端子说明压接筒与安装掌面的结构，高压铜端子需另行确认适用规格。"
+        },
+        "image": "/assets/images/product-categories/stock/high-voltage/connectors.jpg"
+      },
+      {
+        "id": "solutions",
+        "style": "wide",
+        "title": {
+          "en": "Solution: High-Voltage Interconnection Harness",
+          "zh": "解决方案：高压互连线束"
+        },
+        "copy": {
+          "en": "Begin with the power architecture: battery output, distribution, inverter, charger and auxiliary loads. The branch for a heater or DC/DC converter may need different wire, shielding and protection from the main traction link. Record polarity or phase identity, connector orientation, separation from low-voltage circuits and the service envelope. A busbar-to-cable transition requires its own support and insulation review. Samples help establish geometry but cannot reveal every hidden function. We use customer-approved electrical data and installation references to define the assembly; the vehicle's contactor, precharge and protection strategy remains part of the wider system design.",
+          "zh": "首先确认动力架构：电池输出、配电、逆变器、充电机与附件负载。加热器或 DC/DC 转换器分支所需的线材、屏蔽和保护，可能与主牵引连接不同。资料需注明极性或相别、接头方向、与低压回路的隔离及检修空间。母排转接电缆的位置需要独立的支撑与绝缘审核。样品能够提供几何参考，但不能揭示所有隐藏功能。我们依据客户批准的电气资料和安装参考定义组件；车辆接触器、预充与故障保护策略仍属于更大范围的系统设计。"
+        },
+        "caption": {
+          "en": "A Prius conversion battery installation illustrates system packaging, not a recommended retrofit.",
+          "zh": "Prius 改装电池安装照片用于说明系统布置，不构成改装建议。"
+        },
+        "image": "/assets/images/product-categories/stock/high-voltage/solutions.jpg"
+      },
+      {
+        "id": "applications",
+        "style": "inset-right",
+        "title": {
+          "en": "Industries and Applications",
+          "zh": "行业与应用"
+        },
+        "copy": {
+          "en": "Electric cars use compact links around batteries, chargers and drive units. Electric trucks and buses add longer routes, higher vibration exposure and intensive duty cycles. Off-road machinery introduces contamination and protected service access; stationary energy equipment changes mounting, maintenance and installation rules. These application families are useful starting points, not a universal approval list. Railway, marine, aerospace and defense work requires a separate review of applicable standards, material traceability, testing and supplier qualification. A road-vehicle connector or cable document alone does not establish suitability for those sectors.",
+          "zh": "电动乘用车需要在电池、充电机和驱动单元周围布置紧凑连接。电动卡车与客车增加了长距离走线、较强振动及密集工作周期。非道路机械还涉及污染和受保护的检修位置；固定式能源设备则改变了安装、维护与适用规则。这些应用类别是需求讨论的起点，并不是通用认可清单。轨道、船舶、航空航天和军用项目需要单独审核适用标准、材料追溯、测试及供应商资质，仅有道路车辆的接头或线材文件，不能证明适用于上述行业。"
+        },
+        "caption": {
+          "en": "Electric buses provide an application context for power distribution and auxiliary feeds.",
+          "zh": "电动客车体现动力分配与辅助供电的应用场景。"
+        },
+        "image": "/assets/images/product-categories/stock/high-voltage/applications.jpg"
+      },
+      {
+        "id": "process",
+        "style": "process",
+        "title": {
+          "en": "Manufacturing and Shipping Process",
+          "zh": "制造与交付流程"
+        },
+        "copy": {
+          "en": "Engineering review first defines circuit identity, dimensions, component sources and inspection criteria. Process preparation then confirms stripping limits, termination tooling, shield preparation and assembly sequence against the applicable component instructions. Prototype evaluation addresses fit, locking, cable support and agreed electrical checks before a repeat-production version is released. Production records link the build to its drawing and material revision. Packaging protects exposed contacts, seals and minimum bend radii. Special tests, third-party validation and customer approvals are identified in the project plan rather than described as routine completed results for every order.",
+          "zh": "工程审核先确定回路标识、尺寸、物料来源与检验条件。工艺准备再依据适用的元件说明，确认剥切限制、端接工具、屏蔽处理和装配顺序。样件在量产版本放行前评估空间配合、锁止、支撑及约定电气项目。生产记录应能够关联图纸和物料版本。包装需要保护外露接点、密封件与最小弯曲半径。特殊测试、第三方验证及客户批准应在项目计划中明确，而不是写成每个订单都已经完成的常规结果。"
+        },
+        "caption": {
+          "en": "Crimp comparison: the source identifies the left impression as insufficient and the right as correctly formed. Tooling matters.",
+          "zh": "压接对比：原图指出左侧压痕不足，右侧成形正确，说明工装匹配的重要性。"
+        },
+        "image": "/assets/images/product-categories/stock/high-voltage/process.jpg"
+      },
+      {
+        "id": "thermal",
+        "style": "wide",
+        "title": {
+          "en": "Thermal and Voltage Management",
+          "zh": "温升与电压管理"
+        },
+        "copy": {
+          "en": "Current produces heating in the conductor and contact interfaces; insulation and nearby components constrain the acceptable temperature. Review the actual duty cycle and installation instead of treating a free-air connector rating as a sealed-enclosure rating. Voltage loss depends on the complete circuit resistance, including terminations. Voltage class also concerns insulation coordination and separation, not simply thicker copper. A temperature sensor or monitoring lead can be included only when its location, interface and control function are defined. The harness itself does not automatically switch off an overheating system unless a separately specified device and control architecture provide that function.",
+          "zh": "电流会使导体与接触界面发热，绝缘和邻近元件限制了可接受温度。应按实际工作周期与安装状态审核，不能把自由空气中的接头额定值当作密闭箱体中的额定值。压降取决于包含端接位置在内的完整回路电阻。电压类别还涉及绝缘配合与间距，并不是铜更粗就能解决。只有明确了位置、接口及控制功能，才能加入温度传感器或监测引线。除非另行规定的器件与控制架构提供该功能，线束本身不会在系统过热时自动断电。"
+        },
+        "caption": {
+          "en": "Motor thermography illustrates uneven heat distribution; it is not a test result for this harness.",
+          "zh": "电机热像说明温度分布不均，不是本页线束的测试结果。"
+        },
+        "image": "/assets/images/product-categories/stock/high-voltage/thermal.jpg"
+      },
+      {
+        "id": "emi",
+        "style": "feature-left",
+        "title": {
+          "en": "Shielding Against EMI and Electrical Noise",
+          "zh": "EMI 与电气噪声屏蔽"
+        },
+        "copy": {
+          "en": "Fast inverter switching can couple noise into nearby circuits. Cable braid or foil is only part of the answer: the shield needs a controlled termination at the connector and equipment boundary. Exposed lengths, discontinuities and poorly supported shield contacts can reduce performance. The chosen grounding strategy, route separation and enclosure connections are reviewed with the system EMC requirements. A continuity reading across a shield does not describe its high-frequency transfer behavior. Likewise, shielding is not a replacement for insulation, sealing or fault protection. EMC evidence must relate to the actual assembly and installation, not just the presence of a metal braid.",
+          "zh": "逆变器的快速开关可能向邻近回路耦合噪声。编织或箔屏蔽只是解决方案的一部分，屏蔽层还需要在连接器与设备边界形成受控端接。外露长度、不连续位置和缺少支撑的屏蔽接点都可能影响效果。接地策略、线路隔离与壳体连接应结合系统 EMC 要求审核。测得屏蔽层导通，并不能说明其高频传输特性。同样，屏蔽不能代替绝缘、密封或故障保护。EMC 证据必须对应实际组件与安装，而不是仅凭存在一层金属编织网。"
+        },
+        "caption": {
+          "en": "Braid on a coaxial cable illustrates a conductive shield layer, not a high-voltage cable specification.",
+          "zh": "同轴电缆上的编织网用于说明导电屏蔽层，不是高压电缆规格。"
+        },
+        "image": "/assets/images/product-categories/stock/high-voltage/emi.jpg"
+      },
+      {
+        "id": "hvil",
+        "style": "compact",
+        "title": {
+          "en": "Safety, Interlock and Project Validation",
+          "zh": "安全、互锁与项目验证"
+        },
+        "copy": {
+          "en": "HVIL uses a separate low-voltage monitoring path to help detect an open or improperly connected high-voltage interface. The response depends on the vehicle controller and contactor strategy; a closed loop is not proof that the circuit is de-energized. Connector position assurance, touch protection and mechanical coding address different risks and should not be confused. Validation may include circuit mapping, isolation, contact resistance, dielectric checks and specified environmental conditioning under an approved plan. Tests involving energized high-voltage equipment require qualified personnel and the equipment's safety procedure. This overview does not authorize bypassing an interlock or working on a live traction circuit.",
+          "zh": "HVIL 通过独立的低压监测路径，帮助识别高压接口断开或连接异常。系统如何响应，取决于车辆控制器和接触器策略；互锁回路闭合不能证明高压回路已经断电。连接位置保证、防触电与机械防错针对不同风险，不能混为一谈。验证可能包含回路映射、隔离、接触电阻、介电检查及规定的环境处理，均需按批准计划执行。涉及带电高压设备的试验需要合格人员和设备规定的安全程序。本页不授权绕过互锁，也不是牵引高压回路的带电作业指导。"
+        },
+        "caption": {
+          "en": "NASA motor-controller thermal research illustrates controlled engineering validation, not company testing or HVIL certification.",
+          "zh": "NASA 电机控制器热研究说明受控工程验证，不代表本公司试验或互锁认证。"
+        },
+        "image": "/assets/images/product-categories/stock/high-voltage/hvil.jpg"
+      }
+    ],
+    "composition": [
+      {
+        "kind": "single",
+        "items": [
+          0
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          3
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          4
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          5
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          6
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          7,
+          8
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          9
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": {
+          "en": "Does orange insulation prove an 800 V rating?",
+          "zh": "橙色绝缘就代表可以用于 800 V 吗？"
+        },
+        "a": {
+          "en": "No. Identification color is separate from voltage rating. Confirm the cable and connector variants, insulation coordination and the project's verification requirements.",
+          "zh": "不是。识别颜色与额定电压是不同概念，需要确认线材和接头变型、绝缘配合及项目验证要求。"
+        }
+      },
+      {
+        "q": {
+          "en": "Can the same harness serve every EV platform?",
+          "zh": "同一套线束可以适配所有电动车平台吗？"
+        },
+        "a": {
+          "en": "No. Current duty, interfaces, control functions, route and environment change by platform. A similar-looking connector does not establish interchangeability.",
+          "zh": "不能。电流任务、接口、控制功能、走线和环境随平台变化，外观相似的接头并不代表可以互换。"
+        }
+      },
+      {
+        "q": {
+          "en": "What should be supplied for engineering review?",
+          "zh": "工程审核需要提供哪些资料？"
+        },
+        "a": {
+          "en": "Provide system voltage, current profile, circuit and interface drawings, route dimensions, environmental requirements, quantity and the required test or approval documents.",
+          "zh": "请提供系统电压、电流曲线、回路与接口图、路线尺寸、环境要求、数量以及所需试验或批准文件。"
+        }
+      },
+      {
+        "q": {
+          "en": "Does this page claim vehicle or functional-safety certification?",
+          "zh": "本页是否代表已获得整车或功能安全认证？"
+        },
+        "a": {
+          "en": "No. Component references and project-review capability are not finished-harness or vehicle certification. Applicable evidence and responsibilities must be agreed for each project.",
+          "zh": "不代表。元件资料与项目审核能力不等于成品线束或整车认证，适用证据与责任需要按项目约定。"
+        }
+      }
+    ],
+    "creditHeading": {
+      "en": "Photo credits and technical references",
+      "zh": "图片来源与技术参考"
+    },
+    "mediaCredits": [
+      {
+        "file": "Cabling of an electric vehicle.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Cabling_of_an_electric_vehicle.jpg",
+        "author": "Votpuske",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "BMW i3 Chassis.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:BMW_i3_Chassis.jpg",
+        "author": "Edgar Jiménez from Milton Keynes, UK",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      {
+        "file": "Hybrid Engine - 2012 Toyota Prius V (8228834228).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Hybrid_Engine_-_2012_Toyota_Prius_V_(8228834228).jpg",
+        "author": "Michael Sheehan",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      {
+        "file": "Cross-cut of an electric vehicle charging cable.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Cross-cut_of_an_electric_vehicle_charging_cable.jpg",
+        "author": "Votpuske",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "Heat-shrink tubing.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Heat-shrink_tubing.jpg",
+        "author": "oomlout",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      {
+        "file": "Kabelschuh detailfoto 1.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Kabelschuh_detailfoto_1.jpg",
+        "author": "Hundehalter",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      {
+        "file": "Toyota Prius plug-in conversion battery pack.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Toyota_Prius_plug-in_conversion_battery_pack.jpg",
+        "author": "Plug In America",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      {
+        "file": "CRRC electric bus C12.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:CRRC_electric_bus_C12.jpg",
+        "author": "Spielvogel",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "file": "Krimp verbinding 70mm².jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Krimp_verbinding_70mm%C2%B2.jpg",
+        "author": "Fluppe37",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      {
+        "file": "Electric motor thermal image.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Electric_motor_thermal_image.jpg",
+        "author": "Zaereth",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "file": "Coaxial cable braided wire.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Coaxial_cable_braided_wire.jpg",
+        "author": "Wtshymanski",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "X-57 Cruise Motor Controller Thermal Testing (41dc7b06-1ba9-410e-bd53-d74686b90abf).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:X-57_Cruise_Motor_Controller_Thermal_Testing_(41dc7b06-1ba9-410e-bd53-d74686b90abf).jpg",
+        "author": "NASA/Jef Janis",
+        "license": "Public domain"
+      },
+      {
+        "file": "ISO 19642-9:2019 — automotive cable construction",
+        "url": "https://www.iso.org/standard/66307.html",
+        "author": "ISO",
+        "license": "Technical reference; no certification or affiliation claim"
+      },
+      {
+        "file": "AMP+ HVA 280 connectors and headers",
+        "url": "https://www.te.com/en/products/connectors/automotive-connectors/intersection/amp-low-medium-current-connectors-and-headers-hva-280.html",
+        "author": "TE Connectivity",
+        "license": "Technical reference; no certification or affiliation claim"
+      },
+      {
+        "file": "HVA 1200 connector system",
+        "url": "https://www.te.com/en/products/connectors/automotive-connectors/intersection/hva1200.html",
+        "author": "TE Connectivity",
+        "license": "Technical reference; no certification or affiliation claim"
+      },
+      {
+        "file": "ePower connector family",
+        "url": "https://amphenol-industrial.com/products/epower/",
+        "author": "Amphenol Industrial",
+        "license": "Technical reference; no certification or affiliation claim"
+      },
+      {
+        "file": "HVIL connector architecture",
+        "url": "https://www.te.com/en/products/connectors/automotive-connectors/intersection/hva-hd-accessories.html?tab=pgp-story",
+        "author": "TE Connectivity",
+        "license": "Technical reference; no certification or affiliation claim"
+      }
+    ]
+  }
+}

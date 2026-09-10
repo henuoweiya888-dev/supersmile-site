@@ -1,0 +1,34 @@
+// Print a narrowly scoped patch. The caller reviews and applies it with apply_patch.
+// Never regenerate older approved pages with the legacy all-category builder.
+import fs from 'node:fs';
+import vm from 'node:vm';
+import path from 'node:path';
+const draftPath=process.argv[2];
+if(!draftPath)throw new Error('Expected one reviewed draft JSON path');
+const d=JSON.parse(fs.readFileSync(draftPath,'utf8'));
+if(!d.slug||!d.key||!d.page?.chapters?.length)throw new Error('Incomplete category draft');
+const esc=v=>String(v??'').replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;').replaceAll("'",'&#39;');
+const js=fs.readFileSync('assets/js/main.js','utf8');
+const context=vm.createContext({LANG:'en',t:v=>typeof v==='string'?v:(v?.en??''),htmlEscape:esc});
+vm.runInContext(js.slice(js.indexOf('function renderProductCategoryRichMarkup('),js.indexOf('function renderProductCategoryPage(')),context);
+const body=context.renderProductCategoryRichMarkup(d.page,d.title.en);
+let html=fs.readFileSync('products/battery-jump-cable.html','utf8');
+html=html.replace(/<div id="pcc-rich-content">[\s\S]*?(?=\n  <section class="pcc-closing")/,`<div id="pcc-rich-content">${body}</div>`);
+html=html.replaceAll('battery-jump-cable',d.slug).replaceAll('automotive-10',d.key).replaceAll('Battery Jump Cable',esc(d.title.en)).replaceAll('Battery%20Jump%20Cable',encodeURIComponent(d.title.en));
+html=html.replace(/<title>.*?<\/title>/,`<title>${esc(d.seoTitle||d.title.en+' | Materials, Interfaces & Engineering | Super Smile')}</title>`);
+html=html.replace(/(<meta name="description" content=")[^"]*/,`$1${esc(d.intro.en)}`);
+for(const prop of ['og:title','og:description'])html=html.replace(new RegExp(`(<meta property="${prop}" content=")[^"]*`),`$1${esc(prop==='og:title'?d.title.en+' | Super Smile':d.intro.en)}`);
+html=html.replace(/(<meta property="og:image" content=")[^"]*/,`$1https://supersmile-tech.com${d.page.images.hero}`);
+html=html.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/g,'');
+const schema={'@context':'https://schema.org','@graph':[{'@type':'WebPage','name':d.title.en,'url':'https://supersmile-tech.com/products/'+d.slug,'description':d.intro.en},{'@type':'FAQPage','mainEntity':d.page.faq.map(f=>({'@type':'Question','name':f.q.en,'acceptedAnswer':{'@type':'Answer','text':f.a.en}}))}]};
+html=html.replace('</head>',`<script type="application/ld+json">${JSON.stringify(schema).replaceAll('<','\\u003c')}</script>\n</head>`);
+html=html.replace(/<script>window.SS_PRODUCT_CATEGORY=.*?<\/script>/,`<script>window.SS_PRODUCT_CATEGORY=${JSON.stringify({key:d.key,image:d.page.images.hero})};</script>`);
+html=html.replace(/data-category-key="[^"]+"/,`data-category-key="${d.key}" data-category-layout="${d.page.layout}"`);
+html=html.replace(/<p id="pcc-intro">.*?<\/p>/,`<p id="pcc-intro">${esc(d.intro.en)}</p>`);
+html=html.replace(/(<img id="pcc-hero-image" src=")[^"]*/,`$1${d.page.images.hero}`).replace(/(<img id="pcc-hero-image"[^>]* alt=")[^"]*/,`$1${esc(d.title.en+' application reference')}`);
+html=html.replace(/href="\/assets\/css\/battery-link-editorial.css[^"]*"/,`href="/assets/css/technical-editorial.css?v=20260910-1"`);
+html=html.replace(/main.js\?v=[^"]+/,'main.js?v=20260910-'+d.slug+'-1');
+const file='products/'+d.slug+'.html';
+const old=fs.existsSync(file)?fs.readFileSync(file,'utf8'):null;
+const patchFile=(name,old,next)=>old===null?`*** Add File: ${path.resolve(name)}\n+${next.trimEnd().split('\n').join('\n+')}\n`:`*** Update File: ${path.resolve(name)}\n@@\n-${old.trimEnd().split('\n').join('\n-')}\n+${next.trimEnd().split('\n').join('\n+')}\n`;
+console.log('*** Begin Patch\n'+patchFile(file,old,html)+'*** End Patch');
