@@ -3,6 +3,7 @@
 @charset "UTF-8";
 
 :root{
+  --v2-mobile-gutter:16px;
   --v2-carbon:#080a0b;
   --v2-carbon-2:#111416;
   --v2-bone:#f1efe9;
@@ -3784,4 +3785,9 @@ body[data-category-key="automotive-02"] .pcc-hero-media img{object-position:54% 
   .pcc-ecu-chapter>.pcc-ecu-media,.pcc-ecu-chapter:nth-child(even)>.pcc-ecu-media{grid-column:1;grid-row:auto;height:180px;min-height:0;margin-inline:calc(var(--v2-mobile-gutter)*-1)}
   .pcc-ecu-chapter>.pcc-ecu-copy,.pcc-ecu-chapter:nth-child(even)>.pcc-ecu-copy{grid-column:1;grid-row:auto;padding:18px 0 0}
   .pcc-ecu-summary{font-size:12.7px}.pcc-ecu-points{grid-template-columns:1fr;gap:12px;margin-top:14px}
+}
+
+/* Opening photographs already occupy the viewport; only inset chapter media bleed. */
+@media(max-width:640px){
+  .pcc-rich-page [class$="-opening"]>figure{margin-inline:0;width:100%;align-self:stretch}
 }
