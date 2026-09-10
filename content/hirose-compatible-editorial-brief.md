@@ -1,6 +1,6 @@
 # Hirose compatible assemblies — research and editorial checkpoint
 
-Status: Hirose local EN/ZH QA passed at 1280, 390 and 320px; desktop/mobile screenshots inspected. Key connector-systems-07; slug hirose-compatible. Local navigation reports 48 active / 35 pending in six groups. Public deployment verification is pending; do not report this as publicly available yet.
+Status: PUBLISHED and publicly verified after commit a9cc651 on 2026-09-10. Hirose local EN/ZH QA passed at 1280, 390 and 320px; public EN/ZH QA passed at 1280 and 390px, with actual desktop/mobile screenshots inspected. Key connector-systems-07; slug hirose-compatible. Public navigation reports 48 active / 35 pending in six groups. Next sequence entry: connector-systems-08 (JAE compatible), still inactive.
 
 ## Purpose and design
 
@@ -60,7 +60,7 @@ Finalize the bilingual chapters before image selection. Every small heading need
 
 ## Next execution step
 
-Complete local/public EN/ZH desktop/mobile QA, publish the narrowly scoped Hirose change, and verify the live menu entry. Do not change other inactive categories or unrelated dirty files.
+Hirose work is complete. Continue with JAE when requested: verify its corresponding reference outline and current official connector documentation, then original copy, independent photographs, category-specific composition and local/public QA. Preserve unrelated dirty files. Do not regenerate earlier approved pages through the legacy all-category builder.
 
 ## Implementation checkpoint
 
@@ -71,7 +71,7 @@ Complete local/public EN/ZH desktop/mobile QA, publish the narrowly scoped Hiros
 
 ## Additional technical sources
 
-Local QA: 36 chapters, 37 content figures plus hero; no broken images, overflow, script errors or image-edge failures. Fixed header, language-specific inquiry/back links and FAQ interaction passed. Desktop hover and mobile menu expansion passed; pending entries remain nonlinks. The QA helper now bounds image readiness and checks content photos instead of awaiting hidden language-menu SVG decode indefinitely. Lighthouse is not installed in the bundled runtime; no Lighthouse score is claimed.
+Local and final public QA: 36 chapters, 37 content figures plus hero; no broken images, overflow, script errors or image-edge failures. Fixed header, language-specific inquiry/back links and FAQ interaction passed. Desktop hover and mobile menu expansion passed; pending entries remain nonlinks. Public checks initially observed old fallback HTML and transient image loads during rollout; a fresh complete four-state rerun passed, and hero returned HTTP 200 image/jpeg. Previous Amphenol category also passed local desktop/mobile EN/ZH regression checks. The QA helper now bounds image readiness and checks content photos instead of awaiting hidden language-menu SVG decode indefinitely. Lighthouse is not installed in the bundled runtime; no Lighthouse score is claimed.
 
 - https://www.hirose.com/en/product/application/Smart-Grid_Smart-Meters
 - https://www.hirose.com/en/product/pr/Signal_Bee/

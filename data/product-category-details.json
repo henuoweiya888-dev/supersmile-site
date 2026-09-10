@@ -1,4 +1,910 @@
 {
+  "connector-systems-08": {
+    "title": {
+      "en": "JAE Compatible Cable Assemblies",
+      "zh": "JAE 兼容电缆组件"
+    },
+    "intro": {
+      "en": "Custom JAE-interface wiring for vehicle controls, displays and equipment modules, with defined pinouts, materials and inspection.",
+      "zh": "定制 JAE 接口布线，覆盖车载控制、显示及设备模块，明确针脚、材料和检验。"
+    },
+    "knowledge": {
+      "en": "Match the complete connector series, mating pair and application requirements.",
+      "zh": "匹配完整接头系列、对插件及应用要求。"
+    },
+    "notes": {
+      "en": "Supply part numbers, pinout, dimensions, environment and required evidence.",
+      "zh": "提供料号、针脚、尺寸、环境及所需证据。"
+    },
+    "delivery": {
+      "en": "Review materials and drawings, approve samples, then release controlled production.",
+      "zh": "审核材料与图纸，认可样品后放行受控生产。"
+    },
+    "page": {
+      "layout": "technical-editorial",
+      "theme": "jae-system",
+      "displayTitle": {
+        "en": "JAE Compatible Cable Assemblies",
+        "zh": "JAE 兼容电缆组件"
+      },
+      "headings": {
+        "introduction": {
+          "en": "JAE Harnesses: Interfaces and Engineering",
+          "zh": "JAE 线束：接口与工程"
+        },
+        "faq": {
+          "en": "Selection and Ordering Questions",
+          "zh": "选型与订购问题"
+        }
+      },
+      "subtitle": {
+        "en": "From connector identification to a repeatable assembly",
+        "zh": "从接头识别到可重复制作的组件"
+      },
+      "lead": {
+        "en": "JAE wiring covers many constructions: non-sealed vehicle controls, sealed board connections, display cables and compact equipment interconnects. The right assembly starts with the actual mating parts and circuit requirements, not a generic brand label. This guide explains interface choices, materials, installation and validation so that procurement and engineering can define the same build. Super Smile reviews project-specific harnesses from drawings, samples and confirmed connector references.",
+        "zh": "JAE 布线涵盖非密封车载控制、密封板端连接、显示线及紧凑设备互连等多种结构。正确组件始于实际对插件与回路要求，而非笼统品牌标签。以下介绍接口选择、材料、安装及验证，帮助采购与工程共同定义一致的产品。超斯迈尔根据图纸、样品和明确接头料号审核项目定制线束。"
+      },
+      "images": {
+        "hero": "/assets/images/product-categories/stock/jae/hero.jpg",
+        "range": "/assets/images/product-categories/stock/jae/opening.jpg"
+      },
+      "openingCaption": {
+        "en": "JAE D03 SIO connectors: a brand reference, not an MX or FI series identification.",
+        "zh": "JAE D03 SIO 接头实拍：品牌接口参考，并非 MX 或 FI 系列。"
+      },
+      "chapters": [
+        {
+          "id": "range",
+          "title": {
+            "en": "JAE Connectors: Start with the Complete Interface",
+            "zh": "JAE 连接器：从完整接口开始"
+          },
+          "copy": {
+            "en": "Japan Aviation Electronics Industry supplies many connector families, not one interchangeable interface. A JAE cable assembly can connect a PCB, display, sensor or removable equipment module. Identify the housing, contact, mating header and locking arrangement together. Super Smile reviews cable length, circuit mapping, protection and assembly instructions against that interface. Original-brand parts and proposed alternatives must be distinguished in the approved bill of materials.",
+            "zh": "日本航空电子工业 JAE 提供多个连接器系列，并非一种通用接口。JAE 电缆组件可连接电路板、显示屏、传感器或可拆卸设备模块。选型时应同时识别壳体、端子、对插针座和锁紧方式。超斯迈尔围绕明确的接口审核线长、回路映射、防护及组装要求，原品牌物料与拟用替代件须在认可物料表中区分。"
+          },
+          "style": "inset-left",
+          "image": "/assets/images/product-categories/stock/jae/range.jpg",
+          "caption": {
+            "en": "Open server hardware illustrates the variety of internal equipment connections.",
+            "zh": "开放式服务器硬件，说明设备内部连接的多样性。"
+          }
+        },
+        {
+          "id": "mx34",
+          "title": {
+            "en": "MX34: Non-Waterproof Vehicle Wiring",
+            "zh": "MX34：非防水车载连接"
+          },
+          "copy": {
+            "en": "MX34 is a high-density, non-waterproof automotive connector family. Board and in-line configurations support different packaging arrangements; straight and right-angle headers are not equivalent cable exits. In a body controller or protected switch assembly, verify connector access after the enclosure closes. Record cavity numbering from the specified mating view, terminal retention and wire dressing. A vehicle application alone does not establish water resistance.",
+            "zh": "MX34 是高密度、非防水车载连接器系列。板端与线间配置适应不同布置，直式和弯式针座也意味着不同出线方向。用于车身控制器或受保护的开关总成时，应检查外壳闭合后的接插空间，并按规定的配合面视图记录孔位、端子保持和理线方式。用于汽车并不等于具备防水能力。"
+          },
+          "style": "wide",
+          "image": "/assets/images/product-categories/stock/jae/mx34.jpg",
+          "caption": {
+            "en": "Protected cabin controls illustrate an internal vehicle installation zone, not a specific connector fitment.",
+            "zh": "座舱控制部件用于说明车内安装区域，不代表该车型使用指定接头。"
+          }
+        },
+        {
+          "id": "mx23a",
+          "title": {
+            "en": "MX23A: Sealing Is a Complete Assembly",
+            "zh": "MX23A：密封依赖完整组装"
+          },
+          "copy": {
+            "en": "MX23A waterproof board-to-cable connections use sealing features at both the mating interface and wire entry. The sealing ring, rear grommet and specified plugs for unused cavities are part of the system. Match wire outside diameter and front-cap configuration, not only conductor size and pin count. Assembly damage, an unfilled cavity or strain at the cable exit can compromise the intended seal. Agree the finished-assembly exposure and acceptance test separately.",
+            "zh": "MX23A 防水板对线连接需要同时处理配合面与进线端密封。密封圈、后部护线密封件及空孔指定堵头属于完整系统。匹配时不能只看导体截面与针数，还须确认线缆外径和前盖配置。装配损伤、遗漏堵头或出线端受拉都可能影响密封；成品承受的环境与验收试验应另行明确。"
+          },
+          "style": "feature-left",
+          "image": "/assets/images/product-categories/stock/jae/mx23a.jpg",
+          "caption": {
+            "en": "Rain at a vehicle window illustrates exposure to water, not a harness ingress test.",
+            "zh": "车窗雨滴说明水环境暴露，并非线束防水试验。"
+          }
+        },
+        {
+          "id": "ilag5",
+          "title": {
+            "en": "IL-AG5: Retention and Service Access",
+            "zh": "IL-AG5：端子保持与维护空间"
+          },
+          "copy": {
+            "en": "The 2.5mm-pitch IL-AG5 family includes board-to-cable and cable-to-cable connections. Its terminal-retention and mechanical-locking features must be used with the correct components. Do not infer compatibility from pitch alone: housing shape, contact geometry and polarization also matter. Define where a technician can press the latch and pull the housing, without loading the wires. A service loop should help disconnection without allowing the harness to rub against nearby parts.",
+            "zh": "2.5mm 间距 IL-AG5 系列包括板对线及线对线连接，端子保持和机械锁紧结构须与正确配套件共同使用。相同间距不代表可互换，还要核对壳体形状、端子几何和防错方向。设计时明确人员如何按下锁扣并抓住壳体拔出，而不是拉扯电线。维护余量既要方便拆装，也应避免线束磨擦邻近零件。"
+          },
+          "style": "compact",
+          "image": "/assets/images/product-categories/stock/jae/ilag5.jpg",
+          "caption": {
+            "en": "Wiring inside a small enclosure illustrates the need for accessible connections and support.",
+            "zh": "小型外壳内部布线，说明连接操作空间与支撑的重要性。"
+          }
+        },
+        {
+          "id": "display",
+          "title": {
+            "en": "FI and FI-X Display Connections",
+            "zh": "FI 与 FI-X 显示连接"
+          },
+          "copy": {
+            "en": "FI and FI-X are separate connector families. JAE describes FI-X as a 1.0mm-pitch LCD interface with a metal shell and differential-transmission design. The cable still needs the correct lane assignment, grounds, shielding and termination. A connector catalogue impedance is not a measurement of the complete harness. Review the board connector drawing and display pinout together; similar-looking display plugs can place supply voltage on different positions.",
+            "zh": "FI 与 FI-X 是不同系列。JAE 将 FI-X 定义为带金属外壳、适用于差分传输的 1.0mm 间距 LCD 接口。完整线缆仍须明确通道顺序、接地、屏蔽及端接。连接器目录的阻抗指标不等于整根线束的测量结果。应同时审核板端图纸与显示屏针脚表，外观相似的显示插头也可能具有不同电源孔位。"
+          },
+          "style": "inset-right",
+          "image": "/assets/images/product-categories/stock/jae/display.jpg",
+          "caption": {
+            "en": "A monitor's board-to-panel harness provides display-wiring context; its series is not identified here.",
+            "zh": "显示器板卡至面板线束实拍，仅说明显示布线场景，不在此识别其接头系列。"
+          }
+        },
+        {
+          "id": "pitch",
+          "title": {
+            "en": "Fine Pitch Is Not a Wire Specification",
+            "zh": "细间距不等于线材规格"
+          },
+          "copy": {
+            "en": "A small contact pitch can help fit more circuits into a compact board area, but it does not select the cable for you. The contact application specification determines allowable conductor and insulation dimensions. Check strip length, exposed strands and insulation support under suitable magnification. Board-to-board and FPC connectors should not be substituted for crimp-wire interfaces merely because the brand and pitch match.",
+            "zh": "小间距有助于在紧凑板卡上容纳更多回路，但不能据此直接确定线材。允许的导体和绝缘尺寸应以端子应用规范为准，并在适当放大条件下检查剥线长度、露铜及绝缘支撑。板对板、FPC 接头也不能因为品牌和间距相同，就替代压接电线接口。"
+          },
+          "style": "compact",
+          "image": "/assets/images/product-categories/stock/jae/pitch.jpg",
+          "caption": {
+            "en": "Parallel insulated conductors illustrate why cable construction must be specified separately from connector pitch.",
+            "zh": "平行绝缘导体实拍，说明线缆结构需要独立于接头间距定义。"
+          }
+        },
+        {
+          "id": "qualification",
+          "title": {
+            "en": "Automotive Qualification: Read the Scope",
+            "zh": "车规要求：先看适用范围"
+          },
+          "copy": {
+            "en": "AEC-Q is not a blanket certification for every automotive connector. Its document families address particular electronic-component types. For a connector project, request the exact part drawing, applicable connector test specification and report scope. Distinguish a component evaluation from a completed harness test and from vehicle approval. If a customer names USCAR-2 or another requirement, agree its revision, test groups and acceptance evidence before quoting compliance.",
+            "zh": "AEC-Q 并不是所有汽车连接器的统一认证，其文件体系针对特定电子元器件类型。连接器项目应核对具体型号图纸、适用的连接器试验规范及报告范围，并区分元件评价、成品线束试验和整车认可。客户提出 USCAR-2 等要求时，应先明确版本、试验组和验收证据，再讨论符合性。"
+          },
+          "style": "wide",
+          "image": "/assets/images/product-categories/stock/jae/qualification.jpg",
+          "caption": {
+            "en": "An instrument rear panel shows why equipment identity and specified conditions matter in verification.",
+            "zh": "仪器后面板实拍，用于说明验证时需要明确设备身份与规定条件。"
+          }
+        },
+        {
+          "id": "signal",
+          "title": {
+            "en": "Shielding and the Signal Return Path",
+            "zh": "屏蔽与信号回流路径"
+          },
+          "copy": {
+            "en": "High-speed wiring depends on the full path through the cable, connector and board transition. Keep paired conductors together and control untwisted length where the design requires it. A metal shell is useful only when its bonding and cable-screen connection suit the system. Separate sensitive signal routing from switching power where practical. Continuity checks confirm connections, but they do not establish insertion loss, crosstalk or an acceptable eye diagram.",
+            "zh": "高速布线取决于线缆、连接器和板端过渡构成的完整路径。按设计要求保持成对导体并控制解绞长度；金属壳体也必须具有合适的搭接和屏蔽连接方式。条件允许时将敏感信号与开关电源路径分开。导通检查能够确认连接关系，却不能证明插入损耗、串扰或眼图满足要求。"
+          },
+          "style": "feature-right",
+          "image": "/assets/images/product-categories/stock/jae/signal.jpg",
+          "caption": {
+            "en": "An oscilloscope trace illustrates signal observation, not a test result for this assembly.",
+            "zh": "示波器波形说明信号观察方式，并非本组件的测试结果。"
+          }
+        },
+        {
+          "id": "robotics",
+          "title": {
+            "en": "Industrial Automation and Robotics",
+            "zh": "工业自动化与机器人"
+          },
+          "copy": {
+            "en": "Controller cabinets, encoders, sensors and removable robot modules need different harness constructions. A connector at a fixed control board does not make the attached cable suitable for continuous flexing. Separate the moving section from the fixed section, define the bend path and support transitions before they reach the connector. Supply the motion envelope, service access and expected environment so that cable construction and protection can be reviewed together.",
+            "zh": "控制柜、编码器、传感器和可拆卸机器人模块需要不同线束结构。固定控制板上的接头，并不能让相连电缆自动具备连续弯曲能力。应区分运动段和固定段，在载荷传到接头前明确弯曲路径与过渡支撑。提供运动包络、维护空间和使用环境，便于联合审核线材结构与防护方式。"
+          },
+          "style": "inset-left",
+          "image": "/assets/images/product-categories/stock/jae/robotics.jpg",
+          "caption": {
+            "en": "A robot polishing guitars illustrates a real moving production application.",
+            "zh": "机器人打磨吉他实拍，说明真实生产中的运动应用。"
+          }
+        },
+        {
+          "id": "vehicle",
+          "title": {
+            "en": "Automotive and New-Energy Controls",
+            "zh": "汽车与新能源控制回路"
+          },
+          "copy": {
+            "en": "Body electronics, auxiliary modules and low-voltage battery controls can require connector-specific branches and mounting points. These control circuits must not be confused with high-voltage traction wiring. Specify supply range, load behavior, fuse protection, installation zone and mating references. For repairs or retrofits, document changes to the original pinout rather than relying on wire colors; the same color may identify different functions in different vehicle versions.",
+            "zh": "车身电子、辅助模块及低压电池控制可能需要特定接头、分支和固定点，这类控制回路不能与高压牵引线路混为一谈。应明确供电范围、负载特性、保险保护、安装区域和对插料号。维修或改装项目应记录原针脚定义的变化，不依赖线色判断，因为不同车型版本中的同色线可能承担不同功能。"
+          },
+          "style": "compact",
+          "image": "/assets/images/product-categories/stock/jae/vehicle.jpg",
+          "caption": {
+            "en": "Battery-management boards illustrate low-voltage control electronics, not high-voltage cable qualification.",
+            "zh": "电池管理板卡说明低压控制电子场景，不代表高压线缆鉴定。"
+          }
+        },
+        {
+          "id": "medical",
+          "title": {
+            "en": "Medical Equipment Interconnections",
+            "zh": "医疗设备内部连接"
+          },
+          "copy": {
+            "en": "Displays, measurement boards and equipment modules may use compact connector assemblies. Review electrical separation, cleaning exposure, strain relief and service replacement against the equipment design. Internal wiring is not automatically suitable for direct patient contact, sterilization or fluid exposure. The equipment manufacturer must define the intended use and validation requirements. We review those requirements before proposing materials or a production inspection plan.",
+            "zh": "显示屏、测量板卡和设备模块可采用紧凑连接组件。应结合整机设计审核电气隔离、清洁环境、应力释放和维护更换要求。内部布线不自动适用于直接接触患者、灭菌或液体暴露场景，预期用途及验证要求须由设备制造方明确，再据此审核材料与生产检验方案。"
+          },
+          "style": "compact",
+          "image": "/assets/images/product-categories/stock/jae/medical.jpg",
+          "caption": {
+            "en": "An infusion pump illustrates equipment context; no patient-contact or device approval is implied.",
+            "zh": "输液泵实拍作为设备场景参考，不表示患者接触或整机认可。"
+          }
+        },
+        {
+          "id": "contacts",
+          "title": {
+            "en": "Contact Alloys: Do Not Generalize",
+            "zh": "端子合金：不能一概而论"
+          },
+          "copy": {
+            "en": "Connector contacts balance conductivity, spring force, forming behavior and wear. Copper alloy, phosphor bronze and beryllium copper are not interchangeable material descriptions. Do not assume every JAE terminal is beryllium copper. The selected part drawing controls the alloy and finish; for example, JAE documentation includes copper-alloy contacts in IL-AG5 products. Replacement decisions also need contact geometry, mating force and the approved crimp-wire combination.",
+            "zh": "连接器端子需要兼顾导电、弹性、成形和磨损性能，铜合金、磷青铜和铍铜不是可随意互换的材料描述。不能假定所有 JAE 端子都使用铍铜。合金及镀层应以具体零件图纸为准，例如 JAE 的 IL-AG5 产品资料包含铜合金端子。替代审核还须考虑端子几何、插拔作用力及认可的端子与电线组合。"
+          },
+          "style": "inset-right",
+          "image": "/assets/images/product-categories/stock/jae/contacts.jpg",
+          "caption": {
+            "en": "A microscopic section of a crimped connection reveals conductor and contact geometry.",
+            "zh": "压接连接的显微截面，展示导体与接触件几何。"
+          }
+        },
+        {
+          "id": "lcp",
+          "title": {
+            "en": "LCP for Compact Connector Housings",
+            "zh": "紧凑壳体中的 LCP"
+          },
+          "copy": {
+            "en": "Liquid crystal polymer can support thin-wall moulding and precise small features in suitable grades. That makes it relevant to compact connector design, but not proof that every JAE housing is LCP. JAE also specifies other resins for other parts. Review the exact grade, processing conditions and operating exposure. Soldering heat resistance and long-term service temperature are different questions, and a resin family name alone does not answer either.",
+            "zh": "合适牌号的液晶聚合物 LCP 有利于薄壁成型及细小结构制造，因此常与紧凑连接器设计相关，但不能据此认为所有 JAE 壳体都是 LCP。其他零件也可能指定不同树脂。应审核具体牌号、加工条件及使用环境；耐焊接热与长期工作温度是不同问题，仅凭树脂家族名称无法作出结论。"
+          },
+          "style": "compact",
+          "image": "/assets/images/product-categories/stock/jae/lcp.jpg",
+          "caption": {
+            "en": "An injection mould illustrates how small plastic features depend on tooling and process control.",
+            "zh": "注塑模具实拍，说明细小塑料结构依赖模具及工艺控制。"
+          }
+        },
+        {
+          "id": "polyamide",
+          "title": {
+            "en": "Glass-Filled Polyamide and PBT",
+            "zh": "玻纤增强尼龙与 PBT"
+          },
+          "copy": {
+            "en": "Glass reinforcement can improve stiffness and dimensional behavior, while moisture conditioning affects polyamide properties. PA66-GF and PBT are distinct choices, not generic substitutes. Some JAE IL-AG5 documentation specifies PBT, so the material must be checked by part rather than copied from a broad brand description. Confirm chemical exposure, latch flexibility, thermal conditions and material declarations when reviewing the housing and any proposed substitute.",
+            "zh": "玻纤增强可改善刚度及尺寸表现，而吸湿调湿会影响尼龙性能。PA66-GF 与 PBT 属于不同材料选择，不能通用替换。部分 JAE IL-AG5 资料指定 PBT，因此应按零件核对，不能直接套用品牌概述。审核壳体及拟用替代件时，还须确认化学暴露、锁扣柔韧性、温度条件和材料声明。"
+          },
+          "style": "compact",
+          "image": "/assets/images/product-categories/stock/jae/polyamide.jpg",
+          "caption": {
+            "en": "Bagged resin granules illustrate raw-material handling; the polymer grade is not identified as JAE housing material.",
+            "zh": "袋装树脂颗粒说明原料管理，其牌号不被认定为 JAE 壳体材料。"
+          }
+        },
+        {
+          "id": "finish",
+          "title": {
+            "en": "Plating and Mating Surfaces",
+            "zh": "镀层与配合表面"
+          },
+          "copy": {
+            "en": "Gold over nickel and tin finishes appear in different connector specifications. Their thickness, coverage and mating surface must match the intended contact system. A gold-colored part is not evidence of the required plating. Avoid substituting contacts solely by appearance, and keep oils, abrasive cleaning and uncontrolled rework away from the mating surface. The approved BOM should preserve the complete contact suffix and finish option.",
+            "zh": "不同接头规范中可见镍底镀金或镀锡等处理，厚度、覆盖区域与配合面应匹配所选端子系统。表面呈金色并不能证明达到指定镀层要求。不要仅凭外观替换端子，也应避免油污、磨料清洁和未经控制的返工影响配合面。认可物料表须保留完整端子后缀及表面处理选项。"
+          },
+          "style": "wide",
+          "image": "/assets/images/product-categories/stock/jae/finish.jpg",
+          "caption": {
+            "en": "Gold-plated contacts illustrate mating-surface finishes, not a specific JAE part.",
+            "zh": "镀金端子实拍，用于说明配合面镀层，并非指定 JAE 零件。"
+          }
+        },
+        {
+          "id": "consumer",
+          "title": {
+            "en": "Consumer and Embedded Electronics",
+            "zh": "消费电子与嵌入式设备"
+          },
+          "copy": {
+            "en": "A display, camera or compact computing module may need a short harness that folds through a narrow enclosure. Establish the connector height, cable exit and fold location before fixing the overall length. Check that a cover screw or sharp chassis edge cannot trap the cable. Small assemblies benefit from clear orientation marks and installation instructions, particularly when the two cable ends look similar but carry different pin assignments.",
+            "zh": "显示屏、相机或紧凑计算模块可能需要在狭窄外壳内折转的短线组件。确定总长度前，应先明确接头高度、出线方向和折转位置，并确认盖板螺钉或锐利机壳边缘不会夹伤线缆。对于两端外观相近但针脚不同的小型组件，清晰方向标识及安装说明尤为重要。"
+          },
+          "style": "inset-left",
+          "image": "/assets/images/product-categories/stock/jae/consumer.jpg",
+          "caption": {
+            "en": "An opened compact power tool illustrates internal routing around a motor and controller.",
+            "zh": "打开的小型电动工具，展示电机与控制器周围的内部布线。"
+          }
+        },
+        {
+          "id": "telecom",
+          "title": {
+            "en": "Telecom and Network Equipment",
+            "zh": "通信与网络设备"
+          },
+          "copy": {
+            "en": "Rack equipment combines power distribution, control wiring and data paths in limited space. Identify each circuit class and its connector rather than treating all internal cables as equivalent. Plan access for module replacement and cooling-air paths, and avoid placing a service loop in a fan inlet. Signal-integrity requirements, shielding and cable length should follow the actual interface specification, not a speed implied by the connector brand.",
+            "zh": "机架设备在有限空间内集成供电分配、控制布线和数据路径。应逐类识别回路及接头，不能将所有内部线缆视为相同。布置时兼顾模块更换和冷却气流，避免维护余量堵住风扇进气口。信号完整性、屏蔽和长度要求应来自实际接口规范，不能由连接器品牌推断传输速度。"
+          },
+          "style": "compact",
+          "image": "/assets/images/product-categories/stock/jae/telecom.jpg",
+          "caption": {
+            "en": "An open equipment rack illustrates module access and cable-routing space.",
+            "zh": "打开的设备机架，说明模块维护及布线空间。"
+          }
+        },
+        {
+          "id": "aerospace",
+          "title": {
+            "en": "Aerospace and Defence Project Review",
+            "zh": "航空与特殊装备项目审核"
+          },
+          "copy": {
+            "en": "A manufacturer name associated with aviation does not qualify every connector or harness for flight hardware. Such projects can involve controlled drawings, traceability, environmental testing and specific material or process approvals. State the equipment role and required evidence at the enquiry stage. We distinguish an engineering feasibility review from an approved supply commitment; no blanket aerospace, military or flightworthiness qualification is implied.",
+            "zh": "制造商名称与航空有关，并不意味着每个接头或线束都获得飞行装备资格。相关项目可能涉及受控图纸、可追溯性、环境试验及特定材料或工艺认可。询价时应说明设备作用及所需证据。工程可行性审核与认可供货承诺须明确区分，本页不作通用航空、军用或适航资格声明。"
+          },
+          "style": "compact",
+          "image": "/assets/images/product-categories/stock/jae/aerospace.jpg",
+          "caption": {
+            "en": "An avionics maintenance scene illustrates controlled equipment work; no affiliation or qualification is implied.",
+            "zh": "航空电子维护场景用于说明设备检修，不表示合作关系或资格认可。"
+          }
+        },
+        {
+          "id": "continuity",
+          "title": {
+            "en": "Continuity and Miswire Inspection",
+            "zh": "导通与错线检查"
+          },
+          "copy": {
+            "en": "A test program should be built from the approved netlist, including intentional connections and circuits that must remain separate. Check opens, shorts and crossed pins against that reference, not against an unverified sample. Fixture wear and contact condition can affect measurements, so retain the tester setup and fixture identity with the work instructions. A passing continuity result does not prove the cable can carry its design current without excessive heating.",
+            "zh": "测试程序应依据认可网络表建立，既包括预期连接，也包括必须保持隔离的回路。断路、短路和交叉错线须对照该基准判断，而不是依赖未经确认的样品。治具磨损及接触状态会影响测量，应在作业要求中保留测试设置与治具身份。导通合格并不能证明线缆承载设计电流时温升一定合格。"
+          },
+          "style": "feature-left",
+          "image": "/assets/images/product-categories/stock/jae/continuity.jpg",
+          "caption": {
+            "en": "Meter probes on a circuit illustrate electrical connection checks, not production acceptance results.",
+            "zh": "电路上的表笔用于说明电气连接检查，并非生产验收结果。"
+          }
+        },
+        {
+          "id": "dielectric",
+          "title": {
+            "en": "Dielectric Withstand Testing",
+            "zh": "耐电压试验"
+          },
+          "copy": {
+            "en": "A dielectric withstand test stresses specified insulation barriers under an agreed voltage, duration and trip criterion. It is not the operating voltage rating and should not be applied indiscriminately to assemblies containing electronics. Identify connected components, grounded screens and test groups first. The customer-approved plan determines whether this is a qualification, sampling or production test, and how the assembly is made safe after the test.",
+            "zh": "耐电压试验按约定电压、持续时间及判定条件检验指定绝缘屏障，并不等同于工作电压额定值，也不能不加区分地施加到带电子元件的组件上。试验前须识别所连元件、接地屏蔽及测试分组。由客户认可方案明确其属于鉴定、抽样还是生产试验，以及试验后的安全处置。"
+          },
+          "style": "compact",
+          "image": "/assets/images/product-categories/stock/jae/dielectric.jpg",
+          "caption": {
+            "en": "An electronics test setup illustrates planning around the connected equipment before additional tests.",
+            "zh": "电子设备测试布置，说明附加试验前应先识别所连设备。"
+          }
+        },
+        {
+          "id": "insulation",
+          "title": {
+            "en": "Insulation Resistance and Cleanliness",
+            "zh": "绝缘电阻与清洁控制"
+          },
+          "copy": {
+            "en": "Insulation resistance is measured between circuits intended to be isolated at a defined test voltage and settling time. Moisture, contamination and fixture leakage can influence the result. Specify the measurement conditions and acceptance threshold instead of writing only “insulation tested”. Keep this check distinct from continuity and dielectric withstand. For sensitive signal assemblies, cleanliness and handling controls may be as important as the nominal insulation material.",
+            "zh": "绝缘电阻是在规定测试电压及稳定时间下，测量应相互隔离回路之间的绝缘表现。湿气、污染和治具漏电都可能影响结果，应写清测量条件与验收门槛，而不是只写“已测绝缘”。该项目与导通、耐电压应分别定义。对于敏感信号组件，清洁及搬运控制也可能与绝缘材料本身同样重要。"
+          },
+          "style": "compact",
+          "image": "/assets/images/product-categories/stock/jae/insulation.jpg",
+          "caption": {
+            "en": "Insulation-resistance instruments illustrate a measurement method distinct from continuity.",
+            "zh": "绝缘电阻仪器实拍，说明区别于导通的测量方法。"
+          }
+        },
+        {
+          "id": "life",
+          "title": {
+            "en": "Longevity Begins with Installation",
+            "zh": "使用寿命从安装条件开始"
+          },
+          "copy": {
+            "en": "Connector life depends on mating cycles, temperature, vibration, contamination and load, not simply on brand selection. Route the cable so that clamps carry installation loads before they reach the terminals. Avoid sharp bends at the rear of a housing and provide protection at panel edges. Define service inspection and replacement criteria for the actual equipment. Catalogue durability data applies to stated conditions and is not a universal years-in-service promise.",
+            "zh": "连接寿命取决于插拔次数、温度、振动、污染和负载，而不只是品牌。布线时通过固定夹承担安装载荷，避免直接传到端子；壳体尾部不宜急弯，穿板边缘须有适当防护。应根据实际设备规定维护检查及更换条件。目录耐久数据有其试验条件，不能直接换算为通用使用年限承诺。"
+          },
+          "style": "inset-right",
+          "image": "/assets/images/product-categories/stock/jae/life.jpg",
+          "caption": {
+            "en": "A cable clamp in equipment illustrates taking mechanical load away from a termination.",
+            "zh": "设备中的线缆固定夹，说明如何减少端接部位承受的机械载荷。"
+          }
+        },
+        {
+          "id": "pinout",
+          "title": {
+            "en": "Application-Specific Pinout and Length",
+            "zh": "按应用定义针脚与长度"
+          },
+          "copy": {
+            "en": "Specify the connector view, cavity numbers, signal names and wire identification at both ends. Define the dimension datum: housing face, rear exit or another drawing reference. Include branch lengths, tolerance, sleeve positions and label direction where installation depends on them. A controlled pinout makes sample approval repeatable and allows later revisions to be compared without guessing from photographs or wire colors.",
+            "zh": "两端应明确接头视图、孔位编号、信号名称和线号，并规定尺寸基准是壳体前端、尾部出线口还是图纸其他位置。安装相关的分支长度、公差、套管位置和标签方向也应标注。受控针脚表能够使样品认可可重复，并让后续版本之间的比较不再依赖照片或线色猜测。"
+          },
+          "style": "wide",
+          "image": "/assets/images/product-categories/stock/jae/pinout.jpg",
+          "caption": {
+            "en": "Color-coded ribbon conductors help illustrate circuit identification; colors alone do not define a pinout.",
+            "zh": "彩色排线导体用于说明回路识别，线色本身并不能定义针脚。"
+          }
+        },
+        {
+          "id": "tooling",
+          "title": {
+            "en": "Contacts, Wire and Crimp Tooling",
+            "zh": "端子、电线与压接工具"
+          },
+          "copy": {
+            "en": "JAE publishes tooling references by contact and series. Select the approved terminal, wire range and tool combination together; a tool that closes the barrel is not necessarily suitable. Define preparation, inspection and any agreed destructive sample checks in the process plan. Terminal insertion should confirm retention without damaging the lance. Rework requires an appropriate extraction method and a clear rule for replacing damaged contacts or housings.",
+            "zh": "JAE 按端子及系列提供工具参考，必须联合选择认可端子、适配电线范围和工具组合，能够压合端子筒并不代表工具合适。工艺方案应明确线端准备、检查及约定的破坏性抽样项目。端子插入后须确认保持状态且不损伤卡舌；返工则需要适当退针方法，并规定损伤端子或壳体的更换规则。"
+          },
+          "style": "process",
+          "image": "/assets/images/product-categories/stock/jae/tooling.jpg",
+          "caption": {
+            "en": "A crimp tool illustrates process tooling; the tool must be approved for the selected JAE contact.",
+            "zh": "压接工具实拍仅说明工艺工具，实际须匹配所选 JAE 端子的认可工具。"
+          }
+        },
+        {
+          "id": "sourcing",
+          "title": {
+            "en": "Sourcing and Revision Control",
+            "zh": "物料来源与版本控制"
+          },
+          "copy": {
+            "en": "Record the original manufacturer, full part number and approved alternative status in the BOM. Where traceability is required, agree supplier documentation and lot identification before purchasing. Availability changes should trigger a review, not a silent substitution. Keep the released drawing, sample approval and inspection plan aligned so that a later batch reproduces the agreed configuration rather than merely resembling the first sample.",
+            "zh": "物料表应记录原制造商、完整型号及替代件认可状态。有追溯要求时，采购前明确供应资料和批次标识。供货变化应触发审核，不能静默换料。放行图纸、样品认可和检验方案须保持一致，使后续批次复现已确认配置，而不只是外观看起来像首件。"
+          },
+          "style": "inset-left",
+          "image": "/assets/images/product-categories/stock/jae/sourcing.jpg",
+          "caption": {
+            "en": "Protective electronic-component packaging illustrates controlled handling and material identification.",
+            "zh": "电子元件防护包装，用于说明受控搬运及物料识别。"
+          }
+        }
+      ],
+      "composition": [
+        {
+          "kind": "single",
+          "items": [
+            0
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            1
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            2
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            3
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            4
+          ]
+        },
+        {
+          "kind": "pair",
+          "items": [
+            5,
+            6
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            7
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            8
+          ]
+        },
+        {
+          "kind": "pair",
+          "items": [
+            9,
+            10
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            11
+          ]
+        },
+        {
+          "kind": "pair",
+          "items": [
+            12,
+            13
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            14
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            15
+          ]
+        },
+        {
+          "kind": "pair",
+          "items": [
+            16,
+            17
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            18
+          ]
+        },
+        {
+          "kind": "pair",
+          "items": [
+            19,
+            20
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            21
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            22
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            23
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            24
+          ]
+        }
+      ],
+      "guide": [
+        {
+          "index": 0,
+          "label": {
+            "en": "Interfaces",
+            "zh": "接口"
+          }
+        },
+        {
+          "index": 8,
+          "label": {
+            "en": "Applications",
+            "zh": "应用"
+          }
+        },
+        {
+          "index": 11,
+          "label": {
+            "en": "Materials",
+            "zh": "材料"
+          }
+        },
+        {
+          "index": 18,
+          "label": {
+            "en": "Validation",
+            "zh": "验证"
+          }
+        },
+        {
+          "index": 22,
+          "label": {
+            "en": "Build definition",
+            "zh": "制作定义"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "en": "Does compatible mean an original JAE connector?",
+            "zh": "兼容是否表示使用 JAE 原装接头？"
+          },
+          "a": {
+            "en": "Not by itself. The approved BOM must distinguish original JAE parts from any separately reviewed alternative. Compatibility needs the exact mating reference and requirements.",
+            "zh": "不能仅凭这个词判断。认可物料表须区分 JAE 原装物料和另行审核的替代件，兼容性需依据具体对插料号及要求确认。"
+          }
+        },
+        {
+          "q": {
+            "en": "Are MX34 and MX23A both waterproof?",
+            "zh": "MX34 与 MX23A 都防水吗？"
+          },
+          "a": {
+            "en": "No. MX34 is non-waterproof. MX23A uses a sealing system whose wire entry, mating components and unused cavities must be correctly assembled.",
+            "zh": "不是。MX34 为非防水系列，MX23A 的密封系统则要求进线端、配合件及空孔得到正确组装。"
+          }
+        },
+        {
+          "q": {
+            "en": "Can I order by pin count and pitch?",
+            "zh": "可以只按针数和间距订购吗？"
+          },
+          "a": {
+            "en": "Those are useful starting details, but not sufficient. Provide the complete part number, mating view, contact and wire specification, and a verified pinout.",
+            "zh": "这些是有用的初始资料，但仍不充分。应提供完整型号、对插视图、端子和电线规格，以及经确认的针脚表。"
+          }
+        },
+        {
+          "q": {
+            "en": "Can you customize branches and wire lengths?",
+            "zh": "能定制分支和线长吗？"
+          },
+          "a": {
+            "en": "Yes, subject to design review. Drawings should define length datums, tolerances, branch positions, mounting and circuit mapping.",
+            "zh": "可以，需经过设计审核。图纸应明确长度基准、公差、分支位置、固定方式及回路映射。"
+          }
+        },
+        {
+          "q": {
+            "en": "Does continuity testing prove high-speed performance?",
+            "zh": "导通测试能证明高速性能吗？"
+          },
+          "a": {
+            "en": "No. Continuity checks circuit connections. Signal-integrity verification requires agreed measurements and limits for the actual interface and cable length.",
+            "zh": "不能。导通检查回路连接，高速信号完整性需要针对实际接口与线长约定测量项目和限值。"
+          }
+        },
+        {
+          "q": {
+            "en": "What should accompany an existing sample?",
+            "zh": "现有样品还应配什么资料？"
+          },
+          "a": {
+            "en": "Add the mating part references, confirmed electrical functions, dimensions, environment and required tests. A sample alone may not reveal hidden circuit details or the intended operating limits.",
+            "zh": "还应提供对插料号、确认的电气功能、尺寸、环境及测试要求。样品本身不一定能揭示隐藏回路细节或预期工作边界。"
+          }
+        }
+      ],
+      "creditHeading": {
+        "en": "Image sources and usage notes",
+        "zh": "图片来源与使用说明"
+      },
+      "hasAiImages": false,
+      "hasOwnImages": false,
+      "mediaCredits": [
+        {
+          "file": "Avionics Airmen- back shop behind the scenes keeping Aircraft mission capable (8228713).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Avionics_Airmen-_back_shop_behind_the_scenes_keeping_Aircraft_mission_capable_(8228713).jpg",
+          "author": "U.S. Air Force AFCENT by Senior Airman Sarah Williams",
+          "license": "Public domain",
+          "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain"
+        },
+        {
+          "file": "JAE D03 SIO Connector.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:JAE_D03_SIO_Connector.JPG",
+          "author": "Mitmap",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Open Compute Server Front.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Open_Compute_Server_Front.jpg",
+          "author": "Robert.Harker",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Interior dashboard view of Opel Insignia (2008).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Interior_dashboard_view_of_Opel_Insignia_(2008).jpg",
+          "author": "Ecogarf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Close-up of the rain drops on a car window. Car in a blurry background.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Close-up_of_the_rain_drops_on_a_car_window._Car_in_a_blurry_background.jpg",
+          "author": "Shixart1985",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "PSU Connector PCB.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:PSU_Connector_PCB.jpg",
+          "author": "tony_duell",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "LG M2762D - mainboard to panel connector easily breaks due to weak plastic and unused pins.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:LG_M2762D_-_mainboard_to_panel_connector_easily_breaks_due_to_weak_plastic_and_unused_pins.jpg",
+          "author": "Cmuelle8",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        },
+        {
+          "file": "32-wire ribbon cable.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:32-wire_ribbon_cable.JPG",
+          "author": "Rnewkirk7954",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Agilent 54622D Mixed Signal Oscilloscope Teardown (13183068765).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Agilent_54622D_Mixed_Signal_Oscilloscope_Teardown_(13183068765).jpg",
+          "author": "Dave Jones from Australia",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Oscilloscope with a Doppler radar signal.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Oscilloscope_with_a_Doppler_radar_signal.jpg",
+          "author": "Jrmlhermitte",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Robotic Arm Polishing Guitars at Martin Guitar Factory.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Robotic_Arm_Polishing_Guitars_at_Martin_Guitar_Factory.jpg",
+          "author": "Henrysz",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "file": "Generic Chinese 4S BMS boards for lithium batteries 02.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Generic_Chinese_4S_BMS_boards_for_lithium_batteries_02.jpg",
+          "author": "Retired electrician",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        },
+        {
+          "file": "Baxter Colleague CX infusion pump.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Baxter_Colleague_CX_infusion_pump.JPG",
+          "author": "BrokenSphere",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+        },
+        {
+          "file": "Electrical contact, copper conductors and metal cable crimped by metal bracket.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Electrical_contact,_copper_conductors_and_metal_cable_crimped_by_metal_bracket.jpg",
+          "author": "DanilovVA",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Standard two plate injection molding tool.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Standard_two_plate_injection_molding_tool.jpg",
+          "author": "Britiju at English Wikipedia /",
+          "license": "Public domain",
+          "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain"
+        },
+        {
+          "file": "Sacks of plastic granules.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Sacks_of_plastic_granules.jpg",
+          "author": "Rohini",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Gold-plated electrical connectors.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Gold-plated_electrical_connectors.jpg",
+          "author": "Cjp24",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Replacement motor speed controller installed on INGCO mini drill (40594107743).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Replacement_motor_speed_controller_installed_on_INGCO_mini_drill_(40594107743).jpg",
+          "author": "Dilshan Jayakody from Maharagama, Sri Lanka",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        },
+        {
+          "file": "IBM PureData server (open).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:IBM_PureData_server_(open).jpg",
+          "author": "Elizabeth K. Joseph",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "US Navy 090506-N-0096C-025 Sgt. Steven Quitugua, from Sacramento, Calif. assigned to the Death Rattlers of Marine Strike Fighter Squadron (VMFA) 323, checks an aircraft electronic component's resistance an avionics shop aboard.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:US_Navy_090506-N-0096C-025_Sgt._Steven_Quitugua,_from_Sacramento,_Calif._assigned_to_the_Death_Rattlers_of_Marine_Strike_Fighter_Squadron_(VMFA)_323,_checks_an_aircraft_electronic_component%27s_resistance_an_avionics_shop_aboard.jpg",
+          "author": "U.S. Navy photo by Seaman Eboni C. Cameron",
+          "license": "Public domain",
+          "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain"
+        },
+        {
+          "file": "Multimeter probes on breadboard.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Multimeter_probes_on_breadboard.jpg",
+          "author": "Zeroping",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "file": "Proper PCB Sample Assembly.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Proper_PCB_Sample_Assembly.JPG",
+          "author": "KondiMaster",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Insulation testers by Megger.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Insulation_testers_by_Megger.jpg",
+          "author": "Megger Ltd.",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+        },
+        {
+          "file": "R80 Cable Clamped.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:R80_Cable_Clamped.jpg",
+          "author": "tony_duell",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "60-Wire Flat Ribbon Cable.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:60-Wire_Flat_Ribbon_Cable.jpg",
+          "author": "s58y",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Crimping tools.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Crimping_tools.jpg",
+          "author": "Dnyaneshwari Dalvi",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Antistatic bag with conductive grid.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Antistatic_bag_with_conductive_grid.jpg",
+          "author": "Cjp24",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
+    }
+  },
   "connector-systems-07": {
     "title": {
       "en": "Hirose Compatible Cable Assemblies",

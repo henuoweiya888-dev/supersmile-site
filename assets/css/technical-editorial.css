@@ -250,7 +250,37 @@ body[data-category-layout="technical-editorial"] .pcc-hero-media img{filter:satu
 .te-theme-precision-interconnect #technical-topic-34 .te-photo{width:160px}
 .te-theme-precision-interconnect #technical-topic-35{grid-template-columns:minmax(0,1fr) 205px;background:#e9e6de}
 .te-theme-precision-interconnect #technical-topic-35 .te-photo img{height:155px}
+/* JAE: compact interface notes, material cut-ins and paired test-method spreads. */
+.te-theme-jae-system{--te-tint:#e1e5e3;--te-muted:#46534f;--te-accent:#a74a32}
+.te-theme-jae-system .te-index{display:none}
+.te-theme-jae-system .te-topic{padding-block:24px}
+.te-theme-jae-system .te-opening{grid-template-columns:minmax(0,1fr) 195px;gap:28px;background:#e8e6df}
+.te-theme-jae-system .te-opening .te-photo img{height:160px;object-fit:contain;background:#e8e6df}
+.te-theme-jae-system .te-pair{background:#e8eae3}
+.te-theme-jae-system .te-pair:nth-of-type(2n){background:#ece9e2}
+.te-theme-jae-system .te-pair .te-photo{width:135px;margin-top:30px}
+.te-theme-jae-system .te-pair .te-topic:nth-child(2) .te-photo{margin-top:30px}
+.te-theme-jae-system .te-pair .te-photo img{height:135px}
+.te-theme-jae-system .te-inset-left .te-photo,.te-theme-jae-system .te-inset-right .te-photo{width:175px;margin-top:4px}
+.te-theme-jae-system .te-inset-left .te-photo img,.te-theme-jae-system .te-inset-right .te-photo img{height:155px;object-fit:cover}
+.te-theme-jae-system #technical-topic-1{grid-template-columns:minmax(0,1fr) 205px}
+.te-theme-jae-system #technical-topic-2{grid-template-columns:210px minmax(0,1fr)}
+.te-theme-jae-system #technical-topic-2 .te-photo img{height:175px}
+.te-theme-jae-system #technical-topic-7{grid-template-columns:minmax(0,1fr) 205px;background:#e2e7e5}
+.te-theme-jae-system #technical-topic-7 .te-photo img{height:160px}
+.te-theme-jae-system #technical-topic-11{background:#ebe8e1}
+.te-theme-jae-system #technical-topic-11 .te-photo img{object-fit:contain}
+.te-theme-jae-system #technical-topic-14{grid-template-columns:minmax(0,1fr) 190px}
+.te-theme-jae-system #technical-topic-18{grid-template-columns:190px minmax(0,1fr)}
+.te-theme-jae-system #technical-topic-18 .te-photo img{height:165px}
+.te-theme-jae-system #technical-topic-22{grid-template-columns:minmax(0,1fr) 190px;background:#e8e6df}
+.te-theme-jae-system #technical-topic-22 .te-photo img{height:160px}
+.te-theme-jae-system #technical-topic-23 .te-photo img{height:165px;object-fit:contain}
 @media(max-width:767px){
+ .te-theme-jae-system .te-opening,.te-theme-jae-system .te-topic{display:flex;padding:23px 16px}
+ .te-theme-jae-system .te-pair .te-photo img{object-fit:cover}
+ .te-theme-jae-system #technical-topic-10 .te-photo img{object-position:center 38%}
+ .te-theme-jae-system .te-pair .te-photo,.te-theme-jae-system .te-pair .te-topic:nth-child(2) .te-photo,.te-theme-jae-system .te-inset-left .te-photo,.te-theme-jae-system .te-inset-right .te-photo{float:none;width:calc(100% + 32px);margin:16px -16px 0}
  .te-theme-precision-interconnect .te-opening,.te-theme-precision-interconnect .te-topic{display:flex;padding:23px 16px}
  .te-theme-precision-interconnect .te-pair .te-photo,.te-theme-precision-interconnect .te-pair .te-topic:nth-child(2) .te-photo,.te-theme-precision-interconnect .te-inset-left .te-photo,.te-theme-precision-interconnect .te-inset-right .te-photo,.te-theme-precision-interconnect #technical-topic-28 .te-photo,.te-theme-precision-interconnect #technical-topic-34 .te-photo{float:none;width:calc(100% + 32px);margin:16px -16px 0}
  .te-theme-materials-atlas .te-opening,.te-theme-materials-atlas #technical-topic-0,.te-theme-materials-atlas #technical-topic-6,.te-theme-materials-atlas #technical-topic-18,.te-theme-materials-atlas #technical-topic-22,.te-theme-materials-atlas #technical-topic-25{display:flex;padding:23px 16px}
