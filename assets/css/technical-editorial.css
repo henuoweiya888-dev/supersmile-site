@@ -61,6 +61,25 @@ body[data-category-layout="technical-editorial"] .pcc-hero-media img{filter:satu
 .te-theme-actuator-service .te-pair{background:#eeece5}
 .te-theme-actuator-service #technical-topic-9{background:#e1e4e0}.te-theme-actuator-service #technical-topic-9 .te-photo img{object-fit:contain}
 .te-theme-actuator-service #technical-topic-10 .te-photo{width:140px}
+/* Connector selection: compact reference cut-ins with alternating long-form spreads. */
+.te-theme-connector-selection{--te-tint:#e3e6e3;--te-accent:#a64d31;--te-muted:#46514c}
+.te-theme-connector-selection .te-opening{grid-template-columns:minmax(0,1fr) 210px;background:#ebe7dd}
+.te-theme-connector-selection .te-opening .te-photo img{height:175px}
+.te-theme-connector-selection .te-index{display:inline-flex;align-items:center;gap:0;margin-bottom:6px}
+.te-theme-connector-selection #technical-topic-0{grid-template-columns:205px minmax(0,1fr);padding-left:0;padding-right:var(--te-gutter)}
+.te-theme-connector-selection #technical-topic-0 .te-photo{grid-column:1}.te-theme-connector-selection #technical-topic-0 .te-copy{grid-column:2}
+.te-theme-connector-selection #technical-topic-0 .te-photo img,.te-theme-connector-selection #technical-topic-3 .te-photo img,.te-theme-connector-selection #technical-topic-4 .te-photo img,.te-theme-connector-selection #technical-topic-5 .te-photo img,.te-theme-connector-selection #technical-topic-7 .te-photo img,.te-theme-connector-selection #technical-topic-8 .te-photo img{object-fit:contain;background:#e5e6df}
+.te-theme-connector-selection #technical-topic-1{grid-template-columns:160px minmax(0,1fr);gap:26px}
+.te-theme-connector-selection #technical-topic-1 .te-photo img{height:170px;object-fit:contain;background:#efeee4}
+.te-theme-connector-selection #technical-topic-2{background:#eeede6}
+.te-theme-connector-selection #technical-topic-3{padding-block:24px}.te-theme-connector-selection #technical-topic-3 .te-photo{width:200px;margin-top:4px}
+.te-theme-connector-selection .te-pair{background:#e3e6e3}.te-theme-connector-selection .te-pair .te-photo{margin-top:34px;width:150px}
+.te-theme-connector-selection #technical-topic-6{grid-template-columns:minmax(0,1fr) 170px;padding-left:var(--te-gutter);padding-right:0;background:#ebe7dd}
+.te-theme-connector-selection #technical-topic-6 .te-photo{grid-column:2;grid-row:1}.te-theme-connector-selection #technical-topic-6 .te-copy{grid-column:1;grid-row:1}
+.te-theme-connector-selection #technical-topic-6 .te-photo img{height:180px}
+.te-theme-connector-selection #technical-topic-7 .te-photo{width:155px}.te-theme-connector-selection #technical-topic-7 .te-photo img{height:145px}
+.te-theme-connector-selection #technical-topic-8{grid-template-columns:215px minmax(0,1fr);background:#e3e6e3}.te-theme-connector-selection #technical-topic-8 .te-photo img{height:170px}
+.te-theme-connector-selection #technical-topic-11 .te-photo img{object-fit:cover}
 @media(max-width:767px){
  body[data-category-layout="technical-editorial"] .pcc-hero-grid{min-height:0;padding-block:56px 32px}body[data-category-layout="technical-editorial"] .pcc-hero-copy h1{font-size:30px}
  .te-page{--te-gutter:16px}.te-page h2{font-size:21px}.te-page p{font-size:13px;line-height:1.85}
@@ -72,4 +91,6 @@ body[data-category-layout="technical-editorial"] .pcc-hero-media img{filter:satu
  .te-theme-navigation .te-opening,.te-theme-navigation #technical-topic-6,.te-theme-signal-channel #technical-topic-0{display:flex;padding:23px 16px}
  .te-theme-signal-channel #technical-topic-1 .te-photo,.te-theme-actuator-service #technical-topic-10 .te-photo{width:calc(100% + 32px)}
  .te-theme-actuator-service .te-opening,.te-theme-actuator-service #technical-topic-6{display:flex;padding:23px 16px}
+ .te-theme-connector-selection .te-opening,.te-theme-connector-selection #technical-topic-0,.te-theme-connector-selection #technical-topic-6{display:flex;padding:23px 16px}
+ .te-theme-connector-selection #technical-topic-3 .te-photo,.te-theme-connector-selection #technical-topic-7 .te-photo,.te-theme-connector-selection .te-pair .te-photo{width:calc(100% + 32px);margin:16px -16px 0}
 }

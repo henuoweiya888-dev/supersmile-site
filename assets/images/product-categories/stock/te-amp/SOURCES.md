@@ -1,0 +1,18 @@
+# TE / AMP chapter photographs
+
+Retrieved 2026-09-10. Fourteen distinct real photographs, no AI. All sources compared against previous category media credits; no reused source URLs. Cropped/resized for web display; CSS applies muted saturation. Share-alike adaptations retain their original license. Context photographs are not presented as TE products, company production, approved installations or test results.
+
+- hero.jpg — [Electronic control cabinet.jpg](https://commons.wikimedia.org/wiki/File:Electronic_control_cabinet.jpg); RICHI Manufacture; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+- range.jpg — [Revox B215 - cable harness.jpg](https://commons.wikimedia.org/wiki/File:Revox_B215_-_cable_harness.jpg); Retired electrician; [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en).
+- identification.jpg — [Nedap ESD1 - AMP connector-8594.jpg](https://commons.wikimedia.org/wiki/File:Nedap_ESD1_-_AMP_connector-8594.jpg); Raimond Spekking; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+- superseal.jpg — [O-Rings Assorted.jpg](https://commons.wikimedia.org/wiki/File:O-Rings_Assorted.jpg); William Rafti of the William Rafti Institute; [CC BY 2.5](https://creativecommons.org/licenses/by/2.5).
+- ampseal.jpg — [Caterham Roadsport building - 026 - Speed sensor, RH rear hub - disc, caliper and handbrake cable - Flickr - exfordy.jpg](https://commons.wikimedia.org/wiki/File:Caterham_Roadsport_building_-_026_-_Speed_sensor,_RH_rear_hub_-_disc,_caliper_and_handbrake_cable_-_Flickr_-_exfordy.jpg); Brian Snelson from Hockley, Essex, England; [CC BY 2.0](https://creativecommons.org/licenses/by/2.0).
+- mnl.jpg — [Amp and Molex Connectors.jpg](https://commons.wikimedia.org/wiki/File:Amp_and_Molex_Connectors.jpg); Michael Holley en:User:Swtpc6800; [Public domain](https://commons.wikimedia.org/wiki/File:Amp_and_Molex_Connectors.jpg).
+- faston.jpg — [Female Faston Style Terminals.jpg](https://commons.wikimedia.org/wiki/File:Female_Faston_Style_Terminals.jpg); UvxqTbN; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+- dynamic.jpg — [Microgrid Control Cabinet.jpg](https://commons.wikimedia.org/wiki/File:Microgrid_Control_Cabinet.jpg); Itsjuliaxp; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+- hva.jpg — [22kW DC electric vehicle charger at Madura Pass Oasis, Western Australia.jpg](https://commons.wikimedia.org/wiki/File:22kW_DC_electric_vehicle_charger_at_Madura_Pass_Oasis,_Western_Australia.jpg); Chuq; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+- materials.jpg — [Brass crimp-terminal female spade electrical connector.jpg](https://commons.wikimedia.org/wiki/File:Brass_crimp-terminal_female_spade_electrical_connector.jpg); Suyash Dwivedi; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+- manufacturing.jpg — [4-8 indent crimping tool .jpg](https://commons.wikimedia.org/wiki/File:4-8_indent_crimping_tool_.jpg); Rennsteig Werkzeuge GmbH; [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+- applications.jpg — [Car headlight beams through the rain 1.jpg](https://commons.wikimedia.org/wiki/File:Car_headlight_beams_through_the_rain_1.jpg); Kwameghana(Bright Kwame Ayisi); [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0).
+- leadtime.jpg — [Miniload ASRS.jpg](https://commons.wikimedia.org/wiki/File:Miniload_ASRS.jpg); Thomas Philippi; [CC BY-SA 3.0](http://creativecommons.org/licenses/by-sa/3.0/).
+- pricing.jpg — [Desktop with laptop and calculator (Unsplash).jpg](https://commons.wikimedia.org/wiki/File:Desktop_with_laptop_and_calculator_(Unsplash).jpg); AnonymousUnknown author; [CC0](http://creativecommons.org/publicdomain/zero/1.0/deed.en).

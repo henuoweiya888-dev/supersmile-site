@@ -1,0 +1,482 @@
+{
+  "key": "connector-systems-01",
+  "slug": "te-amp-compatible",
+  "title": {
+    "en": "TE / AMP Compatible Assemblies",
+    "zh": "TE / AMP 兼容组件"
+  },
+  "seoTitle": "TE / AMP Compatible Harnesses | SUPERSEAL, AMPSEAL, MATE-N-LOK & FASTON | Super Smile",
+  "intro": {
+    "en": "Custom connector leads and harness assemblies defined around specified TE / AMP interfaces, terminal systems, wire, sealing and installation requirements.",
+    "zh": "围绕指定 TE / AMP 接口、端子系统、线材、密封与安装要求，开发定制连接线和线束组件。"
+  },
+  "knowledge": {
+    "en": "A brand or housing shape is not an interchangeability specification. Confirm the complete mating system and approved bill of materials.",
+    "zh": "品牌名称或壳体外形不是互换规格，需要确认完整对插系统及认可物料清单。"
+  },
+  "notes": {
+    "en": "Send full part numbers, mating drawings, cavity assignment, wire size and insulation diameter, environment, quantity and inspection requirements.",
+    "zh": "请提供完整料号、对插图纸、腔位定义、线径与绝缘外径、使用环境、数量及检验要求。"
+  },
+  "delivery": {
+    "en": "Review parts and tooling, approve first articles, then produce against controlled drawings and the agreed inspection plan.",
+    "zh": "审核物料与工装，完成首件认可后，按受控图纸和约定检验计划生产。"
+  },
+  "page": {
+    "layout": "technical-editorial",
+    "theme": "connector-selection",
+    "headings": {
+      "introduction": {
+        "en": "Product Introduction",
+        "zh": "产品介绍"
+      },
+      "faq": {
+        "en": "TE / AMP Harness Questions",
+        "zh": "TE / AMP 线束常见问题"
+      }
+    },
+    "subtitle": {
+      "en": "One brand, many interfaces — identify the complete system",
+      "zh": "同一品牌，多种接口——识别完整连接系统"
+    },
+    "lead": {
+      "en": "This category covers sealed automotive pigtails, multiway equipment looms, panel connections, appliance power leads, industrial control wiring and project-specific high-voltage assemblies. Super Smile develops the cable assembly around the interface specified for your equipment; it is not one universal “AMP plug”. TE Connectivity, AMP and the product-family names on this page identify the requested interface, not an affiliation or authorization. A quotation should distinguish genuine specified components from any separately proposed alternative. Substitution requires explicit approval of the mating geometry, electrical duty and verification plan before production.",
+      "zh": "本小类覆盖密封汽车尾线、多芯设备线束、面板连接、电器供电线、工业控制配线及按项目审核的高压组件。超斯迈尔围绕设备指定接口开发电缆组件，并不是提供一种通用“AMP 插头”。本页 TE Connectivity、AMP 及各系列名称用于识别所需接口，不代表品牌隶属或授权关系。报价应区分指定原厂物料与另行提出的替代方案；替代前必须明确对插几何、电气工况和验证计划，并取得认可。"
+    },
+    "images": {
+      "hero": "/assets/images/product-categories/stock/te-amp/hero.jpg",
+      "range": "/assets/images/product-categories/stock/te-amp/range.jpg"
+    },
+    "openingCaption": {
+      "en": "An equipment wiring loom illustrates the assembly scope; the approved BOM defines the connector brand and series.",
+      "zh": "设备内部配线展示组件范围，实际连接器品牌与系列由认可物料清单确定。"
+    },
+    "chapters": [
+      {
+        "id": "identification",
+        "style": "wide",
+        "title": {
+          "en": "What Makes an Assembly Compatible?",
+          "zh": "什么才是兼容组件？"
+        },
+        "copy": {
+          "en": "Start with the complete housing and mating-half part numbers, including suffixes. Then record the contact system, position count, cavity view, polarization, latch and terminal retention. A shell that slides over another shell is not proof of a sound electrical interface. Contact engagement, retention, seal compression and service access all need to work together. For repair pigtails and adapter leads, identify each end independently and keep the connection table with the drawing. This turns a visual match into a traceable specification. When the original part is unknown, provide sharp front, rear and side photographs with dimensions rather than a brand name alone.",
+          "zh": "先确认壳体与对插件的完整料号，包括后缀，再记录接触件系统、位数、腔位视图、防误插结构、卡扣及端子保持方式。两个壳体能够套在一起，并不能证明电气连接可靠；接点啮合、保持力、密封压缩与检修空间需要共同满足要求。维修尾线或转接线的两端应分别识别，并把接线表纳入图纸，使外观匹配转化为可追溯规格。原型号未知时，请提供清晰的正面、背面、侧面照片与尺寸，而不只是一个品牌名称。"
+        },
+        "image": "/assets/images/product-categories/stock/te-amp/identification.jpg",
+        "caption": {
+          "en": "AMP-marked connector detail: markings and mechanical features help identify an interface, but do not establish interchangeability.",
+          "zh": "带 AMP 标识的连接器细节：标记与机械特征有助于识别，但不能单独证明可互换。"
+        }
+      },
+      {
+        "id": "superseal",
+        "style": "feature-left",
+        "title": {
+          "en": "SUPERSEAL 1.5: Sealing Is a System",
+          "zh": "SUPERSEAL 1.5：密封是一套系统"
+        },
+        "copy": {
+          "en": "AMP SUPERSEAL 1.5 includes one- to six-position inline configurations for compact sealed wiring. The 1.5 designation identifies the contact family; it is not the cable cross-section or a universal cavity pitch. A sealed assembly combines the correct housing, contacts, wire seals, secondary locks and any required cavity plugs. Match each seal to the specified insulation diameter, not just the copper size. The family’s stated IP67 performance relates to the defined assembly and test conditions; an open, damaged or incorrectly populated connector does not inherit it. For a waterproof harness enquiry, describe splash direction, immersion exposure, chemicals and the condition in which protection is required.",
+          "zh": "AMP SUPERSEAL 1.5 包含一至六位直连配置，适用于紧凑密封配线。“1.5”指接触件系列，不是导线截面积，也不是通用腔位间距。密封组件由正确的壳体、端子、线封、二次锁及必要的盲堵共同构成。线封应匹配规定绝缘外径，不能只看铜线截面积。系列标注的 IP67 性能对应限定的装配与试验条件；打开、损坏或装配错误的接头不能直接继承该等级。咨询防水线束时，还应说明飞溅方向、浸水暴露、化学介质以及需要防护的连接状态。"
+        },
+        "image": "/assets/images/product-categories/stock/te-amp/superseal.jpg",
+        "caption": {
+          "en": "Elastomer sealing detail — a material reference, not a SUPERSEAL component or an IP test result.",
+          "zh": "弹性体密封细节——用于说明密封材料，不是 SUPERSEAL 零件或 IP 试验结果。"
+        }
+      },
+      {
+        "id": "ampseal",
+        "style": "compact",
+        "title": {
+          "en": "AMPSEAL and AMPSEAL 16 Are Different",
+          "zh": "AMPSEAL 与 AMPSEAL 16 并不相同"
+        },
+        "copy": {
+          "en": "AMPSEAL multiway systems and AMPSEAL 16 should not be treated as one interchangeable connector. AMPSEAL 16 provides sealed wire-to-wire and wire-to-device options, including panel installation. Its contact selection, terminal position assurance and connector position assurance must follow the specific configuration. Do not carry a temperature rating or permitted wire range from one variant to another. In a machine or off-highway harness, check whether a bulkhead flange, backshell, strain relief or service loop is required. The mating drawing should control mounting clearance as well as the connector itself, particularly where gloves, tools or nearby hoses restrict access.",
+          "zh": "AMPSEAL 多位系统与 AMPSEAL 16 不应被当作同一种可互换连接器。AMPSEAL 16 提供密封线对线、线对设备及面板安装等选项；接触件选择、端子位置保证结构与连接器位置保证结构，应遵循具体配置。不能把一种版本的温度等级或允许线径直接套到另一版本。机械或非道路设备线束还需确认隔板法兰、后壳、应力消除与检修余量。对插图纸除了控制接头本身，也应控制安装净空，尤其是在手套、工具或邻近软管影响操作的位置。"
+        },
+        "image": "/assets/images/product-categories/stock/te-amp/ampseal.jpg",
+        "caption": {
+          "en": "Wheel-speed sensor wiring shows why routing and moving-part clearance need attention; this is not an AMPSEAL product identification.",
+          "zh": "轮速传感器布线说明路线与运动部件净空的重要性，不将图中连接器认定为 AMPSEAL 产品。"
+        }
+      },
+      {
+        "id": "mnl",
+        "style": "inset-right",
+        "title": {
+          "en": "MATE-N-LOK: Family Before Appearance",
+          "zh": "MATE-N-LOK：先分系列，再看外观"
+        },
+        "copy": {
+          "en": "Universal MATE-N-LOK, Mini-Universal MATE-N-LOK and Micro MATE-N-LOK belong to distinct systems. Similar white housings or a matching position count are not enough to select a mate. Check the family, cavity shape, contact gender and the specified wire range. As one concrete example, TE 926869-1 is a Universal MATE-N-LOK receptacle contact with its own conductor range, material and application documents; it is not a generic terminal for every MATE-N-LOK housing. Appliance power leads and cabinet looms also need attention to loaded circuits, routing and any required panel retention. Use the exact terminal drawing and application specification when choosing crimp tooling.",
+          "zh": "Universal MATE-N-LOK、Mini-Universal MATE-N-LOK 与 Micro MATE-N-LOK 属于不同系统。相似的白色壳体或相同位数，不足以确定对插件，还需检查系列、腔形、接点公母和规定线径。例如 TE 926869-1 是具有独立导体范围、材料及应用文件的 Universal MATE-N-LOK 插孔端子，并不是所有 MATE-N-LOK 壳体通用的端子。电器供电线和柜内线束还需关注同时负载的回路、布线路径以及面板保持要求。压接工装应依据准确端子图纸和应用规范选择。"
+        },
+        "image": "/assets/images/product-categories/stock/te-amp/mnl.jpg",
+        "caption": {
+          "en": "AMP MATE-N-LOK and Molex .093-inch examples show why visually similar power connectors need separate identification.",
+          "zh": "AMP MATE-N-LOK 与 Molex .093 英寸示例，说明相似供电接头仍需分别识别。"
+        }
+      },
+      {
+        "id": "faston",
+        "style": "feature-right",
+        "title": {
+          "en": "FASTON: Width Is Only One Dimension",
+          "zh": "FASTON：片宽只是一个尺寸"
+        },
+        "copy": {
+          "en": "FASTON quick-disconnect systems are commonly described by tab width, but tab thickness, receptacle design, material and plating are also part of the connection. Straight and flag receptacles solve different access and routing problems. A generic “6.3 mm spade” description does not identify the full interface or establish a TE origin. Record the tab drawing, wire specification, insulation support and required housing or sleeve. For appliance, relay and grounding leads, evaluate the complete assembled connection under its actual electrical and thermal duty. A loose fit should not be corrected by squeezing a receptacle by hand; it calls for the correct mating components and termination process.",
+          "zh": "FASTON 快接系统常用插片宽度描述，但插片厚度、插簧结构、材料和镀层同样属于连接规格。直式与旗形插簧解决的是不同操作空间和布线问题。“6.3 mm 插簧”这种泛称，既不能定义完整接口，也不能证明 TE 来源。应记录插片图纸、导线规格、绝缘支撑和所需护套。电器、继电器或接地连接应在实际电气与热工况下评价完整组件。接触松动不应通过手工挤压插簧补救，而应回到正确的配对物料与端接过程。"
+        },
+        "image": "/assets/images/product-categories/stock/te-amp/faston.jpg",
+        "caption": {
+          "en": "Quick-disconnect terminal forms illustrate blade and receptacle geometry; the reference photo is not proof of TE manufacture.",
+          "zh": "快接端子形态用于说明插片与插簧几何，参考照片不作为 TE 原厂证明。"
+        }
+      },
+      {
+        "id": "dynamic",
+        "style": "wide",
+        "title": {
+          "en": "Dynamic Series: Control Wiring by Function",
+          "zh": "Dynamic 系列：按功能定义控制配线"
+        },
+        "copy": {
+          "en": "Industrial control harnesses can combine power, signal and protective connections, but their interfaces should remain clearly differentiated. In TE Dynamic Series, the selected series and keying determine the mating system. Certain D3000 configurations provide first-mate/last-break ground contacts; this is a configuration-specific feature, not a property of every Dynamic connector. Begin the harness drawing with circuit function, load and maintenance access. Separate signal identification from conductor colour, and define the point from which branch lengths are measured. A cabinet lead is easier to install and service when labels, mating references and routing instructions agree with the equipment drawing.",
+          "zh": "工业控制线束可以组合供电、信号与保护连接，但接口功能需要清晰区分。TE Dynamic 系列应依据具体系列与键位确定对插系统；部分 D3000 配置提供先接后断的接地接点，这属于特定配置功能，并非所有 Dynamic 连接器均具备。线束图纸应从回路功能、负载和维护空间开始定义；不要仅靠线色识别信号，并应确定分支长度的测量基准。当标签、对插型号和布线说明与设备图纸一致时，柜内连接线才更容易装配与检修。"
+        },
+        "image": "/assets/images/product-categories/stock/te-amp/dynamic.jpg",
+        "caption": {
+          "en": "Control-cabinet reference: function, labels and service access matter alongside connector selection.",
+          "zh": "控制柜应用参考：除接头选型外，回路功能、标签与维护空间同样重要。"
+        }
+      },
+      {
+        "id": "hva",
+        "style": "feature-left",
+        "title": {
+          "en": "AMP+ HVA: A Separate High-Voltage Review",
+          "zh": "AMP+ HVA：高压项目单独审核"
+        },
+        "copy": {
+          "en": "AMP+ HVA 280 is a high-voltage interface family with shielding and high-voltage interlock options. The interlock circuit is a system function; it should not be bridged or omitted to make a cable appear operational. Connector configuration, validated cable, shield termination, keying and mating device must be reviewed together. An orange housing alone does not define voltage capability or prove that an assembly is safe. Before quotation, establish the insulation coordination, mechanical route, approved components and required verification with the equipment owner. High-voltage production or testing requires suitable procedures and competent personnel; inclusion in this category is an invitation to engineering review, not a blanket qualification claim.",
+          "zh": "AMP+ HVA 280 是包含屏蔽与高压互锁选项的高压接口系列。互锁回路属于系统功能，不能为了让电缆看似可以工作而短接或省略。连接器配置、经过认可的线缆、屏蔽端接、键位和对插设备必须一起审核。橙色壳体本身不能定义耐压能力，也不能证明组件安全。报价前应与设备方明确绝缘配合、机械路线、认可物料及所需验证。高压生产或试验需要适当程序与具备能力的人员；将其列入本小类，是接受工程审核，不是宣称已具备所有项目资格。"
+        },
+        "image": "/assets/images/product-categories/stock/te-amp/hva.jpg",
+        "caption": {
+          "en": "Electric-vehicle charging context illustrates the high-voltage application domain, not an HVA connector or an approved harness.",
+          "zh": "电动车充电场景用于说明高压应用领域，并非 HVA 接头或已认可线束实物。"
+        }
+      },
+      {
+        "id": "materials",
+        "style": "inset-left",
+        "title": {
+          "en": "Materials: Contact, Wire and Insulation Together",
+          "zh": "用料建议：接点、导线与绝缘一起匹配"
+        },
+        "copy": {
+          "en": "A connector BOM extends beyond the visible housing. It can include conductor and insulation variants, contact plating, cable seals, cavity plugs, backshells, sleeving and identification. Select a terminal for both the conductor range and the insulation support it was designed to crimp. Preserve the contact material and plating specified for the mating pair; an attractive finish is not an electrical specification. For a proposed alternative, compare the relevant drawings and application documents, then define the checks needed for approval. The harness drawing should also state strip length, branch dimensions, protection transitions and any controlled material substitutions so that a repeat order remains the same engineering configuration.",
+          "zh": "连接器物料清单不只包含可见壳体，还可能涉及导体与绝缘版本、接点镀层、线封、盲堵、后壳、套管及标识。端子应同时匹配导体范围及其压接结构所支持的绝缘尺寸。对插系统指定的接点材料与镀层应保持一致；表面漂亮不是电气规格。提出替代时，应比较相关图纸与应用文件，再确定认可所需检查。线束图还应标明剥线长度、分支尺寸、防护过渡和受控材料替代，使重复订单保持相同工程配置。"
+        },
+        "image": "/assets/images/product-categories/stock/te-amp/materials.jpg",
+        "caption": {
+          "en": "Open-barrel terminal detail illustrates conductor and insulation crimp zones; it is a construction reference, not a specified TE part.",
+          "zh": "开口端子细节用于说明导体与绝缘压接区域，不代表已指定的 TE 料号。"
+        }
+      },
+      {
+        "id": "manufacturing",
+        "style": "process",
+        "title": {
+          "en": "Manufacturing and Inspection",
+          "zh": "制作方法与检验"
+        },
+        "copy": {
+          "en": "The working sequence is part identification, BOM and drawing review, tooling confirmation, wire preparation, termination, contact insertion, secondary-lock assembly and final verification. Crimp setup follows the terminal application specification rather than a general plier setting. First-article review should reconcile cavity numbering, contact seating, seals, dimensions and the actual test map. Continuity can reveal open or incorrect circuits, but does not by itself demonstrate sealing, retention or environmental durability. Additional mechanical, electrical or environmental checks need defined acceptance criteria and an agreed scope. Keep approved samples and controlled records so that changes in materials or tooling are reviewed instead of silently entering later batches.",
+          "zh": "基本过程包括物料识别、清单与图纸审核、工装确认、线材准备、端接、端子入壳、二次锁装配及最终验证。压接设置应依据端子应用规范，而不是采用通用钳口设置。首件审核需核对腔位编号、端子就位、密封件、尺寸及实际测试网络。导通可以发现断路或错接，但不能单独证明密封、保持力或环境耐久性。额外机械、电气或环境检查，应有明确接收准则和约定范围。保存认可样件及受控记录，使物料或工装变化经过审核，而不是悄悄进入后续批次。"
+        },
+        "image": "/assets/images/product-categories/stock/te-amp/manufacturing.jpg",
+        "caption": {
+          "en": "Indent-crimp tooling reference. Actual tooling must match the specified terminal; this tool is not prescribed for every TE / AMP series.",
+          "zh": "压痕式压接工具参考。实际工装须匹配指定端子，本图工具并非所有 TE / AMP 系列的通用工装。"
+        }
+      },
+      {
+        "id": "applications",
+        "style": "compact",
+        "title": {
+          "en": "Automotive Applications: Exposure Changes the Brief",
+          "zh": "汽车应用：环境改变选型条件"
+        },
+        "copy": {
+          "en": "Engine-bay connections, chassis sensors, exterior lighting and cabin equipment face different combinations of water, heat, vibration and service handling. A lighting pigtail near a wet body panel may need a different seal and protection arrangement from a dry interior control lead. Document mounting location, connector orientation, drainage, harness support and likely chemical exposure. The goal is to select the right interface and protection for that location, not to apply the strongest-sounding material everywhere. A TE / AMP-based harness can connect several different families in one assembly when the equipment requires it; each end still needs its own documented mating reference and circuit definition.",
+          "zh": "发动机舱连接、底盘传感器、外部照明与座舱设备面对的水、热、振动及维修操作组合各不相同。位于潮湿车身面板附近的灯具尾线，可能需要不同于干燥内饰控制线的密封与防护安排。应记录安装位置、接头朝向、排水、线束支撑及可能接触的化学介质。目标是按位置选择适当接口和防护，而不是处处使用听起来最强的材料。一条基于 TE / AMP 接口的线束可以按设备需要组合多个系列，但每个端部仍需独立的对插型号与回路定义。"
+        },
+        "image": "/assets/images/product-categories/stock/te-amp/applications.jpg",
+        "caption": {
+          "en": "Rain around vehicle lighting illustrates environmental exposure, not a connector waterproof test.",
+          "zh": "车辆照明周围的雨水用于说明环境暴露，不是连接器防水试验。"
+        }
+      },
+      {
+        "id": "leadtime",
+        "style": "wide",
+        "title": {
+          "en": "Lead Time: Begin with a Complete BOM",
+          "zh": "交期：从完整物料清单开始"
+        },
+        "copy": {
+          "en": "An assembly schedule depends on the slowest approved input, not only the time required to cut and crimp wire. Check housing colour and key, contact plating, loose-piece or reel packaging, seals, special cable and tooling before agreeing a delivery date. A prototype using available components is not necessarily evidence that the same production BOM can be replenished at volume. Super Smile can review the requested quantity, sample milestones and material options with you; a confirmed quotation records the actual sourcing and approval assumptions. If an alternative becomes necessary, treat it as a controlled change with written approval rather than replacing a part solely to preserve a promised date.",
+          "zh": "组件交期取决于最慢到位的已认可条件，而不只是裁线与压接用时。约定交付日期前，应检查壳体颜色与键位、接点镀层、散件或卷盘包装、密封件、特殊线材及工装。使用现有物料做出样件，不代表相同量产清单一定能够批量补货。超斯迈尔可与你一起审核数量、样品节点与物料选项，并在确认报价中记录实际采购与认可前提。确需替代时，应作为受控变更取得书面批准，不能仅为维持承诺日期而自行更换零件。"
+        },
+        "image": "/assets/images/product-categories/stock/te-amp/leadtime.jpg",
+        "caption": {
+          "en": "Automated small-parts storage illustrates material availability and picking, not Super Smile inventory.",
+          "zh": "小件自动存储场景用于说明备料与拣选，不代表超斯迈尔库存。"
+        }
+      },
+      {
+        "id": "pricing",
+        "style": "inset-right",
+        "title": {
+          "en": "Pricing: Define the Assembly, Not Just the Plug",
+          "zh": "价格：报价对象是组件，不只是插头"
+        },
+        "copy": {
+          "en": "A meaningful quotation separates recurring assembly cost from one-time development or tooling work. Recurring drivers include contact count, wire lengths, branch complexity, protection, labels, approved component sources, testing and packaging. One-time work may include drawing development, application tooling, test fixtures and first-article documentation. Part-number suffixes and plating choices can change the BOM even when the photograph looks identical. Send the mating references, pin table, dimensions, annual or batch quantity and delivery plan to obtain a comparable offer. We do not publish a universal TE / AMP harness price because it would hide the engineering differences between a short repair lead and a fully documented equipment loom.",
+          "zh": "有意义的报价应区分重复发生的组件成本与一次性开发、工装费用。重复成本包含接点数量、线长、分支复杂度、防护、标签、认可物料来源、测试和包装；一次性工作可能包含图纸开发、应用工装、测试治具及首件文件。即使照片相同，料号后缀与镀层选择也可能改变清单。请发送对插型号、针脚表、尺寸、年度或批次数量及交付安排，以便获得可比较的报价。我们不设置一个通用 TE / AMP 线束价格，因为短维修连接线与具有完整文件的设备线束，工程内容并不相同。"
+        },
+        "image": "/assets/images/product-categories/stock/te-amp/pricing.jpg",
+        "caption": {
+          "en": "Quotation planning: material, assembly, tooling and verification costs should be defined separately.",
+          "zh": "报价规划：物料、装配、工装与验证费用应分别定义。"
+        }
+      }
+    ],
+    "composition": [
+      {
+        "kind": "single",
+        "items": [
+          0,
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          4,
+          5
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          6,
+          7,
+          8,
+          9
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          10,
+          11
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": {
+          "en": "Does “TE / AMP compatible” mean every component is made by TE?",
+          "zh": "“TE / AMP 兼容”是否表示所有物料都是 TE 原厂？"
+        },
+        "a": {
+          "en": "No. The quotation and approved BOM must state genuine specified parts and any separately approved alternatives. The category name identifies the interface requirement, not brand authorization or an unstated component origin.",
+          "zh": "不是。报价与认可清单必须列明指定原厂零件和另行认可的替代物料。小类名称识别接口要求，不表示品牌授权，也不能代替物料来源说明。"
+        }
+      },
+      {
+        "q": {
+          "en": "Can a matching housing colour prove the connector will mate?",
+          "zh": "壳体颜色相同，是否就能对插？"
+        },
+        "a": {
+          "en": "No. Compare full part numbers, family, keying, contact system and mating drawings. Colour may form part of a coding system, but is not sufficient identification by itself.",
+          "zh": "不能。需比较完整料号、系列、键位、接触件系统和对插图纸。颜色可能属于编码的一部分，但本身不足以完成识别。"
+        }
+      },
+      {
+        "q": {
+          "en": "Can you develop an assembly from a sample?",
+          "zh": "可以根据样品开发组件吗？"
+        },
+        "a": {
+          "en": "An authorized sample can support dimensional and mechanical review. Circuit functions, material requirements, mating references and acceptance criteria still need confirmation before production.",
+          "zh": "获准使用的样品可辅助尺寸与机械审核，但回路功能、材料要求、对插型号和接收准则仍需在生产前确认。"
+        }
+      },
+      {
+        "q": {
+          "en": "Does an IP-rated connector make the entire harness waterproof?",
+          "zh": "有 IP 等级的接头，是否代表整条线束防水？"
+        },
+        "a": {
+          "en": "No. The rating applies to a defined configuration and test condition. Other joints, cable entries, unused cavities and installation details require their own assessment.",
+          "zh": "不代表。等级针对限定配置与试验条件；其他接头、线缆入口、空腔和安装细节仍需分别评价。"
+        }
+      }
+    ],
+    "creditHeading": {
+      "en": "Photographs, permissions and technical references",
+      "zh": "照片、许可与技术参考"
+    },
+    "mediaCredits": [
+      {
+        "file": "Electronic control cabinet.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Electronic_control_cabinet.jpg",
+        "author": "RICHI Manufacture",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "Revox B215 - cable harness.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Revox_B215_-_cable_harness.jpg",
+        "author": "Retired electrician",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "file": "Nedap ESD1 - AMP connector-8594.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Nedap_ESD1_-_AMP_connector-8594.jpg",
+        "author": "Raimond Spekking",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "O-Rings Assorted.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:O-Rings_Assorted.jpg",
+        "author": "William Rafti of the William Rafti Institute",
+        "license": "CC BY 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+      },
+      {
+        "file": "Caterham Roadsport building - 026 - Speed sensor, RH rear hub - disc, caliper and handbrake cable - Flickr - exfordy.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Caterham_Roadsport_building_-_026_-_Speed_sensor,_RH_rear_hub_-_disc,_caliper_and_handbrake_cable_-_Flickr_-_exfordy.jpg",
+        "author": "Brian Snelson from Hockley, Essex, England",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      {
+        "file": "Amp and Molex Connectors.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Amp_and_Molex_Connectors.jpg",
+        "author": "Michael Holley en:User:Swtpc6800",
+        "license": "Public domain"
+      },
+      {
+        "file": "Female Faston Style Terminals.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Female_Faston_Style_Terminals.jpg",
+        "author": "UvxqTbN",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "Microgrid Control Cabinet.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Microgrid_Control_Cabinet.jpg",
+        "author": "Itsjuliaxp",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "22kW DC electric vehicle charger at Madura Pass Oasis, Western Australia.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:22kW_DC_electric_vehicle_charger_at_Madura_Pass_Oasis,_Western_Australia.jpg",
+        "author": "Chuq",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "Brass crimp-terminal female spade electrical connector.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Brass_crimp-terminal_female_spade_electrical_connector.jpg",
+        "author": "Suyash Dwivedi",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "4-8 indent crimping tool .jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:4-8_indent_crimping_tool_.jpg",
+        "author": "Rennsteig Werkzeuge GmbH",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "Car headlight beams through the rain 1.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Car_headlight_beams_through_the_rain_1.jpg",
+        "author": "Kwameghana(Bright Kwame Ayisi)",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "Miniload ASRS.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Miniload_ASRS.jpg",
+        "author": "Thomas Philippi",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+        "file": "Desktop with laptop and calculator (Unsplash).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Desktop_with_laptop_and_calculator_(Unsplash).jpg",
+        "author": "AnonymousUnknown author",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "file": "TE AMP SUPERSEAL 1.5",
+        "url": "https://www.te.com/en/products/connectors/automotive-connectors/intersection/amp-superseal-1-5.html",
+        "author": "TE Connectivity",
+        "license": "Technical reference — manufacturer document; verify current part revision"
+      },
+      {
+        "file": "TE AMPSEAL 16",
+        "url": "https://www.te.com/en/products/connectors/automotive-connectors/intersection/ampseal-16-connectors.html",
+        "author": "TE Connectivity",
+        "license": "Technical reference — manufacturer document; verify current part revision"
+      },
+      {
+        "file": "TE MATE-N-LOK families",
+        "url": "https://www.te.com/en/products/brands/mate-n-lok.html",
+        "author": "TE Connectivity",
+        "license": "Technical reference — manufacturer document; verify current part revision"
+      },
+      {
+        "file": "TE 926869-1 terminal and application documents",
+        "url": "https://www.te.com/en/product-926869-1.html",
+        "author": "TE Connectivity",
+        "license": "Technical reference — manufacturer document; verify current part revision"
+      },
+      {
+        "file": "TE FASTON receptacles and tabs",
+        "url": "https://www.te.com/en/products/brands/faston/faston-receptacles-and-tabs.html",
+        "author": "TE Connectivity",
+        "license": "Technical reference — manufacturer document; verify current part revision"
+      },
+      {
+        "file": "TE Dynamic Series signal applications",
+        "url": "https://www.te.com/en/products/connectors/pcb-connectors/wire-to-board-connectors/intersection/DynamicSeries/dynamicseries-signalapplications.html?tab=pgp-story",
+        "author": "TE Connectivity",
+        "license": "Technical reference — manufacturer document; verify current part revision"
+      },
+      {
+        "file": "TE AMP+ HVA 280 technical overview",
+        "url": "https://www.te.com/content/dam/te-com/documents/hybrid-and-electric-mobility-solutions/global/8-1773465-7-hva-280.pdf",
+        "author": "TE Connectivity",
+        "license": "Technical reference — manufacturer document; verify current part revision"
+      }
+    ]
+  }
+}

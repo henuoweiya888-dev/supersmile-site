@@ -1,6 +1,6 @@
 # Turbo actuator harness
 
-Status: original bilingual implementation; responsive and public verification pending.
+Status: published in c9cb70f, with per-category stylesheet cache keys in f65094a. Public English/Chinese checks passed at 1280 and 390 px: 11 chapters, four FAQ, all images loaded, fixed header, correct inquiry/category links, no horizontal overflow or console errors. Local 320 px checks also passed. Public desktop verification was repeated after deployment propagation; initial mixed-cache results were not treated as completion.
 
 Eleven technical chapters and four FAQ. No exact turbo-actuator subcategory found in QL-Custom's current product navigation; the nearest engine-wire-harness outline is used transparently: product introduction, advantages, wires/connectors/polymer/corrugated protection, solutions, applications, design/quality, manufacturing and FAQ. Turbo-specific control and calibration distinctions are added. No borrowed customer, certification, universal-fit or performance claims.
 
