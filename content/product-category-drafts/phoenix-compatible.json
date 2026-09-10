@@ -1,0 +1,951 @@
+{
+  "key": "connector-systems-12",
+  "slug": "phoenix-compatible",
+  "title": {
+    "en": "Phoenix Compatible Cable Assemblies",
+    "zh": "Phoenix 兼容电缆组件"
+  },
+  "seoTitle": "Custom Phoenix Cable Harnesses | COMBICON, Terminal Blocks, M12 & HEAVYCON | Super Smile",
+  "intro": {
+    "en": "Custom Phoenix-interface terminal, sensor and equipment harnesses, with defined pinouts, conductor preparation and installation requirements.",
+    "zh": "定制 Phoenix 接口端子、传感器及设备线束，明确针脚、导体处理及安装要求。"
+  },
+  "knowledge": {
+    "en": "Match the complete connection system, not color or pitch alone.",
+    "zh": "匹配完整连接系统，而不只是颜色或间距。"
+  },
+  "notes": {
+    "en": "Confirm mating references, circuit maps, installation conditions and inspection scope.",
+    "zh": "确认对插料号、回路图、安装条件及检验范围。"
+  },
+  "delivery": {
+    "en": "Release the approved drawing, material list and inspection plan together.",
+    "zh": "共同放行认可图纸、物料清单及检验方案。"
+  },
+  "page": {
+    "layout": "technical-editorial",
+    "theme": "cabinet-connections",
+    "displayTitle": {
+      "en": "Phoenix Compatible Cable Assemblies",
+      "zh": "Phoenix 兼容电缆组件"
+    },
+    "headings": {
+      "introduction": {
+        "en": "Phoenix Harnesses: From Terminal to Equipment",
+        "zh": "Phoenix 线束：从端子到设备"
+      },
+      "faq": {
+        "en": "Frequently Asked Questions",
+        "zh": "常见问题"
+      }
+    },
+    "subtitle": {
+      "en": "Interface selection, conductor preparation and controlled installation",
+      "zh": "接口选型、导体处理与受控安装"
+    },
+    "lead": {
+      "en": "This category includes many different cable and harness constructions, from small pluggable terminal leads to machine interconnections. A useful specification links the connector to its conductor, mating equipment and operating environment. The following guide explains the interface families, production details, applications and verification questions that make a custom assembly repeatable.",
+      "zh": "这一小类包含多种电缆与线束结构，从小型插拔端子引线到设备互连。有效规格应将接头、导体、对插设备及工作环境联系起来。以下介绍接口家族、生产细节、应用及验证要点，帮助将定制组件转化为可重复制造的产品。"
+    },
+    "images": {
+      "hero": "",
+      "range": ""
+    },
+    "openingCaption": {
+      "en": "",
+      "zh": ""
+    },
+    "chapters": [
+      {
+        "id": "identity",
+        "title": {
+          "en": "Phoenix Terminal-Block Connections",
+          "zh": "Phoenix 端子连接系统"
+        },
+        "copy": {
+          "en": "Phoenix-compatible harnesses cover plug-in terminal leads, cabinet interconnections, sensor cables and machine interfaces. A green connector is not enough to identify the system. Record the complete part number, mating header, pole count, pitch, connection method and locking arrangement. Super Smile reviews original parts and approved alternatives separately; appearance alone is not evidence of interchangeability or brand authorization.",
+          "zh": "Phoenix 兼容线束覆盖插拔端子引线、控制柜互连、传感器电缆及设备接口。绿色接头不足以识别系统，应记录完整料号、对插针座、极数、间距、接线方式及锁紧结构。超斯迈尔分别审核原装零件与认可替代件，不能仅凭外观判断互换性，也不将兼容制造表述为品牌授权。"
+        },
+        "style": "wide",
+        "image": "",
+        "caption": {
+          "en": "",
+          "zh": ""
+        }
+      },
+      {
+        "id": "combicon",
+        "title": {
+          "en": "COMBICON: Match the Plug-In System",
+          "zh": "COMBICON：匹配完整插拔系统"
+        },
+        "copy": {
+          "en": "MC 1,5 and MSTB 2,5 are examples of different COMBICON systems; familiar versions use 3.81 mm and 5.08 mm pitches. The exact suffix still matters: entry direction, screw flange, locking clip and header geometry can change. Confirm a cable plug against the installed PCB header, not a photograph of a similar connector. Contact ratings and allowed conductor sizes belong to the selected order code and application conditions.",
+          "zh": "MC 1,5 与 MSTB 2,5 是不同 COMBICON 系统的例子，常见版本采用 3.81 mm 与 5.08 mm 间距。具体后缀仍影响进线方向、螺钉法兰、锁扣及针座几何。线端插头应与设备上实际 PCB 针座核对，而不是与相似照片比较；触点额定值和适用线径应按具体订货号及应用条件确认。"
+        },
+        "style": "inset-left",
+        "image": "",
+        "caption": {
+          "en": "",
+          "zh": ""
+        }
+      },
+      {
+        "id": "spring",
+        "title": {
+          "en": "Push-in, Push-X and Screw Termination",
+          "zh": "直插、Push-X 与螺钉端接"
+        },
+        "copy": {
+          "en": "Connection technologies do not share one installation procedure. Conventional Push-in directly accepts suitable rigid or ferruled conductors; flexible bare strands may require opening the spring. Push-X uses a preloaded open chamber that is triggered by insertion. Screw terminals require the specified strip length and tightening method. In every case, use the product instructions and conductor range rather than assuming that a tool-free label removes preparation or inspection requirements.",
+          "zh": "不同接线技术不能套用同一安装步骤。常规 Push-in 可直接接入合适硬导体或带管形端子的导体，裸软绞线可能需要先打开弹簧。Push-X 采用预加载开放夹线腔，由插入动作触发夹紧；螺钉端子则需遵守规定剥线长度及紧固方法。无论哪种形式，都应查具体说明和导体范围，不能把免工具理解为无需准备或检查。"
+        },
+        "style": "feature-right",
+        "image": "",
+        "caption": {
+          "en": "",
+          "zh": ""
+        }
+      },
+      {
+        "id": "ferrules",
+        "title": {
+          "en": "Ferrules: Size, Length and Crimp Shape",
+          "zh": "管形端子：线径、长度与压接形状"
+        },
+        "copy": {
+          "en": "A ferrule organizes fine strands, but its collar color is not a universal size guarantee. Match the conductor cross-section, sleeve length and permitted crimp geometry to the terminal opening. Stripping must preserve the strands and leave the correct finished insertion length. Twin ferrules and two-conductor entries require explicit terminal approval; forcing two wires into a single-wire connection is not an acceptable shortcut.",
+          "zh": "管形端子可整理细绞线，但绝缘领口颜色不是统一的线径保证。应使导体截面、套管长度及允许压接形状与夹线口匹配，剥线时保留完整绞线，并形成正确成品插入长度。双线管形端子或双导体入口需要端子明确允许，不能将两根线强塞入单线连接来简化工艺。"
+        },
+        "style": "compact",
+        "image": "",
+        "caption": {
+          "en": "",
+          "zh": ""
+        }
+      },
+      {
+        "id": "matching",
+        "title": {
+          "en": "Core Advantage: A Documented Interface",
+          "zh": "核心优势：有依据的接口匹配"
+        },
+        "copy": {
+          "en": "A well-defined harness reduces uncertainty at installation. Verify the mating face, terminal orientation, keying and screw or latch clearance before committing to a replacement. A sample can reveal mechanical details, while a circuit drawing establishes electrical function. Keep any approved changes visible in the bill of materials and drawing; do not silently substitute a similar-looking plug when the original component is difficult to obtain.",
+          "zh": "定义清楚的线束能减少安装时的不确定性。替换前应核实对插面、端子方向、防错结构，以及螺钉或锁扣的操作间隙。样品可补充机械细节，回路图用于明确电气功能。认可变更应体现在物料清单及图纸中，原件难采购时也不能悄悄换成外观相似插头。"
+        },
+        "style": "inset-right",
+        "image": "",
+        "caption": {
+          "en": "",
+          "zh": ""
+        }
+      },
+      {
+        "id": "protection",
+        "title": {
+          "en": "Protection Follows the Actual Installation",
+          "zh": "防护随实际安装条件确定"
+        },
+        "copy": {
+          "en": "An indoor PCB plug and a sealed machine connector solve different problems. Dust, coolant, oil and washdown exposure should be listed individually, together with temperature and cleaning frequency. Cable entries, mating joints and unused openings all influence the finished protection. A robust-looking housing or heavy jacket does not by itself establish ingress protection, chemical resistance or suitability for a moving cable route.",
+          "zh": "室内 PCB 插头与密封设备接头解决的问题不同。应分别列出粉尘、冷却液、油及冲洗暴露，并补充温度和清洁频率。进线口、对插接缝和未用开口共同影响成品防护。外壳看起来结实或护套很厚，都不能单独证明防水、耐化学性或运动布线适用性。"
+        },
+        "style": "wide",
+        "image": "",
+        "caption": {
+          "en": "",
+          "zh": ""
+        }
+      },
+      {
+        "id": "workmanship",
+        "title": {
+          "en": "Workmanship: From Stripped Wire to Finished Lead",
+          "zh": "装配工艺：从剥线到成品引线"
+        },
+        "copy": {
+          "en": "The termination method controls the work sequence. Screw and spring terminals need correctly prepared conductors; crimp-contact families need the specified contact, tool and insertion check. Inspect for cut strands, trapped insulation, incomplete seating and incorrect wire identification. A neat bundle is useful, but it cannot compensate for an incorrect circuit or damaged termination hidden inside the connector.",
+          "zh": "端接方式决定作业顺序。螺钉及弹簧端子需要正确处理导体，压接触点系列则需规定端子、工具及插入检查。应检查断股、夹入绝缘、未完全到位及线号错误。成束整齐有助于安装，但不能弥补接头内部回路错误或端接损伤。"
+        },
+        "style": "process",
+        "image": "",
+        "caption": {
+          "en": "",
+          "zh": ""
+        }
+      },
+      {
+        "id": "custom",
+        "title": {
+          "en": "Custom Lengths, Branches and Mixed Interfaces",
+          "zh": "定制长度、分支与混合接口"
+        },
+        "copy": {
+          "en": "A Phoenix-interface lead may terminate at a PCB plug, circular connector, ferruled wire end or another approved interface. Define each branch from a clear datum and record labels at both ends. Keep power, signal and shielding functions explicit even when they share a bundle. For mixed assemblies, the mating and electrical limits of every end must be reviewed; one suitable connector does not qualify the complete harness.",
+          "zh": "Phoenix 接口引线另一端可以是 PCB 插头、圆形接头、管形端子线尾或其他认可接口。各分支应从明确基准定义，并记录两端标识。即使同束布线，也应区分供电、信号及屏蔽功能。混合组件需逐端核对对插与电气限制，一个合适接头并不等于整条线束满足要求。"
+        },
+        "style": "compact",
+        "image": "",
+        "caption": {
+          "en": "",
+          "zh": ""
+        }
+      },
+      {
+        "id": "delivery",
+        "title": {
+          "en": "Delivery Cost: Include Installation and Service",
+          "zh": "交付成本：同时考虑安装与维修"
+        },
+        "copy": {
+          "en": "Price depends on confirmed parts, conductor construction, assembly effort and required verification. Standardized labels and repeatable branch dimensions can reduce installation work, while an unsuitable substitute can create rework. Compare quotations against the same material and inspection scope. Lead time is confirmed after part availability and tooling are reviewed, rather than presented as one promise for every Phoenix harness configuration.",
+          "zh": "价格取决于确认零件、导体结构、装配工作及所需验证。统一标识和可重复的分支尺寸有助于减少安装工作，不合适替代却可能造成返工。报价比较应采用相同物料与检验范围；交期需审核供料及工装后确认，而不是对所有 Phoenix 线束配置作统一承诺。"
+        },
+        "style": "inset-left",
+        "image": "",
+        "caption": {
+          "en": "",
+          "zh": ""
+        }
+      },
+      {
+        "id": "automation-solution",
+        "title": {
+          "en": "Industrial Automation Connection Solutions",
+          "zh": "工业自动化连接方案"
+        },
+        "copy": {
+          "en": "Start with the cabinet I/O list and the physical machine layout. Separate fixed cabinet wiring from moving axes and identify which connections need service access. Sensor power, switched outputs and communication links may require different cable constructions. Modular harness sections can simplify replacement, provided the connector coding, wire numbering and branch support prevent accidental interchange during maintenance.",
+          "zh": "从控制柜 I/O 清单及设备布局开始，区分柜内固定布线与运动轴，并识别需要维修操作的接口。传感器供电、开关量输出及通信链路可能需要不同线缆结构。模块化线束段有助于更换，但应通过接口编码、线号及分支支撑避免维护时误插。"
+        },
+        "style": "feature-left",
+        "image": "",
+        "caption": {
+          "en": "",
+          "zh": ""
+        }
+      },
+      {
+        "id": "energy-solution",
+        "title": {
+          "en": "New-Energy Equipment Connection Solutions",
+          "zh": "新能源设备连接方案"
+        },
+        "copy": {
+          "en": "An inverter or storage cabinet contains both energy paths and control circuits. Do not apply a small signal-connector rating to a battery or photovoltaic power circuit. Define the actual voltage, current, protective functions and environment for each branch. Route measurement and communication leads with attention to nearby switching equipment, grounding and the separation required by the equipment design.",
+          "zh": "逆变器或储能柜同时包含能源通路与控制回路。不能把小信号接头额定值套用于电池或光伏供电线路，应逐支路明确实际电压、电流、保护功能及环境。测量和通信引线布置需考虑邻近开关设备、接地，以及设备设计要求的回路隔离。"
+        },
+        "style": "wide",
+        "image": "",
+        "caption": {
+          "en": "",
+          "zh": ""
+        }
+      },
+      {
+        "id": "rail-solution",
+        "title": {
+          "en": "Rail and Smart-Equipment Connection Solutions",
+          "zh": "轨交与智能设备连接方案"
+        },
+        "copy": {
+          "en": "Vehicle wiring, station equipment and building controls have different qualification boundaries. Identify where the harness is installed before choosing material or protection claims. Locking, strain relief, identification and access are part of the design alongside electrical performance. Any required fire, vibration or environmental evidence must cover the agreed configuration; using an industrial connector does not automatically create an approved rail harness.",
+          "zh": "车辆布线、车站设备及楼宇控制的资格边界不同。选材或提出防护要求前，应确定线束安装位置。锁紧、应力缓解、标识及操作空间与电气性能共同构成设计。所需防火、振动或环境证据应覆盖约定配置，采用工业接头不等于自动获得轨交线束批准。"
+        },
+        "style": "compact",
+        "image": "",
+        "caption": {
+          "en": "",
+          "zh": ""
+        }
+      },
+      {
+        "id": "terminal",
+        "title": {
+          "en": "Pin and Terminal-Connector Harnesses",
+          "zh": "针座与端子连接线束"
+        },
+        "copy": {
+          "en": "Cable-side plugs and board-side headers form a selected pair. COMBICON variants may use screw, spring or crimp termination, so the conductor preparation and inspection differ. Record pole numbering, wire entry direction and the permitted terminal accessories. For cabinet terminal blocks, also define bridges, end plates and markers as needed; these accessories can change the circuit or isolation boundaries.",
+          "zh": "线端插头与板端针座组成经过选择的配对系统。COMBICON 版本可能采用螺钉、弹簧或压接端接，对应导体处理及检验不同。应记录极位编号、进线方向及允许附件。柜内端子排还需按要求定义桥接件、端板和标识，这些附件可能改变回路或隔离边界。"
+        },
+        "style": "inset-right",
+        "image": "",
+        "caption": {
+          "en": "",
+          "zh": ""
+        }
+      },
+      {
+        "id": "heavy",
+        "title": {
+          "en": "HEAVYCON Heavy-Duty Connector Harnesses",
+          "zh": "HEAVYCON 重载接头线束"
+        },
+        "copy": {
+          "en": "HEAVYCON assemblies combine contact inserts, housings, cable glands and accessories. Fixed-position and modular inserts support different mixes of power, signal and data; the housing alone does not establish the circuit rating. Verify the insert frame, protective-earth arrangement, gland range and panel cutout together. A change from top to side entry can affect bend clearance and installation reach even if the mating interface is unchanged.",
+          "zh": "HEAVYCON 组件由触点插芯、外壳、电缆夹头及附件组合而成。固定极数与模块化插芯支持不同供电、信号和数据组合，不能单看外壳判断回路额定值。应共同核对插芯框架、保护接地、夹头范围及面板开孔。即使对插接口不变，由顶出改为侧出仍可能影响弯曲间隙和有效安装距离。"
+        },
+        "style": "feature-right",
+        "image": "",
+        "caption": {
+          "en": "",
+          "zh": ""
+        }
+      },
+      {
+        "id": "circular",
+        "title": {
+          "en": "Circular Sensor and Power Connectors",
+          "zh": "圆形传感与供电接头"
+        },
+        "copy": {
+          "en": "M8 and M12 names describe interface families, not a single universal connection. M12 coding, pole count, shielding and coupling method must match the counterpart. Power versions also distinguish protective or functional-earth arrangements. Follow the exact assembly instructions: the coupling ring and cable pressure nut can require different tightening torques, and excessive cable bending forces can compromise the seal.",
+          "zh": "M8、M12 是接口家族名称，并非一种统一连接。M12 编码、极数、屏蔽及锁紧方式必须与对端匹配，供电版本还需区分保护接地和功能接地安排。应遵循具体装配说明，锁紧环与电缆压紧螺母可能需要不同扭矩，过大的线缆弯曲力也可能破坏密封。"
+        },
+        "style": "wide",
+        "image": "",
+        "caption": {
+          "en": "",
+          "zh": ""
+        }
+      },
+      {
+        "id": "ethernet",
+        "title": {
+          "en": "Ethernet and Data Cable Harnesses",
+          "zh": "以太网与数据电缆线束"
+        },
+        "copy": {
+          "en": "A data harness is defined by its complete channel, not just a connector silhouette. Preserve the intended twisted pairs, shield termination and impedance-controlled geometry where required. RJ45 and coded M12 interfaces need an explicit pair map when combined. Cable category, length, connection count and installed routing influence performance; continuity alone cannot prove that the link meets its intended data rate.",
+          "zh": "数据线束由完整通道定义，而不只是接头轮廓。需要时应保持预定双绞线对、屏蔽端接及受控阻抗结构。RJ45 与编码 M12 混用时，应明确线对映射。线缆类别、长度、连接数量及安装路径都会影响性能，仅导通不能证明链路达到预期速率。"
+        },
+        "style": "inset-left",
+        "image": "",
+        "caption": {
+          "en": "",
+          "zh": ""
+        }
+      },
+      {
+        "id": "industry",
+        "title": {
+          "en": "Industrial Automation Applications",
+          "zh": "工业自动化应用"
+        },
+        "copy": {
+          "en": "Control cabinets connect PLC inputs, outputs, relay interfaces, sensors and actuators. A clear I/O-to-terminal schedule helps the customer understand where every branch belongs. Consider fault isolation and replacement as well as initial assembly. Separate field wiring from internal electronics where the equipment design requires it, and keep identification readable after the harness is fitted.",
+          "zh": "控制柜连接 PLC 输入输出、继电器接口、传感器及执行器。清楚的 I/O 与端子对应表有助于客户了解每个分支的位置。除首次装配外，还应考虑故障隔离和更换。按设备设计要求区分现场布线与内部电子线路，并保证安装后仍可读出标识。"
+        },
+        "style": "compact",
+        "image": "",
+        "caption": {
+          "en": "",
+          "zh": ""
+        }
+      },
+      {
+        "id": "renewables",
+        "title": {
+          "en": "Renewable-Energy Applications",
+          "zh": "可再生能源应用"
+        },
+        "copy": {
+          "en": "Solar, wind and energy-storage equipment use many low-voltage auxiliary and communication harnesses in addition to their main power circuits. Identify the actual circuit rather than treating every cable near a solar array as a photovoltaic power cable. Outdoor routing also needs suitable support, drainage and exposure-resistant materials. Review the complete assembly for the selected location and intended maintenance method.",
+          "zh": "太阳能、风能及储能设备除主功率回路外，也使用大量低压辅助与通信线束。应明确实际回路，不能把太阳能阵列附近所有电缆都视为光伏动力线。户外布线还需要合适支撑、排水及耐暴露材料，应按所选安装位置和预期维修方式审核完整组件。"
+        },
+        "style": "feature-left",
+        "image": "",
+        "caption": {
+          "en": "",
+          "zh": ""
+        }
+      },
+      {
+        "id": "transit",
+        "title": {
+          "en": "Rail-Transit Applications",
+          "zh": "轨道交通应用"
+        },
+        "copy": {
+          "en": "Passenger areas, underfloor equipment and sheltered control cabinets experience different conditions. Cable selection may involve flame, smoke, toxicity, temperature and vibration requirements specified by the vehicle program. Define the applicable documents with the customer and maintain material traceability. An approved component document should not be presented as approval of an untested finished harness or complete vehicle installation.",
+          "zh": "客室、车底设备与受保护控制柜的条件不同。项目可能对线缆提出阻燃、烟密度、毒性、温度及振动要求，应与客户明确适用文件并保持材料可追溯。已认可零件文件不能被当作未经验证的成品线束或完整车辆安装批准。"
+        },
+        "style": "compact",
+        "image": "",
+        "caption": {
+          "en": "",
+          "zh": ""
+        }
+      },
+      {
+        "id": "medical",
+        "title": {
+          "en": "Medical-Equipment Applications",
+          "zh": "医疗设备应用"
+        },
+        "copy": {
+          "en": "Internal equipment wiring and patient-connected accessories are different design scopes. Low-level measurement signals need attention to shielding, routing and connector identification. Cleaning agents and handling can influence exposed cable materials. Define the device boundary and requested verification before quoting; a Phoenix-interface assembly is not by itself a medical-device certification or a declaration of suitability for direct patient connection.",
+          "zh": "设备内部布线与患者连接附件属于不同设计范围。低电平测量信号需注意屏蔽、路径及接口识别，清洁剂和操作方式会影响外露线缆材料。报价前应明确设备边界及所需验证；采用 Phoenix 接口不等于医疗器械认证，也不代表可直接连接患者。"
+        },
+        "style": "inset-right",
+        "image": "",
+        "caption": {
+          "en": "",
+          "zh": ""
+        }
+      },
+      {
+        "id": "robotics",
+        "title": {
+          "en": "Robotics and Machine Building",
+          "zh": "机器人与设备制造"
+        },
+        "copy": {
+          "en": "A robot harness may experience repeated bending, torsion or both. Define the movement envelope, minimum bend radius, fixed points and service loop from the actual mechanism. Keep connector mass away from unsupported moving spans and prevent sharp edges from contacting the jacket. Flex-life targets require an agreed motion and test condition, not a general claim that an industrial cable can bend indefinitely.",
+          "zh": "机器人线束可能承受反复弯曲、扭转或两者共同作用。应根据实际机构定义运动范围、最小弯曲半径、固定点及活动余量。避免接头重量加载无支撑运动段，并防止锐边接触护套。柔性寿命目标需要约定运动及试验条件，不能笼统宣称工业电缆可无限弯折。"
+        },
+        "style": "wide",
+        "image": "",
+        "caption": {
+          "en": "",
+          "zh": ""
+        }
+      },
+      {
+        "id": "telecom",
+        "title": {
+          "en": "Telecom and Network Equipment",
+          "zh": "通信与网络设备"
+        },
+        "copy": {
+          "en": "Network equipment can combine power-entry wiring, alarm contacts and high-speed links within limited space. Keep these functions distinguishable in the harness drawing and labels. Shield continuity and grounding should follow the system plan, not improvised connections at every convenient metal surface. Service access, cable bend and airflow are practical constraints that should be checked before finalizing the branch layout.",
+          "zh": "网络设备可能在有限空间内同时布置供电入口、告警触点及高速链路。图纸与标识应使这些功能清楚可辨，屏蔽连续性及接地应遵循系统方案，而不是遇到金属面就随意连接。维修空间、线缆弯曲及散热气流都应在确定分支布局前检查。"
+        },
+        "style": "compact",
+        "image": "",
+        "caption": {
+          "en": "",
+          "zh": ""
+        }
+      },
+      {
+        "id": "cold",
+        "title": {
+          "en": "Sub-Zero and Cold-Storage Environments",
+          "zh": "低温与冷库环境"
+        },
+        "copy": {
+          "en": "Low temperature can change jacket flexibility and the force needed to move a cable. Distinguish static installation temperature from the temperature at which a lead will flex or be handled. Condensation during entry into a warm area is a separate concern from cold exposure. Choose the exact material grade and seal system for the duty cycle, and verify the installed bend rather than relying on a broad temperature label.",
+          "zh": "低温会改变护套柔性及移动线缆所需力。应区分静态安装温度与实际弯折、操作时的温度，从冷区进入暖区产生的凝露又是另一项问题。按工作循环选择具体材料牌号和密封系统，并核实安装弯曲状态，而不是仅凭宽泛温度标签判断。"
+        },
+        "style": "inset-left",
+        "image": "",
+        "caption": {
+          "en": "",
+          "zh": ""
+        }
+      },
+      {
+        "id": "heat",
+        "title": {
+          "en": "High-Heat Industrial Areas",
+          "zh": "高温工业区域"
+        },
+        "copy": {
+          "en": "Radiant heat, hot surfaces and warm ambient air affect cables differently. Keep harnesses away from direct contact with heat sources where possible and assess the hottest installed location. Conductor loading adds its own temperature rise. Jacket, terminal, housing and seal limits must be considered together; a high-temperature wire does not raise the rating of an ordinary connector attached to it.",
+          "zh": "辐射热、热表面及高温空气对电缆影响不同。应尽量避免线束直接接触热源，并评估安装中的最高温位置；导体负载还会造成额外温升。护套、端子、外壳和密封限制需共同考虑，高温电线不能提高另一端普通接头的额定温度。"
+        },
+        "style": "compact",
+        "image": "",
+        "caption": {
+          "en": "",
+          "zh": ""
+        }
+      },
+      {
+        "id": "humidity",
+        "title": {
+          "en": "Humidity, Condensation and Washdown",
+          "zh": "湿气、凝露与冲洗"
+        },
+        "copy": {
+          "en": "Moisture can enter through a damaged seal, unused opening or an assembly process that traps water inside. An IP classification describes specified test conditions, not unlimited exposure to steam or cleaning jets. Check both mated operation and the condition during maintenance. Drainage, cable entry orientation and compatible cleaning procedures help manage the installation, but they do not replace verification of the selected assembly.",
+          "zh": "湿气可能从损伤密封、未封开口进入，也可能在装配时被封在内部。IP 等级描述规定试验条件，并非可无限承受蒸汽或清洗水柱。应同时检查对插运行和维护拆开状态。排水、进线方向及兼容清洁流程有助于管理安装环境，但不能替代所选组件验证。"
+        },
+        "style": "feature-right",
+        "image": "",
+        "caption": {
+          "en": "",
+          "zh": ""
+        }
+      },
+      {
+        "id": "vibration",
+        "title": {
+          "en": "Vibration and Mechanical Support",
+          "zh": "振动与机械支撑"
+        },
+        "copy": {
+          "en": "Mechanical retention and electrical contact stability must both be considered. A latch can remain closed while a poorly supported cable loads the termination or rubs through its jacket. Define support spacing, bend allowance and service loops around the actual equipment motion. Inspection should include contact seating and cable-entry strain relief; any vibration test needs specified mounting, axes, duration and acceptance criteria.",
+          "zh": "需要同时考虑机械保持及电气接触稳定。锁扣可能仍闭合，但支撑不当的电缆已加载端接或磨穿护套。固定间距、弯曲余量及检修环应围绕设备实际运动定义。检查需包含触点到位和进线口应力缓解；振动试验则应明确安装、方向、时间及判定条件。"
+        },
+        "style": "compact",
+        "image": "",
+        "caption": {
+          "en": "",
+          "zh": ""
+        }
+      },
+      {
+        "id": "chemicals",
+        "title": {
+          "en": "Oil, Solvents and Cleaning Agents",
+          "zh": "油、溶剂与清洁剂"
+        },
+        "copy": {
+          "en": "Chemical resistance is specific to the fluid, concentration, temperature and exposure time. A jacket that tolerates one oil may not tolerate a cleaning solvent. Seals, printing and overmolding compounds must also remain suitable. Request the actual substances used on site and evaluate the complete exposed material set before approving a replacement cable or claiming broad resistance.",
+          "zh": "耐化学性取决于液体、浓度、温度及暴露时间。能耐某种油的护套未必能耐清洗溶剂，密封、印字及包胶材料也需保持适用。应索取现场实际使用物质，并在认可替换电缆或提出耐受声明前评估全部外露材料。"
+        },
+        "style": "inset-right",
+        "image": "",
+        "caption": {
+          "en": "",
+          "zh": ""
+        }
+      },
+      {
+        "id": "uv",
+        "title": {
+          "en": "Sunlight and Outdoor Aging",
+          "zh": "日照与户外老化"
+        },
+        "copy": {
+          "en": "UV exposure is only one part of outdoor service. Temperature cycling, moisture, dirt and mechanical movement act together over time. Specify an outdoor-suitable material grade and protect the routing from avoidable abrasion or standing water. Color alone does not establish UV resistance, and an accelerated aging result should be reported with its test conditions rather than converted into an unsupported number of field years.",
+          "zh": "紫外线只是户外使用的一部分，温度循环、湿气、污物及机械运动会随时间共同作用。应规定适合户外的材料牌号，并减少可避免的磨损或积水。颜色不能单独证明耐紫外线，加速老化结果应附带试验条件，不应换算成没有依据的实际使用年数。"
+        },
+        "style": "wide",
+        "image": "",
+        "caption": {
+          "en": "",
+          "zh": ""
+        }
+      },
+      {
+        "id": "sizing",
+        "title": {
+          "en": "Conductor Sizing and Thermal Limits",
+          "zh": "导体截面与温升限制"
+        },
+        "copy": {
+          "en": "Current-carrying capacity depends on conductor material, insulation temperature, ambient conditions and how wires are grouped or enclosed. Start with the actual load and duty cycle, including relevant startup or inrush conditions. The terminal must accept the chosen conductor and remain within its own limits. Final sizing should follow the equipment requirements and applicable installation rules, not a connector maximum copied out of context.",
+          "zh": "载流能力受导体材料、绝缘耐温、环境及成组或封闭安装方式影响。应从实际负载和工作循环开始，并考虑相关启动或冲击条件。端子必须容纳所选导体且不超出自身限制。最终选线应遵循设备要求及适用安装规则，不能脱离条件照抄接头最大值。"
+        },
+        "style": "feature-left",
+        "image": "",
+        "caption": {
+          "en": "",
+          "zh": ""
+        }
+      },
+      {
+        "id": "drop",
+        "title": {
+          "en": "Voltage Drop: Evaluate the Complete Loop",
+          "zh": "压降：计算完整回路"
+        },
+        "copy": {
+          "en": "For a simple DC circuit, voltage drop follows current multiplied by total loop resistance. Include the outgoing and return conductors plus relevant terminations, and use resistance at the intended operating temperature. A longer cable or smaller cross-section can reduce the voltage available at the load. Increasing wire size may help, but the connector range, bend space and protective-device coordination still need review.",
+          "zh": "简单直流回路的压降取决于电流与总回路电阻的乘积。应包含去程、回程导体及相关端接，并采用预期工作温度下的电阻。更长电缆或更小截面可能降低负载端可用电压。增大线径可能改善压降，但仍需核查接头范围、弯曲空间及保护器件配合。"
+        },
+        "style": "inset-left",
+        "image": "",
+        "caption": {
+          "en": "",
+          "zh": ""
+        }
+      },
+      {
+        "id": "pull",
+        "title": {
+          "en": "Pull-Force Evaluation",
+          "zh": "拉力评估"
+        },
+        "copy": {
+          "en": "A pull test evaluates mechanical retention under a defined method; it is not interchangeable with checking electrical continuity. Select samples, pull direction, speed and acceptance requirements appropriate to the termination. Destructive qualification samples must not be treated as ordinary saleable units afterward. Production checks and sampling frequency should be agreed for the project rather than claiming that every finished crimp is pulled to failure.",
+          "zh": "拉力试验按规定方法评估机械保持，不能代替电气导通检查。样品、拉伸方向、速度及判定要求需适合具体端接。用于破坏性确认的样品不能之后当作普通合格品出售。生产检查及抽样频率应按项目约定，不能宣称每个成品压接都拉到破坏。"
+        },
+        "style": "compact",
+        "image": "",
+        "caption": {
+          "en": "",
+          "zh": ""
+        }
+      },
+      {
+        "id": "continuity",
+        "title": {
+          "en": "Continuity and Circuit Mapping",
+          "zh": "导通与回路映射"
+        },
+        "copy": {
+          "en": "Verify intended connections and check for unintended links between circuits. A correct pin-to-pin map should be tied to an approved drawing revision and a clearly defined connector view. Where the design includes switches, diodes, resistors or shielding connections, the test method must reflect them. Continuity and appearance checks are baseline release activities, while tighter resistance or functional limits follow the project requirements.",
+          "zh": "应验证预定连接并检查回路间非预期连通。正确针脚映射应关联认可图纸版本及明确接头视图。若设计包含开关、二极管、电阻或屏蔽连接，试验方法也要体现这些元件。导通和外观属于基本出货检查，更严格电阻或功能限值按项目要求确定。"
+        },
+        "style": "process",
+        "image": "",
+        "caption": {
+          "en": "",
+          "zh": ""
+        }
+      },
+      {
+        "id": "insulation",
+        "title": {
+          "en": "Insulation Resistance",
+          "zh": "绝缘电阻"
+        },
+        "copy": {
+          "en": "Insulation-resistance testing evaluates leakage behavior between specified conductors or between conductors and shield at a defined test voltage. Preparation, humidity and measurement time influence the result. Connected electronic components may require exclusion or a different method. Agree the circuit groups, voltage, duration and acceptance value before testing; a high reading under one condition is not proof of unlimited operating-voltage capability.",
+          "zh": "绝缘电阻试验在规定电压下评估指定导体之间或导体与屏蔽之间的漏电行为。准备状态、湿度及测量时间会影响结果，连接电子元件可能需要排除或采用其他方法。试验前应约定回路分组、电压、时间及合格值，某一条件下的高电阻不代表无限工作电压能力。"
+        },
+        "style": "compact",
+        "image": "",
+        "caption": {
+          "en": "",
+          "zh": ""
+        }
+      },
+      {
+        "id": "withstand",
+        "title": {
+          "en": "Dielectric Withstand: A Separate Verification",
+          "zh": "耐压：单独定义的验证"
+        },
+        "copy": {
+          "en": "Dielectric withstand and insulation resistance answer different questions. A withstand test applies an agreed electrical stress and monitors the specified acceptance conditions. It must be compatible with the assembly and any installed electronics. Only qualified personnel using suitable test equipment and procedures should perform it. Do not infer surge immunity, system safety certification or field lifetime merely from a passing withstand result.",
+          "zh": "耐压与绝缘电阻回答不同问题。耐压试验施加约定电气应力，并监测规定判定条件，方法必须适合组件及所装电子元件。仅应由合格人员使用合适设备和流程实施。耐压通过不等于已证明浪涌抗扰度、系统安全认证或实际使用寿命。"
+        },
+        "style": "inset-right",
+        "image": "",
+        "caption": {
+          "en": "",
+          "zh": ""
+        }
+      },
+      {
+        "id": "release",
+        "title": {
+          "en": "From Drawing Review to Repeat Delivery",
+          "zh": "从图纸审核到重复交付"
+        },
+        "copy": {
+          "en": "Send the mating references, wiring map, dimensional datums, operating conditions and quantity range. Engineering review resolves interface and material uncertainties before a sample is approved. Release the drawing, bill of materials and inspection plan together, with changes controlled between batches. This makes future orders reproducible and gives the customer a clear basis for installation, service and any requested additional qualification.",
+          "zh": "提供对插料号、接线图、尺寸基准、工作条件及数量范围。工程审核在样品认可前解决接口和材料的不确定性，随后共同放行图纸、物料清单及检验方案，并控制批次间变更。这样既有利于后续订单重复制造，也为客户安装、维护及所需额外资格验证提供明确依据。"
+        },
+        "style": "wide",
+        "image": "",
+        "caption": {
+          "en": "",
+          "zh": ""
+        }
+      }
+    ],
+    "composition": [
+      {
+        "kind": "single",
+        "items": [
+          0
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          1
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          2
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          3
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          4
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          5
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          6
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          7,
+          8
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          9
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          10,
+          11
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          12
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          13
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          14
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          15
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          16,
+          17
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          18,
+          19
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          20
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          21
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          22,
+          23
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          24
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          25,
+          26
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          27
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          28
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          29
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          30,
+          31
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          32,
+          33
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          34
+        ]
+      }
+    ],
+    "guide": [
+      {
+        "index": 0,
+        "label": {
+          "en": "Interfaces",
+          "zh": "接口"
+        }
+      },
+      {
+        "index": 4,
+        "label": {
+          "en": "Advantages",
+          "zh": "产品优势"
+        }
+      },
+      {
+        "index": 9,
+        "label": {
+          "en": "Solutions",
+          "zh": "解决方案"
+        }
+      },
+      {
+        "index": 16,
+        "label": {
+          "en": "Applications",
+          "zh": "应用"
+        }
+      },
+      {
+        "index": 22,
+        "label": {
+          "en": "Environment",
+          "zh": "环境"
+        }
+      },
+      {
+        "index": 28,
+        "label": {
+          "en": "Sizing & tests",
+          "zh": "选线与检验"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "q": {
+          "en": "Is every green plug a Phoenix Contact connector?",
+          "zh": "绿色插头都是 Phoenix Contact 吗？"
+        },
+        "a": {
+          "en": "No. Color and approximate pitch do not establish brand, mating compatibility or approval. Identify the exact plug and header references.",
+          "zh": "不是。颜色和近似间距不能证明品牌、对插兼容性或认可状态，应识别准确插头及针座料号。"
+        }
+      },
+      {
+        "q": {
+          "en": "Can you work from an existing harness?",
+          "zh": "可以依据现有线束开发吗？"
+        },
+        "a": {
+          "en": "Yes, a sample can support dimensional and interface review. Circuit functions and uncertain hidden components still need confirmation before production.",
+          "zh": "可以，样品可支持尺寸及接口审核，但生产前仍需确认电气功能和不明确的隐藏元件。"
+        }
+      },
+      {
+        "q": {
+          "en": "Do all spring terminals accept bare flexible wire directly?",
+          "zh": "所有弹簧端子都能直接插裸软线吗？"
+        },
+        "a": {
+          "en": "No. Push-in, Push-X and other spring mechanisms have different procedures and conductor ranges. Follow the selected product instructions.",
+          "zh": "不能一概而论。Push-in、Push-X 及其他弹簧机构的操作和导体范围不同，应按所选产品说明。"
+        }
+      },
+      {
+        "q": {
+          "en": "Are original and alternative parts treated the same?",
+          "zh": "原装件与替代件如何处理？"
+        },
+        "a": {
+          "en": "They are identified separately in the approved material list. An alternative requires explicit interface, electrical and material review; this page does not imply brand authorization.",
+          "zh": "在认可物料清单中分别标识。替代件需明确审核接口、电气及材料，本页不代表品牌授权。"
+        }
+      },
+      {
+        "q": {
+          "en": "Are outdoor and rail requirements automatic?",
+          "zh": "户外及轨交要求会自动满足吗？"
+        },
+        "a": {
+          "en": "No. Installation, material grade, sealing and required qualification evidence must be agreed for the actual project.",
+          "zh": "不会。实际项目的安装、材料牌号、密封及所需资格证据必须明确约定。"
+        }
+      },
+      {
+        "q": {
+          "en": "Which checks are included?",
+          "zh": "包括哪些检查？"
+        },
+        "a": {
+          "en": "Continuity and visual checks are baseline activities. Pull, insulation resistance, withstand and functional verification follow the agreed project plan.",
+          "zh": "导通及外观为基本检查，拉力、绝缘电阻、耐压及功能验证按约定项目方案实施。"
+        }
+      },
+      {
+        "q": {
+          "en": "Can a prototype become a repeat order?",
+          "zh": "样品可以转为重复订单吗？"
+        },
+        "a": {
+          "en": "Yes. Approve the configuration and release controlled drawings, materials and inspection requirements before subsequent batches.",
+          "zh": "可以。后续批量前，应认可配置并放行受控图纸、物料及检验要求。"
+        }
+      }
+    ],
+    "creditHeading": {
+      "en": "Photograph sources",
+      "zh": "实拍图片来源"
+    },
+    "hasAiImages": false,
+    "hasOwnImages": false,
+    "mediaCredits": []
+  }
+}

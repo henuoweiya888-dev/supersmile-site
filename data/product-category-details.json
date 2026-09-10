@@ -1,4 +1,20 @@
 {
+  "connector-systems-12": {
+    "title": {"en":"Phoenix Compatible Cable Assemblies","zh":"Phoenix 兼容电缆组件"},
+    "intro": {"en":"Custom Phoenix-interface terminal, sensor and equipment harnesses, with defined pinouts, conductor preparation and installation requirements.","zh":"定制 Phoenix 接口端子、传感器及设备线束，明确针脚、导体处理及安装要求。"},
+    "knowledge": {"en":"Identify the exact terminal, circular or heavy-duty interface before defining conductor preparation, protection and test requirements.","zh":"先识别准确的端子、圆形或重载接口，再定义导体处理、防护与检验要求。"},
+    "notes": {"en":"Provide the mating reference, wiring view, conductor range, installation environment and required approval method.","zh":"提供对插料号、接线视图、导体范围、安装环境及所需认可方法。"},
+    "delivery": {"en":"Approve the interface schedule, workmanship sample and controlled inspection record before repeat production.","zh":"重复生产前认可接口清单、工艺样品及受控检验记录。"},
+    "page": {
+      "layout":"phoenix-editorial",
+      "displayTitle":{"en":"Phoenix Compatible Cable Assemblies","zh":"Phoenix 兼容电缆组件"},
+      "headings":{"introduction":{"en":"Phoenix Cable Assemblies","zh":"Phoenix 电缆组件"},"faq":{"en":"Engineering and Purchasing Questions","zh":"工程与采购问题"}},
+      "subtitle":{"en":"Interface selection, conductor preparation and controlled installation","zh":"接口选型、导体处理与受控安装"},
+      "lead":{"en":"A controlled assembly links the exact interface to its conductor, mating equipment and operating environment.","zh":"受控组件需要把准确接口与导体、对插设备及工作环境联系起来。"},
+      "images":{"range":"/assets/images/product-categories/stock/phoenix/opening.jpg"},
+      "faq":[]
+    }
+  },
   "connector-systems-11": {
     "title": {
       "en": "Binder Compatible Cable Assemblies",
