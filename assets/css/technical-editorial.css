@@ -216,7 +216,43 @@ body[data-category-layout="technical-editorial"] .pcc-hero-media img{filter:satu
 .te-theme-materials-atlas #technical-topic-28 .te-photo img{object-position:center 30%}
 .te-theme-materials-atlas #technical-topic-29{grid-template-columns:200px minmax(0,1fr);background:#e1e5e2}
 .te-theme-materials-atlas #technical-topic-29 .te-photo img{height:160px}
+/* Hirose: precise interface cut-ins, paired use cases and compact workshop notes. */
+.te-theme-precision-interconnect{--te-tint:#e1e5e4;--te-accent:#a74b33;--te-muted:#47534f}
+.te-theme-precision-interconnect .te-index{display:none}
+.te-theme-precision-interconnect .te-topic{padding-block:24px}
+.te-theme-precision-interconnect .te-opening{grid-template-columns:minmax(0,1fr) 215px;gap:28px;background:#e9e7df}
+.te-theme-precision-interconnect .te-opening .te-photo img{height:170px;object-fit:contain;background:#e9e7df}
+.te-theme-precision-interconnect .te-pair{background:#e7e9e3}
+.te-theme-precision-interconnect .te-pair:nth-of-type(4n){background:#eeece5}
+.te-theme-precision-interconnect .te-pair .te-photo{width:145px;margin-top:32px}
+.te-theme-precision-interconnect .te-pair .te-topic:nth-child(2) .te-photo{margin-top:32px}
+.te-theme-precision-interconnect .te-pair .te-photo img{height:145px;object-fit:cover}
+.te-theme-precision-interconnect .te-inset-left .te-photo,.te-theme-precision-interconnect .te-inset-right .te-photo{width:175px;margin-top:4px}
+.te-theme-precision-interconnect .te-inset-left .te-photo img,.te-theme-precision-interconnect .te-inset-right .te-photo img{height:155px;object-fit:cover}
+.te-theme-precision-interconnect #technical-topic-3{grid-template-columns:minmax(0,1fr) 205px;background:#e1e5e4}
+.te-theme-precision-interconnect #technical-topic-3 .te-photo img{height:155px;object-fit:contain;background:#ebece6}
+.te-theme-precision-interconnect #technical-topic-7{grid-template-columns:minmax(0,1fr) 210px}
+.te-theme-precision-interconnect #technical-topic-7 .te-photo img{height:155px}
+.te-theme-precision-interconnect #technical-topic-8 .te-photo img{object-fit:contain;background:#e5e6df}
+.te-theme-precision-interconnect #technical-topic-9{grid-template-columns:200px minmax(0,1fr);background:#e9e6dd}
+.te-theme-precision-interconnect #technical-topic-9 .te-photo img{height:155px;object-fit:contain;background:#f0eee7}
+.te-theme-precision-interconnect #technical-topic-10 .te-photo img,.te-theme-precision-interconnect #technical-topic-13 .te-photo img{object-fit:contain;background:#efeee7}
+.te-theme-precision-interconnect #technical-topic-15{grid-template-columns:minmax(0,1fr) 160px;background:#ece9e2}
+.te-theme-precision-interconnect #technical-topic-15 .te-photo img{height:180px}
+.te-theme-precision-interconnect #technical-topic-19{grid-template-columns:180px minmax(0,1fr);background:#e4e7e2}
+.te-theme-precision-interconnect #technical-topic-19 .te-photo img{height:170px}
+.te-theme-precision-interconnect #technical-topic-20 .te-photo img{object-fit:contain;background:#e8e8df}
+.te-theme-precision-interconnect #technical-topic-25{grid-template-columns:minmax(0,1fr) 215px;background:#ece9df}
+.te-theme-precision-interconnect #technical-topic-25 .te-photo img{height:145px;object-fit:contain;background:#ece9df}
+.te-theme-precision-interconnect #technical-topic-28 .te-photo{width:205px}
+.te-theme-precision-interconnect #technical-topic-31{grid-template-columns:minmax(0,1fr) 150px;background:#e1e5e2}
+.te-theme-precision-interconnect #technical-topic-31 .te-photo img{height:170px;object-position:center 35%}
+.te-theme-precision-interconnect #technical-topic-34 .te-photo{width:160px}
+.te-theme-precision-interconnect #technical-topic-35{grid-template-columns:minmax(0,1fr) 205px;background:#e9e6de}
+.te-theme-precision-interconnect #technical-topic-35 .te-photo img{height:155px}
 @media(max-width:767px){
+ .te-theme-precision-interconnect .te-opening,.te-theme-precision-interconnect .te-topic{display:flex;padding:23px 16px}
+ .te-theme-precision-interconnect .te-pair .te-photo,.te-theme-precision-interconnect .te-pair .te-topic:nth-child(2) .te-photo,.te-theme-precision-interconnect .te-inset-left .te-photo,.te-theme-precision-interconnect .te-inset-right .te-photo,.te-theme-precision-interconnect #technical-topic-28 .te-photo,.te-theme-precision-interconnect #technical-topic-34 .te-photo{float:none;width:calc(100% + 32px);margin:16px -16px 0}
  .te-theme-materials-atlas .te-opening,.te-theme-materials-atlas #technical-topic-0,.te-theme-materials-atlas #technical-topic-6,.te-theme-materials-atlas #technical-topic-18,.te-theme-materials-atlas #technical-topic-22,.te-theme-materials-atlas #technical-topic-25{display:flex;padding:23px 16px}
  .te-theme-materials-atlas .te-pair .te-photo,.te-theme-materials-atlas .te-pair .te-topic:nth-child(2) .te-photo,.te-theme-materials-atlas #technical-topic-6 .te-photo,.te-theme-materials-atlas #technical-topic-14 .te-photo,.te-theme-materials-atlas #technical-topic-18 .te-photo{float:none;width:calc(100% + 32px);margin:16px -16px 0}
  .te-theme-materials-atlas #technical-topic-14 .te-photo img,.te-theme-materials-atlas #technical-topic-18 .te-photo img{height:170px}

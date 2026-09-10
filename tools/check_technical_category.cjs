@@ -11,7 +11,10 @@ if(!slug)throw new Error('Expected a category slug');
   try{
    await page.goto(base+'/products/'+slug+'?lang='+lang+'&qa=published-'+Date.now(),{waitUntil:'networkidle',timeout:60000});
    await page.locator('.te-topic').first().waitFor({timeout:15000});
-   await page.evaluate(async()=>{for(const img of document.querySelectorAll('img[loading="lazy"]'))img.loading='eager';await Promise.all([...document.images].map(i=>i.decode().catch(()=>{})));});
+   // Hidden language-menu SVGs can leave decode() pending indefinitely in Chrome.
+   // Load and check the category's actual photographs with a bounded readiness wait.
+   await page.evaluate(()=>{for(const img of document.querySelectorAll('.pcc-main img'))img.loading='eager';});
+   await page.waitForFunction(()=>[...document.querySelectorAll('.pcc-main img')].every(i=>i.complete),{},{timeout:30000});
    const result=await page.evaluate(()=>({title:document.querySelector('h1')?.textContent,chapters:document.querySelectorAll('.te-topic').length,overflow:document.documentElement.scrollWidth>innerWidth+1,broken:[...document.querySelectorAll('.pcc-main img')].filter(i=>!i.naturalWidth).map(i=>i.src),header:getComputedStyle(document.querySelector('.header')).position,cta:document.querySelector('#pcc-cta')?.href,back:document.querySelector('#pcc-back')?.href,figures:[...document.querySelectorAll('.te-photo')].map(e=>{const r=e.getBoundingClientRect();return{left:Math.round(r.left),right:Math.round(r.right)}})}));
    const badEdges=result.figures.some(f=>width<768?Math.abs(f.left)>1||Math.abs(f.right-width)>1:Math.abs(f.left)>1&&Math.abs(f.right-width)>1);
    const details=page.locator('.pcc-rich-faq details').nth(1);await details.locator('summary').click();result.faqOpens=await details.getAttribute('open')!==null;

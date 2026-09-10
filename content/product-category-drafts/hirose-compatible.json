@@ -1,0 +1,1219 @@
+{
+  "key": "connector-systems-07",
+  "slug": "hirose-compatible",
+  "title": {
+    "en": "Hirose Compatible Cable Assemblies",
+    "zh": "Hirose 兼容电缆组件"
+  },
+  "seoTitle": "Custom Hirose Cable Assemblies | DF, U.FL, W.FL2 & Automotive Interfaces | Super Smile",
+  "intro": {
+    "en": "Custom Hirose-interface harnesses for board wiring, miniature coax and equipment connections, with documented routing, materials and inspection.",
+    "zh": "定制 Hirose 接口线束，覆盖板内布线、微型同轴及设备连接，明确路径、材料与检验。"
+  },
+  "knowledge": {
+    "en": "Identify the complete series, mating pair and cable construction before selection.",
+    "zh": "选型前确认完整系列、对插件及线缆结构。"
+  },
+  "notes": {
+    "en": "Provide pinout, mating parts, dimensions, environment and required evidence.",
+    "zh": "提供针脚、对插件、尺寸、环境及证据要求。"
+  },
+  "delivery": {
+    "en": "Review the specification, confirm samples and release the production version.",
+    "zh": "审核规格，确认样品后放行生产版本。"
+  },
+  "page": {
+    "layout": "technical-editorial",
+    "theme": "precision-interconnect",
+    "displayTitle": {
+      "en": "Hirose Compatible Cable Assemblies",
+      "zh": "Hirose 兼容电缆组件"
+    },
+    "headings": {
+      "introduction": {
+        "en": "Hirose Harnesses and Cable Assemblies",
+        "zh": "Hirose 线束与电缆组件"
+      },
+      "faq": {
+        "en": "Engineering and Purchasing Questions",
+        "zh": "工程与采购问题"
+      }
+    },
+    "subtitle": {
+      "en": "From the board connector to the complete installation",
+      "zh": "从板端接口到完整安装"
+    },
+    "lead": {
+      "en": "A Hirose harness is a category of connections, not one fixed product. It may carry discrete control signals, power or an RF antenna channel, using a connector selected for the board, enclosure and service conditions. Super Smile reviews project-defined assemblies from drawings, samples and confirmed mating references. The following guide explains the available interface directions, their engineering trade-offs and the information needed to turn a prototype into a repeatable build. Brand and series names identify selection references, not automatic qualification of the finished cable.",
+      "zh": "Hirose 线束是一类连接方案，并非单一固定产品。它可能承担离散控制信号、供电或射频天线通道，接头须配合板卡、外壳及维护条件选择。超斯迈尔根据图纸、样品与明确对插料号审核定制组件。以下介绍接口方向、工程取舍，以及将样品转化为可重复生产产品所需资料。品牌与系列名用于选型参考，不代表完整电缆自动取得相应鉴定。"
+    },
+    "images": {
+      "hero": "/assets/images/product-categories/stock/hirose/hero.jpg",
+      "range": "/assets/images/product-categories/stock/hirose/range.jpg"
+    },
+    "openingCaption": {
+      "en": "Hirose TM21 modular plug parts illustrate why the complete connector set matters.",
+      "zh": "Hirose TM21 模块化插头零件，说明完整配套件的重要性。"
+    },
+    "chapters": [
+      {
+        "id": "circular",
+        "title": {
+          "en": "Hirose Connector Range",
+          "zh": "Hirose 连接器范围"
+        },
+        "copy": {
+          "en": "Hirose interfaces cover internal board wiring, miniature coax and external equipment connections. HR10 compact push-pull and HR30 waterproof plastic circular connectors address different installation needs; neither is identified by pin count alone. Start with the full connector reference, mating half and cable termination. Include the panel opening, cable exit and space needed to release the lock. A cable that fits electrically can still be inaccessible once the enclosure is assembled.",
+          "zh": "Hirose 接口覆盖板内布线、微型同轴及设备外部连接。HR10 小型推拉式与 HR30 防水塑料圆形连接器面向不同安装需求，均不能只凭针数识别。先明确完整料号、对插件及端接方式，再确认面板开孔、出线方向和解锁空间。电气连接正确的线缆，也可能在外壳装好后无法拆卸。"
+        },
+        "style": "inset-left",
+        "image": "/assets/images/product-categories/stock/hirose/circular.jpg",
+        "caption": {
+          "en": "An industrial camera illustrates the space available for external equipment connections.",
+          "zh": "工业相机实例：设备外部接口需要结合安装空间选择。"
+        }
+      },
+      {
+        "id": "df",
+        "title": {
+          "en": "DF Wire-to-Board Harnesses",
+          "zh": "DF 系列板对线线束"
+        },
+        "copy": {
+          "en": "DF is a family prefix, not a single mating interface. DF13 uses 1.25mm pitch, while DF11 and DF51 are 2mm families with different configurations and locking arrangements. For DF51, distinguish the housing, matching header and specified contact; its side-lock arrangement needs access from the correct direction. Wire gauge, insulation diameter and the number of loaded circuits affect selection. Copy the complete part number from the drawing rather than ordering a generic 'Hirose 4-pin cable'.",
+          "zh": "DF 是系列前缀，并非统一对插接口。DF13 间距为 1.25mm，DF11、DF51 为 2mm 系列，但配置与锁紧结构不同。使用 DF51 时须区分壳体、配套针座及指定端子，并为侧边锁扣保留操作空间。线规、绝缘外径及同时通电的回路数都影响选型。应从图纸确认完整型号，而不是仅按“Hirose 四针线”下单。"
+        },
+        "style": "wide",
+        "image": "/assets/images/product-categories/stock/hirose/df.jpg",
+        "caption": {
+          "en": "Board-mounted ribbon connection: housing access and cable exit are part of the layout review.",
+          "zh": "板端排线连接实拍：壳体操作空间与出线方向都须纳入审核。"
+        }
+      },
+      {
+        "id": "automotive",
+        "title": {
+          "en": "Automotive Interfaces and Sealing",
+          "zh": "车载接口与密封连接"
+        },
+        "copy": {
+          "en": "Keep the complete series name: Hirose ZE05, ZH05 and ZE064W are not the JST ZE or ZH families. Hirose describes ZE05 for internal vehicle connections and ZE064W for external waterproof interfaces. GT17 is a shielded automotive data connector family, not a universal sealed power connector. Determine the actual mounting zone, counter-connector, seals and cable acceptance before discussing environmental performance. A positive lock improves retention; it does not by itself establish waterproofing or lifetime vibration performance.",
+          "zh": "须保留完整系列名称：Hirose ZE05、ZH05、ZE064W 与 JST ZE、ZH 并非同一系列。Hirose 将 ZE05 用于车辆内部连接，ZE064W 用于外部防水接口；GT17 则是屏蔽车载数据连接器系列，不能当成通用密封动力接头。讨论环境性能前，应明确实际安装区域、对插件、密封件及适配线缆。锁扣有助于保持连接，但不能单独证明防水性或全寿命耐振动能力。"
+        },
+        "style": "wide",
+        "image": "/assets/images/product-categories/stock/hirose/automotive.jpg",
+        "caption": {
+          "en": "Rain on a vehicle windshield represents external exposure, not an assembly waterproof test.",
+          "zh": "车辆挡风玻璃上的雨滴，用于说明外部环境，并非线束防水试验。"
+        }
+      },
+      {
+        "id": "microcoax",
+        "title": {
+          "en": "U.FL and W.FL2 Micro-Coax",
+          "zh": "U.FL 与 W.FL2 微型同轴"
+        },
+        "copy": {
+          "en": "Miniature coax links connect radio modules to antennas while saving board height. U.FL and W.FL2 are separate interfaces with their own plug, receptacle, cable and handling specifications. Define impedance, working frequency, cable length and insertion-loss budget together. A thinner cable may route more easily but has different attenuation and mechanical limits. Align the mating axes and use the specified removal method; never lift a miniature plug by pulling its cable. Catalogue frequency claims apply to identified configurations, not every custom assembly.",
+          "zh": "微型同轴在节省板上高度的同时连接射频模块与天线。U.FL、W.FL2 是不同接口，各有对应插头、插座、线缆和操作规范。应共同定义阻抗、工作频率、长度与插入损耗预算。细线更易布置，但衰减及机械承受能力也不同。对插时须对准轴线，拆卸遵循指定方法，不能拉扯线缆拔出微型插头。目录频率指标只适用于明确配置，不代表所有定制组件。"
+        },
+        "style": "feature-right",
+        "image": "/assets/images/product-categories/stock/hirose/microcoax.jpg",
+        "caption": {
+          "en": "U.FL cable plug close-up; identify the complete mating interface before assembly.",
+          "zh": "U.FL 线端插头近照，装配前须识别完整对插接口。"
+        }
+      },
+      {
+        "id": "industrial-solution",
+        "title": {
+          "en": "Custom Industrial Connections",
+          "zh": "工业设备定制连接"
+        },
+        "copy": {
+          "en": "A controller-to-sensor assembly can combine a board connector, shielded branch and serviceable external interface. Work from the machine's circuit diagram and installed route. Separate noisy switching power from sensitive feedback, define where shields terminate and support cables before they enter small housings. Cabinet-door movement, tool access and replacement order deserve the same attention as continuity. We review these details with the supplied drawings so branch dimensions describe the installed machine, not only a flat sample.",
+          "zh": "控制器至传感器组件可组合板端接头、屏蔽分支及可维护外部接口。应依据设备电路图和实际路径设计，将开关电源等干扰源与敏感反馈分开，明确屏蔽端接位置，并在细小壳体前设置线缆支撑。柜门运动、工具空间与更换顺序和导通一样重要。我们结合客户图纸审核这些细节，使分支尺寸适合真实设备，而非只适合平放样品。"
+        },
+        "style": "wide",
+        "image": "/assets/images/product-categories/stock/hirose/industrial-solution.jpg",
+        "caption": {
+          "en": "A smart-meter electronics demonstration bench connects several functional modules.",
+          "zh": "智能电表电子系统演示台，展示多个功能模块之间的连接。"
+        }
+      },
+      {
+        "id": "ev-solution",
+        "title": {
+          "en": "EV Control and Monitoring Harnesses",
+          "zh": "新能源汽车控制与监测线束"
+        },
+        "copy": {
+          "en": "Battery monitoring, auxiliary control and traction power are different circuits. A connector used inside an inverter or battery enclosure is not automatically suitable for carrying motor power. Identify working voltage, isolation boundaries, current, temperature and service procedures on the schematic. Keep sensing references and communications away from high-energy switching paths where practical. High-voltage or safety-related work requires a project-specific qualification plan and approved parts; a familiar automotive brand does not replace that review.",
+          "zh": "电池监测、辅助控制和驱动动力属于不同回路。在逆变器或电池壳体内使用的接头，不代表能够承担电机动力传输。须在原理图上标明工作电压、隔离边界、电流、温度与维护方式，并尽可能使采样参考及通信远离高能量开关回路。高压或安全相关项目必须具备专门鉴定计划及认可零件，不能用熟悉的车载品牌代替审核。"
+        },
+        "style": "wide",
+        "image": "/assets/images/product-categories/stock/hirose/ev-solution.jpg",
+        "caption": {
+          "en": "A small battery-management board illustrates low-voltage monitoring, not traction-power cabling.",
+          "zh": "小型电池管理板示例，说明低压监测功能而非牵引动力电缆。"
+        }
+      },
+      {
+        "id": "medical-solution",
+        "title": {
+          "en": "Medical Equipment Integration",
+          "zh": "医疗设备连接方案"
+        },
+        "copy": {
+          "en": "For monitors, pumps and diagnostic instruments, first distinguish internal wiring from an operator-accessible or patient-connected interface. Cleaning fluids, touch surfaces, leakage-current limits and EMC requirements belong to the finished equipment's risk assessment. A connector catalogue is not evidence that the complete cable is biocompatible, sterile or approved for patient contact. Provide the intended use and validation requirements early, including bend exposure, disinfection method and any traceability documents required for the delivered batch.",
+          "zh": "监护、泵类及诊断仪器应先区分机内布线、操作者可触及接口和患者连接接口。清洁液、接触表面、漏电流限制及电磁兼容要求属于整机风险评估内容。连接器目录不能证明完整电缆具有生物相容性、无菌性或患者接触资格。应提前说明用途与验证要求，包括弯折工况、消毒方式及交付批次需要的追溯文件。"
+        },
+        "style": "inset-right",
+        "image": "/assets/images/product-categories/stock/hirose/medical-solution.jpg",
+        "caption": {
+          "en": "Syringe-pump equipment: maintenance and connection requirements follow the medical system.",
+          "zh": "注射泵设备参考：维护和连接要求须服从完整医疗系统。"
+        }
+      },
+      {
+        "id": "iot-solution",
+        "title": {
+          "en": "IoT Layout and Antenna Routing",
+          "zh": "物联网布线与天线路径"
+        },
+        "copy": {
+          "en": "In a compact gateway, the shortest physical wire route is not always the best RF route. Leave the antenna clearance specified by the module or antenna designer, avoid trapping coax under enclosure screws and keep the plug free from persistent side loading. Define the board connector and antenna-end connector independently, including polarity variants at external RF ports. Photographs and a marked enclosure drawing help identify cover interference, connector height and service-loop needs before a prototype is built.",
+          "zh": "在小型网关中，物理距离最短的走线未必是最佳射频路径。应保留模块或天线设计要求的净空，避免同轴被壳体螺钉压住，并防止插头持续承受侧向拉力。板端与天线端接口须分别定义，外部射频口还需注意极性变型。照片及标注外壳图能帮助打样前识别盖板干涉、接头高度和维护余量。"
+        },
+        "style": "wide",
+        "image": "/assets/images/product-categories/stock/hirose/iot-solution.jpg",
+        "caption": {
+          "en": "Router board with antenna pigtails shows the RF path between board and enclosure.",
+          "zh": "带天线引线的路由板，展示板卡与外壳之间的射频路径。"
+        }
+      },
+      {
+        "id": "fit",
+        "title": {
+          "en": "Documented Mating Compatibility",
+          "zh": "明确对插兼容性"
+        },
+        "copy": {
+          "en": "A fit review compares the mating drawing, keying, cavity assignment, contact gender and locking travel. Housing colour and an audible click are insufficient evidence. A cable-side socket can use a different naming convention from the equipment's pin description, so identify the viewed face on every pinout. If alternatives are permitted, list them separately for approval rather than silently substituting a visually similar part. Brand names on this page identify interface references, not distributorship or universal interchangeability.",
+          "zh": "对插审核比较配合图、键位、孔位分配、接点公母及锁扣行程。壳体颜色与咔哒声都不足以证明正确。电缆侧插座的命名可能与设备针脚描述不同，因此每份针脚表都须注明观察面。允许替代时，应单列方案供确认，不能悄悄换成外形相似零件。本页品牌名称用于识别接口，不代表经销授权或通用互换承诺。"
+        },
+        "style": "inset-left",
+        "image": "/assets/images/product-categories/stock/hirose/fit.jpg",
+        "caption": {
+          "en": "Two miniature coax interface sizes: a visual resemblance does not establish interchangeability.",
+          "zh": "两种微型同轴接口尺寸，外形相似不代表可以互配。"
+        }
+      },
+      {
+        "id": "termination",
+        "title": {
+          "en": "Termination and Signal Stability",
+          "zh": "端接工艺与信号稳定"
+        },
+        "copy": {
+          "en": "The conductor crimp and insulation support do different jobs. Use the specified terminal, wire construction and applicator combination, then verify the relevant strip length, crimp geometry and retention criteria. Soldered versions need controlled heat input and strain relief outside the stiffened wire section. For shielded or coaxial assemblies, inspect shield continuity and the transition at the connector as well as the centre conductor. A continuity buzzer can find an open circuit but cannot establish a high-frequency channel's loss or impedance.",
+          "zh": "导体压接与绝缘支撑承担不同作用。应使用指定端子、线材结构和模具组合，再核查相应剥线长度、压接形态与保持力要求。焊接版本需要控制热输入，并在导线硬化段之外设置应力释放。屏蔽或同轴组件除中心导体外，还须检查屏蔽连续性及接头过渡结构。导通蜂鸣器能够发现断路，却不能证明高频通道的损耗或阻抗。"
+        },
+        "style": "feature-left",
+        "image": "/assets/images/product-categories/stock/hirose/termination.jpg",
+        "caption": {
+          "en": "Crimp-tool example; actual terminals require their specified tool and setup.",
+          "zh": "压接工具示例；实际端子须采用指定工具及设置。"
+        }
+      },
+      {
+        "id": "materials",
+        "title": {
+          "en": "Materials for the Actual Environment",
+          "zh": "按实际环境选择材料"
+        },
+        "copy": {
+          "en": "Specify the conductor, insulation and jacket separately. PVC, XLPE, PUR, FEP and PTFE describe material families, not one universal level of flexibility, flame performance or chemical resistance. Check the particular compound against temperature, fluids, UV exposure and movement. Cable outside diameter must remain within the contact support, clamp and seal's permitted range. Combining individually suitable parts can still leave a leak path or a bending weak point if the assembled interfaces are not reviewed.",
+          "zh": "导体、绝缘与外护套应分别规定。PVC、XLPE、PUR、FEP、PTFE 只是材料类别，并不代表统一的柔性、阻燃或耐化学等级。具体配方须对应温度、液体、紫外线和运动条件审核。线缆外径还应处于端子支撑、夹紧件与密封件允许范围内。若未审核组装界面，即使各零件单独合适，组合后仍可能出现渗漏路径或弯折薄弱点。"
+        },
+        "style": "wide",
+        "image": "/assets/images/product-categories/stock/hirose/materials.jpg",
+        "caption": {
+          "en": "Ribbon cable separates conductor arrangement from the connector-selection decision.",
+          "zh": "排线实物：导体排列与连接器选型是需要分别确认的条件。"
+        }
+      },
+      {
+        "id": "dimensions",
+        "title": {
+          "en": "Length, Branches and Identification",
+          "zh": "长度、分支与标识定制"
+        },
+        "copy": {
+          "en": "Define length between repeatable reference points, such as mating faces or branch centres, rather than an ambiguous 'overall length'. Add tolerances, connector orientation, breakout protection and labels to the drawing. Wire colour helps assembly but should not replace cavity numbers or circuit identification. A prototype records the approved routing and service allowance; production follows the released revision. Customization changes the cable configuration, not the moulded connector's available pin count or mating geometry.",
+          "zh": "长度须在可重复的基准之间定义，例如对插面或分支中心，避免模糊的“总长”。图纸还应包括公差、接头朝向、分叉防护和标签。线色有助于装配，但不能替代孔位号及回路识别。样品用于确认路径与维护余量，生产按放行版本执行。定制改变的是线缆配置，并非随意改变注塑接头现有针位数或配合结构。"
+        },
+        "style": "wide",
+        "image": "/assets/images/product-categories/stock/hirose/dimensions.jpg",
+        "caption": {
+          "en": "Caliper scale close-up: define the measurement datum and method on the drawing.",
+          "zh": "卡尺刻度近照：图纸须明确测量基准和方法。"
+        }
+      },
+      {
+        "id": "consumer",
+        "title": {
+          "en": "Consumer Electronics",
+          "zh": "消费电子"
+        },
+        "copy": {
+          "en": "Cameras, audio devices and portable instruments often need short internal interconnects between boards, controls and power modules. The useful design question is whether the cable can be assembled and serviced without damaging a small header. Review mating height, latch access and the order in which boards enter the enclosure. Fine pitch saves space, but connector choice must still follow current, wire size and handling requirements. This application context is not a claim that every consumer device uses the same DF connector.",
+          "zh": "相机、音频设备及便携仪器常需连接板卡、控制件和电源模块的短内部线。实际设计应关注装配或维护时能否避免损伤小型针座，并核查对插高度、锁扣空间与板卡装入顺序。小间距有助于节省空间，但仍须依据电流、线规及操作要求选型，不能推断所有消费电子都使用同一种 DF 接头。"
+        },
+        "style": "inset-left",
+        "image": "/assets/images/product-categories/stock/hirose/consumer.jpg",
+        "caption": {
+          "en": "Electronics inside a digital caliper illustrate compact instrument packaging.",
+          "zh": "数显卡尺内部电子组件，展示便携仪器的紧凑安装空间。"
+        }
+      },
+      {
+        "id": "automation",
+        "title": {
+          "en": "Industrial Automation",
+          "zh": "工业自动化"
+        },
+        "copy": {
+          "en": "PLC peripherals, machine vision and distributed sensors mix power, discrete I/O and data. Mark which cable sections remain fixed and which move during adjustment or maintenance. Give each branch a readable identifier and keep spare length away from hot or moving surfaces. A replaceable sensor connection can reduce service work only when the plug is reachable and the replacement cannot be mis-mated. Check those conditions in the installed equipment, not simply on the bench.",
+          "zh": "PLC 外设、机器视觉及分布式传感器同时涉及供电、离散 I/O 与数据。应标明固定线段及调节、维护时运动的线段，为分支设置易读标识，并避免余线接近高温或运动表面。可更换传感器接口只有在易于操作且不易误插时，才能减少维护工作；这些条件须在真实设备中核查，而非只在台面上检查。"
+        },
+        "style": "wide",
+        "image": "/assets/images/product-categories/stock/hirose/automation.jpg",
+        "caption": {
+          "en": "Controller board and stepper motor demonstrate the signal-to-actuator connection path.",
+          "zh": "控制板与步进电机，展示信号到执行机构的连接路径。"
+        }
+      },
+      {
+        "id": "vehicle",
+        "title": {
+          "en": "Automotive and EV Applications",
+          "zh": "汽车与新能源汽车应用"
+        },
+        "copy": {
+          "en": "Instrument panels, lighting controls and battery-management electronics have very different exposure levels. A cabin installation may be sheltered from direct water yet subject to heat cycling and vibration; an external connection needs a defined sealing system. Review the approved automotive connector and wire specifications for the installation zone. Do not extend a low-voltage monitoring connector's approval to a traction cable, or infer pressure-wash resistance from the vehicle application's name.",
+          "zh": "仪表板、灯光控制及电池管理电子装置的环境差异很大。座舱连接可能不直接淋水，却仍受冷热循环与振动影响；外部连接则需要明确的密封系统。应依据安装区域审核认可车载接头和电线规范。不能把低压监测接头的认可范围延伸到动力高压线，也不能因为用于车辆就推断能够承受高压冲洗。"
+        },
+        "style": "wide",
+        "image": "/assets/images/product-categories/stock/hirose/vehicle.jpg",
+        "caption": {
+          "en": "An electric vehicle at a charging point illustrates system context, not cable qualification.",
+          "zh": "充电点的电动汽车，用于说明系统场景，不代表线缆取得相关鉴定。"
+        }
+      },
+      {
+        "id": "healthcare",
+        "title": {
+          "en": "Medical Devices",
+          "zh": "医疗器械应用"
+        },
+        "copy": {
+          "en": "An internal display cable, a detachable handpiece lead and a diagnostic sensor cable need different service and validation plans. Repeated cleaning may affect jackets and markings; frequent disconnection may require a connector with an appropriate mating-life specification. Identify whether the cable is a replaceable accessory or an internal component. Agree the relevant equipment-level standards and test responsibilities with the device manufacturer before quoting regulated or patient-related work.",
+          "zh": "机内显示连接、可拆手柄线及诊断传感器电缆需要不同维护与验证计划。反复清洁可能影响护套和标识，频繁插拔则要求相应寿命规格。须明确电缆属于可更换附件还是内部零件。涉及法规或患者相关项目时，应在报价前与设备制造商约定适用整机标准及试验职责。"
+        },
+        "style": "compact",
+        "image": "/assets/images/product-categories/stock/hirose/healthcare.jpg",
+        "caption": {
+          "en": "Patient-monitor equipment: internal electronics and accessible patient connections have different duties.",
+          "zh": "患者监护设备：内部电子连接与患者可触及接口承担不同职责。"
+        }
+      },
+      {
+        "id": "telecom",
+        "title": {
+          "en": "Telecom and Networking",
+          "zh": "通信与网络设备"
+        },
+        "copy": {
+          "en": "Router antenna pigtails, radio modules and network equipment connect RF and digital channels that must be specified separately. For coax, document impedance and frequency-dependent loss. For differential data, define the pair arrangement, shielding and interface requirement. A shielded connector is not a guarantee that a custom cable supports every data rate. Test adapters, reference planes and acceptance limits need to match the channel being evaluated, particularly when comparing prototypes from different suppliers.",
+          "zh": "路由器天线尾线、无线模块和网络设备的射频与数字通道须分别定义。同轴应明确阻抗及随频率变化的损耗，差分数据则应说明线对排列、屏蔽及接口要求。使用屏蔽接头不代表定制线缆支持所有速率。特别是在比较不同供应商样品时，测试转接件、参考面和验收限值必须与被测通道一致。"
+        },
+        "style": "inset-right",
+        "image": "/assets/images/product-categories/stock/hirose/telecom.jpg",
+        "caption": {
+          "en": "Wireless router and external antennas place cable routing within the complete radio system.",
+          "zh": "无线路由器及外置天线，线缆路径是完整无线系统的一部分。"
+        }
+      },
+      {
+        "id": "motion",
+        "title": {
+          "en": "Robotics and Motion Control",
+          "zh": "机器人与运动控制"
+        },
+        "copy": {
+          "en": "Connector retention and cable flex life are separate questions. Keep bending away from the termination, support the cable at the moving structure and distinguish repeated bending from torsion. The motion profile should include travel, acceleration, bend radius, rotation and the required service interval. Cable-carrier suitability cannot be inferred from a soft jacket alone. Prototype routing checks should look for rubbing, snagging and load transfer into small board connectors through the full movement.",
+          "zh": "接头保持力与电缆弯折寿命是两个问题。应使弯曲远离端接区，在运动结构处支撑线缆，并区分往复弯曲与扭转。运动描述应包括行程、加速度、弯曲半径、转角及维护周期。不能仅因护套柔软就认定适合拖链。样机须在完整运动范围内检查摩擦、勾挂及拉力是否传递到小型板端接头。"
+        },
+        "style": "wide",
+        "image": "/assets/images/product-categories/stock/hirose/motion.jpg",
+        "caption": {
+          "en": "Industrial robot cells illustrate repeated motion and the need to separate moving and fixed routes.",
+          "zh": "工业机器人单元，展示重复运动及动静布线路径划分的需求。"
+        }
+      },
+      {
+        "id": "aerospace",
+        "title": {
+          "en": "Aerospace and Defence Projects",
+          "zh": "航空航天与防务项目"
+        },
+        "copy": {
+          "en": "These projects require a defined qualification route rather than a brand-based assurance. Connector series, wire construction, flammability, outgassing, traceability and acceptance records may all be controlled by the equipment specification. Ground test equipment and flight-installed harnesses are different scopes. Submit the actual standards and intended installation for capability review. A commercial Hirose interface or an aerospace application photograph does not establish military qualification, flight approval or space suitability for our assembly.",
+          "zh": "此类项目需要明确鉴定路径，而非依靠品牌作保证。设备规范可能同时约束接头系列、线材、燃烧性能、释气、追溯及验收记录。地面测试设备与飞行安装线束属于不同范围。请提交实际标准和安装用途开展能力审核。商用 Hirose 接口或航空应用配图，都不能证明本公司组件具有军规、飞行或空间应用资格。"
+        },
+        "style": "wide",
+        "image": "/assets/images/product-categories/stock/hirose/aerospace.jpg",
+        "caption": {
+          "en": "Aircraft cockpit-panel exhibit; application context is not aerospace approval.",
+          "zh": "飞机座舱仪表板展品；应用参考并非航空资格证明。"
+        }
+      },
+      {
+        "id": "smart-home",
+        "title": {
+          "en": "Smart Home and IoT",
+          "zh": "智能家居与物联网应用"
+        },
+        "copy": {
+          "en": "Sensors, smart meters and connected appliances place antennas near power supplies, displays and metal covers. Verify wireless performance in the finished enclosure because a cable that works in an open prototype can behave differently after assembly. Define antenna spacing and routing constraints with the electronics designer. Small connectors should be supported during service, and label or colour variants should prevent crossed antenna branches. Keep test access available without repeatedly disturbing a limited-cycle micro-coax connection.",
+          "zh": "传感器、智能电表及联网电器常将天线布置在电源、显示屏与金属盖板附近。须在完整外壳中验证无线性能，因为开放样机中正常的线缆，装机后表现可能不同。应与电子设计人员共同规定天线间距及走线限制。维护时需支撑小型接头，用标签或颜色防止天线分支接错，并预留测试入口，避免反复扰动插拔次数有限的微型同轴接口。"
+        },
+        "style": "feature-left",
+        "image": "/assets/images/product-categories/stock/hirose/smart-home.jpg",
+        "caption": {
+          "en": "Smart-meter gateway installed in a cabinet: access and routing are enclosure-dependent.",
+          "zh": "安装于柜内的智能电表网关，操作空间和路径取决于外壳布局。"
+        }
+      },
+      {
+        "id": "resistance",
+        "title": {
+          "en": "Contact Resistance",
+          "zh": "接触电阻"
+        },
+        "copy": {
+          "en": "Contact resistance, wire resistance and complete-loop resistance are not interchangeable measurements. Record the test points and method before setting an acceptance limit. A two-wire measurement includes lead resistance; a four-wire method can help resolve low resistance when the fixture is appropriate. Current produces heating according to I²R, but the temperature rise also depends on cooling and neighbouring loaded contacts. Compare results under controlled conditions and against the selected component or assembly specification, not an invented universal milliohm value.",
+          "zh": "接触电阻、导线电阻和完整回路电阻不是同一种测量。设定限值前应记录测试位置与方法；两线法包含测试线电阻，合适夹具下的四线法有助于分辨低电阻。电流按 I²R 产生热量，但温升还与散热及邻近通电接点有关。结果应在受控条件下与所选零件或组件规范比较，不能编造统一毫欧限值。"
+        },
+        "style": "wide",
+        "image": "/assets/images/product-categories/stock/hirose/resistance.jpg",
+        "caption": {
+          "en": "Digital multimeter reference; low-resistance measurements need a suitable method and fixture.",
+          "zh": "数字万用表参考；低电阻测量须配合适用的方法及夹具。"
+        }
+      },
+      {
+        "id": "cycles",
+        "title": {
+          "en": "Mating and Unmating Cycles",
+          "zh": "插拔寿命"
+        },
+        "copy": {
+          "en": "A catalogue mating-cycle rating describes a specified test, not unlimited service use. Small internal RF connectors and repeatedly operated external circular connectors can have very different intended duty. Count prototype debugging and production testing as well as field maintenance when considering wear. Use the correct mating tool or handling method and inspect for damaged contacts or shells. Qualification cycling is normally a planned sample test, not a reason to consume the full rated life of every shipped connector.",
+          "zh": "目录插拔次数对应指定试验，并非无限维护使用。小型机内射频接头与经常操作的外部圆形接头，设计工况可能差异很大。评估磨损时应计入样机调试、生产测试及现场维护。应使用正确工具或操作方法，检查接点与外壳损伤。寿命循环通常属于计划内样品试验，不应让每件出货接头先耗尽额定插拔寿命。"
+        },
+        "style": "wide",
+        "image": "/assets/images/product-categories/stock/hirose/cycles.jpg",
+        "caption": {
+          "en": "Miniature board connector beside a match head shows the scale of careful handling.",
+          "zh": "微型板端连接器与火柴头对照，提示小尺寸接口的操作要求。"
+        }
+      },
+      {
+        "id": "retention",
+        "title": {
+          "en": "Retention and Strain Relief",
+          "zh": "保持力与应力释放"
+        },
+        "copy": {
+          "en": "Terminal retention in a housing, crimp tensile strength and the force needed to release a connector lock are separate properties. The test fixture must apply load in the specified direction without masking the weak point. Cable clamps and supports should keep operating loads out of small contacts and PCB solder joints. Pull testing can be destructive, so define sampling and disposition of tested pieces. A firm hand pull or audible latch click is useful assembly feedback, not a measured validation result.",
+          "zh": "端子在壳体内的保持力、压接拉脱力及接头解锁力是不同性能。夹具须按指定方向加载，不能掩盖薄弱处。线夹和支撑应避免工作拉力传入小型接点或板上焊点。拉力测试可能具有破坏性，应定义抽样及被测件处置。手拉感觉牢固或听见锁扣声可作为装配反馈，但不能替代测量验证。"
+        },
+        "style": "inset-left",
+        "image": "/assets/images/product-categories/stock/hirose/retention.jpg",
+        "caption": {
+          "en": "An internal cable clamp illustrates strain relief independently of contact retention.",
+          "zh": "内部线缆夹持结构，用于说明与端子保持力不同的应力释放。"
+        }
+      },
+      {
+        "id": "waterproof",
+        "title": {
+          "en": "Water and Dust Protection",
+          "zh": "防水与防尘边界"
+        },
+        "copy": {
+          "en": "An IP claim belongs to a defined configuration and test condition. Confirm whether the connector is tested mated, capped or unmated, and whether the cable entry and panel interface are included. HR30's published waterproof conditions, for example, do not automatically describe a complete enclosure with a custom cable. Bending near a seal, cable diameter variation and missing blanking plugs can change performance. Condensation and capillary migration through a cable also need attention; external sealing alone may not control every moisture path.",
+          "zh": "IP 声明对应明确配置及试验条件。须确认是在对插、加盖还是未插合状态下测试，以及是否包括入线口和面板界面。例如 HR30 公布的防水条件，不能自动代表装入定制电缆后的完整外壳。密封附近弯折、线径变化或遗漏堵头均可能改变表现；冷凝及沿线缆毛细迁移也需关注，外部密封并不一定能阻断所有水汽路径。"
+        },
+        "style": "wide",
+        "image": "/assets/images/product-categories/stock/hirose/waterproof.jpg",
+        "caption": {
+          "en": "Rain seen through a windshield represents a wet environment, not an IP certification result.",
+          "zh": "透过挡风玻璃看到的雨景，说明湿润环境，并非 IP 认证结果。"
+        }
+      },
+      {
+        "id": "quality",
+        "title": {
+          "en": "Repeatable Quality Checks",
+          "zh": "持续质量控制"
+        },
+        "copy": {
+          "en": "The inspection plan should separate routine production checks from qualification and destructive sampling. Agree circuit continuity, short-circuit detection, visual criteria, dimensional checks and any additional electrical requirements. Record the approved drawing revision and the fixture or program used. A passed harness test does not establish RF bandwidth, environmental life or equipment safety unless those are specifically covered. Traceable results make a later failure investigation more useful than a generic '100% tested' label.",
+          "zh": "检验计划应区分常规生产检查、鉴定试验及破坏性抽样。须约定导通、短路检测、外观、尺寸及附加电气要求，并记录认可图纸版本和所用夹具、程序。线束测试通过不代表射频带宽、环境寿命或设备安全也已验证，除非这些项目明确包含在测试范围。可追溯结果比笼统的“全检”标签更有助于后续故障调查。"
+        },
+        "style": "wide",
+        "image": "/assets/images/product-categories/stock/hirose/quality.jpg",
+        "caption": {
+          "en": "Super Smile workshop photograph: harness and test equipment at the inspection station.",
+          "zh": "超斯迈尔车间实拍：检查工位的线束与测试设备。"
+        }
+      },
+      {
+        "id": "matching",
+        "title": {
+          "en": "Match the Series to the Circuit",
+          "zh": "让系列与回路需求对应"
+        },
+        "copy": {
+          "en": "For internal discrete wiring, compare complete DF configurations rather than pitch alone. For vehicle interfaces, separate an internal ZE05 connection from the selected external sealed system. For antenna links, match the exact U.FL or W.FL2 cable assembly and board receptacle. Mixed-function harnesses can combine separate signal, power and RF branches, but they still require clear electrical boundaries, shielding and mechanical support. Start with the circuit and installation, then select the interface; do not force the project around an available connector photograph.",
+          "zh": "机内离散线应比较完整 DF 配置，而非仅比较间距。车载接口须区分内部 ZE05 连接与选定外部密封系统；天线连接则须匹配具体 U.FL 或 W.FL2 组件和板端插座。混合功能线束可组合独立信号、供电及射频分支，但仍需明确电气边界、屏蔽和机械支撑。应从回路及安装需求出发选择接口，不能围绕一张现成接头照片硬套项目。"
+        },
+        "style": "feature-right",
+        "image": "/assets/images/product-categories/stock/hirose/matching.jpg",
+        "caption": {
+          "en": "MHF4-to-U.FL adapter leads demonstrate distinct interface ends rather than universal compatibility.",
+          "zh": "MHF4 转 U.FL 引线，展示两端不同接口，而非通用互配关系。"
+        }
+      },
+      {
+        "id": "review",
+        "title": {
+          "en": "Design Review",
+          "zh": "需求与图纸审核"
+        },
+        "copy": {
+          "en": "Provide the schematic, pinout, mating references, length datum and enclosure constraints. Mark unresolved functions rather than guessing from a sample's colour code. We review the proposed assembly against the supplied information and identify questions that affect materials, tooling or inspection. A photograph can start the discussion, but it cannot reveal hidden splices, shielding bonds or component ratings. Resolve those uncertainties before committing the production configuration.",
+          "zh": "提供原理图、针脚表、对插料号、长度基准及外壳限制，对未明确功能做好标记，不凭样品线色猜测。我们依据客户资料审核组件，识别影响物料、工装和检验的问题。照片可以启动沟通，却无法揭示隐藏接点、屏蔽连接及零件额定值；这些不确定项应在确定生产配置前解决。"
+        },
+        "style": "wide",
+        "image": "/assets/images/product-categories/stock/hirose/review.jpg",
+        "caption": {
+          "en": "Super Smile workshop desk and harness references used as an engineering-context photograph.",
+          "zh": "超斯迈尔车间工作台及线束资料，工程作业场景实拍。"
+        }
+      },
+      {
+        "id": "components",
+        "title": {
+          "en": "Component Selection",
+          "zh": "物料确认"
+        },
+        "copy": {
+          "en": "The bill of materials should identify housings, contacts, seals, retainers, cable and protective accessories individually. Specify whether original Hirose parts are mandatory and whether alternatives may be considered. Check compatibility, availability and tooling for the complete set, not just the most visible housing. Purchasing descriptions should retain manufacturer references and approved revisions so a later reorder does not silently become a different assembly.",
+          "zh": "物料表应逐项列出壳体、端子、密封、保持件、线缆和防护附件，并说明是否必须使用 Hirose 原装零件及能否评估替代。兼容性、供货和工装应覆盖整套物料，而非只看最显眼壳体。采购描述须保留制造商料号与认可版本，避免后续补单无意间变成不同组件。"
+        },
+        "style": "wide",
+        "image": "/assets/images/product-categories/stock/hirose/components.jpg",
+        "caption": {
+          "en": "Super Smile wire preparation close-up: conductor and insulation details enter the material review.",
+          "zh": "超斯迈尔线材准备近照：导体与绝缘细节须纳入物料审核。"
+        }
+      },
+      {
+        "id": "prototype",
+        "title": {
+          "en": "Sample Build",
+          "zh": "首件制作"
+        },
+        "copy": {
+          "en": "The first article translates the approved documents into a physical assembly. Record cutting, stripping, termination, insertion and protection details that affect repeatability. Keep the sample's part and wire references linked to its inspection record. If a bend or branch must move to fit the enclosure, revise the drawing instead of leaving the adjustment as undocumented workshop knowledge. A prototype is a controlled learning step, not automatic production approval.",
+          "zh": "首件将认可文件转化为实物组件。影响重复性的裁线、剥线、端接、插装及防护细节应记录下来，样品零件与线材信息也须关联检验记录。若为适配外壳需要移动弯曲或分支位置，应修订图纸，不能只靠车间口头经验。打样是受控确认过程，不等同于自动批准量产。"
+        },
+        "style": "inset-right",
+        "image": "/assets/images/product-categories/stock/hirose/prototype.jpg",
+        "caption": {
+          "en": "Electronics workbench with microscope and soldering equipment; prototype-work reference.",
+          "zh": "配有显微镜及焊接设备的电子工作台，样品作业参考。"
+        }
+      },
+      {
+        "id": "fit-test",
+        "title": {
+          "en": "Fit and Function Test",
+          "zh": "装配与功能确认"
+        },
+        "copy": {
+          "en": "Check the sample with the real mating equipment or an agreed representative fixture. Confirm latch access, connector direction, branch reach and enclosure closure. Exercise moving covers or adjustable modules through their intended travel. Electrical function should follow the approved circuit definition and safe test procedure, not trial-and-error pin swapping. Record any difference between the sample fixture and the final installation so the remaining equipment-level checks are clear.",
+          "zh": "使用真实对插设备或约定的代表性夹具核查样品，确认锁扣操作、接头方向、分支长度及外壳闭合。活动盖板和可调模块须走完预定行程。电气功能按认可回路及安全测试程序确认，不能用随意换针方式试错。应记录样品夹具与最终安装的差异，明确仍需完成的整机检查。"
+        },
+        "style": "wide",
+        "image": "/assets/images/product-categories/stock/hirose/fit-test.jpg",
+        "caption": {
+          "en": "Cable routing and retention inside a keyboard illustrate enclosure-level fit checks.",
+          "zh": "键盘内部的走线与固定结构，说明整机装配适配检查。"
+        }
+      },
+      {
+        "id": "electrical",
+        "title": {
+          "en": "Electrical Testing",
+          "zh": "电气测试"
+        },
+        "copy": {
+          "en": "Select tests by circuit function. Continuity and short-circuit checks suit wire mapping; insulation or withstand testing requires agreed limits and protection for any connected electronics. RF assemblies may need insertion loss or return loss across the required band with suitable adapters and calibration. Compare like-for-like configurations and retain the method with the result. We confirm the required test scope, equipment and responsibilities before accepting specialized measurement commitments.",
+          "zh": "按回路功能选择测试。导通、短路检查用于核对线序；绝缘或耐压测试须约定限值，并保护连接的电子元件。射频组件可能需要使用合适转接件与校准，在指定频段测量插入损耗或回波损耗。比较时应保持配置一致，并将方法与结果一起保存。专用测量承诺应在确认测试范围、设备及职责后作出。"
+        },
+        "style": "wide",
+        "image": "/assets/images/product-categories/stock/hirose/electrical.jpg",
+        "caption": {
+          "en": "Portable vector network analyzer: RF checks require the appropriate instrument and calibration.",
+          "zh": "便携式矢量网络分析仪，射频检查须配合适用仪器与校准。"
+        }
+      },
+      {
+        "id": "signoff",
+        "title": {
+          "en": "Design Signoff",
+          "zh": "版本确认与放行"
+        },
+        "copy": {
+          "en": "Approval should cover the drawing, BOM, sample deviations, inspection requirements and packaging, not just the sample's appearance. Name the revision that becomes the production reference. Later changes to a connector, wire compound or cable length may require renewed review, especially for sealed or RF assemblies. Keeping a clear change record allows purchasing, engineering and production to discuss the same configuration when an order is repeated.",
+          "zh": "确认范围应覆盖图纸、物料表、样品偏差、检验及包装，而非只认可外观。应明确作为生产依据的版本。后续更换接头、线材配方或长度可能需要重新审核，密封或射频组件尤其如此。清晰变更记录能让采购、工程和生产在复购时讨论同一配置。"
+        },
+        "style": "compact",
+        "image": "/assets/images/product-categories/stock/hirose/signoff.jpg",
+        "caption": {
+          "en": "Super Smile harness bundles; photographs support identification but do not replace approved drawings.",
+          "zh": "超斯迈尔线束实拍；照片可辅助识别，不能代替批准图纸。"
+        }
+      },
+      {
+        "id": "production",
+        "title": {
+          "en": "Controlled Production",
+          "zh": "受控生产"
+        },
+        "copy": {
+          "en": "Repeat production follows the released material and process definition. Establish the relevant setup checks, identification rules and inspection points, and keep nonconforming material separate from accepted product. Tooling maintenance and operator instructions influence consistency as much as the initial sample. Any shortage-driven substitution must return to the approval process. Batch quantity and delivery timing are confirmed against the actual component set and manufacturing requirements.",
+          "zh": "重复生产按已放行物料和工艺定义执行，设置相关开机确认、标识规则及检验点，并将不合格物料与合格品分开。工装维护及作业指导对一致性的影响并不低于最初样品。因缺料提出的替代须重新进入批准流程。批量与交期依据实际零件组合和制造要求确认。"
+        },
+        "style": "wide",
+        "image": "/assets/images/product-categories/stock/hirose/production.jpg",
+        "caption": {
+          "en": "Super Smile production workstation; the released process defines each order's build.",
+          "zh": "超斯迈尔生产工位，具体订单须依据已放行工艺制作。"
+        }
+      },
+      {
+        "id": "release",
+        "title": {
+          "en": "Quality Review and Release",
+          "zh": "质量复核与出货放行"
+        },
+        "copy": {
+          "en": "Review the inspection record against the order's acceptance criteria and check that labels identify the correct version. Routine checks and sampled destructive tests should not be confused in the release statement. Where a customer requires certificates or test reports, agree their content and batch linkage before manufacture. A report should describe what was actually checked; unperformed environmental, medical or RF tests must not appear as passed results.",
+          "zh": "依据订单验收标准复核检验记录，核查标签是否对应正确版本。放行说明不能混淆常规检查与破坏性抽样。客户要求证书或报告时，应在制造前约定其内容和批次关联方式。报告只能描述实际执行的检查，未开展的环境、医疗或射频试验不能写成通过。"
+        },
+        "style": "wide",
+        "image": "/assets/images/product-categories/stock/hirose/release.jpg",
+        "caption": {
+          "en": "Microscope-assisted electronics work illustrates close visual access, not a completed inspection record.",
+          "zh": "显微镜辅助电子作业，展示细节观察方式，并非已完成的检验记录。"
+        }
+      },
+      {
+        "id": "packaging",
+        "title": {
+          "en": "Packaging, Labels and Shipping",
+          "zh": "包装、标签与运输"
+        },
+        "copy": {
+          "en": "Protect small connector faces from impact and contamination, and avoid bending a cable sharply at its termination. Bundle labels should remain readable without repeatedly unpacking sensitive micro-coax leads. Apply ESD protection where the supplied assembly requires it, rather than assuming every passive cable needs identical packaging. Confirm pack quantity, traceability labels and delivery documents with the order. Shipping protection preserves the approved sample condition; it does not replace incoming inspection at the customer's site.",
+          "zh": "保护小型对插面免受撞击与污染，避免端接处急弯。整束标签应便于读取，不必反复拆开敏感微型同轴线。根据实际组件需求采用静电防护，不能假定所有无源电缆都需要相同包装。订单中应确认包装数量、追溯标签及交付文件。运输防护用于保持认可样品状态，不能替代客户到货检查。"
+        },
+        "style": "inset-left",
+        "image": "/assets/images/product-categories/stock/hirose/packaging.jpg",
+        "caption": {
+          "en": "Circuit board in an antistatic bag illustrates protection during storage and handling.",
+          "zh": "防静电袋内的电路板，展示储存与搬运中的保护方式。"
+        }
+      },
+      {
+        "id": "procurement",
+        "title": {
+          "en": "Prepare a Complete Enquiry",
+          "zh": "完整询价资料"
+        },
+        "copy": {
+          "en": "Send the complete Hirose part references or clear mating samples, circuit mapping, dimensions, cable requirements, use environment and quantity range. Tell us which items are fixed and which can be reviewed as alternatives. Include special test or document requirements before comparing prices. Super Smile reviews custom cable and harness projects against these inputs; this page does not claim Hirose authorization, universal stock or pre-qualified supply for every application described.",
+          "zh": "请提供完整 Hirose 料号或清晰对插样品、回路映射、尺寸、线缆要求、使用环境及数量范围，说明哪些项目不可变更、哪些允许评估替代。比较报价前应列出特殊试验或文件需求。超斯迈尔依据这些资料审核定制电缆及线束项目；本页不声明 Hirose 授权、所有型号库存或对所述所有应用已经完成鉴定。"
+        },
+        "style": "wide",
+        "image": "/assets/images/product-categories/stock/hirose/procurement.jpg",
+        "caption": {
+          "en": "Technician identifying connector wiring; application reference, not Super Smile staff or a Hirose claim.",
+          "zh": "技术人员处理连接器布线，作业参考，非超斯迈尔员工或 Hirose 型号证明。"
+        }
+      }
+    ],
+    "composition": [
+      {
+        "kind": "single",
+        "items": [
+          0
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          3
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          4,
+          5
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          6
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          7
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          8
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          9
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          10,
+          11
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          12
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          13,
+          14
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          15
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          16
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          17,
+          18
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          19
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          20,
+          21
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          22
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          23,
+          24
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          25
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          26,
+          27
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          28
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          29,
+          30
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          31
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          32,
+          33
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          34
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          35
+        ]
+      }
+    ],
+    "guide": [
+      {
+        "index": 0,
+        "label": {
+          "en": "Interfaces",
+          "zh": "接口系列"
+        }
+      },
+      {
+        "index": 4,
+        "label": {
+          "en": "Solutions",
+          "zh": "定制方案"
+        }
+      },
+      {
+        "index": 12,
+        "label": {
+          "en": "Applications",
+          "zh": "应用"
+        }
+      },
+      {
+        "index": 20,
+        "label": {
+          "en": "Validation",
+          "zh": "检验指标"
+        }
+      },
+      {
+        "index": 26,
+        "label": {
+          "en": "Production",
+          "zh": "制作流程"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "q": {
+          "en": "What does “Hirose compatible” mean?",
+          "zh": "“Hirose 兼容”是什么意思？"
+        },
+        "a": {
+          "en": "It identifies an interface to be confirmed, not a promise that different series interchange. The approved BOM states whether original Hirose parts or separately reviewed alternatives are supplied.",
+          "zh": "表示需要确认的接口方向，并非不同系列可互换的承诺。认可物料表应注明使用 Hirose 原装件还是另行审核的替代件。"
+        }
+      },
+      {
+        "q": {
+          "en": "Can wire length and pin assignments be customized?",
+          "zh": "能定制线长与针脚吗？"
+        },
+        "a": {
+          "en": "Yes, subject to the selected connector's available configurations and an approved circuit drawing. Custom wiring does not change the connector's moulded mating geometry.",
+          "zh": "可以依据所选接头现有配置及认可回路图定制。定制布线不改变接头已成型的配合结构。"
+        }
+      },
+      {
+        "q": {
+          "en": "Are all automotive Hirose connectors waterproof?",
+          "zh": "所有 Hirose 车载接头都防水吗？"
+        },
+        "a": {
+          "en": "No. Internal wiring, shielded data and external sealed interfaces have different specifications. Identify the complete series and assembled sealing conditions.",
+          "zh": "不是。内部布线、屏蔽数据及外部密封接口各有规范，必须明确完整系列及组装密封条件。"
+        }
+      },
+      {
+        "q": {
+          "en": "Are U.FL and W.FL2 interchangeable?",
+          "zh": "U.FL 与 W.FL2 可以互换吗？"
+        },
+        "a": {
+          "en": "Do not assume so. Match the exact plug, receptacle, cable and tooling from the manufacturer's mating information.",
+          "zh": "不能如此假定。须按制造商对插资料匹配具体插头、插座、线缆与工具。"
+        }
+      },
+      {
+        "q": {
+          "en": "Which catalogue should I provide?",
+          "zh": "应提供哪份目录资料？"
+        },
+        "a": {
+          "en": "The current series catalogue plus the complete part's drawing, mating reference and application instructions. A series name alone is insufficient for a controlled build.",
+          "zh": "提供现行系列目录、完整型号图纸、对插料号及应用说明。只有系列名称不足以支持受控制作。"
+        }
+      },
+      {
+        "q": {
+          "en": "What testing is included?",
+          "zh": "包含哪些测试？"
+        },
+        "a": {
+          "en": "The order defines routine checks and any additional qualification or sampling. RF, ingress, life and regulated-equipment tests require an agreed method and scope.",
+          "zh": "订单明确常规检查及附加鉴定、抽样项目。射频、防水、寿命及法规相关设备试验需另行约定方法和范围。"
+        }
+      },
+      {
+        "q": {
+          "en": "Can medical equipment projects be reviewed?",
+          "zh": "可以审核医疗设备项目吗？"
+        },
+        "a": {
+          "en": "Yes, with intended use, safety and validation requirements supplied for review. No blanket patient-contact, sterility or biocompatibility claim is made.",
+          "zh": "可以提交用途、安全及验证要求进行审核，但不作通用患者接触、无菌或生物相容性声明。"
+        }
+      }
+    ],
+    "creditHeading": {
+      "en": "Image sources and usage notes",
+      "zh": "图片来源与使用说明"
+    },
+    "hasAiImages": false,
+    "hasOwnImages": true,
+    "mediaCredits": [
+      {
+        "file": "Soldering Bench with Microscope.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Soldering_Bench_with_Microscope.jpg",
+        "author": "Psychlist1972",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      {
+        "file": "Hirose tm21 modular plug parts and crimped cable.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Hirose_tm21_modular_plug_parts_and_crimped_cable.jpg",
+        "author": "User:MarcPG",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      {
+        "file": "Ids-machine-vision-cameras-usb2-2004.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Ids-machine-vision-cameras-usb2-2004.jpg",
+        "author": "Lg123456",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "PCB mount connector 1.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:PCB_mount_connector_1.JPG",
+        "author": "Jstapko",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      {
+        "file": "Rain on windshield (52352547682).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Rain_on_windshield_(52352547682).jpg",
+        "author": "Joshua Tree National Park",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain"
+      },
+      {
+        "file": "U.FL-Kabelbuchse.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:U.FL-Kabelbuchse.jpg",
+        "author": "Ingraban • Thing 22:07, 15. Apr. 2014 (CEST)",
+        "license": "CC BY-SA 3.0 de",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en"
+      },
+      {
+        "file": "VIA Based Solution Smart Meter (4680911433).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:VIA_Based_Solution_Smart_Meter_(4680911433).jpg",
+        "author": "VIA Gallery from Hsintien, Taiwan",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      {
+        "file": "Akkuschutzschaltung mit Balancer 4S.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Akkuschutzschaltung_mit_Balancer_4S.jpg",
+        "author": "Hadhuey",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      {
+        "file": "Syringe infusion pump.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Syringe_infusion_pump.jpg",
+        "author": "Shyamal",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "RouterBoard 112 with U.FL-RSMA pigtail and R52 miniPCI Wi-Fi card.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:RouterBoard_112_with_U.FL-RSMA_pigtail_and_R52_miniPCI_Wi-Fi_card.jpg",
+        "author": "Kozuch",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "IPEX4 vs IPEX.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:IPEX4_vs_IPEX.jpg",
+        "author": "Mitja Stachowiak",
+        "license": "CC0",
+        "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+      },
+      {
+        "file": "Crimping tool TP.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Crimping_tool_TP.jpg",
+        "author": "Baran Ivo",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain"
+      },
+      {
+        "file": "10 core Flat Ribbon Cable.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:10_core_Flat_Ribbon_Cable.jpg",
+        "author": "Suyash Dwivedi",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "Scale on vernier caliper DSC01343.JPG",
+        "url": "https://commons.wikimedia.org/wiki/File:Scale_on_vernier_caliper_DSC01343.JPG",
+        "author": "Peter Southwood",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      {
+        "file": "Digital caliper electronic PCB with LCD.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Digital_caliper_electronic_PCB_with_LCD.jpg",
+        "author": "wdwd",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "Arduino UNO compatible board, CNC shield stepper motor controller, and a NEMA 17 stepper motor.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Arduino_UNO_compatible_board,_CNC_shield_stepper_motor_controller,_and_a_NEMA_17_stepper_motor.jpg",
+        "author": "DotEagle",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "Cologne Germany Electric-Car-Charging-Point-at-TUV-Rheinland-01.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Cologne_Germany_Electric-Car-Charging-Point-at-TUV-Rheinland-01.jpg",
+        "author": "CEphoto, Uwe Aranas",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      {
+        "file": "Hospital Patient Monitor (17239884329).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Hospital_Patient_Monitor_(17239884329).jpg",
+        "author": "Tony Webster from San Francisco, California",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      {
+        "file": "Wireless Router (50841204223).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Wireless_Router_(50841204223).jpg",
+        "author": "ajay_suresh",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      {
+        "file": "KUKA Industrial Robots IR.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:KUKA_Industrial_Robots_IR.jpg",
+        "author": "Mixabest",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      {
+        "file": "Aircraft cockpit (3b).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Aircraft_cockpit_(3b).jpg",
+        "author": "Cjp24",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "Zertifiziertes Smart Meter Gateway.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Zertifiziertes_Smart_Meter_Gateway.jpg",
+        "author": "Franziska Fahrbach",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "Multimeter Gossen Metra Hit.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Multimeter_Gossen_Metra_Hit.jpg",
+        "author": "Harke",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      {
+        "file": "U.FL connector.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:U.FL_connector.jpg",
+        "author": "Afrank99",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      {
+        "file": "Mains Cable Strain Relief.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Mains_Cable_Strain_Relief.jpg",
+        "author": "tony_duell",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      {
+        "file": "Rain at the windshield (14831834479).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Rain_at_the_windshield_(14831834479).jpg",
+        "author": "Henry Söderlund from Helsinki, Finland",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      {
+        "file": "_MG_5482.jpg",
+        "url": "https://supersmile-tech.com/about.html",
+        "author": "Super Smile",
+        "license": "Company-owned photograph"
+      },
+      {
+        "file": "RF pigtail adapter MHF4 male to U.FL female 30 mm.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:RF_pigtail_adapter_MHF4_male_to_U.FL_female_30_mm.jpg",
+        "author": "Siarhei Besarab",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "_MG_6492.jpg",
+        "url": "https://supersmile-tech.com/about.html",
+        "author": "Super Smile",
+        "license": "Company-owned photograph"
+      },
+      {
+        "file": "_MG_6437.jpg",
+        "url": "https://supersmile-tech.com/about.html",
+        "author": "Super Smile",
+        "license": "Company-owned photograph"
+      },
+      {
+        "file": "Setup for the soldering of electronic components.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Setup_for_the_soldering_of_electronic_components.jpg",
+        "author": "Micah Elizabeth Scott from San Francisco, United States",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      {
+        "file": "Keyboard Cable Strain Relief (54216517205).jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Keyboard_Cable_Strain_Relief_(54216517205).jpg",
+        "author": "tony_duell",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      {
+        "file": "Anritsu MS2035B portable vector network analyzer.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Anritsu_MS2035B_portable_vector_network_analyzer.jpg",
+        "author": "Dtwitkowski",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      {
+        "file": "_MG_6466.jpg",
+        "url": "https://supersmile-tech.com/about.html",
+        "author": "Super Smile",
+        "license": "Company-owned photograph"
+      },
+      {
+        "file": "_MG_6485.jpg",
+        "url": "https://supersmile-tech.com/about.html",
+        "author": "Super Smile",
+        "license": "Company-owned photograph"
+      },
+      {
+        "file": "Soldering Surface-mount components with a Stereo microscope.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Soldering_Surface-mount_components_with_a_Stereo_microscope.jpg",
+        "author": "Brandon Stafford from Somerville, Massachusetts, USA",
+        "license": "CC BY-SA 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+      },
+      {
+        "file": "Antistatic bag.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Antistatic_bag.jpg",
+        "author": "Zidane2k1 at English Wikipedia",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      {
+        "file": "US Navy 110730-N-GC412-046 Aviation Electronics Technician 2nd Class John Keeton re-pins a DTIU connector on an MH-60S Sea Hawk helicopter aboard U.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:US_Navy_110730-N-GC412-046_Aviation_Electronics_Technician_2nd_Class_John_Keeton_re-pins_a_DTIU_connector_on_an_MH-60S_Sea_Hawk_helicopter_aboard_U.jpg",
+        "author": "U.S. Navy photo by Mass Communication Specialist 3rd Class Will Tyndall",
+        "license": "Public domain",
+        "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain"
+      }
+    ]
+  }
+}
