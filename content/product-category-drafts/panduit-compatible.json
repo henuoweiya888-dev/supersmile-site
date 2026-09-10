@@ -1,0 +1,124 @@
+{
+  "key": "connector-systems-13",
+  "slug": "panduit-compatible",
+  "title": {
+    "en": "Panduit-Compatible Harness Components",
+    "zh": "Panduit 兼容线束组件"
+  },
+  "intro": {
+    "en": "Custom wire harnesses using specified Panduit terminals, cable ties, identification and routing components, reviewed by exact part number, material and installation method.",
+    "zh": "采用指定 Panduit 端子、扎带、标识及布线部件制作定制线束，并按准确料号、材料与安装方法审核。"
+  },
+  "knowledge": {
+    "en": "A Panduit name may identify a terminal, tie, mount, label or routing product; it does not by itself define a complete cable assembly.",
+    "zh": "Panduit 名称可能对应端子、扎带、固定座、标签或布线产品，本身不能定义一条完整电缆组件。"
+  },
+  "notes": {
+    "en": "Provide the original part numbers, wire range, bundle diameter, environment, drawings and approved substitution boundary.",
+    "zh": "请提供原始料号、适用线径、束径、使用环境、图纸及允许替代范围。"
+  },
+  "delivery": {
+    "en": "Approve the component schedule, harness-board baseline, workmanship sample and inspection record before repeat production.",
+    "zh": "重复生产前确认部件清单、线束板基准、工艺样品及检验记录。"
+  },
+  "page": {
+    "layout": "panduit-editorial",
+    "displayTitle": {
+      "en": "Panduit-Compatible Harness Components",
+      "zh": "Panduit 兼容线束组件"
+    },
+    "headings": {
+      "introduction": {"en": "From a component name to a controlled harness", "zh": "从部件名称到受控线束"},
+      "components": {"en": "Components that shape the assembly", "zh": "决定线束结构的配套部件"},
+      "manufacturing": {"en": "Manufacturing method and repeatability", "zh": "制造方法与批次复现"},
+      "protection": {"en": "Routing, protection and installed condition", "zh": "布线、防护与安装状态"},
+      "specification": {"en": "What to specify before quotation", "zh": "报价前需要锁定的规格"},
+      "faq": {"en": "Engineering and purchasing questions", "zh": "工程与采购问题"}
+    },
+    "lead": {
+      "en": "Panduit spans wire termination, bundling, identification, routing, protection, grounding and network infrastructure. In a custom harness, these products are supporting elements within a larger electrical and mechanical definition. The drawing still has to state the circuit, conductor, connector, branch geometry, installation route and acceptance method. This guide explains how familiar Panduit product names become controlled manufacturing requirements rather than loose visual references.",
+      "zh": "Panduit 产品覆盖导线端接、捆扎、标识、布线、防护、接地及网络基础设施。对于定制线束，这些产品只是完整电气与机械定义中的配套要素，图纸仍需明确回路、导体、连接器、分支几何、安装路径与验收方法。本页说明如何把常见 Panduit 产品名称转化为可执行、可复现的制造要求，而不是只凭外观采购。"
+    },
+    "topics": [
+      {
+        "id": "terminals",
+        "group": "components",
+        "title": {"en": "Pan-Term terminals and ferrules: match the complete crimp system", "zh": "Pan-Term 端子与管形端头：匹配完整压接系统"},
+        "copy": {"en": "Ring terminals, fork terminals, disconnects, splices and ferrules are selected by conductor material, cross-section, insulation diameter, stud or mating geometry and operating environment. A similar-looking barrel can have a different wire range or insulation support. The controlled bill of materials should record the complete reference and the intended conductor preparation. When a compatible source is requested, Super Smile reviews barrel dimensions, plating, insulation support and tooling evidence separately instead of assuming that color or outline proves equivalence.", "zh": "环形端子、叉形端子、快速插接端子、对接端子及管形端头，需要依据导体材料与截面、绝缘外径、螺柱或对插几何以及工作环境共同选择。外观相近的压接筒可能具有不同适用线径或绝缘支撑结构。受控 BOM 应记录完整料号及导体处理方法；如需兼容来源，超斯迈尔会分别审核压接筒尺寸、镀层、绝缘支撑及工具依据，不以颜色或轮廓直接判断等同。"},
+        "image": "terminals.jpg"
+      },
+      {
+        "id": "ties",
+        "group": "components",
+        "title": {"en": "Cable ties and mounts: choose material before color", "zh": "扎带与固定座：先选材料，再看颜色"},
+        "copy": {"en": "Pan-Ty, Dome-Top, Contour-Ty, Hyper-V, Sta-Strap and Dura-Ty names describe different constructions and application ranges. General-purpose nylon, heat-stabilized grades, weather-resistant materials, polypropylene and stainless steel do not behave the same under heat, ultraviolet exposure, chemicals or vibration. Bundle diameter, edge condition, mounting surface and service access also matter. The drawing should define the approved family or performance requirement and where every restraint belongs, rather than leaving operators to add ties wherever a bundle looks loose.", "zh": "Pan-Ty、Dome-Top、Contour-Ty、Hyper-V、Sta-Strap 与 Dura-Ty 等名称对应不同结构和应用范围。通用尼龙、耐热等级、耐候材料、聚丙烯及不锈钢在高温、紫外线、化学介质或振动环境中的表现并不相同。束径、边缘状态、安装表面和维修空间也会影响选型。图纸应定义认可系列或性能要求，并标明每个固定点的位置，而不是让操作人员凭“哪里松就扎哪里”决定结构。"},
+        "image": "ties.jpg"
+      },
+      {
+        "id": "labels",
+        "group": "components",
+        "title": {"en": "Wire identification: make the label part of the circuit definition", "zh": "导线标识：让标签成为回路定义的一部分"},
+        "copy": {"en": "Heat-shrink markers, self-laminating labels, flag labels and terminal markers solve different identification problems. The correct medium depends on cable diameter, print area, abrasion, temperature, chemical exposure and whether the mark must remain readable after installation. A useful harness drawing links label text to the circuit and connector cavity, controls orientation and distance from the termination, and defines duplicate or serialization rules. This reduces troubleshooting time and prevents a readable label from identifying the wrong branch.", "zh": "热缩标识、自覆膜标签、旗形标签及端子标记解决的是不同识别问题。合适介质取决于线缆直径、打印面积、磨损、温度、化学环境以及装配后是否仍需清晰读取。有效的线束图纸应把标签文字与回路、连接器孔位关联起来，同时控制方向、距端接点的位置以及重复编号或序列化规则。这样既能缩短排查时间，也能避免“标签很清楚，但贴错分支”的问题。"},
+        "image": "labels.jpg"
+      },
+      {
+        "id": "protection",
+        "group": "components",
+        "title": {"en": "Panduct, Pan-Wrap and sleeving: protect the route, not only the wire", "zh": "Panduct、Pan-Wrap 与套管：保护的是完整路径"},
+        "copy": {"en": "Wiring duct, split harness wrap, corrugated loom, braided sleeving, grommet edging and heat-shrink tubing each protect a different failure point. Selection begins with the installed route: panel edges, moving doors, sharp transitions, hot surfaces, washdown zones and service openings. Fill ratio and bend radius must leave room for assembly and heat dissipation. A protective product is effective only when its cut length, overlap, termination and fixing points are defined together with the harness geometry.", "zh": "线槽、开口式线束包覆、波纹管、编织套管、护边及热缩管分别针对不同失效位置。选型应从实际路径出发，识别柜体边缘、活动门、急转位置、热表面、冲洗区域及检修开口。填充率与弯曲半径还要给装配和散热留下余量。只有把裁切长度、搭接方式、端部处理和固定点与线束几何一起定义，防护部件才真正有效。"},
+        "image": "protection.jpg"
+      },
+      {
+        "id": "harness-board",
+        "group": "manufacturing",
+        "title": {"en": "Quick-Build-style harness boards: turn routing into a datum", "zh": "Quick-Build 类线束板：把布线路径变成制造基准"},
+        "copy": {"en": "A modular harness board or fixture converts branch lengths, breakout angles, connector orientation and clip locations into repeatable physical references. Before the first build, engineering must decide which dimensions are functional and where tolerance may accumulate. Fixtures should support the harness without forcing it into an artificial shape. The released board layout, drawing revision and sample approval then remain linked so a later batch does not slowly drift as operators interpret a photograph differently.", "zh": "模块化线束板或工装可以把分支长度、分叉角度、连接器方向和卡扣位置转化为可重复的实体基准。首件前，工程人员需要确定哪些尺寸属于功能尺寸、哪些位置允许累积公差。工装应支撑线束，而不是强行把它压成不自然的形状。受控线束板布局、图纸版本与认可样品需要保持关联，避免后续批次因不同人员解读照片而逐渐漂移。"},
+        "image": "harness-board.jpg"
+      },
+      {
+        "id": "tension",
+        "group": "manufacturing",
+        "title": {"en": "Tie installation tension: restraint without insulation damage", "zh": "扎带安装张力：固定线束但不伤绝缘"},
+        "copy": {"en": "Cable-tie installation is a controlled operation when bundle shape, vibration or appearance matters. Excess tension can imprint or cold-flow soft insulation, distort small coaxial or data cables and concentrate stress at branch exits. Insufficient tension lets conductors rub, migrate or strike nearby hardware. Tool setting, tie size, tail cut and inspection method should match the material and bundle. Flush cutting also removes sharp tails that could injure installers or abrade adjacent wiring during service.", "zh": "当束形、振动或外观重要时，扎带安装应当是一项受控工序。张力过大会压伤或使软绝缘产生冷流，也可能使细同轴线、数据线变形，并在分支出口集中应力；张力不足则会让导线摩擦、位移或碰撞附近结构。工具档位、扎带规格、尾部切口及检验方法应与材料和束径匹配，齐平剪切还能避免锐利尾端伤人或在维修时磨损邻近导线。"},
+        "image": "tension.jpg"
+      },
+      {
+        "id": "crimp-tool",
+        "group": "manufacturing",
+        "title": {"en": "Crimp tooling and applicators: control the terminal-tool-wire combination", "zh": "压接工具与模具：控制端子、工具和导线组合"},
+        "copy": {"en": "A terminal cannot be qualified independently from its applicator or hand tool and conductor. The approved combination defines strip length, conductor brush, bellmouth, insulation support and crimp geometry. Production controls may include tool identification, setup samples, crimp-height checks, pull tests and periodic inspection according to the project. Substitute terminals require a new review of tooling and acceptance evidence; a tool that closes around the barrel is not automatically the correct tool.", "zh": "端子不能脱离压接模具或手工具以及导线单独判定。认可组合共同决定剥线长度、导体露出、喇叭口、绝缘支撑及压接几何。生产控制可根据项目要求包含工具编号、调机样件、压接高度、拉力试验和周期检查。更换兼容端子时必须重新审核工具与验收依据；工具能够夹紧压接筒，并不等于它就是正确工具。"},
+        "image": "crimp-tool.jpg"
+      },
+      {
+        "id": "cleats",
+        "group": "protection",
+        "title": {"en": "Clamps, cleats and support spacing: protect the installed load path", "zh": "卡箍、线夹与支撑间距：保护安装后的受力路径"},
+        "copy": {"en": "High-current cables, cabinet feeders and exposed industrial runs need support selected for cable diameter, mass, fault-force risk and mounting surface. A cleat or clamp should restrain the cable without creating a sharp pressure point, and spacing must prevent sag or movement from transferring load into the termination. For a harness supplied separately from the equipment, the drawing should identify customer-installed supports and the free length at each interface so responsibility for the final route is clear.", "zh": "大电流电缆、控制柜进线及外露工业布线需要根据电缆直径、重量、故障力风险和安装表面选择支撑。线夹或卡箍应在不形成尖锐压点的情况下约束电缆，支撑间距还要避免下垂或位移把载荷传到端接处。若线束与设备分开供货，图纸应标明客户现场安装的支撑点和各接口的自由长度，使最终布线路径的责任边界清楚。"},
+        "image": "cleats.jpg"
+      },
+      {
+        "id": "heat-shrink",
+        "group": "protection",
+        "title": {"en": "Heat-shrink and sealing transitions: specify the installed condition", "zh": "热缩与密封过渡：按安装完成状态定义"},
+        "copy": {"en": "Heat-shrink tubing may provide insulation, identification, strain transition or environmental sealing, but one product does not automatically provide all four. The specification should define recovered diameter, wall or adhesive requirement, overlap and the surfaces being sealed. Recovery temperature must be compatible with the cable jacket, connector and nearby labels. Inspection should look for complete recovery, controlled adhesive flow, centered overlap and freedom from scorched insulation or trapped sharp edges.", "zh": "热缩管可以承担绝缘、标识、应力过渡或环境密封，但一种产品不会自动同时满足四种功能。规格应明确收缩后直径、壁厚或热熔胶要求、搭接长度及需要密封的表面；收缩温度还需与线缆护套、连接器和邻近标签兼容。检验应确认完全收缩、胶体流动受控、搭接居中，并排除绝缘烧伤或内部夹入锐边。"},
+        "image": "heat-shrink.jpg"
+      }
+    ],
+    "specification": [
+      {"en": "Exact Panduit part numbers or the permitted compatible-source boundary", "zh": "准确 Panduit 料号或允许的兼容来源边界"},
+      {"en": "Wire material, cross-section, insulation diameter and circuit function", "zh": "导线材料、截面、绝缘外径及回路功能"},
+      {"en": "Bundle diameter, branch geometry, support points and service movement", "zh": "束径、分支几何、支撑点及维修活动范围"},
+      {"en": "Temperature, ultraviolet, chemical, flame and cleaning exposure", "zh": "温度、紫外线、化学介质、阻燃及清洁环境"},
+      {"en": "Label content, orientation, serialization and readability requirement", "zh": "标签内容、方向、序列化及可读性要求"},
+      {"en": "Crimp, pull, continuity, appearance and documentation acceptance", "zh": "压接、拉力、导通、外观及文件验收要求"}
+    ],
+    "faq": [
+      {"q":{"en":"Can a Panduit part number define the entire harness?","zh":"一个 Panduit 料号能定义整条线束吗？"},"a":{"en":"Usually not. It may define one terminal, tie, label or routing component. The harness still needs circuit, wire, connector, length, branch, installation and inspection definitions.","zh":"通常不能。它可能只定义一个端子、扎带、标签或布线部件，整条线束仍需定义回路、导线、连接器、长度、分支、安装和检验要求。"}},
+      {"q":{"en":"Can you use original Panduit parts?","zh":"可以使用 Panduit 原装部件吗？"},"a":{"en":"Yes, when the exact reference and sourcing requirement are stated and availability is confirmed. Brand names on this page describe compatibility targets and do not imply authorization.","zh":"可以，但需要明确完整料号和采购要求并确认供应情况。本页品牌名称仅用于描述兼容目标，不代表品牌授权。"}},
+      {"q":{"en":"Can a compatible terminal be substituted by appearance?","zh":"兼容端子可以只凭外观替代吗？"},"a":{"en":"No. Wire range, barrel geometry, plating, insulation support, mating dimensions, tooling and acceptance evidence all require review.","zh":"不能。适用线径、压接筒几何、镀层、绝缘支撑、配合尺寸、工具以及验收依据都需要审核。"}},
+      {"q":{"en":"Why specify cable-tie tension?","zh":"为什么要规定扎带张力？"},"a":{"en":"Excess tension can damage insulation or data-cable geometry; insufficient tension permits movement and abrasion. Material, bundle and tool setting should be controlled together.","zh":"张力过大会损伤绝缘或数据线几何，张力不足会引起位移和磨损，因此应把材料、束径和工具档位一起控制。"}},
+      {"q":{"en":"What information is most useful for quotation?","zh":"报价时最有用的资料是什么？"},"a":{"en":"Send the drawing or sample, component references, wire and circuit schedule, branch dimensions, environment, quantity and required inspection documents.","zh":"请提供图纸或样品、部件料号、导线与回路表、分支尺寸、工作环境、数量和所需检验文件。"}},
+      {"q":{"en":"Can you support repeat production after sampling?","zh":"打样后可以支持重复生产吗？"},"a":{"en":"Yes. The approved sample should be converted into a controlled drawing, bill of materials, harness-board baseline, work instructions and inspection points before repeat release.","zh":"可以。重复投产前应把认可样品转化为受控图纸、BOM、线束板基准、作业文件和检验点。"}}
+    ]
+  }
+}

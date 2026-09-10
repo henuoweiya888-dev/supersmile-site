@@ -134,4 +134,5 @@
   }
 
   render();
+  window.setTimeout(render, 1600);
 })();

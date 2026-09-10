@@ -1,4 +1,12 @@
 {
+  "connector-systems-13": {
+    "title": {"en":"Panduit-Compatible Harness Components","zh":"Panduit 兼容线束组件"},
+    "intro": {"en":"Custom wire harnesses using specified Panduit terminals, cable ties, identification and routing components, reviewed by exact part number, material and installation method.","zh":"采用指定 Panduit 端子、扎带、标识及布线部件制作定制线束，并按准确料号、材料与安装方法审核。"},
+    "knowledge": {"en":"A component family name does not define a complete harness; control the circuit, conductor, route, installation and acceptance method together.","zh":"部件系列名称不能定义完整线束，仍需共同控制回路、导体、路径、安装与验收方法。"},
+    "notes": {"en":"Provide original part numbers, wire range, bundle diameter, environment, drawings and the approved substitution boundary.","zh":"提供原始料号、适用线径、束径、环境、图纸及认可替代边界。"},
+    "delivery": {"en":"Approve the component schedule, harness-board baseline, workmanship sample and inspection record before repeat production.","zh":"重复生产前确认部件清单、线束板基准、工艺样品及检验记录。"},
+    "page": {"layout":"panduit-editorial","displayTitle":{"en":"Panduit-Compatible Harness Components","zh":"Panduit 兼容线束组件"},"headings":{"introduction":{"en":"Panduit-Compatible Harness Components","zh":"Panduit 兼容线束组件"},"faq":{"en":"Engineering Questions","zh":"工程问题"}},"subtitle":{"en":"Termination, bundling, identification and routing","zh":"端接、捆扎、标识与布线"},"lead":{"en":"Control the complete component and harness system.","zh":"控制完整部件与线束系统。"},"images":{"range":"/assets/images/product-categories/stock/panduit/opening.jpg"},"faq":[]}
+  },
   "connector-systems-12": {
     "title": {"en":"Phoenix Compatible Cable Assemblies","zh":"Phoenix 兼容电缆组件"},
     "intro": {"en":"Custom Phoenix-interface terminal, sensor and equipment harnesses, with defined pinouts, conductor preparation and installation requirements.","zh":"定制 Phoenix 接口端子、传感器及设备线束，明确针脚、导体处理及安装要求。"},
