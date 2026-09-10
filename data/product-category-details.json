@@ -1,4 +1,1185 @@
 {
+  "connector-systems-09": {
+    "title": {
+      "en": "FCI Compatible Cable Assemblies",
+      "zh": "FCI 兼容电缆组件"
+    },
+    "intro": {
+      "en": "Custom FCI-interface harnesses for board wiring, power and equipment modules, with specified mating parts, pinouts and inspection.",
+      "zh": "定制 FCI 接口线束，覆盖板端布线、供电及设备模块，明确对插件、针脚与检验。"
+    },
+    "knowledge": {
+      "en": "Identify the exact family and termination before selecting cable and protection.",
+      "zh": "先识别具体系列及端接方式，再选择线材与防护。"
+    },
+    "notes": {
+      "en": "Provide mating references, circuit drawing, dimensions and operating conditions.",
+      "zh": "提供对插料号、回路图、尺寸及工作条件。"
+    },
+    "delivery": {
+      "en": "Approve materials, samples and the released inspection plan before repeat production.",
+      "zh": "重复生产前认可材料、样品及放行检验方案。"
+    },
+    "page": {
+      "layout": "technical-editorial",
+      "theme": "fci-assembly-notes",
+      "displayTitle": {
+        "en": "FCI Compatible Cable Assemblies",
+        "zh": "FCI 兼容电缆组件"
+      },
+      "headings": {
+        "introduction": {
+          "en": "FCI Cable Assemblies: Selection to Production",
+          "zh": "FCI 电缆组件：从选型到生产"
+        },
+        "faq": {
+          "en": "Engineering and Purchasing Questions",
+          "zh": "工程与采购问题"
+        }
+      },
+      "subtitle": {
+        "en": "Interface choices, materials and practical failure prevention",
+        "zh": "接口选择、材料与实际失效预防"
+      },
+      "lead": {
+        "en": "An FCI harness is not one standard cable. It may use discrete crimped wires, an IDC ribbon, a permanent board termination or a power connector, depending on the equipment. This guide follows the decisions that turn those parts into a defined assembly: selecting the interface, understanding materials, managing installation risks and controlling the production version. Series names are engineering references; component ratings and brand names do not automatically qualify the finished harness.",
+        "zh": "FCI 线束不是一种标准线缆。它可根据设备采用离散压接电线、IDC 排线、永久焊板端接或供电接头。以下围绕将零件转化为明确组件的决策展开：选择接口、理解材料、管理安装风险及控制生产版本。系列名称用于工程参考，元件额定值和品牌名称不会自动赋予成品线束相应资格。"
+      },
+      "images": {
+        "hero": "/assets/images/product-categories/stock/fci/hero.jpg",
+        "range": "/assets/images/product-categories/stock/fci/opening.jpg"
+      },
+      "openingCaption": {
+        "en": "An Amphenol-marked board connector illustrates the need for an exact interface reference.",
+        "zh": "带 Amphenol 标识的板端接头实拍，说明准确接口识别的重要性。"
+      },
+      "chapters": [
+        {
+          "id": "features",
+          "title": {
+            "en": "FCI Connector Harness Features",
+            "zh": "FCI 连接器线束特点"
+          },
+          "copy": {
+            "en": "FCI Basics is part of the Amphenol connector portfolio. A custom harness built around these interfaces may join a control board, display, power module or removable subassembly. The useful features are specific: circuit density, mating orientation, contact retention and a termination method suited to the cable. No single FCI label guarantees sealing or high-speed performance. Super Smile defines the assembly from an approved connector set, netlist, dimensions and inspection requirements.",
+            "zh": "FCI Basics 属于安费诺连接器产品体系。围绕这些接口制作的定制线束，可连接控制板、显示屏、电源模块或可拆卸子总成。实际价值来自明确的回路密度、对插方向、端子保持及适合线缆的端接方式。FCI 标签本身不保证密封或高速性能，超斯迈尔依据认可接头组合、网络表、尺寸和检验要求定义组件。"
+          },
+          "style": "wide",
+          "image": "/assets/images/product-categories/stock/fci/features.jpg",
+          "caption": {
+            "en": "Equipment assembly with internal wiring and a connector board.",
+            "zh": "设备组装中的内部布线与接头板。"
+          }
+        },
+        {
+          "id": "minitek",
+          "title": {
+            "en": "Minitek: Match the Pitch and Termination",
+            "zh": "Minitek：匹配间距与端接形式"
+          },
+          "copy": {
+            "en": "Minitek 2.00mm includes modular wire-to-board, flat-cable and board connections. The separate 1.00mm wire-to-board system serves finer wiring and has its own contacts and headers. Keep the complete series and part number on the drawing: a shared product name does not make different pitches interchangeable. Check row count, entry direction, wire range and latch access before selecting the housing. Cable routing should be reviewed with the actual mating board in place.",
+            "zh": "Minitek 2.00mm 包括模块化板对线、扁平线缆及板间连接，独立的 1.00mm 板对线系统面向更细布线，并有自己的端子与针座。图纸中应保留完整系列及料号，同一产品名称不代表不同间距可互换。选壳体前核对排数、进入方向、适用线材及锁扣空间，并结合实际对插板卡审核布线路径。"
+          },
+          "style": "inset-left",
+          "image": "/assets/images/product-categories/stock/fci/minitek.jpg",
+          "caption": {
+            "en": "A small pin header illustrates pitch and orientation; it is not identified as Minitek.",
+            "zh": "小型排针说明间距与方向，不被识别为 Minitek 产品。"
+          }
+        },
+        {
+          "id": "dubox",
+          "title": {
+            "en": "Dubox 2.54mm Crimp-to-Wire",
+            "zh": "Dubox 2.54mm 压接电线连接"
+          },
+          "copy": {
+            "en": "Dubox includes crimp-to-wire as well as board-mounted variants. Its dual-beam contact arrangement and available orientations support different equipment layouts, but the cable housing must match the specified header and contact. Do not order a generic 2.54mm plug by appearance. Retain the plating suffix and dimensional drawing, and distinguish catalogue current per contact from a fully loaded multi-circuit assembly under its actual temperature conditions.",
+            "zh": "Dubox 同时包含压接电线及板装形式。双梁接触结构与不同方向配置适应多种设备布置，但线端壳体仍须匹配指定针座和端子。不要仅凭外观采购通用 2.54mm 插头，应保留镀层后缀和尺寸图，并区分目录中的单端子电流与实际温度下多回路同时加载的成品条件。"
+          },
+          "style": "compact",
+          "image": "/assets/images/product-categories/stock/fci/dubox.jpg",
+          "caption": {
+            "en": "Exposed female-header contacts illustrate the structure hidden by a housing, not a Dubox part identification.",
+            "zh": "去除壳体后的母座接点展示内部结构，并非 Dubox 型号识别。"
+          }
+        },
+        {
+          "id": "quickie",
+          "title": {
+            "en": "Quickie IDC and Flat Ribbon Cables",
+            "zh": "Quickie IDC 与扁平排线"
+          },
+          "copy": {
+            "en": "Quickie uses 2.54mm-pitch IDC technology for cable-to-board connections. IDC termination displaces the insulation to contact the conductor, so cable geometry and the intended termination tooling are central to the process. Define conductor spacing, wire construction, pin-one orientation and any foldback under the strain-relief cover. A connector pitch is not necessarily the spacing between adjacent ribbon conductors. Verify the complete connector and cable drawing rather than assuming they are the same.",
+            "zh": "Quickie 采用 2.54mm 间距 IDC 板对线连接。IDC 通过排开绝缘接触导体，因此线缆几何与规定端接工具是工艺关键。应明确导体间距、线芯结构、一号脚方向及应力释放盖下的折回方式。接头针脚间距不一定等于相邻排线导体间距，须核对完整接头与线缆图纸，不能直接画等号。"
+          },
+          "style": "feature-right",
+          "image": "/assets/images/product-categories/stock/fci/quickie.jpg",
+          "caption": {
+            "en": "IDC termination on a ribbon cable illustrates conductor alignment.",
+            "zh": "排线上的 IDC 端接，展示导体对齐。"
+          }
+        },
+        {
+          "id": "boardin",
+          "title": {
+            "en": "Board-In and Blind-Mate Are Different",
+            "zh": "Board-In 与盲插不是一回事"
+          },
+          "copy": {
+            "en": "Minitek Board-In is a one-piece direct solder-to-board solution for permanent wiring. A blind-mate interface instead helps removable parts connect where the mating point cannot be seen easily. For a blind-mate project, budget the enclosure, board and connector positional tolerances together; floating travel does not absorb unlimited misalignment. For Board-In, review solder processing and mechanical support so that cable movement does not load the soldered termination.",
+            "zh": "Minitek Board-In 是用于永久布线的一体式直接焊板方案；盲插接口则帮助可拆卸部件在不易看清配合点的位置连接。盲插项目须统筹外壳、板卡和接头位置公差，浮动行程并不能吸收无限错位。Board-In 则应审核焊接工艺与机械支撑，避免线缆运动直接加载焊接端。"
+          },
+          "style": "inset-right",
+          "image": "/assets/images/product-categories/stock/fci/boardin.jpg",
+          "caption": {
+            "en": "A calculator circuit-board connection illustrates a permanent internal assembly context.",
+            "zh": "计算器板卡连接实拍，作为永久内部组装场景参考。"
+          }
+        },
+        {
+          "id": "power",
+          "title": {
+            "en": "Minitek Pwr: Power Requires Derating",
+            "zh": "Minitek Pwr：供电连接需要降额审核"
+          },
+          "copy": {
+            "en": "Minitek Pwr covers unsealed wire-to-wire and wire-to-board connections in several pitch families. Positive locks and isolated contacts address handling and mating, not waterproofing. Select conductor size with the contact range, circuit loading, ambient temperature and permitted temperature rise in mind. A thicker wire is not useful if it cannot be terminated correctly. Include the complete supply-and-return path when reviewing voltage drop and protective-device coordination.",
+            "zh": "Minitek Pwr 包括多个间距系列的非密封线对线和板对线连接。正向锁紧及独立隔离端子解决的是操作与配合问题，不等于防水。选择导体截面时应结合端子适配范围、回路加载、环境温度及允许温升；无法正确端接的粗线并无意义。审核压降与保护器件配合时，还应包含完整供电及回流路径。"
+          },
+          "style": "wide",
+          "image": "/assets/images/product-categories/stock/fci/power.jpg",
+          "caption": {
+            "en": "A battery-assembly demonstration illustrates an application where power and control circuits must be distinguished.",
+            "zh": "电池组装演示，说明供电与控制回路需要区分的应用场景。"
+          }
+        },
+        {
+          "id": "contact",
+          "title": {
+            "en": "Terminal Contact Material",
+            "zh": "端子接触材料"
+          },
+          "copy": {
+            "en": "The spring section, mating surface and crimp barrel perform different jobs. Copper-alloy contacts, including phosphor-bronze examples in FCI documentation, are chosen with geometry and finish as a system. Do not replace a terminal using only its outline or color. Confirm the approved wire construction and insulation support, then define inspection points for strand capture, barrel formation and contact damage. Material identity alone does not establish a good crimp.",
+            "zh": "弹性段、配合面与压接筒承担不同作用。FCI 资料中的铜合金及磷青铜等端子，需要与几何和镀层作为系统选择。不能仅按轮廓或颜色替换端子，应确认认可线芯结构与绝缘支撑，再定义导体包覆、压接成形及接触件损伤的检查点。材料身份本身不能证明压接良好。"
+          },
+          "style": "inset-left",
+          "image": "/assets/images/product-categories/stock/fci/contact.jpg",
+          "caption": {
+            "en": "Wire-end ferrules illustrate metal termination and conductor preparation, not FCI contact compatibility.",
+            "zh": "线端管形端头说明金属端接及导体准备，不表示与 FCI 端子兼容。"
+          }
+        },
+        {
+          "id": "resin",
+          "title": {
+            "en": "Insulator Base and Housing Polymers",
+            "zh": "绝缘基座与壳体树脂"
+          },
+          "copy": {
+            "en": "Connector housings may use different engineering resins depending on the part. Minitek 1.00mm documentation, for example, identifies PA9T, while Dubox variants include glass-filled thermoplastic polyester. LCP, PBT and PA66-GF should not be described as one universal blend. Review temperature exposure, soldering process, chemical contact and latch behavior against the selected grade. A component material flammability classification does not certify the complete harness or equipment.",
+            "zh": "连接器壳体按零件采用不同工程树脂，例如 Minitek 1.00mm 资料列有 PA9T，Dubox 某些形式则采用玻纤增强热塑性聚酯。不能把 LCP、PBT 和 PA66-GF 描述成所有接头通用的混合配方。应针对所选牌号审核温度、焊接工艺、化学接触及锁扣表现；元件材料阻燃等级不代表整条线束或设备获得认证。"
+          },
+          "style": "compact",
+          "image": "/assets/images/product-categories/stock/fci/resin.jpg",
+          "caption": {
+            "en": "An injection-moulding machine illustrates control of plastic-part processing.",
+            "zh": "注塑机实拍，说明塑料件加工控制。"
+          }
+        },
+        {
+          "id": "tolerance",
+          "title": {
+            "en": "Tolerance Control and Circuit Density",
+            "zh": "公差控制与回路密度"
+          },
+          "copy": {
+            "en": "Closer contacts make assembly accuracy more important, but a smaller pitch does not automatically improve every electrical characteristic. Check housing dimensions, board position and enclosure constraints using the referenced drawings. Inspect insertion orientation and damaged pins before attempting to mate. A tolerance stack can prevent a correct connector pair from seating once installed; solve the mounting geometry rather than using cable force to pull the two halves together.",
+            "zh": "接点越紧凑，组装准确性越重要，但缩小间距并不会自动改善所有电气表现。应依据图纸核对壳体尺寸、板卡位置和外壳限制，对插前检查方向及针脚损伤。安装公差累积可能让正确的接头组合无法完全就位，应解决安装几何问题，而不是靠拉扯线缆把两端强行合拢。"
+          },
+          "style": "compact",
+          "image": "/assets/images/product-categories/stock/fci/tolerance.jpg",
+          "caption": {
+            "en": "A vernier caliper illustrates dimensional verification against a drawing.",
+            "zh": "游标卡尺用于说明依据图纸进行尺寸核对。"
+          }
+        },
+        {
+          "id": "seals",
+          "title": {
+            "en": "NBR, FKM and Sealed Variants",
+            "zh": "NBR、FKM 与密封型号"
+          },
+          "copy": {
+            "en": "NBR and FKM are elastomer families with different fluid and temperature behavior; neither is a universal answer to every chemical exposure. More importantly, many FCI Basics interfaces are unsealed. A waterproof MicroSpaceXS version must be distinguished from an unsealed version and assembled with its specified sealing parts. Confirm the compound, wire outside diameter, unused cavities and mating state before agreeing an ingress-protection requirement.",
+            "zh": "NBR 与 FKM 是具有不同介质及温度表现的弹性体家族，都不是所有化学暴露的通用答案。更重要的是，很多 FCI Basics 接口本身并不密封。MicroSpaceXS 防水型号须与非密封型号区分，并使用规定密封配件。约定防护要求前，应确认胶料、线外径、空孔及配合状态。"
+          },
+          "style": "feature-left",
+          "image": "/assets/images/product-categories/stock/fci/seals.jpg",
+          "caption": {
+            "en": "Sealing rings on a cylindrical component illustrate seal geometry; no FCI material grade is inferred.",
+            "zh": "圆柱部件上的密封圈说明密封几何，不推断为 FCI 指定胶料。"
+          }
+        },
+        {
+          "id": "integrity",
+          "title": {
+            "en": "High-Speed Signal Integrity",
+            "zh": "高速信号完整性"
+          },
+          "copy": {
+            "en": "The complete channel includes cable geometry, connector transitions, return paths and board routing. Fine pitch alone does not guarantee bandwidth, and not every FCI signal connector contains an effective cable shield. Start with the interface requirements and permitted length. Review pair assignment, untwisted sections and screen termination, then agree the appropriate measurements. Continuity is necessary for correct wiring but cannot replace an insertion-loss, crosstalk or eye-diagram evaluation where required.",
+            "zh": "完整通道包括线缆几何、连接器过渡、回流路径和板端布线。细间距本身不保证带宽，并非每种 FCI 信号接头都具有有效线缆屏蔽。应从接口要求及允许长度出发，审核线对分配、解绞段及屏蔽端接，再约定合适测量。导通是正确接线的基础，但不能替代项目要求的插损、串扰或眼图评价。"
+          },
+          "style": "inset-right",
+          "image": "/assets/images/product-categories/stock/fci/integrity.jpg",
+          "caption": {
+            "en": "A bench oscilloscope and instruments illustrate electrical evaluation, not a measured result for this harness.",
+            "zh": "台式示波器与仪器说明电气评价，并非本线束测量结果。"
+          }
+        },
+        {
+          "id": "locking",
+          "title": {
+            "en": "Polarization and Locking",
+            "zh": "防错方向与锁紧"
+          },
+          "copy": {
+            "en": "A keyed housing helps guide orientation, while a latch retains the mated connector and a contact-retention feature holds the terminal in its cavity. These are different functions. Verify full engagement and access for release; never force a mismatched connector into place. Where multiple identical plugs sit together, keys alone may not prevent a wrong circuit connection. Use deliberate coding, cable identification and a clear installation drawing.",
+            "zh": "防错壳体帮助确定方向，锁扣保持接头配合，端子保持结构则将端子固定在孔腔内，这些功能不同。应确认完全接合及解锁空间，不能强压不匹配的接头。多个相同插头相邻时，防错键也未必能阻止接错回路，因此还需要合理编码、线缆标识和清晰安装图。"
+          },
+          "style": "wide",
+          "image": "/assets/images/product-categories/stock/fci/locking.jpg",
+          "caption": {
+            "en": "An unmated shrouded connector pair illustrates orientation and mating access.",
+            "zh": "未配合的带护壁接头组合，说明方向与对插操作空间。"
+          }
+        },
+        {
+          "id": "jacket",
+          "title": {
+            "en": "PVC and Fluoropolymer Wire Insulation",
+            "zh": "PVC 与氟聚合物电线绝缘"
+          },
+          "copy": {
+            "en": "PVC and fluoropolymer-insulated wires address different combinations of cost, dimensions and exposure. PTFE, FEP and other fluoropolymers are not interchangeable specifications. Select an exact wire construction and confirm whether the terminal accepts its conductor and insulation dimensions. Thin insulation can change handling and stripping requirements. Temperature or chemical resistance claimed for the wire does not automatically apply to the connector, label, sleeve or complete assembly.",
+            "zh": "PVC 与氟聚合物绝缘电线适应不同成本、尺寸和环境组合。PTFE、FEP 等并非可互换的统一规格。应选择具体电线结构，并核对端子是否适配其导体和绝缘尺寸。薄绝缘可能改变搬运及剥线要求；电线的温度或耐化学性能也不能自动延伸到接头、标签、套管及完整组件。"
+          },
+          "style": "compact",
+          "image": "/assets/images/product-categories/stock/fci/jacket.jpg",
+          "caption": {
+            "en": "A thermal wire stripper illustrates why insulation construction affects preparation methods.",
+            "zh": "热剥线设备说明绝缘结构会影响线端准备方法。"
+          }
+        },
+        {
+          "id": "circular",
+          "title": {
+            "en": "Plastic Circular Housings: Check the Series",
+            "zh": "塑料圆形壳体：先核对系列"
+          },
+          "copy": {
+            "en": "Round geometry is a packaging choice, not proof of sealing, torsional strength or interchangeability. If a project specifies a circular connector alongside an FCI board interface, identify both ends separately and record the coupling system, pin layout and panel mounting. Check the cable gland or rear support against the jacket diameter. A transition harness can combine different connector types, but each interface retains its own limits.",
+            "zh": "圆形是封装选择，不能单独证明密封、抗扭或互换性。如果项目在 FCI 板端接口之外还指定圆形接头，应分别识别两端，并记录耦合结构、针脚布局和面板安装。尾部格兰头或支撑需要匹配护套直径。转接线束可以组合不同类型接头，但每个接口仍保留自身边界。"
+          },
+          "style": "compact",
+          "image": "/assets/images/product-categories/stock/fci/circular.jpg",
+          "caption": {
+            "en": "Mini-DIN male and female connectors illustrate round interface geometry, not an FCI series.",
+            "zh": "Mini-DIN 公母接头用于说明圆形接口几何，并非 FCI 系列。"
+          }
+        },
+        {
+          "id": "plating",
+          "title": {
+            "en": "Gold Flash and Contact Finish",
+            "zh": "薄金镀层与接触表面"
+          },
+          "copy": {
+            "en": "Gold flash describes a thin finish, not a universal lifetime or low-resistance guarantee. Thickness, porosity, underplating and the mating contact influence performance. FCI pre-crimped lead options distinguish terminal and finish suffixes; keep those details in the BOM. Do not infer plating from color or mix contact options without review. Cleaning and rework should preserve the intended mating surface rather than polish away its protective layer.",
+            "zh": "薄金镀层描述的是较薄表面处理，并非通用寿命或低电阻保证。厚度、孔隙、底镀层及对插端子都会影响表现。FCI 预压接线选项区分端子和镀层后缀，这些细节须保留在物料表中。不能从颜色推断镀层，也不应未经审核混用端子选项；清洁及返工更不应磨掉配合面保护层。"
+          },
+          "style": "inset-left",
+          "image": "/assets/images/product-categories/stock/fci/plating.jpg",
+          "caption": {
+            "en": "Plated contacts on a SCART connector illustrate mating surfaces; the finish is not a specific FCI specification.",
+            "zh": "SCART 接头镀层触点说明配合表面，不作为 FCI 指定镀层规范。"
+          }
+        },
+        {
+          "id": "fluids",
+          "title": {
+            "en": "Oil and Water Exposure",
+            "zh": "油液与水环境"
+          },
+          "copy": {
+            "en": "Describe the fluid, concentration, temperature and exposure pattern: occasional splash, continuous immersion and pressure washing are not the same requirement. Assess the jacket, seals, labels and branching protection together. Fluid can travel along an unsealed cable end even when the jacket surface resists it. A practical design review therefore considers the complete entry path and installation, followed by an agreed material or assembly test where needed.",
+            "zh": "应说明介质、浓度、温度及暴露形式，偶发飞溅、持续浸泡和高压冲洗并不是同一要求。护套、密封、标签与分支防护需要联合审核。即使护套表面耐受介质，液体仍可能沿未密封线端进入。因此设计审核须考虑完整进入路径与安装条件，并按需要约定材料或组件试验。"
+          },
+          "style": "feature-right",
+          "image": "/assets/images/product-categories/stock/fci/fluids.jpg",
+          "caption": {
+            "en": "Rain striking standing water illustrates environmental exposure, not a product ingress test.",
+            "zh": "雨滴落入积水说明环境暴露，并非产品防水试验。"
+          }
+        },
+        {
+          "id": "auto",
+          "title": {
+            "en": "Automotive Applications",
+            "zh": "汽车应用"
+          },
+          "copy": {
+            "en": "Protected cabin wiring, lighting modules and exposed equipment have different connector needs. Begin with installation location, load profile and the exact mating module. Distinguish low-voltage controls from high-voltage propulsion circuits and check vehicle-specific identification before building a service harness. Automotive marketing does not replace the required drawing, test scope or approval. Samples should be evaluated in the intended mounting position, including the access needed to release the connector.",
+            "zh": "受保护的座舱布线、照明模块与外露设备需要不同接头。应从安装位置、负载特性和具体对插模块出发，并区分低压控制与高压动力回路，制作维修线束前核对车型专用识别信息。车载宣传不能替代规定图纸、试验范围或认可；样品应在预期安装位置评价，包括解锁所需空间。"
+          },
+          "style": "inset-left",
+          "image": "/assets/images/product-categories/stock/fci/auto.jpg",
+          "caption": {
+            "en": "A vehicle ECU board under inspection provides automotive-electronics context.",
+            "zh": "正在检查的车辆 ECU 板卡，作为车载电子场景参考。"
+          }
+        },
+        {
+          "id": "automation",
+          "title": {
+            "en": "Industrial Automation",
+            "zh": "工业自动化"
+          },
+          "copy": {
+            "en": "PLC cabinets, machine controls and sensor modules benefit from planned branch positions and readable circuit identification. Keep motor power, switching loads and sensitive signals organized according to the system design. A fixed board connector does not qualify the cable for drag-chain motion. Define moving and stationary sections, clamp positions and maintenance access before selecting the harness protection. Serviceability is part of the design, not an extra length added at the end.",
+            "zh": "PLC 柜、机器控制及传感模块需要有计划的分支位置和可读回路标识。电机供电、开关负载及敏感信号应按系统设计组织。固定板端接头不能证明电缆适用于拖链运动，应先明确运动段、固定段、夹持位置和维护空间，再选择防护。可维护性属于设计本身，不是最后简单多留一段线。"
+          },
+          "style": "compact",
+          "image": "/assets/images/product-categories/stock/fci/automation.jpg",
+          "caption": {
+            "en": "A compressor PLC cabinet illustrates industrial control wiring and maintenance access.",
+            "zh": "压缩机 PLC 柜实拍，说明工业控制布线与维护空间。"
+          }
+        },
+        {
+          "id": "datacom",
+          "title": {
+            "en": "Telecommunications and Data Equipment",
+            "zh": "通信与数据设备"
+          },
+          "copy": {
+            "en": "Network equipment can contain internal power leads, fan wiring, management signals and high-speed links in the same enclosure. Classify them before choosing connectors. An ordinary discrete-wire harness must not be described as a fiber-optic or high-speed channel merely because the supplier offers those products elsewhere. Review cooling, module removal and cable bend paths together. The requested data interface determines the cable construction and verification, not the general FCI brand name.",
+            "zh": "网络设备的同一外壳内可能同时存在供电线、风扇线、管理信号和高速链路，选接头前应先分类。不能因为品牌另有光纤或高速产品，就把普通离散线束描述成光纤或高速通道。应联合审核散热、模块拆卸和线缆弯曲路径，实际数据接口决定线缆结构与验证方式，而非笼统的 FCI 名称。"
+          },
+          "style": "compact",
+          "image": "/assets/images/product-categories/stock/fci/datacom.jpg",
+          "caption": {
+            "en": "A network-switch circuit board illustrates data-equipment integration.",
+            "zh": "网络交换机板卡实拍，说明数据设备集成场景。"
+          }
+        },
+        {
+          "id": "medical",
+          "title": {
+            "en": "Medical Devices",
+            "zh": "医疗设备"
+          },
+          "copy": {
+            "en": "Internal connections in monitors, analyzers and imaging equipment need documented electrical functions and mechanical routing. The intended use determines separation, cleaning and validation requirements. Do not treat a component rating as approval for patient contact, sterilization or a complete medical device. Supply the applicable equipment requirements during review so that material selection, labeling and inspection records support the actual project rather than a generic medical claim.",
+            "zh": "监护、分析及成像设备内部连接需要有记录的电气功能与机械路径。预期用途决定隔离、清洁和验证要求，不能把元件额定值当成患者接触、灭菌或完整医疗设备的认可。审核阶段应提供适用整机要求，使材料、标签和检验记录支持实际项目，而不是笼统的医疗声明。"
+          },
+          "style": "wide",
+          "image": "/assets/images/product-categories/stock/fci/medical.jpg",
+          "caption": {
+            "en": "A medical monitor provides equipment context; no medical approval or supply relationship is implied.",
+            "zh": "医疗监视器作为设备场景参考，不表示医疗认可或供货关系。"
+          }
+        },
+        {
+          "id": "consumer",
+          "title": {
+            "en": "Consumer Electronics",
+            "zh": "消费电子"
+          },
+          "copy": {
+            "en": "In a compact appliance or embedded controller, a few millimeters of connector height can change the enclosure layout. Confirm cable exit, cover clearance and assembly order before finalizing length. Check that the harness cannot be pinched by a screw boss or pulled across a sharp edge. Where the product is serviced, preserve a clear release path and identification at both ends; assembly speed should not depend on guessing plug orientation.",
+            "zh": "紧凑电器或嵌入式控制器中，几毫米接头高度就可能改变外壳布置。定线长前应确认出线方向、盖板间隙和组装顺序，并检查线束是否会被螺钉柱夹住或跨过锐边。需要维护的产品应保留清晰解锁路径和两端标识，不能让装配效率依赖猜测插头方向。"
+          },
+          "style": "inset-right",
+          "image": "/assets/images/product-categories/stock/fci/consumer.jpg",
+          "caption": {
+            "en": "A compact LCD module illustrates space-constrained embedded electronics.",
+            "zh": "紧凑 LCD 模块说明空间受限的嵌入式电子场景。"
+          }
+        },
+        {
+          "id": "aero",
+          "title": {
+            "en": "Aerospace and Defence Review",
+            "zh": "航空与特殊装备审核"
+          },
+          "copy": {
+            "en": "These projects may require controlled sourcing, process approval and environmental evidence beyond a catalogue connector specification. State the equipment function, traceability and acceptance requirements before selection. We separate an initial feasibility review from an approved production commitment. No general FCI family name proves military qualification or flight suitability, and a reference photograph of aerospace equipment is not evidence of supplying that equipment.",
+            "zh": "这类项目可能在目录接头规格之外，要求受控来源、工艺认可和环境证据。选型前应明确设备作用、追溯及验收要求，并区分初步可行性审核与认可生产承诺。FCI 系列名称不能证明军用资格或适飞性，航空设备参考照片也不代表为该设备供货。"
+          },
+          "style": "compact",
+          "image": "/assets/images/product-categories/stock/fci/aero.jpg",
+          "caption": {
+            "en": "NASA technicians working on a research vehicle illustrate controlled aerospace assembly, not our qualification or supply record.",
+            "zh": "NASA 技术人员维护研究飞行器的实拍，说明航空受控组装，不代表我们的资格或供货记录。"
+          }
+        },
+        {
+          "id": "loose",
+          "title": {
+            "en": "Loose Pins and Incomplete Seating",
+            "zh": "松动端子与未完全就位"
+          },
+          "copy": {
+            "en": "An intermittent connection may come from a terminal that never seated, a damaged retention feature or cable load transferred into the cavity. Check the specified terminal and housing combination before blaming the contact material. Inspect seating and retention using the approved method, and confirm any secondary lock. Repeatedly pushing a damaged contact back into place is not a controlled repair; define replacement and reinspection requirements.",
+            "zh": "间歇连接可能来自端子未插到底、保持结构损伤，或线缆载荷传入孔腔。不能直接归因于端子材料，应先核对规定端子与壳体组合，再按认可方法检查就位和保持状态，并确认附加锁止。反复把受损端子推回去不是受控维修，应明确更换及复检要求。"
+          },
+          "style": "feature-left",
+          "image": "/assets/images/product-categories/stock/fci/loose.jpg",
+          "caption": {
+            "en": "Exposed IDC contacts illustrate why housing and contact features need inspection; this is not a loose-pin failure sample.",
+            "zh": "外露 IDC 接点说明壳体与接触结构需要检查，并非松针失效试样。"
+          }
+        },
+        {
+          "id": "corrosion",
+          "title": {
+            "en": "Corrosion and Contamination",
+            "zh": "腐蚀与污染"
+          },
+          "copy": {
+            "en": "Moisture, salts and process residues can affect exposed mating surfaces. A plated contact does not eliminate the need to control exposure, packaging and handling. Inspect where contaminants can enter and whether the connector is actually sealed in its installed state. Avoid unapproved cleaners or abrasives on the contacts. A failure investigation should record the location and operating history before replacing parts, so that the cause is not lost.",
+            "zh": "湿气、盐分及工艺残留可能影响外露配合面。镀层不能替代环境、包装与搬运控制。应检查污染进入路径，以及接头在实际安装状态下是否真正密封。避免在端子上使用未经认可的清洁剂或磨料。失效调查应在换件前记录位置与使用历史，防止丢失原因线索。"
+          },
+          "style": "compact",
+          "image": "/assets/images/product-categories/stock/fci/corrosion.jpg",
+          "caption": {
+            "en": "Corroded contact pads on a disk-controller board illustrate a real contamination-related surface condition.",
+            "zh": "硬盘控制板接触焊盘腐蚀实拍，展示实际表面劣化状态。"
+          }
+        },
+        {
+          "id": "fatigue",
+          "title": {
+            "en": "Wire Fatigue at the Transition",
+            "zh": "过渡位置的导体疲劳"
+          },
+          "copy": {
+            "en": "Repeated bending often concentrates where a flexible cable meets a rigid connector, sleeve or clamp. Review the transition radius and motion path rather than simply adding more tape. Choose a cable construction intended for the duty cycle and keep the moving zone away from unsupported terminations. Strand count alone does not establish flex life. Any life claim needs a defined test path, load, speed and failure criterion.",
+            "zh": "反复弯曲常集中在柔性电缆与刚性接头、套管或夹具的交界处。应审核过渡半径和运动路径，而不是简单增加胶带。选择适合工作循环的线缆结构，并让运动区域远离无支撑端接。股数本身不能证明弯曲寿命，寿命声明需要明确试验路径、载荷、速度和失效判据。"
+          },
+          "style": "compact",
+          "image": "/assets/images/product-categories/stock/fci/fatigue.jpg",
+          "caption": {
+            "en": "Damaged cable exits illustrate a location that warrants strain and handling review.",
+            "zh": "受损线缆尾部说明需要审核应力及搬运的部位。"
+          }
+        },
+        {
+          "id": "shield",
+          "title": {
+            "en": "Poor Shielding and Uncontrolled Bonds",
+            "zh": "屏蔽不足与搭接失控"
+          },
+          "copy": {
+            "en": "Noise problems can remain even with a screened cable if the screen ends in a long, poorly controlled connection. Identify the interference source and intended return path before changing the shield. Keep termination geometry and chassis bonding consistent with the equipment design. Adding a second braid or a ferrite at random can complicate assembly without solving the cause. Compare the revised installation against an agreed measurement, not only subjective improvement.",
+            "zh": "即使采用屏蔽线，屏蔽层末端过长或连接不受控，噪声问题仍可能存在。修改屏蔽前，应识别干扰源及预期回流路径，并让端接几何和机壳搭接符合系统设计。随机增加一层编织网或磁环，可能只增加装配复杂度而未解决原因。改后应按约定测量比较，而非仅凭主观感觉。"
+          },
+          "style": "inset-left",
+          "image": "/assets/images/product-categories/stock/fci/shield.jpg",
+          "caption": {
+            "en": "A cut coaxial cable reveals the shield and insulation layers.",
+            "zh": "切开的同轴线缆展示屏蔽及绝缘层。"
+          }
+        },
+        {
+          "id": "cracks",
+          "title": {
+            "en": "Housing Cracks and Mechanical Loads",
+            "zh": "壳体开裂与机械载荷"
+          },
+          "copy": {
+            "en": "A cracked housing can indicate impact, incorrect insertion, chemical exposure or an installation load the part was not designed to carry. Check the mounting stack, latch clearance and cable restraint before proposing a different resin. The correct response may be a routing change or support feature rather than a harder material. Damaged housings should be assessed under a defined rework rule, not hidden beneath a sleeve or overmould.",
+            "zh": "壳体开裂可能与撞击、错误插入、化学暴露或超出设计范围的安装载荷有关。建议换树脂前，应核对安装公差链、锁扣间隙及线缆约束。合适方案可能是改变路径或增加支撑，而不是换成更硬材料。受损壳体应按明确返工规则处理，不能用套管或包胶遮盖。"
+          },
+          "style": "compact",
+          "image": "/assets/images/product-categories/stock/fci/cracks.jpg",
+          "caption": {
+            "en": "A damaged plastic washer at an equipment socket illustrates local mechanical damage, not an FCI housing failure.",
+            "zh": "设备插座处受损塑料垫圈说明局部机械损伤，并非 FCI 壳体失效。"
+          }
+        },
+        {
+          "id": "insertion",
+          "title": {
+            "en": "Wrong Insertion and Look-Alike Plugs",
+            "zh": "错误插入与相似插头"
+          },
+          "copy": {
+            "en": "Several identical connectors can fit physically while carrying different circuits. Prevent errors through cavity mapping, labels and deliberate routing, with keyed variants where the system permits. Confirm pin numbering from the specified mating or wire-entry view because those views can appear mirrored. An assembly drawing should show the reference view explicitly. Final testing then checks the approved netlist rather than a cable that merely resembles the sample.",
+            "zh": "多个相同接头可能都能插入，却承担不同回路。应通过孔位映射、标签及有意布置预防错误，系统允许时采用不同防错键。针脚编号须依据规定配合面或进线面视图确认，两种视图可能呈镜像。装配图应明确参考视图，最终测试对照认可网络表，而非仅检查外观是否像样品。"
+          },
+          "style": "compact",
+          "image": "/assets/images/product-categories/stock/fci/insertion.jpg",
+          "caption": {
+            "en": "An exposed board socket illustrates the need to identify the mating direction before insertion.",
+            "zh": "露出的板端插座，说明插入前需要识别配合方向。"
+          }
+        },
+        {
+          "id": "durability",
+          "title": {
+            "en": "Durability Under Real Conditions",
+            "zh": "实际工况下的耐久性"
+          },
+          "copy": {
+            "en": "Vibration, thermal cycling, ingress and mating wear are separate exposures with different test methods. Define which are relevant to the finished assembly, how it is mounted and which circuits are monitored. A latch or strain-relief feature does not alone prove survival under every condition. Record specimen configuration and acceptance criteria so results can be compared between revisions. Catalogue component data should remain distinguishable from project-specific harness evidence.",
+            "zh": "振动、温度循环、进水及插拔磨损属于不同暴露条件，各有试验方法。应明确哪些适用于成品、如何固定及监测哪些回路。锁扣或应力释放结构不能单独证明承受所有条件。记录试样配置和验收标准，便于比较不同版本；目录元件数据与项目线束证据应始终区分。"
+          },
+          "style": "feature-right",
+          "image": "/assets/images/product-categories/stock/fci/durability.jpg",
+          "caption": {
+            "en": "A weathered tractor outlet illustrates the installation environment around a protected connection.",
+            "zh": "经历风化的拖拉机插座，说明受保护连接周围的安装环境。"
+          }
+        },
+        {
+          "id": "length",
+          "title": {
+            "en": "Custom Length and Wire Gauge",
+            "zh": "定制线长与线规"
+          },
+          "copy": {
+            "en": "Define length datums at the housing face, cable exit or another agreed drawing feature. Include tolerances and branch positions, not only an overall length. Wire size depends on current, voltage drop, temperature and the terminal application range. A larger conductor can increase stiffness and reduce routing clearance, so electrical and mechanical choices must be reviewed together. The sample should demonstrate fit in the intended equipment before production dimensions are frozen.",
+            "zh": "长度基准应规定在壳体前端、出线口或其他约定图纸特征，并包含公差与分支位置，而不只有总长度。线规取决于电流、压降、温度及端子适配范围。较粗导体可能增加刚度并压缩布线间隙，因此电气与机械选择须联合审核。冻结生产尺寸前，样品应证明能够装入预期设备。"
+          },
+          "style": "wide",
+          "image": "/assets/images/product-categories/stock/fci/length.jpg",
+          "caption": {
+            "en": "A technician measuring a cable-end component illustrates explicit dimensional datums.",
+            "zh": "技术人员测量线端部件的实拍，说明明确尺寸基准的重要性。"
+          }
+        },
+        {
+          "id": "selection",
+          "title": {
+            "en": "Custom Connector Selection",
+            "zh": "定制接头组合"
+          },
+          "copy": {
+            "en": "Provide full part numbers for both cable ends and the equipment-side mates. Decide whether original Amphenol/FCI parts are required or whether a separately evaluated alternative may be proposed. Preserve plating, keying, wire range and retention options in the BOM. A new supplier or revised part suffix should trigger review rather than automatic substitution. Sample approval should cover the actual mating set, not an isolated loose connector.",
+            "zh": "提供线缆两端及设备侧对插件的完整料号，明确是否必须使用安费诺／FCI 原装件，或允许提出另行评价的替代方案。物料表须保留镀层、防错键、适配线材和保持选项。新供应方或料号后缀变化应触发审核，而不是自动换料。样品认可应覆盖实际对插组合，不只是单独散件。"
+          },
+          "style": "inset-right",
+          "image": "/assets/images/product-categories/stock/fci/selection.jpg",
+          "caption": {
+            "en": "An equipment connector board illustrates reviewing the actual mating assembly.",
+            "zh": "设备接头板实拍，说明应审核实际配合总成。"
+          }
+        },
+        {
+          "id": "overmold",
+          "title": {
+            "en": "Overmoulding and Strain Relief",
+            "zh": "包胶与应力释放"
+          },
+          "copy": {
+            "en": "An overmould can organize the cable exit and provide a designed transition, but it must not obstruct the latch or distort the connector. Review resin compatibility, processing exposure, wall thickness and cable support with the selected parts. Do not assume that covering the rear of an unsealed connector makes it waterproof. Tooling and first-article inspection must confirm dimensions, mating access and any project-defined environmental performance.",
+            "zh": "包胶可以整理出线并形成设计过渡，但不能遮挡锁扣或使接头变形。应结合所选物料审核树脂相容性、加工暴露、壁厚及电缆支撑，不能认为覆盖非密封接头尾部就能实现防水。模具和首件检查须确认尺寸、对插操作空间及项目规定的环境性能。"
+          },
+          "style": "compact",
+          "image": "/assets/images/product-categories/stock/fci/overmold.jpg",
+          "caption": {
+            "en": "Injection-machine screws illustrate polymer processing hardware, not a finished overmould specification.",
+            "zh": "注塑机螺杆说明聚合物加工设备，不代表成品包胶规范。"
+          }
+        },
+        {
+          "id": "emi",
+          "title": {
+            "en": "Shielding Options and EMI/RFI Suppression",
+            "zh": "屏蔽选项与 EMI／RFI 抑制"
+          },
+          "copy": {
+            "en": "Choose foil, braid, drain-wire or ferrite arrangements to address an identified coupling path. Ferrite material and impedance vary with frequency, and placement relative to the noise source matters. Document the component, cable turns and position so the tested arrangement can be reproduced. Filtering is not a substitute for correct pinout, grounding and routing. Any EMC improvement claim should be supported by a repeatable equipment-level comparison.",
+            "zh": "铝箔、编织屏蔽、排流线或磁性元件方案应针对已识别的耦合路径。磁性材料及阻抗随频率而变，安装位置与噪声源的关系也很重要。应记录元件、绕线圈数和位置，使经过验证的布置能够复现。滤波不能替代正确针脚、接地和路径，任何 EMC 改善声明都应有可重复的整机比较支持。"
+          },
+          "style": "compact",
+          "image": "/assets/images/product-categories/stock/fci/emi.jpg",
+          "caption": {
+            "en": "Split ferrite cores illustrate selectable suppression components.",
+            "zh": "可开合磁芯实拍，说明可选择的抑制元件。"
+          }
+        },
+        {
+          "id": "release",
+          "title": {
+            "en": "From Sample to Controlled Supply",
+            "zh": "从样品到受控交付"
+          },
+          "copy": {
+            "en": "A useful enquiry includes drawings or a sample, verified pinout, mating references, quantities and acceptance requirements. We review open points before defining materials and a sample build. Production release should align the approved sample, drawing revision, BOM and inspection plan. Record changes and lot identification where required, and protect connector faces during packing. This creates a repeatable supply definition instead of relying on an informal photograph of the first piece.",
+            "zh": "有效询价应包含图纸或样品、确认针脚、对插料号、数量和验收要求。超斯迈尔先审核未明确事项，再定义物料与样品制作。生产放行应统一认可样品、图纸版本、物料表和检验方案；按要求记录变更及批次，并在包装时保护接触面。这样形成可重复交付定义，而非依赖首件随手照片。"
+          },
+          "style": "process",
+          "image": "/assets/images/product-categories/stock/fci/release.jpg",
+          "caption": {
+            "en": "An electronics test bench illustrates checking a defined assembly before release.",
+            "zh": "电子测试台实拍，说明放行前应检查明确配置的组件。"
+          }
+        }
+      ],
+      "composition": [
+        {
+          "kind": "single",
+          "items": [
+            0
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            1
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            2
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            3
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            4
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            5
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            6
+          ]
+        },
+        {
+          "kind": "pair",
+          "items": [
+            7,
+            8
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            9
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            10
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            11
+          ]
+        },
+        {
+          "kind": "pair",
+          "items": [
+            12,
+            13
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            14
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            15
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            16
+          ]
+        },
+        {
+          "kind": "pair",
+          "items": [
+            17,
+            18
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            19
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            20
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            21
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            22
+          ]
+        },
+        {
+          "kind": "pair",
+          "items": [
+            23,
+            24
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            25
+          ]
+        },
+        {
+          "kind": "pair",
+          "items": [
+            26,
+            27
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            28
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            29
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            30
+          ]
+        },
+        {
+          "kind": "pair",
+          "items": [
+            31,
+            32
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            33
+          ]
+        }
+      ],
+      "guide": [
+        {
+          "index": 1,
+          "label": {
+            "en": "Connector types",
+            "zh": "接口类型"
+          }
+        },
+        {
+          "index": 6,
+          "label": {
+            "en": "Materials",
+            "zh": "材料"
+          }
+        },
+        {
+          "index": 16,
+          "label": {
+            "en": "Applications",
+            "zh": "应用"
+          }
+        },
+        {
+          "index": 22,
+          "label": {
+            "en": "Failure prevention",
+            "zh": "失效预防"
+          }
+        },
+        {
+          "index": 29,
+          "label": {
+            "en": "Customization",
+            "zh": "定制"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "en": "Are Amphenol and FCI related?",
+            "zh": "安费诺与 FCI 有什么关系？"
+          },
+          "a": {
+            "en": "Amphenol acquired FCI in 2016. FCI Basics is now within its connector portfolio. The exact series and complete part number still determine the interface.",
+            "zh": "安费诺于 2016 年收购 FCI，FCI Basics 现属于其连接器产品体系。实际接口仍由具体系列及完整料号决定。"
+          }
+        },
+        {
+          "q": {
+            "en": "Does compatible guarantee original FCI parts?",
+            "zh": "兼容是否保证使用 FCI 原装物料？"
+          },
+          "a": {
+            "en": "No. The approved BOM must state original parts or a separately reviewed alternative. Neither appearance nor a broad compatibility label is sufficient.",
+            "zh": "不是。认可物料表须注明原装件或另行审核的替代件，仅凭外观或笼统兼容标签不足以判断。"
+          }
+        },
+        {
+          "q": {
+            "en": "Are all FCI connectors waterproof?",
+            "zh": "所有 FCI 接头都防水吗？"
+          },
+          "a": {
+            "en": "No. Many board and power interfaces are unsealed. Select the explicit sealed version, mating parts and cable-entry components before discussing assembly protection.",
+            "zh": "不是。许多板端和供电接口为非密封形式。讨论组件防护前，应明确密封型号、对插件及进线配件。"
+          }
+        },
+        {
+          "q": {
+            "en": "How should I read a cable pinout?",
+            "zh": "如何读取线缆针脚表？"
+          },
+          "a": {
+            "en": "First identify the connector view and pin-one reference. Then map each cavity to its signal and opposite end. Wire color supports identification but does not replace the netlist.",
+            "zh": "先识别接头视图及一号脚基准，再逐孔对应信号和另一端。线色有助于识别，但不能替代网络表。"
+          }
+        },
+        {
+          "q": {
+            "en": "Can length, gauge and connector combinations be customized?",
+            "zh": "线长、线规和接头组合可以定制吗？"
+          },
+          "a": {
+            "en": "Yes, after checking the mating interface, terminal wire range and installation. Custom wiring does not change the connector’s manufactured mating geometry.",
+            "zh": "可以，需先核对对插接口、端子适配范围及安装条件。定制布线不会改变接头已成型的配合几何。"
+          }
+        },
+        {
+          "q": {
+            "en": "What determines the price?",
+            "zh": "价格由哪些因素决定？"
+          },
+          "a": {
+            "en": "Connector sourcing, wire and finish choices, circuit count, length, protection, tooling, inspection and order quantity all contribute. Quote against a defined revision rather than an incomplete description.",
+            "zh": "接头来源、线材与镀层、回路数、长度、防护、工装、检验及数量都会影响价格。应按明确版本报价，而非依赖不完整描述。"
+          }
+        },
+        {
+          "q": {
+            "en": "Which tests should be specified?",
+            "zh": "应规定哪些测试？"
+          },
+          "a": {
+            "en": "Start with the approved circuit map and dimensional checks, then identify additional electrical or environmental requirements. Methods, limits and sample scope must be agreed for the actual assembly.",
+            "zh": "从认可回路表和尺寸检查出发，再明确附加电气或环境要求。实际组件的试验方法、限值及样本范围均应约定。"
+          }
+        }
+      ],
+      "creditHeading": {
+        "en": "Image sources and usage notes",
+        "zh": "图片来源与使用说明"
+      },
+      "hasAiImages": false,
+      "hasOwnImages": false,
+      "mediaCredits": [
+        {
+          "file": "Electronic component assembly.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Electronic_component_assembly.jpg",
+          "author": "Sbaletsk",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "file": "Western Digital WD800JD - board - Amphenol Pin Header-5902.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Western_Digital_WD800JD_-_board_-_Amphenol_Pin_Header-5902.jpg",
+          "author": "Raimond Spekking",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Connector PCB fitted.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Connector_PCB_fitted.jpg",
+          "author": "tony_duell",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "3 Pin Header.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:3_Pin_Header.jpg",
+          "author": "oomlout",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        },
+        {
+          "file": "Raspberry pi pico devboard with exposed female pin header internals.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Raspberry_pi_pico_devboard_with_exposed_female_pin_header_internals.jpg",
+          "author": "Soft-alloy",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "file": "IDC-10 female connector on flat cable (01).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:IDC-10_female_connector_on_flat_cable_(01).jpg",
+          "author": "Retired electrician",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        },
+        {
+          "file": "HP-35 Keyboard PCB connector details.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:HP-35_Keyboard_PCB_connector_details.jpg",
+          "author": "Mister rf",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Battery assembly robot at Mercedes-Benz fair stand at IAA 2017 (01).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Battery_assembly_robot_at_Mercedes-Benz_fair_stand_at_IAA_2017_(01).jpg",
+          "author": "NearEMPTiness",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Wire ferrules with and without insulation.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Wire_ferrules_with_and_without_insulation.jpg",
+          "author": "Simon A. Eugster",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Machine injection platique Engel (2).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Machine_injection_platique_Engel_(2).jpg",
+          "author": "Bricetofly",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        },
+        {
+          "file": "Mahr MarCal 16 N vernier caliper.png",
+          "url": "https://commons.wikimedia.org/wiki/File:Mahr_MarCal_16_N_vernier_caliper.png",
+          "author": "Lucasbosch",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+         "file": "Dunbar O-rings.jpg",
+         "url": "https://commons.wikimedia.org/wiki/File:Dunbar_O-rings.jpg",
+          "author": "James F. Perry",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        },
+        {
+          "file": "HP 54602B 150MHz Oscilloscope, HP E3630 Triple Output DC Power Supply (0~6V, 2.5A／0~±20V, 0.5A), HP 34401A Multimeter, HP 33120A 15MHz Function／Arbitrary Waveform Generator - School Photos PCC (2014-11-06 10.37.45 by djhughman).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:HP_54602B_150MHz_Oscilloscope,_HP_E3630_Triple_Output_DC_Power_Supply_(0~6V,_2.5A%EF%BC%8F0~%C2%B120V,_0.5A),_HP_34401A_Multimeter,_HP_33120A_15MHz_Function%EF%BC%8FArbitrary_Waveform_Generator_-_School_Photos_PCC_(2014-11-06_10.37.45_by_djhughman).jpg",
+          "author": "djhughman from Portland, OR, USA",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "IDC-16 female and male connectors (02).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:IDC-16_female_and_male_connectors_(02).jpg",
+          "author": "Retired electrician",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        },
+        {
+          "file": "Thermal Wire Stripper (hot wire end).JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Thermal_Wire_Stripper_(hot_wire_end).JPG",
+          "author": "Jstapko",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Standard 7 pin mini-DIN connectors, male and female.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Standard_7_pin_mini-DIN_connectors,_male_and_female.jpg",
+          "author": "E5frog (talk)",
+          "license": "Public domain",
+          "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain"
+        },
+        {
+          "file": "Gold plated scart connector.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Gold_plated_scart_connector.jpg",
+          "author": "Asim18",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Rain on a puddle in Tuntorp 2.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Rain_on_a_puddle_in_Tuntorp_2.jpg",
+          "author": "W.carter",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Izuzu Hombre ECU .. chasing trace on top side of circuit board.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Izuzu_Hombre_ECU_.._chasing_trace_on_top_side_of_circuit_board.JPG",
+          "author": "1sfoerster",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "PLC Cabinet for centrifugal compressor.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:PLC_Cabinet_for_centrifugal_compressor.JPG",
+          "author": "DWI",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Network traffic processing ASIC inside an Ethernet switch.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Network_traffic_processing_ASIC_inside_an_Ethernet_switch.jpg",
+          "author": "Pokiiri",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Medical monitor 01.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Medical_monitor_01.JPG",
+          "author": "AfroBrazilian",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Monochrome liquid crystal display assembly (14478292944).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Monochrome_liquid_crystal_display_assembly_(14478292944).jpg",
+          "author": "Mercado Viagens from Brasil",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "NASA avionics technicians Randy Wagner and Terry Bishop make final adjustments on the scramjet-powered X-43A before its record Mach 9 6 flight (EC04-0323-53).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:NASA_avionics_technicians_Randy_Wagner_and_Terry_Bishop_make_final_adjustments_on_the_scramjet-powered_X-43A_before_its_record_Mach_9_6_flight_(EC04-0323-53).jpg",
+          "author": "NASA Armstrong Flight Research Center / NASA/Tony Landis",
+          "license": "Public domain",
+          "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain"
+        },
+        {
+          "file": "IDC-16 female connector (01).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:IDC-16_female_connector_(01).jpg",
+          "author": "Retired electrician",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        },
+        {
+          "file": "Corroded contact pads on a HDD controller PCB IMG 2283.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Corroded_contact_pads_on_a_HDD_controller_PCB_IMG_2283.JPG",
+          "author": "Hans Haase",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "HK while damaged cable USB Apple Type-A plugs iPhone iPad accessories hardware connector 塑膠硬化 Plastic hardening Power charger data line 金屬疲勞 Metal fatigue May 2017 IX1 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:HK_while_damaged_cable_USB_Apple_Type-A_plugs_iPhone_iPad_accessories_hardware_connector_%E5%A1%91%E8%86%A0%E7%A1%AC%E5%8C%96_Plastic_hardening_Power_charger_data_line_%E9%87%91%E5%B1%AC%E7%96%B2%E5%8B%9E_Metal_fatigue_May_2017_IX1_01.jpg",
+          "author": "Kihopczmaluoch",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Coaxial cable cut.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Coaxial_cable_cut.jpg",
+          "author": "FDominec",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+        },
+        {
+          "file": "Aria TD-1 Platinum Drive - Broken Plastic Washer on OUT Socket.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Aria_TD-1_Platinum_Drive_-_Broken_Plastic_Washer_on_OUT_Socket.jpg",
+          "author": "Oculoreddit",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "PCB mount connector 2.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:PCB_mount_connector_2.JPG",
+          "author": "Jstapko",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "12v output connector on old broken tractor undefined.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:12v_output_connector_on_old_broken_tractor_undefined.jpg",
+          "author": "Shixart1985",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "23 0041283 Convair Negative Image - Convair employee measuring cable end (53718643523).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:23_0041283_Convair_Negative_Image_-_Convair_employee_measuring_cable_end_(53718643523).jpg",
+          "author": "San Diego Air & Space Museum Archives",
+          "license": "Public domain",
+          "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain"
+        },
+        {
+          "file": "Input Connector PCB fitted.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Input_Connector_PCB_fitted.jpg",
+          "author": "tony_duell",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Injection moulding machine screw.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Injection_moulding_machine_screw.jpg",
+          "author": "Nalbarian",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "A collection of Snap-On - Clamp-on ferrite beads.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:A_collection_of_Snap-On_-_Clamp-on_ferrite_beads.jpg",
+          "author": "Unconventional2",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Electronics Test.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Electronics_Test.jpg",
+          "author": "tony_duell",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        }
+      ]
+    }
+  },
   "connector-systems-08": {
     "title": {
       "en": "JAE Compatible Cable Assemblies",

@@ -1,6 +1,6 @@
 # JAE compatible cable assemblies
 
-Status: bilingual page completed locally; publication pending. Local EN/ZH checks passed at 1280, 390 and 320px: 25 chapters, no overflow/broken photos/script errors, fixed header, correct inquiry and return links, working FAQ. Navigation passed desktop/mobile with 49 active / 34 pending and no inactive links. Desktop/mobile visual crops reviewed; mobile contextual paired photos adjusted to fill their image strips.
+Status: published and publicly verified at commit 9e58c65. Local EN/ZH checks passed at 1280, 390 and 320px. After deployment settled, a fresh public run passed EN/ZH at 1280/390px: 25 chapters, no overflow/broken photos/script errors, fixed header, correct inquiry and return links, working FAQ and image edges. Public navigation passed desktop/mobile with 49 active / 34 pending and no inactive links. Public desktop/mobile screenshots reviewed. Earlier deployment-transition failures were superseded by this clean complete run. Continue FCI next.
 
 ## Scope and outline
 

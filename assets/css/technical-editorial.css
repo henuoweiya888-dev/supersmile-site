@@ -276,7 +276,37 @@ body[data-category-layout="technical-editorial"] .pcc-hero-media img{filter:satu
 .te-theme-jae-system #technical-topic-22{grid-template-columns:minmax(0,1fr) 190px;background:#e8e6df}
 .te-theme-jae-system #technical-topic-22 .te-photo img{height:160px}
 .te-theme-jae-system #technical-topic-23 .te-photo img{height:165px;object-fit:contain}
+/* FCI: interface selection, small material studies and a troubleshooting notebook. */
+body[data-category-key="connector-systems-09"] .pcc-hero-media img{object-position:center 70%}
+.te-theme-fci-assembly-notes{--te-tint:#e1e5e3;--te-muted:#49534e}
+.te-theme-fci-assembly-notes .te-index{display:none}
+.te-theme-fci-assembly-notes .te-topic{padding-block:24px}
+.te-theme-fci-assembly-notes .te-opening{grid-template-columns:minmax(0,1fr) 200px;gap:28px;background:#e9e6de}
+.te-theme-fci-assembly-notes .te-opening .te-photo img{height:165px}
+.te-theme-fci-assembly-notes .te-wide{grid-template-columns:minmax(0,1fr) 205px}
+.te-theme-fci-assembly-notes .te-pair{background:#e6e9e3}
+.te-theme-fci-assembly-notes .te-pair:nth-of-type(2n){background:#ebe8e0}
+.te-theme-fci-assembly-notes .te-pair .te-photo,.te-theme-fci-assembly-notes .te-pair .te-topic:nth-child(2) .te-photo{width:140px;margin-top:30px}
+.te-theme-fci-assembly-notes .te-pair .te-photo img{height:145px;object-fit:cover}
+.te-theme-fci-assembly-notes .te-inset-left .te-photo,.te-theme-fci-assembly-notes .te-inset-right .te-photo{width:170px;margin-top:4px}
+.te-theme-fci-assembly-notes .te-inset-left .te-photo img,.te-theme-fci-assembly-notes .te-inset-right .te-photo img{height:160px;object-fit:cover}
+.te-theme-fci-assembly-notes #technical-topic-3{grid-template-columns:minmax(0,1fr) 190px;background:#e1e6e3}
+.te-theme-fci-assembly-notes #technical-topic-3 .te-photo img{height:160px;object-fit:contain}
+.te-theme-fci-assembly-notes #technical-topic-6 .te-photo img,.te-theme-fci-assembly-notes #technical-topic-8 .te-photo img,.te-theme-fci-assembly-notes #technical-topic-13 .te-photo img{object-fit:contain;background:#eeeee6}
+.te-theme-fci-assembly-notes #technical-topic-9{grid-template-columns:180px minmax(0,1fr);background:#ece8e0}
+.te-theme-fci-assembly-notes #technical-topic-9 .te-photo img{height:155px}
+.te-theme-fci-assembly-notes #technical-topic-15{grid-template-columns:minmax(0,1fr) 210px;background:#e1e5e4}
+.te-theme-fci-assembly-notes #technical-topic-15 .te-photo img{height:165px}
+.te-theme-fci-assembly-notes #technical-topic-22{grid-template-columns:180px minmax(0,1fr)}
+.te-theme-fci-assembly-notes #technical-topic-22 .te-photo img{height:170px;object-fit:contain}
+.te-theme-fci-assembly-notes #technical-topic-25 .te-photo img{object-fit:contain;background:#eeede5}
+.te-theme-fci-assembly-notes #technical-topic-28{grid-template-columns:minmax(0,1fr) 195px;background:#ebe7df}
+.te-theme-fci-assembly-notes #technical-topic-28 .te-photo img{height:175px}
+.te-theme-fci-assembly-notes #technical-topic-33{grid-template-columns:210px minmax(0,1fr)}
+.te-theme-fci-assembly-notes #technical-topic-33 .te-photo img{height:165px}
 @media(max-width:767px){
+ .te-theme-fci-assembly-notes .te-opening,.te-theme-fci-assembly-notes .te-topic{display:flex;padding:23px 16px}
+ .te-theme-fci-assembly-notes .te-pair .te-photo,.te-theme-fci-assembly-notes .te-pair .te-topic:nth-child(2) .te-photo,.te-theme-fci-assembly-notes .te-inset-left .te-photo,.te-theme-fci-assembly-notes .te-inset-right .te-photo{float:none;width:calc(100% + 32px);margin:16px -16px 0}
  .te-theme-jae-system .te-opening,.te-theme-jae-system .te-topic{display:flex;padding:23px 16px}
  .te-theme-jae-system .te-pair .te-photo img{object-fit:cover}
  .te-theme-jae-system #technical-topic-10 .te-photo img{object-position:center 38%}
