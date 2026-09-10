@@ -27,6 +27,16 @@ body[data-category-layout="technical-editorial"] .pcc-hero-media img{filter:satu
 .te-pair{display:grid;grid-template-columns:1fr 1fr;position:relative;background:#e9eae3}.te-pair:after{content:'';position:absolute;left:50%;top:30px;width:1px;height:70px;background:#a9b3ab}
 .te-pair .te-topic{display:flow-root;background:none;padding-inline:var(--te-gutter)}.te-pair .te-photo{float:left;width:145px;margin:42px 22px 12px calc(-1*var(--te-gutter))}.te-pair .te-topic:nth-child(2) .te-photo{float:right;margin:42px calc(-1*var(--te-gutter)) 12px 22px}.te-pair .te-photo img{height:160px;object-fit:contain;background:#dde2db}
 .te-page .pcc-rich-faq{display:block;width:auto;margin:0;padding:28px var(--te-gutter);background:var(--te-tint)}.te-page .pcc-rich-heading{display:block;margin:0 0 16px}.te-page .pcc-rich-heading h2{white-space:normal}.te-page .pcc-faq-grid{width:100%;max-width:none}
+/* Navigation combines RF components and installation notes: more inset spreads, less panel repetition. */
+.te-theme-navigation{--te-tint:#dee5e4;--te-accent:#a74b34}
+.te-theme-navigation .te-opening{grid-template-columns:230px minmax(0,1fr);padding-left:0;padding-right:var(--te-gutter)}
+.te-theme-navigation .te-opening>figure{grid-column:1;grid-row:1}.te-theme-navigation .te-opening>div{grid-column:2;grid-row:1}
+.te-theme-navigation .te-opening .te-photo img{object-fit:contain;background:#e4e7e1}
+.te-theme-navigation #technical-topic-0 .te-photo img{object-fit:contain;background:#e4e7e1}
+.te-theme-navigation #technical-topic-6{grid-template-columns:200px minmax(0,1fr);padding-left:0;padding-right:var(--te-gutter)}
+.te-theme-navigation #technical-topic-6 .te-photo{grid-column:1}.te-theme-navigation #technical-topic-6 .te-copy{grid-column:2}
+.te-theme-navigation #technical-topic-6 .te-photo img{object-fit:contain;background:#e4e7e1}
+.te-theme-navigation .te-pair{background:#f1efe9}.te-theme-navigation .te-pair:nth-of-type(3){background:#e6e9e3}
 @media(max-width:767px){
  body[data-category-layout="technical-editorial"] .pcc-hero-grid{min-height:0;padding-block:56px 32px}body[data-category-layout="technical-editorial"] .pcc-hero-copy h1{font-size:30px}
  .te-page{--te-gutter:16px}.te-page h2{font-size:21px}.te-page p{font-size:13px;line-height:1.85}
@@ -35,4 +45,5 @@ body[data-category-layout="technical-editorial"] .pcc-hero-media img{filter:satu
  .pcc-rich-page .te-page .te-opening>figure.te-photo{width:calc(100% + 32px);margin-inline:-16px}
  .te-page .te-photo img{height:155px}.te-opening .te-photo img{height:170px}
  .te-pair{display:block}.te-pair:after{display:none}.te-pair .te-topic:nth-child(2){background:#f1efe9}
+ .te-theme-navigation .te-opening,.te-theme-navigation #technical-topic-6{display:flex;padding:23px 16px}
 }

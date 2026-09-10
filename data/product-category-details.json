@@ -1,4 +1,480 @@
 {
+  "automotive-12": {
+    "intro": {
+      "en": "Custom GNSS antenna leads, tracker power looms and vehicle-specific communication adapters, coordinated around the receiver, vehicle interface and installation.",
+      "zh": "围绕接收设备、车辆接口与安装位置，定制 GNSS 天线连接线、定位器电源线束及车型专用通信转接组件。"
+    },
+    "knowledge": {
+      "en": "A vehicle tracking installation combines separate RF, power and data paths. Their cable, connector and verification requirements are not interchangeable.",
+      "zh": "车辆定位安装同时涉及射频、供电与数据路径，这几种回路的线缆、接头和验证要求不能混用。"
+    },
+    "notes": {
+      "en": "Confirm exact receiver and vehicle references, pin assignments, antenna bias, RF loss, supply duty and permitted data access before selecting an adapter.",
+      "zh": "选配转接组件前，确认接收器与车型资料、针脚、天线偏置供电、射频损耗、供电工况及允许的数据访问方式。"
+    },
+    "delivery": {
+      "en": "Release interface drawings, prototype fit checks, circuit tests and applicable RF checks before repeat production.",
+      "zh": "重复生产前，确认接口图、样件装配、回路测试与适用射频检查。"
+    },
+    "page": {
+      "layout": "technical-editorial",
+      "theme": "navigation",
+      "headings": {
+        "introduction": {
+          "en": "Product Introduction",
+          "zh": "产品介绍"
+        },
+        "faq": {
+          "en": "GPS Harness Questions",
+          "zh": "GPS 线束常见问题"
+        }
+      },
+      "subtitle": {
+        "en": "Three paths: satellite signal, vehicle power and system data",
+        "zh": "三条路径：卫星信号、车辆供电与系统数据"
+      },
+      "lead": {
+        "en": "A GPS harness is not one universal cable. A navigation receiver may need a coaxial antenna extension; a fleet tracker may need a fused supply, ignition input and separate sensor leads; a telematics gateway may require a vehicle-specific data adapter. GNSS includes GPS and other satellite constellations, while cellular communication carries reports to a server. These functions use different interfaces. Super Smile develops the connecting assembly from drawings, samples and equipment documentation. The tracker, antenna electronics, software subscription and vehicle permissions remain distinct parts of the system unless separately included in the project scope.",
+        "zh": "GPS 线束不是一根通用连接线。导航接收器可能需要同轴天线延长线，车队定位器可能需要带保险保护的电源、点火输入与传感器支线，车载通信网关还可能需要车型专用数据转接。GNSS 包含 GPS 及其他卫星星座，蜂窝通信则负责将报告传送到服务器，这些功能使用不同接口。超斯迈尔依据图纸、样品和设备资料开发连接组件；除非项目范围另有约定，定位器、天线电子部分、软件订阅和车辆访问权限仍是系统中的独立部分。"
+      },
+      "images": {
+        "hero": "/assets/images/product-categories/stock/gps-communication/hero.jpg",
+        "range": "/assets/images/product-categories/stock/gps-communication/range.jpg"
+      },
+      "openingCaption": {
+        "en": "Ceramic patch antennas illustrate GNSS receiving elements; the receiver and harness are separate components.",
+        "zh": "陶瓷贴片天线说明 GNSS 接收单元，接收器与线束仍是不同组件。"
+      },
+      "chapters": [
+        {
+          "id": "extension",
+          "style": "feature-left",
+          "title": {
+            "en": "Product Advantages: Vehicle Antenna Extensions",
+            "zh": "产品优势：车载天线延长连接"
+          },
+          "copy": {
+            "en": "An extension allows the antenna and receiver to occupy different locations without forcing the electronics into the antenna's best reception position. Its value depends on the entire RF path. Additional length and adapters introduce loss; a longer lead does not amplify a satellite signal. Define connector series, keying, cable type, route and the required frequency range before quoting. FAKRA, SMA, SMB and compact board-side coax interfaces are examples, not interchangeable choices. A controlled assembly keeps the bend and strain away from the contact, preserves the intended impedance and provides enough access for installation without an unnecessary coil of spare cable.",
+            "zh": "延长组件让天线与接收器可以分别安装，不必把电子设备放到天线最有利的接收位置。其价值取决于完整射频路径：增加长度和转接头会引入损耗，延长线并不会放大卫星信号。报价前需明确接头系列、防错键位、线缆类型、走线路径和工作频段。FAKRA、SMA、SMB 与小型板端同轴接口只是不同选项，不能互换。受控组件将弯折与拉力移离接点，保持所需阻抗，并为装配留下适当操作余量，而不是堆积一大圈多余线缆。"
+          },
+          "image": "/assets/images/product-categories/stock/gps-communication/extension.jpg",
+          "caption": {
+            "en": "An external GNSS antenna uses a dedicated coax lead; cable length is part of its RF budget.",
+            "zh": "外置 GNSS 天线使用专用同轴引线，线长属于射频预算的一部分。"
+          }
+        },
+        {
+          "id": "tracker",
+          "style": "wide",
+          "title": {
+            "en": "Wired GPS Trackers and Compact Units",
+            "zh": "有线 GPS 定位器与紧凑终端"
+          },
+          "copy": {
+            "en": "A wired tracker can combine a GNSS receiver, cellular modem, accelerometer and backup battery, but the harness only connects the functions supported by the selected unit. Some devices use internal antennas and need no external RF lead. Others expose separate GNSS and cellular sockets that must not be swapped. Record the device revision, supply range, connector pinout and any analog or digital inputs. Teltonika FMC920 is one example of a compact tracker architecture, not a universal pin assignment. For an installation kit, identify what is supplied as cable hardware and what remains the integrator's responsibility: configuration, SIM service, mounting, consent and account access.",
+            "zh": "有线定位终端可集成 GNSS 接收器、蜂窝调制解调器、加速度计与备用电池，但线束只能连接所选设备实际支持的功能。有些设备使用内置天线，不需要外部射频线；另一些设备具有独立的 GNSS 与蜂窝接口，不能对调。需记录设备版本、供电范围、连接器针脚及模拟或数字输入。Teltonika FMC920 是紧凑终端架构的一个参考，不代表通用针脚定义。安装套件还应区分线缆硬件与集成方责任，包括设备配置、SIM 服务、安装、使用同意及账号权限。"
+          },
+          "image": "/assets/images/product-categories/stock/gps-communication/tracker.jpg",
+          "caption": {
+            "en": "An opened tracker illustrates the relationship between enclosure, module and connecting wires.",
+            "zh": "打开的定位器说明壳体、模块与连接导线的关系。"
+          }
+        },
+        {
+          "id": "antenna",
+          "style": "inset-right",
+          "title": {
+            "en": "The External GPS / GNSS Antenna",
+            "zh": "外置 GPS / GNSS 天线"
+          },
+          "copy": {
+            "en": "Antenna placement is an RF decision as well as a mounting decision. Nearby metal, coated glazing, the ground plane and the enclosure can alter reception. An active antenna contains amplification and requires a compatible bias supply, often carried on the coax; a passive antenna has different needs. Confirm supported bands, bias voltage and current, connector and cable loss against the receiver documentation. A roof-mounted antenna may improve its view of the sky, but the cable entry still needs sealing and strain control. Cable quality cannot remove satellite blockage in a tunnel or guarantee a position fix between tall buildings.",
+            "zh": "天线位置既是安装问题，也是射频问题。附近金属、镀膜玻璃、接地平面与壳体都可能改变接收表现。有源天线包含放大部分，需要匹配的偏置供电，通常经同轴线传送；无源天线的需求不同。应依据接收器资料确认频段、偏置电压与电流、接头及线缆损耗。车顶安装可能改善天空可见范围，但线缆穿入位置仍需要密封和应力控制。线缆质量不能消除隧道中的卫星遮挡，也不能保证高楼之间始终定位成功。"
+          },
+          "image": "/assets/images/product-categories/stock/gps-communication/antenna.jpg",
+          "caption": {
+            "en": "An active GPS antenna exposes its electronics beneath the cover.",
+            "zh": "拆开外壳的有源 GPS 天线可见内部电子部分。"
+          }
+        },
+        {
+          "id": "adapter",
+          "style": "process",
+          "title": {
+            "en": "Solution: Vehicle-Specific T-Harness / Adapter",
+            "zh": "解决方案：车型专用 T 型线束与转接"
+          },
+          "copy": {
+            "en": "A T-harness introduces an approved branch between a known pair of mating vehicle interfaces. The drawing must preserve every pass-through circuit and identify the new branch, including which pins are intentionally unused. Similar housings can carry different functions across model years and equipment packages. Document the original connector reference, terminal system, cavity numbering and latch orientation; photographs alone may not establish the circuit. Avoid arbitrary connections to safety-critical controllers. Vehicle data access may require an approved gateway, software support or permissions. The harness provides physical interconnection; it does not grant access to protected data or translate protocols by itself.",
+            "zh": "T 型线束在明确的车辆对插接口之间加入经过批准的支路。图纸必须保留所有直通回路，并标明新增支路及有意不接的针位。不同年款与配置可能使用外观类似、功能不同的壳体。需记录原始接头型号、端子系统、腔位编号与卡扣方向，仅凭照片不一定能确认回路。不能任意接入安全关键控制器。车辆数据访问可能还需要批准的网关、软件支持或权限；线束提供物理连接，不会自行授权访问受保护数据，也不会自动转换通信协议。"
+          },
+          "image": "/assets/images/product-categories/stock/gps-communication/adapter.jpg",
+          "caption": {
+            "en": "A third-party tracker and cable set illustrates a device-side branch; it is not a universal vehicle T-harness.",
+            "zh": "第三方定位器与配线套件用于说明设备侧支路，不是通用车辆 T 型线束。"
+          }
+        },
+        {
+          "id": "obd",
+          "style": "inset-left",
+          "title": {
+            "en": "OBD II Extension Cable / Splitter",
+            "zh": "OBD II 延长线与分线组件"
+          },
+          "copy": {
+            "en": "An OBD extension can move a telematics device away from the driver's knee space while preserving service access. A splitter needs more review than simply duplicating the connector. Connected devices can affect bus loading, diagnostic sessions and vehicle sleep behavior. The familiar 16-position diagnostic interface does not mean every cavity has the same use on every vehicle, nor that an adapter contains a fuse or protocol converter. Specify pass-through pins, branch lengths, current demand, the service-tool use case and any CAN topology limits. Validate the complete installation on the intended platform; a mechanical fit is not evidence that two diagnostic devices can communicate simultaneously.",
+            "zh": "OBD 延长组件可将通信终端移离驾驶员膝部空间，同时保留维修接口。分线组件需要比复制一个插座更完整的审核：接入设备可能影响总线负载、诊断会话和车辆休眠。常见的 16 位诊断接口不意味着每个针位在所有车辆上用途相同，也不意味着转接线自带保险或协议转换器。应规定直通针位、支路长度、用电需求、诊断工具使用场景及 CAN 拓扑限制。在目标平台验证完整安装，机械上能插入并不能证明两台诊断设备可以同时通信。"
+          },
+          "image": "/assets/images/product-categories/stock/gps-communication/obd.jpg",
+          "caption": {
+            "en": "A diagnostic plug illustrates cavity layout; a wiring drawing defines the actual pass-through circuits.",
+            "zh": "诊断插头说明腔位排列，实际直通回路由接线图定义。"
+          }
+        },
+        {
+          "id": "power",
+          "style": "feature-right",
+          "title": {
+            "en": "Tracker Power Harness with Fuse",
+            "zh": "带保险保护的定位器电源线束"
+          },
+          "copy": {
+            "en": "Power, ground and ignition sensing are separate circuit functions. A permanent supply can keep a tracker alive when the vehicle is parked, but standby consumption and the vehicle's sleep strategy must be considered. An ACC feed is not automatically the required ignition signal. Select conductor size, fuse characteristics and the connection point from the device load and the vehicle-approved installation, not from a universal color rule. Put protection where it can protect the intended branch and remain serviceable. Confirm the ground reference and operation during cranking. A passive power loom does not regulate a supply outside the device's allowable range.",
+            "zh": "电源、地线与点火检测是不同的回路功能。常电可在停车时保持定位器运行，但必须考虑待机耗电与车辆休眠策略。ACC 电源不一定就是设备要求的点火信号。导体规格、保险特性与取电位置，应依据设备负载和车辆允许的安装方式选择，而不是套用通用线色规则。保护器件应设置在能保护目标支路且便于维护的位置，同时确认接地参考及起动过程中的工作情况。无源电源线束不能将超出设备范围的电压自动稳压。"
+          },
+          "image": "/assets/images/product-categories/stock/gps-communication/power.jpg",
+          "caption": {
+            "en": "An automotive fuse box illustrates the environment around protected vehicle feeds.",
+            "zh": "汽车保险盒体现车辆受保护供电支路的安装环境。"
+          }
+        },
+        {
+          "id": "materials",
+          "style": "wide",
+          "title": {
+            "en": "Material Recommendation: Copper and RF Coaxial Cable",
+            "zh": "材料建议：铜导体与射频同轴线"
+          },
+          "copy": {
+            "en": "Power conductors are selected for resistance, voltage drop, flexibility and termination. Tinning can support corrosion resistance and certain joining processes, but it does not make the complete assembly waterproof. The antenna path instead needs a specified coaxial construction: center conductor, dielectric, shield and jacket work together. Common GNSS interfaces use a nominal 50-ohm path; verify the selected receiver rather than substituting a 75-ohm video cable because it looks similar. RG174 and RG316 are familiar reference cable types, with different construction and loss characteristics. Length, bend limits, contact preparation and the mating connector must be specified as a combination.",
+            "zh": "电源导体根据电阻、压降、柔性和端接方式选择。镀锡有助于耐腐蚀及某些连接工艺，但不能让完整组件自动防水。天线路径则需要明确的同轴结构，中心导体、介质、屏蔽与护套共同工作。常见 GNSS 接口采用标称 50 Ω 路径，应核对所选接收器，不能因为外观接近就改用 75 Ω 视频线。RG174 与 RG316 是常见参考线型，结构与损耗特性不同。长度、弯曲限制、接点处理和配套连接器必须作为组合规定。"
+          },
+          "image": "/assets/images/product-categories/stock/gps-communication/materials.jpg",
+          "caption": {
+            "en": "An RP-SMA coax termination illustrates cable-to-contact construction; RP-SMA and SMA mating polarity must be distinguished.",
+            "zh": "RP-SMA 同轴端接说明线缆与接点的结构，RP-SMA 与 SMA 的接触极性需要区分。"
+          }
+        },
+        {
+          "id": "sleeves",
+          "style": "compact",
+          "title": {
+            "en": "Braided Sheath, Polymer Jacket and Shielding Mesh",
+            "zh": "编织套、聚合物护套与屏蔽网"
+          },
+          "copy": {
+            "en": "Textile sleeving and conductive braid have different roles. A textile sheath helps manage abrasion and bundling; a metallic screen controls an electromagnetic boundary when properly terminated. Neither can compensate for a damaged coax dielectric. Specify jacket material from temperature, oils, sunlight, flexibility and mounting conditions. An overmold may provide strain relief or environmental protection, but molding resin, adhesion, connector geometry and validation determine the result. Drainage and a controlled drip path can matter as much as an external cover. Avoid labeling every braided or molded assembly waterproof without defining the mated condition and test method.",
+            "zh": "纺织编织套与导电编织网承担不同作用：前者帮助耐磨和成束，后者在正确端接时形成电磁边界，两者都不能补偿受损的同轴介质。护套材料应结合温度、油污、日照、柔性与固定条件选择。包胶可以提供应力缓解或环境防护，但实际效果取决于树脂、粘接、接头形状和验证。排水与受控滴水路径有时和外部包覆同样重要，不能在未定义对插状态及试验方法时，把所有编织或包胶组件都标成防水。"
+          },
+          "image": "/assets/images/product-categories/stock/gps-communication/sleeves.jpg",
+          "caption": {
+            "en": "A textile-braided cable close-up illustrates external abrasion protection, not conductive shielding.",
+            "zh": "纺织编织线缆特写用于说明外部耐磨层，不是导电屏蔽。"
+          }
+        },
+        {
+          "id": "fleet",
+          "style": "inset-left",
+          "title": {
+            "en": "Industries and Applications: Fleet Management & Logistics",
+            "zh": "行业与应用：车队管理与物流"
+          },
+          "copy": {
+            "en": "Delivery vans, buses and heavy trucks can share a telematics platform while needing different harnesses. Supply architecture, connector locations and available data interfaces vary between vehicles. A repeatable kit defines branch labels, mounting references and the permitted connection method, reducing ambiguity during fleet installation. Navigation reception, cellular coverage and vehicle data availability should be evaluated separately. The cable assembly cannot guarantee real-time reporting when the network is unavailable. Fleet operators also need an authorized process for driver information, access control and retention of tracking data; these are operational responsibilities outside the physical wiring specification.",
+            "zh": "配送车、客车与重卡可以使用同一通信平台，却需要不同线束。车辆之间的供电架构、接头位置和数据接口并不相同。可重复安装的套件会规定支路线号、固定基准和允许的接线方式，减少批量部署中的歧义。导航接收、蜂窝覆盖和车辆数据可用性应分别评估，网络不可用时线缆组件不能保证实时上报。车队还需建立获得授权的司机告知、权限管理和定位数据保留流程，这些运营责任不属于实体线束规格本身。"
+          },
+          "image": "/assets/images/product-categories/stock/gps-communication/fleet.jpg",
+          "caption": {
+            "en": "Delivery vehicles illustrate repeated fleet installations across several units.",
+            "zh": "配送车辆体现同一车队内的重复安装需求。"
+          }
+        },
+        {
+          "id": "outdoor",
+          "style": "wide",
+          "title": {
+            "en": "Motorcycles, Heavy Equipment and Outdoor Installations",
+            "zh": "摩托车、工程设备与户外安装"
+          },
+          "copy": {
+            "en": "Small vehicles need flexible routes around steering and suspension movement; construction equipment adds dust, vibration and frequent servicing. Marine or exposed installations introduce salt, UV and water-entry concerns that require a separate specification. Choose the connector's sealed version where needed, define strain relief and keep harnesses clear of moving and hot parts. A short assembly still needs a minimum bend radius and secure support. Antenna location must preserve both reception and physical protection. These projects can share manufacturing methods with fleet harnesses, but their environmental acceptance criteria cannot be assumed from a sheltered passenger-car installation.",
+            "zh": "小型车辆需要适应转向与悬架运动的柔性路线；工程设备还存在粉尘、振动和频繁检修。船用或外露安装增加盐分、紫外线和进水风险，需要单独规定。必要时选择连接器的密封版本，明确应力缓解，并使线束避开运动件和热源。即便组件很短，也需要满足最小弯曲半径并可靠支撑。天线位置还要兼顾接收与机械防护。这些项目可与车队线束共享制造方法，但不能直接沿用车内遮蔽安装的环境验收条件。"
+          },
+          "image": "/assets/images/product-categories/stock/gps-communication/outdoor.jpg",
+          "caption": {
+            "en": "Rain and road exposure illustrate the environmental review needed for open vehicle installations.",
+            "zh": "雨水与路面暴露说明开放式车辆安装需要环境审核。"
+          }
+        },
+        {
+          "id": "manufacturing",
+          "style": "process",
+          "title": {
+            "en": "Advanced Manufacturing & Customization",
+            "zh": "制造与定制流程"
+          },
+          "copy": {
+            "en": "The process begins with a controlled pin map and routing drawing, followed by connector and cable confirmation. Power branches are cut, stripped and terminated with the specified tooling. Coax preparation separately controls the exposed center conductor, dielectric and shield lengths so stray strands cannot bridge the contact. Labels distinguish GNSS, cellular, power and data connections before installation. Prototype review checks mating, latch access, routing and the equipment's operation. Once accepted, the drawing, bill of materials and inspection plan define repeat production. Quantity and lead time depend on component availability and the agreed verification scope rather than a fixed promise for every configuration.",
+            "zh": "流程从受控针脚表与走线图开始，再确认接头和线材。电源支路按规定工装完成裁线、剥线和端接；同轴处理则独立控制中心导体、介质和屏蔽的露出长度，避免散股跨接接点。装配前以标识区分 GNSS、蜂窝、电源与数据连接。样件审核检查对插、卡扣操作、走线与设备运行，确认后由图纸、物料表和检验计划定义重复生产。数量与交期取决于元件供应及约定的验证范围，而不是所有配置都适用的固定承诺。"
+          },
+          "image": "/assets/images/product-categories/stock/gps-communication/manufacturing.jpg",
+          "caption": {
+            "en": "Controlled wire stripping is one preparation step before the specified termination process.",
+            "zh": "受控剥线是规定端接工艺之前的准备步骤。"
+          }
+        },
+        {
+          "id": "reliability",
+          "style": "feature-left",
+          "title": {
+            "en": "Reliability, Integration and Serviceability",
+            "zh": "可靠性、集成与可维护性"
+          },
+          "copy": {
+            "en": "Continuity and pin mapping establish basic circuit correctness but do not characterize RF performance. Depending on the design, inspection may include shielding continuity, connector retention, insulation checks and agreed insertion-loss or return-loss measurements. A system trial should also consider cranking, sleep current, antenna reception and recovery after a supply interruption. Record test limits and equipment rather than treating a successful location fix as proof of every requirement. Serviceable routing allows a technician to identify and replace a branch without disturbing unrelated circuits. Certification of the tracker or a connector does not automatically certify the completed harness or the vehicle installation.",
+            "zh": "导通与针脚检查建立基本回路正确性，但不能表征射频性能。按设计需要，检验可包含屏蔽导通、接头保持力、绝缘检查，以及约定的插入损耗或回波损耗测量。系统试用还应考虑起动、休眠电流、天线接收与供电中断后的恢复。应记录试验限值和设备，不能把一次定位成功当作所有要求都已满足。便于维护的布线能让技术人员识别和更换支路而不影响无关回路。定位器或某个接头的认证不等于成品线束或车辆安装的认证。"
+          },
+          "image": "/assets/images/product-categories/stock/gps-communication/reliability.jpg",
+          "caption": {
+            "en": "NIST network-analyzer work illustrates RF measurement equipment, not a test of our product.",
+            "zh": "NIST 网络分析仪研究体现射频测量设备，不是本公司产品的测试。"
+          }
+        }
+      ],
+      "composition": [
+        {
+          "kind": "single",
+          "items": [
+            0
+          ]
+        },
+        {
+          "kind": "pair",
+          "items": [
+            1,
+            2
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            3
+          ]
+        },
+        {
+          "kind": "pair",
+          "items": [
+            4,
+            5
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            6
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            7
+          ]
+        },
+        {
+          "kind": "pair",
+          "items": [
+            8,
+            9
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            10
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            11
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "en": "Does one GPS harness fit every 12 V vehicle?",
+            "zh": "一套 GPS 线束适配所有 12 V 车辆吗？"
+          },
+          "a": {
+            "en": "No. Supply voltage alone does not define connector pinout, ignition behavior, vehicle data access or installation geometry. Confirm the exact platform and tracker.",
+            "zh": "不适配。供电电压不能单独确定针脚、点火逻辑、车辆数据访问或安装形状，需要确认具体车型与定位器。"
+          }
+        },
+        {
+          "q": {
+            "en": "Does a longer antenna cable improve reception?",
+            "zh": "天线线缆越长，接收就越好吗？"
+          },
+          "a": {
+            "en": "Only if relocation improves the antenna environment enough to justify the added loss. Length itself does not amplify the signal; verify the receiver and antenna link budget.",
+            "zh": "只有改善天线位置带来的收益足以抵消新增损耗时才可能有帮助。长度本身不会放大信号，需要审核接收器与天线的链路预算。"
+          }
+        },
+        {
+          "q": {
+            "en": "Can the harness convert CAN data into GPS reports?",
+            "zh": "线束能把 CAN 数据自动转换成 GPS 报告吗？"
+          },
+          "a": {
+            "en": "A passive harness cannot. Data interpretation and reporting require compatible gateway electronics, software and authorized access.",
+            "zh": "无源线束不能。数据解释与上报需要兼容的网关电子设备、软件和授权访问。"
+          }
+        },
+        {
+          "q": {
+            "en": "Are all versions sealed for outdoor use?",
+            "zh": "所有版本都适合户外密封使用吗？"
+          },
+          "a": {
+            "en": "No. Define the connector variant, mated condition, cable entry and test requirement. A jacket or braided sleeve alone is not an ingress-protection rating.",
+            "zh": "不是。需要规定接头版本、对插状态、线缆入口和试验要求，护套或编织套本身不构成防护等级。"
+          }
+        }
+      ],
+      "creditHeading": {
+        "en": "Photo credits and technical references",
+        "zh": "图片来源与技术参考"
+      },
+      "mediaCredits": [
+        {
+          "file": "Smartphone mounted on car dashboard during a drive in a modern vehicle with a focus on navigation use.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Smartphone_mounted_on_car_dashboard_during_a_drive_in_a_modern_vehicle_with_a_focus_on_navigation_use.jpg",
+          "author": "Shixart1985",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Inpaq gps antenna.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Inpaq_gps_antenna.jpg",
+          "author": "INPAQ",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "GPS-GLONASS-antenna.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:GPS-GLONASS-antenna.jpg",
+          "author": "Vsatinet",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Neomatics ADM100 GPS Tracker (41077800725).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Neomatics_ADM100_GPS_Tracker_(41077800725).jpg",
+          "author": "Artem Svetlov from Moscow, Russia",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "GPS antenna eBonTek eGA325-92299.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:GPS_antenna_eBonTek_eGA325-92299.jpg",
+          "author": "Raimond Spekking",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "DG-Tracker Smile, GPS Vehicle Tracker.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:DG-Tracker_Smile,_GPS_Vehicle_Tracker.jpg",
+          "author": "Nelso",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "OBD-II Connector 09911-03.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:OBD-II_Connector_09911-03.jpg",
+          "author": "SparkFun Electronics",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "Automotive Fuse Box - Volvo XC90 Car (52953529388).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Automotive_Fuse_Box_-_Volvo_XC90_Car_(52953529388).jpg",
+          "author": "Tony Webster",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "RP-SMA connector with coaxial cable.png",
+          "url": "https://commons.wikimedia.org/wiki/File:RP-SMA_connector_with_coaxial_cable.png",
+          "author": "Lucasbosch",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Braided cable close up.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Braided_cable_close_up.jpg",
+          "author": "Psiĥedelisto",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        },
+        {
+          "file": "Morrisons Home Delivery Vans - geograph.org.uk - 4142940.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Morrisons_Home_Delivery_Vans_-_geograph.org.uk_-_4142940.jpg",
+          "author": "Ian S ",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        },
+        {
+          "file": "Motorcycle ride in the rain.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Motorcycle_ride_in_the_rain.jpg",
+          "author": "Lagmagadhaguthi",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Wire stripping.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Wire_stripping.jpg",
+          "author": "Yqm",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        },
+        {
+          "file": "Network Analyzer Calibration (5940499893).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Network_Analyzer_Calibration_(5940499893).jpg",
+          "author": "National Institute of Standards and Technology",
+          "license": "Public domain"
+        },
+        {
+          "file": "GNSS antennas — application note",
+          "url": "https://content.u-blox.com/sites/default/files/products/documents/GNSS-Antennas_AppNote_%28UBX-15030289%29.pdf",
+          "author": "u-blox",
+          "license": "Technical reference; no affiliation or certification claim"
+        },
+        {
+          "file": "FMC920 product architecture and mounting documentation",
+          "url": "https://wiki.teltonika-gps.com/view/FMC920",
+          "author": "Teltonika",
+          "license": "Technical reference; no affiliation or certification claim"
+        },
+        {
+          "file": "FAKRA automotive RF connector system",
+          "url": "https://www.te.com/en/products/connectors/automotive-connectors/automotive-high-speed-data-connectors/intersection/fakra-rf-compliant-connector-system.html?tab=pgp-story",
+          "author": "TE Connectivity",
+          "license": "Technical reference; no affiliation or certification claim"
+        }
+      ]
+    }
+  },
   "automotive-11": {
     "intro": {
       "en": "Project-reviewed high-voltage interconnections for electrified equipment, with defined insulation, shielding, interlock and validation requirements.",

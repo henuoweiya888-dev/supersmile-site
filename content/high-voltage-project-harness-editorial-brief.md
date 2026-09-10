@@ -1,6 +1,6 @@
 # High-voltage project harness
 
-Status: local implementation, pending responsive and public verification.
+Status: published in commit 6b0889f and publicly verified on 2026-09-10. Desktop 1280 and mobile 390, Chinese and English: all 10 chapters present, no missing images, no horizontal overflow, fixed header. Product mega-menu link visible. Local 320-width pass also confirmed. Public screenshots: /tmp/hv-public-{1280,390}-{zh,en}.png.
 
 ## Editorial scope
 
