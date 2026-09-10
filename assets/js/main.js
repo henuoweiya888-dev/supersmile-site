@@ -378,7 +378,7 @@ async function loadData(){
     fetch('/data/products.json?v=20260831v7').then(r=>r.json()),
     fetch('/data/product-series.json?v=20260902v1').then(r=>r.json()),
     fetch('/data/product-capabilities.json?v=20260902v4').then(r=>r.json()),
-    fetch('/data/product-category-details.json?v=20260910v21').then(r=>r.json())
+    fetch('/data/product-category-details.json?v=20260910v22').then(r=>r.json())
   ]);
   SITE=s; PRODS=p; SERIES=series; CAPABILITIES=capabilities; CATEGORY_DETAILS=categoryDetails;
   applyEvidenceBoundaries();
@@ -1298,6 +1298,14 @@ function renderProductCategoryRichMarkup(page,item){
     const faq=(page.faq||[]).map((entry,index)=>`<details${index===0?' open':''}><summary>${htmlEscape(t(entry.q))}</summary><p>${htmlEscape(t(entry.a))}</p></details>`).join('');
     const credits=(page.mediaCredits||[]).map(entry=>`<li><a href="${htmlEscape(entry.url)}" target="_blank" rel="noopener">${htmlEscape(entry.file)}</a><span>${htmlEscape(entry.author)} · ${htmlEscape(entry.license)}</span></li>`).join('');
     return `<section class="pcc-construction-opening">${fieldImage(page.images.range,`${item} ${LANG==='zh'?'工地运动环境':'worksite motion environment'}`,'pcc-construction-opening-media')}<div class="pcc-construction-opening-copy"><span>MACHINE / MOTION / EXPOSURE / SERVICE</span><h2>${heading('introduction')}</h2><p>${htmlEscape(t(page.lead))}</p><div class="pcc-construction-axis" aria-hidden="true"><b>${LANG==='zh'?'驾驶室':'CAB'}</b><i></i><b>${LANG==='zh'?'液压':'HYDRAULICS'}</b><i></i><b>${LANG==='zh'?'运动':'MOTION'}</b><i></i><b>${LANG==='zh'?'现场':'FIELD'}</b></div></div></section><section class="pcc-construction-sequence">${chapters}</section><section class="pcc-rich-section pcc-rich-faq pcc-construction-faq"><header class="pcc-rich-heading"><h2>${heading('faq')}</h2></header><div class="pcc-faq-grid">${faq}</div></section><details class="pcc-media-credits"><summary>${htmlEscape(t(page.creditHeading))}</summary><ul>${credits}</ul></details>`;
+  }
+  if(page.layout==='relay-protection-editorial'){
+    const photo=(src,alt,caption='')=>`<figure class="pcc-relay-photo"><img src="${htmlEscape(src)}" alt="${htmlEscape(alt)}" width="1200" height="900" loading="lazy" decoding="async">${caption?`<figcaption>${htmlEscape(caption)}</figcaption>`:''}</figure>`;
+    const chapters=(page.chapters||[]).map((c,i)=>{const media=photo(c.image,t(c.caption||c.title),t(c.caption));return `<article class="pcc-relay-chapter pcc-relay-format-${i%4}">${i%4===2?media:''}<div class="pcc-relay-text"><h2>${htmlEscape(t(c.title))}</h2><p>${htmlEscape(t(c.copy))}</p></div>${i%4===2?'':media}</article>`}).join('');
+    const faq=(page.faq||[]).map((e,i)=>`<details${i===0?' open':''}><summary>${htmlEscape(t(e.q))}</summary><p>${htmlEscape(t(e.a))}</p></details>`).join('');
+    const licenses={'CC BY-SA 4.0':'https://creativecommons.org/licenses/by-sa/4.0/','CC BY-SA 2.0':'https://creativecommons.org/licenses/by-sa/2.0/','CC BY 2.0':'https://creativecommons.org/licenses/by/2.0/','CC SA 1.0':'https://creativecommons.org/licenses/sa/1.0/','CC0':'https://creativecommons.org/publicdomain/zero/1.0/'};
+    const credits=(page.mediaCredits||[]).map(e=>`<li><a href="${htmlEscape(e.url)}" target="_blank" rel="noopener">${htmlEscape(e.file)}</a><span>${htmlEscape(e.author)} · ${licenses[e.license]?`<a href="${licenses[e.license]}" target="_blank" rel="noopener">${htmlEscape(e.license)}</a>`:htmlEscape(e.license)}</span></li>`).join('')+`<li>${LANG==='zh'?'照片为第三方实拍参考，经过尺寸调整及显示裁切、色调调整，不代表本公司制造的实物或摄影者背书；衍生图片沿用原图适用的共享许可。':'Third-party reference photographs are resized and displayed with cropping and tonal adjustments. They do not depict verified company production or imply photographer endorsement. Image adaptations retain the applicable original share-alike license.'}</li>`;
+    return `<section class="pcc-relay-opening"><div class="pcc-relay-opening-copy"><h2>${heading('introduction')}</h2><p>${htmlEscape(t(page.lead))}</p></div>${photo(page.images.range,`${item} ${LANG==='zh'?'配电盒结构':'distribution box construction'}`)}</section><div class="pcc-relay-editorial">${chapters}</div><section class="pcc-rich-section pcc-rich-faq"><header class="pcc-rich-heading"><h2>${heading('faq')}</h2></header><div class="pcc-faq-grid">${faq}</div></section><details class="pcc-media-credits"><summary>${htmlEscape(t(page.creditHeading))}</summary><ul>${credits}</ul></details>`;
   }
   if(page.layout==='engine-systems-map'){
     const engineImage=(src,alt,className='')=>`<figure class="pcc-engine-media ${className}"><img src="${htmlEscape(src)}" alt="${htmlEscape(alt)}" width="1400" height="960" loading="lazy" decoding="async"></figure>`;
