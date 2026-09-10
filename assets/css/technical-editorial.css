@@ -304,7 +304,43 @@ body[data-category-key="connector-systems-09"] .pcc-hero-media img{object-positi
 .te-theme-fci-assembly-notes #technical-topic-28 .te-photo img{height:175px}
 .te-theme-fci-assembly-notes #technical-topic-33{grid-template-columns:210px minmax(0,1fr)}
 .te-theme-fci-assembly-notes #technical-topic-33 .te-photo img{height:165px}
+/* LEMO: a compact handling journal, with outer-edge component studies. */
+.te-theme-push-pull-journal{--te-tint:#e4e6e1;--te-muted:#4b514d;--te-accent:#ad4d30}
+.te-theme-push-pull-journal .te-index{display:none}
+.te-theme-push-pull-journal .te-topic{padding-block:24px}
+.te-theme-push-pull-journal .te-opening{grid-template-columns:205px minmax(0,1fr);padding-left:0;padding-right:var(--te-gutter);gap:28px;background:#e9e6de}
+.te-theme-push-pull-journal .te-opening>figure{grid-column:1;grid-row:1}.te-theme-push-pull-journal .te-opening>div{grid-column:2;grid-row:1}
+.te-theme-push-pull-journal .te-opening .te-photo img{height:165px;object-fit:contain;background:#eeece5}
+.te-theme-push-pull-journal .te-wide{grid-template-columns:minmax(0,1fr) 190px}
+.te-theme-push-pull-journal #technical-topic-1{grid-template-columns:225px minmax(0,1fr);background:#e2e6e2}
+.te-theme-push-pull-journal #technical-topic-1 .te-photo img{height:175px;object-fit:contain}
+.te-theme-push-pull-journal .te-inset-left .te-photo,.te-theme-push-pull-journal .te-inset-right .te-photo{width:165px;margin-top:4px}
+.te-theme-push-pull-journal .te-inset-left .te-photo img,.te-theme-push-pull-journal .te-inset-right .te-photo img{height:150px;object-fit:cover}
+.te-theme-push-pull-journal .te-pair{background:#ebe8df}
+.te-theme-push-pull-journal .te-pair .te-photo,.te-theme-push-pull-journal .te-pair .te-topic:nth-child(2) .te-photo{width:135px;margin-top:30px}
+.te-theme-push-pull-journal .te-pair .te-photo img{height:155px;object-fit:cover}
+.te-theme-push-pull-journal #technical-topic-4 .te-photo img{object-fit:contain;background:#efeee8}
+.te-theme-push-pull-journal #technical-topic-5 .te-photo img{object-fit:contain;background:#e9e7df}
+.te-theme-push-pull-journal #technical-topic-7{grid-template-columns:minmax(0,1fr) 180px;background:#e4e7e3}
+.te-theme-push-pull-journal #technical-topic-7 .te-photo img{height:180px;object-position:center}
+.te-theme-push-pull-journal #technical-topic-10{background:#eae7df;grid-template-columns:minmax(0,1fr) 155px}
+.te-theme-push-pull-journal #technical-topic-10 .te-photo img{object-fit:contain;height:145px}
+.te-theme-push-pull-journal #technical-topic-11{grid-template-columns:205px minmax(0,1fr);background:#e1e5e1}
+.te-theme-push-pull-journal #technical-topic-11 .te-photo img{height:160px}
+.te-theme-push-pull-journal #technical-topic-12 .te-photo img{object-fit:contain;background:#f0eee7}
+.te-theme-push-pull-journal #technical-topic-17{grid-template-columns:minmax(0,1fr) 225px;background:#e8e5de}
+.te-theme-push-pull-journal #technical-topic-17 .te-photo img{height:165px}
+.te-theme-push-pull-journal #technical-topic-19 .te-photo{width:185px}
+.te-theme-push-pull-journal #technical-topic-20 .te-photo img,.te-theme-push-pull-journal #technical-topic-21 .te-photo img{object-fit:contain;background:#eeede7}
+.te-theme-push-pull-journal #technical-topic-22 .te-photo img{object-fit:contain;background:#e9e7df}
+.te-theme-push-pull-journal #technical-topic-23 .te-photo img{height:145px;object-fit:contain;background:#e6e7e0}
+.te-theme-push-pull-journal #technical-topic-24{grid-template-columns:210px minmax(0,1fr);background:#e2e7e3}
+.te-theme-push-pull-journal #technical-topic-24 .te-photo img{height:170px}
+.te-theme-push-pull-journal #technical-topic-25{grid-template-columns:175px minmax(0,1fr);background:#ebe8df}
+.te-theme-push-pull-journal #technical-topic-25 .te-photo img{height:155px;object-fit:contain}
 @media(max-width:767px){
+ .te-theme-push-pull-journal .te-opening,.te-theme-push-pull-journal .te-topic{display:flex;padding:23px 16px}
+ .te-theme-push-pull-journal .te-pair .te-photo,.te-theme-push-pull-journal .te-pair .te-topic:nth-child(2) .te-photo,.te-theme-push-pull-journal .te-inset-left .te-photo,.te-theme-push-pull-journal .te-inset-right .te-photo,.te-theme-push-pull-journal #technical-topic-19 .te-photo{float:none;width:calc(100% + 32px);margin:16px -16px 0}
  .te-theme-fci-assembly-notes .te-opening,.te-theme-fci-assembly-notes .te-topic{display:flex;padding:23px 16px}
  .te-theme-fci-assembly-notes .te-pair .te-photo,.te-theme-fci-assembly-notes .te-pair .te-topic:nth-child(2) .te-photo,.te-theme-fci-assembly-notes .te-inset-left .te-photo,.te-theme-fci-assembly-notes .te-inset-right .te-photo{float:none;width:calc(100% + 32px);margin:16px -16px 0}
  .te-theme-jae-system .te-opening,.te-theme-jae-system .te-topic{display:flex;padding:23px 16px}

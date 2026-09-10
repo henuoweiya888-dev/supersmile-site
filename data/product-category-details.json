@@ -1,4 +1,950 @@
 {
+  "connector-systems-10": {
+    "title": {
+      "en": "LEMO Compatible Cable Assemblies",
+      "zh": "LEMO 兼容电缆组件"
+    },
+    "intro": {
+      "en": "Custom push-pull cable assemblies for instruments, equipment and removable modules, with defined mating parts, pinouts and strain relief.",
+      "zh": "面向仪器、设备及可拆卸模块的定制推拉式电缆组件，明确对插件、针脚与应力释放。"
+    },
+    "knowledge": {
+      "en": "Match the connector series, cable construction and handling conditions.",
+      "zh": "匹配接头系列、线缆结构及操作条件。"
+    },
+    "notes": {
+      "en": "Provide the full mating reference, circuit map, cable dimensions and environment.",
+      "zh": "提供完整对插料号、回路表、线缆尺寸及环境。"
+    },
+    "delivery": {
+      "en": "Approve the sample and controlled specification before repeat manufacture.",
+      "zh": "重复制造前认可样品及受控规范。"
+    },
+    "page": {
+      "layout": "technical-editorial",
+      "theme": "push-pull-journal",
+      "displayTitle": {
+        "en": "LEMO Compatible Cable Assemblies",
+        "zh": "LEMO 兼容电缆组件"
+      },
+      "headings": {
+        "introduction": {
+          "en": "Push-Pull Connections, Engineered as a Complete Cable",
+          "zh": "推拉式连接：以完整电缆为设计对象"
+        },
+        "faq": {
+          "en": "Engineering and Purchasing Questions",
+          "zh": "工程与采购问题"
+        }
+      },
+      "subtitle": {
+        "en": "Interface families, surface finishes and the moving cable exit",
+        "zh": "接口系列、表面处理与运动出线端"
+      },
+      "lead": {
+        "en": "This category includes instrument leads, extensions, adapters, coiled cables and equipment harnesses, not one fixed product. The following guide moves from connector selection to use conditions, surface treatment and strain relief, then to sample approval. It separates the connector specification from the behavior of the finished cable so the requirements remain clear when a project moves into production.",
+        "zh": "这个小类包含仪器引线、延长组件、转接线、螺旋电缆及设备线束，而不是单一固定产品。以下从接头选择展开，介绍使用条件、表面处理及应力释放，再进入样品认可；将接头规范与成品电缆表现分开讨论，使项目进入生产时仍有清楚要求。"
+      },
+      "images": {
+        "hero": "/assets/images/product-categories/stock/lemo/hero.jpg",
+        "range": "/assets/images/product-categories/stock/lemo/opening.jpg"
+      },
+      "openingCaption": {
+        "en": "A photographed ten-contact LEMO plug with its cable exit.",
+        "zh": "十触点 LEMO 插头及其出线端实拍。"
+      },
+      "chapters": [
+        {
+          "id": "identity",
+          "title": {
+            "en": "LEMO Interfaces: Define the Complete Assembly",
+            "zh": "LEMO 接口：定义完整组件"
+          },
+          "copy": {
+            "en": "A push-pull cable can connect a sensor, instrument, camera or removable machine module. The interface is only one part of the design: cable construction, circuit assignment, shielding, length and support points determine how the complete assembly behaves. Super Smile can review straight leads, extensions, branches and coiled configurations against supplied drawings or mating samples. Original-brand components and approved alternatives must be identified separately in the bill of materials.",
+            "zh": "推拉式电缆可连接传感器、仪器、摄影设备或可拆卸机器模块。接口只是设计的一部分，线缆结构、回路分配、屏蔽、长度及支撑位置共同影响完整组件表现。超斯迈尔可依据图纸或对插样品审核直线、延长、分支及螺旋配置；原品牌零件与认可替代件应在物料清单中分别标明。"
+          },
+          "style": "wide",
+          "image": "/assets/images/product-categories/stock/lemo/identity.jpg",
+          "caption": {
+            "en": "Instrument-mounted pump and tubing illustrate an equipment-module environment.",
+            "zh": "安装于仪器的泵与管路，展示设备模块使用环境。"
+          }
+        },
+        {
+          "id": "pushpull",
+          "title": {
+            "en": "Push to Latch, Pull the Sleeve to Release",
+            "zh": "推入锁紧，拉动套筒解锁"
+          },
+          "copy": {
+            "en": "A self-latching push-pull mechanism retains the plug after insertion; normal release uses the outer sleeve rather than pulling the cable. Installation space must therefore include room for fingers or the specified handling tool. Check full engagement with the actual receptacle, not only an audible click. Key alignment and latch engagement are different checks, and a cable restraint should prevent routine loads from being carried by the connector.",
+            "zh": "自锁推拉机构在插入后保持插头，正常拆卸应操作外部解锁套筒，而不是拉扯电缆。因此安装空间需留出手指或指定工具的操作位置。应结合实际插座核对完全啮合，不能只听是否有声响；键位对准和锁紧到位是不同检查项，布线支撑应避免日常拉力直接作用于接头。"
+          },
+          "style": "feature-left",
+          "image": "/assets/images/product-categories/stock/lemo/pushpull.jpg",
+          "caption": {
+            "en": "LEMO plug and socket contact faces and outer locking sleeves.",
+            "zh": "LEMO 插头、插座触点面与外部锁紧套筒。"
+          }
+        },
+        {
+          "id": "bseries",
+          "title": {
+            "en": "B Series for Protected Equipment Connections",
+            "zh": "B 系列：受保护设备连接"
+          },
+          "copy": {
+            "en": "The B series uses keyed metal push-pull interfaces for protected environments. Its standard IP50 designation must not be presented as waterproofing. Select shell size, contact arrangement, termination and cable collet together; different versions within a family can have different needs. A panel receptacle also needs suitable mounting thickness and access behind the panel. Review the wiring path with neighboring connectors fitted so that the release sleeve remains usable.",
+            "zh": "B 系列采用带键位的金属推拉接口，面向受保护环境，标准 IP50 标识不能被宣传为防水。应共同选择壳体尺寸、触点布局、端接方式及电缆夹头，同系列不同版本也可能有不同要求。面板插座还需匹配安装厚度及面板后方空间，应在相邻接头全部装好时检查布线路径，确保解锁套筒仍能操作。"
+          },
+          "style": "inset-right",
+          "image": "/assets/images/product-categories/stock/lemo/bseries.jpg",
+          "caption": {
+            "en": "A laboratory oscilloscope illustrates protected indoor instrument use, not a specific LEMO interface.",
+            "zh": "实验室示波器说明受保护室内仪器应用，并非指定 LEMO 接口。"
+          }
+        },
+        {
+          "id": "kseries",
+          "title": {
+            "en": "K and T: Sealing Is an Assembly Condition",
+            "zh": "K 与 T：密封取决于装配条件"
+          },
+          "copy": {
+            "en": "Outdoor keyed families such as K and T provide specified sealed configurations, but the rating applies under defined mating and assembly conditions. Cable roundness, jacket diameter, seal selection and the rear termination all matter. A sealed front interface cannot stop moisture entering an unsealed cable branch elsewhere. Drawings should state the exposure, mated or unmated condition and any cap requirement before an ingress verification method is agreed.",
+            "zh": "K、T 等户外带键位系列具有规定的密封配置，但等级适用于明确的对插及装配条件。线缆圆度、护套外径、密封件选择及尾部端接都很重要，前端密封无法阻止水分从其他未密封分支进入。约定防护验证方法前，图纸应说明暴露形式、对插或未对插状态及防尘盖需求。"
+          },
+          "style": "compact",
+          "image": "/assets/images/product-categories/stock/lemo/kseries.jpg",
+          "caption": {
+            "en": "Field electrical measurements near water illustrate exposure requirements.",
+            "zh": "水边现场电气测量，说明环境暴露需求。"
+          }
+        },
+        {
+          "id": "sseries",
+          "title": {
+            "en": "S and E: Stepped Inserts and Cable Groups",
+            "zh": "S 与 E：阶梯绝缘体及线缆组别"
+          },
+          "copy": {
+            "en": "S and E families use stepped-insert configurations, including unipole and multipole options. S generally serves protected environments, while E includes watertight configurations with the appropriate mating and cable assembly. Do not choose a mate from outer diameter or pin count alone. Coaxial contacts additionally require the correct cable group; a cable with a familiar RG designation still needs the contact and assembly dimensions checked.",
+            "zh": "S、E 系列采用阶梯绝缘体结构，包含单极及多极选项。S 通常用于受保护环境，E 包含在正确对插和线缆装配条件下的防水配置。不能仅凭外径或针数选择对插件；同轴触点还需要匹配线缆组别，即使看到熟悉的 RG 电缆名称，也应核对触点及装配尺寸。"
+          },
+          "style": "compact",
+          "image": "/assets/images/product-categories/stock/lemo/sseries.jpg",
+          "caption": {
+            "en": "LEMO 00 coaxial connectors and adapters shown beside a scale.",
+            "zh": "比例尺旁的 LEMO 00 同轴接头与转接件。"
+          }
+        },
+        {
+          "id": "redel",
+          "title": {
+            "en": "REDEL Plastic Interfaces for Handling and Identification",
+            "zh": "REDEL 塑料接口：操作与识别"
+          },
+          "copy": {
+            "en": "REDEL P, SP and MP are distinct connector systems rather than interchangeable plastic versions of one metal plug. Shell geometry, keying, color coding and contact arrangement influence handling and identification. The selected material must also suit the equipment cleaning routine. In a medical project, connector selection remains separate from device-level electrical safety, biocompatibility or validated sterilization; those requirements must come from the customer specification.",
+            "zh": "REDEL P、SP、MP 是不同连接系统，并非某一种金属插头的可互换塑料版本。外壳几何、键位、颜色编码及触点布局影响操作和识别，所选材料还需适应设备清洁方式。在医疗项目中，接头选择与整机电气安全、生物相容性或已验证灭菌工艺属于不同层面，后者应由客户规范明确。"
+          },
+          "style": "inset-left",
+          "image": "/assets/images/product-categories/stock/lemo/redel.jpg",
+          "caption": {
+            "en": "LLDPE resin granules illustrate polymer selection; they are not identified as REDEL housing material.",
+            "zh": "LLDPE 树脂颗粒用于说明聚合物选择，不被标注为 REDEL 外壳材料。"
+          }
+        },
+        {
+          "id": "motion",
+          "title": {
+            "en": "Industrial and Robotic Cable Routing",
+            "zh": "工业与机器人布线路径"
+          },
+          "copy": {
+            "en": "A moving connection is a system of cable, connector, clamps and available travel. Define repeated bending separately from torsion, then select a cable intended for that duty. Keep the flexing zone away from solder joints and rigid backshell transitions. Check minimum bend radius under the actual load and movement, not only on a static bench sample. Functional monitoring during an agreed motion test can reveal intermittent faults that a stationary continuity test misses.",
+            "zh": "运动连接由线缆、接头、固定夹及可用行程组成。先将反复弯曲与扭转区分，再选择面向相应工况的线缆；弯曲区域应远离焊点及刚性尾壳过渡段。最小弯曲半径需结合实际载荷与运动检查，不能只看静态台面样品。在约定运动试验中监测功能，可发现静态导通测试遗漏的间歇故障。"
+          },
+          "style": "wide",
+          "image": "/assets/images/product-categories/stock/lemo/motion.jpg",
+          "caption": {
+            "en": "A cable carrier with installed cables shows a defined moving route.",
+            "zh": "装有线缆的拖链展示明确的运动布线路径。"
+          }
+        },
+        {
+          "id": "coil",
+          "title": {
+            "en": "Coiled Leads: Reach, Return and Pull Force",
+            "zh": "螺旋引线：伸展、回弹与拉力"
+          },
+          "copy": {
+            "en": "A coiled lead provides changing reach, but its restoring force still acts on the equipment. Specify relaxed length, usable extended length, coil diameter and straight tails separately. Review the working position at both travel limits and provide a support point where necessary. Excessive extension can permanently distort the coil or load the connector. The electrical path follows the entire conductor length, so voltage drop and signal behavior cannot be estimated from the relaxed coil length.",
+            "zh": "螺旋引线提供变化的使用距离，但回弹力仍会作用于设备。应分别规定收缩长度、可用伸展长度、圈径及两端直线段，并检查两个行程极限的工作位置，必要时增加支撑。过度拉伸会使线圈永久变形或增加接头负荷；电气通路沿完整导体长度展开，因此不能用收缩长度估算压降或信号表现。"
+          },
+          "style": "feature-right",
+          "image": "/assets/images/product-categories/stock/lemo/coil.jpg",
+          "caption": {
+            "en": "A suspended coiled cord illustrates changing reach and restoring force.",
+            "zh": "悬垂螺旋线说明可变伸展距离与回弹力。"
+          }
+        },
+        {
+          "id": "medical",
+          "title": {
+            "en": "Medical Electronics: Start with the Use Environment",
+            "zh": "医疗电子：先明确使用环境"
+          },
+          "copy": {
+            "en": "A handheld diagnostic probe, a patient-adjacent lead and an internal instrument cable have different exposure and safety requirements. Describe cleaning agents, contact duration, reuse policy and handling cycles before selecting jacket and connector materials. Color and keying can help users identify channels, but cannot replace electrical safeguards. Any insulation, leakage-current, cleaning or environmental verification must be defined for the finished device and its approved accessories.",
+            "zh": "手持诊断探头、患者附近引线及仪器内部电缆具有不同暴露与安全要求。选择护套和接头材料前，应说明清洁剂、接触时间、重复使用规则及操作次数。颜色和键位可帮助识别通道，但不能代替电气保护。绝缘、漏电流、清洁或环境验证均需依据整机及认可附件的要求定义。"
+          },
+          "style": "compact",
+          "image": "/assets/images/product-categories/stock/lemo/medical.jpg",
+          "caption": {
+            "en": "Handheld ultrasound probe and cable; medical-use context only.",
+            "zh": "手持超声探头与电缆，仅作为医疗使用场景。"
+          }
+        },
+        {
+          "id": "plating",
+          "title": {
+            "en": "Contact Plating and Shell Finish Are Different",
+            "zh": "触点镀层与外壳表面处理不同"
+          },
+          "copy": {
+            "en": "Electrical contacts and external shells perform different jobs. A contact finish supports the mating surface, while a shell finish also responds to handling and environmental exposure. Record the actual material and finish code instead of describing the whole connector as gold plated. Plating thickness, porosity, contact force and the mating finish interact; color is not an acceptance measurement. Replacement contacts must retain the approved finish and dimensional specification.",
+            "zh": "电气触点与外壳承担不同任务，触点镀层服务于对插表面，外壳处理还需面对操作与环境暴露。应记录实际材料及表面处理代码，而不是笼统描述整个接头为镀金。镀层厚度、孔隙、接触力和对端表面会相互影响，颜色不能作为验收测量；替换端子应保持认可的表面及尺寸规范。"
+          },
+          "style": "inset-left",
+          "image": "/assets/images/product-categories/stock/lemo/plating.jpg",
+          "caption": {
+            "en": "A gold-colored USB shell illustrates the distinction between external finish and contact specification.",
+            "zh": "金色 USB 外壳说明外部表面处理与触点规范应区分。"
+          }
+        },
+        {
+          "id": "standards",
+          "title": {
+            "en": "Read Surface-Treatment Standards by Their Scope",
+            "zh": "按适用范围理解表面处理标准"
+          },
+          "copy": {
+            "en": "A standard number is useful only when attached to the correct material, process and acceptance clause. LEMO catalog references distinguish chrome treatment under SAE AMS 2460, nickel under AMS QQ-N-290 or a stated alternative, and gold under ISO 27874. These are not interchangeable labels. If a project requires documented plating, specify the exact component, revision and evidence required; a catalog citation is not certification of our complete cable assembly.",
+            "zh": "标准编号只有对应正确材料、工艺及验收条款才有意义。LEMO 目录将 SAE AMS 2460 对应镀铬、AMS QQ-N-290 或指定替代规范对应镀镍，并列出 ISO 27874 镀金参考，这些不是可互换标签。项目若要求镀层文件，应明确零件、版本及所需证据；引用目录并不代表我们完整电缆组件获得相应认证。"
+          },
+          "style": "compact",
+          "image": "/assets/images/product-categories/stock/lemo/standards.jpg",
+          "caption": {
+            "en": "Nickel sheet as a material reference, not a coating certification.",
+            "zh": "镍片材料参考，不代表镀层认证。"
+          }
+        },
+        {
+          "id": "corrosion",
+          "title": {
+            "en": "Salt, Moisture and Cleaning Residues",
+            "zh": "盐分、水分与清洁残留"
+          },
+          "copy": {
+            "en": "Corrosion evaluation begins with where liquid can collect and how dissimilar materials meet. A laboratory salt-spray duration describes one test procedure, not an equivalent number of years outdoors. Examine contacts, shell joints, fasteners and cable exits separately. Cleaning residues or damaged finishes can change behavior after assembly. Agree the exposure method and acceptance criteria for the intended application instead of applying one advertised hour count to every configuration.",
+            "zh": "腐蚀评估应从液体可能积聚的位置及不同材料接触方式开始。实验室盐雾时长描述一种试验程序，不能换算为户外使用年限。需分别检查触点、壳体接缝、紧固件和出线端，清洁残留或表面损伤也会改变装配后的表现。应根据应用约定暴露方法及验收标准，而不是为每个配置套用同一个宣传时长。"
+          },
+          "style": "feature-left",
+          "image": "/assets/images/product-categories/stock/lemo/corrosion.jpg",
+          "caption": {
+            "en": "A salt-spray chamber illustrates a defined laboratory exposure method.",
+            "zh": "盐雾箱展示明确的实验室暴露方法。"
+          }
+        },
+        {
+          "id": "cycles",
+          "title": {
+            "en": "Mating Cycles Are Not Cable Flex Life",
+            "zh": "插拔寿命不等于线缆弯折寿命"
+          },
+          "copy": {
+            "en": "Connector mating endurance and cable bending endurance are different measurements. A published component cycle rating uses specified conditions; it does not cover pulling the lead, contamination, side loading or an unsuitable cable exit. Define how often the connector is handled and how the cable moves in service. For frequently changed probes, inspect latch action, contact condition and the strain-relief transition together rather than counting insertions alone.",
+            "zh": "接头插拔耐久与电缆弯折耐久是不同测量。元件公开循环额定值基于规定条件，并不覆盖拉扯引线、污染、侧向载荷或不合适的出线结构。应明确使用中接头操作频次及线缆运动方式；对于频繁更换的探头，应同时检查锁紧动作、触点状况及应力释放过渡，而不只是统计插拔次数。"
+          },
+          "style": "inset-right",
+          "image": "/assets/images/product-categories/stock/lemo/cycles.jpg",
+          "caption": {
+            "en": "Micrometers illustrate dimensional inspection; this is not a mating-cycle test.",
+            "zh": "千分尺说明尺寸检查，并非插拔循环试验。"
+          }
+        },
+        {
+          "id": "measurement",
+          "title": {
+            "en": "Test and Measurement: Protect the Signal Path",
+            "zh": "测试与测量：保护信号通路"
+          },
+          "copy": {
+            "en": "A sensor extension can change the measurement chain through resistance, capacitance, shielding and additional contacts. Record whether the signal is low-level analog, a thermocouple, a coaxial channel or a digital interface. Cable selection and pin allocation follow that signal, not the appearance of the plug. For low-level measurements, grounding and cable movement may be as important as continuity. Compare the assembled lead in the actual instrument configuration.",
+            "zh": "传感器延长线会通过电阻、电容、屏蔽及新增触点改变测量链。应记录信号是低电平模拟量、热电偶、同轴通道还是数字接口，选线与针脚分配应跟随信号要求，而不是插头外观。对于低电平测量，接地及线缆运动可能与导通同样重要，应在实际仪器配置中比较装配引线。"
+          },
+          "style": "wide",
+          "image": "/assets/images/product-categories/stock/lemo/measurement.jpg",
+          "caption": {
+            "en": "Oscilloscope probes with their leads and terminations.",
+            "zh": "示波器探头、引线及端接实拍。"
+          }
+        },
+        {
+          "id": "automation",
+          "title": {
+            "en": "Automation: Service Access and Channel Identification",
+            "zh": "自动化：检修空间与通道识别"
+          },
+          "copy": {
+            "en": "Removable sensors and tool modules need connections that technicians can identify without tracing the whole machine. Combine permanent labels, connector keying and a clear circuit drawing. Route the lead so the release sleeve is accessible after guards and adjacent equipment are installed. Keep power and sensitive signal routes appropriate to the machine design. A service loop should provide useful access without rubbing against motion components or becoming a snag point.",
+            "zh": "可拆卸传感器和工具模块需要让技术人员不必追踪整台机器就能识别的连接。应结合耐久标签、接头键位和清晰回路图，并确保防护罩及邻近设备装好后仍能操作解锁套筒。动力与敏感信号路径应适应整机设计，检修余量既要方便操作，也不能摩擦运动部件或形成钩挂点。"
+          },
+          "style": "compact",
+          "image": "/assets/images/product-categories/stock/lemo/automation.jpg",
+          "caption": {
+            "en": "Organized patch-panel wiring illustrates identification and service access.",
+            "zh": "整理后的配线架布线说明识别与检修空间。"
+          }
+        },
+        {
+          "id": "broadcast",
+          "title": {
+            "en": "Broadcast and Audio-Visual: Define the Channel",
+            "zh": "广播与视听：明确具体通道"
+          },
+          "copy": {
+            "en": "Camera power, control, timecode and audio leads may use compact circular connectors but carry entirely different circuits. Confirm the equipment pinout and direction before creating an extension or adapter. Coaxial channels require an appropriate impedance and termination, while power leads need a voltage-drop review at operating load. Mark both ends clearly. A connector brand alone does not establish compatibility with a particular camera or recording system.",
+            "zh": "摄影机供电、控制、时间码及音频引线可能采用紧凑圆形接头，却承载完全不同回路。制作延长线或转接线前应确认设备针脚及方向。同轴通道需要合适阻抗及端接，供电线则需在工作负载下审核压降，并清楚标识两端。连接器品牌本身不能证明与某种摄影机或录制系统兼容。"
+          },
+          "style": "compact",
+          "image": "/assets/images/product-categories/stock/lemo/broadcast.jpg",
+          "caption": {
+            "en": "A broadcast camera provides the operating context for accessory leads.",
+            "zh": "广播摄像机展示附件引线的使用环境。"
+          }
+        },
+        {
+          "id": "diagnostic",
+          "title": {
+            "en": "Diagnostic Devices: Repeatable Connections",
+            "zh": "诊断设备：可重复的连接"
+          },
+          "copy": {
+            "en": "A removable diagnostic accessory needs repeatable electrical and mechanical behavior between visits or test sessions. Document the reference pinout, label, cable length and connector orientation so that a replacement is not only visually similar. Consider repeated wiping, storage bends and operator grip. Evaluation of an accessory should include the equipment-defined checks; a continuity pass alone does not establish the accuracy or safety of a diagnostic system.",
+            "zh": "可拆卸诊断附件需要在不同检测场次保持可重复的电气与机械表现。应记录基准针脚、标签、线长及接头方向，避免替换件只是外观相似。同时考虑反复擦拭、存放弯折及操作者握持方式。附件评估应包含设备定义的检查，仅导通合格不能证明诊断系统准确性或安全性。"
+          },
+          "style": "inset-left",
+          "image": "/assets/images/product-categories/stock/lemo/diagnostic.jpg",
+          "caption": {
+            "en": "An instrument and handheld probe during a diagnostic examination.",
+            "zh": "诊断检查中的仪器与手持探头。"
+          }
+        },
+        {
+          "id": "aerospace",
+          "title": {
+            "en": "Aerospace Projects: Specify Evidence Before Supply",
+            "zh": "航空航天项目：先明确交付证据"
+          },
+          "copy": {
+            "en": "A project-specific aerospace lead may require controlled materials, traceability, environmental tests and document retention beyond a general industrial assembly. Confirm those requirements before selecting parts or quoting. A familiar connector family is not proof that a cable is approved for flight or a defense program. The released drawing, accepted sources, manufacturing records and customer qualification route must describe the same configuration throughout the project.",
+            "zh": "航空航天项目引线可能要求超出普通工业组件的受控材料、追溯、环境试验及文件保存。应在选料或报价前确认这些要求，熟悉的接头系列不能证明电缆获得飞行或防务项目认可。放行图纸、认可来源、制造记录及客户资格路径应在整个项目中对应同一配置。"
+          },
+          "style": "feature-right",
+          "image": "/assets/images/product-categories/stock/lemo/aerospace.jpg",
+          "caption": {
+            "en": "Archival spacecraft connector inspection; no program affiliation or product qualification implied.",
+            "zh": "航天器接头检查档案实拍，不表示项目关联或产品资格。"
+          }
+        },
+        {
+          "id": "bend",
+          "title": {
+            "en": "Bend Protection: A Gradual Transition",
+            "zh": "弯曲保护：形成渐变过渡"
+          },
+          "copy": {
+            "en": "The exit from a rigid connector to a flexible cable concentrates bending. A bend relief should spread curvature over a useful length rather than move the sharp bend to its own end. Review the cable jacket, relief stiffness and available installation space together. An overly rigid boot can be as troublesome as no support. Prototype evaluation should reproduce the actual angle and repeated motion, with the connector held as it will be in use.",
+            "zh": "从刚性接头到柔性电缆的出口容易集中弯曲，应力释放套应将曲率分散到有效长度，而不是把急弯转移到自身末端。需共同审核护套、尾套刚度及安装空间，过硬尾套可能与缺少支撑一样造成问题。样品评估应复现实际角度及重复运动，并按使用方式固定接头。"
+          },
+          "style": "wide",
+          "image": "/assets/images/product-categories/stock/lemo/bend.jpg",
+          "caption": {
+            "en": "A repaired power-lead exit illustrates a stiffness transition, not a specified production design.",
+            "zh": "修复后的电源出线端说明刚度过渡，不作为指定量产设计。"
+          }
+        },
+        {
+          "id": "overmold",
+          "title": {
+            "en": "Overmolding: Material, Adhesion and Serviceability",
+            "zh": "注塑包胶：材料、结合与可维修性"
+          },
+          "copy": {
+            "en": "An overmold can provide shape control, protection and labeling at a cable junction. It does not automatically bond to every jacket or seal every hidden path. Match molding material and process conditions to the cable and insert, keeping the release mechanism free. Consider whether repair is required: a sealed-looking one-piece exterior can make internal rework impractical. Agree tooling, surface expectations and verification on a representative sample before production.",
+            "zh": "包胶可在电缆连接处提供外形、防护及标识，但不会自动与所有护套结合或封住全部隐藏通路。应使包胶材料及工艺条件适应线缆和嵌件，并保持解锁机构自由动作。还需考虑维修需求，一体化外观可能使内部返工难以实施。生产前应通过代表性样品认可工装、表面要求及验证方式。"
+          },
+          "style": "inset-right",
+          "image": "/assets/images/product-categories/stock/lemo/overmold.jpg",
+          "caption": {
+            "en": "Injection-molding equipment illustrates tooling and process context.",
+            "zh": "注塑设备说明工装及工艺环境。"
+          }
+        },
+        {
+          "id": "pull",
+          "title": {
+            "en": "Cable Collets and Pull-Load Transfer",
+            "zh": "电缆夹头与拉力传递"
+          },
+          "copy": {
+            "en": "The cable collet must fit the actual jacket diameter, not just the conductor gauge. Its purpose is to transfer mechanical load through the supported jacket rather than the electrical termination. Cable ovality, soft insulation and dimensional tolerance affect the fit. Define an agreed pull check where required and inspect for both slip and jacket damage. Do not compensate for a wrong collet by tightening without reference to the assembly instructions.",
+            "zh": "电缆夹头应适配实际护套外径，而不是只看导体线规。其作用是通过受支撑护套传递机械载荷，避免载荷进入电气端接。线缆椭圆度、软绝缘及尺寸公差都会影响配合；如有要求，应约定拉力检查，同时检查滑移与护套损伤。不能脱离装配说明，单纯靠加大拧紧力度补偿夹头不匹配。"
+          },
+          "style": "compact",
+          "image": "/assets/images/product-categories/stock/lemo/pull.jpg",
+          "caption": {
+            "en": "Disassembled cable gland shows jacket clamping components; it is not a LEMO collet.",
+            "zh": "拆开的电缆接头显示护套夹紧零件，并非 LEMO 夹头。"
+          }
+        },
+        {
+          "id": "flex",
+          "title": {
+            "en": "High-Flex Duty: Observe the Complete Motion",
+            "zh": "高柔性工况：观察完整运动"
+          },
+          "copy": {
+            "en": "Repeated bending, torsion and coil extension place different demands on conductors and insulation. Define the motion profile, travel, acceleration, temperature and target evaluation before choosing cable construction. Place clamps so movement occurs in the intended flex zone. A successful connector pull test is not evidence of dynamic cable life. If a prototype fails, review the location and failure mode before simply adding a thicker jacket or longer boot.",
+            "zh": "反复弯曲、扭转及螺旋伸展对导体和绝缘提出不同要求。选择线缆结构前应明确运动轨迹、行程、加速度、温度及目标评估，并通过固定夹让运动发生在预定柔性区域。接头拉力测试合格不能证明动态线缆寿命，样品失效后应先分析位置及模式，而不是简单增加护套厚度或尾套长度。"
+          },
+          "style": "compact",
+          "image": "/assets/images/product-categories/stock/lemo/flex.jpg",
+          "caption": {
+            "en": "A cable carrier illustrates the defined bend path of a moving installation.",
+            "zh": "拖链说明运动安装中明确的弯曲路径。"
+          }
+        },
+        {
+          "id": "pinout",
+          "title": {
+            "en": "From Mating Sample to Controlled Pinout",
+            "zh": "从对插样品到受控针脚表"
+          },
+          "copy": {
+            "en": "Start with the equipment receptacle reference and a clearly stated view of the contacts. Front mating views and rear wiring views can appear mirrored. Confirm circuit names, polarity, shield assignment and any unused cavities before building a sample. Shell markings may identify only part of the connector designation, so retain the full approved part number. An adapter between brands is a new defined circuit, not automatic electrical interchangeability.",
+            "zh": "从设备插座料号及明确的触点观察方向开始。正面对插视图与背面接线视图可能呈镜像，打样前应确认回路名称、极性、屏蔽分配及空余孔位。壳体标记可能只涵盖接头名称的一部分，因此需保留完整认可料号。跨品牌转接线属于重新定义的回路，不代表电气上自动互换。"
+          },
+          "style": "inset-left",
+          "image": "/assets/images/product-categories/stock/lemo/pinout.jpg",
+          "caption": {
+            "en": "An archival connector test interface with clearly labeled positions.",
+            "zh": "带清晰位置标记的接头测试接口档案实拍。"
+          }
+        },
+        {
+          "id": "termination",
+          "title": {
+            "en": "Solder, Crimp and Shield Termination",
+            "zh": "焊接、压接与屏蔽端接"
+          },
+          "copy": {
+            "en": "Termination follows the selected contact and cable. Soldering requires controlled stripping and heat input without allowing an excessively stiff solder-wicked section to enter the flex zone. Crimping requires the specified contact, wire range and tooling. The shield needs its own defined termination rather than incidental contact with the shell. Keep conductor preparation, insulation clearance and final inspection consistent between the approved sample and repeat builds.",
+            "zh": "端接应跟随所选触点与线缆。焊接需要受控剥线及热输入，避免过长吸锡硬化段进入弯曲区域；压接则需匹配指定端子、适用线材和工装。屏蔽应有明确端接方式，不能依靠与外壳偶然接触。认可样品和重复生产之间，应保持导体准备、绝缘间隙及最终检查一致。"
+          },
+          "style": "wide",
+          "image": "/assets/images/product-categories/stock/lemo/termination.jpg",
+          "caption": {
+            "en": "A soldering tool illustrates controlled electrical termination work.",
+            "zh": "焊接工具说明受控电气端接作业。"
+          }
+        },
+        {
+          "id": "extension",
+          "title": {
+            "en": "Extensions: Check the Whole Electrical Path",
+            "zh": "延长组件：检查完整电气路径"
+          },
+          "copy": {
+            "en": "An extension adds conductor length and another pair of contacts. For power this changes voltage drop and heating; for data it changes the channel loss and discontinuities. Retain the intended twisted pairs, coaxial construction and shield path through the assembly. Validate the complete connection with the actual equipment or agreed electrical method. A high-speed connector attached to an unsuitable cable cannot restore the performance lost elsewhere in the channel.",
+            "zh": "延长组件增加导体长度及一组触点。对于供电，这会改变压降与发热；对于数据，则会改变通道损耗及不连续性。应在组件内保留预定双绞对、同轴结构和屏蔽通路，并使用实际设备或约定电气方法验证完整连接。高速接头接上不适合的电缆，无法恢复通道其他位置已经损失的性能。"
+          },
+          "style": "feature-left",
+          "image": "/assets/images/product-categories/stock/lemo/extension.jpg",
+          "caption": {
+            "en": "A bench amplifier measurement illustrates checking the complete electrical path.",
+            "zh": "台面放大器测量说明完整电气通路检查。"
+          }
+        },
+        {
+          "id": "release",
+          "title": {
+            "en": "Sample Approval and Repeat Production",
+            "zh": "样品认可与重复生产"
+          },
+          "copy": {
+            "en": "A useful sample approval records more than whether the plug fits. Confirm pinout, length datums, cable exit, labeling, latch access and the required inspection results. Transfer accepted choices into the drawing and material list before repeat production. Continuity and visual inspection form the basic release checks; additional electrical, mechanical or environmental checks follow the agreed project requirements. Changes to the cable, contact, plating or supplier need review before substitution.",
+            "zh": "有效样品认可不只是确认插头能插入，还应确认针脚、长度基准、出线方式、标识、解锁空间及规定检验结果。重复生产前，将认可选择转为图纸与物料清单。导通及外观检查构成基础放行项目，其他电气、机械或环境检查按约定项目要求执行。线缆、触点、镀层或供应来源变化，应在替换前审核。"
+          },
+          "style": "process",
+          "image": "/assets/images/product-categories/stock/lemo/release.jpg",
+          "caption": {
+            "en": "An electrical continuity tester illustrates basic circuit verification.",
+            "zh": "电气导通测试器说明基础回路验证。"
+          }
+        }
+      ],
+      "composition": [
+        {
+          "kind": "single",
+          "items": [
+            0
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            1
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            2
+          ]
+        },
+        {
+          "kind": "pair",
+          "items": [
+            3,
+            4
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            5
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            6
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            7
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            8
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            9
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            10
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            11
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            12
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            13
+          ]
+        },
+        {
+          "kind": "pair",
+          "items": [
+            14,
+            15
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            16
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            17
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            18
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            19
+          ]
+        },
+        {
+          "kind": "pair",
+          "items": [
+            20,
+            21
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            22
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            23
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            24
+          ]
+        },
+        {
+          "kind": "single",
+          "items": [
+            25
+          ]
+        }
+      ],
+      "guide": [
+        {
+          "index": 1,
+          "label": {
+            "en": "Push-pull mechanism",
+            "zh": "推拉机构"
+          }
+        },
+        {
+          "index": 2,
+          "label": {
+            "en": "Series selection",
+            "zh": "系列选择"
+          }
+        },
+        {
+          "index": 9,
+          "label": {
+            "en": "Finish and durability",
+            "zh": "表面与耐久"
+          }
+        },
+        {
+          "index": 18,
+          "label": {
+            "en": "Strain relief",
+            "zh": "应力释放"
+          }
+        },
+        {
+          "index": 22,
+          "label": {
+            "en": "Production",
+            "zh": "生产"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "en": "Are these original LEMO parts or compatible alternatives?",
+            "zh": "采用原装 LEMO 零件还是兼容替代件？"
+          },
+          "a": {
+            "en": "The quotation and approved material list must identify which is supplied. Original parts and alternatives are not presented as the same product, and this page does not imply authorization by LEMO.",
+            "zh": "报价及认可物料清单应明确所供应的类型。原装件与替代件不会被作为同一产品表述，本页不表示获得 LEMO 品牌授权。"
+          }
+        },
+        {
+          "q": {
+            "en": "Are all push-pull connectors waterproof?",
+            "zh": "所有推拉接头都防水吗？"
+          },
+          "a": {
+            "en": "No. Protected indoor and sealed outdoor configurations differ. Confirm the exact series, cable seal and mating condition, then define any required assembly test.",
+            "zh": "不是。受保护室内配置与户外密封配置不同，应确认具体系列、电缆密封及对插状态，再规定所需组件试验。"
+          }
+        },
+        {
+          "q": {
+            "en": "Can you make an extension or adapter?",
+            "zh": "可以制作延长线或转接线吗？"
+          },
+          "a": {
+            "en": "Yes, subject to review of both interfaces, pinout, cable length and signal or power requirements. Physical mating alone is insufficient to define an adapter.",
+            "zh": "可以，需审核两端接口、针脚、线长及信号或供电要求，仅物理对插不足以定义转接组件。"
+          }
+        },
+        {
+          "q": {
+            "en": "What is needed for a coiled cable quotation?",
+            "zh": "螺旋电缆报价需要什么资料？"
+          },
+          "a": {
+            "en": "Specify relaxed and usable extended lengths, coil diameter, straight tails, conductor requirements, connectors and expected movement. Restoring force and mounting space also need review.",
+            "zh": "请说明收缩与可用伸展长度、圈径、两端直线段、导体要求、接头及预期运动，还需审核回弹力与安装空间。"
+          }
+        },
+        {
+          "q": {
+            "en": "Can a photograph identify the full connector?",
+            "zh": "一张照片能识别完整接头吗？"
+          },
+          "a": {
+            "en": "It can start the review, but the complete designation, insert, contact orientation and cable collet may need drawings or the mating sample. We do not infer a final pinout from appearance.",
+            "zh": "照片可以开始审核，但完整名称、绝缘体、触点方向及电缆夹头可能需要图纸或对插样品，不会从外观推定最终针脚。"
+          }
+        },
+        {
+          "q": {
+            "en": "Does a connector rating certify the finished cable?",
+            "zh": "接头额定值代表成品电缆认证吗？"
+          },
+          "a": {
+            "en": "No. Complete-assembly performance depends on the cable, termination, mounting and application. Required evidence and testing must be agreed for the actual configuration.",
+            "zh": "不代表。完整组件表现取决于线缆、端接、安装及应用，所需证据和试验应针对实际配置约定。"
+          }
+        }
+      ],
+      "creditHeading": {
+        "en": "Photo Sources and Context",
+        "zh": "图片来源与使用说明"
+      },
+      "hasAiImages": false,
+      "hasOwnImages": false,
+      "mediaCredits": [
+        {
+          "file": "Stuart Marshall connecting the LSST Camera vacuum system (IMG 1506-CC).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Stuart_Marshall_connecting_the_LSST_Camera_vacuum_system_(IMG_1506-CC).jpg",
+          "author": "RubinObs/NOIRLab/SLAC/NSF/DOE/AURA/Y. Utsumi",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "file": "10-pin Lemo connector.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:10-pin_Lemo_connector.jpg",
+          "author": "PeterFisk",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Peristaltic pump.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Peristaltic_pump.jpg",
+          "author": "Cjp24",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "6-pin Lemo connectors.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:6-pin_Lemo_connectors.jpg",
+          "author": "PeterFisk",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Esselte oscilloscope.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Esselte_oscilloscope.jpg",
+          "author": "Unnerving duck",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        },
+        {
+          "file": "Electric Barrier Testing (6299734414).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Electric_Barrier_Testing_(6299734414).jpg",
+          "author": "U.S. Fish and Wildlife Service - Midwest Region",
+          "license": "Public domain",
+          "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain"
+        },
+        {
+          "file": "LEMO 00.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:LEMO_00.jpg",
+          "author": "Sergio.ballestrero at English Wikipedia",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+        },
+        {
+          "file": "LLDPE.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:LLDPE.jpg",
+          "author": "Cjp24",
+          "license": "Public domain",
+          "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain"
+        },
+        {
+          "file": "Titel 250n 11 email(Small).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Titel_250n_11_email(Small).jpg",
+          "author": "Original uploader was NGroom at en.wikipedia",
+          "license": "Public domain",
+          "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain"
+        },
+        {
+          "file": "Cord - Flickr - Kevin Doncaster.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cord_-_Flickr_-_Kevin_Doncaster.jpg",
+          "author": "Kevin Doncaster from Ruskington, England",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+        },
+        {
+          "file": "UltrasoundProbe2006a.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:UltrasoundProbe2006a.jpg",
+          "author": "The original uploader was Drickey at English Wikipedia.",
+          "license": "CC BY-SA 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+        },
+        {
+          "file": "Gold connector.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Gold_connector.jpg",
+          "author": "Hi-Res Images of Chemical Elements",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+        },
+        {
+          "file": "Nickel sheet, 1.7 grams, 1 x 2 cm..jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Nickel_sheet,_1.7_grams,_1_x_2_cm..jpg",
+          "author": "Hi-Res Images of Chemical Elements",
+          "license": "CC BY 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+        },
+        {
+          "file": "Salt spray chamber.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Salt_spray_chamber.jpg",
+          "author": "Cjp24",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Micrometers.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Micrometers.jpg",
+          "author": "Splarka at English Wikipedia",
+          "license": "Public domain",
+          "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain"
+        },
+        {
+          "file": "Oscilloscope probe.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Oscilloscope_probe.jpg",
+          "author": "No machine-readable author provided. Severino666~commonswiki assumed (based on copyright claims).",
+          "license": "Public domain",
+          "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain"
+        },
+        {
+          "file": "Yellow Network Cables Patchpanel rear.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Yellow_Network_Cables_Patchpanel_rear.jpg",
+          "author": "Matthäus Wander",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "file": "Broadcast camera.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Broadcast_camera.jpg",
+          "author": "Knelstrom",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+        },
+        {
+          "file": "Transient Elastography (Fibroscan) of the Liver.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Transient_Elastography_(Fibroscan)_of_the_Liver.jpg",
+          "author": "Goleisureintl",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "AST-05-303 - Apollo Soyuz Test Project - Apollo Soyuz Test Project, Stafford checks Electrical Connectors in Tunnel - NARA - 16627727.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:AST-05-303_-_Apollo_Soyuz_Test_Project_-_Apollo_Soyuz_Test_Project,_Stafford_checks_Electrical_Connectors_in_Tunnel_-_NARA_-_16627727.jpg",
+          "author": "Unknown authorUnknown author or not provided",
+          "license": "Public domain",
+          "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain"
+        },
+        {
+          "file": "Power brick strain relief (4738600929).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Power_brick_strain_relief_(4738600929).jpg",
+          "author": "Micah Elizabeth Scott from San Francisco, United States",
+          "license": "CC BY-SA 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+        },
+        {
+          "file": "Injection moulding machine.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Injection_moulding_machine.jpg",
+          "author": "Rohini",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "M16 cable gland.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:M16_cable_gland.jpg",
+          "author": "Phiarc",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        },
+        {
+          "file": "Cable drag chain-plastic.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Cable_drag_chain-plastic.jpg",
+          "author": "Matthias Krüger",
+          "license": "CC BY 2.5",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+        },
+        {
+          "file": "23 0048825 Convair Negative Image - REM test connector interface test box (53837388035).jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:23_0048825_Convair_Negative_Image_-_REM_test_connector_interface_test_box_(53837388035).jpg",
+          "author": "San Diego Air & Space Museum Archives",
+          "license": "Public domain",
+          "licenseUrl": "https://commons.wikimedia.org/wiki/Commons:Public_domain"
+        },
+        {
+          "file": "Pinecil USB C soldering iron.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Pinecil_USB_C_soldering_iron.jpg",
+          "author": "4300streetcar",
+          "license": "CC BY 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+        },
+        {
+          "file": "Testing an amplifier for gain.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Testing_an_amplifier_for_gain.JPG",
+          "author": "Jstapko",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+        },
+        {
+          "file": "Electrical Continuity tester.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Electrical_Continuity_tester.jpg",
+          "author": "Suyash Dwivedi",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+        }
+      ]
+    }
+  },
   "connector-systems-09": {
     "title": {
       "en": "FCI Compatible Cable Assemblies",

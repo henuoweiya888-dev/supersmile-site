@@ -1,6 +1,6 @@
 # FCI compatible cable assemblies
 
-Status: 34 original bilingual chapters, 7 FAQs and 36 unique licensed real photographs complete. Local EN/ZH checks passed at 1280, 390 and 320 px: no broken images, overflow, script errors or photo-edge violations; fixed header, inquiry route, return route and FAQ verified. Desktop/mobile screenshot crops inspected. Publication pending public verification.
+Status: published and publicly verified at commit 36ca797. 34 original bilingual chapters, 7 FAQs and 36 unique licensed real photographs. Local EN/ZH 1280/390/320 and fresh public EN/ZH 1280/390 runs passed: no broken images, overflow, script errors or photo-edge violations; fixed header, inquiry route, return route and FAQ verified. Desktop/mobile public screenshot crops inspected. Navigation: 6 groups, 50 active, 33 pending, inactive entries have no links. First public desktop request overlapped deployment and timed out; the complete fresh second run passed.
 
 ## Reference outline
 
