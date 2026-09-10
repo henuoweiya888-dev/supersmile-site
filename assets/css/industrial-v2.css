@@ -158,6 +158,56 @@ body[data-category-key="automotive-06"] .pcc-hero-media img{object-position:58% 
   .pcc-trailer-points{grid-template-columns:1fr;gap:10px;margin-top:13px}
 }
 
+/* Vehicle lighting harness: optical circuit editorial sequence */
+body[data-category-key="automotive-07"] .pcc-hero{background:#0b0c0e;color:#f4f1ea}
+body[data-category-key="automotive-07"] .pcc-hero-media:after{background:linear-gradient(90deg,rgba(4,5,7,.97),rgba(4,5,7,.64) 56%,rgba(4,5,7,.18))}
+body[data-category-key="automotive-07"] .pcc-hero-media img{object-position:65% 52%;filter:saturate(.44) contrast(1.28) brightness(.6)}
+.pcc-lighting-media{position:relative;min-width:0;margin:0;overflow:hidden;background:#111315}
+.pcc-lighting-media img{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:cover;filter:saturate(.53) contrast(1.2) brightness(.84)}
+.pcc-lighting-opening{display:grid;grid-template-columns:minmax(0,1.22fr) minmax(310px,.78fr);height:326px;background:#d9d7cf;color:#171719}
+.pcc-lighting-opening-copy{align-self:center;padding:35px clamp(38px,6vw,92px)}
+.pcc-lighting-opening-copy>span,.pcc-lighting-index>p{font-family:var(--v2-mono);font-size:8.5px;letter-spacing:.17em;text-transform:uppercase;color:#765847}
+.pcc-lighting-opening-copy h2{max-width:900px;margin:10px 0 12px;font-size:clamp(29px,3vw,46px);font-weight:520;line-height:1.04;letter-spacing:-.037em}
+.pcc-lighting-opening-copy>p,.pcc-lighting-summary,.pcc-lighting-points p{margin:0;text-indent:2em}
+.pcc-lighting-opening-copy>p{max-width:900px;color:#5b5751;font-size:13.6px;line-height:1.75}
+.pcc-lighting-opening-media{height:326px}.pcc-lighting-opening-media img{object-position:center 48%}
+.pcc-lighting-circuit{display:flex;align-items:center;gap:8px;max-width:620px;margin-top:20px;color:#574a40;font-family:var(--v2-mono);font-size:8px;letter-spacing:.09em}
+.pcc-lighting-circuit i{position:relative;flex:1;height:1px;background:#a99b8f}.pcc-lighting-circuit i:after{content:"";position:absolute;right:0;top:-2px;width:5px;height:5px;border-radius:50%;background:#f1522c}
+.pcc-lighting-sequence{background:#f3f0e8}
+.pcc-lighting-chapter{display:grid;grid-template-columns:minmax(115px,.28fr) minmax(0,1.25fr) minmax(260px,.67fr);min-height:278px;border-bottom:1px solid rgba(30,30,28,.13)}
+.pcc-lighting-index{align-self:stretch;padding:29px clamp(18px,2.5vw,38px);border-inline-end:1px solid rgba(30,30,28,.12)}
+.pcc-lighting-index>span{display:block;margin-bottom:13px;color:#ef522e;font-family:var(--v2-mono);font-size:20px}
+.pcc-lighting-index>p{margin:0;line-height:1.45;writing-mode:vertical-rl}
+.pcc-lighting-copy{align-self:center;padding:27px clamp(32px,5vw,78px)}
+.pcc-lighting-copy h2{max-width:900px;margin:0 0 10px;font-size:clamp(20px,1.9vw,29px);font-weight:540;line-height:1.13;letter-spacing:-.026em}
+.pcc-lighting-summary{max-width:980px;color:#4e4d4a;font-size:12.8px;line-height:1.73}
+.pcc-lighting-points{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin-top:15px}
+.pcc-lighting-points section{position:relative;padding-inline-start:12px}.pcc-lighting-points section:before{content:"";position:absolute;left:0;top:3px;width:2px;height:25px;background:#ef522e}
+.pcc-lighting-points h3{margin:0 0 3px;font-size:12px;font-weight:650}.pcc-lighting-points p{color:#716e68;font-size:11.2px;line-height:1.52}
+.pcc-lighting-chapter>.pcc-lighting-media{grid-column:3;grid-row:1;min-height:278px}
+.pcc-lighting-chapter:nth-child(even){grid-template-columns:minmax(260px,.67fr) minmax(115px,.28fr) minmax(0,1.25fr);background:#dedbd2}
+.pcc-lighting-chapter:nth-child(even)>.pcc-lighting-media{grid-column:1}.pcc-lighting-chapter:nth-child(even)>.pcc-lighting-index{grid-column:2}.pcc-lighting-chapter:nth-child(even)>.pcc-lighting-copy{grid-column:3}
+.pcc-lighting-chapter:nth-child(4),.pcc-lighting-chapter:nth-child(8){background:#17181b;color:#f1eee6}
+.pcc-lighting-chapter:nth-child(4) .pcc-lighting-index,.pcc-lighting-chapter:nth-child(8) .pcc-lighting-index{border-color:rgba(255,255,255,.13)}
+.pcc-lighting-chapter:nth-child(4) .pcc-lighting-summary,.pcc-lighting-chapter:nth-child(4) .pcc-lighting-points p,.pcc-lighting-chapter:nth-child(8) .pcc-lighting-summary,.pcc-lighting-chapter:nth-child(8) .pcc-lighting-points p{color:rgba(241,238,230,.7)}
+.pcc-lighting-chapter-1 .pcc-lighting-media img{object-position:center 60%}.pcc-lighting-chapter-2 .pcc-lighting-media img{object-position:center 54%}.pcc-lighting-chapter-3 .pcc-lighting-media img{object-position:center 42%}.pcc-lighting-chapter-5 .pcc-lighting-media img{object-position:center 62%}.pcc-lighting-chapter-7 .pcc-lighting-media img{object-position:center 67%}
+.pcc-lighting-faq{padding-block:45px;background:#d8d6cf}
+@media(max-width:1040px){
+  .pcc-lighting-chapter,.pcc-lighting-chapter:nth-child(even){grid-template-columns:90px minmax(0,1.32fr) minmax(220px,.68fr)}
+  .pcc-lighting-chapter:nth-child(even)>.pcc-lighting-media{grid-column:3}.pcc-lighting-chapter:nth-child(even)>.pcc-lighting-index{grid-column:1}.pcc-lighting-chapter:nth-child(even)>.pcc-lighting-copy{grid-column:2}
+  .pcc-lighting-copy{padding:25px 29px}.pcc-lighting-index{padding:25px 20px}
+}
+@media(max-width:760px){.pcc-lighting-opening{grid-template-columns:1.08fr .92fr}.pcc-lighting-opening-copy{padding:29px 25px}}
+@media(max-width:640px){
+  .pcc-lighting-opening{display:flex;flex-direction:column;height:auto}.pcc-lighting-opening-copy{padding:26px var(--v2-mobile-gutter) 28px}.pcc-lighting-opening-copy h2{font-size:27px}.pcc-lighting-opening-media{height:183px;margin-inline:calc(var(--v2-mobile-gutter)*-1)}
+  .pcc-lighting-circuit{gap:5px;font-size:7px}.pcc-lighting-circuit i{min-width:11px}
+  .pcc-lighting-chapter,.pcc-lighting-chapter:nth-child(even){display:grid;grid-template-columns:1fr;min-height:0;padding:0 var(--v2-mobile-gutter) 25px}
+  .pcc-lighting-chapter>.pcc-lighting-index,.pcc-lighting-chapter:nth-child(even)>.pcc-lighting-index{grid-column:1;grid-row:auto;display:flex;align-items:baseline;gap:10px;padding:19px 0 8px;border:0}.pcc-lighting-index>span{margin:0;font-size:15px}.pcc-lighting-index>p{writing-mode:horizontal-tb}
+  .pcc-lighting-chapter>.pcc-lighting-copy,.pcc-lighting-chapter:nth-child(even)>.pcc-lighting-copy{grid-column:1;grid-row:auto;padding:0 0 16px}.pcc-lighting-copy h2{font-size:21px}.pcc-lighting-summary{font-size:12.6px}
+  .pcc-lighting-chapter>.pcc-lighting-media,.pcc-lighting-chapter:nth-child(even)>.pcc-lighting-media{grid-column:1;grid-row:auto;height:175px;min-height:0;margin-inline:calc(var(--v2-mobile-gutter)*-1)}
+  .pcc-lighting-points{grid-template-columns:1fr;gap:10px;margin-top:13px}
+}
+
 /* LVDS cable assembly: compact signal-path map */
 body[data-category-key="cable-assembly-10"] .pcc-hero{background:#0d1215;color:#f2f5f4}
 body[data-category-key="cable-assembly-10"] .pcc-hero-media:after{background:linear-gradient(90deg,rgba(9,14,17,.93),rgba(9,14,17,.56) 55%,rgba(9,14,17,.18))}
