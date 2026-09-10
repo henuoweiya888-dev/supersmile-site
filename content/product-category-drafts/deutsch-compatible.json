@@ -1,0 +1,547 @@
+{
+  "key": "connector-systems-04",
+  "slug": "deutsch-compatible",
+  "title": {
+    "en": "Deutsch Compatible Assemblies",
+    "zh": "Deutsch 兼容组件"
+  },
+  "seoTitle": "Custom Deutsch Wire Harnesses | DT, DTM, DTP, DTHD, HDP20 & HD30 | Super Smile",
+  "intro": {
+    "en": "Application-specific DEUTSCH-interface harnesses for equipment and vehicle wiring, with matched housings, contacts, seals, branch layouts and inspection requirements.",
+    "zh": "面向设备与车辆配线的 DEUTSCH 接口定制线束，成套匹配胶壳、端子、密封件、分支布局与检验要求。"
+  },
+  "knowledge": {
+    "en": "DT, DTM and DTP use different contact sizes. Circular HDP20/HD30 and single-pole DTHD also require exact identification.",
+    "zh": "DT、DTM 与 DTP 使用不同接点规格，圆形 HDP20／HD30 和单极 DTHD 同样需要准确识别。"
+  },
+  "notes": {
+    "en": "Provide full mating references, wire sizes and insulation diameters, pin map, dimensions, operating conditions and quantities.",
+    "zh": "请提供完整对插型号、线径与绝缘外径、针脚表、尺寸、运行条件和数量。"
+  },
+  "delivery": {
+    "en": "Approve the component combination, tooling and first article before releasing repeat assembly and agreed verification.",
+    "zh": "认可零件组合、工装与首件后，再放行重复装配和约定验证。"
+  },
+  "page": {
+    "layout": "technical-editorial",
+    "theme": "rugged-connections",
+    "headings": {
+      "introduction": {
+        "en": "What Is a DEUTSCH Harness?",
+        "zh": "什么是 DEUTSCH 接口线束？"
+      },
+      "faq": {
+        "en": "Selection and Assembly Questions",
+        "zh": "选型与装配常见问题"
+      }
+    },
+    "subtitle": {
+      "en": "Separate the family, the circuit and the environment",
+      "zh": "区分系列、回路与环境"
+    },
+    "lead": {
+      "en": "DEUTSCH, a TE Connectivity brand, covers multiple connection systems rather than a single waterproof plug. A harness may combine compact sensor branches, auxiliary power leads, panel interfaces and service disconnects, each with a different duty. Super Smile can review the cable assembly from your drawing, sample or confirmed mating references. We specify the requested component combination and distinguish original branded parts from any proposed alternative on the approved BOM. Brand names describe interfaces and do not imply authorization or endorsement. The guide below follows the series, application, lead-time and pricing topics, with additional assembly and sealing checks for practical procurement.",
+      "zh": "DEUTSCH 是 TE Connectivity 旗下品牌，涵盖多种连接系统，并不是一种通用防水插头。一套线束可同时包含紧凑传感器分支、辅助供电线、面板接口和维修断开点，各自工况不同。超斯迈尔可依据图纸、样品或明确对插型号审核电缆组件，规定所需零件组合，并在认可物料表中区分原厂品牌件与任何拟议替代件。品牌名称用于描述接口，不代表授权或背书。以下围绕系列、应用、交期与报价展开，并加入实际采购所需的装配和密封检查。"
+    },
+    "images": {
+      "hero": "/assets/images/product-categories/stock/deutsch/hero.jpg",
+      "range": "/assets/images/product-categories/stock/deutsch/range.jpg"
+    },
+    "openingCaption": {
+      "en": "AI illustration of sealed-connector components, not an exact DEUTSCH part or dimensional reference.",
+      "zh": "密封连接器零件 AI 示意，不代表准确 DEUTSCH 料号或尺寸依据。"
+    },
+    "chapters": [
+      {
+        "id": "dt",
+        "style": "wide",
+        "title": {
+          "en": "DT Series · General Equipment Connections",
+          "zh": "DT 系列 · 通用设备连接"
+        },
+        "copy": {
+          "en": "DEUTSCH DT is a sealed connection family used for cable-to-cable, cable-to-board and cable-to-device arrangements. The familiar DT range uses size 16 contacts, with common 2-, 3-, 4-, 6-, 8- and 12-cavity layouts. These numbers describe different things: contact size is not the wire's AWG and cavity count does not define the electrical pinout. A complete specification includes both housing references, keying, seal option, contacts and wedgelocks. DT04 and DT06 are useful search prefixes, but their remaining characters matter. Confirm the full part number and mating drawing rather than ordering by gray color or a two-pin photograph.",
+          "zh": "DEUTSCH DT 是用于线对线、线对板和线对设备的密封连接系列。常见 DT 系列使用 16 号接点，常见腔位配置有 2、3、4、6、8 和 12 位。这些数字含义不同：接点规格不是导线 AWG，腔位数量也不定义电气针序。完整规格包含两侧胶壳型号、键位、密封选项、端子和楔形锁。DT04、DT06 是实用的检索前缀，但后续字符同样重要。应确认完整料号与对插图纸，而不是按灰色外观或两针照片采购。"
+        },
+        "image": "/assets/images/product-categories/stock/deutsch/dt.jpg",
+        "caption": {
+          "en": "Equipment context: crane drive motor; the photograph does not identify its connector family.",
+          "zh": "设备场景：起重机驱动电机，照片不用于确认其接头系列。"
+        }
+      },
+      {
+        "id": "dtm",
+        "style": "inset-left",
+        "title": {
+          "en": "DTM Series · Compact Signal Branches",
+          "zh": "DTM 系列 · 紧凑信号分支"
+        },
+        "copy": {
+          "en": "DTM uses the smaller size 20 contact system and is intended for lower-current multi-circuit connections. It can be relevant to sensors, switches and compact control branches where the approved equipment interface calls for it. It is not a miniature DT that can accept DT terminals or mate to a DT housing. Review conductor size and insulation diameter separately: the rear seal must fit the insulation while the contact barrel must fit the conductor. Choose the required cavity count and locking accessories, then define branch length, cable restraint and service access. A smaller housing should not be used to reduce space without checking the complete electrical and mechanical duty.",
+          "zh": "DTM 使用较小的 20 号接点系统，面向较低电流的多回路连接；在设备认可接口要求下，可用于传感器、开关及紧凑控制分支。它不是能够装入 DT 端子或对插 DT 胶壳的缩小版 DT。导体线径与绝缘外径应分别审核：后部线封需匹配绝缘，压接筒需匹配导体。选定腔位数和锁止附件后，再定义分支长度、电缆固定与检修通道。不能只为节省空间就选更小胶壳，而忽略完整电气和机械工况。"
+        },
+        "image": "/assets/images/product-categories/stock/deutsch/dtm.jpg",
+        "caption": {
+          "en": "Sensor reference: throttle-position sensing requires an accurately defined signal connection.",
+          "zh": "传感器参考：节气门位置检测需要准确的信号连接定义。"
+        }
+      },
+      {
+        "id": "dtp",
+        "style": "feature-right",
+        "title": {
+          "en": "DTP Series · Power Branches",
+          "zh": "DTP 系列 · 供电分支"
+        },
+        "copy": {
+          "en": "DTP supports size 12 contacts in two- and four-cavity arrangements. TE lists a 25 A contact capability for this system, but that figure is not a blanket rating for any assembled cable. Wire size, ambient temperature, simultaneously loaded circuits, termination quality and the installation route still require review. A fan, pump or auxiliary actuator may have a starting current above its steady load; record both before defining the harness. Specify the mating pair and protection strategy, not only a larger conductor. Keep unsupported cable weight and sharp bends away from the rear seal. A power connection also needs an agreed method for safe isolation during servicing.",
+          "zh": "DTP 支持 12 号接点，具有两位和四位配置。TE 为该系统列出 25 A 接点能力，但这不是任意成品电缆的统一额定值；线径、环境温度、同时带载回路、端接质量与安装路线仍需审核。风扇、泵或辅助执行器的启动电流可能高于稳态负载，定义线束前应记录两者。规格要包含对插组合和保护策略，而不只是加粗导体。悬空电缆重量与急弯应远离后部线封，供电连接还需要约定安全检修隔离方式。"
+        },
+        "image": "/assets/images/product-categories/stock/deutsch/dtp.jpg",
+        "caption": {
+          "en": "Load reference: cooling fan assembly; check starting current as well as steady load.",
+          "zh": "负载参考：冷却风扇总成，需同时核对启动电流与稳态负载。"
+        }
+      },
+      {
+        "id": "dthd",
+        "style": "compact",
+        "title": {
+          "en": "DTHD Series · Single-Circuit Disconnects",
+          "zh": "DTHD 系列 · 单回路断开接口"
+        },
+        "copy": {
+          "en": "DTHD is a single-terminal, circular thermoplastic connector family that can provide a serviceable alternative to a permanent splice. TE identifies versions for contact sizes 12, 8 and 4; those versions do not share one universal current or cable range. Begin with the selected mating parts and contact specification, then determine conductor cross-section, insulation diameter, cable support and available installation space. A single pole is only one circuit conductor: the return path and circuit protection must still be defined elsewhere in the system. DTHD is not automatically a high-voltage connector simply because it is used for a higher-current branch.",
+          "zh": "DTHD 是单端子圆形热塑性连接器系列，可为永久接点提供便于维修的可断开方案。TE 列有适配 12、8、4 号接点的不同版本，它们不共享统一电流或电缆范围。应先选择对插零件与接点规格，再确定导体截面、绝缘外径、电缆支撑及安装空间。单极接口只连接一根回路导体，回流路径和保护仍需在系统其他位置明确。DTHD 用于较大电流分支，并不意味着它自动属于高压连接器。"
+        },
+        "image": "/assets/images/product-categories/stock/deutsch/dthd.jpg",
+        "caption": {
+          "en": "Circuit context: fused vehicle power distribution; this is not a DTHD connector.",
+          "zh": "回路参考：车辆熔断保护配电部件，图中不是 DTHD 接头。"
+        }
+      },
+      {
+        "id": "hd",
+        "style": "feature-left",
+        "title": {
+          "en": "HDP20 / HD30 · Circular Multi-Pin Interfaces",
+          "zh": "HDP20／HD30 · 圆形多针接口"
+        },
+        "copy": {
+          "en": "HDP20 uses a thermoplastic shell, while HD30 uses an aluminum shell. The family name is only the start of an identification process: shell size, insert arrangement, contact sizes, key position, pin or socket configuration and mounting details must be matched. These interfaces can consolidate several circuits in equipment or vehicle harnesses, sometimes with more than one contact size within the selected arrangement. Do not confuse every round Deutsch connector with the nine-pin J1939 diagnostic interface. A bulkhead version also requires the panel opening, gasket, fasteners and cable exit to be considered. The complete insert drawing is more useful than a front photograph alone.",
+          "zh": "HDP20 使用热塑性外壳，HD30 使用铝合金外壳。系列名称只是识别起点，壳号、插芯排列、接点规格、键位、针孔配置与安装细节都须匹配。这些接口可整合设备或车辆线束中的多路回路，选定排列中也可能包含不同接点规格。不能把所有圆形 Deutsch 接头都当成九针 J1939 诊断接口。穿板版本还需要考虑面板开孔、垫圈、紧固件与出线方式；完整插芯图比单张正面照片更有用。"
+        },
+        "image": "/assets/images/product-categories/stock/deutsch/hd.jpg",
+        "caption": {
+          "en": "Material context: injection-molding pellets, not a specified HDP20 resin grade.",
+          "zh": "材料参考：注塑粒料，不代表指定 HDP20 树脂牌号。"
+        }
+      },
+      {
+        "id": "engine",
+        "style": "inset-right",
+        "title": {
+          "en": "Automotive Applications · Engine Bay",
+          "zh": "汽车应用 · 发动机舱"
+        },
+        "copy": {
+          "en": "Engine-bay wiring can encounter localized heat, vibration, oil exposure and restricted maintenance access. Measure the intended route relative to hot surfaces, pulleys and service points instead of assigning one temperature to the whole bay. A sealed connector does not protect cable insulation from an unsuitable heat source or continuous abrasion. Define clamps, sleeves, breakout locations and connector orientation as part of the harness. Sensors and actuators may require different conductor sizes and shielding arrangements. Any customer-required environmental validation should specify the actual assembly, exposure, test sequence and acceptance criteria; a connector catalog alone is not the test report for a new engine loom.",
+          "zh": "发动机舱配线可能受到局部热量、振动、油液和维修空间限制的影响。应结合热表面、皮带轮及检修点确定路线，而不是给整个机舱分配一个温度。密封接头不能保护不适合热源或持续磨损的电缆绝缘。卡箍、套管、分支位置及接头朝向都属于线束定义，传感器与执行器还可能需要不同线径和屏蔽结构。客户要求的环境验证应明确实际组件、暴露条件、试验顺序及判定标准；接头目录不是新发动机线束的试验报告。"
+        },
+        "image": "/assets/images/product-categories/stock/deutsch/engine.jpg",
+        "caption": {
+          "en": "Engine-bay reference: localized heat and service access affect cable routing.",
+          "zh": "机舱参考：局部热量和维修空间影响电缆布线。"
+        }
+      },
+      {
+        "id": "chassis",
+        "style": "wide",
+        "title": {
+          "en": "Automotive Applications · Chassis Systems",
+          "zh": "汽车应用 · 底盘系统"
+        },
+        "copy": {
+          "en": "Underbody and off-highway harnesses face stone impact, mud, standing water and movement between supported structures. Locate disconnect points where the latch can be reached and the cable will not collect damaging loads. A branch to a suspension sensor needs enough travel for the full mechanical range, without rubbing against tires or sharp brackets. Design the connector and cable protection together: boots, conduit and clips have different functions from the interfacial seal. For braking or other safety-related circuits, use the customer-approved configuration and validation requirements. Neither a rugged photograph nor a familiar housing shape establishes safety-system suitability.",
+          "zh": "车底及非道路线束可能面对碎石冲击、泥水、积水和支撑结构之间的相对运动。断开点应便于操作锁扣，又不会让电缆承受有害载荷。悬架传感器分支需要覆盖完整机械行程，同时避开轮胎与支架锐边。接头和电缆防护应共同设计，护套、波纹管及卡扣与界面密封承担不同功能。制动或其他安全相关回路必须采用客户认可配置和验证要求，坚固场景照片或熟悉的胶壳形状都不能证明其适用于安全系统。"
+        },
+        "image": "/assets/images/product-categories/stock/deutsch/chassis.jpg",
+        "caption": {
+          "en": "Rolling truck chassis: branches must accommodate movement and installation clearances.",
+          "zh": "卡车底盘实拍：分支需考虑相对运动与安装间隙。"
+        }
+      },
+      {
+        "id": "lighting",
+        "style": "inset-left",
+        "title": {
+          "en": "Automotive Applications · Exterior Lighting",
+          "zh": "汽车应用 · 外部照明"
+        },
+        "copy": {
+          "en": "Work lamps, marker lights and auxiliary lighting can use detachable sealed branches where specified by the equipment design. Confirm voltage, polarity, current, connector key and cavity assignment at each lamp. A two-way lighting lead may carry only supply and return, while a larger interface can include dimming or control lines. Check cable voltage drop over the installed length and keep the harness away from hot lamp bodies or sharp mounting plates. Lens condensation and connector water entry are different failure paths. A watertight plug will not correct an unsealed lamp enclosure or poor cable entry elsewhere in the lighting assembly.",
+          "zh": "工作灯、示廓灯及辅助照明可按设备设计使用可拆密封分支。每盏灯的电压、极性、电流、接头键位和腔位分配都应明确。两路线可能仅承载供电与回流，多位接口则可包括调光或控制线。应按安装长度检查压降，并让线束避开高温灯体或安装板锐边。灯罩凝露与接头进水属于不同失效路径，密封插头不能修复灯具壳体或其他进线位置的密封问题。"
+        },
+        "image": "/assets/images/product-categories/stock/deutsch/lighting.jpg",
+        "caption": {
+          "en": "Exterior lamp detail: lamp sealing and connector sealing are separate requirements.",
+          "zh": "外部灯具细节：灯体密封与接头密封是不同要求。"
+        }
+      },
+      {
+        "id": "seals",
+        "style": "feature-right",
+        "title": {
+          "en": "Seals, Wedgelocks and Unused Cavities",
+          "zh": "密封件、楔形锁与空腔处理"
+        },
+        "copy": {
+          "en": "The rear wire seal works over a defined insulation-diameter range; choosing the correct AWG alone does not guarantee sealing. N and E seal options, where offered, must be checked against the actual wire. Wedgelocks support contact alignment and retention but do not replace the primary contact engagement. Unused positions need the manufacturer-specified cavity treatment, not an improvised short wire. Dust caps, backshells and heat-shrink boots are accessories with distinct functions and approval conditions. Confirm any IP rating on the exact connector version, mated condition and required rear protection. Immersion, road spray and pressure washing are different exposures and should not be treated as equivalent claims.",
+          "zh": "后部线封在规定绝缘外径范围内工作，仅选对 AWG 不保证密封。提供 N、E 等密封选项时，应按实际线材核对。楔形锁支持端子对准与保持，但不能替代端子自身的到位锁止。空置位置应采用制造商规定的封堵方式，而不是随意插一段短线。防尘盖、后壳和热缩护套各有作用及适用条件。任何 IP 等级都应对应准确版本、对插状态与所需后部防护；浸水、道路飞溅与高压冲洗是不同暴露条件，不能混为相同承诺。"
+        },
+        "image": "/assets/images/product-categories/stock/deutsch/seals.jpg",
+        "caption": {
+          "en": "Seal material reference: generic O-rings illustrate dimensional control, not DT wire seals.",
+          "zh": "密封材料参考：通用 O 形圈说明尺寸匹配的重要性，并非 DT 线封。"
+        }
+      },
+      {
+        "id": "contacts",
+        "style": "process",
+        "title": {
+          "en": "Contact Preparation and Assembly Checks",
+          "zh": "端子加工与装配检查"
+        },
+        "copy": {
+          "en": "Solid and stamped-and-formed contacts use different crimp geometries and tooling. Match the contact part number to the approved conductor range, strip length, tool and positioner or die before production. Inspect conductor capture, insulation clearance and contact damage against the relevant application instruction; do not transplant a crimp setting from a similar-looking terminal. After insertion, confirm cavity position and retention before closing the secondary lock. The electrical check should use the agreed pin map, including intentional splices or blank positions. Record dimensional and inspection results for the first article, then preserve that approved configuration for repeat batches.",
+          "zh": "实心接点与冲压成形接点采用不同压接几何和工具。生产前，应将端子料号与认可导体范围、剥皮长度、工具及定位器或模具匹配，按对应应用说明检查导体包覆、绝缘间隙和端子损伤，不移用外观相近端子的压接设置。插入后先确认腔位与保持，再闭合二次锁。电气检查应依据约定针脚表，包括有意设置的并线或空位。首件需记录尺寸及检验结果，后续批次维持已认可配置。"
+        },
+        "image": "/assets/images/product-categories/stock/deutsch/contacts.jpg",
+        "caption": {
+          "en": "Wire-preparation tool reference; select the actual crimp tool from the contact instruction.",
+          "zh": "导线预处理工具参考，实际压接工具须按端子应用说明选定。"
+        }
+      },
+      {
+        "id": "leadtime",
+        "style": "compact",
+        "title": {
+          "en": "Lead Times and Project Preparation",
+          "zh": "交期与项目前期准备"
+        },
+        "copy": {
+          "en": "Availability depends on the complete bill of materials, including small accessories that are easy to omit from an initial enquiry. Housings may be obtainable while the required contact, seal version or mounting clip has a different lead time. Separate material confirmation, tooling preparation, sample assembly, customer approval and repeat production when planning a schedule. Supplying both mating references, circuit tables and clear dimensional datums helps reduce clarification cycles. We confirm a project-specific delivery plan after reviewing quantities and sourcing; this page does not promise that every DEUTSCH variation is stocked or available within a fixed number of days.",
+          "zh": "可用性取决于完整物料表，包括初次询价容易遗漏的小附件。胶壳可能可采购，而所需端子、密封版本或安装卡扣具有不同交期。计划中应区分物料确认、工装准备、样品装配、客户认可与重复生产阶段。提供两侧对插型号、回路表和清楚尺寸基准，有助于减少澄清往返。我们在审核数量与采购条件后确认项目交付计划，本页不承诺所有 DEUTSCH 变型都有库存或能在固定天数内交付。"
+        },
+        "image": "/assets/images/product-categories/stock/deutsch/leadtime.jpg",
+        "caption": {
+          "en": "Archive material-storage photograph: delivery planning starts with the complete BOM, not one housing.",
+          "zh": "历史物料存储照片：交付计划从完整物料表出发，不只看一只胶壳。"
+        }
+      },
+      {
+        "id": "pricing",
+        "style": "wide",
+        "title": {
+          "en": "Pricing and Cost Control",
+          "zh": "报价与成本控制"
+        },
+        "copy": {
+          "en": "A useful quotation describes the exact assembly, not just a price per connector. Cost drivers include the specified brand and part references, contact type and finish, wire construction, branch count, labeling, protection, tooling, order quantity and verification scope. Distinguish original specified parts from an approved alternative so prices are compared on equal terms. Simplifying a branch or selecting a serviceable disconnect can reduce assembly effort, but any change needs interface and performance review. Supply annual demand and initial sample quantity separately. The quotation should identify included inspection records and any separately scoped environmental or specialized electrical testing.",
+          "zh": "有效报价应描述准确组件，而不只是每只接头的价格。成本因素包括指定品牌与料号、接点类型和镀层、线材结构、分支数量、标签、防护、工装、订购数量及验证范围。指定原厂件与认可替代方案需分开，才能在相同条件下比较价格。简化分支或选用便于维护的断开点可能减少装配工时，但任何变更都需接口与性能审核。请分别提供年度需求与初始样品数量，报价也应明确包含的检验记录，以及另行规定的环境或特殊电气试验。"
+        },
+        "image": "/assets/images/product-categories/stock/deutsch/pricing.jpg",
+        "caption": {
+          "en": "Harness-construction example: branch organization and protection affect assembly work.",
+          "zh": "线束构造示例：分支组织与防护结构影响装配工时。"
+        }
+      }
+    ],
+    "composition": [
+      {
+        "kind": "single",
+        "items": [
+          0
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          1,
+          2
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          3
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          4
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          5,
+          6
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          7
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          8
+        ]
+      },
+      {
+        "kind": "single",
+        "items": [
+          9
+        ]
+      },
+      {
+        "kind": "pair",
+        "items": [
+          10,
+          11
+        ]
+      }
+    ],
+    "guide": [
+      {
+        "index": 0,
+        "label": {
+          "en": "Connector families",
+          "zh": "接口系列"
+        }
+      },
+      {
+        "index": 5,
+        "label": {
+          "en": "Vehicle environments",
+          "zh": "车辆环境"
+        }
+      },
+      {
+        "index": 8,
+        "label": {
+          "en": "Assembly details",
+          "zh": "装配细节"
+        }
+      },
+      {
+        "index": 10,
+        "label": {
+          "en": "Project planning",
+          "zh": "项目计划"
+        }
+      }
+    ],
+    "faq": [
+      {
+        "q": {
+          "en": "Can DT, DTM and DTP mate with each other?",
+          "zh": "DT、DTM 与 DTP 可以互相对插吗？"
+        },
+        "a": {
+          "en": "No general interchangeability should be assumed. They use different contact systems and housing geometries. Match the exact mating references, keying and contact requirements.",
+          "zh": "不能假定通用。它们使用不同接点系统与胶壳几何，应匹配准确对插型号、键位及端子要求。"
+        }
+      },
+      {
+        "q": {
+          "en": "Does a contact size of 16 mean 16 AWG wire?",
+          "zh": "16 号接点就是适用 16 AWG 导线吗？"
+        },
+        "a": {
+          "en": "No. Contact size identifies the interface system. Each contact part has its own conductor range, while the rear seal has an insulation-diameter range. Confirm all three together.",
+          "zh": "不是。接点号描述接口系统，每个端子料号有自己的导体范围，后部线封则有绝缘外径范围，三者需一起确认。"
+        }
+      },
+      {
+        "q": {
+          "en": "Are all Deutsch harnesses rated for pressure washing?",
+          "zh": "所有 Deutsch 线束都耐高压冲洗吗？"
+        },
+        "a": {
+          "en": "No blanket claim is appropriate. Verify the exact connector version, mating state, rear protection and the required test conditions. A general waterproof description is not a pressure-wash qualification.",
+          "zh": "不能统一承诺。应确认准确版本、对插状态、后部防护及所需试验条件，笼统的防水描述不是高压冲洗鉴定。"
+        }
+      },
+      {
+        "q": {
+          "en": "What information helps identify an existing connector?",
+          "zh": "识别现有接头需要什么资料？"
+        },
+        "a": {
+          "en": "Clear front and rear photos, molded markings, cavity count, key orientation, wire dimensions and the mating component are useful. A confirmed drawing or full part number is preferable to color alone.",
+          "zh": "清晰正反面照片、模压标记、腔位数、键位朝向、导线尺寸与对插件都有帮助，已确认图纸或完整料号比单靠颜色更可靠。"
+        }
+      }
+    ],
+    "hasAiImages": true,
+    "hasOwnImages": false,
+    "mediaCredits": [
+      {
+        "file": "DEUTSCH DT series",
+        "url": "https://www.te.com/en/products/connectors/automotive-connectors/intersection/deutsch-dt-series-connectors.html",
+        "author": "TE Connectivity",
+        "license": "Technical reference - verify the current part-specific document"
+      },
+      {
+        "file": "DEUTSCH DTM series",
+        "url": "https://www.te.com/en/products/connectors/automotive-connectors/intersection/deutsch-dtm-connectors.html",
+        "author": "TE Connectivity",
+        "license": "Technical reference - verify the current part-specific document"
+      },
+      {
+        "file": "DEUTSCH DTP series",
+        "url": "https://www.te.com/en/products/connectors/automotive-connectors/intersection/deutsch-dtp-connectors.html",
+        "author": "TE Connectivity",
+        "license": "Technical reference - verify the current part-specific document"
+      },
+      {
+        "file": "DEUTSCH DTHD series",
+        "url": "https://www.te.com/en/products/connectors/automotive-connectors/intersection/deutsch-dthd-connectors.html",
+        "author": "TE Connectivity",
+        "license": "Technical reference - verify the current part-specific document"
+      },
+      {
+        "file": "DEUTSCH HD30",
+        "url": "https://www.te.com/en/product-CAT-H3930-CH8172.html",
+        "author": "TE Connectivity",
+        "license": "Technical reference - verify the current part-specific document"
+      },
+      {
+        "file": "DEUTSCH HDP20",
+        "url": "https://www.te.com/en/product-CAT-H396-CH8172.html",
+        "author": "TE Connectivity",
+        "license": "Technical reference - verify the current part-specific document"
+      },
+      {
+        "file": "DEUTSCH solid contacts",
+        "url": "https://www.te.com/en/product-CAT-D48-ST273.html",
+        "author": "TE Connectivity",
+        "license": "Technical reference - verify the current part-specific document"
+      },
+      {
+        "file": "DEUTSCH stamped and formed contacts",
+        "url": "https://www.te.com/en/product-CAT-D48-SFT273.html",
+        "author": "TE Connectivity",
+        "license": "Technical reference - verify the current part-specific document"
+      },
+      {
+        "file": "DT snap-cap seal options",
+        "url": "https://www.te.com/en/faqs/next-generation-deutsch-dt-connectors-faqs.html",
+        "author": "TE Connectivity",
+        "license": "Technical reference - verify the current part-specific document"
+      },
+      {
+        "file": "hero.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:LiuGong_920E_Excavator_20210522.jpg",
+        "author": "Huangdan2060",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      },
+      {
+        "file": "dt.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Electric_motor_on_the_slewing_bearing_of_a_remote_controlled_yellow_Liebherr_tower_crane.jpg",
+        "author": "Tobias ToMar Maier",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      {
+        "file": "dtm.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Throttle_position_sensor.jpg",
+        "author": "Ochandwadkar",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "dtp.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:RADIATOR_FAN.jpg",
+        "author": "Nadinviki",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "dthd.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Battery_terminal_fuse_of_Mazda_2.jpg",
+        "author": "VVVN",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      },
+      {
+        "file": "hd.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Plastic_pellets_for_injection_molding.jpg",
+        "author": "Teemeah",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      {
+        "file": "engine.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:2005_Lotus_Exige_S_engine_bay.jpg",
+        "author": "Randaarde",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+      },
+      {
+        "file": "chassis.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:International_truck_frame_(4308250626).jpg",
+        "author": "dave_7 from Lethbridge, Canada",
+        "license": "CC BY 2.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+      },
+      {
+        "file": "lighting.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Xenon_Headlamp_Mercedes_S550_2009-12.jpg",
+        "author": "Anslaton",
+        "license": "CC BY 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+      },
+      {
+        "file": "seals.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:O-rings.jpg",
+        "author": "Sonett72 at English Wikipedia",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+      },
+      {
+        "file": "contacts.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Ideal_Reflex_wire_stripper.jpg",
+        "author": "J.C. Fields (Talk) (Uploads)",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+      },
+      {
+        "file": "leadtime.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:23_0044213_Convair_Negative_Image_-_Parts_storage_area_(53769659494).jpg",
+        "author": "San Diego Air & Space Museum Archives",
+        "license": "Public domain",
+        "licenseUrl": "https://creativecommons.org/publicdomain/mark/1.0/"
+      },
+      {
+        "file": "pricing.jpg",
+        "url": "https://commons.wikimedia.org/wiki/File:Cable-lacing-harness-mockup.jpg",
+        "author": "David J. Fred (Dfred)",
+        "license": "CC BY-SA 2.5",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+      },
+      {
+        "file": "range.jpg - AI illustration",
+        "url": "/assets/images/product-categories/stock/deutsch/range.jpg",
+        "author": "Super Smile / AI-generated illustration",
+        "license": "Illustrative only; not a product photograph"
+      }
+    ]
+  }
+}

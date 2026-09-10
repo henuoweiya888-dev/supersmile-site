@@ -122,7 +122,25 @@ body[data-category-layout="technical-editorial"] .pcc-hero-media img{filter:satu
 .te-theme-precision-connections #technical-topic-14 .te-photo img{height:170px;object-fit:contain}
 .te-theme-precision-connections #technical-topic-15{grid-template-columns:165px minmax(0,1fr);gap:26px}
 .te-theme-precision-connections #technical-topic-15 .te-photo img{height:160px;object-fit:contain}
+/* Rugged interfaces: restrained equipment photographs, compact family comparisons and assembly notes. */
+.te-theme-rugged-connections{--te-tint:#e2e5df;--te-accent:#a14a30;--te-muted:#47514a}
+.te-theme-rugged-connections .te-opening{grid-template-columns:minmax(0,1fr) 235px;gap:28px;background:#e9e7df}
+.te-theme-rugged-connections .te-opening .te-photo img{height:170px}
+.te-theme-rugged-connections #technical-topic-0{grid-template-columns:185px minmax(0,1fr);padding-left:0;padding-right:var(--te-gutter);background:#f1efe9}
+.te-theme-rugged-connections #technical-topic-0 .te-photo{grid-column:1}.te-theme-rugged-connections #technical-topic-0 .te-copy{grid-column:2}
+.te-theme-rugged-connections #technical-topic-0 .te-photo img{height:200px}
+.te-theme-rugged-connections .te-pair{background:#e2e5df}.te-theme-rugged-connections .te-pair .te-photo{width:155px;margin-top:32px}
+.te-theme-rugged-connections .te-pair .te-photo img{height:145px;object-fit:cover}
+.te-theme-rugged-connections #technical-topic-1 .te-photo img{object-fit:contain;background:#f5f3ed}
+.te-theme-rugged-connections #technical-topic-3{grid-template-columns:minmax(0,1fr) 165px;padding-block:24px}
+.te-theme-rugged-connections #technical-topic-4{grid-template-columns:200px minmax(0,1fr);background:#ebe8df}
+.te-theme-rugged-connections #technical-topic-7 .te-photo{width:180px;margin-top:8px}
+.te-theme-rugged-connections #technical-topic-7 .te-photo img{height:165px;object-fit:cover}
+.te-theme-rugged-connections #technical-topic-8{grid-template-columns:minmax(0,1fr) 155px}.te-theme-rugged-connections #technical-topic-8 .te-photo img{height:180px;object-fit:contain;background:#eef0e9}
+.te-theme-rugged-connections #technical-topic-9{grid-template-columns:210px minmax(0,1fr);background:#f1efe9}.te-theme-rugged-connections #technical-topic-9 .te-photo img{height:160px;object-fit:contain}
 @media(max-width:767px){
+ .te-theme-rugged-connections #technical-topic-0{display:flex;padding:23px 16px}
+ .te-theme-rugged-connections .te-pair .te-photo,.te-theme-rugged-connections #technical-topic-7 .te-photo{width:calc(100% + 32px);margin:16px -16px 0}
  body[data-category-layout="technical-editorial"] .pcc-hero-grid{min-height:0;padding-block:56px 32px}body[data-category-layout="technical-editorial"] .pcc-hero-copy h1{font-size:30px}
  .te-page{--te-gutter:16px}.te-page h2{font-size:21px}.te-page p{font-size:13px;line-height:1.85}
  .te-opening,.te-topic,.te-pair .te-topic{display:flex;flex-direction:column;align-items:stretch;padding:23px 16px;gap:0}
