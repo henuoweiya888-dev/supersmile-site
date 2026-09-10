@@ -1,0 +1,71 @@
+/* Battery terminal guide: compact magazine pacing, not a repeated card grid. */
+body[data-category-key="automotive-10"] .pcc-hero{isolation:isolate;overflow:hidden;min-height:0}
+body[data-category-key="automotive-10"] .pcc-hero-grid{min-height:400px;padding-block:65px 54px}
+body[data-category-key="automotive-10"] .pcc-hero-copy h1{font-size:clamp(32px,3.5vw,48px);line-height:1.14;max-width:100%;margin-bottom:20px}
+body[data-category-key="automotive-10"] .pcc-hero-media:after{background:linear-gradient(90deg,rgba(10,15,15,.86),rgba(10,15,15,.5) 60%,rgba(10,15,15,.18))}
+body[data-category-key="automotive-10"] .pcc-hero-media img{object-position:70% 42%;filter:saturate(.65) brightness(.8)}
+.bl-page{--bl-gutter:clamp(24px,4vw,64px);--bl-ink:#222b29;--bl-muted:#4a5551;--bl-tint:#e0e5df;--bl-accent:#b7492a;background:#f1efe9;color:var(--bl-ink)}
+.bl-page h2{font-size:clamp(20px,1.85vw,27px);font-weight:550;line-height:1.25;letter-spacing:-.025em;margin:0 0 12px;text-wrap:balance}
+.bl-page p{font-size:14px;line-height:1.85;text-indent:2em;margin:0;color:var(--bl-muted);max-width:none}
+.bl-page figure{margin:0;min-width:0}
+.bl-photo img{display:block;width:100%;height:180px;object-fit:cover;filter:saturate(.65) contrast(1.02)}
+.bl-page figcaption{font-size:11px;line-height:1.5;color:var(--bl-muted);padding:7px 14px 0}
+.bl-opening{padding:30px 0 28px var(--bl-gutter);display:grid;grid-template-columns:minmax(0,1fr) 230px;gap:36px;align-items:center;background:var(--bl-tint)}
+.bl-opening .bl-photo img{height:165px;object-fit:contain;background:#dce1da}
+.bl-guide{display:flex;flex-wrap:wrap;gap:0 24px;margin-top:16px}
+.bl-guide a{font-size:12px;min-height:44px;display:flex;align-items:center;text-decoration:none;color:var(--bl-ink)}
+.bl-guide a:after{content:"↗";color:var(--bl-accent);margin-left:10px}
+.bl-guide a:hover{color:var(--bl-accent)}
+.bl-guide a:focus-visible{outline:2px solid var(--bl-accent);outline-offset:4px}
+.bl-topic{position:relative;min-width:0;padding:28px var(--bl-gutter);scroll-margin-top:105px}
+.bl-topic h2:before{content:"";display:block;width:30px;height:2px;background:var(--bl-accent);margin-bottom:11px}
+.bl-range{display:grid;grid-template-columns:minmax(0,1fr) 250px;gap:35px;align-items:center;padding-right:0}
+.bl-range .bl-photo img{height:160px}
+.bl-terminal{display:flow-root;background:#e9eae3;padding-left:0}
+.bl-terminal .bl-photo{float:left;width:190px;margin:8px 32px 8px 0}
+.bl-terminal .bl-photo img{height:215px;object-fit:contain;background:#dddfd8}
+.bl-terminal .bl-copy{padding-left:var(--bl-gutter)}
+.bl-context{display:grid;grid-template-columns:1.2fr 1fr;position:relative}
+.bl-context:after{content:"";position:absolute;top:44px;left:54.55%;width:1px;height:90px;background:#abb4ac}
+.bl-solution{padding-right:30px;display:flex;flex-direction:column;gap:16px}
+.bl-solution .bl-photo{width:60%;margin-left:calc(-1*var(--bl-gutter))}
+.bl-solution .bl-photo img{height:115px}
+.bl-application{padding-left:30px;padding-right:0;display:flex;flex-direction:column;gap:17px}
+.bl-application .bl-copy{padding-right:var(--bl-gutter)}
+.bl-application .bl-photo{order:-1;margin-left:30px}
+.bl-application .bl-photo img{height:145px;object-position:center 40%}
+.bl-contact{display:grid;grid-template-columns:200px minmax(0,1fr);gap:32px;padding-left:0;background:var(--bl-tint);align-items:center}
+.bl-contact .bl-photo{grid-column:1;grid-row:1}.bl-contact .bl-copy{grid-column:2;grid-row:1}
+.bl-contact .bl-photo img{height:170px;object-fit:contain;background:#e9eae3}
+.bl-corrosion{display:grid;grid-template-columns:minmax(0,1fr) 27%;gap:35px;align-items:center;padding-right:0}
+.bl-corrosion .bl-photo img{height:180px}
+.bl-measurements{background:#e5e8e1;display:grid;grid-template-columns:1fr 1fr;position:relative}
+.bl-measurements:after{content:"";position:absolute;top:35px;left:50%;width:1px;height:80px;background:#abb4ac}
+.bl-measurements .bl-topic{display:flow-root}
+.bl-measurements .bl-photo{float:left;width:145px;margin:54px 24px 10px calc(-1*var(--bl-gutter))}
+.bl-measurements .bl-photo img{height:155px;object-fit:contain;background:#dde1da}
+.bl-measurements .bl-copy{display:contents}
+.bl-measurements .bl-testing .bl-photo{float:right;margin:54px calc(-1*var(--bl-gutter)) 10px 24px}
+.bl-service{display:grid;grid-template-columns:220px minmax(0,1fr);gap:36px;padding-left:0;align-items:center}
+.bl-service .bl-photo{grid-column:1;grid-row:1}.bl-service .bl-copy{grid-column:2;grid-row:1}
+.bl-service .bl-photo img{height:170px}
+.bl-page .pcc-rich-faq{display:block;width:auto;margin:0;padding:28px var(--bl-gutter);background:var(--bl-tint)}
+.bl-page .pcc-rich-heading{display:block;margin:0 0 18px}
+.bl-page .pcc-rich-heading h2{white-space:normal;max-width:none}
+.bl-page .pcc-faq-grid{width:100%;max-width:none}
+@media(max-width:767px){
+ body[data-category-key="automotive-10"] .pcc-hero-grid{min-height:0;padding-block:60px 36px}
+ body[data-category-key="automotive-10"] .pcc-hero-copy h1{font-size:30px}
+ .bl-page{--bl-gutter:16px}.bl-page h2{font-size:21px}.bl-page p{font-size:13px;line-height:1.85}
+ .bl-opening,.bl-topic{display:flex;flex-direction:column;align-items:stretch;padding:24px 16px;gap:0}
+ .bl-opening .bl-photo,.bl-topic .bl-photo,.bl-measurements .bl-testing .bl-photo{float:none;order:2;width:calc(100% + 32px);margin:16px -16px 0}
+ .pcc-rich-page .bl-page .bl-opening>figure.bl-photo{width:calc(100% + 32px);margin-inline:-16px}
+ .bl-opening .bl-photo img{height:auto;aspect-ratio:2/1;object-fit:cover}
+ .bl-page .bl-photo img{height:155px}.bl-terminal .bl-photo img,.bl-contact .bl-photo img,.bl-measurements .bl-photo img{object-fit:contain}
+ .bl-terminal .bl-copy,.bl-application .bl-copy{padding:0}
+ .bl-context,.bl-measurements{display:block}.bl-context:after,.bl-measurements:after{display:none}
+ .bl-context .bl-application{background:#e9eae3}
+ .bl-measurements .bl-topic{display:flex}.bl-measurements .bl-copy{display:block}
+ .bl-measurements .bl-testing{background:#f1efe9}
+ .bl-service{background:#e9eae3}.bl-page .pcc-rich-faq{background:#f1efe9}
+}

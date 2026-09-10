@@ -1,4 +1,334 @@
 {
+  "automotive-10": {
+    "intro": {
+      "en": "Custom battery terminal leads, starter feeds, earth straps and jumper assemblies, defined by the complete current path and installation.",
+      "zh": "围绕完整电流路径与安装空间，定制电瓶端子线、起动机供电线、接地搭接线及跨接组件。"
+    },
+    "knowledge": {
+      "en": "Conductor area, termination, length and operating duty jointly determine voltage drop and thermal behavior.",
+      "zh": "导体截面、端接质量、长度和工作周期共同决定压降与温升。"
+    },
+    "notes": {
+      "en": "Define permanent installation separately from temporary jump starting. Follow the vehicle manufacturer's instructions and approved connection points.",
+      "zh": "永久安装线路与临时跨接起动应分别定义。操作遵循车辆制造商说明与指定连接点。"
+    },
+    "delivery": {
+      "en": "Release drawings, material part numbers, polarity, branch dimensions and inspection requirements before production.",
+      "zh": "生产前确认图纸、物料型号、极性、分支尺寸及检验要求。"
+    },
+    "page": {
+      "layout": "battery-link-editorial",
+      "headings": {
+        "introduction": {
+          "en": "Product Introduction",
+          "zh": "产品介绍"
+        },
+        "faq": {
+          "en": "Battery Cable Questions",
+          "zh": "电瓶搭接线常见问题"
+        }
+      },
+      "subtitle": {
+        "en": "From the battery terminal to the return path",
+        "zh": "从电瓶端子到回流路径"
+      },
+      "lead": {
+        "en": "A battery cable is part of a circuit, not simply a thick wire. It may join the battery to a starter, connect a chassis ground, link batteries in an approved arrangement or provide an accessible service connection. The category includes ring-lug leads, terminal-clamp cables, flexible earth straps and detachable power leads. Temporary booster cables have a different operating procedure from a permanently installed harness. We develop the assembly around the equipment's circuit, interfaces, route and duty cycle rather than treating one cable size as suitable for every vehicle.",
+        "zh": "电瓶搭接线是完整回路的一部分，不只是加粗的电线。它可以连接电瓶与起动机、建立车身接地、按已批准方案连接电瓶组，或把维修接口引到便于操作的位置。这个小类覆盖环形端子线、电瓶桩头线、柔性接地带和可插拔电源连接线。临时救援跨接线与永久安装线束的使用方式不同。我们围绕设备回路、接口、走线路径和工作周期开发组件，而不是把同一种线径套用于所有车辆。"
+      },
+      "images": {
+        "hero": "/assets/images/product-categories/stock/battery-link/hero.jpg",
+        "range": "/assets/images/product-categories/stock/battery-link/introduction.jpg"
+      },
+      "chapters": [
+        {
+          "title": {
+            "en": "Product Advantages",
+            "zh": "产品优势"
+          },
+          "image": "/assets/images/product-categories/stock/battery-link/range.jpg",
+          "caption": {
+            "en": "The mounting point and current path define the cable configuration.",
+            "zh": "连接位置与电流路径共同决定电缆配置。"
+          },
+          "copy": {
+            "en": "A purpose-built cable replaces unnecessary joins with controlled cable length, lug orientation and mounting geometry. Positive starter leads, negative battery cables, engine-to-chassis bonds and auxiliary battery links have different routing and current duties. An accessible detachable connection can simplify service when its contacts, keying and electrical rating match the equipment. Flexible strands may help installation, but flexibility does not establish continuous-flex life or current capacity. Likewise, a large clamp does not prove that the conductor inside is large enough. Design starts with load and starting-current information, allowable voltage loss, ambient temperature and the complete positive and return paths.",
+            "zh": "按设备开发的组件可通过明确长度、端子方向和安装位置，减少不必要的中间接点。起动机正极线、电瓶负极线、发动机与车身接地带以及辅助电瓶连接线，承担不同的走线和电流任务。便于接近的可插拔接口能够改善维修操作，但其端子、机械防错与电气额定值必须匹配设备。多股柔性结构有助于安装，却不直接证明往复弯曲寿命或载流能力。同样，夹钳外观很大，也不能证明内部导体足够粗。设计应从负载与起动电流、允许压降、环境温度以及正负完整路径开始。"
+          }
+        },
+        {
+          "title": {
+            "en": "Automotive Lug and Terminal Options",
+            "zh": "汽车用铜端子与接头选择"
+          },
+          "image": "/assets/images/product-categories/stock/battery-link/terminals.jpg",
+          "caption": {
+            "en": "Barrel size, stud hole and palm geometry must all match the installation.",
+            "zh": "压接管径、螺栓孔与端子掌面形状都需要匹配安装位置。"
+          },
+          "copy": {
+            "en": "Options include straight ring lugs, angled palms, inspection-hole lugs, two-hole lugs, battery post clamps and selected detachable connectors. A lug has two separate interfaces: its barrel must fit the conductor and its palm must fit the stud and contact surface. Names such as SC or DT alone do not define a universal dimensional or performance standard. Confirm the actual drawing, hole diameter, barrel dimensions, conductor class, plating and approved tooling. Tinned copper is a common option; aluminum conductors require specifically compatible terminations and processing. Copper-only contacts cannot be made aluminum-compatible by adding solder or choosing a similar-looking lug.",
+            "zh": "可选结构包括直式环形铜鼻、折弯掌面端子、观察孔端子、双孔端子、电瓶桩头夹及指定的可插拔接头。端子有两个不同接口：压接管需要匹配导体，掌面需要匹配螺栓和接触表面。SC、DT 等名称本身并不构成统一的尺寸或性能标准，必须核对实际图纸、孔径、管径、导体结构、镀层与批准工具。镀锡铜是一种常见选项；铝导体则需要专门兼容的端接体系与加工方法。只适用于铜线的接点，不能靠加焊锡或换成外观相似的端子来兼容铝线。"
+          }
+        },
+        {
+          "title": {
+            "en": "Solutions for the Complete Current Path",
+            "zh": "完整电流路径的解决方案"
+          },
+          "image": "/assets/images/product-categories/stock/battery-link/solution.jpg",
+          "caption": {
+            "en": "A small Powerpole connection illustrates detachable keying; it is not an SB-series battery connector.",
+            "zh": "小型 Powerpole 接头用于说明可拆连接与防错结构，并非 SB 系列电瓶接头。"
+          },
+          "copy": {
+            "en": "A remote battery location may need a longer feed, a protected pass-through and a defined return connection. A dual-battery arrangement may add isolation, charging control or a distribution point, which must be designed as a system rather than joined indiscriminately. Detachable leads can use a specified Anderson SB family interface, but connector size, color keying, contact part number and wire range require verification. A starter circuit's short-duration current is not a continuous operating rating. Protection selection must coordinate with the equipment architecture and expected fault current; adding an arbitrary inline fuse or bypassing the original protection is not a universal solution.",
+            "zh": "电瓶安装较远时，可能需要加长供电线、受保护的穿板位置以及明确的回流连接。双电瓶结构还可能涉及隔离、充电控制或配电点，需要按系统设计，不能直接随意并接。可拆卸连接线可以采用指定 Anderson SB 系列接口，但必须确认壳体规格、颜色防错、端子料号与适配线径。起动回路的短时电流并不等于连续工作额定值。保护装置需与设备架构及预期故障电流配合；任意增加一个在线保险丝，或绕开原有保护，都不能作为通用方案。"
+          }
+        },
+        {
+          "title": {
+            "en": "Industries and Applications",
+            "zh": "行业与应用"
+          },
+          "image": "/assets/images/product-categories/stock/battery-link/applications.jpg",
+          "caption": {
+            "en": "Equipment duty changes the requirements for the battery circuit.",
+            "zh": "设备的工作方式会改变电瓶回路的设计要求。"
+          },
+          "copy": {
+            "en": "Passenger vehicles and trucks use battery leads for starting, charging and grounded returns. Off-road machinery adds vibration, mud and difficult routing; marine and recreational vehicles introduce moisture, service-access and auxiliary-load considerations. Stationary generators and backup equipment may prioritize long idle periods, dependable connections and inspection access. These are related applications, not interchangeable cable approvals. Route temperature, fluid exposure, fastening, battery arrangement and applicable equipment rules must be defined separately. Low-voltage battery leads are also distinct from orange high-voltage traction cables in an electric vehicle. An auxiliary battery connection must not be represented as suitable for the traction system.",
+            "zh": "乘用车和卡车中的电瓶连接线服务于起动、充电和接地回流。越野与工程机械增加了振动、泥水及复杂走线条件；船舶和房车还涉及潮湿、检修空间与辅助负载。固定式发电机和备用电源可能更关注长期静置后的连接可靠性与检查可达性。这些应用相互关联，但不意味着电缆批准要求可以互换。路线温度、液体暴露、固定方式、电瓶组合和设备适用规范应分别定义。低压电瓶连接线也不同于电动车中橙色的高压驱动电缆，不能把辅助电瓶连接组件宣传为适用于高压动力系统。"
+          }
+        },
+        {
+          "title": {
+            "en": "Secure Connections with Heavy-Duty Lugs",
+            "zh": "重载端子的可靠连接"
+          },
+          "image": "/assets/images/product-categories/stock/battery-link/crimp.jpg",
+          "caption": {
+            "en": "Termination quality depends on the matched conductor, terminal and tool.",
+            "zh": "端接质量取决于导体、端子与工具的配套。"
+          },
+          "copy": {
+            "en": "The electrical connection is created inside the barrel and at the bolted contact, not by the outer heat-shrink tube. Preparation must avoid damaged strands, trapped insulation and incompatible barrel fill. The specified die, crimp position and number of compressions follow the terminal manufacturer's instructions. Pull testing and visual inspection assess different aspects of workmanship; neither alone establishes low resistance in service. A supported cable exit reduces bending at the barrel transition. At installation, use the equipment's fastening and torque specification: excessive torque can damage a stud or palm, while insufficient contact pressure can cause resistance and local heating.",
+            "zh": "电气连接形成在压接管内部和螺栓接触面，而不是外面的热缩管。导体准备需避免损伤铜丝、夹入绝缘层以及管内填充不匹配。压模、压接位置和压接次数应遵循端子制造商说明。拉力检查和外观检查反映不同的加工质量，任何一种单独通过，都不等于实际工况下连接电阻合格。支撑电缆出口可降低压接过渡位置的弯曲应力。安装时采用设备规定的紧固方式与扭矩：过度拧紧可能损伤螺柱或掌面，接触压力不足则可能增加电阻并形成局部发热。"
+          }
+        },
+        {
+          "title": {
+            "en": "Corrosion Protection and Long-Term Safety",
+            "zh": "防腐蚀与长期使用安全"
+          },
+          "image": "/assets/images/product-categories/stock/battery-link/corrosion.jpg",
+          "caption": {
+            "en": "Corrosion at the connection can increase resistance without breaking continuity.",
+            "zh": "接点腐蚀可能在仍然导通的情况下增加电阻。"
+          },
+          "copy": {
+            "en": "Plating, terminal boots and correctly selected adhesive-lined heat shrink can help protect a connection, but none makes every installation waterproof. The seal must accommodate the actual cable diameter and exit geometry; water can also enter elsewhere and migrate along strands. Insulation selection should consider temperature, oils, abrasion and the battery-compartment environment. SAE J1127 is a reference for low-voltage battery cable; the specified revision, cable construction and test requirements belong in the purchase specification. A reference to that standard is not certification of the finished harness. Regular inspection should address loose connections, damaged insulation, corrosion and unsupported movement.",
+            "zh": "镀层、端子护套以及合适的带胶热缩管能够改善连接防护，但并不使每一种安装都自动防水。密封结构必须适配实际线缆外径和出线形状；水分也可能从其他位置进入并沿导体丝束迁移。绝缘材料需考虑温度、油类、摩擦及电瓶舱环境。SAE J1127 是低压电瓶电缆的参考标准，采购规格应写明适用版本、结构与检验要求。引用该标准不等于成品线束已获得认证。定期检查应关注连接松动、绝缘损伤、腐蚀以及缺少支撑造成的晃动。"
+          }
+        },
+        {
+          "title": {
+            "en": "Custom Lengths and Configurations",
+            "zh": "定制长度与连接配置"
+          },
+          "image": "/assets/images/product-categories/stock/battery-link/geometry.jpg",
+          "caption": {
+            "en": "A caliper illustrates dimensional measurement; cable drawings still need defined terminal datums.",
+            "zh": "卡尺用于说明尺寸测量；电缆图纸仍需明确端子测量基准。"
+          },
+          "copy": {
+            "en": "Useful drawings state whether length is measured between hole centers, contact faces or cut ends. Define lug clocking, bend direction, branch positions, post polarity, labels and service loops. A short straight-line measurement may miss the length needed around brackets and moving components; excess slack can rub or enter a pinch point. AWG and square-millimeter sizes should be checked against the actual conductor specification, not treated as exactly interchangeable labels. Prototype installation can confirm fit before the configuration is released. Drawings or samples are useful starting points, but hidden circuit functions and the intended electrical duty still require customer confirmation.",
+            "zh": "有用的图纸会说明长度是按孔中心、接触面还是切线端测量，同时明确端子转角、弯曲方向、分支位置、正负极、标签与维修余量。两点之间的直线尺寸可能遗漏绕过支架和运动件所需的长度；余量过多也可能产生摩擦或进入夹点。AWG 与平方毫米规格应对应实际导体参数检查，不能把近似名称当作完全相同的截面。样件试装可以在配置放行前确认空间配合。图纸或样品都可作为开发起点，但隐藏的回路功能和预期电气工况仍需客户确认。"
+          }
+        },
+        {
+          "title": {
+            "en": "Why Review or Upgrade a Battery Cable?",
+            "zh": "何时需要评估或更换电瓶连接线"
+          },
+          "image": "/assets/images/product-categories/stock/battery-link/testing.jpg",
+          "caption": {
+            "en": "Meter and probes illustrate test equipment, not a recorded battery-cable test result.",
+            "zh": "仪表与测试线用于说明检查工具，不代表已完成的电瓶线测试结果。"
+          },
+          "copy": {
+            "en": "Slow cranking or intermittent power does not automatically mean the cable needs a larger conductor. Battery condition, the starter, grounds and terminations may all contribute. A continuity beep uses very little current and can miss a connection that becomes restrictive under load. A controlled voltage-drop test across the positive and return paths helps locate loss when the circuit is operating; the equipment's service limits and safe test procedure take precedence. Compare the cable, lug and bolted interfaces separately where access permits. Thermal observations may support the investigation, but surface appearance alone cannot establish an acceptable electrical connection.",
+            "zh": "起动无力或间歇断电，并不自动意味着必须更换更粗的导体。电瓶状态、起动机、接地和端接位置都可能参与形成问题。导通蜂鸣检查所用电流很小，可能识别不出只有带载时才明显的接触阻力。按受控方法检查正极与回流路径上的压降，有助于在回路工作时定位损耗；具体限值和安全操作以设备维修要求为准。条件允许时，可以分别比较电缆、端子及螺栓接点。温升观察能够辅助判断，但表面外观不能单独证明电气连接合格。"
+          }
+        },
+        {
+          "title": {
+            "en": "Assembly, Inspection and Service Boundaries",
+            "zh": "加工检验与维修使用边界"
+          },
+          "image": "/assets/images/product-categories/stock/battery-link/service.jpg",
+          "caption": {
+            "en": "Temporary jump leads are used only at the vehicle's approved connection points.",
+            "zh": "临时跨接线应仅用于车辆规定的连接位置。"
+          },
+          "copy": {
+            "en": "A released build defines cut length, stripping, terminal preparation, crimp tooling, sleeve position, polarity and identification. Inspection can include dimensions, contact retention, pull checks and agreed electrical tests, with acceptance criteria tied to the drawing and intended duty. Portable jump leads require a separate assessment of clamp insulation, grip and short-duration operation. They are not a replacement for a permanent battery lead. Follow the specific vehicle manual for jump starting; system voltage and approved connection points matter, and some hybrids must not supply jump-start assistance. This product overview is not a live-battery installation procedure.",
+            "zh": "已放行的加工资料应定义裁线长度、剥皮、端子准备、压接工具、套管位置、极性和标识。检验可以涵盖尺寸、端子保持、拉力检查及约定电气项目，判定条件对应图纸与预期工况。便携跨接线还需单独评估夹钳绝缘、夹持和短时工作能力，不能用来替代永久安装的电瓶连接线。跨接起动应遵循具体车型说明，系统电压与指定连接点十分重要，部分混动车型不允许作为救援供电车辆。本页产品介绍不是带电安装操作指南。"
+          }
+        }
+      ],
+      "faq": [
+        {
+          "q": {
+            "en": "Are permanent battery leads and jumper cables the same?",
+            "zh": "永久安装的电瓶线与救援跨接线一样吗？"
+          },
+          "a": {
+            "en": "No. Mounting, insulation, terminations and operating duty differ. A temporary clamp connection is not a substitute for a released permanent installation.",
+            "zh": "不一样。固定、绝缘、端接和工作周期不同，临时夹钳连接不能替代已确认的永久安装方案。"
+          }
+        },
+        {
+          "q": {
+            "en": "Can current capacity be selected from AWG alone?",
+            "zh": "只看 AWG 就能确定载流能力吗？"
+          },
+          "a": {
+            "en": "No. Review conductor material and area, length, ambient temperature, bundling, voltage drop, connections and the continuous or intermittent duty.",
+            "zh": "不能。还需核对导体材料与截面、长度、环境温度、成束状态、压降、连接点以及连续或间歇工作要求。"
+          }
+        },
+        {
+          "q": {
+            "en": "Can you match a drawing or existing cable?",
+            "zh": "可以按图纸或现有样品定制吗？"
+          },
+          "a": {
+            "en": "Yes. Provide dimensions, terminal references, polarity, installation photographs, electrical duty, quantity and required inspection. A sample establishes geometry but not every hidden requirement.",
+            "zh": "可以。请提供尺寸、端子资料、极性、安装照片、电气工况、数量及检验要求。样品能提供几何参考，但不包含全部隐藏要求。"
+          }
+        },
+        {
+          "q": {
+            "en": "Does thicker insulation mean more copper?",
+            "zh": "外皮更厚就意味着铜更多吗？"
+          },
+          "a": {
+            "en": "No. Overall diameter includes insulation. Conductor material, cross-sectional area and resistance must be checked independently.",
+            "zh": "不是。总外径包含绝缘层，需要独立检查导体材料、截面和电阻。"
+          }
+        }
+      ],
+      "creditHeading": {
+        "en": "Image credits and technical references",
+        "zh": "图片来源与技术参考"
+      },
+      "mediaCredits": [
+        {
+          "file": "DigitalCaliperEuro.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:DigitalCaliperEuro.jpg",
+          "author": "Xofc at English Wikipedia",
+          "license": "Public domain",
+          "asset": "/assets/images/product-categories/stock/battery-link/geometry.jpg"
+        },
+        {
+          "file": "US Navy 100504-N-6604E-004 Aviation Support Equipment Technician Airman James Hillman attaches jumper cables to the battery of an aircraft tow tractor.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:US_Navy_100504-N-6604E-004_Aviation_Support_Equipment_Technician_Airman_James_Hillman_attaches_jumper_cables_to_the_battery_of_an_aircraft_tow_tractor.jpg",
+          "author": "U.S. Navy photo by Mass Communication Specialist 3rd Class Bradley Evans",
+          "license": "Public domain",
+          "asset": "/assets/images/product-categories/stock/battery-link/applications.jpg"
+        },
+        {
+          "file": "Jumper cables.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Jumper_cables.jpg",
+          "author": "Wtshymanski at English Wikipedia",
+          "license": "Public domain",
+          "asset": "/assets/images/product-categories/stock/battery-link/service.jpg"
+        },
+        {
+          "file": "Kabelschoen 150-12F.png",
+          "url": "https://commons.wikimedia.org/wiki/File:Kabelschoen_150-12F.png",
+          "author": "Fluppe37",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "asset": "/assets/images/product-categories/stock/battery-link/terminals.jpg"
+        },
+        {
+          "file": "MFrey Masseband.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:MFrey_Masseband.jpg",
+          "author": "MichaelFrey",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "asset": "/assets/images/product-categories/stock/battery-link/introduction.jpg"
+        },
+        {
+          "file": "Battery Terminal Corrision.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Battery_Terminal_Corrision.jpg",
+          "author": "MarkBuckawicki",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "asset": "/assets/images/product-categories/stock/battery-link/corrosion.jpg"
+        },
+        {
+          "file": "Aneng AN870 multimeter 01.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Aneng_AN870_multimeter_01.jpg",
+          "author": "Retired electrician",
+          "license": "CC0",
+          "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+          "asset": "/assets/images/product-categories/stock/battery-link/testing.jpg"
+        },
+        {
+          "file": "Kabelschuh.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Kabelschuh.jpg",
+          "author": "Ulfbastel",
+          "license": "Public domain",
+          "asset": "/assets/images/product-categories/stock/battery-link/crimp.jpg"
+        },
+        {
+          "file": "Anderson connector1.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Anderson_connector1.jpg",
+          "author": "Shengtaoliu",
+          "license": "CC BY-SA 3.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+          "asset": "/assets/images/product-categories/stock/battery-link/solution.jpg"
+        },
+        {
+          "file": "Starter motor.JPG",
+          "url": "https://commons.wikimedia.org/wiki/File:Starter_motor.JPG",
+          "author": "Y Sekiai",
+          "license": "CC BY-SA 4.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+          "asset": "/assets/images/product-categories/stock/battery-link/range.jpg"
+        },
+        {
+          "file": "Close-up of the cables connected to an old and dirty car battery.jpg",
+          "url": "https://commons.wikimedia.org/wiki/File:Close-up_of_the_cables_connected_to_an_old_and_dirty_car_battery.jpg",
+          "author": "Shixart1985",
+          "license": "CC BY 2.0",
+          "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+          "asset": "/assets/images/product-categories/stock/battery-link/hero.jpg"
+        },
+        {
+          "file": "SAE J1127 — Low-Voltage Battery Cable (2025)",
+          "url": "https://saemobilus.sae.org/standards/j1127_202508-low-voltage-battery-cable",
+          "author": "SAE International",
+          "license": "Technical reference; no certification claim"
+        },
+        {
+          "file": "SB connector series and assembly instructions",
+          "url": "https://www.andersonpower.com/product-lines/sb-connector-series/",
+          "author": "Anderson Power",
+          "license": "Technical reference"
+        },
+        {
+          "file": "Electrical automotive troubleshooting",
+          "url": "https://www.fluke.com/en/learn/blog/automotive/electrical-automotive-troubleshooting",
+          "author": "Fluke",
+          "license": "Technical reference"
+        }
+      ]
+    }
+  },
   "automotive-09": {
     "intro":{"en":"Custom relay and fuse-box harnesses connect protected power feeds, switching circuits and vehicle loads in a serviceable assembly.","zh":"继电器与保险丝盒线束连接受保护馈线、开关控制回路与车辆负载，组成便于安装和维护的配电组件。"},
     "knowledge":{"en":"Fuse selection, contact duty, conductor capacity, coil suppression and enclosure temperature must be coordinated.","zh":"熔断器、触点任务、导体容量、线圈抑制与盒内温度需要协调设计。"},

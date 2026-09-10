@@ -378,7 +378,7 @@ async function loadData(){
     fetch('/data/products.json?v=20260831v7').then(r=>r.json()),
     fetch('/data/product-series.json?v=20260902v1').then(r=>r.json()),
     fetch('/data/product-capabilities.json?v=20260902v4').then(r=>r.json()),
-    fetch('/data/product-category-details.json?v=20260910v22').then(r=>r.json())
+    fetch('/data/product-category-details.json?v=20260910v23').then(r=>r.json())
   ]);
   SITE=s; PRODS=p; SERIES=series; CAPABILITIES=capabilities; CATEGORY_DETAILS=categoryDetails;
   applyEvidenceBoundaries();
@@ -1179,6 +1179,17 @@ function productCategoryPageRecord(){
 
 function renderProductCategoryRichMarkup(page,item){
   const heading=key=>htmlEscape(t(page.headings?.[key]));
+  if(page.layout==='battery-link-editorial'){
+    const photo=(src,caption)=>`<figure class="bl-photo"><img src="${htmlEscape(src)}" alt="${htmlEscape(caption)}" width="1200" height="900" loading="lazy" decoding="async"><figcaption>${htmlEscape(caption)}</figcaption></figure>`;
+    const chapters=page.chapters||[];
+    const topic=(i,kind)=>{const c=chapters[i],inset=['terminal','geometry','testing'].includes(kind),media=photo(c.image,t(c.caption));return `<article id="battery-topic-${i}" class="bl-topic bl-${kind}">${inset?media:''}<div class="bl-copy"><h2>${htmlEscape(t(c.title))}</h2><p>${htmlEscape(t(c.copy))}</p></div>${inset?'':media}</article>`;};
+    const links=[1,4,7].map(i=>`<a href="#battery-topic-${i}">${htmlEscape(t(chapters[i].title))}</a>`).join('');
+    const body=`${topic(0,'range')}${topic(1,'terminal')}<div class="bl-context">${topic(2,'solution')}${topic(3,'application')}</div>${topic(4,'contact')}${topic(5,'corrosion')}<div class="bl-measurements">${topic(6,'geometry')}${topic(7,'testing')}</div>${topic(8,'service')}`;
+    const faq=(page.faq||[]).map((e,i)=>`<details${i===0?' open':''}><summary>${htmlEscape(t(e.q))}</summary><p>${htmlEscape(t(e.a))}</p></details>`).join('');
+    const credits=(page.mediaCredits||[]).map(e=>`<li><a href="${htmlEscape(e.url)}" target="_blank" rel="noopener">${htmlEscape(e.file)}</a><span>${htmlEscape(e.author)} · ${e.licenseUrl?`<a href="${htmlEscape(e.licenseUrl)}" target="_blank" rel="noopener">${htmlEscape(e.license)}</a>`:htmlEscape(e.license)}</span></li>`).join('');
+    const notice=LANG==='zh'?'照片为第三方实拍参考，用于说明结构、应用或维护问题，不代表本公司制造的产品、合格安装示例或摄影者背书。显示时调整尺寸、裁切及色调；衍生图片沿用原图适用的共享许可。':'Third-party reference photographs illustrate construction, applications or maintenance issues, not verified company production, approved installations or photographer endorsements. Resizing, display cropping and tonal adjustments are applied; image adaptations retain the applicable original share-alike license.';
+    return `<div class="bl-page"><section class="bl-opening"><div><h2>${heading('introduction')}</h2><p>${htmlEscape(t(page.lead))}</p><nav class="bl-guide" aria-label="${LANG==='zh'?'本页导读':'On this page'}">${links}</nav></div>${photo(page.images.range,LANG==='zh'?'编织接地带：柔性导体与两端安装掌面共同构成回流连接。':'Braided earth strap: a flexible conductor connects the two mounting palms.')}</section>${body}<section class="pcc-rich-section pcc-rich-faq"><header class="pcc-rich-heading"><h2>${heading('faq')}</h2></header><div class="pcc-faq-grid">${faq}</div></section><details class="pcc-media-credits"><summary>${htmlEscape(t(page.creditHeading))}</summary><ul>${credits}<li>${notice}</li></ul></details></div>`;
+  }
   const image=(src,alt,className='')=>`<figure class="pcc-rich-media ${className}"><img src="${htmlEscape(src)}" alt="${htmlEscape(alt)}" width="1536" height="1024" loading="lazy" decoding="async"></figure>`;
   if(page.layout==='connector-atlas'){
     const atlasImage=(src,alt,className='')=>`<figure class="pcc-atlas-media ${className}"><img src="${htmlEscape(src)}" alt="${htmlEscape(alt)}" width="1200" height="900" loading="lazy" decoding="async"></figure>`;
