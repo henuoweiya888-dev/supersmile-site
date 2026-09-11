@@ -86,11 +86,11 @@ SECTION_IMAGES = {
     "benefits" => %W[#{PREFIX}/industrial-equipment-refresh/equipment-maintenance.jpg #{PREFIX}/industrial-equipment-refresh-2/31580848.jpg #{PREFIX}/industrial-equipment-refresh/production-quality.jpg #{PREFIX}/industrial-equipment-refresh-2/32048366.jpg]
   },
   "custom-harness-03" => {
-    "variants" => %W[#{PREFIX}/robotic/yellow-robot-arm.jpg #{PREFIX}/robotic/delta-robot.jpg #{PREFIX}/robotic/robotic-welding.jpg #{PREFIX}/robotic/robot-line.jpg #{PREFIX}/robotic/factory-conveyor.jpg #{PREFIX}/robotic/robot-lab.jpg],
-    "materials" => %W[#{PREFIX}/industrial-equipment/copper-wire.jpg #{PREFIX}/industrial-equipment/cable-insulation.jpg #{PREFIX}/industrial-equipment/cable-bundle.jpg #{PREFIX}/industrial-equipment/sealed-connector.jpg],
-    "solutions" => %W[#{PREFIX}/robotic/robot-assembly-team.jpg #{PREFIX}/robotic-refresh/robotic-lab-arm.jpg #{PREFIX}/robotic/robot-machine-wiring.jpg #{PREFIX}/robotic-refresh/robot-engineering-team.jpg],
+    "variants" => %W[#{PREFIX}/robotic/yellow-robot-arm.jpg #{PREFIX}/robotic/delta-robot.jpg #{PREFIX}/robotic/robotic-welding.jpg #{PREFIX}/robotic-refresh-2/baxter-gripper.jpg #{PREFIX}/robotic/factory-conveyor.jpg #{PREFIX}/robotic/robot-lab.jpg],
+    "materials" => %W[#{PREFIX}/robotic-refresh-2/stranded-copper-wire.jpg #{PREFIX}/robotic-refresh-2/cable-drag-chain-metal.jpg #{PREFIX}/robotic-refresh-2/shielded-cable-cross-section.jpg #{PREFIX}/robotic-refresh-2/industrial-strain-relief-rail.jpg],
+    "solutions" => %W[#{PREFIX}/robotic/robot-assembly-team.jpg #{PREFIX}/robotic-refresh/robotic-lab-arm.jpg #{PREFIX}/robotic-refresh-2/ur5e-modular-arm.jpg #{PREFIX}/robotic-refresh/robot-engineering-team.jpg],
     "applications" => %W[#{PREFIX}/robotic-refresh/vehicle-robot-assembly.jpg #{PREFIX}/robotic-refresh/robotic-welding-blue.jpg #{PREFIX}/robotic-refresh/automated-conveyor.jpg #{PREFIX}/robotic-refresh/research-robot-arm.jpg #{PREFIX}/robotic-refresh/modern-robot-arm.jpg #{PREFIX}/robotic-refresh/cnc-automation.jpg],
-    "process" => %W[#{PREFIX}/robotic-refresh/robotic-factory-controls.jpg #{PREFIX}/robotic-refresh/robot-joint-detail.jpg #{PREFIX}/robotic-refresh/industrial-cables.jpg #{PREFIX}/industrial-equipment/machine-build.jpg #{PREFIX}/industrial-equipment/panel-testing.jpg #{PREFIX}/robotic-refresh/factory-robotics.jpg],
+    "process" => %W[#{PREFIX}/robotic-refresh/robotic-factory-controls.jpg #{PREFIX}/robotic-refresh/robot-joint-detail.jpg #{PREFIX}/robotic-refresh/industrial-cables.jpg #{PREFIX}/robotic-refresh-2/7868884.jpg #{PREFIX}/robotic-refresh-2/6349399.jpg #{PREFIX}/robotic-refresh/factory-robotics.jpg],
     "reliability" => %W[#{PREFIX}/robotic-refresh/robot-equipment-detail.jpg #{PREFIX}/robotic-refresh/robotic-device.jpg #{PREFIX}/robotic-refresh/industrial-power-connector.jpg #{PREFIX}/robotic-refresh/electrical-validation.jpg],
     "benefits" => %W[#{PREFIX}/robotic-refresh/robotic-welding-cell.jpg #{PREFIX}/robotic-refresh/equipment-maintenance.jpg #{PREFIX}/robotic-refresh/cnc-tooling.jpg #{PREFIX}/robotic-refresh/robotic-grinding.jpg]
   },
