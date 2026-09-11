@@ -1,4 +1,12 @@
 {
+  "specialty-08": {
+    "title":{"en":"Waterproof Design Harness","zh":"防水设计线束"},
+    "intro":{"en":"Custom waterproof wire harnesses are developed as complete sealed systems around the real exposure, mating state, cable entries, branches and agreed validation.","zh":"定制防水设计线束需要围绕真实暴露、插合状态、出线、分支与约定验证，作为完整密封系统开发。"},
+    "knowledge":{"en":"IP67, IP68 and IP69K are different defined test questions; a component rating does not automatically transfer to a complete harness.","zh":"IP67、IP68 与 IP69K 对应不同规定试验，元件等级不会自动转移到完整线束。"},
+    "notes":{"en":"Provide both mating interfaces, pin map, cable diameters, unused cavities, orientation, exposure, movement and required test method.","zh":"请提供对插两端、针脚表、线缆外径、空腔、方向、暴露、运动与所需试验方法。"},
+    "delivery":{"en":"Release records the sealing stack, preparation dimensions, assembly controls and project-specific evidence.","zh":"放行记录密封链、备线尺寸、装配控制与项目特定证据。"},
+    "page":{"layout":"waterproof-design-editorial","displayTitle":{"en":"Waterproof Design Harness","zh":"防水设计线束"},"headings":{"introduction":{"en":"Map the Complete Ingress Boundary","zh":"画出完整进水边界"},"faq":{"en":"Waterproof Design Questions","zh":"防水设计常见问题"}},"subtitle":{"en":"Water follows every unfinished path","zh":"水会沿着每一条未封闭路径前进"},"lead":{"en":"Define the complete sealed system before production.","zh":"生产前定义完整密封系统。"},"images":{"range":"/assets/images/product-categories/stock/waterproof-design/hero-water-splash.jpg"},"faq":[]}
+  },
   "specialty-07": {
     "title":{"en":"Panel-Mount Cable Assemblies","zh":"面板安装电缆组件"},
     "intro":{"en":"Custom panel-mount and bulkhead cable assemblies turn a cable end into a defined equipment interface, with the connector, cutout, hardware, seal, cable construction and validation engineered together.","zh":"定制面板安装与隔板电缆组件，将线端变成边界清晰的设备接口，并将连接器、开孔、五金、密封、线缆结构与验证协同开发。"},
