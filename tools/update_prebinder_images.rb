@@ -32,7 +32,7 @@ SECTION_IMAGES = {
     "benefits" => %W[#{PREFIX}/waterproof-design/hero-water-splash.jpg #{PREFIX}/waterproof-design/rain-droplets.jpg #{PREFIX}/waterproof-refresh/1076110.jpg #{PREFIX}/waterproof-refresh/34370966.jpg]
   },
   "custom-harness-10" => {
-    "variants" => %W[#{PREFIX}/prototype-refresh/9242823.jpg #{PREFIX}/prototype-refresh/7166995.jpg #{PREFIX}/prototype-refresh/32391505.jpg #{PREFIX}/prototype-refresh/34221993.jpg #{PREFIX}/prototype-refresh/32391498.jpg #{PREFIX}/prototype-refresh/3912369.jpg],
+    "variants" => %W[#{PREFIX}/prototype-refresh-2/electronics-prototype-workbench.jpg #{PREFIX}/prototype-refresh/7166995.jpg #{PREFIX}/prototype-refresh/32391505.jpg #{PREFIX}/prototype-refresh/34221993.jpg #{PREFIX}/prototype-refresh/32391498.jpg #{PREFIX}/prototype-refresh/3912369.jpg],
     "materials" => %W[#{PREFIX}/prototype-refresh/35686433.jpg #{PREFIX}/prototype-refresh/34232878.jpg #{PREFIX}/prototype-refresh/37340074.jpg #{PREFIX}/prototype-refresh/2842456.jpg],
     "solutions" => %W[#{PREFIX}/prototype-refresh/3861946.jpg #{PREFIX}/prototype-refresh/33531809.jpg #{PREFIX}/prototype-refresh/36861981.jpg #{PREFIX}/prototype-refresh/30415869.jpg],
     "applications" => %W[#{PREFIX}/prototype-refresh/31121900.jpg #{PREFIX}/prototype-refresh/24859620.jpg #{PREFIX}/prototype-refresh/37492293.jpg #{PREFIX}/prototype-refresh/35155421.jpg #{PREFIX}/prototype-refresh/3913031.jpg #{PREFIX}/prototype-refresh/4485456.jpg],
@@ -164,6 +164,11 @@ BRAIDED_IMAGES = {
   "range" => "#{PREFIX}/braided-refresh-2/braid-foil-shielded-cable.jpg"
 }.freeze
 
+PROTOTYPE_IMAGES = {
+  "hero" => "#{PREFIX}/prototype-refresh/9242823.jpg",
+  "range" => "#{PREFIX}/prototype-refresh-2/breadboard-prototype.jpg"
+}.freeze
+
 document = File.read(DATA_FILE)
 data = JSON.parse(document)
 
@@ -263,6 +268,16 @@ images_start = category.index(/^      "images":\{/)
 images_end = category.index("\n", images_start)
 images_block = category[images_start...images_end]
 BRAIDED_IMAGES.each do |key, value|
+  images_block.sub!(/"#{Regexp.escape(key)}"\s*:\s*"[^"]+"/, %Q{"#{key}":#{JSON.generate(value)}})
+end
+document[start_at + images_start, images_end - images_start] = images_block
+
+start_at, finish_at = category_bounds(document, "custom-harness-10")
+category = document[start_at...finish_at]
+images_start = category.index(/^      "images":\{/)
+images_end = category.index("\n", images_start)
+images_block = category[images_start...images_end]
+PROTOTYPE_IMAGES.each do |key, value|
   images_block.sub!(/"#{Regexp.escape(key)}"\s*:\s*"[^"]+"/, %Q{"#{key}":#{JSON.generate(value)}})
 end
 document[start_at + images_start, images_end - images_start] = images_block
