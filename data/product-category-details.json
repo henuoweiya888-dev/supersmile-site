@@ -1,4 +1,12 @@
 {
+  "specialty-11": {
+    "title":{"en":"Ultrasonic-Welded Branch Harness","zh":"超声波焊接分支线束"},
+    "intro":{"en":"Custom ultrasonic-welded branch harnesses combine specified conductors into compact solid-state splices through a validated preparation, tooling, parameter, protection and inspection process.","zh":"定制超声波焊接分支线束通过经过验证的备线、工装、参数、防护与检验工艺，把规定导体组合成紧凑固相焊点。"},
+    "knowledge":{"en":"The released weld window belongs to the exact wire combination, tooling and equipment; a material or size change requires review.","zh":"放行焊接窗口属于准确线材组合、工装与设备，更换材料或线径需要重新审核。"},
+    "notes":{"en":"Provide every wire material and area, circuit, branch geometry, strip and protection needs, environment, standard, quantity and validation limits.","zh":"请提供每根线材与截面积、回路、分支几何、剥线和防护、环境、标准、数量与验证限值。"},
+    "delivery":{"en":"Release records wire stack, preparation, nugget limits, tooling, machine, parameter window, protection and inspection evidence.","zh":"放行文件记录线材叠放、备线、焊点限值、工装、设备、参数窗口、防护与检验证据。"},
+    "page":{"layout":"ultrasonic-splice-editorial","displayTitle":{"en":"Ultrasonic-Welded Branch Harness","zh":"超声波焊接分支线束"},"headings":{"introduction":{"en":"A Validated Solid-State Splice","zh":"经过验证的固相分支焊点"},"faq":{"en":"Ultrasonic-Welded Branch Questions","zh":"超声波焊接分支常见问题"}},"subtitle":{"en":"A compact branch comes from a validated process window","zh":"紧凑分支焊点来自经过验证的工艺窗口"},"lead":{"en":"Control wire input, placement, tooling, parameters and evidence as one process.","zh":"将线材输入、摆放、工装、参数与证据作为一套工艺控制。"},"images":{"range":"/assets/images/product-categories/stock/ultrasonic-branch/hero-ultrasonic-workstation.jpg"},"faq":[]}
+  },
   "specialty-10": {
     "title":{"en":"EMI-Shielded Cable Design","zh":"EMI 屏蔽电缆设计"},
     "intro":{"en":"Custom EMI-shielded cable assemblies coordinate cable geometry, foil or braid, connector termination, bonding, ferrites and defined validation around the real noise source and coupling path.","zh":"定制 EMI 屏蔽电缆组件围绕真实噪声源与耦合路径，协同定义线缆几何、铝箔或编织、连接器端接、搭接、铁氧体与验证。"},
