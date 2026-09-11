@@ -135,8 +135,8 @@ CONTROL_PANEL_IMAGES = {
 }.freeze
 
 NEW_ENERGY_IMAGES = {
-  "hero" => "#{PREFIX}/new-energy-refresh/10800215.jpg",
-  "range" => "#{PREFIX}/new-energy-refresh/12737898.jpg"
+  "hero" => "#{PREFIX}/new-energy-refresh-2/low-voltage-controller-harness.jpg",
+  "range" => "#{PREFIX}/new-energy-refresh-2/electric-vehicle-wiring.jpg"
 }.freeze
 
 OVERMOLD_IMAGES = {
