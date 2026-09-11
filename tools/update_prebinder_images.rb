@@ -59,7 +59,7 @@ SECTION_IMAGES = {
     "benefits" => %W[#{PREFIX}/turnkey-refresh/36771186.jpg #{PREFIX}/turnkey-refresh/34585120.jpg #{PREFIX}/turnkey-refresh/7464201.jpg #{PREFIX}/turnkey-refresh/5775099.jpg]
   },
   "custom-harness-07" => {
-    "variants" => %W[#{PREFIX}/pigtail-refresh/11392632.jpg #{PREFIX}/pigtail-refresh/7286937.jpg #{PREFIX}/pigtail-refresh/3616772.jpg #{PREFIX}/pigtail-refresh/11404176.jpg #{PREFIX}/solar/branch-flying-leads.jpg #{PREFIX}/pigtail-refresh/11837458.jpg],
+    "variants" => %W[#{PREFIX}/pigtail-refresh-2/connector-pigtails.jpg #{PREFIX}/pigtail-refresh/7286937.jpg #{PREFIX}/pigtail-refresh/3616772.jpg #{PREFIX}/pigtail-refresh/11404176.jpg #{PREFIX}/solar/branch-flying-leads.jpg #{PREFIX}/pigtail-refresh/11837458.jpg],
     "materials" => %W[#{PREFIX}/pigtail-refresh/29852999.jpg #{PREFIX}/pigtail-refresh/14319099.jpg #{PREFIX}/pigtail-refresh/8132431.jpg #{PREFIX}/pigtail-refresh/36449414.jpg],
     "solutions" => %W[#{PREFIX}/pigtail-refresh/13065692.jpg #{PREFIX}/pigtail-refresh/4116193.jpg #{PREFIX}/pigtail-refresh/5572271.jpg #{PREFIX}/pigtail-refresh/6870313.jpg],
     "applications" => %W[#{PREFIX}/pigtail-refresh/10290624.jpg #{PREFIX}/pigtail-refresh/8986041.jpg #{PREFIX}/pigtail-refresh/10290629.jpg #{PREFIX}/pigtail-refresh/5572265.jpg #{PREFIX}/pigtail-refresh/36311187.jpg #{PREFIX}/pigtail-refresh/5562431.jpg],
@@ -149,6 +149,11 @@ JUMPER_IMAGES = {
   "range" => "#{PREFIX}/jumper-refresh-2/splicing-connector-wire.jpg"
 }.freeze
 
+PIGTAIL_IMAGES = {
+  "hero" => "#{PREFIX}/pigtail-refresh/11392632.jpg",
+  "range" => "#{PREFIX}/pigtail-refresh-2/instrument-branch-harness.jpg"
+}.freeze
+
 document = File.read(DATA_FILE)
 data = JSON.parse(document)
 
@@ -219,6 +224,16 @@ images_end = category.index(/^      \},/, images_start) + 8
 images_block = category[images_start...images_end]
 JUMPER_IMAGES.each do |key, value|
   images_block.sub!(/"#{Regexp.escape(key)}"\s*:\s*"[^"]+"/, %Q{"#{key}": #{JSON.generate(value)}})
+end
+document[start_at + images_start, images_end - images_start] = images_block
+
+start_at, finish_at = category_bounds(document, "custom-harness-07")
+category = document[start_at...finish_at]
+images_start = category.index(/^      "images":\{/)
+images_end = category.index("\n", images_start)
+images_block = category[images_start...images_end]
+PIGTAIL_IMAGES.each do |key, value|
+  images_block.sub!(/"#{Regexp.escape(key)}"\s*:\s*"[^"]+"/, %Q{"#{key}":#{JSON.generate(value)}})
 end
 document[start_at + images_start, images_end - images_start] = images_block
 
