@@ -1,4 +1,12 @@
 {
+  "specialty-06": {
+    "title":{"en":"Micro-D Cable Assemblies","zh":"Micro-D 电缆组件"},
+    "intro":{"en":"Custom Micro-D cable assemblies for compact aerospace, defense, instrumentation, medical and industrial electronics, with defined interface, circuit map, cable construction, retention, shielding and inspection.","zh":"面向紧凑型航空航天、国防、仪器、医疗及工业电子设备定制 Micro-D 电缆组件，明确接口、回路图、线缆结构、锁紧、屏蔽与检验要求。"},
+    "knowledge":{"en":"Micro-D identifies a miniature connector family, not a complete cable or qualification statement.","zh":"Micro-D 标识微型连接器家族，并不等于完整电缆规范或资质声明。"},
+    "notes":{"en":"Provide exact mating references, contact arrangement, wiring view, cable construction, hardware, route and acceptance requirements.","zh":"请提供准确对插料号、触点排列、接线视图、线缆结构、锁紧件、路径及验收要求。"},
+    "delivery":{"en":"Approve the interface schedule, termination sample, mechanical configuration and electrical inspection evidence before repeat production.","zh":"重复生产前确认接口清单、端接样品、机械配置与电气检验证据。"},
+    "page":{"layout":"micro-d-editorial","displayTitle":{"en":"Micro-D Cable Assemblies","zh":"Micro-D 电缆组件"},"headings":{"introduction":{"en":"Small Interface, Complete Specification","zh":"小接口，完整规格"},"faq":{"en":"Micro-D Questions","zh":"Micro-D 常见问题"}},"subtitle":{"en":"High-density miniature interconnects, fully defined","zh":"高密度微型互连，也要完整定义"},"lead":{"en":"Define the complete mechanical, electrical and documentation system before production.","zh":"生产前定义完整的机械、电气与文件体系。"},"images":{"range":"/assets/images/product-categories/stock/micro-d/hero.jpg"},"faq":[]}
+  },
   "specialty-05": {
     "title":{"en":"FPC / FFC Cable Assemblies","zh":"FPC / FFC 电缆组件"},
     "intro":{"en":"Custom FFC and FPC cable assemblies for displays, cameras, control panels and compact equipment, with defined pitch, contact side, tail geometry, mating, routing and inspection.","zh":"面向显示、摄像、控制面板与紧凑设备定制 FFC 和 FPC 电缆组件，明确节距、触点面、尾端几何、插接、布线与检验要求。"},

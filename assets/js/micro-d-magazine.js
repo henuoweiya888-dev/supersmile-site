@@ -1,0 +1,46 @@
+(() => {
+  const host = document.getElementById('pcc-rich-content'); if (!host) return;
+  const root='/assets/images/product-categories/stock/micro-d/';
+  const files={identity:'opening.jpg',interface:'interface.jpg',geometry:'geometry.jpg',contacts:'contacts.jpg',termination:'termination.jpg',hardware:'hardware.jpg',strain:'strain-relief.jpg',shield:'shield.jpg','high-speed':'high-speed.jpg',aerospace:'aerospace.jpg',instrument:'instrument.jpg',inspection:'inspection.jpg'};
+  const captions={
+    identity:['高密度矩形接头用于说明紧凑接口概念；具体 Micro-D 规格须按料号确认。','A high-density rectangular connector illustrates compact interfaces; exact Micro-D identity remains part-number controlled.'],
+    interface:['带位号的接头正面强调观察方向与针脚编号之间的关系。','A numbered connector face emphasizes the relationship between viewing direction and position identity.'],
+    geometry:['数据采集设备上的多位接头说明接口还必须与设备和安装空间共同确认。','A multiposition interface on data-acquisition equipment shows why fit includes the equipment and installation envelope.'],
+    contacts:['精密连接器触点阵列用于说明触点类型、镀层及对插均需按系列审核。','A precision contact array illustrates why contact type, plating and mating are series-specific.'],
+    termination:['高密度多路线束实拍说明端接、分支与线材必须作为一个系统定义。','A high-density multichannel harness illustrates termination, branching and cable construction as one system.'],
+    hardware:['带螺钉的 D 型接口用于说明锁紧件与面板空间；不是 Micro-D 料号参考。','A screw-retained D-form interface illustrates hardware and panel access; it is not a Micro-D part reference.'],
+    strain:['电缆密封接头用于说明夹持和受控出线，不代表指定 Micro-D 尾罩。','A cable gland illustrates clamping and controlled cable exit, not a specified Micro-D backshell.'],
+    shield:['编织屏蔽层实拍用于说明屏蔽覆盖与端接边界。','A braided shield close-up illustrates shield coverage and the termination boundary.'],
+    'high-speed':['有源探头用于说明高速通道的测量边界与测试方法必须被定义。','An active probe illustrates why high-speed channel limits and measurement methods must be defined.'],
+    aerospace:['运载火箭内部航空电子线缆展示空间、重量与可追溯性共同约束。','Avionics cabling inside a launch vehicle illustrates combined space, mass and traceability constraints.'],
+    instrument:['精密惯性仪器内部结构展示紧凑设备中的可维护互连。','The interior of a precision inertial instrument shows serviceable interconnects in compact equipment.'],
+    inspection:['电路板检验夹具用于说明受控定位、观察与记录。','A circuit-board inspection fixture illustrates controlled positioning, viewing and records.']
+  };
+  const esc=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const pick=(v,zh)=>typeof v==='string'?v:v[zh?'zh':'en']; const isZh=()=>new URLSearchParams(location.search).get('lang')!=='en';
+  const photo=(t,zh,cls='')=>`<figure class="md-photo ${cls}"><img src="${root}${files[t.id]}" alt="${esc(pick(t.title,zh))}" loading="lazy" decoding="async"><figcaption>${esc(captions[t.id][zh?0:1])}</figcaption></figure>`;
+  const story=(t,zh,cls='')=>`<article class="md-story ${cls}">${photo(t,zh)}<div class="md-copy"><h3>${esc(pick(t.title,zh))}</h3><p>${esc(pick(t.copy,zh))}</p></div></article>`;
+  let zh=true;
+  async function render(){
+    try{
+      zh=isZh(); const data=await fetch('/content/product-category-drafts/micro-d-cable-assembly.json',{cache:'no-store'}).then(r=>r.json()); const p=data.page,t=p.chapters;
+      document.documentElement.lang=zh?'zh-CN':'en'; document.title=zh?'Micro-D 电缆组件定制｜MIL-DTL-83513、屏蔽与高速信号｜超斯迈尔':'Custom Micro-D Cable Assemblies | MIL-DTL-83513, Shielding & High-Speed | Super Smile';
+      document.querySelector('meta[name="description"]')?.setAttribute('content',zh?'定制 Micro-D 电缆组件，覆盖 MIL-DTL-83513 风格接口、1.27mm 节距、绞线针、顶丝、尾罩、屏蔽、LVDS、Camera Link、SpaceWire 与逐路测试。':'Custom Micro-D cable assemblies covering MIL-DTL-83513-style interfaces, 1.27 mm pitch, twist-pin contacts, jackscrews, backshells, shielding, LVDS, Camera Link, SpaceWire and circuit testing.');
+      const title=pick(p.displayTitle,zh); document.getElementById('pcc-title').textContent=title; document.getElementById('pcc-intro').textContent=pick(data.intro,zh); document.getElementById('pcc-eyebrow').textContent=zh?'产品小类 · 高密度微型互连':'PRODUCT CATEGORY · HIGH-DENSITY INTERCONNECT'; document.getElementById('pcc-group').textContent=zh?'特色电缆组件':'Specialty Cable Assemblies'; document.getElementById('pcc-cta').textContent=zh?'咨询这一类产品':'Ask About This Product Type'; document.getElementById('pcc-back').textContent=zh?'返回产品中心':'Back to Products'; document.getElementById('pcc-closing-title').textContent=title; document.getElementById('pcc-closing-group').textContent=zh?'特色电缆组件':'Specialty Cable Assemblies'; document.getElementById('pcc-closing-cta').textContent=zh?'发送接口与图纸':'Send Interface Details';
+      const opening=`<section class="md-opening"><div class="md-opening-copy"><span>${zh?'高密度不是省略定义的理由':'DENSITY DOES NOT REMOVE DEFINITION'}</span><h2>${esc(pick(p.subtitle,zh))}</h2><p class="md-lead">${esc(pick(p.lead,zh))}</p><h3>${esc(pick(t[0].title,zh))}</h3><p>${esc(pick(t[0].copy,zh))}</p><dl><div><dt>${zh?'接口':'INTERFACE'}</dt><dd>${zh?'料号、壳体、触点、观察面':'Reference, shell, contact, view'}</dd></div><div><dt>${zh?'结构':'CONSTRUCTION'}</dt><dd>${zh?'导体、屏蔽、尾罩、紧固件':'Wire, shield, backshell, hardware'}</dd></div><div><dt>${zh?'证据':'EVIDENCE'}</dt><dd>${zh?'首件、逐路测试、版本记录':'First article, circuit test, revision'}</dd></div></dl></div>${photo(t[0],zh,'md-opening-photo')}</section>`;
+      const nav=`<nav class="md-nav" aria-label="${zh?'本页目录':'On this page'}"><a href="#md-interface"><b>01</b>${zh?'接口身份':'Interface identity'}</a><a href="#md-build"><b>02</b>${zh?'触点与端接':'Contact & termination'}</a><a href="#md-mechanics"><b>03</b>${zh?'机械保持':'Mechanical retention'}</a><a href="#md-signal"><b>04</b>${zh?'信号架构':'Signal architecture'}</a><a href="#md-use"><b>05</b>${zh?'应用边界':'Applications'}</a><a href="#md-release"><b>06</b>${zh?'检验放行':'Release'}</a></nav>`;
+      const interfaceSection=`<section class="md-section md-interface" id="md-interface">${sectionHeader('01',zh?'先识别每个方向与尺寸':'Identify Every View and Dimension',zh?'接口身份':'INTERFACE IDENTITY')}<div class="md-interface-grid">${story(t[1],zh,'md-interface-lead')}${story(t[2],zh)}</div></section>`;
+      const build=`<section class="md-section md-build" id="md-build">${sectionHeader('02',zh?'密度越高，工艺边界越要清楚':'Higher Density Needs Clearer Process Limits',zh?'触点与端接':'CONTACT & TERMINATION')}<div class="md-build-grid">${story(t[3],zh)}${story(t[4],zh)}</div></section>`;
+      const mechanics=`<section class="md-section md-mechanics" id="md-mechanics">${sectionHeader('03',zh?'让锁紧和出线一起工作':'Make Retention and Cable Exit Work Together',zh?'机械保持':'MECHANICAL RETENTION')}<div class="md-mechanics-grid">${story(t[5],zh)}${story(t[6],zh)}</div></section>`;
+      const signal=`<section class="md-section md-signal" id="md-signal">${sectionHeader('04',zh?'从屏蔽层一直追踪到信号通道':'Trace the Channel From Shield to Signal',zh?'信号架构':'SIGNAL ARCHITECTURE')}<div class="md-signal-grid">${story(t[7],zh,'md-signal-lead')}${story(t[8],zh)}</div></section>`;
+      const use=`<section class="md-section md-use" id="md-use">${sectionHeader('05',zh?'应用名称之后，还有真实工况':'The Real Duty Starts After the Application Name',zh?'应用边界':'APPLICATION BOUNDARIES')}<div class="md-use-grid">${story(t[9],zh)}${story(t[10],zh)}</div></section>`;
+      const release=`<section class="md-section md-release" id="md-release">${sectionHeader('06',zh?'把第一件的证据保留到重复生产':'Carry First-Article Evidence Into Repeat Production',zh?'检验与放行':'INSPECTION & RELEASE')}<div class="md-release-grid">${story(t[11],zh)}<ol>${p.inputs.map((x,i)=>`<li><b>${String(i+1).padStart(2,'0')}</b><span>${esc(pick(x,zh))}</span></li>`).join('')}</ol></div></section>`;
+      const faq=`<section class="md-faq" id="md-faq">${sectionHeader('07',zh?'采购与工程一起确认':'Purchasing and Engineering',zh?'Micro-D 常见问题':'MICRO-D QUESTIONS')}<div>${p.faq.map(x=>`<details><summary>${esc(pick(x.q,zh))}</summary><p>${esc(pick(x.a,zh))}</p></details>`).join('')}</div></section>`;
+      const credits=`<details class="md-credits"><summary>${zh?'图片来源与技术依据':'Photo sources and technical references'}</summary><p>${zh?'图片用于说明接口、结构、工艺、应用或检验概念，不代表超斯迈尔产品实拍、指定 Micro-D 料号或项目认证。':'Images illustrate interfaces, construction, process, applications or inspection. They do not represent Super Smile product photography, specified Micro-D parts or project certification.'}</p><a href="${root}SOURCES.md" target="_blank" rel="noopener">${zh?'查看图片许可与技术来源':'View photo licenses and technical sources'}</a></details>`;
+      host.innerHTML=`<div class="md-page">${opening}${nav}${interfaceSection}${build}${mechanics}${signal}${use}${release}${faq}${credits}</div>`;
+      if(!matchMedia('(prefers-reduced-motion:reduce)').matches){const o=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('is-visible');o.unobserve(e.target)}}),{threshold:.08,rootMargin:'0px 0px -5%'});host.querySelectorAll('.md-header,.md-story').forEach(n=>o.observe(n));}
+    }catch(e){host.innerHTML=`<p class="md-error">${isZh()?'页面内容暂时无法载入，请刷新重试。':'This page could not load. Please refresh and try again.'}</p>`}
+  }
+  function sectionHeader(n,title,sub){return `<header class="md-header"><span>${n}</span><div><p>${esc(sub)}</p><h2>${esc(title)}</h2></div></header>`}
+  render(); setTimeout(render,1400); setTimeout(render,3200);
+})();
