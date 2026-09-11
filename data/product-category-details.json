@@ -1,4 +1,12 @@
 {
+  "specialty-12": {
+    "title":{"en":"Spiral Coiled Cable Assembly","zh":"螺旋卷线电缆组件"},
+    "intro":{"en":"Custom spiral coiled cable assemblies balance retracted package, working extension, restoring force, cable construction, endpoints and a defined motion cycle.","zh":"定制螺旋卷线电缆组件需要平衡收缩包络、工作拉伸、回弹力、线缆结构、端点与明确动作循环。"},
+    "knowledge":{"en":"A coiled cord is a complete moving cable system; extension ratio, force and life cannot be selected independently.","zh":"卷线是一套完整运动线缆系统，拉伸倍率、作用力与寿命不能相互独立选择。"},
+    "notes":{"en":"Provide retracted and working dimensions, coil geometry, both endpoints, circuits, restoring force, environment and motion profile.","zh":"请提供收缩与工作尺寸、线圈几何、两端接口、回路、回弹力、环境与动作谱。"},
+    "delivery":{"en":"Release records the cable build, coil dimensions, tail directions, endpoints, forming conditions and agreed dimensional, electrical and cycle evidence.","zh":"放行文件记录线缆结构、线圈尺寸、尾段方向、端点、成型条件与约定的尺寸、电气及循环证据。"},
+    "page":{"layout":"coil-motion-editorial","displayTitle":{"en":"Spiral Coiled Cable Assembly","zh":"螺旋卷线电缆组件"},"headings":{"introduction":{"en":"Define the Motion Envelope","zh":"定义运动包络"},"faq":{"en":"Spiral Coiled Cable Questions","zh":"螺旋卷线常见问题"}},"subtitle":{"en":"Reach when the equipment moves. Recover when it returns.","zh":"设备移动时延伸，归位后有序回收"},"lead":{"en":"Balance reach, force, stored strain and installed space as one system.","zh":"将可达距离、作用力、储存应变与安装空间作为一个系统平衡。"},"images":{"range":"/assets/images/product-categories/stock/spiral-coil/hero.jpg"},"faq":[]}
+  },
   "specialty-11": {
     "title":{"en":"Ultrasonic-Welded Branch Harness","zh":"超声波焊接分支线束"},
     "intro":{"en":"Custom ultrasonic-welded branch harnesses combine specified conductors into compact solid-state splices through a validated preparation, tooling, parameter, protection and inspection process.","zh":"定制超声波焊接分支线束通过经过验证的备线、工装、参数、防护与检验工艺，把规定导体组合成紧凑固相焊点。"},
