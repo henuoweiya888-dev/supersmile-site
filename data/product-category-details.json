@@ -1,4 +1,12 @@
 {
+  "specialty-13": {
+    "title":{"en":"High-Temperature Overmolded Cable Assembly","zh":"高温包覆成型电缆组件"},
+    "intro":{"en":"Custom high-temperature overmolded cable assemblies coordinate the conductor system, insulation, connector or sensor insert, molding material, process temperature, sealing geometry and validation around the real thermal profile.","zh":"定制高温包覆成型电缆组件围绕真实温度谱，协同定义导体体系、绝缘、连接器或传感器嵌件、成型材料、工艺温度、密封几何与验证。"},
+    "knowledge":{"en":"High temperature is not one material label. Continuous exposure, short peaks, thermal cycling, current-generated heat, fluids and the molding process itself can create different failure modes.","zh":"高温不是一个材料标签。持续暴露、短时峰值、冷热循环、电流自发热、介质以及成型工艺本身，会产生不同失效模式。"},
+    "notes":{"en":"Provide the operating and peak temperatures at every zone, dwell and cycle profile, cable and insert materials, circuits, fluids, sealing target, mounting and required test method.","zh":"请提供各温区工作与峰值温度、停留与循环谱、线缆和嵌件材料、回路、介质、密封目标、安装与所需试验方法。"},
+    "delivery":{"en":"Release records the material identities, preconditioning, tooling, process window, critical dimensions and agreed electrical, mechanical, sealing and thermal evidence.","zh":"放行文件记录材料身份、预处理、工装、工艺窗口、关键尺寸与约定的电气、机械、密封及热学证据。"},
+    "page":{"layout":"thermal-overmold-editorial","displayTitle":{"en":"High-Temperature Overmolded Cable Assembly","zh":"高温包覆成型电缆组件"},"headings":{"introduction":{"en":"Heat Is a Profile, Not One Number","zh":"高温是一条温度谱，不是一个数字"},"faq":{"en":"High-Temperature Overmolding Questions","zh":"高温包覆成型常见问题"}},"subtitle":{"en":"Protect the electrical path through heat, cycling and material change","zh":"让电气路径跨越高温、循环与材料变化"},"lead":{"en":"Separate service temperature from molding temperature, then engineer every interface between them.","zh":"先区分使用温度与成型温度，再设计两者之间的每一处材料界面。"},"images":{"range":"/assets/images/product-categories/stock/high-temperature-overmolding/hero-heat-process.jpg"},"faq":[]}
+  },
   "specialty-12": {
     "title":{"en":"Spiral Coiled Cable Assembly","zh":"螺旋卷线电缆组件"},
     "intro":{"en":"Custom spiral coiled cable assemblies balance retracted package, working extension, restoring force, cable construction, endpoints and a defined motion cycle.","zh":"定制螺旋卷线电缆组件需要平衡收缩包络、工作拉伸、回弹力、线缆结构、端点与明确动作循环。"},
