@@ -154,6 +154,11 @@ PIGTAIL_IMAGES = {
   "range" => "#{PREFIX}/pigtail-refresh-2/instrument-branch-harness.jpg"
 }.freeze
 
+TURNKEY_IMAGES = {
+  "hero" => "#{PREFIX}/turnkey-refresh-2/electronics-assembly-worker.jpg",
+  "range" => "#{PREFIX}/turnkey-refresh-2/electronics-quality-check.jpg"
+}.freeze
+
 document = File.read(DATA_FILE)
 data = JSON.parse(document)
 
@@ -233,6 +238,16 @@ images_start = category.index(/^      "images":\{/)
 images_end = category.index("\n", images_start)
 images_block = category[images_start...images_end]
 PIGTAIL_IMAGES.each do |key, value|
+  images_block.sub!(/"#{Regexp.escape(key)}"\s*:\s*"[^"]+"/, %Q{"#{key}":#{JSON.generate(value)}})
+end
+document[start_at + images_start, images_end - images_start] = images_block
+
+start_at, finish_at = category_bounds(document, "custom-harness-08")
+category = document[start_at...finish_at]
+images_start = category.index(/^      "images":\{/)
+images_end = category.index("\n", images_start)
+images_block = category[images_start...images_end]
+TURNKEY_IMAGES.each do |key, value|
   images_block.sub!(/"#{Regexp.escape(key)}"\s*:\s*"[^"]+"/, %Q{"#{key}":#{JSON.generate(value)}})
 end
 document[start_at + images_start, images_end - images_start] = images_block
