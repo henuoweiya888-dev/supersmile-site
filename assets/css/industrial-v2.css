@@ -684,11 +684,21 @@ body.pcc-rich-page[data-category-key="cable-assembly-02"] #pcc-rich-content{
   --atlas-edge:clamp(28px,5.2vw,84px);
   background:#f3f1eb;
 }
+body.pcc-rich-page[data-category-key="cable-assembly-02"] .pcc-hero{
+  min-height:570px;
+  background:#0c0d0e;
+}
+body.pcc-rich-page[data-category-key="cable-assembly-02"] .pcc-hero::after{
+  background:linear-gradient(90deg,rgba(7,8,9,.96) 0%,rgba(7,8,9,.84) 38%,rgba(7,8,9,.55) 61%,rgba(7,8,9,.24) 83%,rgba(7,8,9,.36) 100%);
+}
+body.pcc-rich-page[data-category-key="cable-assembly-02"] .pcc-hero-grid{min-height:490px;padding-block:82px 72px}
 body.pcc-rich-page[data-category-key="cable-assembly-02"] .pcc-hero-media img{
-  object-fit:contain;
-  padding:clamp(20px,4vw,58px);
+  object-fit:cover;
+  object-position:58% 46%;
+  padding:0;
   background:#151719;
-  filter:saturate(.78) contrast(1.08);
+  filter:saturate(.56) contrast(1.18) brightness(.66);
+  transform:scale(1.015);
 }
 body.pcc-rich-page[data-category-key="cable-assembly-02"] .pcc-hero-copy>p{text-indent:2em}
 .pcc-atlas-opening{
@@ -767,6 +777,10 @@ body.pcc-rich-page[data-category-key="cable-assembly-02"] .pcc-hero-copy>p{text-
   .pcc-atlas-points{grid-template-columns:1fr;gap:10px}
 }
 @media (max-width:640px){
+  body.pcc-rich-page[data-category-key="cable-assembly-02"] .pcc-hero{min-height:590px}
+  body.pcc-rich-page[data-category-key="cable-assembly-02"] .pcc-hero::after{background:linear-gradient(180deg,rgba(7,8,9,.32) 0%,rgba(7,8,9,.58) 35%,rgba(7,8,9,.94) 69%,rgba(7,8,9,.98) 100%)}
+  body.pcc-rich-page[data-category-key="cable-assembly-02"] .pcc-hero-grid{min-height:510px;padding-block:78px 52px}
+  body.pcc-rich-page[data-category-key="cable-assembly-02"] .pcc-hero-media img{object-position:48% 32%;filter:saturate(.53) contrast(1.18) brightness(.61);transform:none}
   body.pcc-rich-page[data-category-key="cable-assembly-02"] #pcc-rich-content{--atlas-edge:20px}
   .pcc-atlas-opening{padding-top:28px}
   .pcc-atlas-opening h2{font-size:25px}
