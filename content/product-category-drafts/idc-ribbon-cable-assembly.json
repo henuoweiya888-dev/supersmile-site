@@ -1,0 +1,148 @@
+{
+  "key": "specialty-04",
+  "intro": {
+    "en": "Custom IDC ribbon cable assemblies for board-to-board, panel and internal equipment connections. We define conductor pitch, wire size, circuit count, pin-one orientation, connector style, termination tooling, cable routing and electrical inspection before production.",
+    "zh": "面向板间、面板及设备内部连接定制 IDC 扁平排线组件，在生产前明确导体节距、线径、回路数、一号脚方向、接头形式、端接工装、布线路径与电气检验。"
+  },
+  "page": {
+    "displayTitle": {"en": "IDC Ribbon Cable Assembly", "zh": "IDC 扁平排线组件"},
+    "lead": {
+      "en": "An IDC assembly is a coordinated system of cable geometry, contact slot, tooling, orientation and installation—not merely a gray ribbon pressed into a socket.",
+      "zh": "IDC 组件是线缆几何、接点槽、工装、方向与安装方式共同构成的系统，并不只是把一根灰色排线压进插座。"
+    },
+    "chapters": [
+      {
+        "id": "interface",
+        "title": {"en": "Start with the complete interface", "zh": "从完整接口开始定义"},
+        "copy": {
+          "en": "IDC describes an insulation-displacement termination method, not one universal connector. A finished assembly may use a wiremount socket, transition connector, card-edge interface, D-sub IDC body, PCB header or another documented system. Define the mating part, number of positions, row pattern, polarization, latch or ejector features, cable exit and access envelope together. Similar-looking housings can differ in pitch, keying, contact geometry and recommended cable.",
+          "zh": "IDC 描述的是绝缘位移端接方法，并不代表一种通用接头。成品组件可能采用线装插座、转接接头、卡边接口、D-sub IDC 壳体、PCB 排针或其他有文件依据的系统。应同时定义对插件、位数、排数、极化、锁扣或弹出结构、出线方向与操作空间；外观相近的壳体也可能在节距、键位、接点几何及推荐排线上不同。"
+        }
+      },
+      {
+        "id": "pitch",
+        "title": {"en": "Conductor pitch and wire construction", "zh": "导体节距与线芯结构"},
+        "copy": {
+          "en": "The connector contact pattern must match the ribbon conductor geometry specified by its drawing. Common product families include 0.050 in [1.27 mm], 0.100 in [2.54 mm], 1.0 mm and other center spacings; wire sizes and strand constructions vary by family. Do not infer cable pitch from the board-header pitch alone. Record conductor count, AWG, stranding, conductor finish, insulation material, overall width and any zippable or intermittently bonded construction.",
+          "zh": "接头接点排列必须与图纸规定的排线导体几何匹配。常见系列可见 0.050 英寸［1.27 mm］、0.100 英寸［2.54 mm］、1.0 mm 等中心距，不同系列允许的线径与绞线结构也不同。不能仅凭板端排针节距推断排线节距；应记录导体数量、AWG、绞线、导体镀层、绝缘材料、总宽度，以及是否可撕分或采用间歇粘合结构。"
+        }
+      },
+      {
+        "id": "polarity",
+        "title": {"en": "Pin one, polarity and visual identification", "zh": "一号脚、极性与视觉识别"},
+        "copy": {
+          "en": "A colored edge stripe or rainbow sequence helps operators identify a reference conductor, but color alone is not a pinout. The manufacturing drawing should show pin one at each connector, mating-view convention, cable-side view, key or bump position, connector face direction and any reverse mounting. Marking and fixture poka-yoke should make orientation visible before and after the strain-relief cover is installed.",
+          "zh": "彩色边线或彩虹色序列可以帮助操作人员识别基准导体，但颜色本身不是针脚表。制造图应标明每个接头的一号脚、对插视图规则、线侧视图、键位或凸点位置、接头正面方向以及是否反装。标识与防错工装应保证在安装应力释放盖前后都能看见方向。"
+        }
+      },
+      {
+        "id": "mapping",
+        "title": {"en": "Straight, reversed, breakout and daisy-chain wiring", "zh": "直通、反向、分支与菊花链回路"},
+        "copy": {
+          "en": "Board-to-board links may be straight-through, fully reversed, selectively reversed, broken out to discrete leads, or terminated at several feed-through points. Fold direction can also change the apparent order at the far end. The pin table must therefore define every endpoint rather than rely on terms such as ‘same direction.’ A first-article continuity map should be approved with the physical orientation shown.",
+          "zh": "板间连接可能是直通、整体反向、局部反向、分出离散线，或在多个位置进行穿通式菊花链端接；折叠方向还会改变远端看见的顺序。因此针脚表必须逐点定义所有端点，不能依赖“同方向”等口头描述。首件导通图应与实际方向示意一并确认。"
+        }
+      },
+      {
+        "id": "termination",
+        "title": {"en": "IDC engagement is a controlled deformation", "zh": "IDC 咬合是一项受控变形"},
+        "copy": {
+          "en": "During termination, the conductor is aligned with the contact slot, insulation is displaced and the conductor strands deform as the contact beams develop residual force. This is why cable construction and contact system must be qualified as a pair. Cable off-center, wrong conductor diameter, damaged strands, partial cover seating or a second uncontrolled press can produce an assembly that looks closed without meeting the intended connection geometry.",
+          "zh": "端接时，导体先与接点槽对准，绝缘层被排开，导体股线发生变形，同时接触簧片形成残余夹持力。因此线缆结构与接点系统必须成套确认。排线偏位、导体直径不符、股线损伤、压盖未完全到位，或未经允许的二次压合，都可能让组件外观看似闭合却没有达到规定的连接几何。"
+        }
+      },
+      {
+        "id": "tooling",
+        "title": {"en": "Tooling, support and seating height", "zh": "工装、支撑与压合高度"},
+        "copy": {
+          "en": "Use the connector maker's applicable press plate, locator, cable stop and termination-height instructions for the selected part. The fixture should support the housing without loading latches or polarization features, keep the cable square to the contact rows and distribute force evenly across the cover. Tool identity, setup reference, maintenance status and first-off inspection belong in the controlled work instruction; a bench vise is not a process specification.",
+          "zh": "应针对所选零件使用接头制造商适用的压板、定位器、排线挡块及压合高度要求。夹具需要支撑壳体且不挤压锁扣或极化结构，使排线与接点排保持垂直，并让压力均匀作用于整个压盖。工具身份、设定基准、维护状态与首件检查应纳入受控作业指导书；普通台钳不能替代工艺规范。"
+        }
+      },
+      {
+        "id": "strain-relief",
+        "title": {"en": "Strain relief, feed-through and foldback", "zh": "应力释放、穿通端接与折回"},
+        "copy": {
+          "en": "A strain-relief cover, clamp or designed foldback manages pull and bend close to the IDC zone. Feed-through and daisy-chain builds require enough straight cable on both sides so the press and connector cover can seat without wrinkling or twisting conductors. Specify the fold line, minimum free length, branch location and permissible split length. External clamps should support the cable before movement reaches the terminated contact area.",
+          "zh": "应力释放盖、夹具或规定折回结构用于管理靠近 IDC 区域的拉力与弯曲。穿通式和菊花链组件需要在接头两侧保留足够直线段，使压合工具与压盖能够就位而不让导体起皱或扭转。应规定折线、最小自由长度、分支位置及允许撕分长度，并让外部固定点在线缆运动传到端接区之前承担载荷。"
+        }
+      },
+      {
+        "id": "routing",
+        "title": {"en": "Route a flat cable as a flat cable", "zh": "按扁平线缆的特性规划路径"},
+        "copy": {
+          "en": "Ribbon cable is efficient in shallow equipment, but its broad axis and narrow axis do not bend in the same way. Plan folds, service loops, enclosure edges, fan paths, heat sources, moving covers and connector extraction before fixing length. Avoid sharp creases at the contact exit and do not trap the cable between fasteners or sheet-metal edges. Where repeated motion is expected, select a cable construction and bend direction intended for that duty rather than assuming a static ribbon will flex indefinitely.",
+          "zh": "扁平排线适合浅空间设备，但宽轴与窄轴的弯曲方式并不相同。定长前要规划折叠、检修余量、壳体边缘、风扇路径、热源、活动盖板及接头拔出空间。避免在接点出口形成锐折，也不要让紧固件或钣金边夹压排线。存在重复运动时，应选择适合该工况和弯曲方向的线缆结构，不能假设静态排线可以无限往复弯曲。"
+        }
+      },
+      {
+        "id": "applications",
+        "title": {"en": "Internal instruments and compact electronics", "zh": "仪器与紧凑电子设备内部连接"},
+        "copy": {
+          "en": "IDC ribbon assemblies are used to connect displays, keypads, drive modules, control boards, test fixtures, storage devices and other internal subsystems where many circuits must cross a limited space. The engineering focus is not the application label but the actual voltage, current, signal type, electromagnetic environment, access frequency and service method. Power conductors, sensitive signals and high-speed pairs may require another cable architecture or separation strategy.",
+          "zh": "IDC 排线组件常用于显示器、键盘、驱动模块、控制板、测试工装、存储设备及其他内部子系统，在有限空间内传递多路回路。工程审核重点不是应用名称，而是实际电压、电流、信号类型、电磁环境、拆装频率与维修方式。供电导体、敏感信号和高速差分对可能需要不同线缆结构或隔离策略。"
+        }
+      },
+      {
+        "id": "equipment",
+        "title": {"en": "Industrial and medical projects need defined evidence", "zh": "工业与医疗项目需要明确证据"},
+        "copy": {
+          "en": "Control equipment, laboratory instruments and medical-device projects may add requirements for cleaning, traceability, low smoke, flammability, vibration, retention or regulated change control. These attributes must be tied to the exact cable, connector and finished-assembly validation plan. A component listing, material family or use in a similar machine does not automatically qualify a new cable assembly for a regulated product.",
+          "zh": "控制设备、实验室仪器和医疗器械项目可能增加清洁、可追溯、低烟、阻燃、振动、保持力或受控变更要求。这些属性必须落实到准确的排线、接头以及成品组件验证计划。零部件认证、材料类别或在相似机器上的使用经历，都不会自动使新线缆组件符合受监管产品要求。"
+        }
+      },
+      {
+        "id": "testing",
+        "title": {"en": "Inspect geometry, then test every circuit", "zh": "先检几何，再逐路测试"},
+        "copy": {
+          "en": "Visual inspection should verify cable centering, cover seating, housing damage, key direction, pin-one marking, foldback, split length, labels and strain relief. Electrical testing then checks point-to-point continuity, open circuits, shorts and unintended cross-connections against the approved map. Resistance, insulation resistance, dielectric withstand or signal-integrity tests are added only when the drawing or validation plan defines the method, limit and sample frequency.",
+          "zh": "外观检查应确认排线居中、压盖到位、壳体无损、键位方向、一号脚标识、折回、撕分长度、标签及应力释放。随后依据已批准回路图逐点检查导通、断路、短路与误接。电阻、绝缘电阻、耐压或信号完整性试验，只有在图纸或验证计划明确方法、限值和抽样频次时才执行。"
+        }
+      },
+      {
+        "id": "release",
+        "title": {"en": "Release one repeatable configuration", "zh": "放行一个可重复的受控配置"},
+        "copy": {
+          "en": "Repeat production should reference an approved cable and connector bill of materials, mating part, cut and split dimensions, orientation drawing, tool setup, inspection standard, test program and packaging method. Alternative connectors or ribbon cable require an engineering review of geometry and ratings before substitution. Retaining a golden sample and revision-linked test record helps prevent a visually similar component from entering later lots without evaluation.",
+          "zh": "重复生产应引用已批准的排线与接头 BOM、对插件、裁切与撕分尺寸、方向图、工装设定、检验标准、测试程序及包装方法。替代接头或排线在更换前必须重新审核几何与额定条件。保留封样及与版本关联的测试记录，可防止外观相似但未经评估的零件进入后续批次。"
+        }
+      }
+    ],
+    "inputs": [
+      {"en": "Mating connector part number, drawing or clear interface photos", "zh": "对插接头料号、图纸或清晰接口照片"},
+      {"en": "Circuit count, row arrangement, connector pitch and ribbon conductor pitch", "zh": "回路数、排数、接头节距与排线导体节距"},
+      {"en": "Wire size, stranding, conductor finish, insulation and cable width", "zh": "线径、绞线、导体镀层、绝缘材料与排线总宽"},
+      {"en": "Pin-one convention, point-to-point table and connector face orientation", "zh": "一号脚规则、逐点针脚表与接头正面方向"},
+      {"en": "Straight, reversed, breakout, feed-through or daisy-chain layout", "zh": "直通、反向、分支、穿通或菊花链结构"},
+      {"en": "Cut length, split dimensions, fold lines, cable exit and strain relief", "zh": "裁切长度、撕分尺寸、折线、出线方向与应力释放"},
+      {"en": "Voltage, current, signal type, environment, movement and service access", "zh": "电压、电流、信号类型、环境、运动与检修空间"},
+      {"en": "Inspection, electrical test, sample quantity, labeling and packaging", "zh": "检验、电气测试、样品数量、标签与包装要求"}
+    ],
+    "faq": [
+      {
+        "q": {"en": "Does IDC mean the cable does not need preparation?", "zh": "IDC 是否意味着排线完全不需要准备？"},
+        "a": {"en": "Individual conductors normally are not stripped before mass termination, but the cable still needs controlled cutting, alignment, pin-one orientation, any notching or splitting, and correct support in the specified tool.", "zh": "批量端接前通常无需逐根剥线，但排线仍需要受控裁切、对齐、一号脚定向、必要的开槽或撕分，并在规定工装中获得正确支撑。"}
+      },
+      {
+        "q": {"en": "Is a 2.54 mm board header always used with 2.54 mm ribbon cable?", "zh": "2.54 mm 板端排针是否一定使用 2.54 mm 排线？"},
+        "a": {"en": "No. Dual-row connectors can map conductors at a different ribbon pitch to a 2.54 mm row pattern. Use the connector and cable drawings rather than deriving one spacing from the other.", "zh": "不一定。双排接头可以把不同节距的排线导体映射到 2.54 mm 排列，应核对接头与排线图纸，不能由其中一个节距直接推导另一个。"}
+      },
+      {
+        "q": {"en": "Can you make reversed or daisy-chain ribbon cables?", "zh": "可以制作反向或菊花链排线吗？"},
+        "a": {"en": "Yes, when every endpoint, connector orientation, intermediate termination location and fold direction are defined in an approved drawing and continuity map.", "zh": "可以，但必须在已批准图纸与导通图中定义每个端点、接头方向、中间端接位置及折叠方向。"}
+      },
+      {
+        "q": {"en": "Can a similar IDC connector replace the original?", "zh": "外观相近的 IDC 接头可以替代原件吗？"},
+        "a": {"en": "Only after checking mating geometry, contact system, cable range, polarization, retention, ratings, tooling and validation evidence. Visual similarity is not an interchangeability standard.", "zh": "只有核对对插几何、接点系统、适用排线、极化、保持结构、额定条件、工装与验证证据后才能判断，外观相似不是可互换标准。"}
+      },
+      {
+        "q": {"en": "What tests are normally performed?", "zh": "通常会做哪些测试？"},
+        "a": {"en": "Routine inspection commonly includes orientation, seating, dimensions and point-to-point continuity with open/short detection. Additional electrical, mechanical or environmental tests are project-specific.", "zh": "常规检查通常包括方向、压合到位、尺寸及逐点导通和开短路检测；其他电气、机械或环境试验按项目要求确定。"}
+      },
+      {
+        "q": {"en": "What should I send for a quotation?", "zh": "询价时需要提供什么？"},
+        "a": {"en": "Send the mating interface, circuit count, pin table, cable construction, lengths and folds, connector orientation, environment, test requirements and expected sample and production quantities.", "zh": "请提供对插接口、回路数、针脚表、排线结构、长度与折叠、接头方向、环境、测试要求以及样品和量产数量。"}
+      }
+    ]
+  }
+}

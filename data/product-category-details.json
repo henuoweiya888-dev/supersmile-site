@@ -1,4 +1,12 @@
 {
+  "specialty-04": {
+    "title":{"en":"IDC Ribbon Cable Assembly","zh":"IDC 扁平排线组件"},
+    "intro":{"en":"Custom IDC ribbon cable assemblies for board-to-board, panel and internal equipment connections with defined cable geometry, orientation, tooling and inspection.","zh":"面向板间、面板及设备内部连接定制 IDC 扁平排线组件，明确线缆几何、方向、工装与检验要求。"},
+    "knowledge":{"en":"IDC is a termination method, not one universal connector or cable specification.","zh":"IDC 是端接方法，并不是一种通用接头或排线规范。"},
+    "notes":{"en":"Provide the mating interface, pitch, circuit count, AWG, pin map, orientation, dimensions, route and test requirements.","zh":"请提供对插接口、节距、回路数、AWG、针脚表、方向、尺寸、路径与测试要求。"},
+    "delivery":{"en":"Approve cable, connectors, tooling, first-article orientation and continuity evidence before repeat production.","zh":"重复生产前确认排线、接头、工装、首件方向与导通证据。"},
+    "page":{"layout":"idc-editorial","displayTitle":{"en":"IDC Ribbon Cable Assembly","zh":"IDC 扁平排线组件"},"headings":{"introduction":{"en":"Define the Interface Before Mass Termination","zh":"批量端接前先定义完整接口"},"faq":{"en":"IDC Ribbon Cable Questions","zh":"IDC 排线常见问题"}},"subtitle":{"en":"Pitch, orientation, tooling and circuit verification","zh":"节距、方向、工装与回路验证"},"lead":{"en":"Coordinate the cable geometry, contact system, pin map and installation route.","zh":"协同排线几何、接点系统、针脚映射与安装路径。"},"images":{"range":"/assets/images/product-categories/stock/idc-ribbon/hero.jpg"},"faq":[]}
+  },
   "specialty-03": {
     "title":{"en":"PTFE Cable Termination","zh":"PTFE 电缆端接"},
     "intro":{"en":"Custom PTFE-insulated wire and cable assemblies for high-temperature instruments, sensors, heaters and compact equipment, with defined materials, stripping, termination and inspection.","zh":"面向高温仪器、传感器、加热设备与紧凑装置定制 PTFE 绝缘电线及电缆组件，明确材料、剥线、端接与检验要求。"},
