@@ -558,8 +558,9 @@ body[data-category-key="cable-assembly-12"] .pcc-hero-media img{object-position:
 }
 
 /* Medical equipment assembly: a compact clinical atlas with calm hierarchy. */
-body[data-category-key="cable-assembly-13"] .pcc-hero{background:#0d1719;color:#f3f4ef}
-body[data-category-key="cable-assembly-13"] .pcc-hero-media:after{background:linear-gradient(90deg,rgba(6,14,16,.94),rgba(6,14,16,.62) 55%,rgba(6,14,16,.22))}
+body[data-category-key="cable-assembly-13"] .pcc-hero{min-height:570px;background:#0d1719;color:#f3f4ef}
+body[data-category-key="cable-assembly-13"] .pcc-hero-grid{min-height:490px}
+body[data-category-key="cable-assembly-13"] .pcc-hero-media:after{background:linear-gradient(90deg,rgba(6,14,16,.96) 0%,rgba(6,14,16,.79) 35%,rgba(6,14,16,.43) 64%,rgba(6,14,16,.2) 100%)}
 body[data-category-key="cable-assembly-13"] .pcc-hero-media img{object-position:54% 48%;filter:saturate(.38) contrast(1.22) brightness(.58)}
 .pcc-medical-media{margin:0;overflow:hidden;background:#172326}
 .pcc-medical-media img{display:block;width:100%;height:100%;object-fit:cover;filter:saturate(.58) contrast(1.14) brightness(.86)}
@@ -602,6 +603,9 @@ body[data-category-key="cable-assembly-13"] .pcc-hero-media img{object-position:
   .pcc-medical-chapter>.pcc-medical-media{min-height:238px}
 }
 @media(max-width:640px){
+  body[data-category-key="cable-assembly-13"] .pcc-hero{min-height:590px}
+  body[data-category-key="cable-assembly-13"] .pcc-hero-grid{min-height:510px}
+  body[data-category-key="cable-assembly-13"] .pcc-hero-media:after{background:linear-gradient(180deg,rgba(6,14,16,.42) 0%,rgba(6,14,16,.73) 48%,rgba(6,14,16,.96) 100%)}
   .pcc-medical-opening{display:flex;flex-direction:column-reverse;min-height:0}
   .pcc-medical-opening-media{height:186px;min-height:0;margin-inline:calc(var(--v2-mobile-gutter)*-1)}
   .pcc-medical-opening-copy{padding:27px var(--v2-mobile-gutter) 30px}
