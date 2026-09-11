@@ -1,4 +1,12 @@
 {
+  "wire-cable-05": {
+    "title":{"en":"Coaxial Cable","zh":"同轴电缆"},
+    "intro":{"en":"Coaxial cable assemblies preserve controlled impedance through the cable, connector and every transition.","zh":"同轴电缆组件在电缆、连接器与每一处过渡中维持受控阻抗。"},
+    "knowledge":{"en":"System impedance, frequency, loss, power, cable construction, connector interface, termination and validation must be defined together.","zh":"系统阻抗、频率、损耗、功率、线缆结构、连接器界面、端接与验证必须共同定义。"},
+    "notes":{"en":"Provide equipment ports, impedance, frequency band, signal or power, length, cable limits, route, environment and test evidence.","zh":"请提供设备端口、阻抗、频段、信号或功率、长度、线缆限制、路径、环境与测试证据。"},
+    "delivery":{"en":"Release records cable and connector part numbers, impedance, length, strip and termination controls, labels, environment and agreed electrical evidence.","zh":"放行记录包含线缆与连接器料号、阻抗、长度、剥线和端接控制、标签、环境及约定电气证据。"},
+    "page":{"layout":"coaxial-editorial","displayTitle":{"en":"Coaxial Cable","zh":"同轴电缆"},"headings":{"introduction":{"en":"Preserve the Controlled Geometry","zh":"保持受控几何结构"},"faq":{"en":"Coaxial Cable Questions","zh":"同轴电缆常见问题"}},"subtitle":{"en":"Preserve impedance through every cable, connector and transition","zh":"让阻抗控制贯穿线缆、连接器与每一处过渡"},"lead":{"en":"Define the complete RF, video or instrumentation channel before selecting cable and termination.","zh":"先定义完整射频、视频或仪器通道，再选择线缆与端接方式。"},"images":{"range":"/assets/images/product-categories/stock/coaxial-cable/hero-tower-technicians.jpg"},"faq":[]}
+  },
   "wire-cable-04": {
     "title":{"en":"CAN Bus Cable","zh":"CAN 总线电缆"},
     "intro":{"en":"CAN bus cable assemblies preserve a defined differential path between network nodes, connectors and transceivers.","zh":"CAN 总线电缆组件在网络节点、连接器与收发器之间保持规定的差分路径。"},
