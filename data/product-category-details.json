@@ -12253,8 +12253,8 @@
         "faq":{"en":"Frequently Asked Questions","zh":"常见问题"}
       },
       "images": {
-        "hero":"/assets/images/product-categories/stock/industrial-equipment/cable-bundle.jpg",
-        "range":"/assets/images/product-categories/stock/industrial-equipment/splice-connectors.jpg"
+        "hero": "/assets/images/product-categories/stock/jumper-refresh-2/jumper-board-hero.jpg",
+        "range": "/assets/images/product-categories/stock/jumper-refresh-2/splicing-connector-wire.jpg"
       },
       "variants": [
         {"image": "/assets/images/product-categories/stock/jumper-refresh/2332885.jpg","title":{"en":"Board-to-board and module jumpers","zh":"板对板与模块跳线"},"copy":{"en":"Short multi-core links between a main PCB, display, relay board, sensor module or daughterboard. Connector pitch, keying, pin numbering, insertion direction and bend space must match both ends.","zh":"用于主板、显示板、继电器板、传感模块或子板之间的短距离多芯连接，需要同时匹配两端的接口间距、防错、针脚编号、插入方向与弯曲空间。"}},
@@ -12282,7 +12282,7 @@
         {"image": "/assets/images/product-categories/stock/jumper-refresh/5023565.jpg","title":{"en":"Laboratory, prototype and test systems","zh":"实验、样机与测试系统"},"copy":{"en":"Defined patch leads and breakout jumpers for development benches, fixtures, measurement modules and engineering validation, with pin mapping that can be reproduced later.","zh":"为开发台、工装、测量模块与工程验证提供受控连接线和引出跳线，并保留可复现的针脚定义。"}},
         {"image": "/assets/images/product-categories/stock/jumper-refresh/38744674.jpg","title":{"en":"Control cabinets and electrical panels","zh":"控制柜与电气面板"},"copy":{"en":"Pre-terminated jumpers between terminal blocks, breakers, relays, switches, door components and cabinet modules, prepared to the panel numbering and routing plan.","zh":"按照面板编号和路径计划，预制端子排、断路器、继电器、开关、柜门器件与柜内模块之间的跳线。"}},
         {"image": "/assets/images/product-categories/stock/jumper-refresh/7639429.jpg","title":{"en":"Instrumentation and measurement equipment","zh":"仪器与测量设备"},"copy":{"en":"Low-level signal, excitation, communication and local power jumpers between instruments, acquisition boards, sensor interfaces and internal modules.","zh":"连接仪器、采集板、传感接口与内部模块的低电平信号、激励、通信和局部电源跳线。"}},
-        {"image": "/assets/images/product-categories/stock/battery/jump-connection-pexels.jpg","title":{"en":"Maintenance, retrofit and replacement work","zh":"维修、改造与替换项目"},"copy":{"en":"Adapter and service jumpers that bridge an available replacement module to an existing machine interface while keeping the approved electrical function traceable.","zh":"用转接或检修跳线把可获得的替换模块接入现有设备接口，同时保持已确认电气功能可追踪。"}}
+        {"image": "/assets/images/product-categories/stock/jumper-refresh-2/configuration-jumper.jpg","title":{"en":"Maintenance, retrofit and replacement work","zh":"维修、改造与替换项目"},"copy":{"en":"Adapter and service jumpers that bridge an available replacement module to an existing machine interface while keeping the approved electrical function traceable.","zh":"用转接或检修跳线把可获得的替换模块接入现有设备接口，同时保持已确认电气功能可追踪。"}}
       ],
       "process": [
         {"image": "/assets/images/product-categories/stock/jumper-refresh/12078533.jpg","title":{"en":"Interface and requirement review","zh":"接口与需求审核"},"copy":{"en":"Confirm both mating connector systems, circuit function, voltage, current, signal type, environment, quantity and required records before selecting materials.","zh":"选料前确认两端对插系统、回路功能、电压、电流、信号类型、环境、数量与所需记录。"}},

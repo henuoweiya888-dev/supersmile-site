@@ -71,7 +71,7 @@ SECTION_IMAGES = {
     "variants" => %W[#{PREFIX}/jumper-refresh/2332885.jpg #{PREFIX}/jumper-refresh/34956927.jpg #{PREFIX}/jumper-refresh/4792713.jpg #{PREFIX}/jumper-refresh/33168016.jpg #{PREFIX}/jumper-refresh/33813265.jpg #{PREFIX}/jumper-refresh/28785438.jpg],
     "materials" => %W[#{PREFIX}/jumper-refresh/12266915.jpg #{PREFIX}/jumper-refresh/6636458.jpg #{PREFIX}/jumper-refresh/34924858.jpg #{PREFIX}/jumper-refresh/4330788.jpg],
     "solutions" => %W[#{PREFIX}/jumper-refresh/6755059.jpg #{PREFIX}/jumper-refresh/15470540.jpg #{PREFIX}/jumper-refresh/11447064.jpg #{PREFIX}/jumper-refresh/33020762.jpg],
-    "applications" => %W[#{PREFIX}/jumper-refresh/35673090.jpg #{PREFIX}/jumper-refresh/33694034.jpg #{PREFIX}/jumper-refresh/5023565.jpg #{PREFIX}/jumper-refresh/38744674.jpg #{PREFIX}/jumper-refresh/7639429.jpg #{PREFIX}/battery/jump-connection-pexels.jpg],
+    "applications" => %W[#{PREFIX}/jumper-refresh/35673090.jpg #{PREFIX}/jumper-refresh/33694034.jpg #{PREFIX}/jumper-refresh/5023565.jpg #{PREFIX}/jumper-refresh/38744674.jpg #{PREFIX}/jumper-refresh/7639429.jpg #{PREFIX}/jumper-refresh-2/configuration-jumper.jpg],
     "process" => %W[#{PREFIX}/jumper-refresh/12078533.jpg #{PREFIX}/jumper-refresh/14887613.jpg #{PREFIX}/jumper-refresh/10699354.jpg #{PREFIX}/jumper-refresh/38264254.jpg #{PREFIX}/jumper-refresh/7639432.jpg #{PREFIX}/jumper-refresh/31995010.jpg],
     "reliability" => %W[#{PREFIX}/jumper-refresh/6726749.jpg #{PREFIX}/jumper-refresh/4398314.jpg #{PREFIX}/jumper-refresh/33384330.jpg #{PREFIX}/jumper-refresh/2182863.jpg],
     "benefits" => %W[#{PREFIX}/jumper-refresh/35048338.jpg #{PREFIX}/jumper-refresh/35652420.jpg #{PREFIX}/jumper-refresh/35673080.jpg #{PREFIX}/jumper-refresh/32396935.jpg]
@@ -144,6 +144,11 @@ OVERMOLD_IMAGES = {
   "range" => "#{PREFIX}/overmold-refresh/overmold-range-ai.png"
 }.freeze
 
+JUMPER_IMAGES = {
+  "hero" => "#{PREFIX}/jumper-refresh-2/jumper-board-hero.jpg",
+  "range" => "#{PREFIX}/jumper-refresh-2/splicing-connector-wire.jpg"
+}.freeze
+
 document = File.read(DATA_FILE)
 data = JSON.parse(document)
 
@@ -204,6 +209,16 @@ images_end = category.index("\n", images_start)
 images_block = category[images_start...images_end]
 NEW_ENERGY_IMAGES.each do |key, value|
   images_block.sub!(/"#{Regexp.escape(key)}"\s*:\s*"[^"]+"/, %Q{"#{key}":#{JSON.generate(value)}})
+end
+document[start_at + images_start, images_end - images_start] = images_block
+
+start_at, finish_at = category_bounds(document, "custom-harness-06")
+category = document[start_at...finish_at]
+images_start = category.index(/^      "images": \{/)
+images_end = category.index(/^      \},/, images_start) + 8
+images_block = category[images_start...images_end]
+JUMPER_IMAGES.each do |key, value|
+  images_block.sub!(/"#{Regexp.escape(key)}"\s*:\s*"[^"]+"/, %Q{"#{key}": #{JSON.generate(value)}})
 end
 document[start_at + images_start, images_end - images_start] = images_block
 
