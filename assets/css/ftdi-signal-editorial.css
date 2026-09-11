@@ -6,6 +6,6 @@
 /* 2026-09 hero baseline: restore the left edge and reduce empty vertical field. */
 .ftdi-signal-editorial .pcc-hero{min-height:clamp(520px,46vw,580px)}
 .ftdi-signal-editorial .pcc-hero-copy{max-width:none;padding:84px 0 40px}
-@media(max-width:640px){.ftdi-signal-editorial .pcc-hero{min-height:610px}.ftdi-signal-editorial .pcc-hero-copy{padding:70px 0 36px}}
+@media(max-width:640px){.ftdi-signal-editorial .pcc-hero{min-height:625px}.ftdi-signal-editorial .pcc-hero-copy{padding:70px 0 36px}}
 @media(min-width:641px){html[lang=en] .ftdi-signal-editorial .pcc-hero{min-height:610px}html[lang=en] .ftdi-signal-editorial .pcc-hero h1{font-size:clamp(46px,5.5vw,72px);margin:16px 0 22px}}
 @media(max-width:640px){.ftdi-signal-editorial .pcc-hero h1{margin:14px 0 20px}.ftdi-signal-editorial .pcc-copy-label{margin-top:20px}.ftdi-signal-editorial .pcc-actions{margin-top:20px}html[lang=en] .ftdi-signal-editorial .pcc-hero{min-height:655px}html[lang=en] .ftdi-signal-editorial .pcc-hero-copy{padding-top:54px}html[lang=en] .ftdi-signal-editorial .pcc-hero #pcc-intro{font-size:15px;line-height:1.58}}
