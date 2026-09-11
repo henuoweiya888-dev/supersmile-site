@@ -23,7 +23,7 @@ const aiImages={
   'custom-harness-09':'/assets/images/product-categories/ai/web/custom-harness-09-braided-protection-wire-harness.jpg',
   'custom-harness-10':'/assets/images/product-categories/ai/web/custom-harness-10-prototype-small-batch-wire-harness.jpg',
   'custom-harness-11':'/assets/images/product-categories/ai/web/custom-harness-11-outdoor-waterproof-wire-harness.jpg',
-  'custom-harness-12':'/assets/images/product-categories/ai/web/custom-harness-12-low-voltage-new-energy-wire-harness.jpg'
+  'custom-harness-12':'/assets/images/product-categories/stock/new-energy-refresh/10800215.jpg'
 };
 
 function alternates(slug){
@@ -129,8 +129,8 @@ function pageTemplate({key,slug,name,group,image,intro,knowledge,notes,delivery,
   const groupName=localized(group.directoryTitle||group.title);
   const canonical=`https://supersmile-tech.com/products/${slug}`;
   const title=`${name} | ${groupName} | Super Smile`;
-  const editorialStyle=['custom-harness-01','custom-harness-02','custom-harness-03','custom-harness-04','custom-harness-05','custom-harness-06','custom-harness-07','custom-harness-08','custom-harness-09','custom-harness-10','custom-harness-11'].includes(key)
-    ? '<link rel="stylesheet" href="/assets/css/prebinder-editorial.css?v=20260912v4">'
+  const editorialStyle=['custom-harness-01','custom-harness-02','custom-harness-03','custom-harness-04','custom-harness-05','custom-harness-06','custom-harness-07','custom-harness-08','custom-harness-09','custom-harness-10','custom-harness-11','custom-harness-12'].includes(key)
+    ? '<link rel="stylesheet" href="/assets/css/prebinder-editorial.css?v=20260912v5">'
     : '';
   const schema={
     '@context':'https://schema.org',

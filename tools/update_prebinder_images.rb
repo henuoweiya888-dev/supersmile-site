@@ -4,6 +4,15 @@ DATA_FILE = File.expand_path("../data/product-category-details.json", __dir__)
 PREFIX = "/assets/images/product-categories/stock"
 
 SECTION_IMAGES = {
+  "custom-harness-12" => {
+    "variants" => %W[#{PREFIX}/new-energy-refresh/33531823.jpg #{PREFIX}/new-energy-refresh/35138694.jpg #{PREFIX}/new-energy-refresh/33438229.jpg #{PREFIX}/new-energy-refresh/38264253.jpg #{PREFIX}/new-energy-refresh/9679179.jpg #{PREFIX}/new-energy-refresh/34054474.jpg],
+    "materials" => %W[#{PREFIX}/new-energy-refresh/38171148.jpg #{PREFIX}/new-energy-refresh/33379360.jpg #{PREFIX}/new-energy-refresh/37576219.jpg #{PREFIX}/new-energy-refresh/14319099.jpg],
+    "solutions" => %W[#{PREFIX}/new-energy-refresh/37029446.jpg #{PREFIX}/new-energy-refresh/35157346.jpg #{PREFIX}/new-energy-refresh/33531809.jpg #{PREFIX}/new-energy-refresh/9242264.jpg],
+    "applications" => %W[#{PREFIX}/new-energy-refresh/9799999.jpg #{PREFIX}/new-energy-refresh/33508523.jpg #{PREFIX}/new-energy-refresh/33751679.jpg #{PREFIX}/new-energy-refresh/36085778.jpg #{PREFIX}/new-energy-refresh/4254161.jpg #{PREFIX}/new-energy-refresh/33708753.jpg],
+    "process" => %W[#{PREFIX}/new-energy-refresh/33751638.jpg #{PREFIX}/new-energy-refresh/34132693.jpg #{PREFIX}/new-energy-refresh/36085816.jpg #{PREFIX}/new-energy-refresh/33751639.jpg #{PREFIX}/new-energy-refresh/2136243.jpg #{PREFIX}/new-energy-refresh/4254170.jpg],
+    "reliability" => %W[#{PREFIX}/new-energy-refresh/30285845.jpg #{PREFIX}/new-energy-refresh/8853541.jpg #{PREFIX}/new-energy-refresh/39057094.jpg #{PREFIX}/new-energy-refresh/10699355.jpg],
+    "benefits" => %W[#{PREFIX}/new-energy-refresh/35155421.jpg #{PREFIX}/new-energy-refresh/18555543.jpg #{PREFIX}/new-energy-refresh/8853508.jpg #{PREFIX}/new-energy-refresh/11645003.jpg]
+  },
   "custom-harness-11" => {
     "variants" => %W[#{PREFIX}/waterproof-refresh/37293704.jpg #{PREFIX}/waterproof-design/cable-gland.jpg #{PREFIX}/waterproof-design/sealed-splice.jpg #{PREFIX}/waterproof-design/ip-rated-interface.jpg #{PREFIX}/waterproof-refresh/35000431.jpg #{PREFIX}/waterproof-design/condensation.jpg],
     "materials" => %W[#{PREFIX}/waterproof-design/o-rings.jpg #{PREFIX}/waterproof-design/heat-shrink.jpg #{PREFIX}/waterproof-refresh/24245332.jpg #{PREFIX}/waterproof-refresh/16584487.jpg],
@@ -116,6 +125,11 @@ CONTROL_PANEL_IMAGES = {
   "company" => "/assets/images/factory/factory-floor-polished.jpg"
 }.freeze
 
+NEW_ENERGY_IMAGES = {
+  "hero" => "#{PREFIX}/new-energy-refresh/10800215.jpg",
+  "range" => "#{PREFIX}/new-energy-refresh/12737898.jpg"
+}.freeze
+
 document = File.read(DATA_FILE)
 data = JSON.parse(document)
 
@@ -156,6 +170,16 @@ images_end = category.index(/^      \},/, images_start) + 8
 images_block = category[images_start...images_end]
 CONTROL_PANEL_IMAGES.each do |key, value|
   images_block.sub!(/"#{Regexp.escape(key)}"\s*:\s*"[^"]+"/, %Q{"#{key}": #{JSON.generate(value)}})
+end
+document[start_at + images_start, images_end - images_start] = images_block
+
+start_at, finish_at = category_bounds(document, "custom-harness-12")
+category = document[start_at...finish_at]
+images_start = category.index(/^      "images":\{/)
+images_end = category.index("\n", images_start)
+images_block = category[images_start...images_end]
+NEW_ENERGY_IMAGES.each do |key, value|
+  images_block.sub!(/"#{Regexp.escape(key)}"\s*:\s*"[^"]+"/, %Q{"#{key}":#{JSON.generate(value)}})
 end
 document[start_at + images_start, images_end - images_start] = images_block
 
