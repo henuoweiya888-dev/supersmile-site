@@ -430,12 +430,13 @@ body[data-category-key="automotive-04"] .pcc-hero-media img{object-position:50% 
 }
 
 /* RF and coaxial assembly: frequency ledger with compact instrument rhythm */
-body[data-category-key="cable-assembly-11"] .pcc-hero{background:#0d0d0c;color:#f5f2e9}
-body[data-category-key="cable-assembly-11"] .pcc-hero-media:after{background:linear-gradient(90deg,rgba(7,8,8,.94),rgba(7,8,8,.57) 56%,rgba(7,8,8,.14))}
+body[data-category-key="cable-assembly-11"] .pcc-hero{min-height:570px;background:#0d0d0c;color:#f5f2e9}
+body[data-category-key="cable-assembly-11"] .pcc-hero-grid{min-height:490px}
+body[data-category-key="cable-assembly-11"] .pcc-hero-media:after{background:linear-gradient(90deg,rgba(7,8,8,.96) 0%,rgba(7,8,8,.79) 35%,rgba(7,8,8,.41) 64%,rgba(7,8,8,.16) 100%)}
 body[data-category-key="cable-assembly-11"] .pcc-hero-media img{object-position:62% 50%;filter:saturate(.46) contrast(1.25) brightness(.58)}
 .pcc-rf-media{margin:0;overflow:hidden;background:#121212}
 .pcc-rf-media img{display:block;width:100%;height:100%;object-fit:cover;filter:saturate(.54) contrast(1.15)}
-.pcc-rf-opening{display:grid;grid-template-columns:minmax(0,1.28fr) minmax(320px,.72fr);min-height:320px;background:#e7e3d9;color:#191a18}
+.pcc-rf-opening{display:grid;grid-template-columns:minmax(0,1.28fr) minmax(320px,.72fr);min-height:320px;padding:0;background:#e7e3d9;color:#191a18}
 .pcc-rf-opening-copy{align-self:center;padding:38px clamp(32px,5.8vw,88px)}
 .pcc-rf-opening-copy>span{font-family:var(--font-mono);font-size:9px;letter-spacing:.16em;color:#976045}
 .pcc-rf-opening-copy h2{max-width:850px;margin:12px 0;font-size:clamp(30px,3.2vw,49px);font-weight:530;line-height:1.03;letter-spacing:-.038em}
@@ -476,6 +477,9 @@ body[data-category-key="cable-assembly-11"] .pcc-hero-media img{object-position:
   .pcc-rf-chapter>.pcc-rf-media{min-height:240px}
 }
 @media(max-width:640px){
+  body[data-category-key="cable-assembly-11"] .pcc-hero{min-height:590px}
+  body[data-category-key="cable-assembly-11"] .pcc-hero-grid{min-height:510px}
+  body[data-category-key="cable-assembly-11"] .pcc-hero-media:after{background:linear-gradient(180deg,rgba(7,8,8,.4) 0%,rgba(7,8,8,.72) 48%,rgba(7,8,8,.96) 100%)}
   .pcc-rf-opening{display:flex;flex-direction:column;min-height:0}
   .pcc-rf-opening-copy{padding:28px var(--v2-mobile-gutter) 30px}
   .pcc-rf-opening-copy h2{font-size:29px}
