@@ -952,13 +952,16 @@ body.pcc-rich-page[data-category-key="cable-assembly-05"] #pcc-rich-content{
   color:#141719;
   background:#eeece6;
 }
+body.pcc-rich-page[data-category-key="cable-assembly-05"] .pcc-hero{min-height:570px;background:#0b0d0f}
+body.pcc-rich-page[data-category-key="cable-assembly-05"] .pcc-hero::after{background:linear-gradient(90deg,rgba(6,8,9,.96) 0%,rgba(6,8,9,.79) 39%,rgba(6,8,9,.43) 69%,rgba(6,8,9,.24) 100%)}
+body.pcc-rich-page[data-category-key="cable-assembly-05"] .pcc-hero-grid{min-height:490px;padding-block:82px 72px}
 body.pcc-rich-page[data-category-key="cable-assembly-05"] .pcc-hero-media::after{
   content:"";position:absolute;inset:0;pointer-events:none;
   background:linear-gradient(90deg,rgba(7,9,10,.06),rgba(7,9,10,.28));
 }
-body.pcc-rich-page[data-category-key="cable-assembly-05"] .pcc-hero-media img{object-fit:cover;object-position:52% 52%;filter:saturate(.58) contrast(1.13) brightness(.82)}
+body.pcc-rich-page[data-category-key="cable-assembly-05"] .pcc-hero-media img{object-fit:cover;object-position:56% 52%;filter:saturate(.55) contrast(1.16) brightness(.69)}
 body.pcc-rich-page[data-category-key="cable-assembly-05"] .pcc-hero-copy>p{text-indent:2em}
-.pcc-audio-opening{display:grid;grid-template-columns:minmax(360px,.88fr) minmax(0,1.12fr);min-height:340px;color:#f4f2ec;background:#101315}
+.pcc-audio-opening{display:grid;grid-template-columns:minmax(360px,.88fr) minmax(0,1.12fr);min-height:340px;padding:0;color:#f4f2ec;background:#101315}
 .pcc-audio-opening-copy{display:flex;flex-direction:column;justify-content:center;padding:38px var(--audio-edge)}
 .pcc-audio-opening-copy>span{margin:0 0 11px;color:var(--v2-signal);font:650 10px/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.17em}
 .pcc-audio-opening h2{max-width:20ch;margin:0 0 13px;font-size:clamp(27px,2.55vw,40px);font-weight:520;line-height:1.04;letter-spacing:-.035em}
@@ -1004,6 +1007,10 @@ body.pcc-rich-page[data-category-key="cable-assembly-05"] .pcc-hero-copy>p{text-
   .pcc-audio-points{grid-template-columns:1fr;gap:7px}
 }
 @media(max-width:640px){
+  body.pcc-rich-page[data-category-key="cable-assembly-05"] .pcc-hero{min-height:590px}
+  body.pcc-rich-page[data-category-key="cable-assembly-05"] .pcc-hero::after{background:linear-gradient(180deg,rgba(6,8,9,.22) 0%,rgba(6,8,9,.54) 36%,rgba(6,8,9,.93) 70%,rgba(6,8,9,.98) 100%)}
+  body.pcc-rich-page[data-category-key="cable-assembly-05"] .pcc-hero-grid{min-height:510px;padding-block:78px 52px}
+  body.pcc-rich-page[data-category-key="cable-assembly-05"] .pcc-hero-media img{object-position:57% 43%;filter:saturate(.53) contrast(1.17) brightness(.64)}
   body.pcc-rich-page[data-category-key="cable-assembly-05"] #pcc-rich-content{--audio-edge:20px}
   .pcc-audio-opening-copy{padding:28px var(--audio-edge)}
   .pcc-audio-opening h2{font-size:25px}
