@@ -3514,14 +3514,15 @@ body[data-category-key="cable-assembly-07"] .pcc-hero-media img{filter:saturate(
 }
 
 /* Battery cable assembly: compact terminal map */
-body[data-category-key="cable-assembly-08"] .pcc-hero{background:#11100e;color:#f4f0e7}
-body[data-category-key="cable-assembly-08"] .pcc-hero-media:after{background:linear-gradient(90deg,rgba(15,14,12,.9),rgba(15,14,12,.5) 57%,rgba(15,14,12,.2))}
+body[data-category-key="cable-assembly-08"] .pcc-hero{min-height:570px;background:#11100e;color:#f4f0e7}
+body[data-category-key="cable-assembly-08"] .pcc-hero:after{background:linear-gradient(90deg,rgba(12,11,10,.96) 0%,rgba(12,11,10,.8) 39%,rgba(12,11,10,.47) 69%,rgba(12,11,10,.25) 100%)}
+body[data-category-key="cable-assembly-08"] .pcc-hero-grid{min-height:490px;padding-block:82px 72px}
 body[data-category-key="cable-assembly-08"] .pcc-hero-media img{object-position:58% 53%;filter:saturate(.58) contrast(1.2) brightness(.64)}
-.pcc-battery-opening{display:grid;grid-template-columns:minmax(320px,.76fr) minmax(0,1.24fr);min-height:345px;padding:0;background:#d7d1c4;color:#171612}
+.pcc-battery-opening{display:grid;grid-template-columns:minmax(320px,.76fr) minmax(0,1.24fr);height:390px;min-height:0;padding:0;background:#d7d1c4;color:#171612}
 .pcc-battery-media{margin:0;overflow:hidden;background:#171612}
 .pcc-battery-media img{display:block;width:100%;height:100%;object-fit:cover;filter:saturate(.66) contrast(1.13)}
-.pcc-battery-opening-media{min-height:345px}
-.pcc-battery-opening-media img{object-position:50% 58%}
+.pcc-battery-opening-media{height:390px;min-height:0}
+.pcc-battery-opening-media img{object-position:50% 48%}
 .pcc-battery-opening-copy{position:relative;align-self:center;padding:42px clamp(30px,5vw,78px)}
 .pcc-battery-opening-copy:before{content:"";position:absolute;inset-block:0;inset-inline-start:0;width:5px;background:#b53a23}
 .pcc-battery-opening-copy>span,.pcc-battery-meta{font-family:var(--font-mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#9f351f}
@@ -3561,7 +3562,10 @@ body[data-category-key="cable-assembly-08"] .pcc-hero-media img{object-position:
   .pcc-battery-copy{padding:27px 25px}
 }
 @media(max-width:640px){
-  .pcc-battery-opening{display:flex;flex-direction:column;min-height:0}
+  body[data-category-key="cable-assembly-08"] .pcc-hero{min-height:590px}
+  body[data-category-key="cable-assembly-08"] .pcc-hero:after{background:linear-gradient(180deg,rgba(12,11,10,.22) 0%,rgba(12,11,10,.54) 36%,rgba(12,11,10,.93) 70%,rgba(12,11,10,.98) 100%)}
+  body[data-category-key="cable-assembly-08"] .pcc-hero-grid{min-height:510px;padding-block:78px 52px}
+  .pcc-battery-opening{display:flex;flex-direction:column;height:auto;min-height:0}
   .pcc-battery-opening-media{height:205px;min-height:0;margin-inline:calc(var(--v2-mobile-gutter)*-1)}
   .pcc-battery-opening-copy{padding:29px var(--v2-mobile-gutter) 33px}
   .pcc-battery-opening-copy:before{inset-block:0 auto;inset-inline:var(--v2-mobile-gutter) auto;width:42px;height:3px}
