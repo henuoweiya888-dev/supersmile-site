@@ -1032,19 +1032,22 @@ body.pcc-rich-page[data-category-key="cable-assembly-05"] .pcc-hero-copy>p{text-
 body.pcc-rich-page[data-category-key="cable-assembly-06"] #pcc-rich-content{
   --video-edge:clamp(30px,5vw,82px);color:#151719;background:#efeee9;
 }
+body.pcc-rich-page[data-category-key="cable-assembly-06"] .pcc-hero{min-height:570px;background:#0b0d0f}
+body.pcc-rich-page[data-category-key="cable-assembly-06"] .pcc-hero::after{background:linear-gradient(90deg,rgba(6,8,10,.96) 0%,rgba(6,8,10,.8) 39%,rgba(6,8,10,.45) 69%,rgba(6,8,10,.25) 100%)}
+body.pcc-rich-page[data-category-key="cable-assembly-06"] .pcc-hero-grid{min-height:490px;padding-block:82px 72px}
 body.pcc-rich-page[data-category-key="cable-assembly-06"] .pcc-hero-media::after{
   content:"";position:absolute;inset:0;pointer-events:none;background:linear-gradient(90deg,rgba(7,9,10,.12),rgba(7,9,10,.54));
 }
 body.pcc-rich-page[data-category-key="cable-assembly-06"] .pcc-hero-media img{object-fit:cover;object-position:63% 58%;filter:saturate(.42) contrast(1.18) brightness(.67)}
 body.pcc-rich-page[data-category-key="cable-assembly-06"] .pcc-hero-copy>p{text-indent:2em}
-.pcc-video-opening{display:grid;grid-template-columns:minmax(320px,.92fr) minmax(0,1.08fr);min-height:330px;background:#111416;color:#f4f2ec}
+.pcc-video-opening{display:grid;grid-template-columns:minmax(320px,.92fr) minmax(0,1.08fr);height:330px;min-height:0;padding:0;background:#111416;color:#f4f2ec}
 .pcc-video-opening-copy{display:flex;flex-direction:column;justify-content:center;padding:36px var(--video-edge)}
 .pcc-video-opening-copy>span{margin:0 0 10px;color:var(--v2-signal);font:650 9.5px/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.18em}
 .pcc-video-opening h2{max-width:23ch;margin:0 0 13px;font-size:clamp(26px,2.4vw,38px);font-weight:520;line-height:1.05;letter-spacing:-.035em}
 .pcc-video-opening-copy>p{max-width:76ch;margin:0;color:#c7caca;font-size:13.8px;line-height:1.68;text-indent:2em}
 .pcc-video-media{position:relative;min-width:0;margin:0;overflow:hidden;background:#c8c7c2}
 .pcc-video-media img{display:block;width:100%;height:100%;object-fit:cover;filter:saturate(.55) contrast(1.13) brightness(.9)}
-.pcc-video-opening-media{min-height:330px;background:#080a0b}
+.pcc-video-opening-media{height:330px;min-height:0;background:#080a0b}
 .pcc-video-opening-media img{object-position:center 55%;filter:saturate(.48) contrast(1.16) brightness(.72)}
 .pcc-video-sequence{background:#efeee9}
 .pcc-video-chapter{position:relative;display:grid;grid-template-columns:54px repeat(10,minmax(0,1fr));gap:0 clamp(16px,2vw,30px);align-items:center;min-height:255px;padding:23px var(--video-edge)}
@@ -1052,7 +1055,7 @@ body.pcc-rich-page[data-category-key="cable-assembly-06"] .pcc-hero-copy>p{text-
 .pcc-video-index span{display:block;margin:0 0 11px;font:520 19px/1 ui-monospace,SFMono-Regular,Menlo,monospace}
 .pcc-video-index p{margin:0;color:var(--v2-signal);font:650 8.8px/1.2 ui-monospace,SFMono-Regular,Menlo,monospace;letter-spacing:.12em;writing-mode:vertical-rl}
 .pcc-video-copy{grid-column:2/span 6;max-width:920px}
-.pcc-video-media{grid-column:8/-1;height:188px}
+.pcc-video-chapter .pcc-video-media{grid-column:8/-1;height:188px}
 .pcc-video-copy h2{margin:0 0 6px;font-size:clamp(20px,1.65vw,27px);font-weight:530;line-height:1.12;letter-spacing:-.025em}
 .pcc-video-summary{margin:0 0 11px;color:#3f4446;font-size:13.6px;line-height:1.62;text-indent:2em}
 .pcc-video-points{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px 26px}
@@ -1081,8 +1084,11 @@ body.pcc-rich-page[data-category-key="cable-assembly-06"] .pcc-hero-copy>p{text-
   .pcc-video-points{grid-template-columns:1fr;gap:7px}
 }
 @media(max-width:640px){
+  body.pcc-rich-page[data-category-key="cable-assembly-06"] .pcc-hero{min-height:590px}
+  body.pcc-rich-page[data-category-key="cable-assembly-06"] .pcc-hero::after{background:linear-gradient(180deg,rgba(6,8,10,.24) 0%,rgba(6,8,10,.55) 36%,rgba(6,8,10,.93) 70%,rgba(6,8,10,.98) 100%)}
+  body.pcc-rich-page[data-category-key="cable-assembly-06"] .pcc-hero-grid{min-height:510px;padding-block:78px 52px}
   body.pcc-rich-page[data-category-key="cable-assembly-06"] #pcc-rich-content{--video-edge:20px}
-  .pcc-video-opening{display:flex;flex-direction:column-reverse;min-height:0}
+  .pcc-video-opening{display:flex;flex-direction:column-reverse;height:auto;min-height:0}
   .pcc-video-opening-copy{padding:27px var(--video-edge)}
   .pcc-video-opening h2{font-size:24.5px}
   .pcc-video-opening-copy>p{font-size:13.1px;line-height:1.64}
