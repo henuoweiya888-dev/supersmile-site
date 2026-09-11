@@ -23,7 +23,8 @@ const aiImages={
   'custom-harness-09':'/assets/images/product-categories/ai/web/custom-harness-09-braided-protection-wire-harness.jpg',
   'custom-harness-10':'/assets/images/product-categories/ai/web/custom-harness-10-prototype-small-batch-wire-harness.jpg',
   'custom-harness-11':'/assets/images/product-categories/ai/web/custom-harness-11-outdoor-waterproof-wire-harness.jpg',
-  'custom-harness-12':'/assets/images/product-categories/stock/new-energy-refresh/10800215.jpg'
+  'custom-harness-12':'/assets/images/product-categories/stock/new-energy-refresh/10800215.jpg',
+  'cable-assembly-01':'/assets/images/product-categories/stock/overmold-refresh/overmold-hero-ai.png'
 };
 
 function alternates(slug){
@@ -129,8 +130,8 @@ function pageTemplate({key,slug,name,group,image,intro,knowledge,notes,delivery,
   const groupName=localized(group.directoryTitle||group.title);
   const canonical=`https://supersmile-tech.com/products/${slug}`;
   const title=`${name} | ${groupName} | Super Smile`;
-  const editorialStyle=['custom-harness-01','custom-harness-02','custom-harness-03','custom-harness-04','custom-harness-05','custom-harness-06','custom-harness-07','custom-harness-08','custom-harness-09','custom-harness-10','custom-harness-11','custom-harness-12'].includes(key)
-    ? '<link rel="stylesheet" href="/assets/css/prebinder-editorial.css?v=20260912v5">'
+  const editorialStyle=['custom-harness-01','custom-harness-02','custom-harness-03','custom-harness-04','custom-harness-05','custom-harness-06','custom-harness-07','custom-harness-08','custom-harness-09','custom-harness-10','custom-harness-11','custom-harness-12','cable-assembly-01'].includes(key)
+    ? '<link rel="stylesheet" href="/assets/css/prebinder-editorial.css?v=20260912v6">'
     : '';
   const schema={
     '@context':'https://schema.org',
@@ -193,11 +194,13 @@ ${alternates(slug)}
 }
 
 await fs.mkdir(path.join(root,'products'),{recursive:true});
+const requestedKeys=new Set(process.argv.slice(2));
 let count=0;
 for(const group of capabilities.groups||[]){
   const fallback=capabilities.categoryDetail?.sets?.[group.id]||{};
   for(let index=0;index<(group.items?.en||[]).length;index+=1){
     const key=`${group.id}-${String(index+1).padStart(2,'0')}`;
+    if(requestedKeys.size && !requestedKeys.has(key)) continue;
     const name=group.items.en[index];
     const slug=slugify(name);
     const itemDetail=details[key]||{};

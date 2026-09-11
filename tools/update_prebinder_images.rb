@@ -4,6 +4,15 @@ DATA_FILE = File.expand_path("../data/product-category-details.json", __dir__)
 PREFIX = "/assets/images/product-categories/stock"
 
 SECTION_IMAGES = {
+  "cable-assembly-01" => {
+    "variants" => %W[#{PREFIX}/overmold-refresh/commons-molding-diagram.png #{PREFIX}/overmold-refresh/14920870.jpg #{PREFIX}/overmold-refresh/34718928.jpg #{PREFIX}/overmold-refresh/commons-purge-material.jpg #{PREFIX}/overmold-refresh/16544056.jpg #{PREFIX}/overmold-refresh/commons-clamping-unit.jpg],
+    "materials" => %W[#{PREFIX}/overmold-refresh/commons-pellets.jpg #{PREFIX}/overmold-refresh/37363745.jpg #{PREFIX}/overmold-refresh/11048741.jpg #{PREFIX}/overmold-refresh/18469652.jpg],
+    "solutions" => %W[#{PREFIX}/overmold-refresh/commons-machine-open.png #{PREFIX}/overmold-refresh/7480231.jpg #{PREFIX}/overmold-refresh/commons-robot-arm.jpg #{PREFIX}/overmold-refresh/9242906.jpg],
+    "applications" => %W[#{PREFIX}/overmold-refresh/33427061.jpg #{PREFIX}/overmold-refresh/18471441.jpg #{PREFIX}/overmold-refresh/31741227.jpg #{PREFIX}/overmold-refresh/32588545.jpg #{PREFIX}/overmold-refresh/7869033.jpg #{PREFIX}/overmold-refresh/18471551.jpg],
+    "process" => %W[#{PREFIX}/overmold-refresh/commons-moulding.png #{PREFIX}/overmold-refresh/commons-machine.png #{PREFIX}/overmold-refresh/33694031.jpg #{PREFIX}/overmold-refresh/32407077.jpg #{PREFIX}/overmold-refresh/17937676.jpg #{PREFIX}/overmold-refresh/11765539.jpg],
+    "reliability" => %W[#{PREFIX}/overmold-refresh/37502090.jpg #{PREFIX}/overmold-refresh/19004429.jpg #{PREFIX}/overmold-refresh/16647824.jpg #{PREFIX}/overmold-refresh/33514501.jpg],
+    "benefits" => %W[#{PREFIX}/overmold-refresh/28806603.jpg #{PREFIX}/overmold-refresh/34194565.jpg #{PREFIX}/overmold-refresh/14805033.jpg #{PREFIX}/overmold-refresh/13068887.jpg]
+  },
   "custom-harness-12" => {
     "variants" => %W[#{PREFIX}/new-energy-refresh/33531823.jpg #{PREFIX}/new-energy-refresh/35138694.jpg #{PREFIX}/new-energy-refresh/33438229.jpg #{PREFIX}/new-energy-refresh/38264253.jpg #{PREFIX}/new-energy-refresh/9679179.jpg #{PREFIX}/new-energy-refresh/34054474.jpg],
     "materials" => %W[#{PREFIX}/new-energy-refresh/38171148.jpg #{PREFIX}/new-energy-refresh/33379360.jpg #{PREFIX}/new-energy-refresh/37576219.jpg #{PREFIX}/new-energy-refresh/14319099.jpg],
@@ -130,6 +139,11 @@ NEW_ENERGY_IMAGES = {
   "range" => "#{PREFIX}/new-energy-refresh/12737898.jpg"
 }.freeze
 
+OVERMOLD_IMAGES = {
+  "hero" => "#{PREFIX}/overmold-refresh/overmold-hero-ai.png",
+  "range" => "#{PREFIX}/overmold-refresh/overmold-range-ai.png"
+}.freeze
+
 document = File.read(DATA_FILE)
 data = JSON.parse(document)
 
@@ -170,6 +184,16 @@ images_end = category.index(/^      \},/, images_start) + 8
 images_block = category[images_start...images_end]
 CONTROL_PANEL_IMAGES.each do |key, value|
   images_block.sub!(/"#{Regexp.escape(key)}"\s*:\s*"[^"]+"/, %Q{"#{key}": #{JSON.generate(value)}})
+end
+document[start_at + images_start, images_end - images_start] = images_block
+
+start_at, finish_at = category_bounds(document, "cable-assembly-01")
+category = document[start_at...finish_at]
+images_start = category.index(/^      "images":\{/)
+images_end = category.index("\n", images_start)
+images_block = category[images_start...images_end]
+OVERMOLD_IMAGES.each do |key, value|
+  images_block.sub!(/"#{Regexp.escape(key)}"\s*:\s*"[^"]+"/, %Q{"#{key}":#{JSON.generate(value)}})
 end
 document[start_at + images_start, images_end - images_start] = images_block
 

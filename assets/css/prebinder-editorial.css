@@ -11,6 +11,96 @@ body.pcc-rich-page{
   --pre-rule:rgba(23,26,28,.18);
 }
 
+/* Overmolded assemblies: a tooling-and-process feature. The chapter rhythm moves
+   from a configuration contact sheet to engineering spreads, then a compact
+   production rail. Photographs remain evidence beside the copy, not full-page art. */
+body.pcc-rich-page[data-category-key="cable-assembly-01"]{--mold-deep:#171b1d;--mold-wash:#e8e4dd;--mold-clay:#8b4d38}
+body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-rich-materials,
+body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-rich-process{background:var(--mold-wash)}
+body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-rich-reliability{background:var(--mold-deep);color:#eef0ef}
+body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-rich-reliability h2,
+body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-rich-reliability h3{color:#fff}
+body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-rich-reliability p{color:#bcc2c3}
+body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-rich-heading::after{background:var(--mold-clay)}
+body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-item-media img{filter:saturate(.82) contrast(1.03)}
+body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-item-media:has(img[src*="commons-molding"]) img,
+body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-item-media:has(img[src*="commons-clamping"]) img{object-fit:contain;background:#f4f2ed;padding:10px}
+@media(min-width:901px){
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-variant-list{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:30px 26px}
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-variant-list .pcc-photo-note{grid-column:span 2;display:flex;flex-direction:column;border-top:1px solid var(--pre-rule)}
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-variant-list .pcc-photo-note:nth-child(n+4){display:grid;grid-template-columns:42% minmax(0,58%);align-items:stretch}
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-variant-list .pcc-item-media{width:100%;height:auto;min-height:0;aspect-ratio:4/3;border-radius:0!important}
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-variant-list .pcc-photo-note:nth-child(n+4) .pcc-item-media{height:100%;aspect-ratio:auto;min-height:190px}
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-variant-list .pcc-photo-copy{padding:20px 1px 0}
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-variant-list .pcc-photo-note:nth-child(n+4) .pcc-photo-copy{padding:22px 0 18px 22px}
+
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-material-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 44px}
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-material-list .pcc-photo-note{display:grid;grid-template-columns:43% minmax(0,57%);align-items:stretch;border-top:1px solid rgba(23,26,28,.24)}
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-material-list .pcc-item-media{width:100%;height:100%;min-height:210px;border-radius:0!important}
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-material-list .pcc-photo-copy{padding:24px 0 18px 25px}
+
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-solution-list{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:28px 34px}
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-solution-list .pcc-photo-note{grid-column:span 5;display:flex;flex-direction:column;border-top:1px solid var(--pre-rule)}
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-solution-list .pcc-photo-note:first-child{grid-column:span 7;display:grid;grid-template-columns:55% minmax(0,45%);align-items:stretch}
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-solution-list .pcc-photo-note:nth-child(n+3){grid-column:span 6;display:grid;grid-template-columns:45% minmax(0,55%);align-items:stretch}
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-solution-list .pcc-item-media{width:100%;height:auto;min-height:0;aspect-ratio:16/10;border-radius:0!important}
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-solution-list .pcc-photo-note:first-child .pcc-item-media,
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-solution-list .pcc-photo-note:nth-child(n+3) .pcc-item-media{height:100%;aspect-ratio:auto;min-height:225px}
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-solution-list .pcc-photo-copy{padding:20px 1px 0}
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-solution-list .pcc-photo-note:first-child .pcc-photo-copy,
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-solution-list .pcc-photo-note:nth-child(n+3) .pcc-photo-copy{padding:26px 0 20px 27px}
+
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-application-index{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px}
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-application-index .pcc-photo-note{display:flex;flex-direction:column;border-top:1px solid var(--pre-rule)}
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-application-index .pcc-item-media{width:100%;height:auto;min-height:0;aspect-ratio:16/10;border-radius:0!important}
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-application-index .pcc-photo-copy{padding:20px 1px 0}
+
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-process-rail{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:25px 34px}
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-process-rail .pcc-photo-note{display:grid;grid-template-columns:138px minmax(0,1fr);align-items:center;border-top:1px solid rgba(23,26,28,.24)}
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-process-rail .pcc-item-media{width:138px;height:138px;min-height:138px;border-radius:0!important}
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-process-rail .pcc-photo-copy{padding:18px 0 16px 21px}
+
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-reliability-list{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:29px}
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-reliability-list .pcc-photo-note{display:flex;flex-direction:column;border-top:1px solid rgba(255,255,255,.2)}
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-reliability-list .pcc-item-media{width:100%;height:auto;min-height:0;aspect-ratio:4/3;border-radius:0!important}
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-reliability-list .pcc-photo-copy{padding:20px 1px 0}
+
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-benefit-notes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 46px}
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-benefit-notes .pcc-photo-note{display:grid;grid-template-columns:42% minmax(0,58%);align-items:stretch;border-top:1px solid var(--pre-rule)}
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-benefit-notes .pcc-item-media{width:100%;height:100%;min-height:195px;border-radius:0!important}
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-benefit-notes .pcc-photo-copy{padding:23px 0 18px 24px}
+}
+@media(max-width:620px){
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-variant-list,
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-application-index,
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-reliability-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 14px;padding:0 16px 34px}
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-variant-list .pcc-photo-note,
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-application-index .pcc-photo-note,
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-reliability-list .pcc-photo-note{display:flex;flex-direction:column;min-width:0;border-top:1px solid var(--pre-rule)}
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-variant-list .pcc-item-media,
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-application-index .pcc-item-media,
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-reliability-list .pcc-item-media{width:100%;height:auto;min-height:0;aspect-ratio:4/3;border-radius:0!important}
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-variant-list .pcc-photo-copy,
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-application-index .pcc-photo-copy,
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-reliability-list .pcc-photo-copy{padding:17px 0 0}
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-material-list,
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-solution-list,
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-process-rail,
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-benefit-notes{display:flex;flex-direction:column;padding:0}
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-material-list .pcc-photo-note,
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-solution-list .pcc-photo-note,
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-process-rail .pcc-photo-note,
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-benefit-notes .pcc-photo-note{display:grid;grid-template-columns:40% minmax(0,60%);align-items:stretch;border-top:1px solid var(--pre-rule)}
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-material-list .pcc-item-media,
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-solution-list .pcc-item-media,
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-process-rail .pcc-item-media,
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-benefit-notes .pcc-item-media{grid-column:1;grid-row:1;width:100%;height:100%;min-height:164px;border-radius:0!important}
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-material-list .pcc-photo-copy,
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-solution-list .pcc-photo-copy,
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-process-rail .pcc-photo-copy,
+  body.pcc-rich-page[data-category-key="cable-assembly-01"] .pcc-benefit-notes .pcc-photo-copy{grid-column:2;grid-row:1;padding:18px 15px}
+}
+
 /* New energy low-voltage: an electrical architecture spread. System families
    read as paired modules; applications become broad field stories rather than cards. */
 body.pcc-rich-page[data-category-key="custom-harness-12"]{--energy-deep:#172522;--energy-wash:#e7ece7;--energy-line:#91a39a}
