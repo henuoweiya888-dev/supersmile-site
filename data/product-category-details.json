@@ -1,4 +1,12 @@
 {
+  "specialty-09": {
+    "title":{"en":"FTDI Cable Assembly","zh":"FTDI 电缆组件"},
+    "intro":{"en":"Custom FTDI cable assemblies combine USB conversion electronics, a defined serial electrical layer, purpose-built endpoints and project-specific validation.","zh":"定制 FTDI 电缆组件将 USB 转换电子器件、明确串行电气层、专用端点与项目特定验证结合起来。"},
+    "knowledge":{"en":"An FTDI cable is an active electronic assembly; connector appearance does not prove protocol, voltage, pinout or driver identity.","zh":"FTDI 线属于有源电子组件，接口外观不能证明协议、电平、针脚或驱动身份。"},
+    "notes":{"en":"Provide the host, target equipment, pin map, serial layer, I/O voltage, signals, driver behavior, protection and validation method.","zh":"请提供主机、目标设备、针脚表、串行电气层、I/O 电平、信号、驱动行为、防护与验证方法。"},
+    "delivery":{"en":"Release records electronics, programmed configuration, cable BOM, endpoints, circuit map, labels and agreed passive and active tests.","zh":"放行文件记录电子器件、编程配置、线缆 BOM、端点、回路图、标签及约定的被动与有源测试。"},
+    "page":{"layout":"ftdi-signal-editorial","displayTitle":{"en":"FTDI Cable Assembly","zh":"FTDI 电缆组件"},"headings":{"introduction":{"en":"USB to a Precisely Defined Serial Interface","zh":"从 USB 到被准确说明的串行接口"},"faq":{"en":"FTDI Cable Assembly Questions","zh":"FTDI 电缆组件常见问题"}},"subtitle":{"en":"USB on one side, a defined serial interface on the other","zh":"一端是 USB，另一端必须是被准确说明的串行接口"},"lead":{"en":"Define electronics, electrical layer, pinout, endpoint and software as one product.","zh":"将电子器件、电气层、针脚、端点与软件作为一个产品定义。"},"images":{"range":"/assets/images/product-categories/stock/ftdi/hero-ftdi-programming.jpg"},"faq":[]}
+  },
   "specialty-08": {
     "title":{"en":"Waterproof Design Harness","zh":"防水设计线束"},
     "intro":{"en":"Custom waterproof wire harnesses are developed as complete sealed systems around the real exposure, mating state, cable entries, branches and agreed validation.","zh":"定制防水设计线束需要围绕真实暴露、插合状态、出线、分支与约定验证，作为完整密封系统开发。"},
