@@ -129,8 +129,8 @@ function pageTemplate({key,slug,name,group,image,intro,knowledge,notes,delivery,
   const groupName=localized(group.directoryTitle||group.title);
   const canonical=`https://supersmile-tech.com/products/${slug}`;
   const title=`${name} | ${groupName} | Super Smile`;
-  const editorialStyle=['custom-harness-01','custom-harness-02','custom-harness-03','custom-harness-04','custom-harness-05','custom-harness-06','custom-harness-07','custom-harness-08','custom-harness-09','custom-harness-10'].includes(key)
-    ? '<link rel="stylesheet" href="/assets/css/prebinder-editorial.css?v=20260912v3">'
+  const editorialStyle=['custom-harness-01','custom-harness-02','custom-harness-03','custom-harness-04','custom-harness-05','custom-harness-06','custom-harness-07','custom-harness-08','custom-harness-09','custom-harness-10','custom-harness-11'].includes(key)
+    ? '<link rel="stylesheet" href="/assets/css/prebinder-editorial.css?v=20260912v4">'
     : '';
   const schema={
     '@context':'https://schema.org',

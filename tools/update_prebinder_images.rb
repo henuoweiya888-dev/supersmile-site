@@ -4,6 +4,15 @@ DATA_FILE = File.expand_path("../data/product-category-details.json", __dir__)
 PREFIX = "/assets/images/product-categories/stock"
 
 SECTION_IMAGES = {
+  "custom-harness-11" => {
+    "variants" => %W[#{PREFIX}/waterproof-refresh/37293704.jpg #{PREFIX}/waterproof-design/cable-gland.jpg #{PREFIX}/waterproof-design/sealed-splice.jpg #{PREFIX}/waterproof-design/ip-rated-interface.jpg #{PREFIX}/waterproof-refresh/35000431.jpg #{PREFIX}/waterproof-design/condensation.jpg],
+    "materials" => %W[#{PREFIX}/waterproof-design/o-rings.jpg #{PREFIX}/waterproof-design/heat-shrink.jpg #{PREFIX}/waterproof-refresh/24245332.jpg #{PREFIX}/waterproof-refresh/16584487.jpg],
+    "solutions" => %W[#{PREFIX}/waterproof-refresh/459451.jpg #{PREFIX}/waterproof-refresh/12777073.jpg #{PREFIX}/waterproof-refresh/195184.jpg #{PREFIX}/waterproof-design/pressure-wash.jpg],
+    "applications" => %W[#{PREFIX}/waterproof-refresh/38171111.jpg #{PREFIX}/waterproof-refresh/28663714.jpg #{PREFIX}/waterproof-refresh/18080739.jpg #{PREFIX}/waterproof-design/agriculture-wet.jpg #{PREFIX}/waterproof-design/marine-outboard.jpg #{PREFIX}/waterproof-refresh/7790672.jpg],
+    "process" => %W[#{PREFIX}/waterproof-refresh/7535158.jpg #{PREFIX}/waterproof-design/resin-mixing.jpg #{PREFIX}/waterproof-refresh/8876714.jpg #{PREFIX}/waterproof-refresh/16408712.jpg #{PREFIX}/waterproof-refresh/6389386.jpg #{PREFIX}/waterproof-refresh/2877066.jpg],
+    "reliability" => %W[#{PREFIX}/waterproof-refresh/14570124.jpg #{PREFIX}/waterproof-refresh/19504335.jpg #{PREFIX}/waterproof-refresh/36348537.jpg #{PREFIX}/waterproof-refresh/9314016.jpg],
+    "benefits" => %W[#{PREFIX}/waterproof-design/hero-water-splash.jpg #{PREFIX}/waterproof-design/rain-droplets.jpg #{PREFIX}/waterproof-refresh/1076110.jpg #{PREFIX}/waterproof-refresh/34370966.jpg]
+  },
   "custom-harness-10" => {
     "variants" => %W[#{PREFIX}/prototype-refresh/9242823.jpg #{PREFIX}/prototype-refresh/7166995.jpg #{PREFIX}/prototype-refresh/32391505.jpg #{PREFIX}/prototype-refresh/34221993.jpg #{PREFIX}/prototype-refresh/32391498.jpg #{PREFIX}/prototype-refresh/3912369.jpg],
     "materials" => %W[#{PREFIX}/prototype-refresh/35686433.jpg #{PREFIX}/prototype-refresh/34232878.jpg #{PREFIX}/prototype-refresh/37340074.jpg #{PREFIX}/prototype-refresh/2842456.jpg],

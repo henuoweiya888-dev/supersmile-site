@@ -11,6 +11,83 @@ body.pcc-rich-page{
   --pre-rule:rgba(23,26,28,.18);
 }
 
+/* Outdoor waterproof: environmental exposure leads, interface evidence follows. */
+body.pcc-rich-page[data-category-key="custom-harness-11"]{--water-deep:#101c23;--water-mist:#dfe7e8}
+body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-rich-advantages,
+body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-rich-reliability{background:var(--water-deep);color:#eef3f3}
+body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-rich-advantages h2,
+body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-rich-advantages h3,
+body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-rich-reliability h2,
+body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-rich-reliability h3{color:#fff}
+body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-rich-advantages p,
+body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-rich-reliability p{color:#b9c5c9}
+body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-rich-solutions{background:var(--water-mist)}
+@media(min-width:901px){
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-variant-list{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:27px 34px}
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-variant-list .pcc-photo-note{display:flex;flex-direction:column;border-top:1px solid rgba(255,255,255,.2)}
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-variant-list .pcc-photo-note:first-child{grid-column:span 12;display:grid;grid-template-columns:52% minmax(0,48%);align-items:stretch}
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-variant-list .pcc-photo-note:nth-child(n+2){grid-column:span 3}
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-variant-list .pcc-photo-note:first-child .pcc-item-media{width:100%;height:260px;min-height:260px;border-radius:0!important}
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-variant-list .pcc-photo-note:first-child .pcc-photo-copy{padding:30px 0 22px 32px}
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-variant-list .pcc-photo-note:nth-child(n+2) .pcc-item-media{width:100%;height:auto;min-height:0;aspect-ratio:4/3;border-radius:0!important}
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-variant-list .pcc-photo-note:nth-child(n+2) .pcc-photo-copy{padding:19px 1px 0}
+
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-material-list,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-benefit-notes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:25px 46px}
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-material-list .pcc-photo-note,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-benefit-notes .pcc-photo-note{display:grid;grid-template-columns:42% minmax(0,58%);align-items:stretch;border-top:1px solid var(--pre-rule)}
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-material-list .pcc-item-media,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-benefit-notes .pcc-item-media{width:100%;height:100%;min-height:198px;border-radius:0!important}
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-material-list .pcc-photo-copy,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-benefit-notes .pcc-photo-copy{padding:23px 0 18px 24px}
+
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-solution-list,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-reliability-list{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px}
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-solution-list .pcc-photo-note,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-reliability-list .pcc-photo-note{display:flex;flex-direction:column;border-top:1px solid var(--pre-rule)}
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-reliability-list .pcc-photo-note{border-color:rgba(255,255,255,.2)}
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-solution-list .pcc-item-media,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-reliability-list .pcc-item-media{width:100%;height:auto;min-height:0;aspect-ratio:1/1;border-radius:0!important}
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-solution-list .pcc-photo-copy,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-reliability-list .pcc-photo-copy{padding:20px 1px 0}
+
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-application-index,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-process-rail{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px 34px}
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-application-index .pcc-photo-note{display:flex;flex-direction:column;border-top:1px solid var(--pre-rule)}
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-application-index .pcc-item-media{width:100%;height:auto;min-height:0;aspect-ratio:16/10;border-radius:0!important}
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-application-index .pcc-photo-copy{padding:20px 1px 0}
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-process-rail .pcc-photo-note{display:grid;grid-template-columns:145px minmax(0,1fr);align-items:center;border-top:1px solid var(--pre-rule)}
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-process-rail .pcc-item-media{width:145px;height:145px;min-height:145px;border-radius:0!important}
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-process-rail .pcc-photo-copy{padding:18px 0 16px 20px}
+}
+@media(max-width:620px){
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-variant-list,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-solution-list,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-application-index,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-reliability-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:27px 14px;padding:0 16px 35px}
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-variant-list .pcc-photo-note,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-solution-list .pcc-photo-note,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-application-index .pcc-photo-note,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-reliability-list .pcc-photo-note{display:flex;flex-direction:column;min-width:0;border-top:1px solid var(--pre-rule)}
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-variant-list .pcc-item-media,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-solution-list .pcc-item-media,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-application-index .pcc-item-media,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-reliability-list .pcc-item-media{width:100%;height:auto;min-height:0;aspect-ratio:4/3;border-radius:0!important}
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-variant-list .pcc-photo-copy,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-solution-list .pcc-photo-copy,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-application-index .pcc-photo-copy,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-reliability-list .pcc-photo-copy{padding:18px 0 0}
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-material-list .pcc-photo-note,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-process-rail .pcc-photo-note,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-benefit-notes .pcc-photo-note{display:grid;grid-template-columns:39% minmax(0,61%);align-items:stretch;border-top:1px solid var(--pre-rule)}
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-material-list .pcc-item-media,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-process-rail .pcc-item-media,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-benefit-notes .pcc-item-media{grid-column:1;grid-row:1;width:100%;height:100%;min-height:166px;border-radius:0!important}
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-material-list .pcc-photo-copy,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-process-rail .pcc-photo-copy,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-benefit-notes .pcc-photo-copy{grid-column:2;grid-row:1;padding:20px 15px}
+}
+
 /* Prototype and small batch: an engineering dossier. Wide review spreads
    alternate with compact evidence cards and a numbered release rail. */
 body.pcc-rich-page[data-category-key="custom-harness-10"]{
