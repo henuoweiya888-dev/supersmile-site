@@ -1,4 +1,12 @@
 {
+  "wire-cable-01": {
+    "title":{"en":"Automotive Primary Wire","zh":"汽车电线电缆"},
+    "intro":{"en":"Automotive primary wire is selected by circuit, route, installation zone, terminal system and governing specification rather than colour or nominal gauge alone.","zh":"汽车电线应依据回路、路径、安装温区、端子系统和适用规范选择，不能只看颜色或标称线径。"},
+    "knowledge":{"en":"SAE J1128, the ISO 19642 series and customer specifications define different construction and validation frameworks. The exact type and revision must be identified for each project.","zh":"SAE J1128、ISO 19642 系列与客户规范分别建立不同结构和验证框架，每个项目都应明确准确类型与版本。"},
+    "notes":{"en":"Provide current, duty, voltage, route length, temperature zones, fluids, abrasion, terminal system, colour, marking and required cable specification.","zh":"请提供电流、占空比、电压、路径长度、温区、介质、磨损、端子系统、颜色印字与所需线缆规范。"},
+    "delivery":{"en":"Release records the exact cable source and designation, conductor and insulation criteria, colour and marking, cut and strip dimensions, terminal pairing and agreed harness validation.","zh":"放行文件记录准确线材来源与型号、导体和绝缘判定、颜色印字、裁线剥线尺寸、端子配对与约定线束验证。"},
+    "page":{"layout":"automotive-primary-wire-editorial","displayTitle":{"en":"Automotive Primary Wire","zh":"汽车电线电缆"},"headings":{"introduction":{"en":"The Wire Is Part of the Vehicle System","zh":"线材是车辆系统的一部分"},"faq":{"en":"Automotive Primary Wire Questions","zh":"汽车电线常见问题"}},"subtitle":{"en":"Select the electrical path by circuit, zone and terminal system","zh":"按回路、温区与端子系统选择电气路径"},"lead":{"en":"Start with current and route length, then coordinate conductor, insulation, terminal and installed environment.","zh":"先确认电流与路径长度，再协同选择导体、绝缘、端子和安装环境。"},"images":{"range":"/assets/images/product-categories/stock/automotive-primary-wire/hero-engine-wiring.jpg"},"faq":[]}
+  },
   "specialty-14": {
     "title":{"en":"Low-Pressure Molding","zh":"低压成型"},
     "intro":{"en":"Custom low-pressure molding integrates a defined electronic or cable insert with a thermoplastic protective body while controlling component exposure, interfaces, tooling contact and the complete assembly validation plan.","zh":"定制低压成型把规定的电子或线缆嵌件与热塑性保护体整合，同时控制元件承受、接口边界、工装接触及完整组件验证计划。"},
