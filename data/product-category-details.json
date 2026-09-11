@@ -1,4 +1,12 @@
 {
+  "specialty-07": {
+    "title":{"en":"Panel-Mount Cable Assemblies","zh":"面板安装电缆组件"},
+    "intro":{"en":"Custom panel-mount and bulkhead cable assemblies turn a cable end into a defined equipment interface, with the connector, cutout, hardware, seal, cable construction and validation engineered together.","zh":"定制面板安装与隔板电缆组件，将线端变成边界清晰的设备接口，并将连接器、开孔、五金、密封、线缆结构与验证协同开发。"},
+    "knowledge":{"en":"Panel mounting describes installation, not signal capability, ingress protection or an interchangeable connector family.","zh":"面板安装描述安装方式，并不自动代表信号能力、防护等级或通用接口。"},
+    "notes":{"en":"Provide the exact interface, panel material and thickness, cutout drawing, mounting side, hardware, route, environment and test requirements.","zh":"请提供准确接口、面板材料与厚度、开孔图、安装方向、紧固件、路径、环境及测试要求。"},
+    "delivery":{"en":"Approve mechanical fit, interface sample, sealing stack, circuit map and project-specific test evidence before repeat production.","zh":"重复生产前确认机械配合、接口样件、密封叠层、回路图及项目特定测试证据。"},
+    "page":{"layout":"panel-mount-editorial","displayTitle":{"en":"Panel-Mount Cable Assemblies","zh":"面板安装电缆组件"},"headings":{"introduction":{"en":"Design the Equipment Boundary","zh":"设计设备边界"},"faq":{"en":"Panel-Mount Cable Questions","zh":"面板安装电缆常见问题"}},"subtitle":{"en":"Design the equipment boundary, not only the cable ends","zh":"设计设备边界，不只是线缆两端"},"lead":{"en":"Coordinate both sides of the panel as one interface.","zh":"将面板两侧作为一个接口协同定义。"},"images":{"range":"/assets/images/product-categories/stock/panel-mount/hero.jpg"},"faq":[]}
+  },
   "specialty-06": {
     "title":{"en":"Micro-D Cable Assemblies","zh":"Micro-D 电缆组件"},
     "intro":{"en":"Custom Micro-D cable assemblies for compact aerospace, defense, instrumentation, medical and industrial electronics, with defined interface, circuit map, cable construction, retention, shielding and inspection.","zh":"面向紧凑型航空航天、国防、仪器、医疗及工业电子设备定制 Micro-D 电缆组件，明确接口、回路图、线缆结构、锁紧、屏蔽与检验要求。"},
