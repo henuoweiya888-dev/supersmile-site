@@ -1346,3 +1346,23 @@ body.pcc-rich-page .pcc-item-media img{
     grid-column:2;grid-row:1;padding:20px 15px;
   }
 }
+
+/* Final control-panel solution normalization follows all earlier editorial variants. */
+body.pcc-rich-page[data-category-key="custom-harness-02"] .pcc-solution-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px 44px;padding:0}
+body.pcc-rich-page[data-category-key="custom-harness-02"] .pcc-solution-list .pcc-photo-note,
+body.pcc-rich-page[data-category-key="custom-harness-02"] .pcc-solution-list .pcc-photo-note:nth-child(1),
+body.pcc-rich-page[data-category-key="custom-harness-02"] .pcc-solution-list .pcc-photo-note:nth-child(n+2){display:grid;grid-column:auto;grid-template-columns:205px minmax(0,1fr);align-items:center;gap:23px;margin:0;border:0}
+body.pcc-rich-page[data-category-key="custom-harness-02"] .pcc-solution-list .pcc-item-media,
+body.pcc-rich-page[data-category-key="custom-harness-02"] .pcc-solution-list .pcc-photo-note:nth-child(1) .pcc-item-media,
+body.pcc-rich-page[data-category-key="custom-harness-02"] .pcc-solution-list .pcc-photo-note:nth-child(n+2) .pcc-item-media{grid-column:1;grid-row:1;width:100%;height:166px;min-height:0;aspect-ratio:auto;margin:0;border-radius:0;clip-path:none}
+body.pcc-rich-page[data-category-key="custom-harness-02"] .pcc-solution-list .pcc-photo-copy,
+body.pcc-rich-page[data-category-key="custom-harness-02"] .pcc-solution-list .pcc-photo-note:nth-child(1) .pcc-photo-copy{grid-column:2;grid-row:1;width:auto;padding:0}
+@media(max-width:620px){
+  body.pcc-rich-page[data-category-key="custom-harness-02"] .pcc-solution-list{grid-template-columns:1fr;gap:23px;padding:0}
+  body.pcc-rich-page[data-category-key="custom-harness-02"] .pcc-solution-list .pcc-photo-note,
+  body.pcc-rich-page[data-category-key="custom-harness-02"] .pcc-solution-list .pcc-photo-note:nth-child(1),
+  body.pcc-rich-page[data-category-key="custom-harness-02"] .pcc-solution-list .pcc-photo-note:nth-child(n+2){grid-template-columns:126px minmax(0,1fr);gap:17px}
+  body.pcc-rich-page[data-category-key="custom-harness-02"] .pcc-solution-list .pcc-item-media,
+  body.pcc-rich-page[data-category-key="custom-harness-02"] .pcc-solution-list .pcc-photo-note:nth-child(1) .pcc-item-media,
+  body.pcc-rich-page[data-category-key="custom-harness-02"] .pcc-solution-list .pcc-photo-note:nth-child(n+2) .pcc-item-media{height:126px;min-height:0;aspect-ratio:auto}
+}
