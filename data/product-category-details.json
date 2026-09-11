@@ -1,4 +1,12 @@
 {
+  "wire-cable-02": {
+    "title":{"en":"Appliance Wire & Cable","zh":"电器电线电缆"},
+    "intro":{"en":"Appliance wire and cable connect power, controls, motors, heaters and sensors across different thermal, moisture, movement and service zones inside equipment.","zh":"电器电线电缆连接设备内部的电源、控制器、电机、加热器与传感器，并跨越不同温度、潮气、运动与维修区域。"},
+    "knowledge":{"en":"Internal wiring, AWM, flexible cord and the completed appliance have different specification and approval boundaries. The exact construction and use conditions must be identified.","zh":"内部配线、AWM、柔性软线与完整电器具有不同规范和批准边界，必须明确准确结构与使用条件。"},
+    "notes":{"en":"Provide the destination market, appliance zone map, circuit loads, temperatures, exposure, movement, wire or cord designation, terminal system and validation plan.","zh":"请提供目标市场、电器分区图、回路负载、温度、环境暴露、运动状态、线材或软线型号、端子系统与验证方案。"},
+    "delivery":{"en":"Release records the exact wire or cord, conductor and insulation construction, marking, termination, routing, protection, traceability and agreed assembly checks.","zh":"放行文件记录准确线材或软线、导体与绝缘结构、印字、端接、布线、防护、追溯及约定组件检查。"},
+    "page":{"layout":"appliance-wire-editorial","displayTitle":{"en":"Appliance Wire & Cable","zh":"电器电线电缆"},"headings":{"introduction":{"en":"Map Every Zone Inside the Appliance","zh":"绘制电器内部每个区域"},"faq":{"en":"Appliance Wire Questions","zh":"电器电线常见问题"}},"subtitle":{"en":"Engineer every electrical path for its real zone inside the appliance","zh":"根据电器内部真实区域设计每一条电气路径"},"lead":{"en":"Separate internal wiring from the supply cord, then coordinate heat, moisture, movement, termination and product-level requirements.","zh":"先区分内部配线与电源软线，再协同处理热、潮气、运动、端接与整机层级要求。"},"images":{"range":"/assets/images/product-categories/stock/appliance-wire/hero-appliance-service.jpg"},"faq":[]}
+  },
   "wire-cable-01": {
     "title":{"en":"Automotive Primary Wire","zh":"汽车电线电缆"},
     "intro":{"en":"Automotive primary wire is selected by circuit, route, installation zone, terminal system and governing specification rather than colour or nominal gauge alone.","zh":"汽车电线应依据回路、路径、安装温区、端子系统和适用规范选择，不能只看颜色或标称线径。"},
