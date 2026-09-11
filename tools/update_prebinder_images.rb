@@ -41,7 +41,7 @@ SECTION_IMAGES = {
     "benefits" => %W[#{PREFIX}/prototype-refresh/32391508.jpg #{PREFIX}/prototype-refresh/7018662.jpg #{PREFIX}/prototype-refresh/2136243.jpg #{PREFIX}/prototype-refresh/34908275.jpg]
   },
   "custom-harness-09" => {
-    "variants" => %W[#{PREFIX}/braided-refresh/8246678.jpg #{PREFIX}/braided-refresh/13833648.jpg #{PREFIX}/braided-refresh/15546847.jpg #{PREFIX}/braided-refresh/136820.jpg #{PREFIX}/braided-refresh/4710334.jpg #{PREFIX}/braided-refresh/3921633.jpg],
+    "variants" => %W[#{PREFIX}/braided-refresh/8246678.jpg #{PREFIX}/braided-refresh/13833648.jpg #{PREFIX}/braided-refresh/15546847.jpg #{PREFIX}/braided-refresh/136820.jpg #{PREFIX}/braided-refresh/4710334.jpg #{PREFIX}/braided-refresh-2/copper-braid-cable-03.jpg],
     "materials" => %W[#{PREFIX}/braided-refresh/36318911.jpg #{PREFIX}/braided-refresh/19326506.jpg #{PREFIX}/braided-refresh/12093450.jpg #{PREFIX}/braided-refresh/18660029.jpg],
     "solutions" => %W[#{PREFIX}/braided-refresh/16256696.jpg #{PREFIX}/braided-refresh/33053216.jpg #{PREFIX}/braided-refresh/31591460.jpg #{PREFIX}/braided-refresh/6634615.jpg],
     "applications" => %W[#{PREFIX}/braided-refresh/14331366.jpg #{PREFIX}/braided-refresh/19644395.jpg #{PREFIX}/braided-refresh/17061968.jpg #{PREFIX}/braided-refresh/5271312.jpg #{PREFIX}/braided-refresh/32979601.jpg #{PREFIX}/braided-refresh/5526309.jpg],
@@ -159,6 +159,11 @@ TURNKEY_IMAGES = {
   "range" => "#{PREFIX}/turnkey-refresh-2/electronics-quality-check.jpg"
 }.freeze
 
+BRAIDED_IMAGES = {
+  "hero" => "#{PREFIX}/braided-refresh/3921633.jpg",
+  "range" => "#{PREFIX}/braided-refresh-2/braid-foil-shielded-cable.jpg"
+}.freeze
+
 document = File.read(DATA_FILE)
 data = JSON.parse(document)
 
@@ -248,6 +253,16 @@ images_start = category.index(/^      "images":\{/)
 images_end = category.index("\n", images_start)
 images_block = category[images_start...images_end]
 TURNKEY_IMAGES.each do |key, value|
+  images_block.sub!(/"#{Regexp.escape(key)}"\s*:\s*"[^"]+"/, %Q{"#{key}":#{JSON.generate(value)}})
+end
+document[start_at + images_start, images_end - images_start] = images_block
+
+start_at, finish_at = category_bounds(document, "custom-harness-09")
+category = document[start_at...finish_at]
+images_start = category.index(/^      "images":\{/)
+images_end = category.index("\n", images_start)
+images_block = category[images_start...images_end]
+BRAIDED_IMAGES.each do |key, value|
   images_block.sub!(/"#{Regexp.escape(key)}"\s*:\s*"[^"]+"/, %Q{"#{key}":#{JSON.generate(value)}})
 end
 document[start_at + images_start, images_end - images_start] = images_block
