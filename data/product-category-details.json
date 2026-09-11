@@ -1,4 +1,12 @@
 {
+  "specialty-05": {
+    "title":{"en":"FPC / FFC Cable Assemblies","zh":"FPC / FFC 电缆组件"},
+    "intro":{"en":"Custom FFC and FPC cable assemblies for displays, cameras, control panels and compact equipment, with defined pitch, contact side, tail geometry, mating, routing and inspection.","zh":"面向显示、摄像、控制面板与紧凑设备定制 FFC 和 FPC 电缆组件，明确节距、触点面、尾端几何、插接、布线与检验要求。"},
+    "knowledge":{"en":"FFC and FPC are related flexible interconnects, but their construction, thickness, copper geometry and connector compatibility are not interchangeable by name.","zh":"FFC 与 FPC 都属于柔性互连，但结构、厚度、铜路几何及接头兼容性不能仅凭名称互换。"},
+    "notes":{"en":"Provide both endpoint references, pitch, circuits, contact-side views, tail dimensions, installed route, motion duty and inspection requirements.","zh":"请提供两端接口、节距、回路数、触点面视图、尾端尺寸、安装路径、运动工况与检验要求。"},
+    "delivery":{"en":"Approve the cable drawing, connector system, mating method, routing sample and electrical evidence before repeat production.","zh":"重复生产前确认线缆图纸、接头体系、对插方法、布线样品与电气证据。"},
+    "page":{"layout":"fpc-ffc-editorial","displayTitle":{"en":"FPC / FFC Cable Assemblies","zh":"FPC / FFC 电缆组件"},"headings":{"introduction":{"en":"Thin Does Not Mean Simple","zh":"薄，不代表简单"},"faq":{"en":"FPC / FFC Questions","zh":"FPC / FFC 常见问题"}},"subtitle":{"en":"Interface geometry, mating, flex routing and controlled inspection","zh":"接口几何、对插、弯折布线与受控检验"},"lead":{"en":"Define the complete flexible interconnect before production.","zh":"生产前定义完整柔性互连体系。"},"images":{"range":"/assets/images/product-categories/stock/fpc-ffc/opening.jpg"},"faq":[]}
+  },
   "specialty-04": {
     "title":{"en":"IDC Ribbon Cable Assembly","zh":"IDC 扁平排线组件"},
     "intro":{"en":"Custom IDC ribbon cable assemblies for board-to-board, panel and internal equipment connections with defined cable geometry, orientation, tooling and inspection.","zh":"面向板间、面板及设备内部连接定制 IDC 扁平排线组件，明确线缆几何、方向、工装与检验要求。"},

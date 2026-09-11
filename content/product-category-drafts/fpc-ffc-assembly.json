@@ -1,0 +1,130 @@
+{
+  "key": "specialty-05",
+  "intro": {
+    "en": "Custom FFC and FPC cable assemblies for displays, cameras, control panels and compact equipment. We define pitch, circuit count, contact side, tail geometry, connector actuation, routing, flex duty and inspection before production.",
+    "zh": "面向显示、摄像、控制面板与紧凑设备定制 FFC 和 FPC 电缆组件，在生产前明确节距、回路数、触点面、尾端几何、接头操作、布线路径、弯折工况与检验要求。"
+  },
+  "page": {
+    "displayTitle": {"en": "FPC / FFC Cable Assemblies", "zh": "FPC / FFC 电缆组件"},
+    "lead": {
+      "en": "A thin flexible interconnect is a coordinated geometry of conductors, tail, stiffener, connector and route—not a generic ribbon selected by width alone.",
+      "zh": "轻薄柔性互连由导体、尾端、补强板、接头和路径共同构成，不能只看宽度就把它当作通用排线。"
+    },
+    "chapters": [
+      {
+        "id": "difference",
+        "title": {"en": "FFC and FPC describe different constructions", "zh": "FFC 与 FPC 是两种不同结构"},
+        "copy": {
+          "en": "FFC usually means parallel flat conductors laminated between insulating films, while FPC is a patterned flexible printed circuit that may include shaped outlines, pads, vias, components or several layers. Both can terminate in fine-pitch board connectors, but the names do not make their thickness, copper geometry or environmental capability interchangeable. Define the exact drawing and mating system before quotation.",
+          "zh": "FFC 通常指平行扁导体夹在绝缘薄膜之间的柔性扁平线；FPC 则是经过图形化的柔性印制电路，可包含异形轮廓、焊盘、过孔、元件或多层结构。两者都可能接入细间距板端接头，但名称并不代表厚度、铜箔几何或环境能力可以互换，询价前应明确准确图纸与对插体系。"
+        }
+      },
+      {
+        "id": "pitch",
+        "title": {"en": "Pitch, circuit count and cable thickness", "zh": "节距、回路数与线体厚度"},
+        "copy": {
+          "en": "Connector families are available in many pitches, including product-specific 0.30, 0.50, 1.00 mm and other geometries. Pitch alone is insufficient: record circuit count, conductor width and thickness, total cable thickness, tail width, exposed length and permissible tolerances. The selected connector drawing defines the compatible cable envelope; nominally equal pitch does not guarantee fit.",
+          "zh": "接头系列覆盖多种节距，具体产品可见 0.30、0.50、1.00 mm 等不同几何。仅有节距仍不足以选型，还要记录回路数、导体宽厚、线体总厚、尾端宽度、露铜长度与允许公差。适用排线包络应由所选接头图纸定义，标称节距相同也不保证能够装配。"
+        }
+      },
+      {
+        "id": "contact-side",
+        "title": {"en": "Top, bottom and dual-contact orientation", "zh": "上接点、下接点与双面接触方向"},
+        "copy": {
+          "en": "Fine-pitch FFC/FPC connectors may present contacts on the top, bottom or both sides. A cable can also expose contacts on the same side or opposite sides at its two ends. Document the board view, connector actuator position, exposed-copper face and cable exit at each endpoint. ‘Contacts up’ without a defined viewing convention is not an adequate manufacturing instruction.",
+          "zh": "细间距 FFC/FPC 接头可能采用上接点、下接点或双面接点；线缆两端的露铜面也可能同面或异面。制造文件应逐端标明板端视图、接头锁扣位置、露铜面与出线方向。没有规定观察方向的“触点朝上”不足以作为生产指令。"
+        }
+      },
+      {
+        "id": "tail",
+        "title": {"en": "Tail geometry, stiffener and retention features", "zh": "尾端几何、补强板与保持结构"},
+        "copy": {
+          "en": "The mating tail may require a specific exposed-contact length, backing stiffener, overall thickness, chamfer, notch or latching ear. These features control insertion depth, contact force and retention. Confirm their dimensions from the connector and cable drawings; trimming a tail or adding tape by eye can move the contact area or create an incompatible thickness stack.",
+          "zh": "对插尾端可能需要规定的露铜长度、背面补强板、总厚度、倒角、缺口或锁定耳，这些几何会影响插入深度、接触力与保持。尺寸必须依据接头及线缆图纸确认，凭经验剪短尾端或加贴胶带，可能让接触区域错位或形成不相容厚度。"
+        }
+      },
+      {
+        "id": "connector",
+        "title": {"en": "ZIF, LIF and non-ZIF are operating systems", "zh": "ZIF、LIF 与非 ZIF 是不同操作体系"},
+        "copy": {
+          "en": "Zero-insertion-force, low-insertion-force and friction-retention connectors use different actuator and cable-handling sequences. Some employ flip locks, sliders or one-action mechanisms; others retain the cable without a separate actuator. Select by exact series and mating instructions rather than using ZIF as a generic name for every FFC/FPC socket.",
+          "zh": "零插入力、低插入力与摩擦保持接头具有不同的锁扣结构和线缆操作顺序，有些使用翻盖、滑块或单动作机构，有些则没有独立锁扣。应按照准确系列与对插说明选用，不能把所有 FFC/FPC 插座都笼统称为 ZIF。"
+        }
+      },
+      {
+        "id": "mating",
+        "title": {"en": "Insertion depth and latch handling", "zh": "插入深度与锁扣操作"},
+        "copy": {
+          "en": "A tail must enter squarely to the specified depth before the actuator is closed. Skewed insertion, contact contamination, folding at the mouth or using the latch as a cable puller can damage both cable and connector. Work instructions should show the accepted insertion reference, permitted handling surface and visual criteria for a fully seated, evenly closed actuator.",
+          "zh": "尾端应保持平直并插入规定深度后再闭合锁扣。斜插、接触面污染、在入口处折弯，或把锁扣当作拉线工具，都可能同时损伤线缆和接头。作业指导书应显示合格插入基准、允许手持区域，以及完全到位且锁扣均匀闭合的外观标准。"
+        }
+      },
+      {
+        "id": "bend",
+        "title": {"en": "Static folds and dynamic flex are not the same duty", "zh": "静态折叠与动态弯折不是同一工况"},
+        "copy": {
+          "en": "A one-time installation fold and millions of repeated flex cycles impose different strain on copper and dielectric. Define bend direction, radius, angle, cycle count, temperature and moving length. Keep the transition away from the stiffened tail and connector mouth. Dynamic applications require a construction and validation plan intended for that motion; a catalog material name alone does not establish flex life.",
+          "zh": "一次性安装折弯与数百万次往复弯折对铜箔和介质产生的应变完全不同。应定义弯曲方向、半径、角度、循环次数、温度与活动长度，并让弯曲过渡远离补强尾端和接头入口。动态应用需要针对运动设计的结构与验证计划，仅凭材料名称不能推定弯折寿命。"
+        }
+      },
+      {
+        "id": "routing",
+        "title": {"en": "Route, support, heat and electromagnetic control", "zh": "路径、支撑、热源与电磁控制"},
+        "copy": {
+          "en": "Flat interconnects save height but remain sensitive to sharp edges, screw heads, hot components and uncontrolled peel at the connector. Establish support points, service loops and assembly order before fixing length. For noise-sensitive or higher-speed links, review return paths, layer stack, shielding, grounding and separation from power switching; adding foil without a defined termination may not improve the system.",
+          "zh": "柔性扁平互连可以节省高度，但仍需避开锐边、螺钉头、发热元件和接头处不受控的剥离力。定长前应规划支撑点、检修余量与装配顺序。对噪声敏感或较高速的通道，还要审核回流路径、叠层、屏蔽、接地及与开关功率回路的间距；没有定义端接方式的附加铝箔未必改善系统。"
+        }
+      },
+      {
+        "id": "display",
+        "title": {"en": "Displays, cameras and touch modules", "zh": "显示、摄像与触控模组"},
+        "copy": {
+          "en": "Compact displays, cameras, touch panels, keypads and optical modules often use FFC or FPC links because many circuits must cross a shallow movable space. Identify the exact module and board connectors, signal assignment, contact side, fold pattern, assembly sequence and replacement access. High-speed display or camera links may add controlled-impedance and skew requirements that must be defined by the equipment design.",
+          "zh": "紧凑显示器、摄像头、触控面板、按键板和光学模组常使用 FFC 或 FPC，因为多路信号需要跨越浅薄或可活动空间。应明确模组与主板两端的准确接头、信号分配、触点面、折叠形态、装配顺序和更换空间。高速显示或摄像链路还可能需要由设备设计明确阻抗与时延偏差要求。"
+        }
+      },
+      {
+        "id": "equipment",
+        "title": {"en": "Industrial, medical and robotic equipment boundaries", "zh": "工业、医疗与机器人设备边界"},
+        "copy": {
+          "en": "Control panels, diagnostic instruments, laboratory equipment and robots may add requirements for cleaning, traceability, repeated motion, vibration, low outgassing or controlled change. These conditions must be tied to the exact cable, connector and finished assembly. Use of a component in another machine does not automatically qualify a new interconnect for a regulated or safety-related product.",
+          "zh": "控制面板、诊断仪器、实验室设备与机器人项目可能增加清洁、追溯、往复运动、振动、低释气或受控变更要求。这些条件必须落实到准确线缆、接头及成品组件；某个零件曾在其他设备中使用，并不会自动使新互连符合受监管或安全相关产品要求。"
+        }
+      },
+      {
+        "id": "inspection",
+        "title": {"en": "Inspect fine geometry before electrical test", "zh": "电测前先检验精细几何"},
+        "copy": {
+          "en": "Magnified inspection should check conductor pitch, exposed length, contact-surface damage, contamination, stiffener alignment, notches and insertion marks. Finished assemblies then require point-to-point continuity and open/short detection against the approved circuit map. Resistance, insulation, dielectric or signal tests are added only when the drawing defines the method, limit and sampling plan.",
+          "zh": "放大检验应检查导体节距、露铜长度、接触面损伤与污染、补强板对齐、缺口及插入痕迹。成品随后依据批准回路图执行逐点导通与开短路检测。电阻、绝缘、耐压或信号试验，只有在图纸明确方法、限值与抽样计划时才增加。"
+        }
+      },
+      {
+        "id": "release",
+        "title": {"en": "Release a revision-controlled interconnect", "zh": "放行受版本控制的互连配置"},
+        "copy": {
+          "en": "Repeat production should reference the approved FFC or FPC drawing, connector parts, contact-side views, fold and support dimensions, work instructions, inspection criteria, test program and packaging method. Any material, connector or tail-geometry substitution requires engineering review. A golden sample and revision-linked test record help prevent visually similar but incompatible parts from entering later lots.",
+          "zh": "重复生产应引用已批准的 FFC 或 FPC 图纸、接头料号、触点面视图、折叠与支撑尺寸、作业指导、检验标准、测试程序及包装方法。材料、接头或尾端几何的替代都需工程审核；封样及与版本关联的测试记录，有助于防止外观相似但不兼容的零件进入后续批次。"
+        }
+      }
+    ],
+    "inputs": [
+      {"en": "Exact FFC/FPC and mating connector drawings or part numbers", "zh": "准确 FFC/FPC 与对插接头图纸或料号"},
+      {"en": "Pitch, circuits, conductor geometry, cable thickness and tolerances", "zh": "节距、回路数、导体几何、线体厚度与公差"},
+      {"en": "Top/bottom contact and same-side/opposite-side endpoint views", "zh": "上/下接点及两端同面/异面露铜视图"},
+      {"en": "Tail width, exposed length, stiffener, notch and latch features", "zh": "尾端宽度、露铜长度、补强板、缺口与锁定结构"},
+      {"en": "Installed route, fold lines, bend radius, support and movement duty", "zh": "安装路径、折线、弯曲半径、支撑与运动工况"},
+      {"en": "Voltage, current, signal type, temperature and electromagnetic environment", "zh": "电压、电流、信号类型、温度与电磁环境"},
+      {"en": "Assembly sequence, service access, labels and packaging", "zh": "装配顺序、检修空间、标签与包装要求"},
+      {"en": "Inspection, electrical test, validation and sample quantities", "zh": "检验、电气测试、验证与样品数量"}
+    ],
+    "faq": [
+      {"q":{"en":"Are FFC and FPC interchangeable?","zh":"FFC 与 FPC 可以互换吗？"},"a":{"en":"Not by name alone. Their conductor construction, thickness, tail geometry, ratings and connector compatibility must be compared against exact drawings.","zh":"不能只凭名称互换，必须依据准确图纸比较导体结构、厚度、尾端几何、额定条件与接头兼容性。"}},
+      {"q":{"en":"Is pitch enough to identify a replacement cable?","zh":"知道节距就能确定替代排线吗？"},"a":{"en":"No. Circuit count, cable thickness, contact side, exposed length, stiffener, notches and tolerances also affect fit and function.","zh":"不能，回路数、线体厚度、触点面、露铜长度、补强板、缺口及公差都会影响装配与功能。"}},
+      {"q":{"en":"What do top-contact and bottom-contact mean?","zh":"上接点和下接点是什么意思？"},"a":{"en":"They describe where the connector contacts engage the exposed cable conductors. The board view and actuator orientation must be shown to avoid ambiguity.","zh":"它们说明接头触点从哪一侧接触线缆露铜，仍需标明板端视图与锁扣方向以避免歧义。"}},
+      {"q":{"en":"Can a static FFC be used in repeated motion?","zh":"静态 FFC 能用于往复运动吗？"},"a":{"en":"Only after confirming a construction and validation plan suitable for the defined radius, direction, cycle count and environment.","zh":"只有确认线缆结构及验证计划适合规定的半径、方向、循环次数与环境后才能使用。"}},
+      {"q":{"en":"Which tests are normally performed?","zh":"通常进行哪些测试？"},"a":{"en":"Typical controls include magnified geometry inspection and point-to-point continuity with open/short detection. Additional tests are project-specific.","zh":"常见控制包括放大几何检验，以及逐点导通与开短路检测；其他试验按项目要求确定。"}},
+      {"q":{"en":"What should I send for a quotation?","zh":"询价时需要提供什么？"},"a":{"en":"Send both endpoint references, pitch and circuits, contact-side views, tail geometry, installed route, motion and environment, plus inspection and quantity requirements.","zh":"请提供两端接口、节距与回路数、触点面视图、尾端几何、安装路径、运动与环境，以及检验和数量要求。"}}
+    ]
+  }
+}
