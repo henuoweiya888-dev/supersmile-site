@@ -1,4 +1,12 @@
 {
+  "specialty-14": {
+    "title":{"en":"Low-Pressure Molding","zh":"低压成型"},
+    "intro":{"en":"Custom low-pressure molding integrates a defined electronic or cable insert with a thermoplastic protective body while controlling component exposure, interfaces, tooling contact and the complete assembly validation plan.","zh":"定制低压成型把规定的电子或线缆嵌件与热塑性保护体整合，同时控制元件承受、接口边界、工装接触及完整组件验证计划。"},
+    "knowledge":{"en":"Low pressure describes a process approach, not an automatic guarantee of electronics safety, sealing or service life. Resin, insert, geometry and process window must be reviewed together.","zh":"低压描述的是一种工艺路径，并不自动保证电子元件安全、密封或使用寿命；树脂、嵌件、几何与工艺窗口必须一起审核。"},
+    "notes":{"en":"Provide the bare insert, component map, keep-out zones, cable and connector interfaces, service environment, coverage boundary, quantity and required verification.","zh":"请提供裸嵌件、元件地图、禁压区、线缆与连接器接口、使用环境、覆盖边界、数量及所需验证。"},
+    "delivery":{"en":"Release records the insert revision, resin identity, material preparation, tooling, process window, critical dimensions and agreed electrical, mechanical and environmental evidence.","zh":"放行文件记录嵌件版本、树脂身份、材料准备、工装、工艺窗口、关键尺寸与约定的电气、机械及环境证据。"},
+    "page":{"layout":"low-pressure-molding-editorial","displayTitle":{"en":"Low-Pressure Molding","zh":"低压成型"},"headings":{"introduction":{"en":"Define the Protective Boundary","zh":"定义保护边界"},"faq":{"en":"Low-Pressure Molding Questions","zh":"低压成型常见问题"}},"subtitle":{"en":"Shape the protective shell around the electronics","zh":"围绕电子组件塑造保护外壳"},"lead":{"en":"Define coverage, access and safe insert limits before choosing resin or tooling.","zh":"在选择树脂与工装之前，先定义覆盖、可接近性与嵌件安全边界。"},"images":{"range":"/assets/images/product-categories/stock/low-pressure-molding/hero-pcb-production.jpg"},"faq":[]}
+  },
   "specialty-13": {
     "title":{"en":"High-Temperature Overmolded Cable Assembly","zh":"高温包覆成型电缆组件"},
     "intro":{"en":"Custom high-temperature overmolded cable assemblies coordinate the conductor system, insulation, connector or sensor insert, molding material, process temperature, sealing geometry and validation around the real thermal profile.","zh":"定制高温包覆成型电缆组件围绕真实温度谱，协同定义导体体系、绝缘、连接器或传感器嵌件、成型材料、工艺温度、密封几何与验证。"},

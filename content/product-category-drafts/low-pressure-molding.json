@@ -1,0 +1,108 @@
+{
+  "key": "specialty-14",
+  "title": {"en": "Low-Pressure Molding", "zh": "低压成型"},
+  "intro": {
+    "en": "Custom low-pressure molding protects cable junctions, sensors, LEDs, circuit boards and compact electronic modules with a shaped thermoplastic enclosure developed around the actual insert, interfaces and environment.",
+    "zh": "定制低压成型围绕真实嵌件、接口与环境，为线缆结点、传感器、LED、电路板和紧凑电子模块形成有明确形状的热塑性保护外壳。"
+  },
+  "knowledge": {
+    "en": "Low pressure describes the processing route, not a universal resin, protection rating or harmless process. The material, melt condition, tool, flow path and fragile insert must be validated together.",
+    "zh": "低压描述的是加工路线，并不代表通用树脂、防护等级或绝对无损工艺。材料、熔融状态、模具、流动路径与敏感嵌件必须组合验证。"
+  },
+  "notes": {
+    "en": "Provide the bare assembly, circuit and component limits, keep-out zones, cable exits, required service access, exposure profile, target geometry, quantity and acceptance methods.",
+    "zh": "请提供裸组件、回路与元件限值、禁布区、出线、所需维护方式、暴露谱、目标几何、数量及验收方法。"
+  },
+  "delivery": {
+    "en": "Release records the exact resin, conditioning, melt and mold window, tooling revision, insert orientation, critical dimensions and agreed electrical, mechanical and environmental evidence.",
+    "zh": "放行文件记录准确树脂、预处理、熔融与模具窗口、工装版本、嵌件方向、关键尺寸及约定的电气、机械与环境证据。"
+  },
+  "page": {
+    "layout": "low-pressure-shell-editorial",
+    "displayTitle": {"en": "Low-Pressure Molding", "zh": "低压成型"},
+    "subtitle": {"en": "Shape the protective shell around the electronics", "zh": "围绕电子组件塑造保护外壳"},
+    "lead": {"en": "Define what must be covered, what must remain accessible and what the insert can safely withstand.", "zh": "先定义哪些部位要覆盖、哪些部位要保留，以及嵌件能够安全承受什么。"},
+    "chapters": [
+      {
+        "id": "process-boundary",
+        "title": {"en": "Choose the Protection Route Before Choosing a Resin", "zh": "先选择保护路线，再选择树脂"},
+        "copy": {
+          "en": "Low-pressure molding, conventional overmolding, potting and conformal coating solve different packaging problems. A shaped low-pressure thermoplastic shell can combine insulation, mechanical support and environmental protection while leaving selected connectors or service points open. Potting may fill an existing housing, conformal coating follows the board surface, and conventional injection molding may apply a different pressure and thermal load. The decision begins with access, geometry, volume, repair policy and the evidence required from the final assembly.",
+          "zh": "低压成型、常规包覆注塑、灌封和三防涂覆解决的是不同封装问题。具有明确形状的低压热塑性外壳可以组合绝缘、机械支撑与环境保护，同时保留指定连接器或维护点。灌封通常填充既有壳体，三防涂覆沿板面形成薄层，常规注塑则可能施加不同的压力与热负荷。路线选择应从维护方式、几何、体积、返修策略与成品所需证据开始。"
+        }
+      },
+      {
+        "id": "insert-map",
+        "title": {"en": "Map Components, Keep-Out Zones and Interfaces on the Bare Insert", "zh": "在裸嵌件上标出元件、禁布区与接口"},
+        "copy": {
+          "en": "A populated PCB, sensor or cable junction is not a passive block. Tall components can trap air, sharp leads can concentrate stress, unsupported parts can move during filling, and switches, LEDs, vents, antennas, test pads or mating faces may need to remain exposed. Board edges, solder joints, fragile ceramics and wire entries need defined support. The controlled input should identify orientation, datum surfaces, allowable contact points, connector masks, cable position and the maximum loads or temperatures approved for every sensitive element.",
+          "zh": "装有元件的 PCB、传感器或线缆结点并不是被动方块。高元件会困住空气，尖锐引脚会集中应力，缺少支撑的部件可能在充填时移动；开关、LED、透气件、天线、测试点或对插面又可能需要外露。板边、焊点、脆性陶瓷与进线处都要定义支撑。受控输入应标明方向、基准面、允许接触点、接口遮蔽、线缆位置，以及每个敏感元件获准承受的最高载荷或温度。"
+        }
+      },
+      {
+        "id": "resin-system",
+        "title": {"en": "Specify the Exact Polyamide or Polyolefin System", "zh": "指定准确聚酰胺或聚烯烃体系"},
+        "copy": {
+          "en": "Low-pressure molding materials commonly include purpose-designed polyamide- or polyolefin-based hot melts, but the family name is not a specification. Grade selection considers viscosity, adhesion to each substrate, hardness, flexibility, moisture uptake, dielectric behavior, chemicals, UV, color, flame requirements and the operating temperature range. A resin that bonds well to one cable jacket may release from another after conditioning. Original grade, color, lot control and approved substitutions belong in the bill of material; a similar-looking pellet is not an equivalent.",
+          "zh": "低压成型材料常见专用聚酰胺或聚烯烃热熔体系，但材料家族名称并不是完整规范。牌号选择要考虑黏度、对各基材的粘接、硬度、柔性、吸湿、介电表现、化学品、紫外、颜色、阻燃要求与工作温区。对一种线缆护套粘接良好的树脂，经过环境处理后可能从另一种护套脱离。原始牌号、颜色、批次控制与认可替代应进入 BOM，外观相似的颗粒并不等价。"
+        }
+      },
+      {
+        "id": "material-preparation",
+        "title": {"en": "Control Storage, Conditioning and Melt History", "zh": "控制储存、预处理与熔融历史"},
+        "copy": {
+          "en": "Moisture, contamination, prolonged heating and repeated thermal history can change flow, color, odor, adhesion and final properties. Resin storage, opened-package life, drying or conditioning, hopper cleanliness, melt residence time and temperature should follow the selected grade and validated process. The insert also needs a defined cleaning state. Fingerprints, flux residues, oils, release agents and condensation can prevent intimate contact even when the molded surface looks complete. Material identity and preparation records make later failure analysis possible.",
+          "zh": "水分、污染、长时间加热与重复热历史会改变流动、颜色、气味、粘接及成品性能。树脂储存、开封寿命、干燥或预处理、料斗清洁、熔融停留时间与温度，应遵循所选牌号和经验证工艺。嵌件也要定义清洁状态。指纹、助焊剂残留、油污、脱模剂与凝露，即使不影响表面完整外观，也可能阻止界面充分接触。材料身份与预处理记录让后续失效分析有据可查。"
+        }
+      },
+      {
+        "id": "tooling-fixture",
+        "title": {"en": "Tooling Must Seal the Cavity Without Loading the Electronics", "zh": "模具既要封住型腔，也不能压伤电子组件"},
+        "copy": {
+          "en": "The mold establishes outer shape, parting line, connector exposure, cable direction and local wall thickness. Locators must hold the insert repeatably without pressing on components, traces or solder joints. Shutoffs around cables and connectors require enough compression to control flash without cutting insulation or distorting seals. Replaceable inserts can support variants, while poka-yoke features prevent reversed loading. Critical shutoff, datum and cavity dimensions should be inspectable and tied to a tooling revision rather than left as operator judgement.",
+          "zh": "模具决定外形、分型线、连接器外露、出线方向与局部壁厚。定位件要重复固定嵌件，又不能压在元件、线路或焊点上。线缆与连接器周围的封胶位需要足够压缩量来控制飞边，但不能割伤绝缘或挤坏密封。可更换镶件能够支持变体，防错结构则避免反向装料。关键封胶、基准与型腔尺寸应可检验，并与工装版本关联，而不是留给操作员主观判断。"
+        }
+      },
+      {
+        "id": "flow-window",
+        "title": {"en": "Gate, Venting and Process Window Define the Fill", "zh": "浇口、排气与工艺窗口共同定义充填"},
+        "copy": {
+          "en": "Low pressure does not mean uncontrolled flow. Gate position determines the first impact on the insert and the distance that material must travel. Vents release displaced air; poor venting can create voids, burns or incomplete fill, while an unsuitable vent can become a leakage path. Melt temperature, mold temperature, injection pressure, flow rate, hold condition and shot size are developed as a window, not as one nominal setting. Trial parts can be weighed, sectioned or imaged where hidden flow fronts and knit lines matter.",
+          "zh": "低压并不意味着可以不控制流动。浇口位置决定熔料首先冲击嵌件的部位与需要行进的距离。排气释放被置换空气；排气不足会形成空洞、焦痕或缺料，不恰当的排气又可能成为渗漏路径。熔融温度、模温、注射压力、流量、保压状态与注射量应被开发成工艺窗口，而不是一个名义设定值。对于隐藏流动前沿与熔接线重要的位置，可以对试样称重、剖切或成像。"
+        }
+      },
+      {
+        "id": "cable-interface",
+        "title": {"en": "Cable Exits and Service Interfaces Need Their Own Geometry", "zh": "出线与维护接口需要独立几何设计"},
+        "copy": {
+          "en": "A molded electronic module often fails first at the boundary between a rigid shell and a flexible cable. Cable anchoring, free length, bend radius, boot taper and jacket adhesion should transfer pull, flex and torsion gradually. Connector mating faces, latch travel, screw access, vents and calibration points must remain usable after molding. If repair or firmware access is required, it must be designed before tooling. A compact shell is valuable only when the assembly can still be installed, mated, routed and serviced as intended.",
+          "zh": "成型电子模块常最先在刚性外壳与柔性线缆的边界失效。线缆锚固、自由长度、弯曲半径、尾套渐变与护套粘接，应逐级传递拉力、弯折和扭转。连接器对插面、卡扣行程、螺钉操作、透气与校准点，在成型后仍要可用。若项目需要返修或固件访问，必须在开模前设计。只有当组件仍能按预期安装、对插、布线与维护时，紧凑外壳才有价值。"
+        }
+      },
+      {
+        "id": "validation",
+        "title": {"en": "Validate the Encapsulated Assembly, Not Only the Molded Appearance", "zh": "验证封装后的完整组件，而不只检查成型外观"},
+        "copy": {
+          "en": "Inspection can combine circuit mapping, resistance, insulation resistance, dielectric tests when specified, connector function, dimensions, flash, voids, mass and section analysis. Environmental validation should reproduce the actual mounting, mating state, electrical load and exposure: temperature change, damp heat, water or dust, chemicals, vibration, shock, pull and flex as applicable. Intermediate electrical monitoring can reveal intermittent faults hidden after cooling. Acceptance limits and sample sizes come from the project specification; a resin data sheet or attractive surface cannot certify the finished module.",
+          "zh": "检验可以组合回路映射、电阻、绝缘电阻、规定时的耐电压、连接器功能、尺寸、飞边、空洞、质量与剖切分析。环境验证应再现真实安装、插合状态、电气负载与暴露：按需选择温度变化、湿热、水或粉尘、化学品、振动、冲击、拉力与弯折。中间电气监控可以发现冷却后被隐藏的间歇故障。合格限值与样本量来自项目规范；树脂数据表或漂亮表面不能为成品模块提供认证。"
+        }
+      }
+    ],
+    "inputs": [
+      {"en": "Bare PCBA, sensor, splice or module drawing, samples and approved handling limits", "zh": "裸 PCBA、传感器、分支或模块图纸、样品及允许操作限值"},
+      {"en": "Circuit map, voltages, currents, signals, sensitive components and test points", "zh": "回路图、电压、电流、信号、敏感元件与测试点"},
+      {"en": "Interfaces, keep-out zones, exposed features, cable exits and service requirements", "zh": "接口、禁布区、外露特征、出线与维护要求"},
+      {"en": "Operating temperature, humidity, water, dust, chemicals, vibration and mechanical loads", "zh": "工作温度、湿度、水、粉尘、化学品、振动与机械载荷"},
+      {"en": "Target envelope, mounting datums, appearance, color, identification and quantity", "zh": "目标包络、安装基准、外观、颜色、标识与数量"},
+      {"en": "Required electrical, dimensional, environmental and destructive validation methods", "zh": "所需电气、尺寸、环境与破坏性验证方法"}
+    ],
+    "faq": [
+      {"q": {"en": "Is low-pressure molding the same as potting?", "zh": "低压成型和灌封一样吗？"}, "a": {"en": "No. Low-pressure molding forms a defined thermoplastic shape in a mold. Potting generally fills an existing housing with a liquid or reactive material. Geometry, cure or cooling, repairability and process loads differ.", "zh": "不一样。低压成型在模具中形成明确热塑性外形；灌封通常用液态或反应型材料填充既有壳体。几何、固化或冷却、返修性与工艺载荷都不同。"}},
+      {"q": {"en": "Can a populated PCB be molded directly?", "zh": "装有元件的 PCB 可以直接成型吗？"}, "a": {"en": "It can be evaluated, but component temperature, pressure, support, contamination, keep-out zones and test access must be reviewed. A representative insert and controlled trial are normally needed.", "zh": "可以评估，但必须审核元件耐温耐压、支撑、污染、禁布区与测试访问。通常需要代表性嵌件与受控试模。"}},
+      {"q": {"en": "Does low pressure mean the process cannot damage electronics?", "zh": "低压是否意味着工艺不会伤害电子元件？"}, "a": {"en": "No. Pressure is lower than many conventional molding routes, but heat, flow impact, clamping, movement, contamination and thermal contraction still require limits and validation.", "zh": "不是。其压力低于许多常规注塑路线，但热量、流动冲击、夹持、位移、污染与热收缩仍需要限值和验证。"}},
+      {"q": {"en": "Does the molded shell automatically have an IP rating?", "zh": "成型外壳会自动具备 IP 等级吗？"}, "a": {"en": "No. The complete assembly, interfaces, cable paths, vents, mating state and specified exposure method determine ingress performance.", "zh": "不会。完整组件、接口、线缆路径、透气结构、插合状态与规定暴露方法共同决定防护表现。"}},
+      {"q": {"en": "Can one resin cover every application?", "zh": "一种树脂能覆盖所有应用吗？"}, "a": {"en": "No. Adhesion, flexibility, moisture, chemicals, temperature, dielectric needs, color and flame requirements can point to different grades and process windows.", "zh": "不能。粘接、柔性、湿气、化学品、温度、介电、颜色与阻燃要求可能对应不同牌号和工艺窗口。"}},
+      {"q": {"en": "What is needed for quotation?", "zh": "报价需要哪些资料？"}, "a": {"en": "Provide the bare assembly and drawings, sensitive-component limits, exposed features, target outer geometry, environment, volume and the required validation plan.", "zh": "请提供裸组件与图纸、敏感元件限值、外露特征、目标外形、环境、数量与所需验证计划。"}}
+    ]
+  }
+}
