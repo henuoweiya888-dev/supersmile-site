@@ -1,4 +1,12 @@
 {
+  "specialty-03": {
+    "title":{"en":"PTFE Cable Termination","zh":"PTFE 电缆端接"},
+    "intro":{"en":"Custom PTFE-insulated wire and cable assemblies for high-temperature instruments, sensors, heaters and compact equipment, with defined materials, stripping, termination and inspection.","zh":"面向高温仪器、传感器、加热设备与紧凑装置定制 PTFE 绝缘电线及电缆组件，明确材料、剥线、端接与检验要求。"},
+    "knowledge":{"en":"PTFE is a material family identifier, not a complete wire or termination specification.","zh":"PTFE 是材料体系标识，并不是完整的线材或端接规范。"},
+    "notes":{"en":"Provide the exact wire specification, conductor construction, terminal system, route, temperature zones and test requirements.","zh":"请提供准确线材规范、导体结构、端子体系、布线路径、温区及试验要求。"},
+    "delivery":{"en":"Approve materials, tooling, first article and controlled inspection evidence before repeat production.","zh":"重复生产前确认物料、工装、首件及受控检验证据。"},
+    "page":{"layout":"ptfe-editorial","displayTitle":{"en":"PTFE Cable Termination","zh":"PTFE 电缆端接"},"headings":{"introduction":{"en":"Define the Wire Before the Termination","zh":"先定义线材，再定义端接"},"faq":{"en":"PTFE Cable Termination Questions","zh":"PTFE 电缆端接常见问题"}},"subtitle":{"en":"Material identity, controlled stripping and reliable termination","zh":"材料识别、受控剥线与可靠端接"},"lead":{"en":"Coordinate the exact wire, terminal, process, route and acceptance plan.","zh":"协同准确线材、端子、工艺、路径与验收计划。"},"images":{"range":"/assets/images/product-categories/stock/ptfe-termination/hero.jpg"},"faq":[]}
+  },
   "specialty-02": {
     "title":{"en":"Molded Strain Relief","zh":"注塑应力消除"},
     "intro":{"en":"Custom molded cable exits that manage pull, bend and torsion through coordinated geometry, resin compatibility, insert control and validation.","zh":"通过协同几何、树脂相容性、嵌件控制与验证，定制管理拉力、弯曲与扭转的注塑出线结构。"},

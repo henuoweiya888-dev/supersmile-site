@@ -1,0 +1,96 @@
+{
+  "key": "specialty-03",
+  "title": {"en": "PTFE Cable Termination", "zh": "PTFE 电缆端接"},
+  "intro": {
+    "en": "Custom PTFE-insulated wire and cable assemblies for high-temperature instruments, sensors, heaters and compact equipment. We define the exact wire specification, conductor finish, strip geometry, terminal system, routing and project-specific inspection before production.",
+    "zh": "面向高温仪器、传感器、加热设备与紧凑装置定制 PTFE 绝缘电线及电缆组件，在生产前明确线材标准、导体镀层、剥线几何、端子体系、布线路径与项目检验要求。"
+  },
+  "page": {
+    "displayTitle": {"en": "PTFE Cable Termination", "zh": "PTFE 电缆端接"},
+    "subtitle": {"en": "Material identity, controlled stripping and reliable termination", "zh": "材料识别、受控剥线与可靠端接"},
+    "lead": {
+      "en": "PTFE is only the beginning of the definition. A manufacturable assembly also needs an exact wire construction, compatible contact, controlled process and an acceptance plan.",
+      "zh": "PTFE 只是材料定义的起点。一个可制造的组件，还需要准确的线材结构、兼容触点、受控工艺与验收计划。"
+    },
+    "chapters": [
+      {
+        "id": "material",
+        "title": {"en": "PTFE, ETFE, FEP or PFA: identify the actual insulation", "zh": "PTFE、ETFE、FEP 还是 PFA：先认清实际绝缘"},
+        "copy": {"en": "Fluoropolymer names are not interchangeable purchasing terms. PTFE wire is selected for a particular combination of temperature, dielectric performance, wall thickness, chemical exposure and installation geometry; ETFE, FEP and PFA have different processing behavior and project uses. The quotation should therefore name the exact manufacturer part number or governing wire specification, not only “Teflon cable.”", "zh": "含氟聚合物名称不是可以互换的采购词。PTFE 电线通常针对特定温度、介电性能、壁厚、化学环境与安装几何选择；ETFE、FEP 与 PFA 的加工特性及适用项目并不相同。因此询价应给出准确制造商料号或适用线材标准，而不能只写“铁氟龙线”。"}
+      },
+      {
+        "id": "construction",
+        "title": {"en": "The standard defines a construction, not a generic temperature claim", "zh": "标准定义的是完整结构，不是一个泛化耐温数字"},
+        "copy": {"en": "MIL-DTL-16878/5 Type EE, NEMA HP3 and UL AWM styles are common search terms, but they are not universal equivalents. As one documented example, Alpha Wire lists selected Type EE PTFE constructions with silver-plated copper conductors and a -60°C to +200°C range. That example must not be applied to another wire without its own datasheet, approvals, voltage rating, wall designation and conductor details.", "zh": "MIL-DTL-16878/5 Type EE、NEMA HP3 与 UL AWM Style 是常见检索词，但不能视为通用等同项。例如 Alpha Wire 的部分 Type EE PTFE 结构标注银镀铜导体及 -60°C 至 +200°C 范围；这一数据只能对应其明确产品，不能在缺少各自数据表、认证、电压等级、壁厚类别与导体信息时套用到其他线材。"}
+      },
+      {
+        "id": "conductor",
+        "title": {"en": "Conductor finish and stranding change the termination", "zh": "导体镀层与绞合方式会改变端接方案"},
+        "copy": {"en": "Silver-plated copper, nickel-plated copper and tin-plated copper differ in temperature capability, soldering behavior, contact preparation and supply specification. Solid, concentric-stranded and high-flex conductors also occupy a terminal barrel differently. Record conductor material, plating, strand count, nominal area or AWG, finished outside diameter and the approved contact wire range before tooling is selected.", "zh": "银镀铜、镍镀铜与锡镀铜在适用温度、焊接特性、触点准备及供货标准方面存在差异；单芯、同心绞合与高柔导体在端子筒中的填充状态也不同。选择工装前，应记录导体材料、镀层、股数、标称截面积或 AWG、成品外径及触点认可线径范围。"}
+      },
+      {
+        "id": "stripping",
+        "title": {"en": "Strip length is a controlled dimension", "zh": "剥线长度是一项受控尺寸"},
+        "copy": {"en": "Thin fluoropolymer insulation can expose a weak process quickly: an excessive blade depth may nick strands, while an incomplete cut can stretch or tear the insulation. The work instruction should define strip length, incision depth, pull-off method and magnified inspection. Thermal, mechanical or laser stripping may be considered only after the exact wire and downstream contact process are proven compatible.", "zh": "薄壁含氟绝缘会迅速暴露不稳定工艺：刀深过大会伤及股线，切割不足又可能拉伸或撕裂绝缘。作业文件应定义剥线长度、切入深度、脱皮方式与放大检验；热剥、机械剥线或激光剥线都只能在准确线材与后续触点工艺证明兼容后采用。"}
+      },
+      {
+        "id": "crimping",
+        "title": {"en": "Match contact, barrel and applicator to the real wire", "zh": "端子、压线筒与工装必须匹配真实线材"},
+        "copy": {"en": "A contact nominally listed for the same AWG can still be unsuitable when conductor stranding, insulation diameter or plating differs. For open-barrel and closed-barrel crimp terminals, confirm the approved wire range, insulation support geometry, strip length, applicator or die, crimp height where specified, bellmouth and conductor-brush limits. Pull testing supplements visual and dimensional checks; it does not replace electrical review.", "zh": "即使端子标称适用相同 AWG，当导体绞合、绝缘外径或镀层不同，也可能无法兼容。开口筒与闭口筒压接应确认认可线径、绝缘支撑几何、剥线长度、模具或 applicator、规定的压接高度、喇叭口及导体刷出限值。拉力试验是外观与尺寸检查的补充，不能替代电气审核。"}
+      },
+      {
+        "id": "soldering",
+        "title": {"en": "Soldered and heat-shrink transitions need their own process window", "zh": "焊接与热缩过渡需要独立工艺窗口"},
+        "copy": {"en": "Solder cups, solder sleeves and sealed splices are not default substitutes for a crimp contact. Review conductor finish, flux, solder alloy, dwell time, heat-source profile, sleeve recovery, adhesive flow and insulation setback as one operation. TE’s SolderSleeve families illustrate that even one-piece heat-shrink solder terminators have series-specific temperature and approval limits; the selected part and application document govern.", "zh": "焊杯、焊锡环与密封接续件不能默认替代压接触点。导体镀层、助焊剂、焊料合金、停留时间、热源曲线、套管收缩、胶层流动与绝缘退缩应作为同一道工序审核。TE SolderSleeve 系列也说明，即使一体式热缩焊接端接件仍有系列特定温度及认证边界，必须以所选料号与应用文件为准。"}
+      },
+      {
+        "id": "routing",
+        "title": {"en": "Route and support the wire beyond the terminal", "zh": "端接完成后，还要设计布线与支撑"},
+        "copy": {"en": "Compact PTFE wire can pass through crowded instruments, but the installed path still needs minimum bend control, abrasion protection, clamp spacing and service slack. Keep the first bend away from the rigid termination, avoid sharp metal edges and prevent tie pressure from concentrating on thin insulation. Where repeated motion exists, the complete cable construction and flex life must be specified rather than inferred from PTFE alone.", "zh": "紧凑 PTFE 电线可以穿过拥挤仪器空间，但安装路径仍需控制最小弯曲、磨损防护、夹持间距与检修余量。首次弯曲应远离刚性端接，避开锋利金属边缘，也不能让扎带压力集中在薄绝缘上。存在重复运动时，必须定义完整电缆结构与弯曲寿命，不能仅凭 PTFE 材料名称推断。"}
+      },
+      {
+        "id": "thermal",
+        "title": {"en": "Design the whole thermal path, not only the hot-zone wire", "zh": "设计完整热路径，而不只是热区中的那段线"},
+        "copy": {"en": "A high-temperature lead may connect to a lower-temperature connector, splice, sleeve, seal or enclosure. Map the actual heat source, distance, airflow, duty cycle and conductor current, then place transitions outside the hottest region whenever possible. Furnace, heater, semiconductor-equipment and hot-surface projects may also require glass braid, metal overbraid, ceramic feedthroughs or project-specific strain relief around the PTFE segment.", "zh": "耐高温引线往往还要连接温度能力较低的接头、接续件、套管、密封或外壳。应绘制实际热源、距离、气流、工作循环与导体电流，并尽量把材料过渡布置在最高温区之外。炉具、加热器、半导体设备与热表面项目还可能在 PTFE 段周围需要玻纤编织、金属编织、陶瓷穿通或项目专用应力释放。"}
+      },
+      {
+        "id": "laboratory",
+        "title": {"en": "Sensors, thermocouples and laboratory instruments", "zh": "传感器、热电偶与实验室仪器"},
+        "copy": {"en": "Temperature probes, RTDs, thermocouples, analytical instruments and test fixtures may need small outside diameter, stable insulation and clear channel identification. The harness definition should preserve sensor polarity or excitation/sense pairs, shielding and drain treatment, connector keying, calibration-channel identity and any removable service interface. A thermocouple extension lead also requires the correct alloy system, not ordinary copper wire selected by color alone.", "zh": "温度探头、RTD、热电偶、分析仪器与测试夹具常需要较小外径、稳定绝缘和清晰通道标识。线束定义应保持传感器极性或激励/采样线对、屏蔽与排流线处理、接口键位、校准通道身份及可拆卸维护界面。热电偶补偿或延长导线还必须匹配正确合金体系，不能按颜色用普通铜线代替。"}
+      },
+      {
+        "id": "aerospace",
+        "title": {"en": "Aerospace and high-reliability equipment require controlled evidence", "zh": "航空航天与高可靠设备需要受控证据"},
+        "copy": {"en": "PTFE-insulated wire is encountered in aerospace, defense and precision equipment, but an application name does not grant compliance. The project must identify the drawing, material specification, approved manufacturer or source, lot traceability, workmanship standard, inspection record and required environmental tests. We can build to customer-controlled documents; qualification, source approval and acceptance remain exactly as the contract defines.", "zh": "PTFE 绝缘电线常见于航空航天、防务及精密设备，但应用名称本身不代表合规。项目必须明确图纸、材料规范、认可制造商或来源、批次追溯、工艺标准、检验记录及所需环境试验。我们可依据客户受控文件制造，资质、来源认可与验收边界仍严格按合同定义。"}
+      },
+      {
+        "id": "testing",
+        "title": {"en": "Inspect the termination, then test the circuit", "zh": "先检验端接，再验证完整回路"},
+        "copy": {"en": "Typical release evidence may include visual inspection, strip and crimp dimensions, conductor damage checks, terminal retention, point-to-point continuity and resistance limits. Insulation resistance, dielectric withstand, thermal exposure, flexing, vibration or pull tests apply only when the project specifies the method and acceptance criteria. Test voltage and limits must be appropriate to the exact assembly rather than copied from another PTFE cable.", "zh": "典型放行证据可包括外观、剥线与压接尺寸、导体损伤检查、端子保持、点对点导通及电阻限值。绝缘电阻、耐压、热暴露、弯曲、振动或拉力试验，只有在项目定义方法与判定标准时才适用；测试电压及限值必须对应准确组件，不能从另一款 PTFE 电缆直接复制。"}
+      },
+      {
+        "id": "release",
+        "title": {"en": "Turn the approved sample into a repeatable build record", "zh": "把认可样品转化为可重复制造记录"},
+        "copy": {"en": "Before repeat production, freeze the bill of materials, wire and contact part numbers, cut and strip lengths, tooling setup, terminal orientation, marking, routing baseline and inspection plan. Record approved alternatives explicitly. This prevents a visually similar fluoropolymer wire, sleeve or contact from entering production without a technical review and keeps later batches aligned with the accepted first article.", "zh": "重复生产前，应冻结 BOM、线材与触点料号、裁线和剥线长度、工装设置、端子方向、标识、布线基准及检验计划，并明确记录认可替代项。这样可以防止外观相似的含氟线材、套管或触点未经技术审核进入生产，也能让后续批次持续对齐已认可首件。"}
+      }
+    ],
+    "inputs": [
+      {"en": "Exact wire manufacturer and part number, or governing specification and style", "zh": "准确线材制造商与料号，或适用规范及 Style"},
+      {"en": "AWG or mm², strand construction, conductor material and plating", "zh": "AWG 或 mm²、绞合结构、导体材料与镀层"},
+      {"en": "Connector, terminal, splice and mating-interface references", "zh": "连接器、端子、接续件及对插接口料号"},
+      {"en": "Pinout, polarity, shielding, drain and grounding requirements", "zh": "针脚、极性、屏蔽、排流与接地要求"},
+      {"en": "Cut length, strip length, installed route and bend envelope", "zh": "裁线、剥线长度、安装路径与弯曲包络"},
+      {"en": "Continuous and peak temperature, current, voltage and duty cycle", "zh": "连续与峰值温度、电流、电压及工作循环"},
+      {"en": "Chemical, vacuum, abrasion, motion and cleanliness conditions", "zh": "化学、真空、磨损、运动与洁净条件"},
+      {"en": "Required approvals, workmanship documents, tests and batch records", "zh": "所需认证、工艺文件、试验及批次记录"}
+    ],
+    "faq": [
+      {"q": {"en": "Is every PTFE wire rated to 200°C?", "zh": "所有 PTFE 电线都能达到 200°C 吗？"}, "a": {"en": "No. Temperature, voltage, conductor finish, wall thickness and approval belong to a specific construction and document. Confirm the exact wire part number and its latest datasheet.", "zh": "不能这样判断。温度、电压、导体镀层、壁厚与认证都属于某一准确结构及文件，应确认具体线材料号和最新数据表。"}},
+      {"q": {"en": "Can PTFE wire use the same terminal as ordinary PVC wire of the same AWG?", "zh": "同 AWG 的 PTFE 线可以直接使用普通 PVC 线端子吗？"}, "a": {"en": "Only after the terminal wire range, conductor stranding, insulation diameter, support wings, strip length and validated tooling are checked. Equal AWG does not guarantee equal termination geometry.", "zh": "只有核对端子线径范围、导体绞合、绝缘外径、支撑翼、剥线长度及已验证工装后才可判断；AWG 相同不代表端接几何相同。"}},
+      {"q": {"en": "Do you support MIL-DTL-16878 Type E or Type EE wire projects?", "zh": "可以承接 MIL-DTL-16878 Type E 或 Type EE 线材项目吗？"}, "a": {"en": "We can review projects against a customer-specified wire part and controlled requirement. The exact qualified source, revision, voltage, temperature, conductor finish and acceptance documents must be agreed before quotation.", "zh": "可以依据客户指定线材料号与受控要求进行项目审核；报价前需明确准确合格来源、版本、电压、温度、导体镀层及验收文件。"}},
+      {"q": {"en": "Which stripping method is best for PTFE insulation?", "zh": "PTFE 绝缘最适合哪种剥线方式？"}, "a": {"en": "There is no universal method. Mechanical, thermal and laser processes each depend on wall thickness, conductor construction, residue limits, production volume and the downstream termination. We establish the process on the exact wire and inspect the result.", "zh": "不存在通用答案。机械、热剥与激光工艺都取决于壁厚、导体结构、残留限制、产量和后续端接，需要在准确线材上建立工艺并检验结果。"}},
+      {"q": {"en": "Can you make PTFE thermocouple or RTD extension assemblies?", "zh": "可以制作 PTFE 热电偶或 RTD 延长组件吗？"}, "a": {"en": "Yes, when the sensor system, alloy or copper conductor, polarity, shielding, connector, temperature zones and calibration or test requirements are supplied. Thermocouple alloy identity is especially important.", "zh": "可以，但需提供传感体系、合金或铜导体、极性、屏蔽、接口、温区以及校准或测试要求，尤其要准确确认热电偶合金。"}},
+      {"q": {"en": "What evidence is supplied with repeat production?", "zh": "重复生产可以提供哪些证据？"}, "a": {"en": "The release package is project-specific and may include controlled BOM and drawings, incoming material references, first-article approval, dimensional and visual records, continuity results and agreed mechanical or electrical test data.", "zh": "放行资料按项目约定，可包括受控 BOM 与图纸、来料依据、首件认可、尺寸与外观记录、导通结果以及约定的机械或电气试验数据。"}}
+    ]
+  }
+}
