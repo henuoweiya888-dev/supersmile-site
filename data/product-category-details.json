@@ -1,4 +1,12 @@
 {
+  "specialty-10": {
+    "title":{"en":"EMI-Shielded Cable Design","zh":"EMI 屏蔽电缆设计"},
+    "intro":{"en":"Custom EMI-shielded cable assemblies coordinate cable geometry, foil or braid, connector termination, bonding, ferrites and defined validation around the real noise source and coupling path.","zh":"定制 EMI 屏蔽电缆组件围绕真实噪声源与耦合路径，协同定义线缆几何、铝箔或编织、连接器端接、搭接、铁氧体与验证。"},
+    "knowledge":{"en":"Shielding is a system path; coverage, endpoint continuity, enclosure bonding, routing and frequency determine performance.","zh":"屏蔽是一条系统路径，覆盖、端点连续性、机壳搭接、走线与频率共同决定性能。"},
+    "notes":{"en":"Provide the source, victim circuit, frequency range, interfaces, route, grounding architecture, environment and target test method.","zh":"请提供噪声源、受扰回路、频率范围、接口、走线、接地架构、环境与目标测试方法。"},
+    "delivery":{"en":"Release records pair geometry, shield construction, endpoint termination, ferrite details, grounding notes and agreed inspection or EMC evidence.","zh":"放行文件记录线对几何、屏蔽结构、端点端接、铁氧体细节、接地说明与约定检验或 EMC 证据。"},
+    "page":{"layout":"emi-field-editorial","displayTitle":{"en":"EMI-Shielded Cable Design","zh":"EMI 屏蔽电缆设计"},"headings":{"introduction":{"en":"Control the Coupling Path","zh":"控制电磁耦合路径"},"faq":{"en":"EMI-Shielded Cable Questions","zh":"EMI 屏蔽电缆常见问题"}},"subtitle":{"en":"Control the coupling path, not only the cable appearance","zh":"控制耦合路径，而不只是改变线缆外观"},"lead":{"en":"Define source, victim, path, endpoints and validation as one system.","zh":"将噪声源、受扰对象、路径、端点与验证作为一个系统定义。"},"images":{"range":"/assets/images/product-categories/stock/emi-shielded/hero.jpg"},"faq":[]}
+  },
   "specialty-09": {
     "title":{"en":"FTDI Cable Assembly","zh":"FTDI 电缆组件"},
     "intro":{"en":"Custom FTDI cable assemblies combine USB conversion electronics, a defined serial electrical layer, purpose-built endpoints and project-specific validation.","zh":"定制 FTDI 电缆组件将 USB 转换电子器件、明确串行电气层、专用端点与项目特定验证结合起来。"},
