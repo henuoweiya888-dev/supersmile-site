@@ -1,4 +1,12 @@
 {
+  "wire-cable-03": {
+    "title":{"en":"Equipment Wire","zh":"设备用电线"},
+    "intro":{"en":"Equipment wire carries power, control, safety and sensor circuits inside machines and industrial control panels.","zh":"设备用电线在机器与工业控制柜内部承担动力、控制、安全和传感回路。"},
+    "knowledge":{"en":"MTW, AWM and field-installed wiring have different product and installation scopes; exact marking, location and governing standard must be reviewed.","zh":"MTW、AWM 与现场敷设电线具有不同产品和安装范围，必须审核准确印字、位置与适用标准。"},
+    "notes":{"en":"Provide the market, machine standard, circuit list, route map, exact wire designation, terminal system and validation plan.","zh":"请提供目标市场、机器标准、回路表、路径图、准确线材型号、端接系统与验证方案。"},
+    "delivery":{"en":"Release records the wire identity, construction, cut and strip details, termination combination, routing, traceability and agreed checks.","zh":"放行记录包含线材身份、结构、裁线剥线、端接组合、布线路径、追溯与约定检查。"},
+    "page":{"layout":"equipment-wire-editorial","displayTitle":{"en":"Equipment Wire","zh":"设备用电线"},"headings":{"introduction":{"en":"Map the Machine Electrical Path","zh":"绘制机器电气路径"},"faq":{"en":"Equipment Wire Questions","zh":"设备用电线常见问题"}},"subtitle":{"en":"Specify the electrical path from panel entry to machine endpoint","zh":"从控制柜入口到机器端点定义完整电气路径"},"lead":{"en":"Coordinate MTW, AWM, conductor, insulation, routing, terminals and machine-level evidence.","zh":"协同审核 MTW、AWM、导体、绝缘、布线、端接与整机证据。"},"images":{"range":"/assets/images/product-categories/stock/equipment-wire/hero-control-panel.jpg"},"faq":[]}
+  },
   "wire-cable-02": {
     "title":{"en":"Appliance Wire & Cable","zh":"电器电线电缆"},
     "intro":{"en":"Appliance wire and cable connect power, controls, motors, heaters and sensors across different thermal, moisture, movement and service zones inside equipment.","zh":"电器电线电缆连接设备内部的电源、控制器、电机、加热器与传感器，并跨越不同温度、潮气、运动与维修区域。"},
