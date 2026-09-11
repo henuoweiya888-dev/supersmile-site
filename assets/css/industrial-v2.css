@@ -3581,10 +3581,11 @@ body[data-category-key="cable-assembly-08"] .pcc-hero-media img{object-position:
 }
 
 /* LED cable assembly: compact light-system atlas */
-body[data-category-key="cable-assembly-09"] .pcc-hero{background:#0b0d0f;color:#f3f1eb}
-body[data-category-key="cable-assembly-09"] .pcc-hero-media:after{background:linear-gradient(90deg,rgba(8,10,12,.91),rgba(8,10,12,.52) 56%,rgba(8,10,12,.18))}
+body[data-category-key="cable-assembly-09"] .pcc-hero{min-height:570px;background:#0b0d0f;color:#f3f1eb}
+body[data-category-key="cable-assembly-09"] .pcc-hero-grid{min-height:490px}
+body[data-category-key="cable-assembly-09"] .pcc-hero-media:after{background:linear-gradient(90deg,rgba(8,10,12,.94) 0%,rgba(8,10,12,.78) 34%,rgba(8,10,12,.4) 63%,rgba(8,10,12,.2) 100%)}
 body[data-category-key="cable-assembly-09"] .pcc-hero-media img{object-position:58% 56%;filter:saturate(.54) contrast(1.2) brightness(.62)}
-.pcc-led-opening{display:grid;grid-template-columns:minmax(0,1.16fr) minmax(310px,.84fr);min-height:320px;padding:0;background:#16191d;color:#f4f2ec}
+.pcc-led-opening{display:grid;grid-template-columns:minmax(0,1.16fr) minmax(310px,.84fr);height:390px;min-height:0;padding:0;background:#16191d;color:#f4f2ec}
 .pcc-led-opening-copy{position:relative;align-self:center;padding:42px clamp(30px,5vw,78px)}
 .pcc-led-opening-copy:after{content:"";position:absolute;left:clamp(30px,5vw,78px);right:clamp(30px,5vw,78px);bottom:0;height:2px;background:linear-gradient(90deg,#ef4f2f 0 28%,#e7b843 28% 52%,#5aa8e7 52% 76%,#7656bd 76%)}
 .pcc-led-opening-copy>span,.pcc-led-meta{font-family:var(--font-mono);font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#ef6a42}
@@ -3593,7 +3594,7 @@ body[data-category-key="cable-assembly-09"] .pcc-hero-media img{object-position:
 .pcc-led-opening-copy p{max-width:880px;color:rgba(244,242,236,.7);font-size:14px;line-height:1.8}
 .pcc-led-media{margin:0;overflow:hidden;background:#101214}
 .pcc-led-media img{display:block;width:100%;height:100%;object-fit:cover;filter:saturate(.63) contrast(1.14)}
-.pcc-led-opening-media{min-height:320px}
+.pcc-led-opening-media{height:390px;min-height:0}
 .pcc-led-opening-media img{object-position:52% 46%}
 .pcc-led-sequence{padding:0;background:#f4f1ea}
 .pcc-led-chapter{display:grid;grid-template-columns:86px minmax(0,1.24fr) minmax(250px,.76fr);min-height:270px;border-bottom:1px solid rgba(18,20,23,.13)}
@@ -3631,7 +3632,10 @@ body[data-category-key="cable-assembly-09"] .pcc-hero-media img{object-position:
   .pcc-led-chapter>.pcc-led-media{min-height:250px}
 }
 @media(max-width:640px){
-  .pcc-led-opening{display:flex;flex-direction:column-reverse;min-height:0}
+  body[data-category-key="cable-assembly-09"] .pcc-hero{min-height:590px}
+  body[data-category-key="cable-assembly-09"] .pcc-hero-grid{min-height:510px}
+  body[data-category-key="cable-assembly-09"] .pcc-hero-media:after{background:linear-gradient(180deg,rgba(8,10,12,.42) 0%,rgba(8,10,12,.72) 48%,rgba(8,10,12,.95) 100%)}
+  .pcc-led-opening{display:flex;flex-direction:column-reverse;height:auto;min-height:0}
   .pcc-led-opening-copy{padding:29px var(--v2-mobile-gutter) 32px}
   .pcc-led-opening-copy:after{left:var(--v2-mobile-gutter);right:var(--v2-mobile-gutter)}
   .pcc-led-opening-copy h2{font-size:29px}
