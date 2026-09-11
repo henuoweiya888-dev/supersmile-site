@@ -114,12 +114,12 @@ SECTION_IMAGES = {
   },
   "custom-harness-02" => {
     "variants" => %W[#{PREFIX}/control-panel/breaker-adjustment.jpg #{PREFIX}/control-panel-refresh/automation-system.jpg #{PREFIX}/control-panel-refresh/switchgear-detail.jpg #{PREFIX}/control-panel/panel-technician.jpg #{PREFIX}/control-panel/industrial-electrician.jpg #{PREFIX}/control-panel-refresh/cable-lug-tools.jpg],
-    "materials" => %W[#{PREFIX}/control-panel-refresh/color-coded-wiring.jpg #{PREFIX}/control-panel-refresh/open-switchbox.jpg #{PREFIX}/control-panel/labeled-fuse-box.jpg #{PREFIX}/control-panel-refresh/circuit-board-detail.jpg],
+    "materials" => %W[#{PREFIX}/control-panel-refresh/color-coded-wiring.jpg #{PREFIX}/control-panel-refresh/open-switchbox.jpg #{PREFIX}/control-panel/labeled-fuse-box.jpg #{PREFIX}/control-panel-refresh-2/7720705.jpg],
     "solutions" => %W[#{PREFIX}/control-panel-refresh/blueprint-laptop.jpg #{PREFIX}/control-panel-refresh/electrical-workshop.jpg #{PREFIX}/control-panel/panel-mechanical-assembly.jpg #{PREFIX}/control-panel-refresh/helmet-panel-inspection.jpg],
     "applications" => %W[#{PREFIX}/control-panel-refresh/control-room.jpg #{PREFIX}/control-panel-refresh/packaging-line.jpg #{PREFIX}/control-panel-refresh/outdoor-power-cabinet.jpg #{PREFIX}/control-panel-refresh/industrial-robot-detail.jpg #{PREFIX}/control-panel/utility-panel-worker.jpg #{PREFIX}/control-panel-refresh/electronic-control-unit.jpg],
-    "process" => %W[#{PREFIX}/control-panel/panel-inspection-tablet.jpg #{PREFIX}/control-panel-refresh/panel-tablet-inspection.jpg #{PREFIX}/control-panel-refresh/component-set.jpg #{PREFIX}/control-panel-refresh/breaker-technician.jpg #{PREFIX}/control-panel-refresh/field-panel-work.jpg #{PREFIX}/control-panel/panel-multimeter-test.jpg],
+    "process" => %W[#{PREFIX}/control-panel/panel-inspection-tablet.jpg #{PREFIX}/control-panel-refresh-2/26100225.jpg #{PREFIX}/control-panel-refresh-2/6349408.jpg #{PREFIX}/control-panel-refresh/breaker-technician.jpg #{PREFIX}/control-panel-refresh/field-panel-work.jpg #{PREFIX}/control-panel/panel-multimeter-test.jpg],
     "reliability" => %W[#{PREFIX}/control-panel/voltage-test.jpg #{PREFIX}/control-panel-refresh/labeled-control-panel.jpg #{PREFIX}/control-panel-refresh/electronic-components.jpg #{PREFIX}/control-panel/fuse-box-inspection.jpg],
-    "benefits" => %W[#{PREFIX}/control-panel-refresh/electrician-team.jpg #{PREFIX}/control-panel-refresh/panel-repair.jpg #{PREFIX}/control-panel-refresh/machine-control-operation.jpg #{PREFIX}/control-panel-refresh/panel-wire-adjustment.jpg]
+    "benefits" => %W[#{PREFIX}/control-panel-refresh/electrician-team.jpg #{PREFIX}/control-panel-refresh-2/32845663.jpg #{PREFIX}/control-panel-refresh/machine-control-operation.jpg #{PREFIX}/control-panel-refresh/panel-wire-adjustment.jpg]
   }
 }.freeze
 
