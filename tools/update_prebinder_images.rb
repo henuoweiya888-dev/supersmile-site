@@ -23,13 +23,13 @@ SECTION_IMAGES = {
     "benefits" => %W[#{PREFIX}/new-energy-refresh/35155421.jpg #{PREFIX}/new-energy-refresh/18555543.jpg #{PREFIX}/new-energy-refresh/8853508.jpg #{PREFIX}/new-energy-refresh/11645003.jpg]
   },
   "custom-harness-11" => {
-    "variants" => %W[#{PREFIX}/waterproof-refresh/37293704.jpg #{PREFIX}/waterproof-design/cable-gland.jpg #{PREFIX}/waterproof-design/sealed-splice.jpg #{PREFIX}/waterproof-design/ip-rated-interface.jpg #{PREFIX}/waterproof-refresh/35000431.jpg #{PREFIX}/waterproof-design/condensation.jpg],
+    "variants" => %W[#{PREFIX}/waterproof-refresh-2/heavy-rain-outdoor.jpg #{PREFIX}/waterproof-design/cable-gland.jpg #{PREFIX}/waterproof-design/sealed-splice.jpg #{PREFIX}/waterproof-design/ip-rated-interface.jpg #{PREFIX}/waterproof-refresh/35000431.jpg #{PREFIX}/waterproof-design/condensation.jpg],
     "materials" => %W[#{PREFIX}/waterproof-design/o-rings.jpg #{PREFIX}/waterproof-design/heat-shrink.jpg #{PREFIX}/waterproof-refresh/24245332.jpg #{PREFIX}/waterproof-refresh/16584487.jpg],
     "solutions" => %W[#{PREFIX}/waterproof-refresh/459451.jpg #{PREFIX}/waterproof-refresh/12777073.jpg #{PREFIX}/waterproof-refresh/195184.jpg #{PREFIX}/waterproof-design/pressure-wash.jpg],
     "applications" => %W[#{PREFIX}/waterproof-refresh/38171111.jpg #{PREFIX}/waterproof-refresh/28663714.jpg #{PREFIX}/waterproof-refresh/18080739.jpg #{PREFIX}/waterproof-design/agriculture-wet.jpg #{PREFIX}/waterproof-design/marine-outboard.jpg #{PREFIX}/waterproof-refresh/7790672.jpg],
     "process" => %W[#{PREFIX}/waterproof-refresh/7535158.jpg #{PREFIX}/waterproof-design/resin-mixing.jpg #{PREFIX}/waterproof-refresh/8876714.jpg #{PREFIX}/waterproof-refresh/16408712.jpg #{PREFIX}/waterproof-refresh/6389386.jpg #{PREFIX}/waterproof-refresh/2877066.jpg],
     "reliability" => %W[#{PREFIX}/waterproof-refresh/14570124.jpg #{PREFIX}/waterproof-refresh/19504335.jpg #{PREFIX}/waterproof-refresh/36348537.jpg #{PREFIX}/waterproof-refresh/9314016.jpg],
-    "benefits" => %W[#{PREFIX}/waterproof-design/hero-water-splash.jpg #{PREFIX}/waterproof-design/rain-droplets.jpg #{PREFIX}/waterproof-refresh/1076110.jpg #{PREFIX}/waterproof-refresh/34370966.jpg]
+    "benefits" => %W[#{PREFIX}/waterproof-refresh/37293704.jpg #{PREFIX}/waterproof-design/rain-droplets.jpg #{PREFIX}/waterproof-refresh/1076110.jpg #{PREFIX}/waterproof-refresh/34370966.jpg]
   },
   "custom-harness-10" => {
     "variants" => %W[#{PREFIX}/prototype-refresh-2/electronics-prototype-workbench.jpg #{PREFIX}/prototype-refresh/7166995.jpg #{PREFIX}/prototype-refresh/32391505.jpg #{PREFIX}/prototype-refresh/34221993.jpg #{PREFIX}/prototype-refresh/32391498.jpg #{PREFIX}/prototype-refresh/3912369.jpg],
@@ -169,6 +169,11 @@ PROTOTYPE_IMAGES = {
   "range" => "#{PREFIX}/prototype-refresh-2/breadboard-prototype.jpg"
 }.freeze
 
+WATERPROOF_IMAGES = {
+  "hero" => "#{PREFIX}/waterproof-refresh-2/rain-on-dark-water.jpg",
+  "range" => "#{PREFIX}/waterproof-refresh-2/sealed-harness-installed.jpg"
+}.freeze
+
 document = File.read(DATA_FILE)
 data = JSON.parse(document)
 
@@ -278,6 +283,16 @@ images_start = category.index(/^      "images":\{/)
 images_end = category.index("\n", images_start)
 images_block = category[images_start...images_end]
 PROTOTYPE_IMAGES.each do |key, value|
+  images_block.sub!(/"#{Regexp.escape(key)}"\s*:\s*"[^"]+"/, %Q{"#{key}":#{JSON.generate(value)}})
+end
+document[start_at + images_start, images_end - images_start] = images_block
+
+start_at, finish_at = category_bounds(document, "custom-harness-11")
+category = document[start_at...finish_at]
+images_start = category.index(/^      "images":\{/)
+images_end = category.index("\n", images_start)
+images_block = category[images_start...images_end]
+WATERPROOF_IMAGES.each do |key, value|
   images_block.sub!(/"#{Regexp.escape(key)}"\s*:\s*"[^"]+"/, %Q{"#{key}":#{JSON.generate(value)}})
 end
 document[start_at + images_start, images_end - images_start] = images_block
