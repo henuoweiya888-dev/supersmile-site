@@ -1,4 +1,12 @@
 {
+  "wire-cable-04": {
+    "title":{"en":"CAN Bus Cable","zh":"CAN 总线电缆"},
+    "intro":{"en":"CAN bus cable assemblies preserve a defined differential path between network nodes, connectors and transceivers.","zh":"CAN 总线电缆组件在网络节点、连接器与收发器之间保持规定的差分路径。"},
+    "knowledge":{"en":"The exact CAN profile, physical layer, topology, termination, pair construction and validation scope must be identified together.","zh":"准确 CAN 配置、物理层、拓扑、终端、线对结构与验证范围必须共同识别。"},
+    "notes":{"en":"Provide device models, bit rates, topology, bus and stub lengths, termination locations, cable and connector specifications, environment and test requirements.","zh":"请提供设备型号、速率、拓扑、主干与支线长度、终端位置、线缆和接口规范、环境与测试要求。"},
+    "delivery":{"en":"Release records the cable, pair and shield construction, connectors, pinout, topology, termination, lengths, process, traceability and agreed evidence.","zh":"放行记录包含线缆、线对与屏蔽结构、接口、针脚、拓扑、终端、长度、工艺、追溯与约定证据。"},
+    "page":{"layout":"can-bus-editorial","displayTitle":{"en":"CAN Bus Cable","zh":"CAN 总线电缆"},"headings":{"introduction":{"en":"Define the CAN Network","zh":"定义 CAN 网络"},"faq":{"en":"CAN Bus Cable Questions","zh":"CAN 总线电缆常见问题"}},"subtitle":{"en":"Engineer the entire differential path, not just CAN_H and CAN_L","zh":"设计完整差分路径，而不只是连接 CAN_H 与 CAN_L"},"lead":{"en":"Coordinate network profile, physical layer, topology, termination, pair, shield, connectors and evidence.","zh":"协同审核网络配置、物理层、拓扑、终端、线对、屏蔽、接口与证据。"},"images":{"range":"/assets/images/product-categories/stock/can-bus/hero-diagnostics.jpg"},"faq":[]}
+  },
   "wire-cable-03": {
     "title":{"en":"Equipment Wire","zh":"设备用电线"},
     "intro":{"en":"Equipment wire carries power, control, safety and sensor circuits inside machines and industrial control panels.","zh":"设备用电线在机器与工业控制柜内部承担动力、控制、安全和传感回路。"},
