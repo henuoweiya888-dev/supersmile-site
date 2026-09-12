@@ -1729,3 +1729,137 @@ body.pcc-rich-page[data-category-key="custom-harness-02"] .pcc-rich-reliability 
   body.pcc-rich-page[data-category-key="custom-harness-02"] .pcc-reliability-list .pcc-item-media{width:122px;height:116px}
   body.pcc-rich-page[data-category-key="custom-harness-02"] .pcc-reliability-list .pcc-photo-copy{padding:13px 0!important}
 }
+
+/* Pigtail and branch harness: Binder-era editorial rebuild.
+   Product families and engineering decisions use wide reading measures;
+   applications remain image-led; process steps form a compact production rail. */
+body.pcc-rich-page[data-category-key="custom-harness-07"]{--pigtail-deep:#182021;--pigtail-wash:#e4e6e2;--pigtail-warm:#ece9e2}
+body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-hero{min-height:520px}
+body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-hero-grid{min-height:440px;padding-block:78px 70px}
+body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-photo-note{border-radius:0!important;box-shadow:none!important;overflow:visible}
+body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-item-media{border-radius:0!important;clip-path:none!important}
+body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-photo-copy::before{display:none!important}
+body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-rich-materials,
+body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-rich-process{background:var(--pigtail-wash)}
+body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-rich-solutions,
+body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-rich-benefits{background:var(--pigtail-warm)}
+body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-rich-reliability{background:var(--pigtail-deep);color:#eef1ed}
+body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-rich-reliability h2,
+body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-rich-reliability h3{color:#f7f5ef}
+body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-rich-reliability p{color:#bcc4c1}
+
+@media(min-width:901px){
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-variant-list{
+    display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px 46px;padding:0;
+  }
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-variant-list .pcc-photo-note{
+    display:grid;grid-template-columns:174px minmax(0,1fr);align-items:center;gap:22px;border-top:1px solid var(--pre-rule);min-height:0;
+  }
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-variant-list .pcc-item-media{
+    grid-column:1;grid-row:1;width:174px;height:142px;min-height:0;aspect-ratio:auto;margin:0;
+  }
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-variant-list .pcc-photo-copy{grid-column:2;grid-row:1;width:auto;padding:15px 0}
+
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-material-list,
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-solution-list,
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-reliability-list{
+    display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 46px;padding:0;
+  }
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-material-list .pcc-photo-note,
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-solution-list .pcc-photo-note,
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-reliability-list .pcc-photo-note{
+    display:grid!important;grid-column:auto!important;grid-template-columns:188px minmax(0,1fr)!important;align-items:center;gap:23px;border-top:1px solid var(--pre-rule);min-width:0;min-height:0;
+  }
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-reliability-list .pcc-photo-note{border-color:rgba(255,255,255,.2)}
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-material-list .pcc-item-media,
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-solution-list .pcc-item-media,
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-reliability-list .pcc-item-media{
+    grid-column:1!important;grid-row:1!important;width:188px!important;height:152px!important;min-height:0!important;aspect-ratio:auto!important;margin:0!important;
+  }
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-material-list .pcc-photo-copy,
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-solution-list .pcc-photo-copy,
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-reliability-list .pcc-photo-copy{
+    grid-column:2!important;grid-row:1!important;width:auto;padding:16px 0!important;
+  }
+
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-application-index{
+    display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:29px 32px;padding:0;
+  }
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-application-index .pcc-photo-note{
+    display:flex;flex-direction:column;border-top:1px solid var(--pre-rule);min-height:0;
+  }
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-application-index .pcc-item-media{
+    width:100%;height:auto;min-height:0;aspect-ratio:16/9;margin:0;
+  }
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-application-index .pcc-photo-copy{padding:18px 1px 0}
+
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-process-rail{
+    display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px 34px;padding:0;
+  }
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-process-rail .pcc-photo-note{
+    display:grid;grid-template-columns:126px minmax(0,1fr);align-items:center;gap:18px;border-top:1px solid var(--pre-rule);min-height:0;
+  }
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-process-rail .pcc-item-media{
+    grid-column:1;grid-row:1;width:126px;height:116px;min-height:0;aspect-ratio:auto;margin:0;
+  }
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-process-rail .pcc-photo-copy{grid-column:2;grid-row:1;padding:14px 0}
+
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-benefit-notes{
+    display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px;padding:0;
+  }
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-benefit-notes .pcc-photo-note{
+    display:flex;flex-direction:column;border-top:1px solid var(--pre-rule);min-height:0;
+  }
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-benefit-notes .pcc-item-media{
+    width:100%;height:auto;min-height:0;aspect-ratio:4/3;margin:0;
+  }
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-benefit-notes .pcc-photo-copy{padding:18px 1px 0}
+}
+
+@media(max-width:620px){
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-hero{min-height:570px}
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-hero-grid{min-height:490px;padding-block:74px 54px}
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-variant-list,
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-material-list,
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-solution-list,
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-process-rail,
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-reliability-list{
+    display:grid;grid-template-columns:1fr;gap:20px;padding:0 16px 30px;
+  }
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-variant-list .pcc-photo-note,
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-material-list .pcc-photo-note,
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-solution-list .pcc-photo-note,
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-process-rail .pcc-photo-note,
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-reliability-list .pcc-photo-note{
+    display:grid!important;grid-template-columns:122px minmax(0,1fr)!important;align-items:center;gap:17px;min-width:0;border-top:1px solid var(--pre-rule);min-height:0;
+  }
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-reliability-list .pcc-photo-note{border-color:rgba(255,255,255,.2)}
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-variant-list .pcc-item-media,
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-material-list .pcc-item-media,
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-solution-list .pcc-item-media,
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-process-rail .pcc-item-media,
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-reliability-list .pcc-item-media{
+    grid-column:1!important;grid-row:1!important;width:122px!important;height:116px!important;min-height:0!important;aspect-ratio:auto!important;margin:0!important;
+  }
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-variant-list .pcc-photo-copy,
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-material-list .pcc-photo-copy,
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-solution-list .pcc-photo-copy,
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-process-rail .pcc-photo-copy,
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-reliability-list .pcc-photo-copy{
+    grid-column:2!important;grid-row:1!important;width:auto;padding:13px 0!important;
+  }
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-application-index,
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-benefit-notes{
+    display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 14px;padding:0 16px 30px;
+  }
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-application-index .pcc-photo-note,
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-benefit-notes .pcc-photo-note{
+    display:flex;flex-direction:column;min-width:0;border-top:1px solid var(--pre-rule);
+  }
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-application-index .pcc-item-media,
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-benefit-notes .pcc-item-media{
+    width:100%;height:auto;min-height:0;aspect-ratio:4/3;margin:0;
+  }
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-application-index .pcc-photo-copy,
+  body.pcc-rich-page[data-category-key="custom-harness-07"] .pcc-benefit-notes .pcc-photo-copy{padding:16px 0 0}
+}
