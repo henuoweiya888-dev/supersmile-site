@@ -44,8 +44,36 @@ const UI = {
 };
 
 const PC = {
-  en:{contact:'Contact the merchant about this product', label:'Select Products (optional)', trigger:'Select products...', sel:'selected', none:'No product', search:'Search products...'},
-  zh:{contact:'通过这款产品与商家取得联系', label:'选择产品（可选）', trigger:'选择产品...', sel:'已选', none:'不选择产品', search:'搜索产品...'}
+  en:{contact:'Contact the merchant about this product', label:'Select Products (optional)', trigger:'Select products...', sel:'selected', none:'No product', search:'Search products...',done:'Done'},
+  zh:{contact:'通过这款产品与商家取得联系', label:'选择产品（可选）', trigger:'选择产品...', sel:'已选', none:'不选择产品', search:'搜索产品...',done:'完成'}
+};
+const CUSTOM_SERVICE = {
+  navCurrent:{en:'Custom Service',zh:'定制服务'},
+  heroEyebrow:{en:'CUSTOM WIRING SERVICE',zh:'定制线束服务'},
+  heroTitle:{en:'From pin definition to repeat production',zh:'从针脚定义到稳定复产'},
+  heroCopy:{en:'Send a drawing, sample, connector photo or pinout. We review interfaces, materials, manufacturing feasibility and inspection requirements before defining the sample and production scope.',zh:'提供图纸、样品、接口照片或针脚定义后，我们先审核接口、材料、制造可行性与检验要求，再确定打样和生产范围。'},
+  heroCta:{en:'Discuss your project',zh:'沟通项目需求'},heroProducts:{en:'Browse product centre',zh:'浏览产品中心'},
+  defineTitle:{en:'Define the harness before we build it',zh:'先把线束定义清楚，再开始制作'},
+  defineLead:{en:'A connector name alone is not a complete specification. We translate your equipment information into a buildable cable definition: every interface, circuit, material and identification rule is reviewed as part of one assembly.',zh:'只有连接器名称并不能形成完整规格。我们把设备资料转化为可制造的线束定义，将接口、回路、材料和标识规则作为同一套组件整体审核。'},
+  define0Title:{en:'Connector, terminal and mating interface',zh:'连接器、端子与对插接口'},define0Copy:{en:'We confirm the housing family, terminal system, keying, seals, locks and mating part. Similar appearance is not treated as proof of compatibility.',zh:'核对壳体系列、端子系统、防错结构、密封件、锁止方式和对插件，不把外观相似当作兼容依据。'},
+  define1Title:{en:'Pin map, circuit and branch datum',zh:'针脚、回路与分支基准'},define1Copy:{en:'Pin-to-pin correspondence, polarity, signal pairs, branch lengths, breakout positions and connector orientation are recorded before the first article.',zh:'在首件前记录针脚对应、极性、信号线对、分支长度、出线位置和接口方向。'},
+  define2Title:{en:'Conductor, insulation and protection',zh:'导体、绝缘与防护结构'},define2Copy:{en:'Wire gauge, current path, voltage drop, temperature, shielding, jacket, braid, conduit and strain relief are selected against the real duty cycle.',zh:'依据真实工作周期选择线径、电流路径、压降、耐温、屏蔽、护套、编织、波纹管与应力防护。'},
+  define3Title:{en:'Identification and acceptance points',zh:'标识与验收项目'},define3Copy:{en:'Wire numbers, labels, barcodes, packaging and inspection items are agreed early so sampling and repeat orders use the same reference.',zh:'提前约定线号、标签、条码、包装和检验项目，使打样与重复订单沿用同一依据。'},
+  processTitle:{en:'A controlled route from data to delivery',zh:'从资料到交付的受控路径'},
+  processLead:{en:'The sequence is not a generic promise. Each gate closes a different source of risk before the project moves forward, and the approved information becomes the reference for later batches.',zh:'这不是泛泛而谈的流程展示。每一阶段都消除一种不同风险，批准后的资料则成为后续批次的生产依据。'},
+  process0Title:{en:'Requirement and engineering review',zh:'需求与工程审核'},process0Copy:{en:'We check the available drawing, sample, pin table, connector photos, load, environment, quantity and installation constraints, then list any missing decisions.',zh:'检查图纸、样品、针脚表、接口照片、负载、环境、数量和安装限制，并列出仍待确认的事项。'},
+  process1Title:{en:'Material and process preparation',zh:'物料与工艺准备'},process1Copy:{en:'Wire, terminals, housings, seals, sleeves and labels are matched to the approved structure; cutting, stripping, crimping and assembly controls are then defined.',zh:'使线材、端子、壳体、密封、套管和标签与批准结构匹配，再定义下线、剥线、压接和组装控制。'},
+  process2Title:{en:'First article and project validation',zh:'首件与项目验证'},process2Copy:{en:'The sample is checked for dimensions, orientation, labels, continuity and the other electrical, mechanical or functional items agreed for the project.',zh:'核对样品尺寸、方向、标签、导通，以及项目约定的其他电气、机械或功能项目。'},
+  process3Title:{en:'Release and repeat production',zh:'放行与稳定复产'},process3Copy:{en:'Approved samples, drawings, BOMs, work instructions and inspection points are released together so later batches reproduce the confirmed configuration.',zh:'将批准样品、图纸、BOM、作业文件和检验点一同放行，使后续批次复现已确认配置。'},
+  scopeTitle:{en:'One service, different electrical environments',zh:'同一种定制服务，面对不同电气环境'},
+  scopeLead:{en:'We do not force one stock harness into every machine. The architecture changes with the equipment, service access, motion, contamination, signal type and documentation expected by the customer.',zh:'我们不会把一种现货线束套进所有设备。线束架构会随设备、维护空间、运动、污染、信号类型和客户文件要求而变化。'},
+  scope0Title:{en:'Industrial automation',zh:'工业自动化'},scope0Copy:{en:'Control cabinets, sensors, motors, valves, safety devices and replaceable machine modules.',zh:'控制柜、传感器、电机、阀组、安全装置与可更换设备模组。'},
+  scope1Title:{en:'Automotive and heavy-duty',zh:'汽车与重型设备'},scope1Copy:{en:'Diagnostic access, controller service, engine-bay routing, sealed branches and vehicle-side adapters.',zh:'诊断接口、控制器维修、机舱布线、密封分支与车端转接组件。'},
+  scope2Title:{en:'Robotics and moving equipment',zh:'机器人与运动设备'},scope2Copy:{en:'Repeated flexing, torsion, drag-chain routing, encoder feedback and compact joint transitions.',zh:'往复弯曲、扭转、拖链布线、编码器反馈与紧凑关节过渡。'},
+  scope3Title:{en:'Medical and instrument equipment',zh:'医疗与仪器设备'},scope3Copy:{en:'Internal interconnects, detachable leads, sensor extensions, identification and cleaning-aware material review.',zh:'机内互连、可拆卸引线、传感器延长、标识与兼顾清洁条件的材料审核。'},
+  scope4Title:{en:'New-energy low-voltage systems',zh:'新能源低压系统'},scope4Copy:{en:'BMS signals, auxiliary power, sensing, service access and low-voltage control connections.',zh:'BMS信号、辅助电源、感知回路、维修接口与低压控制连接。'},
+  scope5Title:{en:'OEM replacement and turnkey builds',zh:'OEM替换与交钥匙项目'},scope5Copy:{en:'Reverse definition from a reference sample, controlled alternatives, buyer labels and repeat-order documentation.',zh:'依据参考样品反向整理定义、受控替代、客户标签与重复订单文件。'},
+  scopeNote:{en:'The photographs illustrate production steps and application environments. Final materials, interfaces and inspection requirements are confirmed for the specific order.',zh:'照片用于说明生产步骤与应用环境；最终材料、接口与检验要求按具体订单确认。'}
 };
 let selectedProducts = [];
 function findProduct(pid){
@@ -67,7 +95,20 @@ function productDisplayName(product,category=findProductCategory(product)){
 }
 function getUrlProducts(){
   const q=new URLSearchParams(location.search);
-  return (q.get('products')||'').split(',').map(s=>s.trim()).filter(Boolean);
+  return [q.get('category'),...(q.get('products')||'').split(',')].map(s=>(s||'').trim()).filter(Boolean);
+}
+function selectionLabel(value){
+  const record=capabilityTypeRecord(value);
+  if(record){
+    const detail=(CATEGORY_DETAILS||{})[record.key]||{};
+    return detail.page?.displayTitle?t(detail.page.displayTitle):(t(record.group.items)||[])[record.itemIndex]||value;
+  }
+  const product=findProduct(value);
+  return product?productDisplayName(product):value;
+}
+function selectionGroupLabel(value){
+  const record=capabilityTypeRecord(value);
+  return record?t(record.group.directoryTitle||record.group.title):t(SITE.nav.products);
 }
 function openProductModal(pid, prodEl){
   const p=findProduct(pid); if(!p) return;
@@ -144,22 +185,30 @@ function sendMail(subject, body, customerEmail){
 }
 
 function renderProductSelect(){
-  const panel=$('#ps-panel'); if(!panel || !PRODS) return;
+  const panel=$('#ps-panel'); if(!panel || !CAPABILITIES) return;
   const pc=productCopy();
   if(!window.__psInit){
     window.__psInit=true;
     const preset=getUrlProducts();
-    selectedProducts=preset.filter(pid=>findProduct(pid));
+    selectedProducts=preset.filter(value=>capabilityTypeRecord(value)||findProduct(value));
   }
-  panel.innerHTML=`<div class="ps-search"><input type="text" id="ps-search" placeholder="${pc.search}" autocomplete="off"></div>`+
+  panel.innerHTML=`<div class="ps-search"><input type="text" id="ps-search" placeholder="${htmlEscape(pc.search)}" autocomplete="off"><button type="button" class="ps-done">${htmlEscape(pc.done||'Done')}</button></div>`+
     `<div class="ps-none-row ${selectedProducts.length===0?'active':''}" id="ps-none-row">${pc.none}</div>`+
-    PRODS.categories.map(c=>{
-      const prods=c.products||[];
-      return `<div class="ps-group"><div class="ps-group-title">${t(c.name)}</div>`+
-        prods.map(p=>{const sk=Object.values(p.name||{}).join(' ').toLowerCase().replace(/"/g,'&quot;'); const pn=productDisplayName(p,c); return `<label class="ps-item" data-search="${sk}"><input type="checkbox" value="${p.id}" ${selectedProducts.includes(p.id)?'checked':''}> <img src="${p.images[0]}" alt="${pn}" loading="lazy"> <span>${pn}</span></label>`;}).join('')+
+    (CAPABILITIES.groups||[]).map((group,groupIndex)=>{
+      const names=t(group.items)||group.items?.en||[];
+      return `<div class="ps-group"><div class="ps-group-title"><span>${String(groupIndex+1).padStart(2,'0')} · ${htmlEscape(t(group.directoryTitle||group.title))}</span><small>${names.length}</small></div>`+
+        names.map((name,itemIndex)=>{const key=`${group.id}-${String(itemIndex+1).padStart(2,'0')}`;const detail=(CATEGORY_DETAILS||{})[key]||{};const live=Boolean(detail.page);const allNames=Object.values(group.items||{}).map(values=>Array.isArray(values)?values[itemIndex]:'').filter(Boolean).join(' ');const sk=htmlEscape(allNames.toLowerCase());return `<label class="ps-item ps-capability-item${live?'':' is-pending'}" data-search="${sk}"><input type="checkbox" value="${key}" ${selectedProducts.includes(key)?'checked':''}${live?'':' disabled'}><span class="ps-item-index">${String(itemIndex+1).padStart(2,'0')}</span><span>${htmlEscape(name)}</span>${live?'':'<small aria-hidden="true">—</small>'}</label>`;}).join('')+
         `</div>`;
     }).join('');
   const sInput=$('#ps-search');
+  if(sInput) sInput.setAttribute('aria-label',pc.search);
+  const doneButton=panel.querySelector('.ps-done');
+  if(doneButton) doneButton.onclick=()=>{
+    panel.classList.remove('open');
+    panel.setAttribute('aria-hidden','true');
+    const trigger=$('#ps-trigger');
+    if(trigger){trigger.setAttribute('aria-expanded','false');trigger.focus();}
+  };
   if(sInput) sInput.oninput=()=>{
     const kw=(sInput.value||'').toLowerCase().trim();
     $$('#ps-panel .ps-item').forEach(item=>{
@@ -194,7 +243,7 @@ function updatePsTrigger(){
   if(!trig) return;
   if(selectedProducts.length===0){ trig.textContent=pc.trigger; return; }
   if(selectedProducts.length<=2){
-    trig.textContent=selectedProducts.map(pid=>{const p=findProduct(pid);return p?productDisplayName(p):pid;}).join(', ');
+    trig.textContent=selectedProducts.map(selectionLabel).join(', ');
     return;
   }
   trig.textContent=selectedProducts.length+' '+pc.sel;
@@ -204,7 +253,9 @@ function bindPsToggle(){
   if(!trig||!panel||window.__psBound) return;
   window.__psBound=true;
   panel.setAttribute('aria-hidden',String(!panel.classList.contains('open')));
+  panel.setAttribute('role','region');
   trig.setAttribute('aria-controls','ps-panel');
+  trig.setAttribute('aria-haspopup','true');
   trig.setAttribute('aria-expanded',String(panel.classList.contains('open')));
   const setOpen=(open)=>{
     panel.classList.toggle('open',open);
@@ -309,6 +360,7 @@ async function ensureCurrentPageLanguage(){
   if(LANG==='en'||LANG==='zh'||!CAPABILITIES) return;
   const nodes=collectLocalizedNodes(PCC_COPY);
   collectLocalizedNodes(CAPABILITIES,nodes);
+  if(pageIdentity()==='page-custom') collectLocalizedNodes(CUSTOM_SERVICE,nodes);
   const itemEntries=[];
   for(const group of CAPABILITIES.groups||[]){
     const translated=[];
@@ -344,7 +396,8 @@ function productCopy(){
     trigger:products+'…',
     sel:'✓',
     none:'—',
-    search:products+'…'
+    search:products+'…',
+    done:'✓'
   };
 }
 function routeWithLang(href){
@@ -1476,6 +1529,12 @@ function renderCustomStatic(){
     textIn(cta,'.custom-inquiry-copy .tag',t(SITE.nav.quote));
     localizeContactForm();
   }
+  $$('[data-cs]').forEach(element=>{
+    const copy=CUSTOM_SERVICE[element.dataset.cs];
+    if(copy) element.textContent=t(copy);
+  });
+  setText('#cu-title',t(CUSTOM_SERVICE.heroTitle));
+  setText('#cu-desc',t(CUSTOM_SERVICE.heroCopy));
 }
 
 function renderAboutStatic(){
@@ -2510,7 +2569,14 @@ document.addEventListener('DOMContentLoaded', async ()=>{
     const firstName=firstNameEl?firstNameEl.value.trim():'',lastName=lastNameEl?lastNameEl.value.trim():'';
     const name=legacyNameEl?legacyNameEl.value.trim():[firstName,lastName].filter(Boolean).join(' ');
     const email=$('#cf-email').value.trim(),msg=$('#cf-msg').value,u=currentUI();
-    const prodItems = selectedProducts.map(pid=>{const p=findProduct(pid); if(!p) return '- '+pid; const img=p.images&&p.images[0]?location.origin+p.images[0]:''; return '- '+productDisplayName(p)+(img?'\n  '+img:'');}).join('\n');
+    const prodItems = selectedProducts.map(value=>{
+      const record=capabilityTypeRecord(value);
+      if(record) return `- ${selectionGroupLabel(value)} / ${selectionLabel(value)}`;
+      const p=findProduct(value);
+      if(!p) return '- '+value;
+      const img=p.images&&p.images[0]?location.origin+p.images[0]:'';
+      return '- '+productDisplayName(p)+(img?'\n  '+img:'');
+    }).join('\n');
     const prodLine = prodItems ? t(SITE.nav.products)+':\n'+prodItems : '';
     const nameLines=firstNameEl&&lastNameEl?(u.firstName||u.name)+': '+firstName+'\n'+(u.lastName||u.name)+': '+lastName:u.name+': '+name;
     const body = nameLines+'\n'+u.email+': '+email+'\n'+(prodLine?prodLine+'\n':'')+'\n'+msg;
