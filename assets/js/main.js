@@ -491,14 +491,21 @@ function renderProductMegaMenu(){
   nav.appendChild(menu);
   const header=$('.header'),entry=$('.nav-products-entry'),link=$('.nav-products-link'),toggle=$('.product-mega-toggle');
   if(!header||!entry||!link||!toggle) return;
-  let closeTimer;
+  let openTimer,closeTimer;
   const setOpen=open=>{
-    clearTimeout(closeTimer);header.classList.toggle('product-mega-open',open);
+    clearTimeout(openTimer);clearTimeout(closeTimer);header.classList.toggle('product-mega-open',open);
     link.setAttribute('aria-expanded',String(open));toggle.setAttribute('aria-expanded',String(open));
   };
-  const scheduleClose=()=>{closeTimer=setTimeout(()=>setOpen(false),140);};
+  const scheduleOpen=()=>{
+    clearTimeout(openTimer);clearTimeout(closeTimer);
+    openTimer=setTimeout(()=>setOpen(true),240);
+  };
+  const scheduleClose=()=>{
+    clearTimeout(openTimer);clearTimeout(closeTimer);
+    closeTimer=setTimeout(()=>setOpen(false),260);
+  };
   if(matchMedia('(min-width:1081px) and (hover:hover) and (pointer:fine)').matches){
-    entry.addEventListener('mouseenter',()=>setOpen(true));menu.addEventListener('mouseenter',()=>setOpen(true));
+    entry.addEventListener('mouseenter',scheduleOpen);menu.addEventListener('mouseenter',()=>setOpen(true));
     entry.addEventListener('mouseleave',scheduleClose);menu.addEventListener('mouseleave',scheduleClose);
   }
   entry.addEventListener('focusin',event=>{if(event.target!==toggle) setOpen(true);});menu.addEventListener('focusin',()=>setOpen(true));

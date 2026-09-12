@@ -1698,3 +1698,34 @@ body.pcc-rich-page[data-category-key="custom-harness-06"] .pcc-rich-benefits{bac
     grid-column:2;grid-row:1;padding:13px 0;width:auto;
   }
 }
+
+/* Shared chapter-boundary correction: the large solution title must remain in flow and never float over its first topic. */
+body.pcc-rich-page .pcc-rich-solutions>.pcc-rich-heading{
+  position:static!important;inset:auto!important;z-index:auto;
+}
+
+/* Control-panel safety review: widen technical copy and restore dark-surface contrast. */
+body.pcc-rich-page[data-category-key="custom-harness-02"] .pcc-rich-reliability .pcc-rich-heading h2{color:#f4f3ed}
+body.pcc-rich-page[data-category-key="custom-harness-02"] .pcc-rich-reliability .pcc-rich-heading>p{color:#aeb6b8}
+body.pcc-rich-page[data-category-key="custom-harness-02"] .pcc-reliability-list{
+  display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 46px;padding:0;
+}
+body.pcc-rich-page[data-category-key="custom-harness-02"] .pcc-reliability-list .pcc-photo-note{
+  display:grid;grid-template-columns:188px minmax(0,1fr);align-items:center;gap:22px;min-height:0;border-top:1px solid rgba(255,255,255,.2)!important;
+}
+body.pcc-rich-page[data-category-key="custom-harness-02"] .pcc-reliability-list .pcc-item-media{
+  grid-column:1;grid-row:1;width:188px;height:150px;min-height:0;aspect-ratio:auto;margin:0;
+}
+body.pcc-rich-page[data-category-key="custom-harness-02"] .pcc-reliability-list .pcc-photo-copy{
+  grid-column:2;grid-row:1;width:auto;padding:15px 0!important;
+}
+body.pcc-rich-page[data-category-key="custom-harness-02"] .pcc-rich-reliability .pcc-photo-copy h3{color:#f4f3ed}
+body.pcc-rich-page[data-category-key="custom-harness-02"] .pcc-rich-reliability .pcc-photo-copy p{color:#b9c0c1}
+@media(max-width:620px){
+  body.pcc-rich-page[data-category-key="custom-harness-02"] .pcc-reliability-list{grid-template-columns:1fr;gap:22px;padding:0}
+  body.pcc-rich-page[data-category-key="custom-harness-02"] .pcc-reliability-list .pcc-photo-note{
+    grid-template-columns:122px minmax(0,1fr);gap:17px;
+  }
+  body.pcc-rich-page[data-category-key="custom-harness-02"] .pcc-reliability-list .pcc-item-media{width:122px;height:116px}
+  body.pcc-rich-page[data-category-key="custom-harness-02"] .pcc-reliability-list .pcc-photo-copy{padding:13px 0!important}
+}
