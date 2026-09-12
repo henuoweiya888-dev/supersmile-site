@@ -2088,3 +2088,45 @@ body.pcc-rich-page[data-category-key="custom-harness-10"] .pcc-photo-copy::befor
   body.pcc-rich-page[data-category-key="custom-harness-10"] .pcc-process-rail .pcc-photo-copy,
   body.pcc-rich-page[data-category-key="custom-harness-10"] .pcc-reliability-list .pcc-photo-copy{grid-column:2!important;grid-row:1!important;width:auto;padding:13px 0!important}
 }
+
+/* Outdoor waterproof final pass: convert the oversized storm feature into
+   six equal engineering studies and keep proof imagery in balance with copy. */
+body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-hero{min-height:520px}
+body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-hero-grid{min-height:440px;padding-block:78px 70px}
+body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-photo-note{border-radius:0!important;box-shadow:none!important;overflow:visible}
+body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-item-media{border-radius:0!important;clip-path:none!important}
+body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-photo-copy::before{display:none!important}
+@media(min-width:901px){
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-variant-list,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-benefit-notes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:27px 46px;padding:0}
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-variant-list .pcc-photo-note,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-benefit-notes .pcc-photo-note{display:grid!important;grid-column:auto!important;grid-template-columns:184px minmax(0,1fr)!important;align-items:center;gap:22px;min-width:0;min-height:0;border-top:1px solid var(--pre-rule)}
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-variant-list .pcc-item-media,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-benefit-notes .pcc-item-media{grid-column:1!important;grid-row:1!important;width:184px!important;height:148px!important;min-height:0!important;aspect-ratio:auto!important;margin:0!important}
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-variant-list .pcc-photo-copy,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-benefit-notes .pcc-photo-copy{grid-column:2!important;grid-row:1!important;width:auto;padding:15px 0!important}
+}
+@media(max-width:620px){
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-hero{min-height:570px}
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-hero-grid{min-height:490px;padding-block:74px 54px}
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-variant-list,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-material-list,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-solution-list,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-process-rail,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-benefit-notes{display:grid;grid-template-columns:1fr;gap:20px;padding:0 16px 30px}
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-variant-list .pcc-photo-note,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-material-list .pcc-photo-note,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-solution-list .pcc-photo-note,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-process-rail .pcc-photo-note,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-benefit-notes .pcc-photo-note{display:grid!important;grid-template-columns:122px minmax(0,1fr)!important;align-items:center;gap:17px;min-width:0;min-height:0;border-top:1px solid var(--pre-rule)}
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-variant-list .pcc-item-media,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-material-list .pcc-item-media,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-solution-list .pcc-item-media,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-process-rail .pcc-item-media,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-benefit-notes .pcc-item-media{grid-column:1!important;grid-row:1!important;width:122px!important;height:116px!important;min-height:0!important;aspect-ratio:auto!important;margin:0!important}
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-variant-list .pcc-photo-copy,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-material-list .pcc-photo-copy,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-solution-list .pcc-photo-copy,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-process-rail .pcc-photo-copy,
+  body.pcc-rich-page[data-category-key="custom-harness-11"] .pcc-benefit-notes .pcc-photo-copy{grid-column:2!important;grid-row:1!important;width:auto;padding:13px 0!important}
+}

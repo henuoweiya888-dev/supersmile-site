@@ -131,7 +131,7 @@ function pageTemplate({key,slug,name,group,image,intro,knowledge,notes,delivery,
   const canonical=`https://supersmile-tech.com/products/${slug}`;
   const title=`${name} | ${groupName} | Super Smile`;
   const editorialStyle=['custom-harness-01','custom-harness-02','custom-harness-03','custom-harness-04','custom-harness-05','custom-harness-06','custom-harness-07','custom-harness-08','custom-harness-09','custom-harness-10','custom-harness-11','custom-harness-12','cable-assembly-01'].includes(key)
-    ? '<link rel="stylesheet" href="/assets/css/prebinder-editorial.css?v=20260912v16">'
+    ? '<link rel="stylesheet" href="/assets/css/prebinder-editorial.css?v=20260912v17">'
     : '';
   const schema={
     '@context':'https://schema.org',
@@ -164,7 +164,7 @@ function pageTemplate({key,slug,name,group,image,intro,knowledge,notes,delivery,
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(intro)}">
-<link rel="stylesheet" href="/assets/css/style.css?v=20260825v3"><link rel="stylesheet" href="/assets/css/industrial-v2.css?v=20260902v83">${editorialStyle}
+<link rel="stylesheet" href="/assets/css/style.css?v=20260825v3"><link rel="stylesheet" href="/assets/css/industrial-v2.css?v=20260902v84">${editorialStyle}
 <link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#090a0d"><link rel="canonical" href="${canonical}">
 <meta property="og:type" content="website"><meta property="og:url" content="${canonical}"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(intro)}"><meta property="og:image" content="https://supersmile-tech.com${esc(image)}">
