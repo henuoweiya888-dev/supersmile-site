@@ -127,6 +127,29 @@ body.pcc-rich-page[data-category-key="custom-harness-08"] .pcc-rich-process p{co
   body.pcc-rich-page[data-category-key="custom-harness-08"] .pcc-benefit-notes .pcc-photo-copy{padding:16px 0 0}
 }
 
+/* Braided protection final balance: retain the material-led chapter rhythm,
+   shorten the opening field and keep outcome photography subordinate to copy. */
+body.pcc-rich-page[data-category-key="custom-harness-09"] .pcc-hero{min-height:520px}
+body.pcc-rich-page[data-category-key="custom-harness-09"] .pcc-hero-grid{min-height:440px;padding-block:78px 70px}
+body.pcc-rich-page[data-category-key="custom-harness-09"] .pcc-photo-note{border-radius:0!important;box-shadow:none!important;overflow:visible}
+body.pcc-rich-page[data-category-key="custom-harness-09"] .pcc-item-media{border-radius:0!important;clip-path:none!important}
+body.pcc-rich-page[data-category-key="custom-harness-09"] .pcc-photo-copy::before{display:none!important}
+body.pcc-rich-page[data-category-key="custom-harness-09"] .pcc-rich-benefits{background:#e3e5e1}
+@media(min-width:901px){
+  body.pcc-rich-page[data-category-key="custom-harness-09"] .pcc-benefit-notes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:27px 46px;padding:0}
+  body.pcc-rich-page[data-category-key="custom-harness-09"] .pcc-benefit-notes .pcc-photo-note{display:grid!important;grid-template-columns:184px minmax(0,1fr)!important;align-items:center;gap:22px;min-height:0;border-top:1px solid var(--pre-rule)}
+  body.pcc-rich-page[data-category-key="custom-harness-09"] .pcc-benefit-notes .pcc-item-media{grid-column:1!important;grid-row:1!important;width:184px!important;height:148px!important;min-height:0!important;aspect-ratio:auto!important;margin:0!important}
+  body.pcc-rich-page[data-category-key="custom-harness-09"] .pcc-benefit-notes .pcc-photo-copy{grid-column:2!important;grid-row:1!important;width:auto;padding:15px 0!important}
+}
+@media(max-width:620px){
+  body.pcc-rich-page[data-category-key="custom-harness-09"] .pcc-hero{min-height:570px}
+  body.pcc-rich-page[data-category-key="custom-harness-09"] .pcc-hero-grid{min-height:490px;padding-block:74px 54px}
+  body.pcc-rich-page[data-category-key="custom-harness-09"] .pcc-benefit-notes{display:grid;grid-template-columns:1fr;gap:20px;padding:0 16px 30px}
+  body.pcc-rich-page[data-category-key="custom-harness-09"] .pcc-benefit-notes .pcc-photo-note{display:grid!important;grid-template-columns:122px minmax(0,1fr)!important;align-items:center;gap:17px;min-height:0;border-top:1px solid var(--pre-rule)}
+  body.pcc-rich-page[data-category-key="custom-harness-09"] .pcc-benefit-notes .pcc-item-media{grid-column:1!important;grid-row:1!important;width:122px!important;height:116px!important;min-height:0!important;aspect-ratio:auto!important;margin:0!important}
+  body.pcc-rich-page[data-category-key="custom-harness-09"] .pcc-benefit-notes .pcc-photo-copy{grid-column:2!important;grid-row:1!important;width:auto;padding:13px 0!important}
+}
+
 /* Overmolded assemblies: a tooling-and-process feature. The chapter rhythm moves
    from a configuration contact sheet to engineering spreads, then a compact
    production rail. Photographs remain evidence beside the copy, not full-page art. */
@@ -2015,4 +2038,17 @@ body.pcc-rich-page[data-category-key="custom-harness-08"] .pcc-rich-process{back
   body.pcc-rich-page[data-category-key="custom-harness-08"] .pcc-reliability-list{display:grid;grid-template-columns:1fr;gap:20px;padding:0 16px 30px}
   body.pcc-rich-page[data-category-key="custom-harness-08"] .pcc-application-index,
   body.pcc-rich-page[data-category-key="custom-harness-08"] .pcc-benefit-notes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px 14px;padding:0 16px 30px}
+}
+
+/* Final cascade position for braided-protection balance. */
+body.pcc-rich-page[data-category-key="custom-harness-09"] .pcc-hero{min-height:520px}
+body.pcc-rich-page[data-category-key="custom-harness-09"] .pcc-hero-grid{min-height:440px;padding-block:78px 70px}
+body.pcc-rich-page[data-category-key="custom-harness-09"] .pcc-rich-benefits{background:#e3e5e1}
+@media(min-width:901px){
+  body.pcc-rich-page[data-category-key="custom-harness-09"] .pcc-benefit-notes{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:27px 46px;padding:0}
+}
+@media(max-width:620px){
+  body.pcc-rich-page[data-category-key="custom-harness-09"] .pcc-hero{min-height:570px}
+  body.pcc-rich-page[data-category-key="custom-harness-09"] .pcc-hero-grid{min-height:490px;padding-block:74px 54px}
+  body.pcc-rich-page[data-category-key="custom-harness-09"] .pcc-benefit-notes{display:grid;grid-template-columns:1fr;gap:20px;padding:0 16px 30px}
 }
