@@ -1,0 +1,144 @@
+{
+  "hybrid-power-data-cable-assembly": {
+    "key": "cable-assembly-17",
+    "variant": "hybrid",
+    "hero": "hero.jpg",
+    "heroPosition": "center 47%",
+    "group": {"en": "Cable Assemblies", "zh": "定制电缆组件"},
+    "closing": {"en": "Define both circuits before sharing one route.", "zh": "两种回路先定义清楚，再共用一条路径。"},
+    "title": {
+      "en": "Hybrid Power & Data Cable Assemblies",
+      "zh": "复合动力与数据电缆组件"
+    },
+    "subtitle": {
+      "en": "One route, two electrical duties",
+      "zh": "一条路径，两种电气任务"
+    },
+    "lead": {
+      "en": "A shared outer jacket can carry power conductors and controlled data elements, but the finished assembly must still be specified as two coordinated circuits.",
+      "zh": "同一外护套可以容纳供电导体与受控数据单元，但成品仍要按两种相互协调的回路来定义。"
+    },
+    "intro": {
+      "en": "A hybrid power-and-data cable is not simply a power cord beside an Ethernet lead. Its core groups, insulation, pair geometry, shields and sheath are selected as one manufactured cable structure. The assembly then adds the connector interfaces, breakout lengths, strain relief and verification. An equipment designer may combine motor power with brake or feedback signals, or low-voltage supply with a data channel, to simplify a defined route. That does not make every power and signal combination safe or interoperable. We first review the customer's circuit diagram, exact hybrid-cable data sheet, mating interfaces and installation duty; material sourcing and assembly feasibility are confirmed for the specific project before quotation.",
+      "zh": "复合动力与数据电缆并不是把一根电源线和一根网线并排捆扎。芯线分组、绝缘、线对几何、屏蔽和外护套共同构成一款已制造的线缆；成品组件还包含两端接口、分支长度、应力释放与检验。设备设计者可在特定路径内组合电机供电与制动或反馈信号，也可组合低压供电与数据通道，从而简化布线。但这不代表任意电力与信号回路都能安全共缆或相互兼容。我们会先审核客户的回路图、准确的复合电缆数据表、对插接口及安装工况，再按项目确认物料来源与组装可行性。"
+    },
+    "metaDescription": {
+      "en": "Project-reviewed hybrid power and data cable assemblies: conductor groups, screened pairs, connector breakouts, motion routing and separate electrical and channel checks.",
+      "zh": "复合动力与数据电缆组件技术说明：供电导体分组、屏蔽线对、接头分支、运动布线及电力与通信通道分别验证。"
+    },
+    "keywords": "hybrid power and data cable assembly, cable in cable assembly, combined power and signal cable, industrial hybrid cable, servo hybrid cable, power and Ethernet cable, screened data pair, hybrid connector breakout, 复合动力与数据电缆组件, 电力数据混合电缆, 共护套电缆, 伺服复合电缆, 电源信号复合线束",
+    "technicalReferences": [
+      "https://imager.lapp.com/e/lapp/-atgM1eDh8hCNNSZjZyyTA~~/DB2170887EN.pdf",
+      "https://www.igus.com/cables/news/sew-movilink-ddi-hybrid-cable",
+      "https://www.belden.com/products/cable/fiber-optic-cable/duetconnect-hybrid-cable"
+    ],
+    "topics": [
+      {
+        "id": "architecture",
+        "image": "architecture.jpg",
+        "caption": {"en": "Installed machine wiring illustrates concurrent circuits; the photographed cable is not identified as a hybrid product.", "zh": "设备布线展示多种回路并存的场景；照片中的线缆未被认定为复合缆。"},
+        "title": {
+          "en": "Start with the circuit groups, not the outside diameter",
+          "zh": "先分清回路，再看电缆外径"
+        },
+        "copy": {
+          "en": "List each power, return, protective-earth, control and data path separately. Record voltage, current, start-up or fault behavior, signal type and the connector pin map at both ends. Some hybrid cables contain individually screened balanced pairs; others incorporate coaxial or optical elements. Those constructions are not interchangeable merely because they fit the same route. An approved cable data sheet must match the required group count, conductor section, insulation, shielding and termination method. If the application needs electrical separation, assess the complete equipment design and applicable rules rather than assuming the outer jacket provides it.",
+          "zh": "分别列出每条供电、回流、保护接地、控制及数据路径，并记录电压、电流、启动或故障行为、信号类型及两端接头针脚表。有的复合缆含独立屏蔽的平衡线对，有的包含同轴或光纤单元；即使都能穿过同一布线路径，也不能互换。获认可的线缆数据表须对应所需分组数量、导体截面、绝缘、屏蔽及端接方式。如果应用涉及电气隔离，应审核整机设计与适用规则，不能假设共护套本身已经实现隔离。"
+        },
+        "imageIntent": "Real photograph of multi-circuit industrial machine wiring or a cut hybrid cable; caption must say whether it is context rather than the specified cable."
+      },
+      {
+        "id": "power",
+        "image": "power.jpg",
+        "caption": {"en": "A power-supply terminal illustrates why contact and conductor limits need their own review.", "zh": "电源端子示意触点与导体边界需要分别审核，并非本页指定成品。"},
+        "title": {
+          "en": "Size the power group for the installed load and temperature",
+          "zh": "供电芯线按实际负载与温度选型"
+        },
+        "copy": {
+          "en": "The power conductors carry the full outgoing and return current. Review load profile, conductor resistance at operating temperature, voltage drop over the complete circuit, connector contact limits and upstream protection. Parallel signal elements and a common sheath may affect heat dissipation, so a conductor size cannot be chosen from nominal ampacity alone. A high-current start, brake coil or motor drive may impose a different duty from steady operation. The selected cable and connector parts, not a generic label such as ‘hybrid,’ set the allowable limits.",
+          "zh": "供电芯线承载完整的去程与回程电流。应同时审核负载曲线、工作温度下的导体电阻、完整回路压降、接头触点限制与上游保护。共护套及邻近信号单元会影响散热，因此不能只按标称载流量确定截面。大电流启动、制动线圈或电机驱动也可能与稳态工作不同。允许边界由选定线缆与接头料号决定，而不是“复合缆”这个通称。"
+        },
+        "imageIntent": "Real close-up of power terminals or conductors, not a generic data-center cable."
+      },
+      {
+        "id": "data",
+        "image": "data-final.jpg",
+        "caption": {"en": "Copper Ethernet ports illustrate data endpoints, not the performance of a hybrid cable channel.", "zh": "铜缆以太网接口仅说明数据端点，不证明复合线缆通道性能。"},
+        "title": {
+          "en": "Keep the data element continuous through every breakout",
+          "zh": "每处分支都要保持数据单元结构"
+        },
+        "copy": {
+          "en": "Ethernet pairs, encoder feedback, fieldbus and coaxial data elements have different geometry and termination rules. Keep the approved pair assignment, twist, shield path and connector transition through the breakout. An untwisted fanout, incorrect screen termination or extra branch can alter a channel even if pin-to-pin continuity passes. Specify the protocol or equipment interface, permitted length, target channel performance and required measurement before choosing an RJ45, M12, circular or proprietary endpoint. A passive assembly does not convert protocols.",
+          "zh": "以太网线对、编码器反馈、现场总线及同轴数据单元各有不同的几何与端接规则。分支处仍须保持获认可的线对分配、绞合、屏蔽路径及接头过渡。过长的解绞段、错误的屏蔽端接或额外支线，即使逐针导通合格，也可能改变通道表现。选择 RJ45、M12、圆形或专用接口前，先确定协议或设备接口、允许长度、目标通道性能及所需测量；无源组件不能转换协议。"
+        },
+        "imageIntent": "Real photograph of a copper data connector or pair termination, not fiber unless the text discusses fiber."
+      },
+      {
+        "id": "breakout",
+        "image": "breakout-final.jpg",
+        "caption": {"en": "A disassembled M16 cable gland illustrates cable clamping and seal geometry. Photo: Phiarc, CC BY-SA 4.0; image resized and may be cropped in display.", "zh": "拆解的 M16 格兰头说明夹持和密封结构。照片：Phiarc，CC BY-SA 4.0；图片已缩小尺寸，页面展示可能裁切。"},
+        "title": {
+          "en": "Design the split, seal and strain relief together",
+          "zh": "分支、密封与应力释放要一起设计"
+        },
+        "copy": {
+          "en": "One common jacket often has to split into different power and data connectors. Define the jacket strip-back, each branch length, branch identification and support point from the actual equipment layout. The split needs a controlled transition so bending or pulling does not load contacts or expose the shield. Heat-shrink, molded boots and glands have different material, process and environmental limits; none creates an ingress rating by appearance alone. Confirm the mating connector, cable diameter, sealing elements and tested assembly condition before stating any protection level.",
+          "zh": "共护套通常要在端部拆分，接入不同的电力和数据接头。护套剥除长度、各分支长度、分支标识与固定点应由实际设备布局决定。过渡处需受控，避免弯折或拉力直接作用于触点，或令屏蔽层外露。热缩、注塑尾套及电缆接头的材料、工艺和环境边界不同，外观完整不能证明防护等级。只有核对对插件、电缆外径、密封件及受试的完整组件状态，才能讨论具体防护水平。"
+        },
+        "imageIntent": "Real photograph of cable preparation or connector entry showing why a split needs support."
+      },
+      {
+        "id": "movement",
+        "image": "movement.jpg",
+        "caption": {"en": "A robot cable route illustrates motion context; no cycle-life rating for the photographed lead is implied.", "zh": "机器人布线展示运动场景，不代表照片中引线具有特定循环寿命。"},
+        "title": {
+          "en": "A combined route still needs its own motion rating",
+          "zh": "共线路径仍需独立核对运动额定"
+        },
+        "copy": {
+          "en": "A static machine run, a cable carrier and a twisting robot wrist are three different duties. The cable manufacturer's minimum bend radius, dynamic-cycle conditions and torsion allowance apply to the exact construction. Connector backshells, branch exits, clamps and service loops can become the limiting points even when the cable itself is motion-rated. Document the route, travel, speed, acceleration and first bend from each rigid termination. Do not transfer cycle-life claims from a different product or laboratory fixture to the finished equipment lead.",
+          "zh": "静态机内布线、拖链与旋转机器人腕部是三种不同工况。制造商的最小弯曲半径、动态循环条件和允许扭转值只适用于准确的线缆结构。即使线缆本体适合运动，接头尾壳、分支出口、夹具与检修余量仍可能成为限制点。应记录路线、行程、速度、加速度和每处刚性端接后的首次弯曲位置；不能把另一款线缆或实验夹具的寿命数据直接移植到成品引线。"
+        },
+        "imageIntent": "Real photograph of machine motion or cable-carrier context, with no assertion that the pictured cable is hybrid."
+      },
+      {
+        "id": "verification",
+        "image": "verification.jpg",
+        "caption": {"en": "A multimeter is measurement context, not a Super Smile test record or data-channel certification.", "zh": "万用表仅作为测量情境，不代表超斯迈尔检验记录或数据通道认证。"},
+        "title": {
+          "en": "Release power and communication evidence separately",
+          "zh": "供电与通信证据应分别放行"
+        },
+        "copy": {
+          "en": "A first article should match the approved cable, connectors, branch dimensions, labels and pin map. Continuity and short-circuit checks establish basic wiring; insulation resistance, dielectric, shield continuity, voltage drop or loaded temperature rise need project-specific methods and limits. The data path may also require a defined channel, link or protocol test using the actual interfaces. Record what was measured and under which configuration. A passed continuity check must never be presented as proof of Ethernet category, EMC compliance, waterproofing or system safety.",
+          "zh": "首件应对应已认可的线缆、接头、分支尺寸、标识与针脚表。导通与短路检查只确立基本接线；绝缘电阻、耐压、屏蔽连续性、压降或加载温升都要有项目特定的方法和限值。数据路径还可能需要使用实际接口进行规定的通道、链路或协议测试。记录测量项目及配置条件，不能把一次导通合格表述为以太网类别、EMC、防水或系统安全的证明。"
+        },
+        "imageIntent": "Real photograph of electrical measurement or network testing; label as context, not a company test record."
+      }
+    ],
+    "inputs": [
+      {"en": "Circuit and pin map for power, return, ground and every data path", "zh": "供电、回流、接地及每条数据路径的回路与针脚表"},
+      {"en": "Exact hybrid-cable part number or approved construction data sheet", "zh": "准确的复合电缆料号或获认可的结构数据表"},
+      {"en": "Both mating connector references, breakout lengths and installation drawing", "zh": "两端对插件料号、分支长度与安装图"},
+      {"en": "Voltage, current, protocol, environment and motion profile", "zh": "电压、电流、协议、环境及运动工况"},
+      {"en": "Project test methods, limits, sample quantity and required evidence", "zh": "项目检验方法、限值、样品数量及所需证据"}
+    ],
+    "faq": [
+      {
+        "q": {"en": "Is a hybrid cable just two finished cables inside one sleeve?", "zh": "复合电缆就是把两根成品线穿进同一套管吗？"},
+        "a": {"en": "Not necessarily. A purpose-made hybrid cable has a defined core arrangement, insulation, shielding and shared sheath. A bundled pair of separate cables is a different construction and needs its own installation review.", "zh": "不一定。专门制造的复合缆有规定的芯线排列、绝缘、屏蔽和共用护套；两根独立成品线的捆束属于不同结构，也要单独审核安装条件。"}
+      },
+      {
+        "q": {"en": "Can power and Ethernet share a jacket without interference?", "zh": "供电和以太网共护套就一定不会互相干扰吗？"},
+        "a": {"en": "No universal guarantee exists. The selected cable, pair shielding, power switching behavior, grounding, endpoints and route determine the result. Define the required channel and validate the actual assembly.", "zh": "没有通用保证。结果取决于选定电缆、线对屏蔽、供电开关行为、接地、接口和路径；需要先定义通道要求，再验证实际组件。"}
+      },
+      {
+        "q": {"en": "Does a continuity pass prove the finished cable's data rate?", "zh": "逐针导通合格能证明成品的数据速率吗？"},
+        "a": {"en": "No. Continuity checks wiring only. A data-rate or category claim requires the relevant cable, connector and complete-channel specification plus an agreed test method.", "zh": "不能。导通只检查接线；速率或类别声明须对应线缆、接头和完整通道规格，并采用约定的测试方法。"}
+      }
+    ],
+    "publicationGate": "Do not add this draft to public taxonomy until Super Smile confirms sourcing and termination capability for an exact hybrid cable construction. No in-house extrusion, stock, certification or finished-assembly test result is claimed."
+  }
+}
