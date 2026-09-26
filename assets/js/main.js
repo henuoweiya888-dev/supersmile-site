@@ -431,7 +431,7 @@ async function loadData(){
     fetch('/data/products.json?v=20260831v7').then(r=>r.json()),
     fetch('/data/product-series.json?v=20260902v1').then(r=>r.json()),
     fetch('/data/product-capabilities.json?v=20260926v5').then(r=>r.json()),
-    fetch('/data/product-category-details.json?v=20260926v42').then(r=>r.json())
+    fetch('/data/product-category-details.json?v=20260926v43').then(r=>r.json())
   ]);
   SITE=s; PRODS=p; SERIES=series; CAPABILITIES=capabilities; CATEGORY_DETAILS=categoryDetails;
   applyEvidenceBoundaries();
@@ -1473,6 +1473,15 @@ function renderProductCategoryRichMarkup(page,item){
     const faq=(page.faq||[]).map((entry,index)=>`<details${index===0?' open':''}><summary>${htmlEscape(t(entry.q))}</summary><p>${htmlEscape(t(entry.a))}</p></details>`).join('');
     const credits=(page.mediaCredits||[]).map(entry=>`<li><a href="${htmlEscape(entry.url)}" target="_blank" rel="noopener">${htmlEscape(entry.file)}</a><span>${htmlEscape(entry.author)} · ${entry.licenseUrl?`<a href="${htmlEscape(entry.licenseUrl)}" target="_blank" rel="noopener">${htmlEscape(entry.license)}</a>`:htmlEscape(entry.license)}</span></li>`).join('');
     return `<section class="pcc-cockpit-opening">${cockpitImage(page.images.range,`${item} ${LANG==='zh'?'拆开的仪表台布线':'exposed dashboard wiring'}`,'pcc-cockpit-opening-media')}<div class="pcc-cockpit-opening-copy"><span>CLUSTER / CONTROL / CROSS-CAR / SERVICE</span><h2>${heading('introduction')}</h2><p>${htmlEscape(t(page.lead))}</p></div></section><section class="pcc-cockpit-sequence">${chapters}</section><section class="pcc-rich-section pcc-rich-faq pcc-cockpit-faq"><header class="pcc-rich-heading"><h2>${heading('faq')}</h2></header><div class="pcc-faq-grid">${faq}</div></section><details class="pcc-media-credits"><summary>${htmlEscape(t(page.creditHeading))}</summary><ul>${credits}</ul></details>`;
+  }
+  if(page.layout==='transmission-fluid-boundary'){
+    const transImage=(src,alt,className='')=>`<figure class="pcc-trans-media ${className}"><img src="${htmlEscape(src)}" alt="${htmlEscape(alt)}" width="1200" height="900" loading="lazy" decoding="async"></figure>`;
+    const chapters=(page.chapters||[]).map((chapter,index)=>`<article class="pcc-trans-chapter pcc-trans-chapter-${index+1}"><header class="pcc-trans-chapter-heading"><span>${htmlEscape(t(chapter.kicker).replace(/^\d+\s*\/\s*/,''))}</span><h3>${htmlEscape(t(chapter.title))}</h3></header>${transImage(chapter.image,t(chapter.title))}<div class="pcc-trans-copy"><p>${htmlEscape(t(chapter.copy))}</p><div class="pcc-trans-points">${(chapter.points||[]).map(point=>`<section><h4>${htmlEscape(t(point.title))}</h4><p>${htmlEscape(t(point.copy))}</p></section>`).join('')}</div></div></article>`);
+    const ordered=[0,1,3,4,2,5].map(index=>chapters[index]).filter(Boolean);
+    const regions=(page.regions||[]).map((region,index)=>`<section class="pcc-trans-region pcc-trans-region-${index+1}"><header class="pcc-trans-region-heading"><span>${String(index+1).padStart(2,'0')}</span><h2>${htmlEscape(t(region))}</h2></header><div class="pcc-trans-region-body">${ordered.slice(index*2,index*2+2).join('')}</div></section>`).join('');
+    const faq=(page.faq||[]).map((entry,index)=>`<details${index===0?' open':''}><summary>${htmlEscape(t(entry.q))}</summary><p>${htmlEscape(t(entry.a))}</p></details>`).join('');
+    const credits=(page.mediaCredits||[]).map(entry=>`<li><a href="${htmlEscape(entry.url)}" target="_blank" rel="noopener">${htmlEscape(entry.file)}</a><span>${htmlEscape(entry.author)} · ${entry.licenseUrl?`<a href="${htmlEscape(entry.licenseUrl)}" target="_blank" rel="noopener">${htmlEscape(entry.license)}</a>`:htmlEscape(entry.license)}</span></li>`).join('');
+    return `<section class="pcc-trans-opening"><div class="pcc-trans-opening-copy"><span>OUTSIDE / THROUGH-CASE / OIL-WET</span><h2>${heading('introduction')}</h2><p>${htmlEscape(t(page.lead))}</p></div>${transImage(page.images.range,`${item} ${LANG==='zh'?'箱体与连接场景':'transmission housing and connection context'}`,'pcc-trans-opening-media')}</section>${regions}<section class="pcc-rich-section pcc-rich-faq pcc-trans-faq"><header class="pcc-rich-heading"><h2>${heading('faq')}</h2></header><div class="pcc-faq-grid">${faq}</div></section><details class="pcc-media-credits"><summary>${htmlEscape(t(page.creditHeading))}</summary><ul>${credits}</ul></details>`;
   }
   if(page.layout==='ethernet-channel'){
     const ethImage=(src,alt,className='')=>`<figure class="pcc-eth-media ${className}"><img src="${htmlEscape(src)}" alt="${htmlEscape(alt)}" width="1200" height="900" loading="lazy" decoding="async"></figure>`;
