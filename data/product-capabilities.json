@@ -34,8 +34,8 @@
       "description": {"en": "Connectorized cable assemblies reviewed for signal, power, shielding, flexibility and environmental protection.", "zh": "针对信号、供电、屏蔽、柔性和环境防护要求审核的连接电缆组件。"},
       "image": "/assets/images/features/custom-cable-structure-v4.jpg",
       "items": {
-        "en": ["Overmolded Cable Assembly", "Circular Connector Assembly", "D-Sub Cable Assembly", "USB Cable Assembly", "Audio Cable Assembly", "Video Cable Assembly", "Power Cable Assembly", "Battery Cable Assembly", "LED Cable Assembly", "LVDS Cable Assembly", "RF & Coaxial Assembly", "Aerospace Project Assembly", "Medical Equipment Assembly", "Military-Spec Project Assembly", "Solar Cable Assembly"],
-        "zh": ["包覆成型电缆组件", "圆形连接器电缆组件", "D-Sub电缆组件", "USB电缆组件", "音频电缆组件", "视频电缆组件", "电源线组件", "电池电缆组件", "LED线缆组件", "LVDS电缆组件", "RF与同轴电缆组件", "航空航天项目组件", "医疗设备电缆组件", "军规项目电缆组件", "太阳能电缆组件"]
+        "en": ["Overmolded Cable Assembly", "Circular Connector Assembly", "D-Sub Cable Assembly", "USB Cable Assembly", "Audio Cable Assembly", "Video Cable Assembly", "Power Cable Assembly", "Battery Cable Assembly", "LED Cable Assembly", "LVDS Cable Assembly", "RF & Coaxial Assembly", "Aerospace Project Assembly", "Medical Equipment Assembly", "Military-Spec Project Assembly", "Solar Cable Assembly", "Industrial Ethernet / RJ45 Cable Assembly"],
+        "zh": ["包覆成型电缆组件", "圆形连接器电缆组件", "D-Sub电缆组件", "USB电缆组件", "音频电缆组件", "视频电缆组件", "电源线组件", "电池电缆组件", "LED线缆组件", "LVDS电缆组件", "RF与同轴电缆组件", "航空航天项目组件", "医疗设备电缆组件", "军规项目电缆组件", "太阳能电缆组件", "工业以太网与RJ45电缆组件"]
       }
     },
     {
@@ -45,8 +45,8 @@
       "description": {"en": "Vehicle, diagnostic and service harnesses defined by the exact platform, interface, pin route and operating task.", "zh": "依据具体平台、接口、针脚路径和目标任务定义的车辆、诊断与维修线束。"},
       "image": "/assets/images/applications/automotive-diagnostics-photoreal-v2.jpg",
       "items": {
-        "en": ["Automotive Diagnostic & OBD Harness", "ECU / DCU Service Harness", "J1939 Heavy-Duty Harness", "Truck Harness", "Construction Vehicle Harness", "Trailer Harness", "Vehicle Lighting Harness", "Engine Harness", "Relay & Fuse-Box Harness", "Battery Jump Cable", "High-Voltage Project Harness", "GPS & In-Vehicle Communication", "Fakra / LVDS Automotive Cable", "Turbo Actuator Harness"],
-        "zh": ["汽车诊断与OBD线束", "ECU / DCU维修线束", "J1939重卡线束", "卡车线束", "工程车辆线束", "拖车线束", "汽车灯线束", "发动机线束", "继电器与保险丝盒线束", "汽车电瓶搭接线", "高压项目线束", "GPS与车载通信线束", "Fakra / LVDS汽车电缆", "涡轮执行器线束"]
+        "en": ["Automotive Diagnostic & OBD Harness", "ECU / DCU Service Harness", "J1939 Heavy-Duty Harness", "Truck Harness", "Construction Vehicle Harness", "Trailer Harness", "Vehicle Lighting Harness", "Engine Harness", "Relay & Fuse-Box Harness", "Battery Jump Cable", "High-Voltage Project Harness", "GPS & In-Vehicle Communication", "Fakra / LVDS Automotive Cable", "Turbo Actuator Harness", "Agricultural & Tractor Harness", "Fuel-System Harness", "Dashboard & Instrument-Cluster Harness", "Transmission Harness"],
+        "zh": ["汽车诊断与OBD线束", "ECU / DCU维修线束", "J1939重卡线束", "卡车线束", "工程车辆线束", "拖车线束", "汽车灯线束", "发动机线束", "继电器与保险丝盒线束", "汽车电瓶搭接线", "高压项目线束", "GPS与车载通信线束", "Fakra / LVDS汽车电缆", "涡轮执行器线束", "农机与拖拉机线束", "燃油系统线束", "仪表台与仪表盘线束", "变速箱线束"]
       }
     },
     {
@@ -56,8 +56,8 @@
       "description": {"en": "Connector-family selection and compatible sourcing reviewed by series, keying, terminal, seal and availability.", "zh": "按系列、防错结构、端子、密封与供应情况审核连接器家族和兼容选型。"},
       "image": "/assets/images/features/custom-connectors-v4.jpg",
       "items": {
-        "en": ["TE / AMP Compatible", "Molex Compatible", "JST Compatible", "Deutsch Compatible", "Aptiv Compatible", "Amphenol Compatible", "Hirose Compatible", "JAE Compatible", "FCI Compatible", "LEMO Compatible", "Binder Compatible", "Phoenix Compatible", "Panduit Compatible", "Littelfuse / Bussmann Fuse Harness"],
-        "zh": ["TE / AMP兼容组件", "Molex兼容组件", "JST兼容组件", "Deutsch兼容组件", "Aptiv兼容组件", "Amphenol兼容组件", "Hirose兼容组件", "JAE兼容组件", "FCI兼容组件", "LEMO兼容组件", "Binder兼容组件", "Phoenix兼容组件", "Panduit兼容组件", "Littelfuse / Bussmann保险丝线束"]
+        "en": ["TE / AMP Compatible", "Molex Compatible", "JST Compatible", "Deutsch Compatible", "Aptiv Compatible", "Amphenol Compatible", "Hirose Compatible", "JAE Compatible", "FCI Compatible", "LEMO Compatible", "Binder Compatible", "Phoenix Compatible", "Panduit Compatible", "Littelfuse / Bussmann Fuse Harness", "Anderson Interface Cable Project", "Harting Interface Cable Project", "Yazaki Interface Harness Project"],
+        "zh": ["TE / AMP兼容组件", "Molex兼容组件", "JST兼容组件", "Deutsch兼容组件", "Aptiv兼容组件", "Amphenol兼容组件", "Hirose兼容组件", "JAE兼容组件", "FCI兼容组件", "LEMO兼容组件", "Binder兼容组件", "Phoenix兼容组件", "Panduit兼容组件", "Littelfuse / Bussmann保险丝线束", "Anderson接口电缆项目", "Harting接口电缆项目", "Yazaki接口线束项目"]
       }
     },
     {
@@ -78,8 +78,8 @@
       "description": {"en": "Wire and cable construction selected around current, signal, motion, temperature, chemical and regulatory needs.", "zh": "围绕电流、信号、运动、温度、化学环境与法规要求选择电线电缆结构。"},
       "image": "/assets/images/features/feature-cable-structure-photoreal-v2.jpg",
       "items": {
-        "en": ["Automotive Primary Wire", "Appliance Wire & Cable", "Equipment Wire", "CAN Bus Cable", "Coaxial Cable", "Drag-Chain Cable", "Flame-Retardant Cable", "Heavy-Duty High-Voltage Cable", "Shielded Twisted Pair", "Halogen-Free Cable", "Marine Project Cable", "Medical Project Cable", "Measurement Instrument Cable", "Outdoor Cable"],
-        "zh": ["汽车电线电缆", "电器电线电缆", "设备用电线", "CAN总线电缆", "同轴电缆", "拖链电缆", "阻燃电线电缆", "高压重型电缆", "屏蔽双绞线", "无卤电缆", "船用项目电缆", "医疗项目电缆", "测量仪器电缆", "户外电缆"]
+        "en": ["Automotive Primary Wire", "Appliance Wire & Cable", "Equipment Wire", "CAN Bus Cable", "Coaxial Cable", "Drag-Chain Cable", "Flame-Retardant Cable", "Heavy-Duty High-Voltage Cable", "Shielded Twisted Pair", "Halogen-Free Cable", "Marine Project Cable", "Medical Project Cable", "Measurement Instrument Cable", "Outdoor Cable", "Cross-Linked Insulation Wire & Cable", "Flat Ribbon Wire & Cable", "Ultra-Flexible Wire & Cable", "High-Temperature Wire & Cable"],
+        "zh": ["汽车电线电缆", "电器电线电缆", "设备用电线", "CAN总线电缆", "同轴电缆", "拖链电缆", "阻燃电线电缆", "高压重型电缆", "屏蔽双绞线", "无卤电缆", "船用项目电缆", "医疗项目电缆", "测量仪器电缆", "户外电缆", "交联绝缘电线电缆", "扁平排线电缆", "超柔性电线电缆", "耐高温电线电缆"]
       }
     }
   ],
