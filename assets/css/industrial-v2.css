@@ -109,6 +109,43 @@ body[data-category-key="automotive-18"] .pcc-media-credits{--atlas-edge:var(--tr
   .pcc-trans-faq{padding:28px var(--trans-edge)!important}
 }
 
+/* Anderson power interfaces: modular family, current path, equipment context. */
+body.pcc-rich-page[data-category-key="connector-systems-15"] #pcc-rich-content{--trans-edge:clamp(24px,5vw,76px);background:#edeae3;color:#141a1c}
+body[data-category-key="connector-systems-15"] .pcc-hero{min-height:490px;background:#0a1114;color:#f8f8f4}
+body[data-category-key="connector-systems-15"] .pcc-hero-grid{min-height:410px}
+body[data-category-key="connector-systems-15"] .pcc-hero-media:after{background:linear-gradient(90deg,rgba(5,11,14,.98) 0%,rgba(5,11,14,.88) 27%,rgba(5,11,14,.56) 54%,rgba(5,11,14,.26) 100%)}
+body[data-category-key="connector-systems-15"] .pcc-hero-media img{object-position:62% 47%;filter:saturate(.55) contrast(1.12) brightness(.68)}
+body[data-category-key="connector-systems-15"] .pcc-hero-copy>p{text-indent:2em}
+body[data-category-key="connector-systems-15"] .pcc-trans-opening{background:#e1e5e0}
+body[data-category-key="connector-systems-15"] .pcc-trans-opening-media{background:#f8f8f5}
+body[data-category-key="connector-systems-15"] .pcc-trans-opening-media img{object-fit:contain;filter:saturate(.8);padding:12px}
+body[data-category-key="connector-systems-15"] .pcc-trans-region-1{background:#f8f7f3}
+body[data-category-key="connector-systems-15"] .pcc-trans-region-2{background:#1b282d}
+body[data-category-key="connector-systems-15"] .pcc-trans-region-3{background:#e9e6df}
+body[data-category-key="connector-systems-15"] .pcc-trans-region-2 .pcc-trans-region-body{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:clamp(28px,4vw,64px);margin-top:14px}
+body[data-category-key="connector-systems-15"] .pcc-trans-region-2 .pcc-trans-chapter{display:flex;flex-direction:column;min-width:0;padding:8px 0 0;border:0}
+body[data-category-key="connector-systems-15"] .pcc-trans-region-2 .pcc-trans-chapter-heading{width:100%;min-height:74px}
+body[data-category-key="connector-systems-15"] .pcc-trans-region-2 .pcc-trans-chapter>.pcc-trans-media{order:1;align-self:auto;width:100%;height:235px;margin:8px 0 0}
+body[data-category-key="connector-systems-15"] .pcc-trans-region-2 .pcc-trans-copy{order:2;padding-top:15px}
+body[data-category-key="connector-systems-15"] .pcc-trans-region-2 .pcc-trans-points{gap:14px}
+body[data-category-key="connector-systems-15"] .pcc-trans-region-1 .pcc-trans-chapter:first-child>.pcc-trans-media img{object-fit:contain;background:#f6f4f0}
+body[data-category-key="connector-systems-15"] .pcc-trans-region-1 .pcc-trans-chapter:nth-child(2)>.pcc-trans-media img{object-fit:contain;object-position:50% 50%;background:#f8f7f3}
+body[data-category-key="connector-systems-15"] .pcc-trans-region-3 .pcc-trans-chapter>.pcc-trans-media img{object-position:50% 45%}
+body[data-category-key="connector-systems-15"] .pcc-trans-faq{background:#dce2df!important}
+body[data-category-key="connector-systems-15"] .pcc-media-credits{--atlas-edge:var(--trans-edge)}
+@media(max-width:640px){
+  body.pcc-rich-page[data-category-key="connector-systems-15"] #pcc-rich-content{--trans-edge:var(--v2-mobile-gutter)}
+  body[data-category-key="connector-systems-15"] .pcc-hero{min-height:560px}
+  body[data-category-key="connector-systems-15"] .pcc-hero-grid{min-height:490px}
+  body[data-category-key="connector-systems-15"] .pcc-hero-media:after{background:linear-gradient(180deg,rgba(5,11,14,.18) 0%,rgba(5,11,14,.63) 44%,rgba(5,11,14,.94) 100%)}
+  body[data-category-key="connector-systems-15"] .pcc-trans-region-2 .pcc-trans-region-body{display:block;margin-top:4px}
+  body[data-category-key="connector-systems-15"] .pcc-trans-region-2 .pcc-trans-chapter{padding:18px 0 20px;border-bottom:1px solid rgba(255,255,255,.2)}
+  body[data-category-key="connector-systems-15"] .pcc-trans-region-2 .pcc-trans-chapter:last-child{border:0;padding-bottom:0}
+  body[data-category-key="connector-systems-15"] .pcc-trans-region-2 .pcc-trans-chapter-heading{min-height:0}
+  body[data-category-key="connector-systems-15"] .pcc-trans-region-2 .pcc-trans-chapter>.pcc-trans-media{order:2;width:calc(100% + var(--trans-edge)*2);height:205px;margin:16px calc(var(--trans-edge)*-1) 0}
+  body[data-category-key="connector-systems-15"] .pcc-trans-region-2 .pcc-trans-copy{order:1;padding-top:12px}
+}
+
 /* Dashboard / cluster harness: cross-car editorial map. */
 body.pcc-rich-page[data-category-key="automotive-17"] #pcc-rich-content{--cockpit-edge:clamp(24px,5vw,76px);background:#eeeae5;color:#12191c}
 body[data-category-key="automotive-17"] .pcc-hero{min-height:510px;background:#0c1114;color:#f8f6f1}

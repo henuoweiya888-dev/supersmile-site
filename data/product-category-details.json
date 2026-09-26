@@ -14148,5 +14148,127 @@
         {"file":"selector.jpg","author":"Acgskup","license":"CC BY 4.0 · web-resized","licenseUrl":"https://creativecommons.org/licenses/by/4.0/","url":"https://commons.wikimedia.org/wiki/File:2023_Audi_A4_B9_Avant_Allroad_-_gear_selector_(automatic_transmission).jpg"}
       ]
     }
+  },
+  "connector-systems-15": {
+    "intro": {
+      "en": "Custom Anderson interface cable projects for Powerpole, SB and specified battery-power connectors. We define the exact housing, contact, keying, polarity, conductor, termination and installation duty before making a cable, jumper, charger lead or equipment pigtail.",
+      "zh": "按指定 Anderson 接口制作 Powerpole、SB 等电源连接电缆项目。无论是电池引线、充电线、设备尾线还是转接组件，先确定壳体、触点、防误插、极性、导体、端接与实际工况，再定义线缆。"
+    },
+    "knowledge": {
+      "en": "Powerpole modular housings and two-pole SB housings are different connection systems. A family name alone does not establish mating fit, current rating or polarity. Contact part number, cable cross-section, temperature rise, assembly method and the manufacturer's series-specific documentation all matter.",
+      "zh": "模块化 Powerpole 与双极 SB 属于不同连接体系。仅凭系列名称不能认定可对插、电流额定值或极性。触点料号、线径、温升、装配方法及制造商对应系列资料都必须纳入审核。"
+    },
+    "notes": {
+      "en": "Supply the manufacturer and complete connector series or part number, mating-side photograph and contact view, circuit and polarity drawing, continuous and peak load, voltage, wire size and cable length, opposite-end interface, installation environment, quantity and acceptance criteria. Identify auxiliary contacts or battery-monitoring circuits separately.",
+      "zh": "请提供制造商及完整接口系列／料号、对插侧照片与触点视图、回路和极性图、连续与峰值负载、电压、线径与长度、另一端接口、安装环境、数量和接收标准。辅助触点或电池监测回路须单独标明。"
+    },
+    "delivery": {
+      "en": "The approved inputs become a controlled connector-and-contact BOM, cable drawing, polarity map, assembly instructions and first-article checklist. The inspection scope can cover wire identity, crimp geometry, contact retention, housing keying, cable length and agreed electrical checks. Continuity alone cannot prove rated-load temperature, charging-system compatibility or equipment safety.",
+      "zh": "批准资料将转成受控的壳体与触点物料表、线缆图、极性表、装配指引和首件核对清单。检验范围可包括线号、压接几何、触点保持、壳体防错、长度及约定电气项目。导通合格不能单独证明额定负载温升、充电系统兼容或设备安全。"
+    },
+    "page": {
+      "layout": "anderson-power-path",
+      "headings": {
+        "introduction": {"en": "One interface name, several power paths", "zh": "同一个接口名称，不止一种电源路径"},
+        "faq": {"en": "Anderson Interface Questions", "zh": "Anderson 接口常见问题"}
+      },
+      "subtitle": {
+        "en": "Powerpole and SB are specified by mating geometry, contact and installation duty",
+        "zh": "Powerpole 与 SB 须按对插几何、触点和安装工况分别定义"
+      },
+      "lead": {
+        "en": "Start with the equipment circuit, not a connector silhouette. The load, service disconnect, mating half and assembly access decide whether a modular Powerpole set, a keyed SB pair or a different approved interface belongs on the drawing.",
+        "zh": "从设备回路出发，而不是从插头外形出发。负载、维修断开点、对插端和装配空间，决定图纸上该采用模块化 Powerpole、带防错的 SB，还是另一种经批准的接口。"
+      },
+      "regions": [
+        {"en": "Interface families and keying", "zh": "接口家族与防误插"},
+        {"en": "Current path and termination", "zh": "电流路径与端接"},
+        {"en": "Equipment context and first article", "zh": "设备场景与首件审核"}
+      ],
+      "creditHeading": {"en": "Image sources and licenses", "zh": "图片来源与许可"},
+      "images": {
+        "hero": "/assets/images/product-categories/stock/anderson/hero-battery-inspection.jpg",
+        "range": "/assets/images/product-categories/stock/anderson/powerpole-housings.jpg"
+      },
+      "chapters": [
+        {
+          "image": "/assets/images/product-categories/stock/anderson/powerpole-cable.jpg",
+          "kicker": {"en": "MODULAR SYSTEM", "zh": "模块化接口"},
+          "title": {"en": "Powerpole: build the pole arrangement deliberately", "zh": "Powerpole：极位组合必须有意设计"},
+          "copy": {"en": "Anderson Powerpole housings are modular and can be stacked into the pole arrangement a project needs. Their flat-wiping contacts and available contact options make them useful for disconnectable power circuits, but the assembled color order, housing orientation and contact part number are part of the electrical definition. A red-and-black pair in a photograph shows one arrangement, not a universal polarity rule. For battery jumpers, equipment power leads or test fixtures, document both mating views and the completed block orientation so the assembler cannot mirror a correct-looking pair. Confirm the exact Powerpole size and contact against the manufacturer's data before choosing conductor and crimp tooling.", "zh": "Anderson Powerpole 壳体可以模块化拼接，按项目需要形成极位组合。其平面擦拭式触点及不同触点选项适合可断开的电源回路，但组合后的颜色顺序、壳体方向与触点料号本身就是电气定义的一部分。照片里的红黑两极只是一种排法，不能当作通用极性规则。制作电池跳线、设备电源线或测试工装线时，应把两侧对插视图和组合方向写入图纸，防止装配者做出外观看似正确、实际镜像的接口。导体和压接工具需按准确的 Powerpole 规格及制造商资料选择。"},
+          "points": [
+            {"title": {"en": "Map polarity from mating views", "zh": "按对插视图标极性"}, "copy": {"en": "Color and left-right position are not a substitute for a signed circuit drawing.", "zh": "颜色和左右位置不能代替已确认的回路图。"}},
+            {"title": {"en": "Lock the contact choice", "zh": "锁定触点选型"}, "copy": {"en": "Housing and contact are a matched selection, not independent substitutions.", "zh": "壳体与触点应配套选定，不能各自随意替换。"}}
+          ]
+        },
+        {
+          "image": "/assets/images/product-categories/stock/anderson/sb50-keying.jpg",
+          "kicker": {"en": "TWO-POLE SYSTEM", "zh": "双极接口"},
+          "title": {"en": "SB: color and geometry help prevent the wrong mate", "zh": "SB：颜色与几何防错要一起核对"},
+          "copy": {"en": "The Anderson SB range uses genderless two-pole housings for battery and DC power distribution. The manufacturer offers different body sizes and color-keyed configurations; identical-looking two-pole leads therefore do not automatically mate or carry the same contact system. Color is a selection and identification aid, not a license to force two parts together. Before ordering a charger or equipment replacement lead, confirm the SB series, housing color, mechanical key, contact and approved mating half from actual part references. If auxiliary signaling or battery monitoring is required, identify those circuits separately rather than implying every SB power pair contains them.", "zh": "Anderson SB 系列采用无公母之分的双极壳体，用于电池及直流配电。制造商提供不同壳体尺寸和颜色防错配置，所以两根外观接近的双极线缆未必能对插，也未必使用相同触点体系。颜色是选型和识别线索，不是强行插合的理由。采购充电线或设备替换引线前，应由实际料号确认 SB 系列、壳体颜色、机械防错、触点及批准的对插件。若需要辅助信号或电池监测，应单独定义这些回路，不能默认每一组 SB 主电源端都有。"},
+          "points": [
+            {"title": {"en": "Verify the exact mating half", "zh": "核对准确对插件"}, "copy": {"en": "The series label and a photograph alone do not establish interchangeability.", "zh": "系列名称与照片不足以确认互换性。"}},
+            {"title": {"en": "Separate power and signal", "zh": "分开定义电源与信号"}, "copy": {"en": "Auxiliary contacts, if specified, need their own pin and test plan.", "zh": "如指定辅助触点，还需独立针脚表与检验计划。"}}
+          ]
+        },
+        {
+          "image": "/assets/images/product-categories/stock/anderson/cable-and-tools.jpg",
+          "kicker": {"en": "CONDUCTOR & CONTACT", "zh": "导体与触点"},
+          "title": {"en": "Size the entire current path, not the plastic shell", "zh": "按整条电流路径选型，不能只看塑壳"},
+          "copy": {"en": "A high-current connector is only one element of a current path. The conductor cross-section, copper construction, cable length, voltage drop, contact plating, mating resistance, duty cycle and installed temperature must be considered together. Select the contact variant intended for the approved wire size and stripping range; an oversized barrel on a smaller conductor can make a neat-looking but unreliable crimp. For mobile equipment, forklifts, charging stations or battery racks, also account for flexing, abrasion, routing and the strain transferred to the connector. A generic current figure without the exact product data and thermal conditions should not be copied into a cable drawing.", "zh": "大电流连接器只是电流路径中的一环。导体截面、铜导体结构、线长、压降、触点镀层、对插电阻、工作循环与安装温度要一起看。触点变型必须适用于批准的线径与剥皮范围；大端子套在小导体上，也可能压出外表整齐却不可靠的端接。移动设备、叉车、充电站或电池架还需考虑弯折、磨损、走线和传递到插头的拉力。没有准确产品资料与热条件时，不应把笼统电流数值抄进线缆图纸。"},
+          "points": [
+            {"title": {"en": "Check drop and temperature", "zh": "核对压降与温升"}, "copy": {"en": "Continuous and intermittent loads may need different assumptions.", "zh": "持续与间歇负载可能需要不同计算前提。"}},
+            {"title": {"en": "Use the approved barrel", "zh": "使用匹配压线筒"}, "copy": {"en": "Confirm contact-to-wire compatibility before any tooling trial.", "zh": "试压前先确认触点与导体规格相容。"}}
+          ]
+        },
+        {
+          "image": "/assets/images/product-categories/stock/anderson/crimped-contacts.jpg",
+          "kicker": {"en": "TERMINATION", "zh": "端接工艺"},
+          "title": {"en": "Crimp, insert and retain as separate checks", "zh": "压接、入壳、保持须分别确认"},
+          "copy": {"en": "A contact can be crimped correctly yet seated incompletely, or seated well with a poor wire crimp. Control cut and strip length, conductor position, specified die and tool, crimp dimensions, insulation clearance and contact insertion. The close-up photo shows terminal-and-wire preparation, not an approved Super Smile process record. Once the contact is in the housing, verify retention and the correct pole position, then add cable support so equipment motion cannot load the contact. The first-article checklist should distinguish visual assessment, dimensional or pull checks where specified, and electrical continuity; none by itself proves the assembly's performance at its full rated duty.", "zh": "触点可以压接正确却没有完全入壳，也可能入壳正常而导线压接不良。下料和剥皮长度、导体位置、指定模具与工具、压接尺寸、绝缘间隙及触点入位都要受控。特写照片展示端子与导线准备过程，并非超斯迈尔已批准的工艺记录。触点装入壳体后，还需确认保持力和极位，再做好线缆支撑，避免设备运动将负荷传到触点。首件清单应区分外观检查、项目规定的尺寸或拉力检查以及电气导通；任何单项都不能单独证明整套组件在额定工况下的表现。"},
+          "points": [
+            {"title": {"en": "Tooling is part of the BOM", "zh": "工具属于工艺定义"}, "copy": {"en": "The contact, wire and die combination must match the approved method.", "zh": "触点、导线与模具组合必须符合批准方法。"}},
+            {"title": {"en": "Retain the cable, not just the pin", "zh": "固定线缆，不只固定针脚"}, "copy": {"en": "Route and support the lead so vibration or handling does not pull on the contact.", "zh": "明确走线与支撑，避免振动或操作牵拉触点。"}}
+          ]
+        },
+        {
+          "image": "/assets/images/product-categories/stock/anderson/forklift.jpg",
+          "kicker": {"en": "EQUIPMENT CONTEXT", "zh": "设备场景"},
+          "title": {"en": "Battery equipment changes the cable specification", "zh": "电池设备的工况会改变线缆定义"},
+          "copy": {"en": "Material-handling equipment is one application context for disconnectable battery power; the pictured forklift does not show or certify an Anderson connector. An AGV, floor machine, charger, UPS battery cabinet or test stand may put the mating point in a very different place. Check whether operators unplug daily, whether the lead moves with the equipment, how it is protected against impact or abrasion, and how the charger or battery-management system identifies the connection. Only then set cable length, bend relief, labeling and any specified auxiliary circuits. Do not infer vehicle compatibility from a connector family name.", "zh": "物料搬运设备是可断开电池电源的一种应用场景；照片中的叉车并未展示或证明装有 Anderson 接口。AGV、清洁设备、充电机、UPS 电池柜或测试台的对插位置可能完全不同。应弄清操作员是否每天插拔、线缆是否随设备运动、如何防碰撞磨损，以及充电机或电池管理系统如何识别连接，再确定线长、弯曲缓解、标识和指定辅助回路。不能凭接口家族名称推断整机兼容。"},
+          "points": [
+            {"title": {"en": "Locate the service point", "zh": "定位维护断开点"}, "copy": {"en": "Access and unplug frequency affect routing and support.", "zh": "可达性和插拔频次影响走线与固定。"}},
+            {"title": {"en": "Review the full system", "zh": "审查完整系统"}, "copy": {"en": "A cable does not validate a charger or battery-management strategy.", "zh": "线缆本身不能验证充电机或电池管理策略。"}}
+          ]
+        },
+        {
+          "image": "/assets/images/product-categories/stock/anderson/inspection-work.jpg",
+          "kicker": {"en": "FIRST ARTICLE", "zh": "首件审核"},
+          "title": {"en": "Release against a drawing and a mating sample", "zh": "按图纸与对插样件放行"},
+          "copy": {"en": "A sample cable is useful, but it may hide a substituted contact, a reversed pole pair or a field repair. For a repeatable Anderson interface assembly, freeze the manufacturer part references, mating view, circuit and polarity table, cut length, wire and contact BOM, crimp method, protective parts and inspection points before releasing volume production. Review a first article on the actual approved mating half where available; record contact seating, keying, labels, cable reach and agreed electrical checks. The workshop photograph is general illustrative context, not a record of this product being produced or tested by Super Smile. Any rated-load, temperature-rise or system-level claim needs its own defined test and evidence.", "zh": "旧样线缆有参考价值，但可能隐藏替代触点、反向极位或现场修补。要稳定复现 Anderson 接口组件，批量生产前应冻结制造商料号、对插视图、回路与极性表、下料长度、线材和触点物料表、压接方法、防护件及检验点。条件允许时，用实际批准对插件审核首件，记录触点入位、防错、标识、线长可达和约定电气项目。车间照片仅作一般场景说明，并非该产品已由超斯迈尔生产或测试的记录。任何额定负载、温升或系统级性能声明都需要另行规定试验与证据。"},
+          "points": [
+            {"title": {"en": "Record the approved configuration", "zh": "记录批准配置"}, "copy": {"en": "Keep the exact housing, contact and mating revisions traceable.", "zh": "准确壳体、触点及对插件版本应可追溯。"}},
+            {"title": {"en": "Define acceptance separately", "zh": "单独定义接收标准"}, "copy": {"en": "Continuity is not a temperature-rise or equipment-safety test.", "zh": "导通不是温升或设备安全试验。"}}
+          ]
+        }
+      ],
+      "faq": [
+        {"q": {"en": "Are all Anderson-style plugs interchangeable?", "zh": "所有 Anderson 外形的插头都能互换吗？"}, "a": {"en": "No. Powerpole and SB are different families, and SB size, color key, housing and contact versions must be matched. Confirm complete part numbers and the approved mating half rather than relying on shape.", "zh": "不能。Powerpole 与 SB 是不同家族；SB 的尺寸、颜色防错、壳体和触点版本也须匹配。应核对完整料号及批准对插件，不能只看外形。"}},
+        {"q": {"en": "Does the connector series determine cable current rating?", "zh": "连接器系列名称能决定整条电缆的载流能力吗？"}, "a": {"en": "No. The contact option, wire cross-section, installation temperature, duty cycle, cable length and mating condition all affect the assembly. Use the exact manufacturer data and project thermal criteria.", "zh": "不能。触点选项、线径、安装温度、工作循环、线长与对插状态都会影响组件，应按准确制造商资料及项目热条件审核。"}},
+        {"q": {"en": "Can a compatible interface be specified without an exact part number?", "zh": "没有准确料号也能直接做兼容接口吗？"}, "a": {"en": "A photograph or used sample can start the review, but it cannot close it. Confirm the specified series, housing key, contact, mating view and sourcing approval before the first article. Compatibility is project-specific and does not imply brand affiliation or certification.", "zh": "照片或旧样可作为审核起点，但不能作为最终依据。首件前仍须确定指定系列、壳体防错、触点、对插视图及采购认可。兼容性按项目确认，不代表品牌关联或认证。"}},
+        {"q": {"en": "How is polarity controlled on a modular Powerpole cable?", "zh": "模块化 Powerpole 线缆如何控制极性？"}, "a": {"en": "Use a signed circuit and mating-view drawing, mark the assembled housing orientation, then check wire identity and pole position on the approved mating sample during first-article inspection.", "zh": "使用已确认的回路与对插视图，标清壳体组合方向，并在首件审核时用批准对插件核对线号与极位。"}},
+        {"q": {"en": "What should we send for an Anderson interface cable quotation?", "zh": "Anderson 接口线缆询价要提供什么？"}, "a": {"en": "Send the manufacturer, full series and part references, mating-side image, circuit/polarity drawing, continuous and peak load, voltage, wire and length requirements, other-end connector, equipment duty, quantity and requested inspection or validation.", "zh": "请提供制造商、完整系列与料号、对插侧照片、回路／极性图、连续与峰值负载、电压、线材与长度、另一端接口、设备工况、数量及所需检验或验证。"}}
+      ],
+      "mediaCredits": [
+        {"file": "hero-battery-inspection.jpg", "author": "Heru Dharma", "license": "Pexels License", "url": "https://www.pexels.com/photo/industrial-worker-inspecting-batteries-in-warehouse-36594160/"},
+        {"file": "powerpole-housings.jpg", "author": "Cqdx", "license": "CC0 · web-resized", "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/", "url": "https://commons.wikimedia.org/wiki/File:Pp01.jpg"},
+        {"file": "powerpole-cable.jpg", "author": "Gestrandete 4,5-Volt-Taschenlampenbatterie", "license": "CC BY-SA 4.0 · web-resized", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/", "url": "https://commons.wikimedia.org/wiki/File:Anderson_Powerpole_1.jpg"},
+        {"file": "sb50-keying.jpg", "author": "Malvineous", "license": "CC BY-SA 4.0 · web-resized", "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/", "url": "https://commons.wikimedia.org/wiki/File:Anderson_SB50_Colour_Keying.jpg"},
+        {"file": "cable-and-tools.jpg", "author": "4dtext", "license": "CC BY-SA 3.0 · web-resized", "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/", "url": "https://commons.wikimedia.org/wiki/File:Powerpole_stuff.jpg"},
+        {"file": "crimped-contacts.jpg", "author": "Jshin722", "license": "CC BY-SA 3.0 · web-resized", "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/", "url": "https://commons.wikimedia.org/wiki/File:Quadcopter._Anderson_Power_Poles._Crimped_wire_and_contact.jpg"},
+        {"file": "forklift.jpg", "author": "Action Construction Equipment Ltd. - ACE", "license": "Pexels License", "url": "https://www.pexels.com/photo/electric-forklift-in-industrial-setting-india-29491402/"},
+        {"file": "inspection-work.jpg", "author": "Bulat843 🌙", "license": "Pexels License", "url": "https://www.pexels.com/photo/man-working-on-electronics-wiring-in-workshop-37340074/"}
+      ]
+    }
   }
 }
