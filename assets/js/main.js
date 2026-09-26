@@ -430,8 +430,8 @@ async function loadData(){
     fetch('/data/site.json?v=20260902v17').then(r=>r.json()),
     fetch('/data/products.json?v=20260831v7').then(r=>r.json()),
     fetch('/data/product-series.json?v=20260902v1').then(r=>r.json()),
-    fetch('/data/product-capabilities.json?v=20260927v6').then(r=>r.json()),
-    fetch('/data/product-category-details.json?v=20260927v51').then(r=>r.json())
+    fetch('/data/product-capabilities.json?v=20260927v7').then(r=>r.json()),
+    fetch('/data/product-category-details.json?v=20260927v52').then(r=>r.json())
   ]);
   SITE=s; PRODS=p; SERIES=series; CAPABILITIES=capabilities; CATEGORY_DETAILS=categoryDetails;
   applyEvidenceBoundaries();

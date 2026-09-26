@@ -1,0 +1,395 @@
+.wire-special[data-variant="switch"] {
+  --accent: #e94e2a;
+  --ws-paper: #f1efe9;
+  --ws-width: 1200px;
+}
+
+.wire-special[data-variant="switch"] .ws-hero {
+  min-height: 490px;
+  padding: 0;
+}
+
+.wire-special[data-variant="switch"] .ws-hero-image {
+  filter: brightness(.54) saturate(.64) contrast(1.08);
+}
+
+.wire-special[data-variant="switch"] .ws-hero::after {
+  background:
+    linear-gradient(90deg, #070a0bea 0%, #070a0bdf 26%, #070a0bb0 47%, #070a0b45 76%, #070a0b50 100%),
+    linear-gradient(0deg, #070a0b69, transparent 56%);
+}
+
+.wire-special[data-variant="switch"] .ws-hero-copy {
+  width: min(760px, 70vw);
+  padding-block: 83px 38px;
+}
+
+.wire-special[data-variant="switch"] .ws-hero h1 {
+  font-size: clamp(52px, 6.4vw, 78px);
+  line-height: 1.02;
+}
+
+.wire-special[data-variant="switch"] .ws-opening {
+  grid-template-columns: .72fr 1.28fr;
+  gap: 64px;
+  padding-block: 42px 34px;
+}
+
+.wire-special[data-variant="switch"] .ws-opening p {
+  line-height: 1.82;
+}
+
+.wire-special[data-variant="switch"] .ws-index a {
+  transition: background .25s ease, color .25s ease;
+}
+
+.wire-special[data-variant="switch"] .ws-index a:hover {
+  background: #e3e4df;
+}
+
+.wire-special[data-variant="switch"] .ws-chapter {
+  padding-block: 43px 47px;
+}
+
+.wire-special[data-variant="switch"] .ws-head {
+  margin-bottom: 24px;
+}
+
+.wire-special[data-variant="switch"] .ws-head h2 {
+  font-size: clamp(31px, 3vw, 41px);
+}
+
+.wire-special[data-variant="switch"] .ws-topic-grid {
+  gap: 32px;
+}
+
+.wire-special[data-variant="switch"] .ws-media-frame {
+  background: #d8dcd9;
+}
+
+.wire-special[data-variant="switch"] .ws-copy {
+  padding-top: 12px;
+}
+
+.wire-special[data-variant="switch"] .ws-copy h3 {
+  font-size: clamp(20px, 2vw, 24px);
+  margin-bottom: 8px;
+}
+
+.wire-special[data-variant="switch"] .ws-copy p {
+  font-size: 14.8px;
+  line-height: 1.78;
+}
+
+/* Operator forms: two comparable photo-led entries. */
+.wire-special[data-variant="switch"] .ws-switch-section-1 {
+  background: #e5e8e4;
+}
+
+.wire-special[data-variant="switch"] .ws-switch-section-1 .ws-topic-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 42px;
+}
+
+.wire-special[data-variant="switch"] .ws-switch-section-1 .ws-media-frame {
+  aspect-ratio: 2.7 / 1;
+  max-height: 190px;
+}
+
+.wire-special[data-variant="switch"] .ws-switch-section-1 .ws-topic:nth-child(2) img {
+  object-position: center 45%;
+}
+
+/* Materials: full-width lines, equal image bays and generous reading width. */
+.wire-special[data-variant="switch"] .ws-switch-section-2 {
+  background: #f5f3ee;
+}
+
+.wire-special[data-variant="switch"] .ws-switch-section-2 .ws-topic-grid {
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.wire-special[data-variant="switch"] .ws-switch-section-2 .ws-topic {
+  display: grid;
+  grid-template-columns: minmax(260px, .48fr) minmax(0, 1fr);
+  gap: 36px;
+  align-items: start;
+  padding-top: 18px;
+  border-top: 1px solid #c1c7c3;
+}
+
+.wire-special[data-variant="switch"] .ws-switch-section-2 .ws-copy {
+  padding-top: 1px;
+}
+
+.wire-special[data-variant="switch"] .ws-switch-section-2 .ws-media-frame {
+  aspect-ratio: 16 / 9;
+  max-height: 185px;
+  background: #e7e7e1;
+}
+
+.wire-special[data-variant="switch"] .ws-switch-section-2 img {
+  object-fit: contain;
+}
+
+/* Circuit and first article: quiet dark spread, image subordinate to explanation. */
+.wire-special[data-variant="switch"] .ws-switch-section-3 {
+  background: #182326;
+  color: #f4f4ef;
+}
+
+.wire-special[data-variant="switch"] .ws-switch-section-3 .ws-head {
+  border-color: #4c5859;
+}
+
+.wire-special[data-variant="switch"] .ws-switch-section-3 .ws-head p,
+.wire-special[data-variant="switch"] .ws-switch-section-3 .ws-copy p,
+.wire-special[data-variant="switch"] .ws-switch-section-3 figcaption {
+  color: #c3ccca;
+}
+
+.wire-special[data-variant="switch"] .ws-switch-section-3 .ws-topic-grid {
+  gap: 38px;
+}
+
+.wire-special[data-variant="switch"] .ws-switch-section-3 .ws-topic {
+  display: grid;
+  grid-template-columns: minmax(145px, .56fr) minmax(0, 1fr);
+  gap: 20px;
+  align-items: start;
+}
+
+.wire-special[data-variant="switch"] .ws-switch-section-3 .ws-copy {
+  padding-top: 0;
+}
+
+.wire-special[data-variant="switch"] .ws-switch-section-3 .ws-media-frame {
+  aspect-ratio: 1 / 1;
+  max-height: 195px;
+  background: #303a3b;
+}
+
+.wire-special[data-variant="switch"] .ws-switch-section-3 img {
+  object-fit: contain;
+}
+
+.wire-special[data-variant="switch"] .ws-switch-section-3 .ws-topic:nth-child(2) img {
+  object-fit: cover;
+  object-position: center 68%;
+}
+
+/* Applications: repeated rows inside one chapter, not competing card shapes. */
+.wire-special[data-variant="switch"] .ws-switch-section-4 {
+  background: #e6e6e0;
+}
+
+.wire-special[data-variant="switch"] .ws-switch-section-4 .ws-topic-grid {
+  grid-template-columns: 1fr;
+  gap: 15px;
+}
+
+.wire-special[data-variant="switch"] .ws-switch-section-4 .ws-topic {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(280px, .85fr);
+  gap: 38px;
+  align-items: start;
+  padding-top: 18px;
+  border-top: 1px solid #bfc5c0;
+}
+
+.wire-special[data-variant="switch"] .ws-switch-section-4 .ws-topic .ws-media {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.wire-special[data-variant="switch"] .ws-switch-section-4 .ws-topic .ws-copy {
+  grid-column: 1;
+  grid-row: 1;
+  padding-top: 1px;
+}
+
+.wire-special[data-variant="switch"] .ws-switch-section-4 .ws-media-frame {
+  aspect-ratio: 16 / 9;
+  max-height: 185px;
+}
+
+/* The final two chapters each carry one larger idea, but not a full-screen image. */
+.wire-special[data-variant="switch"] .ws-switch-section-5 {
+  background: #f1eee8;
+}
+
+.wire-special[data-variant="switch"] .ws-switch-section-6 {
+  background: #dbe1dc;
+}
+
+.wire-special[data-variant="switch"] .ws-switch-section-5 .ws-topic-grid,
+.wire-special[data-variant="switch"] .ws-switch-section-6 .ws-topic-grid {
+  grid-template-columns: 1fr;
+}
+
+.wire-special[data-variant="switch"] .ws-switch-section-5 .ws-topic,
+.wire-special[data-variant="switch"] .ws-switch-section-6 .ws-topic {
+  display: grid;
+  grid-template-columns: minmax(0, 1.05fr) minmax(300px, .95fr);
+  gap: 42px;
+  align-items: start;
+}
+
+.wire-special[data-variant="switch"] .ws-switch-section-5 .ws-topic .ws-copy {
+  grid-column: 1;
+  grid-row: 1;
+  padding-top: 4px;
+}
+
+.wire-special[data-variant="switch"] .ws-switch-section-5 .ws-topic .ws-media {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.wire-special[data-variant="switch"] .ws-switch-section-5 .ws-media-frame,
+.wire-special[data-variant="switch"] .ws-switch-section-6 .ws-media-frame {
+  aspect-ratio: 16 / 9;
+  max-height: 195px;
+}
+
+.wire-special[data-variant="switch"] .ws-switch-section-5 img,
+.wire-special[data-variant="switch"] .ws-switch-section-6 img {
+  object-fit: contain;
+}
+
+.wire-special[data-variant="switch"] .ws-switch-section-5 img {
+  object-fit: cover;
+  object-position: center 71%;
+  filter: brightness(1.35) saturate(.65) contrast(1.06);
+}
+
+.wire-special[data-variant="switch"] .ws-switch-section-6 img {
+  object-fit: cover;
+  object-position: center 55%;
+}
+
+.wire-special[data-variant="switch"] .ws-switch-section-6 .ws-data {
+  margin-top: 30px;
+  padding-top: 25px;
+  gap: 42px;
+}
+
+.wire-special[data-variant="switch"] .ws-closing {
+  background: #142024;
+}
+
+.wire-special[data-variant="switch"] .ws-source-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 5px 24px;
+  margin: 14px 0;
+  padding: 0;
+  list-style: none;
+}
+
+.wire-special[data-variant="switch"] .ws-source-list li {
+  line-height: 1.55;
+}
+
+.wire-special[data-variant="switch"] .ws-source-list li > span {
+  display: inline-block;
+  min-width: 95px;
+  color: #8a918f;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 10px;
+}
+
+@media (max-width: 820px) {
+  .wire-special[data-variant="switch"] .ws-hero {
+    min-height: 570px;
+  }
+
+  .wire-special[data-variant="switch"] .ws-hero::after {
+    background: linear-gradient(180deg, #070a0bba 0%, #070a0b7a 35%, #070a0bf2 92%);
+  }
+
+  .wire-special[data-variant="switch"] .ws-hero-copy {
+    width: calc(100vw - 44px);
+    padding: 82px 0 33px;
+  }
+
+  .wire-special[data-variant="switch"] .ws-hero h1 {
+    font-size: clamp(43px, 12vw, 60px);
+  }
+
+  .wire-special[data-variant="switch"] .ws-opening {
+    grid-template-columns: 1fr;
+    gap: 17px;
+    padding-block: 34px 29px;
+  }
+
+  .wire-special[data-variant="switch"] .ws-chapter {
+    padding-block: 34px 38px;
+  }
+
+  .wire-special[data-variant="switch"] .ws-switch-section-1 .ws-topic-grid,
+  .wire-special[data-variant="switch"] .ws-switch-section-2 .ws-topic-grid,
+  .wire-special[data-variant="switch"] .ws-switch-section-3 .ws-topic-grid,
+  .wire-special[data-variant="switch"] .ws-switch-section-4 .ws-topic-grid {
+    grid-template-columns: 1fr;
+    gap: 21px;
+  }
+
+  .wire-special[data-variant="switch"] .ws-switch-section-2 .ws-topic,
+  .wire-special[data-variant="switch"] .ws-switch-section-3 .ws-topic,
+  .wire-special[data-variant="switch"] .ws-switch-section-4 .ws-topic,
+  .wire-special[data-variant="switch"] .ws-switch-section-5 .ws-topic,
+  .wire-special[data-variant="switch"] .ws-switch-section-6 .ws-topic {
+    display: block;
+    padding-top: 18px;
+  }
+
+  .wire-special[data-variant="switch"] .ws-switch-section-4 .ws-topic .ws-media,
+  .wire-special[data-variant="switch"] .ws-switch-section-4 .ws-topic .ws-copy,
+  .wire-special[data-variant="switch"] .ws-switch-section-5 .ws-topic .ws-media,
+  .wire-special[data-variant="switch"] .ws-switch-section-5 .ws-topic .ws-copy {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .wire-special[data-variant="switch"] .ws-switch-section-1 .ws-topic + .ws-topic,
+  .wire-special[data-variant="switch"] .ws-switch-section-3 .ws-topic + .ws-topic {
+    border-top: 1px solid currentColor;
+    padding-top: 20px;
+  }
+
+  .wire-special[data-variant="switch"] .ws-media-frame,
+  .wire-special[data-variant="switch"] .ws-switch-section-1 .ws-media-frame,
+  .wire-special[data-variant="switch"] .ws-switch-section-2 .ws-media-frame,
+  .wire-special[data-variant="switch"] .ws-switch-section-3 .ws-media-frame,
+  .wire-special[data-variant="switch"] .ws-switch-section-4 .ws-media-frame,
+  .wire-special[data-variant="switch"] .ws-switch-section-5 .ws-media-frame,
+  .wire-special[data-variant="switch"] .ws-switch-section-6 .ws-media-frame {
+    width: calc(100% + 44px);
+    margin-left: -22px;
+    aspect-ratio: 16 / 9;
+    max-height: none;
+  }
+
+  .wire-special[data-variant="switch"] .ws-copy {
+    padding-top: 11px !important;
+  }
+
+  .wire-special[data-variant="switch"] .ws-copy h3 {
+    font-size: 20px;
+  }
+
+  .wire-special[data-variant="switch"] .ws-copy p {
+    font-size: 14.3px;
+    line-height: 1.78;
+  }
+
+  .wire-special[data-variant="switch"] .ws-switch-section-6 .ws-data {
+    gap: 26px;
+  }
+
+  .wire-special[data-variant="switch"] .ws-source-list {
+    grid-template-columns: 1fr;
+  }
+}

@@ -10,7 +10,8 @@
     const urlLang=new URLSearchParams(location.search).get('lang');
     const lang=(urlLang==='zh'||document.documentElement.lang.toLowerCase().startsWith('zh'))?'zh':'en';
     const title=body.dataset[lang==='zh'?'titleZh':'titleEn'];
-    const desiredTitle=lang==='zh'?`${title}定制与技术说明 | 超斯迈尔`:`Custom ${title} | Technical Cable Guide | Super Smile`;
+    const guideType=body.dataset.variant==='hybrid'||body.dataset.variant==='switch'?'Technical Assembly Guide':'Technical Cable Guide';
+    const desiredTitle=lang==='zh'?`${title}定制与技术说明 | 超斯迈尔`:`Custom ${title} | ${guideType} | Super Smile`;
     const desiredDescription=body.dataset[lang==='zh'?'descZh':'descEn'];
 
     const documentLang=lang==='zh'?'zh-CN':'en';
@@ -18,6 +19,9 @@
     if(document.documentElement.lang!==documentLang) document.documentElement.lang=documentLang;
     if(document.title!==desiredTitle) document.title=desiredTitle;
     if(meta&&meta.content!==desiredDescription) meta.content=desiredDescription;
+    document.querySelectorAll('img[data-alt-en][data-alt-zh]').forEach(image=>{
+      image.alt=image.dataset[lang==='zh'?'altZh':'altEn'];
+    });
     document.querySelectorAll('[data-contact-link]').forEach(link=>{
       link.href=`/contact?category=${encodeURIComponent(key)}&category_name=${encodeURIComponent(title)}`;
     });

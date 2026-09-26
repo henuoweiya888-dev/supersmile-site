@@ -1,0 +1,239 @@
+{
+  "switch-cable-assembly": {
+    "key": "cable-assembly-18",
+    "variant": "switch",
+    "hero": "switch-hero.jpg",
+    "heroPosition": "center 50%",
+    "heroAlt": {
+      "en": "Switch and cable installation context",
+      "zh": "开关与线缆安装场景"
+    },
+    "group": {"en": "Cable Assemblies", "zh": "定制电缆组件"},
+    "sectionSizes": [2, 2, 2, 2, 1, 1],
+    "sectionKickers": [
+      {"en": "OPERATION + CONTACTS", "zh": "操作方式与触点"},
+      {"en": "WIRE + TERMINATION", "zh": "线材与端接"},
+      {"en": "CIRCUIT + FIRST ARTICLE", "zh": "回路与首件"},
+      {"en": "INSTALLED CONTEXT", "zh": "实际安装场景"},
+      {"en": "FROM MODEL TO DRAWING", "zh": "从型号到图纸"},
+      {"en": "STRUCTURE + EXPOSURE", "zh": "结构与环境"}
+    ],
+    "closing": {
+      "en": "Start with the switch model and the circuit it must control.",
+      "zh": "从开关型号与实际控制回路开始。"
+    },
+    "title": {
+      "en": "Switch Cable Assemblies",
+      "zh": "开关电缆组件"
+    },
+    "subtitle": {
+      "en": "A defined action, a defined circuit",
+      "zh": "动作明确，回路才清楚"
+    },
+    "lead": {
+      "en": "Pushbutton, rocker, toggle, snap-action and limit-switch leads are built around the specified contacts, load and installation geometry.",
+      "zh": "按钮、摇臂、拨动、微动与限位开关引线，均需围绕指定触点、负载及安装几何制作。"
+    },
+    "intro": {
+      "en": "A switch cable assembly connects the operator, contacts, cable and equipment interface as one installable unit. Similar-looking switches can differ in contact logic, load ratings, illumination wiring and operating travel. The starting point is the customer's switch part number or approved sample, circuit drawing and installed position. This category covers device-side switch leads and their connectors; a complete control-panel harness includes many additional circuits and is reviewed separately. We can review a broad range of switch wiring projects, while the exact materials, process and verification remain specific to each order.",
+      "zh": "开关电缆组件把操作件、触点、导线与设备接口连接成可安装的单元。外形相近的开关，接点逻辑、负载额定、指示灯接法及动作行程都可能不同。设计应从客户指定的开关料号或认可样品、回路图与安装位置出发。本小类聚焦设备端开关引线及其接口；包含多种回路的完整控制面板线束另行审核。我们可以承接不同类型的开关接线项目，具体用料、工艺和检验仍按每个订单确定。"
+    },
+    "metaDescription": {
+      "en": "Custom switch cable assemblies for pushbutton, rocker, toggle, microswitch and limit-switch applications. Review NO/NC/COM wiring, load ratings, terminals, cable exits and project-specific checks.",
+      "zh": "定制开关电缆组件，涵盖按钮、摇臂、拨动、微动及限位开关引线；说明 NO/NC/COM 接线、负载额定、端子、出线保护与项目检验。"
+    },
+    "keywords": "switch cable assembly, switch wire harness, pushbutton switch cable, illuminated pushbutton harness, rocker switch wiring harness, toggle switch lead, microswitch cable assembly, limit switch pigtail, NO NC COM switch wiring, SPST SPDT switch cable, KCD1 rocker switch cable, KW12 microswitch lead, R13-507 pushbutton lead, 开关电缆组件, 开关线束, 按钮开关线束, 船型摇臂开关线束, 拨动开关引线, 微动开关线束, 限位开关引线, 常开常闭公共端接线",
+    "technicalReferences": [
+      "https://www.ql-custom.com/switch-cable-assembly",
+      "https://www.ia.omron.com/support/faq/answer/29/faq03206/",
+      "https://components.omron.com/eu-en/products/basic-knowledge/switches/basics",
+      "https://www.se.com/au/en/faqs/FAQ000283803/",
+      "https://www.ia.omron.com/support/guide/30/further_information.html",
+      "https://components.omron.com/us-en/products/basic-knowledge/switches/applications",
+      "https://www.te.com/content/dam/te-com/documents/application-tooling/global/65784_Crimp%20Quality%20Poster_ENGLISH_26x13%20version.pdf",
+      "https://webstore.iec.ch/en/publication/65935",
+      "https://webstore.iec.ch/en/publication/2452"
+    ],
+    "mediaCredits": [
+      {"file":"switch-hero.jpg","author":"Sean P. Twomey / Pexels","source":"https://www.pexels.com/photo/close-up-of-the-switches-of-a-machine-13401910/","license":"Pexels License","licenseUrl":"https://www.pexels.com/license/"},
+      {"file":"switch-01.jpg","author":"Fernando Narvaez / Pexels","source":"https://www.pexels.com/photo/industrial-control-panel-with-colorful-buttons-32529354/","license":"Pexels License","licenseUrl":"https://www.pexels.com/license/"},
+      {"file":"switch-02.jpg","author":"Mixabest / Wikimedia Commons","source":"https://commons.wikimedia.org/wiki/File:Limit_Switches.JPG","license":"CC BY-SA 3.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/3.0/"},
+      {"file":"switch-03.jpg","author":"Adamantios / Wikimedia Commons","source":"https://commons.wikimedia.org/wiki/File:Cable-multicore-25x014mm-0a.jpg","license":"CC BY-SA 3.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/3.0/"},
+      {"file":"switch-04.jpg","author":"ERIC MUFASA / Pexels","source":"https://www.pexels.com/photo/a-pair-of-handheld-tools-on-green-wire-6349405/","license":"Pexels License","licenseUrl":"https://www.pexels.com/license/"},
+      {"file":"switch-05.jpg","author":"Benjamin D. Esham / Wikimedia Commons","source":"https://commons.wikimedia.org/wiki/File:Microswitch.jpg","license":"CC BY-SA 4.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0/"},
+      {"file":"switch-06.jpg","author":"Bulat843 / Pexels","source":"https://www.pexels.com/photo/technician-repairing-electronic-device-using-multimeter-33531809/","license":"Pexels License","licenseUrl":"https://www.pexels.com/license/"},
+      {"file":"switch-07.jpg","author":"WireCrafters / Wikimedia Commons","source":"https://commons.wikimedia.org/wiki/File:Electrical_Interlock.jpg","license":"CC BY-SA 4.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0/"},
+      {"file":"switch-08.jpg","author":"PaterMcFly / Wikimedia Commons","source":"https://commons.wikimedia.org/wiki/File:Main_battery_switches_in_a_sailboat.jpg","license":"CC BY 4.0","licenseUrl":"https://creativecommons.org/licenses/by/4.0/"},
+      {"file":"switch-09.jpg","author":"RAFAEL QUATY / Pexels","source":"https://www.pexels.com/photo/switches-and-buttons-on-the-panel-17630214/","license":"Pexels License","licenseUrl":"https://www.pexels.com/license/"},
+      {"file":"switch-10.jpg","author":"Leotard / Wikimedia Commons","source":"https://commons.wikimedia.org/wiki/File:Cable_gland05.jpg","license":"CC0 1.0","licenseUrl":"https://creativecommons.org/publicdomain/zero/1.0/"}
+    ],
+    "topics": [
+      {
+        "id": "operator-forms",
+        "image": "switch-01.jpg",
+        "caption": {
+          "en": "Industrial pushbuttons illustrate one operator form; other switch types require their own terminal drawings.",
+          "zh": "工业按钮展示其中一种操作形式；其他开关仍须核对各自的端子图。"
+        },
+        "title": {"en": "Pushbutton, rocker and toggle: operation defines the circuit", "zh": "按钮、摇臂与拨动：动作方式决定回路"},
+        "copy": {
+          "en": "A pushbutton may be momentary or maintained. For a rocker or toggle switch, confirm positions, poles, contact form and panel cutout. An illuminated version also needs its lamp voltage, polarity and wiring checked. Similar-looking switches can have different terminal layouts, so verify the exact part against the schematic before the first build. A lit indicator does not, by itself, prove that the load is energized.",
+          "zh": "按钮可选瞬时或保持动作；摇臂与拨动开关则要核对档位、极数、触点形式及面板开孔。有灯款还需确认灯的工作电压、极性与接线方式。外形相近的开关不能据此推断端子定义，首件前应按准确料号和原理图核对。指示灯亮起，也不一定代表负载已经接通。"
+        },
+        "imageIntent": "Real photograph of pushbutton, rocker or toggle operators with visible rear terminals; do not depict an unrelated control cabinet as the product."
+      },
+      {
+        "id": "snap-limit",
+        "image": "switch-02.jpg",
+        "caption": {
+          "en": "A machine-position switch shows actuation context, not an approved operating stroke for this project.",
+          "zh": "机构位置开关展示触发场景，不代表本项目已经确认动作行程。"
+        },
+        "title": {"en": "Snap-action and limit switches: turn movement into a defined signal", "zh": "微动与限位：把机械动作变成确定信号"},
+        "copy": {
+          "en": "Snap-action and limit switches can report a door position, end of travel or machine state. Roller, plunger and lever actuators have different approach directions, operating positions and overtravel ranges. Route the cable clear of moving parts and leave service access. Set the actuator stroke from the selected switch data sheet; a switch that only touches at the edge of its travel may not operate consistently.",
+          "zh": "门位、行程终点和机构状态检测可使用微动或限位开关。滚轮、柱塞与杠杆的接触方向、动作位置和过行程范围各不相同。线束出口要避开活动机构，并留出拆装与维修空间。开关行程须按所选型号的数据表安装；若机构只在动作边缘轻触开关，触发可能不稳定。"
+        },
+        "imageIntent": "Real limit or roller microswitch installed near a machine door or moving part, showing actual contact direction."
+      },
+      {
+        "id": "wire-jacket",
+        "image": "switch-03.jpg",
+        "caption": {
+          "en": "Conductors and jackets illustrate material choices; current capacity depends on the approved construction and installation.",
+          "zh": "导线与护套示意材料选择；载流能力取决于获认可的结构和敷设条件。"
+        },
+        "title": {"en": "Conductors and jackets: match the load and route", "zh": "导体与护套：负载和布线路径共同决定"},
+        "copy": {
+          "en": "First identify whether the switch handles a low-level signal, indicator, relay coil or load. Then check voltage, current, cable length, terminal wire range and temperature. Motors and lamps may draw inrush current, so steady-state current or wire size alone cannot establish the switch rating. Select the conductor and jacket for the actual route, bending duty and approved equipment specification.",
+          "zh": "选线先看开关控制的是低电平信号、指示灯、继电器线圈还是实际负载，再核对电压、电流、线长、端子允许线径和温度。电机、灯具等负载可能有启动或浪涌电流，不能只按稳态电流或导线粗细选开关。导体与护套应对应实际路径、弯折工况及获认可的设备要求。"
+        },
+        "imageIntent": "Real photograph of insulated copper conductors and jacket cross-sections or switch wires at a workbench."
+      },
+      {
+        "id": "termination",
+        "image": "switch-04.jpg",
+        "caption": {
+          "en": "Tools, wire and terminals illustrate termination choices; this is not a Super Smile assembly or crimp record.",
+          "zh": "工具、导线与端子展示端接选择；并非超斯迈尔成品或压接记录。"
+        },
+        "title": {"en": "Terminals and interfaces: protect the switch-side connection", "zh": "端子与接口：守住开关侧的连接边界"},
+        "copy": {
+          "en": "Spade, solder-lug, screw and connector terminations require different processes. A crimp must match the wire, terminal and tooling, with both conductor crimp and insulation support checked. For solder terminals, follow the switch maker's instructions. Define cable retention and exit protection so service loads are not carried by the contact or solder joint alone. Confirm the mating connector and terminal orientation before cutting wires.",
+          "zh": "插片、焊片、螺钉端子与连接器各有不同接线工艺。压接需匹配导线、端子和工具，并检查导体压接区与绝缘支撑区；焊接型端子则要遵循开关厂商的条件。拉力不能由触点或焊点单独承担，走线固定和出口保护应写进装配图。裁线前还应确认对插件和端子方向。"
+        },
+        "imageIntent": "Real macro photograph of switch spade terminals, a matching insulated receptacle or a documented crimping operation."
+      },
+      {
+        "id": "contact-map",
+        "image": "switch-05.jpg",
+        "caption": {
+          "en": "The opened microswitch shows internal contacts; identify COM, NO and NC from the selected part's data sheet.",
+          "zh": "拆开的微动开关展示内部触点；COM、NO、NC 须以所选型号数据表辨识。"
+        },
+        "title": {"en": "COM, NO, NC and the separate lamp circuit", "zh": "COM、NO、NC 与独立的指示灯回路"},
+        "copy": {
+          "en": "COM is the common terminal; NO and NC identify the open and closed paths in the unoperated state. Select the path from the customer's control logic, rather than wire color alone. On an illuminated switch, confirm the lamp circuit separately. The approved drawing should show terminal numbers, wire colors, mating ends and unused contacts. A change from normally open to normally closed changes what the equipment sees before anyone touches the switch.",
+          "zh": "COM 是公共端，NO 与 NC 分别代表未动作时断开和闭合的触点路径。采用哪一路取决于客户的控制逻辑，不能只凭线色决定。带灯开关还要单独确认灯的回路。获认可的图纸应标出端子号、线色、对插端和未使用触点。常开与常闭一旦接反，设备在无人操作时读到的状态就会变化。"
+        },
+        "imageIntent": "Real photograph of clearly marked COM, NO and NC terminals or a technician checking them with a meter."
+      },
+      {
+        "id": "first-article",
+        "image": "switch-06.jpg",
+        "caption": {
+          "en": "A bench-measurement photograph is process context, not a Super Smile test record or safety approval.",
+          "zh": "台面测量照片仅说明工艺场景，不是超斯迈尔检验记录或安全批准。"
+        },
+        "title": {"en": "Check the first article against a switch-state table", "zh": "首件验证从开关状态表开始"},
+        "copy": {
+          "en": "Map expected continuity at rest, actuation and return before making the first article. Check terminal identity, wire labels, switch orientation and connector pins against that table. If ingress, pull or mechanical endurance validation is required, agree on the test method and acceptance limits beforehand. A basic continuity pass confirms wiring; it does not validate the safety of the complete machine or the switch's lifetime in that installation.",
+          "zh": "先把未动作、动作和复位状态对应到预期导通路径，再制作首件。端子、线号、开关方向和连接器针位逐一与状态表核对。如需防护、拉力或机械耐久验证，应事先确定试验方法与验收限值。普通导通检查只能确认基本接线，不能代替整机安全验证，也不能证明开关在该安装状态下的寿命。"
+        },
+        "imageIntent": "Real inspection bench, wiring diagram and meter; do not imply a completed company test or record."
+      },
+      {
+        "id": "machinery",
+        "image": "switch-07.jpg",
+        "caption": {
+          "en": "Machine-position switching illustrates installation geometry; safety performance requires system-level validation.",
+          "zh": "机构位置开关展示安装几何；安全性能仍需整机层面的验证。"
+        },
+        "title": {"en": "Industrial machinery and door-position sensing", "zh": "工业设备与门位检测"},
+        "copy": {
+          "en": "Machine guards, slide endpoints, conveyors and service covers may use switch leads. Define actuator approach, bracket tolerances, cable flex and removal access before fixing the branch length. Where a switch forms part of a safety circuit, the equipment designer must select suitable components and validate the system to the applicable requirements. A red operator, an NC contact or a tidy harness is not evidence of a completed safety function.",
+          "zh": "设备护门、滑台终点、输送机构与检修盖板都可能使用开关引线。分支长度确定前，应弄清执行件的接触方向、支架公差、线缆弯折范围及维护拆卸路径。若开关属于安全回路，设备方须按适用要求选型并验证系统；红色操作件、常闭触点或整齐的线束外观都不能单独证明安全功能成立。"
+        },
+        "imageIntent": "Real industrial door switch, limit switch or conveyor mechanism with visible routing."
+      },
+      {
+        "id": "vehicle-outdoor-appliance",
+        "image": "switch-08.jpg",
+        "caption": {
+          "en": "A sailboat battery-switch panel illustrates installed controls, not an ingress rating for any cable assembly.",
+          "zh": "船用电池开关面板展示安装场景，不代表任何线束取得防护等级。"
+        },
+        "title": {"en": "Vehicle, outdoor and appliance controls", "zh": "车辆、户外与电器控制"},
+        "copy": {
+          "en": "Lighting, auxiliary equipment and appliance panels use rocker, pushbutton and toggle switches. For a vehicle or outdoor installation, review vibration, moisture, connector location, retention and circuit protection together. Appliance projects also require the panel cutout, contact load and service access to be checked. Any ingress rating must refer to the selected components and assembled installation, backed by the relevant documentation or test.",
+          "zh": "灯具、辅助设备和电器面板会使用摇臂、按钮或拨动开关。车辆与户外安装要一起核对振动、湿气、接口位置、固定点和回路保护；电器项目还要确认开孔尺寸、触点负载与维修可达性。防护等级须以具体开关、连接器和成品安装状态的文件或试验为准。"
+        },
+        "imageIntent": "Real outdoor control switch after rain, vehicle auxiliary-light switch or appliance control; no implied IP certification."
+      },
+      {
+        "id": "configuration",
+        "image": "switch-09.jpg",
+        "caption": {
+          "en": "An installed control panel illustrates switch placement; the photographed controls are not supplied part numbers.",
+          "zh": "设备控制面板展示开关安装位置；照片中的器件并非本项目指定料号。"
+        },
+        "title": {"en": "Configure from the switch model to the installation interface", "zh": "从开关型号定制到设备安装界面"},
+        "copy": {
+          "en": "A drawing, switch sample or specified part number can define the switch, connector, cable length, branches, labels and installation direction. A useful inquiry includes the switch data sheet, schematic, load type, panel or bracket dimensions, environment and quantity. Names such as R13-507, KCD1 and KW12 are component search terms, not proof that two suppliers' terminals or mounting details interchange. Any substitute must be reviewed against the actual mating and electrical requirements.",
+          "zh": "客户图纸、开关样品或指定料号可用于确定开关、连接器、线长、分支、线号和安装方向。询盘时提供开关数据表、接线图、负载类型、面板或支架尺寸、环境要求和数量，有助于区分标准件与待确认的替代件。R13-507、KCD1、KW12 等名称只是器件检索词，不能证明不同供应商的端子或安装细节可以互换。"
+        },
+        "imageIntent": "Real switch part and connector options on a neutral workbench with readable but non-customer-sensitive labels."
+      },
+      {
+        "id": "cores-protection",
+        "image": "switch-10.jpg",
+        "caption": {
+          "en": "Disassembled cable-gland parts illustrate an exit-sealing component, not a rated finished harness.",
+          "zh": "拆解的电缆密封接头展示出口保护元件，不代表整件线束的防护等级。"
+        },
+        "title": {"en": "Single-core, multicore and protected cable exits", "zh": "单芯、多芯与出口保护"},
+        "copy": {
+          "en": "Individual leads suit separated terminals; a multicore jacket groups related control conductors along one route. Core count alone does not set current capacity. Check conductor cross-section, insulation, installation and termination range separately. Select sleeving, heat-shrink, clips or grommets for the expected bending and pull at the cable exit. Those features alone do not certify the complete assembly for water ingress or tensile performance.",
+          "zh": "单根引线适合分散端子，多芯护套可把相关控制线集中到同一路径；芯数本身不决定载流能力。导体截面、绝缘、敷设方式及端接范围仍需分别核对。出口处可按弯曲和拉力工况选择护套、热缩管、卡扣或护线套，但这些措施本身不等于整件防水或抗拉认证。"
+        },
+        "imageIntent": "Real side-by-side single-lead and multicore-jacket switch terminations at comparable scale."
+      }
+    ],
+    "inputs": [
+      {"en": "Exact switch part number, data sheet or approved sample", "zh": "准确的开关料号、数据表或获认可样品"},
+      {"en": "Circuit schematic, contact-state table and any lamp wiring", "zh": "回路原理图、触点状态表及指示灯接线"},
+      {"en": "Load type, voltage, steady current and inrush or coil duty", "zh": "负载类型、电压、稳态电流及浪涌或线圈工况"},
+      {"en": "Panel cutout, actuator direction, cable route and mating connector", "zh": "面板开孔、触发方向、布线路径及对插件"},
+      {"en": "Environmental conditions, quantity and required inspection criteria", "zh": "环境条件、数量及所需检验准则"}
+    ],
+    "faq": [
+      {
+        "q": {"en": "Can a normally open switch lead replace a normally closed one?", "zh": "常开开关引线可以直接代替常闭引线吗？"},
+        "a": {"en": "Only after the equipment circuit is reviewed. NO and NC have different states before the switch is operated; the equipment designer must approve any change to the control logic and pin map.", "zh": "只有审核设备回路后才能决定。NO 与 NC 在开关未动作时状态不同，控制逻辑和针位变更须由设备设计方认可。"}
+      },
+      {
+        "q": {"en": "Does a lighted switch need a separate wire?", "zh": "带灯开关一定需要额外导线吗？"},
+        "a": {"en": "It depends on the selected switch's lamp circuit and how its terminals are arranged. Check the manufacturer's schematic, lamp voltage and polarity rather than assuming a universal wire count.", "zh": "取决于所选开关的灯回路与端子配置。应核对制造商接线图、灯电压和极性，不能预设统一的线芯数量。"}
+      },
+      {
+        "q": {"en": "Does a waterproof switch make the whole cable assembly waterproof?", "zh": "选了防水开关，整件线束就防水了吗？"},
+        "a": {"en": "No. The switch, cable entry, connector and installed panel interface form separate exposure points. A finished-assembly protection claim needs the specified configuration and appropriate evidence.", "zh": "不能。开关、出线口、连接器及面板安装界面都是独立的暴露位置。成品防护声明须对应指定装配状态及适当证据。"}
+      },
+      {
+        "q": {"en": "What is needed to quote an existing switch lead?", "zh": "按现有开关引线报价需要哪些资料？"},
+        "a": {"en": "Send the switch part number or sample, terminal and connector references, wiring diagram, length and branch dimensions, load and environment details, quantity and any required tests.", "zh": "请提供开关料号或样品、端子与接头信息、接线图、长度和分支尺寸、负载与环境条件、数量及要求的测试项目。"}
+      }
+    ],
+    "publicationGate": "Product scope is confirmed by the customer. Do not imply that an illustrated third-party switch, ingress rating, certification, test result or safety-circuit approval applies to a Super Smile order without project-specific evidence."
+  }
+}
