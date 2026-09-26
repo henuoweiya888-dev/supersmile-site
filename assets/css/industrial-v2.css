@@ -33,6 +33,71 @@
   --shadow:none;
 }
 
+/* Fuel-system harness: circuit atlas, compact technical folios. */
+body.pcc-rich-page[data-category-key="automotive-16"] #pcc-rich-content{--fuel-edge:clamp(24px,5vw,76px);background:#f1eee8;color:#151a1c}
+body[data-category-key="automotive-16"] .pcc-hero{min-height:520px;background:#0b1012;color:#f5f4ef}
+body[data-category-key="automotive-16"] .pcc-hero-grid{min-height:440px}
+body[data-category-key="automotive-16"] .pcc-hero-media:after{background:linear-gradient(90deg,rgba(6,9,10,.98) 0%,rgba(6,9,10,.90) 26%,rgba(6,9,10,.62) 50%,rgba(6,9,10,.22) 82%,rgba(6,9,10,.14) 100%)}
+body[data-category-key="automotive-16"] .pcc-hero-media img{object-position:51% 56%;filter:saturate(.63) contrast(1.11) brightness(.68)}
+body[data-category-key="automotive-16"] .pcc-hero-copy>p{text-indent:2em}
+#pcc-rich-content>.pcc-fuel-opening{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(250px,.7fr);min-height:245px;padding:0;background:#1b2528;color:#f7f5ef}
+.pcc-fuel-opening-copy{align-self:center;padding:26px var(--fuel-edge)}
+.pcc-fuel-opening-copy>span,.pcc-fuel-meta>p{color:#ee6841;font:750 10px/1.4 var(--font-mono);letter-spacing:.14em;text-transform:uppercase}
+.pcc-fuel-opening-copy h2{margin:9px 0 12px;font-size:clamp(29px,3vw,43px);font-weight:590;line-height:1.1;letter-spacing:-.035em}
+.pcc-fuel-opening-copy>p{max-width:720px;margin:0;color:#c3cbc9;font-size:13.8px;line-height:1.7;text-indent:2em}
+.pcc-fuel-media{margin:0;overflow:hidden;background:#ccd0cd}
+.pcc-fuel-media img{display:block;width:100%;height:100%;object-fit:cover;filter:saturate(.75) contrast(1.06)}
+.pcc-fuel-opening-media{min-height:245px}
+.pcc-fuel-opening-media img{object-position:50% 47%;filter:saturate(.6) contrast(1.12) brightness(.82)}
+#pcc-rich-content>.pcc-fuel-sequence{padding:0}
+.pcc-fuel-chapter{display:grid;grid-template-columns:80px minmax(220px,.78fr) minmax(0,1.22fr);gap:clamp(17px,2.6vw,38px);align-items:start;padding:31px var(--fuel-edge) 34px;border-bottom:1px solid rgba(24,31,32,.19);background:#f2f0eb}
+.pcc-fuel-chapter:nth-child(even){grid-template-columns:80px minmax(0,1.22fr) minmax(220px,.78fr);background:#e5e9e8}
+.pcc-fuel-chapter:nth-child(even)>.pcc-fuel-media{grid-column:3;grid-row:1}
+.pcc-fuel-chapter:nth-child(even)>.pcc-fuel-copy{grid-column:2;grid-row:1}
+.pcc-fuel-chapter:nth-child(4){background:#202a2d;color:#f5f3ee}
+.pcc-fuel-chapter:nth-child(7){background:#ddd8d0}
+.pcc-fuel-meta{position:relative;padding-top:12px;border-top:1px solid #b7aaa0}
+.pcc-fuel-meta>span{display:block;color:#dc4b27;font:700 20px/1 var(--font-mono)}
+.pcc-fuel-meta>p{margin:9px 0 0;line-height:1.5;letter-spacing:.08em}
+.pcc-fuel-chapter>.pcc-fuel-media{height:292px}
+.pcc-fuel-chapter:nth-child(2)>.pcc-fuel-media img{object-position:50% 62%}
+.pcc-fuel-chapter:nth-child(3)>.pcc-fuel-media img{object-position:50% 57%}
+.pcc-fuel-chapter:nth-child(6)>.pcc-fuel-media img{object-position:50% 40%}
+.pcc-fuel-chapter:nth-child(7)>.pcc-fuel-media img{object-position:50% 62%}
+.pcc-fuel-copy{max-width:880px}
+.pcc-fuel-copy h2{margin:0 0 12px;font-size:clamp(25px,2.25vw,34px);font-weight:610;line-height:1.14;letter-spacing:-.035em}
+.pcc-fuel-summary,.pcc-fuel-points p{margin:0;text-indent:2em}
+.pcc-fuel-summary{color:#424d4f;font-size:13.7px;line-height:1.76}
+.pcc-fuel-points{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:17px}
+.pcc-fuel-points section{position:relative;padding:9px 0 0}
+.pcc-fuel-points section:before{content:"";position:absolute;top:0;left:0;width:38px;height:1px;background:#b8664b}
+.pcc-fuel-points h3{margin:0 0 4px;font-size:12.8px;line-height:1.4}
+.pcc-fuel-points p{color:#707b7a;font-size:11.8px;line-height:1.58}
+.pcc-fuel-chapter:nth-child(4) .pcc-fuel-summary,.pcc-fuel-chapter:nth-child(4) .pcc-fuel-points p{color:rgba(245,243,238,.77)}
+.pcc-fuel-faq{padding:38px var(--fuel-edge)!important;background:#dce1df!important}
+body[data-category-key="automotive-16"] .pcc-media-credits{--atlas-edge:var(--fuel-edge)}
+@media(max-width:900px){.pcc-fuel-chapter,.pcc-fuel-chapter:nth-child(even){grid-template-columns:55px minmax(180px,.78fr) minmax(0,1.22fr);gap:18px}.pcc-fuel-chapter:nth-child(even){grid-template-columns:55px minmax(0,1.22fr) minmax(180px,.78fr)}.pcc-fuel-chapter>.pcc-fuel-media{height:245px}}
+@media(max-width:640px){
+  body.pcc-rich-page[data-category-key="automotive-16"] #pcc-rich-content{--fuel-edge:var(--v2-mobile-gutter)}
+  body[data-category-key="automotive-16"] .pcc-hero{min-height:565px}
+  body[data-category-key="automotive-16"] .pcc-hero-grid{min-height:495px}
+  body[data-category-key="automotive-16"] .pcc-hero-media:after{background:linear-gradient(180deg,rgba(6,9,10,.35) 0%,rgba(6,9,10,.70) 44%,rgba(6,9,10,.97) 100%)}
+  body[data-category-key="automotive-16"] .pcc-hero-media img{object-position:53% 49%}
+  #pcc-rich-content>.pcc-fuel-opening{display:flex;flex-direction:column-reverse;min-height:0}
+  .pcc-fuel-opening-media{min-height:0;height:164px}
+  .pcc-fuel-opening-copy{padding:22px var(--fuel-edge) 25px}
+  .pcc-fuel-opening-copy h2{font-size:27px}
+  .pcc-fuel-opening-copy>p{font-size:13px}
+  .pcc-fuel-chapter,.pcc-fuel-chapter:nth-child(even){display:grid;grid-template-columns:1fr;gap:0;padding:20px var(--fuel-edge) 24px}
+  .pcc-fuel-meta{grid-column:1;grid-row:1;display:flex;align-items:baseline;gap:10px;margin-bottom:10px;padding-top:9px}
+  .pcc-fuel-meta>span{font-size:15px}.pcc-fuel-meta>p{margin:0;font-size:9px}
+  .pcc-fuel-chapter>.pcc-fuel-media,.pcc-fuel-chapter:nth-child(even)>.pcc-fuel-media{grid-column:1;grid-row:3;height:205px;margin:13px calc(var(--fuel-edge)*-1) 0}
+  .pcc-fuel-chapter>.pcc-fuel-copy,.pcc-fuel-chapter:nth-child(even)>.pcc-fuel-copy{grid-column:1;grid-row:2}
+  .pcc-fuel-copy h2{font-size:23px;margin-bottom:10px}.pcc-fuel-summary{font-size:13px;line-height:1.68}
+  .pcc-fuel-points{gap:12px;margin-top:14px}.pcc-fuel-points h3{font-size:12px}.pcc-fuel-points p{font-size:11.5px}
+  .pcc-fuel-faq{padding:30px var(--fuel-edge)!important}
+}
+
 /* Agricultural / tractor harness: compact field guide with chapter-level image rhythm. */
 body.pcc-rich-page[data-category-key="automotive-15"] #pcc-rich-content{--ag-edge:clamp(24px,5vw,76px);background:#eeeae1;color:#171c1a}
 body[data-category-key="automotive-15"] .pcc-hero{min-height:520px;background:#101714;color:#f6f3ec}

@@ -431,7 +431,7 @@ async function loadData(){
     fetch('/data/products.json?v=20260831v7').then(r=>r.json()),
     fetch('/data/product-series.json?v=20260902v1').then(r=>r.json()),
     fetch('/data/product-capabilities.json?v=20260926v5').then(r=>r.json()),
-    fetch('/data/product-category-details.json?v=20260926v40').then(r=>r.json())
+    fetch('/data/product-category-details.json?v=20260926v41').then(r=>r.json())
   ]);
   SITE=s; PRODS=p; SERIES=series; CAPABILITIES=capabilities; CATEGORY_DETAILS=categoryDetails;
   applyEvidenceBoundaries();
@@ -1459,6 +1459,13 @@ function renderProductCategoryRichMarkup(page,item){
     const faq=(page.faq||[]).map((entry,index)=>`<details${index===0?' open':''}><summary>${htmlEscape(t(entry.q))}</summary><p>${htmlEscape(t(entry.a))}</p></details>`).join('');
     const credits=(page.mediaCredits||[]).map(entry=>`<li><a href="${htmlEscape(entry.url)}" target="_blank" rel="noopener">${htmlEscape(entry.file)}</a><span>${htmlEscape(entry.author)} · ${htmlEscape(entry.license)}</span></li>`).join('');
     return `<section class="pcc-ag-opening"><div class="pcc-ag-opening-copy"><span>FIELD / MACHINE / INTERFACE / SERVICE</span><h2>${heading('introduction')}</h2><p>${htmlEscape(t(page.lead))}</p></div>${agImage(page.images.range,`${item} ${LANG==='zh'?'后部农具接口场景':'rear implement context'}`,'pcc-ag-opening-media')}</section><section class="pcc-ag-sequence">${chapters}</section><section class="pcc-rich-section pcc-rich-faq pcc-ag-faq"><header class="pcc-rich-heading"><h2>${heading('faq')}</h2></header><div class="pcc-faq-grid">${faq}</div></section><details class="pcc-media-credits"><summary>${htmlEscape(t(page.creditHeading))}</summary><ul>${credits}</ul></details>`;
+  }
+  if(page.layout==='fuel-circuit-atlas'){
+    const fuelImage=(src,alt,className='')=>`<figure class="pcc-fuel-media ${className}"><img src="${htmlEscape(src)}" alt="${htmlEscape(alt)}" width="1200" height="900" loading="lazy" decoding="async"></figure>`;
+    const chapters=(page.chapters||[]).map((chapter,index)=>`<article class="pcc-fuel-chapter pcc-fuel-chapter-${index+1}"><div class="pcc-fuel-meta"><span>${String(index+1).padStart(2,'0')}</span><p>${htmlEscape(t(chapter.kicker))}</p></div>${fuelImage(chapter.image,t(chapter.title))}<div class="pcc-fuel-copy"><h2>${htmlEscape(t(chapter.title))}</h2><p class="pcc-fuel-summary">${htmlEscape(t(chapter.copy))}</p><div class="pcc-fuel-points">${(chapter.points||[]).map(point=>`<section><h3>${htmlEscape(t(point.title))}</h3><p>${htmlEscape(t(point.copy))}</p></section>`).join('')}</div></div></article>`).join('');
+    const faq=(page.faq||[]).map((entry,index)=>`<details${index===0?' open':''}><summary>${htmlEscape(t(entry.q))}</summary><p>${htmlEscape(t(entry.a))}</p></details>`).join('');
+    const credits=(page.mediaCredits||[]).map(entry=>`<li><a href="${htmlEscape(entry.url)}" target="_blank" rel="noopener">${htmlEscape(entry.file)}</a><span>${htmlEscape(entry.author)} · ${htmlEscape(entry.license)}</span></li>`).join('');
+    return `<section class="pcc-fuel-opening"><div class="pcc-fuel-opening-copy"><span>POWER / INJECTION / FEEDBACK</span><h2>${heading('introduction')}</h2><p>${htmlEscape(t(page.lead))}</p></div>${fuelImage(page.images.range,`${item} ${LANG==='zh'?'油轨场景':'fuel-rail context'}`,'pcc-fuel-opening-media')}</section><section class="pcc-fuel-sequence">${chapters}</section><section class="pcc-rich-section pcc-rich-faq pcc-fuel-faq"><header class="pcc-rich-heading"><h2>${heading('faq')}</h2></header><div class="pcc-faq-grid">${faq}</div></section><details class="pcc-media-credits"><summary>${htmlEscape(t(page.creditHeading))}</summary><ul>${credits}</ul></details>`;
   }
   if(page.layout==='ethernet-channel'){
     const ethImage=(src,alt,className='')=>`<figure class="pcc-eth-media ${className}"><img src="${htmlEscape(src)}" alt="${htmlEscape(alt)}" width="1200" height="900" loading="lazy" decoding="async"></figure>`;
