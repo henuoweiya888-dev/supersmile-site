@@ -13,6 +13,9 @@ end
 if ARGV.include?('switch-cable-assembly')
   DATA.merge!(JSON.parse(File.read(File.join(ROOT, 'content/product-category-drafts/switch-cable-assembly.json'))))
 end
+if ARGV.include?('oil-and-gas-equipment-cable-assembly')
+  DATA.merge!(JSON.parse(File.read(File.join(ROOT, 'content/product-category-drafts/oil-and-gas-equipment-cable-assembly.json'))))
+end
 
 CHAPTERS = {
   'motion'=>[['Define the motion envelope','定义运动包络'],['Build the moving cable system','构建运动线缆系统'],['Validate the installed cycle','验证安装循环']],
@@ -29,7 +32,8 @@ CHAPTERS = {
   'flexible'=>[['Specify the real movement','定义真实运动'],['Engineer the complete lead','设计完整引线'],['Verify the installed assembly','验证安装后的组件']],
   'thermal'=>[['Map the actual heat','绘制真实热区'],['Coordinate cable and accessories','协同线材与附件'],['Release the proven assembly','放行有据可查的组件']],
   'hybrid'=>[['Define two duties in one cable','一条电缆，两种任务'],['Protect both paths at the split','分支处兼顾两条路径'],['Verify the installed assembly','验证安装后的组件']],
-  'switch'=>[['Switch forms and circuits','开关形式与回路'],['Materials and contact interfaces','材料与接点接口'],['Connection solutions','连接解决方案'],['Industries and applications','行业与应用'],['Customization choices','定制选项'],['Core structure and protection','线芯结构与环境防护']]
+  'switch'=>[['Switch forms and circuits','开关形式与回路'],['Materials and contact interfaces','材料与接点接口'],['Connection solutions','连接解决方案'],['Industries and applications','行业与应用'],['Customization choices','定制选项'],['Core structure and protection','线芯结构与环境防护']],
+  'oilgas'=>[['Equipment circuits','设备回路'],['Connection solutions','连接解决方案'],['Materials and interfaces','线材与附件'],['Industries and applications','行业与应用'],['Installation and service','现场安装与维护'],['Project review','项目审核']]
 }.freeze
 
 def h(value)
@@ -45,9 +49,10 @@ def topic_card(topic, slug, index)
     'en'=>"Context image for #{topic['title']['en'].downcase}; it does not represent a Super Smile test result or certification.",
     'zh'=>"图片用于说明“#{topic['title']['zh']}”的相关场景，不代表超斯迈尔测试结果或认证。"
   }
+  photo_alt = topic['photoAlt'] || topic['title']
   <<~HTML
   <article class="ws-topic" data-reveal>
-    <figure class="ws-media"><div class="ws-media-frame"><img src="/assets/images/product-categories/stock/#{h(slug)}/#{h(topic['image'])}" alt="#{h(topic['title']['en'])}" data-alt-en="#{h(topic['title']['en'])}" data-alt-zh="#{h(topic['title']['zh'])}" loading="lazy"></div><figcaption>#{pair(caption)}</figcaption></figure>
+    <figure class="ws-media"><div class="ws-media-frame"><img src="/assets/images/product-categories/stock/#{h(slug)}/#{h(topic['image'])}" alt="#{h(photo_alt['en'])}" data-alt-en="#{h(photo_alt['en'])}" data-alt-zh="#{h(photo_alt['zh'])}" loading="lazy"></div><figcaption>#{pair(caption)}</figcaption></figure>
     <div class="ws-copy">#{pair(topic['title'], tag:'h3')}#{pair(topic['copy'], tag:'p')}</div>
   </article>
   HTML
@@ -60,7 +65,11 @@ def chapter(page, slug, number, chapter_index, topics)
     'zh'=>['系统定义','结构与安装','证据与放行'][chapter_index]
   }
   cards = topics.each_with_index.map { |topic, idx| topic_card(topic, slug, idx) }.join
-  klass = page['variant'] == 'switch' ? "ws-switch-section ws-switch-section-#{chapter_index + 1}" : %w[ws-foundation ws-engineering ws-evidence][chapter_index]
+  klass = case page['variant']
+          when 'switch' then "ws-switch-section ws-switch-section-#{chapter_index + 1}"
+          when 'oilgas' then "ws-oilgas-section ws-oilgas-section-#{chapter_index + 1}"
+          else %w[ws-foundation ws-engineering ws-evidence][chapter_index]
+          end
   last_chapter = page['sectionSizes'] ? page['sectionSizes'].length - 1 : 2
   <<~HTML
   <section class="ws-chapter #{klass}" id="ws-chapter-#{number}"><div class="ws-chapter-inner">
@@ -99,10 +108,11 @@ def render_page(slug, page)
   desc_zh = page.dig('metaDescription', 'zh') || "#{page['title']['zh']}定制技术说明，覆盖结构、材料、接口、安装、检验与项目特定验证。"
   group = page['group'] || {'en'=>'Wire & Cable', 'zh'=>'电线电缆'}
   closing = page['closing'] || {'en'=>'Define the duty before releasing the cable.', 'zh'=>'先定义工况，再放行线缆。'}
-  type_label = %w[hybrid switch].include?(page['variant']) ? 'Technical Assembly Guide' : 'Technical Cable Guide'
+  type_label = %w[hybrid switch oilgas].include?(page['variant']) ? 'Technical Assembly Guide' : 'Technical Cable Guide'
   variant_stylesheet = case page['variant']
                        when 'hybrid' then '<link rel="stylesheet" href="/assets/css/hybrid-editorial.css?v=20260927-draft2">'
                        when 'switch' then '<link rel="stylesheet" href="/assets/css/switch-editorial.css?v=20260927-draft1">'
+                       when 'oilgas' then '<link rel="stylesheet" href="/assets/css/oilgas-editorial.css?v=20260927-1">'
                        else ''
                        end
   credit_html = if page['mediaCredits']
@@ -127,8 +137,8 @@ def render_page(slug, page)
   <main class="pcc-main"><section class="ws-hero"><img class="ws-hero-image" src="/assets/images/product-categories/stock/#{slug}/#{h(page['hero'])}" alt="#{h(hero_alt)}" data-alt-en="#{h(hero_alt)}" data-alt-zh="#{h(page.dig('heroAlt','zh') || page['title']['zh'])}" width="1800" height="1200" fetchpriority="high" style="object-position:#{h(page['heroPosition'])}"><nav class="breadcrumb ws-breadcrumb"><a href="/"><span data-copy="en">Home</span><span data-copy="zh">首页</span></a><span class="crumb-sep"></span><a href="/products"><span data-copy="en">Products</span><span data-copy="zh">产品中心</span></a><span class="crumb-sep"></span>#{pair(group)}</nav><div class="ws-hero-copy"><span class="ws-kicker"><span data-copy="en">PRODUCT CATEGORY · #{h(group['en'].upcase)}</span><span data-copy="zh">产品小类 · #{h(group['zh'])}</span></span><h1>#{pair(page['title'])}</h1><div class="ws-subtitle">#{pair(page['subtitle'])}</div><div class="ws-lead">#{pair(page['lead'])}</div><div class="ws-actions"><a class="btn btn-primary" data-contact-link href="/contact?category=#{h(page['key'])}"><span data-copy="en">Ask About This Product Type</span><span data-copy="zh">咨询这一类产品</span></a><a class="ws-back" href="/products"><span data-copy="en">Back to Products</span><span data-copy="zh">返回产品中心</span></a></div></div></section>
   <div class="ws-page"><section class="ws-opening"><div><span class="ws-opening-label"><span data-copy="en">ENGINEERING OVERVIEW</span><span data-copy="zh">工程概览</span></span><h2>#{pair(page['subtitle'])}</h2></div><div>#{pair(page['intro'],tag:'p')}</div></section><nav class="ws-index">#{index}</nav>#{chapters}<details class="ws-credits"><summary><span data-copy="en">Images and technical scope</span><span data-copy="zh">图片与技术范围说明</span></summary><p><span data-copy="en">Context images explain the material, process, environment or application. They do not represent Super Smile test results or third-party certification.</span><span data-copy="zh">场景图片用于解释材料、工艺、环境或应用，不代表超斯迈尔测试结果或第三方认证。</span></p>#{credit_html}<a href="/assets/images/product-categories/stock/#{slug}/SOURCES.md"><span data-copy="en">View image source notes</span><span data-copy="zh">查看图片来源说明</span></a></details></div>
   <section class="pcc-closing ws-closing"><div><span>#{pair(group)}</span><h2>#{pair(closing)}</h2></div><a class="btn btn-primary" data-contact-link href="/contact?category=#{h(page['key'])}"><span data-copy="en">Send Your Requirements</span><span data-copy="zh">发送项目要求</span></a></section></main>
-  <footer class="footer"><div class="container"><div><h5>SuperSmile</h5><p id="footer-about"></p></div><div><h5>Contact</h5><div id="f-contact" class="footer-contact"></div></div><div><h5>Links</h5><a href="/">Home</a><a href="/custom">Custom Wiring Harness</a><a href="/products">Products</a><a href="/about">About</a><a href="/contact">Contact</a></div></div><p class="seo-keywords">#{h(page['keywords'])}</p><div class="container bot">© <span id="f-year"></span> <span id="f-company"></span> · All Rights Reserved</div></footer>
-  <div class="fab" id="fab"><button class="fab-main" id="fab-main" type="button" aria-label="Contact"><span class="fab-icon"></span><span class="fab-label">Contact</span></button><div class="fab-menu" id="fab-menu"><a class="fab-item email" id="fab-email" href="mailto:sales@supersmile-tech.com">Email</a><button class="fab-item online" id="fab-online" type="button">Online Message</button><a class="fab-item wa" id="fab-wa" href="https://wa.me/447516289817" target="_blank" rel="noopener">WhatsApp</a></div></div><div class="contact-modal" id="contact-modal"><div class="contact-modal-overlay" data-close></div><div class="contact-modal-box" role="dialog" aria-modal="true"><button class="modal-close" type="button" data-close>×</button><h3 id="modal-title">Send Us a Message</h3><form id="modal-form"><div class="field"><label id="modal-label-name">Name</label><input id="modal-name" required></div><div class="field"><label id="modal-label-email">Email</label><input id="modal-email" type="email" required></div><div class="field"><label id="modal-label-message">Message</label><textarea id="modal-message" required></textarea></div><button class="btn btn-primary" type="submit" id="modal-submit">Send Message</button></form></div></div><div class="toast" id="toast"></div><script src="/assets/js/main.js?v=20260927v65"></script><script src="/assets/js/wire-special-editorial.js?v=20260927-1"></script></body></html>
+  <footer class="footer"><div class="container"><div><h5>SuperSmile</h5><p id="footer-about"></p></div><div><h5>Contact</h5><div id="f-contact" class="footer-contact"></div></div><div><h5>Links</h5><a href="/">Home</a><a href="/custom">Custom Wiring Harness</a><a href="/products">Products</a><a href="/about">About</a><a href="/contact">Contact</a></div></div><div class="container bot">© <span id="f-year"></span> <span id="f-company"></span> · All Rights Reserved</div></footer>
+  <div class="fab" id="fab"><button class="fab-main" id="fab-main" type="button" aria-label="Contact"><span class="fab-icon"></span><span class="fab-label">Contact</span></button><div class="fab-menu" id="fab-menu"><a class="fab-item email" id="fab-email" href="mailto:sales@supersmile-tech.com">Email</a><button class="fab-item online" id="fab-online" type="button">Online Message</button><a class="fab-item wa" id="fab-wa" href="https://wa.me/447516289817" target="_blank" rel="noopener">WhatsApp</a></div></div><div class="contact-modal" id="contact-modal"><div class="contact-modal-overlay" data-close></div><div class="contact-modal-box" role="dialog" aria-modal="true"><button class="modal-close" type="button" data-close>×</button><h3 id="modal-title">Send Us a Message</h3><form id="modal-form"><div class="field"><label id="modal-label-name">Name</label><input id="modal-name" required></div><div class="field"><label id="modal-label-email">Email</label><input id="modal-email" type="email" required></div><div class="field"><label id="modal-label-message">Message</label><textarea id="modal-message" required></textarea></div><button class="btn btn-primary" type="submit" id="modal-submit">Send Message</button></form></div></div><div class="toast" id="toast"></div><script src="/assets/js/main.js?v=20260927v66"></script><script src="/assets/js/wire-special-editorial.js?v=20260927-2"></script></body></html>
   HTML
 end
 

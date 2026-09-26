@@ -10,7 +10,7 @@
     const urlLang=new URLSearchParams(location.search).get('lang');
     const lang=(urlLang==='zh'||document.documentElement.lang.toLowerCase().startsWith('zh'))?'zh':'en';
     const title=body.dataset[lang==='zh'?'titleZh':'titleEn'];
-    const guideType=body.dataset.variant==='hybrid'||body.dataset.variant==='switch'?'Technical Assembly Guide':'Technical Cable Guide';
+    const guideType=['hybrid','switch','oilgas'].includes(body.dataset.variant)?'Technical Assembly Guide':'Technical Cable Guide';
     const desiredTitle=lang==='zh'?`${title}定制与技术说明 | 超斯迈尔`:`Custom ${title} | ${guideType} | Super Smile`;
     const desiredDescription=body.dataset[lang==='zh'?'descZh':'descEn'];
 

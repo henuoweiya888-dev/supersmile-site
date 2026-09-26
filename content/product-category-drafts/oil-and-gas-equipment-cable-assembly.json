@@ -1,0 +1,209 @@
+{
+  "oil-and-gas-equipment-cable-assembly": {
+    "key": "cable-assembly-19",
+    "variant": "oilgas",
+    "hero": "oilgas-hero.jpg",
+    "heroPosition": "center 52%",
+    "heroAlt": {"en": "Surface oil and gas process facility", "zh": "油气地面工艺设施"},
+    "group": {"en": "Cable Assemblies", "zh": "定制电缆组件"},
+    "sectionSizes": [2, 2, 2, 2, 1, 1],
+    "sectionKickers": [
+      {"en": "POWER + INSTRUMENTATION", "zh": "供电与仪表"},
+      {"en": "CIRCUIT + SERVICE", "zh": "回路与维护"},
+      {"en": "MATERIAL + ENTRY", "zh": "材料与进线"},
+      {"en": "SURFACE EQUIPMENT", "zh": "地面设备"},
+      {"en": "ROUTE + IDENTIFICATION", "zh": "路径与标识"},
+      {"en": "PROJECT EVIDENCE", "zh": "项目证据"}
+    ],
+    "closing": {"en": "Specify the equipment, route and exposure before selecting the cable.", "zh": "先明确设备、路径和暴露条件，再确定线缆。"},
+    "title": {"en": "Oil & Gas Equipment Cable Assemblies", "zh": "油气设备电缆组件"},
+    "subtitle": {"en": "Defined connections for surface process equipment", "zh": "为地面工艺设备定义每一处连接"},
+    "lead": {
+      "en": "Project-specific leads for pumps, valve actuators, instruments and auxiliary equipment, reviewed against the actual circuit and installation conditions.",
+      "zh": "面向泵组、阀门执行机构、仪表和辅助设备的项目定制引线，按实际回路与安装条件审核。"
+    },
+    "intro": {
+      "en": "Oil and gas equipment uses different cable duties within the same facility: a pump motor needs a power connection, while a pressure transmitter, valve-position switch or control solenoid may use a separate instrument or control circuit. A useful assembly is therefore defined by the exact equipment interface, cable construction, route and maintenance boundary. This page focuses on surface process equipment and packaged skids. Inquiries for automotive fuel harnesses, downhole cables, subsea umbilicals or power-transmission projects can be reviewed separately against their own requirements. We review each inquiry against its drawings, component data sheets and site requirements. Hazardous-area suitability, ingress protection and any claimed test result require evidence for the specified complete installation.",
+      "zh": "同一油气设施内会有不同电缆任务：泵电机需要供电连接，压力变送器、阀位开关或控制电磁阀则可能分别使用仪表或控制回路。因此，组件应由准确的设备接口、线缆结构、布线路径和维护边界共同定义。本页聚焦地面工艺设备与成套撬装；汽车燃油线束、井下电缆、海底脐带缆或输电项目也可按各自要求另行评估。每项询盘须依据图纸、元件数据表及现场要求审核。危险区域适用性、防护等级和任何测试结果，都须有针对指定完整安装状态的证据。"
+    },
+    "metaDescription": {
+      "en": "Custom oil and gas equipment cable assemblies for surface pumps, valve actuators and process instruments. Review power and signal circuits, oil exposure, cable entries, labeling and project evidence.",
+      "zh": "油气设备电缆组件定制说明，覆盖地面泵组、阀门执行机构与工艺仪表的供电和信号回路、油液暴露、进线密封、标识及项目检验。"
+    },
+    "keywords": "oil and gas equipment cable assembly, oilfield equipment cable assembly, surface pump cable assembly, pump skid wiring harness, process instrumentation cable assembly, pressure transmitter cable, 4-20 mA instrument cable, valve actuator cable assembly, valve position switch cable, solenoid valve cable, metering skid wiring, oil-resistant industrial cable, chemical-resistant cable jacket, industrial cable gland, field-replaceable cable assembly, 油气设备电缆组件, 油田设备线束, 泵站线束, 撬装设备线缆, 压力变送器引线, 阀门执行器线束, 电磁阀线束, 仪表信号线缆, 耐油工业电缆, 工业电缆格兰头",
+    "technicalReferences": [
+      "https://www.ql-custom.com/oil-and-gas-cable-assembly",
+      "https://www.belden.com/products/cable/tray-tc-cable",
+      "https://www.belden.com/products/cable/instrumentation-cable/type-pltc-cable",
+      "https://www.belden.com/products/cable/fieldbus-cable/armored-data-cable/3076t",
+      "https://www.emerson.com/is/content/emerson/en/measurement-instrumentation/technical/products/pressure/documents/dl-rmt-00809-0100-4107.pdf",
+      "https://www.rotork.com/uploads/documents-versions/22413/1/pub002-001-00_0915.pdf",
+      "https://media.rotork.com/api/public/content/pub002-004-000111-pdf-rtkimportasset6181e4.pdf",
+      "https://www.phoenixcontact.com/en-us/products/full-screw-connection-g-ins-m12-s68n-pnes-bk-1411131",
+      "https://assets.phoenixcontact.com/file/2416959f-7120-4a7f-b4f8-f5b10334d9ae/media/original?North_American_Cabling_Solutions_1117598-00.pdf=",
+      "https://webstore.iec.ch/en/publication/66049",
+      "https://webstore.iec.ch/en/publication/2452"
+    ],
+    "mediaCredits": [
+      {"file":"oilgas-hero.jpg","author":"龔 月強 / Pexels","source":"https://www.pexels.com/photo/inside-a-petrochemical-industry-5884386/","license":"Pexels License","licenseUrl":"https://www.pexels.com/license/"},
+      {"file":"oilgas-01.jpg","author":"Mumtaz Niazi / Pexels","source":"https://www.pexels.com/photo/industrial-pumps-at-dubai-power-plant-35645884/","license":"Pexels License","licenseUrl":"https://www.pexels.com/license/"},
+      {"file":"oilgas-02.jpg","author":"PEO ACWA / Wikimedia Commons","source":"https://commons.wikimedia.org/wiki/File:Pueblo_Chemical_Agent-Destruction_Pilot_Plant_Electrical_Terminals_(8456400416).jpg","license":"CC BY 2.0","licenseUrl":"https://creativecommons.org/licenses/by/2.0/"},
+      {"file":"oilgas-03.jpg","author":"Sid Mbog / Wikimedia Commons","source":"https://commons.wikimedia.org/wiki/File:Electrician_reading_schematic.jpg","license":"CC BY-SA 4.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0/"},
+      {"file":"oilgas-04.jpg","author":"S.J. de Waard / Wikimedia Commons","source":"https://commons.wikimedia.org/wiki/File:Industrial_electrical_socket_(01).JPG","license":"CC BY-SA 3.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/3.0/"},
+      {"file":"oilgas-05.jpg","author":"TubeTimeUS / Wikimedia Commons","source":"https://commons.wikimedia.org/wiki/File:Cross_section_of_an_older_US_power_cable.jpg","license":"CC BY-SA 4.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0/"},
+      {"file":"oilgas-06.jpg","author":"Czech Academy of Science / Wikimedia Commons","source":"https://commons.wikimedia.org/wiki/File:Electron_microscope_Mamut_at_the_Institute_of_Scientific_Instruments_of_the_Czech_Academy_of_Science_in_Brno_(5),_junction_box.jpg","license":"CC BY 3.0","licenseUrl":"https://creativecommons.org/licenses/by/3.0/"},
+      {"file":"oilgas-07.jpg","author":"Magda Ehlers / Pexels","source":"https://www.pexels.com/photo/red-and-gray-industrial-machinery-2569842/","license":"Pexels License","licenseUrl":"https://www.pexels.com/license/"},
+      {"file":"oilgas-08.jpg","author":"HerbstrittM / Wikimedia Commons","source":"https://commons.wikimedia.org/wiki/File:Drehantrieb_in_raffinerie_01.jpg","license":"CC BY-SA 3.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/3.0/"},
+      {"file":"oilgas-09.jpg","author":"Santeri Viinamäki / Wikimedia Commons","source":"https://commons.wikimedia.org/wiki/File:Cable_tray_with_cables.jpg","license":"CC BY-SA 4.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0/"},
+      {"file":"oilgas-10.jpg","author":"Dustin Pengelly / Pexels","source":"https://www.pexels.com/photo/technician-measuring-electrical-panel-voltage-outdoors-35138694/","license":"Pexels License","licenseUrl":"https://www.pexels.com/license/"}
+    ],
+    "topics": [
+      {
+        "id": "pump-circuits",
+        "image": "oilgas-01.jpg",
+        "photoAlt": {"en": "Industrial pumps and motors beside process piping", "zh": "工艺管路旁的工业泵与电机"},
+        "caption": {"en": "A surface pump installation illustrates equipment interfaces, not a Super Smile supplied cable or its rating.", "zh": "地面泵组照片用于说明设备接口，并非超斯迈尔供货线缆或其额定参数。"},
+        "title": {"en": "Pump power and auxiliary control are separate duties", "zh": "泵组供电与辅助控制是不同任务"},
+        "copy": {
+          "en": "A pump skid may place motor power, temperature monitoring, valve control and local indications close together, but each path has its own voltage, load, conductor and termination limits. Map outgoing, return and protective-earth conductors from the approved equipment drawing. Then identify the smaller control and instrument circuits separately. Motor start and fault behavior can differ from steady running; the selected cable, protective device and terminals must be assessed as a complete circuit rather than inferred from a generic ‘oilfield cable’ label.",
+          "zh": "泵撬上可能同时布置电机供电、温度监测、阀门控制与就地指示，但每条路径的电压、负载、导体和端接限制不同。先从获认可的设备图中理清去程、回程及保护接地，再单独列出较小的控制与仪表回路。电机启动和故障工况可能与稳态运行不同，线缆、保护器件与端子应作为完整回路审核，不能凭“油田电缆”这一通称推断适用性。"
+        },
+        "imageIntent": "Real surface industrial pump skid or motor terminal context with visible electrical connections, not a vehicle engine or subsea photo."
+      },
+      {
+        "id": "instrument-circuits",
+        "image": "oilgas-02.jpg",
+        "photoAlt": {"en": "Electrician working at a magnetic flow transmitter terminal", "zh": "电工在磁流量变送器端子处作业"},
+        "caption": {"en": "Field instrumentation shows where measurement leads are installed; no signal accuracy claim is attached to this image.", "zh": "现场仪表照片展示测量引线位置，不代表该图片可证明信号精度。"},
+        "title": {"en": "Instrument leads begin at the device terminals", "zh": "仪表引线从设备端子定义"},
+        "copy": {
+          "en": "Pressure, temperature, flow and position devices may use different analog, discrete or digital interfaces. Record the exact transmitter or switch model, supply requirement, terminal polarity, signal pair and permitted cable entry before choosing the lead. For a 4–20 mA or HART loop, follow the instrument manufacturer's wiring and shield instructions; a similar connector shell does not establish the same pinout or measurement behavior. Keep the instrument path and power path identifiable from the field device to the control end.",
+          "zh": "压力、温度、流量和位置器件可能分别采用模拟量、开关量或数字接口。选线前应记录准确的变送器或开关型号、供电要求、端子极性、信号线对及允许进线方式。4–20 mA 或 HART 回路应遵循仪表厂商的接线与屏蔽要求；接头外壳相似不能证明针脚或测量行为相同。仪表路径与动力路径从现场设备到控制端都应可辨。"
+        },
+        "imageIntent": "Real process pressure or flow instrument mounted on surface pipework, with visible cable entry; avoid a generic automotive pressure sensor."
+      },
+      {
+        "id": "circuit-map",
+        "image": "oilgas-03.jpg",
+        "photoAlt": {"en": "Electrician reading a paper electrical schematic beside installed wiring", "zh": "电工在现场布线旁查阅纸质电气图"},
+        "caption": {"en": "A wiring review scene illustrates pin-map control; it is not a project-approved drawing or test record.", "zh": "接线审核场景说明针脚表管理，并非项目认可图纸或检验记录。"},
+        "title": {"en": "Keep power, control and measurement pin maps distinct", "zh": "动力、控制与测量针脚表分别核对"},
+        "copy": {
+          "en": "Start with an endpoint schedule: device part number, mating connector, terminal number, conductor identity, shield path and cable length. A valve actuator may provide separate power and control terminals, while a transmitter has its own loop connections. Where one route carries more than one circuit, define insulation, segregation, shield termination and grounding from the equipment designer's documents. A continuity pass confirms a wire path only; it does not prove signal performance or the safety of the installed equipment.",
+          "zh": "先建立两端接口清单：设备料号、对插件、端子号、导体标识、屏蔽路径与线长。阀门执行机构可能分设动力和控制端子，变送器又有自己的回路接点。若一条路径容纳多种回路，应依据设备设计文件定义绝缘、分隔、屏蔽端接与接地。导通检查只确认导线路径，不能证明信号性能或安装后设备的安全性。"
+        },
+        "imageIntent": "Real industrial wiring diagram or technician checking labeled terminal blocks, without customer-identifiable data."
+      },
+      {
+        "id": "service-boundary",
+        "image": "oilgas-04.jpg",
+        "photoAlt": {"en": "Unconnected multipole industrial electrical socket with open protective lid", "zh": "护盖打开的未接线多触点工业插座"},
+        "caption": {"en": "A multipole industrial socket illustrates the mating interface, not the specified equipment selection or its certification.", "zh": "多触点工业插座展示对接界面，不代表本页指定设备的选型或认证。"},
+        "title": {"en": "Design a serviceable equipment-side section", "zh": "为现场设备定义可维护的连接段"},
+        "copy": {
+          "en": "A replaceable lead can end at a defined instrument, valve or junction-box interface, provided the mating part and wiring are specified. Mark each end so a maintenance technician can identify the circuit before disconnecting it. Branch length must allow access without leaving a loop where it can snag or rest against hot or moving equipment. A substitute connector is not accepted by appearance alone; check the exact contacts, seal, cable diameter, rating and pin map against the approved configuration.",
+          "zh": "可更换引线可以止于明确的仪表、阀门或接线箱接口，前提是对插件与接线已被定义。两端标识应让维护人员在拆卸前辨认回路。分支需留出操作空间，也不能形成会被钩挂或贴靠高温、运动部件的多余线圈。替代接头不能凭外观认可，须逐项核对触点、密封件、电缆外径、额定值及针脚表。"
+        },
+        "imageIntent": "Real industrial plug-and-socket or junction-box lead on a surface pump or valve skid, with maintenance access visible."
+      },
+      {
+        "id": "exposure-material",
+        "image": "oilgas-05.jpg",
+        "photoAlt": {"en": "Cross-section of a layered power cable with three conductors", "zh": "带三根导体的分层电力电缆截面"},
+        "caption": {"en": "An industrial cable jacket illustrates material selection; oil and chemical resistance depend on the exact compound and exposure.", "zh": "工业护套照片说明材料选择；耐油与耐化学性取决于具体配方和暴露条件。"},
+        "title": {"en": "Choose a jacket for the named oil and exposure", "zh": "护套应对应具体油液与暴露条件"},
+        "copy": {
+          "en": "Oil mist, hydraulic fluid, cleaning agents, sunlight, abrasion and ambient temperature are different exposures. PVC, PUR and other jacket families contain many formulations; a material name alone cannot establish resistance to a specified fluid. Match the cable manufacturer's data to the actual medium, concentration, duration, temperature and installation method. Where a cable lies in a tray or conduit, check the required cable construction and site rules rather than borrowing ratings from a different product line.",
+          "zh": "油雾、液压油、清洗剂、日晒、磨耗及环境温度是不同暴露条件。PVC、PUR 等护套类别各有多种配方，材料名称本身不能证明对指定液体的耐受。应把线缆厂商数据与实际介质、浓度、接触时长、温度和敷设方式对应。若电缆进入桥架或导管，还须核对现场规定的结构与安装要求，不能套用另一系列产品的额定值。"
+        },
+        "imageIntent": "Real cable jacket, cable cross-section or process-area oil exposure; avoid staged immersion implying test certification."
+      },
+      {
+        "id": "entries-seals",
+        "image": "oilgas-06.jpg",
+        "photoAlt": {"en": "Junction box cable gland and bend-protection sleeve on equipment", "zh": "设备接线盒上的格兰头与防折护套"},
+        "caption": {"en": "A cable-entry fitting shows clamping geometry, not a declared IP or hazardous-area rating for the finished assembly.", "zh": "进线接头展示夹持结构，不代表整件组件已获 IP 或危险区域额定。"},
+        "title": {"en": "Cable entries, seals and strain relief work as one interface", "zh": "进线、密封与应力释放是同一个接口问题"},
+        "copy": {
+          "en": "A gland must match the enclosure thread, cable outside diameter, seal material and installation torque. The first bend and clamp position should not put pull or vibration directly into instrument terminals. Heat-shrink or a boot may protect a branch, but neither creates a complete-equipment ingress rating by appearance. For any classified hazardous location, the site designer must select and document the appropriate equipment and installation method under the applicable requirements; a generic cable gland or jacket cannot make an assembly Ex-approved.",
+          "zh": "格兰头须匹配箱体螺纹、电缆外径、密封材料和安装扭矩。首次弯折与夹持位置应避免拉力或振动直接传到仪表端子。热缩管或尾套可以保护分支，却不能凭外观形成整机防护等级。若安装点属于已划分的危险区域，须由现场设计方按适用要求选择并记录设备及安装方式；普通格兰头或护套不能让组件自动成为防爆产品。"
+        },
+        "imageIntent": "Real macro photo of industrial cable gland and cable entry at surface equipment; avoid implying a visible Ex mark unless verified."
+      },
+      {
+        "id": "pump-metering-skid",
+        "image": "oilgas-07.jpg",
+        "photoAlt": {"en": "Red and gray industrial pumps and pipes at a surface facility", "zh": "地面设施中的红灰色工业泵与管路"},
+        "caption": {"en": "Surface industrial pipework illustrates packaged equipment surroundings, not a documented Super Smile installation.", "zh": "地面工业管路展示成套设备环境，并非超斯迈尔已记录的安装案例。"},
+        "title": {"en": "Surface pump stations and metering skids", "zh": "地面泵站与计量撬装"},
+        "copy": {
+          "en": "Packaged surface equipment brings motors, valves, junction boxes and instruments into a compact route. The cable assembly may need short equipment tails, defined branch points and clear identification on both sides of the skid boundary. Confirm where the vendor package ends and site wiring begins; those interfaces drive connector selection, spare length and document ownership. A preterminated section can reduce field terminations when the package layout and acceptance plan are agreed before manufacture.",
+          "zh": "地面成套设备把电机、阀门、接线箱和仪表布置在紧凑范围内。电缆组件可能需要短设备尾线、明确的分支基准以及撬内外一致的标识。先确认设备供方范围与现场布线范围的交界，才能确定接头、检修余量及文件归属。若包装布局和验收计划在制作前明确，预端接段可减少现场接线工作。"
+        },
+        "imageIntent": "Real onshore surface pump station or metering skid with identifiable electrical and instrumentation interfaces; no subsea imagery."
+      },
+      {
+        "id": "valve-instrument",
+        "image": "oilgas-08.jpg",
+        "photoAlt": {"en": "Electric valve actuator with blue cables in a refinery", "zh": "炼厂中带蓝色线缆的电动阀门执行机构"},
+        "caption": {"en": "A refinery valve actuator and its blue leads illustrate a control endpoint, not approval for a particular plant zone.", "zh": "炼厂阀门执行机构与蓝色引线展示控制端点，不代表适用于某一厂区分区。"},
+        "title": {"en": "Valve actuators and process instruments", "zh": "阀门执行机构与工艺仪表"},
+        "copy": {
+          "en": "An electric actuator may separate power, position indication and command circuits inside its terminal compartment. A nearby pressure transmitter or limit switch adds its own cable-entry and polarity rules. Do not merge these into one pin map because the devices sit on the same pipe. Review each manufacturer's wiring document, mechanical entry, environmental rating and required grounding path, then define the cable tails as a matched set of equipment-side interfaces.",
+          "zh": "电动执行机构的接线腔内可能把动力、阀位反馈和命令回路分开；邻近的压力变送器或限位开关又各有进线与极性要求。它们安装在同一管段，也不能合并成一张未经区分的针脚表。应分别审核厂商接线文件、机械进线、环境额定与接地路径，再把各段引线定义成相互匹配的设备端接口。"
+        },
+        "imageIntent": "Real industrial valve actuator and adjacent process instrument on surface piping, wiring visible."
+      },
+      {
+        "id": "routing-labels",
+        "image": "oilgas-09.jpg",
+        "photoAlt": {"en": "Bundled electrical cables laid in a metal cable tray", "zh": "金属桥架内成束敷设的电缆"},
+        "caption": {"en": "An industrial cable route illustrates installation planning; it is not an as-built drawing of a customer site.", "zh": "工业线缆路径说明安装规划，并非客户现场竣工图。"},
+        "title": {"en": "Predefine routing, labels and service access", "zh": "预先定义路径、标识与检修空间"},
+        "copy": {
+          "en": "A useful build drawing specifies length datums, branch directions, clip points, cable tags and the first bend after each rigid termination. Route away from hot surfaces, moving mechanisms and sharp edges, using the selected cable maker's bend limits. Leave access to a gland or connector that may need inspection, but do not leave loose cable where it can be caught by equipment. Labels should identify the circuit and destination in the site's own naming scheme; generic wire colors are not a maintenance plan.",
+          "zh": "可执行的装配图应给出长度基准、分支方向、固定点、线标及刚性端接后的首次弯折位置。布线须避开热表面、运动机构和锐边，并遵循所选线缆厂商的弯曲限制。格兰头或接头要留出检查空间，多余电缆也不能松散地留在设备旁。标签应采用现场自己的回路和目的地命名，通用线色不能替代维护标识。"
+        },
+        "imageIntent": "Real labeled industrial cable route on a skid, pipe rack or cabinet with service clearance visible."
+      },
+      {
+        "id": "project-review",
+        "image": "oilgas-10.jpg",
+        "photoAlt": {"en": "Technician measuring an outdoor electrical cabinet with a multimeter", "zh": "技术人员用万用表测量室外电柜"},
+        "caption": {"en": "A technician checking a control cabinet illustrates project-specific inspection, not a Super Smile test report or certification.", "zh": "技术人员检查控制柜的场景说明项目检验，并非超斯迈尔测试报告或认证。"},
+        "title": {"en": "Release the specified assembly, not a generic promise", "zh": "放行指定组件，不做笼统承诺"},
+        "copy": {
+          "en": "Before production, agree on the component list, approved drawing, pin map, dimensions, labels and inspection points. Continuity and polarity checks can establish basic wiring; insulation, shield, pull, ingress or functional testing require project-defined methods and limits. Record what was actually checked and against which revision. If the intended installation is in a classified hazardous area, the equipment and installation assessment belongs to the responsible design authority under the applicable rules; this product page makes no Ex, ATEX, subsea or blanket IP claim.",
+          "zh": "生产前应确认物料清单、认可图纸、针脚表、尺寸、标识与检验点。导通和极性检查可以确立基本接线；绝缘、屏蔽、拉力、防护或功能试验则要有项目定义的方法与限值。记录实际检查内容及对应版本。若安装在已划分的危险区域，设备和安装评估应由责任设计方按适用规则完成；本页面不宣称整类产品取得 Ex、ATEX、海底使用或统一 IP 等级。"
+        },
+        "imageIntent": "Real electrical inspection workbench with meter and lead, without implying a completed company test or certificate."
+      }
+    ],
+    "inputs": [
+      {"en": "Equipment model, terminal schedule and approved power/control/instrument drawings", "zh": "设备型号、端子清单及获认可的动力、控制、仪表图纸"},
+      {"en": "Mating connectors, glands, enclosure entries and cable outside-diameter limits", "zh": "对插件、格兰头、箱体进线和电缆外径限制"},
+      {"en": "Voltage, load, signal type, shield and grounding requirements", "zh": "电压、负载、信号类型、屏蔽及接地要求"},
+      {"en": "Named fluid, exposure duration, temperature, route, bends and service boundary", "zh": "具体介质、暴露时长、温度、路径、弯折和维护边界"},
+      {"en": "Site classification if applicable, quantity and project test/acceptance criteria", "zh": "适用时的现场分区、数量及项目试验与验收准则"}
+    ],
+    "faq": [
+      {
+        "q": {"en": "Does an oil-resistant cable withstand every petroleum fluid?", "zh": "耐油电缆能接触所有石油类液体吗？"},
+        "a": {"en": "No. Resistance depends on the exact jacket compound, named fluid, concentration, temperature and exposure time. Compare the chosen cable data sheet with the site conditions before approval.", "zh": "不能。耐受性取决于准确的护套配方、介质、浓度、温度和接触时长；批准前要把所选线缆数据表与现场条件逐项对应。"}
+      },
+      {
+        "q": {"en": "Can these assemblies be installed in a hazardous area?", "zh": "这类组件可以安装在危险区域吗？"},
+        "a": {"en": "The site classification and applicable rules determine the equipment and installation requirements. A cable, gland or connector selected in isolation does not approve the finished assembly or plant installation for an Ex area.", "zh": "现场分区和适用规则决定设备及安装要求。单独选用某款电缆、格兰头或接头，并不使成品组件或现场安装自动获得防爆适用性。"}
+      },
+      {
+        "q": {"en": "Can power and transmitter signals share one cable route?", "zh": "动力线和变送器信号线可以走同一路径吗？"},
+        "a": {"en": "Only after the equipment designer reviews circuit separation, cable construction, shielding, grounding and site installation rules. Similar routing does not mean the circuits should share a jacket or connector.", "zh": "须由设备设计方审核回路分隔、线缆结构、屏蔽、接地及现场敷设规则；路径接近不等于应共用护套或接头。"}
+      },
+      {
+        "q": {"en": "What information is needed for a replacement equipment lead?", "zh": "按现有设备尾线制作替换件需要什么资料？"},
+        "a": {"en": "Provide the equipment and cable part numbers or a sample, both endpoint drawings, circuit and pin maps, length and branch dimensions, environmental conditions, site restrictions and acceptance criteria.", "zh": "请提供设备与电缆料号或样品、两端接口图、回路与针脚表、长度和分支尺寸、环境条件、现场限制及验收准则。"}
+      }
+    ],
+    "publicationGate": "Scope is surface industrial oil and gas equipment only. Do not imply that photographs show a Super Smile installation or that any assembly has ATEX, Ex, subsea, downhole, blanket IP or test approval without exact project documentation."
+  }
+}

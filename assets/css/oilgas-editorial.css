@@ -1,0 +1,334 @@
+.wire-special[data-variant="oilgas"] {
+  --accent: #df542e;
+  --ws-paper: #efeee8;
+  --ws-width: 1200px;
+}
+
+.wire-special[data-variant="oilgas"] .ws-hero {
+  min-height: 520px;
+  padding: 0;
+}
+
+.wire-special[data-variant="oilgas"] .ws-hero-image {
+  filter: brightness(.52) saturate(.56) contrast(1.1);
+}
+
+.wire-special[data-variant="oilgas"] .ws-hero::after {
+  background: linear-gradient(90deg, #081013f5 0%, #081013e8 28%, #081013b8 50%, #0810134c 78%, #08101373 100%),
+    linear-gradient(0deg, #08101375, transparent 55%);
+}
+
+.wire-special[data-variant="oilgas"] .ws-hero-copy {
+  width: min(850px, 72vw);
+  padding-block: 84px 38px;
+}
+
+.wire-special[data-variant="oilgas"] .ws-hero h1 {
+  font-size: clamp(48px, 5.7vw, 75px);
+  line-height: 1.01;
+}
+
+.wire-special[data-variant="oilgas"] .ws-opening {
+  grid-template-columns: .77fr 1.23fr;
+  gap: 60px;
+  padding-block: 43px 35px;
+}
+
+.wire-special[data-variant="oilgas"] .ws-index a {
+  transition: background .3s ease, color .3s ease;
+}
+
+.wire-special[data-variant="oilgas"] .ws-index a:hover,
+.wire-special[data-variant="oilgas"] .ws-index a:focus-visible {
+  background: #dbe0de;
+}
+
+.wire-special[data-variant="oilgas"] .ws-chapter {
+  padding-block: 44px 46px;
+}
+
+.wire-special[data-variant="oilgas"] .ws-head {
+  margin-bottom: 24px;
+}
+
+.wire-special[data-variant="oilgas"] .ws-head h2 {
+  font-size: clamp(32px, 3vw, 42px);
+}
+
+.wire-special[data-variant="oilgas"] .ws-topic-grid {
+  gap: 30px;
+}
+
+.wire-special[data-variant="oilgas"] .ws-copy {
+  padding-top: 7px;
+}
+
+.wire-special[data-variant="oilgas"] .ws-copy h3 {
+  font-size: clamp(20px, 1.9vw, 24px);
+  margin-bottom: 8px;
+}
+
+.wire-special[data-variant="oilgas"] .ws-copy p {
+  font-size: 14.8px;
+  line-height: 1.78;
+}
+
+/* Equipment circuits: two parallel editorial rows, no card boxes. */
+.wire-special[data-variant="oilgas"] .ws-oilgas-section-1 {
+  background: #e3e8e5;
+}
+
+.wire-special[data-variant="oilgas"] .ws-oilgas-section-1 .ws-topic-grid {
+  grid-template-columns: 1fr;
+  gap: 17px;
+}
+
+.wire-special[data-variant="oilgas"] .ws-oilgas-section-1 .ws-topic {
+  display: grid;
+  grid-template-columns: minmax(285px, .48fr) minmax(0, 1fr);
+  gap: 36px;
+  align-items: start;
+  border-top: 1px solid #b5c0ba;
+  padding-top: 18px;
+}
+
+.wire-special[data-variant="oilgas"] .ws-oilgas-section-1 .ws-media-frame {
+  aspect-ratio: 16 / 9;
+  max-height: 190px;
+}
+
+/* Connection solutions: controlled dark spread with matching, modest photo strips. */
+.wire-special[data-variant="oilgas"] .ws-oilgas-section-2 {
+  background: #17262a;
+  color: #f2f1eb;
+}
+
+.wire-special[data-variant="oilgas"] .ws-oilgas-section-2 .ws-head {
+  border-color: #52605f;
+}
+
+.wire-special[data-variant="oilgas"] .ws-oilgas-section-2 .ws-head p,
+.wire-special[data-variant="oilgas"] .ws-oilgas-section-2 .ws-copy p,
+.wire-special[data-variant="oilgas"] .ws-oilgas-section-2 figcaption {
+  color: #c2cdca;
+}
+
+.wire-special[data-variant="oilgas"] .ws-oilgas-section-2 .ws-topic-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 43px;
+}
+
+.wire-special[data-variant="oilgas"] .ws-oilgas-section-2 .ws-media-frame {
+  aspect-ratio: 2.55 / 1;
+  max-height: 185px;
+  background: #36484b;
+}
+
+/* Materials and interfaces: each material decision is paired with its photograph. */
+.wire-special[data-variant="oilgas"] .ws-oilgas-section-3 {
+  background: #f4f0e9;
+}
+
+.wire-special[data-variant="oilgas"] .ws-oilgas-section-3 .ws-topic-grid {
+  grid-template-columns: 1fr;
+  gap: 17px;
+}
+
+.wire-special[data-variant="oilgas"] .ws-oilgas-section-3 .ws-topic {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, .57fr);
+  gap: 38px;
+  align-items: start;
+  padding-top: 18px;
+  border-top: 1px solid #c3c6bf;
+}
+
+.wire-special[data-variant="oilgas"] .ws-oilgas-section-3 .ws-copy {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.wire-special[data-variant="oilgas"] .ws-oilgas-section-3 .ws-media {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.wire-special[data-variant="oilgas"] .ws-oilgas-section-3 .ws-media-frame {
+  aspect-ratio: 16 / 9;
+  max-height: 185px;
+}
+
+/* Applications: equal visual rhythm across the two examples. */
+.wire-special[data-variant="oilgas"] .ws-oilgas-section-4 {
+  background: #dfe4e2;
+}
+
+.wire-special[data-variant="oilgas"] .ws-oilgas-section-4 .ws-topic-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 45px;
+}
+
+.wire-special[data-variant="oilgas"] .ws-oilgas-section-4 .ws-media-frame {
+  aspect-ratio: 2.35 / 1;
+  max-height: 205px;
+}
+
+/* Installation and project-release notes: one image supports each long idea. */
+.wire-special[data-variant="oilgas"] .ws-oilgas-section-5 {
+  background: #ede8de;
+}
+
+.wire-special[data-variant="oilgas"] .ws-oilgas-section-6 {
+  background: #d6dedb;
+}
+
+.wire-special[data-variant="oilgas"] .ws-oilgas-section-5 .ws-topic-grid,
+.wire-special[data-variant="oilgas"] .ws-oilgas-section-6 .ws-topic-grid {
+  grid-template-columns: 1fr;
+}
+
+.wire-special[data-variant="oilgas"] .ws-oilgas-section-5 .ws-topic,
+.wire-special[data-variant="oilgas"] .ws-oilgas-section-6 .ws-topic {
+  display: grid;
+  grid-template-columns: minmax(280px, .86fr) minmax(0, 1.14fr);
+  gap: 42px;
+  align-items: start;
+}
+
+.wire-special[data-variant="oilgas"] .ws-oilgas-section-6 .ws-topic {
+  grid-template-columns: minmax(0, 1.14fr) minmax(280px, .86fr);
+}
+
+.wire-special[data-variant="oilgas"] .ws-oilgas-section-6 .ws-copy {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.wire-special[data-variant="oilgas"] .ws-oilgas-section-6 .ws-media {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.wire-special[data-variant="oilgas"] .ws-oilgas-section-5 .ws-media-frame,
+.wire-special[data-variant="oilgas"] .ws-oilgas-section-6 .ws-media-frame {
+  aspect-ratio: 16 / 9;
+  max-height: 205px;
+}
+
+.wire-special[data-variant="oilgas"] .ws-oilgas-section-6 .ws-data {
+  margin-top: 29px;
+  padding-top: 25px;
+}
+
+.wire-special[data-variant="oilgas"] .ws-source-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 5px 22px;
+  padding: 0;
+  margin: 14px 0;
+  list-style: none;
+}
+
+.wire-special[data-variant="oilgas"] .ws-source-list li {
+  line-height: 1.55;
+}
+
+.wire-special[data-variant="oilgas"] .ws-source-list li > span {
+  display: inline-block;
+  min-width: 95px;
+  color: #818c89;
+  font: 10px ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+.wire-special[data-variant="oilgas"] .ws-closing {
+  background: #142227;
+}
+
+@media (max-width: 820px) {
+  .wire-special[data-variant="oilgas"] .ws-hero {
+    min-height: 590px;
+  }
+
+  .wire-special[data-variant="oilgas"] .ws-hero::after {
+    background: linear-gradient(180deg, #071012bf 0%, #07101277 35%, #071012f2 91%);
+  }
+
+  .wire-special[data-variant="oilgas"] .ws-hero-copy {
+    width: calc(100vw - 44px);
+    padding: 84px 0 35px;
+  }
+
+  .wire-special[data-variant="oilgas"] .ws-hero h1 {
+    font-size: clamp(39px, 11.2vw, 58px);
+  }
+
+  .wire-special[data-variant="oilgas"] .ws-opening {
+    grid-template-columns: 1fr;
+    gap: 17px;
+    padding-block: 34px 29px;
+  }
+
+  .wire-special[data-variant="oilgas"] .ws-chapter {
+    padding-block: 35px 39px;
+  }
+
+  .wire-special[data-variant="oilgas"] .ws-oilgas-section-1 .ws-topic-grid,
+  .wire-special[data-variant="oilgas"] .ws-oilgas-section-2 .ws-topic-grid,
+  .wire-special[data-variant="oilgas"] .ws-oilgas-section-3 .ws-topic-grid,
+  .wire-special[data-variant="oilgas"] .ws-oilgas-section-4 .ws-topic-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .wire-special[data-variant="oilgas"] .ws-oilgas-section-1 .ws-topic,
+  .wire-special[data-variant="oilgas"] .ws-oilgas-section-3 .ws-topic,
+  .wire-special[data-variant="oilgas"] .ws-oilgas-section-5 .ws-topic,
+  .wire-special[data-variant="oilgas"] .ws-oilgas-section-6 .ws-topic {
+    display: block;
+    padding-top: 18px;
+  }
+
+  .wire-special[data-variant="oilgas"] .ws-oilgas-section-3 .ws-copy,
+  .wire-special[data-variant="oilgas"] .ws-oilgas-section-3 .ws-media,
+  .wire-special[data-variant="oilgas"] .ws-oilgas-section-6 .ws-copy,
+  .wire-special[data-variant="oilgas"] .ws-oilgas-section-6 .ws-media {
+    grid-column: auto;
+    grid-row: auto;
+  }
+
+  .wire-special[data-variant="oilgas"] .ws-oilgas-section-2 .ws-topic + .ws-topic,
+  .wire-special[data-variant="oilgas"] .ws-oilgas-section-4 .ws-topic + .ws-topic {
+    border-top: 1px solid currentColor;
+    padding-top: 19px;
+  }
+
+  .wire-special[data-variant="oilgas"] .ws-media-frame,
+  .wire-special[data-variant="oilgas"] .ws-oilgas-section-1 .ws-media-frame,
+  .wire-special[data-variant="oilgas"] .ws-oilgas-section-2 .ws-media-frame,
+  .wire-special[data-variant="oilgas"] .ws-oilgas-section-3 .ws-media-frame,
+  .wire-special[data-variant="oilgas"] .ws-oilgas-section-4 .ws-media-frame,
+  .wire-special[data-variant="oilgas"] .ws-oilgas-section-5 .ws-media-frame,
+  .wire-special[data-variant="oilgas"] .ws-oilgas-section-6 .ws-media-frame {
+    width: calc(100% + 44px);
+    margin-left: -22px;
+    max-height: none;
+    aspect-ratio: 16 / 9;
+  }
+
+  .wire-special[data-variant="oilgas"] .ws-copy {
+    padding-top: 11px !important;
+  }
+
+  .wire-special[data-variant="oilgas"] .ws-copy h3 {
+    font-size: 20px;
+  }
+
+  .wire-special[data-variant="oilgas"] .ws-copy p {
+    font-size: 14.3px;
+    line-height: 1.78;
+  }
+
+  .wire-special[data-variant="oilgas"] .ws-source-list {
+    grid-template-columns: 1fr;
+  }
+}
