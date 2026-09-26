@@ -1,0 +1,55 @@
+{
+  "ultra-flexible-wire-and-cable": {
+    "key": "wire-cable-17",
+    "variant": "flexible",
+    "title": {"en": "Ultra-Flexible Wire & Cable", "zh": "超柔性电线电缆"},
+    "metaDescription": {"en": "Ultra-flexible cable engineering guide: fine-strand conductors, lay length, bend radius, torsion, sheath selection, strain relief and first-article checks for moving equipment leads.", "zh": "超柔性电线电缆技术指南：讲清细绞导体、绞距、弯曲半径、扭转、护套选择、应力消除及运动设备引线的首件检查。"},
+    "subtitle": {"en": "Flexibility is a property of the complete installed cable", "zh": "柔性要看完整结构，也要看实际安装方式"},
+    "lead": {"en": "A cable that feels soft in the hand is not automatically rated for repeated motion.", "zh": "拿在手里柔软，不等于能够承受长期往复运动。"},
+    "intro": {"en": "Ultra-flexible wire and cable is useful where a lead must follow a moving tool, a compact mechanism or a frequently handled instrument. The category can include single-core hookup wire, multicore control cable, screened signal cable and prepared equipment leads; it is not one fixed construction. Fine strands, core lay, insulation, sheath and termination all affect how the assembly bends. Its real duty must be defined before choosing a cable: a handheld lead, a short repeated hinge movement, a guided cable chain and a rotating robot wrist impose different loads. We design the connection around the specified motion, electrical circuit and installation space, then agree how the finished assembly will be checked.", "zh": "超柔性电线电缆适用于需要随工具、紧凑机构或频繁操作的仪器移动的引线。这个小类可包含单芯设备线、多芯控制电缆、屏蔽信号线及已端接的设备引线，并不是一种固定结构。细绞导体、芯线绞合、绝缘、护套和端接都会影响成品弯曲表现。选线前要先定义真实工况：手持引线、短行程铰接、受导向的拖链和旋转的机器人腕部，受到的载荷不同。我们围绕规定的运动、电气回路与安装空间设计连接方案，再确定完整组件的检验方式。"},
+    "hero": "flexible-hero.jpg",
+    "heroPosition": "center 55%",
+    "topics": [
+      {
+        "title": {"en": "Read the motion before the softness", "zh": "先识别运动，再谈柔软"},
+        "copy": {"en": "List which parts move, the travel and speed, the number of cycles expected, the installed bend radius and whether the cable is also twisted or pulled. A lead that is bent occasionally by an operator differs from a cable repeatedly flexed in one plane. Robot dress packs add three-dimensional bend and torsion; neither a soft jacket nor a cable-chain label alone proves suitability. A minimum bend radius is product- and installation-specific, normally stated as a multiple of the cable's outer diameter. Compare the actual route with the exact manufacturer's static and moving limits, including at the connector exit.", "zh": "先列出运动部件、行程和速度、预期循环次数、安装后的弯曲半径，以及线缆是否同时受扭或受拉。操作员偶尔弯折的引线，与在同一平面长期往复弯曲的线缆不同。机器人线束还可能同时承受三维弯曲和扭转；护套摸起来软，或名称带有“拖链”，都不能单独证明适用。最小弯曲半径取决于准确型号和安装方式，通常以电缆外径的倍数表示。应把实际路径与厂家针对静态及动态工况给出的限制逐项比较，尤其要检查连接器出口。"},
+        "image": "motion-context.jpg",
+        "caption": {"en": "A moving industrial tool illustrates why the lead's route and motion must be defined.", "zh": "运动中的工业工具说明：引线路径与运动方式必须事先定义。"}
+      },
+      {
+        "title": {"en": "Build flexibility from conductor to sheath", "zh": "从导体到护套协同设计柔性"},
+        "copy": {"en": "Many moving-duty cables use fine or extra-fine copper strands and a core lay chosen for repeated bending. Strand count alone does not define life: conductor diameter, lay length, fillers, insulation thickness, shield construction and outer jacket all interact. For a compact signal lead, identify the circuit, conductor cross-section, shielding and impedance needs before reducing diameter. PVC, PUR and TPE jackets offer different combinations of abrasion, chemical, temperature and handling behaviour; no one material is best for every machine. Check the actual data sheet rather than transferring another family's flexibility or oil-resistance claim.", "zh": "不少运动工况线缆采用细绞或超细绞铜导体，并以适合反复弯曲的方式绞合芯线。但股数不能单独决定寿命；单丝直径、绞距、填充、绝缘厚度、屏蔽结构和外护套会共同起作用。对紧凑信号引线，缩小外径前仍要明确回路、导体截面、屏蔽及阻抗要求。PVC、PUR、TPE 护套在耐磨、耐化学品、温度和手感方面各有取舍，没有一种材料适合所有设备。应核对准确型号的数据表，不能借用另一系列的柔性或耐油声明。"},
+        "image": "strand-detail.jpg",
+        "caption": {"en": "Fine copper strands are one part of a flexible cable construction, not a cycle-life guarantee.", "zh": "细铜绞线是柔性结构的一部分，不是循环寿命保证。"}
+      },
+      {
+        "title": {"en": "Keep strain out of the termination", "zh": "让弯折远离端接点"},
+        "copy": {"en": "The most compliant cable can still fail where a rigid plug, solder joint or crimp barrel meets the moving lead. Define a supported straight length, bend transition, boot or overmould, clamp position and mating direction. The jacket should be gripped by the specified strain relief without crushing conductors; the first free bend must not occur at a bare contact. For serviceable equipment, specify connector orientation and a replaceable lead where practical. Verify pull and flex behaviour at the finished interface only to the project-approved method and limit; visual neatness is not proof of mechanical endurance.", "zh": "再柔软的线缆，也可能在硬质插头、焊点或压接筒与活动引线交界处失效。要定义受支撑的直线段、弯曲过渡、尾套或包胶、夹持位置及对插方向。应力消除件要按规定夹住护套，不能压伤导体；第一次自由弯曲不应发生在裸露触点处。可维修设备宜在条件允许时规定接头方向与可更换引线。成品接口的拉力或弯折验证应采用项目认可的方法和限值，外观整齐不能代替机械耐久证据。"},
+        "image": "strain-relief.jpg",
+        "caption": {"en": "A connector exit shows the transition that needs support and a defined bend path.", "zh": "接头出口展示需要支撑与规定弯曲路径的过渡位置。"}
+      },
+      {
+        "title": {"en": "Separate guided bend from torsion", "zh": "区分受导向弯曲与扭转"},
+        "copy": {"en": "A cable chain normally guides a repeatable, largely planar path; a rotating axis can twist the cable while it bends. These are not interchangeable ratings. In a guided route, check fill, free space, separation from hoses, chain radius and whether cables can move without binding. In a rotating assembly, record the angle, free length, direction and combined bend. Shielding may be needed for signal integrity, but braid or foil geometry can also influence mechanical behaviour, so select a complete cable construction for the duty. If motion is mixed or uncertain, test a representative installed assembly rather than extrapolating a catalogue cycle figure.", "zh": "拖链通常把线缆限制在可重复、基本平面的路径内；旋转轴则可能使线缆边弯边扭，两者的额定工况不可互换。受导向路径需检查填充率、活动余量、与软管的分隔、链条半径，以及线缆是否会卡滞。旋转组件要记录角度、自由长度、方向和叠加弯曲。信号完整性可能需要屏蔽，但编织或铝箔结构也会影响机械表现，因此应按工况选择完整线缆结构。运动混合或不确定时，宜验证有代表性的实际安装组件，而不是外推目录中的循环次数。"},
+        "image": "guided-route.jpg",
+        "caption": {"en": "A guided cable path differs mechanically from a twisting robot-axis lead.", "zh": "受导向的线缆路径与机器人旋转轴引线的机械工况不同。"}
+      },
+      {
+        "title": {"en": "Release the finished moving lead", "zh": "放行完整的活动引线"},
+        "copy": {"en": "The approved specification should identify cable and connector part numbers, cross-section, circuit map, finished length, strip and crimp details, exit angle, support location, minimum installed radius and environmental exposure. First-article inspection can compare these with a drawing and sample, then check polarity, continuity, insulation or shield connection as the project requires. Where cyclic flex, torsion, pull or signal tests are specified, define the mounted geometry, load, acceptance limit and evidence owner before testing. Record approved substitutions: changing a soft jacket, terminal or clamp can change the whole assembly's behaviour. No generic photograph or material name demonstrates a Super Smile endurance result or certification.", "zh": "获批准的规格应写明线材与接头料号、导体截面、回路表、成品长度、剥线和压接细节、出线角度、支撑位置、最小安装半径及环境暴露。首件可对照图纸和样品，按项目要求检查极性、导通、绝缘或屏蔽连接。若规定循环弯折、扭转、拉力或信号测试，应在试验前明确安装几何、载荷、接收限值和证据责任方。材料替代也要留痕：更换护套、端子或夹具，可能改变整套组件的表现。通用照片或材料名称均不能证明超斯迈尔的耐久测试结果或认证。"},
+        "image": "assembly-check.jpg",
+        "caption": {"en": "Ring terminals illustrate the exact component detail that belongs in an approved assembly specification.", "zh": "环形端子展示获批准的组件规格中需要写清的准确物料细节。"}
+      }
+    ],
+    "inputs": [
+      {"en": "Circuit map, current or signal needs, cable cross-section and connector drawings", "zh": "回路表、电流或信号要求、线缆截面及接头图纸"},
+      {"en": "Moving path, installed bend radius, cycles, torsion and environment", "zh": "运动路径、安装弯曲半径、循环次数、扭转和环境"},
+      {"en": "Strain relief, first-article sample and project-specific acceptance criteria", "zh": "应力消除方式、首件样品与项目验收标准"}
+    ],
+    "faq": [
+      {"q": {"en": "Does a softer cable always last longer in motion?", "zh": "线缆越软，运动寿命就越长吗？"}, "a": {"en": "No. Hand feel is not a flex-life rating. Conductor lay, insulation, sheath, installed radius, restraint and the motion pattern must be considered together, then checked against the exact cable specification.", "zh": "不一定。手感不等于弯折寿命。导体绞合、绝缘、护套、安装半径、固定方式和运动模式要一起评估，并核对准确型号的规格。"}},
+      {"q": {"en": "Can a cable-chain cable be used on a rotating robot joint?", "zh": "拖链电缆可以直接用于机器人旋转关节吗？"}, "a": {"en": "Not on that label alone. A planar guided-bend rating does not establish torsion suitability; check the specified cable's torsion data and the actual mounted route.", "zh": "不能只凭“拖链”名称判断。平面导向弯曲额定值不能证明耐扭转，应核对准确型号的扭转数据与实际安装路径。"}}
+    ],
+    "keywords": "ultra flexible cable assembly, high flex wire, fine stranded copper wire, extra fine stranded conductor, flexible control cable, moving equipment lead, continuous flex cable, small bend radius cable, robot torsion cable, flexible shielded signal cable, PUR flexible cable, TPE flexible cable, strain relief boot, connector exit bend, first article inspection"
+  }
+}
