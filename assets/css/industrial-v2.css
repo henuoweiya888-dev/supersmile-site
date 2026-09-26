@@ -33,6 +33,70 @@
   --shadow:none;
 }
 
+/* Dashboard / cluster harness: cross-car editorial map. */
+body.pcc-rich-page[data-category-key="automotive-17"] #pcc-rich-content{--cockpit-edge:clamp(24px,5vw,76px);background:#eeeae5;color:#12191c}
+body[data-category-key="automotive-17"] .pcc-hero{min-height:510px;background:#0c1114;color:#f8f6f1}
+body[data-category-key="automotive-17"] .pcc-hero-grid{min-height:430px}
+body[data-category-key="automotive-17"] .pcc-hero-media:after{background:linear-gradient(90deg,rgba(5,9,12,.99) 0%,rgba(5,9,12,.95) 24%,rgba(5,9,12,.73) 48%,rgba(5,9,12,.27) 80%,rgba(5,9,12,.18) 100%)}
+body[data-category-key="automotive-17"] .pcc-hero-media img{object-position:58% 46%;filter:saturate(.7) contrast(1.12) brightness(.78)}
+body[data-category-key="automotive-17"] .pcc-hero-copy>p{text-indent:2em}
+#pcc-rich-content>.pcc-cockpit-opening{display:grid;grid-template-columns:minmax(250px,.82fr) minmax(0,1.18fr);min-height:260px;padding:0;background:#dce0df}
+.pcc-cockpit-opening-copy{align-self:center;padding:25px var(--cockpit-edge)}
+.pcc-cockpit-opening-copy>span,.pcc-cockpit-heading>p{color:#bd492a;font:750 10px/1.4 var(--font-mono);letter-spacing:.13em;text-transform:uppercase}
+.pcc-cockpit-opening-copy h2{max-width:700px;margin:8px 0 13px;font-size:clamp(30px,3vw,43px);font-weight:600;line-height:1.1;letter-spacing:-.035em}
+.pcc-cockpit-opening-copy>p{max-width:700px;margin:0;color:#475257;font-size:14px;line-height:1.72;text-indent:2em}
+.pcc-cockpit-media{margin:0;overflow:hidden;background:#c1c5c5}
+.pcc-cockpit-media img{display:block;width:100%;height:100%;object-fit:cover;filter:saturate(.7) contrast(1.07)}
+.pcc-cockpit-opening-media{min-height:260px}
+.pcc-cockpit-opening-media img{object-position:50% 53%;filter:saturate(.52) contrast(1.08)}
+#pcc-rich-content>.pcc-cockpit-sequence{padding:0}
+.pcc-cockpit-chapter{display:grid;grid-template-columns:minmax(0,1.18fr) minmax(245px,.82fr);grid-template-rows:auto 1fr;column-gap:clamp(27px,5vw,78px);align-items:start;padding:32px var(--cockpit-edge) 35px;border-bottom:1px solid #c4c4bf;background:#f6f4ef}
+.pcc-cockpit-chapter:nth-child(even){grid-template-columns:minmax(245px,.82fr) minmax(0,1.18fr);background:#e4e9e8}
+.pcc-cockpit-chapter:nth-child(even)>.pcc-cockpit-heading,.pcc-cockpit-chapter:nth-child(even)>.pcc-cockpit-copy{grid-column:2}
+.pcc-cockpit-chapter:nth-child(even)>.pcc-cockpit-media{grid-column:1;grid-row:1/3}
+.pcc-cockpit-heading{position:relative;grid-column:1;grid-row:1;padding:0 0 14px}
+.pcc-cockpit-heading:after{position:absolute;bottom:0;left:0;width:48px;height:2px;background:#ed5731;content:""}
+.pcc-cockpit-heading>span{color:#ba482a;font:700 14px/1 var(--font-mono)}
+.pcc-cockpit-heading>p{display:inline-block;margin:0 0 0 11px;font-size:9px}
+.pcc-cockpit-heading h2{margin:10px 0 0;font-size:clamp(26px,2.5vw,37px);font-weight:610;line-height:1.15;letter-spacing:-.035em}
+.pcc-cockpit-copy{grid-column:1;grid-row:2;max-width:860px;padding-top:14px}
+.pcc-cockpit-summary,.pcc-cockpit-points p{margin:0;text-indent:2em}
+.pcc-cockpit-summary{color:#465054;font-size:13.8px;line-height:1.72}
+.pcc-cockpit-points{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:17px}
+.pcc-cockpit-points section{position:relative;padding:10px 0 0}
+.pcc-cockpit-points section:before{position:absolute;top:0;left:0;width:39px;height:1px;background:#c08a77;content:""}
+.pcc-cockpit-points h3{margin:0 0 5px;font-size:12.7px;line-height:1.36}
+.pcc-cockpit-points p{color:#707a7c;font-size:11.8px;line-height:1.57}
+.pcc-cockpit-chapter>.pcc-cockpit-media{grid-column:2;grid-row:1/3;height:300px;align-self:center}
+.pcc-cockpit-chapter:nth-child(2)>.pcc-cockpit-media img{object-position:50% 59%}
+.pcc-cockpit-chapter:nth-child(5)>.pcc-cockpit-media img{object-position:50% 59%}
+.pcc-cockpit-chapter:nth-child(6)>.pcc-cockpit-media img{object-position:50% 58%}
+.pcc-cockpit-chapter:nth-child(4){background:#192328;color:#f5f3ed}
+.pcc-cockpit-chapter:nth-child(4) .pcc-cockpit-summary,.pcc-cockpit-chapter:nth-child(4) .pcc-cockpit-points p{color:#c2cbca}
+.pcc-cockpit-chapter:nth-child(7){background:#ddd7ce}
+.pcc-cockpit-faq{padding:38px var(--cockpit-edge)!important;background:#dce2e0!important}
+body[data-category-key="automotive-17"] .pcc-media-credits{--atlas-edge:var(--cockpit-edge)}
+@media(max-width:900px){.pcc-cockpit-chapter,.pcc-cockpit-chapter:nth-child(even){column-gap:22px}.pcc-cockpit-chapter>.pcc-cockpit-media{height:250px}.pcc-cockpit-opening{grid-template-columns:minmax(190px,.7fr) minmax(0,1.3fr)}}
+@media(max-width:640px){
+  body.pcc-rich-page[data-category-key="automotive-17"] #pcc-rich-content{--cockpit-edge:var(--v2-mobile-gutter)}
+  body[data-category-key="automotive-17"] .pcc-hero{min-height:565px}
+  body[data-category-key="automotive-17"] .pcc-hero-grid{min-height:495px}
+  body[data-category-key="automotive-17"] .pcc-hero-media:after{background:linear-gradient(180deg,rgba(5,9,12,.12) 0%,rgba(5,9,12,.52) 43%,rgba(5,9,12,.90) 100%)}
+  body[data-category-key="automotive-17"] .pcc-hero-media img{object-position:58% 50%}
+  #pcc-rich-content>.pcc-cockpit-opening{display:flex;flex-direction:column;min-height:0}
+  .pcc-cockpit-opening-media{width:100%;min-height:0;height:180px}
+  .pcc-cockpit-opening-copy{padding:21px var(--cockpit-edge) 25px}
+  .pcc-cockpit-opening-copy h2{font-size:27px}.pcc-cockpit-opening-copy>p{font-size:13px}
+  .pcc-cockpit-chapter,.pcc-cockpit-chapter:nth-child(even){display:flex;flex-direction:column;gap:0;padding:21px var(--cockpit-edge) 23px}
+  .pcc-cockpit-heading,.pcc-cockpit-chapter:nth-child(even)>.pcc-cockpit-heading{width:100%;padding-bottom:12px}
+  .pcc-cockpit-heading h2{font-size:23px;margin-top:8px}
+  .pcc-cockpit-copy,.pcc-cockpit-chapter:nth-child(even)>.pcc-cockpit-copy{padding-top:12px}
+  .pcc-cockpit-summary{font-size:13px;line-height:1.68}
+  .pcc-cockpit-points{gap:12px;margin-top:14px}.pcc-cockpit-points h3{font-size:12px}.pcc-cockpit-points p{font-size:11.5px}
+  .pcc-cockpit-chapter>.pcc-cockpit-media,.pcc-cockpit-chapter:nth-child(even)>.pcc-cockpit-media{width:calc(100% + var(--cockpit-edge)*2);height:208px;margin:15px calc(var(--cockpit-edge)*-1) 0}
+  .pcc-cockpit-faq{padding:30px var(--cockpit-edge)!important}
+}
+
 /* Fuel-system harness: circuit atlas, compact technical folios. */
 body.pcc-rich-page[data-category-key="automotive-16"] #pcc-rich-content{--fuel-edge:clamp(24px,5vw,76px);background:#f1eee8;color:#151a1c}
 body[data-category-key="automotive-16"] .pcc-hero{min-height:520px;background:#0b1012;color:#f5f4ef}
