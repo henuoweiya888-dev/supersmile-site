@@ -1,0 +1,55 @@
+{
+  "high-temperature-wire-and-cable": {
+    "key": "wire-cable-18",
+    "variant": "thermal",
+    "title": {"en": "High-Temperature Wire & Cable", "zh": "耐高温电线电缆"},
+    "metaDescription": {"en": "High-temperature wire and cable engineering guide for oven leads, heater wiring and hot-zone equipment: thermal mapping, silicone, FEP, PTFE, glass braid, connectors, routing and validation.", "zh": "耐高温电线电缆技术指南：涵盖烘箱与加热器引线、热区设备布线、温度谱、硅橡胶、FEP、PTFE、玻纤编织、端接、路径与验证。"},
+    "subtitle": {"en": "Specify the temperature at every part of the installed circuit", "zh": "按安装后各部位的真实温度选线"},
+    "lead": {"en": "A heat-resistant jacket cannot make an ordinary connector heat-resistant.", "zh": "耐热护套不能让普通接头也变成耐高温接头。"},
+    "intro": {"en": "High-temperature wire and cable is a family of constructions for leads routed near heaters, ovens, motors, exhaust-adjacent equipment and industrial process zones. It can include silicone-rubber insulated hookup wire, fluoropolymer-insulated FEP or PTFE wire, glass-braid protected leads and prepared sensor or power cables. These names are starting points, not interchangeable temperature ratings. The required construction depends on the continuous ambient temperature, hot-surface proximity, current-generated heating, short excursions, movement, chemicals and the exact connector system. We review the entire route and the weakest rated component before defining a finished assembly and its acceptance evidence.", "zh": "耐高温电线电缆并非单一规格，而是用于加热器、烘箱、电机、排气邻近设备及工业热区的一组结构。它可能包含硅橡胶绝缘设备线、FEP 或 PTFE 氟塑料绝缘线、玻纤编织保护引线，以及已端接的传感器线或电源线。这些名称只是选型起点，不能当作可互换的温度等级。最终结构取决于连续环境温度、与热表面的距离、载流自身发热、短时峰值、运动、化学介质和准确的接头系统。确定成品组件及其验收依据前，应审核完整路径和额定值最低的部件。"},
+    "hero": "thermal-hero.jpg",
+    "heroPosition": "center 50%",
+    "topics": [
+      {
+        "title": {"en": "Map continuous heat, peaks and contact points", "zh": "先画出连续热区、峰值与接触点"},
+        "copy": {"en": "Ask where the lead actually runs: inside a cabinet, along an oven wall, through a hot enclosure or beside a heated tool. Record normal ambient temperature, time at temperature, startup and shutdown peaks, contact with metal, and any local hot spot. A furnace chamber's set point is not the cable's measured temperature; the wire may be outside insulation or next to a much hotter surface. Load current adds conductor heating, while a bundle sheds heat differently from a single free-air lead. Use a representative thermal map or agreed design limits for the intended route. Move the cable away from the source or add an approved barrier where that is more robust than specifying a hotter material everywhere.", "zh": "先弄清引线实际经过哪里：柜内、烘箱外壁、热箱穿孔，还是加热工具旁。记录正常环境温度、持续时间、启停峰值、金属接触点及局部热点。炉膛设定温度不等于电线本身的温度；线材可能位于隔热层外，也可能贴近更热的表面。载流会使导体自身发热，成束敷设的散热又不同于单根自由空气中的引线。应针对预定路径提供有代表性的温度分布或双方认可的设计边界。能通过调整路径或合适隔热措施解决时，不必把所有线段都盲目升到更高材料等级。"},
+        "image": "heat-zone.jpg",
+        "caption": {"en": "A heated process zone illustrates the need to identify the cable's actual route, not copy the furnace set point.", "zh": "热加工场景说明：应确认线缆实际路径，不能直接照搬炉膛设定温度。"}
+      },
+      {
+        "title": {"en": "Match insulation to the complete exposure", "zh": "绝缘材料要匹配完整暴露条件"},
+        "copy": {"en": "Silicone rubber, FEP, PTFE and glass-braid constructions serve different combinations of heat, flexibility, abrasion, moisture and chemical exposure. A glass braid may protect an underlying insulated lead, but it does not by itself establish the electrical insulation rating. Fluoropolymer wire may offer a compact wall, while a silicone construction may be easier to route; neither is automatically suitable for a sharp metal edge or aggressive cleaning fluid. Check the exact manufacturer's data sheet for continuous operating range, voltage, conductor size, bend limit and any applicable approvals. Do not transfer a temperature value from one product family to another, or confuse a short-term excursion with continuous duty.", "zh": "硅橡胶、FEP、PTFE 及玻纤编织结构分别对应不同的耐热、柔性、耐磨、防潮和耐化学品组合。玻纤编织可以保护内层绝缘线，但编织层本身不能单独证明电气绝缘等级。氟塑料线可能有较薄的壁厚，硅橡胶结构可能更容易布线；两者都不意味着可以直接接触锐边或强清洗介质。应逐项核对准确型号的数据表：连续工作温度、额定电压、导体截面、弯曲限制及适用认证。不能借用另一产品系列的温度数值，也不能把短时耐受当作长期工作等级。"},
+        "image": "material-detail.jpg",
+        "caption": {"en": "A silicone spark-plug boot illustrates material choice and terminal construction; it is not a rating for this page's cables.", "zh": "硅橡胶火花塞护套说明材料与端接结构需分别确认，并非本页线缆的额定值。"}
+      },
+      {
+        "title": {"en": "Do not stop the rating at the wire jacket", "zh": "额定值不能只看线皮"},
+        "copy": {"en": "The conductor, contact plating, terminal block, connector housing, seal, sleeve, label and strain relief all sit in the same heat path. Their permitted temperature may be lower than that of the cable insulation. Review the mating connector and the method of termination; a crimp, solder joint or screw clamp can have different maintenance and thermal-cycling needs. A ceramic terminal block may be appropriate in a particular hot zone, but its presence does not raise the rating of adjacent plastic parts. For thermocouple or RTD circuits, confirm the sensor type, extension-wire material, polarity and connector convention separately from a heater-power lead. Record exact part numbers and approved substitutes so service replacements do not silently change the limit.", "zh": "导体、触点镀层、端子排、连接器壳体、密封件、套管、标签和应力消除件都处在同一热路径中；其中任何一项的允许温度都可能低于线材绝缘。应核对对插接头和端接方式，压接、焊接或螺钉夹紧在热循环及维护方面的要求不同。陶瓷端子排在特定热区可能合适，但它不会提高邻近塑料零件的额定值。热电偶或 RTD 回路还应单独确认传感器类型、补偿或延长线材料、极性及接口约定，不能与加热器电源线混为一谈。把准确料号和获准替代件写进文件，避免维修替换时无意改变温度边界。"},
+        "image": "termination.jpg",
+        "caption": {"en": "A ceramic terminal is one component of a heat-exposed connection, not proof that the whole circuit shares its rating.", "zh": "陶瓷端子是热区连接的一部分，不能证明整条回路具有相同额定值。"}
+      },
+      {
+        "title": {"en": "Route for heat dissipation and service", "zh": "按散热与维护要求布线"},
+        "copy": {"en": "Keep the lead clear of sharp sheet metal, moving parts and unapproved hot surfaces. Where it crosses a panel, specify a gland or bushing with a compatible temperature and clamping range. Leave an inspectable service route rather than trapping extra length against a heater. Bundling, enclosure temperature and conductor current affect allowable loading, so use the relevant cable and connector derating data for the actual installation. Heat also changes handling and bend behaviour; check the product's specified bend limit at the installation temperature. Separate heater power, temperature-sensor and control circuits where the electrical design requires it, and protect identification marks from the exposure they will actually see.", "zh": "引线应避开锐利钣金、运动件及未经确认的热表面。穿过面板时，选用温度等级与夹持范围都相容的格兰头或护套。路径应便于检查和更换，不要把多余线长压在加热器旁。成束方式、箱体温度和导体电流都会改变允许载流，应依据准确型号线材及接头的降额资料审核实际安装。高温还会改变操作与弯曲表现，安装时应核对该产品规定的弯曲限制。按电气设计要求分开加热器电源、温度传感和控制回路，并确保线号能承受实际暴露环境。"},
+        "image": "routing.jpg",
+        "caption": {"en": "Installed equipment wiring shows why route, support and service access matter as much as material choice.", "zh": "设备布线场景说明：路径、支撑和可维护性与材料选型同样重要。"}
+      },
+      {
+        "title": {"en": "Release evidence for the exact assembly", "zh": "为准确组件留下放行证据"},
+        "copy": {"en": "The drawing should identify cable and accessory part numbers, circuit map, finished length, strip and termination details, hot-zone boundary, support points and connector location. First-article checks can compare those features with the approved sample and inspect continuity, polarity and insulation as required by the project. If a heat-soak, thermal-cycle or loaded-current test is requested, define the mounted geometry, temperatures, duration, measurement points and acceptance limits before starting it. An infrared reading depends on surface conditions and measurement method; it is context for a controlled evaluation, not automatic proof of wire rating. No stock photograph, material name or generic standard replaces evidence for the actual supplied construction.", "zh": "图纸应注明线材和附件料号、回路表、成品长度、剥线与端接细节、热区边界、支撑点及接头位置。首件可与获批样品核对这些特征，再按项目要求检查导通、极性和绝缘。如需热浸、热循环或通电负载试验，应先规定安装几何、温度、持续时间、测点及接收限值。红外测温结果还受表面状态和测量方法影响，它只能作为受控评价的一部分，不能自动证明线材额定值。图库照片、材料名称或笼统标准均不能替代实际供货结构的证据。"},
+        "image": "thermal-check.jpg",
+        "caption": {"en": "A surface-temperature measurement illustrates one possible input to a defined thermal check, not a certification result.", "zh": "表面测温说明受控热工检查可能需要的一个输入，不代表认证结果。"}
+      }
+    ],
+    "inputs": [
+      {"en": "Temperature map: continuous ambient, local hot spots, peaks and time at temperature", "zh": "温度分布：连续环境温度、局部热点、峰值和持续时间"},
+      {"en": "Circuit, current, voltage, sensor type, route, bundling and connector drawings", "zh": "回路、电流、电压、传感器类型、路径、成束方式及接头图纸"},
+      {"en": "Specified material and accessory data sheets, first-article sample and acceptance limits", "zh": "指定材料与附件数据表、首件样品和验收限值"}
+    ],
+    "faq": [
+      {"q": {"en": "Does a 200 °C wire make the finished lead suitable for 200 °C?", "zh": "选用标称 200°C 的线材，整条引线就能在 200°C 工作吗？"}, "a": {"en": "No. Confirm the exact wire's rating and duty, then check every connector, seal, sleeve and support in the hot zone. The installed temperature and electrical load must stay within the limits of the complete assembly.", "zh": "不能。先核对准确线材的额定值与使用条件，再检查热区内的每个接头、密封件、套管和支撑件。安装温度与电气负载都必须落在完整组件的限制内。"}},
+      {"q": {"en": "Can thermocouple extension wire replace a heater-power lead?", "zh": "热电偶补偿或延长线能代替加热器电源线吗？"}, "a": {"en": "No. Thermocouple circuits are selected for the sensor type and measurement accuracy; heater-power circuits are selected for current, voltage and thermal loading. Treat them as separate specifications.", "zh": "不能。热电偶回路按传感器类型和测量准确度选型；加热器电源回路按电流、电压和热负载选型，应分别定义。"}}
+    ],
+    "keywords": "high temperature wire and cable, heat resistant cable assembly, silicone insulated hookup wire, FEP insulated wire, PTFE insulated wire, glass braid sleeving, oven wiring lead, heater power cable, furnace sensor cable, thermocouple extension wire, RTD lead, ceramic terminal block, thermal derating, hot zone cable routing, heat soak validation"
+  }
+}
