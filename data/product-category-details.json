@@ -1,4 +1,12 @@
 {
+  "wire-cable-15": {
+    "title":{"en":"Cross-Linked Insulation Wire & Cable","zh":"交联绝缘电线电缆"},
+    "intro":{"en":"Cross-linked insulation must be specified as part of a complete cable and installation system.","zh":"交联绝缘必须作为完整线缆与安装系统的一部分进行规定。"},
+    "knowledge":{"en":"XLPE is a material family, not a universal voltage, temperature, fire or outdoor rating.","zh":"XLPE 是材料家族，不是通用的电压、温度、阻燃或户外等级。"},
+    "notes":{"en":"Provide circuit, thermal duty, route, interfaces, cable part number and required evidence.","zh":"请提供回路、热工况、路径、接口、线缆料号与所需证据。"},
+    "delivery":{"en":"Release records the exact insulation and cable construction, terminations and agreed checks.","zh":"放行记录包含准确的绝缘和线缆结构、端接与约定检验。"},
+    "page":{"layout":"wire-special-editorial","displayTitle":{"en":"Cross-Linked Insulation Wire & Cable","zh":"交联绝缘电线电缆"},"subtitle":{"en":"Specify insulation, construction and evidence separately","zh":"分别定义绝缘、结构与证据"},"lead":{"en":"A material name is not a cable rating.","zh":"材料名称不能代替线缆额定值。"},"images":{"range":"/assets/images/product-categories/stock/cross-linked-insulation-wire-and-cable/hero-xlpe-cables.jpg"},"faq":[]}
+  },
   "wire-cable-14": {
     "title":{"en":"Outdoor Cable","zh":"户外电缆"},"intro":{"en":"Outdoor cable construction is selected around sunlight, water, temperature, route and installation.","zh":"户外电缆结构围绕日照、水、温度、路径与安装方式选择。"},"knowledge":{"en":"A black jacket alone does not prove outdoor suitability; cable, interfaces and supports form one exposed system.","zh":"黑色护套不能单独证明户外适用性，线缆、接口与支撑构成完整暴露系统。"},"notes":{"en":"Provide route, exposure, circuits, environment, connectors, sealing and required evidence.","zh":"请提供路径、暴露、回路、环境、接口、密封与所需证据。"},"delivery":{"en":"Release records the exact construction, installation and agreed validation.","zh":"放行记录包含准确结构、安装与约定验证。"},
     "page":{"layout":"wire-special-editorial","displayTitle":{"en":"Outdoor Cable","zh":"户外电缆"},"subtitle":{"en":"Design for sunlight, water, temperature and the actual installation route","zh":"围绕日照、水、温度与真实安装路径进行设计"},"lead":{"en":"Outdoor suitability comes from the complete exposed system.","zh":"户外适用性来自完整暴露系统。"},"images":{"range":"/assets/images/product-categories/stock/outdoor-cable/hero-rooftop-cable.jpg"},"faq":[]}
