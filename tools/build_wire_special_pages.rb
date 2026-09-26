@@ -4,6 +4,7 @@ require 'cgi'
 
 ROOT = File.expand_path('..', __dir__)
 DATA = JSON.parse(File.read(File.join(ROOT, 'content/product-category-drafts/wire-special-pages.json')))
+DATA.merge!(JSON.parse(File.read(File.join(ROOT, 'content/product-category-drafts/flat-ribbon-wire-and-cable.json'))))
 
 CHAPTERS = {
   'motion'=>[['Define the motion envelope','定义运动包络'],['Build the moving cable system','构建运动线缆系统'],['Validate the installed cycle','验证安装循环']],
@@ -15,7 +16,8 @@ CHAPTERS = {
   'medical'=>[['Place the cable inside the equipment boundary','把线缆放入设备边界'],['Coordinate handling and signal integrity','协同操作与信号完整性'],['Preserve risk-control evidence','保持风险控制证据']],
   'measure'=>[['Define the measurand and source','定义被测量与信号源'],['Control the complete measurement path','控制完整测量路径'],['Calibrate the configured system','校准实际配置系统']],
   'outdoor'=>[['Map the exposure profile','绘制环境暴露谱'],['Engineer route and electrical duty','设计路径与电气工况'],['Verify the installed boundary','验证安装边界']],
-  'crosslink'=>[['Read the insulation specification','看懂绝缘材料规格'],['Build the complete cable system','设计完整电缆系统'],['Release evidence for the actual design','为实际结构提供放行证据']]
+  'crosslink'=>[['Read the insulation specification','看懂绝缘材料规格'],['Build the complete cable system','设计完整电缆系统'],['Release evidence for the actual design','为实际结构提供放行证据']],
+  'ribbon'=>[['Map the conductor system','理清导体体系'],['Control every termination and route','管住每处端接与路径'],['Release the approved assembly','放行获认可的完整组件']]
 }.freeze
 
 def h(value)
@@ -27,7 +29,7 @@ def pair(value, tag: 'span', klass: nil)
 end
 
 def topic_card(topic, slug, index)
-  caption = {
+  caption = topic['caption'] || {
     'en'=>"Context image for #{topic['title']['en'].downcase}; it does not represent a Super Smile test result or certification.",
     'zh'=>"图片用于说明“#{topic['title']['zh']}”的相关场景，不代表超斯迈尔测试结果或认证。"
   }
@@ -77,7 +79,7 @@ def render_page(slug, page)
   <!DOCTYPE html><html lang="en"><head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
   <title>Custom #{h(page['title']['en'])} | Technical Cable Guide | Super Smile</title><meta name="description" content="#{h(desc_en)}">
-  <link rel="stylesheet" href="/assets/css/style.css?v=20260825v3"><link rel="stylesheet" href="/assets/css/industrial-v2.css?v=20260926v94"><link rel="stylesheet" href="/assets/css/wire-special-editorial.css?v=20260926-3"><link rel="icon" href="/favicon.ico" sizes="any"><meta name="theme-color" content="#080b0c"><link rel="canonical" href="https://supersmile-tech.com/products/#{slug}">
+  <link rel="stylesheet" href="/assets/css/style.css?v=20260825v3"><link rel="stylesheet" href="/assets/css/industrial-v2.css?v=20260926v94"><link rel="stylesheet" href="/assets/css/wire-special-editorial.css?v=20260926-4"><link rel="icon" href="/favicon.ico" sizes="any"><meta name="theme-color" content="#080b0c"><link rel="canonical" href="https://supersmile-tech.com/products/#{slug}">
   <meta property="og:type" content="website"><meta property="og:url" content="https://supersmile-tech.com/products/#{slug}"><meta property="og:title" content="Custom #{h(page['title']['en'])} | Super Smile"><meta property="og:description" content="#{h(page['subtitle']['en'])}"><meta property="og:image" content="https://supersmile-tech.com/assets/images/product-categories/stock/#{slug}/#{h(page['hero'])}">
   <link rel="alternate" hreflang="en" href="https://supersmile-tech.com/products/#{slug}?lang=en"><link rel="alternate" hreflang="zh-CN" href="https://supersmile-tech.com/products/#{slug}?lang=zh"><link rel="alternate" hreflang="x-default" href="https://supersmile-tech.com/products/#{slug}?lang=en">
   <script type="application/ld+json">#{JSON.generate(structured)}</script><script>window.SS_PRODUCT_CATEGORY=#{JSON.generate({'key'=>page['key'],'image'=>"/assets/images/product-categories/stock/#{slug}/#{page['hero']}"})};</script></head>
@@ -86,7 +88,7 @@ def render_page(slug, page)
   <div class="ws-page"><section class="ws-opening"><div><span class="ws-opening-label"><span data-copy="en">ENGINEERING OVERVIEW</span><span data-copy="zh">工程概览</span></span><h2>#{pair(page['subtitle'])}</h2></div><div>#{pair(page['intro'],tag:'p')}</div></section><nav class="ws-index">#{index}</nav>#{chapters}<details class="ws-credits"><summary><span data-copy="en">Images and technical scope</span><span data-copy="zh">图片与技术范围说明</span></summary><p><span data-copy="en">Context images explain the material, process, environment or application. They do not represent Super Smile test results or third-party certification.</span><span data-copy="zh">场景图片用于解释材料、工艺、环境或应用，不代表超斯迈尔测试结果或第三方认证。</span></p><a href="/assets/images/product-categories/stock/#{slug}/SOURCES.md"><span data-copy="en">View image source notes</span><span data-copy="zh">查看图片来源说明</span></a></details></div>
   <section class="pcc-closing ws-closing"><div><span><span data-copy="en">WIRE &amp; CABLE</span><span data-copy="zh">电线电缆</span></span><h2><span data-copy="en">Define the duty before releasing the cable.</span><span data-copy="zh">先定义工况，再放行线缆。</span></h2></div><a class="btn btn-primary" data-contact-link href="/contact?category=#{h(page['key'])}"><span data-copy="en">Send Your Requirements</span><span data-copy="zh">发送项目要求</span></a></section></main>
   <footer class="footer"><div class="container"><div><h5>SuperSmile</h5><p id="footer-about"></p></div><div><h5>Contact</h5><div id="f-contact" class="footer-contact"></div></div><div><h5>Links</h5><a href="/">Home</a><a href="/custom">Custom Wiring Harness</a><a href="/products">Products</a><a href="/about">About</a><a href="/contact">Contact</a></div></div><p class="seo-keywords">#{h(page['keywords'])}</p><div class="container bot">© <span id="f-year"></span> <span id="f-company"></span> · All Rights Reserved</div></footer>
-  <div class="fab" id="fab"><button class="fab-main" id="fab-main" type="button" aria-label="Contact"><span class="fab-icon"></span><span class="fab-label">Contact</span></button><div class="fab-menu" id="fab-menu"><a class="fab-item email" id="fab-email" href="mailto:sales@supersmile-tech.com">Email</a><button class="fab-item online" id="fab-online" type="button">Online Message</button><a class="fab-item wa" id="fab-wa" href="https://wa.me/447516289817" target="_blank" rel="noopener">WhatsApp</a></div></div><div class="contact-modal" id="contact-modal"><div class="contact-modal-overlay" data-close></div><div class="contact-modal-box" role="dialog" aria-modal="true"><button class="modal-close" type="button" data-close>×</button><h3 id="modal-title">Send Us a Message</h3><form id="modal-form"><div class="field"><label id="modal-label-name">Name</label><input id="modal-name" required></div><div class="field"><label id="modal-label-email">Email</label><input id="modal-email" type="email" required></div><div class="field"><label id="modal-label-message">Message</label><textarea id="modal-message" required></textarea></div><button class="btn btn-primary" type="submit" id="modal-submit">Send Message</button></form></div></div><div class="toast" id="toast"></div><script src="/assets/js/main.js?v=20260926v60"></script><script src="/assets/js/wire-special-editorial.js?v=20260912-2"></script></body></html>
+  <div class="fab" id="fab"><button class="fab-main" id="fab-main" type="button" aria-label="Contact"><span class="fab-icon"></span><span class="fab-label">Contact</span></button><div class="fab-menu" id="fab-menu"><a class="fab-item email" id="fab-email" href="mailto:sales@supersmile-tech.com">Email</a><button class="fab-item online" id="fab-online" type="button">Online Message</button><a class="fab-item wa" id="fab-wa" href="https://wa.me/447516289817" target="_blank" rel="noopener">WhatsApp</a></div></div><div class="contact-modal" id="contact-modal"><div class="contact-modal-overlay" data-close></div><div class="contact-modal-box" role="dialog" aria-modal="true"><button class="modal-close" type="button" data-close>×</button><h3 id="modal-title">Send Us a Message</h3><form id="modal-form"><div class="field"><label id="modal-label-name">Name</label><input id="modal-name" required></div><div class="field"><label id="modal-label-email">Email</label><input id="modal-email" type="email" required></div><div class="field"><label id="modal-label-message">Message</label><textarea id="modal-message" required></textarea></div><button class="btn btn-primary" type="submit" id="modal-submit">Send Message</button></form></div></div><div class="toast" id="toast"></div><script src="/assets/js/main.js?v=20260926v61"></script><script src="/assets/js/wire-special-editorial.js?v=20260912-2"></script></body></html>
   HTML
 end
 

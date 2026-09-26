@@ -1,0 +1,55 @@
+{
+  "flat-ribbon-wire-and-cable": {
+    "key": "wire-cable-16",
+    "variant": "ribbon",
+    "title": {"en": "Flat Ribbon Wire & Cable", "zh": "扁平排线电缆"},
+    "metaDescription": {"en": "Flat ribbon cable engineering guide: conductor pitch and count, IDC termination, pin 1, signal integrity, bend routing and first-article verification for custom assemblies.", "zh": "扁平排线电缆技术指南：讲清芯线间距与数量、IDC 端接、1 号线、信号完整性、弯折布线及定制组件首件验证。"},
+    "subtitle": {"en": "A flat profile solves routing only when every circuit still lands correctly", "zh": "扁平结构便于布线，前提是每一路信号都正确落位"},
+    "lead": {"en": "Conductor pitch, orientation, termination and motion duty must be designed as one assembly.", "zh": "导体间距、方向、端接和运动工况，必须作为一套组件共同设计。"},
+    "intro": {"en": "A round-conductor flat ribbon cable aligns multiple insulated conductors side by side. It can organise internal equipment wiring, plug into insulation-displacement connectors (IDC), or form a defined branch between boards, modules and test fixtures. The same flat appearance can hide different conductor counts, pitches, gauges, insulation materials and shielding. It is also not interchangeable with a laminated flexible flat cable (FFC) or flexible printed circuit (FPC); those use different conductor structures and termination systems. The engineering task is to translate a pin map and installation route into a repeatable, inspected assembly.", "zh": "圆导体扁平排线把多根绝缘芯线并排固定，可整理设备内部布线、配合绝缘位移连接器（IDC）端接，或连接电路板、模块与测试工装。外形同为扁平，芯数、芯线间距、线规、绝缘材料及屏蔽结构却可能不同；它也不能与层压式柔性扁平电缆（FFC）或柔性线路板（FPC）互换，后两者的导体和端接体系不同。工程重点是把针脚表与安装路径变成可重复、可检验的成品组件。"},
+    "hero": "ribbon-hero.jpg",
+    "heroPosition": "center 51%",
+    "topics": [
+      {
+        "title": {"en": "Choose the cable by conductor geometry", "zh": "按导体几何结构选排线"},
+        "copy": {"en": "Start with conductor count, centre-to-centre pitch, wire gauge, strand construction and finished width. A 1.27 mm conductor pitch is common in some IDC systems, but it is not a universal ribbon-cable rule; connector contact pitch may be different again. Check the specified cable against the exact connector drawing before choosing a press tool. Bonded sections can sometimes be split into branches, provided the manufacturer allows it and the new edge does not expose or damage conductors. A coloured edge or printed stripe can aid orientation, but should be tied to the approved pin map rather than assumed to mean the same circuit across products.", "zh": "先定义芯数、芯线中心距、线规、绞合结构和成品总宽度。部分 IDC 体系采用 1.27 mm 芯线间距，但这不是所有排线的统一规则；连接器触点间距又可能与芯线间距不同。选择压接工装前，应对照准确的线缆和连接器图纸。某些粘连排线可按厂家许可分开成支路，分离后的边缘不能露铜或伤及导体。彩色边线或印刷条纹有助于辨向，但它对应哪个回路必须写进批准的针脚表，不能跨产品想当然。"},
+        "image": "ribbon-conductors.jpg",
+        "caption": {"en": "A 32-core round-conductor ribbon cable shows the aligned geometry and a finished end.", "zh": "32 芯圆导体排线展示并排结构与端接后的出线方向。"}
+      },
+      {
+        "title": {"en": "Lock pin 1 and mating orientation", "zh": "锁定 1 号线与对插方向"},
+        "copy": {"en": "IDC termination can connect many cores in one operation, but it will also repeat an orientation mistake across every circuit. Define the connector key, latch side, cable-exit direction, mating view and pin-1 datum at both ends. Straight-through, reversed and deliberate crossover cables are different wiring products even if they look similar from the outside. Verify the pin map with a labelled first article; do not rely on connector colour or a legacy machine photograph alone. Where a board header has a shroud or polarising feature, make the mating arrangement part of the drawing and inspection plan.", "zh": "IDC 能一次端接多芯，也会把方向错误一次复制到所有回路。两端都要定义连接器键位、卡扣面、出线方向、对插视角和 1 号针基准。直通、反向以及有意交叉的排线是不同接线产品，外观相近也不能混用。首件应按有标识的针脚表逐路核对，不能仅凭连接器颜色或旧设备照片判断。若板端排针带护框或防呆结构，对插关系应写入图纸与检验计划。"},
+        "image": "pin-one-idc.png",
+        "caption": {"en": "The marked edge is a visual datum; the approved drawing defines the circuit.", "zh": "边线标记只提供视觉基准，实际回路仍以获认可图纸为准。"}
+      },
+      {
+        "title": {"en": "Terminate IDC without hiding a poor contact", "zh": "IDC 端接不能掩盖接触缺陷"},
+        "copy": {"en": "The insulation-displacement slot is chosen for a specified conductor and insulation range. Confirm the connector and cable maker's compatibility, press height, tooling, strain-relief cover and allowed rework rules. A connector that appears fully seated may still have an uncut insulation layer, a damaged strand or an uneven row. Visual checks should be paired with the circuit-by-circuit continuity and short-circuit checks required by the drawing. If a different gauge or insulation compound is substituted, repeat the termination review instead of assuming the same press setting remains valid.", "zh": "绝缘位移槽针对规定的导体与绝缘尺寸范围设计。需要核对连接器和线材厂家的匹配要求、压入高度、工装、应力消除盖及允许返修规则。外观看似到底的接头，仍可能有绝缘未切透、导体受损或压入不均。外观检查应配合图纸要求的逐路导通与相邻回路短路检查。若改用另一线规或绝缘配方，须重新审核端接条件，不能默认沿用原压机设定。"},
+        "image": "idc-termination.jpg",
+        "caption": {"en": "IDC socket and keyed header illustrate the two mating interfaces.", "zh": "IDC 插座与带防呆的板端排针展示两处对插接口。"}
+      },
+      {
+        "title": {"en": "Route a flat cable for signal and service", "zh": "兼顾信号与维护的扁平布线"},
+        "copy": {"en": "The profile helps a cable lie against a panel, yet repeated folding at one crease can concentrate strain. Specify bend direction, supported length, exits, edge protection and clearance from moving or hot parts. A flat layout does not itself guarantee low crosstalk or immunity to electromagnetic interference. For faster or noise-sensitive channels, review conductor assignment, ground or return placement, shielding or twisted-pair ribbon options, length and the installed equipment environment. Avoid borrowing a data-rate claim from another cable family; test the assembled channel if the application requires it.", "zh": "扁平外形便于贴着板面走线，但长期在同一道折痕处反复弯曲，会集中应力。应确定弯曲方向、支撑长度、出线口、边缘防护，以及与运动件和热源的距离。平行排布本身并不保证低串扰或抗电磁干扰。高速或易受噪声影响的通道，应审核信号与地/回流线分配、屏蔽或双绞排线选项、长度及设备安装环境。不能把另一系列的传输速率直接搬用；有要求时需对实际组装通道验证。"},
+        "image": "ribbon-routing.jpg",
+        "caption": {"en": "Grey and multicolour flat cables show different identification approaches.", "zh": "灰色与彩色排线展示不同的回路识别方式。"}
+      },
+      {
+        "title": {"en": "Release an assembly, not a loose cable", "zh": "放行完整组件，不只看一段线材"},
+        "copy": {"en": "A useful sample pack contains the approved cable and connector part numbers, length reference points, pinout, polarity, exit direction, branch dimensions, labelling and any shield or strain-relief detail. First-article inspection should compare these against the drawing before the build is repeated. Production checks can include visual condition, dimensions, continuity and unwanted shorts, with other electrical or mechanical tests specified only when the actual project needs them. Retain component lot, approved sample and change records. The photographs here illustrate ribbon-cable geometry and interfaces, not Super Smile manufacturing, test results or certification.", "zh": "有效的样品包应包含获批准的线材与连接器料号、长度测量基准、针脚表、极性、出线方向、分支尺寸、标识以及屏蔽或应力消除细节。复产前，首件检验应逐项与图纸对照。量产检查可覆盖外观、尺寸、导通和意外短路；其他电气或机械试验只有项目实际需要时才规定。还应保留物料批次、认可样品与变更记录。此页照片仅展示排线几何与接口，不代表超斯迈尔生产、测试结果或认证。"},
+        "image": "ribbon-assembly.jpg",
+        "caption": {"en": "A collection of ribbon assemblies demonstrates variation in width, length and connector ends.", "zh": "不同排线组件展示宽度、长度和端头组合的差异。"}
+      }
+    ],
+    "inputs": [
+      {"en": "Conductor count, pitch, gauge, cable length and insulation specification", "zh": "芯数、芯线间距、线规、排线长度与绝缘规格"},
+      {"en": "Connector part numbers, pin map, pin-1 view and cable-exit direction", "zh": "连接器料号、针脚表、1 号针视角与出线方向"},
+      {"en": "Route, bend duty, signal environment, first article and acceptance checks", "zh": "布线路径、弯折工况、信号环境、首件与验收项目"}
+    ],
+    "faq": [
+      {"q": {"en": "Is a ribbon cable the same as FFC or FPC?", "zh": "扁平排线等于 FFC 或 FPC 吗？"}, "a": {"en": "No. Round-conductor ribbon cable, laminated FFC and printed-circuit FPC have different constructions and mating systems; specify the exact cable and connector together.", "zh": "不等于。圆导体排线、层压式 FFC 与印刷式 FPC 的结构和对插体系不同，需要同时指定准确线材和连接器。"}},
+      {"q": {"en": "Can an IDC connector be reused after pressing?", "zh": "IDC 接头压过之后可以重复使用吗？"}, "a": {"en": "Only if the exact connector manufacturer and project specification permit it. Otherwise a replacement connector and new inspected termination are the safe default.", "zh": "只有准确型号的连接器厂家及项目规范允许时才可重复使用；否则应更换接头并重新端接检验。"}}
+    ],
+    "keywords": "flat ribbon cable assembly, round conductor flat cable, IDC ribbon cable, insulation displacement connector, 1.27 mm pitch cable, 2.54 mm IDC connector, 10 pin ribbon cable, 20 pin ribbon cable, 40 pin ribbon cable, pin 1 orientation, shielded ribbon cable, twisted pair flat cable, internal equipment wiring"
+  }
+}
