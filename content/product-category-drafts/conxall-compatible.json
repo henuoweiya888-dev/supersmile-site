@@ -1,0 +1,211 @@
+{
+  "conxall-compatible": {
+    "key": "connector-systems-18",
+    "variant": "conxall",
+    "hero": "conxall-hero.jpg",
+    "heroPosition": "center 48%",
+    "heroAlt": {"en": "Third-party industrial control cabinet with wiring and modules", "zh": "第三方工业控制柜内的布线与模块"},
+    "group": {"en": "Connectors & Brands", "zh": "连接器与品牌"},
+    "sectionSizes": [2, 1, 2, 2, 2, 1],
+    "sectionKickers": [
+      {"en": "FAMILY BEFORE FORM", "zh": "先识别系列"},
+      {"en": "EXACT MATING", "zh": "准确对插"},
+      {"en": "CONTACT + CABLE", "zh": "触点与线缆"},
+      {"en": "ENDPOINT ARCHITECTURE", "zh": "端点结构"},
+      {"en": "APPLICATION DUTY", "zh": "应用工况"},
+      {"en": "APPROVAL EVIDENCE", "zh": "认可依据"}
+    ],
+    "closing": {"en": "A compatible interface begins with the complete mating reference.", "zh": "兼容接口，先从完整对插料号核起。"},
+    "title": {"en": "Conxall-Compatible Cable Assemblies", "zh": "Conxall 兼容电缆组件"},
+    "subtitle": {"en": "Circular connections specified by series, contact and mating condition", "zh": "按系列、触点与插合状态定义圆形连接"},
+    "lead": {
+      "en": "Project-built leads for Conxall-family interfaces, from compact sensor connections to panel and cable-to-cable arrangements.",
+      "zh": "面向 Conxall 系列接口制作项目引线，覆盖紧凑传感器连接、面板安装及线对线结构。"
+    },
+    "intro": {
+      "en": "Conxall is a Switchcraft brand with several distinct circular-connector families. Micro-Con-X, Mini-Con-X and Multi-Con-X differ in shell size, contact arrangements and available terminations. The broader Switchcraft/Conxall product line also offers shielded Mini-Con-X constructions with their own assembly rules. A round black connector is therefore not a sufficient compatibility specification. We begin with the customer's installed receptacle or cable-end part number, its matching-part documentation, pin map and environmental duty. Super Smile can review a cable assembly using specified original components or an approved alternative, but this page does not imply brand authorization, universal interchangeability or an environmental rating for an unverified finished lead.",
+      "zh": "Conxall 是 Switchcraft 旗下品牌，包含多个圆形连接器系列。Micro-Con-X、Mini-Con-X 与 Multi-Con-X 的外壳尺寸、触点排列和端接形式不同；Switchcraft／Conxall 产品线还提供有独立装配要求的屏蔽 Mini-Con-X 结构。因此，黑色圆形接头不足以说明兼容性。我们从客户设备上的插座或线端完整料号、官方配对资料、针脚表及环境工况开始审核。超斯迈尔可按指定原装零件或经认可的替代件评估电缆组件，但本页不表示品牌授权、跨系列通用互换，也不替未经验证的成品引线宣称防护等级。"
+    },
+    "metaDescription": {
+      "en": "Custom Conxall-compatible cable assemblies for Micro-Con-X, Mini-Con-X and Multi-Con-X interfaces. Review exact mating parts, pin maps, contact termination, cable exits, shielding and verification.",
+      "zh": "Conxall 兼容电缆组件技术说明：Micro-Con-X、Mini-Con-X、Multi-Con-X 系列的准确对插、针脚、触点端接、出线、屏蔽与项目检验。"
+    },
+    "keywords": "Conxall compatible cable assembly, Switchcraft Conxall cable, Micro-Con-X cable assembly, Mini-Con-X cable assembly, Multi-Con-X cable assembly, circular connector harness, Con-X panel mount cable, Con-X cable-to-cable assembly, shielded Mini-Con-X lead, molded circular connector cable, circular sensor cable, Conxall 兼容电缆组件, Conxall 圆形连接器线束, Micro-Con-X 电缆, Mini-Con-X 电缆, Multi-Con-X 线束, Con-X 面板安装线缆",
+    "technicalReferences": [
+      "https://www.ql-custom.com/conxall-cable-assembly",
+      "https://www.switchcraft.com/brands/",
+      "https://www.switchcraft.com/micro-con-x-series-custom-factory-molded-cable-assemblies/",
+      "https://www.switchcraft.com/assets/1/27/micro_con_x.pdf?7045=",
+      "https://www.switchcraft.com/assets/1/27/mini_con_x.pdf?7051=",
+      "https://www.switchcraft.com/multi-con-x-connectors-0-875-od/multiconx/",
+      "https://www.switchcraft.com/shielded-mini-con-x-0-760-od/shieldedmini/",
+      "https://www.switchcraft.com/mini-con-x-cable-end-3-pin-20-male-crimp-bulk/6280-3pg-516-cc5/",
+      "https://www.switchcraft.com/mini-con-x-cable-to-cable-6-pin-mixed-2-16-and-4-20-male-crimp-bulk/w8c80-6pg-526/",
+      "https://www.switchcraft.com/assets/1/27/M-875_Shielded_Mini-Con-X.PDF?15110=",
+      "https://www.switchcraft.com/assets/1/27/LAB-0014_MU_Cable.PDF?15115=",
+      "https://www.switchcraft.com/resources/molded-cable-assembly-checklist/",
+      "https://webstore.iec.ch/en/publication/2452"
+    ],
+    "mediaCredits": [
+      {"file":"conxall-hero.jpg","author":"Raymond Sime / Unsplash","source":"https://unsplash.com/photos/industrial-electrical-control-panel-with-wiring-and-electronic-components-KDkU44ikiko","license":"Unsplash License","licenseUrl":"https://unsplash.com/license"},
+      {"file":"conxall-01.jpg","author":"-stk / Wikimedia Commons","source":"https://commons.wikimedia.org/wiki/File:Higo_Julet_2-pin_M8_connector_P1089950.jpg","license":"CC BY-SA 4.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0/"},
+      {"file":"conxall-02.jpg","author":"Abaillieul / Wikimedia Commons","source":"https://commons.wikimedia.org/wiki/File:38999_connector_nickel-teflon.jpg","license":"CC BY-SA 3.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/3.0/"},
+      {"file":"conxall-03.jpg","author":"W0lfie / Wikimedia Commons","source":"https://commons.wikimedia.org/wiki/File:Amphenol_16pin_female.JPG","license":"Public domain (author release)","licenseUrl":"https://commons.wikimedia.org/wiki/File:Amphenol_16pin_female.JPG"},
+      {"file":"conxall-04.jpg","author":"Inaxeon / Wikimedia Commons","source":"https://commons.wikimedia.org/wiki/File:Molexddpcsfamily.jpg","license":"CC BY-SA 4.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0/"},
+      {"file":"conxall-05.jpg","author":"Asurnipal / Wikimedia Commons","source":"https://commons.wikimedia.org/wiki/File:Dornbirn-MC4-multiple_connector-09ASD.jpg","license":"CC BY-SA 4.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0/"},
+      {"file":"conxall-06.jpg","author":"Prosthetic Head / Wikimedia Commons","source":"https://commons.wikimedia.org/wiki/File:Cable_Connectors.jpg","license":"CC BY-SA 4.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/4.0/"},
+      {"file":"conxall-07.jpg","author":"Apolkhanov / Wikimedia Commons","source":"https://commons.wikimedia.org/wiki/File:RG-142_Coaxial_cable.png","license":"CC BY-SA 3.0","licenseUrl":"https://creativecommons.org/licenses/by-sa/3.0/"},
+      {"file":"conxall-08.jpg","author":"PEO ACWA / Wikimedia Commons","source":"https://commons.wikimedia.org/wiki/File:Program_Executive_Officer,_Assembled_Chemical_Weapons_Alternatives,_Visits_the_Blue_Grass_Chemical_Agent-Destruction_Pilot_Plant_(36759893805),_sensor.jpg","license":"CC BY 2.0","licenseUrl":"https://creativecommons.org/licenses/by/2.0/"},
+      {"file":"conxall-09.jpg","author":"Raka Miftah / Pexels","source":"https://www.pexels.com/photo/electric-boxes-in-close-up-shot-4089662/","license":"Pexels License","licenseUrl":"https://www.pexels.com/license/"},
+      {"file":"conxall-10.jpg","author":"Toolmash Expo / Unsplash","source":"https://unsplash.com/photos/electrician-testing-electrical-panel-with-multimeter-PkHf7BUWbtk","license":"Unsplash License","licenseUrl":"https://unsplash.com/license"}
+    ],
+    "topics": [
+      {
+        "id": "micro-mini",
+        "image": "conxall-01.jpg",
+        "caption": {"en": "A Higo Julet two-pin lead illustrates a compact circular cable end. It is not Micro-Con-X, Mini-Con-X or a Super Smile product.", "zh": "图为 Higo Julet 双针圆形线端，仅说明紧凑接口外形，并非 Micro-Con-X、Mini-Con-X 或我司成品。"},
+        "photoAlt": {"en": "Third-party compact two-pin circular cable connector on a white background", "zh": "白色背景上的第三方紧凑双针圆形线端"},
+        "title": {"en": "Micro-Con-X and Mini-Con-X are different systems", "zh": "Micro-Con-X 与 Mini-Con-X 是两套不同系统"},
+        "copy": {
+          "en": "The manufacturer's Micro-Con-X and Mini-Con-X ranges use different shell envelopes and contact layouts. Within each range, pin count, contact size, cable-end versus panel form and termination style vary by order code. One example Mini-Con-X cable-end part has a manufacturer-published list of mating panel components; that list is more useful than comparing outer diameters. First identify the installed side, then select the exact matching cable-side part and verify its drawing. A similarly sized connector from another family is not automatically a mate.",
+          "zh": "原厂 Micro-Con-X 与 Mini-Con-X 系列采用不同的外壳尺寸和触点排列；同一系列内部也会随订货号改变针数、触点规格、线端或面板形式及端接方式。某款 Mini-Con-X 线端件在原厂页面列有明确的对插面板件清单，这比单看外径更有用。应先识别设备上的一侧，再选准确匹配的线端料号并核对图纸。尺寸相近的其他系列不能直接视为可对插。"
+        },
+        "photoContext": "Higo Julet two-pin connector; generic size and form reference only."
+      },
+      {
+        "id": "multi-shielded",
+        "image": "conxall-02.jpg",
+        "caption": {"en": "The photographed MIL-DTL-38999 pair is another manufacturer's connector, used only to explain metal-shell and mating geometry—not Conxall ratings.", "zh": "照片为其他厂商的 MIL-DTL-38999 对插件，仅示意金属外壳与插合几何，不代表 Conxall 规格或等级。"},
+        "photoAlt": {"en": "Two third-party metal circular connector halves on a light background", "zh": "浅色背景上的第三方金属圆形对插件"},
+        "title": {"en": "Multi-Con-X and shielded variants add different constraints", "zh": "Multi-Con-X 与屏蔽版本有各自边界"},
+        "copy": {
+          "en": "Multi-Con-X includes larger contact arrangements and separate cable-end, in-line and panel configurations. Shielded Mini-Con-X uses a metal body and a defined path from the cable shield through its backshell. Some catalogue variants mix contact sizes for separate circuit duties. These are family-specific options, not a promise that any power and signal circuit can share one insert. Confirm contact arrangement, current and voltage limits, wire range, coupling method and the mating manufacturer's documentation for the selected exact part numbers.",
+          "zh": "Multi-Con-X 提供较大触点排列，以及线端、线对线和面板安装配置；屏蔽 Mini-Con-X 则采用金属外壳，并规定线缆屏蔽层到尾壳的连接路径。部分目录型号还提供不同规格触点混排，以容纳不同回路任务。这些都是按系列和料号定义的选项，并不意味着任意动力和信号回路都能共用插芯。仍须逐项核对触点排列、额定电压电流、线径、锁紧方式及官方对插资料。"
+        },
+        "photoContext": "Different-brand metal connector pair; no transfer of military or ingress claims."
+      },
+      {
+        "id": "mating-map",
+        "image": "conxall-03.jpg",
+        "caption": {"en": "A third-party multi-contact socket shows why numbered cavities and face orientation matter; it is not a Conxall mating reference.", "zh": "第三方多触点插座显示孔位编号与插合面方向的重要性，并非 Conxall 对插依据。"},
+        "photoAlt": {"en": "Close-up of numbered cavities in a third-party circular panel socket", "zh": "第三方圆形面板插座的编号孔位特写"},
+        "title": {"en": "Match face, key, contact and installed panel together", "zh": "插合面、键位、触点与面板一起核对"},
+        "copy": {
+          "en": "A mating review must use the full part number on both sides. Check series, pin and socket gender, numbered contact positions, key or polarization, coupling hardware and panel cutout. The wiring-side view can be the mirror of the mating-face view; copying pin numbers from an unlabeled photograph is an avoidable error. For panel mounting, verify wall thickness, gasket placement and the specified retaining parts. Record the approved pair and pin-to-pin map on the drawing so a later substitute requires a deliberate review.",
+          "zh": "对插审核须拿到两侧完整料号，并核对系列、公母触点、编号位置、防错键位、锁紧件和面板开孔。接线面与插合面可能互为镜像，照着一张未标视角的照片抄针号容易出错。面板安装还要核对板厚、垫圈位置和规定紧固件。把获认可的配对组合与逐针回路写进图纸，后续替代料才有明确的复核基准。"
+        },
+        "photoContext": "Amphenol panel socket face used only to illustrate the need for a verified pin map."
+      },
+      {
+        "id": "contact-termination",
+        "image": "conxall-04.jpg",
+        "caption": {"en": "A photographed Molex crimp tool, housings and loose contacts illustrate how terminals and tooling belong to one defined system; these are not Conxall parts.", "zh": "实拍 Molex 压接工具、壳体与散件触点，说明端子和工具须按系统配套；图中并非 Conxall 零件。"},
+        "photoAlt": {"en": "Molex-branded crimp tool with connector housings and loose metal terminals", "zh": "Molex 品牌压接工具、连接器壳体与散件金属端子"},
+        "title": {"en": "Contact size and termination set the wire range", "zh": "触点规格与端接方式决定适用线径"},
+        "copy": {
+          "en": "Depending on the exact configuration, cable-end parts can use crimp or solder-cup contacts, while some panel or board-side parts use PCB tails. The contact's allowed conductor range and the cable-entry opening both matter; a wire that fits the solder cup may still be unsuitable for the backshell or seal. For crimp contacts, use the specified terminal and tooling and confirm seating in the insert. For solder contacts, follow the component's preparation and heat instructions. Leave no exposed strand where it can reach an adjacent contact or sealing surface.",
+          "zh": "依具体配置，线端件可采用压接或焊杯触点，部分面板或板端件使用 PCB 尾针。触点允许线径和线缆入口尺寸都要满足；导线能进入焊杯，也不代表其护套适合尾壳或密封件。压接触点应匹配指定端子与工具，并确认在插芯内锁定；焊接触点应遵守器件的备线和加热要求。裸露铜丝不能靠近相邻触点或密封面。"
+        },
+        "photoContext": "Inaxeon's photograph of Molex parts is a third-party tooling reference, not an approved Conxall terminal or tool set."
+      },
+      {
+        "id": "jacket-overmold",
+        "image": "conxall-05.jpg",
+        "caption": {"en": "A photographed MC4 solar-cable branch shows molded junctions and flexible cable exits. It is not a Conxall product or proof of sealing or strain relief.", "zh": "实拍 MC4 光伏分支线展示模制分叉与柔性出线；并非 Conxall 产品，也不能证明密封或抗拉表现。"},
+        "photoAlt": {"en": "Two third-party MC4 solar cable branches with molded junctions on a light surface", "zh": "浅色台面上的两条第三方 MC4 光伏分支线及模制分叉"},
+        "title": {"en": "Cable diameter, jacket and molded exit must agree", "zh": "电缆外径、护套与模制出口要相互匹配"},
+        "copy": {
+          "en": "Select conductor count and cable construction for the circuit, then check whether the jacket outside diameter fits the chosen connector's entry and strain-relief parts. A field-assembled backshell, a factory-molded end and a cable-to-cable body have different process and service boundaries. Molding can shape a compact exit, but its material compatibility, bend behavior and sealing depend on the actual design. Neither a glossy boot nor a sealed connector catalogue rating establishes the ingress rating of a third-party finished assembly.",
+          "zh": "先按回路确定芯数与线缆结构，再检查护套外径是否落在所选接头的进线和应力释放范围内。现场组装尾壳、工厂模制端和线对线外壳的工艺及维护边界不同。模制可以形成紧凑出口，但材料相容性、弯曲表现与密封性取决于实际设计。光滑尾套或原厂接头目录上的防护额定，都不能直接证明第三方整条成品的防护等级。"
+        },
+        "photoContext": "Asurnipal's MC4 solar branch photograph; molded branch and cable-exit geometry only."
+      },
+      {
+        "id": "panel-inline",
+        "image": "conxall-06.jpg",
+        "caption": {"en": "Cables enter a scientific instrument box through glands. This explains a fixed equipment boundary, not Conxall panel or in-line hardware.", "zh": "线缆经格兰头进入科研设备箱体，说明固定设备边界；照片不是 Conxall 面板或线对线接头。"},
+        "photoAlt": {"en": "Cables entering an equipment box through several cable glands", "zh": "多根线缆经格兰头进入设备箱体"},
+        "title": {"en": "Panel, cable-end and in-line leads solve different interfaces", "zh": "面板、线端与线对线引线对应不同界面"},
+        "copy": {
+          "en": "A sensor lead may plug into an equipment panel, while an extension cable joins two cable ends in the field. Specify which side is fixed, which can be removed, the approach angle and how the assembly is retained. A right-angle molded end can help at a shallow panel, but the bend and mating clearance still need a dimensional check. For a branching lead, define every branch datum, connector orientation and circuit map; a Y shape is not enough to establish electrical function.",
+          "zh": "传感器引线可能接入设备面板，延长段则在线路中连接两个线端。应确定哪一侧固定、哪一侧可拆、插合角度及线缆固定方式。直角模制端有助于浅空间安装，但仍要核对弯曲与插合余量。若采用分支引线，每条分支的长度基准、接头朝向和回路映射都应明确；仅有 Y 形外观不能说明电气功能。"
+        },
+        "photoContext": "Scientific beamline box photographed by Prosthetic Head; fixed cable-entry context."
+      },
+      {
+        "id": "shield-branch",
+        "image": "conxall-07.jpg",
+        "caption": {"en": "An RG-142 coaxial cable shows its visible braided shield beside a ruler; this is a material-layer reference, not a Conxall termination or EMC result.", "zh": "尺旁的 RG-142 同轴线缆可见金属编织屏蔽层；这是材料层次参考，不是 Conxall 端接或 EMC 检验结果。"},
+        "photoAlt": {"en": "RG-142 coaxial cable with visible metal braid beside a ruler", "zh": "尺旁露出金属编织层的 RG-142 同轴线缆"},
+        "title": {"en": "A shield works only when its path is defined", "zh": "屏蔽层要有明确的连接路径"},
+        "copy": {
+          "en": "For a shielded Mini-Con-X construction, the manufacturer's assembly instructions specify jacket preparation, shield treatment, insulator orientation and backshell tightening. The shield should not wander onto signal contacts, and an arbitrary branch can interrupt its return path. State whether the equipment design calls for screen termination at one end, both ends or another defined arrangement. Use the actual cable, connector and installation layout to plan any EMC measurement; a metal shell alone is not proof of noise immunity.",
+          "zh": "屏蔽 Mini-Con-X 的原厂装配说明明确了护套剥除、屏蔽层处理、绝缘件方向与尾壳紧固。屏蔽层不能碰到信号触点，随意分支也可能中断回流路径。设备设计应规定屏蔽在单端、双端或其他方式端接。若要测量 EMC 表现，须以实际电缆、接头和安装布局为对象；金属外壳本身不能证明抗干扰能力。"
+        },
+        "photoContext": "Apolkhanov's RG-142 coaxial photograph; shield-layer structure illustration only."
+      },
+      {
+        "id": "automation-sensors",
+        "image": "conxall-08.jpg",
+        "caption": {"en": "A factory-mounted photoelectric sensor shows its cable connection at the equipment edge; neither the lead nor connector is identified as Conxall.", "zh": "工厂设备上的光电传感器可见其线缆连接位置；图中引线及接头均未认定为 Conxall。"},
+        "photoAlt": {"en": "Yellow photoelectric sensor mounted on industrial equipment with a cable connection below", "zh": "工业设备上安装的黄色光电传感器及下方线缆连接"},
+        "title": {"en": "Industrial sensing and machine control", "zh": "工业传感与设备控制"},
+        "copy": {
+          "en": "Circular leads can connect a sensor, actuator, local controller or test fixture where the selected device actually uses this interface. The equipment designer defines supply, signal, return and any protective-earth path; the cable assembly then carries those paths to the matching endpoint. Confirm connector coding and cable routing around moving parts before selecting a length. A series name describes a connector family, not a protocol converter or permission to connect unlike device circuits.",
+          "zh": "如果设备实际采用相应接口，圆形引线可连接传感器、执行机构、就地控制器或测试夹具。供电、信号、回流与保护接地路径由设备设计方定义，电缆组件把这些路径送到匹配端点。定长前要核对接口防错与运动部件周围的布线路径。系列名称说明连接器家族，不表示协议转换，也不意味着不同设备回路可以随意接在一起。"
+        },
+        "photoContext": "PEO ACWA factory-mounted photoelectric sensor; genuine industrial application, not a Conxall lead."
+      },
+      {
+        "id": "exposed-equipment",
+        "image": "conxall-09.jpg",
+        "caption": {"en": "Outdoor electrical cabinets illustrate weather exposure. No photographed cable, gland or cabinet rating is assigned to a proposed assembly.", "zh": "户外电箱说明天气暴露；照片中的线缆、格兰头或箱体等级均不能套用到拟制组件。"},
+        "photoAlt": {"en": "Outdoor electrical boxes with protective metal covers", "zh": "装有金属防护盖的户外电箱"},
+        "title": {"en": "Outdoor and cleaned equipment need an installation review", "zh": "户外与清洗设备要审核完整安装状态"},
+        "copy": {
+          "en": "Rain, dust, oil, cleaning fluids and repeated unmating affect different parts of the connection. The official rating of one Con-X variant may depend on being mated and on a specified molded cable assembly; another variant has different conditions. Select the connector, cap, cable jacket, panel gasket and exit together for the site's exposure. If the application requires an IP claim, identify the precise part and complete test configuration instead of transferring a catalogue number to every assembled cable.",
+          "zh": "雨水、粉尘、油液、清洗剂与反复拆插会影响连接中的不同部位。某款 Con-X 型号的原厂防护额定可能以插合并采用指定模制线缆为条件；另一款型号的条件可能不同。应把接头、护盖、线缆护套、面板垫圈和出线方式一起选入现场工况。如果项目需要 IP 声明，应明确准确料号和完整受试配置，不能把目录数值平移到每条组装线缆。"
+        },
+        "photoContext": "Outdoor box scene by Raka Miftah, not a water-ingress test."
+      },
+      {
+        "id": "release-record",
+        "image": "conxall-10.jpg",
+        "caption": {"en": "An electrician checks a control panel with a meter. The image is not a Super Smile first-article result or Conxall approval.", "zh": "电工使用仪表检查控制柜；照片并非超斯迈尔首件检验结果或 Conxall 认可记录。"},
+        "photoAlt": {"en": "Technician checking electrical panel circuits with a handheld meter", "zh": "技术人员使用手持仪表检查电气柜回路"},
+        "title": {"en": "Release the approved part pair and inspection plan", "zh": "按认可的对插组合与检验计划放行"},
+        "copy": {
+          "en": "The build package should hold both mating part numbers, manufacturer drawings, contact arrangement, cable specification, orientation, dimensions and label map. First-article checks can include visual seating, pin-to-pin continuity and short-circuit review. Pull, insulation, shield or ingress checks require agreed methods and acceptance limits. Record the exact revision and configuration actually examined. Super Smile's compatible-assembly service is independent of Switchcraft/Conxall; neither an original component nor a similar-looking substitute confers brand authorization or finished-product certification.",
+          "zh": "生产资料应同时保存两侧对插料号、原厂图纸、触点排列、线缆规格、朝向、尺寸与标识映射。首件可按计划检查触点到位、逐针导通和短路。拉力、绝缘、屏蔽或防护检查须另有约定的方法与验收限值，并记录实际检查的版本与配置。超斯迈尔的兼容组件服务独立于 Switchcraft/Conxall；无论使用原装零件还是外观相似的替代件，都不自动获得品牌授权或成品认证。"
+        },
+        "photoContext": "General electrical inspection scene by Toolmash Expo."
+      }
+    ],
+    "inputs": [
+      {"en": "Full installed connector part number and proposed mating part or sample", "zh": "设备已装接头的完整料号及拟配对零件或样品"},
+      {"en": "Contact layout, face/wire-view drawing and pin-to-pin circuit map", "zh": "触点排列、插合面／接线面图与逐针回路表"},
+      {"en": "Conductor sizes, cable jacket outside diameter, length and motion route", "zh": "导体线径、护套外径、长度与运动路径"},
+      {"en": "Panel dimensions, coupling, shield and exposure requirements", "zh": "面板尺寸、锁紧、屏蔽与环境要求"},
+      {"en": "Original-part or approved-alternative policy and agreed inspection limits", "zh": "原装件或认可替代件政策及约定的检验限值"}
+    ],
+    "faq": [
+      {
+        "q": {"en": "Are Micro-Con-X, Mini-Con-X and Multi-Con-X interchangeable?", "zh": "Micro-Con-X、Mini-Con-X 和 Multi-Con-X 可以互换吗？"},
+        "a": {"en": "They are different connector families. Confirm the exact mating part numbers and drawings; similar circular shape or contact count does not establish interchangeability.", "zh": "它们是不同连接器家族。须核对准确的对插料号和图纸；圆形外观或针数接近都不能证明互换。"}
+      },
+      {
+        "q": {"en": "Does a manufacturer's IP-rated connector make our completed cable IP-rated?", "zh": "原厂接头标有 IP 等级，整条成品电缆就有同等级吗？"},
+        "a": {"en": "No automatic transfer applies. A rating can depend on the precise variant, mating state, cable assembly and test configuration. A finished-lead claim needs evidence for that exact build.", "zh": "不能自动沿用。额定可能取决于具体型号、插合状态、电缆组件结构和受试配置；成品声明须有针对准确结构的证据。"}
+      },
+      {
+        "q": {"en": "Can you build to a specified Conxall interface without being an authorized distributor?", "zh": "不是品牌授权经销商，也能按指定 Conxall 接口制作引线吗？"},
+        "a": {"en": "An independently built cable can be reviewed around specified original parts or customer-approved alternatives. We do not claim to be Switchcraft/Conxall or to hold its brand authorization; sourcing and permitted substitutions are confirmed for each order.", "zh": "可围绕指定原装零件或客户认可的替代件审核独立制作的电缆组件。本页不宣称超斯迈尔属于 Switchcraft/Conxall 或持有品牌授权；物料来源与允许替代范围按订单确认。"}
+      },
+      {
+        "q": {"en": "What should be sent for a mating-connector quotation?", "zh": "询问对插组件报价应提供什么？"},
+        "a": {"en": "Send both connector references or clear face and label photographs, the device drawing, pin map, cable specification, length, installation environment, quantity and required inspection criteria.", "zh": "请提供两侧接头料号，或清晰的插合面与标签照片，并附设备图、针脚表、线缆规格、长度、安装环境、数量及检验要求。"}
+      }
+    ],
+    "publicationGate": "Independent compatibility page only. Confirm exact Switchcraft/Conxall mating references, sourcing rights, assembly instructions and any customer-approved substitutions before publication or quotation. No dealer status, all-series interchangeability, finished-assembly IP/UL/Ex or measured test result is claimed."
+  }
+}

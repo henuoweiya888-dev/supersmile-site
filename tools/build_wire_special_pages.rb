@@ -16,6 +16,9 @@ end
 if ARGV.include?('oil-and-gas-equipment-cable-assembly')
   DATA.merge!(JSON.parse(File.read(File.join(ROOT, 'content/product-category-drafts/oil-and-gas-equipment-cable-assembly.json'))))
 end
+if ARGV.include?('conxall-compatible')
+  DATA.merge!(JSON.parse(File.read(File.join(ROOT, 'content/product-category-drafts/conxall-compatible.json'))))
+end
 
 CHAPTERS = {
   'motion'=>[['Define the motion envelope','定义运动包络'],['Build the moving cable system','构建运动线缆系统'],['Validate the installed cycle','验证安装循环']],
@@ -33,7 +36,8 @@ CHAPTERS = {
   'thermal'=>[['Map the actual heat','绘制真实热区'],['Coordinate cable and accessories','协同线材与附件'],['Release the proven assembly','放行有据可查的组件']],
   'hybrid'=>[['Define two duties in one cable','一条电缆，两种任务'],['Protect both paths at the split','分支处兼顾两条路径'],['Verify the installed assembly','验证安装后的组件']],
   'switch'=>[['Switch forms and circuits','开关形式与回路'],['Materials and contact interfaces','材料与接点接口'],['Connection solutions','连接解决方案'],['Industries and applications','行业与应用'],['Customization choices','定制选项'],['Core structure and protection','线芯结构与环境防护']],
-  'oilgas'=>[['Equipment circuits','设备回路'],['Connection solutions','连接解决方案'],['Materials and interfaces','线材与附件'],['Industries and applications','行业与应用'],['Installation and service','现场安装与维护'],['Project review','项目审核']]
+  'oilgas'=>[['Equipment circuits','设备回路'],['Connection solutions','连接解决方案'],['Materials and interfaces','线材与附件'],['Industries and applications','行业与应用'],['Installation and service','现场安装与维护'],['Project review','项目审核']],
+  'conxall'=>[['Connector families','连接器系列'],['Exact mating','准确对插'],['Cable and contact materials','线材与触点'],['Connection solutions','连接解决方案'],['Industries and applications','行业与应用'],['Project review','项目审核']]
 }.freeze
 
 def h(value)
@@ -68,6 +72,7 @@ def chapter(page, slug, number, chapter_index, topics)
   klass = case page['variant']
           when 'switch' then "ws-switch-section ws-switch-section-#{chapter_index + 1}"
           when 'oilgas' then "ws-oilgas-section ws-oilgas-section-#{chapter_index + 1}"
+          when 'conxall' then "ws-conxall-section ws-conxall-section-#{chapter_index + 1}"
           else %w[ws-foundation ws-engineering ws-evidence][chapter_index]
           end
   last_chapter = page['sectionSizes'] ? page['sectionSizes'].length - 1 : 2
@@ -108,11 +113,12 @@ def render_page(slug, page)
   desc_zh = page.dig('metaDescription', 'zh') || "#{page['title']['zh']}定制技术说明，覆盖结构、材料、接口、安装、检验与项目特定验证。"
   group = page['group'] || {'en'=>'Wire & Cable', 'zh'=>'电线电缆'}
   closing = page['closing'] || {'en'=>'Define the duty before releasing the cable.', 'zh'=>'先定义工况，再放行线缆。'}
-  type_label = %w[hybrid switch oilgas].include?(page['variant']) ? 'Technical Assembly Guide' : 'Technical Cable Guide'
+  type_label = %w[hybrid switch oilgas conxall].include?(page['variant']) ? 'Technical Assembly Guide' : 'Technical Cable Guide'
   variant_stylesheet = case page['variant']
                        when 'hybrid' then '<link rel="stylesheet" href="/assets/css/hybrid-editorial.css?v=20260927-draft2">'
                        when 'switch' then '<link rel="stylesheet" href="/assets/css/switch-editorial.css?v=20260927-draft1">'
                        when 'oilgas' then '<link rel="stylesheet" href="/assets/css/oilgas-editorial.css?v=20260927-1">'
+                       when 'conxall' then '<link rel="stylesheet" href="/assets/css/conxall-editorial.css?v=20260927-1">'
                        else ''
                        end
   credit_html = if page['mediaCredits']
@@ -138,7 +144,7 @@ def render_page(slug, page)
   <div class="ws-page"><section class="ws-opening"><div><span class="ws-opening-label"><span data-copy="en">ENGINEERING OVERVIEW</span><span data-copy="zh">工程概览</span></span><h2>#{pair(page['subtitle'])}</h2></div><div>#{pair(page['intro'],tag:'p')}</div></section><nav class="ws-index">#{index}</nav>#{chapters}<details class="ws-credits"><summary><span data-copy="en">Images and technical scope</span><span data-copy="zh">图片与技术范围说明</span></summary><p><span data-copy="en">Context images explain the material, process, environment or application. They do not represent Super Smile test results or third-party certification.</span><span data-copy="zh">场景图片用于解释材料、工艺、环境或应用，不代表超斯迈尔测试结果或第三方认证。</span></p>#{credit_html}<a href="/assets/images/product-categories/stock/#{slug}/SOURCES.md"><span data-copy="en">View image source notes</span><span data-copy="zh">查看图片来源说明</span></a></details></div>
   <section class="pcc-closing ws-closing"><div><span>#{pair(group)}</span><h2>#{pair(closing)}</h2></div><a class="btn btn-primary" data-contact-link href="/contact?category=#{h(page['key'])}"><span data-copy="en">Send Your Requirements</span><span data-copy="zh">发送项目要求</span></a></section></main>
   <footer class="footer"><div class="container"><div><h5>SuperSmile</h5><p id="footer-about"></p></div><div><h5>Contact</h5><div id="f-contact" class="footer-contact"></div></div><div><h5>Links</h5><a href="/">Home</a><a href="/custom">Custom Wiring Harness</a><a href="/products">Products</a><a href="/about">About</a><a href="/contact">Contact</a></div></div><div class="container bot">© <span id="f-year"></span> <span id="f-company"></span> · All Rights Reserved</div></footer>
-  <div class="fab" id="fab"><button class="fab-main" id="fab-main" type="button" aria-label="Contact"><span class="fab-icon"></span><span class="fab-label">Contact</span></button><div class="fab-menu" id="fab-menu"><a class="fab-item email" id="fab-email" href="mailto:sales@supersmile-tech.com">Email</a><button class="fab-item online" id="fab-online" type="button">Online Message</button><a class="fab-item wa" id="fab-wa" href="https://wa.me/447516289817" target="_blank" rel="noopener">WhatsApp</a></div></div><div class="contact-modal" id="contact-modal"><div class="contact-modal-overlay" data-close></div><div class="contact-modal-box" role="dialog" aria-modal="true"><button class="modal-close" type="button" data-close>×</button><h3 id="modal-title">Send Us a Message</h3><form id="modal-form"><div class="field"><label id="modal-label-name">Name</label><input id="modal-name" required></div><div class="field"><label id="modal-label-email">Email</label><input id="modal-email" type="email" required></div><div class="field"><label id="modal-label-message">Message</label><textarea id="modal-message" required></textarea></div><button class="btn btn-primary" type="submit" id="modal-submit">Send Message</button></form></div></div><div class="toast" id="toast"></div><script src="/assets/js/main.js?v=20260927v66"></script><script src="/assets/js/wire-special-editorial.js?v=20260927-2"></script></body></html>
+  <div class="fab" id="fab"><button class="fab-main" id="fab-main" type="button" aria-label="Contact"><span class="fab-icon"></span><span class="fab-label">Contact</span></button><div class="fab-menu" id="fab-menu"><a class="fab-item email" id="fab-email" href="mailto:sales@supersmile-tech.com">Email</a><button class="fab-item online" id="fab-online" type="button">Online Message</button><a class="fab-item wa" id="fab-wa" href="https://wa.me/447516289817" target="_blank" rel="noopener">WhatsApp</a></div></div><div class="contact-modal" id="contact-modal"><div class="contact-modal-overlay" data-close></div><div class="contact-modal-box" role="dialog" aria-modal="true"><button class="modal-close" type="button" data-close>×</button><h3 id="modal-title">Send Us a Message</h3><form id="modal-form"><div class="field"><label id="modal-label-name">Name</label><input id="modal-name" required></div><div class="field"><label id="modal-label-email">Email</label><input id="modal-email" type="email" required></div><div class="field"><label id="modal-label-message">Message</label><textarea id="modal-message" required></textarea></div><button class="btn btn-primary" type="submit" id="modal-submit">Send Message</button></form></div></div><div class="toast" id="toast"></div><script src="/assets/js/main.js?v=20260927v67"></script><script src="/assets/js/wire-special-editorial.js?v=20260927-3"></script></body></html>
   HTML
 end
 

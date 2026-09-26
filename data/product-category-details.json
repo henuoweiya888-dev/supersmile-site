@@ -14364,6 +14364,10 @@
       ]
     }
   },
+  "connector-systems-18": {
+    "intro": {"zh": "围绕客户指定的 Conxall 系列接口制作定制电缆组件。核对 Micro-Con-X、Mini-Con-X、Multi-Con-X 或屏蔽型的准确料号、触点排列、对插件与安装状态，再定义线材、端接、分支和检验方案。", "en": "Custom cable assemblies for customer-specified Conxall-family interfaces. We verify exact Micro-Con-X, Mini-Con-X, Multi-Con-X or shielded part numbers, contact arrangements, mating halves and installation conditions before defining cable, termination, branches and inspection."},
+    "page": {"layout": "wire-special-editorial", "displayTitle": {"zh": "Conxall 兼容电缆组件", "en": "Conxall-Compatible Cable Assemblies"}, "subtitle": {"zh": "按系列、触点与插合状态定义圆形连接", "en": "Circular connections specified by series, contact and mating condition"}, "lead": {"zh": "面向 Conxall 系列接口制作项目引线，覆盖紧凑传感器连接、面板安装及线对线结构。", "en": "Project-built leads for Conxall-family interfaces, from compact sensor connections to panel and cable-to-cable arrangements."}, "images": {"range": "/assets/images/product-categories/stock/conxall-compatible/conxall-hero.jpg"}, "faq": []}
+  },
   "connector-systems-17": {
     "intro": {"zh":"围绕客户指定的矢崎 Yazaki 连接器，制作传感器引线、车身分支、设备转接与可拆卸线束。先核对准确壳体、端子、线封、二次锁及对插件，再决定针脚、线材和安装走向；系列名称本身不能代替完整配置。","en":"Sensor leads, vehicle branches, equipment adapters and removable harnesses built around customer-specified Yazaki connectors. We verify the exact housing, terminal, wire seal, secondary lock and mating half before defining pins, cable and routing; a family name is not a complete configuration."},
     "knowledge": {"zh":"矢崎汽车连接器目录同时包含防水与非防水、线对线与设备端等不同结构。YESC、YMT 1.2、0.64（025）、1.5（060）、2.3（090）等名称有助于定位系列，但极数、防错编码、端子尺寸与密封方式仍须落实到料号和图纸。","en":"Yazaki's automotive connector catalog spans sealed and unsealed, wire-to-wire and device-side structures. Names such as YESC, YMT 1.2, 0.64 (025), 1.5 (060) and 2.3 (090) help locate a family, but cavity count, keying, terminal size and sealing must still be resolved by part number and drawing."},
