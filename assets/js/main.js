@@ -861,67 +861,17 @@ function renderTitle(){
   if(m && dmap[key]) m.setAttribute('content', dmap[key]);
 }
 
-function renderFab(){
-  if(!SITE) return;
-  const u=currentUI();
-  const wa=$('#fab-wa'); if(wa && SITE.contact) wa.href = SITE.contact.whatsapp_link || 'https://wa.me/447516289817';
-  const em=$('#fab-email'); if(em && SITE.contact){ em.href = 'mailto:' + SITE.contact.email; em.innerHTML = ico('mail','fab-item-icon')+'<span>'+u.email+'</span>'; }
-  const online=$('#fab-online'); if(online) online.innerHTML = ico('chat','fab-item-icon')+'<span>'+u.title+'</span>';
-  if(wa) wa.innerHTML=brandIcon('whatsapp','fab-item-icon')+'<span>WhatsApp</span>';
-  const main=$('#fab-main'), menu=$('#fab-menu');
-  if(main && menu){
-    const label=t(SITE.nav.contact);
-    main.innerHTML='<span class="fab-icon">'+ico('chat')+'</span><span class="fab-label">'+label+'</span>';
-    main.setAttribute('aria-label',label);
-    main.setAttribute('aria-controls','fab-menu');
-    const setFabOpen=(open)=>{
-      menu.classList.toggle('open',open);
-      menu.setAttribute('aria-hidden',String(!open));
-      main.setAttribute('aria-expanded',String(open));
-    };
-    setFabOpen(false);
-    main.onclick=(e)=>{ e.stopPropagation(); setFabOpen(!menu.classList.contains('open')); };
-    if(!window.__fabBound){
-      window.__fabBound=true;
-      document.addEventListener('click',(e)=>{ if(!e.target.closest('#fab')) setFabOpen(false); });
-    }
-    if(online){
-      online.onclick=(e)=>{ e.stopPropagation(); setFabOpen(false); openModal(); };
-    }
-  }
-  renderModal();
-}
-
-let __modalReturnFocus=null;
-function openModal(){
-  const m=$('#contact-modal'); if(!m) return;
-  __modalReturnFocus=document.activeElement;
-  m.classList.add('open');
-  requestAnimationFrame(()=>{ const target=m.querySelector('input,textarea,button,a[href]'); if(target) target.focus(); });
-}
-function closeModal(){
-  const m=$('#contact-modal'); if(!m) return;
-  const wasOpen=m.classList.contains('open');
-  m.classList.remove('open');
-  if(wasOpen && __modalReturnFocus && typeof __modalReturnFocus.focus==='function') __modalReturnFocus.focus();
-  __modalReturnFocus=null;
-}
-function renderModal(){
-  const m=$('#contact-modal'); if(!m || !SITE) return;
-  const dialog=m.querySelector('[role="dialog"]'); if(dialog) dialog.setAttribute('aria-labelledby','modal-title');
-  const u=UI[LANG]||UI.en;
-  setText('#modal-title', u.title); setText('#modal-label-name', u.name);
-  setText('#modal-label-email', u.email); setText('#modal-label-message', u.message);
-  setText('#modal-submit', u.send); setText('#modal-wa', u.wa);
-  const name=$('#modal-name'), email=$('#modal-email'), message=$('#modal-message');
-  if(name) name.placeholder=u.name;
-  if(email) email.placeholder=u.email;
-  if(message) message.placeholder=u.message;
-  const wa=$('#modal-wa'); if(wa && SITE.contact) wa.href = SITE.contact.whatsapp_link || 'https://wa.me/447516289817';
-  $$('.modal-close').forEach(btn=>{
-    btn.innerHTML=ico('close','modal-close-icon');
-    btn.setAttribute('aria-label',u.title);
-  });
+function loadTawkWidget(){
+  if(document.getElementById('tawk-widget-script')) return;
+  window.Tawk_API=window.Tawk_API||{};
+  window.Tawk_LoadStart=new Date();
+  const script=document.createElement('script');
+  script.id='tawk-widget-script';
+  script.async=true;
+  script.src='https://embed.tawk.to/6ab9c1af37585d3444b47642/1k3ipp5et';
+  script.charset='UTF-8';
+  script.setAttribute('crossorigin','*');
+  document.head.appendChild(script);
 }
 
 function renderHotProduct(){
@@ -1156,9 +1106,6 @@ function renderSharedChrome(){
   if(heroLabel && !['page-custom','page-about'].includes(pageIdentity())) heroLabel.dataset.sectionLabel=t(SITE.custom_intro.tag);
   $$('.block-txt').forEach((el,i)=>el.dataset.sectionLabel=t((SITE.blocks[i]||SITE.blocks[0]).title));
   $$('.cta .container').forEach(el=>el.dataset.sectionLabel=t(SITE.nav.quote));
-  const modalBox=$('.contact-modal-box');
-  if(modalBox) modalBox.dataset.sectionLabel=currentUI().title;
-
   $$('nav[aria-label="Breadcrumb"],nav.breadcrumb').forEach(nav=>{
     nav.classList.add('breadcrumb');
     nav.setAttribute('aria-label',t(SITE.nav.products));
@@ -2608,7 +2555,7 @@ function renderAll(){
   renderNav(); renderLogoCompany(); renderLangSelector();
   renderHero(); renderHotProduct(); renderCustom(); renderProcess(); renderApps();
   renderFactory(); renderCerts(); renderProductsTeaser(); renderBlocks(); renderCTA();
-  renderFooter(); renderProductsPage(); renderContact(); renderAbout(); renderTitle(); renderFab(); renderProductSelect(); bindPsToggle();
+  renderFooter(); renderProductsPage(); renderContact(); renderAbout(); renderTitle(); renderProductSelect(); bindPsToggle();
   renderStaticPages();
   hydrateStaticIcons();
   syncDocumentLanguage();
@@ -2616,6 +2563,7 @@ function renderAll(){
 }
 
 document.addEventListener('DOMContentLoaded', async ()=>{
+  loadTawkWidget();
   try{ await loadData(); }catch(e){ console.error(e); return; }
   renderAll();
   decoratePage();
@@ -2657,34 +2605,13 @@ document.addEventListener('DOMContentLoaded', async ()=>{
       if(ppop.classList.contains('open')) closeProductModal();
     });
   }
-  const modal=$('#contact-modal');
-  if(modal){
-    $$('[data-close]', modal).forEach(el=>el.onclick=closeModal);
-    const overlay=modal.querySelector('.contact-modal-overlay');
-    if(overlay) overlay.onclick=closeModal;
-    const mf=$('#modal-form');
-    if(mf) mf.onsubmit=(ev)=>{ ev.preventDefault(); const name=$('#modal-name').value, email=$('#modal-email').value, msg=$('#modal-message').value, u=currentUI();
-      sendMail(t(SITE.nav.contact)+' - '+name, u.name+': '+name+'\n'+u.email+': '+email+'\n\n'+msg, email); };
-  }
   document.addEventListener('keydown',e=>{
-    const openModalEl=$('#contact-modal.open');
-    if(e.key==='Tab' && openModalEl){
-      const focusable=$$('a[href],button:not([disabled]),input:not([disabled]),textarea:not([disabled]),select:not([disabled]),[tabindex]:not([tabindex="-1"])',openModalEl).filter(el=>!el.hidden);
-      if(focusable.length){
-        const first=focusable[0], last=focusable[focusable.length-1];
-        if(e.shiftKey && document.activeElement===first){e.preventDefault();last.focus();}
-        else if(!e.shiftKey && document.activeElement===last){e.preventDefault();first.focus();}
-      }
-    }
     if(e.key==='Escape'){
-      closeModal(); closeProductModal();
+      closeProductModal();
       const nav=$('#nav-links'); if(nav) nav.classList.remove('open');
       $('.header')?.classList.remove('product-mega-open');
       document.body.classList.remove('nav-open');
       const tg=$('#nav-toggle'); if(tg) tg.setAttribute('aria-expanded','false');
-      const fabMenu=$('#fab-menu'),fabMain=$('#fab-main');
-      if(fabMenu){fabMenu.classList.remove('open');fabMenu.setAttribute('aria-hidden','true');}
-      if(fabMain) fabMain.setAttribute('aria-expanded','false');
       const langMenu=$('#lang-menu'),langBtn=$('#lang-btn');
       if(langMenu){langMenu.classList.remove('open');langMenu.setAttribute('aria-hidden','true');}
       if(langBtn) langBtn.setAttribute('aria-expanded','false');
