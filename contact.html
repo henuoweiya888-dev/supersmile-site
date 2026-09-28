@@ -5,7 +5,7 @@
 <title>Contact the Wire Harness Factory | Get a Custom Harness Quote</title>
 <meta name="description" content="Contact Super Smile to review a custom wiring harness, automotive diagnostic cable, heavy-duty cable or turbo actuator harness requirement.">
 <link rel="stylesheet" href="/assets/css/style.css?v=20260825v3">
-<link rel="stylesheet" href="/assets/css/industrial-v2.css?v=20260902v53">
+<link rel="stylesheet" href="/assets/css/industrial-v2.css?v=20260928-contact1">
 <link rel="stylesheet" href="/assets/css/contact-product-picker-v2.css?v=20260912v1">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
@@ -67,7 +67,7 @@
     <div class="contact-grid">
       <div class="contact-info" id="contact-info"></div>
       <div>
-        <form id="contact-form">
+        <form id="contact-form" method="post" action="/api/contact" enctype="multipart/form-data">
           <div class="field">
             <label id="cf-products-label" for="ps-trigger">Select Products (optional)</label>
             <div class="ps" id="ps">
@@ -76,13 +76,24 @@
             </div>
           </div>
           <div class="form-name-grid">
-            <div class="field"><label for="cf-first-name">First name *</label><input id="cf-first-name" name="first_name" type="text" autocomplete="given-name" required placeholder="First name"></div>
-            <div class="field"><label for="cf-last-name">Last name *</label><input id="cf-last-name" name="last_name" type="text" autocomplete="family-name" required placeholder="Last name"></div>
+            <div class="field"><label for="cf-first-name">First name *</label><input id="cf-first-name" name="first_name" type="text" autocomplete="given-name" maxlength="80" required placeholder="First name"></div>
+            <div class="field"><label for="cf-last-name">Last name *</label><input id="cf-last-name" name="last_name" type="text" autocomplete="family-name" maxlength="80" required placeholder="Last name"></div>
           </div>
-          <div class="field"><label for="cf-email">Your Email *</label><input id="cf-email" name="email" type="email" autocomplete="email" required placeholder="you@company.com"></div>
-          <div class="field"><label for="cf-msg">Message / Requirement *</label><textarea id="cf-msg" name="message" required placeholder="Describe your harness: drawing, sample, connector photo, pinout, quantity..."></textarea></div>
-          <button class="btn btn-primary" type="submit" style="width:100%">Send via Email</button>
-          <p style="font-size:12px;color:var(--muted);margin-top:10px">Or chat on WhatsApp directly: <a id="contact-wa" href="#" target="_blank" style="font-weight:700"></a></p>
+          <div class="field"><label for="cf-email">Your Email *</label><input id="cf-email" name="email" type="email" autocomplete="email" maxlength="254" required placeholder="you@company.com"></div>
+          <div class="field"><label for="cf-msg">Message / Requirement *</label><textarea id="cf-msg" name="message" maxlength="10000" required placeholder="Describe your harness: drawing, sample, connector photo, pinout, quantity..."></textarea></div>
+          <div class="field cf-upload-field" id="cf-upload-field" hidden>
+            <label id="cf-files-label" for="cf-files">Attach drawings or reference files (optional)</label>
+            <input id="cf-files" class="cf-file-input" name="files" type="file" multiple aria-describedby="cf-files-help cf-files-error">
+            <label class="cf-file-picker" id="cf-file-picker" for="cf-files">Choose files</label>
+            <span class="cf-file-summary" id="cf-file-summary">No files selected</span>
+            <small class="cf-file-help" id="cf-files-help">Up to 3 files, 3 MB total.</small>
+            <ul class="cf-file-list" id="cf-file-list" aria-live="polite"></ul>
+            <p class="cf-field-error" id="cf-files-error" role="alert" hidden></p>
+          </div>
+          <div class="cf-turnstile" id="cf-turnstile" hidden></div>
+          <p class="cf-form-status" id="cf-form-status" role="status" aria-live="polite" hidden></p>
+          <button class="btn btn-primary" id="cf-submit" type="submit" style="width:100%">Continue in Email</button>
+          <p class="contact-form-hint">Or chat on WhatsApp directly: <a id="contact-wa" href="#" target="_blank" rel="noopener" style="font-weight:700"></a></p>
         </form>
       </div>
     </div>
@@ -106,6 +117,6 @@
   <div class="container bot">© <span id="f-year"></span> <span id="f-company"></span> · All Rights Reserved</div>
 </footer>
 <div class="toast" id="toast"></div>
-<script src="/assets/js/main.js?v=20260928v68"></script>
+<script src="/assets/js/main.js?v=20260928-contact1"></script>
 </body>
 </html>

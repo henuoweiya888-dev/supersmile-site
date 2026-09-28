@@ -4606,3 +4606,29 @@ body[data-category-key="cable-assembly-16"] .pcc-hero-copy>p{text-indent:2em}
   .pcc-eth-points p{font-size:11.9px}
   .pcc-eth-faq{padding:34px var(--eth-edge)!important}
 }
+
+/* Contact page: compact, accessible attachment picker. It is never shown until
+   the same-origin submission service and verification widget are ready. */
+.page-contact #cf-upload-field[hidden],.page-contact #cf-turnstile[hidden],.page-contact #cf-form-status[hidden],.page-contact #cf-files-error[hidden],.page-contact #cf-file-summary[hidden]{display:none!important}
+.page-contact .cf-upload-field{position:relative;margin-block:2px 20px;padding-block-start:13px;border-block-start:1px solid var(--v2-line-light)}
+.page-contact .cf-file-input{position:absolute!important;width:1px!important;height:1px!important;min-height:0!important;padding:0!important;overflow:hidden;clip:rect(0 0 0 0);clip-path:inset(50%);white-space:nowrap;border:0!important}
+.page-contact .cf-file-picker{display:inline-flex;align-items:center;justify-content:center;min-height:48px;margin:1px 12px 0 0;padding:10px 17px;color:var(--v2-ink);background:transparent;border:1px solid var(--v2-ink);font-family:var(--v2-display);font-size:13px;font-weight:700;letter-spacing:0;text-transform:none;cursor:pointer;transition:background-color .2s ease,color .2s ease}
+.page-contact .cf-file-picker:hover{color:#fff;background:var(--v2-carbon)}
+.page-contact .cf-file-input:focus-visible+.cf-file-picker{outline:2px solid var(--v2-focus);outline-offset:3px}
+.page-contact .cf-file-summary{display:inline-block;color:var(--v2-copy);font-size:13px;line-height:1.5;vertical-align:middle}
+.page-contact .cf-file-help{display:block;margin-block-start:8px;color:var(--v2-copy);font-size:12px;line-height:1.5}
+.page-contact .cf-file-list{display:grid;gap:6px;max-width:100%;margin:10px 0 0;padding:0;list-style:none}
+.page-contact .cf-file-list:empty{display:none}
+.page-contact .cf-file-list li{display:flex;align-items:center;justify-content:space-between;gap:12px;min-width:0;padding:7px 8px 7px 12px;background:var(--v2-bone);border:1px solid var(--v2-line-light)}
+.page-contact .cf-file-name{min-width:0;color:var(--v2-ink);font-size:12px;line-height:1.4;overflow-wrap:anywhere}
+.page-contact .cf-file-name small{margin-inline-start:6px;color:var(--v2-copy);white-space:nowrap}
+.page-contact .cf-file-remove{flex:none;min-width:44px;min-height:44px;padding:5px 9px;color:var(--v2-ink);background:transparent;border:0;border-inline-start:1px solid var(--v2-line-light);font-family:var(--v2-display);font-size:12px;font-weight:700;cursor:pointer}
+.page-contact .cf-file-remove:hover{color:var(--v2-signal)}
+.page-contact .cf-file-remove:focus-visible{outline:2px solid var(--v2-focus);outline-offset:1px}
+.page-contact .cf-field-error{margin:8px 0 0;color:#a32615;font-size:13px;line-height:1.5}
+.page-contact .cf-turnstile{min-height:65px;margin-block:12px 18px;overflow-x:auto}
+.page-contact .cf-form-status{margin:0 0 16px;padding:11px 14px;color:var(--v2-ink);background:var(--v2-bone);border-inline-start:3px solid var(--v2-focus);font-size:13px;line-height:1.55}
+.page-contact .cf-form-status.is-error{border-inline-start-color:#a32615}
+.page-contact #cf-submit[disabled]{opacity:.64;cursor:wait}
+@media(max-width:480px){.page-contact .cf-file-picker{margin-inline-end:8px}.page-contact .cf-file-list li{padding-inline-start:8px}}
+@media(prefers-reduced-motion:reduce){.page-contact .cf-file-picker{transition:none}}
