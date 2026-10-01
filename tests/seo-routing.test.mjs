@@ -75,7 +75,8 @@ test('exact Pages rewrites preserve every virtual route without masking unknown 
     const parts = rule.split(/\s+/);
     assert.equal(parts.length, 3, rule);
     const [source, destination, status] = parts;
-    assert.equal(destination, '/index.html', rule);
+    // Pages normalizes /index.html to / with a 308, including inside a proxy rule.
+    assert.equal(destination, '/', rule);
     assert.equal(status, '200', rule);
     assert.ok(!source.includes('*') && !source.includes(':'), `rewrite must be exact: ${rule}`);
     assert.equal(routeExists(source), false, `remove rewrite when ${source} gets a real page`);
