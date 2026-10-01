@@ -1,0 +1,15 @@
+# Existing virtual pages still render from index.html. Keep these rules exact
+# so unknown paths reach the site's 404.html.
+/products/turbo-actuator-series /index.html 200
+/products/obd2-and-universal-diagnostic-cables /index.html 200
+/products/heavy-duty-and-diesel-diagnostic-cables /index.html 200
+/products/specialty-diagnostic-cables /index.html 200
+/products/diagnostic-adapters-and-connectors /index.html 200
+/ev-diagnostic-cable /index.html 200
+/industrial-equipment-wiring-harness-guide /index.html 200
+/robotic-wiring-harness-flex-guide /index.html 200
+/wire-harness-prototype-sample-validation /index.html 200
+/custom-cable-assembly /index.html 200
+/automotive-wiring-harness /index.html 200
+/automotive-diagnostic-cable-manufacturer /index.html 200
+/ecu-programming-cable /index.html 200

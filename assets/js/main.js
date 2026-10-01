@@ -166,7 +166,7 @@ function openProductModal(pid, prodEl){
   const p=findProduct(pid); if(!p) return;
   const pc=productCopy();
   const btn=$('#pm-contact-btn');
-  if(btn){ btn.textContent=pc.contact; btn.href=routeWithLang('/contact?products='+encodeURIComponent(pid)); }
+  if(btn){ btn.textContent=pc.contact; btn.href='/contact?products='+encodeURIComponent(pid); }
   const m=$('#product-pop');
   if(!m) return;
   positionPop(m, prodEl);
@@ -615,28 +615,12 @@ function productCopy(){
     done:'✓'
   };
 }
-function routeWithLang(href){
-  if(!href || /^(?:#|mailto:|tel:|javascript:)/i.test(href)) return href;
-  try{
-    const url=new URL(href,location.origin);
-    if(url.origin!==location.origin) return href;
-    url.searchParams.set('lang',LANG);
-    return url.pathname+url.search+url.hash;
-  }catch(e){ return href; }
-}
 function syncLanguageUrl(){
   try{
     const url=new URL(location.href);
     url.searchParams.set('lang',LANG);
     history.replaceState(history.state,'',url.pathname+url.search+url.hash);
   }catch(e){}
-}
-function localizeInternalLinks(){
-  $$('a[href]').forEach(a=>{
-    const href=a.getAttribute('href');
-    const localized=routeWithLang(href);
-    if(localized!==href) a.setAttribute('href',localized);
-  });
 }
 
 async function loadData(){
@@ -995,7 +979,6 @@ function renderProductsPage(){
   }
   grid.setAttribute('aria-label',t(cat.name));
   grid.innerHTML=cat.products.map(p=>{const pn=productDisplayName(p,cat); return `<a class="prod" href="/product/${p.slug}" data-pid="${p.id}"><span class="prod-media"><img src="${p.images[0]}" alt="${pn}" loading="lazy"></span><div class="info"><b>${pn}</b><span>${t(cat.name)}</span></div></a>`;}).join('');
-  localizeInternalLinks();
 }
 
 const CONTACT_ICONS = {
@@ -2764,7 +2747,6 @@ function renderStaticPages(){
   renderContactStatic();
   renderSharedChrome();
   renderDynamicSeo();
-  localizeInternalLinks();
 }
 
 function renderAll(){

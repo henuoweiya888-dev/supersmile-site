@@ -5,7 +5,6 @@ import { fileURLToPath } from 'node:url';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const capabilities=JSON.parse(await fs.readFile(path.join(root,'data/product-capabilities.json'),'utf8'));
 const details=JSON.parse(await fs.readFile(path.join(root,'data/product-category-details.json'),'utf8'));
-const langCodes=['en','zh','hi','es','fr','ar','bn','pt','ru','ur','id','de','ja','tr','vi','ko','it','nl','pl','th'];
 const esc=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const jsonForScript=value=>JSON.stringify(value).replace(/</g,'\\u003c');
 const localized=(value,lang='en')=>typeof value==='string'?value:(value?.[lang]||value?.en||value?.zh||'');
@@ -26,11 +25,6 @@ const aiImages={
   'custom-harness-12':'/assets/images/product-categories/stock/new-energy-refresh/10800215.jpg',
   'cable-assembly-01':'/assets/images/product-categories/stock/overmold-refresh/overmold-hero-ai.png'
 };
-
-function alternates(slug){
-  const canonical=`https://supersmile-tech.com/products/${slug}`;
-  return [...langCodes.map(code=>`<link rel="alternate" hreflang="${code==='zh'?'zh-CN':code}" href="${canonical}?lang=${code}">`),`<link rel="alternate" hreflang="x-default" href="${canonical}?lang=en">`].join('\n');
-}
 
 function list(items){
   return (items||[]).map(item=>`<li>${esc(item)}</li>`).join('');
@@ -224,7 +218,6 @@ function pageTemplate({key,slug,name,group,image,intro,knowledge,notes,delivery,
 <link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <meta name="theme-color" content="#090a0d"><link rel="canonical" href="${canonical}">
 <meta property="og:type" content="website"><meta property="og:url" content="${canonical}"><meta property="og:title" content="${esc(title)}"><meta property="og:description" content="${esc(intro)}"><meta property="og:image" content="https://supersmile-tech.com${esc(image)}">
-${alternates(slug)}
 <script type="application/ld+json">${jsonForScript(schema)}</script>
 <script>window.SS_PRODUCT_CATEGORY=${jsonForScript({key,image})};</script>
 </head>
@@ -241,8 +234,8 @@ ${alternates(slug)}
   ${bodyContent}
   <section class="pcc-closing"><div><span id="pcc-closing-group">${esc(groupName)}</span><h2 id="pcc-closing-title">${esc(name)}</h2></div><a class="btn btn-primary" id="pcc-closing-cta" href="/contact?category=${esc(key)}&category_name=${encodeURIComponent(name)}">Send Your Requirement</a></section>
 </main>
-<footer class="footer"><div class="container"><div><h5>SuperSmile</h5><p id="footer-about" style="font-size:14px"></p></div><div><h5>Contact</h5><div id="f-contact" class="footer-contact"></div></div><div><h5>Links</h5><a href="/">Home</a><a href="/custom">Custom Wiring Harness</a><a href="/products">Products</a><a href="/products/turbo-actuator-cables">Turbo Actuator Cables</a><a href="/products/obd2-and-universal-diagnostic-cables">OBD2 &amp; Universal Diagnostic Cables</a><a href="/products/heavy-duty-j1939-diagnostic-cables">Heavy-Duty J1939 Diagnostic Cables</a><a href="/about">About</a><a href="/contact">Contact</a></div></div><p class="seo-keywords">${esc(name.toLowerCase())} | ${esc(groupName.toLowerCase())} | custom cable manufacturer</p><div class="container bot">© <span id="f-year"></span> <span id="f-company"></span> · All Rights Reserved</div></footer>
-<div class="toast" id="toast"></div><script src="/assets/js/main.js?v=20260928v68"></script>
+<footer class="footer"><div class="container"><div><h5>SuperSmile</h5><p id="footer-about" style="font-size:14px"></p></div><div><h5>Contact</h5><div id="f-contact" class="footer-contact"></div></div><div><h5>Links</h5><a href="/">Home</a><a href="/custom">Custom Wiring Harness</a><a href="/products">Products</a><a href="/turbo-actuator-harness">Turbo Actuator Harness</a><a href="/obd2-diagnostic-cable">OBD2 Diagnostic Cable</a><a href="/j1939-cable">J1939 Cable</a><a href="/about">About</a><a href="/contact">Contact</a></div></div><p class="seo-keywords">${esc(name.toLowerCase())} | ${esc(groupName.toLowerCase())} | custom cable manufacturer</p><div class="container bot">© <span id="f-year"></span> <span id="f-company"></span> · All Rights Reserved</div></footer>
+<div class="toast" id="toast"></div><script src="/assets/js/main.js?v=20261001-seo1"></script>
 </body>
 </html>`;
 }

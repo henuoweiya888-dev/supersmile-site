@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex,follow">
+  <title>Page Not Found | Super Smile</title>
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="stylesheet" href="/assets/css/style.css?v=20260825v3">
+  <style>
+    body { min-height: 100vh; display: flex; flex-direction: column; }
+    .not-found { width: min(100% - 40px, 760px); margin: auto; padding: 88px 0; }
+    .not-found-code { color: var(--accent); font-size: 14px; font-weight: 700; letter-spacing: .14em; }
+    .not-found h1 { font-size: clamp(32px, 6vw, 56px); line-height: 1.15; margin: 18px 0; }
+    .not-found p { max-width: 58ch; margin: 0 0 30px; }
+    .not-found-links { display: flex; flex-wrap: wrap; align-items: center; gap: 18px; }
+    .not-found-links a:not(.btn) { font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+    .not-found-footer { padding: 20px; text-align: center; color: #6b7280; font-size: 14px; }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <a class="logo" href="/" aria-label="Super Smile home">
+        <img class="logo-img" src="/assets/images/ss-logo223.png" alt="Super Smile">
+      </a>
+    </div>
+  </header>
+  <main class="not-found">
+    <span class="not-found-code">404 · PAGE NOT FOUND</span>
+    <h1>We couldn't find that page.</h1>
+    <p>The address may have changed, or the link may be incorrect. You can continue from the home page or browse our products.</p>
+    <nav class="not-found-links" aria-label="Useful links">
+      <a class="btn btn-primary" href="/">Go to homepage</a>
+      <a href="/products">Browse products</a>
+      <a href="/contact">Contact us</a>
+    </nav>
+  </main>
+  <footer class="not-found-footer">© Super Smile</footer>
+</body>
+</html>

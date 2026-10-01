@@ -31,7 +31,7 @@ html=html.replace(/data-category-key="[^"]+"/,`data-category-key="${d.key}" data
 html=html.replace(/<p id="pcc-intro">.*?<\/p>/,`<p id="pcc-intro">${esc(d.intro.en)}</p>`);
 html=html.replace(/(<img id="pcc-hero-image" src=")[^"]*/,`$1${d.page.images.hero}`).replace(/(<img id="pcc-hero-image"[^>]* alt=")[^"]*/,`$1${esc(d.title.en+' application reference')}`);
 html=html.replace(/href="\/assets\/css\/battery-link-editorial.css[^"]*"/,`href="/assets/css/technical-editorial.css?v=20260910-${d.slug}-1"`);
-html=html.replace(/main.js\?v=[^"]+/,'main.js?v=20260928v68');
+html=html.replace(/main.js\?v=[^"]+/,'main.js?v=20261001-seo1');
 const file='products/'+d.slug+'.html';
 const old=fs.existsSync(file)?fs.readFileSync(file,'utf8'):null;
 const patchFile=(name,old,next)=>old===null?`*** Add File: ${path.resolve(name)}\n+${next.trimEnd().split('\n').join('\n+')}\n`:`*** Update File: ${path.resolve(name)}\n@@\n-${old.trimEnd().split('\n').join('\n-')}\n+${next.trimEnd().split('\n').join('\n+')}\n`;
