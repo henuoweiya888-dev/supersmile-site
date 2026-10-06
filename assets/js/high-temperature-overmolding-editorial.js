@@ -1,4 +1,12 @@
 (() => {
+  // The shared main.js owns document language and all page metadata.
+  function editorialLanguage() {
+    const requested = new URLSearchParams(location.search).get('lang');
+    let stored = '';
+    try { stored = localStorage.getItem('lang') || ''; } catch {}
+    return String(requested || stored || document.documentElement.lang || 'en').toLowerCase().split('-')[0];
+  }
+
   const host = document.getElementById('ht-content');
   if (!host) return;
 
@@ -24,7 +32,7 @@
     validation: ['实验室设备用于说明受控验证；不代表已完成特定标准认证。', 'Laboratory equipment represents controlled validation, not completed certification.']
   };
 
-  const isZh = () => new URLSearchParams(location.search).get('lang') !== 'en';
+  const isZh = () => editorialLanguage() === 'zh';
   const pick = (value, zh) => typeof value === 'string' ? value : (value?.[zh ? 'zh' : 'en'] || '');
   const esc = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
   const photo = (topic, zh) => `
@@ -50,13 +58,9 @@
       const topics = page.chapters;
       const title = pick(page.displayTitle, zh);
 
-      document.documentElement.lang = zh ? 'zh-CN' : 'en';
-      document.title = zh
-        ? '高温包覆成型电缆组件｜高温注塑、嵌件成型与热循环验证｜超斯迈尔'
-        : 'Custom High-Temperature Overmolded Cable Assembly | Insert Molding | Super Smile';
-      document.querySelector('meta[name="description"]')?.setAttribute('content', zh
-        ? '定制高温包覆成型电缆组件，覆盖硅胶与高温热塑料、嵌件成型、材料相容性、应力释放、密封、热老化与冷热循环验证。'
-        : 'Custom high-temperature overmolded cable assemblies covering silicone and high-temperature thermoplastics, insert compatibility, strain relief, sealing, heat aging and thermal cycling.');
+
+
+
 
       const text = {
         home: zh ? '首页' : 'Home', products: zh ? '产品中心' : 'Products', group: zh ? '特色电缆组件' : 'Specialty Cable Assemblies',

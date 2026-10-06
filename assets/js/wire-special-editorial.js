@@ -1,24 +1,24 @@
 (()=>{
+  // The shared main.js owns document language and all page metadata.
+  function editorialLanguage() {
+    const requested = new URLSearchParams(location.search).get('lang');
+    let stored = '';
+    try { stored = localStorage.getItem('lang') || ''; } catch {}
+    return String(requested || stored || document.documentElement.lang || 'en').toLowerCase().split('-')[0];
+  }
+
   const body=document.body;
   if(!body.classList.contains('wire-special')) return;
 
-  const titleNode=document.querySelector('title');
-  const meta=document.querySelector('meta[name="description"]');
   const key=body.dataset.key;
 
   const applyPageLanguage=()=>{
-    const urlLang=new URLSearchParams(location.search).get('lang');
-    const lang=(urlLang==='zh'||document.documentElement.lang.toLowerCase().startsWith('zh'))?'zh':'en';
+    const lang=editorialLanguage()==='zh'?'zh':'en';
     const title=body.dataset[lang==='zh'?'titleZh':'titleEn'];
-    const guideType=['hybrid','switch','oilgas','conxall'].includes(body.dataset.variant)?'Technical Assembly Guide':'Technical Cable Guide';
-    const desiredTitle=lang==='zh'?`${title}定制与技术说明 | 超斯迈尔`:`Custom ${title} | ${guideType} | Super Smile`;
-    const desiredDescription=body.dataset[lang==='zh'?'descZh':'descEn'];
-
-    const documentLang=lang==='zh'?'zh-CN':'en';
     body.dataset.lang=lang;
-    if(document.documentElement.lang!==documentLang) document.documentElement.lang=documentLang;
-    if(document.title!==desiredTitle) document.title=desiredTitle;
-    if(meta&&meta.content!==desiredDescription) meta.content=desiredDescription;
+
+
+
     document.querySelectorAll('img[data-alt-en][data-alt-zh]').forEach(image=>{
       image.alt=image.dataset[lang==='zh'?'altZh':'altEn'];
     });
@@ -29,11 +29,8 @@
 
   applyPageLanguage();
 
-  // Shared navigation data loads asynchronously and updates document metadata.
-  // Keep this category page's more specific bilingual metadata after that render.
+  // Follow the language selected by main.js without observing or rewriting the head.
   const observer=new MutationObserver(()=>queueMicrotask(applyPageLanguage));
-  if(titleNode) observer.observe(titleNode,{childList:true});
-  if(meta) observer.observe(meta,{attributes:true,attributeFilter:['content']});
   observer.observe(document.documentElement,{attributes:true,attributeFilter:['lang']});
 
   const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;

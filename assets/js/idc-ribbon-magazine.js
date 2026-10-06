@@ -1,4 +1,12 @@
 (() => {
+  // The shared main.js owns document language and all page metadata.
+  function editorialLanguage() {
+    const requested = new URLSearchParams(location.search).get('lang');
+    let stored = '';
+    try { stored = localStorage.getItem('lang') || ''; } catch {}
+    return String(requested || stored || document.documentElement.lang || 'en').toLowerCase().split('-')[0];
+  }
+
   const host = document.getElementById('pcc-rich-content');
   if (!host) return;
 
@@ -36,11 +44,11 @@
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       const data = await response.json();
       const page = data.page;
-      const requestedLanguage = new URLSearchParams(location.search).get('lang') || 'en';
+      const requestedLanguage = editorialLanguage();
       const zh = requestedLanguage === 'zh' || requestedLanguage === 'zh-CN';
       const title = pick(page.displayTitle, zh);
-      document.documentElement.lang = zh ? 'zh-CN' : 'en';
-      document.title = zh ? 'IDC 扁平排线组件 | 1.27mm、2.54mm 与受控压接 | 超斯迈尔' : 'Custom IDC Ribbon Cable Assembly | Controlled Mass Termination | Super Smile';
+
+
 
       const titleNode = document.getElementById('pcc-title');
       const introNode = document.getElementById('pcc-intro');

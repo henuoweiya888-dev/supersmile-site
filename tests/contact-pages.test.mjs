@@ -126,6 +126,21 @@ test('PDF attachment is uploaded using Zoho attach field and referenced in send'
   }
 });
 
+test('inquiry page records a public route and excludes query data', async () => {
+  const mock = stubServices();
+  try {
+    let response = await onRequestPost({ request: form({ source_page: '/custom' }), env: environment() });
+    assert.equal(response.status, 202);
+    let sent = mock.calls.filter(call => call.endpoint.endsWith('/messages')).at(-1);
+    assert.match(JSON.parse(sent.options.body).content, /Inquiry page \(visitor supplied\): \/custom/);
+    response = await onRequestPost({ request: form({ source_page: '/contact?email=private@example.org' }), env: environment() });
+    assert.equal(response.status, 202);
+    sent = mock.calls.filter(call => call.endpoint.endsWith('/messages')).at(-1);
+    assert.match(JSON.parse(sent.options.body).content, /Inquiry page \(visitor supplied\): Not recorded/);
+    assert.doesNotMatch(JSON.parse(sent.options.body).content, /private@example/);
+  } finally { mock.restore(); }
+});
+
 test('failed upload prevents send and cannot be reported as success', async () => {
   const mock = stubServices({ upload: false });
   try {

@@ -1,4 +1,12 @@
 (() => {
+  // The shared main.js owns document language and all page metadata.
+  function editorialLanguage() {
+    const requested = new URLSearchParams(location.search).get('lang');
+    let stored = '';
+    try { stored = localStorage.getItem('lang') || ''; } catch {}
+    return String(requested || stored || document.documentElement.lang || 'en').toLowerCase().split('-')[0];
+  }
+
   const host = document.getElementById('pcc-rich-content');
   if (!host) return;
 
@@ -25,7 +33,7 @@
 
   const pick = (value, zh) => typeof value === 'string' ? value : value[zh ? 'zh' : 'en'];
   const esc = value => String(value).replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
-  const langZh = () => new URLSearchParams(location.search).get('lang') !== 'en';
+  const langZh = () => editorialLanguage() === 'zh';
   const cap = (id, zh) => captions[id][zh ? 0 : 1];
   const photo = (topic, zh) => `<figure class="ff-photo"><img src="${root}${files[topic.id]}" alt="${esc(pick(topic.title, zh))}" loading="lazy" decoding="async"><figcaption>${esc(cap(topic.id, zh))}</figcaption></figure>`;
   const story = (topic, zh, extra='') => `<article class="ff-story ${extra}">${photo(topic, zh)}<div class="ff-copy"><h3>${esc(pick(topic.title, zh))}</h3><p>${esc(pick(topic.copy, zh))}</p></div></article>`;
@@ -38,9 +46,9 @@
       const data = await fetch('/content/product-category-drafts/fpc-ffc-assembly.json', {cache:'no-store'}).then(response => response.json());
       const page = data.page;
       const topic = page.chapters;
-      document.documentElement.lang = zh ? 'zh-CN' : 'en';
-      document.title = zh ? 'FPC / FFC 电缆组件定制｜ZIF、0.3/0.5/1.0mm 节距与动态弯折｜超斯迈尔' : 'Custom FPC / FFC Cable Assemblies | ZIF, Fine Pitch & Dynamic Flex | Super Smile';
-      document.querySelector('meta[name="description"]')?.setAttribute('content', zh ? '定制 FPC 与 FFC 电缆组件，覆盖 ZIF/LIF 接头、0.3/0.5/1.0mm 节距、上/下接点、同面/异面尾端、补强板、动态弯折、屏蔽布线与电气检验。' : 'Custom FPC and FFC cable assemblies covering ZIF/LIF connectors, 0.3/0.5/1.0 mm pitch, contact side, tail geometry, stiffeners, dynamic flex, routing and testing.');
+
+
+
       const title = pick(page.displayTitle, zh);
       document.getElementById('pcc-title').textContent = title;
       document.getElementById('pcc-intro').textContent = pick(data.intro, zh);

@@ -1,4 +1,12 @@
 (() => {
+  // The shared main.js owns document language and all page metadata.
+  function editorialLanguage() {
+    const requested = new URLSearchParams(location.search).get('lang');
+    let stored = '';
+    try { stored = localStorage.getItem('lang') || ''; } catch {}
+    return String(requested || stored || document.documentElement.lang || 'en').toLowerCase().split('-')[0];
+  }
+
   const host = document.getElementById('pcc-rich-content'); if (!host) return;
   const base = '/assets/images/product-categories/stock/fuse-harness/';
   const esc = value => String(value || '').replace(/[&<>"']/g, character => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[character]));
@@ -14,13 +22,13 @@
   };
   async function render() {
     const response = await fetch('/content/product-category-drafts/littelfuse-bussmann-fuse-harness.json', {cache:'no-store'}); if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const data = await response.json(), page = data.page, lang = new URLSearchParams(location.search).get('lang') || 'en', zh = lang === 'zh', pick = value => value?.[zh ? 'zh' : 'en'] || '';
-    document.documentElement.lang = zh ? 'zh-CN' : 'en'; const title = pick(page.displayTitle), heroTitle = zh ? '保险丝保护\n与配电线束' : 'Fuse Protection\nHarnesses';
+    const data = await response.json(), page = data.page, lang = editorialLanguage(), zh = lang === 'zh', pick = value => value?.[zh ? 'zh' : 'en'] || '';
+     const title = pick(page.displayTitle), heroTitle = zh ? '保险丝保护\n与配电线束' : 'Fuse Protection\nHarnesses';
     const syncHeader = () => {
       const values = {'pcc-title':heroTitle,'pcc-intro':pick(data.intro),'pcc-closing-title':title}; Object.entries(values).forEach(([id,value]) => { const node=document.getElementById(id); if(node && node.textContent!==value) node.textContent=value; });
       const hero=document.getElementById('pcc-hero-image'); if(hero && !hero.src.endsWith('/fuse-harness/hero.jpg')) hero.src=`${base}hero.jpg`;
       const query=new URLSearchParams({category:data.key,category_name:title,lang:zh?'zh':'en'}); ['pcc-cta','pcc-closing-cta'].forEach(id=>{const link=document.getElementById(id);if(link)link.href=`/contact?${query}`;});
-      document.title=zh?'Littelfuse / Bussmann 保险丝线束 | 配电盒、电池线与熔断器座 | 超斯迈尔':'Custom Littelfuse & Bussmann Fuse Harnesses | Super Smile';
+
     };
     syncHeader(); const syncObserver=new MutationObserver(syncHeader); ['pcc-title','pcc-intro','pcc-closing-title','pcc-hero-image'].forEach(id=>{const node=document.getElementById(id);if(node)syncObserver.observe(node,id==='pcc-hero-image'?{attributes:true,attributeFilter:['src']}:{subtree:true,childList:true,characterData:true});}); window.setTimeout(()=>syncObserver.disconnect(),2800); window.setTimeout(syncHeader,3000);
     const topic = item => `<article class="fh-topic fh-${esc(item.id)}"><figure><img src="${base}${esc(item.image)}" alt="${esc(pick(item.title))}" width="1600" height="1100" loading="lazy" decoding="async"><figcaption>${esc(captions[item.id]?.[zh?0:1]||'')}</figcaption></figure><div><h3>${esc(pick(item.title))}</h3><p>${esc(pick(item.copy))}</p></div></article>`;

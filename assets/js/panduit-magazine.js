@@ -1,4 +1,12 @@
 (() => {
+  // The shared main.js owns document language and all page metadata.
+  function editorialLanguage() {
+    const requested = new URLSearchParams(location.search).get('lang');
+    let stored = '';
+    try { stored = localStorage.getItem('lang') || ''; } catch {}
+    return String(requested || stored || document.documentElement.lang || 'en').toLowerCase().split('-')[0];
+  }
+
   const host = document.getElementById('pcc-rich-content');
   if (!host) return;
   const base = '/assets/images/product-categories/stock/panduit/';
@@ -21,10 +29,10 @@
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
     const page = data.page;
-    const lang = new URLSearchParams(location.search).get('lang') || 'en';
+    const lang = editorialLanguage();
     const zh = lang === 'zh';
     const pick = value => value?.[zh ? 'zh' : 'en'] || '';
-    document.documentElement.lang = zh ? 'zh-CN' : 'en';
+
     const title = pick(page.displayTitle);
     const heroTitle = zh ? 'Panduit\n兼容线束组件' : 'Panduit-Compatible\nHarness Components';
     const syncHeader = () => {
@@ -34,7 +42,7 @@
       if (hero && !hero.src.endsWith('/panduit/hero.jpg')) hero.src = `${base}hero.jpg`;
       const query = new URLSearchParams({category: data.key, category_name: title, lang: zh ? 'zh' : 'en'});
       ['pcc-cta', 'pcc-closing-cta'].forEach(id => { const link = document.getElementById(id); if (link) link.href = `/contact?${query}`; });
-      document.title = zh ? 'Panduit 兼容线束组件 | 端子、扎带、标识与布线 | 超斯迈尔' : 'Custom Panduit-Compatible Harnesses | Terminals, Ties & Routing | Super Smile';
+
     };
     syncHeader();
     const syncObserver = new MutationObserver(syncHeader);

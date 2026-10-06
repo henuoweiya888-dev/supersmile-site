@@ -1,4 +1,12 @@
 (() => {
+  // The shared main.js owns document language and all page metadata.
+  function editorialLanguage() {
+    const requested = new URLSearchParams(location.search).get('lang');
+    let stored = '';
+    try { stored = localStorage.getItem('lang') || ''; } catch {}
+    return String(requested || stored || document.documentElement.lang || 'en').toLowerCase().split('-')[0];
+  }
+
   const host=document.getElementById('pcc-rich-content'); if(!host)return;
   const root='/assets/images/product-categories/stock/panel-mount/';
   const files={boundary:'opening.jpg',mounting:'mounting.jpg',sealing:'sealing.jpg',hardware:'hardware.jpg',gasket:'gasket.jpg',usb:'usb-c.jpg',video:'hdmi.jpg',ethernet:'ethernet.jpg',applications:'applications.jpg',power:'power.jpg',process:'process.jpg',testing:'testing.jpg'};
@@ -17,15 +25,15 @@
     testing:['线缆测试仪用于说明方法、夹具与参考面必须随验收要求定义。','A cable analyzer illustrates why method, fixture and reference plane must follow the acceptance requirement.']
   };
   const esc=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const pick=(v,zh)=>typeof v==='string'?v:v[zh?'zh':'en']; const isZh=()=>new URLSearchParams(location.search).get('lang')!=='en';
+  const pick=(v,zh)=>typeof v==='string'?v:v[zh?'zh':'en']; const isZh=()=>editorialLanguage() === 'zh';
   const photo=(t,zh,cls='')=>`<figure class="pm-photo ${cls}"><img src="${root}${files[t.id]}" alt="${esc(pick(t.title,zh))}" loading="lazy" decoding="async"><figcaption>${esc(captions[t.id][zh?0:1])}</figcaption></figure>`;
   const story=(t,zh,cls='')=>`<article class="pm-story ${cls}">${photo(t,zh)}<div class="pm-copy"><h3>${esc(pick(t.title,zh))}</h3><p>${esc(pick(t.copy,zh))}</p></div></article>`;
   const head=(n,k,t)=>`<header class="pm-header"><span>${n}</span><div><p>${esc(k)}</p><h2>${esc(t)}</h2></div></header>`;
   async function render(){
     try{
       const zh=isZh(),data=await fetch('/content/product-category-drafts/panel-mount-cable.json',{cache:'no-store'}).then(r=>r.json()),p=data.page,t=p.chapters;
-      document.documentElement.lang=zh?'zh-CN':'en'; document.title=zh?'面板安装电缆组件定制｜USB-C、HDMI、RJ45 与隔板接口｜超斯迈尔':'Custom Panel-Mount Cable Assemblies | USB-C, HDMI, RJ45 & Bulkhead | Super Smile';
-      document.querySelector('meta[name="description"]')?.setAttribute('content',zh?'定制面板安装与隔板电缆组件，覆盖前装、后装、锁紧螺母、法兰、O 形圈、USB-C、HDMI、RJ45、功率、密封与测试。':'Custom panel-mount and bulkhead cable assemblies covering front and rear mounting, jam nuts, flanges, O-rings, USB-C, HDMI, RJ45, power, sealing and testing.');
+
+
       const title=pick(p.displayTitle,zh); document.getElementById('pcc-title').textContent=title; document.getElementById('pcc-intro').textContent=pick(data.intro,zh); document.getElementById('pcc-eyebrow').textContent=zh?'产品小类 · 设备边界接口':'PRODUCT CATEGORY · EQUIPMENT INTERFACE'; document.getElementById('pcc-group').textContent=zh?'特色电缆组件':'Specialty Cable Assemblies'; document.getElementById('pcc-cta').textContent=zh?'咨询这一类产品':'Ask About This Product Type'; document.getElementById('pcc-back').textContent=zh?'返回产品中心':'Back to Products'; document.getElementById('pcc-closing-title').textContent=title; document.getElementById('pcc-closing-group').textContent=zh?'特色电缆组件':'Specialty Cable Assemblies'; document.getElementById('pcc-closing-cta').textContent=zh?'发送面板与接口资料':'Send Panel Details';
       const opening=`<section class="pm-opening"><div class="pm-opening-copy"><span>${zh?'一道面板，两个工作世界':'ONE PANEL, TWO WORKING SIDES'}</span><h2>${esc(pick(p.subtitle,zh))}</h2><p class="pm-lead">${esc(pick(p.lead,zh))}</p><h3>${esc(pick(t[0].title,zh))}</h3><p>${esc(pick(t[0].copy,zh))}</p><dl><div><dt>${zh?'外侧':'OUTSIDE'}</dt><dd>${zh?'对插、防护、操作':'Mating, protection, access'}</dd></div><div><dt>${zh?'壁面':'PANEL'}</dt><dd>${zh?'开孔、厚度、固定':'Cutout, thickness, mounting'}</dd></div><div><dt>${zh?'内侧':'INSIDE'}</dt><dd>${zh?'端接、出线、维修':'Termination, exit, service'}</dd></div></dl></div>${photo(t[0],zh,'pm-opening-photo')}</section>`;
       const nav=`<nav class="pm-nav" aria-label="${zh?'本页目录':'On this page'}"><a href="#pm-adv"><b>01</b>${zh?'安装与防护':'Mount & protect'}</a><a href="#pm-materials"><b>02</b>${zh?'五金与密封':'Hardware & seals'}</a><a href="#pm-data"><b>03</b>${zh?'数据接口':'Data interfaces'}</a><a href="#pm-use"><b>04</b>${zh?'应用与功率':'Use & power'}</a><a href="#pm-release"><b>05</b>${zh?'制造与放行':'Build & release'}</a></nav>`;

@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Custom Wiring Harness | OEM/ODM Wire Harness Manufacturer China</title>
-<meta name="description" content="Custom wire harness and cable assembly requirements reviewed from drawings, samples, connector photos or pinouts, with project-specific materials, sampling and inspection scope.">
+<title>Custom Harness Engineering &amp; Production Process | OEM/ODM China</title>
+<meta name="description" content="Follow the engineering and production process from drawings and pin definition to samples and repeat production. Custom wire harness manufacturing from our China factory, with OEM/ODM project support.">
 <link rel="stylesheet" href="/assets/css/style.css?v=20260825v3">
 <link rel="stylesheet" href="/assets/css/industrial-v2.css?v=20260902v53">
 <link rel="stylesheet" href="/assets/css/custom-service-v2.css?v=20260912v1">
@@ -17,11 +17,12 @@
 <link rel="canonical" href="https://supersmile-tech.com/custom">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://supersmile-tech.com/custom">
-<meta property="og:title" content="Super Smile | Custom Wiring Harness &amp; Diagnostic Cable Manufacturer">
-<meta property="og:description" content="Shenzhen Super Smile Electronic Technology Co., Ltd. - OEM/ODM wiring harness and diagnostic cable manufacturer.">
+<meta property="og:title" content="Custom Harness Engineering &amp; Production Process | OEM/ODM China">
+<meta property="og:description" content="Follow the engineering and production process from drawings and pin definition to samples and repeat production. Custom wire harness manufacturing from our China factory, with OEM/ODM project support.">
 <meta name="keywords" content="线束工厂,定制线束,中国线束工厂,线束定制,汽车线束,汽车诊断线,重卡线束,新能源线束,特斯拉诊断线,OEM线束,ODM线束,涡轮增压执行器线束,harness factory,custom wiring harness,China harness factory,wire harness manufacturer">
+<link id="manufacturing-context-style" rel="stylesheet" href="/assets/css/manufacturing-context.css?v=20261006-seo2">
 </head>
-<body>
+<body class="site-redesign page-custom">
 <header class="header"><div class="container">
   <a class="logo" href="/"><img class="logo-img" src="/assets/images/ss-logo223.png" alt="Super Smile"><span class="logo-text"><span class="logo-name">Super<span>Smile</span></span><small class="logo-sub" id="logo-company"></small></span></a>
   <nav class="nav" id="nav-links"></nav>
@@ -37,7 +38,7 @@
     <div class="container custom-service-hero-copy">
       <nav class="custom-service-breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a><span aria-hidden="true">/</span><span data-cs="navCurrent">Custom Service</span></nav>
       <span class="custom-service-eyebrow" data-cs="heroEyebrow">CUSTOM WIRING SERVICE</span>
-      <h1 id="cu-title">From pin definition to repeat production</h1>
+      <h1 id="cu-title">Custom Harness Engineering and Production Process</h1>
       <p id="cu-desc">Send a drawing, sample, connector photo or pinout. We review interfaces, materials, manufacturing feasibility and inspection requirements before defining the sample and production scope.</p>
       <div class="custom-service-actions"><a class="btn btn-primary" href="#custom-quote" data-cs="heroCta">Discuss your project</a><a class="btn btn-ghost" href="/products" data-cs="heroProducts">Browse product centre</a></div>
     </div>
@@ -89,29 +90,43 @@
       <div class="custom-inquiry-copy">
         <span class="tag">GET A QUOTE</span>
         <h2 id="cu-cta-title">Ready to Build Your Harness?</h2>
-        <p class="custom-inquiry-lead">Send your drawing, sample, connector photos or target device model. We will confirm the solution and quote.</p>
+        <p class="custom-inquiry-lead">Send a drawing, sample, connector photos or equipment description and quantity. We review interfaces, materials and inspection requirements before confirming a quote and schedule.</p>
       </div>
-      <form id="contact-form">
-        <div class="field">
-          <label id="cf-products-label" for="ps-trigger">Select Products (optional)</label>
-          <div class="ps" id="ps">
-            <button type="button" class="ps-trigger" id="ps-trigger">Select products...</button>
-            <div class="ps-panel" id="ps-panel"></div>
+      <form id="contact-form" method="post" action="/api/contact" enctype="multipart/form-data">
+          <div class="field">
+            <label id="cf-products-label" for="ps-trigger">Select Products (optional)</label>
+            <div class="ps" id="ps">
+              <button type="button" class="ps-trigger" id="ps-trigger">Select products...</button>
+              <div class="ps-panel" id="ps-panel"></div>
+            </div>
           </div>
-        </div>
-        <div class="form-name-grid">
-          <div class="field"><label for="cf-first-name">First name *</label><input id="cf-first-name" name="first_name" type="text" autocomplete="given-name" required placeholder="First name"></div>
-          <div class="field"><label for="cf-last-name">Last name *</label><input id="cf-last-name" name="last_name" type="text" autocomplete="family-name" required placeholder="Last name"></div>
-        </div>
-        <div class="field"><label for="cf-email">Your Email *</label><input id="cf-email" name="email" type="email" autocomplete="email" required placeholder="you@company.com"></div>
-        <div class="field"><label for="cf-msg">Message / Requirement *</label><textarea id="cf-msg" name="message" required placeholder="Describe your harness: drawing, sample, connector photo, pinout, quantity..."></textarea></div>
-        <button class="btn btn-primary" type="submit">Send via Email</button>
-        <p class="contact-form-hint">Or chat on WhatsApp directly: <a id="contact-wa" href="#" target="_blank" rel="noopener"></a></p>
-      </form>
+          <div class="form-name-grid">
+            <div class="field"><label for="cf-first-name">First name *</label><input id="cf-first-name" name="first_name" type="text" autocomplete="given-name" maxlength="80" required placeholder="First name"></div>
+            <div class="field"><label for="cf-last-name">Last name *</label><input id="cf-last-name" name="last_name" type="text" autocomplete="family-name" maxlength="80" required placeholder="Last name"></div>
+          </div>
+          <div class="field"><label for="cf-email">Your Email *</label><input id="cf-email" name="email" type="email" autocomplete="email" maxlength="254" required placeholder="you@company.com"></div>
+          <div class="field"><label for="cf-msg">Message / Requirement *</label><textarea id="cf-msg" name="message" maxlength="10000" required placeholder="Describe your harness: drawing, sample, connector photo, pinout, quantity..."></textarea></div>
+          <div class="field cf-upload-field" id="cf-upload-field" hidden>
+            <label id="cf-files-label" for="cf-files">Attach drawings or reference files (optional)</label>
+            <input id="cf-files" class="cf-file-input" name="files" type="file" multiple aria-describedby="cf-files-help cf-files-error">
+            <label class="cf-file-picker" id="cf-file-picker" for="cf-files">Choose files</label>
+            <span class="cf-file-summary" id="cf-file-summary">No files selected</span>
+            <small class="cf-file-help" id="cf-files-help">Up to 3 files, 3 MB total.</small>
+            <ul class="cf-file-list" id="cf-file-list" aria-live="polite"></ul>
+            <p class="cf-field-error" id="cf-files-error" role="alert" hidden></p>
+          </div>
+          <div class="cf-turnstile" id="cf-turnstile" hidden></div>
+          <p class="cf-form-status" id="cf-form-status" role="status" aria-live="polite" hidden></p>
+          <button class="btn btn-primary" id="cf-submit" type="submit" style="width:100%">Continue in Email</button>
+          <p class="contact-form-hint">Or chat on WhatsApp directly: <a id="contact-wa" href="#" target="_blank" rel="noopener" style="font-weight:700"></a></p>
+        </form>
     </div>
   </div>
 </section>
 
+<!-- MANUFACTURING CONTEXT START -->
+<section class="manufacturing-context" id="manufacturing-context" aria-labelledby="mc-heading"><div class="mc-inner"><div class="mc-business"><h2 id="mc-heading">Custom Wire Harness Manufacturing in China</h2><p>Custom wire harness manufacturing from our China factory, with OEM/ODM project support.</p><nav class="mc-links" aria-label="Custom harness manufacturing"><a href="/custom-wiring-harness">Custom harness manufacturing</a><a href="/custom">Engineering review and production process</a><a href="/custom#cu-process-title">Prototype and sample validation</a><a href="/about">Factory and inspection workflow</a></nav></div><div class="mc-inquiry"><h3>Start with the information you have</h3><p>A sample, clear connector photos or a description of the equipment and required quantity is enough to start a review.</p><details><summary>Information for an accurate quotation</summary><p>When available, include drawings and BOM, connector and mating part numbers, pinout, wire length and gauge, branch layout, quantity and required tests. Materials, inspection scope and delivery are confirmed for each project.</p></details><a class="mc-quote" href="/contact?source_page=%2Fcustom">Send a harness requirement <span aria-hidden="true">→</span></a></div></div></section>
+<!-- MANUFACTURING CONTEXT END -->
 <footer class="footer">
   <div class="container">
     <div><h5>SuperSmile</h5><p id="footer-about" style="font-size:14px"></p></div>
@@ -125,10 +140,11 @@
       <a href="/about">About</a>
       <a href="/contact">Contact</a></div>
   </div>
-  <p class="seo-keywords">wire harness manufacturer | custom wiring harness | harness factory China | OEM wire harness | OBD2 diagnostic cable | turbo actuator harness | J1939 cable | 线束工厂 | 定制线束 | 中国线束工厂 | 线束定制 | 汽车诊断线束 | 重卡线束 | 新能源线束 | OEM/ODM 线束厂家</p>
   <div class="container bot">© <span id="f-year"></span> <span id="f-company"></span> · All Rights Reserved</div>
 </footer>
 <div class="toast" id="toast"></div>
-<script src="/assets/js/main.js?v=20261001-seo1"></script>
+<script defer src="/assets/js/seo-policy.js?v=20261006-seo2"></script>
+<script id="manufacturing-context-script" defer src="/assets/js/manufacturing-context.js?v=20261006-seo2"></script>
+<script src="/assets/js/main.js?v=20261006-seo2"></script>
 </body>
 </html>

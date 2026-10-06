@@ -1,4 +1,12 @@
 (() => {
+  // The shared main.js owns document language and all page metadata.
+  function editorialLanguage() {
+    const requested = new URLSearchParams(location.search).get('lang');
+    let stored = '';
+    try { stored = localStorage.getItem('lang') || ''; } catch {}
+    return String(requested || stored || document.documentElement.lang || 'en').toLowerCase().split('-')[0];
+  }
+
   const host=document.getElementById('pcc-rich-content'); if(!host)return;
   const root='/assets/images/product-categories/stock/waterproof-design/';
   const files={system:'rain-droplets.jpg',ratings:'ip-rated-interface.jpg',seals:'o-rings.jpg',entry:'cable-gland.jpg',splice:'sealed-splice.jpg',shrink:'heat-shrink.jpg',molding:'resin-mixing.jpg',condensation:'condensation.jpg',agriculture:'agriculture-wet.jpg',marine:'marine-outboard.jpg',washdown:'pressure-wash.jpg'};
@@ -16,15 +24,15 @@
     washdown:['工业高压清洗强调喷射方向、距离、压力与温度都属于试验条件。','Industrial pressure washing shows why direction, distance, pressure and temperature belong to the test condition.']
   };
   const esc=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const pick=(v,zh)=>typeof v==='string'?v:v[zh?'zh':'en']; const isZh=()=>new URLSearchParams(location.search).get('lang')!=='en';
+  const pick=(v,zh)=>typeof v==='string'?v:v[zh?'zh':'en']; const isZh=()=>editorialLanguage() === 'zh';
   const photo=(t,zh,cls='')=>`<figure class="wd-photo ${cls}"><img src="${root}${files[t.id]}" alt="${esc(pick(t.title,zh))}" loading="lazy" decoding="async"><figcaption>${esc(captions[t.id][zh?0:1])}</figcaption></figure>`;
   const story=(t,zh,cls='')=>`<article class="wd-story ${cls}">${photo(t,zh)}<div class="wd-copy"><h3>${esc(pick(t.title,zh))}</h3><p>${esc(pick(t.copy,zh))}</p></div></article>`;
   const head=(n,k,t)=>`<header class="wd-header"><span>${n}</span><div><p>${esc(k)}</p><h2>${esc(t)}</h2></div></header>`;
   async function render(){
     try{
       const zh=isZh(),data=await fetch('/content/product-category-drafts/waterproof-design-harness.json',{cache:'no-store'}).then(r=>r.json()),p=data.page,t=p.chapters;
-      document.documentElement.lang=zh?'zh-CN':'en'; document.title=zh?'防水设计线束定制｜IP67、IP68、IP69K 密封系统｜超斯迈尔':'Custom Waterproof Wire Harness | IP67, IP68 & IP69K Design | Super Smile';
-      document.querySelector('meta[name="description"]')?.setAttribute('content',zh?'定制防水设计线束与密封电缆组件，详解 IP67、IP68、IP69K、线封、堵头、格兰头、密封接点、包胶、灌封与防护验证。':'Custom waterproof wire harness and sealed cable assembly design covering IP67, IP68, IP69K, wire seals, cavity plugs, cable glands, sealed splices, overmolding and ingress validation.');
+
+
       const title=pick(p.displayTitle,zh); document.getElementById('pcc-title').textContent=title; document.getElementById('pcc-intro').textContent=pick(data.intro,zh); document.getElementById('pcc-eyebrow').textContent=zh?'产品小类 · 密封系统设计':'PRODUCT CATEGORY · SEALED SYSTEM DESIGN'; document.getElementById('pcc-group').textContent=zh?'特色电缆组件':'Specialty Cable Assemblies'; document.getElementById('pcc-cta').textContent=zh?'咨询这一类产品':'Ask About This Product Type'; document.getElementById('pcc-back').textContent=zh?'返回产品中心':'Back to Products'; document.getElementById('pcc-closing-title').textContent=title; document.getElementById('pcc-closing-group').textContent=zh?'特色电缆组件':'Specialty Cable Assemblies'; document.getElementById('pcc-closing-cta').textContent=zh?'发送暴露环境与接口资料':'Send Exposure Details';
       const opening=`<section class="wd-opening"><div class="wd-opening-copy"><span>${zh?'先画边界，再选密封':'MAP THE BOUNDARY BEFORE SELECTING THE SEAL'}</span><h2>${esc(pick(p.subtitle,zh))}</h2><p class="wd-lead">${esc(pick(p.lead,zh))}</p><h3>${esc(pick(t[0].title,zh))}</h3><p>${esc(pick(t[0].copy,zh))}</p><dl><div><dt>${zh?'接口':'MATING'}</dt><dd>${zh?'对插面与防护帽':'Interface and cap'}</dd></div><div><dt>${zh?'线缆':'CABLE'}</dt><dd>${zh?'入线、分支与弯曲':'Entry, branch and bend'}</dd></div><div><dt>${zh?'环境':'DUTY'}</dt><dd>${zh?'水源、温度与介质':'Water, heat and fluids'}</dd></div></dl></div>${photo(t[0],zh,'wd-opening-photo')}</section>`;
       const nav=`<nav class="wd-nav" aria-label="${zh?'本页目录':'On this page'}"><a href="#wd-rating"><b>01</b>${zh?'等级与密封链':'Rating & seal chain'}</a><a href="#wd-transitions"><b>02</b>${zh?'出线与分支':'Entries & branches'}</a><a href="#wd-materials"><b>03</b>${zh?'材料与呼吸效应':'Materials & breathing'}</a><a href="#wd-apps"><b>04</b>${zh?'真实应用':'Real applications'}</a><a href="#wd-release"><b>05</b>${zh?'验证与放行':'Validate & release'}</a></nav>`;

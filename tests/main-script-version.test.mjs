@@ -5,7 +5,7 @@ import test from 'node:test';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const version = '20261001-seo1';
+const version = '20261006-seo2';
 
 function sourceFiles(directory = root) {
   return readdirSync(directory, { withFileTypes: true }).flatMap(entry => {

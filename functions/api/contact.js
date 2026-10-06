@@ -296,6 +296,10 @@ export async function onRequestPost({ request, env }) {
   const email = cleanText(form.get('email'), 254);
   const message = cleanText(form.get('message'), 10000, true);
   const products = cleanText(form.get('products') || '', 2000, true);
+  const sourceValue = form.get('source_page');
+  // Record a public page path only; query strings and visitor identifiers are excluded.
+  const sourcePage = typeof sourceValue === 'string' && /^\/(?:[a-z0-9-]+\/)*[a-z0-9-]*(?:\.html)?$/i.test(sourceValue) && sourceValue.length <= 200
+    ? sourceValue : 'Not recorded';
   const token = form.get('cf-turnstile-response');
   if (!firstName || !lastName || !email || !message || products === null ||
     !/^[^\s@<>]+@[^\s@<>]+\.[^\s@<>]+$/.test(email)) {
@@ -345,6 +349,7 @@ export async function onRequestPost({ request, env }) {
     `Name: ${firstName} ${lastName}`,
     `Customer email (copy this address to reply): ${email}`,
     `Products: ${products || 'Not selected'}`,
+    `Inquiry page (visitor supplied): ${sourcePage}`,
     '',
     'Message:',
     message,

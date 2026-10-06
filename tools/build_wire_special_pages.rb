@@ -143,7 +143,7 @@ def render_page(slug, page)
   <div class="ws-page"><section class="ws-opening"><div><span class="ws-opening-label"><span data-copy="en">ENGINEERING OVERVIEW</span><span data-copy="zh">工程概览</span></span><h2>#{pair(page['subtitle'])}</h2></div><div>#{pair(page['intro'],tag:'p')}</div></section><nav class="ws-index">#{index}</nav>#{chapters}<details class="ws-credits"><summary><span data-copy="en">Images and technical scope</span><span data-copy="zh">图片与技术范围说明</span></summary><p><span data-copy="en">Context images explain the material, process, environment or application. They do not represent Super Smile test results or third-party certification.</span><span data-copy="zh">场景图片用于解释材料、工艺、环境或应用，不代表超斯迈尔测试结果或第三方认证。</span></p>#{credit_html}<a href="/assets/images/product-categories/stock/#{slug}/SOURCES.md"><span data-copy="en">View image source notes</span><span data-copy="zh">查看图片来源说明</span></a></details></div>
   <section class="pcc-closing ws-closing"><div><span>#{pair(group)}</span><h2>#{pair(closing)}</h2></div><a class="btn btn-primary" data-contact-link href="/contact?category=#{h(page['key'])}"><span data-copy="en">Send Your Requirements</span><span data-copy="zh">发送项目要求</span></a></section></main>
   <footer class="footer"><div class="container"><div><h5>SuperSmile</h5><p id="footer-about"></p></div><div><h5>Contact</h5><div id="f-contact" class="footer-contact"></div></div><div><h5>Links</h5><a href="/">Home</a><a href="/custom">Custom Wiring Harness</a><a href="/products">Products</a><a href="/about">About</a><a href="/contact">Contact</a></div></div><div class="container bot">© <span id="f-year"></span> <span id="f-company"></span> · All Rights Reserved</div></footer>
-  <div class="toast" id="toast"></div><script src="/assets/js/main.js?v=20261001-seo1"></script><script src="/assets/js/wire-special-editorial.js?v=20260927-3"></script></body></html>
+  <div class="toast" id="toast"></div><script src="/assets/js/main.js?v=20261006-seo2"></script><script src="/assets/js/wire-special-editorial.js?v=20260927-3"></script></body></html>
   HTML
 end
 
@@ -155,6 +155,9 @@ selected.each do |slug, page|
   # Use the same category-specific photography renderer as the JavaScript builders.
   unless system(ENV.fetch('NODE_BINARY', 'node'), File.join(ROOT, 'tools/product_gallery_markup.mjs'), filename, page['key'])
     raise "Failed to attach product photographs to #{slug}"
+  end
+  unless system(ENV.fetch('NODE_BINARY', 'node'), File.join(ROOT, 'tools/page_seo.mjs'), filename)
+    raise "Failed to apply page metadata to #{slug}"
   end
 end
 puts "Built #{selected.length} wire and cable category pages."

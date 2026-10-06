@@ -1,4 +1,12 @@
 (() => {
+  // The shared main.js owns document language and all page metadata.
+  function editorialLanguage() {
+    const requested = new URLSearchParams(location.search).get('lang');
+    let stored = '';
+    try { stored = localStorage.getItem('lang') || ''; } catch {}
+    return String(requested || stored || document.documentElement.lang || 'en').toLowerCase().split('-')[0];
+  }
+
   const host = document.getElementById('pcc-rich-content'); if (!host) return;
   const root='/assets/images/product-categories/stock/micro-d/';
   const files={identity:'opening.jpg',interface:'interface.jpg',geometry:'geometry.jpg',contacts:'contacts.jpg',termination:'termination.jpg',hardware:'hardware.jpg',strain:'strain-relief.jpg',shield:'shield.jpg','high-speed':'high-speed.jpg',aerospace:'aerospace.jpg',instrument:'instrument.jpg',inspection:'inspection.jpg'};
@@ -17,15 +25,15 @@
     inspection:['电路板检验夹具用于说明受控定位、观察与记录。','A circuit-board inspection fixture illustrates controlled positioning, viewing and records.']
   };
   const esc=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const pick=(v,zh)=>typeof v==='string'?v:v[zh?'zh':'en']; const isZh=()=>new URLSearchParams(location.search).get('lang')!=='en';
+  const pick=(v,zh)=>typeof v==='string'?v:v[zh?'zh':'en']; const isZh=()=>editorialLanguage() === 'zh';
   const photo=(t,zh,cls='')=>`<figure class="md-photo ${cls}"><img src="${root}${files[t.id]}" alt="${esc(pick(t.title,zh))}" loading="lazy" decoding="async"><figcaption>${esc(captions[t.id][zh?0:1])}</figcaption></figure>`;
   const story=(t,zh,cls='')=>`<article class="md-story ${cls}">${photo(t,zh)}<div class="md-copy"><h3>${esc(pick(t.title,zh))}</h3><p>${esc(pick(t.copy,zh))}</p></div></article>`;
   let zh=true;
   async function render(){
     try{
       zh=isZh(); const data=await fetch('/content/product-category-drafts/micro-d-cable-assembly.json',{cache:'no-store'}).then(r=>r.json()); const p=data.page,t=p.chapters;
-      document.documentElement.lang=zh?'zh-CN':'en'; document.title=zh?'Micro-D 电缆组件定制｜MIL-DTL-83513、屏蔽与高速信号｜超斯迈尔':'Custom Micro-D Cable Assemblies | MIL-DTL-83513, Shielding & High-Speed | Super Smile';
-      document.querySelector('meta[name="description"]')?.setAttribute('content',zh?'定制 Micro-D 电缆组件，覆盖 MIL-DTL-83513 风格接口、1.27mm 节距、绞线针、顶丝、尾罩、屏蔽、LVDS、Camera Link、SpaceWire 与逐路测试。':'Custom Micro-D cable assemblies covering MIL-DTL-83513-style interfaces, 1.27 mm pitch, twist-pin contacts, jackscrews, backshells, shielding, LVDS, Camera Link, SpaceWire and circuit testing.');
+
+
       const title=pick(p.displayTitle,zh); document.getElementById('pcc-title').textContent=title; document.getElementById('pcc-intro').textContent=pick(data.intro,zh); document.getElementById('pcc-eyebrow').textContent=zh?'产品小类 · 高密度微型互连':'PRODUCT CATEGORY · HIGH-DENSITY INTERCONNECT'; document.getElementById('pcc-group').textContent=zh?'特色电缆组件':'Specialty Cable Assemblies'; document.getElementById('pcc-cta').textContent=zh?'咨询这一类产品':'Ask About This Product Type'; document.getElementById('pcc-back').textContent=zh?'返回产品中心':'Back to Products'; document.getElementById('pcc-closing-title').textContent=title; document.getElementById('pcc-closing-group').textContent=zh?'特色电缆组件':'Specialty Cable Assemblies'; document.getElementById('pcc-closing-cta').textContent=zh?'发送接口与图纸':'Send Interface Details';
       const opening=`<section class="md-opening"><div class="md-opening-copy"><span>${zh?'高密度不是省略定义的理由':'DENSITY DOES NOT REMOVE DEFINITION'}</span><h2>${esc(pick(p.subtitle,zh))}</h2><p class="md-lead">${esc(pick(p.lead,zh))}</p><h3>${esc(pick(t[0].title,zh))}</h3><p>${esc(pick(t[0].copy,zh))}</p><dl><div><dt>${zh?'接口':'INTERFACE'}</dt><dd>${zh?'料号、壳体、触点、观察面':'Reference, shell, contact, view'}</dd></div><div><dt>${zh?'结构':'CONSTRUCTION'}</dt><dd>${zh?'导体、屏蔽、尾罩、紧固件':'Wire, shield, backshell, hardware'}</dd></div><div><dt>${zh?'证据':'EVIDENCE'}</dt><dd>${zh?'首件、逐路测试、版本记录':'First article, circuit test, revision'}</dd></div></dl></div>${photo(t[0],zh,'md-opening-photo')}</section>`;
       const nav=`<nav class="md-nav" aria-label="${zh?'本页目录':'On this page'}"><a href="#md-interface"><b>01</b>${zh?'接口身份':'Interface identity'}</a><a href="#md-build"><b>02</b>${zh?'触点与端接':'Contact & termination'}</a><a href="#md-mechanics"><b>03</b>${zh?'机械保持':'Mechanical retention'}</a><a href="#md-signal"><b>04</b>${zh?'信号架构':'Signal architecture'}</a><a href="#md-use"><b>05</b>${zh?'应用边界':'Applications'}</a><a href="#md-release"><b>06</b>${zh?'检验放行':'Release'}</a></nav>`;

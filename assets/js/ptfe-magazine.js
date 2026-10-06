@@ -1,4 +1,12 @@
 (() => {
+  // The shared main.js owns document language and all page metadata.
+  function editorialLanguage() {
+    const requested = new URLSearchParams(location.search).get('lang');
+    let stored = '';
+    try { stored = localStorage.getItem('lang') || ''; } catch {}
+    return String(requested || stored || document.documentElement.lang || 'en').toLowerCase().split('-')[0];
+  }
+
   const host = document.getElementById('pcc-rich-content');
   if (!host) return;
 
@@ -39,9 +47,9 @@
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       const data = await response.json();
       const page = data.page;
-      const lang = new URLSearchParams(location.search).get('lang') || 'en';
+      const lang = editorialLanguage();
       const zh = lang === 'zh' || lang === 'zh-CN';
-      document.documentElement.lang = zh ? 'zh-CN' : 'en';
+
 
       const title = pick(page.displayTitle, zh);
       const heroTitle = zh ? 'PTFE\n电缆端接' : 'PTFE Cable\nTermination';
@@ -53,7 +61,7 @@
       if (introNode) introNode.textContent = pick(data.intro, zh);
       if (closingNode) closingNode.textContent = title;
       if (heroNode) heroNode.src = `${path}hero.jpg`;
-      document.title = zh ? 'PTFE 电缆端接 | 耐高温线束、Type EE 与受控加工 | 超斯迈尔' : 'Custom PTFE Cable Termination | High-Temperature Wire Assemblies | Super Smile';
+
 
       const query = new URLSearchParams({category: 'specialty-03', category_name: title, lang: zh ? 'zh' : lang});
       ['pcc-cta', 'pcc-closing-cta'].forEach(id => {

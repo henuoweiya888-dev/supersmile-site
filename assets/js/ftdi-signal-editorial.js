@@ -1,4 +1,12 @@
 (() => {
+  // The shared main.js owns document language and all page metadata.
+  function editorialLanguage() {
+    const requested = new URLSearchParams(location.search).get('lang');
+    let stored = '';
+    try { stored = localStorage.getItem('lang') || ''; } catch {}
+    return String(requested || stored || document.documentElement.lang || 'en').toLowerCase().split('-')[0];
+  }
+
   const host=document.getElementById('pcc-rich-content'); if(!host)return;
   const root='/assets/images/product-categories/stock/ftdi/';
   const files={active:'active-converter.jpg',chips:'bridge-chip.png',levels:'logic-level-board.jpg',pinout:'pinout-de9.jpg',endpoints:'endpoints-rs232.jpg',driver:'driver-software.jpg',protection:'electronics-board.jpg',mechanics:'mechanics-panel.jpg',applications:'applications-lab.jpg',validation:'validation-bench.jpg'};
@@ -15,15 +23,15 @@
     validation:['工程台上的示波器与电脑代表电气测量和真实数据验证。','An oscilloscope and computer on an engineering bench represent electrical and real-data validation.']
   };
   const esc=v=>String(v).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const pick=(v,zh)=>typeof v==='string'?v:v[zh?'zh':'en']; const isZh=()=>new URLSearchParams(location.search).get('lang')!=='en';
+  const pick=(v,zh)=>typeof v==='string'?v:v[zh?'zh':'en']; const isZh=()=>editorialLanguage() === 'zh';
   const photo=(t,zh,cls='')=>`<figure class="fe-photo ${cls}"><img src="${root}${files[t.id]}" alt="${esc(pick(t.title,zh))}" loading="lazy" decoding="async"><figcaption>${esc(caps[t.id][zh?0:1])}</figcaption></figure>`;
   const story=(t,zh,cls='')=>`<article class="fe-story ${cls}">${photo(t,zh)}<div class="fe-copy"><h3>${esc(pick(t.title,zh))}</h3><p>${esc(pick(t.copy,zh))}</p></div></article>`;
   const head=(n,k,t)=>`<header class="fe-header"><span>${n}</span><div><p>${esc(k)}</p><h2>${esc(t)}</h2></div></header>`;
   async function render(){
     try{
       const zh=isZh(),data=await fetch('/content/product-category-drafts/ftdi-cable-assembly.json',{cache:'no-store'}).then(r=>r.json()),p=data.page,t=p.chapters;
-      document.documentElement.lang=zh?'zh-CN':'en'; document.title=zh?'FTDI 电缆组件定制｜USB 转 UART、TTL、RS232、RS485｜超斯迈尔':'Custom FTDI Cable Assembly | USB UART, TTL, RS232 & RS485 | Super Smile';
-      document.querySelector('meta[name="description"]')?.setAttribute('content',zh?'定制 FTDI 电缆组件与 USB 转串行线，覆盖 FT232R、FT231X、FT234XD、TTL UART、RS232、RS485、针脚、驱动、包胶与功能验证。':'Custom FTDI cable assemblies and USB-to-serial leads covering FT232R, FT231X, FT234XD, TTL UART, RS232, RS485, pinout, drivers, molding and functional validation.');
+
+
       const title=pick(p.displayTitle,zh); document.getElementById('pcc-title').textContent=title; document.getElementById('pcc-intro').textContent=pick(data.intro,zh); document.getElementById('pcc-eyebrow').textContent=zh?'产品小类 · 有源串行接口':'PRODUCT CATEGORY · ACTIVE SERIAL INTERFACE'; document.getElementById('pcc-group').textContent=zh?'特色电缆组件':'Specialty Cable Assemblies'; document.getElementById('pcc-cta').textContent=zh?'咨询这一类产品':'Ask About This Product Type'; document.getElementById('pcc-back').textContent=zh?'返回产品中心':'Back to Products'; document.getElementById('pcc-closing-title').textContent=title; document.getElementById('pcc-closing-group').textContent=zh?'特色电缆组件':'Specialty Cable Assemblies'; document.getElementById('pcc-closing-cta').textContent=zh?'发送接口与通信资料':'Send Interface Details';
       const opening=`<section class="fe-opening"><div class="fe-opening-copy"><span>${zh?'先定义设备与软件，再定义线缆':'DEFINE EQUIPMENT + SOFTWARE BEFORE THE CABLE'}</span><h2>${esc(pick(p.subtitle,zh))}</h2><p class="fe-lead">${esc(pick(p.lead,zh))}</p><h3>${esc(pick(t[0].title,zh))}</h3><p>${esc(pick(t[0].copy,zh))}</p><dl><div><dt>${zh?'主机侧':'HOST'}</dt><dd>USB · VCP · D2XX</dd></div><div><dt>${zh?'设备侧':'DEVICE'}</dt><dd>UART · RS-232 · RS-485</dd></div><div><dt>${zh?'控制项':'CONTROL'}</dt><dd>${zh?'电平 · 针脚 · 身份':'Level · pinout · identity'}</dd></div></dl></div>${photo(t[0],zh,'fe-opening-photo')}</section>`;
       const nav=`<nav class="fe-nav" aria-label="${zh?'本页目录':'On this page'}"><a href="#fe-core"><b>01</b>${zh?'芯片与电气层':'Bridge & layer'}</a><a href="#fe-map"><b>02</b>${zh?'针脚与端点':'Pinout & endpoints'}</a><a href="#fe-build"><b>03</b>${zh?'软件与结构':'Software & build'}</a><a href="#fe-use"><b>04</b>${zh?'应用与验证':'Use & validation'}</a><a href="#fe-release"><b>05</b>${zh?'项目放行':'Project release'}</a></nav>`;

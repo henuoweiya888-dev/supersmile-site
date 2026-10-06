@@ -4,6 +4,7 @@ import fs from 'node:fs';
 import vm from 'node:vm';
 import path from 'node:path';
 import { withProductGallery } from './product_gallery_markup.mjs';
+import { withPageSeo } from './page_seo.mjs';
 const draftPath=process.argv[2];
 if(!draftPath)throw new Error('Expected one reviewed draft JSON path');
 const d=JSON.parse(fs.readFileSync(draftPath,'utf8'));
@@ -32,8 +33,9 @@ html=html.replace(/data-category-key="[^"]+"/,`data-category-key="${d.key}" data
 html=html.replace(/<p id="pcc-intro">.*?<\/p>/,`<p id="pcc-intro">${esc(d.intro.en)}</p>`);
 html=html.replace(/(<img id="pcc-hero-image" src=")[^"]*/,`$1${d.page.images.hero}`).replace(/(<img id="pcc-hero-image"[^>]* alt=")[^"]*/,`$1${esc(d.title.en+' application reference')}`);
 html=html.replace(/href="\/assets\/css\/battery-link-editorial.css[^"]*"/,`href="/assets/css/technical-editorial.css?v=20260910-${d.slug}-1"`);
-html=html.replace(/main.js\?v=[^"]+/,'main.js?v=20261001-seo1');
+html=html.replace(/main.js\?v=[^"]+/,'main.js?v=20261006-seo2');
 html=withProductGallery(html,d.key);
+html=withPageSeo(html,'/products/'+d.slug);
 const file='products/'+d.slug+'.html';
 const old=fs.existsSync(file)?fs.readFileSync(file,'utf8'):null;
 const patchFile=(name,old,next)=>old===null?`*** Add File: ${path.resolve(name)}\n+${next.trimEnd().split('\n').join('\n+')}\n`:`*** Update File: ${path.resolve(name)}\n@@\n-${old.trimEnd().split('\n').join('\n-')}\n+${next.trimEnd().split('\n').join('\n+')}\n`;

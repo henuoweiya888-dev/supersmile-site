@@ -43,7 +43,7 @@ const UI = {
   th:{title:'ส่งข้อความถึงเรา',name:'ชื่อ',firstName:'ชื่อ',lastName:'นามสกุล',email:'อีเมล',message:'ข้อความ',send:'ส่งข้อความ',wa:'แชทบน WhatsApp'}
 };
 
-// Contact-page-only direct submission copy. Keep all twenty site languages usable
+// Direct inquiry submission copy. Keep all twenty site languages usable
 // even when the optional external translation service is unavailable.
 const CONTACT_DIRECT_KEYS = ['uploadLabel','choose','none','hint','remove','tooMany','tooLarge','unsupported','verify','sending','success','failure','emailMode'];
 const CONTACT_DIRECT_ROWS = {
@@ -102,7 +102,7 @@ const PC = {
 const CUSTOM_SERVICE = {
   navCurrent:{en:'Custom Service',zh:'定制服务'},
   heroEyebrow:{en:'CUSTOM WIRING SERVICE',zh:'定制线束服务'},
-  heroTitle:{en:'From pin definition to repeat production',zh:'从针脚定义到稳定复产'},
+  heroTitle:{en:'Custom Harness Engineering and Production Process',zh:'定制线束工程与生产流程'},
   heroCopy:{en:'Send a drawing, sample, connector photo or pinout. We review interfaces, materials, manufacturing feasibility and inspection requirements before defining the sample and production scope.',zh:'提供图纸、样品、接口照片或针脚定义后，我们先审核接口、材料、制造可行性与检验要求，再确定打样和生产范围。'},
   heroCta:{en:'Discuss your project',zh:'沟通项目需求'},heroProducts:{en:'Browse product centre',zh:'浏览产品中心'},
   defineTitle:{en:'Define the harness before we build it',zh:'先把线束定义清楚，再开始制作'},
@@ -278,8 +278,11 @@ function renderContactFiles(){
     row.append(name,remove);list.append(row);
   });
 }
+function hasDirectInquiryForm(){
+  return ['page-contact','page-custom'].includes(pageIdentity());
+}
 function refreshContactDirectCopy(){
-  if(pageIdentity()!=='page-contact') return;
+  if(!hasDirectInquiryForm()) return;
   const copy=contactDirectCopy();
   setText('#cf-files-label',copy.uploadLabel);
   setText('#cf-file-picker',copy.choose);
@@ -318,7 +321,7 @@ function loadContactTurnstile(){
   });
 }
 async function initContactDirectForm(){
-  if(pageIdentity()!=='page-contact') return;
+  if(!hasDirectInquiryForm()) return;
   const form=$('#contact-form'),input=$('#cf-files'),upload=$('#cf-upload-field'),challenge=$('#cf-turnstile');
   if(!form||!input||!upload||!challenge) return;
   input.addEventListener('change',()=>{addContactFiles(input.files);input.value='';});
@@ -368,6 +371,7 @@ async function submitContactDirect({firstName,lastName,email,message,products}){
   payload.append('first_name',firstName);payload.append('last_name',lastName);
   payload.append('email',email);payload.append('message',message);
   payload.append('products',products);
+  payload.append('source_page',new URLSearchParams(location.search).get('source_page')||location.pathname);
   state.files.forEach(file=>payload.append('files',file,file.name));
   payload.append('cf-turnstile-response',state.token);
   state.busy=true;submit.disabled=true;form.setAttribute('aria-busy','true');
@@ -384,6 +388,7 @@ async function submitContactDirect({firstName,lastName,email,message,products}){
       contactFormStatus(['verification_required','verification_failed','verification_unavailable'].includes(result.code)?'verify':'failure',true);
       return;
     }
+    document.dispatchEvent(new CustomEvent('ss:inquiry',{detail:{state:'submitted',page:location.pathname}}));
     form.reset();
     selectedProducts=[];renderProductSelect();
     state.files=[];renderContactFiles();contactFileError(null);
@@ -626,7 +631,7 @@ function syncLanguageUrl(){
 async function loadData(){
   if(SITE) return;
   const [s,p,series,capabilities,categoryDetails] = await Promise.all([
-    fetch('/data/site.json?v=20260902v17').then(r=>r.json()),
+    fetch('/data/site.json?v=20261006-seo2').then(r=>r.json()),
     fetch('/data/products.json?v=20260831v7').then(r=>r.json()),
     fetch('/data/product-series.json?v=20260902v1').then(r=>r.json()),
     fetch('/data/product-capabilities.json?v=20260927v9').then(r=>r.json()),
@@ -2540,7 +2545,7 @@ function pillarRelatedLinks(){
   };
   const l=labels[LANG]||labels.en;
   const maps={
-    'custom-wiring-harness':[['/wire-harness-prototype-sample-validation',l.prototype],['/custom-cable-assembly',l.cable],['/automotive-wiring-harness',l.automotive],['/products',l.products]],
+    'custom-wiring-harness':[['/custom',LANG==='zh'?'工程审核与生产流程':'Engineering Review and Production Process'],['/wire-harness-prototype-sample-validation',l.prototype],['/custom-cable-assembly',l.cable],['/automotive-wiring-harness',l.automotive],['/products',l.products]],
     'custom-cable-assembly':[['/custom-wiring-harness',l.harness],['/industrial-equipment-wiring-harness-guide',l.guide],['/automotive-diagnostic-cable-manufacturer',l.diagnostic],['/products',l.products]],
     'automotive-wiring-harness':[['/automotive-diagnostic-cable-manufacturer',l.diagnostic],['/turbo-actuator-harness',l.turbo],['/products',l.products]],
     'automotive-diagnostic-cable-manufacturer':[['/obd2-diagnostic-cable',l.obd],['/j1939-cable',l.j1939],['/ecu-programming-cable',l.ecu],['/ev-diagnostic-cable',l.ev]],
@@ -2732,6 +2737,12 @@ function renderDynamicSeo(){
   const desc=$('meta[name="description"]'); if(desc) desc.content=description;
   const ogTitle=$('meta[property="og:title"]'); if(ogTitle) ogTitle.content=title;
   const ogDesc=$('meta[property="og:description"]'); if(ogDesc) ogDesc.content=description;
+  const policy=window.SS_SEO_POLICY?.apply({identity,LANG,title,description,path:location.pathname});
+  if(policy) {
+    const category=identity==='page-product-category'?productCategoryPageRecord():null;
+    const product=identity==='page-product'?productRecordByRoute():null;
+    window.SS_MANUFACTURING_CONTEXT?.apply({path:policy.route,lang:LANG,procurementContext:policy.procurementContext,categoryKey:category?.key,productId:product?.product?.id});
+  }
 }
 
 function renderStaticPages(){
@@ -2795,10 +2806,11 @@ document.addEventListener('DOMContentLoaded', async ()=>{
     const prodLine = prodItems ? t(SITE.nav.products)+':\n'+prodItems : '';
     const nameLines=firstNameEl&&lastNameEl?(u.firstName||u.name)+': '+firstName+'\n'+(u.lastName||u.name)+': '+lastName:u.name+': '+name;
     const body = nameLines+'\n'+u.email+': '+email+'\n'+(prodLine?prodLine+'\n':'')+'\n'+msg;
-    if(pageIdentity()==='page-contact'&&contactDirectState.ready){
+    if(hasDirectInquiryForm()&&contactDirectState.ready){
       submitContactDirect({firstName,lastName,email,message:msg,products:prodItems});
       return;
     }
+    document.dispatchEvent(new CustomEvent('ss:inquiry',{detail:{state:'email_opened',page:location.pathname}}));
     sendMail(t(SITE.nav.contact)+' - '+name, body, email); };
   const ppop=$('#product-pop');
   if(ppop){

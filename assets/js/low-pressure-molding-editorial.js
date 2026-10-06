@@ -1,4 +1,12 @@
 (() => {
+  // The shared main.js owns document language and all page metadata.
+  function editorialLanguage() {
+    const requested = new URLSearchParams(location.search).get('lang');
+    let stored = '';
+    try { stored = localStorage.getItem('lang') || ''; } catch {}
+    return String(requested || stored || document.documentElement.lang || 'en').toLowerCase().split('-')[0];
+  }
+
   const host = document.getElementById('lpm-content');
   if (!host) return;
   const root = '/assets/images/product-categories/stock/low-pressure-molding/';
@@ -13,7 +21,7 @@
     'cable-interface':['电缆接头近景说明出线界面、弯曲与密封几何需要一起定义。','A cable connector illustrates how exit interfaces, bending and sealing geometry must be defined together.'],
     'validation':['电子测试场景说明成型后的组件仍需进行电气与功能复核，不代表特定测试结果。','Electronics testing illustrates post-molding electrical and functional checks; it does not represent specific test results.']
   };
-  const isZh = () => new URLSearchParams(location.search).get('lang') !== 'en';
+  const isZh = () => editorialLanguage() === 'zh';
   const pick = (value, zh) => typeof value === 'string' ? value : (value?.[zh ? 'zh' : 'en'] || '');
   const esc = value => String(value).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const photo = (topic, zh, eager = false) => `<figure class="lpm-photo"><img src="${root}${files[topic.id]}" alt="${esc(pick(topic.title, zh))}" ${eager ? '' : 'loading="lazy"'}><figcaption>${esc(captions[topic.id][zh ? 0 : 1])}</figcaption></figure>`;
@@ -26,9 +34,9 @@
       const res = await fetch('/content/product-category-drafts/low-pressure-molding.json', {cache:'no-store'});
       if (!res.ok) throw new Error(String(res.status));
       const data = await res.json(); const page = data.page; const t = page.chapters; const title = pick(page.displayTitle, zh);
-      document.documentElement.lang = zh ? 'zh-CN' : 'en';
-      document.title = zh ? '低压成型｜电子组件包封、线缆出线与工艺验证｜超斯迈尔' : 'Custom Low-Pressure Molding for Electronics & Cable Assemblies | Super Smile';
-      document.querySelector('meta[name="description"]')?.setAttribute('content', zh ? '定制低压成型电子组件与线缆组件，覆盖聚酰胺热熔材料、嵌件布局、模具密封、浇口排气、线缆出线、应力释放及成型后验证。' : 'Custom low-pressure molding for electronics and cable assemblies, covering hot-melt resin, insert layout, tooling seals, gate and vent design, cable exits, strain relief and post-molding validation.');
+
+
+
       const ui = {home:zh?'首页':'Home',products:zh?'产品中心':'Products',group:zh?'特色电缆组件':'Specialty Cable Assemblies',kicker:zh?'产品小类 · 电子组件防护':'PRODUCT CATEGORY · ELECTRONICS PROTECTION',ask:zh?'咨询这一类产品':'Ask About This Product Type',back:zh?'返回产品中心':'Back to Products',closing:zh?'先定义嵌件，再塑造保护外壳。':'Define the insert before shaping the enclosure.',send:zh?'发送组件与工况资料':'Send Your Assembly Requirements'};
       const values = {'lpm-home':ui.home,'lpm-products':ui.products,'lpm-group':ui.group,'lpm-kicker':ui.kicker,'lpm-title':title,'lpm-subtitle':pick(page.subtitle,zh),'lpm-lead':pick(page.lead,zh),'lpm-cta':ui.ask,'lpm-back':ui.back,'lpm-closing-group':ui.group,'lpm-closing-title':ui.closing,'lpm-closing-cta':ui.send};
       Object.entries(values).forEach(([id,v])=>{const el=document.getElementById(id);if(el)el.textContent=v;});

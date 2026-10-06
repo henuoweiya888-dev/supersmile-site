@@ -2,6 +2,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { withProductGallery } from './product_gallery_markup.mjs';
+import { withPageSeo } from './page_seo.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const capabilities=JSON.parse(await fs.readFile(path.join(root,'data/product-capabilities.json'),'utf8'));
@@ -236,7 +237,7 @@ function pageTemplate({key,slug,name,group,image,intro,knowledge,notes,delivery,
   <section class="pcc-closing"><div><span id="pcc-closing-group">${esc(groupName)}</span><h2 id="pcc-closing-title">${esc(name)}</h2></div><a class="btn btn-primary" id="pcc-closing-cta" href="/contact?category=${esc(key)}&category_name=${encodeURIComponent(name)}">Send Your Requirement</a></section>
 </main>
 <footer class="footer"><div class="container"><div><h5>SuperSmile</h5><p id="footer-about" style="font-size:14px"></p></div><div><h5>Contact</h5><div id="f-contact" class="footer-contact"></div></div><div><h5>Links</h5><a href="/">Home</a><a href="/custom">Custom Wiring Harness</a><a href="/products">Products</a><a href="/turbo-actuator-harness">Turbo Actuator Harness</a><a href="/obd2-diagnostic-cable">OBD2 Diagnostic Cable</a><a href="/j1939-cable">J1939 Cable</a><a href="/about">About</a><a href="/contact">Contact</a></div></div><p class="seo-keywords">${esc(name.toLowerCase())} | ${esc(groupName.toLowerCase())} | custom cable manufacturer</p><div class="container bot">© <span id="f-year"></span> <span id="f-company"></span> · All Rights Reserved</div></footer>
-<div class="toast" id="toast"></div><script src="/assets/js/main.js?v=20261001-seo1"></script>
+<div class="toast" id="toast"></div><script src="/assets/js/main.js?v=20261006-seo2"></script>
 </body>
 </html>`;
 }
@@ -260,7 +261,7 @@ for(const group of capabilities.groups||[]){
     const delivery=localized(itemDetail.delivery)||'After the requirement and interfaces are confirmed, the project moves through material review, sampling, validation and controlled production. Inspection points are agreed for each order.';
     const image=itemDetail.page?.images?.hero||aiImages[key]||group.image;
     const html=pageTemplate({key,slug,name,group,image,intro,knowledge,notes,delivery,inputs:localized(fallback.inputs||[]),review:localized(fallback.review||[]),page:itemDetail.page});
-    await fs.writeFile(path.join(root,'products',`${slug}.html`),withProductGallery(html,key));
+    await fs.writeFile(path.join(root,'products',`${slug}.html`),withPageSeo(withProductGallery(html,key),`/products/${slug}`));
     count+=1;
   }
 }

@@ -1,4 +1,12 @@
 (() => {
+  // The shared main.js owns document language and all page metadata.
+  function editorialLanguage() {
+    const requested = new URLSearchParams(location.search).get('lang');
+    let stored = '';
+    try { stored = localStorage.getItem('lang') || ''; } catch {}
+    return String(requested || stored || document.documentElement.lang || 'en').toLowerCase().split('-')[0];
+  }
+
   const host = document.getElementById('pcc-rich-content');
   if (!host) return;
 
@@ -60,8 +68,8 @@
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       const data = await response.json();
       const page = data.page;
-      const zh = new URLSearchParams(location.search).get('lang') !== 'en';
-      document.documentElement.lang = zh ? 'zh-CN' : 'en';
+      const zh = editorialLanguage() === 'zh';
+
 
       const title = pick(page.displayTitle, zh);
       const heroTitle = zh ? 'Phoenix\n兼容电缆组件' : title;
@@ -79,7 +87,7 @@
           const link = document.getElementById(id);
           if (link) link.href = `/contact?${query.toString()}`;
         });
-        document.title = zh ? 'Phoenix 兼容电缆组件 | 端子、M12 与控制柜线束 | 超斯迈尔' : 'Custom Phoenix Cable Harnesses | COMBICON, M12 & HEAVYCON | Super Smile';
+
       };
       syncHeader();
       const headerObserver = new MutationObserver(syncHeader);
