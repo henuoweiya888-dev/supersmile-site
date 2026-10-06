@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 
 export const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 export const SEO_VERSION = '20261006-seo2';
+export const SEO_POLICY_SCRIPT_VERSION = '20261006-title3';
 
 // Other languages retain the title and topic description produced by main.js.
 // These short translations add business context without replacing that copy.
@@ -185,6 +186,31 @@ export async function buildSeoPolicy(siteRoot = root) {
 // This function has no build-time dependencies and is serialized into the browser module.
 export function createRuntimePolicy(data) {
   const routes = new Map(data.pages.map(page => [page.route, page]));
+  const titleAuthorities = new WeakMap();
+  const releaseTitleAuthority = document => {
+    const state = titleAuthorities.get(document);
+    state?.observer?.disconnect();
+    titleAuthorities.delete(document);
+  };
+  const maintainTitleAuthority = (document, title) => {
+    let state = titleAuthorities.get(document);
+    if (!state) {
+      state = { title: '', observer: null };
+      titleAuthorities.set(document, state);
+    }
+    // Match the browser's title whitespace normalization to avoid repeated writes.
+    // Set the current authority before assigning a new language's document title.
+    state.title = String(title).replace(/[\t\n\f\r ]+/g, ' ').trim();
+    const Observer = document.defaultView?.MutationObserver ?? globalThis.MutationObserver;
+    if (!state.observer && Observer && document.head) {
+      state.observer = new Observer(() => {
+        if (titleAuthorities.get(document) !== state) return;
+        if (document.title !== state.title) document.title = state.title;
+      });
+      // Observe the head so replacing or removing the title element is also handled.
+      state.observer.observe(document.head, { subtree: true, childList: true, characterData: true });
+    }
+  };
   const normalizeRoute = input => {
     let pathname = String(input || '/');
     if (/^https?:\/\//i.test(pathname)) {
@@ -219,7 +245,11 @@ export function createRuntimePolicy(data) {
     if (!document) return resolve(options);
     const get = selector => document.querySelector(selector)?.content || '';
     const metadata = resolve({ ...options, title: options.title ?? document.title, description: options.description ?? get('meta[name="description"]') });
-    if (!metadata) return null;
+    if (!metadata) {
+      releaseTitleAuthority(document);
+      return null;
+    }
+    maintainTitleAuthority(document, metadata.title);
     document.title = metadata.title;
     for (const [selector, value] of [
       ['meta[name="description"]', metadata.description],
@@ -270,7 +300,7 @@ export function withSeoPolicy(html, route, policy, { lang = 'en', scripts = true
       if (foundMain) throw new Error(`Duplicate main.js script on ${route}`);
       foundMain = true;
       const mainTag = tag.replace(/(\bsrc=["'])\/assets\/js\/main\.js(?:\?[^"']*)?(["'])/i, `$1/assets/js/main.js?v=${SEO_VERSION}$2`);
-      return `<script defer src="/assets/js/seo-policy.js?v=${SEO_VERSION}"></script>\n${mainTag}`;
+      return `<script defer src="/assets/js/seo-policy.js?v=${SEO_POLICY_SCRIPT_VERSION}"></script>\n${mainTag}`;
     });
     if (!foundMain) throw new Error(`No main.js script on public page ${route}`);
   }
