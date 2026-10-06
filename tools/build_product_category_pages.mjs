@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { withProductGallery } from './product_gallery_markup.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const capabilities=JSON.parse(await fs.readFile(path.join(root,'data/product-capabilities.json'),'utf8'));
@@ -259,7 +260,7 @@ for(const group of capabilities.groups||[]){
     const delivery=localized(itemDetail.delivery)||'After the requirement and interfaces are confirmed, the project moves through material review, sampling, validation and controlled production. Inspection points are agreed for each order.';
     const image=itemDetail.page?.images?.hero||aiImages[key]||group.image;
     const html=pageTemplate({key,slug,name,group,image,intro,knowledge,notes,delivery,inputs:localized(fallback.inputs||[]),review:localized(fallback.review||[]),page:itemDetail.page});
-    await fs.writeFile(path.join(root,'products',`${slug}.html`),html);
+    await fs.writeFile(path.join(root,'products',`${slug}.html`),withProductGallery(html,key));
     count+=1;
   }
 }

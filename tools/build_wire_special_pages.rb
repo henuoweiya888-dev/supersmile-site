@@ -149,5 +149,12 @@ end
 
 requested = ARGV
 selected = requested.empty? ? DATA : DATA.select { |slug, _| requested.include?(slug) }
-selected.each { |slug, page| File.write(File.join(ROOT, 'products', "#{slug}.html"), render_page(slug, page)) }
+selected.each do |slug, page|
+  filename = File.join(ROOT, 'products', "#{slug}.html")
+  File.write(filename, render_page(slug, page))
+  # Use the same category-specific photography renderer as the JavaScript builders.
+  unless system(ENV.fetch('NODE_BINARY', 'node'), File.join(ROOT, 'tools/product_gallery_markup.mjs'), filename, page['key'])
+    raise "Failed to attach product photographs to #{slug}"
+  end
+end
 puts "Built #{selected.length} wire and cable category pages."
