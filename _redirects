@@ -1,15 +1,4 @@
-# Existing virtual pages still render from the root page. Keep these rules exact
-# so unknown paths reach the site's 404.html.
-/products/turbo-actuator-series / 200
-/products/obd2-and-universal-diagnostic-cables / 200
-/products/heavy-duty-and-diesel-diagnostic-cables / 200
-/products/specialty-diagnostic-cables / 200
-/products/diagnostic-adapters-and-connectors / 200
-/ev-diagnostic-cable / 200
-/industrial-equipment-wiring-harness-guide / 200
-/robotic-wiring-harness-flex-guide / 200
-/wire-harness-prototype-sample-validation / 200
-/custom-cable-assembly / 200
-/automotive-wiring-harness / 200
-/automotive-diagnostic-cable-manufacturer / 200
-/ecu-programming-cable / 200
+# Product series and landing routes are standalone HTML pages.
+# Unknown paths must retain the top-level 404 response.
+/products/turbo-actuator-cables /turbo-actuator-harness 301
+/products/heavy-duty-j1939-diagnostic-cables /j1939-cable 301

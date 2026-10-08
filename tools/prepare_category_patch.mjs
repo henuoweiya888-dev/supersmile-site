@@ -33,7 +33,7 @@ html=html.replace(/data-category-key="[^"]+"/,`data-category-key="${d.key}" data
 html=html.replace(/<p id="pcc-intro">.*?<\/p>/,`<p id="pcc-intro">${esc(d.intro.en)}</p>`);
 html=html.replace(/(<img id="pcc-hero-image" src=")[^"]*/,`$1${d.page.images.hero}`).replace(/(<img id="pcc-hero-image"[^>]* alt=")[^"]*/,`$1${esc(d.title.en+' application reference')}`);
 html=html.replace(/href="\/assets\/css\/battery-link-editorial.css[^"]*"/,`href="/assets/css/technical-editorial.css?v=20260910-${d.slug}-1"`);
-html=html.replace(/main.js\?v=[^"]+/,'main.js?v=20261006-seo2');
+html=html.replace(/main.js\?v=[^"]+/,'main.js?v=20261008-gsc1');
 html=withProductGallery(html,d.key);
 html=withPageSeo(html,'/products/'+d.slug);
 const file='products/'+d.slug+'.html';

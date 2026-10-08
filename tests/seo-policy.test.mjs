@@ -33,11 +33,11 @@ function mockDocument() {
 test('public sitemap has unique topic-first metadata covering the requested business meanings', async () => {
   const xml = await fs.readFile(path.join(root, 'sitemap.xml'), 'utf8');
   assert.deepEqual(policy.pages.map(page => page.route), sitemapRoutes(xml));
-  assert.equal(policy.pages.length, 190);
-  assert.deepEqual(policy.pages.reduce((counts, page) => ({ ...counts, [page.kind]: (counts[page.kind] || 0) + 1 }), {}), { core: 9, product: 82, category: 99 });
+  assert.equal(policy.pages.length, 203);
+  assert.deepEqual(policy.pages.reduce((counts, page) => ({ ...counts, [page.kind]: (counts[page.kind] || 0) + 1 }), {}), { core: 9, product: 82, category: 99, landing: 8, series: 5 });
   for (const lang of ['en', 'zh']) {
-    assert.equal(new Set(policy.pages.map(page => page.title[lang])).size, 190);
-    assert.equal(new Set(policy.pages.map(page => page.description[lang])).size, 190);
+    assert.equal(new Set(policy.pages.map(page => page.title[lang])).size, 203);
+    assert.equal(new Set(policy.pages.map(page => page.description[lang])).size, 203);
   }
   for (const page of policy.pages) {
     assert.ok(page.title.en.length <= 80, page.route);
@@ -45,7 +45,7 @@ test('public sitemap has unique topic-first metadata covering the requested busi
     assert.match(page.description.en, /China factory/, page.route);
     assert.match(page.description.en, /OEM\/ODM/, page.route);
     assert.match(page.description.zh, /中国工厂.*定制线束制造.*OEM\/ODM/, page.route);
-    if (page.kind !== 'core') {
+    if (['product', 'category'].includes(page.kind)) {
       assert.ok(page.description.en.startsWith(page.topic.en + ':'), page.route);
       assert.ok(page.description.zh.startsWith(page.topic.zh + '：'), page.route);
     }
@@ -103,7 +103,7 @@ test('all eighteen other languages preserve their existing topic and append only
   assert.equal(de.description, `Kontaktbeschreibung. ${businessContext.de}`);
 });
 
-test('all 190 static transforms preserve content, canonicals, links and schema and load policy before main', async () => {
+test('all 203 static transforms preserve content, canonicals, links and schema and load policy before main', async () => {
   const stripManaged = html => html
     .replace(/<title\b[^>]*>[\s\S]*?<\/title>/gi, '')
     .replace(/<meta\b(?=[^>]*(?:name=["']description["']|property=["']og:(?:title|description)["']))[^>]*>/gi, '')
@@ -123,5 +123,5 @@ test('all 190 static transforms preserve content, canonicals, links and schema a
   }
   const untouched = '<html><head><title>Not Found</title><meta name="robots" content="noindex"></head><body>404</body></html>';
   assert.equal(withSeoPolicy(untouched, '/404', policy), untouched);
-  assert.equal(withSeoPolicy(untouched, '/ev-diagnostic-cable', policy), untouched);
+  assert.equal(withSeoPolicy(untouched, '/unknown-landing-page', policy), untouched);
 });

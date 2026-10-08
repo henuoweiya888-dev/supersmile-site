@@ -40,7 +40,13 @@ export async function createRenderContext(route, language = 'en') {
 export async function captureLanding(route, language = 'en') {
   const { context, main } = await createRenderContext(route, language);
   runInContext('renderLandingPage()', context);
-  const copyFunction = route === '/custom-wiring-harness' ? 'customLandingCopy' : 'obd2LandingCopy';
+  const copyFunction = {
+    '/custom-wiring-harness': 'customLandingCopy',
+    '/obd2-diagnostic-cable': 'obd2LandingCopy',
+    '/turbo-actuator-harness': 'turboActuatorLandingCopy',
+    '/j1939-cable': 'j1939LandingCopy',
+  }[route];
+  if (!copyFunction) throw Error(`Unsupported landing route: ${route}`);
   const copy = runInContext(`${copyFunction}()`, context);
   if (!main.innerHTML.includes('<h1>') || !copy.faqs?.length) throw Error(`Incomplete landing rendering: ${route}`);
   return { markup: main.innerHTML.trim(), copy };
@@ -134,15 +140,20 @@ async function write(name, transform) {
   return { file: name, changed: before !== after };
 }
 
-export async function syncPriorityPages() {
+export async function syncLandingPages(routes = ['/custom-wiring-harness', '/obd2-diagnostic-cable', '/turbo-actuator-harness', '/j1939-cable']) {
   const results = [];
-  for (const route of ['/custom-wiring-harness', '/obd2-diagnostic-cable']) {
+  for (const route of routes) {
     const { markup, copy } = await captureLanding(route);
     results.push(await write(route.slice(1) + '.html', html => {
       const updated = html.replace(/(<main\b[^>]*>)[\s\S]*?(<\/main>)/, (_match, start, end) => `${start}\n${markup}\n${end}`);
       return ensureBodyClasses(updateFaqSchema(updated, copy, route), ['site-redesign', 'page-landing', 'page-landing-custom']);
     }));
   }
+  return results;
+}
+
+export async function syncPriorityPages() {
+  const results = await syncLandingPages();
   const { context } = await createRenderContext('/custom');
   const serviceTitle = runInContext('t(CUSTOM_SERVICE.heroTitle)', context);
   const serviceCopy = runInContext('t(CUSTOM_SERVICE.heroCopy)', context);

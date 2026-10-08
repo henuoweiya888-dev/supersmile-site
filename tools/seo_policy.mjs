@@ -1,10 +1,11 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { legacyRouteInventory, captureLegacyRoute } from './legacy_route_content.mjs';
 
 export const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-export const SEO_VERSION = '20261006-seo2';
-export const SEO_POLICY_SCRIPT_VERSION = '20261006-title3';
+export const SEO_VERSION = '20261008-gsc1';
+export const SEO_POLICY_SCRIPT_VERSION = '20261008-routes1';
 
 // Other languages retain the title and topic description produced by main.js.
 // These short translations add business context without replacing that copy.
@@ -163,6 +164,15 @@ export async function buildSeoPolicy(siteRoot = root) {
         [`${topic[0]} | ${suffix}`, `${topic[1]}｜OEM/ODM 定制项目`],
         [`${topic[0]}: catalogue reference for your interface requirements.`, `${topic[1]}：用于核对产品接口与项目需求的目录参考。`], { productId: product.id });
     }
+  }
+  // Restore the existing landing/series topics from the same bilingual copy
+  // used by their runtime and static renderers; never canonicalize them to home.
+  for (const record of await legacyRouteInventory()) {
+    const [{ copy: en }, { copy: zh }] = await Promise.all([
+      captureLegacyRoute(record), captureLegacyRoute(record, 'zh'),
+    ]);
+    add(record.route, record.kind, [en.title, zh.title],
+      [en.title + ' | Super Smile', zh.title + '｜Super Smile'], [en.intro, zh.intro]);
   }
   const routes = sitemapRoutes(xml);
   if (new Set(routes).size !== routes.length) throw new Error('Duplicate sitemap route');

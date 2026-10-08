@@ -18,8 +18,8 @@ const text = html => decode(html.replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').
 const quoteUrl = html => new URL(decode(html.match(/<a\b[^>]*class="mc-quote"[^>]*href="([^"]+)"/)?.[1] || ''), 'https://supersmile-tech.com');
 const galleries = html => html.match(/<!-- PRODUCT GALLERY START -->[\s\S]*?<!-- PRODUCT GALLERY END -->/)?.[0] || html.match(/<section\b[^>]*class="[^"]*product-gallery[^>]*>[\s\S]*?<\/section>/)?.[0];
 
-test('all 190 static contexts agree with runtime data, preserve gallery and are idempotent', async () => {
-  assert.equal(policy.pages.length, 190);
+test('all 203 static contexts agree with runtime data, preserve gallery and are idempotent', async () => {
+  assert.equal(policy.pages.length, 203);
   for (const page of policy.pages) {
     const html = await fs.readFile(path.join(root, htmlPathForRoute(page.route)), 'utf8');
     const output = withPageSeo(html, page.route);
@@ -120,7 +120,7 @@ test('untrusted context and inquiry parameters are escaped and cannot add markup
 
 test('404, unlisted routes and historical aliases are not converted into business pages', () => {
   const html = '<html><head><title>Not Found</title></head><body><main>404</main></body></html>';
-  for (const route of ['/404', '/products/unknown-category', '/wire-harness-prototype-sample-validation', '/custom-cable-assembly']) {
+  for (const route of ['/404', '/products/unknown-category', '/products/turbo-actuator-cables', '/products/heavy-duty-j1939-diagnostic-cables']) {
     assert.equal(withPageSeo(html, route), html, route);
   }
 });

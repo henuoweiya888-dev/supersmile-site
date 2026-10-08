@@ -3,10 +3,12 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { withProductGallery } from './product_gallery_markup.mjs';
 import { withPageSeo } from './page_seo.mjs';
+import { staticNavigationMarkup } from './static_navigation.mjs';
 
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const capabilities=JSON.parse(await fs.readFile(path.join(root,'data/product-capabilities.json'),'utf8'));
 const details=JSON.parse(await fs.readFile(path.join(root,'data/product-category-details.json'),'utf8'));
+const site=JSON.parse(await fs.readFile(path.join(root,'data/site.json'),'utf8'));
 const esc=value=>String(value??'').replace(/[&<>"']/g,char=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
 const jsonForScript=value=>JSON.stringify(value).replace(/</g,'\\u003c');
 const localized=(value,lang='en')=>typeof value==='string'?value:(value?.[lang]||value?.en||value?.zh||'');
@@ -224,7 +226,7 @@ function pageTemplate({key,slug,name,group,image,intro,knowledge,notes,delivery,
 <script>window.SS_PRODUCT_CATEGORY=${jsonForScript({key,image})};</script>
 </head>
 <body class="page-product-category${page?' pcc-rich-page':''}" data-category-key="${esc(key)}">
-<header class="header"><div class="container"><a class="logo" href="/"><img class="logo-img" src="/assets/images/ss-logo223.png" alt="Super Smile"><span class="logo-text"><span class="logo-name">Super<span>Smile</span></span><small class="logo-sub" id="logo-company"></small></span></a><nav class="nav" id="nav-links"></nav><div id="lang-box" style="display:flex;gap:4px"></div><button class="nav-toggle" id="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false"><span class="menu-icon" aria-hidden="true"><span></span><span></span></span></button></div></header>
+<header class="header"><div class="container"><a class="logo" href="/"><img class="logo-img" src="/assets/images/ss-logo223.png" alt="Super Smile"><span class="logo-text"><span class="logo-name">Super<span>Smile</span></span><small class="logo-sub" id="logo-company"></small></span></a>${staticNavigationMarkup(site.nav)}<div id="lang-box" style="display:flex;gap:4px"></div><button class="nav-toggle" id="nav-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false"><span class="menu-icon" aria-hidden="true"><span></span><span></span></span></button></div></header>
 <main class="pcc-main">
   <section class="pcc-hero">
     <nav class="breadcrumb pcc-breadcrumb" aria-label="Breadcrumb"><a id="pcc-home" href="/">Home</a><span class="crumb-sep" aria-hidden="true"></span><a id="pcc-products" href="/products">Products</a><span class="crumb-sep" aria-hidden="true"></span><span id="pcc-group">${esc(groupName)}</span></nav>
@@ -237,7 +239,7 @@ function pageTemplate({key,slug,name,group,image,intro,knowledge,notes,delivery,
   <section class="pcc-closing"><div><span id="pcc-closing-group">${esc(groupName)}</span><h2 id="pcc-closing-title">${esc(name)}</h2></div><a class="btn btn-primary" id="pcc-closing-cta" href="/contact?category=${esc(key)}&category_name=${encodeURIComponent(name)}">Send Your Requirement</a></section>
 </main>
 <footer class="footer"><div class="container"><div><h5>SuperSmile</h5><p id="footer-about" style="font-size:14px"></p></div><div><h5>Contact</h5><div id="f-contact" class="footer-contact"></div></div><div><h5>Links</h5><a href="/">Home</a><a href="/custom">Custom Wiring Harness</a><a href="/products">Products</a><a href="/turbo-actuator-harness">Turbo Actuator Harness</a><a href="/obd2-diagnostic-cable">OBD2 Diagnostic Cable</a><a href="/j1939-cable">J1939 Cable</a><a href="/about">About</a><a href="/contact">Contact</a></div></div><p class="seo-keywords">${esc(name.toLowerCase())} | ${esc(groupName.toLowerCase())} | custom cable manufacturer</p><div class="container bot">© <span id="f-year"></span> <span id="f-company"></span> · All Rights Reserved</div></footer>
-<div class="toast" id="toast"></div><script src="/assets/js/main.js?v=20261006-seo2"></script>
+<div class="toast" id="toast"></div><script src="/assets/js/main.js?v=20261008-gsc1"></script>
 </body>
 </html>`;
 }

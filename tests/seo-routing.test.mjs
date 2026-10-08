@@ -56,37 +56,33 @@ test('product-category footer routes resolve to real extensionless HTML pages', 
   assert.ok(checked > 0, 'no product-category pages were inspected');
 });
 
-test('exact Pages rewrites preserve every virtual route without masking unknown URLs', () => {
+test('all routed series and landing pages have real HTML without homepage rewrites', () => {
   const series = JSON.parse(read('data/product-series.json')).series;
   const seriesRoutes = series.map(item => `/products/${item.slug}`);
   const script = read('assets/js/main.js');
   const landingList = script.match(/if\(\[([^\]]+)\]\.includes\(leaf\)\) return 'page-landing';/)?.[1];
   assert.ok(landingList, 'landing route inventory is missing');
   const landingRoutes = [...landingList.matchAll(/'([^']+)'/g)].map(match => `/${match[1]}`);
-  const missingLandingRoutes = landingRoutes.filter(route => !routeExists(route));
-  const expected = [...seriesRoutes, ...missingLandingRoutes].sort();
   assert.equal(seriesRoutes.length, 5);
-  assert.equal(missingLandingRoutes.length, 8);
-
+  assert.equal(landingRoutes.length, 12);
+  for (const route of [...seriesRoutes, ...landingRoutes]) {
+    assert.ok(routeExists(route), `${route} must resolve to its own HTML page`);
+    const html = read(route.slice(1) + '.html');
+    assert.ok(html.includes(`rel="canonical" href="https://supersmile-tech.com${route}"`), route);
+    assert.match(html, /<main\b/, `${route} must have a renderer host`);
+    assert.match(html, /<h1(?:\s[^>]*)?>[^<]/, `${route} must have an initial visible heading`);
+  }
   const rules = read('_redirects').split(/\r?\n/).map(line => line.trim())
     .filter(line => line && !line.startsWith('#'));
-  const sources = [];
   for (const rule of rules) {
-    const parts = rule.split(/\s+/);
-    assert.equal(parts.length, 3, rule);
-    const [source, destination, status] = parts;
-    // Pages normalizes /index.html to / with a 308, including inside a proxy rule.
-    assert.equal(destination, '/', rule);
-    assert.equal(status, '200', rule);
-    assert.ok(!source.includes('*') && !source.includes(':'), `rewrite must be exact: ${rule}`);
-    assert.equal(routeExists(source), false, `remove rewrite when ${source} gets a real page`);
-    sources.push(source);
+    const [source, destination, status] = rule.split(/\s+/);
+    assert.ok(!source.includes('*') && !source.includes(':'), `redirect must be exact: ${rule}`);
+    assert.equal(status, '301', `remaining rules are permanent alias redirects: ${rule}`);
+    assert.ok(routeExists(destination), `redirect destination must exist: ${rule}`);
+    assert.equal(routeExists(source), false, `do not shadow real page: ${rule}`);
   }
-  assert.deepEqual(sources.sort(), expected);
-  assert.equal(new Set(sources).size, 13);
-  const unknown = '/seo-unknown-path-regression-check';
-  assert.equal(routeExists(unknown), false);
-  assert.equal(sources.includes(unknown), false);
+  assert.equal(routeExists('/seo-unknown-path-regression-check'), false);
+  assert.ok(!rules.some(rule => rule.startsWith('/seo-unknown-path-regression-check ')));
 });
 
 test('all linked SKU and published product-category routes have HTML files', () => {

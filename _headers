@@ -1,0 +1,4 @@
+# Image-source notes remain publicly accessible for attribution, but are not
+# landing pages. The single greedy splat also covers nested asset directories.
+/assets/*.md
+  X-Robots-Tag: noindex, follow

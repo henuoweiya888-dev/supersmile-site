@@ -25,8 +25,8 @@ function divContent(html, id) {
   throw Error(`Unclosed div: ${id}`);
 }
 
-test('manufacturer and OBD landing pages deliver the runtime subject and FAQs in initial HTML', async () => {
-  for (const route of ['/custom-wiring-harness', '/obd2-diagnostic-cable']) {
+test('manufacturer, OBD, turbo and J1939 landing pages deliver the runtime subject and FAQs in initial HTML', async () => {
+  for (const route of ['/custom-wiring-harness', '/obd2-diagnostic-cable', '/turbo-actuator-harness', '/j1939-cable']) {
     const html = await read(route.slice(1) + '.html');
     const { markup, copy } = await captureLanding(route);
     const main = html.match(/<main\b[^>]*>([\s\S]*?)<\/main>/)?.[1];

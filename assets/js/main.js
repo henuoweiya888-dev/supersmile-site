@@ -630,14 +630,29 @@ function syncLanguageUrl(){
 
 async function loadData(){
   if(SITE) return;
+  const categoryKey=window.SS_PRODUCT_CATEGORY?.key;
+  const categoryRequest=typeof categoryKey==='string'&&/^[a-z]+(?:-[a-z]+)*-\d{2}$/.test(categoryKey)
+    ? fetch(`/data/product-category-pages/${categoryKey}.json?v=20261008-category1`).then(r=>{
+      if(!r.ok) throw new Error(`Category data HTTP ${r.status}`);
+      return r.json();
+    }).catch(error=>{console.warn('Category data unavailable; keeping the initial page content.',error);return null;})
+    : Promise.resolve(null);
   const [s,p,series,capabilities,categoryDetails] = await Promise.all([
     fetch('/data/site.json?v=20261006-seo2').then(r=>r.json()),
-    fetch('/data/products.json?v=20260831v7').then(r=>r.json()),
+    fetch('/data/products.json?v=20261008-images1').then(r=>r.json()),
     fetch('/data/product-series.json?v=20260902v1').then(r=>r.json()),
     fetch('/data/product-capabilities.json?v=20260927v9').then(r=>r.json()),
-    fetch('/data/product-category-details.json?v=20260927v54').then(r=>r.json())
+    fetch('/data/product-category-index.json?v=20261008-category1').then(r=>{
+      if(!r.ok) throw new Error(`Category index HTTP ${r.status}`);
+      return r.json();
+    }).catch(()=>fetch('/data/product-category-details.json?v=20260927v54').then(r=>{
+      if(!r.ok) throw new Error(`Category data HTTP ${r.status}`);
+      return r.json();
+    }))
   ]);
   SITE=s; PRODS=p; SERIES=series; CAPABILITIES=capabilities; CATEGORY_DETAILS=categoryDetails;
+  const currentCategory=await categoryRequest;
+  if(currentCategory) CATEGORY_DETAILS[categoryKey]=currentCategory;
   applyEvidenceBoundaries();
   const q=new URLSearchParams(location.search);
   LANG = q.get('lang') || localStorage.getItem('lang') || 'en';
@@ -1718,7 +1733,7 @@ function renderProductCategoryPage(){
   const inputs=$('#pcc-inputs'),review=$('#pcc-review');
   if(inputs) inputs.innerHTML=t(fallback.inputs||[]).map(value=>`<li>${value}</li>`).join('');
   if(review) review.innerHTML=t(fallback.review||[]).map(value=>`<li>${value}</li>`).join('');
-  const richContent=$('#pcc-rich-content');if(richContent&&itemDetail.page) richContent.innerHTML=renderProductCategoryRichMarkup(itemDetail.page,item);
+  const richContent=$('#pcc-rich-content');if(richContent&&itemDetail.page&&!itemDetail.summaryOnly) richContent.innerHTML=renderProductCategoryRichMarkup(itemDetail.page,item);
   const back=$('#pcc-back');if(back) back.textContent=ui.back;
   const cta=$('#pcc-cta');if(cta){cta.textContent=ui.consult;cta.href=`/contact?category=${record.key}&category_name=${encodeURIComponent(item)}`;}
   setText('#pcc-closing-group',group);setText('#pcc-closing-title',item);

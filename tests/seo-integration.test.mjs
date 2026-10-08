@@ -98,11 +98,11 @@ test('deferred policies are available for the actual final render chain after ma
   }
 });
 
-test('all 190 initial manufacturing sections equal runtime EN and preserve route/category/product inquiry context', async () => {
+test('all 203 initial manufacturing sections equal runtime EN and preserve route/category/product inquiry context', async () => {
   const scope = { window: {}, URL, URLSearchParams };
   runInNewContext(policyScript, scope);
   runInNewContext(contextScript, scope);
-  assert.equal(policyData.pages.length, 190);
+  assert.equal(policyData.pages.length, 203);
   for (const page of policyData.pages) {
     const html = await read(htmlPathForRoute(page.route));
     const match = html.match(/<!-- MANUFACTURING CONTEXT START -->\s*([\s\S]*?)\s*<!-- MANUFACTURING CONTEXT END -->/);
