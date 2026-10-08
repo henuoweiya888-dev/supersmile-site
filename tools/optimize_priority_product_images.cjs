@@ -1,7 +1,6 @@
 const fs = require('node:fs/promises');
 const path = require('node:path');
 const { createHash } = require('node:crypto');
-const sharp = require('sharp');
 
 const root = path.resolve(__dirname, '..');
 const sources = ['p081_glass_7.jpg', 'p083_ring_9.jpg'];
@@ -15,7 +14,15 @@ async function htmlFiles(directory) {
   return groups.flat();
 }
 
-(async () => {
+function updateImageReferences(input, manifest, { html = false } = {}) {
+  const replace = text => manifest.reduce((result, item) => result.replaceAll(item.source, item.output), text);
+  // Preserve explicit full-size links and their source mapping. Only displayed
+  // resources and metadata use derivatives; clicking a photo keeps the original.
+  return html ? input.split(/(<a\b[^>]*>)/gi).map(part => /^<a\b/i.test(part) ? part : replace(part)).join('') : replace(input);
+}
+
+async function optimizePriorityProductImages() {
+  const sharp = require('sharp');
   const destination = path.join(root, 'assets/images/products/web');
   await fs.mkdir(destination, { recursive: true });
   const manifest = [];
@@ -36,11 +43,17 @@ async function htmlFiles(directory) {
   const changed = [];
   for (const file of references) {
     const before = await fs.readFile(file, 'utf8');
-    const after = manifest.reduce((text, item) => text.replaceAll(item.source, item.output), before);
+    const after = updateImageReferences(before, manifest, { html: file.endsWith('.html') });
     if (after !== before) {
       await fs.writeFile(file, after);
       changed.push(path.relative(root, file));
     }
   }
-  console.log(JSON.stringify({ images: manifest, changed }, null, 2));
-})().catch(error => { console.error(error); process.exitCode = 1; });
+  return { images: manifest, changed };
+}
+
+module.exports = { updateImageReferences, optimizePriorityProductImages };
+if (require.main === module) {
+  optimizePriorityProductImages().then(result => console.log(JSON.stringify(result, null, 2)))
+    .catch(error => { console.error(error); process.exitCode = 1; });
+}
