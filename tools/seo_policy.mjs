@@ -4,7 +4,7 @@ import { fileURLToPath } from 'node:url';
 import { legacyRouteInventory, captureLegacyRoute } from './legacy_route_content.mjs';
 
 export const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-export const SEO_VERSION = '20261008-gsc1';
+export const SEO_VERSION = '20261009-brand1';
 export const SEO_POLICY_SCRIPT_VERSION = '20261008-routes1';
 
 // Other languages retain the title and topic description produced by main.js.

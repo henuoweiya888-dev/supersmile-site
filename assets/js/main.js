@@ -638,7 +638,7 @@ async function loadData(){
     }).catch(error=>{console.warn('Category data unavailable; keeping the initial page content.',error);return null;})
     : Promise.resolve(null);
   const [s,p,series,capabilities,categoryDetails] = await Promise.all([
-    fetch('/data/site.json?v=20261006-seo2').then(r=>r.json()),
+    fetch('/data/site.json?v=20261009-brand1').then(r=>r.json()),
     fetch('/data/products.json?v=20261008-images1').then(r=>r.json()),
     fetch('/data/product-series.json?v=20260902v1').then(r=>r.json()),
     fetch('/data/product-capabilities.json?v=20260927v9').then(r=>r.json()),
