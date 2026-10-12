@@ -1,6 +1,8 @@
 #about-profile {
   padding-block: 46px 12px;
   color: var(--v2-ink);
+  background: var(--v2-bone);
+  border-block-end: 1px solid var(--v2-line-light);
 }
 
 #about-profile [hidden] { display: none !important; }
@@ -20,12 +22,13 @@
 }
 
 #about-profile .about-profile-copy {
-  max-width: 1000px;
+  max-width: 900px;
   margin-inline: auto;
   color: var(--v2-copy);
 }
 
 #about-profile .about-profile-copy p {
+  max-width: none;
   margin: 0 0 1em;
   font-size: 17px;
   line-height: 1.8;
