@@ -4,7 +4,8 @@
     const requested = new URLSearchParams(location.search).get('lang');
     let stored = '';
     try { stored = localStorage.getItem('lang') || ''; } catch {}
-    return String(requested || stored || document.documentElement.lang || 'en').toLowerCase().split('-')[0];
+    const selected = String(requested || stored || document.documentElement.lang || 'en').toLowerCase().split('-')[0];
+    return selected === 'zh' ? 'zh' : 'en';
   }
 const host=document.getElementById('pcc-rich-content');if(!host)return;const base='/assets/images/product-categories/stock/fine-pitch/',esc=v=>String(v||'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[c]));
 const captions={pitch:['微型板端接口展示紧凑几何与焊盘空间，而非具体项目选型。','A miniature board connector illustrates compact geometry, not a project selection.'],families:['板端电缆展示接口体系与设备集成关系。','A board cable illustrates the relationship between interface system and equipment integration.'],orientation:['卧式微型接口展示锁扣与出线空间的重要性。','A right-angle micro connector shows why latch and cable-exit space matter.'],'wire-prep':['剥线工具用于说明刀口、长度与伤丝必须受控。','A stripping tool illustrates control of blade, length and strand damage.'],crimp:['微型端子压接工具展示定位与模具组合。','A micro-terminal crimper illustrates locator and die control.'],contact:['端子宏观照片用于说明压接几何，而非本页指定触点。','A terminal macro illustrates crimp geometry, not the specified contact.'],housing:['宏观接口照片提示小尺寸结构需要放大检查。','A connector macro shows why small geometry benefits from magnified inspection.'],routing:['PCB 连接区域展示出线、空间与装配顺序之间的关系。','A PCB connection area shows cable exit, space and assembly sequence.'],inspection:['显微检验场景说明微小缺陷需要被看见并记录。','Microscope inspection shows why small defects must be made visible and recorded.']};

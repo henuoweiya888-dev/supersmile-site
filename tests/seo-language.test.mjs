@@ -33,7 +33,7 @@ test('ordinary links stay clean while language switch retains inquiry parameters
   const script = read('assets/js/main.js');
   assert.doesNotMatch(script, /routeWithLang|localizeInternalLinks/);
   assert.match(script, /btn\.href='\/contact\?products='\+encodeURIComponent\(pid\)/);
-  assert.match(script, /q\.get\('lang'\) \|\| localStorage\.getItem\('lang'\)/);
+  assert.match(script, /q\.get\('lang'\) \|\| storedLanguage/);
   assert.match(script, /localStorage\.setItem\('lang', LANG\)/);
 
   const functionSource = script.match(/function syncLanguageUrl\(\)\{[\s\S]*?\n\}/)?.[0];

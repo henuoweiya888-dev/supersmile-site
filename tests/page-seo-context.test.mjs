@@ -51,12 +51,12 @@ test('all 203 static contexts agree with runtime data, preserve gallery and are 
   }
 });
 
-test('all twenty languages contain localized business and starting requirements without an English fallback', () => {
+test('English and Chinese retain their business and starting requirements', () => {
   const en = context.render({ path: '/contact', lang: 'en', procurementContext: businessContext.en });
   const enStart = en.match(/<h3>([\s\S]*?)<\/h3>/)[1];
   const enIntro = en.match(/<h3>[\s\S]*?<\/h3><p>([\s\S]*?)<\/p>/)[1];
   const enInputs = en.match(/<details>[\s\S]*?<p>([\s\S]*?)<\/p>/)[1];
-  assert.equal(Object.keys(businessContext).length, 20);
+  assert.deepEqual(Object.keys(businessContext), ['en', 'zh']);
   for (const [lang, procurementContext] of Object.entries(businessContext)) {
     const html = context.render({ path: '/contact', lang, procurementContext });
     assert.ok(text(html).includes(procurementContext), lang);
@@ -73,6 +73,24 @@ test('all twenty languages contain localized business and starting requirements 
       assert.notEqual(inputs, enInputs, `${lang} quotation requirements`);
     }
     assert.equal(quoteUrl(html).searchParams.get('source_page'), '/contact');
+  }
+});
+
+test('removed languages do not render or replace the manufacturing context', () => {
+  const current = { outerHTML: 'Existing context' };
+  let inserted = '';
+  const document = {
+    getElementById() { return current; },
+    querySelector() { return { insertAdjacentHTML(position, markup) { inserted = markup; } }; }
+  };
+  const local = { window: { document }, URLSearchParams };
+  runInNewContext(script, local);
+  for (const lang of ['hi', 'es', 'fr', 'ar', 'bn', 'pt', 'ru', 'ur', 'id', 'de', 'ja', 'tr', 'vi', 'ko', 'it', 'nl', 'pl', 'th', 'xx']) {
+    const options = { path: '/contact', lang, procurementContext: 'Removed translation' };
+    assert.equal(context.render(options), '', lang);
+    local.window.SS_MANUFACTURING_CONTEXT.apply(options);
+    assert.equal(current.outerHTML, 'Existing context', lang);
+    assert.equal(inserted, '', lang);
   }
 });
 

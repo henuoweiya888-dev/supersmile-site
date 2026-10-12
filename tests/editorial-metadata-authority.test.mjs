@@ -28,17 +28,22 @@ test('independent page scripts cannot overwrite the shared metadata or global do
   }
 });
 
-test('every repaired editorial language selector honors query, storage and document with English default', async () => {
+test('every editorial language selector keeps Chinese and English and retires other languages', async () => {
   const cases = [
     { query: '', stored: '', document: '', expected: 'en' },
     { query: '?lang=zh', stored: 'de', document: 'en', expected: 'zh' },
-    { query: '?lang=de', stored: 'zh', document: 'zh', expected: 'de' },
+    { query: '?lang=de', stored: 'zh', document: 'zh', expected: 'en' },
     { query: '?lang=en', stored: 'zh', document: 'zh', expected: 'en' },
     { query: '', stored: 'zh', document: 'en', expected: 'zh' },
-    { query: '', stored: 'fr', document: 'zh', expected: 'fr' },
+    { query: '', stored: 'fr', document: 'zh', expected: 'en' },
     { query: '', stored: '', document: 'zh-CN', expected: 'zh' },
-    { query: '', stored: '', document: 'ja', expected: 'ja' },
-    { query: '', stored: '', document: '', deniedStorage: true, expected: 'en' }
+    { query: '', stored: '', document: 'ja', expected: 'en' },
+    { query: '', stored: '', document: '', deniedStorage: true, expected: 'en' },
+    ...['hi', 'es', 'fr', 'ar', 'bn', 'pt', 'ru', 'ur', 'id', 'de', 'ja', 'tr', 'vi', 'ko', 'it', 'nl', 'pl', 'th'].flatMap(language => [
+      { query: `?lang=${language}`, stored: 'zh', document: 'zh', expected: 'en' },
+      { query: '', stored: language, document: 'zh', expected: 'en' },
+      { query: '', stored: '', document: language, expected: 'en' },
+    ]),
   ];
   assert.equal(changedNames.length, 22);
   for (const name of changedNames) {

@@ -3,7 +3,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import test from 'node:test';
 import { runInNewContext } from 'node:vm';
-import { buildSeoPolicy, businessContext, createRuntimePolicy, htmlPathForRoute, root, SEO_VERSION, serializeRuntime, sitemapRoutes, withSeoPolicy } from '../tools/seo_policy.mjs';
+import { buildSeoPolicy, businessContext, createRuntimePolicy, htmlPathForRoute, root, MAIN_SCRIPT_VERSION, serializeRuntime, sitemapRoutes, withSeoPolicy } from '../tools/seo_policy.mjs';
 
 const policy = await buildSeoPolicy();
 const runtime = createRuntimePolicy(policy);
@@ -87,20 +87,16 @@ test('generated synchronous browser module updates the final metadata without ch
   assert.match(document.title, /^Molex-Compatible/);
 });
 
-test('all eighteen other languages preserve their existing topic and append only localized context', () => {
-  for (const lang of Object.keys(businessContext).filter(code => !['en', 'zh'].includes(code))) {
-    const title = `Topic in ${lang} | Brand`;
-    const description = `Existing translated description (${lang}).`;
-    const result = runtime.resolve({ path: '/products/equipment-wire', LANG: lang, title, description });
-    assert.equal(result.title, title, lang);
-    assert.equal(result.description, `${description} ${businessContext[lang]}`, lang);
-    assert.doesNotMatch(result.description, /Custom wire harness manufacturing from our China factory/, lang);
-    assert.equal(runtime.resolve({ path: '/products/equipment-wire', lang, title, description: result.description }).description, result.description, `${lang} repeated render`);
-    assert.equal(runtime.resolve({ path: '/products/equipment-wire', lang }), null, `${lang} requires an existing translation`);
+test('only English and Chinese are supported and removed languages do not update metadata', () => {
+  assert.deepEqual(Object.keys(businessContext), ['en', 'zh']);
+  for (const lang of ['hi', 'es', 'fr', 'ar', 'bn', 'pt', 'ru', 'ur', 'id', 'de', 'ja', 'tr', 'vi', 'ko', 'it', 'nl', 'pl', 'th', 'xx']) {
+    const options = { path: '/products/equipment-wire', lang, title: 'Existing title', description: 'Existing translated description' };
+    assert.equal(runtime.resolve(options), null, lang);
+    const { document, elements } = mockDocument();
+    assert.equal(runtime.apply({ ...options, document }), null, lang);
+    assert.equal(document.title, 'Existing title', lang);
+    assert.equal(elements.get('meta[name="description"]').content, 'Existing topic description', lang);
   }
-  assert.equal(runtime.resolve({ path: '/contact', lang: 'xx', title: 'Old title', description: 'Old description' }), null);
-  const de = runtime.resolve({ path: '/contact', lang: 'de', title: 'Kontakt', description: `Kontaktbeschreibung. ${businessContext.fr}` });
-  assert.equal(de.description, `Kontaktbeschreibung. ${businessContext.de}`);
 });
 
 test('all 203 static transforms preserve content, canonicals, links and schema and load policy before main', async () => {
@@ -117,7 +113,7 @@ test('all 203 static transforms preserve content, canonicals, links and schema a
     assert.equal(withSeoPolicy(result, page.route, policy), result, `${page.route} idempotence`);
     assert.equal((result.match(/src="\/assets\/js\/seo-policy\.js/g) || []).length, 1, page.route);
     assert.ok(result.indexOf('/assets/js/seo-policy.js') < result.indexOf('/assets/js/main.js'), page.route);
-    assert.ok(result.includes(`/assets/js/main.js?v=${SEO_VERSION}`), page.route);
+    assert.ok(result.includes(`/assets/js/main.js?v=${MAIN_SCRIPT_VERSION}`), page.route);
     const main = html.match(/<main\b[\s\S]*?<\/main>/i)?.[0];
     if (main) assert.ok(result.includes(main), `${page.route} original main body`);
   }

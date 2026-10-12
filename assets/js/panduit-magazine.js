@@ -4,7 +4,8 @@
     const requested = new URLSearchParams(location.search).get('lang');
     let stored = '';
     try { stored = localStorage.getItem('lang') || ''; } catch {}
-    return String(requested || stored || document.documentElement.lang || 'en').toLowerCase().split('-')[0];
+    const selected = String(requested || stored || document.documentElement.lang || 'en').toLowerCase().split('-')[0];
+    return selected === 'zh' ? 'zh' : 'en';
   }
 
   const host = document.getElementById('pcc-rich-content');

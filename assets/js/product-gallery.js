@@ -15,26 +15,8 @@
   const copy = {
     en: ['Popular Product Photos', 'Previous product photographs', 'Next product photographs', 'Product photographs, scroll horizontally', 'Close photograph', 'View photograph: '],
     zh: ['热门产品实拍', '上一组产品图片', '下一组产品图片', '产品实物图片，可左右滚动', '关闭大图', '查看大图：'],
-    hi: ['लोकप्रिय उत्पादों की तस्वीरें', 'पिछली तस्वीरें', 'अगली तस्वीरें', 'उत्पादों की तस्वीरें', 'तस्वीर बंद करें', 'तस्वीर देखें: '],
-    es: ['Fotos de productos populares', 'Fotos anteriores', 'Fotos siguientes', 'Fotos de productos, desplazar horizontalmente', 'Cerrar fotografía', 'Ver fotografía: '],
-    fr: ['Photos de produits populaires', 'Photos précédentes', 'Photos suivantes', 'Photos de produits, défilement horizontal', 'Fermer la photo', 'Voir la photo : '],
-    ar: ['صور المنتجات الشائعة', 'الصور السابقة', 'الصور التالية', 'صور المنتجات، تمرير أفقي', 'إغلاق الصورة', 'عرض الصورة: '],
-    bn: ['জনপ্রিয় পণ্যের ছবি', 'আগের ছবি', 'পরের ছবি', 'পণ্যের ছবি', 'ছবি বন্ধ করুন', 'ছবি দেখুন: '],
-    pt: ['Fotos de produtos populares', 'Fotos anteriores', 'Fotos seguintes', 'Fotos de produtos, rolagem horizontal', 'Fechar foto', 'Ver foto: '],
-    ru: ['Фото популярных изделий', 'Предыдущие фотографии', 'Следующие фотографии', 'Фотографии изделий, горизонтальная прокрутка', 'Закрыть фотографию', 'Посмотреть фотографию: '],
-    ur: ['مقبول مصنوعات کی تصاویر', 'پچھلی تصاویر', 'اگلی تصاویر', 'مصنوعات کی تصاویر', 'تصویر بند کریں', 'تصویر دیکھیں: '],
-    id: ['Foto Produk Populer', 'Foto sebelumnya', 'Foto berikutnya', 'Foto produk, gulir horizontal', 'Tutup foto', 'Lihat foto: '],
-    de: ['Fotos beliebter Produkte', 'Vorherige Produktfotos', 'Nächste Produktfotos', 'Produktfotos, horizontal scrollen', 'Foto schließen', 'Foto ansehen: '],
-    ja: ['人気製品の実物写真', '前の製品写真', '次の製品写真', '製品写真、横方向にスクロール', '写真を閉じる', '写真を見る：'],
-    tr: ['Popüler Ürün Fotoğrafları', 'Önceki fotoğraflar', 'Sonraki fotoğraflar', 'Ürün fotoğrafları, yatay kaydırın', 'Fotoğrafı kapat', 'Fotoğrafı görüntüle: '],
-    vi: ['Ảnh sản phẩm nổi bật', 'Ảnh trước', 'Ảnh tiếp theo', 'Ảnh sản phẩm, cuộn ngang', 'Đóng ảnh', 'Xem ảnh: '],
-    ko: ['인기 제품 실물 사진', '이전 제품 사진', '다음 제품 사진', '제품 사진, 가로 스크롤', '사진 닫기', '사진 보기: '],
-    it: ['Foto dei prodotti più richiesti', 'Foto precedenti', 'Foto successive', 'Foto dei prodotti, scorrimento orizzontale', 'Chiudi foto', 'Visualizza foto: '],
-    nl: ['Foto’s van populaire producten', 'Vorige productfoto’s', 'Volgende productfoto’s', 'Productfoto’s, horizontaal scrollen', 'Foto sluiten', 'Foto bekijken: '],
-    pl: ['Zdjęcia popularnych produktów', 'Poprzednie zdjęcia', 'Następne zdjęcia', 'Zdjęcia produktów, przewijanie poziome', 'Zamknij zdjęcie', 'Zobacz zdjęcie: '],
-    th: ['ภาพถ่ายสินค้ายอดนิยม', 'ภาพก่อนหน้า', 'ภาพถัดไป', 'ภาพสินค้า เลื่อนแนวนอน', 'ปิดภาพ', 'ดูภาพ: ']
   };
-  const language = () => (new URLSearchParams(location.search).get('lang') || document.documentElement.lang).toLowerCase().split('-')[0];
+  const language = () => String(new URLSearchParams(location.search).get('lang') || document.documentElement.lang || 'en').toLowerCase().split('-')[0] === 'zh' ? 'zh' : 'en';
   const chinese = () => language() === 'zh';
   const rtl = () => getComputedStyle(track).direction === 'rtl';
   function setDialogTitle(item) {

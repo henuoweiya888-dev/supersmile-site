@@ -3,7 +3,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import test from 'node:test';
 import { runInNewContext } from 'node:vm';
-import { buildSeoPolicy, createRuntimePolicy, root, SEO_POLICY_SCRIPT_VERSION, SEO_VERSION, withSeoPolicy } from '../tools/seo_policy.mjs';
+import { buildSeoPolicy, createRuntimePolicy, root, MAIN_SCRIPT_VERSION, SEO_POLICY_SCRIPT_VERSION, SEO_VERSION, withSeoPolicy } from '../tools/seo_policy.mjs';
 
 const data = await buildSeoPolicy();
 const route = '/products/molex-compatible';
@@ -72,7 +72,7 @@ test('known public page restores late chat title mutations once and leaves chat 
   assert.equal(dom.metas.get('meta[property="og:title"]').content, result.title);
 });
 
-test('pending mutations and EN/ZH/other-language transitions use the latest authoritative title', () => {
+test('pending mutations and EN/ZH transitions use the latest authoritative title', () => {
   const policy = createRuntimePolicy(data);
   const dom = titleDom();
   const en = policy.apply({ document: dom.document, path: route, lang: 'en' });
@@ -85,10 +85,6 @@ test('pending mutations and EN/ZH/other-language transitions use the latest auth
   dom.document.title = '2 new messages';
   dom.flush();
   assert.equal(dom.document.title, zh.title);
-  const de = policy.apply({ document: dom.document, path: route, lang: 'de', title: 'Molex-kompatible Kabelbäume | OEM/ODM', description: 'Projektbezogene Kabelbaumfertigung.' });
-  dom.document.title = '1 neue Nachricht';
-  dom.flush();
-  assert.equal(dom.document.title, de.title);
   policy.apply({ document: dom.document, path: route, lang: 'en' });
   dom.flush();
   assert.equal(dom.document.title, en.title);
@@ -129,18 +125,36 @@ test('unknown routes remain untouched and release any previous title authority',
   assert.equal(dom.document.title, 'Not Found');
 });
 
-test('normalized foreign titles cannot create observer loops and only the policy script version changes', () => {
+test('unsupported languages release title authority and leave existing titles untouched', () => {
   const policy = createRuntimePolicy(data);
+  for (const lang of ['hi', 'es', 'fr', 'ar', 'bn', 'pt', 'ru', 'ur', 'id', 'de', 'ja', 'tr', 'vi', 'ko', 'it', 'nl', 'pl', 'th', 'xx']) {
+    const dom = titleDom();
+    policy.apply({ document: dom.document, path: route, lang: 'en' });
+    dom.flush();
+    const previous = dom.observers[0];
+    assert.equal(policy.apply({ document: dom.document, path: route, lang, title: 'Existing translated title', description: 'Existing translated description' }), null, lang);
+    assert.equal(previous.active, false, lang);
+    dom.document.title = 'Existing translated title';
+    previous.callback([]);
+    dom.flush();
+    assert.equal(dom.document.title, 'Existing translated title', lang);
+  }
+});
+
+test('normalized supported titles cannot create observer loops and static transforms use the correct script versions', () => {
+  const normalizedData = { ...data, pages: data.pages.map(page => page.route === route ? { ...page, title: { ...page.title, en: 'Molex  Compatible\n| OEM/ODM' } } : page) };
+  const policy = createRuntimePolicy(normalizedData);
   const dom = titleDom();
-  policy.apply({ document: dom.document, path: route, lang: 'de', title: 'Molex  Kabelbäume\n| OEM/ODM', description: 'Details zum Projekt.' });
+  policy.apply({ document: dom.document, path: route, lang: 'en' });
   dom.flush();
-  assert.equal(dom.document.title, 'Molex Kabelbäume | OEM/ODM');
-  dom.document.title = 'Nachricht';
+  assert.equal(dom.document.title, 'Molex Compatible | OEM/ODM');
+  dom.document.title = 'New message';
   dom.flush();
-  assert.equal(dom.document.title, 'Molex Kabelbäume | OEM/ODM');
+  assert.equal(dom.document.title, 'Molex Compatible | OEM/ODM');
   const source = '<html><head><title>Old</title></head><body><main>Product body</main><script src="/assets/js/main.js?v=old"></script></body></html>';
   const transformed = withSeoPolicy(source, route, data);
+  assert.equal(SEO_VERSION, '20261009-brand1', 'the original content resource version is unchanged');
   assert.ok(transformed.includes(`/assets/js/seo-policy.js?v=${SEO_POLICY_SCRIPT_VERSION}`));
-  assert.ok(transformed.includes(`/assets/js/main.js?v=${SEO_VERSION}`));
+  assert.ok(transformed.includes(`/assets/js/main.js?v=${MAIN_SCRIPT_VERSION}`));
   assert.ok(transformed.includes('<main>Product body</main>'));
 });

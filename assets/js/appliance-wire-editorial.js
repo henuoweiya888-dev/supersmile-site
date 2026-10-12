@@ -4,7 +4,8 @@
     const requested = new URLSearchParams(location.search).get('lang');
     let stored = '';
     try { stored = localStorage.getItem('lang') || ''; } catch {}
-    return String(requested || stored || document.documentElement.lang || 'en').toLowerCase().split('-')[0];
+    const selected = String(requested || stored || document.documentElement.lang || 'en').toLowerCase().split('-')[0];
+    return selected === 'zh' ? 'zh' : 'en';
   }
 const host=document.getElementById('awc-content');if(!host)return;const root='/assets/images/product-categories/stock/appliance-wire/';const files={'scope-map':'supply-cord.jpg','awm-style':'hot-appliance.jpg','thermal-zone':'thermal-zone.jpg','conductor-load':'motor-flex.jpg','moisture-chemicals':'environment-service.jpg','motion-service':'strain-relief.jpg','entry-termination':'termination.jpg','validation':'validation.jpg'};const caps={
 'scope-map':['带电源软线的蒸汽熨斗用于说明设备边界与内部配线属于不同工程范围。','A corded steam iron illustrates the boundary between a supply cord and internal wiring.'],

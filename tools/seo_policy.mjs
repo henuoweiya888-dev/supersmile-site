@@ -5,31 +5,12 @@ import { legacyRouteInventory, captureLegacyRoute } from './legacy_route_content
 
 export const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 export const SEO_VERSION = '20261009-brand1';
+export const MAIN_SCRIPT_VERSION = '20261012-bilingual1';
 export const SEO_POLICY_SCRIPT_VERSION = '20261008-routes1';
 
-// Other languages retain the title and topic description produced by main.js.
-// These short translations add business context without replacing that copy.
 export const businessContext = {
   en: 'Custom wire harness manufacturing from our China factory, with OEM/ODM project support.',
-  zh: '中国工厂提供定制线束制造与 OEM/ODM 项目支持。',
-  hi: 'चीन में हमारी फैक्टरी OEM/ODM परियोजनाओं के लिए कस्टम वायर हार्नेस बनाती है।',
-  es: 'Nuestra fábrica en China fabrica arneses de cables a medida para proyectos OEM/ODM.',
-  fr: 'Notre usine en Chine fabrique des faisceaux de câbles sur mesure pour les projets OEM/ODM.',
-  ar: 'يصنع مصنعنا في الصين ضفائر أسلاك مخصصة لمشاريع OEM/ODM.',
-  bn: 'চীনে আমাদের কারখানা OEM/ODM প্রকল্পের জন্য কাস্টম তারের হারনেস তৈরি করে।',
-  pt: 'Nossa fábrica na China produz chicotes elétricos personalizados para projetos OEM/ODM.',
-  ru: 'Наш завод в Китае производит заказные жгуты проводов для проектов OEM/ODM.',
-  ur: 'چین میں ہماری فیکٹری OEM/ODM منصوبوں کے لیے حسب ضرورت وائر ہارنس تیار کرتی ہے۔',
-  id: 'Pabrik kami di Tiongkok memproduksi wire harness khusus untuk proyek OEM/ODM.',
-  de: 'Unsere Fabrik in China fertigt kundenspezifische Kabelbäume für OEM/ODM-Projekte.',
-  ja: '中国の当社工場で、OEM/ODMプロジェクト向けのカスタムワイヤーハーネスを製造します。',
-  tr: 'Çin’deki fabrikamız OEM/ODM projeleri için özel kablo demetleri üretir.',
-  vi: 'Nhà máy của chúng tôi tại Trung Quốc sản xuất bộ dây điện tùy chỉnh cho dự án OEM/ODM.',
-  ko: '중국의 당사 공장에서 OEM/ODM 프로젝트용 맞춤형 와이어 하네스를 제조합니다.',
-  it: 'La nostra fabbrica in Cina produce cablaggi su misura per progetti OEM/ODM.',
-  nl: 'Onze fabriek in China produceert kabelbomen op maat voor OEM/ODM-projecten.',
-  pl: 'Nasza fabryka w Chinach produkuje wiązki przewodów na zamówienie dla projektów OEM/ODM.',
-  th: 'โรงงานของเราในจีนผลิตชุดสายไฟตามสั่งสำหรับโครงการ OEM/ODM'
+  zh: '中国工厂提供定制线束制造与 OEM/ODM 项目支持。'
 };
 
 const corePages = {
@@ -237,18 +218,8 @@ export function createRuntimePolicy(data) {
     const route = normalizeRoute(options.path ?? options.pathname ?? globalThis.location?.pathname ?? '/');
     const page = routes.get(route);
     const lang = String(options.lang ?? options.LANG ?? 'en').toLowerCase();
-    if (!page || !data.businessContext[lang]) return null;
-    if (lang === 'en' || lang === 'zh') {
-      return { route, lang, topic: page.topic[lang], title: page.title[lang], description: page.description[lang], procurementContext: data.businessContext[lang] };
-    }
-    // A translated topic must already exist; never silently replace it with English.
-    const title = String(options.title || '').trim();
-    let description = String(options.description || '').trim();
-    if (!title || !description) return null;
-    for (const tail of Object.values(data.businessContext)) {
-      if (description.endsWith(tail)) description = description.slice(0, -tail.length).trim();
-    }
-    return { route, lang, topic: null, title, description: `${description} ${data.businessContext[lang]}`.trim(), procurementContext: data.businessContext[lang] };
+    if (!page || !['en', 'zh'].includes(lang)) return null;
+    return { route, lang, topic: page.topic[lang], title: page.title[lang], description: page.description[lang], procurementContext: data.businessContext[lang] };
   };
   const apply = (options = {}) => {
     const document = options.document ?? globalThis.document;
@@ -309,7 +280,7 @@ export function withSeoPolicy(html, route, policy, { lang = 'en', scripts = true
     output = output.replace(/<script\b[^>]*\bsrc=["']\/assets\/js\/main\.js(?:\?[^"']*)?["'][^>]*>\s*<\/script>/gi, tag => {
       if (foundMain) throw new Error(`Duplicate main.js script on ${route}`);
       foundMain = true;
-      const mainTag = tag.replace(/(\bsrc=["'])\/assets\/js\/main\.js(?:\?[^"']*)?(["'])/i, `$1/assets/js/main.js?v=${SEO_VERSION}$2`);
+      const mainTag = tag.replace(/(\bsrc=["'])\/assets\/js\/main\.js(?:\?[^"']*)?(["'])/i, `$1/assets/js/main.js?v=${MAIN_SCRIPT_VERSION}$2`);
       return `<script defer src="/assets/js/seo-policy.js?v=${SEO_POLICY_SCRIPT_VERSION}"></script>\n${mainTag}`;
     });
     if (!foundMain) throw new Error(`No main.js script on public page ${route}`);

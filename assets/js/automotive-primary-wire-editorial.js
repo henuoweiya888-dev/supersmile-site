@@ -4,7 +4,8 @@
     const requested = new URLSearchParams(location.search).get('lang');
     let stored = '';
     try { stored = localStorage.getItem('lang') || ''; } catch {}
-    return String(requested || stored || document.documentElement.lang || 'en').toLowerCase().split('-')[0];
+    const selected = String(requested || stored || document.documentElement.lang || 'en').toLowerCase().split('-')[0];
+    return selected === 'zh' ? 'zh' : 'en';
   }
 const host=document.getElementById('apw-content');if(!host)return;const root='/assets/images/product-categories/stock/automotive-primary-wire/';const files={'standard-family':'routing-package.jpg','conductor-drop':'copper-conductor.jpg','thin-wall-package':'thin-wall-package.jpg','thermal-zone':'thermal-zone.jpg','fluid-abrasion':'abrasion-fluid.jpg','colour-marking':'current-load.jpg','termination':'termination.jpg','validation':'validation.jpg'};const caps={
 'standard-family':['发动机舱布线展示线缆规范必须落到具体车辆回路与安装位置。','Engine-bay routing shows why a cable specification must be applied to a specific vehicle circuit and location.'],

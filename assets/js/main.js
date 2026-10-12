@@ -1,16 +1,7 @@
-/* Super Smile site - 20 languages */
+/* Super Smile site - English and Chinese */
 let SITE = null, PRODS = null, SERIES = null, CAPABILITIES = null, CATEGORY_DETAILS = null, LANG = 'en';
 const LANGS = [
-  {code:'en',name:'English',flag:'gb'},{code:'zh',name:'中文',flag:'cn'},
-  {code:'hi',name:'हिन्दी',flag:'in'},{code:'es',name:'Español',flag:'es'},
-  {code:'fr',name:'Français',flag:'fr'},{code:'ar',name:'العربية',flag:'sa'},
-  {code:'bn',name:'বাংলা',flag:'bd'},{code:'pt',name:'Português',flag:'pt'},
-  {code:'ru',name:'Русский',flag:'ru'},{code:'ur',name:'اردو',flag:'pk'},
-  {code:'id',name:'Indonesia',flag:'id'},{code:'de',name:'Deutsch',flag:'de'},
-  {code:'ja',name:'日本語',flag:'jp'},{code:'tr',name:'Türkçe',flag:'tr'},
-  {code:'vi',name:'Tiếng Việt',flag:'vn'},{code:'ko',name:'한국어',flag:'kr'},
-  {code:'it',name:'Italiano',flag:'it'},{code:'nl',name:'Nederlands',flag:'nl'},
-  {code:'pl',name:'Polski',flag:'pl'},{code:'th',name:'ไทย',flag:'th'}
+  {code:'en',name:'EN'},{code:'zh',name:'中文'}
 ];
 
 
@@ -23,72 +14,17 @@ const HOT = {
 const UI = {
   en:{title:'Send Us a Message',name:'Name',firstName:'First name',lastName:'Last name',email:'Email',message:'Message',send:'Send Message',wa:'Chat on WhatsApp'},
   zh:{title:'给我们留言',name:'姓名',firstName:'名',lastName:'姓',email:'邮箱',message:'留言内容',send:'发送消息',wa:'在 WhatsApp 上聊'},
-  hi:{title:'हमें संदेश भेजें',name:'नाम',firstName:'प्रथम नाम',lastName:'उपनाम',email:'ईमेल',message:'संदेश',send:'संदेश भेजें',wa:'WhatsApp पर चैट करें'},
-  es:{title:'Envíenos un mensaje',name:'Nombre',firstName:'Nombre',lastName:'Apellidos',email:'Correo electrónico',message:'Mensaje',send:'Enviar mensaje',wa:'Chatear por WhatsApp'},
-  fr:{title:'Envoyez-nous un message',name:'Nom',firstName:'Prénom',lastName:'Nom',email:'E-mail',message:'Message',send:'Envoyer le message',wa:'Discuter sur WhatsApp'},
-  ar:{title:'أرسل لنا رسالة',name:'الاسم',firstName:'الاسم الأول',lastName:'اسم العائلة',email:'البريد الإلكتروني',message:'الرسالة',send:'إرسال الرسالة',wa:'الدردشة عبر واتساب'},
-  bn:{title:'আমাদের মেসেজ পাঠান',name:'নাম',firstName:'নাম',lastName:'পদবি',email:'ইমেইল',message:'মেসেজ',send:'মেসেজ পাঠান',wa:'WhatsApp-এ চ্যাট করুন'},
-  pt:{title:'Envie-nos uma mensagem',name:'Nome',firstName:'Nome',lastName:'Sobrenome',email:'E-mail',message:'Mensagem',send:'Enviar mensagem',wa:'Conversar no WhatsApp'},
-  ru:{title:'Напишите нам',name:'Имя',firstName:'Имя',lastName:'Фамилия',email:'Email',message:'Сообщение',send:'Отправить сообщение',wa:'Написать в WhatsApp'},
-  ur:{title:'ہمیں پیغام بھیجیں',name:'نام',firstName:'پہلا نام',lastName:'خاندانی نام',email:'ای میل',message:'پیغام',send:'پیغام بھیجیں',wa:'WhatsApp پر چیٹ کریں'},
-  id:{title:'Kirim Pesan kepada Kami',name:'Nama',firstName:'Nama depan',lastName:'Nama belakang',email:'Email',message:'Pesan',send:'Kirim Pesan',wa:'Chat via WhatsApp'},
-  de:{title:'Nachricht senden',name:'Name',firstName:'Vorname',lastName:'Nachname',email:'E-Mail',message:'Nachricht',send:'Nachricht senden',wa:'Auf WhatsApp chatten'},
-  ja:{title:'メッセージを送る',name:'名前',firstName:'名',lastName:'姓',email:'メール',message:'メッセージ',send:'送信する',wa:'WhatsAppでチャット'},
-  tr:{title:'Bize Mesaj Gönderin',name:'Ad',firstName:'Ad',lastName:'Soyad',email:'E-posta',message:'Mesaj',send:'Mesaj Gönder',wa:"WhatsApp'ta Sohbet Et"},
-  vi:{title:'Gửi tin nhắn cho chúng tôi',name:'Tên',firstName:'Tên',lastName:'Họ',email:'Email',message:'Tin nhắn',send:'Gửi tin nhắn',wa:'Trò chuyện trên WhatsApp'},
-  ko:{title:'메시지 보내기',name:'이름',firstName:'이름',lastName:'성',email:'이메일',message:'메시지',send:'메시지 보내기',wa:'WhatsApp으로 채팅'},
-  it:{title:'Inviaci un messaggio',name:'Nome',firstName:'Nome',lastName:'Cognome',email:'Email',message:'Messaggio',send:'Invia messaggio',wa:'Chatta su WhatsApp'},
-  nl:{title:'Stuur ons een bericht',name:'Naam',firstName:'Voornaam',lastName:'Achternaam',email:'E-mail',message:'Bericht',send:'Bericht versturen',wa:'Chatten op WhatsApp'},
-  pl:{title:'Wyślij nam wiadomość',name:'Imię',firstName:'Imię',lastName:'Nazwisko',email:'E-mail',message:'Wiadomość',send:'Wyślij wiadomość',wa:'Czatuj na WhatsApp'},
-  th:{title:'ส่งข้อความถึงเรา',name:'ชื่อ',firstName:'ชื่อ',lastName:'นามสกุล',email:'อีเมล',message:'ข้อความ',send:'ส่งข้อความ',wa:'แชทบน WhatsApp'}
 };
 
-// Direct inquiry submission copy. Keep all twenty site languages usable
-// even when the optional external translation service is unavailable.
+// Direct inquiry submission copy for English and Chinese.
 const CONTACT_DIRECT_KEYS = ['uploadLabel','choose','none','hint','remove','tooMany','tooLarge','unsupported','verify','sending','success','failure','emailMode'];
 const CONTACT_DIRECT_ROWS = {
   en:['Attach files (optional)','Choose files','No files selected','Up to 3 files, 3 MB total. PDF, images, documents, ZIP or CAD.','Remove','Choose no more than 3 files.','Files may total no more than 3 MB.','This file type is not supported.','Complete the security check.','Sending your request…','Your request was sent. We will reply by email.','We could not confirm delivery. Your details are still here.','Continue in email'],
   zh:['添加文件（可选）','选择文件','未选择文件','最多 3 个文件，总计不超过 3 MB。支持 PDF、图片、文档、ZIP 或 CAD。','移除','最多选择 3 个文件。','文件总大小不能超过 3 MB。','不支持此文件类型。','请完成安全验证。','正在发送询盘…','询盘已发送，我们会通过邮件回复。','暂时无法确认是否发送成功，您填写的内容仍保留在页面上。','前往邮箱继续'],
-  hi:['फ़ाइलें जोड़ें (वैकल्पिक)','फ़ाइलें चुनें','कोई फ़ाइल नहीं चुनी गई','अधिकतम 3 फ़ाइलें, कुल 3 MB। PDF, चित्र, दस्तावेज़, ZIP या CAD।','हटाएँ','अधिकतम 3 फ़ाइलें चुनें।','फ़ाइलों का कुल आकार 3 MB से अधिक नहीं हो सकता।','यह फ़ाइल प्रकार समर्थित नहीं है।','सुरक्षा जाँच पूरी करें।','आपका अनुरोध भेजा जा रहा है…','आपका अनुरोध भेज दिया गया है। हम ईमेल से उत्तर देंगे।','भेजे जाने की पुष्टि नहीं हो सकी। आपकी जानकारी यहीं बनी हुई है।','ईमेल में जारी रखें'],
-  es:['Adjuntar archivos (opcional)','Elegir archivos','No hay archivos seleccionados','Hasta 3 archivos, 3 MB en total. PDF, imágenes, documentos, ZIP o CAD.','Quitar','Elija como máximo 3 archivos.','Los archivos no pueden superar 3 MB en total.','Este tipo de archivo no es compatible.','Complete la verificación de seguridad.','Enviando su solicitud…','Su solicitud se ha enviado. Responderemos por correo electrónico.','No pudimos confirmar el envío. Sus datos siguen aquí.','Continuar en el correo'],
-  fr:['Joindre des fichiers (facultatif)','Choisir des fichiers','Aucun fichier sélectionné','Jusqu’à 3 fichiers, 3 Mo au total. PDF, images, documents, ZIP ou CAD.','Retirer','Choisissez 3 fichiers au maximum.','La taille totale des fichiers ne peut pas dépasser 3 Mo.','Ce type de fichier n’est pas pris en charge.','Effectuez le contrôle de sécurité.','Envoi de votre demande…','Votre demande a été envoyée. Nous répondrons par e-mail.','Nous ne pouvons pas confirmer l’envoi. Vos informations sont conservées ici.','Continuer dans l’e-mail'],
-  ar:['إرفاق ملفات (اختياري)','اختيار الملفات','لم يتم اختيار ملفات','حتى 3 ملفات، بإجمالي 3 ميغابايت. PDF أو صور أو مستندات أو ZIP أو CAD.','إزالة','اختر 3 ملفات كحد أقصى.','يجب ألا يتجاوز إجمالي الملفات 3 ميغابايت.','نوع الملف هذا غير مدعوم.','أكمل التحقق الأمني.','جارٍ إرسال طلبك…','تم إرسال طلبك. سنرد عبر البريد الإلكتروني.','تعذر تأكيد الإرسال. ما زالت بياناتك محفوظة هنا.','المتابعة في البريد الإلكتروني'],
-  bn:['ফাইল সংযুক্ত করুন (ঐচ্ছিক)','ফাইল বাছুন','কোনো ফাইল বাছা হয়নি','সর্বোচ্চ ৩টি ফাইল, মোট ৩ MB। PDF, ছবি, নথি, ZIP বা CAD।','সরান','সর্বোচ্চ ৩টি ফাইল বাছুন।','ফাইলগুলোর মোট আকার ৩ MB-এর বেশি হতে পারবে না।','এই ধরনের ফাইল সমর্থিত নয়।','নিরাপত্তা যাচাই সম্পন্ন করুন।','আপনার অনুরোধ পাঠানো হচ্ছে…','আপনার অনুরোধ পাঠানো হয়েছে। আমরা ইমেইলে উত্তর দেব।','পাঠানো নিশ্চিত করা যায়নি। আপনার তথ্য এখানেই আছে।','ইমেইলে চালিয়ে যান'],
-  pt:['Anexar arquivos (opcional)','Escolher arquivos','Nenhum arquivo selecionado','Até 3 arquivos, 3 MB no total. PDF, imagens, documentos, ZIP ou CAD.','Remover','Escolha no máximo 3 arquivos.','Os arquivos não podem ultrapassar 3 MB no total.','Este tipo de arquivo não é compatível.','Conclua a verificação de segurança.','Enviando sua solicitação…','Sua solicitação foi enviada. Responderemos por e-mail.','Não foi possível confirmar o envio. Seus dados continuam aqui.','Continuar no e-mail'],
-  ru:['Прикрепить файлы (необязательно)','Выбрать файлы','Файлы не выбраны','До 3 файлов, всего не более 3 МБ. PDF, изображения, документы, ZIP или CAD.','Удалить','Выберите не более 3 файлов.','Общий размер файлов не должен превышать 3 МБ.','Этот тип файла не поддерживается.','Пройдите проверку безопасности.','Отправляем ваш запрос…','Ваш запрос отправлен. Мы ответим по электронной почте.','Не удалось подтвердить отправку. Ваши данные сохранены на странице.','Продолжить в почте'],
-  ur:['فائلیں منسلک کریں (اختیاری)','فائلیں منتخب کریں','کوئی فائل منتخب نہیں ہوئی','زیادہ سے زیادہ 3 فائلیں، کل 3 MB۔ PDF، تصاویر، دستاویزات، ZIP یا CAD۔','ہٹائیں','زیادہ سے زیادہ 3 فائلیں منتخب کریں۔','فائلوں کا مجموعی حجم 3 MB سے زیادہ نہیں ہو سکتا۔','یہ فائل کی قسم معاونت یافتہ نہیں ہے۔','سیکیورٹی کی تصدیق مکمل کریں۔','آپ کی درخواست بھیجی جا رہی ہے…','آپ کی درخواست بھیج دی گئی ہے۔ ہم ای میل سے جواب دیں گے۔','بھیجے جانے کی تصدیق نہیں ہو سکی۔ آپ کی تفصیلات یہیں موجود ہیں۔','ای میل میں جاری رکھیں'],
-  id:['Lampirkan berkas (opsional)','Pilih berkas','Belum ada berkas dipilih','Maksimal 3 berkas, total 3 MB. PDF, gambar, dokumen, ZIP, atau CAD.','Hapus','Pilih maksimal 3 berkas.','Total ukuran berkas tidak boleh lebih dari 3 MB.','Jenis berkas ini tidak didukung.','Selesaikan pemeriksaan keamanan.','Mengirim permintaan Anda…','Permintaan Anda terkirim. Kami akan membalas melalui email.','Pengiriman belum dapat dipastikan. Data Anda masih ada di sini.','Lanjutkan lewat email'],
-  de:['Dateien anhängen (optional)','Dateien auswählen','Keine Dateien ausgewählt','Bis zu 3 Dateien, insgesamt 3 MB. PDF, Bilder, Dokumente, ZIP oder CAD.','Entfernen','Wählen Sie höchstens 3 Dateien aus.','Die Dateien dürfen zusammen höchstens 3 MB groß sein.','Dieser Dateityp wird nicht unterstützt.','Schließen Sie die Sicherheitsprüfung ab.','Ihre Anfrage wird gesendet…','Ihre Anfrage wurde gesendet. Wir antworten per E-Mail.','Der Versand konnte nicht bestätigt werden. Ihre Angaben bleiben hier erhalten.','In E-Mail fortfahren'],
-  ja:['ファイルを添付（任意）','ファイルを選択','ファイルは選択されていません','最大3ファイル、合計3 MB。PDF、画像、文書、ZIP、CADに対応。','削除','ファイルは3件まで選択できます。','ファイルの合計サイズは3 MB以下にしてください。','このファイル形式には対応していません。','セキュリティ確認を完了してください。','お問い合わせを送信しています…','お問い合わせを送信しました。メールで返信します。','送信を確認できませんでした。入力内容はこのページに残っています。','メールで続ける'],
-  tr:['Dosya ekle (isteğe bağlı)','Dosya seç','Dosya seçilmedi','En fazla 3 dosya, toplam 3 MB. PDF, görsel, belge, ZIP veya CAD.','Kaldır','En fazla 3 dosya seçin.','Dosyaların toplamı 3 MB’ı aşamaz.','Bu dosya türü desteklenmiyor.','Güvenlik doğrulamasını tamamlayın.','Talebiniz gönderiliyor…','Talebiniz gönderildi. E-posta ile yanıt vereceğiz.','Gönderim doğrulanamadı. Bilgileriniz bu sayfada duruyor.','E-postada devam et'],
-  vi:['Đính kèm tệp (không bắt buộc)','Chọn tệp','Chưa chọn tệp','Tối đa 3 tệp, tổng cộng 3 MB. PDF, ảnh, tài liệu, ZIP hoặc CAD.','Xóa','Chỉ chọn tối đa 3 tệp.','Tổng dung lượng tệp không được quá 3 MB.','Định dạng tệp này không được hỗ trợ.','Hoàn tất xác minh bảo mật.','Đang gửi yêu cầu của bạn…','Yêu cầu đã được gửi. Chúng tôi sẽ trả lời qua email.','Không thể xác nhận đã gửi. Thông tin của bạn vẫn còn trên trang.','Tiếp tục qua email'],
-  ko:['파일 첨부(선택)','파일 선택','선택한 파일 없음','최대 3개 파일, 총 3 MB. PDF, 이미지, 문서, ZIP 또는 CAD.','삭제','파일은 최대 3개까지 선택할 수 있습니다.','파일 총 크기는 3 MB를 초과할 수 없습니다.','지원하지 않는 파일 형식입니다.','보안 확인을 완료해 주세요.','문의 내용을 보내는 중…','문의가 전송되었습니다. 이메일로 답변드리겠습니다.','전송을 확인할 수 없습니다. 입력 내용은 이 페이지에 남아 있습니다.','이메일에서 계속'],
-  it:['Allega file (facoltativo)','Scegli file','Nessun file selezionato','Fino a 3 file, 3 MB in totale. PDF, immagini, documenti, ZIP o CAD.','Rimuovi','Seleziona al massimo 3 file.','I file non possono superare 3 MB in totale.','Questo tipo di file non è supportato.','Completa il controllo di sicurezza.','Invio della richiesta…','La richiesta è stata inviata. Risponderemo via e-mail.','Non siamo riusciti a confermare l’invio. I tuoi dati sono ancora qui.','Continua nell’e-mail'],
-  nl:['Bestanden toevoegen (optioneel)','Bestanden kiezen','Geen bestanden geselecteerd','Maximaal 3 bestanden, samen 3 MB. PDF, afbeeldingen, documenten, ZIP of CAD.','Verwijderen','Kies maximaal 3 bestanden.','De bestanden mogen samen niet groter zijn dan 3 MB.','Dit bestandstype wordt niet ondersteund.','Voltooi de beveiligingscontrole.','Uw aanvraag wordt verzonden…','Uw aanvraag is verzonden. Wij antwoorden per e-mail.','We konden de verzending niet bevestigen. Uw gegevens staan nog hier.','Verder via e-mail'],
-  pl:['Dołącz pliki (opcjonalnie)','Wybierz pliki','Nie wybrano plików','Do 3 plików, łącznie 3 MB. PDF, obrazy, dokumenty, ZIP lub CAD.','Usuń','Wybierz maksymalnie 3 pliki.','Łączny rozmiar plików nie może przekroczyć 3 MB.','Ten typ pliku nie jest obsługiwany.','Ukończ kontrolę bezpieczeństwa.','Wysyłamy zapytanie…','Zapytanie zostało wysłane. Odpowiemy e-mailem.','Nie udało się potwierdzić wysyłki. Twoje dane nadal są na stronie.','Kontynuuj w poczcie'],
-  th:['แนบไฟล์ (ไม่บังคับ)','เลือกไฟล์','ยังไม่ได้เลือกไฟล์','สูงสุด 3 ไฟล์ รวมไม่เกิน 3 MB รองรับ PDF รูปภาพ เอกสาร ZIP หรือ CAD','ลบ','เลือกได้ไม่เกิน 3 ไฟล์','ขนาดไฟล์รวมต้องไม่เกิน 3 MB','ไม่รองรับไฟล์ประเภทนี้','โปรดทำการตรวจสอบความปลอดภัยให้เสร็จ','กำลังส่งคำขอของคุณ…','ส่งคำขอแล้ว เราจะตอบกลับทางอีเมล','ไม่สามารถยืนยันการส่งได้ ข้อมูลของคุณยังอยู่บนหน้านี้','ดำเนินการต่อในอีเมล']
 };
 const CONTACT_PRODUCT_LIMIT_COPY = {
   en:'Too many product types are selected. Please choose fewer before sending.',
   zh:'选择的产品小类过多，请减少选择后再发送。',
-  hi:'बहुत अधिक उत्पाद प्रकार चुने गए हैं। भेजने से पहले कुछ विकल्प हटाएँ।',
-  es:'Ha seleccionado demasiados tipos de productos. Elija menos antes de enviar.',
-  fr:'Trop de types de produits sont sélectionnés. Réduisez la sélection avant l’envoi.',
-  ar:'تم اختيار عدد كبير جدًا من فئات المنتجات. قلّل الاختيارات قبل الإرسال.',
-  bn:'অনেক বেশি পণ্যের ধরন বাছা হয়েছে। পাঠানোর আগে কিছু নির্বাচন সরান।',
-  pt:'Foram selecionados muitos tipos de produto. Escolha menos antes de enviar.',
-  ru:'Выбрано слишком много категорий товаров. Сократите выбор перед отправкой.',
-  ur:'بہت زیادہ مصنوعات کی اقسام منتخب کی گئی ہیں۔ بھیجنے سے پہلے کچھ انتخاب کم کریں۔',
-  id:'Terlalu banyak jenis produk dipilih. Kurangi pilihan sebelum mengirim.',
-  de:'Es sind zu viele Produkttypen ausgewählt. Reduzieren Sie die Auswahl vor dem Senden.',
-  ja:'製品の種類が多すぎます。選択数を減らしてから送信してください。',
-  tr:'Çok fazla ürün türü seçildi. Göndermeden önce seçimi azaltın.',
-  vi:'Bạn đã chọn quá nhiều loại sản phẩm. Hãy giảm số lượng trước khi gửi.',
-  ko:'선택한 제품 유형이 너무 많습니다. 선택을 줄인 뒤 보내 주세요.',
-  it:'Sono selezionati troppi tipi di prodotto. Riduci la selezione prima di inviare.',
-  nl:'Er zijn te veel producttypen geselecteerd. Kies er minder voordat u verzendt.',
-  pl:'Wybrano zbyt wiele rodzajów produktów. Zmniejsz wybór przed wysłaniem.',
-  th:'เลือกประเภทสินค้ามากเกินไป โปรดลดจำนวนที่เลือกก่อนส่ง'
 };
 function contactDirectCopy(){
   const row=CONTACT_DIRECT_ROWS[LANG]||CONTACT_DIRECT_ROWS.en;
@@ -506,105 +442,6 @@ const PCC_COPY={
   range:{en:'custom product range',zh:'可定制产品范围'}
 };
 
-function collectLocalizedNodes(value,nodes=[],seen=new Set()){
-  if(!value||typeof value!=='object'||seen.has(value)) return nodes;
-  seen.add(value);
-  if(!Array.isArray(value)&&typeof value.en==='string'){
-    if(!value[LANG]) nodes.push(value);
-    return nodes;
-  }
-  if(Array.isArray(value)) value.forEach(item=>collectLocalizedNodes(item,nodes,seen));
-  else Object.values(value).forEach(item=>collectLocalizedNodes(item,nodes,seen));
-  return nodes;
-}
-
-function translationCache(lang){
-  try{return JSON.parse(localStorage.getItem(`ss-page-translations-v1-${lang}`)||'{}');}catch(e){return {};}
-}
-
-function saveTranslationCache(lang,cache){
-  try{localStorage.setItem(`ss-page-translations-v1-${lang}`,JSON.stringify(cache));}catch(e){}
-}
-
-function translationChunks(entries,maxLength=2400){
-  const chunks=[];let current=[];let length=0;
-  entries.forEach(entry=>{
-    const addition=entry.source.length+18;
-    if(current.length&&length+addition>maxLength){chunks.push(current);current=[];length=0;}
-    current.push(entry);length+=addition;
-  });
-  if(current.length) chunks.push(current);
-  return chunks;
-}
-
-async function googleTranslateChunk(chunk,lang){
-  const source=chunk.map((entry,index)=>`[[SS${String(index).padStart(3,'0')}]]\n${entry.source}`).join('\n');
-  const query=new URLSearchParams({client:'gtx',sl:'en',tl:lang,dt:'t',q:source});
-  const controller=new AbortController();
-  const timer=setTimeout(()=>controller.abort(),5000);
-  try{
-    const response=await fetch(`https://translate.googleapis.com/translate_a/single?${query}`,{signal:controller.signal,referrerPolicy:'no-referrer'});
-    if(!response.ok) throw new Error(`translation HTTP ${response.status}`);
-    const payload=await response.json();
-    const translated=(payload[0]||[]).map(part=>part[0]||'').join('');
-    const matches=[...translated.matchAll(/\[\[SS(\d{3})\]\]\s*([\s\S]*?)(?=\n?\[\[SS\d{3}\]\]|$)/g)];
-    if(matches.length!==chunk.length) throw new Error('translation segment mismatch');
-    matches.forEach(match=>{const entry=chunk[Number(match[1])];if(entry) entry.translation=match[2].trim();});
-  }finally{clearTimeout(timer);}
-}
-
-async function translateLocalizedNodes(nodes,lang){
-  if(lang==='en'||lang==='zh'||!nodes.length) return;
-  const cache=translationCache(lang);
-  const unique=new Map();
-  nodes.forEach(node=>{
-    const source=node.en.trim();
-    if(cache[source]) node[lang]=cache[source];
-    else if(!unique.has(source)) unique.set(source,{source,nodes:[]});
-    if(!node[lang]&&unique.has(source)) unique.get(source).nodes.push(node);
-  });
-  const entries=[...unique.values()];
-  if(!entries.length) return;
-  try{
-    for(const chunk of translationChunks(entries)) await googleTranslateChunk(chunk,lang);
-    entries.forEach(entry=>{
-      if(!entry.translation) return;
-      cache[entry.source]=entry.translation;
-      entry.nodes.forEach(node=>{node[lang]=entry.translation;});
-    });
-    saveTranslationCache(lang,cache);
-  }catch(error){console.warn('Page translation unavailable:',error);}
-}
-
-async function ensureCurrentPageLanguage(){
-  if(LANG==='en'||LANG==='zh'||!CAPABILITIES) return;
-  const nodes=collectLocalizedNodes(PCC_COPY);
-  collectLocalizedNodes(CAPABILITIES,nodes);
-  if(pageIdentity()==='page-custom') collectLocalizedNodes(CUSTOM_SERVICE,nodes);
-  const itemEntries=[];
-  for(const group of CAPABILITIES.groups||[]){
-    const translated=[];
-    for(const source of group.items?.en||[]){
-      const holder={en:source};translated.push(holder);itemEntries.push(holder);
-    }
-    group.items[LANG]=translated;
-  }
-  if(pageIdentity()==='page-product-category'){
-    const record=productCategoryPageRecord();
-    if(record){
-      const itemDetail=(CATEGORY_DETAILS||{})[record.key]||{};
-      const fallback=CAPABILITIES.categoryDetail?.sets?.[record.group.id]||{};
-      collectLocalizedNodes(itemDetail,nodes);
-      collectLocalizedNodes(fallback,nodes);
-      collectLocalizedNodes(CAPABILITIES.categoryDetail,nodes);
-    }
-  }
-  await translateLocalizedNodes([...nodes,...itemEntries],LANG);
-  for(const group of CAPABILITIES.groups||[]){
-    group.items[LANG]=(group.items[LANG]||[]).map(item=>item[LANG]||item.en);
-  }
-}
-
 function currentUI(){ return UI[LANG] || UI.en; }
 function productCopy(){
   if(PC[LANG]) return PC[LANG];
@@ -638,8 +475,8 @@ async function loadData(){
     }).catch(error=>{console.warn('Category data unavailable; keeping the initial page content.',error);return null;})
     : Promise.resolve(null);
   const [s,p,series,capabilities,categoryDetails] = await Promise.all([
-    fetch('/data/site.json?v=20261009-brand1').then(r=>r.json()),
-    fetch('/data/products.json?v=20261008-images1').then(r=>r.json()),
+    fetch('/data/site.json?v=20261012-bilingual1').then(r=>r.json()),
+    fetch('/data/products.json?v=20261012-bilingual1').then(r=>r.json()),
     fetch('/data/product-series.json?v=20260902v1').then(r=>r.json()),
     fetch('/data/product-capabilities.json?v=20260927v9').then(r=>r.json()),
     fetch('/data/product-category-index.json?v=20261008-category1').then(r=>{
@@ -655,10 +492,12 @@ async function loadData(){
   if(currentCategory) CATEGORY_DETAILS[categoryKey]=currentCategory;
   applyEvidenceBoundaries();
   const q=new URLSearchParams(location.search);
-  LANG = q.get('lang') || localStorage.getItem('lang') || 'en';
-  // 若存储的语言不在列表，回退en
+  let storedLanguage='';
+  try{storedLanguage=localStorage.getItem('lang')||'';}catch(e){}
+  LANG = q.get('lang') || storedLanguage || 'en';
   if(!LANGS.some(l=>l.code===LANG)) LANG='en';
-  localStorage.setItem('lang', LANG);
+  try{localStorage.setItem('lang', LANG);}catch(e){}
+  if(q.has('lang')&&q.get('lang')!==LANG) syncLanguageUrl();
 }
 
 function applyEvidenceBoundaries(){
@@ -699,35 +538,16 @@ function applyEvidenceBoundaries(){
 
 function renderLangSelector(){
   const box = $('#lang-box'); if(!box) return;
-  const cur = LANGS.find(l=>l.code===LANG) || LANGS[0];
-  box.innerHTML = `<button class="lang-btn" id="lang-btn" type="button" aria-haspopup="listbox" aria-expanded="false">
-      <span class="lang-globe"><img class="lang-flag lang-current-flag" src="/assets/images/flags/${cur.flag}.svg" alt="" aria-hidden="true" width="28" height="21"></span><span class="lang-current">${cur.name}</span>${ico('chevronDown','lang-chevron')}
-    </button>
-    <div class="lang-menu" id="lang-menu" role="listbox" aria-hidden="true">${LANGS.map(l=>
-      `<button class="lang-opt ${l.code===LANG?'active':''}" type="button" role="option" aria-selected="${l.code===LANG}" data-lang="${l.code}"><span class="lang-flag-slot"><img class="lang-flag" src="/assets/images/flags/${l.flag}.svg" alt="" aria-hidden="true" width="28" height="21" loading="lazy" decoding="async"></span><span class="lang-name">${l.name}</span>${l.code===LANG?ico('check','lang-check'):''}</button>`).join('')}</div>`;
-  const btn=$('#lang-btn'), menu=$('#lang-menu');
-  btn.setAttribute('aria-label',cur.name);
-  btn.onclick=(e)=>{
-    e.stopPropagation();
-    const open=menu.classList.toggle('open');
-    btn.setAttribute('aria-expanded',String(open));
-    menu.setAttribute('aria-hidden',String(!open));
-  };
-  if(!window.__langOutsideBound){
-    window.__langOutsideBound=true;
-    document.addEventListener('click',()=>{
-      const currentMenu=$('#lang-menu'), currentBtn=$('#lang-btn');
-      if(currentMenu){currentMenu.classList.remove('open');currentMenu.setAttribute('aria-hidden','true');}
-      if(currentBtn) currentBtn.setAttribute('aria-expanded','false');
-    });
-  }
-  $$('.lang-opt', box).forEach(b=>b.onclick=()=>{
+  box.setAttribute('role','group');
+  box.setAttribute('aria-label',LANG==='zh'?'网站语言':'Website language');
+  box.innerHTML = LANGS.map(l=>`<button class="lang-btn lang-switch-button${l.code===LANG?' active':''}" type="button" lang="${l.code}" aria-label="${l.code==='zh'?'切换到中文':'Switch to English'}" aria-pressed="${l.code===LANG}" data-lang="${l.code}">${l.name}</button>`).join('');
+  $$('.lang-switch-button', box).forEach(b=>b.onclick=()=>{
+    if(b.dataset.lang===LANG) return;
     LANG=b.dataset.lang;
-    localStorage.setItem('lang', LANG);
+    try{localStorage.setItem('lang', LANG);}catch(e){}
     syncLanguageUrl();
-    menu.classList.remove('open');
     renderAll();
-    ensureCurrentPageLanguage().then(()=>renderAll());
+    $('#lang-box .lang-switch-button[data-lang="'+LANG+'"]')?.focus({preventScroll:true});
   });
 }
 
@@ -1126,7 +946,7 @@ let __revealObserver=null;
 
 function syncDocumentLanguage(){
   document.documentElement.lang=LANG||'en';
-  document.documentElement.dir=['ar','ur'].includes(LANG)?'rtl':'ltr';
+  document.documentElement.dir='ltr';
 }
 
 function pageIdentity(){
@@ -2792,7 +2612,8 @@ document.addEventListener('DOMContentLoaded', async ()=>{
   renderAll();
   decoratePage();
   initContactDirectForm();
-  ensureCurrentPageLanguage().then(()=>renderAll());
+  // Hydrate content that depends on page classes added by decoratePage.
+  Promise.resolve().then(()=>renderAll());
   if(pageIdentity()==='page-products') window.addEventListener('hashchange',renderProductsPage);
   const tg=$('#nav-toggle'); if(tg){
     tg.setAttribute('aria-label',LANG==='zh'?'打开导航菜单':'Open navigation menu');
@@ -2842,9 +2663,6 @@ document.addEventListener('DOMContentLoaded', async ()=>{
       $('.header')?.classList.remove('product-mega-open');
       document.body.classList.remove('nav-open');
       const tg=$('#nav-toggle'); if(tg) tg.setAttribute('aria-expanded','false');
-      const langMenu=$('#lang-menu'),langBtn=$('#lang-btn');
-      if(langMenu){langMenu.classList.remove('open');langMenu.setAttribute('aria-hidden','true');}
-      if(langBtn) langBtn.setAttribute('aria-expanded','false');
       const psPanel=$('#ps-panel'),psTrigger=$('#ps-trigger');
       if(psPanel){psPanel.classList.remove('open');psPanel.setAttribute('aria-hidden','true');}
       if(psTrigger) psTrigger.setAttribute('aria-expanded','false');
