@@ -5,6 +5,7 @@ import test from 'node:test';
 import { runInNewContext } from 'node:vm';
 import { withPageSeo } from '../tools/page_seo.mjs';
 import { buildSeoPolicy, businessContext, createRuntimePolicy, htmlPathForRoute, root, SEO_VERSION } from '../tools/seo_policy.mjs';
+const exampleCount = JSON.parse(await fs.readFile(path.join(root,'content/product-example-registry.json'),'utf8')).products.length;
 
 const policy = await buildSeoPolicy();
 const seo = createRuntimePolicy(policy);
@@ -19,7 +20,7 @@ const quoteUrl = html => new URL(decode(html.match(/<a\b[^>]*class="mc-quote"[^>
 const galleries = html => html.match(/<!-- PRODUCT GALLERY START -->[\s\S]*?<!-- PRODUCT GALLERY END -->/)?.[0] || html.match(/<section\b[^>]*class="[^"]*product-gallery[^>]*>[\s\S]*?<\/section>/)?.[0];
 
 test('all 203 static contexts agree with runtime data, preserve gallery and are idempotent', async () => {
-  assert.equal(policy.pages.length, 205);
+  assert.equal(policy.pages.length, 203 + exampleCount);
   const existingPages = policy.pages.filter(page => page.kind !== 'example');
   assert.equal(existingPages.length, 203);
   for (const page of existingPages) {
@@ -55,7 +56,7 @@ test('all 203 static contexts agree with runtime data, preserve gallery and are 
 
 test('example presentations keep their product-specific customization chapter without a second generic inquiry block', async () => {
   const examples = policy.pages.filter(page => page.kind === 'example');
-  assert.equal(examples.length, 2);
+  assert.equal(examples.length, exampleCount);
   for (const page of examples) {
     const html = await fs.readFile(path.join(root, htmlPathForRoute(page.route)), 'utf8');
     const output = withPageSeo(html, page.route);

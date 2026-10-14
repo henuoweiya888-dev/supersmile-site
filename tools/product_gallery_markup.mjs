@@ -5,12 +5,16 @@ import { fileURLToPath } from 'node:url';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const manifestPath = path.join(root, 'data/product-photo-galleries.json');
 const esc = value => String(value ?? '').replace(/[&<>"']/g, char => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[char]));
-const version = '20261006-photos1';
-const exampleLinkVersion = '20261014-1';
-const exampleDetails = {
-  'custom-harness-09': { sourceIndex: 1, src: '/assets/images/product-galleries/40c15bc1f6d41dea.webp', path: '/products/braided-branch-harness' },
-  'cable-assembly-02': { sourceIndex: 1, src: '/assets/images/product-galleries/e9da8e217b272957.webp', path: '/products/m12-4-pin-cable-assembly' },
-};
+const version = '20261014-photos2';
+const exampleLinkVersion = '20261014-2';
+const detailRegistryPath = path.join(root, 'content/product-example-registry.json');
+const exampleDetails = fs.existsSync(detailRegistryPath)
+  ? JSON.parse(fs.readFileSync(detailRegistryPath, 'utf8')).entries
+  : [
+    {categoryId:'custom-harness-09',sourceIndex:1,src:'/assets/images/product-galleries/40c15bc1f6d41dea.webp',route:'/products/braided-branch-harness'},
+    {categoryId:'cable-assembly-02',sourceIndex:1,src:'/assets/images/product-galleries/e9da8e217b272957.webp',route:'/products/m12-4-pin-cable-assembly'}
+  ];
+const detailByEntry = new Map(exampleDetails.map(entry => [entry.categoryId+':'+entry.sourceIndex,entry]));
 let cached;
 function manifest() {
   return cached ||= fs.existsSync(manifestPath) ? JSON.parse(fs.readFileSync(manifestPath, 'utf8')) : {};
@@ -21,12 +25,15 @@ export function productGalleryMarkup(key) {
   if (!photos.length) return '';
   const cards = photos.map((photo, index) => {
     const model = photo.model ? `<span class="pcc-gallery-model" dir="auto">${esc(photo.model)}</span>` : '';
-    const candidate = exampleDetails[key];
-    const detail = candidate && photo.sourceIndex === candidate.sourceIndex && photo.src === candidate.src
-      ? `<a class="pcc-example-detail-link" data-product-detail-path="${esc(candidate.path)}" href="${esc(candidate.path)}?lang=en" aria-label="View product details: ${esc(photo.nameEn)}"><span data-example-detail-label>View product details</span><span aria-hidden="true">↗</span></a>` : '';
+    const candidate = detailByEntry.get(key+':'+photo.sourceIndex);
+    const detail = candidate && candidate.src === photo.src ? candidate : null;
+    const photoMarkup = `<img src="${esc(photo.thumbnail)}" srcset="${esc(photo.thumbnail)} 600w, ${esc(photo.src)} 1200w" sizes="(max-width:700px) 74vw, (max-width:1100px) 29vw, 21vw" alt="${esc(photo.nameEn)}" width="1200" height="1200" loading="${index < 4 ? 'eager' : 'lazy'}" decoding="async"><span class="pcc-gallery-zoom" aria-hidden="true">↗</span>`;
+    const photoControl = detail
+      ? `<a class="pcc-gallery-photo" data-product-detail-path="${esc(detail.route)}" href="${esc(detail.route)}?lang=en" aria-label="View product details: ${esc(photo.nameEn)}">${photoMarkup}</a>`
+      : `<button class="pcc-gallery-photo" type="button" aria-label="View photograph: ${esc(photo.nameEn)}">${photoMarkup}</button>`;
     return `<figure class="pcc-gallery-item" data-name-en="${esc(photo.nameEn)}" data-name-zh="${esc(photo.nameZh)}" data-model="${esc(photo.model)}" data-full-image="${esc(photo.src)}">
-      <button class="pcc-gallery-photo" type="button" aria-label="View photograph: ${esc(photo.nameEn)}"><img src="${esc(photo.thumbnail)}" srcset="${esc(photo.thumbnail)} 600w, ${esc(photo.src)} 1200w" sizes="(max-width:700px) 74vw, (max-width:1100px) 29vw, 21vw" alt="${esc(photo.nameEn)}" width="1200" height="1200" loading="${index < 4 ? 'eager' : 'lazy'}" decoding="async"><span class="pcc-gallery-zoom" aria-hidden="true">↗</span></button>
-      <figcaption><span class="pcc-gallery-no">${String(index + 1).padStart(2, '0')}</span><div class="pcc-gallery-name"><span class="pcc-gallery-name-text">${esc(photo.nameEn)}</span>${model}</div>${detail}</figcaption>
+      ${photoControl}
+      <figcaption><span class="pcc-gallery-no">${String(index + 1).padStart(2, '0')}</span><div class="pcc-gallery-name"><span class="pcc-gallery-name-text">${esc(photo.nameEn)}</span>${model}</div></figcaption>
     </figure>`;
   }).join('\n');
   return `<!-- PRODUCT GALLERY START -->

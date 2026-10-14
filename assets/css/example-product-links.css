@@ -1,36 +1,4 @@
-/* Detail links on the two selected category photographs. */
-.pcc-gallery .pcc-example-detail-link{
-  grid-column:2;
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  gap:12px;
-  min-height:44px;
-  margin-top:6px;
-  padding:10px 13px;
-  color:#fff;
-  background:var(--v2-signal-dark,#cf3612);
-  border:1px solid var(--v2-signal-dark,#cf3612);
-  font-size:12px;
-  font-weight:700;
-  line-height:1.4;
-  text-decoration:none;
-  transition:background .2s ease,border-color .2s ease;
-}
-.pcc-gallery .pcc-example-detail-link:hover{
-  color:#fff;
-  background:#a92e12;
-  border-color:#a92e12;
-}
-.pcc-gallery .pcc-example-detail-link:focus-visible{
-  outline:3px solid #e46d2f;
-  outline-offset:4px;
-}
-.pcc-gallery .pcc-example-detail-link>span:last-child{
-  flex:none;
-  font-size:18px;
-  line-height:1;
-}
-@media(prefers-reduced-motion:reduce){
-  .pcc-gallery .pcc-example-detail-link{transition:none}
-}
+/* Product photographs are the detail-page entry point. */
+.pcc-gallery a.pcc-gallery-photo{display:block;text-decoration:none;cursor:pointer}
+.pcc-gallery a.pcc-gallery-photo:focus-visible{outline:3px solid #ca3a14;outline-offset:4px}
+.pcc-gallery a.pcc-gallery-photo:hover .pcc-gallery-zoom{background:#ca3a14;color:#fff}

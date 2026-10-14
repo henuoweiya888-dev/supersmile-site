@@ -1,6 +1,6 @@
 (() => {
   'use strict';
-  const links = [...document.querySelectorAll('.pcc-example-detail-link[data-product-detail-path]')];
+  const links = [...document.querySelectorAll('.pcc-gallery-photo[data-product-detail-path]')];
   if (!links.length) return;
   function language() {
     const requested = new URLSearchParams(location.search).get('lang');
@@ -18,7 +18,6 @@
       const path = link.dataset.productDetailPath;
       if (!/^\/products\/[a-z0-9-]+$/.test(path)) return;
       link.setAttribute('href', path + '?lang=' + lang);
-      link.querySelector('[data-example-detail-label]').textContent = label;
       const card = link.closest('.pcc-gallery-item');
       const name = card?.dataset[lang === 'zh' ? 'nameZh' : 'nameEn'];
       link.setAttribute('aria-label', name ? label + (lang === 'zh' ? '：' : ': ') + name : label);

@@ -31,7 +31,8 @@
       const name = item.dataset[chinese() ? 'nameZh' : 'nameEn'];
       item.querySelector('.pcc-gallery-name-text').textContent = name;
       item.querySelector('img').alt = name;
-      item.querySelector('button').setAttribute('aria-label', strings[5] + name);
+      const control = item.querySelector('.pcc-gallery-photo');
+      control.setAttribute('aria-label', (control.dataset.productDetailPath ? (chinese() ? '查看产品详情：' : 'View product details: ') : strings[5]) + name);
     });
     previous.setAttribute('aria-label', strings[1]);
     next.setAttribute('aria-label', strings[2]);
@@ -68,7 +69,7 @@
       move((event.key === 'ArrowRight' ? 1 : -1) * (rtl() ? -1 : 1));
     }
   });
-  items.forEach(item => item.querySelector('button').addEventListener('click', event => {
+  items.filter(item => item.querySelector('button.pcc-gallery-photo')).forEach(item => item.querySelector('button.pcc-gallery-photo').addEventListener('click', event => {
     openedBy = event.currentTarget;
     image.src = item.dataset.fullImage || item.querySelector('img').src;
     setDialogTitle(item);

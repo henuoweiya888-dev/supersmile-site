@@ -12,3 +12,8 @@ body.page-product-example{--pe-ink:#171b1d;--pe-muted:#656d70;--pe-paper:#f6f5f1
 @media(max-width:760px){.page-product-example .pe-main{padding-top:0}.pe-main .pe-hero{padding-bottom:32px}.pe-feature-list{grid-template-columns:1fr}.pe-feature h3{font-size:19px}.pe-feature p{font-size:14px}.pe-inspection-media img{height:175px}.page-product-example .footer .container>div:last-child>a{margin-top:14px}}
 @media(max-width:360px){.pe-actions{align-items:stretch;flex-direction:column}.pe-action{width:100%}.pe-hero h1{font-size:31px}}
 @media(prefers-reduced-motion:reduce){.pe-product-view img,.pe-action,.pe-jump-nav a{transition:none}}
+
+/* Expanded applications and contextual construction photography. */
+.pe-app-grid{row-gap:34px}.pe-app-text{padding:25px;background:#f3f4ee;border-top:2px solid #909e91}.pe-app-heading>span{display:block;font-size:12px;color:var(--pe-accent);margin-bottom:12px}.pe-app-heading h3{font-size:22px}.pe-app-text>p{margin-top:14px}.pe-construction-photo img{object-fit:cover}.pe-construction-text{grid-template-columns:1fr}.pe-construction-text .pe-feature-list{grid-template-columns:repeat(4,minmax(0,1fr))}.pe-support-list .pe-manufacturing{background:#e6e9df;padding:22px;border:0}.pe-hero h1{overflow-wrap:break-word}.pe-layout-material-selection .pe-construction-photo{aspect-ratio:1.16}.pe-config-table th{overflow-wrap:break-word}
+@media(max-width:1100px){.pe-construction-text .pe-feature-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){.pe-construction-text .pe-feature-list{grid-template-columns:1fr}.pe-app-grid{row-gap:26px}.pe-app-text{padding:22px}.pe-app-heading h3{font-size:22px}}

@@ -4,19 +4,22 @@ import path from 'node:path';
 import test from 'node:test';
 import {buildSeoPolicy,createRuntimePolicy,root,EXAMPLE_SEO_POLICY_SCRIPT_VERSION} from '../tools/seo_policy.mjs';
 
-const content=JSON.parse(await fs.readFile(path.join(root,'content/product-example-details.json'),'utf8'));
+const content=JSON.parse(await fs.readFile(path.join(root,'content/product-example-registry.json'),'utf8'));
+const inventory=JSON.parse(await fs.readFile(path.join(root,'content/product-example-inventory.json'),'utf8'));
+const photos=new Map(inventory.records.map(r=>[r.exampleId,r.src]));
 const policy=await buildSeoPolicy();
 const runtime=createRuntimePolicy(policy);
 const decode=s=>s.replace(/&amp;/g,'&');
 
-test('two product presentations use unified bilingual SEO and contain no checkout or invented SKU',async()=>{
- assert.equal(content.products.length,2);
- assert.equal(policy.pages.filter(x=>x.kind==='example').length,2);
+test('all product presentations use unified bilingual SEO and contain no checkout or invented SKU',async()=>{
+ assert.equal(content.products.length,1307);
+ assert.equal(content.entries.length,1328);
+ assert.equal(policy.pages.filter(x=>x.kind==='example').length,content.products.length);
  for(const p of content.products){
   const html=await fs.readFile(path.join(root,'products',p.slug+'.html'),'utf8');
   for(const lang of ['en','zh']){
    const metadata=runtime.resolve({path:p.route,lang});
-   assert.equal(metadata.title,p.title[lang]+' | Super Smile-Tech');
+   assert.equal(metadata.title,p.seoTitle[lang]);
    assert.equal(metadata.description,p.metaDescription[lang]);
   }
   assert.ok(html.includes(`/assets/js/seo-policy.js?v=${EXAMPLE_SEO_POLICY_SCRIPT_VERSION}`));
@@ -25,9 +28,10 @@ test('two product presentations use unified bilingual SEO and contain no checkou
   const schema=JSON.parse(html.match(/<script id="pe-structured-data"[^>]*>([\s\S]*?)<\/script>/)[1]);
   const product=schema['@graph'].find(x=>x['@type']==='Product');
   assert.equal(product.url,'https://supersmile-tech.com'+p.route);
-  assert.equal(product.image,'https://supersmile-tech.com'+p.heroImage.src);
+  assert.equal(product.image,'https://supersmile-tech.com'+photos.get(p.id));
   for(const key of ['offers','sku','mpn','manufacturer','aggregateRating'])assert.equal(product[key],undefined);
-  assert.doesNotMatch(html,/add.to.cart|checkout|buy.now|EX-custom|EX-cable|REFERENCE/i);
+  assert.doesNotMatch(html,/add.to.cart|checkout|buy.now|\bEX-custom|\bEX-cable/i);
+  assert.doesNotMatch(html,/>\s*REFERENCE\s*</);
   const targets=[...html.matchAll(/href="([^"<>]+)"/g)].map(m=>decode(m[1])).filter(x=>x.startsWith('/contact?'));
   assert.ok(targets.length>=2);
   for(const href of targets){

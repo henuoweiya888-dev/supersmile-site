@@ -8,6 +8,8 @@ import { buildSeoPolicy, htmlPathForRoute } from '../tools/seo_policy.mjs';
 import { createRenderContext } from '../tools/sync_priority_page_ssr.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const exampleCount = JSON.parse(await fs.readFile(path.join(root,'content/product-example-registry.json'),'utf8')).products.length;
+
 const read = name => fs.readFile(path.join(root, name), 'utf8');
 const [policyData, policyScript, contextScript, mainScript] = await Promise.all([
   buildSeoPolicy(), read('assets/js/seo-policy.js'), read('assets/js/manufacturing-context.js'), read('assets/js/main.js'),
@@ -102,7 +104,7 @@ test('all 203 initial manufacturing sections equal runtime EN and preserve route
   const scope = { window: {}, URL, URLSearchParams };
   runInNewContext(policyScript, scope);
   runInNewContext(contextScript, scope);
-  assert.equal(policyData.pages.length, 205);
+  assert.equal(policyData.pages.length, 203 + exampleCount);
   const existingPages = policyData.pages.filter(page => page.kind !== 'example');
   assert.equal(existingPages.length, 203);
   for (const page of existingPages) {

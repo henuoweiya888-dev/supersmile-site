@@ -4,6 +4,7 @@ import path from 'node:path';
 import test from 'node:test';
 import { runInNewContext } from 'node:vm';
 import { buildSeoPolicy, businessContext, createRuntimePolicy, htmlPathForRoute, root, MAIN_SCRIPT_VERSION, serializeRuntime, sitemapRoutes, withSeoPolicy } from '../tools/seo_policy.mjs';
+const exampleCount = JSON.parse(await fs.readFile(path.join(root,'content/product-example-registry.json'),'utf8')).products.length;
 
 const policy = await buildSeoPolicy();
 const runtime = createRuntimePolicy(policy);
@@ -33,11 +34,11 @@ function mockDocument() {
 test('public sitemap has unique topic-first metadata covering the requested business meanings', async () => {
   const xml = await fs.readFile(path.join(root, 'sitemap.xml'), 'utf8');
   assert.deepEqual(policy.pages.map(page => page.route), sitemapRoutes(xml));
-  assert.equal(policy.pages.length, 205);
-  assert.deepEqual(policy.pages.reduce((counts, page) => ({ ...counts, [page.kind]: (counts[page.kind] || 0) + 1 }), {}), { core: 9, product: 82, category: 99, landing: 8, series: 5, example: 2 });
+  assert.equal(policy.pages.length, 203 + exampleCount);
+  assert.deepEqual(policy.pages.reduce((counts, page) => ({ ...counts, [page.kind]: (counts[page.kind] || 0) + 1 }), {}), { core: 9, product: 82, category: 99, landing: 8, series: 5, example: exampleCount });
   for (const lang of ['en', 'zh']) {
-    assert.equal(new Set(policy.pages.map(page => page.title[lang])).size, 205);
-    assert.equal(new Set(policy.pages.map(page => page.description[lang])).size, 205);
+    assert.equal(new Set(policy.pages.map(page => page.title[lang] )).size, 203 + exampleCount);
+    assert.equal(new Set(policy.pages.map(page => page.description[lang] )).size, 203 + exampleCount);
   }
   for (const page of policy.pages) {
     assert.ok(page.title.en.length <= 80, page.route);
@@ -99,7 +100,7 @@ test('only English and Chinese are supported and removed languages do not update
   }
 });
 
-test('all 205 static transforms preserve content, canonicals, links and schema and load policy before main', async () => {
+test('all public static transforms preserve content, canonicals, links and schema and load policy before main', async () => {
   const stripManaged = html => html
     .replace(/<title\b[^>]*>[\s\S]*?<\/title>/gi, '')
     .replace(/<meta\b(?=[^>]*(?:name=["']description["']|property=["']og:(?:title|description)["']))[^>]*>/gi, '')

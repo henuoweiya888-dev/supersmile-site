@@ -7,7 +7,7 @@ export const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '
 export const SEO_VERSION = '20261009-brand1';
 export const MAIN_SCRIPT_VERSION = '20261012-bilingual1';
 export const SEO_POLICY_SCRIPT_VERSION = '20261008-routes1';
-export const EXAMPLE_SEO_POLICY_SCRIPT_VERSION = '20261014-examples1';
+export const EXAMPLE_SEO_POLICY_SCRIPT_VERSION = '20261014-examples2';
 
 export const businessContext = {
   en: 'Custom wire harness manufacturing from our China factory, with OEM/ODM project support.',
@@ -156,7 +156,8 @@ export async function buildSeoPolicy(siteRoot = root) {
     add(record.route, record.kind, [en.title, zh.title],
       [en.title + ' | Super Smile', zh.title + '｜Super Smile'], [en.intro, zh.intro]);
   }
-  const exampleFile = path.join(siteRoot, 'content/product-example-details.json');
+  const registryFile = path.join(siteRoot, 'content/product-example-registry.json');
+  const exampleFile = await fs.access(registryFile).then(() => registryFile).catch(() => path.join(siteRoot, 'content/product-example-details.json'));
   const exampleContent = await fs.readFile(exampleFile, 'utf8').then(JSON.parse).catch(error => {
     if (error.code === 'ENOENT') return { products: [] };
     throw error;
@@ -168,7 +169,7 @@ export async function buildSeoPolicy(siteRoot = root) {
     candidates.set(example.route, {
       route: example.route, kind: 'example', categoryKey: example.categoryId,
       topic: { en: clean(example.title.en), zh: clean(example.title.zh) },
-      title: { en: clean(example.title.en) + ' | Super Smile-Tech', zh: clean(example.title.zh) + ' | Super Smile-Tech' },
+      title: example.seoTitle || { en: clean(example.title.en) + ' | Super Smile-Tech', zh: clean(example.title.zh) + ' | Super Smile-Tech' },
       description: { en: clean(example.metaDescription.en), zh: clean(example.metaDescription.zh) }
     });
   }
