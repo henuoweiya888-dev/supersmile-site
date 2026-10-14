@@ -47,8 +47,7 @@ for(const p of content.products){
  const structured={
   '@context':'https://schema.org',
   '@graph':[
-   {'@type':'WebPage','@id':canonical+'#webpage',url:canonical,name:p.title.en,description:p.metaDescription.en,mainEntity:{'@id':canonical+'#product'}},
-   {'@type':'Product','@id':canonical+'#product',name:p.title.en,description:p.metaDescription.en,image:'https://supersmile-tech.com'+p.heroImage.src,url:canonical,category:p.category.en},
+   {'@type':'WebPage','@id':canonical+'#webpage',url:canonical,name:p.title.en,description:p.metaDescription.en,primaryImageOfPage:{'@type':'ImageObject',contentUrl:'https://supersmile-tech.com'+p.heroImage.src}},
    {'@type':'BreadcrumbList',itemListElement:[
     {'@type':'ListItem',position:1,name:'Home',item:'https://supersmile-tech.com/'},
     {'@type':'ListItem',position:2,name:p.category.en,item:'https://supersmile-tech.com'+p.categoryRoute},

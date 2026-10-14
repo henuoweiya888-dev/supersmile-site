@@ -2387,16 +2387,23 @@ function pillarRelatedLinks(){
     'custom-cable-assembly':[['/custom-wiring-harness',l.harness],['/industrial-equipment-wiring-harness-guide',l.guide],['/automotive-diagnostic-cable-manufacturer',l.diagnostic],['/products',l.products]],
     'automotive-wiring-harness':[['/automotive-diagnostic-cable-manufacturer',l.diagnostic],['/turbo-actuator-harness',l.turbo],['/products',l.products]],
     'automotive-diagnostic-cable-manufacturer':[['/obd2-diagnostic-cable',l.obd],['/j1939-cable',l.j1939],['/ecu-programming-cable',l.ecu],['/ev-diagnostic-cable',l.ev]],
-    'obd2-diagnostic-cable':[['/automotive-diagnostic-cable-manufacturer',l.diagnostic],['/ecu-programming-cable',l.ecu],['/products#universal',l.products]],
-    'ecu-programming-cable':[['/automotive-diagnostic-cable-manufacturer',l.diagnostic],['/j1939-cable',l.j1939],['/products#heavyduty',l.products]],
-    'turbo-actuator-harness':[['/automotive-wiring-harness',l.automotive],['/products#turbo',l.products],['/custom-wiring-harness',l.harness]],
-    'j1939-cable':[['/automotive-diagnostic-cable-manufacturer',l.diagnostic],['/ecu-programming-cable',l.ecu],['/products#heavyduty',l.products]],
-    'ev-diagnostic-cable':[['/automotive-diagnostic-cable-manufacturer',l.diagnostic],['/obd2-diagnostic-cable',l.obd],['/products#specialty',l.products]],
+    'obd2-diagnostic-cable':[['/automotive-diagnostic-cable-manufacturer',l.diagnostic],['/ecu-programming-cable',l.ecu],['/products/obd2-and-universal-diagnostic-cables',l.products]],
+    'ecu-programming-cable':[['/automotive-diagnostic-cable-manufacturer',l.diagnostic],['/j1939-cable',l.j1939],['/products/heavy-duty-and-diesel-diagnostic-cables',l.products]],
+    'turbo-actuator-harness':[['/automotive-wiring-harness',l.automotive],['/products/turbo-actuator-series',l.products],['/custom-wiring-harness',l.harness]],
+    'j1939-cable':[['/automotive-diagnostic-cable-manufacturer',l.diagnostic],['/ecu-programming-cable',l.ecu],['/products/heavy-duty-and-diesel-diagnostic-cables',l.products]],
+    'ev-diagnostic-cable':[['/automotive-diagnostic-cable-manufacturer',l.diagnostic],['/obd2-diagnostic-cable',l.obd],['/products/specialty-diagnostic-cables',l.products]],
     'industrial-equipment-wiring-harness-guide':[['/robotic-wiring-harness-flex-guide',l.robot],['/custom-wiring-harness',l.harness],['/custom-cable-assembly',l.cable]],
     'robotic-wiring-harness-flex-guide':[['/industrial-equipment-wiring-harness-guide',l.guide],['/custom-wiring-harness',l.harness],['/contact',l.title]],
     'wire-harness-prototype-sample-validation':[['/custom-wiring-harness',l.harness],['/custom-cable-assembly',l.cable],['/contact',l.title]]
   };
   return {title:l.title,items:maps[leaf]||[]};
+}
+
+// Canonical collection pages preserve the original five product-family routes.
+// The capability centre uses a different taxonomy, so old hash filters are not destinations.
+function productSeriesHref(categoryId){
+  const routes={"turbo":"/products/turbo-actuator-series","universal":"/products/obd2-and-universal-diagnostic-cables","heavyduty":"/products/heavy-duty-and-diesel-diagnostic-cables","specialty":"/products/specialty-diagnostic-cables","adapter":"/products/diagnostic-adapters-and-connectors"};
+  return routes[categoryId]||'/products';
 }
 
 function renderCustomLandingPage(main,c=customLandingCopy()){
@@ -2425,7 +2432,7 @@ function renderCustomLandingPage(main,c=customLandingCopy()){
     </section>
     ${c.hideFamilies?'':`<section class="custom-families custom-section">
       <header class="custom-section-head"><span>${t(SITE.nav.products)}</span><h2>${c.families}</h2><p>${c.familiesIntro}</p></header>
-      <div class="custom-family-grid">${families.map(({category,product})=>`<a class="custom-family" href="${directProducts.length?`/product/${product.slug}`:`/products#${category.id}`}"><figure><img src="${product.images[0]}" alt="${directProducts.length?productDisplayName(product,category):t(category.name)}" loading="lazy" decoding="async"></figure><div><span>${String(product.id||'').toUpperCase()}</span><h3>${directProducts.length?productDisplayName(product,category):t(category.name)}</h3><p>${t(category.desc)}</p></div></a>`).join('')}</div>
+      <div class="custom-family-grid">${families.map(({category,product})=>`<a class="custom-family" href="${directProducts.length?`/product/${product.slug}`:productSeriesHref(category.id)}"><figure><img src="${product.images[0]}" alt="${directProducts.length?productDisplayName(product,category):t(category.name)}" loading="lazy" decoding="async"></figure><div><span>${String(product.id||'').toUpperCase()}</span><h3>${directProducts.length?productDisplayName(product,category):t(category.name)}</h3><p>${t(category.desc)}</p></div></a>`).join('')}</div>
     </section>`}
     <section class="custom-process custom-section">
       <header class="custom-section-head"><span>${t(SITE.process.tag)}</span><h2>${c.process}</h2></header>

@@ -3,7 +3,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import test from 'node:test';
 import { runInNewContext } from 'node:vm';
-import { buildSeoPolicy, businessContext, createRuntimePolicy, htmlPathForRoute, root, MAIN_SCRIPT_VERSION, serializeRuntime, sitemapRoutes, withSeoPolicy } from '../tools/seo_policy.mjs';
+import { buildSeoPolicy, businessContext, createRuntimePolicy, htmlPathForRoute, root, mainScriptVersionForRoute, serializeRuntime, sitemapRoutes, withSeoPolicy } from '../tools/seo_policy.mjs';
 const exampleCount = JSON.parse(await fs.readFile(path.join(root,'content/product-example-registry.json'),'utf8')).products.length;
 
 const policy = await buildSeoPolicy();
@@ -114,7 +114,7 @@ test('all public static transforms preserve content, canonicals, links and schem
     assert.equal(withSeoPolicy(result, page.route, policy), result, `${page.route} idempotence`);
     assert.equal((result.match(/src="\/assets\/js\/seo-policy\.js/g) || []).length, 1, page.route);
     assert.ok(result.indexOf('/assets/js/seo-policy.js') < result.indexOf('/assets/js/main.js'), page.route);
-    assert.ok(result.includes(`/assets/js/main.js?v=${MAIN_SCRIPT_VERSION}`), page.route);
+    assert.ok(result.includes(`/assets/js/main.js?v=${mainScriptVersionForRoute(page.route)}`), page.route);
     const main = html.match(/<main\b[\s\S]*?<\/main>/i)?.[0];
     if (main) assert.ok(result.includes(main), `${page.route} original main body`);
   }

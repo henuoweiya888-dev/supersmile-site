@@ -6,6 +6,23 @@ import { legacyRouteInventory, captureLegacyRoute } from './legacy_route_content
 export const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 export const SEO_VERSION = '20261009-brand1';
 export const MAIN_SCRIPT_VERSION = '20261014-quality1';
+// Only these existing landing renderers changed in the crawl-discovery repair.
+// Other pages keep their validated shared-script revision.
+export const LEGACY_CRAWL_MAIN_SCRIPT_VERSION = '20261014-crawl1';
+export const LEGACY_CRAWL_MAIN_SCRIPT_ROUTES = Object.freeze([
+  "/automotive-diagnostic-cable-manufacturer",
+  "/automotive-wiring-harness",
+  "/custom-cable-assembly",
+  "/custom-wiring-harness",
+  "/ecu-programming-cable",
+  "/ev-diagnostic-cable",
+  "/j1939-cable",
+  "/obd2-diagnostic-cable",
+  "/turbo-actuator-harness"
+]);
+const legacyCrawlMainScriptRoutes = new Set(LEGACY_CRAWL_MAIN_SCRIPT_ROUTES);
+export const mainScriptVersionForRoute = route => legacyCrawlMainScriptRoutes.has(route)
+  ? LEGACY_CRAWL_MAIN_SCRIPT_VERSION : MAIN_SCRIPT_VERSION;
 export const SEO_POLICY_SCRIPT_VERSION = '20261008-routes1';
 export const EXAMPLE_SEO_POLICY_SCRIPT_VERSION = '20261014-quality2';
 
@@ -300,7 +317,7 @@ export function withSeoPolicy(html, route, policy, { lang = 'en', scripts = true
     output = output.replace(/<script\b[^>]*\bsrc=["']\/assets\/js\/main\.js(?:\?[^"']*)?["'][^>]*>\s*<\/script>/gi, tag => {
       if (foundMain) throw new Error(`Duplicate main.js script on ${route}`);
       foundMain = true;
-      const mainTag = tag.replace(/(\bsrc=["'])\/assets\/js\/main\.js(?:\?[^"']*)?(["'])/i, `$1/assets/js/main.js?v=${MAIN_SCRIPT_VERSION}$2`);
+      const mainTag = tag.replace(/(\bsrc=["'])\/assets\/js\/main\.js(?:\?[^"']*)?(["'])/i, `$1/assets/js/main.js?v=${mainScriptVersionForRoute(metadata.route)}$2`);
       return `<script defer src="/assets/js/seo-policy.js?v=${scriptVersion}"></script>\n${mainTag}`;
     });
     if (!foundMain) throw new Error(`No main.js script on public page ${route}`);
