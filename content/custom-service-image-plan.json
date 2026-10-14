@@ -1,0 +1,693 @@
+{
+  "baselineCommit": "2b08c4f39d005ccbd3d2f4146987f6534441af24",
+  "selectionRule": "Only files already used by static HTML or current site data at the published baseline. No downloads or source-image edits.",
+  "verification": {
+    "visualReview": "All selected photographs actually inspected in contact sheets and individual detail views.",
+    "livePagesReadable": [
+      "https://supersmile-tech.com/products",
+      "https://supersmile-tech.com/custom-wiring-harness"
+    ],
+    "liveAssetCheck": "Direct HTTP access to files/pages/JSON returned 403; individual live assets were not confirmed. Published-baseline references are recorded below.",
+    "attributionInUI": "Internal manifest only. Add no photo-origin/source labels or buttons."
+  },
+  "families": [
+    {
+      "id": "custom-harness",
+      "nameZh": "定制线束",
+      "images": [
+        {
+          "path": "/assets/images/product-galleries/8560ddbc2aec2195.webp",
+          "nameZh": "圆形金属接头与多排端子混合线束",
+          "dimensions": [
+            1200,
+            1200
+          ],
+          "isRealPhotography": true,
+          "mediaType": "product-photograph",
+          "currentReferences": [
+            {
+              "file": "products/turnkey-harness.html",
+              "line": 66,
+              "url": "https://supersmile-tech.com/products/turnkey-harness",
+              "baseline": "2b08c4f39d005ccbd3d2f4146987f6534441af24"
+            },
+            {
+              "file": "products/aerospace-project-assembly.html",
+              "line": 30,
+              "url": "https://supersmile-tech.com/products/aerospace-project-assembly",
+              "baseline": "2b08c4f39d005ccbd3d2f4146987f6534441af24"
+            },
+            {
+              "file": "products/emi-shielded-cable-design.html",
+              "line": 25,
+              "url": "https://supersmile-tech.com/products/emi-shielded-cable-design",
+              "baseline": "2b08c4f39d005ccbd3d2f4146987f6534441af24"
+            },
+            {
+              "file": "products/instrument-and-sensor-harness.html",
+              "line": 42,
+              "url": "https://supersmile-tech.com/products/instrument-and-sensor-harness",
+              "baseline": "2b08c4f39d005ccbd3d2f4146987f6534441af24"
+            },
+            {
+              "file": "products/equipment-wire.html",
+              "line": 15,
+              "url": "https://supersmile-tech.com/products/equipment-wire",
+              "baseline": "2b08c4f39d005ccbd3d2f4146987f6534441af24"
+            },
+            {
+              "file": "products/industrial-equipment-harness.html",
+              "line": 30,
+              "url": "https://supersmile-tech.com/products/industrial-equipment-harness",
+              "baseline": "2b08c4f39d005ccbd3d2f4146987f6534441af24"
+            },
+            {
+              "file": "products/prototype-and-small-batch-harness.html",
+              "line": 70,
+              "url": "https://supersmile-tech.com/products/prototype-and-small-batch-harness",
+              "baseline": "2b08c4f39d005ccbd3d2f4146987f6534441af24"
+            }
+          ],
+          "suggestedUse": "Six-category customization scope: distinct construction/interface example.",
+          "crop": "Contain on a white/off-white plate. Preserve all connector ends. No square cover crop.",
+          "watermarkReview": "No third-party overlay watermark observed.",
+          "nameEn": "Mixed-interface equipment harness",
+          "existingGalleryReference": {
+            "file": "data/product-photo-galleries.json",
+            "category": "custom-harness-01",
+            "photoIndex": 0,
+            "sourceIndex": 1
+          },
+          "companyOwnPhotography": "Not established by gallery metadata; do not claim all gallery photographs are company-owned."
+        },
+        {
+          "path": "/assets/images/product-galleries/40c15bc1f6d41dea.webp",
+          "nameZh": "编织护套白色插头多分支线束",
+          "dimensions": [
+            1200,
+            1200
+          ],
+          "isRealPhotography": true,
+          "mediaType": "product-photograph",
+          "currentReferences": [
+            {
+              "file": "products/braided-protection-harness.html",
+              "line": 30,
+              "url": "https://supersmile-tech.com/products/braided-protection-harness",
+              "baseline": "2b08c4f39d005ccbd3d2f4146987f6534441af24"
+            }
+          ],
+          "suggestedUse": "Six-category customization scope: distinct construction/interface example.",
+          "crop": "Contain on a white/off-white plate. Preserve all connector ends. No square cover crop.",
+          "watermarkReview": "No third-party overlay watermark observed.",
+          "nameEn": "Braided Sleeve White Plug Multi-Branch Harness",
+          "existingGalleryReference": {
+            "file": "data/product-photo-galleries.json",
+            "category": "custom-harness-09",
+            "photoIndex": 0,
+            "sourceIndex": 1
+          },
+          "companyOwnPhotography": "Not established by gallery metadata; do not claim all gallery photographs are company-owned."
+        }
+      ]
+    },
+    {
+      "id": "cable-assembly",
+      "nameZh": "定制电缆组件",
+      "images": [
+        {
+          "path": "/assets/images/product-galleries/e9da8e217b272957.webp",
+          "nameZh": "M12四芯圆形接头公母连接线",
+          "dimensions": [
+            1200,
+            1200
+          ],
+          "isRealPhotography": true,
+          "mediaType": "product-photograph",
+          "currentReferences": [
+            {
+              "file": "products/circular-connector-assembly.html",
+              "line": 30,
+              "url": "https://supersmile-tech.com/products/circular-connector-assembly",
+              "baseline": "2b08c4f39d005ccbd3d2f4146987f6534441af24"
+            }
+          ],
+          "suggestedUse": "Six-category customization scope: distinct construction/interface example.",
+          "crop": "Contain on a white/off-white plate. Preserve all connector ends. No square cover crop.",
+          "watermarkReview": "No third-party overlay watermark observed.",
+          "nameEn": "M12 4-Core Circular Connector Male-to-Female Cable",
+          "existingGalleryReference": {
+            "file": "data/product-photo-galleries.json",
+            "category": "cable-assembly-02",
+            "photoIndex": 0,
+            "sourceIndex": 1
+          },
+          "companyOwnPhotography": "Not established by gallery metadata; do not claim all gallery photographs are company-owned."
+        },
+        {
+          "path": "/assets/images/product-galleries/01214da5c3f780b1.webp",
+          "nameZh": "D-sub转矩形端子插头多分支线束",
+          "dimensions": [
+            1200,
+            1200
+          ],
+          "isRealPhotography": true,
+          "mediaType": "product-photograph",
+          "currentReferences": [
+            {
+              "file": "products/d-sub-cable-assembly.html",
+              "line": 30,
+              "url": "https://supersmile-tech.com/products/d-sub-cable-assembly",
+              "baseline": "2b08c4f39d005ccbd3d2f4146987f6534441af24"
+            }
+          ],
+          "suggestedUse": "Six-category customization scope: distinct construction/interface example.",
+          "crop": "Contain on a white/off-white plate. Preserve all connector ends. No square cover crop.",
+          "watermarkReview": "No third-party overlay watermark observed.",
+          "nameEn": "D-sub to Rectangular Terminal Plug Multi-Branch Harness",
+          "existingGalleryReference": {
+            "file": "data/product-photo-galleries.json",
+            "category": "cable-assembly-03",
+            "photoIndex": 0,
+            "sourceIndex": 2
+          },
+          "companyOwnPhotography": "Not established by gallery metadata; do not claim all gallery photographs are company-owned."
+        }
+      ]
+    },
+    {
+      "id": "automotive",
+      "nameZh": "汽车与交通线束",
+      "images": [
+        {
+          "path": "/assets/images/product-galleries/277dbc588630c03d.webp",
+          "nameZh": "OBD-II带安装位三接口分支诊断线束",
+          "dimensions": [
+            1200,
+            1200
+          ],
+          "isRealPhotography": true,
+          "mediaType": "product-photograph",
+          "currentReferences": [
+            {
+              "file": "products/automotive-diagnostic-and-obd-harness.html",
+              "line": 30,
+              "url": "https://supersmile-tech.com/products/automotive-diagnostic-and-obd-harness",
+              "baseline": "2b08c4f39d005ccbd3d2f4146987f6534441af24"
+            }
+          ],
+          "suggestedUse": "Six-category customization scope: distinct construction/interface example.",
+          "crop": "Contain on a white/off-white plate. Preserve all connector ends. No square cover crop.",
+          "watermarkReview": "No third-party overlay watermark observed.",
+          "nameEn": "OBD-II Mounting-Point 3-Port Diagnostic Branch Harness",
+          "existingGalleryReference": {
+            "file": "data/product-photo-galleries.json",
+            "category": "automotive-01",
+            "photoIndex": 0,
+            "sourceIndex": 1
+          },
+          "companyOwnPhotography": "Not established by gallery metadata; do not claim all gallery photographs are company-owned."
+        },
+        {
+          "path": "/assets/images/product-galleries/59eb6f4cfd81d08d.webp",
+          "nameZh": "VGT执行器黑白双接头波纹管线束",
+          "dimensions": [
+            1200,
+            1200
+          ],
+          "isRealPhotography": true,
+          "mediaType": "product-photograph",
+          "currentReferences": [
+            {
+              "file": "products/turbo-actuator-harness.html",
+              "line": 32,
+              "url": "https://supersmile-tech.com/products/turbo-actuator-harness",
+              "baseline": "2b08c4f39d005ccbd3d2f4146987f6534441af24"
+            }
+          ],
+          "suggestedUse": "Six-category customization scope: distinct construction/interface example.",
+          "crop": "Contain on a white/off-white plate. Preserve all connector ends. No square cover crop.",
+          "watermarkReview": "No third-party overlay watermark observed.",
+          "nameEn": "VGT Actuator Black/White Dual-Connector Corrugated-Conduit Harness",
+          "existingGalleryReference": {
+            "file": "data/product-photo-galleries.json",
+            "category": "automotive-14",
+            "photoIndex": 0,
+            "sourceIndex": 1
+          },
+          "companyOwnPhotography": "Not established by gallery metadata; do not claim all gallery photographs are company-owned."
+        }
+      ]
+    },
+    {
+      "id": "connector-systems",
+      "nameZh": "连接器与品牌兼容系统",
+      "images": [
+        {
+          "path": "/assets/images/product-galleries/17f5510913ba6d15.webp",
+          "nameZh": "776164-1接口 · 35针矩形接头多芯尾线束",
+          "dimensions": [
+            1200,
+            1200
+          ],
+          "isRealPhotography": true,
+          "mediaType": "product-photograph",
+          "currentReferences": [
+            {
+              "file": "products/te-amp-compatible.html",
+              "line": 36,
+              "url": "https://supersmile-tech.com/products/te-amp-compatible",
+              "baseline": "2b08c4f39d005ccbd3d2f4146987f6534441af24"
+            }
+          ],
+          "suggestedUse": "Six-category customization scope: distinct construction/interface example.",
+          "crop": "Contain on a white/off-white plate. Preserve all connector ends. No square cover crop.",
+          "watermarkReview": "No third-party overlay watermark observed.",
+          "nameEn": "776164-1 35-Pin Rectangular Connector Multi-Core Pigtail",
+          "existingGalleryReference": {
+            "file": "data/product-photo-galleries.json",
+            "category": "connector-systems-01",
+            "photoIndex": 1,
+            "sourceIndex": 2
+          },
+          "companyOwnPhotography": "Not established by gallery metadata; do not claim all gallery photographs are company-owned."
+        },
+        {
+          "path": "/assets/images/product-galleries/5eb1cb5fe25dda99.webp",
+          "nameZh": "细间距白色端子双端线束组",
+          "dimensions": [
+            1200,
+            1200
+          ],
+          "isRealPhotography": true,
+          "mediaType": "product-photograph",
+          "currentReferences": [
+            {
+              "file": "products/jst-compatible.html",
+              "line": 32,
+              "url": "https://supersmile-tech.com/products/jst-compatible",
+              "baseline": "2b08c4f39d005ccbd3d2f4146987f6534441af24"
+            },
+            {
+              "file": "products/32awg-fine-pitch-harness.html",
+              "line": 42,
+              "url": "https://supersmile-tech.com/products/32awg-fine-pitch-harness",
+              "baseline": "2b08c4f39d005ccbd3d2f4146987f6534441af24"
+            }
+          ],
+          "suggestedUse": "Six-category customization scope: distinct construction/interface example.",
+          "crop": "Contain on a white/off-white plate. Preserve all connector ends. No square cover crop.",
+          "watermarkReview": "No third-party overlay watermark observed.",
+          "nameEn": "Fine-Pitch White Terminals Double-Ended Harness Set",
+          "existingGalleryReference": {
+            "file": "data/product-photo-galleries.json",
+            "category": "connector-systems-03",
+            "photoIndex": 0,
+            "sourceIndex": 1
+          },
+          "companyOwnPhotography": "Not established by gallery metadata; do not claim all gallery photographs are company-owned."
+        }
+      ]
+    },
+    {
+      "id": "specialty",
+      "nameZh": "特种电缆组件与注塑",
+      "images": [
+        {
+          "path": "/assets/images/product-galleries/f15c2230db632878.webp",
+          "nameZh": "SUR0.8接口 · 细间距双端连接线束",
+          "dimensions": [
+            1200,
+            1200
+          ],
+          "isRealPhotography": true,
+          "mediaType": "product-photograph",
+          "currentReferences": [
+            {
+              "file": "products/32awg-fine-pitch-harness.html",
+              "line": 26,
+              "url": "https://supersmile-tech.com/products/32awg-fine-pitch-harness",
+              "baseline": "2b08c4f39d005ccbd3d2f4146987f6534441af24"
+            }
+          ],
+          "suggestedUse": "Six-category customization scope: distinct construction/interface example.",
+          "crop": "Contain on a white/off-white plate. Preserve all connector ends. No square cover crop.",
+          "watermarkReview": "No third-party overlay watermark observed.",
+          "nameEn": "SUR0.8 Fine-Pitch Double-Ended Harness",
+          "existingGalleryReference": {
+            "file": "data/product-photo-galleries.json",
+            "category": "specialty-01",
+            "photoIndex": 2,
+            "sourceIndex": 4
+          },
+          "companyOwnPhotography": "Not established by gallery metadata; do not claim all gallery photographs are company-owned."
+        },
+        {
+          "path": "/assets/images/product-galleries/b9fdb504fd65abaa.webp",
+          "nameZh": "圆形接头注塑Y形分支线束",
+          "dimensions": [
+            1200,
+            1200
+          ],
+          "isRealPhotography": true,
+          "mediaType": "product-photograph",
+          "currentReferences": [
+            {
+              "file": "products/overmolded-cable-assembly.html",
+              "line": 74,
+              "url": "https://supersmile-tech.com/products/overmolded-cable-assembly",
+              "baseline": "2b08c4f39d005ccbd3d2f4146987f6534441af24"
+            },
+            {
+              "file": "products/molded-strain-relief.html",
+              "line": 22,
+              "url": "https://supersmile-tech.com/products/molded-strain-relief",
+              "baseline": "2b08c4f39d005ccbd3d2f4146987f6534441af24"
+            },
+            {
+              "file": "products/low-pressure-molding.html",
+              "line": 23,
+              "url": "https://supersmile-tech.com/products/low-pressure-molding",
+              "baseline": "2b08c4f39d005ccbd3d2f4146987f6534441af24"
+            }
+          ],
+          "suggestedUse": "Six-category customization scope: distinct construction/interface example.",
+          "crop": "Contain on a white/off-white plate. Preserve all connector ends. No square cover crop.",
+          "watermarkReview": "No third-party overlay watermark observed.",
+          "nameEn": "Circular Connector Overmolded Y-Branch Harness",
+          "existingGalleryReference": {
+            "file": "data/product-photo-galleries.json",
+            "category": "specialty-02",
+            "photoIndex": 1,
+            "sourceIndex": 3
+          },
+          "companyOwnPhotography": "Not established by gallery metadata; do not claim all gallery photographs are company-owned."
+        }
+      ]
+    },
+    {
+      "id": "wire-cable",
+      "nameZh": "电线电缆与材料选项",
+      "images": [
+        {
+          "path": "/assets/images/product-galleries/0a11ab4e294312f6.webp",
+          "nameZh": "多色柔性导线尾线组",
+          "dimensions": [
+            1200,
+            1200
+          ],
+          "isRealPhotography": true,
+          "mediaType": "product-photograph",
+          "currentReferences": [
+            {
+              "file": "products/ultra-flexible-wire-and-cable.html",
+              "line": 15,
+              "url": "https://supersmile-tech.com/products/ultra-flexible-wire-and-cable",
+              "baseline": "2b08c4f39d005ccbd3d2f4146987f6534441af24"
+            }
+          ],
+          "suggestedUse": "Six-category customization scope: distinct construction/interface example.",
+          "crop": "Contain on a white/off-white plate. Preserve all connector ends. No square cover crop.",
+          "watermarkReview": "No third-party overlay watermark observed.",
+          "nameEn": "Color-Coded Flexible Wire Pigtail Set",
+          "existingGalleryReference": {
+            "file": "data/product-photo-galleries.json",
+            "category": "wire-cable-17",
+            "photoIndex": 0,
+            "sourceIndex": 1
+          },
+          "companyOwnPhotography": "Not established by gallery metadata; do not claim all gallery photographs are company-owned."
+        },
+        {
+          "path": "/assets/images/product-galleries/66285c0c6afe9a48.webp",
+          "nameZh": "伺服电机电缆剥层段",
+          "dimensions": [
+            1200,
+            1200
+          ],
+          "isRealPhotography": true,
+          "mediaType": "product-photograph",
+          "currentReferences": [
+            {
+              "file": "products/drag-chain-cable.html",
+              "line": 19,
+              "url": "https://supersmile-tech.com/products/drag-chain-cable",
+              "baseline": "2b08c4f39d005ccbd3d2f4146987f6534441af24"
+            }
+          ],
+          "suggestedUse": "Cable structure and end preparation; long horizontal detail paired with coloured loose wires. Do not call this raw cable production.",
+          "crop": "Contain on a white/off-white plate. Preserve all connector ends. No square cover crop.",
+          "watermarkReview": "Small igus engraving belongs to the photographed connector body, not an overlay watermark. Use as construction example, never claim manufacturing ownership.",
+          "nameEn": "Servo Motor Cable Cutaway",
+          "existingGalleryReference": {
+            "file": "data/product-photo-galleries.json",
+            "category": "wire-cable-06",
+            "photoIndex": 1,
+            "sourceIndex": 6
+          },
+          "companyOwnPhotography": "Not established by gallery metadata; do not claim all gallery photographs are company-owned."
+        }
+      ]
+    }
+  ],
+  "hero": {
+    "path": "/assets/images/factory/_MG_5473.jpg",
+    "nameZh": "线束加工车间全景",
+    "dimensions": [
+      1200,
+      800
+    ],
+    "isRealPhotography": true,
+    "mediaType": "factory-photograph",
+    "currentReferences": [
+      {
+        "file": "products/turnkey-harness.html",
+        "line": 110,
+        "url": "https://supersmile-tech.com/products/turnkey-harness",
+        "baseline": "2b08c4f39d005ccbd3d2f4146987f6534441af24"
+      },
+      {
+        "file": "custom.html",
+        "line": 66,
+        "url": "https://supersmile-tech.com/custom",
+        "baseline": "2b08c4f39d005ccbd3d2f4146987f6534441af24"
+      }
+    ],
+    "suggestedUse": "Hero manufacturing backdrop with subtle navy gradient behind title.",
+    "crop": "Object-fit: cover, object-position: 58% 48%; desktop image >=460px tall. Mobile 4:3 less aggressive crop.",
+    "watermarkReview": "No third-party overlay watermark observed."
+  },
+  "process": [
+    {
+      "path": "/assets/images/factory/_MG_6437.jpg",
+      "nameZh": "彩色线束在制品",
+      "dimensions": [
+        1920,
+        1320
+      ],
+      "isRealPhotography": true,
+      "mediaType": "factory-photograph",
+      "currentReferences": [
+        {
+          "file": "custom.html",
+          "line": 36,
+          "url": "https://supersmile-tech.com/custom",
+          "baseline": "2b08c4f39d005ccbd3d2f4146987f6534441af24"
+        }
+      ],
+      "suggestedUse": "Material and colour definition / preparation; not wire extrusion.",
+      "crop": "Cover 50% 55%; preserve coloured wire bundles.",
+      "watermarkReview": "No third-party overlay watermark observed."
+    },
+    {
+      "path": "/assets/images/factory/_MG_5489.jpg",
+      "nameZh": "自动加工设备",
+      "dimensions": [
+        1400,
+        933
+      ],
+      "isRealPhotography": true,
+      "mediaType": "factory-photograph",
+      "currentReferences": [
+        {
+          "file": "custom.html",
+          "line": 64,
+          "url": "https://supersmile-tech.com/custom",
+          "baseline": "2b08c4f39d005ccbd3d2f4146987f6534441af24"
+        }
+      ],
+      "suggestedUse": "Wire processing and process preparation.",
+      "crop": "Cover 50% 50%; preserve machine and control screen.",
+      "watermarkReview": "No third-party overlay watermark observed."
+    },
+    {
+      "path": "/assets/images/factory/_MG_5480.jpg",
+      "nameZh": "装配工位",
+      "dimensions": [
+        800,
+        1200
+      ],
+      "isRealPhotography": true,
+      "mediaType": "factory-photograph",
+      "currentReferences": [
+        {
+          "file": "products/turnkey-harness.html",
+          "line": 121,
+          "url": "https://supersmile-tech.com/products/turnkey-harness",
+          "baseline": "2b08c4f39d005ccbd3d2f4146987f6534441af24"
+        },
+        {
+          "file": "custom.html",
+          "line": 63,
+          "url": "https://supersmile-tech.com/custom",
+          "baseline": "2b08c4f39d005ccbd3d2f4146987f6534441af24"
+        }
+      ],
+      "suggestedUse": "Sample build and controlled assembly.",
+      "crop": "Portrait 4:5; object-position:45% 50%; preserve operator and bench.",
+      "watermarkReview": "No third-party overlay watermark observed."
+    },
+    {
+      "path": "/assets/images/factory/_MG_5484.jpg",
+      "nameZh": "导通检验",
+      "dimensions": [
+        1200,
+        800
+      ],
+      "isRealPhotography": true,
+      "mediaType": "factory-photograph",
+      "currentReferences": [
+        {
+          "file": "custom.html",
+          "line": 65,
+          "url": "https://supersmile-tech.com/custom",
+          "baseline": "2b08c4f39d005ccbd3d2f4146987f6534441af24"
+        }
+      ],
+      "suggestedUse": "Sample/final continuity verification.",
+      "crop": "Cover 50% 50%; preserve test screen and lead bundle.",
+      "watermarkReview": "No third-party overlay watermark observed."
+    }
+  ],
+  "technicalSupport": [
+    {
+      "path": "/assets/images/product-galleries/94c9d1cd81a3fc89.webp",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "nameZh": "密封连接器与端接尾线",
+      "isRealPhotography": true,
+      "currentReferences": [
+        {
+          "file": "products/te-amp-compatible.html",
+          "galleryKey": "connector-systems-01",
+          "photoIndex": 4
+        }
+      ],
+      "crop": "Contain; preserve all interfaces and conductor exits."
+    },
+    {
+      "path": "/assets/images/product-galleries/2660b0219f5afc92.webp",
+      "nameZh": "多接头设备主控分支线束",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "isRealPhotography": true,
+      "mediaType": "product-photograph",
+      "currentReferences": [
+        {
+          "file": "products/turnkey-harness.html",
+          "line": 90,
+          "url": "https://supersmile-tech.com/products/turnkey-harness",
+          "baseline": "2b08c4f39d005ccbd3d2f4146987f6534441af24"
+        },
+        {
+          "file": "products/equipment-wire.html",
+          "line": 23,
+          "url": "https://supersmile-tech.com/products/equipment-wire",
+          "baseline": "2b08c4f39d005ccbd3d2f4146987f6534441af24"
+        },
+        {
+          "file": "products/industrial-equipment-harness.html",
+          "line": 34,
+          "url": "https://supersmile-tech.com/products/industrial-equipment-harness",
+          "baseline": "2b08c4f39d005ccbd3d2f4146987f6534441af24"
+        },
+        {
+          "file": "products/control-panel-harness.html",
+          "line": 74,
+          "url": "https://supersmile-tech.com/products/control-panel-harness",
+          "baseline": "2b08c4f39d005ccbd3d2f4146987f6534441af24"
+        }
+      ],
+      "suggestedUse": "Optional full sample/branch-routing image beside drawing/sample/pin-table inputs.",
+      "crop": "Contain on a white/off-white plate. Preserve all connector ends. No square cover crop.",
+      "watermarkReview": "No third-party overlay watermark observed.",
+      "nameEn": "Multi-connector control harness",
+      "existingGalleryReference": {
+        "file": "data/product-photo-galleries.json",
+        "category": "custom-harness-01",
+        "photoIndex": 1,
+        "sourceIndex": 2
+      },
+      "companyOwnPhotography": "Not established by gallery metadata; do not claim all gallery photographs are company-owned."
+    },
+    {
+      "path": "/assets/images/product-galleries/e2c6702deddcf63e.webp",
+      "dimensions": [
+        1200,
+        1200
+      ],
+      "nameZh": "多芯电缆护套与芯线过渡",
+      "isRealPhotography": true,
+      "currentReferences": [
+        {
+          "file": "products/hirose-compatible.html",
+          "galleryKey": "connector-systems-07",
+          "photoIndex": 0
+        }
+      ],
+      "crop": "Contain; this image shows jacket/core structure, not an exposed shield."
+    },
+    {
+      "path": "/assets/images/factory/_MG_5482.jpg",
+      "dimensions": [
+        800,
+        1200
+      ],
+      "nameZh": "导通检验设备与组件",
+      "isRealPhotography": true,
+      "currentReferences": [
+        {
+          "file": "custom.html",
+          "baseline": "2b08c4f"
+        }
+      ],
+      "crop": "Cover with test screen and assembly in frame."
+    }
+  ],
+  "excluded": [
+    {
+      "path": "/assets/images/features/custom-pinout-signal-v4.jpg",
+      "reason": "AI photoreal test setup, not real company engineering work."
+    },
+    {
+      "path": "/assets/images/product-categories/stock/industrial-equipment-refresh/engineering-blueprint.jpg",
+      "reason": "Construction-plan meeting, does not depict harness engineering."
+    },
+    {
+      "path": "/assets/images/product-categories/stock/obd/pin-map.jpg",
+      "reason": "Actual image is branded BlueDriver dongle, not pin map."
+    },
+    {
+      "path": "/assets/images/product-categories/stock/robotic-refresh-2/shielded-cable-cross-section.jpg",
+      "reason": "Diagram, not real photo."
+    },
+    {
+      "path": "/assets/images/product-categories/stock/emi-shielded/shield-cross.jpg",
+      "reason": "Good real Cat6 cut face but carries CC BY-SA new-use attribution complexity; not selected."
+    }
+  ]
+}
