@@ -7,6 +7,7 @@ export const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '
 export const SEO_VERSION = '20261009-brand1';
 export const MAIN_SCRIPT_VERSION = '20261012-bilingual1';
 export const SEO_POLICY_SCRIPT_VERSION = '20261008-routes1';
+export const EXAMPLE_SEO_POLICY_SCRIPT_VERSION = '20261014-examples1';
 
 export const businessContext = {
   en: 'Custom wire harness manufacturing from our China factory, with OEM/ODM project support.',
@@ -155,6 +156,22 @@ export async function buildSeoPolicy(siteRoot = root) {
     add(record.route, record.kind, [en.title, zh.title],
       [en.title + ' | Super Smile', zh.title + '｜Super Smile'], [en.intro, zh.intro]);
   }
+  const exampleFile = path.join(siteRoot, 'content/product-example-details.json');
+  const exampleContent = await fs.readFile(exampleFile, 'utf8').then(JSON.parse).catch(error => {
+    if (error.code === 'ENOENT') return { products: [] };
+    throw error;
+  });
+  for (const example of exampleContent.products) {
+    if (!/^\/products\/[a-z0-9-]+$/.test(example.route) || candidates.has(example.route)) {
+      throw new Error(`Invalid or duplicate example product route: ${example.route}`);
+    }
+    candidates.set(example.route, {
+      route: example.route, kind: 'example', categoryKey: example.categoryId,
+      topic: { en: clean(example.title.en), zh: clean(example.title.zh) },
+      title: { en: clean(example.title.en) + ' | Super Smile-Tech', zh: clean(example.title.zh) + ' | Super Smile-Tech' },
+      description: { en: clean(example.metaDescription.en), zh: clean(example.metaDescription.zh) }
+    });
+  }
   const routes = sitemapRoutes(xml);
   if (new Set(routes).size !== routes.length) throw new Error('Duplicate sitemap route');
   const pages = routes.map(route => {
@@ -275,13 +292,15 @@ export function withSeoPolicy(html, route, policy, { lang = 'en', scripts = true
   output = replaceMeta(output, 'property', 'og:title', metadata.title);
   output = replaceMeta(output, 'property', 'og:description', metadata.description);
   if (scripts) {
+    const scriptVersion = policy.pages.find(page => page.route === metadata.route)?.kind === 'example'
+      ? EXAMPLE_SEO_POLICY_SCRIPT_VERSION : SEO_POLICY_SCRIPT_VERSION;
     output = output.replace(/<script\b[^>]*\bsrc=["']\/assets\/js\/seo-policy\.js(?:\?[^"']*)?["'][^>]*>\s*<\/script>\s*/gi, '');
     let foundMain = false;
     output = output.replace(/<script\b[^>]*\bsrc=["']\/assets\/js\/main\.js(?:\?[^"']*)?["'][^>]*>\s*<\/script>/gi, tag => {
       if (foundMain) throw new Error(`Duplicate main.js script on ${route}`);
       foundMain = true;
       const mainTag = tag.replace(/(\bsrc=["'])\/assets\/js\/main\.js(?:\?[^"']*)?(["'])/i, `$1/assets/js/main.js?v=${MAIN_SCRIPT_VERSION}$2`);
-      return `<script defer src="/assets/js/seo-policy.js?v=${SEO_POLICY_SCRIPT_VERSION}"></script>\n${mainTag}`;
+      return `<script defer src="/assets/js/seo-policy.js?v=${scriptVersion}"></script>\n${mainTag}`;
     });
     if (!foundMain) throw new Error(`No main.js script on public page ${route}`);
   }

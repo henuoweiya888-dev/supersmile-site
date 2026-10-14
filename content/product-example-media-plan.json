@@ -1,0 +1,437 @@
+{
+  "schemaVersion": "1.0",
+  "scope": "Two inquiry-only example product detail pages. Existing published photos only; no new image downloads or image edits.",
+  "publicImageMetadataRule": "Do not render source URLs, source-origin captions, REFERENCE, OWN PHOTO or reference labels on the public page. Keep source/provenance records internal. Context section headings and descriptive alt text should make the role clear.",
+  "sourceReviewDate": "2026-10-14",
+  "pages": {
+    "EX-custom-harness-09-001": {
+      "categoryKey": "custom-harness-09",
+      "sourceIndex": 1,
+      "titleZh": "编织护套白色插头多分支线束",
+      "mainImage": {
+        "filename": "40c15bc1f6d41dea.webp",
+        "path": "/assets/images/product-galleries/40c15bc1f6d41dea.webp",
+        "dimensions": [
+          1200,
+          1200
+        ],
+        "sha256": "cf2842feaa75adf6de24288b9966cdf8ca65adc8057aa6f598adffd01e068f45",
+        "role": "selected-product-main",
+        "altZh": "编织护套白色插头多分支线束",
+        "altEn": "Braided multi-branch harness with white connector housings",
+        "purpose": "The selected product photograph, shown once as the main product image.",
+        "contentEvidence": "Published gallery photograph matched by category/sourceIndex and original SHA.",
+        "isRealPhotography": true,
+        "publishedReferences": [
+          {
+            "file": "products/braided-protection-harness.html",
+            "line": 31,
+            "url": "https://supersmile-tech.com/products/braided-protection-harness",
+            "baseline": "c8969d680460b5cdd2626a0c17003db84f9f4a4f"
+          },
+          {
+            "file": "custom.html",
+            "line": 53,
+            "url": "https://supersmile-tech.com/custom",
+            "baseline": "c8969d680460b5cdd2626a0c17003db84f9f4a4f"
+          }
+        ],
+        "crop": "object-fit: contain; retain all wires, connectors and ends on a white background",
+        "placementRule": "Main product photograph. Do not mix supporting context photographs into this product gallery.",
+        "sourceMappingKey": "custom-harness-09:1",
+        "originalSha": "40c15bc1f6d41dea4bf87d717e8d2d16f061f65db51e059d011b5bbc9dbc41ae",
+        "processingType": "original_photo_square_framing_transcode"
+      },
+      "sourceVerification": {
+        "sourcePageOpened": true,
+        "sourceUrl": "https://xsdsingder.en.made-in-china.com/product/fmUYgCpzFxhL/China-Customized-Power-Delivery-Terminal-Trailer-Wiring-Electric-Wire-Control-Panel-Harness-Cable-Assembly.html",
+        "sourceType": "Supplier-owned Made-in-China listing, Dongguan XSD Cable",
+        "supports": [
+          "General custom wiring harness listing identity",
+          "Photograph-visible beige braided covering, multiple white housings, branching and loose ends"
+        ],
+        "reject": [
+          "Listing price/MOQ/supplier certifications and factory claims",
+          "Specific braid fibre, shielding, fire, temperature or circuit-function claims"
+        ],
+        "note": "This is a broad custom-harness listing, not a sample-specific controlled drawing or specification."
+      },
+      "supporting": [
+        {
+          "filename": "open-switchbox.jpg",
+          "path": "/assets/images/product-categories/stock/control-panel-refresh/open-switchbox.jpg",
+          "dimensions": [
+            1600,
+            2397
+          ],
+          "sha256": "fb74c3bd84c49b64367976656ca63b8ac60cd7eff01a71b5e6caad726725fd8f",
+          "role": "application",
+          "altZh": "打开的设备电控箱与内部布线",
+          "altEn": "Open equipment control box with internal wiring",
+          "purpose": "Equipment routing, branch allocation and service-access discussion.",
+          "contentEvidence": "Actual photograph shows an open control box with boards, components and multiple internal wire paths; no claim that the selected harness is fitted to it.",
+          "isRealPhotography": true,
+          "publishedReferences": [
+            {
+              "file": "products/control-panel-harness.html",
+              "line": 102,
+              "url": "https://supersmile-tech.com/products/control-panel-harness",
+              "baseline": "c8969d680460b5cdd2626a0c17003db84f9f4a4f"
+            }
+          ],
+          "crop": "Portrait or 4:5 crop; keep the entire open box visible.",
+          "placementRule": "Place within the application / engineering / inspection section. Do not place in a product-angle gallery or imply this is the selected sample installed or being tested."
+        },
+        {
+          "filename": "_MG_5480.jpg",
+          "path": "/assets/images/factory/_MG_5480.jpg",
+          "dimensions": [
+            800,
+            1200
+          ],
+          "sha256": "9838f144654263e9c4e7cc6f287fe7be534ffd16b66f87e3c49fd57f2ddd36e0",
+          "role": "engineering",
+          "altZh": "线束装配人员在生产工位作业",
+          "altEn": "Harness assembly operator working at a production workstation",
+          "purpose": "Sample build, branch preparation, connector orientation and assembly control.",
+          "contentEvidence": "Company factory photograph shows operator and production bench; it is a process illustration, not a record of this exact sample.",
+          "isRealPhotography": true,
+          "publishedReferences": [
+            {
+              "file": "products/turnkey-harness.html",
+              "line": 121,
+              "url": "https://supersmile-tech.com/products/turnkey-harness",
+              "baseline": "c8969d680460b5cdd2626a0c17003db84f9f4a4f"
+            }
+          ],
+          "crop": "4:5 / portrait; preserve operator and workbench.",
+          "placementRule": "Place within the application / engineering / inspection section. Do not place in a product-angle gallery or imply this is the selected sample installed or being tested."
+        },
+        {
+          "filename": "_MG_5484.jpg",
+          "path": "/assets/images/factory/_MG_5484.jpg",
+          "dimensions": [
+            1200,
+            800
+          ],
+          "sha256": "f5081f053d23eec058527e544e830eb1d76792a1e733c6aa5cb4f247e2c7fc04",
+          "role": "inspection",
+          "altZh": "线束导通测试工位与测试线",
+          "altEn": "Harness continuity-test station and connected test leads",
+          "purpose": "Inspection plan: circuit mapping, continuity and approved acceptance points.",
+          "contentEvidence": "Real factory photograph shows a test instrument, connected lead bundle and operator hands; do not claim that this exact selected sample has passed testing.",
+          "isRealPhotography": true,
+          "publishedReferences": [
+            {
+              "file": "custom.html",
+              "line": 156,
+              "url": "https://supersmile-tech.com/custom",
+              "baseline": "c8969d680460b5cdd2626a0c17003db84f9f4a4f"
+            }
+          ],
+          "crop": "4:3 or 3:2; preserve screen and wire bundle.",
+          "placementRule": "Place within the application / engineering / inspection section. Do not place in a product-angle gallery or imply this is the selected sample installed or being tested."
+        }
+      ],
+      "applicationImages": [
+        {
+          "filename": "open-switchbox.jpg",
+          "path": "/assets/images/product-categories/stock/control-panel-refresh/open-switchbox.jpg",
+          "dimensions": [
+            1600,
+            2397
+          ],
+          "sha256": "fb74c3bd84c49b64367976656ca63b8ac60cd7eff01a71b5e6caad726725fd8f",
+          "role": "application",
+          "altZh": "打开的设备电控箱与内部布线",
+          "altEn": "Open equipment control box with internal wiring",
+          "purpose": "Equipment routing, branch allocation and service-access discussion.",
+          "contentEvidence": "Actual photograph shows an open control box with boards, components and multiple internal wire paths; no claim that the selected harness is fitted to it.",
+          "isRealPhotography": true,
+          "publishedReferences": [
+            {
+              "file": "products/control-panel-harness.html",
+              "line": 102,
+              "url": "https://supersmile-tech.com/products/control-panel-harness",
+              "baseline": "c8969d680460b5cdd2626a0c17003db84f9f4a4f"
+            }
+          ],
+          "crop": "Portrait or 4:5 crop; keep the entire open box visible.",
+          "placementRule": "Place within the application / engineering / inspection section. Do not place in a product-angle gallery or imply this is the selected sample installed or being tested."
+        },
+        {
+          "filename": "color-coded-wiring.jpg",
+          "path": "/assets/images/product-categories/stock/control-panel-refresh/color-coded-wiring.jpg",
+          "dimensions": [
+            1600,
+            996
+          ],
+          "sha256": "1f231dcd20d7f3539a434084e4e74b007de2212cef03c85d32b46a800b0db6fe",
+          "role": "application",
+          "altZh": "机柜内按颜色整理的导线与端子",
+          "altEn": "Colour-organized wiring and terminals inside a cabinet",
+          "purpose": "Cabinet routing with local protection.",
+          "contentEvidence": "Actual open cabinet photograph has organised colour-coded wiring, conductor runs and terminal access; no claim the sample is installed here.",
+          "isRealPhotography": true,
+          "publishedReferences": [
+            {
+              "file": "products/control-panel-harness.html",
+              "line": 102,
+              "url": "https://supersmile-tech.com/products/control-panel-harness"
+            }
+          ],
+          "crop": "object-fit: cover; retain the equipment / wiring / technician subject.",
+          "placementRule": "Application section only. Context image, not the selected sample installed or a second product angle."
+        },
+        {
+          "filename": "panel-wire-adjustment.jpg",
+          "path": "/assets/images/product-categories/stock/control-panel-refresh/panel-wire-adjustment.jpg",
+          "dimensions": [
+            1600,
+            2844
+          ],
+          "sha256": "590af50410b67ae3d61c2f3a86c1394d474ddc34c29e3d74bb421b60bebde282",
+          "role": "application",
+          "altZh": "维修人员检修设备内部接线",
+          "altEn": "Technician servicing internal equipment wiring",
+          "purpose": "Removable modules and service replacement.",
+          "contentEvidence": "Actual technician accessing an open control assembly and internal wiring; supports service access, not interchangeability of this sample.",
+          "isRealPhotography": true,
+          "publishedReferences": [
+            {
+              "file": "products/control-panel-harness.html",
+              "line": 121,
+              "url": "https://supersmile-tech.com/products/control-panel-harness"
+            }
+          ],
+          "crop": "object-fit: cover; retain the equipment / wiring / technician subject.",
+          "placementRule": "Application section only. Context image, not the selected sample installed or a second product angle."
+        }
+      ]
+    },
+    "EX-cable-assembly-02-001": {
+      "categoryKey": "cable-assembly-02",
+      "sourceIndex": 1,
+      "titleZh": "M12四芯圆形接头公母连接线",
+      "mainImage": {
+        "filename": "e9da8e217b272957.webp",
+        "path": "/assets/images/product-galleries/e9da8e217b272957.webp",
+        "dimensions": [
+          1200,
+          1200
+        ],
+        "sha256": "4152c666c2d0fb73ff714ac3fe918847b52ccbdb9e3841242a92457fac1c4239",
+        "role": "selected-product-main",
+        "altZh": "M12四芯圆形接头公母连接线",
+        "altEn": "M12 circular male-to-female cable with straight connectors",
+        "purpose": "The selected product photograph, shown once as the main product image.",
+        "contentEvidence": "Published gallery photograph matched by category/sourceIndex and original SHA.",
+        "isRealPhotography": true,
+        "publishedReferences": [
+          {
+            "file": "products/circular-connector-assembly.html",
+            "line": 31,
+            "url": "https://supersmile-tech.com/products/circular-connector-assembly",
+            "baseline": "c8969d680460b5cdd2626a0c17003db84f9f4a4f"
+          },
+          {
+            "file": "custom.html",
+            "line": 62,
+            "url": "https://supersmile-tech.com/custom",
+            "baseline": "c8969d680460b5cdd2626a0c17003db84f9f4a4f"
+          }
+        ],
+        "crop": "object-fit: contain; retain all wires, connectors and ends on a white background",
+        "placementRule": "Main product photograph. Do not mix supporting context photographs into this product gallery.",
+        "sourceMappingKey": "cable-assembly-02:1",
+        "originalSha": "e9da8e217b27295727846d7e6bb415a95dbc5e87c70ae6953ee8a4fe0139d0ec",
+        "processingType": "ai_background_edit_then_square_transcode"
+      },
+      "sourceVerification": {
+        "sourcePageOpened": true,
+        "sourceUrl": "https://www.zsx-connector.com/m12-connector-4-core-waterproof-male-female-aviation-plug-with-cable/",
+        "sourceType": "Original supplier/manufacturer product page, ZSX",
+        "supports": [
+          "Title says M12, 4-core and male/female",
+          "Page model M12-4 and gender Male-to-Female reinforce the source name",
+          "Photograph-visible straight circular connectors, metal threaded locking parts, black jacket and molded exits"
+        ],
+        "reject": [
+          "50 ohm, DC–18 GHz, RF insertion loss and SMA text; clearly copied RF/SMA template",
+          "Voltage/current/temperature/IP/500-cycle/gold-plating or material claims not independently established for this assembly"
+        ],
+        "note": "Use the name and visible configuration only; confirm coding, mating parts, pin map and project ratings from the exact drawing."
+      },
+      "supporting": [
+        {
+          "filename": "cnc-machine.jpg",
+          "path": "/assets/images/product-categories/stock/industrial-equipment/cnc-machine.jpg",
+          "dimensions": [
+            1600,
+            1067
+          ],
+          "sha256": "40bfbfd27a792aebbced0b731cb6263786ffeb04d4178fdc71051f746b4f6512",
+          "role": "application",
+          "altZh": "机床工作区与设备连接环境",
+          "altEn": "Machine-tool work area and equipment connection environment",
+          "purpose": "Equipment-end interfaces, installed length, routing and service access.",
+          "contentEvidence": "Real machine-tool interior photograph; supports machinery connection context only, not a rating or installation record for this exact M12 lead.",
+          "isRealPhotography": true,
+          "publishedReferences": [
+            {
+              "file": "products/industrial-equipment-harness.html",
+              "line": 90,
+              "url": "https://supersmile-tech.com/products/industrial-equipment-harness",
+              "baseline": "c8969d680460b5cdd2626a0c17003db84f9f4a4f"
+            }
+          ],
+          "crop": "3:2 / 4:3 crop; keep machine work area and cable routing visible.",
+          "placementRule": "Place within the application / engineering / inspection section. Do not place in a product-angle gallery or imply this is the selected sample installed or being tested."
+        },
+        {
+          "filename": "_MG_6437.jpg",
+          "path": "/assets/images/factory/_MG_6437.jpg",
+          "dimensions": [
+            1920,
+            1320
+          ],
+          "sha256": "5bf1ac0be69d23f551d145bdb4377d2181c3e69b1080c2279fae72dae3d5e9ed",
+          "role": "engineering",
+          "altZh": "按颜色整理的线材与端子在制品",
+          "altEn": "Colour-organized wires and prepared terminal leads",
+          "purpose": "Conductor colour, length, contact preparation and pin-map control.",
+          "contentEvidence": "Company factory photograph shows coloured prepared wire/terminal bundles; does not prove a particular M12 pin map or material specification.",
+          "isRealPhotography": true,
+          "publishedReferences": [
+            {
+              "file": "custom.html",
+              "line": 156,
+              "url": "https://supersmile-tech.com/custom",
+              "baseline": "c8969d680460b5cdd2626a0c17003db84f9f4a4f"
+            }
+          ],
+          "crop": "3:2 crop; preserve multiple coloured wire bundles.",
+          "placementRule": "Place within the application / engineering / inspection section. Do not place in a product-angle gallery or imply this is the selected sample installed or being tested."
+        },
+        {
+          "filename": "_MG_5484.jpg",
+          "path": "/assets/images/factory/_MG_5484.jpg",
+          "dimensions": [
+            1200,
+            800
+          ],
+          "sha256": "f5081f053d23eec058527e544e830eb1d76792a1e733c6aa5cb4f247e2c7fc04",
+          "role": "inspection",
+          "altZh": "线束导通测试工位与测试线",
+          "altEn": "Harness continuity-test station and connected test leads",
+          "purpose": "Agreed continuity and inspection checks before release.",
+          "contentEvidence": "Real company test station; illustrative manufacturing workflow, not a certified environmental/IP test.",
+          "isRealPhotography": true,
+          "publishedReferences": [
+            {
+              "file": "custom.html",
+              "line": 156,
+              "url": "https://supersmile-tech.com/custom",
+              "baseline": "c8969d680460b5cdd2626a0c17003db84f9f4a4f"
+            }
+          ],
+          "crop": "4:3 or 3:2; preserve screen and wire bundle.",
+          "placementRule": "Place within the application / engineering / inspection section. Do not place in a product-angle gallery or imply this is the selected sample installed or being tested."
+        }
+      ],
+      "applicationImages": [
+        {
+          "filename": "pressure-instrumentation.jpg",
+          "path": "/assets/images/product-categories/stock/instrument-refresh/pressure-instrumentation.jpg",
+          "dimensions": [
+            1400,
+            1050
+          ],
+          "sha256": "9e55b10306a1e9fcb1a2b62d1966539534f798daaa40984362af4644e31e8b62",
+          "role": "application",
+          "altZh": "工艺设备上的测量仪表与接口环境",
+          "altEn": "Measurement instruments and connection environment on process equipment",
+          "purpose": "Sensors and equipment modules.",
+          "contentEvidence": "Actual installed instrumentation and pipework; application context only. M12 connectors or the exact selected cable are not visible and must not be claimed.",
+          "isRealPhotography": true,
+          "publishedReferences": [
+            {
+              "file": "products/instrument-and-sensor-harness.html",
+              "line": 113,
+              "url": "https://supersmile-tech.com/products/instrument-and-sensor-harness"
+            }
+          ],
+          "crop": "object-fit: cover; retain the equipment / wiring / technician subject.",
+          "placementRule": "Application section only. Context image, not the selected sample installed or a second product angle."
+        },
+        {
+          "filename": "cnc-machine.jpg",
+          "path": "/assets/images/product-categories/stock/industrial-equipment/cnc-machine.jpg",
+          "dimensions": [
+            1600,
+            1067
+          ],
+          "sha256": "40bfbfd27a792aebbced0b731cb6263786ffeb04d4178fdc71051f746b4f6512",
+          "role": "application",
+          "altZh": "机床工作区与设备连接环境",
+          "altEn": "Machine-tool work area and equipment connection environment",
+          "purpose": "Equipment-end interfaces, installed length, routing and service access.",
+          "contentEvidence": "Real machine-tool interior photograph; supports machinery connection context only, not a rating or installation record for this exact M12 lead.",
+          "isRealPhotography": true,
+          "publishedReferences": [
+            {
+              "file": "products/industrial-equipment-harness.html",
+              "line": 90,
+              "url": "https://supersmile-tech.com/products/industrial-equipment-harness",
+              "baseline": "c8969d680460b5cdd2626a0c17003db84f9f4a4f"
+            }
+          ],
+          "crop": "3:2 / 4:3 crop; keep machine work area and cable routing visible.",
+          "placementRule": "Place within the application / engineering / inspection section. Do not place in a product-angle gallery or imply this is the selected sample installed or being tested."
+        },
+        {
+          "filename": "machine-control-operation.jpg",
+          "path": "/assets/images/product-categories/stock/control-panel-refresh/machine-control-operation.jpg",
+          "dimensions": [
+            1600,
+            2844
+          ],
+          "sha256": "059356b491954e8780971d8556d30f45c1da22099b2aefa3431370af45744f5a",
+          "role": "application",
+          "altZh": "技术人员通过可接近的控制面板维护设备",
+          "altEn": "Technician accessing a machine control panel for service",
+          "purpose": "Cable extensions and service access.",
+          "contentEvidence": "Actual machine operator/service context with accessible control panel. It does not show this exact M12 lead or prove an extension route.",
+          "isRealPhotography": true,
+          "publishedReferences": [
+            {
+              "file": "products/control-panel-harness.html",
+              "line": 121,
+              "url": "https://supersmile-tech.com/products/control-panel-harness"
+            }
+          ],
+          "crop": "object-fit: cover; retain the equipment / wiring / technician subject.",
+          "placementRule": "Application section only. Context image, not the selected sample installed or a second product angle."
+        }
+      ]
+    }
+  },
+  "sourceReviewSummary": [
+    "Both original supplier pages were opened and read.",
+    "The M12 supplier page contains an unrelated RF/SMA parameter template; these figures are explicitly rejected.",
+    "The braided-harness supplier listing is broad and does not establish this sample’s exact materials, ratings or approvals.",
+    "Both main images and all supporting candidates were actually viewed; selected context photographs are distinct from the two sample photographs."
+  ],
+  "internalSupportingSourceRecords": [
+    {
+      "path": "/assets/images/product-categories/stock/control-panel-refresh/open-switchbox.jpg",
+      "record": "assets/images/product-categories/stock/control-panel-refresh/SOURCES.md",
+      "originalUrl": "https://www.pexels.com/photo/an-opened-switchbox-5767595/"
+    },
+    {
+      "path": "/assets/images/product-categories/stock/industrial-equipment/cnc-machine.jpg",
+      "record": "Existing published industrial-equipment-harness page; actual image inspected."
+    }
+  ],
+  "contactSheet": "/Users/myjob/Desktop/曹诗源/网站/定制服务优化_2026-10-14/.custom-service-qa/product-example-media-plan.jpg"
+}

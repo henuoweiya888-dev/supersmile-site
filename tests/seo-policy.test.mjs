@@ -33,11 +33,11 @@ function mockDocument() {
 test('public sitemap has unique topic-first metadata covering the requested business meanings', async () => {
   const xml = await fs.readFile(path.join(root, 'sitemap.xml'), 'utf8');
   assert.deepEqual(policy.pages.map(page => page.route), sitemapRoutes(xml));
-  assert.equal(policy.pages.length, 203);
-  assert.deepEqual(policy.pages.reduce((counts, page) => ({ ...counts, [page.kind]: (counts[page.kind] || 0) + 1 }), {}), { core: 9, product: 82, category: 99, landing: 8, series: 5 });
+  assert.equal(policy.pages.length, 205);
+  assert.deepEqual(policy.pages.reduce((counts, page) => ({ ...counts, [page.kind]: (counts[page.kind] || 0) + 1 }), {}), { core: 9, product: 82, category: 99, landing: 8, series: 5, example: 2 });
   for (const lang of ['en', 'zh']) {
-    assert.equal(new Set(policy.pages.map(page => page.title[lang])).size, 203);
-    assert.equal(new Set(policy.pages.map(page => page.description[lang])).size, 203);
+    assert.equal(new Set(policy.pages.map(page => page.title[lang])).size, 205);
+    assert.equal(new Set(policy.pages.map(page => page.description[lang])).size, 205);
   }
   for (const page of policy.pages) {
     assert.ok(page.title.en.length <= 80, page.route);
@@ -99,7 +99,7 @@ test('only English and Chinese are supported and removed languages do not update
   }
 });
 
-test('all 203 static transforms preserve content, canonicals, links and schema and load policy before main', async () => {
+test('all 205 static transforms preserve content, canonicals, links and schema and load policy before main', async () => {
   const stripManaged = html => html
     .replace(/<title\b[^>]*>[\s\S]*?<\/title>/gi, '')
     .replace(/<meta\b(?=[^>]*(?:name=["']description["']|property=["']og:(?:title|description)["']))[^>]*>/gi, '')

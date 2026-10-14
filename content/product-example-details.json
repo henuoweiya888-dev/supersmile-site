@@ -1,0 +1,663 @@
+{
+  "schemaVersion": "1.0",
+  "sharedCopy": {
+    "overviewLabel": {
+      "zh": "产品结构",
+      "en": "Product construction"
+    },
+    "structureTitle": {
+      "zh": "从主干到端头，了解连接结构。",
+      "en": "A closer look at the cable construction."
+    },
+    "applicationsTitle": {
+      "zh": "应用方向",
+      "en": "Application directions"
+    },
+    "configurationTitle": {
+      "zh": "结构与定制配置",
+      "en": "Construction & customization options"
+    },
+    "configurationLead": {
+      "zh": "以下说明展示结构与可配置内容。具体材料、尺寸、电路和检验要求按项目确认。",
+      "en": "The table describes the construction and available configuration choices. Materials, dimensions, circuits and inspection requirements are agreed for each project."
+    },
+    "configurationItemLabel": {
+      "zh": "配置项",
+      "en": "Configuration"
+    },
+    "configurationDescriptionLabel": {
+      "zh": "结构说明与定制方向",
+      "en": "Construction and customization choices"
+    },
+    "customizationTitle": {
+      "zh": "围绕设备，调整连接细节。",
+      "en": "Adapt the connection to your equipment."
+    },
+    "faqTitle": {
+      "zh": "产品与定制常见问题",
+      "en": "Product & customization questions"
+    },
+    "relatedLabel": {
+      "zh": "查看所属产品小类",
+      "en": "Explore the product category"
+    },
+    "ctaLabel": {
+      "zh": "咨询这款结构的定制",
+      "en": "Discuss a custom configuration"
+    },
+    "ctaProcess": {
+      "zh": "了解定制流程",
+      "en": "See the custom process"
+    },
+    "slogan": {
+      "zh": "Touched by me, better it’ll be",
+      "en": "Touched by me, better it’ll be"
+    }
+  },
+  "products": [
+    {
+      "id": "EX-custom-harness-09-001",
+      "slug": "braided-branch-harness",
+      "categoryId": "custom-harness-09",
+      "route": "/products/braided-branch-harness",
+      "categoryRoute": "/products/braided-protection-harness",
+      "group": {
+        "zh": "定制线束",
+        "en": "Custom wire harnesses"
+      },
+      "category": {
+        "zh": "编织防护线束",
+        "en": "Braided protection harnesses"
+      },
+      "title": {
+        "zh": "编织护套多分支线束",
+        "en": "Braided Multi-Branch Wire Harness"
+      },
+      "lede": {
+        "zh": "这款线束将多组白色插接端、独立引线和环形端子组合在一套多分支结构中。米色编织套分段包覆线束，分支出口留出接线空间，适合围绕设备内多个模块规划布线。定制时可调整分支长度、接口组合与护套覆盖位置。",
+        "en": "This multi-branch harness combines white connector housings, individual leads and a ring terminal. Selected runs have beige braided sleeves. The breakouts remain accessible for connection, while branch lengths, interfaces and sleeve coverage can be adapted to route wiring between several modules inside the equipment."
+      },
+      "heroImage": {
+        "src": "/assets/images/product-galleries/40c15bc1f6d41dea.webp",
+        "alt": {
+          "zh": "米色编织护套、多组白色插接端及环形端子的多分支线束",
+          "en": "Multi-branch harness with beige braided sleeves, white connector housings and a ring terminal"
+        }
+      },
+      "quickPoints": [
+        {
+          "zh": "多组插接端与独立引线",
+          "en": "Multiple connector ends and individual leads"
+        },
+        {
+          "zh": "分段编织套与分支出口",
+          "en": "Segmented braid with accessible breakouts"
+        },
+        {
+          "zh": "按设备布局定义长度与端头",
+          "en": "Lengths and terminations defined for the equipment"
+        }
+      ],
+      "structureIntro": {
+        "zh": "这套结构的重点是把集中布线与独立接入结合起来。长段线缆由编织套收束，接近模块处再分出插接端和引线；安装图需要同时说明主干路径、分支测量基准和每个端头的方向。",
+        "en": "The layout combines grouped routing with individual connection points. Braided sections gather the longer cable runs, while connector ends and leads separate near the modules. The installation drawing defines the trunk route, branch measurement datums and orientation of each termination."
+      },
+      "structure": [
+        {
+          "title": {
+            "zh": "分段编织护套",
+            "en": "Segmented braided sleeves"
+          },
+          "text": {
+            "zh": "米色编织套覆盖不同线束段，出口处采用束扎收尾。定制时根据摩擦位置、固定点和维修空间，确定覆盖长度与收口方式。",
+            "en": "The sleeves cover separate sections. Ties finish their exits; coverage and end finishing can follow the equipment’s abrasion points, fixing positions and service clearances."
+          }
+        },
+        {
+          "title": {
+            "zh": "白色多组插接端",
+            "en": "White connector groups"
+          },
+          "text": {
+            "zh": "多个白色壳体分布在主干与分支端部，形成不同模块的插接位置。接口需按实际对插端确认系列、针位、方向及端子配套。",
+            "en": "White housings sit at the trunk and branch ends for connections to separate modules. Selection follows the actual mating parts, defining the series, contact arrangement, orientation and terminals together."
+          }
+        },
+        {
+          "title": {
+            "zh": "分支与可见绞线",
+            "en": "Breakouts and twisted conductors"
+          },
+          "text": {
+            "zh": "护套外可见多色引线及部分绞合线段，便于分别规划各支路走向。导线颜色与绞合形式结合电路要求定义，功能以针脚表为准。",
+            "en": "Colored leads and some twisted conductor sections are visible outside the sleeves. Each branch can follow its own route. Wire colors and twisting are defined with the circuit requirements; the pin table establishes their functions."
+          }
+        },
+        {
+          "title": {
+            "zh": "独立环形端子",
+            "en": "Separate ring-terminal lead"
+          },
+          "text": {
+            "zh": "一条独立引线以环形端子结束，为螺钉式连接提供一种端接形式。孔径、端子材质、压接结构和电路用途按对应安装点选配。",
+            "en": "A ring terminal ends one separate lead. For this screw-fastened connection, stud-hole size, terminal material, crimp construction and circuit purpose are selected to suit the connection point."
+          }
+        },
+        {
+          "title": {
+            "zh": "保留接线的引线端",
+            "en": "Leads prepared for further connection"
+          },
+          "text": {
+            "zh": "部分引线未装插接壳体，可按设备装配方式定义后续端接。剥皮长度、端头处理、连接位置与绝缘保护应在组件图中写明。",
+            "en": "Some leads remain unhoused. Their preparation follows the equipment’s assembly method, with strip length, end treatment, connection location and insulation protection recorded in the assembly drawing."
+          }
+        }
+      ],
+      "applications": [
+        {
+          "title": {
+            "zh": "设备内部模块配线",
+            "en": "Internal equipment modules"
+          },
+          "text": {
+            "zh": "当一个机架内有多块控制板、传感器或辅助模块时，可用主干集中走线，再按各模块位置安排分支与插接方向。",
+            "en": "For a frame containing several control boards, sensors or auxiliary modules, a shared trunk can organize the cable route while branches follow the individual module positions."
+          }
+        },
+        {
+          "title": {
+            "zh": "带局部防护的机柜布线",
+            "en": "Cabinet routing with local protection"
+          },
+          "text": {
+            "zh": "在需要整理多根导线并保护部分走线路段的结构中，可围绕线槽、穿线口和固定点设置分段护套，保留端头的接线空间。",
+            "en": "Segmented sleeves can organize several conductors and protect selected runs along ducts, cable openings and fixing points. Leave connection space at the terminations."
+          }
+        },
+        {
+          "title": {
+            "zh": "可拆装模块与维修替换",
+            "en": "Removable modules and service replacement"
+          },
+          "text": {
+            "zh": "多组插接端有利于划分模块连接边界。定制时可配合线号、标签和服务环，安排拆装顺序与可接近的连接位置。",
+            "en": "Multiple connector groups provide boundaries between modules. Wire identification, labels and service loops can support the required removal sequence and accessible connection positions."
+          }
+        }
+      ],
+      "configuration": [
+        {
+          "label": {
+            "zh": "整体结构",
+            "en": "Overall layout"
+          },
+          "value": {
+            "zh": "多分支线束，含多个白色插接端及独立引线；支路布局按设备安装图定义。",
+            "en": "Multi-branch harness with white connector ends and individual leads; branch layout follows the equipment drawing."
+          }
+        },
+        {
+          "label": {
+            "zh": "编织护套",
+            "en": "Braided sleeves"
+          },
+          "value": {
+            "zh": "米色分段编织外观；材料、直径、覆盖长度与收口按温度、摩擦和安装条件选配。",
+            "en": "Beige segmented braid; material, diameter, coverage and finishing are selected for temperature, abrasion and installation conditions."
+          }
+        },
+        {
+          "label": {
+            "zh": "接口组合",
+            "en": "Connector selection"
+          },
+          "value": {
+            "zh": "按对插端选定壳体、端子、针位与方向，可调整各分支接口组合。",
+            "en": "Housings, terminals, positions and orientation are matched to the mating parts; the combination can vary by branch."
+          }
+        },
+        {
+          "label": {
+            "zh": "导线与电路",
+            "en": "Wire and circuits"
+          },
+          "value": {
+            "zh": "可配置线径、颜色、绞合方式与逐针电路；针脚与线色关系写入确认图。",
+            "en": "Conductor size, color, twisting and pin-to-pin circuits are configurable, with wire-color mapping recorded in the approved drawing."
+          }
+        },
+        {
+          "label": {
+            "zh": "分支尺寸",
+            "en": "Branch dimensions"
+          },
+          "value": {
+            "zh": "主干长度、分出位置和各支路线长按统一测量基准及公差定义。",
+            "en": "Trunk length, breakout positions and branch lengths are defined using consistent datums and tolerances."
+          }
+        },
+        {
+          "label": {
+            "zh": "环形端子与裸尾",
+            "en": "Ring terminal and open ends"
+          },
+          "value": {
+            "zh": "环形端子孔径、末端处理与电路用途按安装点确认；未端接线可配置所需端头。",
+            "en": "Ring-terminal bore, end preparation and circuit purpose are confirmed for the installation; open leads can receive the required terminations."
+          }
+        },
+        {
+          "label": {
+            "zh": "固定与标识",
+            "en": "Fixing and identification"
+          },
+          "value": {
+            "zh": "束扎位置、固定配件、线号和标签可结合安装顺序与维修需求调整。",
+            "en": "Tie positions, mounting accessories, wire numbers and labels can follow the installation sequence and service requirements."
+          }
+        },
+        {
+          "label": {
+            "zh": "项目检验",
+            "en": "Project inspection"
+          },
+          "value": {
+            "zh": "按确认图检查电路、尺寸、方向与外观；拉力、温度或其他专项项目另行约定。",
+            "en": "Circuit, dimensions, orientation and appearance are checked against the approved drawing; pull, temperature or other specific checks are agreed separately."
+          }
+        }
+      ],
+      "customization": [
+        {
+          "title": {
+            "zh": "按布局展开支路",
+            "en": "Route the branches around the layout"
+          },
+          "text": {
+            "zh": "提供设备布局、模块位置或原样品，可一起确定主干路径、分支长度和插接方向。",
+            "en": "Equipment layouts, module positions or an existing sample can define the trunk route, branch lengths and connector orientation."
+          }
+        },
+        {
+          "title": {
+            "zh": "匹配实际对插接口",
+            "en": "Match the actual mating interfaces"
+          },
+          "text": {
+            "zh": "结合对插件照片或料号，配置壳体、端子、线径与逐针连接关系。",
+            "en": "Mating-part photos or part numbers guide the housings, terminals, wire sizes and pin-to-pin connections."
+          }
+        },
+        {
+          "title": {
+            "zh": "调整护套与固定方式",
+            "en": "Set sleeve coverage and fixing"
+          },
+          "text": {
+            "zh": "围绕摩擦段、穿线口与维修空间，调整编织覆盖、收口、固定点和服务环。",
+            "en": "Review abrasion zones, routing openings and service space to define braid coverage, finishing, fixing points and service loops."
+          }
+        },
+        {
+          "title": {
+            "zh": "形成可复产的配置",
+            "en": "Record the repeat-build configuration"
+          },
+          "text": {
+            "zh": "将样品反馈落实到图纸、BOM和检验要求，记录线号与分支尺寸，作为后续制造依据。",
+            "en": "Sample feedback is recorded in the drawing, BOM and inspection requirements, including wire IDs and branch dimensions for later builds."
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": {
+            "zh": "编织套可以当作电磁屏蔽吗？",
+            "en": "Does the braid act as an electromagnetic shield?"
+          },
+          "answer": {
+            "zh": "编织外观本身不能确定屏蔽功能。如果项目需要EMI屏蔽，需要明确导电材料、覆盖结构、排流或外壳端接方式，并结合系统验证。",
+            "en": "The braided appearance does not establish shielding. An EMI requirement needs conductive materials, coverage and drain or shell termination defined, followed by the relevant system validation."
+          }
+        },
+        {
+          "question": {
+            "zh": "可以更改白色插头、分支数量和线长吗？",
+            "en": "Can the connectors, branch count and lengths change?"
+          },
+          "answer": {
+            "zh": "可以按设备需求重新定义。请提供对插件、针脚关系和安装尺寸；调整后同时复核端子与线径匹配、分支位置和装配空间。",
+            "en": "They can be redefined for the equipment. Provide the mating parts, pin mapping and installation dimensions so terminal/wire matching, breakout positions and assembly space can be reviewed together."
+          }
+        },
+        {
+          "question": {
+            "zh": "只有原样品，怎样开始定制？",
+            "en": "How can customization start from an existing sample?"
+          },
+          "answer": {
+            "zh": "可先记录接口、可见布线、尺寸和端头结构，再确认内部电路、材料与设备工况。确认图纸与样品后，确定生产配置。",
+            "en": "Start by recording the interfaces, visible routing, dimensions and terminations, then confirm the internal circuits, materials and operating conditions. The approved drawing and sample establish the production configuration."
+          }
+        }
+      ],
+      "cta": {
+        "title": {
+          "zh": "需要类似的多分支连接结构？",
+          "en": "Planning a similar multi-branch connection?"
+        },
+        "href": "/contact?category=custom-harness-09&product_name=Braided%20Multi-Branch%20Wire%20Harness",
+        "text": {
+          "zh": "发送设备布局、接口照片或现有样品说明，并告诉我们分支数量与数量需求。我们将围绕接口、电路和安装位置评估定制方案。",
+          "en": "Send the equipment layout, interface photos or details of an existing sample, together with the branch count and required quantity. We will review the interfaces, circuits and installation positions for a custom configuration."
+        },
+        "button": {
+          "zh": "咨询这款结构的定制",
+          "en": "Discuss a custom configuration"
+        }
+      },
+      "metaDescription": {
+        "zh": "了解编织护套多分支线束的白色插接端、独立引线、环形端子与分段防护结构，查看接口、线长、支路及标识的定制配置。中国工厂提供定制线束制造与 OEM/ODM 项目支持。",
+        "en": "Explore a braided multi-branch harness with white connectors, individual leads and a ring terminal. Review connector, branch-length, sleeve and labeling options. Custom wire harness manufacturing from our China factory, with OEM/ODM project support."
+      }
+    },
+    {
+      "id": "EX-cable-assembly-02-001",
+      "slug": "m12-4-pin-cable-assembly",
+      "categoryId": "cable-assembly-02",
+      "route": "/products/m12-4-pin-cable-assembly",
+      "categoryRoute": "/products/circular-connector-assembly",
+      "group": {
+        "zh": "定制电缆组件",
+        "en": "Custom cable assemblies"
+      },
+      "category": {
+        "zh": "圆形连接器电缆组件",
+        "en": "Circular connector assemblies"
+      },
+      "title": {
+        "zh": "M12四芯公母连接电缆",
+        "en": "M12 4-Core Male-to-Female Cable"
+      },
+      "lede": {
+        "zh": "这款M12四芯连接线采用公母两端、直出线结构，配有金属螺纹锁紧部位与黑色模制端头。单条护套电缆连接两端接口，便于按设备距离安排点对点连接。定制时围绕对插端、编码、针脚和布线空间确定具体配置。",
+        "en": "A single jacketed cable links the two interfaces. This M12 four-core male-to-female construction has straight cable exits, metal threaded coupling features and black molded ends for a point-to-point connection sized to the equipment layout. The mating parts, coding, pin map and routing space define the custom configuration."
+      },
+      "heroImage": {
+        "src": "/assets/images/product-galleries/e9da8e217b272957.webp",
+        "alt": {
+          "zh": "带金属螺纹连接部位、黑色模制端头和护套电缆的M12公母连接线",
+          "en": "M12 male-to-female cable with metal threaded coupling features, black molded ends and a jacketed cable"
+        }
+      },
+      "quickPoints": [
+        {
+          "zh": "公母两端点对点连接",
+          "en": "Male-to-female point-to-point connection"
+        },
+        {
+          "zh": "直出线与金属螺纹连接",
+          "en": "Straight exits and metal threaded coupling"
+        },
+        {
+          "zh": "按接口定义针脚与线长",
+          "en": "Pin map and length matched to the interfaces"
+        }
+      ],
+      "structureIntro": {
+        "zh": "圆形接口便于把接线点集中在电缆两端，螺纹连接用于固定插合位置。选配这类组件时，应同时考虑接口键位、针脚方向、端头长度以及锁紧操作所需空间。",
+        "en": "Circular interfaces concentrate the connections at the cable ends, with threaded coupling securing the mating position. Selection considers the interface keying, pin orientation, end dimensions and access needed to operate the coupling."
+      },
+      "structure": [
+        {
+          "title": {
+            "zh": "公母端接口组合",
+            "en": "Male and female interfaces"
+          },
+          "text": {
+            "zh": "两端形成公母配对结构，可作为设备接口间的连接配置。实际编码、接点排列与对插件完整系列应一并核对。",
+            "en": "Male/female ends link equipment interfaces. Coding, contact layout and the full mating-part series are checked together to define the mating configuration."
+          }
+        },
+        {
+          "title": {
+            "zh": "金属螺纹连接部位",
+            "en": "Metal threaded coupling"
+          },
+          "text": {
+            "zh": "端头带可见金属螺纹与滚花操作部位，用于插合锁紧。安装时预留旋紧空间，并按选定接口要求定义锁紧方式。",
+            "en": "Visible metal threads and a knurled coupling surface provide the mating connection. Allow room to operate the coupling. Fastening follows the selected interface’s requirements."
+          }
+        },
+        {
+          "title": {
+            "zh": "黑色模制出线端",
+            "en": "Black molded cable exits"
+          },
+          "text": {
+            "zh": "黑色端头衔接连接器与护套电缆，采用直出线方向。尾部尺寸、材料和应力消除结构可结合弯曲空间与固定位置选配。",
+            "en": "The molded exits are straight. They join the connector bodies to the jacketed cable, with rear dimensions, materials and strain-relief geometry selected for the bend clearance and fixing positions."
+          }
+        },
+        {
+          "title": {
+            "zh": "单条护套连接电缆",
+            "en": "Single jacketed cable run"
+          },
+          "text": {
+            "zh": "两端由一条黑色护套电缆连接。所需长度、导体配置、屏蔽和护套材料结合信号、负载及使用环境定义。",
+            "en": "A black jacketed cable joins the two ends. Length, conductor construction, shielding and jacket material are defined for the signals, loads and operating environment."
+          }
+        }
+      ],
+      "applications": [
+        {
+          "title": {
+            "zh": "传感器与设备模块连接",
+            "en": "Sensors and equipment modules"
+          },
+          "text": {
+            "zh": "对于采用对应M12接口的传感器或模块，可按设备针脚和接线距离配置连接线，兼顾插合方向与锁紧空间。",
+            "en": "Use the corresponding M12 interface as the starting point. For sensors or equipment modules, configuration follows the device pin map and connection distance, with mating orientation and coupling access considered."
+          }
+        },
+        {
+          "title": {
+            "zh": "控制单元与现场接口",
+            "en": "Control units and field interfaces"
+          },
+          "text": {
+            "zh": "在控制单元与现场连接点之间，可用两端插接结构规划可拆装的连接边界。电源、信号与屏蔽路径依据系统定义确认。",
+            "en": "Between a control unit and a field connection point, connector ends can define a removable connection boundary. Power, signal and shield paths follow the system definition."
+          }
+        },
+        {
+          "title": {
+            "zh": "设备线缆延伸与维护",
+            "en": "Cable extensions and service access"
+          },
+          "text": {
+            "zh": "当接口需要延伸到便于操作的位置时，可按线长和固定路径调整组件。公母接口的编码、针脚对应与空间匹配需同时确认。",
+            "en": "Where an interface needs to reach an accessible location, length and fixing routes can be adapted. Coding, pin mapping and clearance are confirmed for both ends."
+          }
+        }
+      ],
+      "configuration": [
+        {
+          "label": {
+            "zh": "接口形式",
+            "en": "Interface format"
+          },
+          "value": {
+            "zh": "M12四芯、公母两端的连接配置；具体系列与接点布局按对插件确认。",
+            "en": "M12 four-core male-to-female configuration; the exact series and contact layout are confirmed against the mating parts."
+          }
+        },
+        {
+          "label": {
+            "zh": "接口编码",
+            "en": "Coding"
+          },
+          "value": {
+            "zh": "按设备接口确定键位与编码，结合公母端插合面核对方向。",
+            "en": "Keying and coding are selected for the equipment interfaces, with orientation checked from the male and female mating faces."
+          }
+        },
+        {
+          "label": {
+            "zh": "电路与线序",
+            "en": "Circuit and wire map"
+          },
+          "value": {
+            "zh": "逐针直通、交叉或其他连接关系按电路要求定义，不由公母外形推定。",
+            "en": "Straight-through, crossover or other pin connections follow the circuit requirements and are not inferred from the male/female format."
+          }
+        },
+        {
+          "label": {
+            "zh": "长度与基准",
+            "en": "Length and datum"
+          },
+          "value": {
+            "zh": "总长、端头长度与测量基准按设备间距和布线路径确认。",
+            "en": "Overall length, connector-end dimensions and measurement datums follow the equipment spacing and routing path."
+          }
+        },
+        {
+          "label": {
+            "zh": "导体与屏蔽",
+            "en": "Conductors and shielding"
+          },
+          "value": {
+            "zh": "导体截面、绞合、屏蔽与接地方式按负载和信号要求选配。",
+            "en": "Conductor area, stranding, shielding and grounding are selected for the load and signal requirements."
+          }
+        },
+        {
+          "label": {
+            "zh": "端头与护套",
+            "en": "Molded ends and jacket"
+          },
+          "value": {
+            "zh": "展示为黑色模制直出线结构；材料、颜色、弯曲和应力保护配置按项目调整。",
+            "en": "The shown construction has black molded straight exits; materials, colors, bend clearance and strain protection can be configured for the project."
+          }
+        },
+        {
+          "label": {
+            "zh": "环境防护",
+            "en": "Environmental protection"
+          },
+          "value": {
+            "zh": "根据温度、油液、运动和进水条件选材；所需防护等级及验证条件单独确认。",
+            "en": "Materials follow temperature, fluids, motion and ingress conditions; any required protection rating and validation conditions are agreed separately."
+          }
+        },
+        {
+          "label": {
+            "zh": "检验与标识",
+            "en": "Inspection and identification"
+          },
+          "value": {
+            "zh": "按确认针脚表检查导通与接线，结合项目定义尺寸、标识及其他检验项。",
+            "en": "Continuity and wiring follow the approved pin table, with dimensions, identification and other checks defined for the project."
+          }
+        }
+      ],
+      "customization": [
+        {
+          "title": {
+            "zh": "先匹配对插端",
+            "en": "Start with the mating parts"
+          },
+          "text": {
+            "zh": "提供设备接口型号或清晰插合面照片，确认M12系列、编码、公母和针位。",
+            "en": "Start with the equipment-interface part numbers or clear mating-face photos. These identify the M12 series, coding, gender and contact positions."
+          }
+        },
+        {
+          "title": {
+            "zh": "定义电路与长度",
+            "en": "Define circuits and length"
+          },
+          "text": {
+            "zh": "结合电源、信号和安装距离，确认逐针连接关系、导体结构与线长基准。",
+            "en": "Power, signals and installation distance guide the pin-to-pin map, conductor construction and length datum."
+          }
+        },
+        {
+          "title": {
+            "zh": "选择护套与端头",
+            "en": "Select the jacket and ends"
+          },
+          "text": {
+            "zh": "根据固定或运动安装、温度、油液和弯曲空间，评估护套、屏蔽与端头配置。",
+            "en": "Fixed or moving installation, temperature, fluids and bend space guide the jacket, shielding and connector-end configuration."
+          }
+        },
+        {
+          "title": {
+            "zh": "安排样品验证",
+            "en": "Plan the sample checks"
+          },
+          "text": {
+            "zh": "围绕实际设备确认插合、锁紧、接线和安装，再落实项目需要的电气或环境检验。",
+            "en": "Check mating, coupling, wiring and installation on the target equipment, then carry out the electrical or environmental checks agreed for the project."
+          }
+        }
+      ],
+      "faq": [
+        {
+          "question": {
+            "zh": "四芯M12接口都可以直接互换吗？",
+            "en": "Are all four-core M12 interfaces interchangeable?"
+          },
+          "answer": {
+            "zh": "需要同时核对系列、编码、公母、接点布局和针脚功能。即使外形接近，键位或电路也可能不同；请提供完整接口资料。",
+            "en": "Series, coding, gender, contact layout and pin functions must all match. Similar-looking interfaces can have different keying or circuits, so provide the complete interface information."
+          }
+        },
+        {
+          "question": {
+            "zh": "这款连接线可以使用什么电压、电流或防护等级？",
+            "en": "Which voltage, current or protection rating can be specified?"
+          },
+          "answer": {
+            "zh": "结合选定连接器、导体、护套和实际工况确定。请说明负载、环境及所需试验条件，我们据此审核整条组件配置，确认相应检验范围。",
+            "en": "These are defined using the selected connectors, conductors, jacket and operating conditions. Provide the load, environment and required test conditions so the complete assembly and inspection scope can be reviewed."
+          }
+        },
+        {
+          "question": {
+            "zh": "可以定制线长、线序和标签吗？",
+            "en": "Can length, pin mapping and labels be customized?"
+          },
+          "answer": {
+            "zh": "可以。请提供长度基准、逐针对应关系与标识内容。涉及屏蔽、接地或不同端头时，一并核对接口适配和安装空间。",
+            "en": "Yes. Provide the length datum, pin-to-pin map and identification content. Shielding, grounding or different end configurations are reviewed together with interface fit and installation space."
+          }
+        }
+      ],
+      "cta": {
+        "title": {
+          "zh": "为您的设备配置M12连接线。",
+          "en": "Configure an M12 cable for your equipment."
+        },
+        "href": "/contact?category=cable-assembly-02&product_name=M12%204-Core%20Male-to-Female%20Cable",
+        "text": {
+          "zh": "发送两端接口照片、针脚要求和目标长度，并说明使用环境与数量。我们将一起确认接口匹配、线缆结构及样品检查项目。",
+          "en": "Send photos of both interfaces, the pin requirements and target length, along with the environment and quantity. We will work through the mating interfaces, cable construction and sample checks."
+        },
+        "button": {
+          "zh": "咨询这款结构的定制",
+          "en": "Discuss a custom configuration"
+        }
+      },
+      "metaDescription": {
+        "zh": "了解M12四芯公母连接电缆的螺纹接口、黑色模制端头与护套结构，查看编码、针脚、线长、材料和检验的定制配置。中国工厂提供定制线束制造与 OEM/ODM 项目支持。",
+        "en": "Explore an M12 four-core male-to-female cable with threaded coupling and molded ends. Review coding, pin-map, length, material and inspection choices. Custom wire harness manufacturing from our China factory, with OEM/ODM project support."
+      }
+    }
+  ]
+}

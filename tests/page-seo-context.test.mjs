@@ -19,8 +19,10 @@ const quoteUrl = html => new URL(decode(html.match(/<a\b[^>]*class="mc-quote"[^>
 const galleries = html => html.match(/<!-- PRODUCT GALLERY START -->[\s\S]*?<!-- PRODUCT GALLERY END -->/)?.[0] || html.match(/<section\b[^>]*class="[^"]*product-gallery[^>]*>[\s\S]*?<\/section>/)?.[0];
 
 test('all 203 static contexts agree with runtime data, preserve gallery and are idempotent', async () => {
-  assert.equal(policy.pages.length, 203);
-  for (const page of policy.pages) {
+  assert.equal(policy.pages.length, 205);
+  const existingPages = policy.pages.filter(page => page.kind !== 'example');
+  assert.equal(existingPages.length, 203);
+  for (const page of existingPages) {
     const html = await fs.readFile(path.join(root, htmlPathForRoute(page.route)), 'utf8');
     const output = withPageSeo(html, page.route);
     assert.equal(withPageSeo(output, page.route), output, `${page.route} idempotence`);
@@ -48,6 +50,19 @@ test('all 203 static contexts agree with runtime data, preserve gallery and are 
     assert.equal(url.searchParams.get('category'), page.categoryKey || null, page.route);
     assert.equal(url.searchParams.get('products'), page.productId || null, page.route);
     assert.equal([...url.searchParams.keys()].length, 1 + Number(!!page.categoryKey) + Number(!!page.productId), page.route);
+  }
+});
+
+test('example presentations keep their product-specific customization chapter without a second generic inquiry block', async () => {
+  const examples = policy.pages.filter(page => page.kind === 'example');
+  assert.equal(examples.length, 2);
+  for (const page of examples) {
+    const html = await fs.readFile(path.join(root, htmlPathForRoute(page.route)), 'utf8');
+    const output = withPageSeo(html, page.route);
+    assert.equal(output, html, page.route);
+    assert.match(output, /id="pe-customization"/);
+    assert.match(output, /class="pe-cta"/);
+    assert.doesNotMatch(output, /id="manufacturing-context"/);
   }
 });
 

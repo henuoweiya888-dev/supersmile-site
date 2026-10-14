@@ -13,6 +13,8 @@ export function withPageSeo(html,route) {
   const page = policy.pages.find(page=>page.route===route);
   if(!page) return html;
   let output=withSeoPolicy(html,route,policy);
+  // Example presentations already carry their own product-specific customization chapter and inquiry links.
+  if(page.kind==='example') return output;
   const resolved=runtime.resolve({path:route,lang:'en'});
   const section=scope.SS_MANUFACTURING_CONTEXT.render({path:route,lang:'en',procurementContext:resolved.procurementContext,categoryKey:page.categoryKey,productId:page.productId});
   output=output.replace(/<!-- MANUFACTURING CONTEXT START -->[\s\S]*?<!-- MANUFACTURING CONTEXT END -->\s*/g,'');

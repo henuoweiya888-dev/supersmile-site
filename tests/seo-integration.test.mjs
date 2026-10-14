@@ -102,8 +102,10 @@ test('all 203 initial manufacturing sections equal runtime EN and preserve route
   const scope = { window: {}, URL, URLSearchParams };
   runInNewContext(policyScript, scope);
   runInNewContext(contextScript, scope);
-  assert.equal(policyData.pages.length, 203);
-  for (const page of policyData.pages) {
+  assert.equal(policyData.pages.length, 205);
+  const existingPages = policyData.pages.filter(page => page.kind !== 'example');
+  assert.equal(existingPages.length, 203);
+  for (const page of existingPages) {
     const html = await read(htmlPathForRoute(page.route));
     const match = html.match(/<!-- MANUFACTURING CONTEXT START -->\s*([\s\S]*?)\s*<!-- MANUFACTURING CONTEXT END -->/);
     assert.ok(match, page.route);
