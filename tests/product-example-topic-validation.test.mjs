@@ -9,3 +9,24 @@ test('a reviewed topic needs six applications in the same order as its imagery p
  const topic={configuration:Array(6).fill({}),applications:apps,faq:Array(3).fill({})},plan={directions:structuredClone(apps)};
  assert.doesNotThrow(()=>validateExampleTopic(r,topic,plan));plan.directions.reverse();assert.throws(()=>validateExampleTopic(r,topic,plan),/copy and photography plan disagree/);
 });
+test('contact temperature applications reject photographs of non-contact infrared thermometers',()=>{
+ const record={exampleId:'EX-temperature-test',categoryId:'specialty-03',nameEn:'Pt100 RTD probe harness'};
+ const apps=Array.from({length:6},(_,i)=>({title:{en:'RTD sensing point '+i,zh:'温阻测点 '+i},text:{en:'Define contact sensing and lead routing.',zh:'确认接触测温与引线路径。'}}));
+ const topic={configuration:Array(6).fill({}),applications:apps,faq:Array(3).fill({})};
+ const plan={directions:apps.map(app=>({...structuredClone(app),candidates:[{path:'/photos/heating-chamber.jpg',actualSubject:{en:'An oven heating chamber',zh:'烤箱加热腔体'}}]}))};
+ assert.doesNotThrow(()=>validateExampleTopic(record,topic,plan));
+ plan.directions[2].candidates=[{path:'/photos/infrared-tool.jpg',actualSubject:{en:'A handheld infrared thermometer',zh:'手持红外测温仪'}}];
+ assert.throws(()=>validateExampleTopic(record,topic,plan),/cannot illustrate a contact temperature sensor/);
+ plan.directions[2].candidates=[{path:'/assets/images/product-categories/stock/high-temperature-wire-and-cable/thermal-check.jpg',altEn:'Heated surface'}];
+ assert.throws(()=>validateExampleTopic(record,topic,plan),/cannot illustrate a contact temperature sensor/);
+});
+test('known optical and storage photographs cannot stand in for copper or USB interfaces',()=>{
+ const opticalPhoto={path:'/assets/images/product-categories/stock/shielded-twisted-pair/pair-ports.jpg'};
+ const apps=Array.from({length:6},(_,i)=>({title:{en:'Rack connections '+i,zh:'机架连接 '+i},text:{en:'Define equipment ports and the routing space.',zh:'确认设备端口和走线路径。'}}));
+ const topic={configuration:Array(6).fill({}),applications:apps,faq:Array(3).fill({})};
+ const plan={directions:apps.map(app=>({...structuredClone(app),candidates:[opticalPhoto]}))};
+ assert.throws(()=>validateExampleTopic({exampleId:'EX-copper',categoryId:'cable-assembly-16',nameEn:'RJ45 Ethernet cable'},undefined,plan),/cannot illustrate a copper network interface/);
+ assert.doesNotThrow(()=>validateExampleTopic({exampleId:'EX-optical',categoryId:'connector-systems-13',nameEn:'LC Fiber cable'},topic,plan));
+ const usbPlan={directions:[{title:{en:'USB interface',zh:'USB接口'},candidates:[{path:'/assets/images/product-categories/stock/power/data-centre-equipment-pexels.jpg'}]}]};
+ assert.throws(()=>validateExampleTopic({exampleId:'EX-usb',categoryId:'cable-assembly-06',nameEn:'USB cable'},undefined,usbPlan),/cannot illustrate a USB interface with a SAS drive-bay/);
+});

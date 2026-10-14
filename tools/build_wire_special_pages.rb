@@ -59,9 +59,10 @@ def topic_card(topic, slug, index)
     'zh'=>"图片用于说明“#{topic['title']['zh']}”的相关场景，不代表超斯迈尔测试结果或认证。"
   }
   photo_alt = topic['photoAlt'] || topic['title']
+  image_path = topic['imagePath'] || "/assets/images/product-categories/stock/#{slug}/#{topic['image']}"
   <<~HTML
   <article class="ws-topic" data-reveal>
-    <figure class="ws-media"><div class="ws-media-frame"><img src="/assets/images/product-categories/stock/#{h(slug)}/#{h(topic['image'])}" alt="#{h(photo_alt['en'])}" data-alt-en="#{h(photo_alt['en'])}" data-alt-zh="#{h(photo_alt['zh'])}" loading="lazy"></div><figcaption>#{pair(caption)}</figcaption></figure>
+    <figure class="ws-media"><div class="ws-media-frame"><img src="#{h(image_path)}" alt="#{h(photo_alt['en'])}" data-alt-en="#{h(photo_alt['en'])}" data-alt-zh="#{h(photo_alt['zh'])}" loading="lazy"></div><figcaption>#{pair(caption)}</figcaption></figure>
     <div class="ws-copy">#{pair(topic['title'], tag:'h3')}#{pair(topic['copy'], tag:'p')}</div>
   </article>
   HTML
