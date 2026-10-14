@@ -8,10 +8,12 @@ const content=JSON.parse(await fs.readFile(compiled,'utf8'));
 const media=JSON.parse(await fs.readFile(path.join(root,'.product-example-scale-qa/compiled-media.json'),'utf8'));
 const shell=await fs.readFile(path.join(root,'products/braided-protection-harness.html'),'utf8');
 const header=shell.match(/<header class="header">[\s\S]*?<\/header>/)[0];
-const footer=shell.match(/<footer class="footer">[\s\S]*?<\/footer>/)[0];
+const footer=shell.match(/<footer class="footer">[\s\S]*?<\/footer>/)[0].replace(/<a\b[^>]*href="\/(?:turbo-actuator-harness|obd2-diagnostic-cable|j1939-cable)"[^>]*>[\s\S]*?<\/a>/g,'');
 const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const pair=value=>`<span class="pe-copy" lang="en">${esc(value.en)}</span><span class="pe-copy" lang="zh">${esc(value.zh)}</span>`;
 const ui=content.sharedCopy;
+const relatedSeries=JSON.parse(await fs.readFile(path.join(root,'content/product-example-related-series.json'),'utf8'));
+const sectionTitle=p=>p.layoutType==='material-selection'?{en:'Conductor, insulation and material choices',zh:'导体、绝缘与选材要点'}:{en:'Connection structure and design details',zh:'连接结构与设计要点'};
 const literal=(en,zh)=>pair({en,zh});
 const image=(m,cls='')=>`<img class="${cls}" src="${esc(m.path)}" width="${m.dimensions[0]}" height="${m.dimensions[1]}" alt="${esc(m.altEn)}" data-pe-alt-en="${esc(m.altEn)}" data-pe-alt-zh="${esc(m.altZh)}" loading="lazy" decoding="async">`;
 const link=(url,label,cls='')=>`<a class="${cls}" href="${esc(url)}" data-pe-href="${esc(url)}">${pair(label)} <span aria-hidden="true">↗</span></a>`;
@@ -31,7 +33,11 @@ for(const p of content.products){
  const applications=m.applicationImages;
  const process=m.engineering;
  const inspection=m.inspection;
- const construction=m.construction;
+ const construction=m.constructionDetail;
+ if(applications.length!==6||applications.some(x=>!x))throw new Error('All six applications need reviewed photographs: '+p.id);
+ const constructionImages=construction.crops;
+ const related=relatedSeries[p.id]||relatedSeries[p.categoryId];
+ const wideApplications=p.applications.some(a=>a.text.en.split(/\s+/).length>=45);
  const canonical='https://supersmile-tech.com'+p.route;
  const inquiry=new URL(p.cta.href,'https://supersmile-tech.com');
  inquiry.searchParams.set('source_page',p.route);
@@ -60,7 +66,7 @@ for(const p of content.products){
 <meta property="og:type" content="product"><meta property="og:url" content="${canonical}"><meta property="og:title" content="${esc(p.title.en)} | Super Smile-Tech"><meta property="og:description" content="${esc(p.metaDescription.en)}"><meta property="og:image" content="https://supersmile-tech.com${p.heroImage.src}">
 <meta name="twitter:card" content="summary_large_image"><meta name="theme-color" content="#090a0d">
 <link rel="icon" href="/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
-<link rel="stylesheet" href="/assets/css/style.css?v=20260825v3"><link rel="stylesheet" href="/assets/css/industrial-v2.css?v=20261012-bilingual1"><link rel="stylesheet" href="/assets/css/product-example-detail.css?v=20261014-2">
+<link rel="stylesheet" href="/assets/css/style.css?v=20260825v3"><link rel="stylesheet" href="/assets/css/industrial-v2.css?v=20261012-bilingual1"><link rel="stylesheet" href="/assets/css/product-example-detail.css?v=20261014-quality1">
 <script id="pe-structured-data" type="application/ld+json">${JSON.stringify(structured).replaceAll('<','\\u003c')}</script>
 <script id="pe-page-data" type="application/json">${JSON.stringify(metadata).replaceAll('<','\\u003c')}</script>
 </head><body class="page-product-example ${p.id==='EX-cable-assembly-02-001'?'pe-m12':p.id==='EX-custom-harness-09-001'?'pe-braided':'pe-assembly'} pe-layout-${p.layoutType}">
@@ -75,11 +81,12 @@ ${header}
  </div></section>
  <nav class="pe-jump-nav" aria-label="On this page" data-pe-aria-en="On this page" data-pe-aria-zh="本页导览"><div class="pe-shell">${[['pe-construction',ui.overviewLabel],['pe-configuration',ui.configurationTitle],['pe-applications',ui.applicationsTitle],['pe-customization',{en:'Customization support',zh:'定制支持'}]].map(([id,label])=>`<a href="#${id}">${pair(label)}<span class="pe-arrow" aria-hidden="true">↘</span></a>`).join('')}</div></nav>
  <section class="pe-section" id="pe-construction"><div class="pe-shell">
-  <div class="pe-section-head"><span class="pe-eyebrow">${literal('CONSTRUCTION','结构解析')}</span><h2>${pair(ui.structureTitle)}</h2><p>${pair(p.structureIntro)}</p></div>
-  <div class="pe-construction ${construction?'':'pe-construction-text'}">${construction?`<div class="pe-construction-photo">${image(construction)}</div>`:''}<div class="pe-feature-list">${p.structure.map((x,i)=>`<article class="pe-feature"><span class="pe-feature-index" aria-hidden="true">${String(i+1).padStart(2,'0')}</span><h3>${pair(x.title)}</h3><p>${pair(x.text)}</p></article>`).join('')}</div></div>
+  <div class="pe-section-head"><span class="pe-eyebrow">${literal('CONSTRUCTION','结构解析')}</span><h2>${pair(sectionTitle(p))}</h2><p>${pair(p.structureIntro)}</p></div>
+  <div class="pe-construction ${constructionImages.length?'':'pe-construction-text'}">${constructionImages.length?`<div class="pe-construction-media">${constructionImages.map(crop=>`<div class="pe-product-detail-crop" data-pe-crop="${[crop.x,crop.y,crop.w,crop.h].join(',')}" style="aspect-ratio:${crop.w*construction.dimensions[0]}/${crop.h*construction.dimensions[1]}"><img src="${esc(construction.path)}" width="${construction.dimensions[0]}" height="${construction.dimensions[1]}" alt="${esc(construction.alt.en)}" data-pe-alt-en="${esc(construction.alt.en)}" data-pe-alt-zh="${esc(construction.alt.zh)}" loading="lazy" decoding="async" style="width:${100/crop.w}%;left:${-100*crop.x/crop.w}%;top:${-100*crop.y/crop.h}%"></div>`).join('')}</div>`:''}<div class="pe-feature-list">${p.structure.map((x,i)=>`<article class="pe-feature"><span class="pe-feature-index" aria-hidden="true">${String(i+1).padStart(2,'0')}</span><h3>${pair(x.title)}</h3><p>${pair(x.text)}</p></article>`).join('')}</div></div>
  </div></section>
  <section class="pe-section pe-configuration" id="pe-configuration"><div class="pe-shell pe-config-grid"><div class="pe-config-copy"><span class="pe-eyebrow">${literal('CONFIGURATION','结构与选配')}</span><h2>${pair(ui.configurationTitle)}</h2><p>${pair(ui.configurationLead)}</p></div><table class="pe-config-table"><tbody>${p.configuration.map(x=>`<tr><th scope="row">${pair(x.label)}</th><td>${pair(x.value)}</td></tr>`).join('')}</tbody></table></div></section>
- <section class="pe-section pe-applications" id="pe-applications"><div class="pe-shell"><div class="pe-section-head"><span class="pe-eyebrow">${literal('APPLICATIONS','连接的应用')}</span><h2>${pair(ui.applicationsTitle)}</h2><p>${pair(p.applicationsIntro)}</p></div><div class="pe-app-grid">${p.applications.map((x,i)=>`<article class="pe-app ${applications[i]?'':'pe-app-text'}">${applications[i]?`<div class="pe-app-media">${image(applications[i])}<h3>${pair(x.title)}</h3></div>`:`<div class="pe-app-heading"><span aria-hidden="true">${String(i+1).padStart(2,'0')}</span><h3>${pair(x.title)}</h3></div>`}<p>${pair(x.text)}</p></article>`).join('')}</div></div></section>
+ ${related?`<aside class="pe-related-series"><div class="pe-shell"><div><span class="pe-eyebrow">${literal('RELATED CONNECTIONS','相关连接')}</span><h2>${pair(related.title)}</h2><p>${pair(related.text)}</p></div><div class="pe-related-series-links">${related.links.map(x=>`<article>${link(x.href,x.label)}<p>${pair(x.description)}</p></article>`).join('')}</div></div></aside>`:''}
+ <section class="pe-section pe-applications" id="pe-applications"><div class="pe-shell"><div class="pe-section-head"><span class="pe-eyebrow">${literal('APPLICATIONS','连接的应用')}</span><h2>${pair(ui.applicationsTitle)}</h2><p>${pair(p.applicationsIntro)}</p></div><div class="pe-app-grid ${wideApplications?'pe-app-grid-wide':''}">${p.applications.map((x,i)=>`<article class="pe-app"><div class="pe-app-media">${image(applications[i])}<h3>${pair(x.title)}</h3></div><p>${pair(x.text)}</p></article>`).join('')}</div></div></section>
  <section class="pe-section" id="pe-customization"><div class="pe-shell"><div class="pe-section-head"><span class="pe-eyebrow">${literal('ENGINEERING & PRODUCTION','工程与制造')}</span><h2>${pair(ui.customizationTitle)}</h2></div><div class="pe-support-grid"><div class="pe-support-media">${process?image(process):''}<div class="pe-motto">${pair(ui.slogan)}</div>${inspection?`<div class="pe-inspection-media">${image(inspection)}</div>`:''}</div><div class="pe-support-list"><article class="pe-manufacturing"><h3>${pair(p.manufacturing.title)}</h3><p>${pair(p.manufacturing.text)}</p></article>${p.customization.map(x=>`<article><h3>${pair(x.title)}</h3><p>${pair(x.text)}</p></article>`).join('')}</div></div></div></section>
  <section class="pe-section pe-faq"><div class="pe-shell pe-faq-grid"><div><span class="pe-eyebrow">${literal('PRODUCT QUESTIONS','产品问答')}</span><h2>${pair(ui.faqTitle)}</h2></div><div>${p.faq.map(x=>`<details><summary>${pair(x.question)}</summary><p>${pair(x.answer)}</p></details>`).join('')}</div></div></section>
  <section class="pe-cta"><div class="pe-shell pe-cta-grid"><div><h2>${pair(p.cta.title)}</h2><p>${pair(p.cta.text)}</p></div>${link(inquiryPath,p.cta.button,'pe-action')}</div></section>
@@ -88,9 +95,9 @@ ${header}
 ${footer}
 <dialog class="pe-image-dialog" aria-labelledby="pe-dialog-title"><div class="pe-dialog-head"><h2 id="pe-dialog-title">${pair(p.title)}</h2><button class="pe-dialog-close" type="button" aria-label="Close product photograph" data-pe-aria-en="Close product photograph" data-pe-aria-zh="关闭产品大图">×</button></div><img src="${p.heroImage.src}" width="${p.heroImage.dimensions[0]}" height="${p.heroImage.dimensions[1]}" alt="${esc(p.heroImage.alt.en)}" data-pe-alt-en="${esc(p.heroImage.alt.en)}" data-pe-alt-zh="${esc(p.heroImage.alt.zh)}"></dialog>
 <div class="toast" id="toast"></div>
-<script defer src="/assets/js/seo-policy.js?v=20261014-examples2"></script><script defer src="/assets/js/main.js?v=20261012-bilingual1"></script><script defer src="/assets/js/product-example-detail.js?v=20261014-2"></script>
+<script defer src="/assets/js/seo-policy.js?v=20261014-quality2"></script><script defer src="/assets/js/main.js?v=20261014-quality1"></script><script defer src="/assets/js/product-example-detail.js?v=20261014-2"></script>
 </body></html>\n`;
- await fs.writeFile(path.join(root,'products',p.slug+'.html'),html);
+ await fs.writeFile(path.join(root,'products',p.slug+'.html'),html.replace(/[ \t]+$/gm,''));
 }
 const sitemapPath=path.join(root,'sitemap.xml');
 let sitemap=await fs.readFile(sitemapPath,'utf8');

@@ -5,12 +5,12 @@ import test from 'node:test';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const version = '20261012-bilingual1';
+const version = '20261014-quality1';
 
 function sourceFiles(directory = root) {
   return readdirSync(directory, { withFileTypes: true }).flatMap(entry => {
     const fullPath = path.join(directory, entry.name);
-    if (entry.isDirectory()) return sourceFiles(fullPath);
+    if (entry.isDirectory()) return entry.name.startsWith('.') ? [] : sourceFiles(fullPath);
     return entry.name.endsWith('.html') ? [fullPath] : [];
   });
 }

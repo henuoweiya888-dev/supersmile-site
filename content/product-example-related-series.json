@@ -1,0 +1,488 @@
+{
+  "automotive-14": {
+    "insertAfterSection": "pe-configuration",
+    "title": {
+      "zh": "延伸阅读：相关连接选型",
+      "en": "Further reading: related connection guides"
+    },
+    "text": {
+      "zh": "结合接口与回路定义，可继续查看相应产品系列的选型说明。",
+      "en": "Continue with the related selection guide when defining the interfaces and circuits."
+    },
+    "links": [
+      {
+        "href": "/turbo-actuator-harness",
+        "label": {
+          "zh": "继续了解涡轮执行器连接",
+          "en": "Explore turbo actuator connections"
+        },
+        "description": {
+          "zh": "按执行器型号、接口与控制回路区分连接结构，再核对发动机侧布线。",
+          "en": "Compare connection forms by actuator model, interface and control circuit, then review engine-side routing."
+        }
+      }
+    ],
+    "scope": "Body-only contextual reading; do not render in footer or claim compatibility with the example."
+  },
+  "automotive-01": {
+    "insertAfterSection": "pe-configuration",
+    "title": {
+      "zh": "延伸阅读：相关连接选型",
+      "en": "Further reading: related connection guides"
+    },
+    "text": {
+      "zh": "结合接口与回路定义，可继续查看相应产品系列的选型说明。",
+      "en": "Continue with the related selection guide when defining the interfaces and circuits."
+    },
+    "links": [
+      {
+        "href": "/obd2-diagnostic-cable",
+        "label": {
+          "zh": "查看OBD诊断连接选型",
+          "en": "Review OBD diagnostic connections"
+        },
+        "description": {
+          "zh": "进一步区分车辆端、工具端与供电通信路径，了解延长、分线及转接的选型边界。",
+          "en": "Distinguish vehicle/tool ends and power/communication paths, with selection notes for extensions, breakouts and adapters."
+        }
+      }
+    ],
+    "scope": "Body-only contextual reading; do not render in footer or claim compatibility with the example."
+  },
+  "automotive-03": {
+    "insertAfterSection": "pe-configuration",
+    "title": {
+      "zh": "延伸阅读：相关连接选型",
+      "en": "Further reading: related connection guides"
+    },
+    "text": {
+      "zh": "结合接口与回路定义，可继续查看相应产品系列的选型说明。",
+      "en": "Continue with the related selection guide when defining the interfaces and circuits."
+    },
+    "links": [
+      {
+        "href": "/j1939-cable",
+        "label": {
+          "zh": "了解J1939与重卡诊断连接",
+          "en": "Explore J1939 and heavy-duty diagnostic connections"
+        },
+        "description": {
+          "zh": "结合接口版本、网络拓扑与目标任务，了解重型设备诊断接入的工程要点。",
+          "en": "Review heavy-equipment diagnostic access through interface versions, network topology and the intended task."
+        }
+      }
+    ],
+    "scope": "Body-only contextual reading; do not render in footer or claim compatibility with the example."
+  },
+  "EX-automotive-02-010": {
+    "insertAfterSection": "pe-configuration",
+    "title": {
+      "zh": "延伸阅读：相关连接选型",
+      "en": "Further reading: related connection guides"
+    },
+    "text": {
+      "zh": "结合接口与回路定义，可继续查看相应产品系列的选型说明。",
+      "en": "Continue with the related selection guide when defining the interfaces and circuits."
+    },
+    "links": [
+      {
+        "href": "/obd2-diagnostic-cable",
+        "label": {
+          "zh": "查看OBD诊断连接选型",
+          "en": "Review OBD diagnostic connections"
+        },
+        "description": {
+          "zh": "进一步区分车辆端、工具端与供电通信路径，了解延长、分线及转接的选型边界。",
+          "en": "Distinguish vehicle/tool ends and power/communication paths, with selection notes for extensions, breakouts and adapters."
+        }
+      }
+    ],
+    "scope": "Body-only contextual reading; do not render in footer or claim compatibility with the example."
+  },
+  "EX-automotive-12-002": {
+    "insertAfterSection": "pe-configuration",
+    "title": {
+      "zh": "延伸阅读：相关连接选型",
+      "en": "Further reading: related connection guides"
+    },
+    "text": {
+      "zh": "结合接口与回路定义，可继续查看相应产品系列的选型说明。",
+      "en": "Continue with the related selection guide when defining the interfaces and circuits."
+    },
+    "links": [
+      {
+        "href": "/obd2-diagnostic-cable",
+        "label": {
+          "zh": "查看OBD诊断连接选型",
+          "en": "Review OBD diagnostic connections"
+        },
+        "description": {
+          "zh": "进一步区分车辆端、工具端与供电通信路径，了解延长、分线及转接的选型边界。",
+          "en": "Distinguish vehicle/tool ends and power/communication paths, with selection notes for extensions, breakouts and adapters."
+        }
+      }
+    ],
+    "scope": "Body-only contextual reading; do not render in footer or claim compatibility with the example."
+  },
+  "EX-automotive-12-006": {
+    "insertAfterSection": "pe-configuration",
+    "title": {
+      "zh": "延伸阅读：相关连接选型",
+      "en": "Further reading: related connection guides"
+    },
+    "text": {
+      "zh": "结合接口与回路定义，可继续查看相应产品系列的选型说明。",
+      "en": "Continue with the related selection guide when defining the interfaces and circuits."
+    },
+    "links": [
+      {
+        "href": "/obd2-diagnostic-cable",
+        "label": {
+          "zh": "查看OBD诊断连接选型",
+          "en": "Review OBD diagnostic connections"
+        },
+        "description": {
+          "zh": "进一步区分车辆端、工具端与供电通信路径，了解延长、分线及转接的选型边界。",
+          "en": "Distinguish vehicle/tool ends and power/communication paths, with selection notes for extensions, breakouts and adapters."
+        }
+      }
+    ],
+    "scope": "Body-only contextual reading; do not render in footer or claim compatibility with the example."
+  },
+  "EX-automotive-12-007": {
+    "insertAfterSection": "pe-configuration",
+    "title": {
+      "zh": "延伸阅读：相关连接选型",
+      "en": "Further reading: related connection guides"
+    },
+    "text": {
+      "zh": "结合接口与回路定义，可继续查看相应产品系列的选型说明。",
+      "en": "Continue with the related selection guide when defining the interfaces and circuits."
+    },
+    "links": [
+      {
+        "href": "/obd2-diagnostic-cable",
+        "label": {
+          "zh": "查看OBD诊断连接选型",
+          "en": "Review OBD diagnostic connections"
+        },
+        "description": {
+          "zh": "进一步区分车辆端、工具端与供电通信路径，了解延长、分线及转接的选型边界。",
+          "en": "Distinguish vehicle/tool ends and power/communication paths, with selection notes for extensions, breakouts and adapters."
+        }
+      }
+    ],
+    "scope": "Body-only contextual reading; do not render in footer or claim compatibility with the example."
+  },
+  "EX-connector-systems-05-008": {
+    "insertAfterSection": "pe-configuration",
+    "title": {
+      "zh": "延伸阅读：相关连接选型",
+      "en": "Further reading: related connection guides"
+    },
+    "text": {
+      "zh": "结合接口与回路定义，可继续查看相应产品系列的选型说明。",
+      "en": "Continue with the related selection guide when defining the interfaces and circuits."
+    },
+    "links": [
+      {
+        "href": "/obd2-diagnostic-cable",
+        "label": {
+          "zh": "查看OBD诊断连接选型",
+          "en": "Review OBD diagnostic connections"
+        },
+        "description": {
+          "zh": "进一步区分车辆端、工具端与供电通信路径，了解延长、分线及转接的选型边界。",
+          "en": "Distinguish vehicle/tool ends and power/communication paths, with selection notes for extensions, breakouts and adapters."
+        }
+      }
+    ],
+    "scope": "Body-only contextual reading; do not render in footer or claim compatibility with the example."
+  },
+  "EX-connector-systems-05-010": {
+    "insertAfterSection": "pe-configuration",
+    "title": {
+      "zh": "延伸阅读：相关连接选型",
+      "en": "Further reading: related connection guides"
+    },
+    "text": {
+      "zh": "结合接口与回路定义，可继续查看相应产品系列的选型说明。",
+      "en": "Continue with the related selection guide when defining the interfaces and circuits."
+    },
+    "links": [
+      {
+        "href": "/obd2-diagnostic-cable",
+        "label": {
+          "zh": "查看OBD诊断连接选型",
+          "en": "Review OBD diagnostic connections"
+        },
+        "description": {
+          "zh": "进一步区分车辆端、工具端与供电通信路径，了解延长、分线及转接的选型边界。",
+          "en": "Distinguish vehicle/tool ends and power/communication paths, with selection notes for extensions, breakouts and adapters."
+        }
+      }
+    ],
+    "scope": "Body-only contextual reading; do not render in footer or claim compatibility with the example."
+  },
+  "EX-connector-systems-05-013": {
+    "insertAfterSection": "pe-configuration",
+    "title": {
+      "zh": "延伸阅读：相关连接选型",
+      "en": "Further reading: related connection guides"
+    },
+    "text": {
+      "zh": "结合接口与回路定义，可继续查看相应产品系列的选型说明。",
+      "en": "Continue with the related selection guide when defining the interfaces and circuits."
+    },
+    "links": [
+      {
+        "href": "/obd2-diagnostic-cable",
+        "label": {
+          "zh": "查看OBD诊断连接选型",
+          "en": "Review OBD diagnostic connections"
+        },
+        "description": {
+          "zh": "进一步区分车辆端、工具端与供电通信路径，了解延长、分线及转接的选型边界。",
+          "en": "Distinguish vehicle/tool ends and power/communication paths, with selection notes for extensions, breakouts and adapters."
+        }
+      }
+    ],
+    "scope": "Body-only contextual reading; do not render in footer or claim compatibility with the example."
+  },
+  "EX-connector-systems-05-014": {
+    "insertAfterSection": "pe-configuration",
+    "title": {
+      "zh": "延伸阅读：相关连接选型",
+      "en": "Further reading: related connection guides"
+    },
+    "text": {
+      "zh": "结合接口与回路定义，可继续查看相应产品系列的选型说明。",
+      "en": "Continue with the related selection guide when defining the interfaces and circuits."
+    },
+    "links": [
+      {
+        "href": "/obd2-diagnostic-cable",
+        "label": {
+          "zh": "查看OBD诊断连接选型",
+          "en": "Review OBD diagnostic connections"
+        },
+        "description": {
+          "zh": "进一步区分车辆端、工具端与供电通信路径，了解延长、分线及转接的选型边界。",
+          "en": "Distinguish vehicle/tool ends and power/communication paths, with selection notes for extensions, breakouts and adapters."
+        }
+      }
+    ],
+    "scope": "Body-only contextual reading; do not render in footer or claim compatibility with the example."
+  },
+  "EX-connector-systems-05-015": {
+    "insertAfterSection": "pe-configuration",
+    "title": {
+      "zh": "延伸阅读：相关连接选型",
+      "en": "Further reading: related connection guides"
+    },
+    "text": {
+      "zh": "结合接口与回路定义，可继续查看相应产品系列的选型说明。",
+      "en": "Continue with the related selection guide when defining the interfaces and circuits."
+    },
+    "links": [
+      {
+        "href": "/obd2-diagnostic-cable",
+        "label": {
+          "zh": "查看OBD诊断连接选型",
+          "en": "Review OBD diagnostic connections"
+        },
+        "description": {
+          "zh": "进一步区分车辆端、工具端与供电通信路径，了解延长、分线及转接的选型边界。",
+          "en": "Distinguish vehicle/tool ends and power/communication paths, with selection notes for extensions, breakouts and adapters."
+        }
+      }
+    ],
+    "scope": "Body-only contextual reading; do not render in footer or claim compatibility with the example."
+  },
+  "EX-connector-systems-17-008": {
+    "insertAfterSection": "pe-configuration",
+    "title": {
+      "zh": "延伸阅读：相关连接选型",
+      "en": "Further reading: related connection guides"
+    },
+    "text": {
+      "zh": "结合接口与回路定义，可继续查看相应产品系列的选型说明。",
+      "en": "Continue with the related selection guide when defining the interfaces and circuits."
+    },
+    "links": [
+      {
+        "href": "/obd2-diagnostic-cable",
+        "label": {
+          "zh": "查看OBD诊断连接选型",
+          "en": "Review OBD diagnostic connections"
+        },
+        "description": {
+          "zh": "进一步区分车辆端、工具端与供电通信路径，了解延长、分线及转接的选型边界。",
+          "en": "Distinguish vehicle/tool ends and power/communication paths, with selection notes for extensions, breakouts and adapters."
+        }
+      }
+    ],
+    "scope": "Body-only contextual reading; do not render in footer or claim compatibility with the example."
+  },
+  "EX-wire-cable-04-005": {
+    "insertAfterSection": "pe-configuration",
+    "title": {
+      "zh": "延伸阅读：相关连接选型",
+      "en": "Further reading: related connection guides"
+    },
+    "text": {
+      "zh": "结合接口与回路定义，可继续查看相应产品系列的选型说明。",
+      "en": "Continue with the related selection guide when defining the interfaces and circuits."
+    },
+    "links": [
+      {
+        "href": "/obd2-diagnostic-cable",
+        "label": {
+          "zh": "查看OBD诊断连接选型",
+          "en": "Review OBD diagnostic connections"
+        },
+        "description": {
+          "zh": "进一步区分车辆端、工具端与供电通信路径，了解延长、分线及转接的选型边界。",
+          "en": "Distinguish vehicle/tool ends and power/communication paths, with selection notes for extensions, breakouts and adapters."
+        }
+      }
+    ],
+    "scope": "Body-only contextual reading; do not render in footer or claim compatibility with the example."
+  },
+  "EX-wire-cable-04-009": {
+    "insertAfterSection": "pe-configuration",
+    "title": {
+      "zh": "延伸阅读：相关连接选型",
+      "en": "Further reading: related connection guides"
+    },
+    "text": {
+      "zh": "结合接口与回路定义，可继续查看相应产品系列的选型说明。",
+      "en": "Continue with the related selection guide when defining the interfaces and circuits."
+    },
+    "links": [
+      {
+        "href": "/j1939-cable",
+        "label": {
+          "zh": "了解J1939与重卡诊断连接",
+          "en": "Explore J1939 and heavy-duty diagnostic connections"
+        },
+        "description": {
+          "zh": "结合接口版本、网络拓扑与目标任务，了解重型设备诊断接入的工程要点。",
+          "en": "Review heavy-equipment diagnostic access through interface versions, network topology and the intended task."
+        }
+      }
+    ],
+    "scope": "Body-only contextual reading; do not render in footer or claim compatibility with the example."
+  },
+  "EX-wire-cable-04-010": {
+    "insertAfterSection": "pe-configuration",
+    "title": {
+      "zh": "延伸阅读：相关连接选型",
+      "en": "Further reading: related connection guides"
+    },
+    "text": {
+      "zh": "结合接口与回路定义，可继续查看相应产品系列的选型说明。",
+      "en": "Continue with the related selection guide when defining the interfaces and circuits."
+    },
+    "links": [
+      {
+        "href": "/j1939-cable",
+        "label": {
+          "zh": "了解J1939与重卡诊断连接",
+          "en": "Explore J1939 and heavy-duty diagnostic connections"
+        },
+        "description": {
+          "zh": "结合接口版本、网络拓扑与目标任务，了解重型设备诊断接入的工程要点。",
+          "en": "Review heavy-equipment diagnostic access through interface versions, network topology and the intended task."
+        }
+      }
+    ],
+    "scope": "Body-only contextual reading; do not render in footer or claim compatibility with the example."
+  },
+  "EX-wire-cable-04-012": {
+    "insertAfterSection": "pe-configuration",
+    "title": {
+      "zh": "延伸阅读：相关连接选型",
+      "en": "Further reading: related connection guides"
+    },
+    "text": {
+      "zh": "结合接口与回路定义，可继续查看相应产品系列的选型说明。",
+      "en": "Continue with the related selection guide when defining the interfaces and circuits."
+    },
+    "links": [
+      {
+        "href": "/obd2-diagnostic-cable",
+        "label": {
+          "zh": "查看OBD诊断连接选型",
+          "en": "Review OBD diagnostic connections"
+        },
+        "description": {
+          "zh": "进一步区分车辆端、工具端与供电通信路径，了解延长、分线及转接的选型边界。",
+          "en": "Distinguish vehicle/tool ends and power/communication paths, with selection notes for extensions, breakouts and adapters."
+        }
+      }
+    ],
+    "scope": "Body-only contextual reading; do not render in footer or claim compatibility with the example."
+  },
+  "EX-wire-cable-04-014": {
+    "insertAfterSection": "pe-configuration",
+    "title": {
+      "zh": "延伸阅读：相关连接选型",
+      "en": "Further reading: related connection guides"
+    },
+    "text": {
+      "zh": "结合接口与回路定义，可继续查看相应产品系列的选型说明。",
+      "en": "Continue with the related selection guide when defining the interfaces and circuits."
+    },
+    "links": [
+      {
+        "href": "/obd2-diagnostic-cable",
+        "label": {
+          "zh": "查看OBD诊断连接选型",
+          "en": "Review OBD diagnostic connections"
+        },
+        "description": {
+          "zh": "进一步区分车辆端、工具端与供电通信路径，了解延长、分线及转接的选型边界。",
+          "en": "Distinguish vehicle/tool ends and power/communication paths, with selection notes for extensions, breakouts and adapters."
+        }
+      },
+      {
+        "href": "/j1939-cable",
+        "label": {
+          "zh": "了解J1939与重卡诊断连接",
+          "en": "Explore J1939 and heavy-duty diagnostic connections"
+        },
+        "description": {
+          "zh": "结合接口版本、网络拓扑与目标任务，了解重型设备诊断接入的工程要点。",
+          "en": "Review heavy-equipment diagnostic access through interface versions, network topology and the intended task."
+        }
+      }
+    ],
+    "scope": "Body-only contextual reading; do not render in footer or claim compatibility with the example."
+  },
+  "EX-wire-cable-04-015": {
+    "insertAfterSection": "pe-configuration",
+    "title": {
+      "zh": "延伸阅读：相关连接选型",
+      "en": "Further reading: related connection guides"
+    },
+    "text": {
+      "zh": "结合接口与回路定义，可继续查看相应产品系列的选型说明。",
+      "en": "Continue with the related selection guide when defining the interfaces and circuits."
+    },
+    "links": [
+      {
+        "href": "/j1939-cable",
+        "label": {
+          "zh": "了解J1939与重卡诊断连接",
+          "en": "Explore J1939 and heavy-duty diagnostic connections"
+        },
+        "description": {
+          "zh": "结合接口版本、网络拓扑与目标任务，了解重型设备诊断接入的工程要点。",
+          "en": "Review heavy-equipment diagnostic access through interface versions, network topology and the intended task."
+        }
+      }
+    ],
+    "scope": "Body-only contextual reading; do not render in footer or claim compatibility with the example."
+  }
+}

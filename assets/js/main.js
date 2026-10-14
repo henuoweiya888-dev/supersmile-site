@@ -475,7 +475,7 @@ async function loadData(){
     }).catch(error=>{console.warn('Category data unavailable; keeping the initial page content.',error);return null;})
     : Promise.resolve(null);
   const [s,p,series,capabilities,categoryDetails] = await Promise.all([
-    fetch('/data/site.json?v=20261012-bilingual1').then(r=>r.json()),
+    fetch('/data/site.json?v=20261014-quality1').then(r=>r.json()),
     fetch('/data/products.json?v=20261012-bilingual1').then(r=>r.json()),
     fetch('/data/product-series.json?v=20260902v1').then(r=>r.json()),
     fetch('/data/product-capabilities.json?v=20260927v9').then(r=>r.json()),
@@ -1122,17 +1122,20 @@ function renderSharedChrome(){
     const columns=$$(':scope > .container:first-child > div',footer);
     if(columns[1]) textIn(columns[1],'h5',t(SITE.nav.contact));
     if(columns[2]){
-      textIn(columns[2],'h5',t(SITE.nav.products));
+      textIn(columns[2],'h5',t({en:'Quick links',zh:'快速入口'}));
       const links=$$('a',columns[2]);
       const categories=(PRODS&&PRODS.categories)||[];
-      const labels=[
-        t(SITE.nav.home),t(SITE.nav.custom),t(SITE.nav.products),
-        categories[0]?t(categories[0].name):t(SITE.nav.products),
-        categories[1]?t(categories[1].name):t(SITE.nav.products),
-        categories[2]?t(categories[2].name):t(SITE.nav.products),
-        t(SITE.nav.about),t(SITE.nav.contact)
-      ];
-      links.forEach((a,i)=>{ if(labels[i]) a.textContent=labels[i]; });
+      const labelsByPath={
+        '/':t(SITE.nav.home),'/custom':t(SITE.nav.custom),'/products':t(SITE.nav.products),
+        '/turbo-actuator-harness':categories[0]?t(categories[0].name):t(SITE.nav.products),
+        '/obd2-diagnostic-cable':categories[1]?t(categories[1].name):t(SITE.nav.products),
+        '/j1939-cable':categories[2]?t(categories[2].name):t(SITE.nav.products),
+        '/about':t(SITE.nav.about),'/contact':t(SITE.nav.contact)
+      };
+      links.forEach(a=>{
+        const pathname=new URL(a.getAttribute('href'),'https://supersmile-tech.com').pathname.replace(/\.html$/,'')||'/';
+        if(labelsByPath[pathname]) a.textContent=labelsByPath[pathname];
+      });
     }
     const keywords=$('.seo-keywords',footer);
     if(keywords){ keywords.hidden=true; keywords.setAttribute('aria-hidden','true'); }

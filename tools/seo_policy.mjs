@@ -5,9 +5,9 @@ import { legacyRouteInventory, captureLegacyRoute } from './legacy_route_content
 
 export const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 export const SEO_VERSION = '20261009-brand1';
-export const MAIN_SCRIPT_VERSION = '20261012-bilingual1';
+export const MAIN_SCRIPT_VERSION = '20261014-quality1';
 export const SEO_POLICY_SCRIPT_VERSION = '20261008-routes1';
-export const EXAMPLE_SEO_POLICY_SCRIPT_VERSION = '20261014-examples2';
+export const EXAMPLE_SEO_POLICY_SCRIPT_VERSION = '20261014-quality2';
 
 export const businessContext = {
   en: 'Custom wire harness manufacturing from our China factory, with OEM/ODM project support.',

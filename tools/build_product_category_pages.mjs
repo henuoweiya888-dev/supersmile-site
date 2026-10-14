@@ -238,8 +238,8 @@ function pageTemplate({key,slug,name,group,image,intro,knowledge,notes,delivery,
   ${bodyContent}
   <section class="pcc-closing"><div><span id="pcc-closing-group">${esc(groupName)}</span><h2 id="pcc-closing-title">${esc(name)}</h2></div><a class="btn btn-primary" id="pcc-closing-cta" href="/contact?category=${esc(key)}&category_name=${encodeURIComponent(name)}">Send Your Requirement</a></section>
 </main>
-<footer class="footer"><div class="container"><div><h5>SuperSmile</h5><p id="footer-about" style="font-size:14px"></p></div><div><h5>Contact</h5><div id="f-contact" class="footer-contact"></div></div><div><h5>Links</h5><a href="/">Home</a><a href="/custom">Custom Wiring Harness</a><a href="/products">Products</a><a href="/turbo-actuator-harness">Turbo Actuator Harness</a><a href="/obd2-diagnostic-cable">OBD2 Diagnostic Cable</a><a href="/j1939-cable">J1939 Cable</a><a href="/about">About</a><a href="/contact">Contact</a></div></div><p class="seo-keywords">${esc(name.toLowerCase())} | ${esc(groupName.toLowerCase())} | custom cable manufacturer</p><div class="container bot">© <span id="f-year"></span> <span id="f-company"></span> · All Rights Reserved</div></footer>
-<div class="toast" id="toast"></div><script src="/assets/js/main.js?v=20261012-bilingual1"></script>
+<footer class="footer"><div class="container"><div><h5>Super Smile-Tech</h5><p id="footer-about" style="font-size:14px"></p></div><div><h5>Contact</h5><div id="f-contact" class="footer-contact"></div></div><div><h5>Links</h5><a href="/">Home</a><a href="/custom">Custom Wiring Harness</a><a href="/products">Products</a><a href="/about">About</a><a href="/contact">Contact</a></div></div><p class="seo-keywords">${esc(name.toLowerCase())} | ${esc(groupName.toLowerCase())} | custom cable manufacturer</p><div class="container bot">© <span id="f-year"></span> <span id="f-company"></span> · All Rights Reserved</div></footer>
+<div class="toast" id="toast"></div><script src="/assets/js/main.js?v=20261014-quality1"></script>
 </body>
 </html>`;
 }

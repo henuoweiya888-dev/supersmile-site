@@ -20,10 +20,11 @@ function score(app,m,seed,local){
 }
 // Rectangular Hungarian assignment: six directions compete for all eligible photographs.
 // Dummy columns permit text-only directions instead of forcing an unrelated photograph.
-export function assignApplicationPhotos(applications,photos,{seenKeys=new Set(),seed='',localPaths=new Set(),overrides={}}={}){
+export function assignApplicationPhotos(applications,photos,{seenKeys=new Set(),seed='',localPaths=new Set(),overrides={},directionCandidates=null}={}){
  const unique=[];const keys=new Set(seenKeys);
- for(const m of photos){if(m.contextOnly||m.excludeFromProductExample)continue;const k=m.canonicalPhotoKey||m.visualIdentity||m.sha256||m.path;if(!keys.has(k)&&!seenKeys.has(m.sha256)){keys.add(k);unique.push(m);}}
- const matrix=applications.map(app=>unique.map(m=>{
+ for(const m of photos){if((!directionCandidates&&m.contextOnly)||m.excludeFromProductExample)continue;const k=m.canonicalPhotoKey||m.visualIdentity||m.sha256||m.path;if(!keys.has(k)&&!seenKeys.has(m.sha256)){keys.add(k);unique.push(m);}}
+ const matrix=applications.map((app,i)=>unique.map(m=>{
+  if(directionCandidates){const rank=directionCandidates[i].findIndex(c=>c.path===m.path);return {value:rank<0?0:100000-rank*10+parseInt(crypto.createHash('sha256').update(seed+m.path+String(i)).digest('hex').slice(0,6),16)/0xffffff,matched:rank<0?[]:['reviewed-direction-candidate']};}
   const override=overrides[app.title.en];if(override===null)return {value:0,matched:[]};
   const s=score(app,m,seed,localPaths.has(m.path));if(override===m.path)return {value:100000+s.value,matched:['visually-reviewed-title-match']};return s;
  }));
@@ -39,5 +40,6 @@ export function assignApplicationPhotos(applications,photos,{seenKeys=new Set(),
   do{const j1=way[j0];p[j0]=p[j1];j0=j1;}while(j0!==0);
  }
  const picks=Array(n).fill(null);for(let j=1;j<=m;j++)if(p[j]&&j<=unique.length&&matrix[p[j]-1][j-1].value>0)picks[p[j]-1]={image:unique[j-1],score:matrix[p[j]-1][j-1].value,matchedTitleConcepts:matrix[p[j]-1][j-1].matched};
- return picks.map(x=>x||{image:null,reason:'No matching actual subject; keep this direction as text.'});
+ if(directionCandidates&&picks.some(x=>!x))throw new Error('Application plan cannot provide six distinct photographs: '+seed);
+ return picks.map((x,i)=>x?{...x,image:directionCandidates?(directionCandidates[i].find(c=>c.path===x.image.path)||x.image):x.image}:{image:null,reason:'No matching actual subject; keep this direction as text.'});
 }

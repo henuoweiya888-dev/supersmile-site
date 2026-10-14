@@ -28,3 +28,11 @@ test('engine display stands and photovoltaic panels do not masquerade as electro
  assert.equal(assignApplicationPhotos([app('Miniature display-board connections')],[engine])[0].image,null);
  assert.equal(assignApplicationPhotos([app('Enclosure through-panel connections')],[solar])[0].image,null);
 });
+
+test('reviewed direction plans use a global distinct assignment and fail instead of leaving a blank image',()=>{
+ const a=photo('/a.jpg',['cabinet'],'a'),b=photo('/b.jpg',['sensor'],'b');a.contextOnly=true;
+ const directions=[[a,b],[a]],applications=[app('Equipment enclosure'),app('Removable interface')];
+ const picks=assignApplicationPhotos(applications,[a,b],{directionCandidates:directions});
+ assert.deepEqual(picks.map(x=>x.image.path),['/b.jpg','/a.jpg']);
+ assert.throws(()=>assignApplicationPhotos(applications,[a],{directionCandidates:[[a],[a]]}),/cannot provide six distinct/);
+});

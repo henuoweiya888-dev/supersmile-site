@@ -23,7 +23,7 @@ test('Cloudflare Pages has a top-level, non-indexable 404 page with working exit
   }
 });
 
-test('product-category footer routes resolve to real extensionless HTML pages', () => {
+test('product-category footers use general navigation while specialist guide routes remain available', () => {
   const generator = read('tools/build_product_category_pages.mjs');
   const oldRoutes = [
     '/products/turbo-actuator-cables',
@@ -37,7 +37,7 @@ test('product-category footer routes resolve to real extensionless HTML pages', 
   ];
   for (const route of oldRoutes) assert.ok(!generator.includes(`href="${route}"`));
   for (const route of replacements) {
-    assert.ok(generator.includes(`href="${route}"`));
+    assert.ok(!generator.match(/<footer class="footer">[\s\S]*?<\/footer>/)?.[0].includes(`href="${route}"`));
     assert.ok(routeExists(route), `${route} must have a matching .html file`);
   }
 

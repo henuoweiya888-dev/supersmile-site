@@ -17,3 +17,46 @@ body.page-product-example{--pe-ink:#171b1d;--pe-muted:#656d70;--pe-paper:#f6f5f1
 .pe-app-grid{row-gap:34px}.pe-app-text{padding:25px;background:#f3f4ee;border-top:2px solid #909e91}.pe-app-heading>span{display:block;font-size:12px;color:var(--pe-accent);margin-bottom:12px}.pe-app-heading h3{font-size:22px}.pe-app-text>p{margin-top:14px}.pe-construction-photo img{object-fit:cover}.pe-construction-text{grid-template-columns:1fr}.pe-construction-text .pe-feature-list{grid-template-columns:repeat(4,minmax(0,1fr))}.pe-support-list .pe-manufacturing{background:#e6e9df;padding:22px;border:0}.pe-hero h1{overflow-wrap:break-word}.pe-layout-material-selection .pe-construction-photo{aspect-ratio:1.16}.pe-config-table th{overflow-wrap:break-word}
 @media(max-width:1100px){.pe-construction-text .pe-feature-list{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:760px){.pe-construction-text .pe-feature-list{grid-template-columns:1fr}.pe-app-grid{row-gap:26px}.pe-app-text{padding:22px}.pe-app-heading h3{font-size:22px}}
+
+/* Reading-first quality revision: modest supporting media and a single wide text column. */
+.pe-construction{grid-template-columns:minmax(220px,30%) minmax(0,1fr);gap:56px;max-width:1240px}
+.pe-construction-media{position:sticky;top:110px;display:grid;gap:20px;align-self:start;max-width:300px}
+.pe-construction-photo{aspect-ratio:auto;background:transparent;max-height:none}
+.pe-construction-photo img{width:100%;height:auto;max-height:300px;object-fit:contain;background:#fff}
+.pe-feature-list,.pe-construction-text .pe-feature-list{grid-template-columns:minmax(0,1fr);gap:0}
+.pe-feature{display:grid;grid-template-columns:28px minmax(0,1fr);grid-template-areas:'number title' 'number copy';column-gap:16px;padding:19px 0 23px}
+.pe-feature-index{grid-area:number;margin:0;padding-top:5px}
+.pe-feature h3{grid-area:title;font-size:20px;line-height:1.4;margin:0 0 9px}
+.pe-feature p{grid-area:copy;max-width:80ch;font-size:15px;line-height:1.85}
+.pe-config-table,.pe-config-copy p,.pe-app>p,.pe-support-list p,.pe-faq details p,.pe-cta p{font-size:15px}
+.pe-config-table th{width:32%}.pe-config-table td{line-height:1.85}
+.pe-app-grid-wide{grid-template-columns:repeat(2,minmax(0,1fr));gap:36px 28px}
+.pe-app-grid-wide .pe-app-media{height:auto;aspect-ratio:1.85}
+.pe-app>p{max-width:80ch}.pe-app-media h3{font-size:21px;line-height:1.35}
+.pe-related-series{background:#e2e6dd;padding:30px 0;border-top:1px solid #c8d0c3}
+.pe-related-series>.pe-shell{display:grid;grid-template-columns:.9fr 1.1fr;gap:50px;align-items:start}
+.pe-related-series h2{font-size:24px;margin:7px 0 12px}.pe-related-series p{font-size:14px;color:#53605a}
+.pe-related-series-links{display:grid;gap:20px}.pe-related-series-links a{display:flex;justify-content:space-between;align-items:center;gap:20px;min-height:44px;padding-bottom:10px;border-bottom:1px solid #9eac99;font-size:18px;font-weight:600;text-decoration:none}
+.pe-related-series-links article p{padding-top:10px}.pe-related-series-links a:hover{color:var(--pe-accent)}
+@media(max-width:1100px){.pe-construction{grid-template-columns:minmax(220px,29%) minmax(0,1fr);gap:36px}.pe-app-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:30px 24px}.pe-app-media{height:auto;aspect-ratio:1.8}.pe-config-grid{grid-template-columns:1fr;gap:25px}.pe-config-copy{position:static;max-width:760px}.pe-config-table th{width:32%;padding-right:28px}.pe-support-grid{grid-template-columns:.8fr 1.2fr;gap:32px}}
+@media(max-width:760px){.pe-construction{grid-template-columns:1fr;gap:26px}.pe-construction-media{position:static;max-width:480px;width:100%;gap:16px}.pe-construction-photo img{max-height:250px}.pe-feature-list,.pe-construction-text .pe-feature-list{grid-template-columns:1fr}.pe-feature{grid-template-columns:22px minmax(0,1fr);column-gap:12px;padding:17px 0 20px}.pe-feature h3{font-size:19px}.pe-feature p,.pe-config-table,.pe-config-copy p,.pe-app>p,.pe-support-list p,.pe-faq details p,.pe-cta p{font-size:14px}.pe-app-grid,.pe-app-grid-wide{grid-template-columns:1fr;gap:30px}.pe-app-media,.pe-app-grid-wide .pe-app-media{aspect-ratio:1.55;height:auto}.pe-app-media h3{font-size:21px}.pe-support-grid{grid-template-columns:1fr}.pe-config-table th{width:34%;padding-right:16px}.pe-related-series>.pe-shell{grid-template-columns:1fr;gap:22px}.pe-related-series{padding:28px 0}.pe-related-series h2{font-size:24px}.pe-related-series-links a{font-size:17px}}
+
+/* Keep each technical label and its explanation together on small screens. */
+@media(max-width:760px){
+  .pe-config-table,.pe-config-table tbody{display:block;width:100%}
+  .pe-config-table tr{display:grid;grid-template-columns:minmax(0,1fr);gap:6px;border-top:1px solid #475357;padding:17px 0 19px}
+  .pe-config-table th,.pe-config-table td{display:block;width:100%;min-width:0;border:0;padding:0;text-align:left}
+  .pe-config-table th{line-height:1.5;overflow-wrap:normal}
+  .pe-config-table td{line-height:1.8;overflow-wrap:anywhere}
+  .pe-config-table tr:last-child{border-bottom:1px solid #475357}
+  .pe-config-table tr:last-child th,.pe-config-table tr:last-child td{border-bottom:0}
+}
+
+/* Close-ups show different regions of the displayed example itself. */
+.pe-product-detail-crop{position:relative;overflow:hidden;background:#fff;width:100%;align-self:start}
+.pe-product-detail-crop img{position:absolute;display:block;height:auto;max-width:none;max-height:none}
+@media(max-width:760px){.pe-construction-media{grid-template-columns:repeat(2,minmax(0,1fr));max-width:480px;gap:12px}.pe-construction-media:has(>.pe-product-detail-crop:only-child){grid-template-columns:1fr;max-width:350px}}
+/* Let descriptive product names use the full hero text measure. */
+.pe-hero h1{max-width:100%;text-wrap:balance}
+
+.pe-construction-text{grid-template-columns:1fr;max-width:960px}

@@ -8606,12 +8606,12 @@
       },
       {
         "title": {
-          "zh": "测试仪器转接",
-          "en": "Test-instrument adapters"
+          "zh": "仪器输入与同轴测量引线",
+          "en": "Instrument inputs and coaxial measurement leads"
         },
         "text": {
-          "zh": "测量边界需区分原电缆数据与完整端接组件表现。",
-          "en": "Distinguish raw-cable data from finished-assembly performance at the measurement boundary."
+          "zh": "仪器同轴引线需匹配设备端口、阻抗与测量频段，说明参考面、线长及屏蔽端接。线缆与连接器的组合应对应项目所需的损耗和重复连接要求。",
+          "en": "Match coaxial instrument leads to equipment ports, impedance and measurement frequency range. Define reference planes, length and shield termination. Select the cable and connector combination for the required loss and repeated-connection conditions."
         }
       },
       {
