@@ -39,6 +39,19 @@ const products=[];const mediaPages={};
 const assetSha=new Map();
 async function sha(m){if(m.sha256)return m.sha256;if(!assetSha.has(m.path))assetSha.set(m.path,digest(await fs.readFile(path.join(root,m.path))));return assetSha.get(m.path);}
 function compact(text,max){if(text.length<=max)return text;const words=text.slice(0,max+1).split(/\s+/);words.pop();return words.join(' ').replace(/[ ,;:\-]+$/,'');}
+const pilotMediaKeys=new Set();
+const pilotExtraApplications={
+ 'EX-custom-harness-09-001':[
+  {title:pair('控制柜的分支布线','Control-cabinet branch routing'),text:pair('围绕柜内端子、控制板及机外接入点安排主干与分支；将护套覆盖段、线槽出口和固定点纳入同一尺寸基准，保留接线与检修空间。','Arrange trunk and branch routes around terminals, control boards and external connection points. Define sleeve coverage, duct exits and fixing points from a common datum while preserving termination and service access.')},
+  {title:pair('仪表与传感模块配线','Instrument and sensor module wiring'),text:pair('多路仪表或传感模块可按各自的接入位置规划支路，分别核对回路与标签。编织护套的束线作用与电气屏蔽要求应分别定义，不能仅凭外观判断抗干扰能力。','Plan individual branches for instrument or sensor-module positions, then check circuits and labels separately. Define bundle organization and electrical shielding independently; braid appearance alone does not establish interference performance.')},
+  {title:pair('电器辅助模块连接','Appliance auxiliary-module wiring'),text:pair('在风机、控制板及辅助模块之间，可结合设备腔体、出线口与拆装顺序安排线束。护套材料、弯曲空间和端头形式需按实际环境与对插件确认。','Between fans, control boards and auxiliary modules, route the harness around the enclosure, openings and service sequence. Confirm sleeve material, bend clearance and connector forms against the environment and mating parts.')}
+ ],
+ 'EX-cable-assembly-02-001':[
+  {title:pair('工业传感器分布连接','Industrial sensor distribution'),text:pair('设备上分布安装的传感器可按各接入点距离设置电缆长度与出线方向。M12接口系列、键位及电路定义须与设备逐一核对，不能仅按接口直径判定适配。','For distributed sensors, set cable lengths and exit directions from each connection point. Check the M12 series, keying and circuit definition against every device; interface diameter alone does not establish compatibility.')},
+  {title:pair('设备仪表与监测单元','Equipment instrumentation and monitoring'),text:pair('连接仪表与监测单元时，先确定信号或供电功能、允许走线距离及干扰环境，再确认导体、屏蔽和端接方案。图示结构不自动代表某种传感器协议。','For instruments and monitoring units, define signal or supply functions, routing distance and interference conditions before conductor, shield and termination selection. The illustrated form does not establish a sensor protocol.')},
+  {title:pair('测试与设备调试连接','Test and commissioning connections'),text:pair('样机或测试工装可采用可拆装的连接边界，方便安装验证与更换。针脚表、测试端定义及线长应与被测设备一致，并在样品阶段确认导通与装配。','Prototype equipment and test fixtures can use removable connection boundaries for fit checks and replacement. Match the pin table, test-end definition and cable length to the equipment, then confirm continuity and assembly at the sample stage.')}
+ ]
+};
 const routeById={};
 const displayOverrides={
   'EX-cable-assembly-01-014':pair('四支路电源分配线束','4-Branch Power Distribution Harness'),
@@ -82,7 +95,7 @@ for(const original of canonicalRecords){
   quickPoints:pilot?.quickPoints||(isMaterial?[pair('导体与绝缘结构选配','Conductor and insulation selection'),pair('敷设与温度条件审核','Routing and temperature review'),pair('材料文件与样品确认','Material documents and sample approval')]:[pair('接口与回路对应审核','Interface and circuit review'),pair('线长与安装结构定制','Length and installation configuration'),pair('样品确认后组织制造','Manufacture from approved sample')]),
   structureIntro:pilot?.structureIntro||pair(`以${r.nameZh}的结构形式为起点，结合图纸和实际设备确认以下设计要点。`,`Use the ${r.nameEn.toLowerCase()} form as a starting point and confirm these design points against drawings and the actual equipment.`),
   structure:pilot?.structure||structure,
-  applications:profile.applicationTopics.map((app,i)=>{
+  applications:(pilot?[...pilot.applications,...pilotExtraApplications[pilot.id]]:profile.applicationTopics).map((app,i)=>{
    if(app.text.en.split(/\s+/).length>=27)return app;
    const focus=profile.configuration[i%4].value;
    return {...app,text:pair(app.text.zh+'选配时，'+focus.zh,app.text.en+' '+focus.en)};
@@ -93,19 +106,20 @@ for(const original of canonicalRecords){
   cta:pilot?.cta||{title:pair('从您的接口与安装需求开始','Start with your interface and installation requirements'),text:isMaterial?pair(`提供${r.nameZh}的线材规范、导体截面、绝缘与护套要求、敷设工况及目标用量，我们据此梳理材料选配与样品确认事项。`,`Share cable specifications, conductor size, insulation and jacket requirements, installation conditions and target quantity for ${r.nameEn.toLowerCase()}. These guide material selection and sample review.`):pair(`提供${r.nameZh}的对插接口、回路表、目标长度或参考样品，我们据此梳理选配与样品确认事项。`,`Share mating interfaces, a circuit table, target lengths or a sample for the ${r.nameEn.toLowerCase()}. We can use them to review configuration and sample requirements.`),button:pair('沟通定制需求','Discuss project requirements'),href:'/contact?category='+r.categoryId},
   metaDescription,layoutType:profile.layoutType||'assembly-layout'};
  const pool=pools.categories[r.categoryId];if(!pool)throw new Error('Missing media pool '+r.categoryId);
- const seen=new Set([await sha({path:r.src})]);
+ const seen=new Set([await sha({path:r.src}),...(pilot?pilotMediaKeys:[])]);
  const choose=async(role,n,context='')=>{
   const list=[...(pool.roles[role]||[])];
   const scored=list.map(m=>({m,score:(m.categoryMatch==='direct-category'?20:0)+String(m.subjectContext||'').toLowerCase().split(/[^a-z0-9]+/).filter(t=>t.length>3&&context.toLowerCase().includes(t)).length*4,tie:parseInt(digest(r.exampleId+m.path).slice(0,8),16)})).sort((a,b)=>b.score-a.score||a.tie-b.tie);
   const result=[];for(const {m} of scored){const h=await sha(m);if(seen.has(h))continue;seen.add(h);result.push({...m,altEn:m.altEn||m.subjectContext||cat.nameEn,altZh:m.altZh||cat.nameZh+'相关结构与场景'});if(result.length>=n)break;}return result;
  };
  const localPhotos=pool.roles.application;
- const assigned=assignApplicationPhotos(p.applications,[...localPhotos,...globalApplications],{seenKeys:seen,seed:r.exampleId,localPaths:new Set(localPhotos.map(x=>x.path)),overrides:applicationOverrides});
+ const assigned=assignApplicationPhotos(p.applications,[...localPhotos,...globalApplications],{seenKeys:seen,seed:r.exampleId,localPaths:new Set(localPhotos.map(x=>x.path)),overrides:{...applicationOverrides,...(pilot?{'Internal equipment modules':'/assets/images/product-categories/stock/jst/industrial.jpg','Cabinet routing with local protection':'/assets/images/product-categories/stock/control-panel-refresh/breaker-technician.jpg','Sensors and equipment modules':'/assets/images/product-categories/stock/solar/manufacturing-flow.jpg','Control units and field interfaces':'/assets/images/product-categories/stock/harting/hero-control-hardware.jpg','Industrial sensor distribution':'/assets/images/product-categories/stock/hybrid-power-data-cable-assembly/architecture.jpg'}:{})}});
  const appImages=assigned.map(x=>x.image);
  for(const photo of appImages)if(photo){seen.add(await sha(photo));seen.add(photo.canonicalPhotoKey||photo.visualIdentity||photo.path);}
  const construction=(await choose('construction',1))[0]||null;
  const engineering=(await choose('engineering',1))[0]||null;
  const inspection=(await choose('inspection',1))[0]||null;
+ if(pilot)for(const m of [construction,...appImages,engineering,inspection])if(m){pilotMediaKeys.add(await sha(m));pilotMediaKeys.add(m.canonicalPhotoKey||m.visualIdentity||m.path);}
  mediaPages[p.id]={construction,applicationImages:appImages,engineering,inspection};products.push(p);
 }
 const entries=data.records.map(r=>({id:r.exampleId,categoryId:r.categoryId,sourceIndex:r.sourceIndex,src:r.src,route:routeById[r.canonicalId]}));
