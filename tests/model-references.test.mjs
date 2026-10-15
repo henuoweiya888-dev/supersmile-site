@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { patchPage, renderReferences } from '../tools/build_model_reference_section.mjs';
+import { patchPage, renderReferences, pdfLink } from '../tools/build_model_reference_section.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = filename => fs.readFileSync(path.join(root, filename), 'utf8');
@@ -12,19 +12,43 @@ const page = read('products/industrial-equipment-harness.html');
 const section = page.match(/<!-- MODEL REFERENCES START -->([\s\S]*?)<!-- MODEL REFERENCES END -->/)[1];
 const visible = section.replace(/<[^>]+>/g, ' ');
 
-test('industrial pilot delivers contextual exact references in ordinary crawlable HTML', () => {
-  assert.equal((section.match(/data-mr-entry\b/g) || []).length, 12);
+test('industrial category delivers at least 200 finished models and 200 material parts in ordinary HTML', () => {
+  assert.ok(data.products.length >= 200);
+  assert.ok(data.materials.length >= 200);
+  const count = data.products.length + data.materials.length;
+  assert.equal((section.match(/data-mr-entry\b/g) || []).length, count);
+  const identifiers = new Set();
   for (const item of [...data.products, ...data.materials]) {
+    const key = item.brand.toLowerCase() + '|' + item.identifier.replace(/[\s-]+/g, '').toLowerCase();
+    assert.ok(!identifiers.has(key), `duplicate manufacturer article: ${key}`);
+    identifiers.add(key);
     assert.ok(visible.includes(item.identifier), item.identifier);
     for (const alias of item.aliases) assert.ok(visible.includes(alias), alias);
-    assert.ok(item.description.en.length > 30 && item.engineering_use.en.length > 30);
-    assert.ok(section.includes(item.source_url.replace(/&/g, '&amp;')));
-    assert.match(item.source_url, /^https:\/\/(?:www\.)?(?:phoenixcontact\.com|binder-connector\.com|turck\.(?:us|com\.mx)|hellermanntyton\.com)\//);
+    assert.ok(item.description.en.length > 5 && item.description.en.length < 130);
+    assert.equal(item.engineering_use, undefined);
   }
   assert.doesNotMatch(section, /<(?:details|template)\b|hidden[^>]*data-mr-entry/);
-  assert.match(section, /ID 12\.0 mm/);
   assert.doesNotMatch(page, /"@type"\s*:\s*"(?:Product|Offer|AggregateRating)"/);
   assert.match(page, /rel="canonical" href="https:\/\/supersmile-tech\.com\/products\/industrial-equipment-harness"/);
+});
+
+test('compact entries have the approved service sentence and only PDF external links', () => {
+  const count = data.products.length + data.materials.length;
+  assert.equal(data.service_label.zh, '可制作兼容替代件、自有原厂采购渠道');
+  assert.equal((section.match(/class="mr-service"/g) || []).length, count);
+  const allowedPdfs = new Set([...data.products, ...data.materials].map(pdfLink).filter(Boolean));
+  for (const link of section.matchAll(/<a\b[^>]*href="([^"]+)"/g)) {
+    const url = link[1].replace(/&amp;/g, '&');
+    if (/^https?:/.test(url)) assert.ok(allowedPdfs.has(url), url);
+  }
+  assert.doesNotMatch(section, /class="mr-use"|Manufacturer specifications|原厂规格依据/);
+  assert.equal(pdfLink({source_url:'https://example.com/products/123?file=datasheet.pdf'}), null);
+  assert.equal(pdfLink({pdf_url:'https://example.com/datasheet.html?type=pdf'}), null);
+  assert.equal(pdfLink({pdf_url:'https://example.com/datasheet.html?type=pdf',pdf_verified:true}), 'https://example.com/datasheet.html?type=pdf');
+  assert.equal(pdfLink({source_url:'javascript:alert(1).pdf'}), null);
+  assert.equal(pdfLink({pdf_url:'https://example.com/datasheet.pdf#page=3'}), 'https://example.com/datasheet.pdf#page=3');
+  assert.equal((section.match(/class="mr-pagination"[^>]*hidden/g) || []).length, 2);
+  assert.equal((section.match(/data-mr-page="next"/g) || []).length, 2);
 });
 
 test('pilot enhancement survives the existing category renderer and rebuilds without duplication', () => {

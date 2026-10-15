@@ -6,17 +6,25 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const esc = value => String(value).replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]);
 const localized = (tag, className, copy, attributes = '') => `<${tag} class="${className}" data-mr-en="${esc(copy.en)}" data-mr-zh="${esc(copy.zh)}"${attributes}>${esc(copy.en)}</${tag}>`;
 
+export function pdfLink(item) {
+  const value = item.pdf_url || item.source_url || '';
+  try {
+    const url = new URL(value);
+    return url.protocol === 'https:' && (/\.pdf$/i.test(url.pathname) || item.pdf_verified === true) ? url.href : null;
+  } catch { return null; }
+}
+
 export function renderReferences(data) {
   const group = definition => {
     const items = data[definition.key].map(item => {
-      const search = [item.brand, item.identifier, ...item.aliases, ...Object.values(item.description), ...Object.values(item.engineering_use)].join(' ');
-      const alias = item.aliases.length ? localized('p', 'mr-aliases', {
-        en: data.alias_label.en + item.aliases.join(' / '),
-        zh: data.alias_label.zh + item.aliases.join(' / '),
-      }) : '';
-      return `<li class="mr-entry" data-mr-entry data-mr-search="${esc(search)}"><span class="mr-brand">${esc(item.brand)}</span><h4 class="mr-part">${esc(item.identifier)}</h4>${localized('p', 'mr-spec', item.description)}${localized('p', 'mr-use', item.engineering_use)}${alias}${localized('a', 'mr-source', data.source_label, ` href="${esc(item.source_url)}" target="_blank" rel="noopener noreferrer"`)}</li>`;
+      const search = [item.brand, item.identifier, ...item.aliases, ...Object.values(item.description)].join(' ');
+      const alias = item.aliases.length ? `<span class="mr-alias"> / ${item.aliases.map(esc).join(' / ')}</span>` : '';
+      const pdf = pdfLink(item);
+      const source = pdf ? localized('a', 'mr-source', data.source_label, ` href="${esc(pdf)}" target="_blank" rel="noopener noreferrer" data-mr-aria-en="${esc(item.identifier + ' PDF datasheet')}" data-mr-aria-zh="${esc(item.identifier + ' PDF 规格书')}" aria-label="${esc(item.identifier + ' PDF datasheet')}"`) : '';
+      return `<li class="mr-entry" data-mr-entry data-mr-search="${esc(search)}"><div class="mr-entry-head"><span class="mr-brand">${esc(item.brand)}</span><h4 class="mr-part">${esc(item.identifier)}${alias}</h4>${source}</div>${localized('p', 'mr-spec', item.description)}${localized('p', 'mr-service', data.service_label)}</li>`;
     }).join('\n');
-    return `<section class="mr-group" aria-labelledby="mr-${definition.key}-title"><header class="mr-group-head">${localized('h3', '', definition.title, ` id="mr-${definition.key}-title"`)}${localized('p', '', definition.intro)}</header><ul class="mr-list">${items}</ul></section>`;
+    const pagination = `<nav class="mr-pagination" aria-label="Reference pages" data-mr-aria-en="${esc(definition.title.en + ' pages')}" data-mr-aria-zh="${esc(definition.title.zh + '分页')}" hidden>${localized('button', '', data.pagination.previous, ` type="button" data-mr-page="previous" aria-controls="mr-${definition.key}-list"`)}<p class="mr-page-status" role="status" aria-live="polite"></p>${localized('button', '', data.pagination.next, ` type="button" data-mr-page="next" aria-controls="mr-${definition.key}-list"`)}</nav>`;
+    return `<section class="mr-group" aria-labelledby="mr-${definition.key}-title"><header class="mr-group-head">${localized('h3', '', definition.title, ` id="mr-${definition.key}-title"`)}${localized('p', '', definition.intro)}</header>${pagination}<ul class="mr-list" id="mr-${definition.key}-list">${items}</ul></section>`;
   };
   const checks = data.checks.map((check, index) => `<div class="mr-check">${localized('h4', 'mr-check-label', { en: `${String(index + 1).padStart(2, '0')}  ${check.title.en}`, zh: `${String(index + 1).padStart(2, '0')}  ${check.title.zh}` })}${localized('p', 'mr-check-copy', check.copy)}</div>`).join('\n');
   return `<!-- MODEL REFERENCES START -->
@@ -41,8 +49,8 @@ export function patchPage(html, data) {
   const jump = `<!-- MODEL REFERENCES JUMP START -->${localized('a', 'mr-jump-link', data.jump, ' href="#category-model-references"')}<!-- MODEL REFERENCES JUMP END -->`;
   html = html.replace('<a class="pcc-back-link" id="pcc-back"', jump + '<a class="pcc-back-link" id="pcc-back"');
   html = html.replace('  <section class="pcc-closing">', renderReferences(data) + '\n  <section class="pcc-closing">');
-  html = html.replace('<link id="example-product-links-style"', '<link id="model-references-style" rel="stylesheet" href="/assets/css/model-references.css?v=20261015-pilot1">\n<link id="example-product-links-style"');
-  return html.replace('<!-- PRODUCT PHOTO DIALOG START -->', '<script id="model-references-script" defer src="/assets/js/model-references.js?v=20261015-pilot1"></script>\n<!-- PRODUCT PHOTO DIALOG START -->');
+  html = html.replace('<link id="example-product-links-style"', '<link id="model-references-style" rel="stylesheet" href="/assets/css/model-references.css?v=20261015-compact2">\n<link id="example-product-links-style"');
+  return html.replace('<!-- PRODUCT PHOTO DIALOG START -->', '<script id="model-references-script" defer src="/assets/js/model-references.js?v=20261015-compact2"></script>\n<!-- PRODUCT PHOTO DIALOG START -->');
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {

@@ -1,30 +1,30 @@
 {
-  "version": 1,
+  "version": 2,
   "category_id": "custom-harness-01",
   "route": "/products/industrial-equipment-harness",
   "title": {
-    "en": "Interface References & Harness Selection",
-    "zh": "接口型号与线束选型"
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
   },
   "kicker": {
     "en": "PART NUMBER / INTERFACE / MATERIAL",
     "zh": "型号 / 接口 / 材料"
   },
   "intro": {
-    "en": "Start with an existing cable model or connector part number, then compare interface coding, pin routing, shield termination and the machine route. Similar connector shapes can serve different circuits and installation conditions.",
-    "zh": "从已有电缆型号或连接器料号开始，逐项核对接口编码、针脚路径、屏蔽接地和设备布线。相同接口外形，仍可能对应不同电路与安装条件。"
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
   },
   "jump": {
     "en": "Find Models & Material Part Numbers",
     "zh": "查找型号与材料料号"
   },
   "search_label": {
-    "en": "Search these references",
-    "zh": "搜索本页选型参考"
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
   },
   "search_placeholder": {
-    "en": "Brand, part number or cable specification",
-    "zh": "输入品牌、型号、料号或线缆规格"
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
   },
   "clear": {
     "en": "Clear",
@@ -38,23 +38,23 @@
     {
       "key": "products",
       "title": {
-        "en": "Finished Cable References",
-        "zh": "成品电缆参考"
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
       },
       "intro": {
-        "en": "Compare known endpoint combinations and cable constructions. For a custom machine harness, confirm the pin map, branch layout and installed length separately.",
-        "zh": "用于比较已有的两端接口组合与线缆结构。定制设备线束仍需另行确认针脚定义、分支布局和安装长度。"
+        "en": "Sensor, actuator, control and industrial network cable assemblies.",
+        "zh": "涵盖传感器、执行器、控制与工业网络等电缆组件。"
       }
     },
     {
       "key": "materials",
       "title": {
-        "en": "Connector & Material References",
+        "en": "Connector & Material Part Numbers",
         "zh": "连接器与材料料号"
       },
       "intro": {
-        "en": "Identify the connector, contact, seal, cable or protection item within the BOM. A component reference does not define a complete prewired assembly.",
-        "zh": "用于明确BOM中的连接器、触点、密封件、线缆或防护材料。单个物料编号不能定义完整的预制组件。"
+        "en": "Connectors, wire, cable and harness protection materials.",
+        "zh": "涵盖连接器、线材、电缆及线束防护材料。"
       }
     }
   ],
@@ -125,23 +125,23 @@
     }
   ],
   "boundary": {
-    "en": "Third-party references identify interfaces and materials for project review; they do not imply brand authorization or direct replacement compatibility.",
-    "zh": "第三方编号用于项目接口与材料核对，不代表品牌授权或直接替代兼容关系。"
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
   },
   "cta": {
     "text": {
-      "en": "Have a reference number? Send it with connector photos, a pin map or your machine drawing. We will review the interfaces and manufacturing requirements with you.",
-      "zh": "已有参考编号？请一并提供连接器照片、针脚表或设备图纸，我们会结合接口与制造要求评审您的项目。"
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
     },
     "label": {
-      "en": "Send a Part Number for Project Review",
-      "zh": "按型号提交项目需求"
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
     },
     "url": "/contact?category=custom-harness-01&source=part-number-review"
   },
   "source_label": {
-    "en": "Manufacturer specifications",
-    "zh": "原厂规格依据"
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
   },
   "alias_label": {
     "en": "Manufacturer type: ",
@@ -150,31 +150,58 @@
   "products": [
     {
       "brand": "Phoenix Contact",
-      "identifier": "1405501",
-      "aliases": [],
+      "identifier": "1369904",
+      "aliases": [
+        "CABLE-FLK14/AXIO/OE/0,14/2,0M"
+      ],
       "description": {
-        "zh": "M8 A编码3位公对母传感器线；1m；PUR；3×0.25mm²；非屏蔽",
-        "en": "M8 A-coded 3-position male-to-female sensor cable; 1 m; PUR; 3 × 0.25 mm²; unshielded"
-      },
-      "engineering_use": {
-        "zh": "核对设备两端的M8编码、3芯针脚定义和安装路径，再确认定制长度与线材。",
-        "en": "Review the M8 coding, three-wire pin assignment and installation route before confirming the custom length and cable."
-      },
-      "source_url": "https://www.phoenixcontact.com/en-us/products/sensor-actuator-cable-sac-3p-m-8ms-10-pur-4p-m8fs-2-1405501"
+        "zh": "控制器预制系统电缆",
+        "en": "Preassembled controller system cable"
+      }
     },
     {
-      "brand": "Binder",
-      "identifier": "77 3419 0000 50003-0200",
-      "aliases": [],
+      "brand": "Phoenix Contact",
+      "identifier": "2293857",
+      "aliases": [
+        "FLK 14/16/EZ-DR/ 250/S7"
+      ],
       "description": {
-        "zh": "M12 A编码3位公头预制电缆；2m；PUR；3×0.34mm²；非屏蔽",
-        "en": "M12 A-coded 3-position male preassembled cable; 2 m; PUR; 3 × 0.34 mm²; unshielded"
-      },
-      "engineering_use": {
-        "zh": "以传感器与执行器连接为讨论起点，确认装配方向、线规、长度及另一端的端接要求。",
-        "en": "Use this sensor/actuator construction to discuss connector orientation, conductor size, length and termination at the other end."
-      },
-      "source_url": "https://www.binder-connector.com/en/products/automation-technology/m12-a/77-3419-0000-50003-0200-m12-a-male-cable-connector-contacts-3-unshielded-moulded-on-cable-ip68-ul-pur-black-3-x-034-mm2-2-m"
+        "zh": "控制器预制系统电缆",
+        "en": "Preassembled controller system cable"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299013",
+      "aliases": [
+        "FLK 14/EZ-DR/ 300/KONFEK/S"
+      ],
+      "description": {
+        "zh": "控制器预制系统电缆",
+        "en": "Preassembled controller system cable"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299466",
+      "aliases": [
+        "FLK 26/EZ-DR/1000/KONFEK"
+      ],
+      "description": {
+        "zh": "控制器预制系统电缆",
+        "en": "Preassembled controller system cable"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2314545",
+      "aliases": [
+        "FLK 40-PA/EZ-DR/KS/2500/YUC"
+      ],
+      "description": {
+        "zh": "控制器预制系统电缆",
+        "en": "Preassembled controller system cable"
+      }
     },
     {
       "brand": "Turck",
@@ -183,100 +210,3971 @@
         "RK 4.5T-5"
       ],
       "description": {
-        "zh": "RK 4.5T-5单端仪表连接线；M12 A编码5位母头；5m；PVC；5×22AWG",
-        "en": "RK 4.5T-5 single-ended signal cordset; M12 A-coded 5-position female; 5 m; PVC; 5 × 22 AWG"
-      },
-      "engineering_use": {
-        "zh": "评审五芯信号分配、另一端处理、走线空间，以及现场耐油和运动要求。",
-        "en": "Review the five-wire signal assignment, free-end termination, routing space and the site requirements for oil exposure and motion."
-      },
-      "source_url": "https://www.turck.us/en/product/U2188-94"
+        "zh": "工业传感器/执行器预制线",
+        "en": "Industrial sensor/actuator cordset"
+      }
     },
     {
-      "brand": "Binder",
-      "identifier": "31 5237 500 520",
-      "aliases": [],
+      "brand": "LAPP",
+      "identifier": "21700867",
+      "aliases": [
+        "EPIC® DATA SPE-6 PC M-M 0,3m CT001"
+      ],
       "description": {
-        "zh": "A型电磁阀母连接器预制线；2+2PE；5m；PUR；Z20电路与PNP LED",
-        "en": "Form A female solenoid-valve cordset; 2+2PE contacts; 5 m; PUR; Z20 circuit with PNP LED"
-      },
-      "engineering_use": {
-        "zh": "确认阀体接口、保护地分配、控制电压和指示电路，避免只按外形选型。",
-        "en": "Confirm the valve interface, protective-earth assignment, control voltage and indicator circuit before selecting the assembly."
-      },
-      "source_url": "https://www.binder-connector.com/en/products/automation-technology-actuatorics-solenoid-valve-connectors/model-a/31-5237-500-520-type-a-female-solenoid-valve-connector-contacts-2-2pe-unshielded-moulded-on-cable-ip67-pur-black-circuit-z20-5-m"
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700868",
+      "aliases": [
+        "EPIC® DATA SPE-6 PC M-M 0,5m CT001"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700869",
+      "aliases": [
+        "EPIC® DATA SPE-6 PC M-M 1m CT001"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700870",
+      "aliases": [
+        "EPIC® DATA SPE-6 PC M-M 1,5m CT001"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700871",
+      "aliases": [
+        "EPIC® DATA SPE-6 PC M-M 2m CT001"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700872",
+      "aliases": [
+        "EPIC® DATA SPE-6 PC M-M 3m CT001"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700873",
+      "aliases": [
+        "EPIC® DATA SPE-6 PC M-M 5m CT001"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700874",
+      "aliases": [
+        "EPIC® DATA SPE-6 PC M-M 10m CT001"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170570",
+      "aliases": [
+        "ETHERLINE® PN CABINET Cat.6A 0.25"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170571",
+      "aliases": [
+        "ETHERLINE® PN CABINET Cat.6A 0.5"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170572",
+      "aliases": [
+        "ETHERLINE® PN CABINET Cat.6A 1"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170573",
+      "aliases": [
+        "ETHERLINE® PN CABINET Cat.6A 1.5"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170574",
+      "aliases": [
+        "ETHERLINE® PN CABINET Cat.6A 2"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170575",
+      "aliases": [
+        "ETHERLINE® PN CABINET Cat.6A 2.5"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170576",
+      "aliases": [
+        "ETHERLINE® PN CABINET Cat.6A 3"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170577",
+      "aliases": [
+        "ETHERLINE® PN CABINET Cat.6A 4"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170578",
+      "aliases": [
+        "ETHERLINE® PN CABINET Cat.6A 5"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170600",
+      "aliases": [
+        "ETHERLINE® PN CABINET Cat.6A 7.5"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170601",
+      "aliases": [
+        "ETHERLINE® PN CABINET Cat.6A 20"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170966",
+      "aliases": [
+        "ETHERLINE® PN CABINET Cat.6A 7"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170967",
+      "aliases": [
+        "ETHERLINE® PN CABINET Cat.6A 15"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171061",
+      "aliases": [
+        "IE-PNC-5-M12D-A-1-P-2-22-FD-M12D-S"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171062",
+      "aliases": [
+        "IE-PNC-5-M12D-A-2-P-2-22-FD-M12D-S"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171063",
+      "aliases": [
+        "IE-PNC-5-M12D-A-3-P-2-22-FD-M12D-S"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171064",
+      "aliases": [
+        "IE-PNC-5-M12D-A-5-P-2-22-FD-M12D-S"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171065",
+      "aliases": [
+        "IE-PNC-5-M12D-A-10-P-2-22-FD-M12D-S"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171066",
+      "aliases": [
+        "IE-PNC-5-M12D-A-20-P-2-22-FD-M12D-S"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171067",
+      "aliases": [
+        "IE-PNC-5-M12D-A-1-P-2-22-FD-OE"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171068",
+      "aliases": [
+        "IE-PNC-5-M12D-A-2-P-2-22-FD-OE"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171069",
+      "aliases": [
+        "IE-PNC-5-M12D-A-3-P-2-22-FD-OE"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171070",
+      "aliases": [
+        "IE-PNC-5-M12D-A-5-P-2-22-FD-OE"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171071",
+      "aliases": [
+        "IE-PNC-5-M12D-A-10-P-2-22-FD-OE"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171072",
+      "aliases": [
+        "IE-PNC-5-M12D-A-20-P-2-22-FD-OE"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171133",
+      "aliases": [
+        "IE-5-RJ45-0,3-H-2-26-7-RJ45"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171141",
+      "aliases": [
+        "IE-5-M12D-S-3,5-H-2-26-7-RJ45"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171143",
+      "aliases": [
+        "IE-5-M12D-S-3,5-H-2-26-7-OE"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171195",
+      "aliases": [
+        "IE-5-M12D-S-15-P-2-26-7-RJ45"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171196",
+      "aliases": [
+        "IE-5-M12D-S-18-P-2-26-7-RJ45"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171250",
+      "aliases": [
+        "IE-PNC-5-M12D-S-0,5-P-2-22-FD-M12DF-S"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171251",
+      "aliases": [
+        "IE-PNC-5-M12D-S-1-P-2-22-FD-M12DF-S"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171252",
+      "aliases": [
+        "IE-PNC-5-M12D-S-2-P-2-22-FD-M12DF-S"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171253",
+      "aliases": [
+        "IE-PNC-5-M12D-S-3-P-2-22-FD-M12DF-S"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171254",
+      "aliases": [
+        "IE-PNC-5-M12D-S-5-P-2-22-FD-M12DF-S"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171255",
+      "aliases": [
+        "IE-PNC-5-M12D-S-10-P-2-22-FD-M12DF-S"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171264",
+      "aliases": [
+        "IE-PNC-5-M12D-S-0,5-P-2-22-FD-RJ45"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171265",
+      "aliases": [
+        "IE-PNC-5-M12D-S-1-P-2-22-FD-RJ45"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171266",
+      "aliases": [
+        "IE-PNC-5-M12D-S-2-P-2-22-FD-RJ45"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171267",
+      "aliases": [
+        "IE-PNC-5-M12D-S-3-P-2-22-FD-RJ45"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171268",
+      "aliases": [
+        "IE-PNC-5-M12D-S-5-P-2-22-FD-RJ45"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171269",
+      "aliases": [
+        "IE-PNC-5-M12D-S-10-P-2-22-FD-RJ45"
+      ],
+      "description": {
+        "zh": "工业网络预制跳线",
+        "en": "Industrial network patch cable"
+      }
     },
     {
       "brand": "Phoenix Contact",
       "identifier": "1448836",
       "aliases": [],
       "description": {
-        "zh": "屏蔽工业网络线；4位弯头M12至直头RJ45；10m；22AWG；CAT5",
-        "en": "Shielded industrial network cable; 4-position angled M12 to straight RJ45; 10 m; 22 AWG; CAT5"
-      },
-      "engineering_use": {
-        "zh": "结合设备协议、屏蔽连续性、M12安装方向及柜内RJ45空间，确认网络连接方案。",
-        "en": "Review the equipment protocol, shield continuity, M12 orientation and cabinet-side RJ45 space when defining the network connection."
-      },
-      "source_url": "https://www.phoenixcontact.com/en-us/products/network-cable-vs-m12mrds-ip20-93b-100-sks-1448836"
+        "zh": "M12–RJ45工业网络线",
+        "en": "M12–RJ45 industrial network cable"
+      }
     },
     {
       "brand": "Turck",
       "identifier": "P-RSV RKV 101-1189XL-10M",
       "aliases": [],
       "description": {
-        "zh": "EX60过程设备主干成品线；10m；用于分线盒至控制柜的连接",
-        "en": "EX60 process-equipment home-run cordset; 10 m; junction-box-to-control-panel connection"
+        "zh": "EX60过程设备完整连接线",
+        "en": "EX60 process-equipment cordset"
       },
-      "engineering_use": {
-        "zh": "用于讨论过程设备主干布线：逐项确认针位、总芯数、屏蔽处理和分线盒至控制柜的长度。",
-        "en": "Use this home-run example to review the pin assignments, conductor count, shield termination and route from the junction box to the control panel."
+      "pdf_url": "https://www.turck.com.mx/attachment/B2700.pdf"
+    },
+    {
+      "brand": "Turck",
+      "identifier": "P-RSV RKV 101-1189XL-15M",
+      "aliases": [],
+      "description": {
+        "zh": "EX60过程设备完整连接线",
+        "en": "EX60 process-equipment cordset"
       },
-      "source_url": "https://www.turck.com.mx/attachment/B2700.pdf"
+      "pdf_url": "https://www.turck.com.mx/attachment/B2700.pdf"
+    },
+    {
+      "brand": "Turck",
+      "identifier": "P-RSV RKV 190-1484XL-10M",
+      "aliases": [],
+      "description": {
+        "zh": "EX60过程设备完整连接线",
+        "en": "EX60 process-equipment cordset"
+      },
+      "pdf_url": "https://www.turck.com.mx/attachment/B2700.pdf"
+    },
+    {
+      "brand": "Turck",
+      "identifier": "P-RSV RKV 190-1484XL-15M",
+      "aliases": [],
+      "description": {
+        "zh": "EX60过程设备完整连接线",
+        "en": "EX60 process-equipment cordset"
+      },
+      "pdf_url": "https://www.turck.com.mx/attachment/B2700.pdf"
+    },
+    {
+      "brand": "Turck",
+      "identifier": "P-RSV RKV 40-1188XL-10M",
+      "aliases": [],
+      "description": {
+        "zh": "EX60过程设备完整连接线",
+        "en": "EX60 process-equipment cordset"
+      },
+      "pdf_url": "https://www.turck.com.mx/attachment/B2700.pdf"
+    },
+    {
+      "brand": "Turck",
+      "identifier": "P-RSV RKV 40-1188XL-15M",
+      "aliases": [],
+      "description": {
+        "zh": "EX60过程设备完整连接线",
+        "en": "EX60 process-equipment cordset"
+      },
+      "pdf_url": "https://www.turck.com.mx/attachment/B2700.pdf"
+    },
+    {
+      "brand": "Turck",
+      "identifier": "P-RSV RKV 40-1188XL-1M",
+      "aliases": [],
+      "description": {
+        "zh": "EX60过程设备完整连接线",
+        "en": "EX60 process-equipment cordset"
+      },
+      "pdf_url": "https://www.turck.com.mx/attachment/B2700.pdf"
+    },
+    {
+      "brand": "Turck",
+      "identifier": "P-RSV RKV 40-1188XL-2M",
+      "aliases": [],
+      "description": {
+        "zh": "EX60过程设备完整连接线",
+        "en": "EX60 process-equipment cordset"
+      },
+      "pdf_url": "https://www.turck.com.mx/attachment/B2700.pdf"
+    },
+    {
+      "brand": "Turck",
+      "identifier": "P-RSV RKV 40-1188XL-5M",
+      "aliases": [],
+      "description": {
+        "zh": "EX60过程设备完整连接线",
+        "en": "EX60 process-equipment cordset"
+      },
+      "pdf_url": "https://www.turck.com.mx/attachment/B2700.pdf"
+    },
+    {
+      "brand": "Turck",
+      "identifier": "P-RSV RKV 66-2176XL-10M",
+      "aliases": [],
+      "description": {
+        "zh": "EX60过程设备完整连接线",
+        "en": "EX60 process-equipment cordset"
+      },
+      "pdf_url": "https://www.turck.com.mx/attachment/B2700.pdf"
+    },
+    {
+      "brand": "Turck",
+      "identifier": "P-RSV RKV 66-2176XL-15M",
+      "aliases": [],
+      "description": {
+        "zh": "EX60过程设备完整连接线",
+        "en": "EX60 process-equipment cordset"
+      },
+      "pdf_url": "https://www.turck.com.mx/attachment/B2700.pdf"
+    },
+    {
+      "brand": "Turck",
+      "identifier": "P-RSV RKV 66-2176XL-1M",
+      "aliases": [],
+      "description": {
+        "zh": "EX60过程设备完整连接线",
+        "en": "EX60 process-equipment cordset"
+      },
+      "pdf_url": "https://www.turck.com.mx/attachment/B2700.pdf"
+    },
+    {
+      "brand": "Turck",
+      "identifier": "P-RSV RKV 66-2176XL-2M",
+      "aliases": [],
+      "description": {
+        "zh": "EX60过程设备完整连接线",
+        "en": "EX60 process-equipment cordset"
+      },
+      "pdf_url": "https://www.turck.com.mx/attachment/B2700.pdf"
+    },
+    {
+      "brand": "Turck",
+      "identifier": "P-RSV RKV 66-2176XL-5M",
+      "aliases": [],
+      "description": {
+        "zh": "EX60过程设备完整连接线",
+        "en": "EX60 process-equipment cordset"
+      },
+      "pdf_url": "https://www.turck.com.mx/attachment/B2700.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3419 0000 50003-0200",
+      "aliases": [],
+      "description": {
+        "zh": "工业传感器/执行器预制线",
+        "en": "Industrial sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433501347",
+      "aliases": [
+        "EPIC® MC03C2LSANPB-22RK20"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433501349",
+      "aliases": [
+        "EPIC® MC03C2LSANPB-22RK50"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433501363",
+      "aliases": [
+        "EPIC® MC04C2LSANPB-22RK20"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433501365",
+      "aliases": [
+        "EPIC® MC04C2LSANPB-22RK50"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433501395",
+      "aliases": [
+        "EPIC® MC03C2RSANPB-22RK20"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433501397",
+      "aliases": [
+        "EPIC® MC03C2RSANPB-22RK50"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433501411",
+      "aliases": [
+        "EPIC® MC04C2RSANPB-22RK20"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433501412",
+      "aliases": [
+        "EPIC® MC04C2RSANPB-22RK30"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433501413",
+      "aliases": [
+        "EPIC® MC04C2RSANPB-22RK50"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433501427",
+      "aliases": [
+        "EPIC® MC05C2RSANPB-22RK20"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433501429",
+      "aliases": [
+        "EPIC® MC05C2RSANPB-22RK50"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502499",
+      "aliases": [
+        "EPIC® MC03C3LSABH22RK10"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502505",
+      "aliases": [
+        "EPIC® MC04C3LSABH22RK10"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502506",
+      "aliases": [
+        "EPIC® MC04C3LSABH22RK20"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502507",
+      "aliases": [
+        "EPIC® MC04C3LSABH22RK50"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502511",
+      "aliases": [
+        "EPIC® MC05C3LSABH22RK10"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502512",
+      "aliases": [
+        "EPIC® MC05C3LSABH22RK20"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502513",
+      "aliases": [
+        "EPIC® MC05C3LSABH22RK50"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502517",
+      "aliases": [
+        "EPIC® MC08C3LSABH24RK10"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502518",
+      "aliases": [
+        "EPIC® MC08C3LSABH24RK20"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502527",
+      "aliases": [
+        "EPIC® MC03C3LRSABH22CK20"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502528",
+      "aliases": [
+        "EPIC® MC03C3LRSABH22CK50"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502529",
+      "aliases": [
+        "EPIC® MC03C3LRSABH22RK10"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502530",
+      "aliases": [
+        "EPIC® MC03C3LRSABH22RK20"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502533",
+      "aliases": [
+        "EPIC® MC04C3LRSABH22CK20"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502534",
+      "aliases": [
+        "EPIC® MC04C3LRSABH22CK50"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502535",
+      "aliases": [
+        "EPIC® MC04C3LRSABH22RK10"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502536",
+      "aliases": [
+        "EPIC® MC04C3LRSABH22RK20"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502539",
+      "aliases": [
+        "EPIC® MC05C3LRSABH22CK20"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502540",
+      "aliases": [
+        "EPIC® MC05C3LRSABH22CK50"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502541",
+      "aliases": [
+        "EPIC® MC05C3LRSABH22RK10"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502542",
+      "aliases": [
+        "EPIC® MC05C3LRSABH22RK20"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502547",
+      "aliases": [
+        "EPIC® MC08C3LRSABH24RK10"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502548",
+      "aliases": [
+        "EPIC® MC08C3LRSABH24RK20"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503120",
+      "aliases": [
+        "EPIC® MC03C3LSAP22CK10"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503121",
+      "aliases": [
+        "EPIC® MC03C3LSAP22CK20"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503122",
+      "aliases": [
+        "EPIC® MC03C3LSAP22CK50"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503123",
+      "aliases": [
+        "EPIC® MC03C3LSAP22RK10"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503124",
+      "aliases": [
+        "EPIC® MC03C3LSAP22RK20"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503125",
+      "aliases": [
+        "EPIC® MC03C3LSAP22RK50"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503126",
+      "aliases": [
+        "EPIC® MC04C3LSAP22CK10"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503127",
+      "aliases": [
+        "EPIC® MC04C3LSAP22CK20"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503128",
+      "aliases": [
+        "EPIC® MC04C3LSAP22CK50"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503129",
+      "aliases": [
+        "EPIC® MC04C3LSAP22RK10"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503130",
+      "aliases": [
+        "EPIC® MC04C3LSAP22RK20"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503131",
+      "aliases": [
+        "EPIC® MC04C3LSAP22RK50"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503132",
+      "aliases": [
+        "EPIC® MC05C3LSAP22CK10"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503133",
+      "aliases": [
+        "EPIC® MC05C3LSAP22CK20"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503134",
+      "aliases": [
+        "EPIC® MC05C3LSAP22CK50"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503135",
+      "aliases": [
+        "EPIC® MC05C3LSAP22RK10"
+      ],
+      "description": {
+        "zh": "传感器/执行器成品电缆",
+        "en": "Sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1405501",
+      "aliases": [],
+      "description": {
+        "zh": "工业传感器/执行器预制线",
+        "en": "Industrial sensor/actuator cordset"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03010",
+      "aliases": [],
+      "description": {
+        "en": "M5 sensor/actuator cable assembly",
+        "zh": "M5传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03010.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03011",
+      "aliases": [],
+      "description": {
+        "en": "M5 sensor/actuator cable assembly",
+        "zh": "M5传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03011.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03012",
+      "aliases": [],
+      "description": {
+        "en": "M5 sensor/actuator cable assembly",
+        "zh": "M5传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03012.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03013",
+      "aliases": [],
+      "description": {
+        "en": "M5 sensor/actuator cable assembly",
+        "zh": "M5传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03013.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03014",
+      "aliases": [],
+      "description": {
+        "en": "M5 sensor/actuator cable assembly",
+        "zh": "M5传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03014.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03015",
+      "aliases": [],
+      "description": {
+        "en": "M5 sensor/actuator cable assembly",
+        "zh": "M5传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03015.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03017",
+      "aliases": [],
+      "description": {
+        "en": "M5 sensor/actuator cable assembly",
+        "zh": "M5传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03017.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03018",
+      "aliases": [],
+      "description": {
+        "en": "M5 sensor/actuator cable assembly",
+        "zh": "M5传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03018.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03632",
+      "aliases": [],
+      "description": {
+        "en": "M5 sensor/actuator cable assembly",
+        "zh": "M5传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03632.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03633",
+      "aliases": [],
+      "description": {
+        "en": "M5 sensor/actuator cable assembly",
+        "zh": "M5传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03633.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03801",
+      "aliases": [],
+      "description": {
+        "en": "M12 sensor/actuator cable assembly",
+        "zh": "M12传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03801.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03802",
+      "aliases": [],
+      "description": {
+        "en": "M12 sensor/actuator cable assembly",
+        "zh": "M12传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03802.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03803",
+      "aliases": [],
+      "description": {
+        "en": "M12 sensor/actuator cable assembly",
+        "zh": "M12传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03803.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03804",
+      "aliases": [],
+      "description": {
+        "en": "M12 sensor/actuator cable assembly",
+        "zh": "M12传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03804.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03805",
+      "aliases": [],
+      "description": {
+        "en": "M12 sensor/actuator cable assembly",
+        "zh": "M12传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03805.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03806",
+      "aliases": [],
+      "description": {
+        "en": "M12 sensor/actuator cable assembly",
+        "zh": "M12传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03806.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03807",
+      "aliases": [],
+      "description": {
+        "en": "M12 sensor/actuator cable assembly",
+        "zh": "M12传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03807.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03808",
+      "aliases": [],
+      "description": {
+        "en": "M12 sensor/actuator cable assembly",
+        "zh": "M12传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03808.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03809",
+      "aliases": [],
+      "description": {
+        "en": "M12 sensor/actuator cable assembly",
+        "zh": "M12传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03809.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03810",
+      "aliases": [],
+      "description": {
+        "en": "M12 sensor/actuator cable assembly",
+        "zh": "M12传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03810.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03811",
+      "aliases": [],
+      "description": {
+        "en": "M12 sensor/actuator cable assembly",
+        "zh": "M12传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03811.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03812",
+      "aliases": [],
+      "description": {
+        "en": "M12 sensor/actuator cable assembly",
+        "zh": "M12传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03812.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03813",
+      "aliases": [],
+      "description": {
+        "en": "M12 sensor/actuator cable assembly",
+        "zh": "M12传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03813.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03814",
+      "aliases": [],
+      "description": {
+        "en": "M12 sensor/actuator cable assembly",
+        "zh": "M12传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03814.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03815",
+      "aliases": [],
+      "description": {
+        "en": "M12 sensor/actuator cable assembly",
+        "zh": "M12传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03815.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03816",
+      "aliases": [],
+      "description": {
+        "en": "M12 sensor/actuator cable assembly",
+        "zh": "M12传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03816.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03817",
+      "aliases": [],
+      "description": {
+        "en": "M12 sensor/actuator cable assembly",
+        "zh": "M12传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03817.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03818",
+      "aliases": [],
+      "description": {
+        "en": "M12 sensor/actuator cable assembly",
+        "zh": "M12传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03818.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03819",
+      "aliases": [],
+      "description": {
+        "en": "M12 sensor/actuator cable assembly",
+        "zh": "M12传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03819.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03820",
+      "aliases": [],
+      "description": {
+        "en": "M12 sensor/actuator cable assembly",
+        "zh": "M12传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03820.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03821",
+      "aliases": [],
+      "description": {
+        "en": "M12 sensor/actuator cable assembly",
+        "zh": "M12传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03821.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03822",
+      "aliases": [],
+      "description": {
+        "en": "M12 sensor/actuator cable assembly",
+        "zh": "M12传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03822.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03823",
+      "aliases": [],
+      "description": {
+        "en": "M12 sensor/actuator cable assembly",
+        "zh": "M12传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03823.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03824",
+      "aliases": [],
+      "description": {
+        "en": "M12 sensor/actuator cable assembly",
+        "zh": "M12传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03824.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03825",
+      "aliases": [],
+      "description": {
+        "en": "M12 sensor/actuator cable assembly",
+        "zh": "M12传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03825.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03826",
+      "aliases": [],
+      "description": {
+        "en": "M12 sensor/actuator cable assembly",
+        "zh": "M12传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03826.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03827",
+      "aliases": [],
+      "description": {
+        "en": "M12 sensor/actuator cable assembly",
+        "zh": "M12传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03827.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03828",
+      "aliases": [],
+      "description": {
+        "en": "M12 sensor/actuator cable assembly",
+        "zh": "M12传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03828.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03829",
+      "aliases": [],
+      "description": {
+        "en": "M12 sensor/actuator cable assembly",
+        "zh": "M12传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03829.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03830",
+      "aliases": [],
+      "description": {
+        "en": "M12 sensor/actuator cable assembly",
+        "zh": "M12传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03830.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03831",
+      "aliases": [],
+      "description": {
+        "en": "M12 sensor/actuator cable assembly",
+        "zh": "M12传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03831.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03832",
+      "aliases": [],
+      "description": {
+        "en": "M12 sensor/actuator cable assembly",
+        "zh": "M12传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03832.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03833",
+      "aliases": [],
+      "description": {
+        "en": "M12 sensor/actuator cable assembly",
+        "zh": "M12传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03833.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03834",
+      "aliases": [],
+      "description": {
+        "en": "M12 sensor/actuator cable assembly",
+        "zh": "M12传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03834.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03835",
+      "aliases": [],
+      "description": {
+        "en": "M12 sensor/actuator cable assembly",
+        "zh": "M12传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03835.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03836",
+      "aliases": [],
+      "description": {
+        "en": "M12 sensor/actuator cable assembly",
+        "zh": "M12传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-03836.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04135",
+      "aliases": [],
+      "description": {
+        "en": "M8 sensor/actuator cable assembly",
+        "zh": "M8传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-04135.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04136",
+      "aliases": [],
+      "description": {
+        "en": "M8 sensor/actuator cable assembly",
+        "zh": "M8传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-04136.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04137",
+      "aliases": [],
+      "description": {
+        "en": "M8 sensor/actuator cable assembly",
+        "zh": "M8传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-04137.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04138",
+      "aliases": [],
+      "description": {
+        "en": "M8 sensor/actuator cable assembly",
+        "zh": "M8传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-04138.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04139",
+      "aliases": [],
+      "description": {
+        "en": "M8 sensor/actuator cable assembly",
+        "zh": "M8传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-04139.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04140",
+      "aliases": [],
+      "description": {
+        "en": "M8 sensor/actuator cable assembly",
+        "zh": "M8传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-04140.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04141",
+      "aliases": [],
+      "description": {
+        "en": "M8 sensor/actuator cable assembly",
+        "zh": "M8传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-04141.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04142",
+      "aliases": [],
+      "description": {
+        "en": "M8 sensor/actuator cable assembly",
+        "zh": "M8传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-04142.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04143",
+      "aliases": [],
+      "description": {
+        "en": "M8 sensor/actuator cable assembly",
+        "zh": "M8传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-04143.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04144",
+      "aliases": [],
+      "description": {
+        "en": "M8 sensor/actuator cable assembly",
+        "zh": "M8传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-04144.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04145",
+      "aliases": [],
+      "description": {
+        "en": "M8 sensor/actuator cable assembly",
+        "zh": "M8传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-04145.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04146",
+      "aliases": [],
+      "description": {
+        "en": "M8 sensor/actuator cable assembly",
+        "zh": "M8传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-04146.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04147",
+      "aliases": [],
+      "description": {
+        "en": "M8 sensor/actuator cable assembly",
+        "zh": "M8传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-04147.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04148",
+      "aliases": [],
+      "description": {
+        "en": "M8 sensor/actuator cable assembly",
+        "zh": "M8传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-04148.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04149",
+      "aliases": [],
+      "description": {
+        "en": "M8 sensor/actuator cable assembly",
+        "zh": "M8传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-04149.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04150",
+      "aliases": [],
+      "description": {
+        "en": "M8 sensor/actuator cable assembly",
+        "zh": "M8传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-04150.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04151",
+      "aliases": [],
+      "description": {
+        "en": "M8 sensor/actuator cable assembly",
+        "zh": "M8传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-04151.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04152",
+      "aliases": [],
+      "description": {
+        "en": "M8 sensor/actuator cable assembly",
+        "zh": "M8传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-04152.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04153",
+      "aliases": [],
+      "description": {
+        "en": "M8 sensor/actuator cable assembly",
+        "zh": "M8传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-04153.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04154",
+      "aliases": [],
+      "description": {
+        "en": "M8 sensor/actuator cable assembly",
+        "zh": "M8传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-04154.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04155",
+      "aliases": [],
+      "description": {
+        "en": "M8 sensor/actuator cable assembly",
+        "zh": "M8传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-04155.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04156",
+      "aliases": [],
+      "description": {
+        "en": "M8 sensor/actuator cable assembly",
+        "zh": "M8传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-04156.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04157",
+      "aliases": [],
+      "description": {
+        "en": "M8 sensor/actuator cable assembly",
+        "zh": "M8传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-04157.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04158",
+      "aliases": [],
+      "description": {
+        "en": "M8 sensor/actuator cable assembly",
+        "zh": "M8传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-04158.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04159",
+      "aliases": [],
+      "description": {
+        "en": "M8 sensor/actuator cable assembly",
+        "zh": "M8传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-04159.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04160",
+      "aliases": [],
+      "description": {
+        "en": "M8 sensor/actuator cable assembly",
+        "zh": "M8传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-04160.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04161",
+      "aliases": [],
+      "description": {
+        "en": "M8 sensor/actuator cable assembly",
+        "zh": "M8传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-04161.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04162",
+      "aliases": [],
+      "description": {
+        "en": "M8 sensor/actuator cable assembly",
+        "zh": "M8传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-04162.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04163",
+      "aliases": [],
+      "description": {
+        "en": "M8 sensor/actuator cable assembly",
+        "zh": "M8传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-04163.pdf"
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04164",
+      "aliases": [],
+      "description": {
+        "en": "M8 sensor/actuator cable assembly",
+        "zh": "M8传感器/执行器电缆组件"
+      },
+      "pdf_url": "https://tensility.s3.us-west-2.amazonaws.com/imports/product_spec_sheets/10-04164.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "31 5237 500 520",
+      "aliases": [],
+      "description": {
+        "zh": "A型电磁阀预制电缆",
+        "en": "Form A solenoid-valve cordset"
+      }
     }
   ],
   "materials": [
     {
       "brand": "Binder",
+      "identifier": "09 3105 81 03",
+      "aliases": [],
+      "description": {
+        "en": "M5 male panel-mount connector, THT termination",
+        "zh": "M5公头面板连接器，THT端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "09 3111 81 04",
+      "aliases": [],
+      "description": {
+        "en": "M5 male panel-mount connector, THT termination",
+        "zh": "M5公头面板连接器，THT端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "09 3111 71 04",
+      "aliases": [],
+      "description": {
+        "en": "M5 male receptacle, solder termination",
+        "zh": "M5公头插座，焊接端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "09 3106 81 03",
+      "aliases": [],
+      "description": {
+        "en": "M5 female panel-mount connector, THT termination",
+        "zh": "M5母头面板连接器，THT端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "09 3112 81 04",
+      "aliases": [],
+      "description": {
+        "en": "M5 female panel-mount connector, THT termination",
+        "zh": "M5母头面板连接器，THT端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "86 8006 1101 00004",
+      "aliases": [],
+      "description": {
+        "en": "M5 female panel-mount connector, solder termination",
+        "zh": "M5母头面板连接器，焊接端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "86 8006 1101 00003",
+      "aliases": [],
+      "description": {
+        "en": "M5 female panel-mount connector, solder termination",
+        "zh": "M5母头面板连接器，焊接端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "86 8005 1101 00003",
+      "aliases": [],
+      "description": {
+        "en": "M5 female panel-mount connector, solder termination",
+        "zh": "M5母头面板连接器，焊接端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "86 8005 1101 00004",
+      "aliases": [],
+      "description": {
+        "en": "M5 female panel-mount connector, solder termination",
+        "zh": "M5母头面板连接器，焊接端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "86 8106 1100 00004",
+      "aliases": [],
+      "description": {
+        "en": "M5 female panel-mount connector, THT termination",
+        "zh": "M5母头面板连接器，THT端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3379 00 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 male cable connector, solder termination",
+        "zh": "M8公头线端连接器，焊接端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3383 00 04",
+      "aliases": [],
+      "description": {
+        "en": "M8 male cable connector, solder termination",
+        "zh": "M8公头线端连接器，焊接端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3379 100 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 male cable connector, screw-clamp termination",
+        "zh": "M8公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3383 100 04",
+      "aliases": [],
+      "description": {
+        "en": "M8 male cable connector, screw-clamp termination",
+        "zh": "M8公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3361 00 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 male cable connector, solder termination",
+        "zh": "M8公头线端连接器，焊接端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3363 00 04",
+      "aliases": [],
+      "description": {
+        "en": "M8 male cable connector, solder termination",
+        "zh": "M8公头线端连接器，焊接端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3361 25 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 male cable connector, solder termination",
+        "zh": "M8公头线端连接器，焊接端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3363 25 04",
+      "aliases": [],
+      "description": {
+        "en": "M8 male cable connector, solder termination",
+        "zh": "M8公头线端连接器，焊接端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3361 100 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 male cable connector, screw-clamp termination",
+        "zh": "M8公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3363 100 04",
+      "aliases": [],
+      "description": {
+        "en": "M8 male cable connector, screw-clamp termination",
+        "zh": "M8公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3361 300 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 male cable connector, screw-clamp termination",
+        "zh": "M8公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3363 300 04",
+      "aliases": [],
+      "description": {
+        "en": "M8 male cable connector, screw-clamp termination",
+        "zh": "M8公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3365 00 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 male cable connector, solder termination",
+        "zh": "M8公头线端连接器，焊接端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3367 00 04",
+      "aliases": [],
+      "description": {
+        "en": "M8 male cable connector, solder termination",
+        "zh": "M8公头线端连接器，焊接端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3400 00 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 female cable connector, solder termination",
+        "zh": "M8母头线端连接器，焊接端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3376 00 04",
+      "aliases": [],
+      "description": {
+        "en": "M8 female cable connector, solder termination",
+        "zh": "M8母头线端连接器，焊接端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3400 100 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 female cable connector, screw-clamp termination",
+        "zh": "M8母头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3376 100 04",
+      "aliases": [],
+      "description": {
+        "en": "M8 female cable connector, screw-clamp termination",
+        "zh": "M8母头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3360 00 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 female cable connector, solder termination",
+        "zh": "M8母头线端连接器，焊接端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3362 00 04",
+      "aliases": [],
+      "description": {
+        "en": "M8 female cable connector, solder termination",
+        "zh": "M8母头线端连接器，焊接端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3360 25 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 female cable connector, solder termination",
+        "zh": "M8母头线端连接器，焊接端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3362 25 04",
+      "aliases": [],
+      "description": {
+        "en": "M8 female cable connector, solder termination",
+        "zh": "M8母头线端连接器，焊接端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3360 100 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 female cable connector, screw-clamp termination",
+        "zh": "M8母头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3362 100 04",
+      "aliases": [],
+      "description": {
+        "en": "M8 female cable connector, screw-clamp termination",
+        "zh": "M8母头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3360 300 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 female cable connector, screw-clamp termination",
+        "zh": "M8母头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0429 82 04",
+      "aliases": [],
+      "description": {
+        "en": "M12 A male cable connector, screw-clamp termination",
+        "zh": "M12 A公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0429 282 04",
+      "aliases": [],
+      "description": {
+        "en": "M12 A male cable connector, screw-clamp termination",
+        "zh": "M12 A公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0437 82 05",
+      "aliases": [],
+      "description": {
+        "en": "M12 A male cable connector, screw-clamp termination",
+        "zh": "M12 A公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0437 282 05",
+      "aliases": [],
+      "description": {
+        "en": "M12 A male cable connector, screw-clamp termination",
+        "zh": "M12 A公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0487 282 08",
+      "aliases": [],
+      "description": {
+        "en": "M12 A male cable connector, screw-clamp termination",
+        "zh": "M12 A公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0429 684 04",
+      "aliases": [],
+      "description": {
+        "en": "M12 A male cable connector, screw-clamp termination",
+        "zh": "M12 A公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0437 684 05",
+      "aliases": [],
+      "description": {
+        "en": "M12 A male cable connector, screw-clamp termination",
+        "zh": "M12 A公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0429 142 04",
+      "aliases": [],
+      "description": {
+        "en": "M12 A male cable connector, screw-clamp termination",
+        "zh": "M12 A公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0437 142 05",
+      "aliases": [],
+      "description": {
+        "en": "M12 A male cable connector, screw-clamp termination",
+        "zh": "M12 A公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0429 186 04",
+      "aliases": [],
+      "description": {
+        "en": "M12 A male cable connector, screw-clamp termination",
+        "zh": "M12 A公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0437 186 05",
+      "aliases": [],
+      "description": {
+        "en": "M12 A male cable connector, screw-clamp termination",
+        "zh": "M12 A公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0487 186 08",
+      "aliases": [],
+      "description": {
+        "en": "M12 A male cable connector, screw-clamp termination",
+        "zh": "M12 A公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0429 287 04",
+      "aliases": [],
+      "description": {
+        "en": "M12 A male cable connector, screw-clamp termination",
+        "zh": "M12 A公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0437 287 05",
+      "aliases": [],
+      "description": {
+        "en": "M12 A male cable connector, screw-clamp termination",
+        "zh": "M12 A公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0487 287 08",
+      "aliases": [],
+      "description": {
+        "en": "M12 A male cable connector, screw-clamp termination",
+        "zh": "M12 A公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1429 812 04",
+      "aliases": [],
+      "description": {
+        "en": "M12 A male cable connector, screw-clamp termination",
+        "zh": "M12 A公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1429 814 04",
+      "aliases": [],
+      "description": {
+        "en": "M12 A male cable connector, screw-clamp termination",
+        "zh": "M12 A公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1437 812 05",
+      "aliases": [],
+      "description": {
+        "en": "M12 A male cable connector, screw-clamp termination",
+        "zh": "M12 A公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1437 814 05",
+      "aliases": [],
+      "description": {
+        "en": "M12 A male cable connector, screw-clamp termination",
+        "zh": "M12 A公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1487 812 08",
+      "aliases": [],
+      "description": {
+        "en": "M12 A male cable connector, screw-clamp termination",
+        "zh": "M12 A公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
       "identifier": "99 1487 814 08",
       "aliases": [],
       "description": {
-        "zh": "M12 A编码8位公连接器；螺钉压线；可屏蔽；电缆出口4–6mm",
-        "en": "M12 A-coded 8-position male cable connector; screw-clamp termination; shieldable; 4–6 mm cable outlet"
-      },
-      "engineering_use": {
-        "zh": "核对8位电路、配对接口及护套外径，再确定现场装配或工厂预装方案。",
-        "en": "Match the eight-contact circuit, mating interface and jacket diameter before choosing field assembly or factory preassembly."
-      },
-      "source_url": "https://www.binder-connector.com/en/products/automation-technology/m12-a/99-1487-814-08-m12-a-male-cable-connector-contacts-8-40-60-mm-shieldable-screw-clamp-ip67"
+        "en": "M12 A male cable connector, screw-clamp termination",
+        "zh": "M12 A公头线端连接器，螺钉端接"
+      }
     },
     {
       "brand": "Binder",
-      "identifier": "86 0531 1121 00004",
+      "identifier": "99 1491 812 12",
       "aliases": [],
       "description": {
-        "zh": "M12 A编码4位公面板连接器；THT；PG9；后安装；灌封",
-        "en": "M12 A-coded 4-position male panel connector; THT; PG9; rear mounting; potted"
-      },
-      "engineering_use": {
-        "zh": "评审面板开孔、后侧安装空间、PCB连接方向与灌封边界。",
-        "en": "Review the panel cut-out, rear clearance, PCB connection direction and potting boundary."
-      },
-      "source_url": "https://www.binder-connector.com/en/products/automation-technology/m12-a/86-0531-1121-00004-m12-a-male-panel-mount-connector-contacts-4-shieldable-tht-ip68-ul-pg-9-front-fastened"
+        "en": "M12 A male cable connector, solder termination",
+        "zh": "M12 A公头线端连接器，焊接端接"
+      }
     },
     {
       "brand": "Binder",
-      "identifier": "08 3080 000 000",
+      "identifier": "99 1437 914 05",
       "aliases": [],
       "description": {
-        "zh": "PUR散装电缆；3×0.34mm²；非屏蔽；黑色；原厂标称长度100m",
-        "en": "PUR bulk cable; 3 × 0.34 mm²; unshielded; black; manufacturer-listed length: 100 m"
+        "en": "M12 A male cable connector, screw-clamp termination",
+        "zh": "M12 A公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1487 914 08",
+      "aliases": [],
+      "description": {
+        "en": "M12 A male cable connector, screw-clamp termination",
+        "zh": "M12 A公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1491 914 12",
+      "aliases": [],
+      "description": {
+        "en": "M12 A male cable connector, solder termination",
+        "zh": "M12 A公头线端连接器，焊接端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1431 814 04",
+      "aliases": [],
+      "description": {
+        "en": "M12 A male cable connector, screw-clamp termination",
+        "zh": "M12 A公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1439 814 05",
+      "aliases": [],
+      "description": {
+        "en": "M12 A male cable connector, screw-clamp termination",
+        "zh": "M12 A公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1489 812 08",
+      "aliases": [],
+      "description": {
+        "en": "M12 A male cable connector, screw-clamp termination",
+        "zh": "M12 A公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1489 814 08",
+      "aliases": [],
+      "description": {
+        "en": "M12 A male cable connector, screw-clamp termination",
+        "zh": "M12 A公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1429 991 04",
+      "aliases": [],
+      "description": {
+        "en": "M12 A male cable connector, screw-clamp termination",
+        "zh": "M12 A公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1429 992 04",
+      "aliases": [],
+      "description": {
+        "en": "M12 A male cable connector, screw-clamp termination",
+        "zh": "M12 A公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1437 991 05",
+      "aliases": [],
+      "description": {
+        "en": "M12 A male cable connector, screw-clamp termination",
+        "zh": "M12 A公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1437 992 05",
+      "aliases": [],
+      "description": {
+        "en": "M12 A male cable connector, screw-clamp termination",
+        "zh": "M12 A公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1487 992 08",
+      "aliases": [],
+      "description": {
+        "en": "M12 A male cable connector, screw-clamp termination",
+        "zh": "M12 A公头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0430 10 04",
+      "aliases": [],
+      "description": {
+        "en": "M12 A female cable connector, screw-clamp termination",
+        "zh": "M12 A母头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0430 30 04",
+      "aliases": [],
+      "description": {
+        "en": "M12 A female cable connector, screw-clamp termination",
+        "zh": "M12 A母头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0436 10 05",
+      "aliases": [],
+      "description": {
+        "en": "M12 A female cable connector, screw-clamp termination",
+        "zh": "M12 A母头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0436 57 05",
+      "aliases": [],
+      "description": {
+        "en": "M12 A female cable connector, screw-clamp termination",
+        "zh": "M12 A母头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0430 57 04",
+      "aliases": [],
+      "description": {
+        "en": "M12 A female cable connector, screw-clamp termination",
+        "zh": "M12 A母头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0430 07 04",
+      "aliases": [],
+      "description": {
+        "en": "M12 A female cable connector, screw-clamp termination",
+        "zh": "M12 A母头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0430 158 04",
+      "aliases": [],
+      "description": {
+        "en": "M12 A female cable connector, screw-clamp termination",
+        "zh": "M12 A母头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0430 314 04",
+      "aliases": [],
+      "description": {
+        "en": "M12 A female cable connector, screw-clamp termination",
+        "zh": "M12 A母头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0430 14 04",
+      "aliases": [],
+      "description": {
+        "en": "M12 A female cable connector, screw-clamp termination",
+        "zh": "M12 A母头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0430 12 04",
+      "aliases": [],
+      "description": {
+        "en": "M12 A female cable connector, screw-clamp termination",
+        "zh": "M12 A母头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0436 14 05",
+      "aliases": [],
+      "description": {
+        "en": "M12 A female cable connector, screw-clamp termination",
+        "zh": "M12 A母头线端连接器，螺钉端接"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1534436",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1429091",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1408454",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1415293",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1440096",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1222105",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1422990",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1419638",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1069507",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1423936",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1456572",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1534591",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1411584",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1344460",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1523492",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1405239",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1456433",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1419331",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1344463",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1016694",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1420947",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1242539",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1453494",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1147728",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1305030",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1162464",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1424236",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1453245",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1456417",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1426489",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1420954",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1436806",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1535202",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1420017",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1436408",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1096284",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1520013",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1034985",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1411597",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1425243",
+      "aliases": [],
+      "description": {
+        "en": "Device-side circular connector",
+        "zh": "设备侧圆形连接器"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119752",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 2X0.5",
+        "zh": "CLASSIC 110多芯PVC控制电缆，2X0.5"
       },
-      "engineering_use": {
-        "zh": "将芯数、截面积、护套外径和弯曲要求写入线材规格，成品线长单独定义。",
-        "en": "Specify conductor count, cross-section, jacket diameter and bending requirements; define the finished assembly length separately."
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119003",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 3G0.5",
+        "zh": "CLASSIC 110多芯PVC控制电缆，3G0.5"
       },
-      "source_url": "https://www.binder-connector.com/en/products/purpvc-cable/unshielded-cable/08-3080-000-000-pur-cable-contacts-3-wires-unshielded-ul-standard-pur-black-ral-9005-3-x-034-mm2-100-m"
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119753",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 3X0.5",
+        "zh": "CLASSIC 110多芯PVC控制电缆，3X0.5"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119004",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 4G0.5",
+        "zh": "CLASSIC 110多芯PVC控制电缆，4G0.5"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119754",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 4X0.5",
+        "zh": "CLASSIC 110多芯PVC控制电缆，4X0.5"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119005",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 5G0.5",
+        "zh": "CLASSIC 110多芯PVC控制电缆，5G0.5"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119755",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 5X0.5",
+        "zh": "CLASSIC 110多芯PVC控制电缆，5X0.5"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119007",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 7G0.5",
+        "zh": "CLASSIC 110多芯PVC控制电缆，7G0.5"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119757",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 7X0.5",
+        "zh": "CLASSIC 110多芯PVC控制电缆，7X0.5"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119010",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 10G0.5",
+        "zh": "CLASSIC 110多芯PVC控制电缆，10G0.5"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119012",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 12G0.5",
+        "zh": "CLASSIC 110多芯PVC控制电缆，12G0.5"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119014",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 14G0.5",
+        "zh": "CLASSIC 110多芯PVC控制电缆，14G0.5"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119018",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 18G0.5",
+        "zh": "CLASSIC 110多芯PVC控制电缆，18G0.5"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119802",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 2X0.75",
+        "zh": "CLASSIC 110多芯PVC控制电缆，2X0.75"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119103",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 3G0.75",
+        "zh": "CLASSIC 110多芯PVC控制电缆，3G0.75"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119803",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 3X0.75",
+        "zh": "CLASSIC 110多芯PVC控制电缆，3X0.75"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119104",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 4G0.75",
+        "zh": "CLASSIC 110多芯PVC控制电缆，4G0.75"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119804",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 4X0.75",
+        "zh": "CLASSIC 110多芯PVC控制电缆，4X0.75"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119105",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 5G0.75",
+        "zh": "CLASSIC 110多芯PVC控制电缆，5G0.75"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119805",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 5X0.75",
+        "zh": "CLASSIC 110多芯PVC控制电缆，5X0.75"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119107",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 7G0.75",
+        "zh": "CLASSIC 110多芯PVC控制电缆，7G0.75"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119807",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 7X0.75",
+        "zh": "CLASSIC 110多芯PVC控制电缆，7X0.75"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119109",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 9G0.75",
+        "zh": "CLASSIC 110多芯PVC控制电缆，9G0.75"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119110",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 10G0.75",
+        "zh": "CLASSIC 110多芯PVC控制电缆，10G0.75"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119112",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 12G0.75",
+        "zh": "CLASSIC 110多芯PVC控制电缆，12G0.75"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119812",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 12X0.75",
+        "zh": "CLASSIC 110多芯PVC控制电缆，12X0.75"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119115",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 15G0.75",
+        "zh": "CLASSIC 110多芯PVC控制电缆，15G0.75"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119117",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 15X0.75",
+        "zh": "CLASSIC 110多芯PVC控制电缆，15X0.75"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119116",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 16G0.75",
+        "zh": "CLASSIC 110多芯PVC控制电缆，16G0.75"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119118",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 18G0.75",
+        "zh": "CLASSIC 110多芯PVC控制电缆，18G0.75"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119852",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 2X1.0",
+        "zh": "CLASSIC 110多芯PVC控制电缆，2X1.0"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119203",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 3G1.0",
+        "zh": "CLASSIC 110多芯PVC控制电缆，3G1.0"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119853",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 3X1.0",
+        "zh": "CLASSIC 110多芯PVC控制电缆，3X1.0"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119204",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 4G1.0",
+        "zh": "CLASSIC 110多芯PVC控制电缆，4G1.0"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119854",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 4X1.0",
+        "zh": "CLASSIC 110多芯PVC控制电缆，4X1.0"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119205",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 5G1.0",
+        "zh": "CLASSIC 110多芯PVC控制电缆，5G1.0"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119855",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 5X1.0",
+        "zh": "CLASSIC 110多芯PVC控制电缆，5X1.0"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119206",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 6G1.0",
+        "zh": "CLASSIC 110多芯PVC控制电缆，6G1.0"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119207",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 7G1.0",
+        "zh": "CLASSIC 110多芯PVC控制电缆，7G1.0"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119857",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 7X1.0",
+        "zh": "CLASSIC 110多芯PVC控制电缆，7X1.0"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119208",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 8G1.0",
+        "zh": "CLASSIC 110多芯PVC控制电缆，8G1.0"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119209",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 9G1.0",
+        "zh": "CLASSIC 110多芯PVC控制电缆，9G1.0"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119210",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 10G1.0",
+        "zh": "CLASSIC 110多芯PVC控制电缆，10G1.0"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119212",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 12G1.0",
+        "zh": "CLASSIC 110多芯PVC控制电缆，12G1.0"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119862",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 12X1.0",
+        "zh": "CLASSIC 110多芯PVC控制电缆，12X1.0"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119214",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 14G1.0",
+        "zh": "CLASSIC 110多芯PVC控制电缆，14G1.0"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119216",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 16G1.0",
+        "zh": "CLASSIC 110多芯PVC控制电缆，16G1.0"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119218",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 18G1.0",
+        "zh": "CLASSIC 110多芯PVC控制电缆，18G1.0"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119868",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 18X1.0",
+        "zh": "CLASSIC 110多芯PVC控制电缆，18X1.0"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1119902",
+      "aliases": [],
+      "description": {
+        "en": "CLASSIC 110 PVC control cable, 2X1.5",
+        "zh": "CLASSIC 110多芯PVC控制电缆，2X1.5"
+      },
+      "pdf_url": "https://products.lappgroup.com/online-catalogue/power-and-control-cables/various-applications/pvc-outer-sheath-and-numbered-cores/oelflex-classic-110.html?type=1664268841",
+      "pdf_verified": true
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167760",
+      "aliases": [],
+      "description": {
+        "en": "EPIC M23P pin contact",
+        "zh": "EPIC M23P圆形连接器针触点"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167759",
+      "aliases": [],
+      "description": {
+        "en": "EPIC M23P pin contact",
+        "zh": "EPIC M23P圆形连接器针触点"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167762",
+      "aliases": [],
+      "description": {
+        "en": "EPIC M23P pin contact",
+        "zh": "EPIC M23P圆形连接器针触点"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167761",
+      "aliases": [],
+      "description": {
+        "en": "EPIC M23P pin contact",
+        "zh": "EPIC M23P圆形连接器针触点"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167756",
+      "aliases": [],
+      "description": {
+        "en": "EPIC M23P socket contact",
+        "zh": "EPIC M23P圆形连接器孔触点"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167755",
+      "aliases": [],
+      "description": {
+        "en": "EPIC M23P socket contact",
+        "zh": "EPIC M23P圆形连接器孔触点"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167758",
+      "aliases": [],
+      "description": {
+        "en": "EPIC M23P socket contact",
+        "zh": "EPIC M23P圆形连接器孔触点"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167757",
+      "aliases": [],
+      "description": {
+        "en": "EPIC M23P socket contact",
+        "zh": "EPIC M23P圆形连接器孔触点"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "53113950",
+      "aliases": [],
+      "description": {
+        "en": "SKINTOP HEAT EMC brass cable gland, M16X1.5",
+        "zh": "SKINTOP HEAT EMC黄铜电缆格兰头，M16X1.5"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "53113941",
+      "aliases": [],
+      "description": {
+        "en": "SKINTOP HEAT EMC brass cable gland, M20X1.5",
+        "zh": "SKINTOP HEAT EMC黄铜电缆格兰头，M20X1.5"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "53113951",
+      "aliases": [],
+      "description": {
+        "en": "SKINTOP HEAT EMC brass cable gland, M20X1.5",
+        "zh": "SKINTOP HEAT EMC黄铜电缆格兰头，M20X1.5"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "53113942",
+      "aliases": [],
+      "description": {
+        "en": "SKINTOP HEAT EMC brass cable gland, M25X1.5",
+        "zh": "SKINTOP HEAT EMC黄铜电缆格兰头，M25X1.5"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "53113952",
+      "aliases": [],
+      "description": {
+        "en": "SKINTOP HEAT EMC brass cable gland, M25X1.5",
+        "zh": "SKINTOP HEAT EMC黄铜电缆格兰头，M25X1.5"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "53113943",
+      "aliases": [],
+      "description": {
+        "en": "SKINTOP HEAT EMC brass cable gland, M32X1.5",
+        "zh": "SKINTOP HEAT EMC黄铜电缆格兰头，M32X1.5"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "53113953",
+      "aliases": [],
+      "description": {
+        "en": "SKINTOP HEAT EMC brass cable gland, M32X1.5",
+        "zh": "SKINTOP HEAT EMC黄铜电缆格兰头，M32X1.5"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "53113944",
+      "aliases": [],
+      "description": {
+        "en": "SKINTOP HEAT EMC brass cable gland, M40X1.5",
+        "zh": "SKINTOP HEAT EMC黄铜电缆格兰头，M40X1.5"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "53113954",
+      "aliases": [],
+      "description": {
+        "en": "SKINTOP HEAT EMC brass cable gland, M40X1.5",
+        "zh": "SKINTOP HEAT EMC黄铜电缆格兰头，M40X1.5"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "53113945",
+      "aliases": [],
+      "description": {
+        "en": "SKINTOP HEAT EMC brass cable gland, M50X1.5",
+        "zh": "SKINTOP HEAT EMC黄铜电缆格兰头，M50X1.5"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "53113955",
+      "aliases": [],
+      "description": {
+        "en": "SKINTOP HEAT EMC brass cable gland, M50X1.5",
+        "zh": "SKINTOP HEAT EMC黄铜电缆格兰头，M50X1.5"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "53113946",
+      "aliases": [],
+      "description": {
+        "en": "SKINTOP HEAT EMC brass cable gland, M63X1.5",
+        "zh": "SKINTOP HEAT EMC黄铜电缆格兰头，M63X1.5"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160433",
+      "aliases": [],
+      "description": {
+        "en": "ÖLFLEX WIRE single-core equipment wire",
+        "zh": "ÖLFLEX WIRE设备单芯导线"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160429",
+      "aliases": [],
+      "description": {
+        "en": "ÖLFLEX WIRE single-core equipment wire",
+        "zh": "ÖLFLEX WIRE设备单芯导线"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160542",
+      "aliases": [],
+      "description": {
+        "en": "ÖLFLEX WIRE single-core equipment wire",
+        "zh": "ÖLFLEX WIRE设备单芯导线"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160434",
+      "aliases": [],
+      "description": {
+        "en": "ÖLFLEX WIRE single-core equipment wire",
+        "zh": "ÖLFLEX WIRE设备单芯导线"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160427",
+      "aliases": [],
+      "description": {
+        "en": "ÖLFLEX WIRE single-core equipment wire",
+        "zh": "ÖLFLEX WIRE设备单芯导线"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160317",
+      "aliases": [],
+      "description": {
+        "en": "ÖLFLEX WIRE single-core equipment wire",
+        "zh": "ÖLFLEX WIRE设备单芯导线"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160242",
+      "aliases": [],
+      "description": {
+        "en": "ÖLFLEX WIRE single-core equipment wire",
+        "zh": "ÖLFLEX WIRE设备单芯导线"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160217",
+      "aliases": [],
+      "description": {
+        "en": "ÖLFLEX WIRE single-core equipment wire",
+        "zh": "ÖLFLEX WIRE设备单芯导线"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190157",
+      "aliases": [],
+      "description": {
+        "en": "ÖLFLEX WIRE single-core equipment wire",
+        "zh": "ÖLFLEX WIRE设备单芯导线"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190155",
+      "aliases": [],
+      "description": {
+        "en": "ÖLFLEX WIRE single-core equipment wire",
+        "zh": "ÖLFLEX WIRE设备单芯导线"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11100",
+      "aliases": [
+        "HG-SW10"
+      ],
+      "description": {
+        "en": "PA6 standard-weight corrugated conduit, OD 10.0 mm",
+        "zh": "PA6标准型波纹管，外径10.0mm"
+      },
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11101",
+      "aliases": [
+        "HG-SW11"
+      ],
+      "description": {
+        "en": "PA6 standard-weight corrugated conduit, OD 11.5 mm",
+        "zh": "PA6标准型波纹管，外径11.5mm"
+      },
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
     },
     {
       "brand": "HellermannTyton",
@@ -285,14 +4183,70 @@
         "HG-SW13"
       ],
       "description": {
-        "zh": "HelaGuard HG-SW13标准壁厚PA6波纹管；外径13.0mm；内径9.8mm",
-        "en": "HelaGuard HG-SW13 standard-weight PA6 conduit; OD 13.0 mm; ID 9.8 mm"
+        "en": "PA6 standard-weight corrugated conduit, OD 13.0 mm",
+        "zh": "PA6标准型波纹管，外径13.0mm"
       },
-      "engineering_use": {
-        "zh": "根据线束最大外径、填充率、最小弯曲半径及两端固定方式选择防护管。",
-        "en": "Select the conduit against the harness diameter, fill ratio, minimum bend radius and end-fixing method."
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11113",
+      "aliases": [
+        "HG-SW42"
+      ],
+      "description": {
+        "en": "PA6 standard-weight corrugated conduit, OD 42.5 mm",
+        "zh": "PA6标准型波纹管，外径42.5mm"
       },
-      "source_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11114",
+      "aliases": [
+        "HG-SW54"
+      ],
+      "description": {
+        "en": "PA6 standard-weight corrugated conduit, OD 54.5 mm",
+        "zh": "PA6标准型波纹管，外径54.5mm"
+      },
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11200",
+      "aliases": [
+        "HG-LW10"
+      ],
+      "description": {
+        "en": "PA6 lightweight corrugated conduit, OD 10.0 mm",
+        "zh": "PA6轻型波纹管，外径10.0mm"
+      },
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11201",
+      "aliases": [
+        "HG-LW11"
+      ],
+      "description": {
+        "en": "PA6 lightweight corrugated conduit, OD 11.5 mm",
+        "zh": "PA6轻型波纹管，外径11.5mm"
+      },
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11202",
+      "aliases": [
+        "HG-LW13"
+      ],
+      "description": {
+        "en": "PA6 lightweight corrugated conduit, OD 13.0 mm",
+        "zh": "PA6轻型波纹管，外径13.0mm"
+      },
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
     },
     {
       "brand": "HellermannTyton",
@@ -301,14 +4255,46 @@
         "HG-LW16"
       ],
       "description": {
-        "zh": "HelaGuard HG-LW16轻型PA6波纹管；外径15.8mm；内径12.0mm",
-        "en": "HelaGuard HG-LW16 lightweight PA6 conduit; OD 15.8 mm; ID 12.0 mm"
+        "en": "PA6 lightweight corrugated conduit, OD 15.8 mm",
+        "zh": "PA6轻型波纹管，外径15.8mm"
       },
-      "engineering_use": {
-        "zh": "对照重量、柔性与耐磨需求，评审轻型防护结构是否适合设备路径。",
-        "en": "Review whether a lightweight protective construction suits the route, weight, flexibility and abrasion requirements."
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11204",
+      "aliases": [
+        "HG-LW21"
+      ],
+      "description": {
+        "en": "PA6 lightweight corrugated conduit, OD 21.2 mm",
+        "zh": "PA6轻型波纹管，外径21.2mm"
       },
-      "source_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11400",
+      "aliases": [
+        "HG-FR10"
+      ],
+      "description": {
+        "en": "PA6FR corrugated conduit, OD 10.0 mm",
+        "zh": "PA6FR波纹防护管，外径10.0mm"
+      },
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11401",
+      "aliases": [
+        "HG-FR13"
+      ],
+      "description": {
+        "en": "PA6FR corrugated conduit, OD 13.0 mm",
+        "zh": "PA6FR波纹防护管，外径13.0mm"
+      },
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
     },
     {
       "brand": "HellermannTyton",
@@ -317,14 +4303,366 @@
         "HG-FR16"
       ],
       "description": {
-        "zh": "HelaGuard HG-FR16阻燃PA6FR波纹管；外径15.8mm；内径11.8mm",
-        "en": "HelaGuard HG-FR16 flame-retardant PA6FR conduit; OD 15.8 mm; ID 11.8 mm"
+        "en": "PA6FR corrugated conduit, OD 15.8 mm",
+        "zh": "PA6FR波纹防护管，外径15.8mm"
       },
-      "engineering_use": {
-        "zh": "把防护材料要求与完整线束要求分别确认，按项目核对所需阻燃试验及材料文件。",
-        "en": "Confirm protective-material requirements separately from the finished harness, including the project fire test and material documentation."
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11403",
+      "aliases": [
+        "HG-FR21"
+      ],
+      "description": {
+        "en": "PA6FR corrugated conduit, OD 21.2 mm",
+        "zh": "PA6FR波纹防护管，外径21.2mm"
       },
-      "source_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11404",
+      "aliases": [
+        "HG-FR28"
+      ],
+      "description": {
+        "en": "PA6FR corrugated conduit, OD 28.5 mm",
+        "zh": "PA6FR波纹防护管，外径28.5mm"
+      },
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11800",
+      "aliases": [
+        "HG-DC11"
+      ],
+      "description": {
+        "en": "double-slit corrugated conduit, OD 11.5 mm",
+        "zh": "双开缝波纹防护管，外径11.5mm"
+      },
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11801",
+      "aliases": [
+        "HG-DC13"
+      ],
+      "description": {
+        "en": "double-slit corrugated conduit, OD 12.9 mm",
+        "zh": "双开缝波纹防护管，外径12.9mm"
+      },
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11802",
+      "aliases": [
+        "HG-DC16"
+      ],
+      "description": {
+        "en": "double-slit corrugated conduit, OD 16.2 mm",
+        "zh": "双开缝波纹防护管，外径16.2mm"
+      },
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11803",
+      "aliases": [
+        "HG-DC21"
+      ],
+      "description": {
+        "en": "double-slit corrugated conduit, OD 21.0 mm",
+        "zh": "双开缝波纹防护管，外径21.0mm"
+      },
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11804",
+      "aliases": [
+        "HG-DC28"
+      ],
+      "description": {
+        "en": "double-slit corrugated conduit, OD 28.4 mm",
+        "zh": "双开缝波纹防护管，外径28.4mm"
+      },
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-30100",
+      "aliases": [
+        "SC10"
+      ],
+      "description": {
+        "en": "galvanized-steel flexible conduit, OD 9.1 mm",
+        "zh": "镀锌钢柔性防护管，外径9.1mm"
+      },
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-30101",
+      "aliases": [
+        "SC12"
+      ],
+      "description": {
+        "en": "galvanized-steel flexible conduit, OD 13.2 mm",
+        "zh": "镀锌钢柔性防护管，外径13.2mm"
+      },
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-30102",
+      "aliases": [
+        "SC16"
+      ],
+      "description": {
+        "en": "galvanized-steel flexible conduit, OD 16.4 mm",
+        "zh": "镀锌钢柔性防护管，外径16.4mm"
+      },
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-30103",
+      "aliases": [
+        "SC20"
+      ],
+      "description": {
+        "en": "galvanized-steel flexible conduit, OD 20.6 mm",
+        "zh": "镀锌钢柔性防护管，外径20.6mm"
+      },
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-30104",
+      "aliases": [
+        "SC25"
+      ],
+      "description": {
+        "en": "galvanized-steel flexible conduit, OD 24.6 mm",
+        "zh": "镀锌钢柔性防护管，外径24.6mm"
+      },
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-30200",
+      "aliases": [
+        "SSC10"
+      ],
+      "description": {
+        "en": "stainless-steel flexible conduit, OD 9.1 mm",
+        "zh": "不锈钢柔性防护管，外径9.1mm"
+      },
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-30201",
+      "aliases": [
+        "SSC12"
+      ],
+      "description": {
+        "en": "stainless-steel flexible conduit, OD 12.3 mm",
+        "zh": "不锈钢柔性防护管，外径12.3mm"
+      },
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-30202",
+      "aliases": [
+        "SSC16"
+      ],
+      "description": {
+        "en": "stainless-steel flexible conduit, OD 16.4 mm",
+        "zh": "不锈钢柔性防护管，外径16.4mm"
+      },
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-30203",
+      "aliases": [
+        "SSC20"
+      ],
+      "description": {
+        "en": "stainless-steel flexible conduit, OD 20.4 mm",
+        "zh": "不锈钢柔性防护管，外径20.4mm"
+      },
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-30204",
+      "aliases": [
+        "SSC25"
+      ],
+      "description": {
+        "en": "stainless-steel flexible conduit, OD 24.3 mm",
+        "zh": "不锈钢柔性防护管，外径24.3mm"
+      },
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-25707",
+      "aliases": [
+        "PACC10"
+      ],
+      "description": {
+        "en": "polyamide conduit clip",
+        "zh": "聚酰胺防护管卡扣"
+      },
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-25700",
+      "aliases": [
+        "PACC13"
+      ],
+      "description": {
+        "en": "polyamide conduit clip",
+        "zh": "聚酰胺防护管卡扣"
+      },
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-25701",
+      "aliases": [
+        "PACC16"
+      ],
+      "description": {
+        "en": "polyamide conduit clip",
+        "zh": "聚酰胺防护管卡扣"
+      },
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-25702",
+      "aliases": [
+        "PACC21"
+      ],
+      "description": {
+        "en": "polyamide conduit clip",
+        "zh": "聚酰胺防护管卡扣"
+      },
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-25703",
+      "aliases": [
+        "PACC28"
+      ],
+      "description": {
+        "en": "polyamide conduit clip",
+        "zh": "聚酰胺防护管卡扣"
+      },
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-50600",
+      "aliases": [
+        "AFCS10"
+      ],
+      "description": {
+        "en": "conduit mounting clip",
+        "zh": "防护管固定卡夹"
+      },
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-50601",
+      "aliases": [
+        "AFCS12"
+      ],
+      "description": {
+        "en": "conduit mounting clip",
+        "zh": "防护管固定卡夹"
+      },
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-50602",
+      "aliases": [
+        "AFCS16"
+      ],
+      "description": {
+        "en": "conduit mounting clip",
+        "zh": "防护管固定卡夹"
+      },
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-50603",
+      "aliases": [
+        "AFCS20"
+      ],
+      "description": {
+        "en": "conduit mounting clip",
+        "zh": "防护管固定卡夹"
+      },
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-50604",
+      "aliases": [
+        "AFCS25"
+      ],
+      "description": {
+        "en": "conduit mounting clip",
+        "zh": "防护管固定卡夹"
+      },
+      "pdf_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "86 0531 1121 00004",
+      "aliases": [],
+      "description": {
+        "zh": "M12 A编码4位公面板连接器",
+        "en": "M12 A-coded 4-position male panel connector"
+      }
+    },
+    {
+      "brand": "Binder",
+      "identifier": "08 3080 000 000",
+      "aliases": [],
+      "description": {
+        "zh": "PUR散装电缆",
+        "en": "PUR bulk cable"
+      }
     }
-  ]
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  }
 }
