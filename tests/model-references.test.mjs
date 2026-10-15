@@ -3,12 +3,12 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { patchPage, renderReferences, renderInquiry, pdfLink } from '../tools/build_model_reference_section.mjs';
+import { patchPage, renderReferences, renderInquiry, pdfLink, validateReferenceData } from '../tools/build_model_reference_section.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = filename => fs.readFileSync(path.join(root, filename), 'utf8');
 const data = JSON.parse(read('data/model-references/custom-harness-01.json'));
-const page = read('products/industrial-equipment-harness.html');
+const page = patchPage(read('products/industrial-equipment-harness.html'), data);
 const section = page.match(/<!-- MODEL REFERENCES START -->([\s\S]*?)<!-- MODEL REFERENCES END -->/)[1];
 const visible = section.replace(/<[^>]+>/g, ' ');
 
@@ -74,12 +74,17 @@ test('pilot has one bottom inquiry with an optional part number and a real top a
   assert.match(page, /data-unified-inquiry/);
 });
 
-test('only industrial pilot is enabled and every translatable new text has both languages', () => {
+test('only validated complete categories are enabled and every new text has both languages', () => {
   const tagged = [...section.matchAll(/<([a-z0-9]+)[^>]*data-mr-en="([^"]+)"[^>]*data-mr-zh="([^"]+)"/g)];
   assert.ok(tagged.length > 50);
   for (const [, , en, zh] of tagged) assert.ok(en.trim() && zh.trim());
   const categoryPages = fs.readdirSync(path.join(root, 'products')).filter(name => name.endsWith('.html'));
   const enabled = categoryPages.filter(name => read('products/' + name).includes('id="model-references-script"'));
-  assert.deepEqual(enabled, ['industrial-equipment-harness.html']);
+  const approved = fs.readdirSync(path.join(root, 'data/model-references')).filter(name => name.endsWith('.json')).flatMap(name => {
+    const data = JSON.parse(read('data/model-references/' + name));
+    try { validateReferenceData(data); return [data.route.split('/').pop() + '.html']; } catch { return []; }
+  });
+  for (const name of enabled) assert.ok(approved.includes(name), `unvalidated category enabled: ${name}`);
+  assert.ok(enabled.includes('industrial-equipment-harness.html'));
   assert.match(read('sitemap.xml'), /industrial-equipment-harness<\/loc><lastmod>2026-10-15<\/lastmod>/);
 });

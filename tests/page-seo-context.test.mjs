@@ -4,6 +4,7 @@ import path from 'node:path';
 import test from 'node:test';
 import { runInNewContext } from 'node:vm';
 import { withPageSeo } from '../tools/page_seo.mjs';
+import { referenceDataForCategory, validateReferenceData } from '../tools/build_model_reference_section.mjs';
 import { buildSeoPolicy, businessContext, createRuntimePolicy, htmlPathForRoute, root, SEO_VERSION } from '../tools/seo_policy.mjs';
 const exampleCount = JSON.parse(await fs.readFile(path.join(root,'content/product-example-registry.json'),'utf8')).products.length;
 
@@ -41,6 +42,8 @@ test('all 203 static contexts agree with runtime data, preserve gallery and are 
       path: page.route, lang: 'en', procurementContext: seo.resolve({ path: page.route, lang: 'en' }).procurementContext,
       categoryKey: page.categoryKey, productId: page.productId
     };
+    const references = page.kind === 'category' ? referenceDataForCategory(page.categoryKey, page.route) : null;
+    if (references) options.referenceConfiguration = validateReferenceData(references);
     assert.equal(block(output), context.render(options), `${page.route} static/runtime context`);
     const content = text(block(output));
     assert.match(content, /custom wire harness manufacturing/i, page.route);

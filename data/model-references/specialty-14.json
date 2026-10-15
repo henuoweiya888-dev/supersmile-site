@@ -1,0 +1,360 @@
+{
+  "version": 2,
+  "category_id": "specialty-14",
+  "route": "/products/low-pressure-molding",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Manufacturer-identified assemblies for interface selection.",
+        "zh": "经原厂资料核验的接口组件参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Materials identified for the specific interface or molding process.",
+        "zh": "用于具体接口或成型工艺选型的材料。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Insert boundary",
+        "zh": "嵌件与覆盖边界"
+      },
+      "copy": {
+        "en": "Identify the bare insert, coverage boundary, connector openings and component keep-out zones before tool design.",
+        "zh": "设计模具前明确裸嵌件、覆盖边界、接口开口和元件禁压区。"
+      }
+    },
+    {
+      "title": {
+        "en": "Resin and substrates",
+        "zh": "树脂与基材匹配"
+      },
+      "copy": {
+        "en": "Compare the exact resin grade with the cable jacket, connector housing, PCB and other exposed substrates. Verify adhesion on the actual combination.",
+        "zh": "结合线缆护套、连接器壳体、PCB及其他外露基材比较准确树脂牌号，并验证实际组合的附着。"
+      }
+    },
+    {
+      "title": {
+        "en": "Thermal exposure",
+        "zh": "控制成型热暴露"
+      },
+      "copy": {
+        "en": "Separate resin application temperature from the assembly operating temperature. Review the heat and pressure tolerated by each insert component.",
+        "zh": "区分树脂施工温度与组件工作温度，审核各嵌件元件能够承受的热量与压力。"
+      }
+    },
+    {
+      "title": {
+        "en": "Material preparation",
+        "zh": "控制物料准备"
+      },
+      "copy": {
+        "en": "Follow the applicable TDS for storage, moisture control, surface condition and melt handling. Record grade and lot traceability.",
+        "zh": "按适用TDS控制储存、含水、表面状态与熔料处理，并记录牌号和批次追溯。"
+      }
+    },
+    {
+      "title": {
+        "en": "Tool and process window",
+        "zh": "建立模具与工艺窗口"
+      },
+      "copy": {
+        "en": "Review gates, vents, support, shut-off surfaces and minimum wall sections. Release molding parameters from trials with the real insert.",
+        "zh": "审核浇口、排气、支撑、封胶面与最小壁厚；依据真实嵌件试模放行成型参数。"
+      }
+    },
+    {
+      "title": {
+        "en": "Complete assembly tests",
+        "zh": "验证完整组件"
+      },
+      "copy": {
+        "en": "Agree electrical, retention, dimensional, sealing and environmental checks for the finished configuration. A resin property is not a complete assembly qualification.",
+        "zh": "为最终配置约定电气、保持力、尺寸、密封与环境检查；树脂性能不能替代完整组件验证。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=specialty-14&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [],
+  "materials": [
+    {
+      "brand": "Bostik",
+      "identifier": "Thermelt 861",
+      "aliases": [],
+      "description": {
+        "en": "Low-pressure molding polyamide resin",
+        "zh": "低压成型聚酰胺树脂"
+      }
+    },
+    {
+      "brand": "Bostik",
+      "identifier": "Thermelt 867",
+      "aliases": [],
+      "description": {
+        "en": "Low-pressure molding polyamide resin",
+        "zh": "低压成型聚酰胺树脂"
+      }
+    },
+    {
+      "brand": "Bostik",
+      "identifier": "Thermelt 866",
+      "aliases": [],
+      "description": {
+        "en": "Low-pressure molding polyamide resin",
+        "zh": "低压成型聚酰胺树脂"
+      }
+    },
+    {
+      "brand": "Bostik",
+      "identifier": "Thermelt 817R",
+      "aliases": [],
+      "description": {
+        "en": "Low-pressure molding polyamide resin",
+        "zh": "低压成型聚酰胺树脂"
+      }
+    },
+    {
+      "brand": "Bostik",
+      "identifier": "Thermelt 868",
+      "aliases": [],
+      "description": {
+        "en": "Low-pressure molding polyamide resin",
+        "zh": "低压成型聚酰胺树脂"
+      }
+    },
+    {
+      "brand": "Bostik",
+      "identifier": "Thermelt 858",
+      "aliases": [],
+      "description": {
+        "en": "Low-pressure molding polyamide resin",
+        "zh": "低压成型聚酰胺树脂"
+      }
+    },
+    {
+      "brand": "Bostik",
+      "identifier": "Thermelt 865",
+      "aliases": [],
+      "description": {
+        "en": "Low-pressure molding polyamide resin",
+        "zh": "低压成型聚酰胺树脂"
+      }
+    },
+    {
+      "brand": "Bostik",
+      "identifier": "Thermelt 892",
+      "aliases": [],
+      "description": {
+        "en": "Low-pressure molding polyamide resin",
+        "zh": "低压成型聚酰胺树脂"
+      }
+    },
+    {
+      "brand": "Bostik",
+      "identifier": "Thermelt 195",
+      "aliases": [],
+      "description": {
+        "en": "Low-pressure molding polyamide resin",
+        "zh": "低压成型聚酰胺树脂"
+      }
+    },
+    {
+      "brand": "Bostik",
+      "identifier": "Thermelt 861 HV",
+      "aliases": [],
+      "description": {
+        "en": "Low-pressure molding polyamide resin",
+        "zh": "低压成型聚酰胺树脂"
+      }
+    },
+    {
+      "brand": "Bostik",
+      "identifier": "Thermelt 867 HV",
+      "aliases": [],
+      "description": {
+        "en": "Low-pressure molding polyamide resin",
+        "zh": "低压成型聚酰胺树脂"
+      }
+    },
+    {
+      "brand": "Henkel",
+      "identifier": "TECHNOMELT PA 641",
+      "aliases": [],
+      "description": {
+        "en": "Low-pressure molding polyamide resin",
+        "zh": "低压成型聚酰胺树脂"
+      }
+    },
+    {
+      "brand": "Henkel",
+      "identifier": "TECHNOMELT PA 646",
+      "aliases": [],
+      "description": {
+        "en": "Low-pressure molding polyamide resin",
+        "zh": "低压成型聚酰胺树脂"
+      }
+    },
+    {
+      "brand": "Henkel",
+      "identifier": "TECHNOMELT PA 673",
+      "aliases": [],
+      "description": {
+        "en": "Low-pressure molding polyamide resin",
+        "zh": "低压成型聚酰胺树脂"
+      }
+    },
+    {
+      "brand": "Henkel",
+      "identifier": "TECHNOMELT PA 678",
+      "aliases": [],
+      "description": {
+        "en": "Low-pressure molding polyamide resin",
+        "zh": "低压成型聚酰胺树脂"
+      }
+    },
+    {
+      "brand": "Henkel",
+      "identifier": "TECHNOMELT PA 682",
+      "aliases": [],
+      "description": {
+        "en": "Low-pressure molding polyamide resin",
+        "zh": "低压成型聚酰胺树脂"
+      }
+    },
+    {
+      "brand": "Henkel",
+      "identifier": "TECHNOMELT PA 687",
+      "aliases": [],
+      "description": {
+        "en": "Low-pressure molding polyamide resin",
+        "zh": "低压成型聚酰胺树脂"
+      }
+    },
+    {
+      "brand": "Henkel",
+      "identifier": "TECHNOMELT PA 657",
+      "aliases": [
+        "251715"
+      ],
+      "description": {
+        "en": "Low-pressure molding polyamide resin",
+        "zh": "低压成型聚酰胺树脂"
+      }
+    },
+    {
+      "brand": "Henkel",
+      "identifier": "TECHNOMELT PA 6370",
+      "aliases": [
+        "2955707"
+      ],
+      "description": {
+        "en": "Low-pressure molding polyamide resin",
+        "zh": "低压成型聚酰胺树脂"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Low-Pressure Molding",
+    "zh": "低压成型"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "material_scope",
+    "reason": {
+      "en": "Project and manufacturer references are shown only at their audited counts. Process requirements are defined separately from finished-product ratings.",
+      "zh": "项目与原厂编号仅按实际核验数量展示，工艺要求和成品等级分别定义。"
+    },
+    "audit_id": "specialty-14-process-literal-candidates.json",
+    "verified_counts": {
+      "products": 0,
+      "materials": 19
+    }
+  }
+}

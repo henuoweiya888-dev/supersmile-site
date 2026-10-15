@@ -1,0 +1,4493 @@
+{
+  "version": 2,
+  "category_id": "cable-assembly-02",
+  "route": "/products/circular-connector-assembly",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Circular connector cable assemblies.",
+        "zh": "圆形连接器预制电缆组件。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Circular connectors and wire identified in manufacturer assembly tables.",
+        "zh": "圆形连接器及原厂组件表中列明的线材。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Six Decisions Behind the Part Number",
+    "zh": "型号背后的六个选型要点"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Series & Coding",
+        "zh": "系列与编码"
+      },
+      "copy": {
+        "en": "Confirm the mating series, coding and contact sex from both connector drawings.",
+        "zh": "结合两端连接器图纸，确认对插系列、编码与触点公母。"
+      }
+    },
+    {
+      "title": {
+        "en": "Pin Map",
+        "zh": "针脚定义"
+      },
+      "copy": {
+        "en": "Match every contact to its conductor and circuit function. Specify unused positions.",
+        "zh": "逐针对应导线与电路功能，并定义空置针位。"
+      }
+    },
+    {
+      "title": {
+        "en": "Cable Selection",
+        "zh": "线材选型"
+      },
+      "copy": {
+        "en": "Set conductor size, pair construction and shielding for the actual electrical load.",
+        "zh": "按实际负载确定线径、线对结构和屏蔽形式。"
+      }
+    },
+    {
+      "title": {
+        "en": "Exit & Clearance",
+        "zh": "出线与空间"
+      },
+      "copy": {
+        "en": "Review straight or angled exits, connector clearance and minimum installation bend radius.",
+        "zh": "核对直头或弯头出线、插拔空间和安装弯曲半径。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sealing & Locking",
+        "zh": "密封与锁紧"
+      },
+      "copy": {
+        "en": "Check seal dimensions, cable diameter and the specified locking method as one assembled interface.",
+        "zh": "将密封尺寸、线缆外径和锁紧方式作为完整接口核对。"
+      }
+    },
+    {
+      "title": {
+        "en": "Assembly Verification",
+        "zh": "组件验证"
+      },
+      "copy": {
+        "en": "Define continuity, insulation and mechanical checks for the approved configuration.",
+        "zh": "围绕确认配置制定导通、绝缘和机械检验要求。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=cable-assembly-02&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "Tensility",
+      "identifier": "10-03978",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector cable assembly",
+        "zh": "圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03962",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector cable assembly",
+        "zh": "圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03801",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03010",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04135",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02260",
+      "aliases": [],
+      "description": {
+        "en": "Push-pull circular connector cable assembly",
+        "zh": "Push-pull圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03963",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector cable assembly",
+        "zh": "圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03802",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03011",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04136",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02261",
+      "aliases": [],
+      "description": {
+        "en": "Push-pull circular connector cable assembly",
+        "zh": "Push-pull圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03964",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector cable assembly",
+        "zh": "圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03803",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03012",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04137",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02262",
+      "aliases": [],
+      "description": {
+        "en": "Push-pull circular connector cable assembly",
+        "zh": "Push-pull圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03965",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector cable assembly",
+        "zh": "圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03804",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03013",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04138",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02263",
+      "aliases": [],
+      "description": {
+        "en": "Push-pull circular connector cable assembly",
+        "zh": "Push-pull圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03966",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector cable assembly",
+        "zh": "圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03805",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03014",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04139",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02264",
+      "aliases": [],
+      "description": {
+        "en": "Push-pull circular connector cable assembly",
+        "zh": "Push-pull圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03967",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector cable assembly",
+        "zh": "圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03806",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03015",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04140",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02265",
+      "aliases": [],
+      "description": {
+        "en": "Push-pull circular connector cable assembly",
+        "zh": "Push-pull圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03968",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector cable assembly",
+        "zh": "圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03807",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03017",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04141",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02266",
+      "aliases": [],
+      "description": {
+        "en": "Push-pull circular connector cable assembly",
+        "zh": "Push-pull圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03969",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector cable assembly",
+        "zh": "圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03808",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03018",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04142",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02267",
+      "aliases": [],
+      "description": {
+        "en": "Push-pull circular connector cable assembly",
+        "zh": "Push-pull圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03809",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03632",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04143",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02471",
+      "aliases": [],
+      "description": {
+        "en": "Push-pull circular connector cable assembly",
+        "zh": "Push-pull圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03810",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03633",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04144",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02472",
+      "aliases": [],
+      "description": {
+        "en": "Push-pull circular connector cable assembly",
+        "zh": "Push-pull圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03811",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03634",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04145",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02473",
+      "aliases": [],
+      "description": {
+        "en": "Push-pull circular connector cable assembly",
+        "zh": "Push-pull圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03812",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03635",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04146",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02474",
+      "aliases": [],
+      "description": {
+        "en": "Push-pull circular connector cable assembly",
+        "zh": "Push-pull圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03813",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03868",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04147",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03814",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03869",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04148",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03815",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03870",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04149",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03816",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03871",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04150",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03817",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03872",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04151",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03818",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03873",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04152",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03819",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03874",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04153",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03820",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03875",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04154",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03821",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03876",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04155",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03822",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03877",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04156",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03823",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03878",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04157",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03824",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03879",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04158",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03825",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04041",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04159",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03826",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04042",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04160",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03827",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04043",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04161",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03828",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04044",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04162",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03829",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05269",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04163",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03830",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05270",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04164",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03831",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05271",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04165",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03832",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05272",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04166",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03833",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05273",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04167",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03834",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05274",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04168",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03835",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05275",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04169",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03836",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05276",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04170",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03837",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05277",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04171",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03838",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05278",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04172",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03839",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05279",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04173",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03840",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05280",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04174",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03841",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05842",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04201",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03842",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05843",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04202",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03843",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-06022",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04203",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03844",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-06023",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04204",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03845",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-06024",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04205",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03846",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-06025",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector cable assembly",
+        "zh": "M5圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04206",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector cable assembly",
+        "zh": "M8圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03847",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector cable assembly",
+        "zh": "M12圆形连接器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433501347",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433501349",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433501363",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433501365",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433501395",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433501397",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433501411",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433501412",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433501413",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433501427",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433501429",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502499",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502505",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502506",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502507",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502511",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502512",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502513",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502517",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502518",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502527",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502528",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502529",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502530",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502533",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502534",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502535",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502536",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502539",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502540",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502541",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502542",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502547",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502548",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503120",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503121",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503122",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503123",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503124",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503125",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503126",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503127",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503128",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503129",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503130",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503131",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503132",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503133",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503134",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503135",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503136",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503137",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503138",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503139",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503140",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503141",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503142",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503143",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503144",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503145",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503146",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503147",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503148",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503149",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503150",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503151",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503152",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503153",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503154",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503155",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503192",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503193",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503194",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503195",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503196",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503197",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503198",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503199",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503200",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503201",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator cable assembly",
+        "zh": "传感器/执行器电缆组件"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "brand": "Tensility",
+      "identifier": "50-00601",
+      "aliases": [],
+      "description": {
+        "en": "M5 cable connector",
+        "zh": "M5电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00495",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00602",
+      "aliases": [],
+      "description": {
+        "en": "M5 cable connector",
+        "zh": "M5电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00653",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00604",
+      "aliases": [],
+      "description": {
+        "en": "M5 cable connector",
+        "zh": "M5电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00671",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00605",
+      "aliases": [],
+      "description": {
+        "en": "M5 cable connector",
+        "zh": "M5电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00672",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00670",
+      "aliases": [],
+      "description": {
+        "en": "M5 cable connector",
+        "zh": "M5电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00913",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00671",
+      "aliases": [],
+      "description": {
+        "en": "M5 cable connector",
+        "zh": "M5电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00918",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00672",
+      "aliases": [],
+      "description": {
+        "en": "M5 cable connector",
+        "zh": "M5电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01570",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00673",
+      "aliases": [],
+      "description": {
+        "en": "M5 cable connector",
+        "zh": "M5电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01571",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00675",
+      "aliases": [],
+      "description": {
+        "en": "M8 cable connector",
+        "zh": "M8电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01578",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00676",
+      "aliases": [],
+      "description": {
+        "en": "M8 cable connector",
+        "zh": "M8电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01579",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00677",
+      "aliases": [],
+      "description": {
+        "en": "M8 cable connector",
+        "zh": "M8电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01586",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00678",
+      "aliases": [],
+      "description": {
+        "en": "M8 cable connector",
+        "zh": "M8电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01595",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00679",
+      "aliases": [],
+      "description": {
+        "en": "M8 cable connector",
+        "zh": "M8电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01611",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00680",
+      "aliases": [],
+      "description": {
+        "en": "M8 cable connector",
+        "zh": "M8电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01638",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00681",
+      "aliases": [],
+      "description": {
+        "en": "M8 cable connector",
+        "zh": "M8电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01639",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00682",
+      "aliases": [],
+      "description": {
+        "en": "M8 cable connector",
+        "zh": "M8电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01650",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00951",
+      "aliases": [],
+      "description": {
+        "en": "M12 cable connector",
+        "zh": "M12电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01651",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00952",
+      "aliases": [],
+      "description": {
+        "en": "M12 cable connector",
+        "zh": "M12电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01658",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00953",
+      "aliases": [],
+      "description": {
+        "en": "M12 cable connector",
+        "zh": "M12电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01659",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00954",
+      "aliases": [],
+      "description": {
+        "en": "M12 cable connector",
+        "zh": "M12电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01666",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00955",
+      "aliases": [],
+      "description": {
+        "en": "M12 cable connector",
+        "zh": "M12电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01675",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00958",
+      "aliases": [],
+      "description": {
+        "en": "M12 cable connector",
+        "zh": "M12电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01691",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00959",
+      "aliases": [],
+      "description": {
+        "en": "M12 cable connector",
+        "zh": "M12电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01713",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00960",
+      "aliases": [],
+      "description": {
+        "en": "M12 cable connector",
+        "zh": "M12电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01714",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00961",
+      "aliases": [],
+      "description": {
+        "en": "M12 cable connector",
+        "zh": "M12电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02974",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00962",
+      "aliases": [],
+      "description": {
+        "en": "M12 cable connector",
+        "zh": "M12电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02975",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00979",
+      "aliases": [],
+      "description": {
+        "en": "M12 cable connector",
+        "zh": "M12电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02976",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00980",
+      "aliases": [],
+      "description": {
+        "en": "M12 cable connector",
+        "zh": "M12电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02977",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00981",
+      "aliases": [],
+      "description": {
+        "en": "M12 cable connector",
+        "zh": "M12电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02978",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00982",
+      "aliases": [],
+      "description": {
+        "en": "M12 cable connector",
+        "zh": "M12电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02979",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00983",
+      "aliases": [],
+      "description": {
+        "en": "M12 cable connector",
+        "zh": "M12电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02980",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00986",
+      "aliases": [],
+      "description": {
+        "en": "M12 cable connector",
+        "zh": "M12电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02981",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00987",
+      "aliases": [],
+      "description": {
+        "en": "M12 cable connector",
+        "zh": "M12电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03006",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00988",
+      "aliases": [],
+      "description": {
+        "en": "M12 cable connector",
+        "zh": "M12电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03014",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00989",
+      "aliases": [],
+      "description": {
+        "en": "M12 cable connector",
+        "zh": "M12电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03039",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00990",
+      "aliases": [],
+      "description": {
+        "en": "M12 cable connector",
+        "zh": "M12电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03429",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00993",
+      "aliases": [],
+      "description": {
+        "en": "M12 cable connector",
+        "zh": "M12电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03430",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00995",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03676",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01003",
+      "aliases": [],
+      "description": {
+        "en": "M8 cable connector",
+        "zh": "M8电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01004",
+      "aliases": [],
+      "description": {
+        "en": "M8 cable connector",
+        "zh": "M8电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01005",
+      "aliases": [],
+      "description": {
+        "en": "M8 cable connector",
+        "zh": "M8电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01006",
+      "aliases": [],
+      "description": {
+        "en": "M8 cable connector",
+        "zh": "M8电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01007",
+      "aliases": [],
+      "description": {
+        "en": "M8 cable connector",
+        "zh": "M8电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01008",
+      "aliases": [],
+      "description": {
+        "en": "M8 cable connector",
+        "zh": "M8电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01009",
+      "aliases": [],
+      "description": {
+        "en": "M8 cable connector",
+        "zh": "M8电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01014",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01015",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01016",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01017",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01018",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01019",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01020",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01021",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01026",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01027",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01028",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01029",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01030",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01031",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01032",
+      "aliases": [],
+      "description": {
+        "en": "M12 cable connector",
+        "zh": "M12电缆连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01033",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01034",
+      "aliases": [],
+      "description": {
+        "en": "M8 cable connector",
+        "zh": "M8电缆连接器"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167755",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector contact",
+        "zh": "圆形连接器接触件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700501",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator circular connector component",
+        "zh": "传感器/执行器圆形连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24441133",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00008746",
+      "aliases": [],
+      "description": {
+        "en": "Circular signal connector component",
+        "zh": "圆形信号连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167756",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector contact",
+        "zh": "圆形连接器接触件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700502",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator circular connector component",
+        "zh": "传感器/执行器圆形连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24441134",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00008747",
+      "aliases": [],
+      "description": {
+        "en": "Circular signal connector component",
+        "zh": "圆形信号连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167757",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector contact",
+        "zh": "圆形连接器接触件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700503",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator circular connector component",
+        "zh": "传感器/执行器圆形连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24441135",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00008749",
+      "aliases": [],
+      "description": {
+        "en": "Circular signal connector component",
+        "zh": "圆形信号连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167758",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector contact",
+        "zh": "圆形连接器接触件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700504",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator circular connector component",
+        "zh": "传感器/执行器圆形连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24441141",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00008779",
+      "aliases": [],
+      "description": {
+        "en": "Circular signal connector component",
+        "zh": "圆形信号连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167760",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector contact",
+        "zh": "圆形连接器接触件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700505",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator circular connector component",
+        "zh": "传感器/执行器圆形连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24441142",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00008822",
+      "aliases": [],
+      "description": {
+        "en": "Circular signal connector component",
+        "zh": "圆形信号连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167761",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector contact",
+        "zh": "圆形连接器接触件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700506",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator circular connector component",
+        "zh": "传感器/执行器圆形连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24441143",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00008825",
+      "aliases": [],
+      "description": {
+        "en": "Circular signal connector component",
+        "zh": "圆形信号连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167762",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector contact",
+        "zh": "圆形连接器接触件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700507",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator circular connector component",
+        "zh": "传感器/执行器圆形连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24441168",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00008829",
+      "aliases": [],
+      "description": {
+        "en": "Circular signal connector component",
+        "zh": "圆形信号连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167927",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector contact",
+        "zh": "圆形连接器接触件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700529",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator circular connector component",
+        "zh": "传感器/执行器圆形连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24441169",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00008854",
+      "aliases": [],
+      "description": {
+        "en": "Circular signal connector component",
+        "zh": "圆形信号连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167928",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector contact",
+        "zh": "圆形连接器接触件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700530",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator circular connector component",
+        "zh": "传感器/执行器圆形连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24441170",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00008867",
+      "aliases": [],
+      "description": {
+        "en": "Circular signal connector component",
+        "zh": "圆形信号连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167929",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector contact",
+        "zh": "圆形连接器接触件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700536",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator circular connector component",
+        "zh": "传感器/执行器圆形连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24441171",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00008899",
+      "aliases": [],
+      "description": {
+        "en": "Circular signal connector component",
+        "zh": "圆形信号连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167930",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector contact",
+        "zh": "圆形连接器接触件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700537",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator circular connector component",
+        "zh": "传感器/执行器圆形连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24441293",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00008939",
+      "aliases": [],
+      "description": {
+        "en": "Circular signal connector component",
+        "zh": "圆形信号连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420103",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector contact",
+        "zh": "圆形连接器接触件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700538",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator circular connector component",
+        "zh": "传感器/执行器圆形连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24441294",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00008978",
+      "aliases": [],
+      "description": {
+        "en": "Circular signal connector component",
+        "zh": "圆形信号连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420104",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector contact",
+        "zh": "圆形连接器接触件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700541",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator circular connector component",
+        "zh": "传感器/执行器圆形连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "25009692",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00008979",
+      "aliases": [],
+      "description": {
+        "en": "Circular signal connector component",
+        "zh": "圆形信号连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420105",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector contact",
+        "zh": "圆形连接器接触件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700544",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator circular connector component",
+        "zh": "传感器/执行器圆形连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "25009696",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00009005",
+      "aliases": [],
+      "description": {
+        "en": "Circular signal connector component",
+        "zh": "圆形信号连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420231",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector contact",
+        "zh": "圆形连接器接触件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700546",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator circular connector component",
+        "zh": "传感器/执行器圆形连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166101",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00009045",
+      "aliases": [],
+      "description": {
+        "en": "Circular signal connector component",
+        "zh": "圆形信号连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420232",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector contact",
+        "zh": "圆形连接器接触件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700547",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator circular connector component",
+        "zh": "传感器/执行器圆形连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166102",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00009057",
+      "aliases": [],
+      "description": {
+        "en": "Circular signal connector component",
+        "zh": "圆形信号连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420233",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector contact",
+        "zh": "圆形连接器接触件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700561",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator circular connector component",
+        "zh": "传感器/执行器圆形连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166103",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00009082",
+      "aliases": [],
+      "description": {
+        "en": "Circular signal connector component",
+        "zh": "圆形信号连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420234",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector contact",
+        "zh": "圆形连接器接触件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700562",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator circular connector component",
+        "zh": "传感器/执行器圆形连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166104",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00009135",
+      "aliases": [],
+      "description": {
+        "en": "Circular signal connector component",
+        "zh": "圆形信号连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420235",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector contact",
+        "zh": "圆形连接器接触件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700563",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator circular connector component",
+        "zh": "传感器/执行器圆形连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166105",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00009371",
+      "aliases": [],
+      "description": {
+        "en": "Circular signal connector component",
+        "zh": "圆形信号连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420236",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector contact",
+        "zh": "圆形连接器接触件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700564",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator circular connector component",
+        "zh": "传感器/执行器圆形连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166106",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00009470",
+      "aliases": [],
+      "description": {
+        "en": "Circular signal connector component",
+        "zh": "圆形信号连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420237",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector contact",
+        "zh": "圆形连接器接触件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700565",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator circular connector component",
+        "zh": "传感器/执行器圆形连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166107",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00009894",
+      "aliases": [],
+      "description": {
+        "en": "Circular signal connector component",
+        "zh": "圆形信号连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420238",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector contact",
+        "zh": "圆形连接器接触件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700566",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator circular connector component",
+        "zh": "传感器/执行器圆形连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166108",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00010108",
+      "aliases": [],
+      "description": {
+        "en": "Circular signal connector component",
+        "zh": "圆形信号连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420239",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector contact",
+        "zh": "圆形连接器接触件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700590",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator circular connector component",
+        "zh": "传感器/执行器圆形连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166109",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00010521",
+      "aliases": [],
+      "description": {
+        "en": "Circular signal connector component",
+        "zh": "圆形信号连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420240",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector contact",
+        "zh": "圆形连接器接触件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700591",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator circular connector component",
+        "zh": "传感器/执行器圆形连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166110",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "25009700",
+      "aliases": [],
+      "description": {
+        "en": "Circular signal connector component",
+        "zh": "圆形信号连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420241",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector contact",
+        "zh": "圆形连接器接触件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260043",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator circular connector component",
+        "zh": "传感器/执行器圆形连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166119",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "25009704",
+      "aliases": [],
+      "description": {
+        "en": "Circular signal connector component",
+        "zh": "圆形信号连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420242",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector contact",
+        "zh": "圆形连接器接触件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260044",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator circular connector component",
+        "zh": "传感器/执行器圆形连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166120",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "25009708",
+      "aliases": [],
+      "description": {
+        "en": "Circular signal connector component",
+        "zh": "圆形信号连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420256",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector contact",
+        "zh": "圆形连接器接触件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260045",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator circular connector component",
+        "zh": "传感器/执行器圆形连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166121",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166481",
+      "aliases": [],
+      "description": {
+        "en": "Circular signal connector component",
+        "zh": "圆形信号连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420257",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector contact",
+        "zh": "圆形连接器接触件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260046",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator circular connector component",
+        "zh": "传感器/执行器圆形连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166122",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166482",
+      "aliases": [],
+      "description": {
+        "en": "Circular signal connector component",
+        "zh": "圆形信号连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420260",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector contact",
+        "zh": "圆形连接器接触件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260120",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator circular connector component",
+        "zh": "传感器/执行器圆形连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166142",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166483",
+      "aliases": [],
+      "description": {
+        "en": "Circular signal connector component",
+        "zh": "圆形信号连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420261",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector contact",
+        "zh": "圆形连接器接触件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260121",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator circular connector component",
+        "zh": "传感器/执行器圆形连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166143",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166484",
+      "aliases": [],
+      "description": {
+        "en": "Circular signal connector component",
+        "zh": "圆形信号连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420290",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector contact",
+        "zh": "圆形连接器接触件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260125",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator circular connector component",
+        "zh": "传感器/执行器圆形连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166144",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166485",
+      "aliases": [],
+      "description": {
+        "en": "Circular signal connector component",
+        "zh": "圆形信号连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420291",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector contact",
+        "zh": "圆形连接器接触件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260126",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator circular connector component",
+        "zh": "传感器/执行器圆形连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166145",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420001",
+      "aliases": [],
+      "description": {
+        "en": "Circular signal connector component",
+        "zh": "圆形信号连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420292",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector contact",
+        "zh": "圆形连接器接触件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260127",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator circular connector component",
+        "zh": "传感器/执行器圆形连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166146",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420002",
+      "aliases": [],
+      "description": {
+        "en": "Circular signal connector component",
+        "zh": "圆形信号连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420293",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector contact",
+        "zh": "圆形连接器接触件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260128",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator circular connector component",
+        "zh": "传感器/执行器圆形连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166147",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420003",
+      "aliases": [],
+      "description": {
+        "en": "Circular signal connector component",
+        "zh": "圆形信号连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420294",
+      "aliases": [],
+      "description": {
+        "en": "Circular connector contact",
+        "zh": "圆形连接器接触件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260129",
+      "aliases": [],
+      "description": {
+        "en": "Sensor/actuator circular connector component",
+        "zh": "传感器/执行器圆形连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166306",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420004",
+      "aliases": [],
+      "description": {
+        "en": "Circular signal connector component",
+        "zh": "圆形信号连接器材料"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Circular Connector Assembly",
+    "zh": "圆形连接器电缆组件"
+  }
+}

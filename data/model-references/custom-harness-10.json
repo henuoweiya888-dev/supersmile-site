@@ -1,0 +1,185 @@
+{
+  "version": 2,
+  "category_id": "custom-harness-10",
+  "route": "/products/prototype-and-small-batch-harness",
+  "title": {
+    "en": "Interface Configuration & Material Selection",
+    "zh": "接口配置与材料选型"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Define the interfaces, material requirements and acceptance plan for your custom project.",
+    "zh": "围绕定制项目定义接口、材料要求与验收方案。"
+  },
+  "jump": {
+    "en": "Review Interfaces & Material Selection",
+    "zh": "查看接口配置与材料选型"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Manufacturer-identified assemblies for interface selection.",
+        "zh": "经原厂资料核验的接口组件参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Materials identified for the specific interface or molding process.",
+        "zh": "用于具体接口或成型工艺选型的材料。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Validation purpose",
+        "zh": "先明确样品目的"
+      },
+      "copy": {
+        "en": "State the function, fit, interface or replacement question that the prototype must answer, together with the current drawing revision.",
+        "zh": "说明样品需要回答的功能、装配、接口或替代问题，并提供当前图纸版本。"
+      }
+    },
+    {
+      "title": {
+        "en": "Critical requirements",
+        "zh": "区分必须项与待定项"
+      },
+      "copy": {
+        "en": "Identify fixed mating interfaces, critical dimensions and electrical needs separately from features still under evaluation.",
+        "zh": "将固定对插接口、关键尺寸与电气要求，同仍在验证的结构分开记录。"
+      }
+    },
+    {
+      "title": {
+        "en": "Temporary materials",
+        "zh": "记录临时物料"
+      },
+      "copy": {
+        "en": "List must-use parts and any customer-approved temporary materials, hand-built details or sample-only deviations.",
+        "zh": "列出必须使用的物料，以及客户获准的临时材料、手工结构或仅样品适用的偏离。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sample record",
+        "zh": "形成样品记录"
+      },
+      "copy": {
+        "en": "Capture the built BOM, pin map, measured dimensions, photographs and agreed functional checks for the delivered sample.",
+        "zh": "记录交付样品的实际BOM、针脚表、实测尺寸、照片与约定功能检查。"
+      }
+    },
+    {
+      "title": {
+        "en": "Feedback and revision",
+        "zh": "把反馈转成版本"
+      },
+      "copy": {
+        "en": "Convert sample feedback into a controlled drawing or BOM revision, with open points and the next validation step identified.",
+        "zh": "将样品反馈转为受控图纸或BOM版本，并列明待确认项与下一步验证。"
+      }
+    },
+    {
+      "title": {
+        "en": "Transfer to repeat builds",
+        "zh": "审核重复制造路径"
+      },
+      "copy": {
+        "en": "Review production-intent materials, tooling, process differences and the approved release before treating a working prototype as a repeat-production specification.",
+        "zh": "把可运行样品视作重复生产规格前，审核量产材料、工装、工艺差异与获批放行依据。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=custom-harness-10&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [],
+  "materials": [],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Prototype & Small-Batch Harness",
+    "zh": "样品与小批量线束"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "process_or_delivery",
+    "reason": {
+      "en": "Project and manufacturer references are shown only at their audited counts. Process requirements are defined separately from finished-product ratings.",
+      "zh": "项目与原厂编号仅按实际核验数量展示，工艺要求和成品等级分别定义。"
+    },
+    "audit_id": "custom-harness-10-process-literal-candidates.json",
+    "verified_counts": {
+      "products": 0,
+      "materials": 0
+    },
+    "engineering_only": true
+  }
+}

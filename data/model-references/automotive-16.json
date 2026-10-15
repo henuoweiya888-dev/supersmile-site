@@ -1,0 +1,708 @@
+{
+  "version": 2,
+  "category_id": "automotive-16",
+  "route": "/products/fuel-system-harness",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Manufacturer-identified finished assemblies for this application.",
+        "zh": "此应用范围内经原厂资料核验的成品组件。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Category-specific material references; the final BOM follows the approved configuration.",
+        "zh": "此类选型的材料参考；最终 BOM 以确认配置为准。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Selection & Project Review",
+    "zh": "选型与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Application Boundary",
+        "zh": "应用边界"
+      },
+      "copy": {
+        "en": "Fuel delivery architectures differ across port-injected gasoline, gasoline direct injection and diesel common rail. A matching connector body does not establish the correct pin map, injector driver, pump current, sensor reference or environmental rating. Define each circuit and its installed zone before choosing wire, terminals, sealing and branch protection.",
+        "zh": "歧管喷射汽油机、汽油直喷和柴油共轨的供油电气架构并不相同。接头外壳能对插，不代表针脚表、喷油驱动、泵电流、传感器参考电压或环境等级正确。选择线材、端子、密封与分支防护前，先定义每条回路及其安装区域。"
+      }
+    },
+    {
+      "title": {
+        "en": "Project Inputs",
+        "zh": "项目输入"
+      },
+      "copy": {
+        "en": "Send vehicle and engine identity, controller family, system voltage, pump and injector part numbers, mating connectors and cavity views, circuit and pin tables, sensor outputs, route dimensions, clips, heat and fuel exposure, sample or drawing, quantity and agreed inspection requirements.",
+        "zh": "请提供车辆与发动机身份、控制器家族、系统电压、泵和喷油器料号、对插件与孔位视图、回路及针脚表、传感器输出形式、走线尺寸、卡扣、热与燃油暴露条件、样品或图纸、数量和约定检验要求。"
+      }
+    },
+    {
+      "title": {
+        "en": "Release Records",
+        "zh": "放行依据"
+      },
+      "copy": {
+        "en": "Approved inputs become controlled drawings, a pin and circuit map, BOM, branch datums, termination and protection instructions, labels and inspection criteria. A first article is reviewed for mating, reach, routing and electrical identity before repeat build; powered function, ingress, thermal and chemical tests require separately agreed methods and limits.",
+        "zh": "批准的输入转化为受控图纸、针脚与回路图、物料表、分支基准、端接和防护工艺、标签及检验准则。重复制作前，首件核对对插、可达、走线和电气身份；上电功能、防护、热与化学测试须另行约定方法和限值。"
+      }
+    },
+    {
+      "title": {
+        "en": "Interface Review",
+        "zh": "接口审核"
+      },
+      "copy": {
+        "en": "Confirm the exact mating interface, pin map, dimensions and installation orientation.",
+        "zh": "确认准确对插接口、针脚对应、尺寸及安装方向。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sample Acceptance",
+        "zh": "样品验收"
+      },
+      "copy": {
+        "en": "Agree the sample configuration and electrical, mechanical or environmental checks required by the project.",
+        "zh": "约定样品配置以及项目所需的电气、机械或环境检查。"
+      }
+    },
+    {
+      "title": {
+        "en": "Change Control",
+        "zh": "变更控制"
+      },
+      "copy": {
+        "en": "Record changes to materials, drawings and process instructions before repeat manufacture.",
+        "zh": "重复制造前记录材料、图纸与工艺说明的变更。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=automotive-16&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "American Autowire",
+      "identifier": "40019",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Harness",
+        "zh": "燃油系统连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36249",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Wire",
+        "zh": "燃油系统连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36237",
+      "aliases": [],
+      "description": {
+        "en": "Rear Body License Plate And Fuel Tank Extension",
+        "zh": "燃油系统连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "35888",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Sender Harness",
+        "zh": "燃油液位传感引线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01040",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Lead Wire",
+        "zh": "燃油系统连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38240",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Wire Harness",
+        "zh": "燃油系统连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "FB03899",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Sender Wire",
+        "zh": "燃油液位传感引线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE76996",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Lead Wire (CLEARANCE)",
+        "zh": "燃油系统连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510359",
+      "aliases": [],
+      "description": {
+        "en": "1973-79 Ford Truck Classic Update: Dual Fuel Tank Harness Add-On Kit",
+        "zh": "燃油系统连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH38221",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Extension Harness",
+        "zh": "燃油系统连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH31934",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Extension",
+        "zh": "燃油系统连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "60511",
+      "aliases": [],
+      "description": {
+        "en": "Ford 1986 – 1995 5.0L Fuel Injection Wiring Harness Extra Length",
+        "zh": "燃油系统连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "60510",
+      "aliases": [],
+      "description": {
+        "en": "Ford 1986 – 1995 5.0L Fuel Injection Wiring Harness – Std. Length",
+        "zh": "燃油系统连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "50102",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Pump Relay Kit",
+        "zh": "燃油系统连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30131",
+      "aliases": [],
+      "description": {
+        "en": "Weatherproof Fuel Pump Relay Kit",
+        "zh": "燃油系统连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27715",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Harness",
+        "zh": "燃油系统连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23570",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Wire",
+        "zh": "燃油系统连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01635",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Sender Harness",
+        "zh": "燃油液位传感引线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE64439",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Lead Wire",
+        "zh": "燃油系统连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38241",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Wire Harness",
+        "zh": "燃油系统连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CG85044",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Sender Wire",
+        "zh": "燃油液位传感引线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH48402",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Extension Harness",
+        "zh": "燃油系统连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39718",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Harness",
+        "zh": "燃油系统连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38244",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Wire",
+        "zh": "燃油系统连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01630",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Sender Harness",
+        "zh": "燃油液位传感引线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CG70427",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Sender Wire",
+        "zh": "燃油液位传感引线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39357",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Harness",
+        "zh": "燃油系统连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38242",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Wire",
+        "zh": "燃油系统连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01625",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Sender Harness",
+        "zh": "燃油液位传感引线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "PL55125",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Sender Wire",
+        "zh": "燃油液位传感引线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38243",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Wire",
+        "zh": "燃油系统连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36272",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Sender Harness",
+        "zh": "燃油液位传感引线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CG97500",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Sender Wire",
+        "zh": "燃油液位传感引线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38069",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Wire",
+        "zh": "燃油系统连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "11910",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Sender Harness",
+        "zh": "燃油液位传感引线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40669",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Sender Wire",
+        "zh": "燃油液位传感引线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37652",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Wire",
+        "zh": "燃油系统连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "28540",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Sender Harness",
+        "zh": "燃油液位传感引线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "28535",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Sender Harness",
+        "zh": "燃油液位传感引线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36269",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Sender Harness",
+        "zh": "燃油液位传感引线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "FB99289",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Sender Harness",
+        "zh": "燃油液位传感引线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA21772",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Sender Harness",
+        "zh": "燃油液位传感引线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA01600",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Sender Harness",
+        "zh": "燃油液位传感引线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH01447",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Sender Harness",
+        "zh": "燃油液位传感引线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA97607",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Sender Harness",
+        "zh": "燃油液位传感引线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA71184",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Sender Harness",
+        "zh": "燃油液位传感引线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "28495",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Sender Harness",
+        "zh": "燃油液位传感引线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "28480",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Sender Harness",
+        "zh": "燃油液位传感引线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "NV38240",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Sender Harness",
+        "zh": "燃油液位传感引线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA48401",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Sender Harness",
+        "zh": "燃油液位传感引线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "28945",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Sender Harness",
+        "zh": "燃油液位传感引线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38416",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Sender Harness",
+        "zh": "燃油液位传感引线"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "brand": "Painless Performance",
+      "identifier": "70921",
+      "aliases": [],
+      "description": {
+        "en": "PowerBraid Fuel Injection Harness Kit",
+        "zh": "线束防护材料"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "60135",
+      "aliases": [],
+      "description": {
+        "en": "Multec 2 Injector Connector – Single Connector Kit",
+        "zh": "连接器"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "60134",
+      "aliases": [],
+      "description": {
+        "en": "EV6 Injector Connector – Single Connector Kit",
+        "zh": "连接器"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "60133",
+      "aliases": [],
+      "description": {
+        "en": "EV1 Injector Connector & Terminal – Single Connector Kit",
+        "zh": "端子"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "60131",
+      "aliases": [],
+      "description": {
+        "en": "EV6/USCar Injector Connector Kit",
+        "zh": "连接器"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "60130",
+      "aliases": [],
+      "description": {
+        "en": "EV1/Bosch Style Injector Connector Kit",
+        "zh": "连接器"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Fuel-System Harness",
+    "zh": "燃油系统线束"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "narrow_published_range",
+    "reason": {
+      "en": "Application-specific references are shown at their audited counts. Materials require their own category evidence and are not assumed to be the BOM of every listed assembly.",
+      "zh": "应用专用编号按核验的实际数量展示；材料须有独立类别依据，不将其视为每件成品的通用 BOM。"
+    },
+    "audit_id": "automotive-validated/automotive-16.json",
+    "verified_counts": {
+      "products": 52,
+      "materials": 6
+    }
+  }
+}

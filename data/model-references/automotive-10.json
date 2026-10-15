@@ -1,0 +1,2373 @@
+{
+  "version": 2,
+  "category_id": "automotive-10",
+  "route": "/products/battery-jump-cable",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Manufacturer-identified finished assemblies for this application.",
+        "zh": "此应用范围内经原厂资料核验的成品组件。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Category-specific material references; the final BOM follows the approved configuration.",
+        "zh": "此类选型的材料参考；最终 BOM 以确认配置为准。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Selection & Project Review",
+    "zh": "选型与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Application Boundary",
+        "zh": "应用边界"
+      },
+      "copy": {
+        "en": "Conductor area, termination, length and operating duty jointly determine voltage drop and thermal behavior.",
+        "zh": "导体截面、端接质量、长度和工作周期共同决定压降与温升。"
+      }
+    },
+    {
+      "title": {
+        "en": "Project Inputs",
+        "zh": "项目输入"
+      },
+      "copy": {
+        "en": "Define permanent installation separately from temporary jump starting. Follow the vehicle manufacturer's instructions and approved connection points.",
+        "zh": "永久安装线路与临时跨接起动应分别定义。操作遵循车辆制造商说明与指定连接点。"
+      }
+    },
+    {
+      "title": {
+        "en": "Release Records",
+        "zh": "放行依据"
+      },
+      "copy": {
+        "en": "Release drawings, material part numbers, polarity, branch dimensions and inspection requirements before production.",
+        "zh": "生产前确认图纸、物料型号、极性、分支尺寸及检验要求。"
+      }
+    },
+    {
+      "title": {
+        "en": "Interface Review",
+        "zh": "接口审核"
+      },
+      "copy": {
+        "en": "Confirm the exact mating interface, pin map, dimensions and installation orientation.",
+        "zh": "确认准确对插接口、针脚对应、尺寸及安装方向。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sample Acceptance",
+        "zh": "样品验收"
+      },
+      "copy": {
+        "en": "Agree the sample configuration and electrical, mechanical or environmental checks required by the project.",
+        "zh": "约定样品配置以及项目所需的电气、机械或环境检查。"
+      }
+    },
+    {
+      "title": {
+        "en": "Change Control",
+        "zh": "变更控制"
+      },
+      "copy": {
+        "en": "Record changes to materials, drawings and process instructions before repeat manufacture.",
+        "zh": "重复制造前记录材料、图纸与工艺说明的变更。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=automotive-10&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "American Autowire",
+      "identifier": "44799",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36238",
+      "aliases": [],
+      "description": {
+        "en": "Battery Ground Cable",
+        "zh": "汽车电瓶与接地连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27560",
+      "aliases": [],
+      "description": {
+        "en": "Ground Cable-Starter To Frame",
+        "zh": "汽车电瓶与接地连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "28110",
+      "aliases": [],
+      "description": {
+        "en": "Battery Charge Circuit Harness",
+        "zh": "汽车电瓶与接地连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "05470",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable Positive for 65-66 Corvair (CLEARANCE)",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510827",
+      "aliases": [],
+      "description": {
+        "en": "Negative Battery Cable - 1987-90 Jeep YJ 2.5L and 4.2L",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510826",
+      "aliases": [],
+      "description": {
+        "en": "Positive Battery Cable - 1987-90 Jeep YJ 2.5L and 4.2L",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510731",
+      "aliases": [],
+      "description": {
+        "en": "Positive Battery Cable- 1987-90 Jeep Wrangler",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510714",
+      "aliases": [],
+      "description": {
+        "en": "Negative Battery Cable- 1987-95 Jeep YJ 4.0L",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510713",
+      "aliases": [],
+      "description": {
+        "en": "Positive Battery Cable- 1991-95 Jeep YJ 4.0L",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23710",
+      "aliases": [],
+      "description": {
+        "en": "BATTERY CABLE",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36975",
+      "aliases": [],
+      "description": {
+        "en": "BATTERY CABLE - Positive Nova 1965-1966",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36976",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable Chevrolet Chevelle 1965",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29285",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable, Negative",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29420",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable, negative, 348 V8",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22705",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable, negative, V8 side mount with Z28",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "13675",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable, negative",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "13670",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable, positive, Grand Prix",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "43523",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable For Chevrolet Truck 1971 GMC Truck 1971",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "43534",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable, positive, L6",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "43263",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable For Chevrolet Camaro 1969",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "43533",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable, negative, L6",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "43532",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable, positive, V6",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "43531",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable, positive, V8",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "43527",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable, negative, V8 for 396 c.i.",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "43526",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable, negative, V8 except 396 c.i.",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "42950",
+      "aliases": [],
+      "description": {
+        "en": "Dual Battery Harness",
+        "zh": "汽车电瓶与接地连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40065",
+      "aliases": [],
+      "description": {
+        "en": "Battery Power Lead For Etr Radio",
+        "zh": "汽车电瓶与接地连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500010",
+      "aliases": [],
+      "description": {
+        "en": "Battery Jumper Stud-Positive",
+        "zh": "汽车电瓶与接地连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500011",
+      "aliases": [],
+      "description": {
+        "en": "Battery Jumper Stud-Negative",
+        "zh": "汽车电瓶与接地连接线"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "40100",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable Kit (16 ft Red & 3 ft Black Cables)",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "NOCO",
+      "identifier": "GBC003",
+      "aliases": [],
+      "description": {
+        "en": "HD Precision Battery Clamp Cable Assembly",
+        "zh": "汽车电瓶与接地连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44798",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38855",
+      "aliases": [],
+      "description": {
+        "en": "Battery Ground Cable",
+        "zh": "汽车电瓶与接地连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "11995",
+      "aliases": [],
+      "description": {
+        "en": "Ground Cable-Starter To Frame",
+        "zh": "汽车电瓶与接地连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "43522",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable For Chevrolet Truck 1971 GMC Truck 1971",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "43528",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable, positive, V8",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44797",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "43521",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable For Chevrolet Truck 1971 GMC Truck 1971",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "43525",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable, positive, V8",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44796",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "43524",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable For Chevrolet Truck 1971 GMC Truck 1971",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44794",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44793",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44792",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44795",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44791",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44790",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44789",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44788",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44787",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44786",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44785",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40228",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40227",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40229",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40225",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40232",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40231",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44008",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39655",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40216",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40207",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40209",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40220",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39654",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40213",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40212",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40211",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40210",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40208",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40206",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "13230",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "21110",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "21320",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23340",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23690",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23685",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "34715",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "34710",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27875",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23680",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "03425",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "21125",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04020",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22360",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22365",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22370",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "15280",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "13190",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "20910",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "09240",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "09235",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04415",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04410",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "03785",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27220",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36260",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27215",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22355",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22345",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22350",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "15285",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "21720",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "20575",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36030",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36031",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "35957",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27640",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04265",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "21560",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "13200",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29465",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22940",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22965",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22995",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22985",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22970",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22975",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22980",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22320",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22325",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22330",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22310",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22315",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "15120",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "14850",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22690",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "15235",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "13240",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "13195",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "13235",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "15025",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38844",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38843",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38830",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29455",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22645",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38832",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38831",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29445",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22650",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22815",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22800",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22805",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22795",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22820",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22810",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "15020",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "15035",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "15030",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04015",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "03635",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "02800",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29680",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29590",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29720",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29610",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29575",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29565",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29580",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29630",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29605",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29615",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22190",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "28665",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "26885",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "26895",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "26880",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "26890",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "26705",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23700",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23345",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23695",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23600",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "26740",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "26735",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29685",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29690",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29570",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29585",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29640",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29625",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "28680",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23590",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23350",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23360",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23365",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "26745",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "21570",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "28695",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27280",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "26710",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23595",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "26700",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23720",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "14610",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23660",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "09910",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "09905",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "13300",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23705",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23665",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "05435",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "09890",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "26875",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "14655",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "14650",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "14645",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23650",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "09815",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04535",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "05350",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04210",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "03940",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "03260",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "10525",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "31935",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22860",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22865",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "brand": "American Autowire",
+      "identifier": "03882795",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable Junction Block",
+        "zh": "相关接口与材料组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510904",
+      "aliases": [],
+      "description": {
+        "en": "Build A Battery Cable Kit- Side Terminal 0 Gauge",
+        "zh": "电瓶电缆与端接材料套装"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500732",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable Lug Kit- 8 Gauge",
+        "zh": "电缆接线铜鼻与端子组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500731",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable Lug Kit - 6 Gauge",
+        "zh": "电缆接线铜鼻与端子组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500730",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable Lug Kit - 4 Gauge",
+        "zh": "电缆接线铜鼻与端子组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500729",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable Lug Kit - 2 Gauge",
+        "zh": "电缆接线铜鼻与端子组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500728",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable Lug Kit - 1 Gauge",
+        "zh": "电缆接线铜鼻与端子组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500727",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable Lug Kit - 0 Gauge",
+        "zh": "电缆接线铜鼻与端子组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500726",
+      "aliases": [],
+      "description": {
+        "en": "Underhood Mounted Battery Cable Kit- Side Post",
+        "zh": "电瓶电缆与端接材料套装"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500725",
+      "aliases": [],
+      "description": {
+        "en": "Underhood Mounted Battery Cable Kit- Top Post",
+        "zh": "电瓶电缆与端接材料套装"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500724",
+      "aliases": [],
+      "description": {
+        "en": "Trunk Mounted Battery Cable Kit- Side Post",
+        "zh": "电瓶电缆与端接材料套装"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500723",
+      "aliases": [],
+      "description": {
+        "en": "Trunk Mounted Battery Cable Kit- Top Post",
+        "zh": "电瓶电缆与端接材料套装"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500397",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable Bolt- Standard, 7/6\" Bolt",
+        "zh": "电瓶连接螺栓组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500396",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable Bolt",
+        "zh": "电瓶连接螺栓组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500395",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable Bolt- 5/16 Long Style",
+        "zh": "电瓶连接螺栓组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500394",
+      "aliases": [],
+      "description": {
+        "en": "Stackable Battery Cable Bolt Kit",
+        "zh": "电瓶连接螺栓组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500337",
+      "aliases": [],
+      "description": {
+        "en": "Build A Battery Cable Kit- Side Terminal 1 - 2 Gauge",
+        "zh": "电瓶电缆与端接材料套装"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500057",
+      "aliases": [],
+      "description": {
+        "en": "Alternator Battery Terminal Boot",
+        "zh": "端子"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "40113",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable Kit (8 ft Red & 3 ft Black Cables)",
+        "zh": "电瓶电缆与端接材料套装"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "40107",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable Kit (8 ft Red & 8 ft Black Cables)",
+        "zh": "电瓶电缆与端接材料套装"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "40106",
+      "aliases": [],
+      "description": {
+        "en": "Remote Battery Junction Terminal Kit",
+        "zh": "端子"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "40105",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable Kit (16 ft Red & 16 ft Black Cables)",
+        "zh": "电瓶电缆与端接材料套装"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500393",
+      "aliases": [],
+      "description": {
+        "en": "Stackable Battery Cable Bolt Kit",
+        "zh": "电瓶连接螺栓组件"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Battery Jump Cable",
+    "zh": "汽车电瓶搭接线"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "narrow_published_range",
+    "reason": {
+      "en": "Application-specific references are shown at their audited counts. Materials require their own category evidence and are not assumed to be the BOM of every listed assembly.",
+      "zh": "应用专用编号按核验的实际数量展示；材料须有独立类别依据，不将其视为每件成品的通用 BOM。"
+    },
+    "audit_id": "automotive-validated/automotive-10.json",
+    "verified_counts": {
+      "products": 220,
+      "materials": 23
+    }
+  }
+}

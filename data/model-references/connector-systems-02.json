@@ -1,0 +1,3773 @@
+{
+  "version": 2,
+  "category_id": "connector-systems-02",
+  "route": "/products/molex-compatible",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Molex off-the-shelf interconnect cable assemblies.",
+        "zh": "Molex 原厂标准互连电缆组件。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Molex housings, terminals, headers and seals by connector family.",
+        "zh": "按系列整理的 Molex 壳体、端子、板端接头与密封件。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Six Decisions Behind the Part Number",
+    "zh": "型号背后的六个选型要点"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Mating Family",
+        "zh": "对插系列"
+      },
+      "copy": {
+        "en": "Confirm the exact connector family, pitch, circuit count and mating part number.",
+        "zh": "确认具体连接器系列、间距、回路数与对插件编号。"
+      }
+    },
+    {
+      "title": {
+        "en": "Terminal & Wire",
+        "zh": "端子与导线"
+      },
+      "copy": {
+        "en": "Match terminal options to conductor size, insulation diameter and the approved crimp specification.",
+        "zh": "按线径、绝缘外径及确认的压接规范选择端子。"
+      }
+    },
+    {
+      "title": {
+        "en": "Circuit Assignment",
+        "zh": "回路分配"
+      },
+      "copy": {
+        "en": "Define pin-to-pin wiring, polarity and unused cavities on a controlled drawing.",
+        "zh": "在受控图纸中定义针脚对应、极性及空置孔位。"
+      }
+    },
+    {
+      "title": {
+        "en": "Routing & Retention",
+        "zh": "布线与保持"
+      },
+      "copy": {
+        "en": "Set cable length datums, exit direction, latch clearance and strain relief.",
+        "zh": "确定线长基准、出线方向、卡扣空间与应力释放结构。"
+      }
+    },
+    {
+      "title": {
+        "en": "Load & Environment",
+        "zh": "负载与环境"
+      },
+      "copy": {
+        "en": "Check current, temperature and sealing requirements against the exact configured parts.",
+        "zh": "结合实际选定零件核对电流、温度及密封要求。"
+      }
+    },
+    {
+      "title": {
+        "en": "Prototype Approval",
+        "zh": "样品确认"
+      },
+      "copy": {
+        "en": "Review mating, terminal retention, continuity and sample dimensions before repeat production.",
+        "zh": "批量前核对对插、端子保持力、导通及样品尺寸。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=connector-systems-02&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "Molex",
+      "identifier": "151310200",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock cable assembly",
+        "zh": "Pico-Lock 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151310201",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock cable assembly",
+        "zh": "Pico-Lock 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151310202",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock cable assembly",
+        "zh": "Pico-Lock 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151310203",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock cable assembly",
+        "zh": "Pico-Lock 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151310205",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock cable assembly",
+        "zh": "Pico-Lock 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151310206",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock cable assembly",
+        "zh": "Pico-Lock 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151310400",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock cable assembly",
+        "zh": "Pico-Lock 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151310401",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock cable assembly",
+        "zh": "Pico-Lock 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151310402",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock cable assembly",
+        "zh": "Pico-Lock 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151310403",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock cable assembly",
+        "zh": "Pico-Lock 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151310405",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock cable assembly",
+        "zh": "Pico-Lock 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151310406",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock cable assembly",
+        "zh": "Pico-Lock 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320400",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock cable assembly",
+        "zh": "Pico-Lock 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320401",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock cable assembly",
+        "zh": "Pico-Lock 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320402",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock cable assembly",
+        "zh": "Pico-Lock 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320403",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock cable assembly",
+        "zh": "Pico-Lock 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320405",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock cable assembly",
+        "zh": "Pico-Lock 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320406",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock cable assembly",
+        "zh": "Pico-Lock 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320500",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock cable assembly",
+        "zh": "Pico-Lock 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320501",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock cable assembly",
+        "zh": "Pico-Lock 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320502",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock cable assembly",
+        "zh": "Pico-Lock 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320503",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock cable assembly",
+        "zh": "Pico-Lock 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320505",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock cable assembly",
+        "zh": "Pico-Lock 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320506",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock cable assembly",
+        "zh": "Pico-Lock 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320600",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock cable assembly",
+        "zh": "Pico-Lock 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320601",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock cable assembly",
+        "zh": "Pico-Lock 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320602",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock cable assembly",
+        "zh": "Pico-Lock 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320603",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock cable assembly",
+        "zh": "Pico-Lock 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320605",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock cable assembly",
+        "zh": "Pico-Lock 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320606",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock cable assembly",
+        "zh": "Pico-Lock 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320700",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock cable assembly",
+        "zh": "Pico-Lock 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320701",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock cable assembly",
+        "zh": "Pico-Lock 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320702",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock cable assembly",
+        "zh": "Pico-Lock 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340200",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade cable assembly",
+        "zh": "PicoBlade 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340201",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade cable assembly",
+        "zh": "PicoBlade 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340202",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade cable assembly",
+        "zh": "PicoBlade 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340203",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade cable assembly",
+        "zh": "PicoBlade 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340205",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade cable assembly",
+        "zh": "PicoBlade 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340206",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade cable assembly",
+        "zh": "PicoBlade 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340300",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade cable assembly",
+        "zh": "PicoBlade 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340301",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade cable assembly",
+        "zh": "PicoBlade 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340302",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade cable assembly",
+        "zh": "PicoBlade 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340303",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade cable assembly",
+        "zh": "PicoBlade 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340305",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade cable assembly",
+        "zh": "PicoBlade 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340306",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade cable assembly",
+        "zh": "PicoBlade 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340400",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade cable assembly",
+        "zh": "PicoBlade 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340401",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade cable assembly",
+        "zh": "PicoBlade 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340402",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade cable assembly",
+        "zh": "PicoBlade 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340403",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade cable assembly",
+        "zh": "PicoBlade 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340405",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade cable assembly",
+        "zh": "PicoBlade 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340406",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade cable assembly",
+        "zh": "PicoBlade 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340500",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade cable assembly",
+        "zh": "PicoBlade 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340501",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade cable assembly",
+        "zh": "PicoBlade 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340502",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade cable assembly",
+        "zh": "PicoBlade 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350200",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate cable assembly",
+        "zh": "CLIK-Mate 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350201",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate cable assembly",
+        "zh": "CLIK-Mate 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350202",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate cable assembly",
+        "zh": "CLIK-Mate 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350203",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate cable assembly",
+        "zh": "CLIK-Mate 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350205",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate cable assembly",
+        "zh": "CLIK-Mate 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350206",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate cable assembly",
+        "zh": "CLIK-Mate 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350300",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate cable assembly",
+        "zh": "CLIK-Mate 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350301",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate cable assembly",
+        "zh": "CLIK-Mate 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350302",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate cable assembly",
+        "zh": "CLIK-Mate 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350303",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate cable assembly",
+        "zh": "CLIK-Mate 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350305",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate cable assembly",
+        "zh": "CLIK-Mate 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350306",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate cable assembly",
+        "zh": "CLIK-Mate 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350400",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate cable assembly",
+        "zh": "CLIK-Mate 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350401",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate cable assembly",
+        "zh": "CLIK-Mate 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350402",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate cable assembly",
+        "zh": "CLIK-Mate 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350403",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate cable assembly",
+        "zh": "CLIK-Mate 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350405",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate cable assembly",
+        "zh": "CLIK-Mate 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350406",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate cable assembly",
+        "zh": "CLIK-Mate 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350500",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate cable assembly",
+        "zh": "CLIK-Mate 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350501",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate cable assembly",
+        "zh": "CLIK-Mate 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350502",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate cable assembly",
+        "zh": "CLIK-Mate 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110200",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus cable assembly",
+        "zh": "Micro-Lock Plus 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110201",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus cable assembly",
+        "zh": "Micro-Lock Plus 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110202",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus cable assembly",
+        "zh": "Micro-Lock Plus 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110203",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus cable assembly",
+        "zh": "Micro-Lock Plus 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110205",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus cable assembly",
+        "zh": "Micro-Lock Plus 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110206",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus cable assembly",
+        "zh": "Micro-Lock Plus 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110300",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus cable assembly",
+        "zh": "Micro-Lock Plus 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110301",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus cable assembly",
+        "zh": "Micro-Lock Plus 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110302",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus cable assembly",
+        "zh": "Micro-Lock Plus 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110303",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus cable assembly",
+        "zh": "Micro-Lock Plus 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110305",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus cable assembly",
+        "zh": "Micro-Lock Plus 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110306",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus cable assembly",
+        "zh": "Micro-Lock Plus 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110400",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus cable assembly",
+        "zh": "Micro-Lock Plus 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110401",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus cable assembly",
+        "zh": "Micro-Lock Plus 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110402",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus cable assembly",
+        "zh": "Micro-Lock Plus 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110403",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus cable assembly",
+        "zh": "Micro-Lock Plus 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110405",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus cable assembly",
+        "zh": "Micro-Lock Plus 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110406",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus cable assembly",
+        "zh": "Micro-Lock Plus 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110500",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus cable assembly",
+        "zh": "Micro-Lock Plus 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110501",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus cable assembly",
+        "zh": "Micro-Lock Plus 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451300201",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit cable assembly",
+        "zh": "Nano-Fit 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451300203",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit cable assembly",
+        "zh": "Nano-Fit 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451300210",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit cable assembly",
+        "zh": "Nano-Fit 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451300401",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit cable assembly",
+        "zh": "Nano-Fit 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451300403",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit cable assembly",
+        "zh": "Nano-Fit 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451300410",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit cable assembly",
+        "zh": "Nano-Fit 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451300601",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit cable assembly",
+        "zh": "Nano-Fit 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451300603",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit cable assembly",
+        "zh": "Nano-Fit 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451300610",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit cable assembly",
+        "zh": "Nano-Fit 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451300801",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit cable assembly",
+        "zh": "Nano-Fit 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451300803",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit cable assembly",
+        "zh": "Nano-Fit 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451300810",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit cable assembly",
+        "zh": "Nano-Fit 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451301001",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit cable assembly",
+        "zh": "Nano-Fit 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451301003",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit cable assembly",
+        "zh": "Nano-Fit 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451301010",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit cable assembly",
+        "zh": "Nano-Fit 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451350201",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 cable assembly",
+        "zh": "Mini-Fit TPA2 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451350203",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 cable assembly",
+        "zh": "Mini-Fit TPA2 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451350210",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 cable assembly",
+        "zh": "Mini-Fit TPA2 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451350401",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 cable assembly",
+        "zh": "Mini-Fit TPA2 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451350403",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 cable assembly",
+        "zh": "Mini-Fit TPA2 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451350410",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 cable assembly",
+        "zh": "Mini-Fit TPA2 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451350601",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 cable assembly",
+        "zh": "Mini-Fit TPA2 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451350603",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 cable assembly",
+        "zh": "Mini-Fit TPA2 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451350610",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 cable assembly",
+        "zh": "Mini-Fit TPA2 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451350801",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 cable assembly",
+        "zh": "Mini-Fit TPA2 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451350803",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 cable assembly",
+        "zh": "Mini-Fit TPA2 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451350810",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 cable assembly",
+        "zh": "Mini-Fit TPA2 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451360201",
+      "aliases": [],
+      "description": {
+        "en": "Mega-Fit cable assembly",
+        "zh": "Mega-Fit 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451360203",
+      "aliases": [],
+      "description": {
+        "en": "Mega-Fit cable assembly",
+        "zh": "Mega-Fit 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451360210",
+      "aliases": [],
+      "description": {
+        "en": "Mega-Fit cable assembly",
+        "zh": "Mega-Fit 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451360401",
+      "aliases": [],
+      "description": {
+        "en": "Mega-Fit cable assembly",
+        "zh": "Mega-Fit 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451360403",
+      "aliases": [],
+      "description": {
+        "en": "Mega-Fit cable assembly",
+        "zh": "Mega-Fit 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451360410",
+      "aliases": [],
+      "description": {
+        "en": "Mega-Fit cable assembly",
+        "zh": "Mega-Fit 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451360601",
+      "aliases": [],
+      "description": {
+        "en": "Mega-Fit cable assembly",
+        "zh": "Mega-Fit 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451360603",
+      "aliases": [],
+      "description": {
+        "en": "Mega-Fit cable assembly",
+        "zh": "Mega-Fit 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451360610",
+      "aliases": [],
+      "description": {
+        "en": "Mega-Fit cable assembly",
+        "zh": "Mega-Fit 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451360801",
+      "aliases": [],
+      "description": {
+        "en": "Mega-Fit cable assembly",
+        "zh": "Mega-Fit 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451360803",
+      "aliases": [],
+      "description": {
+        "en": "Mega-Fit cable assembly",
+        "zh": "Mega-Fit 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451360810",
+      "aliases": [],
+      "description": {
+        "en": "Mega-Fit cable assembly",
+        "zh": "Mega-Fit 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451361001",
+      "aliases": [],
+      "description": {
+        "en": "Mega-Fit cable assembly",
+        "zh": "Mega-Fit 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451361003",
+      "aliases": [],
+      "description": {
+        "en": "Mega-Fit cable assembly",
+        "zh": "Mega-Fit 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451361010",
+      "aliases": [],
+      "description": {
+        "en": "Mega-Fit cable assembly",
+        "zh": "Mega-Fit 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451361201",
+      "aliases": [],
+      "description": {
+        "en": "Mega-Fit cable assembly",
+        "zh": "Mega-Fit 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451361203",
+      "aliases": [],
+      "description": {
+        "en": "Mega-Fit cable assembly",
+        "zh": "Mega-Fit 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451361210",
+      "aliases": [],
+      "description": {
+        "en": "Mega-Fit cable assembly",
+        "zh": "Mega-Fit 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320200",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA cable assembly",
+        "zh": "Micro-Fit TPA 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320201",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA cable assembly",
+        "zh": "Micro-Fit TPA 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320203",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA cable assembly",
+        "zh": "Micro-Fit TPA 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320210",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA cable assembly",
+        "zh": "Micro-Fit TPA 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320300",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA cable assembly",
+        "zh": "Micro-Fit TPA 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320301",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA cable assembly",
+        "zh": "Micro-Fit TPA 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320303",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA cable assembly",
+        "zh": "Micro-Fit TPA 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320310",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA cable assembly",
+        "zh": "Micro-Fit TPA 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320400",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA cable assembly",
+        "zh": "Micro-Fit TPA 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320401",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA cable assembly",
+        "zh": "Micro-Fit TPA 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320403",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA cable assembly",
+        "zh": "Micro-Fit TPA 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320410",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA cable assembly",
+        "zh": "Micro-Fit TPA 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320500",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA cable assembly",
+        "zh": "Micro-Fit TPA 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320501",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA cable assembly",
+        "zh": "Micro-Fit TPA 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320503",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA cable assembly",
+        "zh": "Micro-Fit TPA 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320510",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA cable assembly",
+        "zh": "Micro-Fit TPA 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320600",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA cable assembly",
+        "zh": "Micro-Fit TPA 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320601",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA cable assembly",
+        "zh": "Micro-Fit TPA 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320603",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA cable assembly",
+        "zh": "Micro-Fit TPA 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320610",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA cable assembly",
+        "zh": "Micro-Fit TPA 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330200",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp cable assembly",
+        "zh": "Pico-Clasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330201",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp cable assembly",
+        "zh": "Pico-Clasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330202",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp cable assembly",
+        "zh": "Pico-Clasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330203",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp cable assembly",
+        "zh": "Pico-Clasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330205",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp cable assembly",
+        "zh": "Pico-Clasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330206",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp cable assembly",
+        "zh": "Pico-Clasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330300",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp cable assembly",
+        "zh": "Pico-Clasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330301",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp cable assembly",
+        "zh": "Pico-Clasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330302",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp cable assembly",
+        "zh": "Pico-Clasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330303",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp cable assembly",
+        "zh": "Pico-Clasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330305",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp cable assembly",
+        "zh": "Pico-Clasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330306",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp cable assembly",
+        "zh": "Pico-Clasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330400",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp cable assembly",
+        "zh": "Pico-Clasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330401",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp cable assembly",
+        "zh": "Pico-Clasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330402",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp cable assembly",
+        "zh": "Pico-Clasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330403",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp cable assembly",
+        "zh": "Pico-Clasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330405",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp cable assembly",
+        "zh": "Pico-Clasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330406",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp cable assembly",
+        "zh": "Pico-Clasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330500",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp cable assembly",
+        "zh": "Pico-Clasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330501",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp cable assembly",
+        "zh": "Pico-Clasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360200",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp cable assembly",
+        "zh": "MicroClasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360201",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp cable assembly",
+        "zh": "MicroClasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360202",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp cable assembly",
+        "zh": "MicroClasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360203",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp cable assembly",
+        "zh": "MicroClasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360205",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp cable assembly",
+        "zh": "MicroClasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360206",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp cable assembly",
+        "zh": "MicroClasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360300",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp cable assembly",
+        "zh": "MicroClasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360301",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp cable assembly",
+        "zh": "MicroClasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360302",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp cable assembly",
+        "zh": "MicroClasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360303",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp cable assembly",
+        "zh": "MicroClasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360305",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp cable assembly",
+        "zh": "MicroClasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360306",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp cable assembly",
+        "zh": "MicroClasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360400",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp cable assembly",
+        "zh": "MicroClasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360401",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp cable assembly",
+        "zh": "MicroClasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360402",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp cable assembly",
+        "zh": "MicroClasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360403",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp cable assembly",
+        "zh": "MicroClasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360405",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp cable assembly",
+        "zh": "MicroClasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360406",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp cable assembly",
+        "zh": "MicroClasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360500",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp cable assembly",
+        "zh": "MicroClasp 成品连接线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360501",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp cable assembly",
+        "zh": "MicroClasp 成品连接线"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "brand": "Molex",
+      "identifier": "430250200",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430250208",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430250210",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430250400",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430250408",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430250410",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430250600",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430250608",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430250610",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430250800",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430250810",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430251000",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430251008",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430251010",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430251200",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430251208",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430251210",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430251400",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430251408",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430251410",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430251600",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430251608",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430251610",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430251800",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430300001",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 crimp terminal",
+        "zh": "Micro-Fit 3.0 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430300002",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 crimp terminal",
+        "zh": "Micro-Fit 3.0 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430300003",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 crimp terminal",
+        "zh": "Micro-Fit 3.0 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430300004",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 crimp terminal",
+        "zh": "Micro-Fit 3.0 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430300005",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 crimp terminal",
+        "zh": "Micro-Fit 3.0 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430300006",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 crimp terminal",
+        "zh": "Micro-Fit 3.0 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430300007",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 crimp terminal",
+        "zh": "Micro-Fit 3.0 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430300008",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 crimp terminal",
+        "zh": "Micro-Fit 3.0 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430300009",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 crimp terminal",
+        "zh": "Micro-Fit 3.0 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430300010",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 crimp terminal",
+        "zh": "Micro-Fit 3.0 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430300011",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 crimp terminal",
+        "zh": "Micro-Fit 3.0 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430300012",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 crimp terminal",
+        "zh": "Micro-Fit 3.0 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430300024",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 crimp terminal",
+        "zh": "Micro-Fit 3.0 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430300038",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 crimp terminal",
+        "zh": "Micro-Fit 3.0 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430300039",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 crimp terminal",
+        "zh": "Micro-Fit 3.0 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "430300040",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 crimp terminal",
+        "zh": "Micro-Fit 3.0 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39012020",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit Jr. connector housing",
+        "zh": "Mini-Fit Jr. 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39012025",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit Jr. connector housing",
+        "zh": "Mini-Fit Jr. 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39012040",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit Jr. connector housing",
+        "zh": "Mini-Fit Jr. 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39012045",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit Jr. connector housing",
+        "zh": "Mini-Fit Jr. 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39012060",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit Jr. connector housing",
+        "zh": "Mini-Fit Jr. 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39012065",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit Jr. connector housing",
+        "zh": "Mini-Fit Jr. 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39012080",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit Jr. connector housing",
+        "zh": "Mini-Fit Jr. 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39012085",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit Jr. connector housing",
+        "zh": "Mini-Fit Jr. 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39012100",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit Jr. connector housing",
+        "zh": "Mini-Fit Jr. 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39012105",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit Jr. connector housing",
+        "zh": "Mini-Fit Jr. 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39012120",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit Jr. connector housing",
+        "zh": "Mini-Fit Jr. 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39012125",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit Jr. connector housing",
+        "zh": "Mini-Fit Jr. 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39012140",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit Jr. connector housing",
+        "zh": "Mini-Fit Jr. 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39012145",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit Jr. connector housing",
+        "zh": "Mini-Fit Jr. 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39012160",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit Jr. connector housing",
+        "zh": "Mini-Fit Jr. 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39012165",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit Jr. connector housing",
+        "zh": "Mini-Fit Jr. 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39012180",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit Jr. connector housing",
+        "zh": "Mini-Fit Jr. 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39012185",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit Jr. connector housing",
+        "zh": "Mini-Fit Jr. 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39012200",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit Jr. connector housing",
+        "zh": "Mini-Fit Jr. 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39012205",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit Jr. connector housing",
+        "zh": "Mini-Fit Jr. 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39012220",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit Jr. connector housing",
+        "zh": "Mini-Fit Jr. 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39012225",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit Jr. connector housing",
+        "zh": "Mini-Fit Jr. 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39012240",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit Jr. connector housing",
+        "zh": "Mini-Fit Jr. 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5055650201",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus connector housing",
+        "zh": "Micro-Lock Plus 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5055650301",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus connector housing",
+        "zh": "Micro-Lock Plus 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5055650401",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus connector housing",
+        "zh": "Micro-Lock Plus 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5055650501",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus connector housing",
+        "zh": "Micro-Lock Plus 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5055650601",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus connector housing",
+        "zh": "Micro-Lock Plus 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5055650701",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus connector housing",
+        "zh": "Micro-Lock Plus 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5055650801",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus connector housing",
+        "zh": "Micro-Lock Plus 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5055650901",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus connector housing",
+        "zh": "Micro-Lock Plus 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5055651001",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus connector housing",
+        "zh": "Micro-Lock Plus 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5055651101",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus connector housing",
+        "zh": "Micro-Lock Plus 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5055651201",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus connector housing",
+        "zh": "Micro-Lock Plus 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5055651301",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus connector housing",
+        "zh": "Micro-Lock Plus 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5055651401",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus connector housing",
+        "zh": "Micro-Lock Plus 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5055651501",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus connector housing",
+        "zh": "Micro-Lock Plus 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5055651601",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus connector housing",
+        "zh": "Micro-Lock Plus 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "194270012",
+      "aliases": [],
+      "description": {
+        "en": "MX150L PCB header",
+        "zh": "MX150L 板端接头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "194270017",
+      "aliases": [],
+      "description": {
+        "en": "MX150L PCB header",
+        "zh": "MX150L 板端接头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "194270018",
+      "aliases": [],
+      "description": {
+        "en": "MX150L PCB header",
+        "zh": "MX150L 板端接头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "194270021",
+      "aliases": [],
+      "description": {
+        "en": "MX150L gasket",
+        "zh": "MX150L 密封垫"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "194270022",
+      "aliases": [],
+      "description": {
+        "en": "MX150L gasket",
+        "zh": "MX150L 密封垫"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "194270023",
+      "aliases": [],
+      "description": {
+        "en": "MX150L gasket",
+        "zh": "MX150L 密封垫"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "194270024",
+      "aliases": [],
+      "description": {
+        "en": "MX150L gasket",
+        "zh": "MX150L 密封垫"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "194270025",
+      "aliases": [],
+      "description": {
+        "en": "MX150L gasket",
+        "zh": "MX150L 密封垫"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "194270029",
+      "aliases": [],
+      "description": {
+        "en": "MX150L gasket",
+        "zh": "MX150L 密封垫"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "194270030",
+      "aliases": [],
+      "description": {
+        "en": "MX150L gasket",
+        "zh": "MX150L 密封垫"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "194270031",
+      "aliases": [],
+      "description": {
+        "en": "MX150L PCB header",
+        "zh": "MX150L 板端接头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "194270032",
+      "aliases": [],
+      "description": {
+        "en": "MX150L PCB header",
+        "zh": "MX150L 板端接头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "194270040",
+      "aliases": [],
+      "description": {
+        "en": "MX150L PCB header",
+        "zh": "MX150L 板端接头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "194270049",
+      "aliases": [],
+      "description": {
+        "en": "MX150L PCB header",
+        "zh": "MX150L 板端接头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "194270102",
+      "aliases": [],
+      "description": {
+        "en": "MX150L PCB header",
+        "zh": "MX150L 板端接头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39000038",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit crimp terminal",
+        "zh": "Mini-Fit 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39000039",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit crimp terminal",
+        "zh": "Mini-Fit 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39000046",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit crimp terminal",
+        "zh": "Mini-Fit 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39000047",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit crimp terminal",
+        "zh": "Mini-Fit 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39000059",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit crimp terminal",
+        "zh": "Mini-Fit 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39000060",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit crimp terminal",
+        "zh": "Mini-Fit 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39000065",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit crimp terminal",
+        "zh": "Mini-Fit 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39000066",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit crimp terminal",
+        "zh": "Mini-Fit 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39000073",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit crimp terminal",
+        "zh": "Mini-Fit 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39000074",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit crimp terminal",
+        "zh": "Mini-Fit 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39000077",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit crimp terminal",
+        "zh": "Mini-Fit 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39000078",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit crimp terminal",
+        "zh": "Mini-Fit 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39000079",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit crimp terminal",
+        "zh": "Mini-Fit 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39000080",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit crimp terminal",
+        "zh": "Mini-Fit 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39000089",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit crimp terminal",
+        "zh": "Mini-Fit 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39000090",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit crimp terminal",
+        "zh": "Mini-Fit 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39000139",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit crimp terminal",
+        "zh": "Mini-Fit 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39000140",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit crimp terminal",
+        "zh": "Mini-Fit 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39000181",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit crimp terminal",
+        "zh": "Mini-Fit 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39000182",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit crimp terminal",
+        "zh": "Mini-Fit 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39000183",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit crimp terminal",
+        "zh": "Mini-Fit 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39000184",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit crimp terminal",
+        "zh": "Mini-Fit 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "39000185",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit crimp terminal",
+        "zh": "Mini-Fit 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "436450200",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "436450208",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "436450210",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "436450300",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "436450308",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "436450310",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "436450400",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "436450408",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "436450410",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "436450500",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "436450508",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "436450510",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "436450600",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "436450608",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "436450610",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "436450700",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "436450800",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "436450900",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "436451000",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "436451100",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "436451200",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "436451208",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit 3.0 connector housing",
+        "zh": "Micro-Fit 3.0 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510210200",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510210300",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510210400",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510210500",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510210600",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510210700",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510210800",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510210900",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510211000",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510211100",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510211200",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510211300",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510211400",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510211500",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "500798001",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade crimp terminal",
+        "zh": "PicoBlade 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "500798020",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade crimp terminal",
+        "zh": "PicoBlade 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5013300200",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp connector housing",
+        "zh": "Pico-Clasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5013300300",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp connector housing",
+        "zh": "Pico-Clasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5013300400",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp connector housing",
+        "zh": "Pico-Clasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5013300500",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp connector housing",
+        "zh": "Pico-Clasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5013300600",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp connector housing",
+        "zh": "Pico-Clasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5013300700",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp connector housing",
+        "zh": "Pico-Clasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5013300800",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp connector housing",
+        "zh": "Pico-Clasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5013300900",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp connector housing",
+        "zh": "Pico-Clasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5013301000",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp connector housing",
+        "zh": "Pico-Clasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5013301100",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp connector housing",
+        "zh": "Pico-Clasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5013301200",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp connector housing",
+        "zh": "Pico-Clasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5013301300",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp connector housing",
+        "zh": "Pico-Clasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5013301400",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp connector housing",
+        "zh": "Pico-Clasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5013301500",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp connector housing",
+        "zh": "Pico-Clasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780200",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780201",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780202",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780204",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780300",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780301",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780302",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780304",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780400",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780401",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780402",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780404",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780500",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780501",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780502",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780504",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780600",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780601",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780602",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780604",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780700",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780701",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780702",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510470200",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510470300",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510470400",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510470500",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510470600",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510470700",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510470800",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510470900",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510471000",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Molex Compatible",
+    "zh": "Molex兼容组件"
+  }
+}

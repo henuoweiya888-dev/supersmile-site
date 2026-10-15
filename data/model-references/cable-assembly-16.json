@@ -1,0 +1,4556 @@
+{
+  "version": 2,
+  "category_id": "cable-assembly-16",
+  "route": "/products/industrial-ethernet-rj45-cable-assembly",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Industrial Ethernet and RJ45 patch cable assemblies.",
+        "zh": "工业以太网与 RJ45 预制电缆组件。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Ethernet bulk cable and industrial network connector components.",
+        "zh": "以太网原线与工业网络连接材料。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Six Decisions Behind the Part Number",
+    "zh": "型号背后的六个选型要点"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Interface & Network",
+        "zh": "接口与网络"
+      },
+      "copy": {
+        "en": "Define RJ45 or circular interfaces, connector coding and the target industrial network.",
+        "zh": "明确 RJ45 或圆形接口、接头编码及目标工业网络。"
+      }
+    },
+    {
+      "title": {
+        "en": "Pairs & Pin Map",
+        "zh": "线对与针脚"
+      },
+      "copy": {
+        "en": "Confirm pair assignment and straight-through or crossover wiring against the equipment.",
+        "zh": "按设备要求确认线对分配、直通或交叉接线。"
+      }
+    },
+    {
+      "title": {
+        "en": "Cable Category",
+        "zh": "线缆类别"
+      },
+      "copy": {
+        "en": "Choose cable category, conductor construction and length for the specified link.",
+        "zh": "针对目标链路选择线缆类别、导体结构与长度。"
+      }
+    },
+    {
+      "title": {
+        "en": "Shield Termination",
+        "zh": "屏蔽端接"
+      },
+      "copy": {
+        "en": "Keep shield construction and connector grounding aligned with the installation design.",
+        "zh": "使屏蔽结构、接头接地与现场安装设计保持一致。"
+      }
+    },
+    {
+      "title": {
+        "en": "Routing & Motion",
+        "zh": "布线与运动"
+      },
+      "copy": {
+        "en": "Distinguish fixed, cabinet and moving installations. Check bend radius and connector clearance.",
+        "zh": "区分固定、柜内和运动布线，并核对弯曲半径与接头空间。"
+      }
+    },
+    {
+      "title": {
+        "en": "Link Acceptance",
+        "zh": "链路验收"
+      },
+      "copy": {
+        "en": "Agree wire-map checks and any required cable or link performance testing.",
+        "zh": "约定线序检查及所需的线缆或链路性能测试。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=cable-assembly-16&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "LAPP",
+      "identifier": "2170966",
+      "aliases": [
+        "ETHERLINE® PN CABINET Cat.6A 7"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433508090",
+      "aliases": [
+        "EPIC® MC08C3LSXSBP-26RG20"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433508079",
+      "aliases": [
+        "EPIC® MC04C3LSDSBP-22RG20"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24443011",
+      "aliases": [
+        "IE-PNC-5-M8D-S-10-P-2-22-7-OE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24443003",
+      "aliases": [
+        "IE-PNC-5-M8D-S-10-P-2-22-7-M8D-S"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24443007",
+      "aliases": [
+        "IE-PNC-5-M8D-S-10-P-2-22-7-RJ45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24443015",
+      "aliases": [
+        "IE-PNC-5-M8D-A-10-P-2-22-7-M8D-A"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433500065",
+      "aliases": [
+        "ETHERLINE® DRIVECLIQ 6SL3060 5"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171282",
+      "aliases": [
+        "IE-PNC-5-RJ45-5-P-2-22-FD-RJ45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171278",
+      "aliases": [
+        "IE-PNC-5-RJ45-0,5-P-2-22-FD-RJ45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171277",
+      "aliases": [
+        "IE-PNC-5-M12D-A-20-P-2-22-FD-RJ45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171271",
+      "aliases": [
+        "IE-PNC-5-M12D-A-0,5-P-2-22-FD-RJ45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171270",
+      "aliases": [
+        "IE-PNC-5-M12D-S-20-P-2-22-FD-RJ45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171264",
+      "aliases": [
+        "IE-PNC-5-M12D-S-0,5-P-2-22-FD-RJ45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171255",
+      "aliases": [
+        "IE-PNC-5-M12D-S-10-P-2-22-FD-M12DF-S"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171250",
+      "aliases": [
+        "IE-PNC-5-M12D-S-0,5-P-2-22-FD-M12DF-S"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171072",
+      "aliases": [
+        "IE-PNC-5-M12D-A-20-P-2-22-FD-OE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2172205",
+      "aliases": [
+        "IE-PNC-5-M12D-A-7,5-P-2-22-FD-OE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171066",
+      "aliases": [
+        "IE-PNC-5-M12D-A-20-P-2-22-FD-M12D-S"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2172203",
+      "aliases": [
+        "IE-PNC-5-M12D-A-7,5-P-2-22-FD-M12D-S"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171422",
+      "aliases": [
+        "IE-PNB-5-M12DF-S-0,3-Y-2-22-7-RJ45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805660",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 7.5M YELLOW"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171196",
+      "aliases": [
+        "IE-5-M12D-S-18-P-2-26-7-RJ45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171133",
+      "aliases": [
+        "IE-5-RJ45-0,3-H-2-26-7-RJ45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171141",
+      "aliases": [
+        "IE-5-M12D-S-3,5-H-2-26-7-RJ45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171143",
+      "aliases": [
+        "IE-5-M12D-S-3,5-H-2-26-7-OE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700874",
+      "aliases": [
+        "EPIC® DATA SPE-6 PC M-M 10m CT001"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171329",
+      "aliases": [
+        "IE-PNC-5-M12D-S-15-P-2-22-FD-M12D-S"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2172408",
+      "aliases": [
+        "IE-5-M12D-A-8-P-2-26-7-RJ45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2172407",
+      "aliases": [
+        "IE-5-M12D-A-1,5-P-2-26-7-RJ45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171998",
+      "aliases": [
+        "IE-5-M12D-S-16-P-2-26-7-OE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2173037",
+      "aliases": [
+        "IE-5-M12D-S-15-H-2-26-7-RJ45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2173161",
+      "aliases": [
+        "IE-5-M12D-S-24-H-2-26-7-OE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2172401",
+      "aliases": [
+        "IE-5-M12D-S-6,5-H-2-26-7-M12D-S"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171291",
+      "aliases": [
+        "IE-PNC-5-RJ45-20-P-2-22-FD-OE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171285",
+      "aliases": [
+        "IE-PNC-5-RJ45-0,5-P-2-22-FD-OE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170967",
+      "aliases": [
+        "ETHERLINE® PN CABINET Cat.6A 15"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24443010",
+      "aliases": [
+        "IE-PNC-5-M8D-S-5-P-2-22-7-OE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24443002",
+      "aliases": [
+        "IE-PNC-5-M8D-S-5-P-2-22-7-M8D-S"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24443006",
+      "aliases": [
+        "IE-PNC-5-M8D-S-5-P-2-22-7-RJ45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24443014",
+      "aliases": [
+        "IE-PNC-5-M8D-A-5-P-2-22-7-M8D-A"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433500066",
+      "aliases": [
+        "ETHERLINE® DRIVECLIQ 6SL3060 2.8"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171281",
+      "aliases": [
+        "IE-PNC-5-RJ45-3-P-2-22-FD-RJ45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171276",
+      "aliases": [
+        "IE-PNC-5-M12D-A-10-P-2-22-FD-RJ45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171269",
+      "aliases": [
+        "IE-PNC-5-M12D-S-10-P-2-22-FD-RJ45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171254",
+      "aliases": [
+        "IE-PNC-5-M12D-S-5-P-2-22-FD-M12DF-S"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171071",
+      "aliases": [
+        "IE-PNC-5-M12D-A-10-P-2-22-FD-OE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2172204",
+      "aliases": [
+        "IE-PNC-5-M12D-A-0,5-P-2-22-FD-OE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171065",
+      "aliases": [
+        "IE-PNC-5-M12D-A-10-P-2-22-FD-M12D-S"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805659",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 5M YELLOW"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171195",
+      "aliases": [
+        "IE-5-M12D-S-15-P-2-26-7-RJ45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700873",
+      "aliases": [
+        "EPIC® DATA SPE-6 PC M-M 5m CT001"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2172232",
+      "aliases": [
+        "IE-PNC-5-M12D-S-35-P-2-22-FD-M12D-S"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171999",
+      "aliases": [
+        "IE-5-M12D-S-8-H-2-26-7-RJ45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171290",
+      "aliases": [
+        "IE-PNC-5-RJ45-10-P-2-22-FD-OE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170601",
+      "aliases": [
+        "ETHERLINE® PN CABINET Cat.6A 20"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24443009",
+      "aliases": [
+        "IE-PNC-5-M8D-S-2-P-2-22-7-OE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24443001",
+      "aliases": [
+        "IE-PNC-5-M8D-S-2-P-2-22-7-M8D-S"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24443005",
+      "aliases": [
+        "IE-PNC-5-M8D-S-2-P-2-22-7-RJ45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24443013",
+      "aliases": [
+        "IE-PNC-5-M8D-A-2-P-2-22-7-M8D-A"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433500053",
+      "aliases": [
+        "ETHERLINE® DRIVECLIQ 6SL3060 1.45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171280",
+      "aliases": [
+        "IE-PNC-5-RJ45-2-P-2-22-FD-RJ45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171275",
+      "aliases": [
+        "IE-PNC-5-M12D-A-5-P-2-22-FD-RJ45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171268",
+      "aliases": [
+        "IE-PNC-5-M12D-S-5-P-2-22-FD-RJ45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171253",
+      "aliases": [
+        "IE-PNC-5-M12D-S-3-P-2-22-FD-M12DF-S"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171070",
+      "aliases": [
+        "IE-PNC-5-M12D-A-5-P-2-22-FD-OE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171064",
+      "aliases": [
+        "IE-PNC-5-M12D-A-5-P-2-22-FD-M12D-S"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805658",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 3M YELLOW"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171969",
+      "aliases": [
+        "IE-5-M12D-S-30-P-2-26-7-RJ45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700872",
+      "aliases": [
+        "EPIC® DATA SPE-6 PC M-M 3m CT001"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2172235",
+      "aliases": [
+        "IE-PNC-5-M12D-S-30-P-2-22-FD-M12D-S"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171289",
+      "aliases": [
+        "IE-PNC-5-RJ45-5-P-2-22-FD-OE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170600",
+      "aliases": [
+        "ETHERLINE® PN CABINET Cat.6A 7.5"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24443008",
+      "aliases": [
+        "IE-PNC-5-M8D-S-1-P-2-22-7-OE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24443000",
+      "aliases": [
+        "IE-PNC-5-M8D-S-1-P-2-22-7-M8D-S"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24443004",
+      "aliases": [
+        "IE-PNC-5-M8D-S-1-P-2-22-7-RJ45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24443012",
+      "aliases": [
+        "IE-PNC-5-M8D-A-1-P-2-22-7-M8D-A"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433500052",
+      "aliases": [
+        "ETHERLINE® DRIVECLIQ 6SL3060 1.2"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171279",
+      "aliases": [
+        "IE-PNC-5-RJ45-1-P-2-22-FD-RJ45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171274",
+      "aliases": [
+        "IE-PNC-5-M12D-A-3-P-2-22-FD-RJ45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171267",
+      "aliases": [
+        "IE-PNC-5-M12D-S-3-P-2-22-FD-RJ45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171252",
+      "aliases": [
+        "IE-PNC-5-M12D-S-2-P-2-22-FD-M12DF-S"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171069",
+      "aliases": [
+        "IE-PNC-5-M12D-A-3-P-2-22-FD-OE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171063",
+      "aliases": [
+        "IE-PNC-5-M12D-A-3-P-2-22-FD-M12D-S"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805657",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 2M YELLOW"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700871",
+      "aliases": [
+        "EPIC® DATA SPE-6 PC M-M 2m CT001"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2172231",
+      "aliases": [
+        "IE-PNC-5-M12D-S-25-P-2-22-FD-M12D-S"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171288",
+      "aliases": [
+        "IE-PNC-5-RJ45-3-P-2-22-FD-OE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170578",
+      "aliases": [
+        "ETHERLINE® PN CABINET Cat.6A 5"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433500051",
+      "aliases": [
+        "ETHERLINE® DRIVECLIQ 6SL3060 0.95"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171284",
+      "aliases": [
+        "IE-PNC-5-RJ45-20-P-2-22-FD-RJ45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171273",
+      "aliases": [
+        "IE-PNC-5-M12D-A-2-P-2-22-FD-RJ45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171266",
+      "aliases": [
+        "IE-PNC-5-M12D-S-2-P-2-22-FD-RJ45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171251",
+      "aliases": [
+        "IE-PNC-5-M12D-S-1-P-2-22-FD-M12DF-S"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171068",
+      "aliases": [
+        "IE-PNC-5-M12D-A-2-P-2-22-FD-OE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171062",
+      "aliases": [
+        "IE-PNC-5-M12D-A-2-P-2-22-FD-M12D-S"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805663",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 20M YELLOW"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700870",
+      "aliases": [
+        "EPIC® DATA SPE-6 PC M-M 1,5m CT001"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171287",
+      "aliases": [
+        "IE-PNC-5-RJ45-2-P-2-22-FD-OE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170577",
+      "aliases": [
+        "ETHERLINE® PN CABINET Cat.6A 4"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433500050",
+      "aliases": [
+        "ETHERLINE® DRIVECLIQ 6SL3060 0.6"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171283",
+      "aliases": [
+        "IE-PNC-5-RJ45-10-P-2-22-FD-RJ45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171272",
+      "aliases": [
+        "IE-PNC-5-M12D-A-1-P-2-22-FD-RJ45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171265",
+      "aliases": [
+        "IE-PNC-5-M12D-S-1-P-2-22-FD-RJ45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171067",
+      "aliases": [
+        "IE-PNC-5-M12D-A-1-P-2-22-FD-OE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171061",
+      "aliases": [
+        "IE-PNC-5-M12D-A-1-P-2-22-FD-M12D-S"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805655",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 1M YELLOW"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700869",
+      "aliases": [
+        "EPIC® DATA SPE-6 PC M-M 1m CT001"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2171286",
+      "aliases": [
+        "IE-PNC-5-RJ45-1-P-2-22-FD-OE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170576",
+      "aliases": [
+        "ETHERLINE® PN CABINET Cat.6A 3"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433500049",
+      "aliases": [
+        "ETHERLINE® DRIVECLIQ 6SL3060 0.41"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2172224",
+      "aliases": [
+        "IE-PNC-5-M12D-S-15-P-2-22-FD-RJ45"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805662",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 15M YELLOW"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700868",
+      "aliases": [
+        "EPIC® DATA SPE-6 PC M-M 0,5m CT001"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170575",
+      "aliases": [
+        "ETHERLINE® PN CABINET Cat.6A 2.5"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433500048",
+      "aliases": [
+        "ETHERLINE® DRIVECLIQ 6SL3060 0.36"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805661",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 10M YELLOW"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700867",
+      "aliases": [
+        "EPIC® DATA SPE-6 PC M-M 0,3m CT001"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170574",
+      "aliases": [
+        "ETHERLINE® PN CABINET Cat.6A 2"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433500047",
+      "aliases": [
+        "ETHERLINE® DRIVECLIQ 6SL3060 0.31"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805656",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 1.5M YELLOW"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170573",
+      "aliases": [
+        "ETHERLINE® PN CABINET Cat.6A 1.5"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433500046",
+      "aliases": [
+        "ETHERLINE® DRIVECLIQ 6SL3060 0.26"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805654",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 0.5M YELLOW"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170572",
+      "aliases": [
+        "ETHERLINE® PN CABINET Cat.6A 1"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433500045",
+      "aliases": [
+        "ETHERLINE® DRIVECLIQ 6SL3060 0.21"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805805",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 5M ORANGE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170571",
+      "aliases": [
+        "ETHERLINE® PN CABINET Cat.6A 0.5"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433500044",
+      "aliases": [
+        "ETHERLINE® DRIVECLIQ 6SL3060 0.16"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805806",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 7.5M ORANGE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170570",
+      "aliases": [
+        "ETHERLINE® PN CABINET Cat.6A 0.25"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433500043",
+      "aliases": [
+        "ETHERLINE® DRIVECLIQ 6SL3060 0.11"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805804",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 3M ORANGE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805803",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 2M ORANGE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805809",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 20M ORANGE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805801",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 1M ORANGE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805808",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 15M ORANGE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805807",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 10M ORANGE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805802",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 1.5M ORANGE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805800",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 0.5M ORANGE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805820",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 7.5M GREY"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805619",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 5M GREY"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805618",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 3M GREY"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805617",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 2M GREY"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805823",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 20M GREY"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805615",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 1M GREY"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805822",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 15M GREY"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805821",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 10M GREY"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805616",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 1.5M GREY"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805614",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 0.5M GREY"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805640",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 7.5M BLUE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805639",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 5M BLUE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805638",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 3M BLUE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805637",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 2M BLUE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805643",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 20M BLUE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805635",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 1M BLUE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805642",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 15M BLUE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805641",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 10M BLUE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805636",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 1.5M BLUE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805634",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 0.5M BLUE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805600",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 7.5M BLACK"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805599",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 5M BLACK"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805598",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 3M BLACK"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805597",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 2M BLACK"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805603",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 20M BLACK"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805595",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 1M BLACK"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805602",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 15M BLACK"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805601",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 10M BLACK"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805596",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 1.5M BLACK"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805594",
+      "aliases": [
+        "PATCHCORD CAT 6 U/UTP PVC 0.5M BLACK"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805670",
+      "aliases": [
+        "PATCHCORD CAT 6 F/UTP LSZH 7.5M YELLOW"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805669",
+      "aliases": [
+        "PATCHCORD CAT 6 F/UTP LSZH 5M YELLOW"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805668",
+      "aliases": [
+        "PATCHCORD CAT 6 F/UTP LSZH 3M YELLOW"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805667",
+      "aliases": [
+        "PATCHCORD CAT 6 F/UTP LSZH 2M YELLOW"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805673",
+      "aliases": [
+        "PATCHCORD CAT 6 F/UTP LSZH 20M YELLOW"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805665",
+      "aliases": [
+        "PATCHCORD CAT 6 F/UTP LSZH 1M YELLOW"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805672",
+      "aliases": [
+        "PATCHCORD CAT 6 F/UTP LSZH 15M YELLOW"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805671",
+      "aliases": [
+        "PATCHCORD CAT 6 F/UTP LSZH 10M YELLOW"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805666",
+      "aliases": [
+        "PATCHCORD CAT 6 F/UTP LSZH 1.5M YELLOW"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805664",
+      "aliases": [
+        "PATCHCORD CAT 6 F/UTP LSZH 0.5M YELLOW"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805816",
+      "aliases": [
+        "PATCHCORD CAT 6 F/UTP LSZH 7.5M ORANGE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805815",
+      "aliases": [
+        "PATCHCORD CAT 6 F/UTP LSZH 5M ORANGE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805814",
+      "aliases": [
+        "PATCHCORD CAT 6 F/UTP LSZH 3M ORANGE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805813",
+      "aliases": [
+        "PATCHCORD CAT 6 F/UTP LSZH 2M ORANGE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805811",
+      "aliases": [
+        "PATCHCORD CAT 6 F/UTP LSZH 1M ORANGE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805817",
+      "aliases": [
+        "PATCHCORD CAT 6 F/UTP LSZH 10M ORANGE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805812",
+      "aliases": [
+        "PATCHCORD CAT 6 F/UTP LSZH 1.5M ORANGE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805810",
+      "aliases": [
+        "PATCHCORD CAT 6 F/UTP LSZH 0.5M ORANGE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805650",
+      "aliases": [
+        "PATCHCORD CAT 6 F/UTP LSZH 7.5M BLUE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805649",
+      "aliases": [
+        "PATCHCORD CAT 6 F/UTP LSZH 5M BLUE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805648",
+      "aliases": [
+        "PATCHCORD CAT 6 F/UTP LSZH 3M BLUE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805647",
+      "aliases": [
+        "PATCHCORD CAT 6 F/UTP LSZH 2M BLUE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805653",
+      "aliases": [
+        "PATCHCORD CAT 6 F/UTP LSZH 20M BLUE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805645",
+      "aliases": [
+        "PATCHCORD CAT 6 F/UTP LSZH 1M BLUE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805652",
+      "aliases": [
+        "PATCHCORD CAT 6 F/UTP LSZH 15M BLUE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805651",
+      "aliases": [
+        "PATCHCORD CAT 6 F/UTP LSZH 10M BLUE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805646",
+      "aliases": [
+        "PATCHCORD CAT 6 F/UTP LSZH 1.5M BLUE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805644",
+      "aliases": [
+        "PATCHCORD CAT 6 F/UTP LSZH 0.5M BLUE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805610",
+      "aliases": [
+        "PATCHCORD CAT 6 F/UTP LSZH 7.5M BLACK"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3805609",
+      "aliases": [
+        "PATCHCORD CAT 6 F/UTP LSZH 5M BLACK"
+      ],
+      "description": {
+        "en": "Industrial Ethernet patch cable",
+        "zh": "工业以太网预制连接电缆"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "brand": "LAPP",
+      "identifier": "2170614",
+      "aliases": [
+        "UNI LAN1000 S/FTP Cat.7LSZH 4x2xAWG23/1"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170143",
+      "aliases": [
+        "UNITRONIC® LAN 500 S/FTP Cat.6A"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "383300114",
+      "aliases": [
+        "LAPP 250 UTP CAT6 4x2x24 AWG/1 CI"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "383301140H",
+      "aliases": [
+        "LAPPCAT6AS/FTPLAN5004x2x23AWG/1GY"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "383300890H",
+      "aliases": [
+        "LAPP LAN CAT6 UTP ARM 4x2x23 AWG/1"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "8100600",
+      "aliases": [
+        "ETHERLINE® LAN CAT6A U/UTP H 4x2xAWG23"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21704891",
+      "aliases": [
+        "ETHERLINE® FD bioP Cat.5e 4x2x26/19AWG"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170954",
+      "aliases": [
+        "ETHERLINE® LAN Cat.6 U/UTP 4x2xAWG24"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170920",
+      "aliases": [
+        "ETHERLINE® T1 FD P 1x2x26/19AWG"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170919",
+      "aliases": [
+        "ETHERLINE® T1L FLEX FC Y 1x2x18/7AWG"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170918",
+      "aliases": [
+        "ETHERLINE® T1L FC Y 1x2x18/1AWG"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170925",
+      "aliases": [
+        "ETHERLINE® T1 FLEX Y 1x2x26/7AWG"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170924",
+      "aliases": [
+        "ETHERLINE® T1 PN FLEX Y 1x2x22/7AWG"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170588",
+      "aliases": [
+        "ETHERLINE® CAT.6A Y FLEX FC"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170589",
+      "aliases": [
+        "ETHERLINE® CAT.6A FRNC FLEX FC"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170487",
+      "aliases": [
+        "ETHERLINE® PN Cat.7 FD P 4x2x24/7AWG"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170941",
+      "aliases": [
+        "ETHERLINE® ROBOT PN FC CAT.5e 1x4x22AWG"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170592",
+      "aliases": [
+        "ETHERLINE® Cat. 6A P FD FC"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170913",
+      "aliases": [
+        "ETHERLINE® FIRE Cat.6 PH120 4x2x22/1 AWG"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170938",
+      "aliases": [
+        "ETHERLINE® SERVO DQ Y CAT.5e"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170887",
+      "aliases": [
+        "ETHERLINE® CAT5 FRNC HYBR 2X2XAWG22+4x1.5"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170481",
+      "aliases": [
+        "ETHERLINE® TORSION Cat.7"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170483",
+      "aliases": [
+        "ETHERLINE® TORSION P CAT6A 4X2XAWG24/7"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170482",
+      "aliases": [
+        "ETHERLINE® TORSION Y CAT6A 4X2XAWG24/7"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170591",
+      "aliases": [
+        "ETHERLINE® PN Cat. 6A Y FD FC"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170894",
+      "aliases": [
+        "ETHERLINE® FD P FC CAT5 2x2xAWG22"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170936",
+      "aliases": [
+        "ETHERLINE® FESTOON PN Cat.5e"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170485",
+      "aliases": [
+        "ETHERLINE® FD CAT.6A 4X2X24/7AWG"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170496",
+      "aliases": [
+        "ETHERLINE® Cat.5 ARM"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170901",
+      "aliases": [
+        "ETHERLINE® Y CAT.5e BK 2x2xAWG22/7"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170890",
+      "aliases": [
+        "ETHERLINE® PN Cat.5e FRNC FLEX FC"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170609",
+      "aliases": [
+        "ETHERLINE® PN CAT.7 FRNC FLEX A"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170931",
+      "aliases": [
+        "ETHERLINE® PN FLEX Cat.6A FRNC 4x2x23/7"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170587",
+      "aliases": [
+        "ETHERLINE® PN CAT.6A FRNC FLEX FC"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170889",
+      "aliases": [
+        "ETHERLINE® MARINE FRNC FC CAT.5 2x2xAWG22"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170636",
+      "aliases": [
+        "ETHERLINE® CAT.5e 105 plus 2x2xAWG22/7"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170893",
+      "aliases": [
+        "ETHERLINE® Y FC Cat.5"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170879",
+      "aliases": [
+        "ETHERLINE® TRAY ER PN Y FC 2x2x22"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170476",
+      "aliases": [
+        "ETHERLINE® Cat. 7 H"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170472",
+      "aliases": [
+        "ETHERLINE® TRAY Cat.7 Y 4x2x22/1"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170910",
+      "aliases": [
+        "ETHERLINE® TRAIN FLEX Cat.5e 1x4x0,5 PE"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170907",
+      "aliases": [
+        "ETHERLINE® TRAIN Cat.5e 4x2x24/7 PE"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170456",
+      "aliases": [
+        "ETHERLINE® ROBUST FR Cat.7 FLEX"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170455",
+      "aliases": [
+        "ETHERLINE® ROBUST PN FR Cat.7"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170453",
+      "aliases": [
+        "ETHERLINE® ROBUST Cat.7 FLEX"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170850",
+      "aliases": [
+        "ETHERLINE® Cat. 5e FL9YBC11Y 4x2x0,22sn"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170905",
+      "aliases": [
+        "ETHERLINE® FIRE Cat.5e PH120 4x2x23/1 AWG"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170433",
+      "aliases": [
+        "ETHERLINE® P EC FD Cat.5e"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170430",
+      "aliases": [
+        "ETHERLINE® Y EC FLEX Cat.5e"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170934",
+      "aliases": [
+        "ETHERLINE® Cat.7 FLEX 4x2x26/7"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170486",
+      "aliases": [
+        "ETHERLINE® Y Flex CAT.5e 4X2XAWG26/7"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170300",
+      "aliases": [
+        "ETHERLINE® P Flex CAT.5e 4X2XAWG26/7"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170299",
+      "aliases": [
+        "ETHERLINE® H FLEX CAT.5e 4X2XAWG26/7"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170284",
+      "aliases": [
+        "ETHERLINE® P FLEX CAT5E 2X2XAWG26"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170298",
+      "aliases": [
+        "ETHERLINE® H-H CAT.5e 4X2XAWG24/1"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170297",
+      "aliases": [
+        "ETHERLINE® P CAT.5e 4X2XAWG24/1"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170296",
+      "aliases": [
+        "ETHERLINE® H CAT.5e4X2XAWG24/1"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170281",
+      "aliases": [
+        "ETHERLINE® P CAT. 5e 2x2x24/1AWG"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170280",
+      "aliases": [
+        "ETHERLINE® H CAT. 5e 2x2x24/1AWG"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3804900",
+      "aliases": [
+        "LAN 500 U/FTP CAT.6A PVC"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170963",
+      "aliases": [
+        "ETHERLINE® LAN Cat.6A F/UTP 4x2xAWG23 LSZ"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170953",
+      "aliases": [
+        "ETHERLINE® LAN Cat.5e SF/UTP 4x2xAWG24 LS"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170975",
+      "aliases": [
+        "ETHERLINE® LAN 1200 Cat.7A 2x(4x2xAWG23)"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260820",
+      "aliases": [
+        "AB-C4-M12MSD-SH"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "38119454",
+      "aliases": [
+        "EPIC® DATA M12D4FS-90-RJ45FS"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "38119453",
+      "aliases": [
+        "EPIC® DATA M12X8FS-90-RJ45FS"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433500229",
+      "aliases": [
+        "EPIC® DATA M12X8MS-INCABLE-RJ45MS"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433500228",
+      "aliases": [
+        "EPIC® DATA M12X8FS-INCABLE-RJ45MS"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433500231",
+      "aliases": [
+        "EPIC® DATA M12D4MS-INCABLE-RJ45MS"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433500230",
+      "aliases": [
+        "EPIC® DATA M12D4FS-INCABLE-RJ45MS"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167616",
+      "aliases": [
+        "EPIC® M12 EDF428-8"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167615",
+      "aliases": [
+        "EPIC® M12 EDM428-8"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166927",
+      "aliases": [
+        "EPIC® DATA-IE-AX-M12XF-6A-67-FC"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166928",
+      "aliases": [
+        "EPIC® DATA-IE-AX-M12X-6A-67-FC"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166929",
+      "aliases": [
+        "EPIC® DATA RJ45 6A 20"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166930",
+      "aliases": [
+        "ED-IE-AXS-8.1A-B-20-FD-FC"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166931",
+      "aliases": [
+        "ED-IE-AXS-8.1A-B-20-FC"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "8100608",
+      "aliases": [
+        "CAT6A STP RJ45 Straight Plug_AWG22_24"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "8100607",
+      "aliases": [
+        "CAT6A STP Angled Field Termination Plug"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "8100602",
+      "aliases": [
+        "CAT6A STP Field Termination Plug Black"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "8100601",
+      "aliases": [
+        "CAT6A STP Keystone Jack with Shutter"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166324",
+      "aliases": [
+        "EPIC® DATA M12D F6 4 SR1220 4-8"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24441262",
+      "aliases": [
+        "RJ45 Stecker TM31 Hirose Cat.6A YE"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "CE6324",
+      "aliases": [
+        "RJ 45 plug TM21 Hirose BG (PU=50)"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "CE6321",
+      "aliases": [
+        "RJ45 plug TM11 Hirose (5.8mm sleeve)"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "CE6323",
+      "aliases": [
+        "RJ45 plug Stewart (Stewart) Cat.5 GY"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700612",
+      "aliases": [
+        "ED-IE-AX-RJ45F-6A-B-FC"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700611",
+      "aliases": [
+        "ED-IE-AX-RJ45F-6A-A-FC"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700655",
+      "aliases": [
+        "ED-IE-AXS-6A-B-20-FD-FC"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700654",
+      "aliases": [
+        "ED-IE-AXS-6A-A-20-FD-FC"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700653",
+      "aliases": [
+        "ED-IE-AXS-6A-B-20-FC"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700652",
+      "aliases": [
+        "ED-IE-AXS-6A-A-20-FC"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700651",
+      "aliases": [
+        "ED-IE-AXS-5-PN-20-FC"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700640",
+      "aliases": [
+        "ED-IE-90-6A-B-20-FD-FC"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700639",
+      "aliases": [
+        "ED-IE-90-6A-A-20-FD-FC"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700637",
+      "aliases": [
+        "ED-IE-90-6A-B-20-FC"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700636",
+      "aliases": [
+        "ED-IE-90-6A-A-20-FC"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700616",
+      "aliases": [
+        "ED-IE-AX-6A-B-20-FD-FC"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700615",
+      "aliases": [
+        "ED-IE-AX-6A-A-20-FD-FC"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700605",
+      "aliases": [
+        "ED-IE-AX-5-PN-20-FC"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700601",
+      "aliases": [
+        "ED-IE-AX-6A-B-20-FC"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700600",
+      "aliases": [
+        "ED-IE-AX-6A-A-20-FC"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700638",
+      "aliases": [
+        "ED-IE-90-6A-PN-20-FC"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700614",
+      "aliases": [
+        "EPIC® DATA HS RJ45 F 10G B"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700633",
+      "aliases": [
+        "ED-IE-RJ45F-AC-DC"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700632",
+      "aliases": [
+        "ED-IE-RJ45F-6A-B-68-FC"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700631",
+      "aliases": [
+        "ED-IE-AX-RJ45-AC-DC"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700630",
+      "aliases": [
+        "ED-IE-AX-RJ45-6A-B-68-FC"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51210",
+      "aliases": [],
+      "description": {
+        "en": "Industrial Ethernet bulk cable",
+        "zh": "工业以太网原线材料"
+      },
+      "pdf_url": "https://www.turck.us/attachment/B2103.pdf"
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170126",
+      "aliases": [
+        "UNITRONIC® LAN 200 F/UTP Cat. 5e"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "383301164H",
+      "aliases": [
+        "LAPP 250 UTP CAT6 4x2x24AWG/1CIYE"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170978",
+      "aliases": [
+        "ETHERLINE® LAN Cat.7 S/FTP 4x2AWG23 PE"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170922",
+      "aliases": [
+        "ETHERLINE® T1 PN FLEX T Y 1x2x22/7AWG"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170886",
+      "aliases": [
+        "ETHERLINE® PN Cat.5 Y FLEX FC"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170593",
+      "aliases": [
+        "ETHERLINE® Cat. 6A Y FD FC"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170937",
+      "aliases": [
+        "ETHERLINE® SERVO DQ FD P Cat.5e"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170888",
+      "aliases": [
+        "ETHERLINE® TORSION P CAT5 AWM 2X2XAWG22"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170590",
+      "aliases": [
+        "ETHERLINE® PN Cat. 6A P FD FC"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170484",
+      "aliases": [
+        "ETHERLINE® FD P CAT.6A 4X2X24/7AWG"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170933",
+      "aliases": [
+        "ETHERLINE® PN Cat.5e YY"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170608",
+      "aliases": [
+        "ETHERLINE® PN CAT.7 Y FLEX A"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170930",
+      "aliases": [
+        "ETHERLINE® PN FLEX Cat.6A Y 4x2x23/7"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170586",
+      "aliases": [
+        "ETHERLINE® PN CAT.6A Y FLEX FC"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170475",
+      "aliases": [
+        "ETHERLINE® Cat. 7 P"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170909",
+      "aliases": [
+        "ETHERLINE® TRAIN FLEX Cat.7 4x2x24/7 PE"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170454",
+      "aliases": [
+        "ETHERLINE® ROBUST PN FR Cat.5"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170431",
+      "aliases": [
+        "ETHERLINE® P EC FLEX Cat.5e"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170283",
+      "aliases": [
+        "ETHERLINE® H FLEX CAT. 5e 2x2x26/7AWG"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170962",
+      "aliases": [
+        "ETHERLINE® LAN Cat.6A F/FTP 4x2xAWG23 LSZ"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170952",
+      "aliases": [
+        "ETHERLINE® LAN Cat.5e F/UTP 4x2xAWG24 LSZ"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170974",
+      "aliases": [
+        "ETHERLINE® LAN 1200 Cat.7A 4x2xAWG23 LSZH"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700540",
+      "aliases": [
+        "EPIC® DATA RJ45 Plug Cat.5e FM45 field m."
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "8100609",
+      "aliases": [
+        "CAT6A STP RJ45 Angled Plug_AWG22_24"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24441261",
+      "aliases": [
+        "RJ45 Stecker TM31 Hirose Cat.6A BU"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700613",
+      "aliases": [
+        "EPIC® DATA HS RJ45 F 10G A"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52115",
+      "aliases": [],
+      "description": {
+        "en": "Industrial Ethernet bulk cable",
+        "zh": "工业以太网原线材料"
+      },
+      "pdf_url": "https://www.turck.us/attachment/B2103.pdf"
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3801501K",
+      "aliases": [
+        "UNITRONIC® LAN 250 UTP CAT6  4X2XAWG23"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "383301163H",
+      "aliases": [
+        "LAPP 250 UTP CAT6 4x2x24AWG/1CIRD"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170977",
+      "aliases": [
+        "ETHERLINE® LAN Cat.7 S/FTP 4x2AWG23 (L)PE"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170466",
+      "aliases": [
+        "ETHERLINE® Cat. 6A H"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170488",
+      "aliases": [
+        "ETHERLINE® FD P CAT.6 4X2XAWG26"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170891",
+      "aliases": [
+        "ETHERLINE® PN Cat.5e Y 2x2xAWG22"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170607",
+      "aliases": [
+        "ETHERLINE® PN CAT.7 P A"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170585",
+      "aliases": [
+        "ETHERLINE® PN CAT.6A P FC"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170474",
+      "aliases": [
+        "ETHERLINE® Cat. 7 Y"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170908",
+      "aliases": [
+        "ETHERLINE® TRAIN FLEX Cat.6A 4x2x24/7 PE"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170452",
+      "aliases": [
+        "ETHERLINE® ROBUST PN Cat.7"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170961",
+      "aliases": [
+        "ETHERLINE® LAN Cat.6A F/UTP 4x2xAWG23"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170951",
+      "aliases": [
+        "ETHERLINE® LAN Cat.5e SF/UTP 4x2xAWG24"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170981",
+      "aliases": [
+        "ETHERLINE® LAN 1000 Cat.7A 2x(4x2x23AWG)"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24441260",
+      "aliases": [
+        "RJ45 Stecker TM31 Hirose Cat.6A GN"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52110",
+      "aliases": [],
+      "description": {
+        "en": "Industrial Ethernet bulk cable",
+        "zh": "工业以太网原线材料"
+      },
+      "pdf_url": "https://www.turck.us/attachment/B2103.pdf"
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170172",
+      "aliases": [
+        "UNITRONIC® LAN 200 F/UTP Cat.5eLSZH FLEX"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "383301166H",
+      "aliases": [
+        "LAPP 250 UTP CAT6 4x2x24AWG/1CIBU"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170956",
+      "aliases": [
+        "ETHERLINE® LAN Cat.6 F/UTP 4x2xAWG23 LSZH"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170465",
+      "aliases": [
+        "ETHERLINE® Cat. 6A P"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170489",
+      "aliases": [
+        "ETHERLINE® FD P CAT5e 4X2XAWG26"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170606",
+      "aliases": [
+        "ETHERLINE® PN CAT.7 FRNC A"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170584",
+      "aliases": [
+        "ETHERLINE® PN CAT.6A FRNC FC"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170582",
+      "aliases": [
+        "ETHERLINE® Cat. 7 FL09YBC11Y 4x2x0,22sn"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170906",
+      "aliases": [
+        "ETHERLINE® TRAIN FLEX Cat.5e 1x4x22/7 PE"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170451",
+      "aliases": [
+        "ETHERLINE® ROBUST PN Cat.5"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170960",
+      "aliases": [
+        "ETHERLINE® LAN Cat.6A S/FTP 4x2xAWG23"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170950",
+      "aliases": [
+        "ETHERLINE® LAN Cat.5e U/UTP 4x2xAWG24"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170980",
+      "aliases": [
+        "ETHERLINE® LAN 1000 Cat.7A 4x2x23AWG"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24441259",
+      "aliases": [
+        "RJ45 Stecker TM31 Hirose Cat.6A RD"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51211",
+      "aliases": [],
+      "description": {
+        "en": "Industrial Ethernet bulk cable",
+        "zh": "工业以太网原线材料"
+      },
+      "pdf_url": "https://www.turck.us/attachment/B2103.pdf"
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170144",
+      "aliases": [
+        "UNITRONIC® LAN 600 S/FTP CAT7 Y FLEX"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "383301165H",
+      "aliases": [
+        "LAPP 250 UTP CAT6 4x2x24AWG/1CIBK"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170955",
+      "aliases": [
+        "ETHERLINE® LAN Cat.6 U/UTP 4x2xAWG24 LSZH"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170464",
+      "aliases": [
+        "ETHERLINE® Cat. 6A Y"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170289",
+      "aliases": [
+        "ETHERLINE® FD P Cat.5e 2x2x26/19AWG"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170605",
+      "aliases": [
+        "ETHERLINE® PN CAT.7 Y A"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170583",
+      "aliases": [
+        "ETHERLINE® PN CAT.6A Y FC"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170976",
+      "aliases": [
+        "ETHERLINE® LAN Cat.7A S/FTP 4x2xAWG22LSZH"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170972",
+      "aliases": [
+        "ETHERLINE® LAN 1000 Cat.7A 2x(4x2xAWG23)"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24441258",
+      "aliases": [
+        "RJ45 Stecker TM31 Hirose Cat.6A BK"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51212",
+      "aliases": [],
+      "description": {
+        "en": "Industrial Ethernet bulk cable",
+        "zh": "工业以太网原线材料"
+      },
+      "pdf_url": "https://www.turck.us/attachment/B2103.pdf"
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170142",
+      "aliases": [
+        "UNITRONIC® LAN 600 S/FTP Cat.7 LSZH Flex"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "383336470H",
+      "aliases": [
+        "LAPP 250 UTP CAT6 4x2x24 AWG/1 CI"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170581",
+      "aliases": [
+        "ETHERLINE® Cat. 6A FL09YBC11Y 4x2x0,22sn"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "CE217489",
+      "aliases": [
+        "ETHERLINE® FD P BK CAT.5"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170971",
+      "aliases": [
+        "ETHERLINE® LAN 1000 Cat.7A 4x2xAWG23 LSZH"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24441256",
+      "aliases": [
+        "RJ45 Stecker TM31 Hirose Cat.6A GY"
+      ],
+      "description": {
+        "en": "Industrial Ethernet connector",
+        "zh": "工业以太网连接材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51213",
+      "aliases": [],
+      "description": {
+        "en": "Industrial Ethernet bulk cable",
+        "zh": "工业以太网原线材料"
+      },
+      "pdf_url": "https://www.turck.us/attachment/B2103.pdf"
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170139",
+      "aliases": [
+        "UNITRONIC® LAN 200 SF/UTP Cat.5eLSZH FLEX"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51460",
+      "aliases": [],
+      "description": {
+        "en": "Industrial Ethernet bulk cable",
+        "zh": "工业以太网原线材料"
+      },
+      "pdf_url": "https://www.turck.us/attachment/B2103.pdf"
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170129",
+      "aliases": [
+        "UNITRONIC® LAN 200 SF/UTP Cat.5e FLEX"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50893",
+      "aliases": [],
+      "description": {
+        "en": "Industrial Ethernet bulk cable",
+        "zh": "工业以太网原线材料"
+      },
+      "pdf_url": "https://www.turck.us/attachment/B2103.pdf"
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170127",
+      "aliases": [
+        "UNITRONIC® LAN 200 F/UTP Cat.5e FLEX"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51624",
+      "aliases": [],
+      "description": {
+        "en": "Industrial Ethernet bulk cable",
+        "zh": "工业以太网原线材料"
+      },
+      "pdf_url": "https://www.turck.us/attachment/B2103.pdf"
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "3803999K",
+      "aliases": [
+        "UNITRONIC® LAN 200 UTP-H CAT5E 4X2XAWG24"
+      ],
+      "description": {
+        "en": "Ethernet bulk cable",
+        "zh": "以太网原线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51348",
+      "aliases": [],
+      "description": {
+        "en": "Industrial Ethernet bulk cable",
+        "zh": "工业以太网原线材料"
+      },
+      "pdf_url": "https://www.turck.us/attachment/B2103.pdf"
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51462",
+      "aliases": [],
+      "description": {
+        "en": "Industrial Ethernet bulk cable",
+        "zh": "工业以太网原线材料"
+      },
+      "pdf_url": "https://www.turck.us/attachment/B2103.pdf"
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51463",
+      "aliases": [],
+      "description": {
+        "en": "Industrial Ethernet bulk cable",
+        "zh": "工业以太网原线材料"
+      },
+      "pdf_url": "https://www.turck.us/attachment/B2103.pdf"
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52425",
+      "aliases": [],
+      "description": {
+        "en": "Industrial Ethernet bulk cable",
+        "zh": "工业以太网原线材料"
+      },
+      "pdf_url": "https://www.turck.us/attachment/B2103.pdf"
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51604",
+      "aliases": [],
+      "description": {
+        "en": "Industrial Ethernet bulk cable",
+        "zh": "工业以太网原线材料"
+      },
+      "pdf_url": "https://www.turck.us/attachment/B2103.pdf"
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52113",
+      "aliases": [],
+      "description": {
+        "en": "Industrial Ethernet bulk cable",
+        "zh": "工业以太网原线材料"
+      },
+      "pdf_url": "https://www.turck.us/attachment/B2103.pdf"
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52025",
+      "aliases": [],
+      "description": {
+        "en": "Industrial Ethernet bulk cable",
+        "zh": "工业以太网原线材料"
+      },
+      "pdf_url": "https://www.turck.us/attachment/B2103.pdf"
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52026",
+      "aliases": [],
+      "description": {
+        "en": "Industrial Ethernet bulk cable",
+        "zh": "工业以太网原线材料"
+      },
+      "pdf_url": "https://www.turck.us/attachment/B2103.pdf"
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Industrial Ethernet / RJ45 Cable Assembly",
+    "zh": "工业以太网与RJ45电缆组件"
+  }
+}

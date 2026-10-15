@@ -1,0 +1,1176 @@
+{
+  "version": 2,
+  "category_id": "automotive-18",
+  "route": "/products/transmission-harness",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Manufacturer-identified finished assemblies for this application.",
+        "zh": "此应用范围内经原厂资料核验的成品组件。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Category-specific material references; the final BOM follows the approved configuration.",
+        "zh": "此类选型的材料参考；最终 BOM 以确认配置为准。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Selection & Project Review",
+    "zh": "选型与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Application Boundary",
+        "zh": "应用边界"
+      },
+      "copy": {
+        "en": "A transmission controller interprets sensor signals and drives the relevant actuators; it may be integrated into a module, attached to the transmission or housed separately. A harness therefore needs a controlled pin map and an explicit boundary between oil-wet, through-wall and vehicle-side environments. Matching connector shape alone does not establish signal identity, fluid compatibility or leak tightness.",
+        "zh": "变速箱控制单元读取传感器信号并驱动相应执行器；它可能集成在模块中、安装于变速箱上，也可能独立布置。因此线束必须有受控针脚表，并明确油浸区、穿壳区和整车外侧环境的边界。接头外形相同不能证明信号身份、油液相容性或密封可靠性。"
+      }
+    },
+    {
+      "title": {
+        "en": "Project Inputs",
+        "zh": "项目输入"
+      },
+      "copy": {
+        "en": "For quotation, identify vehicle and transmission model, model year and variant, TCU or mechatronic reference, internal or external scope, connector part numbers and cavity views, solenoid and sensor assignments, operating voltage, route and clip datums, specified fluid and temperature exposure, drawings or an approved sample, quantities and the required inspection plan. Oil-wet or safety-related scope needs separate review.",
+        "zh": "询价请提供车型、变速箱型号、年款与变型、TCU 或机电液模块料号、内部或外部供货范围、连接器料号与孔位视图、电磁阀和传感器回路、电压、走线与固定基准、指定油液和温度暴露、图纸或批准样品、数量及所需检验计划。油浸或安全相关范围须单独审核。"
+      }
+    },
+    {
+      "title": {
+        "en": "Release Records",
+        "zh": "放行依据"
+      },
+      "copy": {
+        "en": "Approved inputs become a circuit matrix, connector BOM, branch drawing, material record and first-article inspection plan. Checks can include cavity and wire identity, terminal seating, locks, branch dimensions, connector mating and agreed electrical tests. Fluid resistance, seal integrity, controller behavior and vehicle shift performance require their own specified methods and acceptance criteria; continuity alone does not establish them.",
+        "zh": "批准资料转化为回路矩阵、连接器物料表、分支图、材料记录与首件检验计划。可核对孔位与线号、端子入位、锁止、分支尺寸、对插及约定电气项目。耐油、密封、控制器行为和整车换挡性能均需各自规定试验方法与接收标准，不能由导通合格推导。"
+      }
+    },
+    {
+      "title": {
+        "en": "Interface Review",
+        "zh": "接口审核"
+      },
+      "copy": {
+        "en": "Confirm the exact mating interface, pin map, dimensions and installation orientation.",
+        "zh": "确认准确对插接口、针脚对应、尺寸及安装方向。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sample Acceptance",
+        "zh": "样品验收"
+      },
+      "copy": {
+        "en": "Agree the sample configuration and electrical, mechanical or environmental checks required by the project.",
+        "zh": "约定样品配置以及项目所需的电气、机械或环境检查。"
+      }
+    },
+    {
+      "title": {
+        "en": "Change Control",
+        "zh": "变更控制"
+      },
+      "copy": {
+        "en": "Record changes to materials, drawings and process instructions before repeat manufacture.",
+        "zh": "重复制造前记录材料、图纸与工艺说明的变更。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=automotive-18&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "American Autowire",
+      "identifier": "40005",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Torque Converter Clutch Solenoid Extension Wire",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39786",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Kickdown Harness",
+        "zh": "变速箱降挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39766",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Controlled Spark Switch Harness",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39765",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Controlled Spark Switch Harness 6 Cyl.",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36077",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety Switch Extension",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27925",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety Switch And Backup Light Extension",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "05755",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Kickdown Control Wire",
+        "zh": "变速箱降挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CF89569",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Overdrive Harness",
+        "zh": "变速箱超速挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA66363",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety Switch Harness",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH70453",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety Switch Jumper",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39753",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Controlled Spark Switch Harness - 6 Cyl",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39752",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Controlled Spark Switch Harness - 6 Cyl.",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39721",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Kickdown Extension Harness",
+        "zh": "变速箱降挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39359",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Control Harness",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CF48130",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Overdrive Extension",
+        "zh": "变速箱超速挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "17365",
+      "aliases": [],
+      "description": {
+        "en": "T.C.S. Transmission Switch Extension",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA28033",
+      "aliases": [],
+      "description": {
+        "en": "T.c.s. Transmission Switch Extension",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40039",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Kickdown Harness Chevrolet Truck 1971-72",
+        "zh": "变速箱降挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40004",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Torque Converter Clutch Solenoid Extension Wire",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "20915",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Kickdown Harness",
+        "zh": "变速箱降挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22055",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Controlled Spark Switch Harness",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "28135",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety Switch Extension",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27795",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety Switch And Backup Light Extension",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "02545",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Overdrive Harness",
+        "zh": "变速箱超速挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH01597",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety Switch Harness",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39360",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Kickdown Extension Harness",
+        "zh": "变速箱降挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39426",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Control Harness",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40001",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Torque Converter Clutch Solenoid Extension Wire",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01705",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Kickdown Harness",
+        "zh": "变速箱降挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22035",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Controlled Spark Switch Harness",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "28050",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety Switch Extension",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "02280",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Overdrive Harness",
+        "zh": "变速箱超速挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "FB03796",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety Switch Harness",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40000",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Torque Converter Clutch Solenoid Extension Wire",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CG85241",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Kickdown Harness",
+        "zh": "变速箱降挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23475",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Controlled Spark Switch Harness",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01710",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety Switch Extension",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE77571",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Overdrive Harness",
+        "zh": "变速箱超速挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "FB50710",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety Switch Harness",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39994",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Torque Converter Clutch Solenoid Extension Wire",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "20895",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Kickdown Harness",
+        "zh": "变速箱降挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22040",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Controlled Spark Switch Harness",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01715",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety Switch Extension",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE77140",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Overdrive Harness",
+        "zh": "变速箱超速挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH48576",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety Switch Harness",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39979",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Torque Converter Clutch Solenoid Extension Wire",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "20890",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Kickdown Harness",
+        "zh": "变速箱降挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22025",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Controlled Spark Switch Harness",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "13490",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety Switch Extension",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE76999",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Overdrive Harness",
+        "zh": "变速箱超速挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH48575",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety Switch Harness",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39966",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Torque Converter Clutch Solenoid Extension Wire",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "20855",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Kickdown Harness",
+        "zh": "变速箱降挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22030",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Controlled Spark Switch Harness",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE64664",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Overdrive Harness",
+        "zh": "变速箱超速挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH38202",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety Switch Harness",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39923",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Torque Converter Clutch Solenoid Extension Wire",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "20900",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Kickdown Harness",
+        "zh": "变速箱降挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22050",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Controlled Spark Switch Harness",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE64662",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Overdrive Harness",
+        "zh": "变速箱超速挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "FB99268",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety Switch Harness",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA11896",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Kickdown Harness",
+        "zh": "变速箱降挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22020",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Controlled Spark Switch Harness",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE52934",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Overdrive Harness",
+        "zh": "变速箱超速挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA01608",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety Switch Harness",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH85151",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Kickdown Harness",
+        "zh": "变速箱降挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "20880",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Controlled Spark Switch Harness",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE50935",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Overdrive Harness",
+        "zh": "变速箱超速挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA89365",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Kickdown Harness",
+        "zh": "变速箱降挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "20870",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Controlled Spark Switch Harness",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CG85145",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Overdrive Harness",
+        "zh": "变速箱超速挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA79257",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Kickdown Harness",
+        "zh": "变速箱降挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "20875",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Controlled Spark Switch Harness",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CG71187",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Overdrive Harness",
+        "zh": "变速箱超速挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH38201",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Kickdown Harness",
+        "zh": "变速箱降挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "20860",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Controlled Spark Switch Harness",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CG71186",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Overdrive Harness",
+        "zh": "变速箱超速挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38801",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Kickdown Harness",
+        "zh": "变速箱降挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "20885",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Controlled Spark Switch Harness",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CG58802",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Overdrive Harness",
+        "zh": "变速箱超速挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38306",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Kickdown Harness",
+        "zh": "变速箱降挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22045",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Controlled Spark Switch Harness",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CG58803",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Overdrive Harness",
+        "zh": "变速箱超速挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "21220",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Controlled Spark Switch Harness",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CF16885",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Overdrive Harness",
+        "zh": "变速箱超速挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "21215",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Controlled Spark Switch Harness",
+        "zh": "变速箱连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CF91434",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Overdrive Harness",
+        "zh": "变速箱超速挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CF91433",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Overdrive Harness",
+        "zh": "变速箱超速挡线束"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "brand": "American Autowire",
+      "identifier": "01994223",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety / Backup Light Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01993495",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety Switch Assembly",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01242101",
+      "aliases": [],
+      "description": {
+        "en": "Th400 Kickdown Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500323",
+      "aliases": [],
+      "description": {
+        "en": "Connector- 700R4 Torque Converter Lock Up",
+        "zh": "连接器"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80175",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety/Backup Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01993320",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety / Backup Light Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "03986841",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety Switch Assembly",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "00370176",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety / Backup Light Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01993494",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety Switch Assembly",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "06273357",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety / Backup Light Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01993490",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety Switch Assembly",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "03948538",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety / Backup Light Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "03983965",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety Switch Assembly",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "03923916",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety / Backup Light Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01994163",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety / Backup Light Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01994235",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety / Backup Light Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01993659",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety / Backup Light Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "06258276",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety / Backup Light Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01993696",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety / Backup Light Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "09779665",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety / Backup Light Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "03909591",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety / Backup Light Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "03900503",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety / Backup Light Switch",
+        "zh": "开关"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Transmission Harness",
+    "zh": "变速箱线束"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "narrow_published_range",
+    "reason": {
+      "en": "Application-specific references are shown at their audited counts. Materials require their own category evidence and are not assumed to be the BOM of every listed assembly.",
+      "zh": "应用专用编号按核验的实际数量展示；材料须有独立类别依据，不将其视为每件成品的通用 BOM。"
+    },
+    "audit_id": "automotive-validated/automotive-18.json",
+    "verified_counts": {
+      "products": 88,
+      "materials": 22
+    }
+  }
+}

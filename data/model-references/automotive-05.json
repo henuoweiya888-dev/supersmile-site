@@ -1,0 +1,230 @@
+{
+  "version": 2,
+  "category_id": "automotive-05",
+  "route": "/products/construction-vehicle-harness",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Manufacturer-identified finished assemblies for this application.",
+        "zh": "此应用范围内经原厂资料核验的成品组件。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Category-specific material references; the final BOM follows the approved configuration.",
+        "zh": "此类选型的材料参考；最终 BOM 以确认配置为准。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Selection & Project Review",
+    "zh": "选型与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Application Boundary",
+        "zh": "应用边界"
+      },
+      "copy": {
+        "en": "Off-road machines combine mobile-vehicle wiring with industrial actuators, hydraulic systems and exposed articulation. Harness design must follow the actual machine zone, movement envelope, duty cycle and service method. Connector sealing alone cannot compensate for poor routing, unsupported mass, trapped water, excessive branch stiffness or the wrong terminal and wire-seal combination.",
+        "zh": "非道路机械把移动车辆布线、工业执行器、液压系统与裸露铰接结构结合在一起。线束设计必须服从实际机器分区、运动包络、工作循环与维修方式；单靠连接器密封无法弥补错误走线、无支撑重量、积水、分支过硬或端子与线封组合不匹配。"
+      }
+    },
+    {
+      "title": {
+        "en": "Project Inputs",
+        "zh": "项目输入"
+      },
+      "copy": {
+        "en": "Provide machine maker, model and serial range; equipment type and installed attachments; voltage architecture; controller, valve, sensor and actuator data; drawings, samples and mating interfaces; circuit and network definitions; boom, articulation and service movement; heat, dust, mud, washdown, oil and chemical zones; clips, brackets and pass-throughs; branch datums; labels; quantity; and validation requirements.",
+        "zh": "请提供机器制造商、型号与序列号范围；设备类型及安装属具；电压架构；控制器、阀、传感器与执行器资料；图纸、样品及对插件；回路与网络定义；臂架、铰接与维修运动；高温、粉尘、泥浆、冲洗、油液与化学分区；卡扣、支架与穿孔；分支基准、标签、数量及验证要求。"
+      }
+    },
+    {
+      "title": {
+        "en": "Release Records",
+        "zh": "放行依据"
+      },
+      "copy": {
+        "en": "Approved requirements are converted into controlled drawings, circuit lists, BOMs, splice maps, form-board datums, protection instructions, labels and test programs. First articles are checked on the target machine or representative fixture for reach, movement, clearance, connector access and agreed function before repeat production. Evidence is released by machine configuration and drawing revision.",
+        "zh": "批准需求会被转化为受控图纸、回路表、物料表、接续图、布线板基准、防护工艺、标签与测试程序。重复生产前在目标机器或代表性工装上检查首件的可达、运动、间隙、接口访问及约定功能；证据按机器配置与图纸版本放行。"
+      }
+    },
+    {
+      "title": {
+        "en": "Interface Review",
+        "zh": "接口审核"
+      },
+      "copy": {
+        "en": "Confirm the exact mating interface, pin map, dimensions and installation orientation.",
+        "zh": "确认准确对插接口、针脚对应、尺寸及安装方向。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sample Acceptance",
+        "zh": "样品验收"
+      },
+      "copy": {
+        "en": "Agree the sample configuration and electrical, mechanical or environmental checks required by the project.",
+        "zh": "约定样品配置以及项目所需的电气、机械或环境检查。"
+      }
+    },
+    {
+      "title": {
+        "en": "Change Control",
+        "zh": "变更控制"
+      },
+      "copy": {
+        "en": "Record changes to materials, drawings and process instructions before repeat manufacture.",
+        "zh": "重复制造前记录材料、图纸与工艺说明的变更。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=automotive-05&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "PEAK-System",
+      "identifier": "IPEK-003009",
+      "aliases": [],
+      "description": {
+        "en": "PCAN-Cable J1939, Type 1 DEUTSCH to D-Sub",
+        "zh": "工程车辆线束"
+      }
+    },
+    {
+      "brand": "PEAK-System",
+      "identifier": "IPEK-003019",
+      "aliases": [],
+      "description": {
+        "en": "PCAN-Cable J1939, Type 2 DEUTSCH to D-Sub",
+        "zh": "工程车辆线束"
+      }
+    },
+    {
+      "brand": "PEAK-System",
+      "identifier": "IPEK-003014",
+      "aliases": [],
+      "description": {
+        "en": "PCAN-Cable J1939, Type 1 DEUTSCH to 2 x D-Sub",
+        "zh": "工程车辆线束"
+      }
+    },
+    {
+      "brand": "PEAK-System",
+      "identifier": "IPEK-003015",
+      "aliases": [],
+      "description": {
+        "en": "PCAN-Cable J1939, Type 2 DEUTSCH to 2 x D-Sub",
+        "zh": "工程车辆线束"
+      }
+    },
+    {
+      "brand": "Caterpillar",
+      "identifier": "350-8108",
+      "aliases": [],
+      "description": {
+        "en": "Chassis Wiring Harness for Excavator",
+        "zh": "工程车辆线束"
+      }
+    }
+  ],
+  "materials": [],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Construction Vehicle Harness",
+    "zh": "工程车辆线束"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "narrow_published_range",
+    "reason": {
+      "en": "Application-specific references are shown at their audited counts. Materials require their own category evidence and are not assumed to be the BOM of every listed assembly.",
+      "zh": "应用专用编号按核验的实际数量展示；材料须有独立类别依据，不将其视为每件成品的通用 BOM。"
+    },
+    "audit_id": "automotive-validated/automotive-05.json",
+    "verified_counts": {
+      "products": 5,
+      "materials": 0
+    }
+  }
+}

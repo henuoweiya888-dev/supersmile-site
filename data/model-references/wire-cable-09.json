@@ -1,0 +1,680 @@
+{
+  "version": 2,
+  "category_id": "wire-cable-09",
+  "route": "/products/shielded-twisted-pair",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Manufacturer-identified finished assemblies for this application.",
+        "zh": "此应用范围内经原厂资料核验的成品组件。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Category-specific material references; the final BOM follows the approved configuration.",
+        "zh": "此类选型的材料参考；最终 BOM 以确认配置为准。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Selection & Project Review",
+    "zh": "选型与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Application Boundary",
+        "zh": "应用边界"
+      },
+      "copy": {
+        "en": "Protocol, impedance, pair geometry, screen and connector bond define the channel together.",
+        "zh": "协议、阻抗、线对几何、屏蔽与接口搭接共同定义通道。"
+      }
+    },
+    {
+      "title": {
+        "en": "Project Inputs",
+        "zh": "项目输入"
+      },
+      "copy": {
+        "en": "Provide protocol, rate, length, pair and screen construction, connectors and EMC plan.",
+        "zh": "请提供协议、速率、长度、线对与屏蔽结构、接口及 EMC 方案。"
+      }
+    },
+    {
+      "title": {
+        "en": "Release Records",
+        "zh": "放行依据"
+      },
+      "copy": {
+        "en": "Release records the complete balanced and shielded channel construction.",
+        "zh": "放行记录包含完整平衡与屏蔽通道结构。"
+      }
+    },
+    {
+      "title": {
+        "en": "Interface Review",
+        "zh": "接口审核"
+      },
+      "copy": {
+        "en": "Confirm the exact mating interface, pin map, dimensions and installation orientation.",
+        "zh": "确认准确对插接口、针脚对应、尺寸及安装方向。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sample Acceptance",
+        "zh": "样品验收"
+      },
+      "copy": {
+        "en": "Agree the sample configuration and electrical, mechanical or environmental checks required by the project.",
+        "zh": "约定样品配置以及项目所需的电气、机械或环境检查。"
+      }
+    },
+    {
+      "title": {
+        "en": "Change Control",
+        "zh": "变更控制"
+      },
+      "copy": {
+        "en": "Record changes to materials, drawings and process instructions before repeat manufacture.",
+        "zh": "重复制造前记录材料、图纸与工艺说明的变更。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=wire-cable-09&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [],
+  "materials": [
+    {
+      "brand": "LAPP",
+      "identifier": "383301140H",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "100017735",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170126",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50603",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170127",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50693",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170129",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50783",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170139",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51162",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170142",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51211",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170143",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51294",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170144",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51330",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170172",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51348",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170614",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51417",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170951",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51463",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170952",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51489",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170953",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51604",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170956",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51688",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170960",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52026",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170961",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52113",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170962",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52323",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170963",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "100017736",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170976",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50893",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170977",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51318",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170978",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51419",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51624",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52176",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50721",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51376",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52031",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51213",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52594",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51494",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52025",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51335",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51188",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50652",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51484",
+      "aliases": [],
+      "description": {
+        "en": "Shielded twisted-pair cable material",
+        "zh": "屏蔽双绞线材料"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Shielded Twisted Pair",
+    "zh": "屏蔽双绞线"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "material_scope",
+    "reason": {
+      "en": "Wire, bulk cable and polymer grades are materials. They are not counted as terminated cable assemblies.",
+      "zh": "电线、卷装电缆与胶料牌号属于材料，不计为已端接电缆组件。"
+    },
+    "audit_id": "wire-material-batches/wire-cable-09-materials-strict-ready.json",
+    "verified_counts": {
+      "products": 0,
+      "materials": 55
+    }
+  }
+}

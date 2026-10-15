@@ -1,0 +1,185 @@
+{
+  "version": 2,
+  "category_id": "specialty-11",
+  "route": "/products/ultrasonic-welded-branch",
+  "title": {
+    "en": "Interface Configuration & Material Selection",
+    "zh": "接口配置与材料选型"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Define the interfaces, material requirements and acceptance plan for your custom project.",
+    "zh": "围绕定制项目定义接口、材料要求与验收方案。"
+  },
+  "jump": {
+    "en": "Review Interfaces & Material Selection",
+    "zh": "查看接口配置与材料选型"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Manufacturer-identified assemblies for interface selection.",
+        "zh": "经原厂资料核验的接口组件参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Materials identified for the specific interface or molding process.",
+        "zh": "用于具体接口或成型工艺选型的材料。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Joint and standard",
+        "zh": "先区分焊接接口"
+      },
+      "copy": {
+        "en": "Distinguish a wire-to-wire branch splice from a wire-to-terminal bond. Agree the validation standard for the actual joint.",
+        "zh": "先区分线对线分支焊与线对端子焊，再约定实际接点适用的验证标准。"
+      }
+    },
+    {
+      "title": {
+        "en": "Exact conductor stack",
+        "zh": "定义准确导体组合"
+      },
+      "copy": {
+        "en": "List every wire material, cross-section, strand construction, surface condition and branch orientation. Treat a changed combination as a review trigger.",
+        "zh": "列明每根导体材质、截面积、绞线结构、表面状态与分支方向；组合改变时重新审核。"
+      }
+    },
+    {
+      "title": {
+        "en": "Wire preparation",
+        "zh": "控制备线状态"
+      },
+      "copy": {
+        "en": "Define strip length, cleanliness, strand integrity and the allowed stack arrangement without assuming plated or lubricated wire behaves like bare conductor.",
+        "zh": "定义剥线长度、清洁度、线股完整性及允许叠放方式，不能假定镀层或润滑线材与裸导体表现相同。"
+      }
+    },
+    {
+      "title": {
+        "en": "Tooling and weld window",
+        "zh": "放行工装与焊接窗口"
+      },
+      "copy": {
+        "en": "Record the machine and tooling identity, force or pressure, amplitude, energy and monitoring limits developed for the actual joint.",
+        "zh": "记录针对真实焊点开发的设备与工装身份、力或压力、振幅、能量及监控限值。"
+      }
+    },
+    {
+      "title": {
+        "en": "Branch protection",
+        "zh": "设计分支防护"
+      },
+      "copy": {
+        "en": "Review nugget location, insulation clearance, strain relief and the selected protective system together with harness routing.",
+        "zh": "结合线束走向审核焊点位置、绝缘间距、应力释放与所选防护体系。"
+      }
+    },
+    {
+      "title": {
+        "en": "Joint verification",
+        "zh": "验证连接质量"
+      },
+      "copy": {
+        "en": "Agree mechanical strength, electrical resistance and environmental conditioning for the joint, with controlled sample preparation and traceable acceptance records.",
+        "zh": "为焊点约定机械强度、电阻及环境条件试验，并控制制样方式与可追溯的验收记录。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=specialty-11&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [],
+  "materials": [],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Ultrasonic-Welded Branch",
+    "zh": "超声波焊接分支"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "process_or_delivery",
+    "reason": {
+      "en": "Project and manufacturer references are shown only at their audited counts. Process requirements are defined separately from finished-product ratings.",
+      "zh": "项目与原厂编号仅按实际核验数量展示，工艺要求和成品等级分别定义。"
+    },
+    "audit_id": "specialty-11-process-literal-candidates.json",
+    "verified_counts": {
+      "products": 0,
+      "materials": 0
+    },
+    "engineering_only": true
+  }
+}

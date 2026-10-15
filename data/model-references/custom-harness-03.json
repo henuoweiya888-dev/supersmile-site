@@ -1,0 +1,2810 @@
+{
+  "version": 2,
+  "category_id": "custom-harness-03",
+  "route": "/products/robotic-harness",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Preassembled cables explicitly identified for robot connections.",
+        "zh": "原厂明确用于机器人连接的预制电缆。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Robot and torsion cable materials with specific manufacturer application evidence.",
+        "zh": "具有原厂机器人或扭转工况依据的原线材料。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Six Decisions Behind the Part Number",
+    "zh": "型号背后的六个选型要点"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Robot Interface",
+        "zh": "机器人接口"
+      },
+      "copy": {
+        "en": "Confirm the robot or drive connection and the exact mating pin map.",
+        "zh": "确认机器人或驱动连接接口及准确对插针脚。"
+      }
+    },
+    {
+      "title": {
+        "en": "Axis Movement",
+        "zh": "轴向运动"
+      },
+      "copy": {
+        "en": "Distinguish robot-axis torsion from linear travel on an external axis.",
+        "zh": "区分机器人轴的扭转运动与外部轴的直线往复。"
+      }
+    },
+    {
+      "title": {
+        "en": "Torsion & Bending",
+        "zh": "扭转与弯折"
+      },
+      "copy": {
+        "en": "Define twist angle, free length, moving bend radius and the motion sequence.",
+        "zh": "定义扭转角度、自由长度、动态弯曲半径及运动顺序。"
+      }
+    },
+    {
+      "title": {
+        "en": "Dress-Pack Layout",
+        "zh": "管线包布置"
+      },
+      "copy": {
+        "en": "Set routing, clamp positions and clearance across the full movement envelope.",
+        "zh": "按完整运动范围确定布线路径、固定位置与活动间隙。"
+      }
+    },
+    {
+      "title": {
+        "en": "Signal & Power",
+        "zh": "信号与动力"
+      },
+      "copy": {
+        "en": "Review conductor size, pairs, shielding and separation between circuit types.",
+        "zh": "核对线径、线对、屏蔽及不同回路类型的分隔。"
+      }
+    },
+    {
+      "title": {
+        "en": "Motion Validation",
+        "zh": "运动验证"
+      },
+      "copy": {
+        "en": "Agree prototype checks under the actual robot path and operating conditions.",
+        "zh": "围绕实际机器人轨迹与运行条件约定样品验证。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=custom-harness-03&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "igus",
+      "identifier": "MAT904117145",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled protective-earth cable",
+        "zh": "预制保护接地电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904105010",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled protective-earth cable",
+        "zh": "预制保护接地电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904117144",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled protective-earth cable",
+        "zh": "预制保护接地电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904117093",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904117097",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904141227",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled hybrid drive cable",
+        "zh": "预制复合驱动电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904105005",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled data cable",
+        "zh": "预制数据电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904117091",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled industrial bus cable",
+        "zh": "预制工业总线电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904117095",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled industrial bus cable",
+        "zh": "预制工业总线电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904105013",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled drive connection cable",
+        "zh": "预制驱动连接电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904105009",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled drive connection cable",
+        "zh": "预制驱动连接电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904152119",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904152122",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904105006",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904117092",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled drive connection cable",
+        "zh": "预制驱动连接电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904105007",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904152118",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled industrial bus cable",
+        "zh": "预制工业总线电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904152121",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled industrial bus cable",
+        "zh": "预制工业总线电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904151684",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled industrial bus cable",
+        "zh": "预制工业总线电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904151685",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904105008",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904141229",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled hybrid drive cable",
+        "zh": "预制复合驱动电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904105012",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904141225",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled hybrid drive cable",
+        "zh": "预制复合驱动电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904141226",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled hybrid drive cable",
+        "zh": "预制复合驱动电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904141228",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled hybrid drive cable",
+        "zh": "预制复合驱动电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904141230",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled hybrid drive cable",
+        "zh": "预制复合驱动电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904141231",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled hybrid drive cable",
+        "zh": "预制复合驱动电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904105003",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904105004",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904105011",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904105014",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904105015",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904117147",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904117146",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904141224",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled hybrid drive cable",
+        "zh": "预制复合驱动电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904117143",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled drive connection cable",
+        "zh": "预制驱动连接电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904141222",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled hybrid drive cable",
+        "zh": "预制复合驱动电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904141223",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled hybrid drive cable",
+        "zh": "预制复合驱动电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904117141",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904117142",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904128548",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904128547",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904128541",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled drive connection cable",
+        "zh": "预制驱动连接电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904141221",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled hybrid drive cable",
+        "zh": "预制复合驱动电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904141220",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled hybrid drive cable",
+        "zh": "预制复合驱动电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904128540",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled drive connection cable",
+        "zh": "预制驱动连接电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904145759",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled hybrid drive cable",
+        "zh": "预制复合驱动电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904145760",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled hybrid drive cable",
+        "zh": "预制复合驱动电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904141219",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled hybrid drive cable",
+        "zh": "预制复合驱动电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904128539",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904128542",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904128543",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904151688",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904151687",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled industrial bus cable",
+        "zh": "预制工业总线电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904117094",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled data cable",
+        "zh": "预制数据电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904117098",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled data cable",
+        "zh": "预制数据电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904152120",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled data cable",
+        "zh": "预制数据电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904152123",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled data cable",
+        "zh": "预制数据电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904151686",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled data cable",
+        "zh": "预制数据电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904151689",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled data cable",
+        "zh": "预制数据电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9872901",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9872902",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "brand": "LAPP",
+      "identifier": "10292539",
+      "aliases": [
+        "ÖLFLEX® ROBOT 928 D 25x0,34"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10292515",
+      "aliases": [
+        "ÖLFLEX® ROBOT 928 D 12x0,14"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10292526",
+      "aliases": [
+        "ÖLFLEX® ROBOT 928 D 18x0,25"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10292510",
+      "aliases": [
+        "ÖLFLEX® ROBOT 928 D 3x2x0,14"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10292536",
+      "aliases": [
+        "ÖLFLEX® ROBOT 928 D 12x0,34"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10292537",
+      "aliases": [
+        "ÖLFLEX® ROBOT 928 D 8x2x0,34"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10292532",
+      "aliases": [
+        "ÖLFLEX® ROBOT 928 D 4x0,34"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10292538",
+      "aliases": [
+        "ÖLFLEX® ROBOT 928 D 18x0,34"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10292520",
+      "aliases": [
+        "ÖLFLEX® ROBOT 928 D 3x2x0,25"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10292525",
+      "aliases": [
+        "ÖLFLEX® ROBOT 928 D 12x0,25"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10292530",
+      "aliases": [
+        "ÖLFLEX® ROBOT 928 D 2x0,34"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10292535",
+      "aliases": [
+        "ÖLFLEX® ROBOT 928 D 5x2x0,34"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282542",
+      "aliases": [
+        "ÖLFLEX® ROBOT 928 18x0,34"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282539",
+      "aliases": [
+        "ÖLFLEX® ROBOT 928 3x0,34"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282519",
+      "aliases": [
+        "ÖLFLEX® ROBOT 928 12x0,14"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282540",
+      "aliases": [
+        "ÖLFLEX® ROBOT 928 4x0,34"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282536",
+      "aliases": [
+        "ÖLFLEX® ROBOT 928 18x0,25"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282529",
+      "aliases": [
+        "ÖLFLEX® ROBOT 928 7x0,25"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282518",
+      "aliases": [
+        "ÖLFLEX® ROBOT 928 4x0,14"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282545",
+      "aliases": [
+        "ÖLFLEX® ROBOT 928 25x0,34"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282625",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 4G0,75"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282636",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 3G1"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282637",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 4G1"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282663",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 3G35"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282660",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 3G25"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282647",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 7G1,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282641",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 25G1"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282619",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 12G0,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282620",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 18G0,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282638",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 7G1"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282640",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 18G1"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282649",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 18G1,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282645",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 4G1,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282642",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 34G1"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282635",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 2X1"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282629",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 14G0,75"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282653",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 3G2,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282654",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 4G2,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282650",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 25G1,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282646",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 5G1,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10292635",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 D 2X1"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10292646",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 D 5G1,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10292650",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 D 25G1,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10292619",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 D 12G0,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10292617",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 D 4G0,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10292618",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 D 7G0,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10292637",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 D 4G1"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10292649",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 D 18G1,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10292638",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 D 7G1"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10292636",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 D 3G1"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10292641",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 D 25G1"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10292640",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 D 18G1"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10292647",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 D 7G1,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10292645",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 D 4G1,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10292653",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 D 3G2,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10292631",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 D 3G1,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10292639",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 D 12G1"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10292648",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 D 12G1,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10292654",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 D 4G2,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10292621",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 D 25G0,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10292620",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 D 18G0,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10292511",
+      "aliases": [
+        "ÖLFLEX® ROBOT 928 D 4x2x0,14"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10292531",
+      "aliases": [
+        "ÖLFLEX® ROBOT 928 D 3x0,34"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10292527",
+      "aliases": [
+        "ÖLFLEX® ROBOT 928 D 25x0,25"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282537",
+      "aliases": [
+        "ÖLFLEX® ROBOT 928 25x0,25"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282535",
+      "aliases": [
+        "ÖLFLEX® ROBOT 928 12x0,25"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282520",
+      "aliases": [
+        "ÖLFLEX® ROBOT 928 18x0,14"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282525",
+      "aliases": [
+        "ÖLFLEX® ROBOT 928 4x0,25"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282521",
+      "aliases": [
+        "ÖLFLEX® ROBOT 928 25x0,14"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282517",
+      "aliases": [
+        "ÖLFLEX® ROBOT 928 3x0,14"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282538",
+      "aliases": [
+        "ÖLFLEX® ROBOT 928 2x0,34"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282541",
+      "aliases": [
+        "ÖLFLEX® ROBOT 928 12x0,34"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282639",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 12G1"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282648",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 12G1,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282617",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 4G0,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282618",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 7G0,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10282621",
+      "aliases": [
+        "ÖLFLEX® ROBOT 909 25G0,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029692",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 (C) 4G2,5+(2X1)DP"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029691",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 (C) 4G1,5+(2X1)DP"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029690",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 (C) 18G1,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029689",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 (C) 12G1,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029665",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 (C) 4G2,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029664",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 (C) 4G1,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029658",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 (C) 5X2X0,34"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029657",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 (C) 4X0,34"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029656",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 (C) 3X0,34"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029655",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 (C) 2X0,34"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029654",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 (C) 25X0,25"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029653",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 (C) 3X2X0,25"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029641",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 4G6"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029632",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 3G2,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029631",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 25G1,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029630",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 18G1,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029629",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 12G1,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029627",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 7G1,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029625",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 5G1,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029624",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 4G1,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029622",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 41G1,0"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029621",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 34G1,0"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029620",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 25G1,0"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029619",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 23G1+(2X1)DP"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029618",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 18G1,0"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029617",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 16G1+(2X1)DP"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029616",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 14G1"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029615",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 12G1,0"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029614",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 7G1,0"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029612",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 4G1,0"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029611",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 3G1,0"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029610",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 2X1,0"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029609",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 25G0,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029608",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 18G0,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029601",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 25X0,34"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029600",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 18X0,34"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029599",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 12X0,34"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029596",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 4X0,34"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029595",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 3X0,34"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029594",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 2X0,34"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029593",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 25X0,25"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029592",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 18X0,25"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029591",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 12X0,25"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029590",
+      "aliases": [
+        "ÖLFLEX® ROBOT F1 7X0,25"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028400",
+      "aliases": [
+        "ÖLFLEX® ROBOT 900 P 3G16"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028198",
+      "aliases": [
+        "ÖLFLEX® ROBOT 900 P 18G1,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028191",
+      "aliases": [
+        "ÖLFLEX® ROBOT 900 P 41G1"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028190",
+      "aliases": [
+        "ÖLFLEX® ROBOT 900 P 34G1"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028189",
+      "aliases": [
+        "ÖLFLEX® ROBOT 900 P 3G35"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028188",
+      "aliases": [
+        "ÖLFLEX® ROBOT 900 P 2x0,34"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028187",
+      "aliases": [
+        "ÖLFLEX® ROBOT 900 P 3G25"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028186",
+      "aliases": [
+        "ÖLFLEX® ROBOT 900 P 23G1+(2X1 DP)"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028185",
+      "aliases": [
+        "ÖLFLEX® ROBOT 900 P 16G1+(2X1 DP)"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028182",
+      "aliases": [
+        "ÖLFLEX® ROBOT 900 P 4G2,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028181",
+      "aliases": [
+        "ÖLFLEX® ROBOT 900 P 3G2,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028180",
+      "aliases": [
+        "ÖLFLEX® ROBOT 900 P 25G1"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028178",
+      "aliases": [
+        "ÖLFLEX® ROBOT 900 P 18G1"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028176",
+      "aliases": [
+        "ÖLFLEX® ROBOT 900 P 12G1"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028174",
+      "aliases": [
+        "ÖLFLEX® ROBOT 900 P 7G1"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028172",
+      "aliases": [
+        "ÖLFLEX® ROBOT 900 P 4G1"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028171",
+      "aliases": [
+        "ÖLFLEX® ROBOT 900 P 3G1"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028170",
+      "aliases": [
+        "ÖLFLEX® ROBOT 900 P 2X1"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028164",
+      "aliases": [
+        "ÖLFLEX® ROBOT 900 P 14G0,75"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028160",
+      "aliases": [
+        "ÖLFLEX® ROBOT 900 P 4G0,75"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028146",
+      "aliases": [
+        "ÖLFLEX® ROBOT 900 P 25G0,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028145",
+      "aliases": [
+        "ÖLFLEX® ROBOT 900 P 18G0,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028116",
+      "aliases": [
+        "ÖLFLEX® ROBOT 900 P 25x0,25"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028110",
+      "aliases": [
+        "ÖLFLEX® ROBOT 900 P 7x0,25"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028195",
+      "aliases": [
+        "ÖLFLEX® ROBOT 900 DP 12G1,5"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028136",
+      "aliases": [
+        "ÖLFLEX® ROBOT 900 DP 5x2x0,34"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028135",
+      "aliases": [
+        "ÖLFLEX® ROBOT 900 DP 4x0,34"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028126",
+      "aliases": [
+        "ÖLFLEX® ROBOT 900 DP 25x0,25"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028105",
+      "aliases": [
+        "ÖLFLEX® ROBOT 900 DP 3X(2X0,14)"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028100",
+      "aliases": [
+        "ÖLFLEX® ROBOT 900 DP 12x0,14"
+      ],
+      "description": {
+        "en": "Robot torsion cable material",
+        "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT2.07.04.C",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT2.07.05.C",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT2.07.07.C",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT2.07.12.C",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT2.07.18.C",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT7.07.03.02.02.C",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT7.15.03.C",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT7.15.04.C",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT7.15.15.02.02.C",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT7.25.03.C",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT7.25.04.C",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT7.25.15.02.02.C",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT7.40.02.02.04.C",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT7.60.04.C",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT3.02.03.02",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT3.02.04.02",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT3.02.06.02",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT3.02.08.02",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT3.05.05.02",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT4.001",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT4.006",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT4.009",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT4.015",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT4.028",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT5.500",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT5.501",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT8.PLUS.001",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT8.PLUS.022",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT8.PLUS.030",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT8.PLUS.045",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT8.PLUS.049",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT8.PLUS.050",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT8.PLUS.052",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT8.PLUS.060",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT.035",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT.036",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT.037",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT.038",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFSPECIAL.792.011",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFSPECIAL.792.012",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFSPECIAL.792.013",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFSPECIAL.792.014",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFSPECIAL.792.015",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFSPECIAL.792.016",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Robotic Harness",
+    "zh": "机器人线束"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "narrow_published_range",
+    "reason": {
+      "en": "Manufacturer-verified robot cable references are shown at their actual audited count; raw cable is counted as material only.",
+      "zh": "机器人专用电缆按原厂可核验的实际数量展示，裸缆只计入材料。"
+    },
+    "audit_id": "custom-harness-03-motion-literal-candidates.json",
+    "verified_counts": {
+      "products": 63,
+      "materials": 195
+    }
+  }
+}

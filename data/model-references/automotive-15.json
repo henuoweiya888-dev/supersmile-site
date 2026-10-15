@@ -1,0 +1,239 @@
+{
+  "version": 2,
+  "category_id": "automotive-15",
+  "route": "/products/agricultural-and-tractor-harness",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Manufacturer-identified finished assemblies for this application.",
+        "zh": "此应用范围内经原厂资料核验的成品组件。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Category-specific material references; the final BOM follows the approved configuration.",
+        "zh": "此类选型的材料参考；最终 BOM 以确认配置为准。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Selection & Project Review",
+    "zh": "选型与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Application Boundary",
+        "zh": "应用边界"
+      },
+      "copy": {
+        "en": "A tractor harness is a family of zone-specific assemblies rather than one universal part. Cab, powertrain, chassis and implement branches face different vibration, mud, spray, UV, temperature and service loads. An ISOBUS-shaped connector alone does not establish ISO 11783 communication or AEF function compatibility; controller software, bus topology, power supply and implement functions must also match.",
+        "zh": "拖拉机线束是由多个区域组件构成的产品家族，不是一种通用零件。驾驶室、动力总成、底盘与农具分支面对的振动、泥水、喷淋、紫外线、温度和维修载荷不同。只有 ISOBUS 外形的接头并不能证明 ISO 11783 通信或 AEF 功能兼容；控制器软件、总线拓扑、供电和农具功能也必须匹配。"
+      }
+    },
+    {
+      "title": {
+        "en": "Project Inputs",
+        "zh": "项目输入"
+      },
+      "copy": {
+        "en": "For quotation, provide machine make, model and revision, voltage, circuit and pin schedules, mating connector part numbers, loads and fusing, CAN/ISOBUS topology if used, branch lengths and installation photographs, movement and exposure zones, quantity, labels and the agreed inspection scope. A reference sample helps establish geometry, but undocumented repairs must be distinguished from the intended design.",
+        "zh": "报价请提供设备品牌、型号与版本、电压、回路和针脚表、对插连接器料号、负载与保险配置、涉及的 CAN/ISOBUS 拓扑、分支尺寸和安装照片、运动与暴露区域、数量、标签及约定检验范围。参考样品有助于确定几何，但应把未记录的维修痕迹与原设计区分。"
+      }
+    },
+    {
+      "title": {
+        "en": "Release Records",
+        "zh": "放行依据"
+      },
+      "copy": {
+        "en": "The approved drawing and first article freeze connector orientation, cavity map, branch datum, covering transitions, clips, service loops and test points. Routine continuity, shorts, dimensional and visual checks are recorded to the agreed plan. Sealing, vibration, flex, thermal and full-machine functional validation are separate project-defined tests; they are not implied by a passing wire map.",
+        "zh": "经批准的图纸与首件应冻结连接器方向、孔位映射、分支基准、包覆过渡、卡扣、检修余量及测试点。常规导通、短路、尺寸和外观检查按约定方案记录；密封、振动、弯曲、热和整机功能验证属于另行定义的项目测试，不能由线序合格推定。"
+      }
+    },
+    {
+      "title": {
+        "en": "Interface Review",
+        "zh": "接口审核"
+      },
+      "copy": {
+        "en": "Confirm the exact mating interface, pin map, dimensions and installation orientation.",
+        "zh": "确认准确对插接口、针脚对应、尺寸及安装方向。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sample Acceptance",
+        "zh": "样品验收"
+      },
+      "copy": {
+        "en": "Agree the sample configuration and electrical, mechanical or environmental checks required by the project.",
+        "zh": "约定样品配置以及项目所需的电气、机械或环境检查。"
+      }
+    },
+    {
+      "title": {
+        "en": "Change Control",
+        "zh": "变更控制"
+      },
+      "copy": {
+        "en": "Record changes to materials, drawings and process instructions before repeat manufacture.",
+        "zh": "重复制造前记录材料、图纸与工艺说明的变更。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=automotive-15&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "PEAK-System",
+      "identifier": "IPEK-003009",
+      "aliases": [],
+      "description": {
+        "en": "PCAN-Cable J1939, Type 1 DEUTSCH to D-Sub",
+        "zh": "农机配套连接线束"
+      }
+    },
+    {
+      "brand": "PEAK-System",
+      "identifier": "IPEK-003019",
+      "aliases": [],
+      "description": {
+        "en": "PCAN-Cable J1939, Type 2 DEUTSCH to D-Sub",
+        "zh": "农机配套连接线束"
+      }
+    },
+    {
+      "brand": "PEAK-System",
+      "identifier": "IPEK-003014",
+      "aliases": [],
+      "description": {
+        "en": "PCAN-Cable J1939, Type 1 DEUTSCH to 2 x D-Sub",
+        "zh": "农机配套连接线束"
+      }
+    },
+    {
+      "brand": "PEAK-System",
+      "identifier": "IPEK-003015",
+      "aliases": [],
+      "description": {
+        "en": "PCAN-Cable J1939, Type 2 DEUTSCH to 2 x D-Sub",
+        "zh": "农机配套连接线束"
+      }
+    },
+    {
+      "brand": "John Deere",
+      "identifier": "BE32277",
+      "aliases": [],
+      "description": {
+        "en": "Cab and Battery Wiring Harness for Non-ISOBUS Tractor",
+        "zh": "农机配套连接线束"
+      }
+    },
+    {
+      "brand": "John Deere",
+      "identifier": "AE50531",
+      "aliases": [],
+      "description": {
+        "en": "2 Terminal Plug to 3 Terminal Socket Wiring Harness",
+        "zh": "农机配套连接线束"
+      }
+    }
+  ],
+  "materials": [],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Agricultural & Tractor Harness",
+    "zh": "农机与拖拉机线束"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "narrow_published_range",
+    "reason": {
+      "en": "Application-specific references are shown at their audited counts. Materials require their own category evidence and are not assumed to be the BOM of every listed assembly.",
+      "zh": "应用专用编号按核验的实际数量展示；材料须有独立类别依据，不将其视为每件成品的通用 BOM。"
+    },
+    "audit_id": "automotive-validated/automotive-15.json",
+    "verified_counts": {
+      "products": 6,
+      "materials": 0
+    }
+  }
+}

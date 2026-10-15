@@ -1,0 +1,320 @@
+{
+  "version": 2,
+  "category_id": "wire-cable-17",
+  "route": "/products/ultra-flexible-wire-and-cable",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Verified finished assemblies are added only when an exact current identifier is available.",
+        "zh": "取得可核验的现行准确编号后纳入成品组件。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "CF98.PLUS and CF99.PLUS cable materials for small-bend-radius configurations.",
+        "zh": "小弯曲半径配置用 CF98.PLUS 与 CF99.PLUS 原线材料。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Six Decisions Behind the Part Number",
+    "zh": "型号背后的六个选型要点"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Movement Envelope",
+        "zh": "运动空间"
+      },
+      "copy": {
+        "en": "Define the available moving bend radius and the required cable route.",
+        "zh": "定义可用的动态弯曲半径及线缆布线路径。"
+      }
+    },
+    {
+      "title": {
+        "en": "Conductor Construction",
+        "zh": "导体结构"
+      },
+      "copy": {
+        "en": "Choose conductor size and strand construction for the actual electrical and motion requirements.",
+        "zh": "按实际电气与运动要求选择线径和绞合结构。"
+      }
+    },
+    {
+      "title": {
+        "en": "Shield Configuration",
+        "zh": "屏蔽配置"
+      },
+      "copy": {
+        "en": "Confirm whether shielding is required and how it is terminated at each end.",
+        "zh": "确认是否需要屏蔽，以及两端的端接方式。"
+      }
+    },
+    {
+      "title": {
+        "en": "End Interfaces",
+        "zh": "两端接口"
+      },
+      "copy": {
+        "en": "Specify the mating connectors, pin map and cable-exit support.",
+        "zh": "定义对插件、针脚对应与线缆出口支撑。"
+      }
+    },
+    {
+      "title": {
+        "en": "Routing & Clamping",
+        "zh": "布线与固定"
+      },
+      "copy": {
+        "en": "Set clamp positions and keep the moving section free from imposed twist or sharp bends.",
+        "zh": "确定固定位置，避免运动段受到额外扭转或急弯。"
+      }
+    },
+    {
+      "title": {
+        "en": "Prototype Movement",
+        "zh": "样品运动验证"
+      },
+      "copy": {
+        "en": "Check the completed cable through the actual travel before approving repeated manufacture.",
+        "zh": "在确认重复制造前，按实际行程检查完整组件。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=wire-cable-17&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [],
+  "materials": [
+    {
+      "brand": "igus",
+      "identifier": "CF98.PLUS.01.02",
+      "aliases": [],
+      "description": {
+        "en": "Small-bend-radius control cable material",
+        "zh": "小弯曲半径控制电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF98.PLUS.01.03",
+      "aliases": [],
+      "description": {
+        "en": "Small-bend-radius control cable material",
+        "zh": "小弯曲半径控制电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF98.PLUS.01.04",
+      "aliases": [],
+      "description": {
+        "en": "Small-bend-radius control cable material",
+        "zh": "小弯曲半径控制电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF98.PLUS.01.08",
+      "aliases": [],
+      "description": {
+        "en": "Small-bend-radius control cable material",
+        "zh": "小弯曲半径控制电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF98.PLUS.02.03.INI",
+      "aliases": [],
+      "description": {
+        "en": "Small-bend-radius control cable material",
+        "zh": "小弯曲半径控制电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF98.PLUS.02.04",
+      "aliases": [],
+      "description": {
+        "en": "Small-bend-radius control cable material",
+        "zh": "小弯曲半径控制电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF98.PLUS.02.08",
+      "aliases": [],
+      "description": {
+        "en": "Small-bend-radius control cable material",
+        "zh": "小弯曲半径控制电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF98.PLUS.03.04.INI",
+      "aliases": [],
+      "description": {
+        "en": "Small-bend-radius control cable material",
+        "zh": "小弯曲半径控制电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF98.PLUS.05.04",
+      "aliases": [],
+      "description": {
+        "en": "Small-bend-radius control cable material",
+        "zh": "小弯曲半径控制电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF99.PLUS.01.02",
+      "aliases": [],
+      "description": {
+        "en": "Small-bend-radius control cable material",
+        "zh": "小弯曲半径控制电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF99.PLUS.01.04",
+      "aliases": [],
+      "description": {
+        "en": "Small-bend-radius control cable material",
+        "zh": "小弯曲半径控制电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF99.PLUS.01.08",
+      "aliases": [],
+      "description": {
+        "en": "Small-bend-radius control cable material",
+        "zh": "小弯曲半径控制电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF99.PLUS.02.04",
+      "aliases": [],
+      "description": {
+        "en": "Small-bend-radius control cable material",
+        "zh": "小弯曲半径控制电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF99.PLUS.02.08",
+      "aliases": [],
+      "description": {
+        "en": "Small-bend-radius control cable material",
+        "zh": "小弯曲半径控制电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF99.PLUS.03.08",
+      "aliases": [],
+      "description": {
+        "en": "Small-bend-radius control cable material",
+        "zh": "小弯曲半径控制电缆材料"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Ultra-Flexible Wire & Cable",
+    "zh": "超柔性电线电缆"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "material_scope",
+    "reason": {
+      "en": "Only current manufacturer-identified small-bend-radius cable materials are included; phased-out assembled models are retained in the internal research only.",
+      "zh": "仅纳入原厂可核验的现行小弯曲半径线材，退市组件型号只留内部研究。"
+    },
+    "audit_id": "wire-cable-17-motion-literal-candidates.json",
+    "verified_counts": {
+      "products": 0,
+      "materials": 15
+    }
+  }
+}

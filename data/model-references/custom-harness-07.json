@@ -1,0 +1,3773 @@
+{
+  "version": 2,
+  "category_id": "custom-harness-07",
+  "route": "/products/pigtail-and-branch-harness",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Connector-to-tinned pigtail cable assemblies.",
+        "zh": "一端连接器、另一端浸锡的尾线组件。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Connector and wire parts explicitly listed in the selected pigtail BOMs.",
+        "zh": "选中尾线原厂 BOM 明确列出的连接材料与线材。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Six Decisions Behind the Part Number",
+    "zh": "型号背后的六个选型要点"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Connector End",
+        "zh": "接口端"
+      },
+      "copy": {
+        "en": "Confirm the exact mating interface, contact count and connector orientation.",
+        "zh": "确认具体对插接口、触点数量与接头方向。"
+      }
+    },
+    {
+      "title": {
+        "en": "Free-End Preparation",
+        "zh": "自由端处理"
+      },
+      "copy": {
+        "en": "Set strip length, tinning requirements and exposed-conductor protection.",
+        "zh": "定义剥皮长度、浸锡要求及裸露导体防护。"
+      }
+    },
+    {
+      "title": {
+        "en": "Circuit Labels",
+        "zh": "回路标识"
+      },
+      "copy": {
+        "en": "Map wire colors or labels to the connector cavities and circuit functions.",
+        "zh": "将线色或线号与接头孔位、电路功能逐一对应。"
+      }
+    },
+    {
+      "title": {
+        "en": "Branch Geometry",
+        "zh": "分支结构"
+      },
+      "copy": {
+        "en": "For branched variants, define the junction method, branch positions and individual lengths.",
+        "zh": "开发分支结构时，明确汇接方式、分支位置与各支长度。"
+      }
+    },
+    {
+      "title": {
+        "en": "Wire & Protection",
+        "zh": "线材与防护"
+      },
+      "copy": {
+        "en": "Select wire, sleeves and strain relief for the actual installation conditions.",
+        "zh": "按实际安装条件选择导线、套管与应力释放结构。"
+      }
+    },
+    {
+      "title": {
+        "en": "Drawing & Test",
+        "zh": "图纸与测试"
+      },
+      "copy": {
+        "en": "Keep the BOM, pin map and free-end preparation aligned with the approved sample.",
+        "zh": "使 BOM、针脚定义与自由端处理和确认样品保持一致。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=custom-harness-07&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "Tensility",
+      "identifier": "10-00331",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video tinned pigtail",
+        "zh": "音视频接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00333",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video tinned pigtail",
+        "zh": "音视频接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00334",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video tinned pigtail",
+        "zh": "音视频接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00335",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video tinned pigtail",
+        "zh": "音视频接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00341",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video tinned pigtail",
+        "zh": "音视频接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00343",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video tinned pigtail",
+        "zh": "音视频接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00344",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video tinned pigtail",
+        "zh": "音视频接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02045",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video tinned pigtail",
+        "zh": "音视频接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02046",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video tinned pigtail",
+        "zh": "音视频接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02142",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video tinned pigtail",
+        "zh": "音视频接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02144",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video tinned pigtail",
+        "zh": "音视频接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02282",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video tinned pigtail",
+        "zh": "音视频接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02284",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video tinned pigtail",
+        "zh": "音视频接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02843",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video tinned pigtail",
+        "zh": "音视频接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02844",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video tinned pigtail",
+        "zh": "音视频接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02845",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video tinned pigtail",
+        "zh": "音视频接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03403",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video tinned pigtail",
+        "zh": "音视频接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03407",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video tinned pigtail",
+        "zh": "音视频接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03409",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video tinned pigtail",
+        "zh": "音视频接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03410",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video tinned pigtail",
+        "zh": "音视频接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03411",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video tinned pigtail",
+        "zh": "音视频接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03412",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video tinned pigtail",
+        "zh": "音视频接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03706",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video tinned pigtail",
+        "zh": "音视频接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03707",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video tinned pigtail",
+        "zh": "音视频接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03719",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video tinned pigtail",
+        "zh": "音视频接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03721",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video tinned pigtail",
+        "zh": "音视频接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03723",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video tinned pigtail",
+        "zh": "音视频接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03725",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video tinned pigtail",
+        "zh": "音视频接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05999",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video tinned pigtail",
+        "zh": "音视频接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-06000",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video tinned pigtail",
+        "zh": "音视频接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03650",
+      "aliases": [],
+      "description": {
+        "en": "Connector tinned pigtail",
+        "zh": "接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03929",
+      "aliases": [],
+      "description": {
+        "en": "Connector tinned pigtail",
+        "zh": "接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03930",
+      "aliases": [],
+      "description": {
+        "en": "Connector tinned pigtail",
+        "zh": "接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03931",
+      "aliases": [],
+      "description": {
+        "en": "Connector tinned pigtail",
+        "zh": "接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04662",
+      "aliases": [],
+      "description": {
+        "en": "Connector tinned pigtail",
+        "zh": "接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04671",
+      "aliases": [],
+      "description": {
+        "en": "Connector tinned pigtail",
+        "zh": "接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04672",
+      "aliases": [],
+      "description": {
+        "en": "Connector tinned pigtail",
+        "zh": "接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04695",
+      "aliases": [],
+      "description": {
+        "en": "Connector tinned pigtail",
+        "zh": "接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05805",
+      "aliases": [],
+      "description": {
+        "en": "Connector tinned pigtail",
+        "zh": "接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05806",
+      "aliases": [],
+      "description": {
+        "en": "Connector tinned pigtail",
+        "zh": "接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05807",
+      "aliases": [],
+      "description": {
+        "en": "Connector tinned pigtail",
+        "zh": "接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05808",
+      "aliases": [],
+      "description": {
+        "en": "Connector tinned pigtail",
+        "zh": "接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05809",
+      "aliases": [],
+      "description": {
+        "en": "Connector tinned pigtail",
+        "zh": "接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05810",
+      "aliases": [],
+      "description": {
+        "en": "Connector tinned pigtail",
+        "zh": "接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05811",
+      "aliases": [],
+      "description": {
+        "en": "Connector tinned pigtail",
+        "zh": "接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05812",
+      "aliases": [],
+      "description": {
+        "en": "Connector tinned pigtail",
+        "zh": "接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05813",
+      "aliases": [],
+      "description": {
+        "en": "Connector tinned pigtail",
+        "zh": "接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05814",
+      "aliases": [],
+      "description": {
+        "en": "Connector tinned pigtail",
+        "zh": "接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05815",
+      "aliases": [],
+      "description": {
+        "en": "Connector tinned pigtail",
+        "zh": "接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05816",
+      "aliases": [],
+      "description": {
+        "en": "Connector tinned pigtail",
+        "zh": "接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05817",
+      "aliases": [],
+      "description": {
+        "en": "Connector tinned pigtail",
+        "zh": "接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05818",
+      "aliases": [],
+      "description": {
+        "en": "Connector tinned pigtail",
+        "zh": "接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05819",
+      "aliases": [],
+      "description": {
+        "en": "Connector tinned pigtail",
+        "zh": "接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05820",
+      "aliases": [],
+      "description": {
+        "en": "Connector tinned pigtail",
+        "zh": "接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05821",
+      "aliases": [],
+      "description": {
+        "en": "Connector tinned pigtail",
+        "zh": "接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05822",
+      "aliases": [],
+      "description": {
+        "en": "Connector tinned pigtail",
+        "zh": "接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05823",
+      "aliases": [],
+      "description": {
+        "en": "Connector tinned pigtail",
+        "zh": "接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05824",
+      "aliases": [],
+      "description": {
+        "en": "Connector tinned pigtail",
+        "zh": "接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05825",
+      "aliases": [],
+      "description": {
+        "en": "Connector tinned pigtail",
+        "zh": "接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05826",
+      "aliases": [],
+      "description": {
+        "en": "Connector tinned pigtail",
+        "zh": "接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01242",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01246",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01249",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01257",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01936",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02230",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02250",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02482",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02489",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02500",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02501",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02505",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02506",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02507",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02511",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02514",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02516",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02517",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02875",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02876",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02877",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02878",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02879",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02964",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02978",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02981",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03132",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03133",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03136",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03319",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03356",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03374",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03672",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03866",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03867",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05155",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05156",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05157",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05158",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05234",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05244",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-06002",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-06255",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-06256",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-06257",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-06258",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-06358",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-06359",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-06360",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-06361",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-06362",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-06363",
+      "aliases": [],
+      "description": {
+        "en": "DC tinned pigtail",
+        "zh": "DC 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-06311",
+      "aliases": [],
+      "description": {
+        "en": "DIN tinned pigtail",
+        "zh": "DIN 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-06312",
+      "aliases": [],
+      "description": {
+        "en": "DIN tinned pigtail",
+        "zh": "DIN 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-06313",
+      "aliases": [],
+      "description": {
+        "en": "DIN tinned pigtail",
+        "zh": "DIN 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-06314",
+      "aliases": [],
+      "description": {
+        "en": "DIN tinned pigtail",
+        "zh": "DIN 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-06315",
+      "aliases": [],
+      "description": {
+        "en": "DIN tinned pigtail",
+        "zh": "DIN 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03804",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03816",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03824",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03836",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04464",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04469",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04479",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04489",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04494",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04499",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04504",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04724",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05488",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05493",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05508",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05513",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05542",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05547",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05562",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05567",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05596",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05601",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05616",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05650",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05655",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05670",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05675",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-06214",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-06215",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-06216",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-06219",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-06220",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-06449",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-06450",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-06451",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-06452",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-06484",
+      "aliases": [],
+      "description": {
+        "en": "M12 tinned pigtail",
+        "zh": "M12 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03632",
+      "aliases": [],
+      "description": {
+        "en": "M5 tinned pigtail",
+        "zh": "M5 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03634",
+      "aliases": [],
+      "description": {
+        "en": "M5 tinned pigtail",
+        "zh": "M5 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03876",
+      "aliases": [],
+      "description": {
+        "en": "M5 tinned pigtail",
+        "zh": "M5 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03877",
+      "aliases": [],
+      "description": {
+        "en": "M5 tinned pigtail",
+        "zh": "M5 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03878",
+      "aliases": [],
+      "description": {
+        "en": "M5 tinned pigtail",
+        "zh": "M5 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03879",
+      "aliases": [],
+      "description": {
+        "en": "M5 tinned pigtail",
+        "zh": "M5 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-06023",
+      "aliases": [],
+      "description": {
+        "en": "M5 tinned pigtail",
+        "zh": "M5 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-06025",
+      "aliases": [],
+      "description": {
+        "en": "M5 tinned pigtail",
+        "zh": "M5 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04265",
+      "aliases": [],
+      "description": {
+        "en": "M8 tinned pigtail",
+        "zh": "M8 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04270",
+      "aliases": [],
+      "description": {
+        "en": "M8 tinned pigtail",
+        "zh": "M8 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04285",
+      "aliases": [],
+      "description": {
+        "en": "M8 tinned pigtail",
+        "zh": "M8 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-04290",
+      "aliases": [],
+      "description": {
+        "en": "M8 tinned pigtail",
+        "zh": "M8 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05358",
+      "aliases": [],
+      "description": {
+        "en": "M8 tinned pigtail",
+        "zh": "M8 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05362",
+      "aliases": [],
+      "description": {
+        "en": "M8 tinned pigtail",
+        "zh": "M8 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05379",
+      "aliases": [],
+      "description": {
+        "en": "M8 tinned pigtail",
+        "zh": "M8 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05383",
+      "aliases": [],
+      "description": {
+        "en": "M8 tinned pigtail",
+        "zh": "M8 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05412",
+      "aliases": [],
+      "description": {
+        "en": "M8 tinned pigtail",
+        "zh": "M8 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05416",
+      "aliases": [],
+      "description": {
+        "en": "M8 tinned pigtail",
+        "zh": "M8 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05432",
+      "aliases": [],
+      "description": {
+        "en": "M8 tinned pigtail",
+        "zh": "M8 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05437",
+      "aliases": [],
+      "description": {
+        "en": "M8 tinned pigtail",
+        "zh": "M8 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05947",
+      "aliases": [],
+      "description": {
+        "en": "M8 tinned pigtail",
+        "zh": "M8 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05952",
+      "aliases": [],
+      "description": {
+        "en": "M8 tinned pigtail",
+        "zh": "M8 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05967",
+      "aliases": [],
+      "description": {
+        "en": "M8 tinned pigtail",
+        "zh": "M8 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05971",
+      "aliases": [],
+      "description": {
+        "en": "M8 tinned pigtail",
+        "zh": "M8 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02260",
+      "aliases": [],
+      "description": {
+        "en": "Push-pull tinned pigtail",
+        "zh": "推拉接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02262",
+      "aliases": [],
+      "description": {
+        "en": "Push-pull tinned pigtail",
+        "zh": "推拉接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02264",
+      "aliases": [],
+      "description": {
+        "en": "Push-pull tinned pigtail",
+        "zh": "推拉接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02266",
+      "aliases": [],
+      "description": {
+        "en": "Push-pull tinned pigtail",
+        "zh": "推拉接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02471",
+      "aliases": [],
+      "description": {
+        "en": "Push-pull tinned pigtail",
+        "zh": "推拉接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02472",
+      "aliases": [],
+      "description": {
+        "en": "Push-pull tinned pigtail",
+        "zh": "推拉接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02473",
+      "aliases": [],
+      "description": {
+        "en": "Push-pull tinned pigtail",
+        "zh": "推拉接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02474",
+      "aliases": [],
+      "description": {
+        "en": "Push-pull tinned pigtail",
+        "zh": "推拉接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03434",
+      "aliases": [],
+      "description": {
+        "en": "Rectangular tinned pigtail",
+        "zh": "矩形接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03437",
+      "aliases": [],
+      "description": {
+        "en": "Rectangular tinned pigtail",
+        "zh": "矩形接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03440",
+      "aliases": [],
+      "description": {
+        "en": "Rectangular tinned pigtail",
+        "zh": "矩形接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03443",
+      "aliases": [],
+      "description": {
+        "en": "Rectangular tinned pigtail",
+        "zh": "矩形接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03446",
+      "aliases": [],
+      "description": {
+        "en": "Rectangular tinned pigtail",
+        "zh": "矩形接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03449",
+      "aliases": [],
+      "description": {
+        "en": "Rectangular tinned pigtail",
+        "zh": "矩形接口 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02334",
+      "aliases": [],
+      "description": {
+        "en": "USB tinned pigtail",
+        "zh": "USB 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02335",
+      "aliases": [],
+      "description": {
+        "en": "USB tinned pigtail",
+        "zh": "USB 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02336",
+      "aliases": [],
+      "description": {
+        "en": "USB tinned pigtail",
+        "zh": "USB 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02337",
+      "aliases": [],
+      "description": {
+        "en": "USB tinned pigtail",
+        "zh": "USB 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02352",
+      "aliases": [],
+      "description": {
+        "en": "USB tinned pigtail",
+        "zh": "USB 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02353",
+      "aliases": [],
+      "description": {
+        "en": "USB tinned pigtail",
+        "zh": "USB 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02354",
+      "aliases": [],
+      "description": {
+        "en": "USB tinned pigtail",
+        "zh": "USB 浸锡尾线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02355",
+      "aliases": [],
+      "description": {
+        "en": "USB tinned pigtail",
+        "zh": "USB 浸锡尾线"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "brand": "Tensility",
+      "identifier": "30-00003",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00004",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00007",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00088",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00099",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00176",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00177",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00178",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00179",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00180",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00181",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00338",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00368",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00380",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00383",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00395",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00396",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00404",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00405",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00415",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00418",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00440",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00495",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00555",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00567",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00653",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00671",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00672",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00680",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00683",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00686",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00689",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00690",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00692",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00795",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00804",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00811",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00819",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00872",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00873",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00913",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00918",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01248",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01289",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01313",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01337",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01570",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01571",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01578",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01579",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01586",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01595",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01611",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01638",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01639",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01650",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01651",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01658",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01659",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01666",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01675",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01691",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02541",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02974",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02975",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02976",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02977",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02978",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02979",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02980",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02981",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03006",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03014",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03039",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03061",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03154",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03164",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03165",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03174",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03429",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03430",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03601",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03676",
+      "aliases": [],
+      "description": {
+        "en": "Pigtail cable stock",
+        "zh": "尾线用线缆"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00039",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video connector",
+        "zh": "音视频接口 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00041",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video connector",
+        "zh": "音视频接口 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00185",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video connector",
+        "zh": "音视频接口 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00396",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video connector",
+        "zh": "音视频接口 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00397",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video connector",
+        "zh": "音视频接口 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00398",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video connector",
+        "zh": "音视频接口 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00399",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video connector",
+        "zh": "音视频接口 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00400",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video connector",
+        "zh": "音视频接口 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00401",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video connector",
+        "zh": "音视频接口 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00402",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video connector",
+        "zh": "音视频接口 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00403",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video connector",
+        "zh": "音视频接口 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00404",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video connector",
+        "zh": "音视频接口 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00405",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video connector",
+        "zh": "音视频接口 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00406",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video connector",
+        "zh": "音视频接口 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00407",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video connector",
+        "zh": "音视频接口 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00423",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video connector",
+        "zh": "音视频接口 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00501",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video connector",
+        "zh": "音视频接口 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00502",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video connector",
+        "zh": "音视频接口 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00945",
+      "aliases": [],
+      "description": {
+        "en": "Audio/video connector",
+        "zh": "音视频接口 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00129",
+      "aliases": [],
+      "description": {
+        "en": "Connector connector",
+        "zh": "连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01014",
+      "aliases": [],
+      "description": {
+        "en": "Connector connector",
+        "zh": "连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01015",
+      "aliases": [],
+      "description": {
+        "en": "Connector connector",
+        "zh": "连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01016",
+      "aliases": [],
+      "description": {
+        "en": "Connector connector",
+        "zh": "连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01017",
+      "aliases": [],
+      "description": {
+        "en": "Connector connector",
+        "zh": "连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01018",
+      "aliases": [],
+      "description": {
+        "en": "Connector connector",
+        "zh": "连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01019",
+      "aliases": [],
+      "description": {
+        "en": "Connector connector",
+        "zh": "连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01020",
+      "aliases": [],
+      "description": {
+        "en": "Connector connector",
+        "zh": "连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01021",
+      "aliases": [],
+      "description": {
+        "en": "Connector connector",
+        "zh": "连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01026",
+      "aliases": [],
+      "description": {
+        "en": "Connector connector",
+        "zh": "连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01027",
+      "aliases": [],
+      "description": {
+        "en": "Connector connector",
+        "zh": "连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01028",
+      "aliases": [],
+      "description": {
+        "en": "Connector connector",
+        "zh": "连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01029",
+      "aliases": [],
+      "description": {
+        "en": "Connector connector",
+        "zh": "连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01030",
+      "aliases": [],
+      "description": {
+        "en": "Connector connector",
+        "zh": "连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01031",
+      "aliases": [],
+      "description": {
+        "en": "Connector connector",
+        "zh": "连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01033",
+      "aliases": [],
+      "description": {
+        "en": "Connector connector",
+        "zh": "连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00001",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00010",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00011",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00024",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00025",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00026",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00027",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00028",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00030",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00031",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00045",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00052",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00056",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00057",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00090",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00091",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00133",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00136",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00152",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00153",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00186",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00187",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00313",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00314",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00315",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00316",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00540",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00541",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00542",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00543",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00616",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00617",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00637",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00674",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00706",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00707",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00060",
+      "aliases": [],
+      "description": {
+        "en": "DC connector",
+        "zh": "DC 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00951",
+      "aliases": [],
+      "description": {
+        "en": "M12 connector",
+        "zh": "M12 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00952",
+      "aliases": [],
+      "description": {
+        "en": "M12 connector",
+        "zh": "M12 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00953",
+      "aliases": [],
+      "description": {
+        "en": "M12 connector",
+        "zh": "M12 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00954",
+      "aliases": [],
+      "description": {
+        "en": "M12 connector",
+        "zh": "M12 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00955",
+      "aliases": [],
+      "description": {
+        "en": "M12 connector",
+        "zh": "M12 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00958",
+      "aliases": [],
+      "description": {
+        "en": "M12 connector",
+        "zh": "M12 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00959",
+      "aliases": [],
+      "description": {
+        "en": "M12 connector",
+        "zh": "M12 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00960",
+      "aliases": [],
+      "description": {
+        "en": "M12 connector",
+        "zh": "M12 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00961",
+      "aliases": [],
+      "description": {
+        "en": "M12 connector",
+        "zh": "M12 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00962",
+      "aliases": [],
+      "description": {
+        "en": "M12 connector",
+        "zh": "M12 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00979",
+      "aliases": [],
+      "description": {
+        "en": "M12 connector",
+        "zh": "M12 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00980",
+      "aliases": [],
+      "description": {
+        "en": "M12 connector",
+        "zh": "M12 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00981",
+      "aliases": [],
+      "description": {
+        "en": "M12 connector",
+        "zh": "M12 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00982",
+      "aliases": [],
+      "description": {
+        "en": "M12 connector",
+        "zh": "M12 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00983",
+      "aliases": [],
+      "description": {
+        "en": "M12 connector",
+        "zh": "M12 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00986",
+      "aliases": [],
+      "description": {
+        "en": "M12 connector",
+        "zh": "M12 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00987",
+      "aliases": [],
+      "description": {
+        "en": "M12 connector",
+        "zh": "M12 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00988",
+      "aliases": [],
+      "description": {
+        "en": "M12 connector",
+        "zh": "M12 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00989",
+      "aliases": [],
+      "description": {
+        "en": "M12 connector",
+        "zh": "M12 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00990",
+      "aliases": [],
+      "description": {
+        "en": "M12 connector",
+        "zh": "M12 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01032",
+      "aliases": [],
+      "description": {
+        "en": "M12 connector",
+        "zh": "M12 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00601",
+      "aliases": [],
+      "description": {
+        "en": "M5 connector",
+        "zh": "M5 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00602",
+      "aliases": [],
+      "description": {
+        "en": "M5 connector",
+        "zh": "M5 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00604",
+      "aliases": [],
+      "description": {
+        "en": "M5 connector",
+        "zh": "M5 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00605",
+      "aliases": [],
+      "description": {
+        "en": "M5 connector",
+        "zh": "M5 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00670",
+      "aliases": [],
+      "description": {
+        "en": "M5 connector",
+        "zh": "M5 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00671",
+      "aliases": [],
+      "description": {
+        "en": "M5 connector",
+        "zh": "M5 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00672",
+      "aliases": [],
+      "description": {
+        "en": "M5 connector",
+        "zh": "M5 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00673",
+      "aliases": [],
+      "description": {
+        "en": "M5 connector",
+        "zh": "M5 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00675",
+      "aliases": [],
+      "description": {
+        "en": "M8 connector",
+        "zh": "M8 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00676",
+      "aliases": [],
+      "description": {
+        "en": "M8 connector",
+        "zh": "M8 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00677",
+      "aliases": [],
+      "description": {
+        "en": "M8 connector",
+        "zh": "M8 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00678",
+      "aliases": [],
+      "description": {
+        "en": "M8 connector",
+        "zh": "M8 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00679",
+      "aliases": [],
+      "description": {
+        "en": "M8 connector",
+        "zh": "M8 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00680",
+      "aliases": [],
+      "description": {
+        "en": "M8 connector",
+        "zh": "M8 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00681",
+      "aliases": [],
+      "description": {
+        "en": "M8 connector",
+        "zh": "M8 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00682",
+      "aliases": [],
+      "description": {
+        "en": "M8 connector",
+        "zh": "M8 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01003",
+      "aliases": [],
+      "description": {
+        "en": "M8 connector",
+        "zh": "M8 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01004",
+      "aliases": [],
+      "description": {
+        "en": "M8 connector",
+        "zh": "M8 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01005",
+      "aliases": [],
+      "description": {
+        "en": "M8 connector",
+        "zh": "M8 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01006",
+      "aliases": [],
+      "description": {
+        "en": "M8 connector",
+        "zh": "M8 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01007",
+      "aliases": [],
+      "description": {
+        "en": "M8 connector",
+        "zh": "M8 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01008",
+      "aliases": [],
+      "description": {
+        "en": "M8 connector",
+        "zh": "M8 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01009",
+      "aliases": [],
+      "description": {
+        "en": "M8 connector",
+        "zh": "M8 连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01034",
+      "aliases": [],
+      "description": {
+        "en": "M8 connector",
+        "zh": "M8 连接器"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Pigtail & Branch Harness",
+    "zh": "尾线与分支线束"
+  }
+}

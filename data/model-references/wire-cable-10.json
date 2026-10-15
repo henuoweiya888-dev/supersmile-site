@@ -1,0 +1,2385 @@
+{
+  "version": 2,
+  "category_id": "wire-cable-10",
+  "route": "/products/halogen-free-cable",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Manufacturer-identified finished assemblies for this application.",
+        "zh": "此应用范围内经原厂资料核验的成品组件。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Category-specific material references; the final BOM follows the approved configuration.",
+        "zh": "此类选型的材料参考；最终 BOM 以确认配置为准。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Selection & Project Review",
+    "zh": "选型与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Application Boundary",
+        "zh": "应用边界"
+      },
+      "copy": {
+        "en": "One LSZH label does not prove every material and fire property.",
+        "zh": "一个 LSZH 标签不能证明所有材料与火灾性能。"
+      }
+    },
+    {
+      "title": {
+        "en": "Project Inputs",
+        "zh": "项目输入"
+      },
+      "copy": {
+        "en": "Provide exact test methods, limits, cable construction and traceability.",
+        "zh": "请提供准确试验方法、限值、线缆结构与追溯。"
+      }
+    },
+    {
+      "title": {
+        "en": "Release Records",
+        "zh": "放行依据"
+      },
+      "copy": {
+        "en": "Release records the exact material construction and supporting reports.",
+        "zh": "放行记录包含准确材料结构与支持报告。"
+      }
+    },
+    {
+      "title": {
+        "en": "Interface Review",
+        "zh": "接口审核"
+      },
+      "copy": {
+        "en": "Confirm the exact mating interface, pin map, dimensions and installation orientation.",
+        "zh": "确认准确对插接口、针脚对应、尺寸及安装方向。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sample Acceptance",
+        "zh": "样品验收"
+      },
+      "copy": {
+        "en": "Agree the sample configuration and electrical, mechanical or environmental checks required by the project.",
+        "zh": "约定样品配置以及项目所需的电气、机械或环境检查。"
+      }
+    },
+    {
+      "title": {
+        "en": "Change Control",
+        "zh": "变更控制"
+      },
+      "copy": {
+        "en": "Record changes to materials, drawings and process instructions before repeat manufacture.",
+        "zh": "重复制造前记录材料、图纸与工艺说明的变更。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=wire-cable-10&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [],
+  "materials": [
+    {
+      "brand": "Avient",
+      "identifier": "5549/1",
+      "aliases": [
+        "ECCOH 5549/1"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036001",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01973",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "100017735",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.01.12",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "PF 1040",
+      "aliases": [
+        "ECCOH PF 1040"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036002",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01974",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51037",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF11.001.D",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "XLS 8001",
+      "aliases": [
+        "ECCOH XLS 8001"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036003",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01975",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51998",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF111.001.D",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "5501 UV",
+      "aliases": [
+        "ECCOH 5501 UV"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036004",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01976",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51997",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF112.02.02.02",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "5865/1",
+      "aliases": [
+        "ECCOH 5865/1"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036005",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01977",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "100017736",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF113.001.D",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "5549 LM",
+      "aliases": [
+        "ECCOH 5549 LM"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036006",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01978",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF12.02.04.02",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "PF 1043",
+      "aliases": [
+        "ECCOH PF 1043"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036007",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01979",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF27.07.03.02.02.D",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "XLS CAT5",
+      "aliases": [
+        "ECCOH XLS CAT5"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036008",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01980",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF77.UL.02.03.INI",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "PF 1044",
+      "aliases": [
+        "ECCOH PF 1044"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036009",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01981",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF78.UL.05.04",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "5555 UV",
+      "aliases": [
+        "ECCOH 5555 UV"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036010",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01982",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.02.02",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "PF 4142",
+      "aliases": [
+        "ECCOH PF 4142"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036011",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01983",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF98.01.03",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "5809",
+      "aliases": [
+        "ECCOH 5809"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036012",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01984",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF99.PLUS.01.02",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "5836",
+      "aliases": [
+        "ECCOH 5836"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036013",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01985",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFBUS-LB-004",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "5918",
+      "aliases": [
+        "ECCOH 5918"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036014",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01986",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT4.001",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "5924 UV",
+      "aliases": [
+        "ECCOH 5924 UV"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036015",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01987",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT7.07.03.02.02.C",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "5943",
+      "aliases": [
+        "ECCOH 5943"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036016",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01988",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFTHERMO.J.001",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "5995",
+      "aliases": [
+        "ECCOH 5995"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036017",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01989",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.01.18",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "6150",
+      "aliases": [
+        "ECCOH 6150"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036018",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01990",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF11.002.D",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "6151",
+      "aliases": [
+        "ECCOH 6151"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036019",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01991",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF111.002.D",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "6200 D",
+      "aliases": [
+        "ECCOH 6200 D"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036020",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01992",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF112.02.03.02",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036021",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01993",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF113.002.D",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036022",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01994",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF12.05.03.02",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036023",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01995",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF27.07.04.D",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036024",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01996",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF77.UL.02.04.D",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036025",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01997",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF78.UL.05.05",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036026",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01998",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.02.03.INI",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036027",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01999",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF98.02.04",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036028",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02000",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF99.PLUS.01.04",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036029",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02001",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFBUS.LB.001",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036030",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02002",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT4.006",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036031",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02003",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT7.15.03.C",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036032",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02004",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFTHERMO.K.001",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036033",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02005",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.02.04",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036034",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02006",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF11.003.D",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036035",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02007",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF111.004.D",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036036",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02008",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF112.02.04.02",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036037",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02009",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF113.003.D",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036038",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02010",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF12.05.04.02",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036039",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02011",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF27.07.05.02.01.D",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036040",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02012",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF77.UL.02.05.D",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036041",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02013",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF78.UL.05.07",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036042",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02014",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.02.06",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036043",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02015",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF98.02.08",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036044",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02016",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF99.PLUS.01.08",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036045",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02017",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFBUS.LB.020",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036046",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02018",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT4.009",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036047",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02019",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT7.15.04.C",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036048",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02020",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFTHERMO.K.002",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036049",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02021",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.02.08",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036050",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02022",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF11.004.D",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036051",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02023",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF111.006.D",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036052",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02024",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF112.02.05.02",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036053",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02025",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF113.004.D",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036054",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02026",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF12.05.06.02",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036055",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02027",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF27.10.07.02.02.D",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036056",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02028",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF77.UL.02.07.D",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036057",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02029",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF78.UL.05.09",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036058",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02030",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.02.07",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036059",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02031",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF98.03.07",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036060",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02032",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF99.PLUS.02.04",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "10036061",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02033",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFBUS.LB.021",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1123437",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02034",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT4.015",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1123464",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02035",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT7.15.15.02.02.C",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1123465",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02036",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFTHERMO.N.001",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1123466",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02037",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF113.005.D",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1123467",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02038",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF12.05.08.02",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1123468",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02039",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF27.100.15.02.01.D",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1123469",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02040",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF77.UL.02.12.D",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1123470",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02041",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF78.UL.05.12",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1123471",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02042",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.02.08",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1123472",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02043",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF98.PLUS.01.02",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1123473",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02044",
+      "aliases": [],
+      "description": {
+        "en": "Halogen-free cable material",
+        "zh": "无卤线缆材料"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Halogen-Free Cable",
+    "zh": "无卤电缆"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "material_scope",
+    "reason": {
+      "en": "Wire, bulk cable and polymer grades are materials. They are not counted as terminated cable assemblies.",
+      "zh": "电线、卷装电缆与胶料牌号属于材料，不计为已端接电缆组件。"
+    },
+    "audit_id": "wire-material-batches/wire-cable-10-materials-strict-ready.json",
+    "verified_counts": {
+      "products": 0,
+      "materials": 240
+    }
+  }
+}

@@ -1,0 +1,392 @@
+{
+  "version": 2,
+  "category_id": "automotive-02",
+  "route": "/products/ecu-dcu-service-harness",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Manufacturer-identified finished assemblies for this application.",
+        "zh": "此应用范围内经原厂资料核验的成品组件。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Category-specific material references; the final BOM follows the approved configuration.",
+        "zh": "此类选型的材料参考；最终 BOM 以确认配置为准。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Selection & Project Review",
+    "zh": "选型与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Application Boundary",
+        "zh": "应用边界"
+      },
+      "copy": {
+        "en": "An ECU or DCU connector can combine battery and ignition feeds, grounds, regulated sensor supplies, analogue and digital inputs, low-side or high-side outputs, communication buses, shields and reserved circuits. Connector identity is only the first layer.",
+        "zh": "一个 ECU 或 DCU 连接器可能同时包含蓄电池与点火供电、接地、稳压传感器电源、模拟与数字输入、高边或低边输出、通信总线、屏蔽及预留回路。连接器身份只是第一层；放行线束还必须保持孔位编号、端子体系、线径、线对结构、接续拓扑、保护、密封、分支位置以及每个连接负载的电气限值。"
+      }
+    },
+    {
+      "title": {
+        "en": "Project Inputs",
+        "zh": "项目输入"
+      },
+      "copy": {
+        "en": "Provide controller manufacturer and exact part number; vehicle or equipment platform and model year; connector housings, terminals, seals and backshells; mating-face views; released pin schedule; supply voltage and load current; network type; sensors and actuators; branch and splice drawing; installation zone; length datums; protection; quantity; labels; and the required bench, vehicle or environmental validation.",
+        "zh": "请提供控制器制造商与准确型号；车辆或设备平台及年份；连接器壳体、端子、密封与尾壳；对插面视图；已放行针脚表；供电电压和负载电流；网络类型；传感器与执行器；分支和接续图；安装区域；长度基准；保护方案；数量；标签以及所需台架、实车或环境验证。"
+      }
+    },
+    {
+      "title": {
+        "en": "Release Records",
+        "zh": "放行依据"
+      },
+      "copy": {
+        "en": "We translate approved interface data into a controlled drawing, bill of materials, circuit table and test program. Samples are checked for connector fit, keying, wire and seal compatibility, pin mapping, dimensions and the agreed electrical functions before repeat production. Vehicle function, calibration, programming and safety behavior remain system-level responsibilities unless the exact equipment and validation scope are included.",
+        "zh": "我们把批准的接口资料转化为受控图纸、物料表、回路表与测试程序。样品在重复生产前核对连接器匹配、防错、线材与密封相容、针脚映射、尺寸及约定电气功能。整车功能、标定、编程与安全行为仍属于系统层责任，除非项目明确包含准确设备与验证范围。"
+      }
+    },
+    {
+      "title": {
+        "en": "Interface Review",
+        "zh": "接口审核"
+      },
+      "copy": {
+        "en": "Confirm the exact mating interface, pin map, dimensions and installation orientation.",
+        "zh": "确认准确对插接口、针脚对应、尺寸及安装方向。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sample Acceptance",
+        "zh": "样品验收"
+      },
+      "copy": {
+        "en": "Agree the sample configuration and electrical, mechanical or environmental checks required by the project.",
+        "zh": "约定样品配置以及项目所需的电气、机械或环境检查。"
+      }
+    },
+    {
+      "title": {
+        "en": "Change Control",
+        "zh": "变更控制"
+      },
+      "copy": {
+        "en": "Record changes to materials, drawings and process instructions before repeat manufacture.",
+        "zh": "重复制造前记录材料、图纸与工艺说明的变更。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=automotive-02&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "Painless Performance",
+      "identifier": "60617",
+      "aliases": [],
+      "description": {
+        "en": "1999-2006 GM Gen III 4.8/5.3/6.0L Integrated EFI & Chassis Harness – Mech. TB",
+        "zh": "ECU 控制连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "60608",
+      "aliases": [],
+      "description": {
+        "en": "1997-2004 GM LS1/LS6 Integrated EFI & Chassis Harness – Mechanical TB",
+        "zh": "ECU 控制连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "60526",
+      "aliases": [],
+      "description": {
+        "en": "2007-2012 GM Gen IV 4.8-6.2L EFI Harness – Throttle by Wire",
+        "zh": "ECU 控制连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "60524",
+      "aliases": [],
+      "description": {
+        "en": "2008+ Gen IV LS3 EFI Harness – Throttle By Wire",
+        "zh": "ECU 控制连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "60522",
+      "aliases": [],
+      "description": {
+        "en": "1997-2004 GM LS1 EFI Harness – Throttle by Wire",
+        "zh": "ECU 控制连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "60520",
+      "aliases": [],
+      "description": {
+        "en": "2005-2006 GM LS2 EFI Harness – Throttle By Wire",
+        "zh": "ECU 控制连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "60511",
+      "aliases": [],
+      "description": {
+        "en": "Ford 1986 – 1995 5.0L Fuel Injection Wiring Harness Extra Length",
+        "zh": "ECU 控制连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "60510",
+      "aliases": [],
+      "description": {
+        "en": "Ford 1986 – 1995 5.0L Fuel Injection Wiring Harness – Std. Length",
+        "zh": "ECU 控制连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "60509",
+      "aliases": [],
+      "description": {
+        "en": "1998-2004 GM LS1/LS6 EFI Extra Length Harness",
+        "zh": "ECU 控制连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "60508",
+      "aliases": [],
+      "description": {
+        "en": "1998-2004 GM LS1/LS6 EFI Harness",
+        "zh": "ECU 控制连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "60221",
+      "aliases": [],
+      "description": {
+        "en": "2003-2006 GM Gen III 4.8/5.3/6.0L EFI Harness – Throttle by Wire",
+        "zh": "ECU 控制连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "60218",
+      "aliases": [],
+      "description": {
+        "en": "1999-2006 GM Gen III 4.8/5.3/6.0L EFI Harness Extra Length – Mechanical TB",
+        "zh": "ECU 控制连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "60217",
+      "aliases": [],
+      "description": {
+        "en": "1999-2006 GM Gen III 4.8/5.3/6.0L EFI Harness – Mechanical TB",
+        "zh": "ECU 控制连接线束"
+      }
+    },
+    {
+      "brand": "Haltech",
+      "identifier": "HT-140602",
+      "aliases": [],
+      "description": {
+        "en": "Elite ECU Universal Wire-in Harness",
+        "zh": "ECU 控制连接线束"
+      }
+    },
+    {
+      "brand": "Haltech",
+      "identifier": "HT-185200",
+      "aliases": [],
+      "description": {
+        "en": "NEXUS R5 Universal Wire-In Harness",
+        "zh": "ECU 控制连接线束"
+      }
+    },
+    {
+      "brand": "Haltech",
+      "identifier": "HT-130046",
+      "aliases": [],
+      "description": {
+        "en": "Flying lead CAN harness, AMP Superseal interface",
+        "zh": "ECU 控制连接线束"
+      }
+    },
+    {
+      "brand": "Haltech",
+      "identifier": "HT-130047",
+      "aliases": [],
+      "description": {
+        "en": "M12 6-pin CAN adapter harness",
+        "zh": "ECU 控制连接线束"
+      }
+    },
+    {
+      "brand": "Haltech",
+      "identifier": "HT-130048",
+      "aliases": [],
+      "description": {
+        "en": "JST 5-pin CAN harness with flying power leads",
+        "zh": "ECU 控制连接线束"
+      }
+    },
+    {
+      "brand": "Haltech",
+      "identifier": "HT-130049",
+      "aliases": [],
+      "description": {
+        "en": "Molex Mini-Fit Jr 4-pin CAN harness",
+        "zh": "ECU 控制连接线束"
+      }
+    },
+    {
+      "brand": "Haltech",
+      "identifier": "HT-140604",
+      "aliases": [],
+      "description": {
+        "en": "Elite ECU Universal Wire-in Harness",
+        "zh": "ECU 控制连接线束"
+      }
+    },
+    {
+      "brand": "Haltech",
+      "identifier": "HT-141306",
+      "aliases": [],
+      "description": {
+        "en": "Elite ECU Universal Wire-in Harness",
+        "zh": "ECU 控制连接线束"
+      }
+    },
+    {
+      "brand": "Haltech",
+      "identifier": "HT-141304",
+      "aliases": [],
+      "description": {
+        "en": "Elite ECU Universal Wire-in Harness",
+        "zh": "ECU 控制连接线束"
+      }
+    },
+    {
+      "brand": "Haltech",
+      "identifier": "HT-141302",
+      "aliases": [],
+      "description": {
+        "en": "Elite ECU Universal Wire-in Harness",
+        "zh": "ECU 控制连接线束"
+      }
+    }
+  ],
+  "materials": [],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "ECU / DCU Service Harness",
+    "zh": "ECU / DCU维修线束"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "narrow_published_range",
+    "reason": {
+      "en": "Application-specific references are shown at their audited counts. Materials require their own category evidence and are not assumed to be the BOM of every listed assembly.",
+      "zh": "应用专用编号按核验的实际数量展示；材料须有独立类别依据，不将其视为每件成品的通用 BOM。"
+    },
+    "audit_id": "automotive-validated/automotive-02.json",
+    "verified_counts": {
+      "products": 23,
+      "materials": 0
+    }
+  }
+}

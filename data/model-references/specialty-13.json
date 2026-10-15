@@ -1,0 +1,266 @@
+{
+  "version": 2,
+  "category_id": "specialty-13",
+  "route": "/products/high-temperature-overmolding",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Manufacturer-identified assemblies for interface selection.",
+        "zh": "经原厂资料核验的接口组件参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Materials identified for the specific interface or molding process.",
+        "zh": "用于具体接口或成型工艺选型的材料。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Thermal profile",
+        "zh": "定义真实温度谱"
+      },
+      "copy": {
+        "en": "Identify continuous temperatures, short peaks, dwell time, thermal cycling and current-generated heat at each zone.",
+        "zh": "逐温区明确持续温度、短时峰值、停留时间、冷热循环及电流自发热。"
+      }
+    },
+    {
+      "title": {
+        "en": "Complete material stack",
+        "zh": "审核完整材料组合"
+      },
+      "copy": {
+        "en": "Review wire insulation, connector or sensor inserts, overmold resin and seals together. The lowest-rated element can limit the assembly.",
+        "zh": "一并审核线材绝缘、连接器或传感器嵌件、包覆树脂与密封件；额定值最低的部件可能限制整套组件。"
+      }
+    },
+    {
+      "title": {
+        "en": "Processing versus service",
+        "zh": "区分加工与使用温度"
+      },
+      "copy": {
+        "en": "Do not treat softening point, molding temperature or an unloaded resin temperature range as a finished cable operating rating.",
+        "zh": "不能把软化点、成型温度或树脂无机械应力时的温区，当作成品电缆的工作额定值。"
+      }
+    },
+    {
+      "title": {
+        "en": "Adhesion and geometry",
+        "zh": "核对附着与结构"
+      },
+      "copy": {
+        "en": "Confirm jacket and housing compatibility, wall sections, mechanical interlocks, exit shape and stress relief through thermal expansion and contraction.",
+        "zh": "确认护套与壳体相容性、壁厚、机械锁合、出线形状及热胀冷缩时的应力释放。"
+      }
+    },
+    {
+      "title": {
+        "en": "Fluids and sealing",
+        "zh": "同时审核介质与密封"
+      },
+      "copy": {
+        "en": "Specify the actual oil, coolant, humidity or other exposure and the required sealing condition before and after thermal cycling.",
+        "zh": "指定实际油液、冷却液、湿度或其他介质，以及冷热循环前后的密封要求。"
+      }
+    },
+    {
+      "title": {
+        "en": "Release evidence",
+        "zh": "保留放行依据"
+      },
+      "copy": {
+        "en": "Freeze material identities, conditioning, tooling and the process window, then agree electrical, mechanical and environmental evidence for the real configuration.",
+        "zh": "冻结材料身份、预处理、工装与工艺窗口，再为真实配置约定电气、机械与环境验证依据。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=specialty-13&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [],
+  "materials": [
+    {
+      "brand": "Bostik",
+      "identifier": "Thermelt 867",
+      "aliases": [],
+      "description": {
+        "en": "Thermally resistant molding polyamide candidate",
+        "zh": "耐热成型聚酰胺候选材料"
+      }
+    },
+    {
+      "brand": "Bostik",
+      "identifier": "Thermelt 858",
+      "aliases": [],
+      "description": {
+        "en": "Thermally resistant molding polyamide candidate",
+        "zh": "耐热成型聚酰胺候选材料"
+      }
+    },
+    {
+      "brand": "Bostik",
+      "identifier": "Thermelt 195",
+      "aliases": [],
+      "description": {
+        "en": "Thermally resistant molding polyamide candidate",
+        "zh": "耐热成型聚酰胺候选材料"
+      }
+    },
+    {
+      "brand": "Henkel",
+      "identifier": "TECHNOMELT PA 641",
+      "aliases": [],
+      "description": {
+        "en": "Thermally resistant molding polyamide candidate",
+        "zh": "耐热成型聚酰胺候选材料"
+      }
+    },
+    {
+      "brand": "Henkel",
+      "identifier": "TECHNOMELT PA 646",
+      "aliases": [],
+      "description": {
+        "en": "Thermally resistant molding polyamide candidate",
+        "zh": "耐热成型聚酰胺候选材料"
+      }
+    },
+    {
+      "brand": "Henkel",
+      "identifier": "TECHNOMELT PA 673",
+      "aliases": [],
+      "description": {
+        "en": "Thermally resistant molding polyamide candidate",
+        "zh": "耐热成型聚酰胺候选材料"
+      }
+    },
+    {
+      "brand": "Henkel",
+      "identifier": "TECHNOMELT PA 678",
+      "aliases": [],
+      "description": {
+        "en": "Thermally resistant molding polyamide candidate",
+        "zh": "耐热成型聚酰胺候选材料"
+      }
+    },
+    {
+      "brand": "Henkel",
+      "identifier": "TECHNOMELT PA 682",
+      "aliases": [],
+      "description": {
+        "en": "Thermally resistant molding polyamide candidate",
+        "zh": "耐热成型聚酰胺候选材料"
+      }
+    },
+    {
+      "brand": "Henkel",
+      "identifier": "TECHNOMELT PA 687",
+      "aliases": [],
+      "description": {
+        "en": "Thermally resistant molding polyamide candidate",
+        "zh": "耐热成型聚酰胺候选材料"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "High-Temperature Overmolding",
+    "zh": "高温注塑包胶"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "material_scope",
+    "reason": {
+      "en": "Project and manufacturer references are shown only at their audited counts. Process requirements are defined separately from finished-product ratings.",
+      "zh": "项目与原厂编号仅按实际核验数量展示，工艺要求和成品等级分别定义。"
+    },
+    "audit_id": "specialty-13-process-literal-candidates.json",
+    "verified_counts": {
+      "products": 0,
+      "materials": 9
+    }
+  }
+}

@@ -1,0 +1,2967 @@
+{
+  "version": 2,
+  "category_id": "automotive-07",
+  "route": "/products/vehicle-lighting-harness",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Manufacturer-identified finished assemblies for this application.",
+        "zh": "此应用范围内经原厂资料核验的成品组件。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Category-specific material references; the final BOM follows the approved configuration.",
+        "zh": "此类选型的材料参考；最终 BOM 以确认配置为准。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Selection & Project Review",
+    "zh": "选型与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Application Boundary",
+        "zh": "应用边界"
+      },
+      "copy": {
+        "en": "A lighting harness is not defined by a bulb socket alone. Lamp technology, optical function, circuit current, switching method, body controller, diagnostics, connector keying, route, thermal zone, sealing and destination-market requirements determine the released assembly. A connector that fits can still have the wrong pinout, ground strategy, load capacity or control architecture.",
+        "zh": "汽车灯线束不能只凭灯泡插座定义。灯具技术、光学功能、回路电流、开关方式、车身控制器、诊断、连接器防错、走线、热区、密封与目标市场要求共同决定放行组件。连接器即使能插合，也可能存在针脚、接地策略、负载能力或控制架构错误。"
+      }
+    },
+    {
+      "title": {
+        "en": "Project Inputs",
+        "zh": "项目输入"
+      },
+      "copy": {
+        "en": "Provide vehicle or equipment identity; model year and market; lamp positions and technologies; lamp, bulb, driver and mating-connector data; system voltage; circuit and pin tables; continuous, inrush and fault current; fuse, relay, BCM, PWM or LIN control; ground strategy; route and branch datums; temperature, water, salt, vibration and flex exposure; drawings or samples; labels; quantity; and required validation.",
+        "zh": "请提供车辆或设备身份、年款与市场、灯位与灯具技术、灯具、灯泡、驱动器和对插件资料、系统电压、回路与针脚表、持续、冲击与故障电流、保险、继电器、BCM、PWM 或 LIN 控制、接地策略、走线与分支基准、温度、水、盐、振动及弯折暴露、图纸或样品、标签、数量与所需验证。"
+      }
+    },
+    {
+      "title": {
+        "en": "Release Records",
+        "zh": "放行依据"
+      },
+      "copy": {
+        "en": "Approved requirements become controlled drawings, pin and circuit tables, BOMs, cut lists, splice maps, branch datums, protection instructions, labels and test definitions. First articles are checked for mating, reach, lamp installation, current path, voltage drop and agreed functions before repeat production. Harness, lamp, vehicle configuration, fixture and inspection records remain linked by revision.",
+        "zh": "批准需求会转化为受控图纸、针脚与回路表、物料表、裁线表、接续图、分支基准、防护工艺、标签与测试定义。重复生产前检查首件的对插、可达、灯具装配、电流路径、压降与约定功能，线束、灯具、车辆配置、工装及检验记录按版本保持关联。"
+      }
+    },
+    {
+      "title": {
+        "en": "Interface Review",
+        "zh": "接口审核"
+      },
+      "copy": {
+        "en": "Confirm the exact mating interface, pin map, dimensions and installation orientation.",
+        "zh": "确认准确对插接口、针脚对应、尺寸及安装方向。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sample Acceptance",
+        "zh": "样品验收"
+      },
+      "copy": {
+        "en": "Agree the sample configuration and electrical, mechanical or environmental checks required by the project.",
+        "zh": "约定样品配置以及项目所需的电气、机械或环境检查。"
+      }
+    },
+    {
+      "title": {
+        "en": "Change Control",
+        "zh": "变更控制"
+      },
+      "copy": {
+        "en": "Record changes to materials, drawings and process instructions before repeat manufacture.",
+        "zh": "重复制造前记录材料、图纸与工艺说明的变更。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=automotive-07&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "American Autowire",
+      "identifier": "510139",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Pigtail - Tremec TKO",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44286",
+      "aliases": [],
+      "description": {
+        "en": "Rear Body Tail Light Harness",
+        "zh": "尾灯连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39991",
+      "aliases": [],
+      "description": {
+        "en": "Rear Body Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39989",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Switch Extension Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39985",
+      "aliases": [],
+      "description": {
+        "en": "4 Wheel Drive Indicator Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39912",
+      "aliases": [],
+      "description": {
+        "en": "License Lamp Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39850",
+      "aliases": [],
+      "description": {
+        "en": "Rear Cargo Lamp Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39831",
+      "aliases": [],
+      "description": {
+        "en": "Dome Lamp Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39823",
+      "aliases": [],
+      "description": {
+        "en": "Rear Tail And Stop Lamp Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39771",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Switch Extension",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39761",
+      "aliases": [],
+      "description": {
+        "en": "Dome Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39760",
+      "aliases": [],
+      "description": {
+        "en": "Dome Light Extension Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "26915",
+      "aliases": [],
+      "description": {
+        "en": "Courtesy Lamp Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "NV67881",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Jumper Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36055",
+      "aliases": [],
+      "description": {
+        "en": "Cigarette Lighter Lamp Wire",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36046",
+      "aliases": [],
+      "description": {
+        "en": "Courtesy Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "35889",
+      "aliases": [],
+      "description": {
+        "en": "Headlight Bucket Harness Extension",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "35886",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "35390",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Harness - Altdi",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "34570",
+      "aliases": [],
+      "description": {
+        "en": "Turn Signal Harness",
+        "zh": "转向灯连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "34155",
+      "aliases": [],
+      "description": {
+        "en": "Rear Body Light Harness Long Bed Extension",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "33965",
+      "aliases": [],
+      "description": {
+        "en": "Parking Light And Lead Wire Assembly",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "33960",
+      "aliases": [],
+      "description": {
+        "en": "Headlight Connection Harness",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "31680",
+      "aliases": [],
+      "description": {
+        "en": "Courtesy And Dome Light Jumper Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "30925",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Harness Extension",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE57003",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH03159",
+      "aliases": [],
+      "description": {
+        "en": "Rear Body Intermediate Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "19940",
+      "aliases": [],
+      "description": {
+        "en": "Heater Lamp Wire",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA97543",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Rally Sport Headlight Washer Pump Wires",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "02120",
+      "aliases": [],
+      "description": {
+        "en": "Windshield Washer Monitor Lamp Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27925",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety Switch And Backup Light Extension",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01105",
+      "aliases": [],
+      "description": {
+        "en": "Lamp Wire",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "33235",
+      "aliases": [],
+      "description": {
+        "en": "Horn To Front Light Harness Jumper",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "28030",
+      "aliases": [],
+      "description": {
+        "en": "Front Parking Light Extension Harness (",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27910",
+      "aliases": [],
+      "description": {
+        "en": "Front Parking Light Extension Harness ( Set Of 2 )",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01415",
+      "aliases": [],
+      "description": {
+        "en": "Engine And Front Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01160",
+      "aliases": [],
+      "description": {
+        "en": "Dash And Front Light Harness Assembly",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27940",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Switch Jumper Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "02667",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Hood Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "15900",
+      "aliases": [],
+      "description": {
+        "en": "Forward Lamp Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27980",
+      "aliases": [],
+      "description": {
+        "en": "Cornering Lamp Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "11090",
+      "aliases": [],
+      "description": {
+        "en": "Clock Lamp Wire",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "11130",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Extension Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "12120",
+      "aliases": [],
+      "description": {
+        "en": "Ash Tray Lamp Wire",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "07240",
+      "aliases": [],
+      "description": {
+        "en": "Rear Lamp Intermediate Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CF15206",
+      "aliases": [],
+      "description": {
+        "en": "Console Door Light Harness And Switch Assembly",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CF16145",
+      "aliases": [],
+      "description": {
+        "en": "License Plate Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA05717",
+      "aliases": [],
+      "description": {
+        "en": "Clock And Glove Box Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "30850",
+      "aliases": [],
+      "description": {
+        "en": "Cargo Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "20690",
+      "aliases": [],
+      "description": {
+        "en": "Headlight Harness",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04025",
+      "aliases": [],
+      "description": {
+        "en": "Front Light And Alternator Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "03590",
+      "aliases": [],
+      "description": {
+        "en": "Front Light And Generator Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "03065",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Harness Generator To Voltage",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39748",
+      "aliases": [],
+      "description": {
+        "en": "Dome Lamp Harness Extension",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39723",
+      "aliases": [],
+      "description": {
+        "en": "Cab Running Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37532",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Switch Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37500",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Switch To Extension Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44153",
+      "aliases": [],
+      "description": {
+        "en": "License Plate Lamp Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22220PI",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Harness - Altpi",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE76845",
+      "aliases": [],
+      "description": {
+        "en": "Parking Light Bar Extension Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE772642",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Harness - Altde",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE50932",
+      "aliases": [],
+      "description": {
+        "en": "Dash And Front Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE509321",
+      "aliases": [],
+      "description": {
+        "en": "Dash And Front Light Harness - Altdi",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CF16951",
+      "aliases": [],
+      "description": {
+        "en": "Backup Lamp Wire",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA93713",
+      "aliases": [],
+      "description": {
+        "en": "Console Shift Indicator Lamp Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "NV31634",
+      "aliases": [],
+      "description": {
+        "en": "Console Courtesy Lamp Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "PL80425",
+      "aliases": [],
+      "description": {
+        "en": "Rear Lamp Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH01513",
+      "aliases": [],
+      "description": {
+        "en": "Glove Box Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA09276",
+      "aliases": [],
+      "description": {
+        "en": "Rear Body Panel Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA71830",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Rally Sport Headlight Door Diode Extension",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "11060",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness Turn Signal Wires",
+        "zh": "转向灯连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "PL65120",
+      "aliases": [],
+      "description": {
+        "en": "Radio Lamp Wire",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "PL10210",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Tail Lamp Adapter Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "16160",
+      "aliases": [],
+      "description": {
+        "en": "Fiber Optic Sub Assembly Rear Body Lamp Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "16165",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Harness Fiber Optic Sub Assembly",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510823",
+      "aliases": [],
+      "description": {
+        "en": "T56 MAGNUM BACKUP LIGHT SWITCH PIGTAIL WIRES",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "42291",
+      "aliases": [],
+      "description": {
+        "en": "REAR BODY LIGHT HARNESS",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE772641PI",
+      "aliases": [],
+      "description": {
+        "en": "FRONT LIGHT HARNESS",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE640761PI",
+      "aliases": [],
+      "description": {
+        "en": "FRONT LIGHT HARNESS - ALTPI",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA86240",
+      "aliases": [],
+      "description": {
+        "en": "REAR BODY PANEL LIGHT HARNESS",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37019",
+      "aliases": [],
+      "description": {
+        "en": "Front Parking Light Pigtail Wires",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "43969",
+      "aliases": [],
+      "description": {
+        "en": "43969 Rear Body Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "42971",
+      "aliases": [],
+      "description": {
+        "en": "DOME LIGHT HARNESS, for center roof mounted courtesy light",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA97542DI",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Harness Altdi Chevrolet Camaro 1969",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510430",
+      "aliases": [],
+      "description": {
+        "en": "1968-1970 Mopar B Body Classic Update: Map Light Harness Add-On Kit",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH91832",
+      "aliases": [],
+      "description": {
+        "en": "Map Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40132",
+      "aliases": [],
+      "description": {
+        "en": "Heater Control Lamp Wire",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39715",
+      "aliases": [],
+      "description": {
+        "en": "Cargo Lamp Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CG11192",
+      "aliases": [],
+      "description": {
+        "en": "Rear Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510407",
+      "aliases": [],
+      "description": {
+        "en": "T56 Magnum Backup Light Switch Pigtail Wires",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40738",
+      "aliases": [],
+      "description": {
+        "en": "Dome Light Harness dome and reading lamp jumper harness, all except convertible 1971-1972",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "NV34298",
+      "aliases": [],
+      "description": {
+        "en": "Dual Dome Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH68902",
+      "aliases": [],
+      "description": {
+        "en": "Rear Body Light Harness Extension",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH66306",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Extension Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH38011",
+      "aliases": [],
+      "description": {
+        "en": "Front Parking Light Extension Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH11765",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Parking Light Extension Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "41496",
+      "aliases": [],
+      "description": {
+        "en": "Fog Lamp Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500952",
+      "aliases": [],
+      "description": {
+        "en": "T56 Backup Light Switch Pigtail Wires",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "NV21803",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Jumper",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "FB73190",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Harness Park Lamp Jumper Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "NV72081PI",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Harness - Altpi No",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38166",
+      "aliases": [],
+      "description": {
+        "en": "Rear Body Light Harness Kit",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37816",
+      "aliases": [],
+      "description": {
+        "en": "Compass Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37790",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness Turn Signal Flasher Power Lead Wire",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "NV72081DI",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Harness - Altdi No",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30823",
+      "aliases": [],
+      "description": {
+        "en": "S/T 10/15 Headlight Relay Kit(1998 & Up)",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30822",
+      "aliases": [],
+      "description": {
+        "en": "High Beam Headlight Relay Kit 2003-2006 GM Fullsize Trucks & SUVs",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30821",
+      "aliases": [],
+      "description": {
+        "en": "High Beam Headlight Relay Kit (1999-2002 GM Fullsize Trucks & SUVs)",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30818",
+      "aliases": [],
+      "description": {
+        "en": "1967 Camaro Headlight Door Harness",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30817",
+      "aliases": [],
+      "description": {
+        "en": "9005-9006 Headlight Bulb Conversion Harness",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30816",
+      "aliases": [],
+      "description": {
+        "en": "9004 & 9007 Headlight Bulb Conversion Harness",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30815",
+      "aliases": [],
+      "description": {
+        "en": "H-4 Headlight Relay Conversion Harness",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30814",
+      "aliases": [],
+      "description": {
+        "en": "Quad H-4 Headlight Conversion Harness",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30802",
+      "aliases": [],
+      "description": {
+        "en": "High Beam Headlight Relay Kit (1988-1998 GM fullsize trucks & SUVs)",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30353",
+      "aliases": [],
+      "description": {
+        "en": "GM Suburban Socket Pigtail Kit (Dual Square Headlights) (88-91)",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30352",
+      "aliases": [],
+      "description": {
+        "en": "GM Pickup Socket Pigtail Kit (Dual Square Headlights) (80-87)",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30351",
+      "aliases": [],
+      "description": {
+        "en": "GM Pickup Socket Pigtail Kit (Single Square Headlights) (80-87)",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30350",
+      "aliases": [],
+      "description": {
+        "en": "GM Pickup Socket Pigtail Kit (Single Round Headlights) (73-80)",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39898",
+      "aliases": [],
+      "description": {
+        "en": "Rear Body Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39947",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Switch Extension Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39981",
+      "aliases": [],
+      "description": {
+        "en": "4 Wheel Drive Indicator Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39872",
+      "aliases": [],
+      "description": {
+        "en": "License Lamp Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39804",
+      "aliases": [],
+      "description": {
+        "en": "Rear Cargo Lamp Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39775",
+      "aliases": [],
+      "description": {
+        "en": "Dome Lamp Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39770",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Switch Extension",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "32750",
+      "aliases": [],
+      "description": {
+        "en": "Dome Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36061",
+      "aliases": [],
+      "description": {
+        "en": "Courtesy Lamp Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "NV47809",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Jumper Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "06285",
+      "aliases": [],
+      "description": {
+        "en": "Cigarette Lighter Lamp Wire",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "31685",
+      "aliases": [],
+      "description": {
+        "en": "Courtesy Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01664",
+      "aliases": [],
+      "description": {
+        "en": "Headlight Bucket Harness Extension",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "35590",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38304",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Harness - Altdi",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "34430",
+      "aliases": [],
+      "description": {
+        "en": "Turn Signal Harness",
+        "zh": "转向灯连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE50003",
+      "aliases": [],
+      "description": {
+        "en": "Parking Light And Lead Wire Assembly",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "33955",
+      "aliases": [],
+      "description": {
+        "en": "Headlight Connection Harness",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "28410",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Harness Extension",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE56003",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH27002",
+      "aliases": [],
+      "description": {
+        "en": "Rear Body Intermediate Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36853",
+      "aliases": [],
+      "description": {
+        "en": "Windshield Washer Monitor Lamp Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27795",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety Switch And Backup Light Extension",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "PL58235",
+      "aliases": [],
+      "description": {
+        "en": "Lamp Wire",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01620",
+      "aliases": [],
+      "description": {
+        "en": "Front Parking Light Extension Harness (",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40061",
+      "aliases": [],
+      "description": {
+        "en": "Front Parking Light Extension Harness ( Set Of 2 )",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01410",
+      "aliases": [],
+      "description": {
+        "en": "Engine And Front Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01145",
+      "aliases": [],
+      "description": {
+        "en": "Dash And Front Light Harness Assembly",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38070",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Hood Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "15895",
+      "aliases": [],
+      "description": {
+        "en": "Forward Lamp Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "09970",
+      "aliases": [],
+      "description": {
+        "en": "Clock Lamp Wire",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04600",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Extension Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "09375",
+      "aliases": [],
+      "description": {
+        "en": "Ash Tray Lamp Wire",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CF20112",
+      "aliases": [],
+      "description": {
+        "en": "Console Door Light Harness And Switch Assembly",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04720",
+      "aliases": [],
+      "description": {
+        "en": "Headlight Harness",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "02990",
+      "aliases": [],
+      "description": {
+        "en": "Front Light And Generator Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA72094PI",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Harness - Altpi",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE772652",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Harness - Altde",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE509322",
+      "aliases": [],
+      "description": {
+        "en": "Dash And Front Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA19979",
+      "aliases": [],
+      "description": {
+        "en": "Console Shift Indicator Lamp Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "PL80395",
+      "aliases": [],
+      "description": {
+        "en": "Rear Lamp Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA91693",
+      "aliases": [],
+      "description": {
+        "en": "Rear Body Panel Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "PL65125",
+      "aliases": [],
+      "description": {
+        "en": "Radio Lamp Wire",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37989",
+      "aliases": [],
+      "description": {
+        "en": "Fiber Optic Sub Assembly Rear Body Lamp Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "42290",
+      "aliases": [],
+      "description": {
+        "en": "REAR BODY LIGHT HARNESS",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA97541DI",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Harness Altdi Chevrolet Camaro 1969",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH15236",
+      "aliases": [],
+      "description": {
+        "en": "Map Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH40934",
+      "aliases": [],
+      "description": {
+        "en": "Rear Body Light Harness Extension",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "41495",
+      "aliases": [],
+      "description": {
+        "en": "Fog Lamp Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "NV67819PI",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Harness - Altpi No",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38164",
+      "aliases": [],
+      "description": {
+        "en": "Rear Body Light Harness Kit",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "NV67819DI",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Harness - Altdi No",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE53933",
+      "aliases": [],
+      "description": {
+        "en": "Rear Body Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37537",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Switch Extension Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39816",
+      "aliases": [],
+      "description": {
+        "en": "4 Wheel Drive Indicator Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39733",
+      "aliases": [],
+      "description": {
+        "en": "Rear Cargo Lamp Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "30205",
+      "aliases": [],
+      "description": {
+        "en": "Dome Lamp Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "30620",
+      "aliases": [],
+      "description": {
+        "en": "Dome Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "26770",
+      "aliases": [],
+      "description": {
+        "en": "Courtesy Lamp Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "NV29855",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Jumper Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "PL20405",
+      "aliases": [],
+      "description": {
+        "en": "Cigarette Lighter Lamp Wire",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE73410",
+      "aliases": [],
+      "description": {
+        "en": "Courtesy Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01670",
+      "aliases": [],
+      "description": {
+        "en": "Headlight Bucket Harness Extension",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "35365",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22220DI",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Harness - Altdi",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "34365",
+      "aliases": [],
+      "description": {
+        "en": "Turn Signal Harness",
+        "zh": "转向灯连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "33950",
+      "aliases": [],
+      "description": {
+        "en": "Headlight Connection Harness",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CG73368",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Harness Extension",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CF83162",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38175",
+      "aliases": [],
+      "description": {
+        "en": "Rear Body Intermediate Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40499",
+      "aliases": [],
+      "description": {
+        "en": "Lamp Wire",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40060",
+      "aliases": [],
+      "description": {
+        "en": "Front Parking Light Extension Harness ( Set Of 2 )",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01120",
+      "aliases": [],
+      "description": {
+        "en": "Dash And Front Light Harness Assembly",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38082",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Hood Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "13625",
+      "aliases": [],
+      "description": {
+        "en": "Forward Lamp Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "FB97956",
+      "aliases": [],
+      "description": {
+        "en": "Clock Lamp Wire",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CF91701",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Extension Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "35125",
+      "aliases": [],
+      "description": {
+        "en": "Ash Tray Lamp Wire",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CF20117",
+      "aliases": [],
+      "description": {
+        "en": "Console Door Light Harness And Switch Assembly",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "03340",
+      "aliases": [],
+      "description": {
+        "en": "Headlight Harness",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "02960",
+      "aliases": [],
+      "description": {
+        "en": "Front Light And Generator Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA97542PI",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Harness - Altpi",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE640762",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Harness - Altde",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "PL80405",
+      "aliases": [],
+      "description": {
+        "en": "Rear Lamp Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA91692",
+      "aliases": [],
+      "description": {
+        "en": "Rear Body Panel Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "PL65115",
+      "aliases": [],
+      "description": {
+        "en": "Radio Lamp Wire",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40151",
+      "aliases": [],
+      "description": {
+        "en": "REAR BODY LIGHT HARNESS",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH09552",
+      "aliases": [],
+      "description": {
+        "en": "Map Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH37578",
+      "aliases": [],
+      "description": {
+        "en": "Rear Body Light Harness Extension",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "NV58808PI",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Harness - Altpi No",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38158",
+      "aliases": [],
+      "description": {
+        "en": "Rear Body Light Harness Kit",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "NV58808DI",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Harness - Altdi No",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE53932",
+      "aliases": [],
+      "description": {
+        "en": "Rear Body Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "PL10225",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Switch Extension Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "30210",
+      "aliases": [],
+      "description": {
+        "en": "Dome Lamp Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "07395",
+      "aliases": [],
+      "description": {
+        "en": "Dome Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "26805",
+      "aliases": [],
+      "description": {
+        "en": "Courtesy Lamp Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE53409",
+      "aliases": [],
+      "description": {
+        "en": "Courtesy Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01665",
+      "aliases": [],
+      "description": {
+        "en": "Headlight Bucket Harness Extension",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "35055",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Harness",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE772651",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Harness - Altdi",
+        "zh": "汽车灯光连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "34360",
+      "aliases": [],
+      "description": {
+        "en": "Turn Signal Harness",
+        "zh": "转向灯连接线束"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "brand": "American Autowire",
+      "identifier": "36409",
+      "aliases": [],
+      "description": {
+        "en": "Headlight Switch Replacement Kit",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01994223",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety / Backup Light Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27775",
+      "aliases": [],
+      "description": {
+        "en": "Rear Body Tail Light Grommet Set",
+        "zh": "相关接口与材料组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01994218",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Switch Assembly",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "03943657",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01995096",
+      "aliases": [],
+      "description": {
+        "en": "Headlight Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "00383033",
+      "aliases": [],
+      "description": {
+        "en": "Turn Signal Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "03821864",
+      "aliases": [],
+      "description": {
+        "en": "Headlight Door Limit Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37789",
+      "aliases": [],
+      "description": {
+        "en": "Turn Signal Switch Assembly",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500681",
+      "aliases": [],
+      "description": {
+        "en": "Headlight Switch Knob",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500636",
+      "aliases": [],
+      "description": {
+        "en": "Headlight Switch Retention Nut-7/16 X 28 Stainless Steel",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500431",
+      "aliases": [],
+      "description": {
+        "en": "Headlight Enhancement Relay Kit- Weatherproof",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500403",
+      "aliases": [],
+      "description": {
+        "en": "Headlight Enhancement Relay Kit",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500357",
+      "aliases": [],
+      "description": {
+        "en": "Headlight Switch- 4 Position, Push/Pull",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500359",
+      "aliases": [],
+      "description": {
+        "en": "Headlight Switch - 3 Position Push-Pull",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500341",
+      "aliases": [],
+      "description": {
+        "en": "Headlight Switch- GM Style, With Connector",
+        "zh": "连接器"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500332",
+      "aliases": [],
+      "description": {
+        "en": "Headlight Switch- GM Style",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500289",
+      "aliases": [],
+      "description": {
+        "en": "Connector Housing- Gauge Light Socket Connector",
+        "zh": "连接器"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500163",
+      "aliases": [],
+      "description": {
+        "en": "Light Socket Boot",
+        "zh": "插座"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500203",
+      "aliases": [],
+      "description": {
+        "en": "Connector Housing Gm Back-Up Light Conne",
+        "zh": "连接器"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500197",
+      "aliases": [],
+      "description": {
+        "en": "Sealed Beam Headlight Connector- 2 Way",
+        "zh": "连接器"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500196",
+      "aliases": [],
+      "description": {
+        "en": "Sealed Beam Headlight Connector- 3 Way",
+        "zh": "连接器"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500189",
+      "aliases": [],
+      "description": {
+        "en": "Connector- GM Headlight Switch",
+        "zh": "连接器"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500148",
+      "aliases": [],
+      "description": {
+        "en": "Toggle Turn Signal Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80154",
+      "aliases": [],
+      "description": {
+        "en": "Headlight Switch/4-Position",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80152",
+      "aliases": [],
+      "description": {
+        "en": "Headlight Switch/Black Knob/GM Style w/Dimmer & Dome Light Control",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80151",
+      "aliases": [],
+      "description": {
+        "en": "Headlight Switch w/Dimmer (No Dome Light Control)",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80121",
+      "aliases": [],
+      "description": {
+        "en": "Head Light Door Jamb Dimmer/Ignition Switch Kit",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80120",
+      "aliases": [],
+      "description": {
+        "en": "Headlight Door Jamb Dimmer Switch Kit",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01993320",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety / Backup Light Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27765",
+      "aliases": [],
+      "description": {
+        "en": "Rear Body Tail Light Grommet Set",
+        "zh": "相关接口与材料组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01993430",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Switch Assembly",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01995215",
+      "aliases": [],
+      "description": {
+        "en": "Headlight Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01997969",
+      "aliases": [],
+      "description": {
+        "en": "Turn Signal Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38250",
+      "aliases": [],
+      "description": {
+        "en": "Turn Signal Switch Assembly",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500358",
+      "aliases": [],
+      "description": {
+        "en": "Headlight Switch- 4 Position, Push/Pull",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500165",
+      "aliases": [],
+      "description": {
+        "en": "Light Socket Boot",
+        "zh": "插座"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "00370176",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety / Backup Light Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01993666",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Switch Assembly",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01995191",
+      "aliases": [],
+      "description": {
+        "en": "Headlight Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "00387126",
+      "aliases": [],
+      "description": {
+        "en": "Turn Signal Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38251",
+      "aliases": [],
+      "description": {
+        "en": "Turn Signal Switch Assembly",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500164",
+      "aliases": [],
+      "description": {
+        "en": "Light Socket Boot",
+        "zh": "插座"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "06273357",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety / Backup Light Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01993406",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Switch Assembly",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01995082",
+      "aliases": [],
+      "description": {
+        "en": "Headlight Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "05698520US",
+      "aliases": [],
+      "description": {
+        "en": "Turn Signal Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37795",
+      "aliases": [],
+      "description": {
+        "en": "Turn Signal Switch Assembly",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "03948538",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety / Backup Light Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01993662",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Switch Assembly",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "00911051US",
+      "aliases": [],
+      "description": {
+        "en": "Turn Signal Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37797",
+      "aliases": [],
+      "description": {
+        "en": "Turn Signal Switch Assembly",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "03923916",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety / Backup Light Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01993310",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Switch Assembly",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "00910821US",
+      "aliases": [],
+      "description": {
+        "en": "Turn Signal Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37788",
+      "aliases": [],
+      "description": {
+        "en": "Turn Signal Switch Assembly",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01994163",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety / Backup Light Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01993309",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Switch Assembly",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01997938US",
+      "aliases": [],
+      "description": {
+        "en": "Turn Signal Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01994235",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety / Backup Light Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01993420",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Switch Assembly",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "00898197US",
+      "aliases": [],
+      "description": {
+        "en": "Turn Signal Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01993659",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety / Backup Light Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01997929",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Switch Assembly",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "05694262",
+      "aliases": [],
+      "description": {
+        "en": "Turn Signal Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "06258276",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety / Backup Light Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01993431",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Switch Assembly",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01997963",
+      "aliases": [],
+      "description": {
+        "en": "Turn Signal Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01993696",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety / Backup Light Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01993661",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Switch Assembly",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01893584",
+      "aliases": [],
+      "description": {
+        "en": "Turn Signal Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "09779665",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety / Backup Light Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01998728",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Switch Assembly",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01997961",
+      "aliases": [],
+      "description": {
+        "en": "Turn Signal Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "03909591",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety / Backup Light Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01993307",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Switch Assembly",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01997965",
+      "aliases": [],
+      "description": {
+        "en": "Turn Signal Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "03900503",
+      "aliases": [],
+      "description": {
+        "en": "Neutral Safety / Backup Light Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01993413",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Switch Assembly",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01893591",
+      "aliases": [],
+      "description": {
+        "en": "Turn Signal Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "05698897",
+      "aliases": [],
+      "description": {
+        "en": "Turn Signal Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01993624",
+      "aliases": [],
+      "description": {
+        "en": "Turn Signal Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01997938",
+      "aliases": [],
+      "description": {
+        "en": "Turn Signal Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "07800482",
+      "aliases": [],
+      "description": {
+        "en": "Turn Signal Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "00387115",
+      "aliases": [],
+      "description": {
+        "en": "Turn Signal Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "03765110",
+      "aliases": [],
+      "description": {
+        "en": "Turn Signal Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01997985",
+      "aliases": [],
+      "description": {
+        "en": "Turn Signal Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01997984",
+      "aliases": [],
+      "description": {
+        "en": "Turn Signal Switch",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01997988",
+      "aliases": [],
+      "description": {
+        "en": "Turn Signal Switch",
+        "zh": "开关"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Vehicle Lighting Harness",
+    "zh": "汽车灯线束"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "narrow_published_range",
+    "reason": {
+      "en": "Application-specific references are shown at their audited counts. Materials require their own category evidence and are not assumed to be the BOM of every listed assembly.",
+      "zh": "应用专用编号按核验的实际数量展示；材料须有独立类别依据，不将其视为每件成品的通用 BOM。"
+    },
+    "audit_id": "automotive-validated/automotive-07.json",
+    "verified_counts": {
+      "products": 220,
+      "materials": 89
+    }
+  }
+}

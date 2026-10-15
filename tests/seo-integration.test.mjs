@@ -6,6 +6,7 @@ import { fileURLToPath } from 'node:url';
 import { runInContext, runInNewContext } from 'node:vm';
 import { buildSeoPolicy, htmlPathForRoute } from '../tools/seo_policy.mjs';
 import { createRenderContext } from '../tools/sync_priority_page_ssr.mjs';
+import { referenceDataForCategory, validateReferenceData } from '../tools/build_model_reference_section.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const exampleCount = JSON.parse(await fs.readFile(path.join(root,'content/product-example-registry.json'),'utf8')).products.length;
@@ -112,7 +113,9 @@ test('all 203 initial manufacturing sections equal runtime EN and preserve route
     const match = html.match(/<!-- MANUFACTURING CONTEXT START -->\s*([\s\S]*?)\s*<!-- MANUFACTURING CONTEXT END -->/);
     assert.ok(match, page.route);
     const metadata = scope.window.SS_SEO_POLICY.resolve({ path: page.route, lang: 'en' });
-    const rendered = scope.window.SS_MANUFACTURING_CONTEXT.render({ path: page.route, lang: 'en', procurementContext: metadata.procurementContext, categoryKey: page.categoryKey, productId: page.productId });
+    const references = page.kind === 'category' ? referenceDataForCategory(page.categoryKey, page.route) : null;
+    const referenceConfiguration = references ? validateReferenceData(references) : undefined;
+    const rendered = scope.window.SS_MANUFACTURING_CONTEXT.render({ path: page.route, lang: 'en', procurementContext: metadata.procurementContext, categoryKey: page.categoryKey, productId: page.productId, referenceConfiguration });
     assert.equal(match[1].trim(), rendered, page.route);
     assert.equal((html.match(/id="manufacturing-context"/g) || []).length, 1, page.route);
     assert.ok(html.indexOf('MANUFACTURING CONTEXT END') < html.indexOf('<footer'), page.route);
@@ -131,7 +134,7 @@ test('all 203 initial manufacturing sections equal runtime EN and preserve route
     assert.ok(html.indexOf('/assets/js/seo-policy.js') < html.indexOf('/assets/js/main.js'), page.route);
     assert.ok(html.indexOf('/assets/js/manufacturing-context.js') < html.indexOf('/assets/js/main.js'), page.route);
     const chinese = scope.window.SS_SEO_POLICY.resolve({ path: page.route, lang: 'zh' });
-    const zh = scope.window.SS_MANUFACTURING_CONTEXT.render({ path: page.route, lang: 'zh', procurementContext: chinese.procurementContext, categoryKey: page.categoryKey, productId: page.productId });
+    const zh = scope.window.SS_MANUFACTURING_CONTEXT.render({ path: page.route, lang: 'zh', procurementContext: chinese.procurementContext, categoryKey: page.categoryKey, productId: page.productId, referenceConfiguration });
     assert.match(zh, /中国工厂.*定制线束制造.*OEM\/ODM/, page.route);
     assert.equal((zh.match(/id="manufacturing-context"/g) || []).length, 1, page.route);
   }

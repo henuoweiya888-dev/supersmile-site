@@ -1,0 +1,185 @@
+{
+  "version": 2,
+  "category_id": "custom-harness-08",
+  "route": "/products/turnkey-harness",
+  "title": {
+    "en": "Interface Configuration & Material Selection",
+    "zh": "接口配置与材料选型"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Define the interfaces, material requirements and acceptance plan for your custom project.",
+    "zh": "围绕定制项目定义接口、材料要求与验收方案。"
+  },
+  "jump": {
+    "en": "Review Interfaces & Material Selection",
+    "zh": "查看接口配置与材料选型"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Manufacturer-identified assemblies for interface selection.",
+        "zh": "经原厂资料核验的接口组件参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Materials identified for the specific interface or molding process.",
+        "zh": "用于具体接口或成型工艺选型的材料。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Supply boundary",
+        "zh": "明确交付边界"
+      },
+      "copy": {
+        "en": "Assign responsibility for sourced parts, customer-supplied materials, tooling, fixtures, packaging and documentation before quoting.",
+        "zh": "报价前明确采购件、客供物料、工装、治具、包装与文件的责任归属。"
+      }
+    },
+    {
+      "title": {
+        "en": "Approved configuration",
+        "zh": "统一确认版本"
+      },
+      "copy": {
+        "en": "Keep the drawing, BOM, mating parts, pin map, labels and packaging instructions on the same approved revision.",
+        "zh": "让图纸、BOM、对插件、针脚表、标签与包装说明保持同一获批版本。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sources and substitutions",
+        "zh": "管理来源与替代"
+      },
+      "copy": {
+        "en": "Confirm approved manufacturers, exact material references and the customer approval path for any substitution.",
+        "zh": "确认认可制造商、准确物料编号以及任何替代的客户审批路径。"
+      }
+    },
+    {
+      "title": {
+        "en": "First article",
+        "zh": "建立首件依据"
+      },
+      "copy": {
+        "en": "Agree the first-article sample, dimensional checks, circuit verification and open-point closure before repeat production.",
+        "zh": "重复生产前约定首件样品、尺寸检查、回路验证与待确认项的关闭要求。"
+      }
+    },
+    {
+      "title": {
+        "en": "Release package",
+        "zh": "组织放行文件"
+      },
+      "copy": {
+        "en": "Define inspection records, traceability, packing unit, labels and shipment acceptance requirements for the finished assembly.",
+        "zh": "为成品组件定义检验记录、追溯、包装单位、标签与交付验收要求。"
+      }
+    },
+    {
+      "title": {
+        "en": "Repeat orders and changes",
+        "zh": "控制复购与变更"
+      },
+      "copy": {
+        "en": "Record revision authority and change approval so a repeat order reproduces the confirmed configuration.",
+        "zh": "记录版本批准权限与变更审批，使重复订单复现确认的配置。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=custom-harness-08&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [],
+  "materials": [],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Turnkey Harness",
+    "zh": "交钥匙线束"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "process_or_delivery",
+    "reason": {
+      "en": "Project and manufacturer references are shown only at their audited counts. Process requirements are defined separately from finished-product ratings.",
+      "zh": "项目与原厂编号仅按实际核验数量展示，工艺要求和成品等级分别定义。"
+    },
+    "audit_id": "custom-harness-08-process-literal-candidates.json",
+    "verified_counts": {
+      "products": 0,
+      "materials": 0
+    },
+    "engineering_only": true
+  }
+}

@@ -1,0 +1,4173 @@
+{
+  "version": 2,
+  "category_id": "wire-cable-06",
+  "route": "/products/drag-chain-cable",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Preassembled motor, feedback and control cables for energy-chain motion.",
+        "zh": "用于拖链运动的预制电机、反馈与控制电缆。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Drag-chain cable materials for motion-specific configuration.",
+        "zh": "针对运动工况配置的拖链原线材料。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Six Decisions Behind the Part Number",
+    "zh": "型号背后的六个选型要点"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Motion Profile",
+        "zh": "运动参数"
+      },
+      "copy": {
+        "en": "Define travel, speed, acceleration and expected cycle duty.",
+        "zh": "定义行程、速度、加速度及预期循环工况。"
+      }
+    },
+    {
+      "title": {
+        "en": "Bend Radius",
+        "zh": "弯曲半径"
+      },
+      "copy": {
+        "en": "Check the selected cable diameter and minimum moving bend radius against the chain.",
+        "zh": "结合拖链核对所选线缆外径与动态最小弯曲半径。"
+      }
+    },
+    {
+      "title": {
+        "en": "Cable & Interface",
+        "zh": "线缆与接口"
+      },
+      "copy": {
+        "en": "Match the actual drive interface, pin map and conductor construction.",
+        "zh": "匹配实际驱动接口、针脚定义与导体结构。"
+      }
+    },
+    {
+      "title": {
+        "en": "Chain Routing",
+        "zh": "拖链布线"
+      },
+      "copy": {
+        "en": "Set separation, free movement and strain relief at the fixed and moving ends.",
+        "zh": "确定线缆分隔、自由运动空间以及固定端和移动端的应力释放。"
+      }
+    },
+    {
+      "title": {
+        "en": "Operating Exposure",
+        "zh": "运行环境"
+      },
+      "copy": {
+        "en": "Review temperature, oil, chips and enclosure conditions before choosing the jacket.",
+        "zh": "选择护套前核对温度、油污、切屑与机壳条件。"
+      }
+    },
+    {
+      "title": {
+        "en": "Configured Test",
+        "zh": "配置验证"
+      },
+      "copy": {
+        "en": "Agree electrical acceptance and any motion testing needed for the actual installation.",
+        "zh": "约定电气验收及实际安装所需的运动测试。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=wire-cable-06&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "igus",
+      "identifier": "MAT9761799",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9761798",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9761758",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9761701",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9761797",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9761702",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9761796",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9761795",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9761703",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9761704",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9761713",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9761714",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9761715",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9761711",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9761712",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9861797",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9861760",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9861796",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9861703",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9861795",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9730101",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled industrial bus cable",
+        "zh": "预制工业总线电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9930102",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled industrial bus cable",
+        "zh": "预制工业总线电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9640001",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9840101",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9630001",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9630103",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled industrial bus cable",
+        "zh": "预制工业总线电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9730104",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled industrial bus cable",
+        "zh": "预制工业总线电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9640010",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9840102",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9930105",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled industrial bus cable",
+        "zh": "预制工业总线电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9630010",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9640015",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9840105",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9630015",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9670003",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9840103",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9670001",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled drive connection cable",
+        "zh": "预制驱动连接电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9660001",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled drive connection cable",
+        "zh": "预制驱动连接电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9820101",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled drive connection cable",
+        "zh": "预制驱动连接电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9670004",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9743601",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9743602",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9743603",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9453601",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9453602",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9453603",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9853601",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9853602",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9853603",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9750260",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9750261",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9750262",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9750263",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9750264",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9750265",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9750266",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9750267",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9750268",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9750269",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9750270",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9750271",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9750273",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9750274",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9750275",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9750276",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9750277",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9750278",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9750279",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9750280",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9730305",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9730301",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9730303",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9730302",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9730304",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9830305",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9830301",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9830303",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9830302",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9830304",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9386001",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled drive connection cable",
+        "zh": "预制驱动连接电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9387001",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled drive connection cable",
+        "zh": "预制驱动连接电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9381005",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9382005",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9383005",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9384005",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9383001",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9384001",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9920306",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9920301",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9440401",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT94602001",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT94603001",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT94600001",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT94601001",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9450401",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9550401",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9450403",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9550403",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT94503001",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT94503002",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT94501001",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT94502001",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT94501003",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT94502003",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT94500001",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT94500003",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9440402",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT94602002",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT94603002",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9753201",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9853201",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9853202",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9753202",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9853203",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9853204",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT97513990",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled hybrid drive cable",
+        "zh": "预制复合驱动电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9100014",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9100016",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9441335",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled drive connection cable",
+        "zh": "预制驱动连接电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9741335",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled drive connection cable",
+        "zh": "预制驱动连接电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9441334",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9941335",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled drive connection cable",
+        "zh": "预制驱动连接电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9841335",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled drive connection cable",
+        "zh": "预制驱动连接电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9100032",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9100018",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9100001",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9841318",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9451304",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9110034",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9100034",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9841302",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9110004",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9110020",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9841320",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9841309",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9460501",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9460504",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9460502",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9460505",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9460503",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9460506",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9560001",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9560002",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9560004",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9560005",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9540001",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9960501",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9540004",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9960504",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9540002",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9540005",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9960502",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9960505",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9560003",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9560006",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9460602",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9460649",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9460650",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9460651",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9460652",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9460653",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9460654",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9460655",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9460656",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9460657",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9460658",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9460659",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9460660",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9460661",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9460662",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9460677",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9460678",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9460679",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9460680",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9460681",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9853420",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9853421",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9853422",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9853423",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9853424",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9853410",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9853411",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9853412",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9853413",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9853414",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9562501",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9862501",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9552502",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9752502",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9742503",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled drive connection cable",
+        "zh": "预制驱动连接电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9852502",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9842503",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled drive connection cable",
+        "zh": "预制驱动连接电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9952502",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9450703",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9440702",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9440701",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9750703",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9850703",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9470003",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9480002",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "brand": "LAPP",
+      "identifier": "1026797",
+      "aliases": [
+        "ÖLFLEX® CHAIN PN 5 G 2,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023358",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 5G10"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023357",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 4G10"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023356",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 5G6"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023355",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 4G6"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023354",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 5G4"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023353",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 4G4"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023352",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 25G2,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023351",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 20G2,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023350",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 18G2,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023349",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 12G2,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023348",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 7G2,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023347",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 5G2,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023346",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 4G2,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023345",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 3G2,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023344",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 2X2,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023343",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 36G1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023342",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 30G1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023341",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 25G1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023340",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 20G1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027605",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 2X0,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027386",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 25G2,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027385",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 18G2,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027384",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 12G2,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027383",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 7G2,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027382",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 5G2,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027381",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 4G2,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027380",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 3G2,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1026544",
+      "aliases": [
+        "ÖLFLEX® CHAIN 90 P 1X300"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1026543",
+      "aliases": [
+        "ÖLFLEX® CHAIN 90 P 1G300"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1026542",
+      "aliases": [
+        "ÖLFLEX® CHAIN 90 P 1X240"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1026541",
+      "aliases": [
+        "ÖLFLEX® CHAIN 90 P 1G240"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1026540",
+      "aliases": [
+        "ÖLFLEX® CHAIN 90 P 1X185"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1026539",
+      "aliases": [
+        "ÖLFLEX® CHAIN 90 P 1G185"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1026538",
+      "aliases": [
+        "ÖLFLEX® CHAIN 90 P 1X150"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1026537",
+      "aliases": [
+        "ÖLFLEX® CHAIN 90 P 1G150"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1026536",
+      "aliases": [
+        "ÖLFLEX® CHAIN 90 P 1X120"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1026535",
+      "aliases": [
+        "ÖLFLEX® CHAIN 90 P 1G120"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1026534",
+      "aliases": [
+        "ÖLFLEX® CHAIN 90 P 1X95"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1026533",
+      "aliases": [
+        "ÖLFLEX® CHAIN 90 P 1G95"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1026532",
+      "aliases": [
+        "ÖLFLEX® CHAIN 90 P 1X70"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1026531",
+      "aliases": [
+        "ÖLFLEX® CHAIN 90 P 1G70"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1026530",
+      "aliases": [
+        "ÖLFLEX® CHAIN 90 P 1X50"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1026529",
+      "aliases": [
+        "ÖLFLEX® CHAIN 90 P 1G50"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1026528",
+      "aliases": [
+        "ÖLFLEX® CHAIN 90 P 1X35"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1026527",
+      "aliases": [
+        "ÖLFLEX® CHAIN 90 P 1G35"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1026526",
+      "aliases": [
+        "ÖLFLEX® CHAIN 90 P 1X25"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1026525",
+      "aliases": [
+        "ÖLFLEX® CHAIN 90 P 1G25"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1026524",
+      "aliases": [
+        "ÖLFLEX® CHAIN 90 P 1X16"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1026523",
+      "aliases": [
+        "ÖLFLEX® CHAIN 90 P 1G16"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1026522",
+      "aliases": [
+        "ÖLFLEX® CHAIN 90 P 1X10"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1026521",
+      "aliases": [
+        "ÖLFLEX® CHAIN 90 P 1G10"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1026520",
+      "aliases": [
+        "ÖLFLEX® CHAIN 90 P 1X6"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1026519",
+      "aliases": [
+        "ÖLFLEX® CHAIN 90 P 1G6"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1026518",
+      "aliases": [
+        "ÖLFLEX® CHAIN 90 P 1X4"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1026517",
+      "aliases": [
+        "ÖLFLEX® CHAIN 90 P 1G4"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1026516",
+      "aliases": [
+        "ÖLFLEX® CHAIN 90 P 1X2,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1026515",
+      "aliases": [
+        "ÖLFLEX® CHAIN 90 P 1G2,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1026514",
+      "aliases": [
+        "ÖLFLEX® CHAIN 90 P 1X1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1026513",
+      "aliases": [
+        "ÖLFLEX® CHAIN 90 P 1G1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023339",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 18G1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023338",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 12G1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023337",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 7G1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023336",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 5G1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023335",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 4G1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023334",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 3G1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023333",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 2X1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023332",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 36G1"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023331",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 30G1"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023330",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 25G1"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023329",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 20G1"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023328",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 18G1"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023327",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 12G1"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023326",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 7G1"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023325",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 5G1"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023324",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 4G1"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023323",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 3G1"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023322",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 2X1"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023321",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 36G0,75"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023320",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 30G0,75"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023319",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 25G0,75"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023318",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 20G0,75"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023317",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 18G0,75"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023316",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 12G0,75"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023315",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 7G0,75"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023314",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 5G0,75"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023313",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 4G0,75"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023312",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 3G0,75"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023311",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 2X0,75"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023310",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 36G0,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023309",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 30G0,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023308",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 25G0,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023307",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 20G0,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023306",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 18G0,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023305",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 12G0,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023304",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 7G0,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023303",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 5G0,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023302",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 4G0,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023301",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 3G0,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023300",
+      "aliases": [
+        "ÖLFLEX® PETRO FD 865 CP 2X0,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1028952",
+      "aliases": [
+        "ÖLFLEX® FD 891 P 2X2,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1028752",
+      "aliases": [
+        "ÖLFLEX® FD 891 P 2X0,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1028634",
+      "aliases": [
+        "ÖLFLEX® FD 891 P 4G25"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1028624",
+      "aliases": [
+        "ÖLFLEX® FD 891 P 4G16"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1028614",
+      "aliases": [
+        "ÖLFLEX® FD 891 P 4G10"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1028604",
+      "aliases": [
+        "ÖLFLEX® FD 891 P 4G6"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1028507",
+      "aliases": [
+        "ÖLFLEX® FD 891 P 7G4"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1028504",
+      "aliases": [
+        "ÖLFLEX® FD 891 P 4G4"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1028503",
+      "aliases": [
+        "ÖLFLEX® FD 891 P 3G4"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1028412",
+      "aliases": [
+        "ÖLFLEX® FD 891 P 12G2,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1028407",
+      "aliases": [
+        "ÖLFLEX® FD 891 P 7G2,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1028405",
+      "aliases": [
+        "ÖLFLEX® FD 891 P 5G2,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1028404",
+      "aliases": [
+        "ÖLFLEX® FD 891 P 4G2,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1028403",
+      "aliases": [
+        "ÖLFLEX® FD 891 P 3G2,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1028334",
+      "aliases": [
+        "ÖLFLEX® FD 891 P 34G1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1028325",
+      "aliases": [
+        "ÖLFLEX® FD 891 P 25G1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1028318",
+      "aliases": [
+        "ÖLFLEX® FD 891 P 18G1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1028312",
+      "aliases": [
+        "ÖLFLEX® FD 891 P 12G1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1028307",
+      "aliases": [
+        "ÖLFLEX® FD 891 P 7G1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1028305",
+      "aliases": [
+        "ÖLFLEX® FD 891 P 5G1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1028304",
+      "aliases": [
+        "ÖLFLEX® FD 891 P 4G1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1028303",
+      "aliases": [
+        "ÖLFLEX® FD 891 P 3G1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1028150",
+      "aliases": [
+        "ÖLFLEX® FD 891 P 50G0,75"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1028134",
+      "aliases": [
+        "ÖLFLEX® FD 891 P 34G0,75"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1028125",
+      "aliases": [
+        "ÖLFLEX® FD 891 P 25G0,75"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1028118",
+      "aliases": [
+        "ÖLFLEX® FD 891 P 18G0,75"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1028112",
+      "aliases": [
+        "ÖLFLEX® FD 891 P 12G0,75"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1028107",
+      "aliases": [
+        "ÖLFLEX® FD 891 P 7G0,75"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1028105",
+      "aliases": [
+        "ÖLFLEX® FD 891 P 5G0,75"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1028104",
+      "aliases": [
+        "ÖLFLEX® FD 891 P 4G0,75"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1028103",
+      "aliases": [
+        "ÖLFLEX® FD 891 P 3G0,75"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1028007",
+      "aliases": [
+        "ÖLFLEX® FD 891 P 7G0,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027587",
+      "aliases": [
+        "ÖLFLEX® FD 855 P 41G1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027586",
+      "aliases": [
+        "ÖLFLEX® FD 855 P 4G1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027585",
+      "aliases": [
+        "ÖLFLEX® FD 855 P 36G1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027584",
+      "aliases": [
+        "ÖLFLEX® FD 855 P 30G1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027582",
+      "aliases": [
+        "ÖLFLEX® FD 855 P 25G1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027580",
+      "aliases": [
+        "ÖLFLEX® FD 855 P 18G1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027579",
+      "aliases": [
+        "ÖLFLEX® FD 855 P 12G1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027578",
+      "aliases": [
+        "ÖLFLEX® FD 855 P 7G1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027548",
+      "aliases": [
+        "ÖLFLEX® FD 855 P 5G0,75"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027547",
+      "aliases": [
+        "ÖLFLEX® FD 855 P 4G0,75"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027546",
+      "aliases": [
+        "ÖLFLEX® FD 855 P 3G0,75"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027545",
+      "aliases": [
+        "ÖLFLEX® FD 855 P 2X0,75"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027541",
+      "aliases": [
+        "ÖLFLEX® FD 855 P 36G0,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027540",
+      "aliases": [
+        "ÖLFLEX® FD 855 P 30G0,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027538",
+      "aliases": [
+        "ÖLFLEX® FD 855 P 25G0,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027537",
+      "aliases": [
+        "ÖLFLEX® FD 855 P 20G0,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027536",
+      "aliases": [
+        "ÖLFLEX® FD 855 P 18G0,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027535",
+      "aliases": [
+        "ÖLFLEX® FD 855 P 12G0,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027534",
+      "aliases": [
+        "ÖLFLEX® FD 855 P 7G0,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027533",
+      "aliases": [
+        "ÖLFLEX® FD 855 P 6G0,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027532",
+      "aliases": [
+        "ÖLFLEX® FD 855 P 5G0,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027531",
+      "aliases": [
+        "ÖLFLEX® FD 855 P 3G0,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027530",
+      "aliases": [
+        "ÖLFLEX® FD 855 P 2X0,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027376",
+      "aliases": [
+        "ÖLFLEX® FD 855 P 25G2,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027375",
+      "aliases": [
+        "ÖLFLEX® FD 855 P 18G2,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027374",
+      "aliases": [
+        "ÖLFLEX® FD 855 P 12G2,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027373",
+      "aliases": [
+        "ÖLFLEX® FD 855 P 7G2,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027372",
+      "aliases": [
+        "ÖLFLEX® FD 855 P 5G2,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027371",
+      "aliases": [
+        "ÖLFLEX® FD 855 P 4G2,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027370",
+      "aliases": [
+        "ÖLFLEX® FD 855 P 3G2,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027661",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 4G1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027659",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 36G1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027656",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 25G1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027654",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 18G1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027653",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 12G1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027652",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 7G1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027651",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 5G1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027650",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 3G1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027649",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 2X1,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027646",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 36G1"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027645",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 30G1"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027643",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 25G1"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027641",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 18G1"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027640",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 12G1"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027639",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 7G1"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027638",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 5G1"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027637",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 4G1"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027636",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 3G1"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027635",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 2X1"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027630",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 36G0,75"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027628",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 25G0,75"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027626",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 18G0,75"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027625",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 12G0,75"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027624",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 7G0,75"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027623",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 5G0,75"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027622",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 4G0,75"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027621",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 3G0,75"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027620",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 2X0,75"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027616",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 36G0,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027615",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 30G0,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027613",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 25G0,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027612",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 20G0,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027611",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 18G0,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027610",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 12G0,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027609",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 7G0,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027608",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 6G0,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027607",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 5G0,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0027606",
+      "aliases": [
+        "ÖLFLEX® FD 855 CP 3G0,5"
+      ],
+      "description": {
+        "en": "Drag-chain cable material",
+        "zh": "拖链电缆材料"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Drag-Chain Cable",
+    "zh": "拖链电缆"
+  }
+}

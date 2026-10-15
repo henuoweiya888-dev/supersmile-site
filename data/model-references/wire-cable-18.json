@@ -1,0 +1,2345 @@
+{
+  "version": 2,
+  "category_id": "wire-cable-18",
+  "route": "/products/high-temperature-wire-and-cable",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Manufacturer-identified finished assemblies for this application.",
+        "zh": "此应用范围内经原厂资料核验的成品组件。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Category-specific material references; the final BOM follows the approved configuration.",
+        "zh": "此类选型的材料参考；最终 BOM 以确认配置为准。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Selection & Project Review",
+    "zh": "选型与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Application Boundary",
+        "zh": "应用边界"
+      },
+      "copy": {
+        "en": "Silicone, FEP, PTFE and glass-braid constructions require exact product data; a material name alone is not a rating.",
+        "zh": "硅橡胶、FEP、PTFE 与玻纤编织结构都要核对准确型号数据，材料名称不能单独代表额定值。"
+      }
+    },
+    {
+      "title": {
+        "en": "Project Inputs",
+        "zh": "项目输入"
+      },
+      "copy": {
+        "en": "Provide the thermal map, current, route, connector drawings, material data and acceptance criteria.",
+        "zh": "请提供温度分布、电流、路径、接头图纸、材料数据及验收标准。"
+      }
+    },
+    {
+      "title": {
+        "en": "Release Records",
+        "zh": "放行依据"
+      },
+      "copy": {
+        "en": "Release the complete assembly against approved drawings and project-specific thermal and electrical checks.",
+        "zh": "按获批图纸及项目特定的热工、电气检查放行完整组件。"
+      }
+    },
+    {
+      "title": {
+        "en": "Interface Review",
+        "zh": "接口审核"
+      },
+      "copy": {
+        "en": "Confirm the exact mating interface, pin map, dimensions and installation orientation.",
+        "zh": "确认准确对插接口、针脚对应、尺寸及安装方向。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sample Acceptance",
+        "zh": "样品验收"
+      },
+      "copy": {
+        "en": "Agree the sample configuration and electrical, mechanical or environmental checks required by the project.",
+        "zh": "约定样品配置以及项目所需的电气、机械或环境检查。"
+      }
+    },
+    {
+      "title": {
+        "en": "Change Control",
+        "zh": "变更控制"
+      },
+      "copy": {
+        "en": "Record changes to materials, drawings and process instructions before repeat manufacture.",
+        "zh": "重复制造前记录材料、图纸与工艺说明的变更。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=wire-cable-18&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [],
+  "materials": [
+    {
+      "brand": "LAPP",
+      "identifier": "0091350",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02142",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0091351",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02143",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0091352",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02144",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0091353",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02145",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0091354",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02146",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0091355",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02147",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0091356",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02148",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0091357",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02149",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0091358",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02150",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0091359",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02151",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0091360",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02152",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0091361",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02153",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0095006",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02154",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0095007",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02155",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0095009",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02156",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0095104",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02157",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0095105",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02158",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0095106",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02159",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0096000",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02160",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0096001",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02161",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0096006",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02162",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0096104",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02163",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0097001",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02164",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0097002",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02165",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0097003",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02166",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0097104",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02167",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0097105",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02168",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0098000",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02169",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0098001",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02170",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0098002",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02171",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0098003",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02172",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0098006",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02173",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0098104",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02174",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0098105",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02175",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0098106",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02176",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0099001",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02177",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0099002",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02178",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0099003",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02179",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0099005",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02180",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0099006",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02181",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0099007",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02182",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0099104",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02183",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0099105",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02184",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0100001",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02185",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0100002",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02186",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0100003",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02187",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0100005",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02188",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0100009",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02189",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0100104",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02190",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0100105",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02191",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0101001",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02192",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0101002",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02193",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0101003",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02194",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0101006",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02195",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0101104",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02196",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0101105",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02197",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0102000",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02198",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0102001",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02199",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0102002",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02200",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0102003",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02201",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0102005",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02202",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0102006",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02203",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0102007",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02204",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0102009",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02205",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0102104",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02206",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0102105",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02207",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0102106",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02208",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0103001",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02209",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0103104",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02210",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0104000",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02211",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0104001",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02212",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0104002",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02213",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0104003",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02214",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0104005",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02215",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0104006",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02216",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0104007",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02217",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0104009",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02218",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0104104",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02219",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0104105",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02220",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0105000",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02221",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0105001",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02222",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0105002",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02223",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0105003",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02224",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0105005",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02225",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0105006",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02226",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0105007",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02227",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0105009",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02228",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0105104",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02229",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0105105",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02230",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0106000",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02231",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0106001",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02501",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0106002",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02502",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0106003",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02503",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0106005",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02504",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0106006",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02505",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0106011",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02506",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0106104",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02507",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0106105",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02508",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0106106",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02509",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0107000",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02510",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0107001",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02511",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0107002",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02512",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0107003",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02513",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0107005",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02514",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0107006",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02515",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0107009",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02516",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0107105",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02517",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0108000",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02518",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0108001",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02519",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0108002",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02520",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0108104",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02521",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0108105",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02522",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1024303",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02523",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1024304",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02524",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1024312",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02525",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1024339",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02526",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1024340",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02527",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1024345",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02528",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1024351",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02529",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1024352",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02530",
+      "aliases": [],
+      "description": {
+        "en": "High-temperature cable material",
+        "zh": "耐高温线缆材料"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "High-Temperature Wire & Cable",
+    "zh": "耐高温电线电缆"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "material_scope",
+    "reason": {
+      "en": "Wire, bulk cable and polymer grades are materials. They are not counted as terminated cable assemblies.",
+      "zh": "电线、卷装电缆与胶料牌号属于材料，不计为已端接电缆组件。"
+    },
+    "audit_id": "wire-material-batches/wire-cable-18-materials-strict-ready.json",
+    "verified_counts": {
+      "products": 0,
+      "materials": 240
+    }
+  }
+}

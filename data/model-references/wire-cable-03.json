@@ -1,0 +1,2345 @@
+{
+  "version": 2,
+  "category_id": "wire-cable-03",
+  "route": "/products/equipment-wire",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Manufacturer-identified finished assemblies for this application.",
+        "zh": "此应用范围内经原厂资料核验的成品组件。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Category-specific material references; the final BOM follows the approved configuration.",
+        "zh": "此类选型的材料参考；最终 BOM 以确认配置为准。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Selection & Project Review",
+    "zh": "选型与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Application Boundary",
+        "zh": "应用边界"
+      },
+      "copy": {
+        "en": "MTW, AWM and field-installed wiring have different product and installation scopes; exact marking, location and governing standard must be reviewed.",
+        "zh": "MTW、AWM 与现场敷设电线具有不同产品和安装范围，必须审核准确印字、位置与适用标准。"
+      }
+    },
+    {
+      "title": {
+        "en": "Project Inputs",
+        "zh": "项目输入"
+      },
+      "copy": {
+        "en": "Provide the market, machine standard, circuit list, route map, exact wire designation, terminal system and validation plan.",
+        "zh": "请提供目标市场、机器标准、回路表、路径图、准确线材型号、端接系统与验证方案。"
+      }
+    },
+    {
+      "title": {
+        "en": "Release Records",
+        "zh": "放行依据"
+      },
+      "copy": {
+        "en": "Release records the wire identity, construction, cut and strip details, termination combination, routing, traceability and agreed checks.",
+        "zh": "放行记录包含线材身份、结构、裁线剥线、端接组合、布线路径、追溯与约定检查。"
+      }
+    },
+    {
+      "title": {
+        "en": "Interface Review",
+        "zh": "接口审核"
+      },
+      "copy": {
+        "en": "Confirm the exact mating interface, pin map, dimensions and installation orientation.",
+        "zh": "确认准确对插接口、针脚对应、尺寸及安装方向。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sample Acceptance",
+        "zh": "样品验收"
+      },
+      "copy": {
+        "en": "Agree the sample configuration and electrical, mechanical or environmental checks required by the project.",
+        "zh": "约定样品配置以及项目所需的电气、机械或环境检查。"
+      }
+    },
+    {
+      "title": {
+        "en": "Change Control",
+        "zh": "变更控制"
+      },
+      "copy": {
+        "en": "Record changes to materials, drawings and process instructions before repeat manufacture.",
+        "zh": "重复制造前记录材料、图纸与工艺说明的变更。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=wire-cable-03&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [],
+  "materials": [
+    {
+      "brand": "LAPP",
+      "identifier": "4190107K",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "100012602",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.01.12",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190115K",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50513",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF130-40-04-UL",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190124K",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50530",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF130US-05-04",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190127K",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50543",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF140.02.12.UL",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190134K",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50549",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF140US-05-04",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160192",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50587",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF2.01.04",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190108K",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50630",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF5.02.36",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190132K",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50684",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF6.02.04",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190117K",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50816",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF77.UL.02.03.INI",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190125K",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50864",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF78.UL.05.04",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190135K",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50957",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.02.02",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160217",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50982",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF98.01.03",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160239",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51003",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF99.01.02",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160242",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51284",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.01.18",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160292",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51354",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF130.02.03.UL",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160316",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51440",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF130US-05-05",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160317",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51449",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF140.03.05.UL",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160330",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51465",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF140US-07-12",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160392",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51477",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF2.01.08",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160412",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51641",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF5.03.15",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160418",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51856",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF6.02.25",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160419",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50511",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF77.UL.02.04.D",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160420",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50548",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF78.UL.05.05",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160421",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50650",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.02.03.INI",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160422",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50956",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF98.02.04",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160423",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51282",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF99.02.04",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160424",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51445",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.02.04",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160425",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51552",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF130.02.04.UL",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160427",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50516",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF130US-05-18",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160428",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50728",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF140.05.03.UL",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160429",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51324",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF140US-07-25",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160433",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51680",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF2.01.12",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160434",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50613",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF5.03.18",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160492",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51464",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF6.03.05",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160542",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50817",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF77.UL.02.05.D",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160592",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50531",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF78.UL.05.07",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160666",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50580",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.02.06",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160667",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51359",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF98.02.08",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160692",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51466",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF99.03.08",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4160792",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50958",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.02.08",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190101",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50983",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF130.02.06.UL",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190102",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52081",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF130US-07-07",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190103",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF140.05.04.UL",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190104",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF140US-15-22",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190105",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF2.01.18",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190106",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF5.03.25",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190107",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF6.05.02",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190108",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF77.UL.02.07.D",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190109",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF78.UL.05.09",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190110",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.02.07",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190111",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF98.03.07",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190112",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF99.PLUS.01.02",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190113",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.02.12",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190114",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF130.02.07.UL",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190115",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF130US-07-12",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190116",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF140.05.05.UL",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190117",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF140US-15-33",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190118",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF2.01.24",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190119",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF5.05.02",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190120",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF6.05.05",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190121",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF77.UL.02.12.D",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190122",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF78.UL.05.12",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190123",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.02.08",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190124",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF98.PLUS.01.02",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190125",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF99.PLUS.01.04",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190126",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.02.25",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190127",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF130.02.12.UL",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190128",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF130US-07-25",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190129",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF140.05.18.UL",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190130",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF140US-25-12",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190131",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF2.01.36",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190132",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF5.05.03",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190133",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF6.05.07",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190134",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF77.UL.02.18.D",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190135",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF78.UL.05.18",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190136",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.02.12",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190137",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF98.PLUS.01.03",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190138",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF99.PLUS.01.08",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190139",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.03.05.INI",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190140",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF130.02.18.UL",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190141",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF130US-15-04",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190142",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF140.05.36.UL",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190143",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF140US-60-05",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190144",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF2.02.04",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190145",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF5.05.04",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190146",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF6.05.09",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190147",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF77.UL.02.25.D",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190148",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF78.UL.05.25",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190149",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.02.18",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190150",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF98.PLUS.01.04",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190151",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF99.PLUS.02.04",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190152",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.05.04",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190153",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF130.02.20.UL",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190154",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF130US-15-05",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190155",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF140.07.03.UL",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190156",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF140US.05.02",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190157",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF2.02.08",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "4190158",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF5.05.05",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "8201016321",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF6.05.12",
+      "aliases": [],
+      "description": {
+        "en": "Equipment wiring material",
+        "zh": "设备配线材料"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Equipment Wire",
+    "zh": "设备用电线"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "material_scope",
+    "reason": {
+      "en": "Wire, bulk cable and polymer grades are materials. They are not counted as terminated cable assemblies.",
+      "zh": "电线、卷装电缆与胶料牌号属于材料，不计为已端接电缆组件。"
+    },
+    "audit_id": "wire-material-batches/wire-cable-03-materials-strict-ready.json",
+    "verified_counts": {
+      "products": 0,
+      "materials": 240
+    }
+  }
+}

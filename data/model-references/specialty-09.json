@@ -1,0 +1,611 @@
+{
+  "version": 2,
+  "category_id": "specialty-09",
+  "route": "/products/ftdi-cable-assembly",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Manufacturer-identified assemblies for interface selection.",
+        "zh": "经原厂资料核验的接口组件参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Materials identified for the specific interface or molding process.",
+        "zh": "用于具体接口或成型工艺选型的材料。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Electrical layer",
+        "zh": "明确电气接口"
+      },
+      "copy": {
+        "en": "Specify TTL UART, RS232, RS422 or RS485 before choosing an endpoint. A similar connector does not establish compatible signal levels.",
+        "zh": "先明确TTL UART、RS232、RS422或RS485，再选择端点；相似接头不能证明信号电平兼容。"
+      }
+    },
+    {
+      "title": {
+        "en": "Signals and supply",
+        "zh": "区分信号与供电"
+      },
+      "copy": {
+        "en": "Define I/O voltage, VCC output or target supply, ground, handshake lines and pin mapping separately. Review the exact part datasheet.",
+        "zh": "分别定义I/O电平、VCC输出或目标供电、接地、握手线与针脚表，并核对准确型号规格书。"
+      }
+    },
+    {
+      "title": {
+        "en": "Host and drivers",
+        "zh": "确认主机与驱动"
+      },
+      "copy": {
+        "en": "Identify the host OS, VCP or D2XX workflow, application protocol and any MPSSE library requirements. A UART cable is not a substitute for every SPI or JTAG adapter.",
+        "zh": "确认主机系统、VCP或D2XX路径、应用协议及MPSSE库要求；UART线不能替代所有SPI或JTAG适配器。"
+      }
+    },
+    {
+      "title": {
+        "en": "Target connection",
+        "zh": "定义设备端连接"
+      },
+      "copy": {
+        "en": "Record connector keying, contact assignment, cable length, shield path, strain relief and any open-wire termination.",
+        "zh": "记录接头防错、触点定义、线长、屏蔽路径、应力释放及裸线端接方式。"
+      }
+    },
+    {
+      "title": {
+        "en": "Electronic configuration",
+        "zh": "管理电子配置"
+      },
+      "copy": {
+        "en": "Confirm the genuine conversion device, programmed identity and serial configuration with the customer. Record any authorized EEPROM changes.",
+        "zh": "与客户确认转换器件来源、设备身份及串行配置，并记录获准的EEPROM变更。"
+      }
+    },
+    {
+      "title": {
+        "en": "Active verification",
+        "zh": "完成有源验证"
+      },
+      "copy": {
+        "en": "Define enumeration, communication, loopback or target-function checks alongside continuity and visual inspection. Retain the released hardware and configuration revisions.",
+        "zh": "除导通与外观检查外，定义枚举、通信、回环或目标设备功能检查，并保留获批硬件与配置版本。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=specialty-09&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "FTDI",
+      "identifier": "TTL-232R-3V3",
+      "aliases": [],
+      "description": {
+        "en": "USB to TTL UART converter cable",
+        "zh": "USB转TTL UART电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "TTL-232R-3V3-AJ",
+      "aliases": [],
+      "description": {
+        "en": "USB to TTL UART converter cable",
+        "zh": "USB转TTL UART电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "TTL-232R-5V-AJ",
+      "aliases": [],
+      "description": {
+        "en": "USB to TTL UART converter cable",
+        "zh": "USB转TTL UART电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "TTL-232R-3V3-WE",
+      "aliases": [],
+      "description": {
+        "en": "USB to TTL UART converter cable",
+        "zh": "USB转TTL UART电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "TTL-232R-5V",
+      "aliases": [],
+      "description": {
+        "en": "USB to TTL UART converter cable",
+        "zh": "USB转TTL UART电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "TTL-232R-RPI",
+      "aliases": [],
+      "description": {
+        "en": "USB to TTL UART converter cable",
+        "zh": "USB转TTL UART电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "TTL-232R-3V3-2MM",
+      "aliases": [],
+      "description": {
+        "en": "USB to TTL UART converter cable",
+        "zh": "USB转TTL UART电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "US232R-100-BULK",
+      "aliases": [],
+      "description": {
+        "en": "USB to RS232 converter cable",
+        "zh": "USB转RS232电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "USB NMC-2.5M",
+      "aliases": [],
+      "description": {
+        "en": "USB null-modem cable",
+        "zh": "USB零调制解调器电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "USB-RS232-WE-5000-BT_5.0",
+      "aliases": [],
+      "description": {
+        "en": "USB to RS232 converter cable",
+        "zh": "USB转RS232电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "USB-RS232-WE-1800-BT_3.3",
+      "aliases": [],
+      "description": {
+        "en": "USB to RS232 converter cable",
+        "zh": "USB转RS232电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "USB-RS232-WE-5000-BT_3.3",
+      "aliases": [],
+      "description": {
+        "en": "USB to RS232 converter cable",
+        "zh": "USB转RS232电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "US232B-100-BULK",
+      "aliases": [],
+      "description": {
+        "en": "USB to RS232 converter cable",
+        "zh": "USB转RS232电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "US232B/LC-BULK",
+      "aliases": [
+        "US232B/LC-BLISTER"
+      ],
+      "description": {
+        "en": "USB to RS232 converter cable",
+        "zh": "USB转RS232电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "Chipi-X10",
+      "aliases": [],
+      "description": {
+        "en": "USB to RS232 converter cable",
+        "zh": "USB转RS232电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "US232R-10-BULK",
+      "aliases": [],
+      "description": {
+        "en": "USB to RS232 converter cable",
+        "zh": "USB转RS232电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "C232HD-EDHSP-0",
+      "aliases": [],
+      "description": {
+        "en": "USB to TTL UART converter cable",
+        "zh": "USB转TTL UART电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "TTL-234X-3V3-WE",
+      "aliases": [],
+      "description": {
+        "en": "USB to TTL UART converter cable",
+        "zh": "USB转TTL UART电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "C232HD-DDHSP-0",
+      "aliases": [],
+      "description": {
+        "en": "USB to TTL UART converter cable",
+        "zh": "USB转TTL UART电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "TTL-234X-3V3",
+      "aliases": [],
+      "description": {
+        "en": "USB to TTL UART converter cable",
+        "zh": "USB转TTL UART电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "TTL-234X-5V-AJ",
+      "aliases": [],
+      "description": {
+        "en": "USB to TTL UART converter cable",
+        "zh": "USB转TTL UART电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "TTL-234X-5V-WE",
+      "aliases": [],
+      "description": {
+        "en": "USB to TTL UART converter cable",
+        "zh": "USB转TTL UART电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "TTL-234X-5V",
+      "aliases": [],
+      "description": {
+        "en": "USB to TTL UART converter cable",
+        "zh": "USB转TTL UART电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "TTL-232R-5V-WE",
+      "aliases": [],
+      "description": {
+        "en": "USB to TTL UART converter cable",
+        "zh": "USB转TTL UART电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "TTL-232RG-VIP-WE",
+      "aliases": [],
+      "description": {
+        "en": "USB to TTL UART converter cable",
+        "zh": "USB转TTL UART电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "TTL-232RG-VREG1V8-WE",
+      "aliases": [],
+      "description": {
+        "en": "USB to TTL UART converter cable",
+        "zh": "USB转TTL UART电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "TTL-232RG-VREG3V3-WE",
+      "aliases": [],
+      "description": {
+        "en": "USB to TTL UART converter cable",
+        "zh": "USB转TTL UART电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "TTL-232RG-VSW5V-WE",
+      "aliases": [],
+      "description": {
+        "en": "USB to TTL UART converter cable",
+        "zh": "USB转TTL UART电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "TTL-232RG-VSW3V3-WE",
+      "aliases": [],
+      "description": {
+        "en": "USB to TTL UART converter cable",
+        "zh": "USB转TTL UART电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "USB-RS422-WE-1800-BT",
+      "aliases": [],
+      "description": {
+        "en": "USB to RS422 converter cable",
+        "zh": "USB转RS422电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "USB-RS422-WE-5000-BT",
+      "aliases": [],
+      "description": {
+        "en": "USB to RS422 converter cable",
+        "zh": "USB转RS422电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "C232HM-DDHSL-0",
+      "aliases": [],
+      "description": {
+        "en": "USB MPSSE SPI/I2C/JTAG converter cable",
+        "zh": "USB MPSSE SPI/I2C/JTAG转换电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "C232HM-EDHSL-0",
+      "aliases": [],
+      "description": {
+        "en": "USB MPSSE SPI/I2C/JTAG converter cable",
+        "zh": "USB MPSSE SPI/I2C/JTAG转换电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "UC232R-10",
+      "aliases": [],
+      "description": {
+        "en": "USB to RS232 converter cable",
+        "zh": "USB转RS232电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "UC232R-10-NE",
+      "aliases": [],
+      "description": {
+        "en": "USB to RS232 converter cable",
+        "zh": "USB转RS232电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "USB-RS232-WE-1800-BT_0.0",
+      "aliases": [],
+      "description": {
+        "en": "USB to RS232 converter cable",
+        "zh": "USB转RS232电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "USB-RS232-WE-1800-BT_5.0",
+      "aliases": [],
+      "description": {
+        "en": "USB to RS232 converter cable",
+        "zh": "USB转RS232电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "USB-RS232-WE-5000-BT_0.0",
+      "aliases": [],
+      "description": {
+        "en": "USB to RS232 converter cable",
+        "zh": "USB转RS232电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "USB-RS485-WE-1800-BT",
+      "aliases": [],
+      "description": {
+        "en": "USB to RS485 converter cable",
+        "zh": "USB转RS485电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "USB-RS485-WE-5000-BT",
+      "aliases": [],
+      "description": {
+        "en": "USB to RS485 converter cable",
+        "zh": "USB转RS485电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "UT232R-500",
+      "aliases": [],
+      "description": {
+        "en": "USB to RS232 converter cable",
+        "zh": "USB转RS232电缆"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "brand": "FTDI",
+      "identifier": "USB-RS232-PCB",
+      "aliases": [],
+      "description": {
+        "en": "USB serial interface PCB assembly",
+        "zh": "USB串行接口电路板组件"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "TTL-232R-5V-PCB",
+      "aliases": [],
+      "description": {
+        "en": "USB serial interface PCB assembly",
+        "zh": "USB串行接口电路板组件"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "TTL-232R-3V3-PCB",
+      "aliases": [],
+      "description": {
+        "en": "USB serial interface PCB assembly",
+        "zh": "USB串行接口电路板组件"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "TTL-232RG-VSW3V3-PCB",
+      "aliases": [],
+      "description": {
+        "en": "USB serial interface PCB assembly",
+        "zh": "USB串行接口电路板组件"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "USB-RS422-PCBA",
+      "aliases": [],
+      "description": {
+        "en": "USB serial interface PCB assembly",
+        "zh": "USB串行接口电路板组件"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "USB-RS485-PCB",
+      "aliases": [],
+      "description": {
+        "en": "USB serial interface PCB assembly",
+        "zh": "USB串行接口电路板组件"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "FTDI Cable Assembly",
+    "zh": "FTDI电缆组件"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "narrow_published_range",
+    "reason": {
+      "en": "Project and manufacturer references are shown only at their audited counts. Process requirements are defined separately from finished-product ratings.",
+      "zh": "项目与原厂编号仅按实际核验数量展示，工艺要求和成品等级分别定义。"
+    },
+    "audit_id": "specialty-09-process-literal-candidates.json",
+    "verified_counts": {
+      "products": 41,
+      "materials": 6
+    }
+  }
+}

@@ -22,17 +22,17 @@ function element({ tag = 'SPAN', type = '', value = '', attributes = {}, dataset
   };
 }
 
-function boot({ search = '', lang = 'en', draft, categoryForm = false, readyState = 'interactive', historyState = null } = {}) {
+function boot({ search = '', lang = 'en', draft, categoryForm = false, readyState = 'interactive', historyState = null, category = 'custom-harness-01', route = '/products/industrial-equipment-harness', categoryNames = { en: 'Industrial Equipment Harness', zh: '工业设备线束' } } = {}) {
   const listeners = new Map();
   const windowListeners = new Map();
   const animationFrames = [];
   const observers = [];
   const message = draft === undefined ? null : element({ tag: 'TEXTAREA', value: draft });
-  const form = categoryForm ? element({ tag: 'FORM', dataset: { category: 'custom-harness-01', route: '/products/industrial-equipment-harness' } }) : null;
+  const form = categoryForm ? element({ tag: 'FORM', dataset: { category, route } }) : null;
   const choice = element({ tag: 'INPUT', type: 'checkbox' });
   const field = element();
   const input = element({ tag: 'INPUT', type: 'text', attributes: { 'data-ci-placeholder-en': 'Enter a model or part number', 'data-ci-placeholder-zh': '输入型号或料号' } });
-  const categoryName = element({ tag: 'INPUT', type: 'hidden', value: 'Industrial Equipment Harness', attributes: { 'data-ci-en': 'Industrial Equipment Harness', 'data-ci-zh': '工业设备线束' } });
+  const categoryName = element({ tag: 'INPUT', type: 'hidden', value: categoryNames.en, attributes: { 'data-ci-en': categoryNames.en, 'data-ci-zh': categoryNames.zh } });
   const languageField = element({ tag: 'INPUT', type: 'hidden', value: 'en' });
   const label = element({ attributes: { 'data-ci-en': 'Add a model or part number (optional)', 'data-ci-zh': '填写型号或料号（可选）' } });
   if (form) form.querySelector = selector => ({ '#ci-category-name': categoryName, 'input[name="lang"]': languageField })[selector] || null;
@@ -144,6 +144,46 @@ test('contact prefills both lines before asynchronous main localization and foll
   assert.equal(ui.message.value, 'Product category inquiry: Industrial Equipment Harness\nModel / part number: 0931058103');
   ui.language('zh');
   assert.equal(ui.message.value, '咨询产品类别：工业设备线束\n型号 / 料号：0931058103');
+});
+
+test('every category can carry both names into contact and keep its own optional draft', () => {
+  const options = {
+    categoryForm: true,
+    category: 'connector-systems-02',
+    route: '/products/molex-compatible',
+    categoryNames: { en: 'Molex-Compatible Wire Harnesses', zh: 'Molex 兼容线束' },
+    search: '?lang=zh'
+  };
+  const outbound = boot(options);
+  outbound.choice.checked = true;
+  outbound.choice.dispatch('change');
+  outbound.input.value = '  43025-0400  ';
+  outbound.form.dispatch('submit', { preventDefault() {} });
+  const target = new URL(outbound.destinations.at(-1), 'https://supersmile-tech.com');
+  assert.equal(target.searchParams.get('category'), options.category);
+  assert.equal(target.searchParams.get('category_name_en'), options.categoryNames.en);
+  assert.equal(target.searchParams.get('category_name_zh'), options.categoryNames.zh);
+  assert.equal(target.searchParams.get('source_page'), options.route);
+  const contact = boot({ draft: '', search: target.search });
+  assert.equal(contact.message.value, '咨询产品类别：Molex 兼容线束\n型号 / 料号：43025-0400');
+  contact.language('en');
+  assert.equal(contact.message.value, 'Product category inquiry: Molex-Compatible Wire Harnesses\nModel / part number: 43025-0400');
+  contact.language('zh');
+  assert.equal(contact.message.value, '咨询产品类别：Molex 兼容线束\n型号 / 料号：43025-0400');
+  const returned = boot({ ...options, historyState: outbound.history.state });
+  assert.equal(returned.input.value, '  43025-0400  ');
+  assert.equal(returned.choice.checked, true);
+  const differentCategory = boot({ categoryForm: true, historyState: outbound.history.state });
+  assert.equal(differentCategory.input.value, '');
+  assert.equal(differentCategory.choice.checked, false);
+  outbound.choice.checked = false;
+  outbound.form.dispatch('submit', { preventDefault() {} });
+  const withoutPart = new URL(outbound.destinations.at(-1), 'https://supersmile-tech.com');
+  assert.equal(withoutPart.searchParams.has('part_number'), false);
+  const categoryOnly = boot({ draft: '', search: withoutPart.search });
+  assert.equal(categoryOnly.message.value, '咨询产品类别：Molex 兼容线束');
+  categoryOnly.language('en');
+  assert.equal(categoryOnly.message.value, 'Product category inquiry: Molex-Compatible Wire Harnesses');
 });
 
 test('history restoration resynchronizes the optional part field without clearing text or taking focus', () => {
@@ -291,7 +331,7 @@ test('contact pages without a part number are unchanged and raw query text stays
 
 test('contact integration loads once after main and delayed initialization handles DOM readiness', () => {
   assert.equal((contactPage.match(/id="category-inquiry-script"/g) || []).length, 1);
-  assert.match(contactPage, /<script id="category-inquiry-script" defer src="\/assets\/js\/category-inquiry\.js\?v=20261015-inquiry1"><\/script>/);
+  assert.match(contactPage, /<script id="category-inquiry-script" defer src="\/assets\/js\/category-inquiry\.js\?v=20261015-references-all1"><\/script>/);
   assert.ok(contactPage.indexOf('/assets/js/main.js') < contactPage.indexOf('/assets/js/category-inquiry.js'));
   const ui = boot({ readyState: 'loading', draft: '', search: '?category=custom-harness-01&part_number=123&lang=zh' });
   assert.equal(ui.message.value, '');

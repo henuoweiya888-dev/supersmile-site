@@ -1,0 +1,1680 @@
+{
+  "version": 2,
+  "category_id": "automotive-09",
+  "route": "/products/relay-and-fuse-box-harness",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Manufacturer-identified finished assemblies for this application.",
+        "zh": "此应用范围内经原厂资料核验的成品组件。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Category-specific material references; the final BOM follows the approved configuration.",
+        "zh": "此类选型的材料参考；最终 BOM 以确认配置为准。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Selection & Project Review",
+    "zh": "选型与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Application Boundary",
+        "zh": "应用边界"
+      },
+      "copy": {
+        "en": "Fuse selection, contact duty, conductor capacity, coil suppression and enclosure temperature must be coordinated.",
+        "zh": "熔断器、触点任务、导体容量、线圈抑制与盒内温度需要协调设计。"
+      }
+    },
+    {
+      "title": {
+        "en": "Project Inputs",
+        "zh": "项目输入"
+      },
+      "copy": {
+        "en": "Provide the voltage, circuit diagram, load profile, connector details, mounting space and validation requirements.",
+        "zh": "请提供电压、原理图、负载曲线、连接器资料、安装空间与验证要求。"
+      }
+    },
+    {
+      "title": {
+        "en": "Release Records",
+        "zh": "放行依据"
+      },
+      "copy": {
+        "en": "Released drawings, material approval, sample validation and controlled assembly define each production version.",
+        "zh": "通过图纸放行、物料认可、样品验证与受控组装定义每个生产版本。"
+      }
+    },
+    {
+      "title": {
+        "en": "Interface Review",
+        "zh": "接口审核"
+      },
+      "copy": {
+        "en": "Confirm the exact mating interface, pin map, dimensions and installation orientation.",
+        "zh": "确认准确对插接口、针脚对应、尺寸及安装方向。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sample Acceptance",
+        "zh": "样品验收"
+      },
+      "copy": {
+        "en": "Agree the sample configuration and electrical, mechanical or environmental checks required by the project.",
+        "zh": "约定样品配置以及项目所需的电气、机械或环境检查。"
+      }
+    },
+    {
+      "title": {
+        "en": "Change Control",
+        "zh": "变更控制"
+      },
+      "copy": {
+        "en": "Record changes to materials, drawings and process instructions before repeat manufacture.",
+        "zh": "重复制造前记录材料、图纸与工艺说明的变更。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=automotive-09&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "American Autowire",
+      "identifier": "510920",
+      "aliases": [],
+      "description": {
+        "en": "4 Position Banked Relay Panel",
+        "zh": "继电器与配电线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510962",
+      "aliases": [],
+      "description": {
+        "en": "Power Window Reversing Relay Kit- 4 Window",
+        "zh": "继电器与配电线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510961",
+      "aliases": [],
+      "description": {
+        "en": "Power Window Reversing Relay Kit- 2 Window",
+        "zh": "继电器与配电线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39768",
+      "aliases": [],
+      "description": {
+        "en": "Power Tailgate Switch & Relay Harness",
+        "zh": "继电器与配电线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510922",
+      "aliases": [],
+      "description": {
+        "en": "6 Position Banked Relay Panel",
+        "zh": "继电器与配电线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510924",
+      "aliases": [],
+      "description": {
+        "en": "8 Position Banked Relay Panel",
+        "zh": "继电器与配电线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE50257",
+      "aliases": [],
+      "description": {
+        "en": "Dash Fuse Panel Power Feed Harness",
+        "zh": "继电器与配电线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "70217",
+      "aliases": [],
+      "description": {
+        "en": "CirKit Boss Auxiliary Fuse Block/7 Circuits/Weatherproof (7 Ignition 12V)",
+        "zh": "继电器与配电线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "70213",
+      "aliases": [],
+      "description": {
+        "en": "CirKit Boss Auxiliary Fuse Block/3 Circuits/Weatherproof (3 Ignition 12V)",
+        "zh": "继电器与配电线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "70207",
+      "aliases": [],
+      "description": {
+        "en": "CirKit Boss Auxiliary Fuse Block/7 Circuits/Weatherproof (3 Constant – 4 Ign.)",
+        "zh": "继电器与配电线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "70203",
+      "aliases": [],
+      "description": {
+        "en": "CirKit Boss Auxiliary Fuse Block/3 Circuits/Weatherproof (1 Constant – 2 Ign.)",
+        "zh": "继电器与配电线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "70118",
+      "aliases": [],
+      "description": {
+        "en": "CirKit Boss Heavy Duty Auxiliary Fuse Block/7 Circuits (7 Ignition 12V)",
+        "zh": "继电器与配电线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "70117",
+      "aliases": [],
+      "description": {
+        "en": "CirKit Boss Auxiliary Fuse Block/7 Circuits (7 Ignition 12V)",
+        "zh": "继电器与配电线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "70114",
+      "aliases": [],
+      "description": {
+        "en": "CirKit Boss Heavy Duty Auxiliary Fuse Block/3 Circuits (3 Ignition 12V)",
+        "zh": "继电器与配电线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "70113",
+      "aliases": [],
+      "description": {
+        "en": "CirKit Boss Auxiliary Fuse Block/3 Circuits (3 Ignition 12V)",
+        "zh": "继电器与配电线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "70107",
+      "aliases": [],
+      "description": {
+        "en": "CirKit Boss Auxiliary Fuse Block/7 Circuits (3 Constant 12V – 4 Ignition 12V)",
+        "zh": "继电器与配电线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "70103",
+      "aliases": [],
+      "description": {
+        "en": "CirKit Boss Auxiliary Fuse Block/3 Circuits (1 Constant 12V – 2 Ignition 12V)",
+        "zh": "继电器与配电线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "50106",
+      "aliases": [],
+      "description": {
+        "en": "Electric Water Pump Relay Kit",
+        "zh": "继电器与配电线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "50102",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Pump Relay Kit",
+        "zh": "继电器与配电线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30823",
+      "aliases": [],
+      "description": {
+        "en": "S/T 10/15 Headlight Relay Kit(1998 & Up)",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30822",
+      "aliases": [],
+      "description": {
+        "en": "High Beam Headlight Relay Kit 2003-2006 GM Fullsize Trucks & SUVs",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30821",
+      "aliases": [],
+      "description": {
+        "en": "High Beam Headlight Relay Kit (1999-2002 GM Fullsize Trucks & SUVs)",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30815",
+      "aliases": [],
+      "description": {
+        "en": "H-4 Headlight Relay Conversion Harness",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30802",
+      "aliases": [],
+      "description": {
+        "en": "High Beam Headlight Relay Kit (1988-1998 GM fullsize trucks & SUVs)",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30201",
+      "aliases": [],
+      "description": {
+        "en": "Hot Shot Plus With Engine Bump Switch Relay Kit",
+        "zh": "继电器与配电线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30133",
+      "aliases": [],
+      "description": {
+        "en": "Weatherproof PCM Controlled Fan Relay Kit (Ground Activated)",
+        "zh": "继电器与配电线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30132",
+      "aliases": [],
+      "description": {
+        "en": "Weatherproof Water Pump Relay Kit",
+        "zh": "继电器与配电线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30131",
+      "aliases": [],
+      "description": {
+        "en": "Weatherproof Fuel Pump Relay Kit",
+        "zh": "继电器与配电线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30130",
+      "aliases": [],
+      "description": {
+        "en": "Weatherproof Fan Relay Kit",
+        "zh": "继电器与配电线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30129",
+      "aliases": [],
+      "description": {
+        "en": "Weatherproof Fan Relay Kit w/Thermostatic Switch 185F On/175F Off",
+        "zh": "继电器与配电线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30128",
+      "aliases": [],
+      "description": {
+        "en": "Weatherproof Fan Relay Kit w/Thermostatic Switch 195F On/185F Off",
+        "zh": "继电器与配电线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30118",
+      "aliases": [],
+      "description": {
+        "en": "LSX Dual Fan-Dual Activation Fan Relay Kit (205 degrees F On/190 degrees F Off)",
+        "zh": "继电器与配电线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30117",
+      "aliases": [],
+      "description": {
+        "en": "Dual Fan-Dual Activation Fan Relay Kit (185 degrees F On/175 degrees F Off)",
+        "zh": "继电器与配电线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30116",
+      "aliases": [],
+      "description": {
+        "en": "Dual Fan-Dual Activation Fan Relay Kit (195 degrees F On/185 degrees F Off)",
+        "zh": "继电器与配电线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30115",
+      "aliases": [],
+      "description": {
+        "en": "Dual Activation Electric Fan Relay Kit (185 degrees F On/175 degrees F Off)",
+        "zh": "继电器与配电线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30114",
+      "aliases": [],
+      "description": {
+        "en": "Dual Activation Electric Fan Relay Kit (195 degrees F On/185 degrees F Off)",
+        "zh": "继电器与配电线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30109",
+      "aliases": [],
+      "description": {
+        "en": "PCM Controlled Fan Relay Kit (Ground Activated)",
+        "zh": "继电器与配电线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30108",
+      "aliases": [],
+      "description": {
+        "en": "6-Pack Relay Bank",
+        "zh": "继电器与配电线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30107",
+      "aliases": [],
+      "description": {
+        "en": "3-Pack Relay Bank",
+        "zh": "继电器与配电线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30101",
+      "aliases": [],
+      "description": {
+        "en": "Electric Fan Relay Kit",
+        "zh": "继电器与配电线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30100",
+      "aliases": [],
+      "description": {
+        "en": "70-Amp Fan Relay Kit",
+        "zh": "继电器与配电线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30004",
+      "aliases": [],
+      "description": {
+        "en": "Weatherproof Universal Style Pre-Wired 20 Circuit Fuse Block",
+        "zh": "继电器与配电线束"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "brand": "American Autowire",
+      "identifier": "520030",
+      "aliases": [],
+      "description": {
+        "en": "Track20 - Relay Panel",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "520025",
+      "aliases": [],
+      "description": {
+        "en": "Track20 Accessory Fuse Panel",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510001",
+      "aliases": [],
+      "description": {
+        "en": "Dual Fan Relay Kit",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04850166",
+      "aliases": [],
+      "description": {
+        "en": "Circuit Breaker",
+        "zh": "断路保护组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "10014885",
+      "aliases": [],
+      "description": {
+        "en": "Rear Defroster Relay/Timer",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510599",
+      "aliases": [],
+      "description": {
+        "en": "Severe Duty Weatherproof Relay Panel",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510602",
+      "aliases": [],
+      "description": {
+        "en": "60 Amp Weatherproof Relay",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510598",
+      "aliases": [],
+      "description": {
+        "en": "200 Amp Sealed Circuit Breaker",
+        "zh": "断路保护组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510313",
+      "aliases": [],
+      "description": {
+        "en": "Midi Fuse - 100 Amp",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510215",
+      "aliases": [],
+      "description": {
+        "en": "Intelligent Fuse Kit - 1964-70 Mustang Classic Updates",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510214",
+      "aliases": [],
+      "description": {
+        "en": "Intelligent Fuse Kit - Various Camaro, Chevelle, Firebird/GTO and Chevy Fullsize Classic Update",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510213",
+      "aliases": [],
+      "description": {
+        "en": "Intelligent Fuse Kit - 55-57 Chevy Passenger and 1955-66 Chevy Truck Classic Updates",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510212",
+      "aliases": [],
+      "description": {
+        "en": "Intelligent Fuse Kit: 1967-67 Nova Classic Update & Builder 19",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510211",
+      "aliases": [],
+      "description": {
+        "en": "Intelligent Fuse Kit: Power Plus 20",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510210",
+      "aliases": [],
+      "description": {
+        "en": "Intelligent Fuse Kit: Power Plus 13",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510209",
+      "aliases": [],
+      "description": {
+        "en": "Intelligent Fuse Kit: Highway 22",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510208",
+      "aliases": [],
+      "description": {
+        "en": "Intelligent Fuse Kit: Highway 15",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510207",
+      "aliases": [],
+      "description": {
+        "en": "20 Amp Mini Intelligent Fuse",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510206",
+      "aliases": [],
+      "description": {
+        "en": "30 Amp ATP Intelligent Fuse",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510205",
+      "aliases": [],
+      "description": {
+        "en": "20 Amp ATP Intelligent Fuse",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510204",
+      "aliases": [],
+      "description": {
+        "en": "15 Amp ATP Intelligent Fuse",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510203",
+      "aliases": [],
+      "description": {
+        "en": "10 Amp ATP Intelligent Fuse",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510202",
+      "aliases": [],
+      "description": {
+        "en": "5 Amp ATP Intelligent Fuse",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510002",
+      "aliases": [],
+      "description": {
+        "en": "Fan Relay Kit- 70 amp",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01115858",
+      "aliases": [],
+      "description": {
+        "en": "Relay",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40120",
+      "aliases": [],
+      "description": {
+        "en": "Relay Board Assy.",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500909",
+      "aliases": [],
+      "description": {
+        "en": "Horn Relay - Universal 3 Position",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500827",
+      "aliases": [],
+      "description": {
+        "en": "Mega Fuse - 175 Amp",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500784",
+      "aliases": [],
+      "description": {
+        "en": "Single Electric Cooling Fan Dual Relay Kit",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500733",
+      "aliases": [],
+      "description": {
+        "en": "100 Amp Midi Fuse Kit",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500689",
+      "aliases": [],
+      "description": {
+        "en": "175 Amp Mega Fuse Kit",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500667",
+      "aliases": [],
+      "description": {
+        "en": "Circuit Breaker & Cover - 40 Amp",
+        "zh": "断路保护组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37139",
+      "aliases": [],
+      "description": {
+        "en": "Dash Fuse Panel Kit",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500543",
+      "aliases": [],
+      "description": {
+        "en": "Retained Accessory Power Relay Pack",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500532",
+      "aliases": [],
+      "description": {
+        "en": "Universal 70 Amp Relay",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500528",
+      "aliases": [],
+      "description": {
+        "en": "30 Amp Inline Fuse Kit",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500511",
+      "aliases": [],
+      "description": {
+        "en": "Universal 70 Amp Relay Kit",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500479",
+      "aliases": [],
+      "description": {
+        "en": "Universal Relay Kit- 40 amp",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500449",
+      "aliases": [],
+      "description": {
+        "en": "60 Amp Maxi Fuse Kit",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500448",
+      "aliases": [],
+      "description": {
+        "en": "40 Amp Relay- Weatherproof With Connector",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500431",
+      "aliases": [],
+      "description": {
+        "en": "Headlight Enhancement Relay Kit- Weatherproof",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500429",
+      "aliases": [],
+      "description": {
+        "en": "ATO Fuse Box Power Tap Set",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500403",
+      "aliases": [],
+      "description": {
+        "en": "Headlight Enhancement Relay Kit",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500392",
+      "aliases": [],
+      "description": {
+        "en": "Auxiliary Fuse Block Bus Assembly- 4 Fuse",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500388",
+      "aliases": [],
+      "description": {
+        "en": "Auxiliary Fuse Block Assembly- 4 Fuse, Side Feed",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500384",
+      "aliases": [],
+      "description": {
+        "en": "Auxiliary Fuse Block Assembly- 6 Fuse, Side Feed",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500383",
+      "aliases": [],
+      "description": {
+        "en": "Auxiliary Fuse Block Bus Assembly- 6 Fuse",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37890",
+      "aliases": [],
+      "description": {
+        "en": "Fuse/Flasher Kit - 29 Pcs",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37889",
+      "aliases": [],
+      "description": {
+        "en": "Fuse/Flasher Kit - 24 Pcs",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37888",
+      "aliases": [],
+      "description": {
+        "en": "Fuse/Flasher Kit - 22 Pcs",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37887",
+      "aliases": [],
+      "description": {
+        "en": "Fuse/Flasher Kit - 20 Pcs",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37886",
+      "aliases": [],
+      "description": {
+        "en": "Fuse/Flasher Kit - 18 Pcs",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37883",
+      "aliases": [],
+      "description": {
+        "en": "Fuse/Flasher Kit - 15 Pcs",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37877",
+      "aliases": [],
+      "description": {
+        "en": "Fuse/Flasher Kit - 11 Pcs",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37876",
+      "aliases": [],
+      "description": {
+        "en": "Fuse/Flasher Kit - 13 Pcs",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37875",
+      "aliases": [],
+      "description": {
+        "en": "Fuse/Flasher Kit - 8 Pcs (6 Volt Electri",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37874",
+      "aliases": [],
+      "description": {
+        "en": "Fuse Block Repair Kit",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500093",
+      "aliases": [],
+      "description": {
+        "en": "Waterproof Universal Relay Kit- 40 amp",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500094",
+      "aliases": [],
+      "description": {
+        "en": "Waterproof Inline Fuse Kit",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500171",
+      "aliases": [],
+      "description": {
+        "en": "40 Amp Waterproof Relay",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500222",
+      "aliases": [],
+      "description": {
+        "en": "Relay- 20 Amp",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500239",
+      "aliases": [],
+      "description": {
+        "en": "Anti-Theft Relay Kit",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500008",
+      "aliases": [],
+      "description": {
+        "en": "ISO 40 Amp Relay",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "12339243",
+      "aliases": [],
+      "description": {
+        "en": "Horn Relay",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "70438",
+      "aliases": [],
+      "description": {
+        "en": "20 Amp Weatherpack Fuse Loop",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "70121",
+      "aliases": [],
+      "description": {
+        "en": "7 Circuit CirKit Boss Replacement Rubber Fuseblock Cover",
+        "zh": "相关接口与材料组件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "60122",
+      "aliases": [],
+      "description": {
+        "en": "Park/Neutral Relay Kit",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "58110",
+      "aliases": [],
+      "description": {
+        "en": "Painless 30 AMP ATC Circuit Breaker Kit (8 pack)",
+        "zh": "断路保护组件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "58100",
+      "aliases": [],
+      "description": {
+        "en": "Track Rocker Relay Center",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "57100",
+      "aliases": [],
+      "description": {
+        "en": "Trail Rocker Relay Center – Customizable",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "57005",
+      "aliases": [],
+      "description": {
+        "en": "Trail Rocker Relay Center 2007-2018 Jeep Wrangler JK (w/o Switches) (8 Relay)",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "50306",
+      "aliases": [],
+      "description": {
+        "en": "8-Switch Rocker Circuit Breaker Panel",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "50305",
+      "aliases": [],
+      "description": {
+        "en": "6-Switch Rocker Circuit Breaker Panel",
+        "zh": "开关"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "50105",
+      "aliases": [],
+      "description": {
+        "en": "High AMP Alternator Shutdown Relay",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "50101",
+      "aliases": [],
+      "description": {
+        "en": "Race/Pro Street Pre-Wired 16 Circuit Fuse Block",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30803",
+      "aliases": [],
+      "description": {
+        "en": "Auxiliary Light Relay Kit w/Switch",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30717",
+      "aliases": [],
+      "description": {
+        "en": "Jeep Manifold Heater Relay",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30112",
+      "aliases": [],
+      "description": {
+        "en": "Adjustable Fan Thermostat w/o Relay",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30105",
+      "aliases": [],
+      "description": {
+        "en": "Brake Light Relay",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30104",
+      "aliases": [],
+      "description": {
+        "en": "Adjustable Electric Fan Thermostat w/Relay",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30003",
+      "aliases": [],
+      "description": {
+        "en": "Universal Style Pre-Wired 20 Circuit Fuse Block",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30002",
+      "aliases": [],
+      "description": {
+        "en": "4 Circuit ATO Fuse Center",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30001",
+      "aliases": [],
+      "description": {
+        "en": "Universal Style Pre-Wired 14 Circuit Fuse Block",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80138",
+      "aliases": [],
+      "description": {
+        "en": "Heavy Duty Relay, Base, Terminal (70 amp)",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80137",
+      "aliases": [],
+      "description": {
+        "en": "Replacement Heavy Duty SPST Relay (70 amp)",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80136",
+      "aliases": [],
+      "description": {
+        "en": "SPDT Micro Relay w/Base & Terminals",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80135",
+      "aliases": [],
+      "description": {
+        "en": "Micro Relay (2/pkg.)",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80133",
+      "aliases": [],
+      "description": {
+        "en": "Relay Base w/Terminals",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80132",
+      "aliases": [],
+      "description": {
+        "en": "30 Amp, Single Pole Double Throw Relay – Diode Suppressed",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80130",
+      "aliases": [],
+      "description": {
+        "en": "40 Amp, Single Pole Single Throw Relay",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80129",
+      "aliases": [],
+      "description": {
+        "en": "Weatherproof Relay, Base Seal, Terminal (35 amp)",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80128",
+      "aliases": [],
+      "description": {
+        "en": "Replacement Weatherproof Relay (35 amp)",
+        "zh": "继电器"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80126",
+      "aliases": [],
+      "description": {
+        "en": "200 Amp Midi Fuse",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80125",
+      "aliases": [],
+      "description": {
+        "en": "150 Amp Midi Fuse",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80124",
+      "aliases": [],
+      "description": {
+        "en": "100 Amp Midi Fuse",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80110",
+      "aliases": [],
+      "description": {
+        "en": "30 Amp Circuit Breaker (push in style/manual reset)",
+        "zh": "断路保护组件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80109",
+      "aliases": [],
+      "description": {
+        "en": "20 Amp Circuit Breaker (push in style/manual reset)",
+        "zh": "断路保护组件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80108",
+      "aliases": [],
+      "description": {
+        "en": "15 Amp Circuit Breaker (push in style/manual reset)",
+        "zh": "断路保护组件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80107",
+      "aliases": [],
+      "description": {
+        "en": "10 Amp Circuit Breaker (push in style/manual reset)",
+        "zh": "断路保护组件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80102",
+      "aliases": [],
+      "description": {
+        "en": "70 Amp Maxi-Fuse",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80101",
+      "aliases": [],
+      "description": {
+        "en": "Maxi Fuse Assembly",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80042",
+      "aliases": [],
+      "description": {
+        "en": "50 Amp Circuit Breaker w/Boot",
+        "zh": "断路保护组件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80041",
+      "aliases": [],
+      "description": {
+        "en": "40 Amp Circuit Breaker w/Boot",
+        "zh": "断路保护组件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80040",
+      "aliases": [],
+      "description": {
+        "en": "30 Amp Circuit Breaker w/boot",
+        "zh": "断路保护组件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80035",
+      "aliases": [],
+      "description": {
+        "en": "Painless ATC Circuit Breaker Kit (Assorted 8 pack)",
+        "zh": "断路保护组件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80030",
+      "aliases": [],
+      "description": {
+        "en": "Painless 30 AMP ATC Circuit Breaker Kit (4 pack)",
+        "zh": "断路保护组件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80020",
+      "aliases": [],
+      "description": {
+        "en": "Painless 20 AMP ATC Circuit Breaker Kit (4 pack)",
+        "zh": "断路保护组件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80015",
+      "aliases": [],
+      "description": {
+        "en": "Painless 15 AMP ATC Circuit Breaker Kit (4 pack)",
+        "zh": "断路保护组件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80010",
+      "aliases": [],
+      "description": {
+        "en": "Painless 10 AMP ATC Circuit Breaker Kit (4 pack)",
+        "zh": "断路保护组件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80003",
+      "aliases": [],
+      "description": {
+        "en": "Painless MIDI Fuse Holder (200 amp)",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80002",
+      "aliases": [],
+      "description": {
+        "en": "Painless MIDI Fuse Holder (150 amp)",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80001",
+      "aliases": [],
+      "description": {
+        "en": "Painless MIDI Fuse and Holder (70 amp)",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80000",
+      "aliases": [],
+      "description": {
+        "en": "Painless MIDI Fuse Holder (100 amp)",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04749164",
+      "aliases": [],
+      "description": {
+        "en": "Circuit Breaker",
+        "zh": "断路保护组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37138",
+      "aliases": [],
+      "description": {
+        "en": "Dash Fuse Panel Kit",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37882",
+      "aliases": [],
+      "description": {
+        "en": "Fuse/Flasher Kit - 24 Pcs",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37885",
+      "aliases": [],
+      "description": {
+        "en": "Fuse/Flasher Kit - 22 Pcs",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37879",
+      "aliases": [],
+      "description": {
+        "en": "Fuse/Flasher Kit - 18 Pcs",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04849850",
+      "aliases": [],
+      "description": {
+        "en": "Circuit Breaker",
+        "zh": "断路保护组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37884",
+      "aliases": [],
+      "description": {
+        "en": "Fuse/Flasher Kit - 22 Pcs",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37878",
+      "aliases": [],
+      "description": {
+        "en": "Fuse/Flasher Kit - 18 Pcs",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500406",
+      "aliases": [],
+      "description": {
+        "en": "Circuit Breaker",
+        "zh": "断路保护组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37881",
+      "aliases": [],
+      "description": {
+        "en": "Fuse/Flasher Kit - 22 Pcs",
+        "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37880",
+      "aliases": [],
+      "description": {
+        "en": "Fuse/Flasher Kit - 22 Pcs",
+        "zh": "保险丝与配电组件"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Relay & Fuse-Box Harness",
+    "zh": "继电器与保险丝盒线束"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "narrow_published_range",
+    "reason": {
+      "en": "Application-specific references are shown at their audited counts. Materials require their own category evidence and are not assumed to be the BOM of every listed assembly.",
+      "zh": "应用专用编号按核验的实际数量展示；材料须有独立类别依据，不将其视为每件成品的通用 BOM。"
+    },
+    "audit_id": "automotive-validated/automotive-09.json",
+    "verified_counts": {
+      "products": 42,
+      "materials": 124
+    }
+  }
+}

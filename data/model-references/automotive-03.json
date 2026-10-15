@@ -1,0 +1,221 @@
+{
+  "version": 2,
+  "category_id": "automotive-03",
+  "route": "/products/j1939-heavy-duty-harness",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Manufacturer-identified finished assemblies for this application.",
+        "zh": "此应用范围内经原厂资料核验的成品组件。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Category-specific material references; the final BOM follows the approved configuration.",
+        "zh": "此类选型的材料参考；最终 BOM 以确认配置为准。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Selection & Project Review",
+    "zh": "选型与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Application Boundary",
+        "zh": "应用边界"
+      },
+      "copy": {
+        "en": "J1939 is a family of SAE documents for heavy-duty vehicle networking, not the name of one universal cable. A released assembly must identify the applicable connector, keying, populated cavities, network channel, bit rate, power path, shielding or twisted-pair construction, topology, device-side interface and operating environment.",
+        "zh": "J1939 是面向重型车辆网络的一组 SAE 文件体系，而不是某一种通用线缆的名称。可放行组件必须明确适用连接器、防错键位、已装孔位、网络通道、速率、供电路径、屏蔽或双绞结构、拓扑、设备端接口及使用环境。"
+      }
+    },
+    {
+      "title": {
+        "en": "Project Inputs",
+        "zh": "项目输入"
+      },
+      "copy": {
+        "en": "Provide the vehicle or equipment maker, model and year; engine and controller identifiers; connector color and mating-face photographs; released pin map; required network channel and speed; tool or device interface; whether the lead is for diagnostics, logging, telematics or permanent installation; cable length and branch datums; sealing, abrasion, temperature and chemical exposure; quantity; labels;",
+        "zh": "请提供车辆或设备制造商、型号与年份；发动机及控制器信息；连接器颜色和对插面照片；已批准针脚表；所需网络通道与速率；工具或设备端接口；诊断、记录、车联网或永久安装用途；线长与分支基准；密封、磨损、温度及化学暴露；数量、标签以及所需电气和通信检查。"
+      }
+    },
+    {
+      "title": {
+        "en": "Release Records",
+        "zh": "放行依据"
+      },
+      "copy": {
+        "en": "We convert approved interface and network information into controlled drawings, connector and terminal BOMs, cable definitions, branch dimensions, molding or backshell requirements, identification and test programs. Production checks can verify construction and pin mapping; live J1939 communication requires the specified vehicle, controller, simulator or approved network fixture and an agreed functional scope.",
+        "zh": "我们把批准的接口和网络资料转化为受控图纸、连接器与端子物料表、线缆定义、分支尺寸、包胶或尾壳要求、标识与测试程序。生产检查可以核实结构和针脚映射；实际 J1939 通信仍需指定车辆、控制器、模拟器或批准的网络工装，并明确功能验证范围。"
+      }
+    },
+    {
+      "title": {
+        "en": "Interface Review",
+        "zh": "接口审核"
+      },
+      "copy": {
+        "en": "Confirm the exact mating interface, pin map, dimensions and installation orientation.",
+        "zh": "确认准确对插接口、针脚对应、尺寸及安装方向。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sample Acceptance",
+        "zh": "样品验收"
+      },
+      "copy": {
+        "en": "Agree the sample configuration and electrical, mechanical or environmental checks required by the project.",
+        "zh": "约定样品配置以及项目所需的电气、机械或环境检查。"
+      }
+    },
+    {
+      "title": {
+        "en": "Change Control",
+        "zh": "变更控制"
+      },
+      "copy": {
+        "en": "Record changes to materials, drawings and process instructions before repeat manufacture.",
+        "zh": "重复制造前记录材料、图纸与工艺说明的变更。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=automotive-03&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "PEAK-System",
+      "identifier": "IPEK-003009",
+      "aliases": [],
+      "description": {
+        "en": "PCAN-Cable J1939, Type 1 DEUTSCH to D-Sub",
+        "zh": "J1939 诊断连接线"
+      }
+    },
+    {
+      "brand": "PEAK-System",
+      "identifier": "IPEK-003019",
+      "aliases": [],
+      "description": {
+        "en": "PCAN-Cable J1939, Type 2 DEUTSCH to D-Sub",
+        "zh": "J1939 诊断连接线"
+      }
+    },
+    {
+      "brand": "PEAK-System",
+      "identifier": "IPEK-003014",
+      "aliases": [],
+      "description": {
+        "en": "PCAN-Cable J1939, Type 1 DEUTSCH to 2 x D-Sub",
+        "zh": "J1939 诊断连接线"
+      }
+    },
+    {
+      "brand": "PEAK-System",
+      "identifier": "IPEK-003015",
+      "aliases": [],
+      "description": {
+        "en": "PCAN-Cable J1939, Type 2 DEUTSCH to 2 x D-Sub",
+        "zh": "J1939 诊断连接线"
+      }
+    }
+  ],
+  "materials": [],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "J1939 Heavy-Duty Harness",
+    "zh": "J1939重卡线束"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "narrow_published_range",
+    "reason": {
+      "en": "Application-specific references are shown at their audited counts. Materials require their own category evidence and are not assumed to be the BOM of every listed assembly.",
+      "zh": "应用专用编号按核验的实际数量展示；材料须有独立类别依据，不将其视为每件成品的通用 BOM。"
+    },
+    "audit_id": "automotive-validated/automotive-03.json",
+    "verified_counts": {
+      "products": 4,
+      "materials": 0
+    }
+  }
+}

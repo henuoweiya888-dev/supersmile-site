@@ -1,0 +1,194 @@
+{
+  "version": 2,
+  "category_id": "automotive-01",
+  "route": "/products/automotive-diagnostic-and-obd-harness",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Manufacturer-identified finished assemblies for this application.",
+        "zh": "此应用范围内经原厂资料核验的成品组件。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Category-specific material references; the final BOM follows the approved configuration.",
+        "zh": "此类选型的材料参考；最终 BOM 以确认配置为准。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Selection & Project Review",
+    "zh": "选型与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Application Boundary",
+        "zh": "应用边界"
+      },
+      "copy": {
+        "en": "SAE J1962 and ISO 15031-3 define requirements for the standardized diagnostic connection between the vehicle and external test equipment, including connector design, contact allocation and related electrical circuits. The standardized shell can carry different physical layers and manufacturer-discretionary circuits.",
+        "zh": "SAE J1962 与 ISO 15031-3 规定车辆与外部测试设备之间标准化诊断连接的要求，包括连接器设计、触点分配及相关电路。相同标准外壳中可能承载不同物理层和制造商自定义回路，因此线束必须保持已放行的针脚映射、屏蔽、线对结构、接地、供电能力与设备端接口，而不能只把外形匹配的壳体连在一起。"
+      }
+    },
+    {
+      "title": {
+        "en": "Project Inputs",
+        "zh": "项目输入"
+      },
+      "copy": {
+        "en": "Provide vehicle make, model, year and market; target diagnostic or data task; vehicle-side connector and access space; exact device or tool interface; released pin map and protocol; power source and current; cable length and exit direction; shielding and termination requirements; whether another device must remain connected; environmental exposure; quantity; labels; and required inspection or functional checks.",
+        "zh": "请提供车辆品牌、车型、年份和市场；目标诊断或数据任务；车辆端接口及安装空间；准确设备或工具接口；已放行针脚表与协议；供电来源及电流；线长与出线方向；屏蔽和端接要求；是否需要保留另一设备同时连接；环境暴露；数量；标签以及所需检验或功能检查。"
+      }
+    },
+    {
+      "title": {
+        "en": "Release Records",
+        "zh": "放行依据"
+      },
+      "copy": {
+        "en": "We can develop from a controlled drawing, verified sample, connector part numbers or an approved interface schedule. Before sampling, the vehicle-side and device-side identities, power routing, signal conductors, grounds, shields, branch behavior and mechanical envelope are frozen. Continuity proves wiring correspondence only;",
+        "zh": "可依据受控图纸、已验证样品、连接器型号或批准的接口表进行开发。打样前冻结车辆端与设备端身份、供电路径、信号导体、接地、屏蔽、分支行为及机械边界。导通只能证明线路对应；协议通信、编程适用性、网关访问和整车兼容性仍需约定设备与测试方法验证。"
+      }
+    },
+    {
+      "title": {
+        "en": "Interface Review",
+        "zh": "接口审核"
+      },
+      "copy": {
+        "en": "Confirm the exact mating interface, pin map, dimensions and installation orientation.",
+        "zh": "确认准确对插接口、针脚对应、尺寸及安装方向。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sample Acceptance",
+        "zh": "样品验收"
+      },
+      "copy": {
+        "en": "Agree the sample configuration and electrical, mechanical or environmental checks required by the project.",
+        "zh": "约定样品配置以及项目所需的电气、机械或环境检查。"
+      }
+    },
+    {
+      "title": {
+        "en": "Change Control",
+        "zh": "变更控制"
+      },
+      "copy": {
+        "en": "Record changes to materials, drawings and process instructions before repeat manufacture.",
+        "zh": "重复制造前记录材料、图纸与工艺说明的变更。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=automotive-01&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "PEAK-System",
+      "identifier": "IPEK-003004",
+      "aliases": [],
+      "description": {
+        "en": "PCAN-Cable OBD-2 Diagnostic",
+        "zh": "汽车诊断连接线"
+      }
+    }
+  ],
+  "materials": [],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Automotive Diagnostic & OBD Harness",
+    "zh": "汽车诊断与OBD线束"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "narrow_published_range",
+    "reason": {
+      "en": "Application-specific references are shown at their audited counts. Materials require their own category evidence and are not assumed to be the BOM of every listed assembly.",
+      "zh": "应用专用编号按核验的实际数量展示；材料须有独立类别依据，不将其视为每件成品的通用 BOM。"
+    },
+    "audit_id": "automotive-validated/automotive-01.json",
+    "verified_counts": {
+      "products": 1,
+      "materials": 0
+    }
+  }
+}

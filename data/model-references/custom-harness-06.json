@@ -1,0 +1,3773 @@
+{
+  "version": 2,
+  "category_id": "custom-harness-06",
+  "route": "/products/jumper-harness",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Short, double-ended interconnect jumper assemblies.",
+        "zh": "短距离双端互连跳线组件。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Connector-family components for jumper configuration.",
+        "zh": "用于跳线配置的对应连接系统材料。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Six Decisions Behind the Part Number",
+    "zh": "型号背后的六个选型要点"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Mating Ends",
+        "zh": "两端接口"
+      },
+      "copy": {
+        "en": "Confirm both mating connectors, contact sex and latch access.",
+        "zh": "确认两端对插件、触点公母及卡扣操作空间。"
+      }
+    },
+    {
+      "title": {
+        "en": "Circuit Mapping",
+        "zh": "回路对应"
+      },
+      "copy": {
+        "en": "Specify straight-through, crossover or custom pin-to-pin wiring on the drawing.",
+        "zh": "在图纸中明确直通、交叉或定制针脚对应。"
+      }
+    },
+    {
+      "title": {
+        "en": "Length Datums",
+        "zh": "长度基准"
+      },
+      "copy": {
+        "en": "Define the assembled length and its measurement points between modules.",
+        "zh": "定义模块之间的成品长度及测量基准点。"
+      }
+    },
+    {
+      "title": {
+        "en": "Wire & Terminal",
+        "zh": "导线与端子"
+      },
+      "copy": {
+        "en": "Match conductor size, insulation diameter and terminal options within the selected family.",
+        "zh": "在选定系统内匹配线径、绝缘外径与端子选项。"
+      }
+    },
+    {
+      "title": {
+        "en": "Routing Space",
+        "zh": "布线空间"
+      },
+      "copy": {
+        "en": "Review bend clearance, service loops and protection against nearby edges.",
+        "zh": "核对弯折空间、检修余量及邻近锐边防护。"
+      }
+    },
+    {
+      "title": {
+        "en": "Repeatable Assembly",
+        "zh": "装配一致性"
+      },
+      "copy": {
+        "en": "Control connector orientation, terminal insertion and the electrical test map.",
+        "zh": "控制接头方向、端子插入与电气测试网络。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=custom-harness-06&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "Molex",
+      "identifier": "151310200",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151310201",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151310202",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151310203",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151310205",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151310206",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151310400",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151310401",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151310402",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151310403",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151310405",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151310406",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320400",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320401",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320402",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320403",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320405",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320406",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320500",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320501",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320502",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320503",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320505",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320506",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320600",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320601",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320602",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320603",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320605",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320606",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320700",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320701",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320702",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340200",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade interconnect jumper",
+        "zh": "PicoBlade 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340201",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade interconnect jumper",
+        "zh": "PicoBlade 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340202",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade interconnect jumper",
+        "zh": "PicoBlade 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340203",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade interconnect jumper",
+        "zh": "PicoBlade 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340205",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade interconnect jumper",
+        "zh": "PicoBlade 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340206",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade interconnect jumper",
+        "zh": "PicoBlade 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340300",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade interconnect jumper",
+        "zh": "PicoBlade 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340301",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade interconnect jumper",
+        "zh": "PicoBlade 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340302",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade interconnect jumper",
+        "zh": "PicoBlade 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340303",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade interconnect jumper",
+        "zh": "PicoBlade 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340305",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade interconnect jumper",
+        "zh": "PicoBlade 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340306",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade interconnect jumper",
+        "zh": "PicoBlade 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340400",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade interconnect jumper",
+        "zh": "PicoBlade 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340401",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade interconnect jumper",
+        "zh": "PicoBlade 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340402",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade interconnect jumper",
+        "zh": "PicoBlade 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340403",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade interconnect jumper",
+        "zh": "PicoBlade 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340405",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade interconnect jumper",
+        "zh": "PicoBlade 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340406",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade interconnect jumper",
+        "zh": "PicoBlade 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340500",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade interconnect jumper",
+        "zh": "PicoBlade 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340501",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade interconnect jumper",
+        "zh": "PicoBlade 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340502",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade interconnect jumper",
+        "zh": "PicoBlade 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350200",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate interconnect jumper",
+        "zh": "CLIK-Mate 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350201",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate interconnect jumper",
+        "zh": "CLIK-Mate 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350202",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate interconnect jumper",
+        "zh": "CLIK-Mate 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350203",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate interconnect jumper",
+        "zh": "CLIK-Mate 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350205",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate interconnect jumper",
+        "zh": "CLIK-Mate 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350206",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate interconnect jumper",
+        "zh": "CLIK-Mate 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350300",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate interconnect jumper",
+        "zh": "CLIK-Mate 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350301",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate interconnect jumper",
+        "zh": "CLIK-Mate 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350302",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate interconnect jumper",
+        "zh": "CLIK-Mate 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350303",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate interconnect jumper",
+        "zh": "CLIK-Mate 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350305",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate interconnect jumper",
+        "zh": "CLIK-Mate 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350306",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate interconnect jumper",
+        "zh": "CLIK-Mate 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350400",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate interconnect jumper",
+        "zh": "CLIK-Mate 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350401",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate interconnect jumper",
+        "zh": "CLIK-Mate 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350402",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate interconnect jumper",
+        "zh": "CLIK-Mate 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350403",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate interconnect jumper",
+        "zh": "CLIK-Mate 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350405",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate interconnect jumper",
+        "zh": "CLIK-Mate 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350406",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate interconnect jumper",
+        "zh": "CLIK-Mate 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350500",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate interconnect jumper",
+        "zh": "CLIK-Mate 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350501",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate interconnect jumper",
+        "zh": "CLIK-Mate 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350502",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate interconnect jumper",
+        "zh": "CLIK-Mate 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110200",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus interconnect jumper",
+        "zh": "Micro-Lock Plus 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110201",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus interconnect jumper",
+        "zh": "Micro-Lock Plus 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110202",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus interconnect jumper",
+        "zh": "Micro-Lock Plus 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110203",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus interconnect jumper",
+        "zh": "Micro-Lock Plus 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110205",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus interconnect jumper",
+        "zh": "Micro-Lock Plus 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110206",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus interconnect jumper",
+        "zh": "Micro-Lock Plus 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110300",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus interconnect jumper",
+        "zh": "Micro-Lock Plus 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110301",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus interconnect jumper",
+        "zh": "Micro-Lock Plus 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110302",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus interconnect jumper",
+        "zh": "Micro-Lock Plus 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110303",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus interconnect jumper",
+        "zh": "Micro-Lock Plus 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110305",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus interconnect jumper",
+        "zh": "Micro-Lock Plus 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110306",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus interconnect jumper",
+        "zh": "Micro-Lock Plus 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110400",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus interconnect jumper",
+        "zh": "Micro-Lock Plus 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110401",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus interconnect jumper",
+        "zh": "Micro-Lock Plus 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110402",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus interconnect jumper",
+        "zh": "Micro-Lock Plus 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110403",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus interconnect jumper",
+        "zh": "Micro-Lock Plus 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110405",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus interconnect jumper",
+        "zh": "Micro-Lock Plus 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110406",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus interconnect jumper",
+        "zh": "Micro-Lock Plus 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110500",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus interconnect jumper",
+        "zh": "Micro-Lock Plus 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110501",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus interconnect jumper",
+        "zh": "Micro-Lock Plus 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451300201",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit interconnect jumper",
+        "zh": "Nano-Fit 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451300203",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit interconnect jumper",
+        "zh": "Nano-Fit 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451300401",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit interconnect jumper",
+        "zh": "Nano-Fit 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451300403",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit interconnect jumper",
+        "zh": "Nano-Fit 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451300601",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit interconnect jumper",
+        "zh": "Nano-Fit 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451300603",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit interconnect jumper",
+        "zh": "Nano-Fit 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451300801",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit interconnect jumper",
+        "zh": "Nano-Fit 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451300803",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit interconnect jumper",
+        "zh": "Nano-Fit 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451301001",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit interconnect jumper",
+        "zh": "Nano-Fit 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451301003",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit interconnect jumper",
+        "zh": "Nano-Fit 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451350201",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 interconnect jumper",
+        "zh": "Mini-Fit TPA2 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451350203",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 interconnect jumper",
+        "zh": "Mini-Fit TPA2 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451350401",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 interconnect jumper",
+        "zh": "Mini-Fit TPA2 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451350403",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 interconnect jumper",
+        "zh": "Mini-Fit TPA2 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451350601",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 interconnect jumper",
+        "zh": "Mini-Fit TPA2 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451350603",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 interconnect jumper",
+        "zh": "Mini-Fit TPA2 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451350801",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 interconnect jumper",
+        "zh": "Mini-Fit TPA2 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451350803",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 interconnect jumper",
+        "zh": "Mini-Fit TPA2 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451360201",
+      "aliases": [],
+      "description": {
+        "en": "Mega-Fit interconnect jumper",
+        "zh": "Mega-Fit 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451360203",
+      "aliases": [],
+      "description": {
+        "en": "Mega-Fit interconnect jumper",
+        "zh": "Mega-Fit 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451360401",
+      "aliases": [],
+      "description": {
+        "en": "Mega-Fit interconnect jumper",
+        "zh": "Mega-Fit 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451360403",
+      "aliases": [],
+      "description": {
+        "en": "Mega-Fit interconnect jumper",
+        "zh": "Mega-Fit 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451360601",
+      "aliases": [],
+      "description": {
+        "en": "Mega-Fit interconnect jumper",
+        "zh": "Mega-Fit 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451360603",
+      "aliases": [],
+      "description": {
+        "en": "Mega-Fit interconnect jumper",
+        "zh": "Mega-Fit 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451360801",
+      "aliases": [],
+      "description": {
+        "en": "Mega-Fit interconnect jumper",
+        "zh": "Mega-Fit 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451360803",
+      "aliases": [],
+      "description": {
+        "en": "Mega-Fit interconnect jumper",
+        "zh": "Mega-Fit 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451361001",
+      "aliases": [],
+      "description": {
+        "en": "Mega-Fit interconnect jumper",
+        "zh": "Mega-Fit 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451361003",
+      "aliases": [],
+      "description": {
+        "en": "Mega-Fit interconnect jumper",
+        "zh": "Mega-Fit 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451361201",
+      "aliases": [],
+      "description": {
+        "en": "Mega-Fit interconnect jumper",
+        "zh": "Mega-Fit 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451361203",
+      "aliases": [],
+      "description": {
+        "en": "Mega-Fit interconnect jumper",
+        "zh": "Mega-Fit 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320200",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA interconnect jumper",
+        "zh": "Micro-Fit TPA 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320201",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA interconnect jumper",
+        "zh": "Micro-Fit TPA 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320203",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA interconnect jumper",
+        "zh": "Micro-Fit TPA 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320300",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA interconnect jumper",
+        "zh": "Micro-Fit TPA 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320301",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA interconnect jumper",
+        "zh": "Micro-Fit TPA 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320303",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA interconnect jumper",
+        "zh": "Micro-Fit TPA 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320400",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA interconnect jumper",
+        "zh": "Micro-Fit TPA 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320401",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA interconnect jumper",
+        "zh": "Micro-Fit TPA 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320403",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA interconnect jumper",
+        "zh": "Micro-Fit TPA 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320500",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA interconnect jumper",
+        "zh": "Micro-Fit TPA 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320501",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA interconnect jumper",
+        "zh": "Micro-Fit TPA 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320503",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA interconnect jumper",
+        "zh": "Micro-Fit TPA 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320600",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA interconnect jumper",
+        "zh": "Micro-Fit TPA 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320601",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA interconnect jumper",
+        "zh": "Micro-Fit TPA 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320603",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA interconnect jumper",
+        "zh": "Micro-Fit TPA 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330200",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp interconnect jumper",
+        "zh": "Pico-Clasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330201",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp interconnect jumper",
+        "zh": "Pico-Clasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330202",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp interconnect jumper",
+        "zh": "Pico-Clasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330203",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp interconnect jumper",
+        "zh": "Pico-Clasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330205",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp interconnect jumper",
+        "zh": "Pico-Clasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330206",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp interconnect jumper",
+        "zh": "Pico-Clasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330300",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp interconnect jumper",
+        "zh": "Pico-Clasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330301",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp interconnect jumper",
+        "zh": "Pico-Clasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330302",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp interconnect jumper",
+        "zh": "Pico-Clasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330303",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp interconnect jumper",
+        "zh": "Pico-Clasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330305",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp interconnect jumper",
+        "zh": "Pico-Clasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330306",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp interconnect jumper",
+        "zh": "Pico-Clasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330400",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp interconnect jumper",
+        "zh": "Pico-Clasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330401",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp interconnect jumper",
+        "zh": "Pico-Clasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330402",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp interconnect jumper",
+        "zh": "Pico-Clasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330403",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp interconnect jumper",
+        "zh": "Pico-Clasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330405",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp interconnect jumper",
+        "zh": "Pico-Clasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330406",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp interconnect jumper",
+        "zh": "Pico-Clasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330500",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp interconnect jumper",
+        "zh": "Pico-Clasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151330501",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp interconnect jumper",
+        "zh": "Pico-Clasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360200",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp interconnect jumper",
+        "zh": "MicroClasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360201",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp interconnect jumper",
+        "zh": "MicroClasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360202",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp interconnect jumper",
+        "zh": "MicroClasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360203",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp interconnect jumper",
+        "zh": "MicroClasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360205",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp interconnect jumper",
+        "zh": "MicroClasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360206",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp interconnect jumper",
+        "zh": "MicroClasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360300",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp interconnect jumper",
+        "zh": "MicroClasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360301",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp interconnect jumper",
+        "zh": "MicroClasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360302",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp interconnect jumper",
+        "zh": "MicroClasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360303",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp interconnect jumper",
+        "zh": "MicroClasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360305",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp interconnect jumper",
+        "zh": "MicroClasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360306",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp interconnect jumper",
+        "zh": "MicroClasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360400",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp interconnect jumper",
+        "zh": "MicroClasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360401",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp interconnect jumper",
+        "zh": "MicroClasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360402",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp interconnect jumper",
+        "zh": "MicroClasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360403",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp interconnect jumper",
+        "zh": "MicroClasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360405",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp interconnect jumper",
+        "zh": "MicroClasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360406",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp interconnect jumper",
+        "zh": "MicroClasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360500",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp interconnect jumper",
+        "zh": "MicroClasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151360501",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp interconnect jumper",
+        "zh": "MicroClasp 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320703",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320705",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320706",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151320800",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Lock interconnect jumper",
+        "zh": "Pico-Lock 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340503",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade interconnect jumper",
+        "zh": "PicoBlade 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340505",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade interconnect jumper",
+        "zh": "PicoBlade 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340506",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade interconnect jumper",
+        "zh": "PicoBlade 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151340600",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade interconnect jumper",
+        "zh": "PicoBlade 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350503",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate interconnect jumper",
+        "zh": "CLIK-Mate 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350505",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate interconnect jumper",
+        "zh": "CLIK-Mate 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350506",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate interconnect jumper",
+        "zh": "CLIK-Mate 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151350600",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate interconnect jumper",
+        "zh": "CLIK-Mate 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110502",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus interconnect jumper",
+        "zh": "Micro-Lock Plus 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110503",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus interconnect jumper",
+        "zh": "Micro-Lock Plus 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110505",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus interconnect jumper",
+        "zh": "Micro-Lock Plus 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110506",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus interconnect jumper",
+        "zh": "Micro-Lock Plus 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "451110600",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus interconnect jumper",
+        "zh": "Micro-Lock Plus 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320700",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA interconnect jumper",
+        "zh": "Micro-Fit TPA 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320701",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA interconnect jumper",
+        "zh": "Micro-Fit TPA 短距离跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1451320703",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA interconnect jumper",
+        "zh": "Micro-Fit TPA 短距离跳线"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "brand": "Molex",
+      "identifier": "5025780200",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780201",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780202",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780204",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780300",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780301",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780302",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780304",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780400",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780401",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780402",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780404",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780500",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780501",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780502",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780504",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780600",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780601",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780602",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780604",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780700",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780701",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780702",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780704",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5025780800",
+      "aliases": [],
+      "description": {
+        "en": "CLIK-Mate connector housing",
+        "zh": "CLIK-Mate 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2008750002",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2008750003",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2008750004",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2008750005",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2008750006",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2008750008",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2008750102",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2008750103",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2008750104",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2008750105",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2008750106",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2008750107",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2008750108",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2008750192",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2008750194",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2008750198",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2008751103",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2036320400",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2036320401",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2036320600",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2036320601",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2036320800",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2036320801",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2036321000",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2036321001",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2036321200",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2036321201",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2036321400",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2036321401",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2036321600",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2036321601",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2036321800",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2036321801",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2036322000",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2036322001",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2036322201",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2036322401",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Fit TPA connector housing",
+        "zh": "Micro-Fit TPA 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5055650201",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus connector housing",
+        "zh": "Micro-Lock Plus 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5055650301",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus connector housing",
+        "zh": "Micro-Lock Plus 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5055650401",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus connector housing",
+        "zh": "Micro-Lock Plus 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5055650501",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus connector housing",
+        "zh": "Micro-Lock Plus 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5055650601",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus connector housing",
+        "zh": "Micro-Lock Plus 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5055650701",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus connector housing",
+        "zh": "Micro-Lock Plus 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5055650801",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus connector housing",
+        "zh": "Micro-Lock Plus 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5055650901",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus connector housing",
+        "zh": "Micro-Lock Plus 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5055651001",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus connector housing",
+        "zh": "Micro-Lock Plus 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5055651101",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus connector housing",
+        "zh": "Micro-Lock Plus 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5055651201",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus connector housing",
+        "zh": "Micro-Lock Plus 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5055651301",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus connector housing",
+        "zh": "Micro-Lock Plus 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5055651401",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus connector housing",
+        "zh": "Micro-Lock Plus 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5055651501",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus connector housing",
+        "zh": "Micro-Lock Plus 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5055651601",
+      "aliases": [],
+      "description": {
+        "en": "Micro-Lock Plus connector housing",
+        "zh": "Micro-Lock Plus 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "513530800",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp connector housing",
+        "zh": "MicroClasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "513531000",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp connector housing",
+        "zh": "MicroClasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "513531200",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp connector housing",
+        "zh": "MicroClasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "513531400",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp connector housing",
+        "zh": "MicroClasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "513531600",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp connector housing",
+        "zh": "MicroClasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "513531800",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp connector housing",
+        "zh": "MicroClasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "513532000",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp connector housing",
+        "zh": "MicroClasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "513532200",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp connector housing",
+        "zh": "MicroClasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "513820200",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp connector housing",
+        "zh": "MicroClasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "513820300",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp connector housing",
+        "zh": "MicroClasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "513820400",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp connector housing",
+        "zh": "MicroClasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "513820500",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp connector housing",
+        "zh": "MicroClasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "513820600",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp connector housing",
+        "zh": "MicroClasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "513820700",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp connector housing",
+        "zh": "MicroClasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "513820800",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp connector housing",
+        "zh": "MicroClasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "513820900",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp connector housing",
+        "zh": "MicroClasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "513821000",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp connector housing",
+        "zh": "MicroClasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "513821100",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp connector housing",
+        "zh": "MicroClasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "513821200",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp connector housing",
+        "zh": "MicroClasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "513821300",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp connector housing",
+        "zh": "MicroClasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "513821400",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp connector housing",
+        "zh": "MicroClasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "513821500",
+      "aliases": [],
+      "description": {
+        "en": "MicroClasp connector housing",
+        "zh": "MicroClasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1727080002",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 connector housing",
+        "zh": "Mini-Fit TPA2 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1727080004",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 connector housing",
+        "zh": "Mini-Fit TPA2 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1727080006",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 connector housing",
+        "zh": "Mini-Fit TPA2 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1727080008",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 connector housing",
+        "zh": "Mini-Fit TPA2 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1727080010",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 connector housing",
+        "zh": "Mini-Fit TPA2 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1727080012",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 connector housing",
+        "zh": "Mini-Fit TPA2 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1727080014",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 connector housing",
+        "zh": "Mini-Fit TPA2 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1727080016",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 connector housing",
+        "zh": "Mini-Fit TPA2 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1727080018",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 connector housing",
+        "zh": "Mini-Fit TPA2 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1727080020",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 connector housing",
+        "zh": "Mini-Fit TPA2 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1727080022",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 connector housing",
+        "zh": "Mini-Fit TPA2 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1727080024",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 connector housing",
+        "zh": "Mini-Fit TPA2 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1727080102",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 connector housing",
+        "zh": "Mini-Fit TPA2 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1727080104",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 connector housing",
+        "zh": "Mini-Fit TPA2 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1727080106",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 connector housing",
+        "zh": "Mini-Fit TPA2 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1727080108",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 connector housing",
+        "zh": "Mini-Fit TPA2 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1727080110",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 connector housing",
+        "zh": "Mini-Fit TPA2 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1727080112",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 connector housing",
+        "zh": "Mini-Fit TPA2 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1727080114",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 connector housing",
+        "zh": "Mini-Fit TPA2 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1727080116",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 connector housing",
+        "zh": "Mini-Fit TPA2 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1727080118",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 connector housing",
+        "zh": "Mini-Fit TPA2 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1727080120",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 connector housing",
+        "zh": "Mini-Fit TPA2 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1727080122",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 connector housing",
+        "zh": "Mini-Fit TPA2 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1727080124",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Fit TPA2 connector housing",
+        "zh": "Mini-Fit TPA2 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053071202",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053071203",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053071204",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053071205",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053071206",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053071207",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053071208",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053072202",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053072203",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053072204",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053072205",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053072206",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053072207",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053072208",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053081104",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053081106",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053081108",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053081110",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053081112",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053081114",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053081116",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053081204",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053081206",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053081208",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053081210",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053081212",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053081214",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053081216",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053082104",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053082106",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053082108",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053082110",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053082112",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053082114",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053082116",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053082204",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053082206",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1053082208",
+      "aliases": [],
+      "description": {
+        "en": "Nano-Fit connector housing",
+        "zh": "Nano-Fit 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5013300200",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp connector housing",
+        "zh": "Pico-Clasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5013300300",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp connector housing",
+        "zh": "Pico-Clasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5013300400",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp connector housing",
+        "zh": "Pico-Clasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5013300500",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp connector housing",
+        "zh": "Pico-Clasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5013300600",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp connector housing",
+        "zh": "Pico-Clasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5013300700",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp connector housing",
+        "zh": "Pico-Clasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5013300800",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp connector housing",
+        "zh": "Pico-Clasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5013300900",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp connector housing",
+        "zh": "Pico-Clasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5013301000",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp connector housing",
+        "zh": "Pico-Clasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5013301100",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp connector housing",
+        "zh": "Pico-Clasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5013301200",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp connector housing",
+        "zh": "Pico-Clasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5013301300",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp connector housing",
+        "zh": "Pico-Clasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5013301400",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp connector housing",
+        "zh": "Pico-Clasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5013301500",
+      "aliases": [],
+      "description": {
+        "en": "Pico-Clasp connector housing",
+        "zh": "Pico-Clasp 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "500798001",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade crimp terminal",
+        "zh": "PicoBlade 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "500798020",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade crimp terminal",
+        "zh": "PicoBlade 压接端子"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510210200",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510210300",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510210400",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510210500",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510210600",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510210700",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510210800",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510210900",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510211000",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510211100",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510211200",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510211300",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510211400",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510211500",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510470200",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510470300",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510470400",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510470500",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510470600",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510470700",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510470800",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510470900",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510471000",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade connector housing",
+        "zh": "PicoBlade 连接器壳体"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Jumper Harness",
+    "zh": "跳线线束"
+  }
+}

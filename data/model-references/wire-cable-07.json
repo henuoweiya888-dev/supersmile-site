@@ -1,0 +1,2385 @@
+{
+  "version": 2,
+  "category_id": "wire-cable-07",
+  "route": "/products/flame-retardant-cable",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Manufacturer-identified finished assemblies for this application.",
+        "zh": "此应用范围内经原厂资料核验的成品组件。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Category-specific material references; the final BOM follows the approved configuration.",
+        "zh": "此类选型的材料参考；最终 BOM 以确认配置为准。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Selection & Project Review",
+    "zh": "选型与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Application Boundary",
+        "zh": "应用边界"
+      },
+      "copy": {
+        "en": "Single-cable, bunched-cable, fire-resistance, smoke and halogen tests answer different questions.",
+        "zh": "单根、成束、耐火、烟密度与无卤试验回答不同问题。"
+      }
+    },
+    {
+      "title": {
+        "en": "Project Inputs",
+        "zh": "项目输入"
+      },
+      "copy": {
+        "en": "Provide exact fire-test method, installation, construction, marking and evidence.",
+        "zh": "请提供准确燃烧试验方法、安装、结构、印字与证据。"
+      }
+    },
+    {
+      "title": {
+        "en": "Release Records",
+        "zh": "放行依据"
+      },
+      "copy": {
+        "en": "Release records the exact cable identity and supporting fire-test evidence.",
+        "zh": "放行记录包含准确线缆身份与支持燃烧试验证据。"
+      }
+    },
+    {
+      "title": {
+        "en": "Interface Review",
+        "zh": "接口审核"
+      },
+      "copy": {
+        "en": "Confirm the exact mating interface, pin map, dimensions and installation orientation.",
+        "zh": "确认准确对插接口、针脚对应、尺寸及安装方向。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sample Acceptance",
+        "zh": "样品验收"
+      },
+      "copy": {
+        "en": "Agree the sample configuration and electrical, mechanical or environmental checks required by the project.",
+        "zh": "约定样品配置以及项目所需的电气、机械或环境检查。"
+      }
+    },
+    {
+      "title": {
+        "en": "Change Control",
+        "zh": "变更控制"
+      },
+      "copy": {
+        "en": "Record changes to materials, drawings and process instructions before repeat manufacture.",
+        "zh": "重复制造前记录材料、图纸与工艺说明的变更。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=wire-cable-07&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [],
+  "materials": [
+    {
+      "brand": "Avient",
+      "identifier": "5549/1",
+      "aliases": [
+        "ECCOH 5549/1"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00003",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "100017735",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.UL.02.04",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "PF 1040",
+      "aliases": [
+        "ECCOH PF 1040"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00004",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50511",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF111.001.D",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "XLS 8001",
+      "aliases": [
+        "ECCOH XLS 8001"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00007",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50516",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF112.02.02.02",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "5501 UV",
+      "aliases": [
+        "ECCOH 5501 UV"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00088",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50531",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF113.001.D",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "5865/1",
+      "aliases": [
+        "ECCOH 5865/1"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00099",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50538",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF130-40-04-UL",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "5549 LM",
+      "aliases": [
+        "ECCOH 5549 LM"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00217",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50543",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF130US-05-04",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "PF 1043",
+      "aliases": [
+        "ECCOH PF 1043"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00218",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50549",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF140.02.12.UL",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "XLS CAT5",
+      "aliases": [
+        "ECCOH XLS CAT5"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00243",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50580",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF140US-05-04",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "PF 1044",
+      "aliases": [
+        "ECCOH PF 1044"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00244",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50603",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF2.01.04",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "5555 UV",
+      "aliases": [
+        "ECCOH 5555 UV"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00245",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50630",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF21.07.03.02.02.UL",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "PF 4142",
+      "aliases": [
+        "ECCOH PF 4142"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00246",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50650",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF210.UL.05.04",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "5809",
+      "aliases": [
+        "ECCOH 5809"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00247",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50654",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF211-023",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "5836",
+      "aliases": [
+        "ECCOH 5836"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00248",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50683",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF240.01.03",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "5918",
+      "aliases": [
+        "ECCOH 5918"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00249",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50693",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF27.07.03.02.02.D",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "5924 UV",
+      "aliases": [
+        "ECCOH 5924 UV"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00278",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50728",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF30-10-04",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "5943",
+      "aliases": [
+        "ECCOH 5943"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00279",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50784",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF31.10.04",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "5995",
+      "aliases": [
+        "ECCOH 5995"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00335",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50786",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF5.02.36",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "6150",
+      "aliases": [
+        "ECCOH 6150"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00336",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50817",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF6.02.04",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "6151",
+      "aliases": [
+        "ECCOH 6151"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00337",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50860",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF77.UL.02.03.INI",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "6200 D",
+      "aliases": [
+        "ECCOH 6200 D"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00338",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50893",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF78.UL.05.04",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00339",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50935",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.02.02",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00340",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50956",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFBUS-PVC-056",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00341",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50958",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFCRANE1X120/16",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00342",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50968",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFCRANE1X25/16",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00343",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50983",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFCRANE1X50/16",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00344",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51029",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFCRANE1X95/16",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00345",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51040",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT.035",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00346",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51082",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT4.001",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00347",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51166",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT7.07.03.02.02.C",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00348",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51174",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT8.001",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00349",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51210",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.UL.02.08",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00350",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51212",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF111.002.D",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00351",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51265",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF112.02.03.02",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00352",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51284",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF113.002.D",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00353",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51318",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF130.02.03.UL",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00354",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51330",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF130US-05-05",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00355",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51348",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF140.03.05.UL",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00356",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51376",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF140US-07-12",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00357",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51419",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF2.01.08",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00358",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51462",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF21.07.05.02.01.UL",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00359",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51477",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF210.UL.07.03.02.01",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00360",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51489",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF211.001",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00361",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51552",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF240.01.04",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00362",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51604",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF27.07.04.D",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00363",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51626",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF30.100.04",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00364",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51628",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF31.100.04",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00365",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51666",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF5.03.15",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00366",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51668",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF6.02.25",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00368",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51671",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF77.UL.02.04.D",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00369",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51680",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF78.UL.05.05",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00370",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51706",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.02.03.INI",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00371",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51715",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFBUS.001",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00372",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51717",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFCRANE1X185/25",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00373",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51856",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFPE.100.01",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00374",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51998",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT.036",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00375",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52026",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT4.006",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00376",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52081",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT7.15.03.C",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00377",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52110",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT8.045",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00378",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52115",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.UL.02.12",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00379",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52322",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF111.004.D",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00380",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52425",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF112.02.04.02",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00381",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52485",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF113.003.D",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00382",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52594",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF130.02.04.UL",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00383",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50513",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF130US-05-18",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00384",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50539",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF140.05.03.UL",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00385",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50587",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF140US-07-25",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00386",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50652",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF2.01.12",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00387",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50721",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF21.10.07.02.02.UL",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00388",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50816",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF210.UL.07.04",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00389",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50909",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF211.002",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00390",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50962",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF240.01.05",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00391",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51037",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF27.07.05.02.01.D",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00392",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51173",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF30.100.05",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00393",
+      "aliases": [],
+      "description": {
+        "en": "Flame-retardant cable material",
+        "zh": "阻燃线缆材料"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Flame-Retardant Cable",
+    "zh": "阻燃电线电缆"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "material_scope",
+    "reason": {
+      "en": "Wire, bulk cable and polymer grades are materials. They are not counted as terminated cable assemblies.",
+      "zh": "电线、卷装电缆与胶料牌号属于材料，不计为已端接电缆组件。"
+    },
+    "audit_id": "wire-material-batches/wire-cable-07-materials-strict-ready.json",
+    "verified_counts": {
+      "products": 0,
+      "materials": 240
+    }
+  }
+}

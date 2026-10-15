@@ -3,6 +3,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { runInNewContext } from 'node:vm';
 import { buildSeoPolicy, createRuntimePolicy, htmlPathForRoute, root, SEO_VERSION, withSeoPolicy } from './seo_policy.mjs';
+import { patchPage, referenceDataForCategory, validateReferenceData, REFERENCE_RUNTIME_VERSION } from './build_model_reference_section.mjs';
 
 const policy = await buildSeoPolicy();
 const runtime = createRuntimePolicy(policy);
@@ -16,7 +17,10 @@ export function withPageSeo(html,route) {
   // Example presentations already carry their own product-specific customization chapter and inquiry links.
   if(page.kind==='example') return output;
   const resolved=runtime.resolve({path:route,lang:'en'});
-  const section=scope.SS_MANUFACTURING_CONTEXT.render({path:route,lang:'en',procurementContext:resolved.procurementContext,categoryKey:page.categoryKey,productId:page.productId});
+  const referenceData=page.kind==='category' ? referenceDataForCategory(page.categoryKey,route) : null;
+  if(page.kind==='category' && html.includes('<!-- MODEL REFERENCES START -->') && !referenceData) throw new Error(`Existing reference section requires complete validated data: ${route}`);
+  const referenceConfiguration=referenceData ? validateReferenceData(referenceData) : undefined;
+  const section=scope.SS_MANUFACTURING_CONTEXT.render({path:route,lang:'en',procurementContext:resolved.procurementContext,categoryKey:page.categoryKey,productId:page.productId,referenceConfiguration});
   output=output.replace(/<!-- MANUFACTURING CONTEXT START -->[\s\S]*?<!-- MANUFACTURING CONTEXT END -->\s*/g,'');
   output=output.replace(/<p\b[^>]*class="seo-keywords"[^>]*>[\s\S]*?<\/p>\s*/g,'');
   if(!/<footer\b[^>]*class="footer"/i.test(output)) throw new Error(`Missing footer: ${route}`);
@@ -25,10 +29,10 @@ export function withPageSeo(html,route) {
   const css=`<link id="manufacturing-context-style" rel="stylesheet" href="/assets/css/manufacturing-context.css?v=${SEO_VERSION}">\n`;
   output=output.includes('<link id="product-gallery-style"')?output.replace('<link id="product-gallery-style"',css+'<link id="product-gallery-style"'):output.replace('</head>',css+'</head>');
   output=output.replace(/<script\b[^>]*id="manufacturing-context-script"[^>]*>\s*<\/script>\s*/g,'');
-  const contextVersion=route==='/products/industrial-equipment-harness'?'20261015-inquiry1':SEO_VERSION;
+  const contextVersion=referenceData ? REFERENCE_RUNTIME_VERSION : SEO_VERSION;
   output=output.replace(/<script\b[^>]*src="\/assets\/js\/main\.js[^"']*"[^>]*>/,`<script id="manufacturing-context-script" defer src="/assets/js/manufacturing-context.js?v=${contextVersion}"></script>\n$&`);
   output=output.replace(/(\bsrc="\/assets\/js\/)([^"?]+\.js)(?:\?[^"']*)?"/g,(tag,prefix,filename)=>editorialScripts.has(filename)?`${prefix}${filename}?v=${SEO_VERSION}"`:tag);
-  return output;
+  return referenceData ? patchPage(output,referenceData) : output;
 }
 
 if(process.argv[1]&&path.resolve(process.argv[1])===fileURLToPath(import.meta.url)) {

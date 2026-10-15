@@ -2,6 +2,7 @@
   'use strict';
   const section = document.getElementById('category-model-references');
   if (!section) return;
+  const engineeringOnly = section.getAttribute('data-mr-mode') === 'engineering';
   const search = section.querySelector('#mr-search');
   const clear = section.querySelector('#mr-clear');
   const status = section.querySelector('#mr-search-status');
@@ -17,7 +18,7 @@
       pageStatus: pagination?.querySelector('.mr-page-status') };
   });
   const jumpLinks = [...document.querySelectorAll('.mr-jump-link')];
-  if (!search || !clear || !status) return;
+  if (!engineeringOnly && (!search || !clear || !status)) return;
 
   const supported = value => /^zh(?:-|$)/i.test(value || '') ? 'zh' : /^en(?:-|$)/i.test(value || '') ? 'en' : null;
   const requested = supported(new URLSearchParams(location.search).get('lang'));
@@ -40,6 +41,10 @@
     // Measure their natural content first so long identifiers remain uncut.
     const visibleGroups = groups.filter(state => !state.group.hidden && state.list?.getBoundingClientRect);
     if (!view || view.innerWidth <= 760 || visibleGroups.length !== 2) return;
+    const groupLefts = visibleGroups.map(state => state.group.getBoundingClientRect?.().left);
+    // Small, audited reference ranges flow one above the other. They must retain
+    // their own natural row positions instead of being aligned as two columns.
+    if (groupLefts.every(Number.isFinite) && Math.abs(groupLefts[0] - groupLefts[1]) < 1) return;
     const columns = view.innerWidth >= 1200 ? 2 : 1;
     const visibleEntries = visibleGroups.map(state => state.items.filter(entry => !entry.hidden));
     const listTops = visibleGroups.map(state => state.list.getBoundingClientRect().top);
@@ -88,6 +93,7 @@
   }
 
   function filter() {
+    if (engineeringOnly) return;
     const words = search.value.trim().split(/\s+/).map(normalize).filter(Boolean);
     const queryChanged = search.value !== lastQuery;
     lastQuery = search.value;
@@ -136,14 +142,14 @@
       });
     }
   });
-  search.addEventListener('input', filter);
-  search.addEventListener('search', filter);
-  clear.addEventListener('click', () => {
+  search?.addEventListener('input', filter);
+  search?.addEventListener('search', filter);
+  clear?.addEventListener('click', () => {
     search.value = '';
     filter();
     search.focus();
   });
-  search.addEventListener('keydown', event => {
+  search?.addEventListener('keydown', event => {
     if (event.key === 'Escape' && search.value) {
       search.value = '';
       filter();

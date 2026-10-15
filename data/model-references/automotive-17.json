@@ -1,0 +1,2202 @@
+{
+  "version": 2,
+  "category_id": "automotive-17",
+  "route": "/products/dashboard-and-instrument-cluster-harness",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Manufacturer-identified finished assemblies for this application.",
+        "zh": "此应用范围内经原厂资料核验的成品组件。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Category-specific material references; the final BOM follows the approved configuration.",
+        "zh": "此类选型的材料参考；最终 BOM 以确认配置为准。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Selection & Project Review",
+    "zh": "选型与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Application Boundary",
+        "zh": "应用边界"
+      },
+      "copy": {
+        "en": "The visible display is only one endpoint of a vehicle electrical architecture. Power, grounds, illumination, CAN or LIN and sometimes other data links may reach the cluster through dedicated connectors; exact circuits vary by platform. A fit-matching shell does not prove correct signals, software configuration, warning telltales or safety function.",
+        "zh": "可见的显示界面只是整车电气架构的一个端点。电源、接地、照明、CAN 或 LIN，以及其他数据链路可能通过专用接口到达组合仪表；具体回路随平台改变。壳体能对插，不证明信号、软件配置、警示灯或安全功能正确。"
+      }
+    },
+    {
+      "title": {
+        "en": "Project Inputs",
+        "zh": "项目输入"
+      },
+      "copy": {
+        "en": "Send the vehicle/platform and model year, variant or trim, right- or left-hand-drive layout, circuit and cavity tables, mating connector part numbers, cluster and controller references, route drawings or sample, mounting clips, branch datums, expected quantities and agreed inspection points. Identify any SRS or other safety-critical interfaces separately.",
+        "zh": "请提供车型平台与年款、配置变型、左右舵布局、回路与孔位表、对插件料号、仪表与控制器资料、走线图或样品、卡扣、分支基准、预计数量和约定检验项；涉及 SRS 等安全关键接口须单独标识。"
+      }
+    },
+    {
+      "title": {
+        "en": "Release Records",
+        "zh": "放行依据"
+      },
+      "copy": {
+        "en": "Approved information becomes a controlled drawing, connector and pin matrix, BOM, branch geometry, labels and inspection plan. First-article review checks mating, reach, terminal seating, clip positions, clearance and circuit identity. Continuity or short testing does not certify the cluster's displayed functions, SRS performance or vehicle-level behavior; those need separate OEM-led validation.",
+        "zh": "批准资料转化为受控图纸、连接器与针脚矩阵、物料表、分支几何、标签和检验计划。首件核对对插、可达、端子入位、卡扣位置、间隙及回路身份。导通或短路测试不代表仪表显示功能、SRS 性能或整车行为已验证；这些需要另行按整车方要求验证。"
+      }
+    },
+    {
+      "title": {
+        "en": "Interface Review",
+        "zh": "接口审核"
+      },
+      "copy": {
+        "en": "Confirm the exact mating interface, pin map, dimensions and installation orientation.",
+        "zh": "确认准确对插接口、针脚对应、尺寸及安装方向。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sample Acceptance",
+        "zh": "样品验收"
+      },
+      "copy": {
+        "en": "Agree the sample configuration and electrical, mechanical or environmental checks required by the project.",
+        "zh": "约定样品配置以及项目所需的电气、机械或环境检查。"
+      }
+    },
+    {
+      "title": {
+        "en": "Change Control",
+        "zh": "变更控制"
+      },
+      "copy": {
+        "en": "Record changes to materials, drawings and process instructions before repeat manufacture.",
+        "zh": "重复制造前记录材料、图纸与工艺说明的变更。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=automotive-17&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "American Autowire",
+      "identifier": "35882",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA6906",
+      "aliases": [],
+      "description": {
+        "en": "Console Gauge Conversion Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "PL88170",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27630",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness (With Power Windows",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27155",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness (Except Power Windows",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "NV85172",
+      "aliases": [],
+      "description": {
+        "en": "Console Gauge Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA28000",
+      "aliases": [],
+      "description": {
+        "en": "Dash Instrument Cluster Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "03440",
+      "aliases": [],
+      "description": {
+        "en": "Dash Instrument Cluster Extension Harnes",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "06240",
+      "aliases": [],
+      "description": {
+        "en": "Gauge Panel Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "30655",
+      "aliases": [],
+      "description": {
+        "en": "Instrument Panel Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "28985",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Extension Wire",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA66125",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Lead Wire",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "26795",
+      "aliases": [],
+      "description": {
+        "en": "Instrument Cluster Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA6907",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Conversion Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "FB03630",
+      "aliases": [],
+      "description": {
+        "en": "Rally Gauge Temperature Sender Extension",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "FB95974",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer To Coil Wire",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "11060",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness Turn Signal Wires",
+        "zh": "转向灯连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "PL75230",
+      "aliases": [],
+      "description": {
+        "en": "Rally Gauge Adapter Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27670",
+      "aliases": [],
+      "description": {
+        "en": "DASH HARNESS",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "20460",
+      "aliases": [],
+      "description": {
+        "en": "Cluster Ground Wire",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500505",
+      "aliases": [],
+      "description": {
+        "en": "Universal Gauge Connection Harness Kit",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37790",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness Turn Signal Flasher Power Lead Wire",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "60125",
+      "aliases": [],
+      "description": {
+        "en": "GM TBI TPI LT1 Coil Power & Tachometer Pigtail",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30813",
+      "aliases": [],
+      "description": {
+        "en": "HEI Tachometer Lead Pigtail",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30302",
+      "aliases": [],
+      "description": {
+        "en": "Gauge Wiring Harness/Electric Speedometer",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30301",
+      "aliases": [],
+      "description": {
+        "en": "Gauge Wiring Harness/Mechanical Speedometer",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "35881",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA6905",
+      "aliases": [],
+      "description": {
+        "en": "Console Gauge Conversion Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "10050",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "NV66312",
+      "aliases": [],
+      "description": {
+        "en": "Console Gauge Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "30800",
+      "aliases": [],
+      "description": {
+        "en": "Dash Instrument Cluster Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "07105",
+      "aliases": [],
+      "description": {
+        "en": "Gauge Panel Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23160",
+      "aliases": [],
+      "description": {
+        "en": "Instrument Panel Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "26775",
+      "aliases": [],
+      "description": {
+        "en": "Instrument Cluster Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "PL75225",
+      "aliases": [],
+      "description": {
+        "en": "Rally Gauge Adapter Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "20455",
+      "aliases": [],
+      "description": {
+        "en": "Cluster Ground Wire",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "33920",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA6809",
+      "aliases": [],
+      "description": {
+        "en": "Console Gauge Conversion Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "06250",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "NV38252",
+      "aliases": [],
+      "description": {
+        "en": "Console Gauge Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "02995",
+      "aliases": [],
+      "description": {
+        "en": "Dash Instrument Cluster Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "26780",
+      "aliases": [],
+      "description": {
+        "en": "Instrument Cluster Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "33910",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA6806",
+      "aliases": [],
+      "description": {
+        "en": "Console Gauge Conversion Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "06245",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04690",
+      "aliases": [],
+      "description": {
+        "en": "Dash Instrument Cluster Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37962",
+      "aliases": [],
+      "description": {
+        "en": "Instrument Cluster Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "33905",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA6805",
+      "aliases": [],
+      "description": {
+        "en": "Console Gauge Conversion Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04610",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04685",
+      "aliases": [],
+      "description": {
+        "en": "Dash Instrument Cluster Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37961",
+      "aliases": [],
+      "description": {
+        "en": "Instrument Cluster Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CF30169",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA6709",
+      "aliases": [],
+      "description": {
+        "en": "Console Gauge Conversion Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04605",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04680",
+      "aliases": [],
+      "description": {
+        "en": "Dash Instrument Cluster Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "30105",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA6706",
+      "aliases": [],
+      "description": {
+        "en": "Console Gauge Conversion Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04320",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04100",
+      "aliases": [],
+      "description": {
+        "en": "Dash Instrument Cluster Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "30100",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA6705",
+      "aliases": [],
+      "description": {
+        "en": "Console Gauge Conversion Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04250",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "03660",
+      "aliases": [],
+      "description": {
+        "en": "Dash Instrument Cluster Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "30095",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA6909",
+      "aliases": [],
+      "description": {
+        "en": "Console Gauge Conversion Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04000",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "02940",
+      "aliases": [],
+      "description": {
+        "en": "Dash Instrument Cluster Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "30090",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "28990",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA11809",
+      "aliases": [],
+      "description": {
+        "en": "Dash Instrument Cluster Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37957",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "15810",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CG57995",
+      "aliases": [],
+      "description": {
+        "en": "Dash Instrument Cluster Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36116",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "13265",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CG57994",
+      "aliases": [],
+      "description": {
+        "en": "Dash Instrument Cluster Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27745",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "10145",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CF31177",
+      "aliases": [],
+      "description": {
+        "en": "Dash Instrument Cluster Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "28065",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "10150",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CF31175",
+      "aliases": [],
+      "description": {
+        "en": "Dash Instrument Cluster Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "28070",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "20705",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CF31161",
+      "aliases": [],
+      "description": {
+        "en": "Dash Instrument Cluster Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27150",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "20670",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CF31160",
+      "aliases": [],
+      "description": {
+        "en": "Dash Instrument Cluster Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27160",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "20645",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA28157",
+      "aliases": [],
+      "description": {
+        "en": "Dash Instrument Cluster Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "33610",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04225",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA28156",
+      "aliases": [],
+      "description": {
+        "en": "Dash Instrument Cluster Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27170",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "03290",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA28001",
+      "aliases": [],
+      "description": {
+        "en": "Dash Instrument Cluster Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "17135",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "20635",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA11808",
+      "aliases": [],
+      "description": {
+        "en": "Dash Instrument Cluster Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "17130",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39694",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA01444",
+      "aliases": [],
+      "description": {
+        "en": "Dash Instrument Cluster Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01275",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "35869",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA01440",
+      "aliases": [],
+      "description": {
+        "en": "Dash Instrument Cluster Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01270",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "20800",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "16615",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CG67850",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01260",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CG58812",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01265",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "FB99179",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01250",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "FB85963",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01255",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "FB73260",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "35959",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CG58921",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01240",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "NV47918",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "35960",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "NV33545",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01245",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "NV21812",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01230",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "FB20431",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01235",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "FB20430",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01220",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "FB18992",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01225",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "FB03708",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01210",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "PL88160",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01215",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "PL88145",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01205",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "PL88155",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01200",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "PL88150",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01185",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH67989",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01190",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH58991",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01175",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CF47017",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01180",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "PL88120",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01165",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CF90230",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01170",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH45792",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "03130",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "PL88115",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA66249",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CF90225",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA66248",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CF90220",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37517",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH71284",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37515",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "PL88140",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37514",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "PL88130",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "35933",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "PL88110",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "35934",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39696",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37512",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39693",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37511",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39695",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37509",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "FB99008",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37510",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "FB45278",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "35927",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38285",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37491",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38284",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04420",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38867",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "16225",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38282",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "16215",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38281",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "仪表台与仪表连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "15850",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "15845",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "15840",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "13535",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "13530",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "11345",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "18290",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "19180",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "15945",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "19175",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "15740",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "19170",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "13715",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "12730",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "16880",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "16695",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "16700",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "15825",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "15815",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "15820",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "15665",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "13570",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "15660",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "12720",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "13495",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "12775",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "13250",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "12755",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "12760",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA05973",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA05972",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "brand": "American Autowire",
+      "identifier": "510659",
+      "aliases": [],
+      "description": {
+        "en": "Gauge Cluster Connector Disconnect Kit",
+        "zh": "连接器"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500585",
+      "aliases": [],
+      "description": {
+        "en": "Gauge Connector Plug - VDO",
+        "zh": "连接器"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500289",
+      "aliases": [],
+      "description": {
+        "en": "Connector Housing- Gauge Light Socket Connector",
+        "zh": "连接器"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500205",
+      "aliases": [],
+      "description": {
+        "en": "GM HEI Tachometer Connector",
+        "zh": "连接器"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Dashboard & Instrument-Cluster Harness",
+    "zh": "仪表台与仪表盘线束"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "narrow_published_range",
+    "reason": {
+      "en": "Application-specific references are shown at their audited counts. Materials require their own category evidence and are not assumed to be the BOM of every listed assembly.",
+      "zh": "应用专用编号按核验的实际数量展示；材料须有独立类别依据，不将其视为每件成品的通用 BOM。"
+    },
+    "audit_id": "automotive-validated/automotive-17.json",
+    "verified_counts": {
+      "products": 220,
+      "materials": 4
+    }
+  }
+}

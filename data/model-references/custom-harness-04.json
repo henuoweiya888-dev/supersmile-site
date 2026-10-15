@@ -1,0 +1,4421 @@
+{
+  "version": 2,
+  "category_id": "custom-harness-04",
+  "route": "/products/instrument-and-sensor-harness",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Sensor and actuator interconnect cable assemblies.",
+        "zh": "传感器与执行器互连电缆组件。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Circular and fieldbus connector components for interface selection.",
+        "zh": "用于接口选型的圆形及现场总线连接材料。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Six Decisions Behind the Part Number",
+    "zh": "型号背后的六个选型要点"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Signal Definition",
+        "zh": "信号定义"
+      },
+      "copy": {
+        "en": "Identify power, analog, digital and communication circuits before mapping the connector.",
+        "zh": "先区分电源、模拟、数字及通信回路，再确定接口定义。"
+      }
+    },
+    {
+      "title": {
+        "en": "Interface & Coding",
+        "zh": "接口与编码"
+      },
+      "copy": {
+        "en": "Confirm mating series, coding, contact count and sensor-side pin assignment.",
+        "zh": "确认对插系列、编码、触点数量及传感器端针脚分配。"
+      }
+    },
+    {
+      "title": {
+        "en": "Shield & Ground",
+        "zh": "屏蔽与接地"
+      },
+      "copy": {
+        "en": "Specify pair construction, shield continuity and the equipment grounding path.",
+        "zh": "明确线对结构、屏蔽连续性及设备接地路径。"
+      }
+    },
+    {
+      "title": {
+        "en": "Length & Installation",
+        "zh": "长度与安装"
+      },
+      "copy": {
+        "en": "Set connector orientation, branch points and service access around the installed instrument.",
+        "zh": "围绕仪表安装位置确定接头方向、分支点与检修空间。"
+      }
+    },
+    {
+      "title": {
+        "en": "Exposure & Movement",
+        "zh": "环境与运动"
+      },
+      "copy": {
+        "en": "Review temperature, fluids, vibration and movement before choosing cable and protection.",
+        "zh": "选线与防护前核对温度、介质、振动及运动工况。"
+      }
+    },
+    {
+      "title": {
+        "en": "Signal Verification",
+        "zh": "信号验证"
+      },
+      "copy": {
+        "en": "Agree continuity and pin-map checks, then define any signal-specific acceptance tests.",
+        "zh": "约定导通与针脚检查，并制定相应信号的验收项目。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=custom-harness-04&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "LAPP",
+      "identifier": "7433501429",
+      "aliases": [
+        "EPIC® MC05C2RSANPB-22RK50"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433501365",
+      "aliases": [
+        "EPIC® MC04C2LSANPB-22RK50"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502548",
+      "aliases": [
+        "EPIC® MC08C3LRSABH24RK20"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502540",
+      "aliases": [
+        "EPIC® MC05C3LRSABH22CK50"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503195",
+      "aliases": [
+        "EPIC® MC05C3LSAB24CV20-DVN"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503155",
+      "aliases": [
+        "EPIC® MC17C3LSAP26RK50"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503152",
+      "aliases": [
+        "EPIC® MC17C3LSAP26CK50"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502518",
+      "aliases": [
+        "EPIC® MC08C3LSABH24RK20"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505717",
+      "aliases": [
+        "EPIC® MC17P1LSABF-26W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505665",
+      "aliases": [
+        "EPIC® MC17P1LSAB12-26W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505567",
+      "aliases": [
+        "EPIC® MC12P1LSAPP9-26W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505407",
+      "aliases": [
+        "EPIC® MC17P1LSABP9-26W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503203",
+      "aliases": [
+        "EPIC® MC05C3LSAB24RV60-DVN"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433501427",
+      "aliases": [
+        "EPIC® MC05C2RSANPB-22RK20"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433501363",
+      "aliases": [
+        "EPIC® MC04C2LSANPB-22RK20"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502547",
+      "aliases": [
+        "EPIC® MC08C3LRSABH24RK10"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502539",
+      "aliases": [
+        "EPIC® MC05C3LRSABH22CK20"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503194",
+      "aliases": [
+        "EPIC® MC05C3LSAB24CV18-DVN"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503154",
+      "aliases": [
+        "EPIC® MC17C3LSAP26RK20"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503151",
+      "aliases": [
+        "EPIC® MC17C3LSAP26CK20"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502517",
+      "aliases": [
+        "EPIC® MC08C3LSABH24RK10"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505716",
+      "aliases": [
+        "EPIC® MC17P1LSABF-26W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505664",
+      "aliases": [
+        "EPIC® MC17P1LSAB12-26W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505566",
+      "aliases": [
+        "EPIC® MC12P1LSAPP9-26W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505406",
+      "aliases": [
+        "EPIC® MC17P1LSABP9-26W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503202",
+      "aliases": [
+        "EPIC® MC05C3LSAB24RV30-DVN"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433501413",
+      "aliases": [
+        "EPIC® MC04C2RSANPB-22RK50"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433501349",
+      "aliases": [
+        "EPIC® MC03C2LSANPB-22RK50"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502542",
+      "aliases": [
+        "EPIC® MC05C3LRSABH22RK20"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502534",
+      "aliases": [
+        "EPIC® MC04C3LRSABH22CK50"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503193",
+      "aliases": [
+        "EPIC® MC05C3LSAB24CV10-DVN"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503153",
+      "aliases": [
+        "EPIC® MC17C3LSAP26RK10"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503150",
+      "aliases": [
+        "EPIC® MC17C3LSAP26CK10"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502513",
+      "aliases": [
+        "EPIC® MC05C3LSABH22RK50"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505715",
+      "aliases": [
+        "EPIC® MC12P1LSABF-26W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505659",
+      "aliases": [
+        "EPIC® MC12P1LSAB12-26W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505565",
+      "aliases": [
+        "EPIC® MC08P1LSAPP9-24W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505399",
+      "aliases": [
+        "EPIC® MC12P1LSABP9-26W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503201",
+      "aliases": [
+        "EPIC® MC05C3LSAB24RV20-DVN"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433501412",
+      "aliases": [
+        "EPIC® MC04C2RSANPB-22RK30"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433501347",
+      "aliases": [
+        "EPIC® MC03C2LSANPB-22RK20"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502541",
+      "aliases": [
+        "EPIC® MC05C3LRSABH22RK10"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502533",
+      "aliases": [
+        "EPIC® MC04C3LRSABH22CK20"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503192",
+      "aliases": [
+        "EPIC® MC05C3LSAB24CV03-DVN"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503149",
+      "aliases": [
+        "EPIC® MC12C3LSAP26RK50"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503146",
+      "aliases": [
+        "EPIC® MC12C3LSAP26CK50"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502512",
+      "aliases": [
+        "EPIC® MC05C3LSABH22RK20"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505714",
+      "aliases": [
+        "EPIC® MC12P1LSABF-26W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505658",
+      "aliases": [
+        "EPIC® MC12P1LSAB12-26W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505564",
+      "aliases": [
+        "EPIC® MC08P1LSAPP9-24W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505398",
+      "aliases": [
+        "EPIC® MC12P1LSABP9-26W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503200",
+      "aliases": [
+        "EPIC® MC05C3LSAB24RV18-DVN"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433501411",
+      "aliases": [
+        "EPIC® MC04C2RSANPB-22RK20"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502536",
+      "aliases": [
+        "EPIC® MC04C3LRSABH22RK20"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502528",
+      "aliases": [
+        "EPIC® MC03C3LRSABH22CK50"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503197",
+      "aliases": [
+        "EPIC® MC05C3LSAB24CV60-DVN"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503148",
+      "aliases": [
+        "EPIC® MC12C3LSAP26RK20"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503145",
+      "aliases": [
+        "EPIC® MC12C3LSAP26CK20"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502511",
+      "aliases": [
+        "EPIC® MC05C3LSABH22RK10"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505713",
+      "aliases": [
+        "EPIC® MC08P1LSABF-24W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505653",
+      "aliases": [
+        "EPIC® MC08P1LSAB12-24W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505563",
+      "aliases": [
+        "EPIC® MC05P1LSAPP9-22W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505391",
+      "aliases": [
+        "EPIC® MC08P1LSABP9-24W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503199",
+      "aliases": [
+        "EPIC® MC05C3LSAB24RV10-DVN"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433501397",
+      "aliases": [
+        "EPIC® MC03C2RSANPB-22RK50"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502535",
+      "aliases": [
+        "EPIC® MC04C3LRSABH22RK10"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502527",
+      "aliases": [
+        "EPIC® MC03C3LRSABH22CK20"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503196",
+      "aliases": [
+        "EPIC® MC05C3LSAB24CV30-DVN"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503147",
+      "aliases": [
+        "EPIC® MC12C3LSAP26RK10"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503144",
+      "aliases": [
+        "EPIC® MC12C3LSAP26CK10"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502507",
+      "aliases": [
+        "EPIC® MC04C3LSABH22RK50"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505712",
+      "aliases": [
+        "EPIC® MC08P1LSABF-24W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505652",
+      "aliases": [
+        "EPIC® MC08P1LSAB12-24W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505562",
+      "aliases": [
+        "EPIC® MC05P1LSAPP9-22W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505390",
+      "aliases": [
+        "EPIC® MC08P1LSABP9-24W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503198",
+      "aliases": [
+        "EPIC® MC05C3LSAB24RV03-DVN"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433501395",
+      "aliases": [
+        "EPIC® MC03C2RSANPB-22RK20"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502530",
+      "aliases": [
+        "EPIC® MC03C3LRSABH22RK20"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503143",
+      "aliases": [
+        "EPIC® MC08C3LSAP24RK50"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503140",
+      "aliases": [
+        "EPIC® MC08C3LSAP24CK50"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502506",
+      "aliases": [
+        "EPIC® MC04C3LSABH22RK20"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505729",
+      "aliases": [
+        "EPIC® MC17P2LSABF-26W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505647",
+      "aliases": [
+        "EPIC® MC05P1LSAB12-22W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505561",
+      "aliases": [
+        "EPIC® MC04P1LSAPP9-22W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505383",
+      "aliases": [
+        "EPIC® MC05P1LSABP9-22W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502529",
+      "aliases": [
+        "EPIC® MC03C3LRSABH22RK10"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503142",
+      "aliases": [
+        "EPIC® MC08C3LSAP24RK20"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503139",
+      "aliases": [
+        "EPIC® MC08C3LSAP24CK20"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502505",
+      "aliases": [
+        "EPIC® MC04C3LSABH22RK10"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505728",
+      "aliases": [
+        "EPIC® MC17P2LSABF-26W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505646",
+      "aliases": [
+        "EPIC® MC05P1LSAB12-22W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505560",
+      "aliases": [
+        "EPIC® MC04P1LSAPP9-22W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505382",
+      "aliases": [
+        "EPIC® MC05P1LSABP9-22W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503141",
+      "aliases": [
+        "EPIC® MC08C3LSAP24RK10"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503138",
+      "aliases": [
+        "EPIC® MC08C3LSAP24CK10"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433502499",
+      "aliases": [
+        "EPIC® MC03C3LSABH22RK10"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505727",
+      "aliases": [
+        "EPIC® MC12P2LSABF-26W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505641",
+      "aliases": [
+        "EPIC® MC04P1LSAB12-22W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505559",
+      "aliases": [
+        "EPIC® MC03P1LSAPP9-22W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505375",
+      "aliases": [
+        "EPIC® MC04P1LSABP9-22W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503137",
+      "aliases": [
+        "EPIC® MC05C3LSAP22RK50"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503134",
+      "aliases": [
+        "EPIC® MC05C3LSAP22CK50"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505726",
+      "aliases": [
+        "EPIC® MC12P2LSABF-26W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505640",
+      "aliases": [
+        "EPIC® MC04P1LSAB12-22W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505558",
+      "aliases": [
+        "EPIC® MC03P1LSAPP9-22W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505374",
+      "aliases": [
+        "EPIC® MC04P1LSABP9-22W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503136",
+      "aliases": [
+        "EPIC® MC05C3LSAP22RK20"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503133",
+      "aliases": [
+        "EPIC® MC05C3LSAP22CK20"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505725",
+      "aliases": [
+        "EPIC® MC08P2LSABF-24W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505635",
+      "aliases": [
+        "EPIC® MC03P1LSAB12-22W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505577",
+      "aliases": [
+        "EPIC® MC12P2LSAPP9-26W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505367",
+      "aliases": [
+        "EPIC® MC03P1LSABP9-22W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503135",
+      "aliases": [
+        "EPIC® MC05C3LSAP22RK10"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503132",
+      "aliases": [
+        "EPIC® MC05C3LSAP22CK10"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505724",
+      "aliases": [
+        "EPIC® MC08P2LSABF-24W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505634",
+      "aliases": [
+        "EPIC® MC03P1LSAB12-22W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505576",
+      "aliases": [
+        "EPIC® MC12P2LSAPP9-26W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505366",
+      "aliases": [
+        "EPIC® MC03P1LSABP9-22W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503131",
+      "aliases": [
+        "EPIC® MC04C3LSAP22RK50"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503128",
+      "aliases": [
+        "EPIC® MC04C3LSAP22CK50"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505723",
+      "aliases": [
+        "EPIC® MC05P2LSABF-22W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505667",
+      "aliases": [
+        "EPIC® MC17P1LSAB20-26W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505575",
+      "aliases": [
+        "EPIC® MC08P2LSAPP9-24W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505503",
+      "aliases": [
+        "EPIC® MC17P2LSABP9-26W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503130",
+      "aliases": [
+        "EPIC® MC04C3LSAP22RK20"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503127",
+      "aliases": [
+        "EPIC® MC04C3LSAP22CK20"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505722",
+      "aliases": [
+        "EPIC® MC05P2LSABF-22W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505666",
+      "aliases": [
+        "EPIC® MC17P1LSAB20-26W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505574",
+      "aliases": [
+        "EPIC® MC08P2LSAPP9-24W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505502",
+      "aliases": [
+        "EPIC® MC17P2LSABP9-26W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503129",
+      "aliases": [
+        "EPIC® MC04C3LSAP22RK10"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503126",
+      "aliases": [
+        "EPIC® MC04C3LSAP22CK10"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505721",
+      "aliases": [
+        "EPIC® MC04P2LSABF-22W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505411",
+      "aliases": [
+        "EPIC® MC17P1LSAB20-26W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505573",
+      "aliases": [
+        "EPIC® MC05P2LSAPP9-22W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505495",
+      "aliases": [
+        "EPIC® MC12P2LSABP9-26W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503125",
+      "aliases": [
+        "EPIC® MC03C3LSAP22RK50"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503122",
+      "aliases": [
+        "EPIC® MC03C3LSAP22CK50"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505720",
+      "aliases": [
+        "EPIC® MC04P2LSABF-22W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505410",
+      "aliases": [
+        "EPIC® MC17P1LSAB20-26W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505572",
+      "aliases": [
+        "EPIC® MC05P2LSAPP9-22W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505494",
+      "aliases": [
+        "EPIC® MC12P2LSABP9-26W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503124",
+      "aliases": [
+        "EPIC® MC03C3LSAP22RK20"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503121",
+      "aliases": [
+        "EPIC® MC03C3LSAP22CK20"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505719",
+      "aliases": [
+        "EPIC® MC03P2LSABF-22W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505409",
+      "aliases": [
+        "EPIC® MC17P1LSAB16-26W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505571",
+      "aliases": [
+        "EPIC® MC04P2LSAPP9-22W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505487",
+      "aliases": [
+        "EPIC® MC08P2LSABP9-24W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503123",
+      "aliases": [
+        "EPIC® MC03C3LSAP22RK10"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433503120",
+      "aliases": [
+        "EPIC® MC03C3LSAP22CK10"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505711",
+      "aliases": [
+        "EPIC® MC05P1LSABF-22W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505408",
+      "aliases": [
+        "EPIC® MC17P1LSAB16-26W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505570",
+      "aliases": [
+        "EPIC® MC04P2LSAPP9-22W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505486",
+      "aliases": [
+        "EPIC® MC08P2LSABP9-24W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505710",
+      "aliases": [
+        "EPIC® MC05P1LSABF-22W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505661",
+      "aliases": [
+        "EPIC® MC12P1LSAB20-26W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505569",
+      "aliases": [
+        "EPIC® MC03P2LSAPP9-22W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505479",
+      "aliases": [
+        "EPIC® MC05P2LSABP9-22W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505709",
+      "aliases": [
+        "EPIC® MC04P1LSABF-22W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505660",
+      "aliases": [
+        "EPIC® MC12P1LSAB20-26W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505568",
+      "aliases": [
+        "EPIC® MC03P2LSAPP9-22W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505478",
+      "aliases": [
+        "EPIC® MC05P2LSABP9-22W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505708",
+      "aliases": [
+        "EPIC® MC04P1LSABF-22W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505403",
+      "aliases": [
+        "EPIC® MC12P1LSAB20-26W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505471",
+      "aliases": [
+        "EPIC® MC04P2LSABP9-22W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505707",
+      "aliases": [
+        "EPIC® MC03P1LSABF-22W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505402",
+      "aliases": [
+        "EPIC® MC12P1LSAB20-26W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505470",
+      "aliases": [
+        "EPIC® MC04P2LSABP9-22W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505706",
+      "aliases": [
+        "EPIC® MC03P1LSABF-22W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505401",
+      "aliases": [
+        "EPIC® MC12P1LSAB16-26W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505463",
+      "aliases": [
+        "EPIC® MC03P2LSABP9-22W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505718",
+      "aliases": [
+        "EPIC® MC03P2LSABF-22W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505400",
+      "aliases": [
+        "EPIC® MC12P1LSAB16-26W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505462",
+      "aliases": [
+        "EPIC® MC03P2LSABP9-22W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505655",
+      "aliases": [
+        "EPIC® MC08P1LSAB20-24W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505654",
+      "aliases": [
+        "EPIC® MC08P1LSAB20-24W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505395",
+      "aliases": [
+        "EPIC® MC08P1LSAB20-24W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505394",
+      "aliases": [
+        "EPIC® MC08P1LSAB20-24W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505393",
+      "aliases": [
+        "EPIC® MC08P1LSAB16-24W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505392",
+      "aliases": [
+        "EPIC® MC08P1LSAB16-24W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505649",
+      "aliases": [
+        "EPIC® MC05P1LSAB20-22W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505648",
+      "aliases": [
+        "EPIC® MC05P1LSAB20-22W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505387",
+      "aliases": [
+        "EPIC® MC05P1LSAB20-22W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505386",
+      "aliases": [
+        "EPIC® MC05P1LSAB20-22W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505385",
+      "aliases": [
+        "EPIC® MC05P1LSAB16-22W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505384",
+      "aliases": [
+        "EPIC® MC05P1LSAB16-22W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505643",
+      "aliases": [
+        "EPIC® MC04P1LSAB20-22W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505642",
+      "aliases": [
+        "EPIC® MC04P1LSAB20-22W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505377",
+      "aliases": [
+        "EPIC® MC04P1LSAB16-22W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505376",
+      "aliases": [
+        "EPIC® MC04P1LSAB16-22W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505637",
+      "aliases": [
+        "EPIC® MC03P1LSAB20-22W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505636",
+      "aliases": [
+        "EPIC® MC03P1LSAB20-22W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505371",
+      "aliases": [
+        "EPIC® MC03P1LSAB20-22W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505370",
+      "aliases": [
+        "EPIC® MC03P1LSAB20-22W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505369",
+      "aliases": [
+        "EPIC® MC03P1LSAB16-22W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505368",
+      "aliases": [
+        "EPIC® MC03P1LSAB16-22W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505507",
+      "aliases": [
+        "EPIC® MC17P2LSAB20-26W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505506",
+      "aliases": [
+        "EPIC® MC17P2LSAB20-26W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505505",
+      "aliases": [
+        "EPIC® MC17P2LSAB16-26W05"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "7433505504",
+      "aliases": [
+        "EPIC® MC17P2LSAB16-26W02"
+      ],
+      "description": {
+        "en": "Sensor / actuator cable assembly",
+        "zh": "传感器与执行器电缆组件"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "brand": "LAPP",
+      "identifier": "38119457",
+      "aliases": [
+        "EPIC® M8 SAM322-5"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "38119458",
+      "aliases": [
+        "EPIC® M8 SAF422-5"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167666",
+      "aliases": [
+        "EPIC® SAM422-5/IDC"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167663",
+      "aliases": [
+        "EPIC® SAF322-5/IDC"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167617",
+      "aliases": [
+        "EPIC® M12 EAM422-8/S"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166342",
+      "aliases": [
+        "EPIC® SENSOR M12B D7 5 SR1220 4-8"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166322",
+      "aliases": [
+        "EPIC® SENSOR M12A F6 12 SL1220 4-8"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22262049",
+      "aliases": [
+        "AB-C4-M12MS-PG7-VA"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22262109",
+      "aliases": [
+        "AB-C5-M12FA-PG7-SH"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22262108",
+      "aliases": [
+        "AB-C5-M12MA-PG7-SH"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22262024",
+      "aliases": [
+        "AB-C5-M12FA-PG9-SKINTOP®"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22262023",
+      "aliases": [
+        "AB-C5-M12MA-PG9-SKINTOP®"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260997",
+      "aliases": [
+        "AB-C5-M12FS-PG9-SKINTOP®"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260996",
+      "aliases": [
+        "AB-C5-M12MS-PG9-SKINTOP®"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260995",
+      "aliases": [
+        "AB-C4-M12MS-PG9"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260826",
+      "aliases": [
+        "AB-C8-M12FS-PG9-SH"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260825",
+      "aliases": [
+        "AB-C8-M12MS-PG9-SH"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260648",
+      "aliases": [
+        "AB-C5-M12MA-PG9"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260644",
+      "aliases": [
+        "AB-C5-M12FS-PG9"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260638",
+      "aliases": [
+        "AB-C5-M12FA-PG9"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260134",
+      "aliases": [
+        "AB-C4-M12MS-F0,75"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260133",
+      "aliases": [
+        "AB-C4-M12FS-F0,75"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260130",
+      "aliases": [
+        "AB-C5-M12MA-PG 7"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260129",
+      "aliases": [
+        "AB-C5-M12MS-PG 7"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260128",
+      "aliases": [
+        "AB-C5-M12FA-PG 7"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260127",
+      "aliases": [
+        "AB-C5-M12FS-PG 7"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22262015",
+      "aliases": [
+        "AB-C4-M12FST-M20-PO"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22262014",
+      "aliases": [
+        "AB-C4-M12MST-M20-PO"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22262013",
+      "aliases": [
+        "AB-C4-M12FAT-PG11"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22262012",
+      "aliases": [
+        "AB-C4-M12MAT-PG11"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22262011",
+      "aliases": [
+        "AB-C4-M12FST-PG11"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22262010",
+      "aliases": [
+        "AB-C4-M12MST-PG11"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22262021",
+      "aliases": [
+        "AB-C5-DSI-M12MSB-M12FSB-M16-SH"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22262078",
+      "aliases": [
+        "AB-C5-M12MSB-PG11-SH-AU"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260889",
+      "aliases": [
+        "AB-C5-M12FSB-PG11-SH-AU"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22262020",
+      "aliases": [
+        "AB-C5-DSI-M12MS-M12FS-M16-SH"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22262113",
+      "aliases": [
+        "AB-C4-M8FA"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22262111",
+      "aliases": [
+        "AB-C4-M8MA"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22262028",
+      "aliases": [
+        "AB-C4-M8FS-M-0,34-SH"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22262027",
+      "aliases": [
+        "AB-C4-M8MS-M-0,34-SH"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260126",
+      "aliases": [
+        "AB-C4-M8FS"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260121",
+      "aliases": [
+        "AB-C4-M8MS"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700566",
+      "aliases": [
+        "ED-PB-AX-ST-PRO"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700565",
+      "aliases": [
+        "ED-PB-90-PG-ST-PRO"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700563",
+      "aliases": [
+        "ED-PB-AX-M12-PRO"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700562",
+      "aliases": [
+        "ED-PB-90-PG-M12-PRO"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700547",
+      "aliases": [
+        "ED-PB-90-LED-FC"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700546",
+      "aliases": [
+        "ED-PB-90-PG-LED-FC"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700544",
+      "aliases": [
+        "ED-PB-AX-FC"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700502",
+      "aliases": [
+        "ED-PB-90-FC"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700501",
+      "aliases": [
+        "ED-PB-90-PG-FC"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700541",
+      "aliases": [
+        "ED-PB-90-RP-PG"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700530",
+      "aliases": [
+        "ED-PB-90-LED"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700529",
+      "aliases": [
+        "ED-PB-90-PG-LED"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700507",
+      "aliases": [
+        "ED-PB-35"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700506",
+      "aliases": [
+        "ED-PB-35-PG"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700505",
+      "aliases": [
+        "ED-PB-AX"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700591",
+      "aliases": [
+        "ED-CAN-AX-PRO"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700590",
+      "aliases": [
+        "ED-CAN-90-PG-PRO"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700538",
+      "aliases": [
+        "ED-CAN-AX"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700537",
+      "aliases": [
+        "ED-CAN-90"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700536",
+      "aliases": [
+        "ED-CAN-90-PG"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00009894",
+      "aliases": [
+        "202060AA+40200126 CIRCULAR COMBIN."
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00008979",
+      "aliases": [
+        "202050AF+40250126 CIRCULAR COMBIN."
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "55-00505",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector",
+        "zh": "M12圆形连接器"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "38119459",
+      "aliases": [
+        "EPIC® M8 SAM422-5"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "38119456",
+      "aliases": [
+        "EPIC® M8 SAF322-5"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167665",
+      "aliases": [
+        "EPIC® SAM322-5/IDC"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167664",
+      "aliases": [
+        "EPIC® SAF422-5/IDC"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166336",
+      "aliases": [
+        "EPIC® SENSOR M12B F1 5 SR1220 4-8"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166329",
+      "aliases": [
+        "EPIC® SENSOR M12A D6 12 SL1220 4-8"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260651",
+      "aliases": [
+        "AB-C5-M12MS-PG9"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260136",
+      "aliases": [
+        "AB-C5-M12FS-PG9-SH"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260135",
+      "aliases": [
+        "AB-C5-M12MS-PG9-SH"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260647",
+      "aliases": [
+        "AB-C4-M12MA-PG7"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260641",
+      "aliases": [
+        "AB-C4-M12FS-PG9"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260636",
+      "aliases": [
+        "AB-C4-M12FA-PG7"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260132",
+      "aliases": [
+        "AB-C4-M12MS-F0,34"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260131",
+      "aliases": [
+        "AB-C4-M12FS-F0,34"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260653",
+      "aliases": [
+        "AB-C5-M12MSB-PG9-SH-AU"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260646",
+      "aliases": [
+        "AB-C5-M12FSB-PG9-SH-AU"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22262112",
+      "aliases": [
+        "AB-C3-M8FA"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22262110",
+      "aliases": [
+        "AB-C3-M8MA"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22262026",
+      "aliases": [
+        "AB-C3-M8FS-M-0,34-SH"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22262025",
+      "aliases": [
+        "AB-C3-M8MS-M-0,34-SH"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260125",
+      "aliases": [
+        "AB-C3-M8FS"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260120",
+      "aliases": [
+        "AB-C3-M8MS"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700564",
+      "aliases": [
+        "ED-PB-35-PG-ST-PRO"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700561",
+      "aliases": [
+        "ED-PB-35-PG-M12-PRO"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700504",
+      "aliases": [
+        "ED-PB-90"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "21700503",
+      "aliases": [
+        "ED-PB-90-PG"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00009371",
+      "aliases": [
+        "202060AA+40200121 CIRCULAR COMBIN."
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00008854",
+      "aliases": [
+        "202050AF+40200121 CIRCULAR COMBIN."
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "55-00504",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector",
+        "zh": "M12圆形连接器"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166330",
+      "aliases": [
+        "EPIC® SENSOR M12B D6 5 SR1220 4-8"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166321",
+      "aliases": [
+        "EPIC® SENSOR M12A F6 8 SR1220 4-8"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260649",
+      "aliases": [
+        "AB-C4-M12MS-PG7"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260640",
+      "aliases": [
+        "AB-C4-M12FS-PG7"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260993",
+      "aliases": [
+        "AB-C3-M8MS-F0,25"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260994",
+      "aliases": [
+        "AB-C3-M8FS-F0,25"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00009057",
+      "aliases": [
+        "202060AA+40250121 CIRCULAR COMBIN."
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00008822",
+      "aliases": [
+        "202050AF+40200126 CIRCULAR COMBIN."
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "55-00496",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector",
+        "zh": "M12圆形连接器"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166323",
+      "aliases": [
+        "EPIC® SENSOR M12B F6 5 SR1220 4-8"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166320",
+      "aliases": [
+        "EPIC® SENSOR M12A F6 5 SR1220 4-8"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260985",
+      "aliases": [
+        "AB-C3-M8MS-F0,5"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260986",
+      "aliases": [
+        "AB-C3-M8FS-F0,5"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00009005",
+      "aliases": [
+        "202060AA+40250126 CIRCULAR COMBIN."
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00008779",
+      "aliases": [
+        "202050AF+40250121 CIRCULAR COMBIN."
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00993",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector",
+        "zh": "M12圆形连接器"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166319",
+      "aliases": [
+        "EPIC® SENSOR M12A F6 4 SR1220 4-8"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260044",
+      "aliases": [
+        "AB-C4-M8MS-F0,5"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260046",
+      "aliases": [
+        "AB-C4-M8FS-F0,5"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00009135",
+      "aliases": [
+        "202020AA+40250121 CIRCULAR COMBIN."
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00009045",
+      "aliases": [
+        "202040AF+40200121 CIRCULAR COMBIN."
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00994",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector",
+        "zh": "M12圆形连接器"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166318",
+      "aliases": [
+        "EPIC® SENSOR M12A F6 3 SR1220 4-8"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260043",
+      "aliases": [
+        "AB-C4-M8MS-F0,25"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "22260045",
+      "aliases": [
+        "AB-C4-M8FS-F0,25"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00009082",
+      "aliases": [
+        "202020AA+40200121 CIRCULAR COMBIN."
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00008899",
+      "aliases": [
+        "202040AF+40200126 CIRCULAR COMBIN."
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "55-00483",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector",
+        "zh": "M8圆形连接器"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166337",
+      "aliases": [
+        "EPIC® SENSOR M12A F1 8 SR1220 4-8"
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00008978",
+      "aliases": [
+        "202020AA+40250126 CIRCULAR COMBIN."
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00008829",
+      "aliases": [
+        "202040AF+40250126 CIRCULAR COMBIN."
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "55-00482",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector",
+        "zh": "M8圆形连接器"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00008867",
+      "aliases": [
+        "202010AA+40250121 CIRCULAR COMBIN."
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00008749",
+      "aliases": [
+        "202040AF+40250121 CIRCULAR COMBIN."
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "55-00481",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector",
+        "zh": "M8圆形连接器"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00008825",
+      "aliases": [
+        "202010AA+40200126 CIRCULAR COMBIN."
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "55-00480",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector",
+        "zh": "M8圆形连接器"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00008747",
+      "aliases": [
+        "202010AA+40200121 CIRCULAR COMBIN."
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "55-00479",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector",
+        "zh": "M8圆形连接器"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "00008746",
+      "aliases": [
+        "202010AA+40250126 CIRCULAR COMBIN."
+      ],
+      "description": {
+        "en": "Sensor / actuator / fieldbus connector component",
+        "zh": "传感器、执行器与现场总线连接材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "55-00478",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector",
+        "zh": "M8圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "55-00477",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector",
+        "zh": "M8圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "55-00476",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector",
+        "zh": "M8圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "55-00475",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector",
+        "zh": "M8圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "55-00474",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector",
+        "zh": "M8圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "55-00473",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector",
+        "zh": "M8圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "55-00472",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector",
+        "zh": "M8圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "55-00471",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector",
+        "zh": "M8圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "55-00470",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector",
+        "zh": "M8圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "55-00469",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector",
+        "zh": "M8圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "55-00468",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector",
+        "zh": "M8圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00559",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector",
+        "zh": "M12圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00558",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector",
+        "zh": "M12圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00557",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector",
+        "zh": "M8圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00556",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector",
+        "zh": "M12圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00555",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector",
+        "zh": "M12圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00554",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector",
+        "zh": "M8圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00553",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector",
+        "zh": "M12圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00552",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector",
+        "zh": "M12圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00551",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector",
+        "zh": "M12圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00550",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector",
+        "zh": "M12圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00549",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector",
+        "zh": "M12圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00548",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector",
+        "zh": "M8圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00547",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector",
+        "zh": "M8圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00546",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector",
+        "zh": "M8圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00545",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector",
+        "zh": "M8圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00544",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector",
+        "zh": "M5圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00543",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector",
+        "zh": "M5圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00394",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector",
+        "zh": "M12圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00396",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector",
+        "zh": "M12圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00324",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector",
+        "zh": "M8圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00295",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector",
+        "zh": "M8圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00277",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector",
+        "zh": "M8圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00274",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector",
+        "zh": "M8圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00273",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector",
+        "zh": "M8圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00272",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector",
+        "zh": "M8圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00265",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector",
+        "zh": "M12圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00238",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector",
+        "zh": "M12圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00236",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector",
+        "zh": "M12圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00235",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector",
+        "zh": "M12圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00217",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector",
+        "zh": "M12圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00188",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector",
+        "zh": "M12圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00187",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector",
+        "zh": "M12圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00184",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector",
+        "zh": "M12圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00182",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector",
+        "zh": "M12圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00181",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector",
+        "zh": "M12圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00154",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector",
+        "zh": "M5圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00107",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector",
+        "zh": "M5圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00106",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector",
+        "zh": "M5圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00105",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector",
+        "zh": "M5圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-01006",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector",
+        "zh": "M8圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00988",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector",
+        "zh": "M12圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00979",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector",
+        "zh": "M12圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00962",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector",
+        "zh": "M12圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00960",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector",
+        "zh": "M12圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00958",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector",
+        "zh": "M12圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00682",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector",
+        "zh": "M8圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00679",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector",
+        "zh": "M8圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00673",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector",
+        "zh": "M5圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00605",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector",
+        "zh": "M5圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00604",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector",
+        "zh": "M5圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00602",
+      "aliases": [],
+      "description": {
+        "en": "M5 circular connector",
+        "zh": "M5圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00248",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector",
+        "zh": "M12圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "55-00452",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector",
+        "zh": "M12圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "55-00451",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector",
+        "zh": "M12圆形连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "55-00450",
+      "aliases": [],
+      "description": {
+        "en": "M12 circular connector",
+        "zh": "M12圆形连接器"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Instrument & Sensor Harness",
+    "zh": "仪表与传感器线束"
+  }
+}

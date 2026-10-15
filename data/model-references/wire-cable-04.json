@@ -1,0 +1,284 @@
+{
+  "version": 2,
+  "category_id": "wire-cable-04",
+  "route": "/products/can-bus-cable",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Manufacturer-identified finished assemblies for this application.",
+        "zh": "此应用范围内经原厂资料核验的成品组件。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Category-specific material references; the final BOM follows the approved configuration.",
+        "zh": "此类选型的材料参考；最终 BOM 以确认配置为准。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Selection & Project Review",
+    "zh": "选型与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Application Boundary",
+        "zh": "应用边界"
+      },
+      "copy": {
+        "en": "The exact CAN profile, physical layer, topology, termination, pair construction and validation scope must be identified together.",
+        "zh": "准确 CAN 配置、物理层、拓扑、终端、线对结构与验证范围必须共同识别。"
+      }
+    },
+    {
+      "title": {
+        "en": "Project Inputs",
+        "zh": "项目输入"
+      },
+      "copy": {
+        "en": "Provide device models, bit rates, topology, bus and stub lengths, termination locations, cable and connector specifications, environment and test requirements.",
+        "zh": "请提供设备型号、速率、拓扑、主干与支线长度、终端位置、线缆和接口规范、环境与测试要求。"
+      }
+    },
+    {
+      "title": {
+        "en": "Release Records",
+        "zh": "放行依据"
+      },
+      "copy": {
+        "en": "Release records the cable, pair and shield construction, connectors, pinout, topology, termination, lengths, process, traceability and agreed evidence.",
+        "zh": "放行记录包含线缆、线对与屏蔽结构、接口、针脚、拓扑、终端、长度、工艺、追溯与约定证据。"
+      }
+    },
+    {
+      "title": {
+        "en": "Interface Review",
+        "zh": "接口审核"
+      },
+      "copy": {
+        "en": "Confirm the exact mating interface, pin map, dimensions and installation orientation.",
+        "zh": "确认准确对插接口、针脚对应、尺寸及安装方向。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sample Acceptance",
+        "zh": "样品验收"
+      },
+      "copy": {
+        "en": "Agree the sample configuration and electrical, mechanical or environmental checks required by the project.",
+        "zh": "约定样品配置以及项目所需的电气、机械或环境检查。"
+      }
+    },
+    {
+      "title": {
+        "en": "Change Control",
+        "zh": "变更控制"
+      },
+      "copy": {
+        "en": "Record changes to materials, drawings and process instructions before repeat manufacture.",
+        "zh": "重复制造前记录材料、图纸与工艺说明的变更。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=wire-cable-04&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [],
+  "materials": [
+    {
+      "brand": "Turck",
+      "identifier": "RF52322",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus cable material",
+        "zh": "CAN总线电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFBUS.020",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus cable material",
+        "zh": "CAN总线电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52323",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus cable material",
+        "zh": "CAN总线电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFBUS.021",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus cable material",
+        "zh": "CAN总线电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFBUS.022",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus cable material",
+        "zh": "CAN总线电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFBUS.LB.020",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus cable material",
+        "zh": "CAN总线电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFBUS.LB.021",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus cable material",
+        "zh": "CAN总线电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFBUS.LB.022",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus cable material",
+        "zh": "CAN总线电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFBUS.PVC.020",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus cable material",
+        "zh": "CAN总线电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFBUS.PVC.021",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus cable material",
+        "zh": "CAN总线电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFBUS.PVC.022",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus cable material",
+        "zh": "CAN总线电缆材料"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "CAN Bus Cable",
+    "zh": "CAN总线电缆"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "material_scope",
+    "reason": {
+      "en": "Wire, bulk cable and polymer grades are materials. They are not counted as terminated cable assemblies.",
+      "zh": "电线、卷装电缆与胶料牌号属于材料，不计为已端接电缆组件。"
+    },
+    "audit_id": "wire-material-batches/wire-cable-04-materials-strict-ready.json",
+    "verified_counts": {
+      "products": 0,
+      "materials": 11
+    }
+  }
+}

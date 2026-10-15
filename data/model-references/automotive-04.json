@@ -1,0 +1,2165 @@
+{
+  "version": 2,
+  "category_id": "automotive-04",
+  "route": "/products/truck-harness",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Manufacturer-identified finished assemblies for this application.",
+        "zh": "此应用范围内经原厂资料核验的成品组件。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Category-specific material references; the final BOM follows the approved configuration.",
+        "zh": "此类选型的材料参考；最终 BOM 以确认配置为准。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Selection & Project Review",
+    "zh": "选型与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Application Boundary",
+        "zh": "应用边界"
+      },
+      "copy": {
+        "en": "A truck harness is a vehicle architecture rather than a generic bundle of wires. Cab and chassis zones have different exposure, service access and mechanical movement. Every released branch therefore links circuit function, load, protection, connector system, route, support spacing, bend allowance, splice position, environmental zone and validation method.",
+        "zh": "卡车线束是一套车辆电气架构，而不是通用导线的捆扎。驾驶室与底盘区域的暴露、维修可达性和机械运动各不相同，因此每条放行支路都要关联回路功能、负载、保护、连接器体系、路径、固定间距、弯曲余量、接续位置、环境分区与验证方法。"
+      }
+    },
+    {
+      "title": {
+        "en": "Project Inputs",
+        "zh": "项目输入"
+      },
+      "copy": {
+        "en": "Provide vehicle maker, platform, model year and cab or wheelbase configuration; system voltage; equipment and controller part numbers; circuit and pin tables; load current and protection; connector BOM; zone and routing photographs; branch datums; clips, grommets and coverings; articulation or service loops; body-builder and trailer interfaces; labels; quantity; and the required electrical, mechanical or environmental checks.",
+        "zh": "请提供车辆制造商、平台、年份及驾驶室或轴距配置；系统电压；设备与控制器型号；回路与针脚表；负载电流及保护；连接器物料表；分区和走线照片；分支基准；卡扣、护圈与覆盖层；铰接或维修余量；上装与挂车接口；标签、数量以及所需电气、机械或环境检查。"
+      }
+    },
+    {
+      "title": {
+        "en": "Release Records",
+        "zh": "放行依据"
+      },
+      "copy": {
+        "en": "We convert approved vehicle information into controlled drawings, circuit schedules, connector and terminal BOMs, splice maps, route dimensions, covering instructions, labels and test programs. Sample fit is reviewed on the specified vehicle or fixture before repeat production. Continuity and workmanship checks confirm the manufactured harness;",
+        "zh": "我们把批准的车辆资料转化为受控图纸、回路表、连接器与端子物料表、接续图、走线尺寸、覆盖工艺、标签及测试程序。重复生产前在指定车辆或工装上审核样品装配；导通与工艺检查确认线束制造结果，完整整车行为仍属于系统级验证，除非项目明确包含准确车辆、负载与验收计划。"
+      }
+    },
+    {
+      "title": {
+        "en": "Interface Review",
+        "zh": "接口审核"
+      },
+      "copy": {
+        "en": "Confirm the exact mating interface, pin map, dimensions and installation orientation.",
+        "zh": "确认准确对插接口、针脚对应、尺寸及安装方向。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sample Acceptance",
+        "zh": "样品验收"
+      },
+      "copy": {
+        "en": "Agree the sample configuration and electrical, mechanical or environmental checks required by the project.",
+        "zh": "约定样品配置以及项目所需的电气、机械或环境检查。"
+      }
+    },
+    {
+      "title": {
+        "en": "Change Control",
+        "zh": "变更控制"
+      },
+      "copy": {
+        "en": "Record changes to materials, drawings and process instructions before repeat manufacture.",
+        "zh": "重复制造前记录材料、图纸与工艺说明的变更。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=automotive-04&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "American Autowire",
+      "identifier": "510824",
+      "aliases": [],
+      "description": {
+        "en": "Duraspark Ignition Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44555",
+      "aliases": [],
+      "description": {
+        "en": "Power Tailgate Window Intermediate Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44286",
+      "aliases": [],
+      "description": {
+        "en": "Rear Body Tail Light Harness",
+        "zh": "尾灯连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44276",
+      "aliases": [],
+      "description": {
+        "en": "Dome Lamp Extension Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44275",
+      "aliases": [],
+      "description": {
+        "en": "Rear Dome Lamp Switch Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40044",
+      "aliases": [],
+      "description": {
+        "en": "Radio Speaker Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40029",
+      "aliases": [],
+      "description": {
+        "en": "Power Window And Door Lock Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40019",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40017",
+      "aliases": [],
+      "description": {
+        "en": "Power Tailgate Intermediate Window Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40014",
+      "aliases": [],
+      "description": {
+        "en": "Power Window Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40006",
+      "aliases": [],
+      "description": {
+        "en": "Cruise Control Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40005",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Torque Converter Clutch Solenoid Extension Wire",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39997",
+      "aliases": [],
+      "description": {
+        "en": "Air Conditioning Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39996",
+      "aliases": [],
+      "description": {
+        "en": "Cruise Control Clutch Switch Jumper Wire",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39995",
+      "aliases": [],
+      "description": {
+        "en": "Air Conditioning Compressor Extension Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39991",
+      "aliases": [],
+      "description": {
+        "en": "Rear Body Light Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39989",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Switch Extension Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39988",
+      "aliases": [],
+      "description": {
+        "en": "Rear Body Intermediate Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39985",
+      "aliases": [],
+      "description": {
+        "en": "4 Wheel Drive Indicator Light Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39983",
+      "aliases": [],
+      "description": {
+        "en": "4 Wheel Drive Indicator Light Extension",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39951",
+      "aliases": [],
+      "description": {
+        "en": "Power Door Lock Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39927",
+      "aliases": [],
+      "description": {
+        "en": "4 Wheel Drive Indicator Light And Trans Clutch Control Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39922",
+      "aliases": [],
+      "description": {
+        "en": "Power Tailgate Window Intermediate Body Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39912",
+      "aliases": [],
+      "description": {
+        "en": "License Lamp Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39910",
+      "aliases": [],
+      "description": {
+        "en": "Heater Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39908",
+      "aliases": [],
+      "description": {
+        "en": "Rear Body Intermediate Body Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39902",
+      "aliases": [],
+      "description": {
+        "en": "Air Conditioning Extension Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39888",
+      "aliases": [],
+      "description": {
+        "en": "Power Tailgate Window Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39882",
+      "aliases": [],
+      "description": {
+        "en": "Clock Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39881",
+      "aliases": [],
+      "description": {
+        "en": "4 Wheel Drive Indicator Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39871",
+      "aliases": [],
+      "description": {
+        "en": "Cargo Lamp Extension Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39866",
+      "aliases": [],
+      "description": {
+        "en": "Radio Speaker Extension Wire",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39863",
+      "aliases": [],
+      "description": {
+        "en": "Brake Warning Switch Jumper",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39850",
+      "aliases": [],
+      "description": {
+        "en": "Rear Cargo Lamp Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39831",
+      "aliases": [],
+      "description": {
+        "en": "Dome Lamp Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39823",
+      "aliases": [],
+      "description": {
+        "en": "Rear Tail And Stop Lamp Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39805",
+      "aliases": [],
+      "description": {
+        "en": "Dome And Cargo Lamp Jumper Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39790",
+      "aliases": [],
+      "description": {
+        "en": "Air Conditioning Blower Motor Extension Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39789",
+      "aliases": [],
+      "description": {
+        "en": "Horn Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39786",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Kickdown Harness",
+        "zh": "变速箱降挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39773",
+      "aliases": [],
+      "description": {
+        "en": "Rear Body Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39771",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Switch Extension",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39768",
+      "aliases": [],
+      "description": {
+        "en": "Power Tailgate Switch & Relay Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39766",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Controlled Spark Switch Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39765",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Controlled Spark Switch Harness 6 Cyl.",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39761",
+      "aliases": [],
+      "description": {
+        "en": "Dome Light Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39760",
+      "aliases": [],
+      "description": {
+        "en": "Dome Light Extension Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "1210-000",
+      "aliases": [],
+      "description": {
+        "en": "Spark Plug Wire Set",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "21110",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36249",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Wire",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36237",
+      "aliases": [],
+      "description": {
+        "en": "Rear Body License Plate And Fuel Tank Extension",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "35785",
+      "aliases": [],
+      "description": {
+        "en": "Steering Column Adapter Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "35055",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "34570",
+      "aliases": [],
+      "description": {
+        "en": "Turn Signal Harness",
+        "zh": "转向灯连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "34155",
+      "aliases": [],
+      "description": {
+        "en": "Rear Body Light Harness Long Bed Extension",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "33920",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "32120",
+      "aliases": [],
+      "description": {
+        "en": "Radio Power Wire",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "31685",
+      "aliases": [],
+      "description": {
+        "en": "Courtesy Light Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "31680",
+      "aliases": [],
+      "description": {
+        "en": "Courtesy And Dome Light Jumper Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "31560",
+      "aliases": [],
+      "description": {
+        "en": "Alternator Conversion Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "31520",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "30775",
+      "aliases": [],
+      "description": {
+        "en": "Heater Blower Motor Wire",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23185",
+      "aliases": [],
+      "description": {
+        "en": "Speed Warning Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "19645",
+      "aliases": [],
+      "description": {
+        "en": "Headlight Connection Harness",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "19940",
+      "aliases": [],
+      "description": {
+        "en": "Heater Lamp Wire",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "02667",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Hood Light Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "02545",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Overdrive Harness",
+        "zh": "变速箱超速挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "30850",
+      "aliases": [],
+      "description": {
+        "en": "Cargo Light Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "19930",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "20705",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "20690",
+      "aliases": [],
+      "description": {
+        "en": "Headlight Harness",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "20840",
+      "aliases": [],
+      "description": {
+        "en": "Air Conditioning Jumper Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "19965",
+      "aliases": [],
+      "description": {
+        "en": "Air Conditioning Harness Note: Harness Comes With 20840 Blower Switch Jumper",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "20820",
+      "aliases": [],
+      "description": {
+        "en": "Air Conditioning Harness (1st Design)",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04025",
+      "aliases": [],
+      "description": {
+        "en": "Front Light And Alternator Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "03590",
+      "aliases": [],
+      "description": {
+        "en": "Front Light And Generator Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "30800",
+      "aliases": [],
+      "description": {
+        "en": "Dash Instrument Cluster Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "03065",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Harness Generator To Voltage",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE52588",
+      "aliases": [],
+      "description": {
+        "en": "Power Window Jumper",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39753",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Controlled Spark Switch Harness - 6 Cyl",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39752",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Controlled Spark Switch Harness - 6 Cyl.",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39748",
+      "aliases": [],
+      "description": {
+        "en": "Dome Lamp Harness Extension",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39742",
+      "aliases": [],
+      "description": {
+        "en": "Clearance Lamp Extension Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39738",
+      "aliases": [],
+      "description": {
+        "en": "Dome Lamp And Door Jamb Switch Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39736",
+      "aliases": [],
+      "description": {
+        "en": "Power Feed Jumper For Pw",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39725",
+      "aliases": [],
+      "description": {
+        "en": "License Plate Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39723",
+      "aliases": [],
+      "description": {
+        "en": "Cab Running Light Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39721",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Kickdown Extension Harness",
+        "zh": "变速箱降挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39359",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Control Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37532",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Switch Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37500",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Switch To Extension Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44153",
+      "aliases": [],
+      "description": {
+        "en": "License Plate Lamp Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22220PI",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Harness - Altpi",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22220DI",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Harness - Altdi",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "20795H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness - Hei",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "30645",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Extension Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38240",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Wire Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "30175",
+      "aliases": [],
+      "description": {
+        "en": "Wiper Washer Motor Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE50257",
+      "aliases": [],
+      "description": {
+        "en": "Dash Fuse Panel Power Feed Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510800",
+      "aliases": [],
+      "description": {
+        "en": "Steering Column Adaptor Harness - 1967-72 Chevy Truck to Classic Update",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39735",
+      "aliases": [],
+      "description": {
+        "en": "A/C Compressor Extension",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39876",
+      "aliases": [],
+      "description": {
+        "en": "39876 AIR CONDITIONING HARNESS COMPRESSOR EXTENSION",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39879",
+      "aliases": [],
+      "description": {
+        "en": "AIR CONDITIONING HARNESS COMPRESSOR EXTENSION",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39827",
+      "aliases": [],
+      "description": {
+        "en": "Air Conditioning Harness, C10, 20, 30, Or K10, 20 For Chevrolet Truck 1976",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "42291",
+      "aliases": [],
+      "description": {
+        "en": "REAR BODY LIGHT HARNESS",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39356",
+      "aliases": [],
+      "description": {
+        "en": "AIR CONDITIONING HARNESS",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510499",
+      "aliases": [],
+      "description": {
+        "en": "Fused Cigarette Lighter Adapter Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44083",
+      "aliases": [],
+      "description": {
+        "en": "REAR BODY INTERMEDIATE HARNESS",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510485",
+      "aliases": [],
+      "description": {
+        "en": "1980-86 Ford Bronco Classic Update: Rear Defroster Harness Add-On Kit",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39935",
+      "aliases": [],
+      "description": {
+        "en": "Heater Control Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29285",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable, Negative",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40132",
+      "aliases": [],
+      "description": {
+        "en": "Heater Control Lamp Wire",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39715",
+      "aliases": [],
+      "description": {
+        "en": "Cargo Lamp Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38287",
+      "aliases": [],
+      "description": {
+        "en": "Camper Wiring Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "20650H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness, HEI 6 cylinder with warning lights",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40039",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Kickdown Harness Chevrolet Truck 1971-72",
+        "zh": "变速箱降挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "43523",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable For Chevrolet Truck 1971 GMC Truck 1971",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04110H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness For HEI, 6 cyl., with factory gauges",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "43534",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable, positive, L6",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "43533",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable, negative, L6",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "43532",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable, positive, V6",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "43531",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable, positive, V8",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "43527",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable, negative, V8 for 396 c.i.",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "43526",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable, negative, V8 except 396 c.i.",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510358",
+      "aliases": [],
+      "description": {
+        "en": "1978-79 Ford Bronco Classic Update: Power Tailgate Harness Add-On Kit",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "510359",
+      "aliases": [],
+      "description": {
+        "en": "1973-79 Ford Truck Classic Update: Dual Fuel Tank Harness Add-On Kit",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "42952",
+      "aliases": [],
+      "description": {
+        "en": "Dual Horn Jumper",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "42950",
+      "aliases": [],
+      "description": {
+        "en": "Dual Battery Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "19935",
+      "aliases": [],
+      "description": {
+        "en": "Cigarette Lighter Wire",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38166",
+      "aliases": [],
+      "description": {
+        "en": "Rear Body Light Harness Kit",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38066",
+      "aliases": [],
+      "description": {
+        "en": "Wiper Washer Pump Motor Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37444",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness Ignition Switch Adapter Harness",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37633",
+      "aliases": [],
+      "description": {
+        "en": "A/C Compressor Ground Wire",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37635",
+      "aliases": [],
+      "description": {
+        "en": "A/C Power Feed Wire",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30352",
+      "aliases": [],
+      "description": {
+        "en": "GM Pickup Socket Pigtail Kit (Dual Square Headlights) (80-87)",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30351",
+      "aliases": [],
+      "description": {
+        "en": "GM Pickup Socket Pigtail Kit (Single Square Headlights) (80-87)",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30350",
+      "aliases": [],
+      "description": {
+        "en": "GM Pickup Socket Pigtail Kit (Single Round Headlights) (73-80)",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "20205",
+      "aliases": [],
+      "description": {
+        "en": "27 Circuit Classic-Plus Customizable 1973-1987 GM Truck Chassis Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "10206",
+      "aliases": [],
+      "description": {
+        "en": "28 Circuit Classic-Plus Customizable 1967-72 GM / Pickup Truck Chassis Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "10204",
+      "aliases": [],
+      "description": {
+        "en": "28 Circuit Classic-Plus Customizable Pickup Chassis Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "10117",
+      "aliases": [],
+      "description": {
+        "en": "21 Circuit Direct Fit 1967-77 F-Series Ford Truck Harness w/o Switches",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "10112",
+      "aliases": [],
+      "description": {
+        "en": "19 Circuit Classic Customizable 1963-66 GM / Chevy Pickup Truck Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "10104",
+      "aliases": [],
+      "description": {
+        "en": "21 Circuit Classic Customizable Pickup Chassis Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39861",
+      "aliases": [],
+      "description": {
+        "en": "Power Tailgate Window Intermediate Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "41592",
+      "aliases": [],
+      "description": {
+        "en": "Dome Lamp Extension Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39955",
+      "aliases": [],
+      "description": {
+        "en": "Radio Speaker Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40015",
+      "aliases": [],
+      "description": {
+        "en": "Power Window And Door Lock Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39718",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40016",
+      "aliases": [],
+      "description": {
+        "en": "Power Tailgate Intermediate Window Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39976",
+      "aliases": [],
+      "description": {
+        "en": "Power Window Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39943",
+      "aliases": [],
+      "description": {
+        "en": "Cruise Control Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40004",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Torque Converter Clutch Solenoid Extension Wire",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39937",
+      "aliases": [],
+      "description": {
+        "en": "Air Conditioning Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39978",
+      "aliases": [],
+      "description": {
+        "en": "Air Conditioning Compressor Extension Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39898",
+      "aliases": [],
+      "description": {
+        "en": "Rear Body Light Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39947",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Switch Extension Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39987",
+      "aliases": [],
+      "description": {
+        "en": "Rear Body Intermediate Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39981",
+      "aliases": [],
+      "description": {
+        "en": "4 Wheel Drive Indicator Light Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39982",
+      "aliases": [],
+      "description": {
+        "en": "4 Wheel Drive Indicator Light Extension",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39949",
+      "aliases": [],
+      "description": {
+        "en": "Power Door Lock Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39926",
+      "aliases": [],
+      "description": {
+        "en": "4 Wheel Drive Indicator Light And Trans Clutch Control Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39921",
+      "aliases": [],
+      "description": {
+        "en": "Power Tailgate Window Intermediate Body Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39872",
+      "aliases": [],
+      "description": {
+        "en": "License Lamp Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "19970",
+      "aliases": [],
+      "description": {
+        "en": "Heater Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39731",
+      "aliases": [],
+      "description": {
+        "en": "Air Conditioning Extension Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39833",
+      "aliases": [],
+      "description": {
+        "en": "Power Tailgate Window Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39856",
+      "aliases": [],
+      "description": {
+        "en": "Clock Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39862",
+      "aliases": [],
+      "description": {
+        "en": "Brake Warning Switch Jumper",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39804",
+      "aliases": [],
+      "description": {
+        "en": "Rear Cargo Lamp Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39775",
+      "aliases": [],
+      "description": {
+        "en": "Dome Lamp Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39706",
+      "aliases": [],
+      "description": {
+        "en": "Horn Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "20915",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Kickdown Harness",
+        "zh": "变速箱降挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39747",
+      "aliases": [],
+      "description": {
+        "en": "Rear Body Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39770",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Switch Extension",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22055",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Controlled Spark Switch Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "32750",
+      "aliases": [],
+      "description": {
+        "en": "Dome Light Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "1012-000",
+      "aliases": [],
+      "description": {
+        "en": "Spark Plug Wire Set",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "21125",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23570",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Wire",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "13597",
+      "aliases": [],
+      "description": {
+        "en": "Steering Column Adapter Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "35045",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "34430",
+      "aliases": [],
+      "description": {
+        "en": "Turn Signal Harness",
+        "zh": "转向灯连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "33910",
+      "aliases": [],
+      "description": {
+        "en": "Dash Harness",
+        "zh": "仪表台线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "30370",
+      "aliases": [],
+      "description": {
+        "en": "Alternator Conversion Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "30315",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE55001",
+      "aliases": [],
+      "description": {
+        "en": "Headlight Connection Harness",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38070",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Hood Light Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "02280",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Overdrive Harness",
+        "zh": "变速箱超速挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "20670",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04720",
+      "aliases": [],
+      "description": {
+        "en": "Headlight Harness",
+        "zh": "前照灯连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "02990",
+      "aliases": [],
+      "description": {
+        "en": "Front Light And Generator Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "02995",
+      "aliases": [],
+      "description": {
+        "en": "Dash Instrument Cluster Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39714",
+      "aliases": [],
+      "description": {
+        "en": "Dome Lamp And Door Jamb Switch Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39360",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Kickdown Extension Harness",
+        "zh": "变速箱降挡线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22535PI",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Harness - Altpi",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22535DI",
+      "aliases": [],
+      "description": {
+        "en": "Front Light Harness - Altdi",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "30830H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness - Hei",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38241",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Wire Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36113",
+      "aliases": [],
+      "description": {
+        "en": "Wiper Washer Motor Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "42290",
+      "aliases": [],
+      "description": {
+        "en": "REAR BODY LIGHT HARNESS",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39859",
+      "aliases": [],
+      "description": {
+        "en": "AIR CONDITIONING HARNESS",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39707",
+      "aliases": [],
+      "description": {
+        "en": "Heater Control Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "43522",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable For Chevrolet Truck 1971 GMC Truck 1971",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "43528",
+      "aliases": [],
+      "description": {
+        "en": "Battery Cable, positive, V8",
+        "zh": "电瓶连接线"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38164",
+      "aliases": [],
+      "description": {
+        "en": "Rear Body Light Harness Kit",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37634",
+      "aliases": [],
+      "description": {
+        "en": "A/C Power Feed Wire",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39346",
+      "aliases": [],
+      "description": {
+        "en": "Dome Lamp Extension Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39954",
+      "aliases": [],
+      "description": {
+        "en": "Radio Speaker Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39964",
+      "aliases": [],
+      "description": {
+        "en": "Power Window And Door Lock Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39357",
+      "aliases": [],
+      "description": {
+        "en": "Fuel Tank Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39974",
+      "aliases": [],
+      "description": {
+        "en": "Power Window Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39925",
+      "aliases": [],
+      "description": {
+        "en": "Cruise Control Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40001",
+      "aliases": [],
+      "description": {
+        "en": "Transmission Torque Converter Clutch Solenoid Extension Wire",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39936",
+      "aliases": [],
+      "description": {
+        "en": "Air Conditioning Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39967",
+      "aliases": [],
+      "description": {
+        "en": "Air Conditioning Compressor Extension Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "34370",
+      "aliases": [],
+      "description": {
+        "en": "Rear Body Light Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37537",
+      "aliases": [],
+      "description": {
+        "en": "Backup Light Switch Extension Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39986",
+      "aliases": [],
+      "description": {
+        "en": "Rear Body Intermediate Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39816",
+      "aliases": [],
+      "description": {
+        "en": "4 Wheel Drive Indicator Light Harness",
+        "zh": "卡车配套线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39980",
+      "aliases": [],
+      "description": {
+        "en": "4 Wheel Drive Indicator Light Extension",
+        "zh": "卡车配套线束"
+      }
+    }
+  ],
+  "materials": [],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Truck Harness",
+    "zh": "卡车线束"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "narrow_published_range",
+    "reason": {
+      "en": "Application-specific references are shown at their audited counts. Materials require their own category evidence and are not assumed to be the BOM of every listed assembly.",
+      "zh": "应用专用编号按核验的实际数量展示；材料须有独立类别依据，不将其视为每件成品的通用 BOM。"
+    },
+    "audit_id": "automotive-validated/automotive-04.json",
+    "verified_counts": {
+      "products": 220,
+      "materials": 0
+    }
+  }
+}

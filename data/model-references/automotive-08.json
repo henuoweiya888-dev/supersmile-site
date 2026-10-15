@@ -1,0 +1,2165 @@
+{
+  "version": 2,
+  "category_id": "automotive-08",
+  "route": "/products/engine-harness",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Manufacturer-identified finished assemblies for this application.",
+        "zh": "此应用范围内经原厂资料核验的成品组件。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Category-specific material references; the final BOM follows the approved configuration.",
+        "zh": "此类选型的材料参考；最终 BOM 以确认配置为准。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Selection & Project Review",
+    "zh": "选型与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Application Boundary",
+        "zh": "应用边界"
+      },
+      "copy": {
+        "en": "An engine harness is a coordinated power, signal, communication and mechanical routing system, not a bundle copied from connector appearance. Engine family, controller, sensor and actuator set, firing order, transmission, emissions equipment, system voltage, thermal map, vibration, fluids, service route and vehicle interface determine the released design.",
+        "zh": "发动机线束是一套协调供电、信号、通信与机械走线的系统，不能依据连接器外观简单复制。发动机家族、控制器、传感器与执行器组合、点火顺序、变速箱、排放设备、系统电压、热分布、振动、油液、维修路径和整车接口共同决定放行设计。"
+      }
+    },
+    {
+      "title": {
+        "en": "Project Inputs",
+        "zh": "项目输入"
+      },
+      "copy": {
+        "en": "Provide engine and vehicle or equipment identity; controller and calibration family; system voltage; connector and mating-part data; pin and circuit tables; sensor, injector, ignition, valve, motor and heater loads; CAN, LIN or other communication details; grounding and shielding intent; on-engine and body-side breakpoints; route photographs and datums; heat, vibration, oil, fuel, coolant, water and abrasion exposure; drawings or sample; labels;",
+        "zh": "请提供发动机及车辆或设备身份、控制器与标定家族、系统电压、连接器及对插件资料、针脚与回路表、传感器、喷油器、点火、阀、电机与加热器负载、CAN、LIN 或其他通信信息、接地与屏蔽意图、发动机本体和车身侧断开点、走线照片与基准、热、振动、机油、燃油、冷却液、水与磨损暴露、图纸或样品、标签、数量及所需验证。"
+      }
+    },
+    {
+      "title": {
+        "en": "Release Records",
+        "zh": "放行依据"
+      },
+      "copy": {
+        "en": "Approved requirements become controlled drawings, pin and circuit tables, BOMs, cut lists, splice maps, branch datums, shielding and protection instructions, labels and test definitions. First articles are checked for mating, reach, clip position, engine installation, service access, electrical identity and agreed powered functions before repeat production.",
+        "zh": "批准需求会转化为受控图纸、针脚与回路表、物料表、裁线表、接续图、分支基准、屏蔽与防护工艺、标签及测试定义。重复生产前检查首件的对插、可达、卡扣位置、发动机装配、维修空间、电气身份与约定上电功能；线束版本持续关联发动机、控制器、车辆配置、工装和检验记录。"
+      }
+    },
+    {
+      "title": {
+        "en": "Interface Review",
+        "zh": "接口审核"
+      },
+      "copy": {
+        "en": "Confirm the exact mating interface, pin map, dimensions and installation orientation.",
+        "zh": "确认准确对插接口、针脚对应、尺寸及安装方向。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sample Acceptance",
+        "zh": "样品验收"
+      },
+      "copy": {
+        "en": "Agree the sample configuration and electrical, mechanical or environmental checks required by the project.",
+        "zh": "约定样品配置以及项目所需的电气、机械或环境检查。"
+      }
+    },
+    {
+      "title": {
+        "en": "Change Control",
+        "zh": "变更控制"
+      },
+      "copy": {
+        "en": "Record changes to materials, drawings and process instructions before repeat manufacture.",
+        "zh": "重复制造前记录材料、图纸与工艺说明的变更。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=automotive-08&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "American Autowire",
+      "identifier": "510824",
+      "aliases": [],
+      "description": {
+        "en": "Duraspark Ignition Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "FB85567H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness - Hei",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "2326-000",
+      "aliases": [],
+      "description": {
+        "en": "Spark Plug Wire Set",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "35941",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36228",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36053",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Amplifier Extension",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36002",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Harness Note",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36003",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Extension Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36057",
+      "aliases": [],
+      "description": {
+        "en": "Coil Wire",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "31560",
+      "aliases": [],
+      "description": {
+        "en": "Alternator Conversion Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "30515",
+      "aliases": [],
+      "description": {
+        "en": "Coil To Distributor Lead Wire",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE73425",
+      "aliases": [],
+      "description": {
+        "en": "Engine Ignition Harness - Hei",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22300",
+      "aliases": [],
+      "description": {
+        "en": "Starter Extension",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "32810",
+      "aliases": [],
+      "description": {
+        "en": "Starter Solenoid Extension Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27070",
+      "aliases": [],
+      "description": {
+        "en": "Starter Solenoid Extension Wire",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01415",
+      "aliases": [],
+      "description": {
+        "en": "Engine And Front Light Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27560",
+      "aliases": [],
+      "description": {
+        "en": "Ground Cable-Starter To Frame",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE66983",
+      "aliases": [],
+      "description": {
+        "en": "Engine Ignition Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "02675",
+      "aliases": [],
+      "description": {
+        "en": "Dash And Engine Compartment Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27515",
+      "aliases": [],
+      "description": {
+        "en": "Starter Solenoid Jumper Wire",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "11375",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Jumper Wire",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29010",
+      "aliases": [],
+      "description": {
+        "en": "Starter Extension Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "26750",
+      "aliases": [],
+      "description": {
+        "en": "Starter Motor Jumper Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "28630",
+      "aliases": [],
+      "description": {
+        "en": "Alternator To Regulator Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA91973",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Extension Wire",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH58987",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Amplifier Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04025",
+      "aliases": [],
+      "description": {
+        "en": "Front Light And Alternator Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "05660",
+      "aliases": [],
+      "description": {
+        "en": "Starter Wire",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA97793",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Coil Ground Wire",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37485H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness - HEI",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "02115",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Voltage Regulator Adapter Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA21951",
+      "aliases": [],
+      "description": {
+        "en": "(Impala Harness Only) Engine Harness",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "FB95974",
+      "aliases": [],
+      "description": {
+        "en": "Tachometer To Coil Wire",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CF40135",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness Starter Motor Jumper",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "NV28025H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness- HEI",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "NV11956H",
+      "aliases": [],
+      "description": {
+        "en": "ENGINE HARNESS",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "2371-999",
+      "aliases": [],
+      "description": {
+        "en": "Spark Plug Wire Set (V8, 400ci)",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "FB73022",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness Oil Pressure Jumper",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "20650H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness, HEI 6 cylinder with warning lights",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40613",
+      "aliases": [],
+      "description": {
+        "en": "ENGINE HARNESS V8 Pontiac",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04110H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness For HEI, 6 cyl., with factory gauges",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38271",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness V8",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500540",
+      "aliases": [],
+      "description": {
+        "en": "Alternator Plug- CS130D, With Lead Wire",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500539",
+      "aliases": [],
+      "description": {
+        "en": "Alternator Plug- CS130, With Lead Wire",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37918",
+      "aliases": [],
+      "description": {
+        "en": "Alternator Relocation Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "60250",
+      "aliases": [],
+      "description": {
+        "en": "2003-2005 Cummins Diesel Engine Harness 5.9L – Manual Transmission Only",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "60141",
+      "aliases": [],
+      "description": {
+        "en": "LS (Non-LS1) Style Ignition Coil Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "60140",
+      "aliases": [],
+      "description": {
+        "en": "LS1 Style Ignition Coil Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "60129",
+      "aliases": [],
+      "description": {
+        "en": "LS Engine 48 inch Coil Extension Harness Kit",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "60128",
+      "aliases": [],
+      "description": {
+        "en": "LS Engine 36 inch Coil Extension Harness Kit",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "60127",
+      "aliases": [],
+      "description": {
+        "en": "LS Engine 24 inch Coil Extension Harness Kit",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "60125",
+      "aliases": [],
+      "description": {
+        "en": "GM TBI TPI LT1 Coil Power & Tachometer Pigtail",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "60124",
+      "aliases": [],
+      "description": {
+        "en": "GM Coil to Distributor Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30831",
+      "aliases": [],
+      "description": {
+        "en": "Ford 3G Alternator Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30830",
+      "aliases": [],
+      "description": {
+        "en": "C.S.I.(Charge, Start, Ignition) Engine Harness",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30812",
+      "aliases": [],
+      "description": {
+        "en": "DuraSpark II Ignition Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30709",
+      "aliases": [],
+      "description": {
+        "en": "Alternator Wire w/boot – Up to 100 Amps",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30706",
+      "aliases": [],
+      "description": {
+        "en": "Delcotron 10SI/12SI Alternator Pigtail",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30705",
+      "aliases": [],
+      "description": {
+        "en": "CS 130D Style GM Alternator Pigtail",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "FB85565H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness - Hei",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "2320-000",
+      "aliases": [],
+      "description": {
+        "en": "Spark Plug Wire Set",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36838",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36250",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "33225",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Amplifier Extension",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "02085",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Extension Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01100",
+      "aliases": [],
+      "description": {
+        "en": "Coil Wire",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "30370",
+      "aliases": [],
+      "description": {
+        "en": "Alternator Conversion Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "30510",
+      "aliases": [],
+      "description": {
+        "en": "Coil To Distributor Lead Wire",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE73424",
+      "aliases": [],
+      "description": {
+        "en": "Engine Ignition Harness - Hei",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "28095",
+      "aliases": [],
+      "description": {
+        "en": "Starter Solenoid Extension Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "02075",
+      "aliases": [],
+      "description": {
+        "en": "Starter Solenoid Extension Wire",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "01410",
+      "aliases": [],
+      "description": {
+        "en": "Engine And Front Light Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "11995",
+      "aliases": [],
+      "description": {
+        "en": "Ground Cable-Starter To Frame",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE66984",
+      "aliases": [],
+      "description": {
+        "en": "Engine Ignition Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "02420",
+      "aliases": [],
+      "description": {
+        "en": "Dash And Engine Compartment Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "28310",
+      "aliases": [],
+      "description": {
+        "en": "Alternator To Regulator Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA97792",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Extension Wire",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA97688",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Amplifier Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04925",
+      "aliases": [],
+      "description": {
+        "en": "Starter Wire",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37482H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness - HEI",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "NV28027H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness- HEI",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "NV11954H",
+      "aliases": [],
+      "description": {
+        "en": "ENGINE HARNESS",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "FB71867H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness - Hei",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "2324-000",
+      "aliases": [],
+      "description": {
+        "en": "Spark Plug Wire Set",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36837",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36256",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH47102",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Extension Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE54438",
+      "aliases": [],
+      "description": {
+        "en": "Coil Wire",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "30360",
+      "aliases": [],
+      "description": {
+        "en": "Alternator Conversion Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "42803",
+      "aliases": [],
+      "description": {
+        "en": "Coil To Distributor Lead Wire",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE63423",
+      "aliases": [],
+      "description": {
+        "en": "Engine Ignition Harness - Hei",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "28275",
+      "aliases": [],
+      "description": {
+        "en": "Starter Solenoid Extension Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE78409",
+      "aliases": [],
+      "description": {
+        "en": "Engine Ignition Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "02265",
+      "aliases": [],
+      "description": {
+        "en": "Dash And Engine Compartment Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CF48218",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Amplifier Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA85189H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness - HEI",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA21951H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness- HEI",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "FB71813H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness - Hei",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "2322-000",
+      "aliases": [],
+      "description": {
+        "en": "Spark Plug Wire Set",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "35887",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36227",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH58986",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Extension Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36056",
+      "aliases": [],
+      "description": {
+        "en": "Coil Wire",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "30320",
+      "aliases": [],
+      "description": {
+        "en": "Alternator Conversion Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE63422",
+      "aliases": [],
+      "description": {
+        "en": "Engine Ignition Harness - Hei",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27120",
+      "aliases": [],
+      "description": {
+        "en": "Starter Solenoid Extension Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE78248",
+      "aliases": [],
+      "description": {
+        "en": "Engine Ignition Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "02210",
+      "aliases": [],
+      "description": {
+        "en": "Dash And Engine Compartment Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH69488",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Amplifier Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA85217H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness - HEI",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38295H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness- HEI",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA71985H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness - Hei",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "2318-000",
+      "aliases": [],
+      "description": {
+        "en": "Spark Plug Wire Set",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "02110",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36014",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH67885",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Extension Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37827",
+      "aliases": [],
+      "description": {
+        "en": "Coil Wire",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "30380",
+      "aliases": [],
+      "description": {
+        "en": "Alternator Conversion Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE53421",
+      "aliases": [],
+      "description": {
+        "en": "Engine Ignition Harness - Hei",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27095",
+      "aliases": [],
+      "description": {
+        "en": "Starter Solenoid Extension Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE78247",
+      "aliases": [],
+      "description": {
+        "en": "Engine Ignition Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "03465",
+      "aliases": [],
+      "description": {
+        "en": "Dash And Engine Compartment Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "NV69371",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Amplifier Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38294H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness- HEI",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CG59096H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness - Hei",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "2316-000",
+      "aliases": [],
+      "description": {
+        "en": "Spark Plug Wire Set",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "11870",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "35885",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "28380",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Extension Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37830",
+      "aliases": [],
+      "description": {
+        "en": "Coil Wire",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE57004",
+      "aliases": [],
+      "description": {
+        "en": "Alternator Conversion Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE53420",
+      "aliases": [],
+      "description": {
+        "en": "Engine Ignition Harness - Hei",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27655",
+      "aliases": [],
+      "description": {
+        "en": "Starter Solenoid Extension Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE78410",
+      "aliases": [],
+      "description": {
+        "en": "Engine Ignition Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "03460",
+      "aliases": [],
+      "description": {
+        "en": "Dash And Engine Compartment Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CF46911",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Amplifier Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH28065H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness- HEI",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CF40205H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness - Hei",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "2347-671",
+      "aliases": [],
+      "description": {
+        "en": "Spark Plug Wire Set",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "02100",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "35884",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "NV67903",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Extension Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE57005",
+      "aliases": [],
+      "description": {
+        "en": "Alternator Conversion Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27650",
+      "aliases": [],
+      "description": {
+        "en": "Starter Solenoid Extension Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE78249",
+      "aliases": [],
+      "description": {
+        "en": "Engine Ignition Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH28062H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness- HEI",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CF40170H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness - Hei",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "2347-663",
+      "aliases": [],
+      "description": {
+        "en": "Spark Plug Wire Set",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "02095",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "35883",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CG58219",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Extension Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE56004",
+      "aliases": [],
+      "description": {
+        "en": "Alternator Conversion Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE78201",
+      "aliases": [],
+      "description": {
+        "en": "Engine Ignition Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH28130H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness- HEI",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH97533H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness - Hei",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "2346-661",
+      "aliases": [],
+      "description": {
+        "en": "Spark Plug Wire Set",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "02090",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "31520",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CG67841",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Extension Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE56005",
+      "aliases": [],
+      "description": {
+        "en": "Alternator Conversion Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE78246",
+      "aliases": [],
+      "description": {
+        "en": "Engine Ignition Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH28128H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness- HEI",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "20795H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness - Hei",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "2346-653",
+      "aliases": [],
+      "description": {
+        "en": "Spark Plug Wire Set",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "28375",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "30315",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH67884",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Extension Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE55004",
+      "aliases": [],
+      "description": {
+        "en": "Alternator Conversion Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE78200",
+      "aliases": [],
+      "description": {
+        "en": "Engine Ignition Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH28127H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness- HEI",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "NV71973H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness - Hei",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "2346-651",
+      "aliases": [],
+      "description": {
+        "en": "Spark Plug Wire Set",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27260",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "30310",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CF46913",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Extension Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE55005",
+      "aliases": [],
+      "description": {
+        "en": "Alternator Conversion Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE64599",
+      "aliases": [],
+      "description": {
+        "en": "Engine Ignition Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH28129H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness- HEI",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH11736H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness - Hei",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "2346-643",
+      "aliases": [],
+      "description": {
+        "en": "Spark Plug Wire Set",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "26855",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "30295",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CF47103",
+      "aliases": [],
+      "description": {
+        "en": "Transistor Ignition Extension Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE64166",
+      "aliases": [],
+      "description": {
+        "en": "Engine Ignition Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA28003H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness- HEI",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "30830H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness - Hei",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "2342-641",
+      "aliases": [],
+      "description": {
+        "en": "Spark Plug Wire Set",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "30290",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE64600",
+      "aliases": [],
+      "description": {
+        "en": "Engine Ignition Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA28006H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness- HEI",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH01494H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness - Hei",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "2342-633",
+      "aliases": [],
+      "description": {
+        "en": "Spark Plug Wire Set",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "30140",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE64073",
+      "aliases": [],
+      "description": {
+        "en": "Engine Ignition Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA28007H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness- HEI",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CF40185H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness - Hei",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "2338-631",
+      "aliases": [],
+      "description": {
+        "en": "Spark Plug Wire Set",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "30135",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE64325",
+      "aliases": [],
+      "description": {
+        "en": "Engine Ignition Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA28005H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness- HEI",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "31520H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness - Hei",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "2338-623",
+      "aliases": [],
+      "description": {
+        "en": "Spark Plug Wire Set",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "PL42155",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE64326",
+      "aliases": [],
+      "description": {
+        "en": "Engine Ignition Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA28008H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness- HEI",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37463H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness - Hei",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "2334-621",
+      "aliases": [],
+      "description": {
+        "en": "Spark Plug Wire Set",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "PL42165",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE58245",
+      "aliases": [],
+      "description": {
+        "en": "Engine Ignition Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA28004H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness- HEI",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37462H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness - Hei",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "2334-613",
+      "aliases": [],
+      "description": {
+        "en": "Spark Plug Wire Set",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "PL40955",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE50937",
+      "aliases": [],
+      "description": {
+        "en": "Engine Ignition Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA28009H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness- HEI",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37461H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness - Hei",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "2334-611",
+      "aliases": [],
+      "description": {
+        "en": "Spark Plug Wire Set",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "PL40635",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness",
+        "zh": "发动机线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE58244",
+      "aliases": [],
+      "description": {
+        "en": "Engine Ignition Harness",
+        "zh": "发动机连接线束"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37460H",
+      "aliases": [],
+      "description": {
+        "en": "Engine Harness - Hei",
+        "zh": "发动机线束"
+      }
+    }
+  ],
+  "materials": [],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Engine Harness",
+    "zh": "发动机线束"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "narrow_published_range",
+    "reason": {
+      "en": "Application-specific references are shown at their audited counts. Materials require their own category evidence and are not assumed to be the BOM of every listed assembly.",
+      "zh": "应用专用编号按核验的实际数量展示；材料须有独立类别依据，不将其视为每件成品的通用 BOM。"
+    },
+    "audit_id": "automotive-validated/automotive-08.json",
+    "verified_counts": {
+      "products": 220,
+      "materials": 0
+    }
+  }
+}

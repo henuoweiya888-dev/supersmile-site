@@ -1,18 +1,17 @@
 (function (scope) {
   'use strict';
 
-  const pilot = {
-    key: 'custom-harness-01',
-    title: { en: 'Industrial Equipment Harness', zh: '工业设备线束' }
-  };
+  // Old bookmarks did not carry both category names; new links are data-driven.
+  const legacyCategoryNames = { 'custom-harness-01': { en: 'Industrial Equipment Harness', zh: '工业设备线束' } };
   const languageOf = value => /^zh(?:-|$)/i.test(value || '') ? 'zh' : 'en';
   const partNumberOf = value => String(value || '').trim().slice(0, 500);
   const historyKey = '__ssCategoryInquiry_v1';
 
-  function buildInquiryUrl({ category = '', categoryName = '', route = '', lang = 'en', usePart = false, partNumber = '' }) {
+  function buildInquiryUrl({ category = '', categoryName = '', categoryNames = {}, route = '', lang = 'en', usePart = false, partNumber = '' }) {
     const query = new URLSearchParams();
     if (category) query.set('category', category);
     if (categoryName) query.set('category_name', categoryName);
+    for (const language of ['en', 'zh']) if (categoryNames[language]) query.set(`category_name_${language}`, String(categoryNames[language]).slice(0, 160));
     if (route) query.set('source_page', route);
     query.set('lang', languageOf(lang));
     const part = usePart ? partNumberOf(partNumber) : '';
@@ -22,14 +21,12 @@
 
   function contactPrefill(query, lang) {
     const part = partNumberOf(query.get('part_number'));
-    if (!part) return '';
+    if (!part && !query.get('category_name_en') && !query.get('category_name_zh')) return '';
     const language = languageOf(lang);
-    const category = query.get('category') === pilot.key
-      ? pilot.title[language]
-      : (query.get('category_name') || query.get('category') || (language === 'zh' ? '定制与采购需求' : 'Custom Manufacturing & Sourcing'));
+    const category = query.get(`category_name_${language}`) || legacyCategoryNames[query.get('category')]?.[language] || query.get('category_name') || query.get('category') || (language === 'zh' ? '定制与采购需求' : 'Custom Manufacturing & Sourcing');
     return language === 'zh'
-      ? `咨询产品类别：${category}\n型号 / 料号：${part}`
-      : `Product category inquiry: ${category}\nModel / part number: ${part}`;
+      ? `咨询产品类别：${category}${part ? `\n型号 / 料号：${part}` : ''}`
+      : `Product category inquiry: ${category}${part ? `\nModel / part number: ${part}` : ''}`;
   }
 
   let initialized = false;
@@ -45,7 +42,7 @@
     const field = section?.querySelector('#ci-part-field');
     const input = section?.querySelector('#ci-part-number');
     const message = document.getElementById('cf-msg');
-    const canPrefill = Boolean(message && partNumberOf(query.get('part_number')));
+    const canPrefill = Boolean(message && (partNumberOf(query.get('part_number')) || query.get('category_name_en') || query.get('category_name_zh')));
     let preserveDraft = Boolean(canPrefill && message.value);
     let edited = false;
     let automaticMessage = null;
@@ -118,11 +115,17 @@
       input.addEventListener('input', () => { inquiryEdited = true; });
       form.addEventListener('submit', event => {
         event.preventDefault();
-        const categoryName = form.querySelector('#ci-category-name')?.value || (form.dataset.category === pilot.key ? pilot.title[language] : '');
+        const nameField = form.querySelector('#ci-category-name');
+        const categoryNames = {
+          en: nameField?.getAttribute('data-ci-en') || legacyCategoryNames[form.dataset.category]?.en || '',
+          zh: nameField?.getAttribute('data-ci-zh') || legacyCategoryNames[form.dataset.category]?.zh || ''
+        };
+        const categoryName = nameField?.value || categoryNames[language];
         saveInquiry();
         scope.location.assign(buildInquiryUrl({
           category: form.dataset.category,
           categoryName,
+          categoryNames,
           route: form.dataset.route,
           lang: language,
           usePart: choice.checked,

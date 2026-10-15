@@ -1,0 +1,2351 @@
+{
+  "version": 2,
+  "category_id": "wire-cable-14",
+  "route": "/products/outdoor-cable",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Manufacturer-identified finished assemblies for this application.",
+        "zh": "此应用范围内经原厂资料核验的成品组件。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Category-specific material references; the final BOM follows the approved configuration.",
+        "zh": "此类选型的材料参考；最终 BOM 以确认配置为准。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Selection & Project Review",
+    "zh": "选型与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Application Boundary",
+        "zh": "应用边界"
+      },
+      "copy": {
+        "en": "A black jacket alone does not prove outdoor suitability; cable, interfaces and supports form one exposed system.",
+        "zh": "黑色护套不能单独证明户外适用性，线缆、接口与支撑构成完整暴露系统。"
+      }
+    },
+    {
+      "title": {
+        "en": "Project Inputs",
+        "zh": "项目输入"
+      },
+      "copy": {
+        "en": "Provide route, exposure, circuits, environment, connectors, sealing and required evidence.",
+        "zh": "请提供路径、暴露、回路、环境、接口、密封与所需证据。"
+      }
+    },
+    {
+      "title": {
+        "en": "Release Records",
+        "zh": "放行依据"
+      },
+      "copy": {
+        "en": "Release records the exact construction, installation and agreed validation.",
+        "zh": "放行记录包含准确结构、安装与约定验证。"
+      }
+    },
+    {
+      "title": {
+        "en": "Interface Review",
+        "zh": "接口审核"
+      },
+      "copy": {
+        "en": "Confirm the exact mating interface, pin map, dimensions and installation orientation.",
+        "zh": "确认准确对插接口、针脚对应、尺寸及安装方向。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sample Acceptance",
+        "zh": "样品验收"
+      },
+      "copy": {
+        "en": "Agree the sample configuration and electrical, mechanical or environmental checks required by the project.",
+        "zh": "约定样品配置以及项目所需的电气、机械或环境检查。"
+      }
+    },
+    {
+      "title": {
+        "en": "Change Control",
+        "zh": "变更控制"
+      },
+      "copy": {
+        "en": "Record changes to materials, drawings and process instructions before repeat manufacture.",
+        "zh": "重复制造前记录材料、图纸与工艺说明的变更。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=wire-cable-14&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [],
+  "materials": [
+    {
+      "brand": "Avient",
+      "identifier": "5501 UV",
+      "aliases": [
+        "ECCOH 5501 UV"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "100017735",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.01.12",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "5555 UV",
+      "aliases": [
+        "ECCOH 5555 UV"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50511",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF11.01.04.02",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "5924 UV",
+      "aliases": [
+        "ECCOH 5924 UV"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50516",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF112.02.02.02",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50531",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF12.02.04.02",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50538",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF2.01.04",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50543",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF30-10-04",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50549",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF31.10.04",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50580",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF5.02.36",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50644",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF6.02.04",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50654",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF77.UL.02.03.INI",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50816",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF78.UL.05.04",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50864",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.02.02",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50909",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF98.01.03",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50941",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF99.01.02",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50957",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFBUS-LB-004",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50968",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFCRANE1X120/16",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50983",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFCRANE1X25/16",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51082",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFCRANE1X50/16",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51166",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFCRANE1X95/16",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51174",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT.035",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51210",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT7.07.03.02.02.C",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51212",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT8.001",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51265",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.01.18",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51284",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF11.01.18.02",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51318",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF112.02.03.02",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51330",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF12.05.03.02",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51348",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF2.01.08",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51460",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF30.100.04",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51463",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF31.100.04",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51489",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF5.03.15",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51563",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF6.02.25",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51624",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF77.UL.02.04.D",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51627",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF78.UL.05.05",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51641",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.02.03.INI",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51667",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF98.02.04",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51669",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF99.02.04",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51672",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFBUS-PVC-056",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51706",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFCRANE1X185/25",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51715",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFPE.100.01",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51717",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT.036",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52025",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT7.15.03.C",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52031",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT8.045",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52085",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.02.04",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52113",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF11.02.01.02",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52176",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF112.02.04.02",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52323",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF12.05.04.02",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52454",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF2.01.12",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52559",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF30.100.05",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "100017736",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF31.100.05",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50536",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF5.03.18",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50565",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF6.03.05",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50684",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF77.UL.02.05.D",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50935",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF78.UL.05.07",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50982",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.02.06",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51173",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF98.02.08",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51213",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF99.03.08",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51324",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFPE.15.01",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51462",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT.037",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51604",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT7.15.04.C",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51666",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT8.049",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51688",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.02.08",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51719",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF11.02.02.02",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52110",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF112.02.05.02",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52425",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF12.05.06.02",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50513",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF2.01.18",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50630",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF30.15.04",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50956",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF31.15.04",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51188",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF5.03.25",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51335",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF6.05.02",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51626",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF77.UL.02.07.D",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51714",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF78.UL.05.09",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52115",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.02.07",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50530",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF98.03.07",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50893",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT.038",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51282",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF112.05.02.02",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51628",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF12.05.08.02",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52081",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF2.01.24",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50548",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF30.160.04",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51211",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF31.160.04",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51671",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF5.05.02",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50539",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF6.05.05",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51376",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF77.UL.02.12.D",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52485",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF78.UL.05.12",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51294",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.02.08",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50650",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFBUS.001",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52026",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFCRANE1X35/16",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51668",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF11.02.03.02",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51716",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF112.05.04.02",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50817",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF12.05.10.02",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52322",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF2.01.36",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF50958",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF30.160.05",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51162",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF31.25.04",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51003",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF5.05.03",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51484",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF6.05.07",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF51494",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF77.UL.02.18.D",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "RF52594",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF78.UL.05.18",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.02.12",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFBUS.002",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFCRANE1X70/16",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF12.05.14.02",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF2.02.04",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF30.25.04",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF31.25.05",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF5.05.04",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF6.05.09",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF77.UL.02.25.D",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF78.UL.05.25",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.02.18",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFBUS.003",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFPE.160.01",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT7.15.15.02.02.C",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT8.052",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF5.05.05",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF6.05.12",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF77.UL.03.04.INI",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF78.UL.07.03",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.02.20",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFBUS.010",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFPE.25.01",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT7.25.03.C",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.02.12",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF11.02.04.02",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF112.05.06.02",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFBUS.011",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFPE.250.01",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT7.25.04.C",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.02.25",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF11.02.05.02",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF12.10.06.02",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT7.25.15.02.02.C",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.03.05.INI",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF11.02.06.02",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF2.02.08",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF30.25.05",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF31.250.04",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF5.05.07",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF6.05.18",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF77.UL.03.05.INI",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF78.UL.07.04",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.02.25",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFBUS.020",
+      "aliases": [],
+      "description": {
+        "en": "Outdoor cable material",
+        "zh": "户外电缆材料"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Outdoor Cable",
+    "zh": "户外电缆"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "material_scope",
+    "reason": {
+      "en": "Wire, bulk cable and polymer grades are materials. They are not counted as terminated cable assemblies.",
+      "zh": "电线、卷装电缆与胶料牌号属于材料，不计为已端接电缆组件。"
+    },
+    "audit_id": "wire-material-batches/wire-cable-14-materials-strict-ready.json",
+    "verified_counts": {
+      "products": 0,
+      "materials": 240
+    }
+  }
+}

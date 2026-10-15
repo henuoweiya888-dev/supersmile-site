@@ -1,0 +1,1334 @@
+{
+  "version": 2,
+  "category_id": "wire-cable-15",
+  "route": "/products/cross-linked-insulation-wire-and-cable",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Manufacturer-identified finished assemblies for this application.",
+        "zh": "此应用范围内经原厂资料核验的成品组件。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Category-specific material references; the final BOM follows the approved configuration.",
+        "zh": "此类选型的材料参考；最终 BOM 以确认配置为准。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Selection & Project Review",
+    "zh": "选型与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Application Boundary",
+        "zh": "应用边界"
+      },
+      "copy": {
+        "en": "XLPE is a material family, not a universal voltage, temperature, fire or outdoor rating.",
+        "zh": "XLPE 是材料家族，不是通用的电压、温度、阻燃或户外等级。"
+      }
+    },
+    {
+      "title": {
+        "en": "Project Inputs",
+        "zh": "项目输入"
+      },
+      "copy": {
+        "en": "Provide circuit, thermal duty, route, interfaces, cable part number and required evidence.",
+        "zh": "请提供回路、热工况、路径、接口、线缆料号与所需证据。"
+      }
+    },
+    {
+      "title": {
+        "en": "Release Records",
+        "zh": "放行依据"
+      },
+      "copy": {
+        "en": "Release records the exact insulation and cable construction, terminations and agreed checks.",
+        "zh": "放行记录包含准确的绝缘和线缆结构、端接与约定检验。"
+      }
+    },
+    {
+      "title": {
+        "en": "Interface Review",
+        "zh": "接口审核"
+      },
+      "copy": {
+        "en": "Confirm the exact mating interface, pin map, dimensions and installation orientation.",
+        "zh": "确认准确对插接口、针脚对应、尺寸及安装方向。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sample Acceptance",
+        "zh": "样品验收"
+      },
+      "copy": {
+        "en": "Agree the sample configuration and electrical, mechanical or environmental checks required by the project.",
+        "zh": "约定样品配置以及项目所需的电气、机械或环境检查。"
+      }
+    },
+    {
+      "title": {
+        "en": "Change Control",
+        "zh": "变更控制"
+      },
+      "copy": {
+        "en": "Record changes to materials, drawings and process instructions before repeat manufacture.",
+        "zh": "重复制造前记录材料、图纸与工艺说明的变更。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=wire-cable-15&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [],
+  "materials": [
+    {
+      "brand": "Avient",
+      "identifier": "XLS 8001",
+      "aliases": [
+        "ECCOH XLS 8001"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "Borealis",
+      "identifier": "LE4201R",
+      "aliases": [
+        "Borlink LE4201R"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01248",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "XLS CAT5",
+      "aliases": [
+        "ECCOH XLS CAT5"
+      ],
+      "description": {
+        "en": "Cable insulation / jacket compound",
+        "zh": "线缆绝缘/护套胶料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01251",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01252",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01253",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01254",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02142",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02143",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02144",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02145",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02146",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02147",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02148",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02149",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02150",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02151",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02152",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02153",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02154",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02155",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02156",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02157",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02158",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02159",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02160",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02161",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02162",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02163",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02164",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02165",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02166",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02167",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02168",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02169",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02170",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02171",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02172",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02173",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02174",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02175",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02176",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02177",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02178",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02179",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02180",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02181",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02182",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02183",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02184",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02185",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02186",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02187",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02188",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02189",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02190",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02191",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02192",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02193",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02194",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02195",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02196",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02197",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02198",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02199",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02200",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02201",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02202",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02203",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02204",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02205",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02206",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02207",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02208",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02209",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02210",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02211",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02212",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02213",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02214",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02215",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02216",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02217",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02218",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02219",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02220",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02221",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02222",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02223",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02224",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02225",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02226",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02227",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02228",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02229",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02230",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02231",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02847",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02848",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02849",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02850",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02851",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02852",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02853",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02854",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02855",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02856",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02857",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02858",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02859",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02860",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02861",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03572",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03573",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03574",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03691",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03692",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03693",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03694",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03695",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03781",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03782",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03783",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03784",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03785",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03786",
+      "aliases": [],
+      "description": {
+        "en": "Cross-linked insulation cable material",
+        "zh": "交联绝缘线缆材料"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Cross-Linked Insulation Wire & Cable",
+    "zh": "交联绝缘电线电缆"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "material_scope",
+    "reason": {
+      "en": "Wire, bulk cable and polymer grades are materials. They are not counted as terminated cable assemblies.",
+      "zh": "电线、卷装电缆与胶料牌号属于材料，不计为已端接电缆组件。"
+    },
+    "audit_id": "wire-material-batches/wire-cable-15-materials-strict-ready.json",
+    "verified_counts": {
+      "products": 0,
+      "materials": 127
+    }
+  }
+}

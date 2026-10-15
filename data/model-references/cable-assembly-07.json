@@ -1,0 +1,4493 @@
+{
+  "version": 2,
+  "category_id": "cable-assembly-07",
+  "route": "/products/power-cable-assembly",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "DC power leads and terminated power cable assemblies.",
+        "zh": "直流电源连接线及已端接电源电缆组件。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Power connectors, contacts and wire for assembly selection.",
+        "zh": "电源连接器、触点及组件选型用线材。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Six Decisions Behind the Part Number",
+    "zh": "型号背后的六个选型要点"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Interface & Polarity",
+        "zh": "接口与极性"
+      },
+      "copy": {
+        "en": "Check plug dimensions, keying, polarity and the mating inlet before selecting a reference.",
+        "zh": "选型前核对插头尺寸、防错结构、极性及对接插座。"
+      }
+    },
+    {
+      "title": {
+        "en": "Load & Conductor Size",
+        "zh": "负载与线径"
+      },
+      "copy": {
+        "en": "Specify continuous current, peak load and cable length before setting conductor size.",
+        "zh": "先确定持续电流、峰值负载与线长，再选择导体截面积。"
+      }
+    },
+    {
+      "title": {
+        "en": "Voltage & Insulation",
+        "zh": "电压与绝缘"
+      },
+      "copy": {
+        "en": "Review working voltage, insulation construction and the equipment installation conditions.",
+        "zh": "结合工作电压、绝缘结构与设备安装条件进行核对。"
+      }
+    },
+    {
+      "title": {
+        "en": "Strain Relief",
+        "zh": "应力释放"
+      },
+      "copy": {
+        "en": "Set cable exits, clamp points and pull-force requirements for the finished assembly.",
+        "zh": "确定成品的出线方向、固定位置与拉力要求。"
+      }
+    },
+    {
+      "title": {
+        "en": "Use Environment",
+        "zh": "使用环境"
+      },
+      "copy": {
+        "en": "Select jacket and sealing against the actual heat, oil, moisture and movement exposure.",
+        "zh": "按实际温度、油污、潮湿及运动工况选择护套与密封。"
+      }
+    },
+    {
+      "title": {
+        "en": "Electrical Acceptance",
+        "zh": "电气验收"
+      },
+      "copy": {
+        "en": "Agree polarity, continuity and applicable insulation tests. Confirm project-specific safety requirements.",
+        "zh": "约定极性、导通及适用的绝缘测试，并确认项目安全要求。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=cable-assembly-07&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "Tensility",
+      "identifier": "10-02406",
+      "aliases": [],
+      "description": {
+        "en": "SAE power cable assembly",
+        "zh": "SAE电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "053-0487R (CA-2222)",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02402",
+      "aliases": [],
+      "description": {
+        "en": "DC → SAE power cable assembly",
+        "zh": "DC → SAE电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01597",
+      "aliases": [],
+      "description": {
+        "en": "DC → ALLIGATOR CLIPS power cable assembly",
+        "zh": "DC → ALLIGATOR CLIPS电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03576",
+      "aliases": [],
+      "description": {
+        "en": "DC → CAR ADAPTER power cable assembly",
+        "zh": "DC → CAR ADAPTER电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03636",
+      "aliases": [],
+      "description": {
+        "en": "DC → FERRULE power cable assembly",
+        "zh": "DC → FERRULE电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00240",
+      "aliases": [],
+      "description": {
+        "en": "DC → USB power cable assembly",
+        "zh": "DC → USB电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02407",
+      "aliases": [],
+      "description": {
+        "en": "SAE power cable assembly",
+        "zh": "SAE电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00109",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02403",
+      "aliases": [],
+      "description": {
+        "en": "DC → SAE power cable assembly",
+        "zh": "DC → SAE电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02414",
+      "aliases": [],
+      "description": {
+        "en": "DC → ALLIGATOR CLIPS power cable assembly",
+        "zh": "DC → ALLIGATOR CLIPS电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03577",
+      "aliases": [],
+      "description": {
+        "en": "DC → CAR ADAPTER power cable assembly",
+        "zh": "DC → CAR ADAPTER电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03637",
+      "aliases": [],
+      "description": {
+        "en": "DC → FERRULE power cable assembly",
+        "zh": "DC → FERRULE电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00241",
+      "aliases": [],
+      "description": {
+        "en": "DC → USB power cable assembly",
+        "zh": "DC → USB电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02408",
+      "aliases": [],
+      "description": {
+        "en": "SAE power cable assembly",
+        "zh": "SAE电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00110",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02453",
+      "aliases": [],
+      "description": {
+        "en": "DC → ALLIGATOR CLIPS power cable assembly",
+        "zh": "DC → ALLIGATOR CLIPS电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03638",
+      "aliases": [],
+      "description": {
+        "en": "DC → FERRULE power cable assembly",
+        "zh": "DC → FERRULE电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00242",
+      "aliases": [],
+      "description": {
+        "en": "DC → USB power cable assembly",
+        "zh": "DC → USB电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02409",
+      "aliases": [],
+      "description": {
+        "en": "SAE power cable assembly",
+        "zh": "SAE电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00111",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02454",
+      "aliases": [],
+      "description": {
+        "en": "DC → ALLIGATOR CLIPS power cable assembly",
+        "zh": "DC → ALLIGATOR CLIPS电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03639",
+      "aliases": [],
+      "description": {
+        "en": "DC → FERRULE power cable assembly",
+        "zh": "DC → FERRULE电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00243",
+      "aliases": [],
+      "description": {
+        "en": "DC → USB power cable assembly",
+        "zh": "DC → USB电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02410",
+      "aliases": [],
+      "description": {
+        "en": "SAE power cable assembly",
+        "zh": "SAE电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00112",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02455",
+      "aliases": [],
+      "description": {
+        "en": "DC → ALLIGATOR CLIPS power cable assembly",
+        "zh": "DC → ALLIGATOR CLIPS电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03640",
+      "aliases": [],
+      "description": {
+        "en": "DC → FERRULE power cable assembly",
+        "zh": "DC → FERRULE电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00244",
+      "aliases": [],
+      "description": {
+        "en": "DC → USB power cable assembly",
+        "zh": "DC → USB电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02411",
+      "aliases": [],
+      "description": {
+        "en": "SAE power cable assembly",
+        "zh": "SAE电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00113",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02456",
+      "aliases": [],
+      "description": {
+        "en": "DC → ALLIGATOR CLIPS power cable assembly",
+        "zh": "DC → ALLIGATOR CLIPS电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03641",
+      "aliases": [],
+      "description": {
+        "en": "DC → FERRULE power cable assembly",
+        "zh": "DC → FERRULE电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00245",
+      "aliases": [],
+      "description": {
+        "en": "DC → USB power cable assembly",
+        "zh": "DC → USB电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02412",
+      "aliases": [],
+      "description": {
+        "en": "SAE power cable assembly",
+        "zh": "SAE电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00114",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02457",
+      "aliases": [],
+      "description": {
+        "en": "DC → ALLIGATOR CLIPS power cable assembly",
+        "zh": "DC → ALLIGATOR CLIPS电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00246",
+      "aliases": [],
+      "description": {
+        "en": "DC → USB power cable assembly",
+        "zh": "DC → USB电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02413",
+      "aliases": [],
+      "description": {
+        "en": "SAE power cable assembly",
+        "zh": "SAE电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00115",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02458",
+      "aliases": [],
+      "description": {
+        "en": "DC → ALLIGATOR CLIPS power cable assembly",
+        "zh": "DC → ALLIGATOR CLIPS电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00247",
+      "aliases": [],
+      "description": {
+        "en": "DC → USB power cable assembly",
+        "zh": "DC → USB电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00116",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02459",
+      "aliases": [],
+      "description": {
+        "en": "DC → ALLIGATOR CLIPS power cable assembly",
+        "zh": "DC → ALLIGATOR CLIPS电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00248",
+      "aliases": [],
+      "description": {
+        "en": "DC → USB power cable assembly",
+        "zh": "DC → USB电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00117",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02460",
+      "aliases": [],
+      "description": {
+        "en": "DC → ALLIGATOR CLIPS power cable assembly",
+        "zh": "DC → ALLIGATOR CLIPS电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00249",
+      "aliases": [],
+      "description": {
+        "en": "DC → USB power cable assembly",
+        "zh": "DC → USB电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00118",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02461",
+      "aliases": [],
+      "description": {
+        "en": "DC → ALLIGATOR CLIPS power cable assembly",
+        "zh": "DC → ALLIGATOR CLIPS电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00250",
+      "aliases": [],
+      "description": {
+        "en": "DC → USB power cable assembly",
+        "zh": "DC → USB电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00119",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02462",
+      "aliases": [],
+      "description": {
+        "en": "DC → ALLIGATOR CLIPS power cable assembly",
+        "zh": "DC → ALLIGATOR CLIPS电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00251",
+      "aliases": [],
+      "description": {
+        "en": "DC → USB power cable assembly",
+        "zh": "DC → USB电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00120",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02463",
+      "aliases": [],
+      "description": {
+        "en": "DC → ALLIGATOR CLIPS power cable assembly",
+        "zh": "DC → ALLIGATOR CLIPS电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00252",
+      "aliases": [],
+      "description": {
+        "en": "DC → USB power cable assembly",
+        "zh": "DC → USB电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00121",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02464",
+      "aliases": [],
+      "description": {
+        "en": "DC → ALLIGATOR CLIPS power cable assembly",
+        "zh": "DC → ALLIGATOR CLIPS电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00253",
+      "aliases": [],
+      "description": {
+        "en": "DC → USB power cable assembly",
+        "zh": "DC → USB电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00122",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02465",
+      "aliases": [],
+      "description": {
+        "en": "DC → ALLIGATOR CLIPS power cable assembly",
+        "zh": "DC → ALLIGATOR CLIPS电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00254",
+      "aliases": [],
+      "description": {
+        "en": "DC → USB power cable assembly",
+        "zh": "DC → USB电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00123",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02466",
+      "aliases": [],
+      "description": {
+        "en": "DC → ALLIGATOR CLIPS power cable assembly",
+        "zh": "DC → ALLIGATOR CLIPS电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00255",
+      "aliases": [],
+      "description": {
+        "en": "DC → USB power cable assembly",
+        "zh": "DC → USB电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00124",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02467",
+      "aliases": [],
+      "description": {
+        "en": "DC → ALLIGATOR CLIPS power cable assembly",
+        "zh": "DC → ALLIGATOR CLIPS电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00256",
+      "aliases": [],
+      "description": {
+        "en": "DC → USB power cable assembly",
+        "zh": "DC → USB电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00325",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00257",
+      "aliases": [],
+      "description": {
+        "en": "DC → USB power cable assembly",
+        "zh": "DC → USB电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00464",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00258",
+      "aliases": [],
+      "description": {
+        "en": "DC → USB power cable assembly",
+        "zh": "DC → USB电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01060",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00259",
+      "aliases": [],
+      "description": {
+        "en": "DC → USB power cable assembly",
+        "zh": "DC → USB电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01061",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01062",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01063",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01064",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01065",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01066",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01067",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01068",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01069",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01070",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01071",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01072",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01073",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01074",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01075",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01076",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01077",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01078",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01079",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01080",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01090",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01091",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01092",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01093",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01094",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01095",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01096",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01097",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01098",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01099",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01100",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01116",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01239",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01240",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01241",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01242",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01243",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01244",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01245",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01246",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01247",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01248",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01249",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01250",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01251",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01252",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01253",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01254",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01255",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01256",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01257",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01258",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01259",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01260",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01261",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01262",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01263",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01264",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01265",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01266",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01267",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01268",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01269",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01270",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01271",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01553",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01750",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01775",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01776",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01777",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01778",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01779",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01780",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01781",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01782",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01935",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01936",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02220",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02221",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02222",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02223",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02224",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02225",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02226",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02227",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02228",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02229",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02230",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02231",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02232",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02233",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02234",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02235",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02236",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02237",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02238",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02239",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02240",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02241",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02242",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02243",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02244",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02245",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02246",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02247",
+      "aliases": [],
+      "description": {
+        "en": "DC power cable assembly",
+        "zh": "DC电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "70261139",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44424060",
+      "aliases": [],
+      "description": {
+        "en": "Servo power cable assembly",
+        "zh": "伺服电源电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "70261140",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44424061",
+      "aliases": [],
+      "description": {
+        "en": "Servo power cable assembly",
+        "zh": "伺服电源电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "70261141",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44424062",
+      "aliases": [],
+      "description": {
+        "en": "Servo power cable assembly",
+        "zh": "伺服电源电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "70261143",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44424063",
+      "aliases": [],
+      "description": {
+        "en": "Servo power cable assembly",
+        "zh": "伺服电源电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "70261144",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44424064",
+      "aliases": [],
+      "description": {
+        "en": "Servo power cable assembly",
+        "zh": "伺服电源电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "70261145",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44424065",
+      "aliases": [],
+      "description": {
+        "en": "Servo power cable assembly",
+        "zh": "伺服电源电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "70261146",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44424066",
+      "aliases": [],
+      "description": {
+        "en": "Servo power cable assembly",
+        "zh": "伺服电源电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "70261147",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44424067",
+      "aliases": [],
+      "description": {
+        "en": "Servo power cable assembly",
+        "zh": "伺服电源电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "70261148",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44424068",
+      "aliases": [],
+      "description": {
+        "en": "Servo power cable assembly",
+        "zh": "伺服电源电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "70261149",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44424069",
+      "aliases": [],
+      "description": {
+        "en": "Servo power cable assembly",
+        "zh": "伺服电源电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "70261150",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44424070",
+      "aliases": [],
+      "description": {
+        "en": "Servo power cable assembly",
+        "zh": "伺服电源电缆组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "70261151",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "70261152",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "70261153",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "70261154",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "70261155",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "70261156",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "70261160",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "70261163",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "70261166",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "70261185",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "70362272",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "71222231",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "71222232",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "71222234",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "71222239",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "71222240",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "71222241",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "71222242",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "71222243",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "71222295",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "71222296",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "71222304",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220852",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220853",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220854",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220855",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220856",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220860",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220861",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220862",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220863",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73222334",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73222335",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73222336",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73222381",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73224180",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73224181",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73224182",
+      "aliases": [],
+      "description": {
+        "en": "Power cable assembly",
+        "zh": "电源线组件"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "brand": "Tensility",
+      "identifier": "50-00001",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00003",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00010",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00004",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00011",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00007",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00024",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00008",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00025",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00395",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00026",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00396",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00027",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00404",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00028",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00405",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00030",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00415",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00031",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00418",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00045",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00440",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00052",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00555",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00056",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00567",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00057",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00680",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00070",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00683",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00090",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00686",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00091",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00689",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00126",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00690",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00129",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00692",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00133",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00792",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00136",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00795",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00152",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00804",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00153",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01248",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00186",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-02541",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00187",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03061",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00313",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03154",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00314",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03164",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00315",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03174",
+      "aliases": [],
+      "description": {
+        "en": "Bulk cable for cable assemblies",
+        "zh": "电缆组件用散装线材"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00316",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00540",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00541",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00542",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00543",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00616",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00617",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00637",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00674",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00706",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00707",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00060",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00061",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00062",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00063",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00064",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00308",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00309",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00310",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00311",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00401",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00402",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00406",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00407",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "电缆连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24441133",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167903",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24441134",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167904",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24441135",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167905",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24441141",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167906",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24441142",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167907",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24441143",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167908",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24441168",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167909",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24441169",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167910",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24441170",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167911",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24441171",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167912",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24441293",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167913",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "24441294",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167914",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "25009692",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167915",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "25009696",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167916",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166101",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167917",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166102",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167918",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166103",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167919",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166104",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167920",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166105",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167921",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166106",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167922",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166107",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167923",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166108",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167924",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166109",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167925",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166110",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167926",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166119",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420211",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166120",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420212",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166121",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420213",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166122",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420214",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166142",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420215",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166143",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420216",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166144",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420217",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166145",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420218",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166146",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420219",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166147",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420220",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166306",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420221",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166307",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420222",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166308",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420223",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166309",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420224",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166310",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420225",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166311",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420226",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166312",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420227",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166313",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420228",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166314",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420229",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166315",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420230",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166316",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420262",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166317",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420263",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166344",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420264",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166345",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420265",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166346",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420266",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166347",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420267",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166348",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420268",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166349",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420269",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166350",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420270",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166351",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420271",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167151",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420272",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167152",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420273",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167153",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420274",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167154",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420275",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167155",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420276",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167156",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420277",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167157",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420278",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167158",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420279",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167159",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420280",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167160",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420281",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167161",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420282",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167162",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420283",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167163",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420284",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167164",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420285",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167165",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420286",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167166",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420287",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167167",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420288",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167168",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420289",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167331",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420298",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167332",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420301",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167335",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420305",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167336",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420316",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167337",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420317",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167338",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420318",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167339",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420319",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381167340",
+      "aliases": [],
+      "description": {
+        "en": "Circular power connector component",
+        "zh": "圆形电源连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44420320",
+      "aliases": [],
+      "description": {
+        "en": "POWERLOCK power connector component",
+        "zh": "POWERLOCK电源连接器材料"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Power Cable Assembly",
+    "zh": "电源线组件"
+  }
+}

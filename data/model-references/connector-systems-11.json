@@ -1,0 +1,4973 @@
+{
+  "version": 2,
+  "category_id": "connector-systems-11",
+  "route": "/products/binder-compatible",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Binder M8 and M12-A moulded cable assemblies.",
+        "zh": "Binder M8 与 M12-A 模制电缆组件。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Binder circular connector components from manufacturer order tables.",
+        "zh": "原厂订货表列明的 Binder 圆形连接材料。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Six Decisions Behind the Part Number",
+    "zh": "型号背后的六个选型要点"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Exact Series",
+        "zh": "准确系列"
+      },
+      "copy": {
+        "en": "Confirm the Binder series, coding, contact sex and mating number.",
+        "zh": "确认 Binder 系列、编码、触点公母与对插件编号。"
+      }
+    },
+    {
+      "title": {
+        "en": "Termination Method",
+        "zh": "端接方式"
+      },
+      "copy": {
+        "en": "Distinguish moulded cordsets, field-wireable connectors and panel components.",
+        "zh": "区分模制预制线、现场装配接头与面板端材料。"
+      }
+    },
+    {
+      "title": {
+        "en": "Cable Configuration",
+        "zh": "线缆配置"
+      },
+      "copy": {
+        "en": "Set conductor size, pin map, shielding and length for the circuit.",
+        "zh": "按回路确定线径、针脚对应、屏蔽与长度。"
+      }
+    },
+    {
+      "title": {
+        "en": "Mounting Geometry",
+        "zh": "安装几何"
+      },
+      "copy": {
+        "en": "Check panel thickness, thread, exit direction and installation clearance.",
+        "zh": "核对面板厚度、螺纹、出线方向与安装空间。"
+      }
+    },
+    {
+      "title": {
+        "en": "Seal & Lock",
+        "zh": "密封与锁紧"
+      },
+      "copy": {
+        "en": "Review the actual mating assembly, cable diameter and seal compression.",
+        "zh": "核对实际对插组合、线缆外径与密封压缩量。"
+      }
+    },
+    {
+      "title": {
+        "en": "Approved Build",
+        "zh": "确认制造配置"
+      },
+      "copy": {
+        "en": "Keep the selected parts, assembly instructions and test requirements on one controlled specification.",
+        "zh": "将选定零件、装配说明与测试要求纳入同一份受控规格。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=connector-systems-11&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "Binder",
+      "identifier": "77 3419 0000 50003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3420 0000 50003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3429 0000 20003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3427 0000 20708-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3430 0000 20003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3434 0000 20708-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3430 0000 70003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3729 0000 50003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3730 0000 50003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3627 0000 20003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3630 0000 20003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3634 0000 20003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3834 0000 20003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3729 0000 20403-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3727 0000 20908-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3730 0000 20403-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3734 0000 20908-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3429 0000 80003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3430 0000 80003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3419 0000 50003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3420 0000 50003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3429 0000 50003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3427 0000 50708-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3430 0000 50003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3434 0000 50708-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3430 0000 70003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3729 0000 50003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3730 0000 50003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3627 0000 50003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3630 0000 50003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3634 0000 50003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3834 0000 50003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3729 0000 40403-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3727 0000 40908-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3730 0000 40403-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3734 0000 40908-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3429 0000 80203-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3430 0000 80203-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3419 0000 50004-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3420 0000 50004-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3429 0000 20003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3427 0000 20708-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3430 0000 20003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3434 0000 20708-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3430 0000 70004-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3729 0000 50004-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3730 0000 50004-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3627 0000 20003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3630 0000 20003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3634 0000 20003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3834 0000 20003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3729 0000 20403-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3727 0000 20908-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3730 0000 20403-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3734 0000 20908-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3429 0000 80003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3430 0000 80003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3419 0000 50004-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3420 0000 50004-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3429 0000 50003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3427 0000 50708-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3430 0000 50003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3434 0000 50708-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3430 0000 70004-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3729 0000 50004-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3730 0000 50004-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3627 0000 50003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3630 0000 50003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3634 0000 50003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3834 0000 50003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3729 0000 40403-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3727 0000 40908-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3730 0000 40403-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3734 0000 40908-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3429 0000 80203-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3430 0000 80203-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3419 0000 50005-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3420 0000 50005-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3429 0000 20004-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3427 0000 20712-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3430 0000 20004-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3434 0000 20712-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3434 0000 70003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3729 0000 50005-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3730 0000 50005-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3627 0000 20004-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3630 0000 20004-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3634 0000 20004-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3834 0000 20004-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3729 0000 20404-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3727 0000 20912-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3730 0000 20404-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3734 0000 20912-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3429 0000 80004-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3430 0000 80004-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3419 0000 50005-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3420 0000 50005-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3429 0000 50004-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3427 0000 50712-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3430 0000 50004-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3434 0000 50712-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3434 0000 70003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3729 0000 50005-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3730 0000 50005-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3627 0000 50004-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3630 0000 50004-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3634 0000 50004-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3834 0000 50004-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3729 0000 40404-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3727 0000 40912-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3730 0000 40404-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3734 0000 40912-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3429 0000 80204-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3430 0000 80204-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3419 0000 50708-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3420 0000 50708-0200",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3429 0000 20004-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3427 0000 20712-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3430 0000 20004-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3434 0000 20712-0500",
+      "aliases": [],
+      "description": {
+        "en": "M12-A moulded cable assembly",
+        "zh": "M12-A模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3405 0000 20003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3403 0000 20003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3406 0000 20003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3408 0000 20003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3705 0000 50006-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3703 0000 50006-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3706 0000 50006-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3708 0000 50006-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3608 0000 20003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3505 0000 20706-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3508 0000 20003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3405 0000 50003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3403 0000 50003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3406 0000 50003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3408 0000 50003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3705 0000 50006-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3703 0000 50006-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3706 0000 50006-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3708 0000 50006-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3608 0000 50003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3505 0000 50706-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3508 0000 50003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3405 0000 20003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3403 0000 20003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3406 0000 20003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3408 0000 20003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3705 0000 20008-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3703 0000 20008-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3706 0000 20008-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3708 0000 20008-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3608 0000 20003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3505 0000 20706-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3508 0000 20003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3405 0000 50003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3403 0000 50003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3406 0000 50003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3408 0000 50003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3705 0000 50008-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3703 0000 50008-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3706 0000 50008-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3708 0000 50008-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3608 0000 50003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3505 0000 50706-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3508 0000 50003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3405 0000 20004-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3403 0000 20004-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3406 0000 20004-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3408 0000 20004-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3705 0000 20008-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3703 0000 20008-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3706 0000 20008-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3708 0000 20008-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3608 0000 20004-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3505 0000 20708-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3508 0000 20004-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3405 0000 50004-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3403 0000 50004-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3406 0000 50004-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3408 0000 50004-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3705 0000 50008-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3703 0000 50008-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3706 0000 50008-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3708 0000 50008-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3608 0000 50004-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3505 0000 50708-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3508 0000 50004-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3405 0000 20004-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3403 0000 20004-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3406 0000 20004-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3408 0000 20004-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3705 0000 20003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3703 0000 20003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3706 0000 20003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3708 0000 20003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3608 0000 20004-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3505 0000 20708-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3508 0000 20004-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3405 0000 50004-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3403 0000 50004-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3406 0000 50004-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3408 0000 50004-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3705 0000 50003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3703 0000 50003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3706 0000 50003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3708 0000 50003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3608 0000 50004-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3505 0000 50708-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3508 0000 50004-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3405 0000 20005-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3403 0000 50005-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3406 0000 20005-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3408 0000 50005-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3705 0000 20003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3703 0000 20003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3706 0000 20003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3708 0000 20003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3606 0000 20003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3505 0000 20703-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3506 0000 50003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3405 0000 50005-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3403 0000 50005-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3406 0000 50005-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3408 0000 50005-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3705 0000 50003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3703 0000 50003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3706 0000 50003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3708 0000 50003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3606 0000 50003-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3505 0000 50703-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3506 0000 50003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3405 0000 20005-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3403 0000 50006-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3406 0000 20005-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3408 0000 50006-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3705 0000 20004-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3703 0000 20004-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3706 0000 20004-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3708 0000 20004-0200",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3606 0000 20003-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3505 0000 20703-0500",
+      "aliases": [],
+      "description": {
+        "en": "M8 moulded cable assembly",
+        "zh": "M8模制电缆组件"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    }
+  ],
+  "materials": [
+    {
+      "brand": "Binder",
+      "identifier": "99 0429 43 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0429 82 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0429 287 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1437 914 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1431 814 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0525 14 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0527 14 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1433 814 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0429 19 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0429 44 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0429 162 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1431 824 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0525 24 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1433 824 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0429 58 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0430 10 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0430 82 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0430 287 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1436 914 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1432 814 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0524 14 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0528 14 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1434 814 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0430 19 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0430 92 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0430 162 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1432 824 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0524 24 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1434 824 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0430 58 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0429 57 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0429 282 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0437 287 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1487 914 08",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1439 814 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0525 12 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0527 12 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0529 14 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0437 19 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0429 69 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0437 162 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1439 824 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0525 52 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0529 24 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0437 58 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0430 30 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0430 282 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0436 287 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1486 914 08",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1438 814 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0524 12 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0528 12 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0530 14 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0436 19 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0430 292 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0430 286 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1438 824 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0524 52 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0530 24 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0436 58 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0437 43 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0437 82 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0487 287 08",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1491 914 12",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1489 814 08",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0537 14 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0529 12 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0437 44 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0429 286 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1489 824 08",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0537 24 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0529 52 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0430 57 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0436 82 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0486 287 08",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1492 914 12",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1488 814 08",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0536 14 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0530 12 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0436 92 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1488 824 08",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0536 24 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0530 52 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0437 57 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0437 282 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0429 186 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1429 814 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1489 812 08",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0537 12 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0437 69 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0437 286 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1429 824 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0537 52 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0436 10 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0436 282 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0430 186 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1430 814 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1488 812 08",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0536 12 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0436 292 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1430 824 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0536 52 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0429 07 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0487 282 08",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0437 186 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1429 812 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1429 991 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1525 814 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0429 92 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1429 822 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1525 824 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0436 57 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0486 282 08",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0436 186 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1430 812 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1430 991 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1526 814 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0430 27 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1430 822 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1526 824 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0429 158 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0429 684 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0487 186 08",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1437 814 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1429 992 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1525 812 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0429 292 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1437 824 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1525 822 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0430 07 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0430 684 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0486 186 08",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1436 814 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1430 992 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1526 812 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0430 161 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1436 824 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1526 822 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0429 314 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0437 684 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0429 142 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1437 812 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1437 991 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1537 814 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0437 92 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1437 822 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1537 824 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0430 158 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0436 684 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0430 142 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1436 812 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1436 991 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1538 814 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0430 324 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1436 822 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1538 824 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0429 14 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0437 142 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1487 814 08",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1437 992 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1537 812 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0437 292 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1487 822 08",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1537 822 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0430 314 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0436 142 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1486 814 08",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1436 992 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1538 812 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0430 24 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1486 822 08",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1538 822 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0429 12 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1487 812 08",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1487 992 08",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1527 814 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0429 27 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1491 822 12",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0430 14 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1486 812 08",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1486 992 08",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1528 814 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0430 52 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1492 822 12",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0437 14 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1491 812 12",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1539 814 05",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0429 161 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 0430 12 04",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 1492 812 12",
+      "aliases": [],
+      "description": {
+        "en": "M12-A circular connector component",
+        "zh": "M12-A圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m12-a.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3379 500 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3361 25 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3385 00 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3400 100 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3360 25 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3402 00 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3403 282 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3412 282 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3379 550 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3361 00 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3387 00 04",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3376 100 04",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3360 00 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3378 00 04",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3391 282 04",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3390 282 04",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3383 500 04",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3363 25 04",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3379 110 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3400 00 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3362 25 04",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3400 110 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3412 280 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3383 550 04",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3363 00 04",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3383 110 04",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3376 00 04",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3362 00 04",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3376 110 04",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3390 280 04",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3379 00 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3361 300 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3365 00 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3400 500 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3360 300 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3364 00 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3412 281 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3383 00 04",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3363 300 04",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3367 00 04",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3400 550 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3362 300 04",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3366 00 04",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3390 281 04",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3379 100 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3361 100 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3376 500 04",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3360 100 03",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3383 100 04",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "99 3363 100 04",
+      "aliases": [],
+      "description": {
+        "en": "M8 circular connector component",
+        "zh": "M8圆形连接器材料"
+      },
+      "pdf_url": "https://www.binder-connector.com/en/products/series-m8.pdf"
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Binder Compatible",
+    "zh": "Binder兼容组件"
+  }
+}
