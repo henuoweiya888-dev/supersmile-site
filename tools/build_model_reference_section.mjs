@@ -61,7 +61,7 @@ export function patchPage(html, data) {
   html = html.replace(/<!-- MANUFACTURING CONTEXT START -->[\s\S]*?<!-- MANUFACTURING CONTEXT END -->/, `<!-- MANUFACTURING CONTEXT START -->\n${renderInquiry(data)}\n<!-- MANUFACTURING CONTEXT END -->`);
   html = html.replace(/<body\b(?![^>]*\bid=)/, '<body id="page-top"');
   html = html.replace(/manufacturing-context\.js\?v=[^"']+/g, 'manufacturing-context.js?v=20261015-inquiry1');
-  html = html.replace('<link id="example-product-links-style"', '<link id="model-references-style" rel="stylesheet" href="/assets/css/model-references.css?v=20261015-inquiry1">\n<link id="example-product-links-style"');
+  html = html.replace('<link id="example-product-links-style"', '<link id="model-references-style" rel="stylesheet" href="/assets/css/model-references.css?v=20261015-top2">\n<link id="example-product-links-style"');
   return html.replace('<!-- PRODUCT PHOTO DIALOG START -->', '<script id="model-references-script" defer src="/assets/js/model-references.js?v=20261015-inquiry1"></script>\n<script id="category-inquiry-script" defer src="/assets/js/category-inquiry.js?v=20261015-inquiry1"></script>\n<!-- PRODUCT PHOTO DIALOG START -->');
 }
 

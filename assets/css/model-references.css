@@ -16,16 +16,16 @@
 .mr-section p { max-width: none; text-indent: 0; }
 .mr-header {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   gap: 24px;
   margin: 0 calc(-1 * var(--mr-edge));
-  padding: 26px var(--mr-edge) 24px;
+  padding: 26px var(--mr-edge);
   background: #171b1d;
   color: #faf9f6;
 }
-.mr-header-copy { min-width: 0; }
-.mr-to-top { display: inline-flex; align-items: center; justify-content: center; flex: 0 0 auto; min-height: 44px; margin-top: 3px; padding: 10px 15px; border: 1px solid #b6c0bf; color: #faf9f6; font-size: 13px; font-weight: 650; line-height: 1.45; text-decoration: none; }
+.mr-header-copy { min-width: 0; overflow-wrap: break-word; }
+.mr-to-top { display: inline-flex; align-items: center; justify-content: center; flex: 0 0 auto; min-height: 44px; margin: 0 clamp(32px, 7vw, 112px) 0 0; padding: 10px 15px; border: 1px solid #b6c0bf; color: #faf9f6; font-size: 13px; font-weight: 650; line-height: 1.45; text-decoration: none; white-space: nowrap; }
 .mr-to-top:hover { background: #394145; border-color: #ff9978; }
 .mr-section .mr-kicker {
   margin: 0 0 8px;
@@ -160,8 +160,8 @@
 @media (max-width: 760px) {
   .mr-section { --mr-edge: 16px; padding-bottom: 26px; scroll-margin-top: 92px; }
   .mr-header { padding-block: 22px; }
-  .mr-header { flex-direction: column; gap: 15px; }
-  .mr-to-top { margin: 0; }
+  .mr-header { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 12px; }
+  .mr-to-top { margin: 0; padding-inline: 10px; font-size: 12px; }
   .mr-section .mr-title { font-size: 27px; }
   .mr-section .mr-intro { font-size: 13px; }
   .mr-toolbar { margin-block: 16px 18px; }
