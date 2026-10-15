@@ -15,11 +15,18 @@
 .mr-section [hidden] { display: none !important; }
 .mr-section p { max-width: none; text-indent: 0; }
 .mr-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 24px;
   margin: 0 calc(-1 * var(--mr-edge));
   padding: 26px var(--mr-edge) 24px;
   background: #171b1d;
   color: #faf9f6;
 }
+.mr-header-copy { min-width: 0; }
+.mr-to-top { display: inline-flex; align-items: center; justify-content: center; flex: 0 0 auto; min-height: 44px; margin-top: 3px; padding: 10px 15px; border: 1px solid #b6c0bf; color: #faf9f6; font-size: 13px; font-weight: 650; line-height: 1.45; text-decoration: none; }
+.mr-to-top:hover { background: #394145; border-color: #ff9978; }
 .mr-section .mr-kicker {
   margin: 0 0 8px;
   color: #ff9978;
@@ -121,6 +128,29 @@
 .mr-jump-link:hover { background: rgba(255, 255, 255, .08); }
 .mr-section :is(a, button, input):focus-visible, .mr-jump-link:focus-visible { outline: 3px solid #0757c9; outline-offset: 4px; }
 .mr-jump-link:focus-visible { outline-color: #ffad8c; }
+.manufacturing-context.ci-section { padding: 32px max(32px, calc((100% - 1400px) / 2)); background: #1b1f21; color: #faf9f6; border-top: 3px solid #de5429; scroll-margin-top: 112px; }
+.ci-inner { max-width: 1400px; margin: 0 auto; display: grid; grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr); gap: 48px; align-items: start; }
+.ci-copy { min-width: 0; }
+.ci-section .ci-kicker { color: #ff9978; margin-bottom: 12px; font-size: 11px; font-weight: 700; letter-spacing: .12em; }
+.manufacturing-context.ci-section h2 { max-width: 600px; color: #faf9f6; font-size: clamp(25px, 2.4vw, 32px); line-height: 1.2; }
+.manufacturing-context.ci-section h3 { color: #faf9f6; margin: 0 0 10px; font-size: 22px; line-height: 1.3; }
+.manufacturing-context.ci-section p { color: #d0d3cf; font-size: 13px; line-height: 1.65; }
+.ci-section .mc-links { gap: 9px 20px; margin-top: 17px; padding: 0; }
+.ci-section .mc-links a { color: #e1e6df; font-size: 12px; }
+.ci-form { min-width: 0; border-left: 1px solid #4b5354; padding-left: 32px; }
+.ci-choice { display: flex; align-items: flex-start; gap: 10px; width: fit-content; padding: 12px 0; cursor: pointer; color: #faf9f6; font-size: 14px; font-weight: 600; line-height: 1.5; }
+.ci-choice input { flex: 0 0 auto; width: 18px; height: 18px; margin: 2px 0 0; accent-color: #e95625; }
+.ci-part-field { margin-bottom: 12px; }
+.ci-section [hidden] { display: none !important; }
+.ci-part-field label { display: block; margin-bottom: 7px; color: #faf9f6; font-size: 13px; font-weight: 600; }
+.ci-part-field input { width: 100%; min-width: 0; min-height: 48px; box-sizing: border-box; border: 1px solid #929d9d; border-radius: 0; background: #fffefa; color: #171a1c; padding: 11px 13px; font: inherit; font-size: 16px; line-height: 1.5; }
+.ci-part-field input::placeholder { color: #636b6e; opacity: 1; }
+.ci-section .ci-part-field .ci-help { margin: 7px 0 0; font-size: 12px; color: #b6bfbb; }
+.ci-section details { margin: 8px 0 18px; border-color: #4b5354; }
+.ci-section summary { color: #d9dfd9; font-size: 13px; }
+.ci-section .mc-quote { display: inline-flex; justify-content: center; align-items: center; min-height: 48px; max-width: 100%; border: 1px solid #e95625; border-radius: 0; background: #e95625; color: #fff; padding: 12px 20px; font: 650 14px/1.5 var(--v2-display, sans-serif); cursor: pointer; }
+.ci-section .mc-quote:hover { background: #c64319; border-color: #c64319; }
+.ci-section :is(a, button, input, summary):focus-visible { outline: 3px solid #ffad8c; outline-offset: 4px; }
 @media (min-width: 1200px) {
   .mr-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 22px; }
   .mr-entry { align-content: start; }
@@ -130,6 +160,8 @@
 @media (max-width: 760px) {
   .mr-section { --mr-edge: 16px; padding-bottom: 26px; scroll-margin-top: 92px; }
   .mr-header { padding-block: 22px; }
+  .mr-header { flex-direction: column; gap: 15px; }
+  .mr-to-top { margin: 0; }
   .mr-section .mr-title { font-size: 27px; }
   .mr-section .mr-intro { font-size: 13px; }
   .mr-toolbar { margin-block: 16px 18px; }
@@ -143,6 +175,10 @@
   .mr-checks { margin-top: 23px; padding-block: 18px; }
   .mr-cta { flex-direction: column; align-items: flex-start; gap: 12px; padding: 16px; }
   .mr-cta a { width: 100%; }
+  .manufacturing-context.ci-section { padding: 27px 16px; scroll-margin-top: 92px; }
+  .ci-inner { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  .ci-form { border-left: 0; border-top: 1px solid #4b5354; padding: 22px 0 0; }
+  .ci-section .mc-quote { width: 100%; }
 }
 @media (prefers-reduced-motion: reduce) {
   .mr-section, .mr-section *, .mr-jump-link { scroll-behavior: auto; animation: none; transition: none; }

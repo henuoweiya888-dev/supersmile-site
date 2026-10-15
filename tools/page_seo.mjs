@@ -25,7 +25,8 @@ export function withPageSeo(html,route) {
   const css=`<link id="manufacturing-context-style" rel="stylesheet" href="/assets/css/manufacturing-context.css?v=${SEO_VERSION}">\n`;
   output=output.includes('<link id="product-gallery-style"')?output.replace('<link id="product-gallery-style"',css+'<link id="product-gallery-style"'):output.replace('</head>',css+'</head>');
   output=output.replace(/<script\b[^>]*id="manufacturing-context-script"[^>]*>\s*<\/script>\s*/g,'');
-  output=output.replace(/<script\b[^>]*src="\/assets\/js\/main\.js[^"']*"[^>]*>/,`<script id="manufacturing-context-script" defer src="/assets/js/manufacturing-context.js?v=${SEO_VERSION}"></script>\n$&`);
+  const contextVersion=route==='/products/industrial-equipment-harness'?'20261015-inquiry1':SEO_VERSION;
+  output=output.replace(/<script\b[^>]*src="\/assets\/js\/main\.js[^"']*"[^>]*>/,`<script id="manufacturing-context-script" defer src="/assets/js/manufacturing-context.js?v=${contextVersion}"></script>\n$&`);
   output=output.replace(/(\bsrc="\/assets\/js\/)([^"?]+\.js)(?:\?[^"']*)?"/g,(tag,prefix,filename)=>editorialScripts.has(filename)?`${prefix}${filename}?v=${SEO_VERSION}"`:tag);
   return output;
 }

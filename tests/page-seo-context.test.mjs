@@ -16,7 +16,16 @@ const context = scope.SS_MANUFACTURING_CONTEXT;
 const decode = value => value.replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>');
 const block = html => html.match(/<!-- MANUFACTURING CONTEXT START -->\s*([\s\S]*?)\s*<!-- MANUFACTURING CONTEXT END -->/)?.[1];
 const text = html => decode(html.replace(/<[^>]+>/g, ' ')).replace(/\s+/g, ' ').trim();
-const quoteUrl = html => new URL(decode(html.match(/<a\b[^>]*class="mc-quote"[^>]*href="([^"]+)"/)?.[1] || ''), 'https://supersmile-tech.com');
+const quoteUrl = html => {
+  if(html.includes('data-unified-inquiry')) {
+    const url = new URL(decode(html.match(/<form\b[^>]*action="([^"]+)"/)[1]), 'https://supersmile-tech.com');
+    for(const field of html.matchAll(/<input\b[^>]*type="hidden"[^>]*>/g)) {
+      url.searchParams.set(decode(field[0].match(/name="([^"]+)"/)[1]),decode(field[0].match(/value="([^"]*)"/)[1]));
+    }
+    return url;
+  }
+  return new URL(decode(html.match(/<a\b[^>]*class="mc-quote"[^>]*href="([^"]+)"/)?.[1] || ''), 'https://supersmile-tech.com');
+};
 const galleries = html => html.match(/<!-- PRODUCT GALLERY START -->[\s\S]*?<!-- PRODUCT GALLERY END -->/)?.[0] || html.match(/<section\b[^>]*class="[^"]*product-gallery[^>]*>[\s\S]*?<\/section>/)?.[0];
 
 test('all 203 static contexts agree with runtime data, preserve gallery and are idempotent', async () => {
@@ -50,7 +59,7 @@ test('all 203 static contexts agree with runtime data, preserve gallery and are 
     assert.equal(url.searchParams.get('source_page'), page.route, page.route);
     assert.equal(url.searchParams.get('category'), page.categoryKey || null, page.route);
     assert.equal(url.searchParams.get('products'), page.productId || null, page.route);
-    assert.equal([...url.searchParams.keys()].length, 1 + Number(!!page.categoryKey) + Number(!!page.productId), page.route);
+    assert.equal([...url.searchParams.keys()].length, block(output).includes('data-unified-inquiry') ? 4 : 1 + Number(!!page.categoryKey) + Number(!!page.productId), page.route);
   }
 });
 
@@ -131,6 +140,14 @@ test('runtime context replacement and footer insertion do not modify product con
   assert.equal(inserted, local.window.SS_MANUFACTURING_CONTEXT.render(options));
   assert.equal(quoteUrl(inserted).searchParams.get('category'), 'connector-systems-02');
   assert.equal(productMain.innerHTML, '<section>Product body and gallery remain here</section>');
+});
+
+test('unified pilot inquiry survives later SEO renders and keeps entered part numbers', () => {
+  const current = {outerHTML:'Unchanged inquiry and user input',hasAttribute:name=>name==='data-unified-inquiry'};
+  const local={window:{document:{getElementById:()=>current}},URLSearchParams};
+  runInNewContext(script,local);
+  local.window.SS_MANUFACTURING_CONTEXT.apply({path:'/products/industrial-equipment-harness',lang:'zh'});
+  assert.equal(current.outerHTML,'Unchanged inquiry and user input');
 });
 
 test('untrusted context and inquiry parameters are escaped and cannot add markup or query fields', () => {

@@ -1,10 +1,17 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { runInNewContext } from 'node:vm';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const esc = value => String(value).replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[char]);
 const localized = (tag, className, copy, attributes = '') => `<${tag} class="${className}" data-mr-en="${esc(copy.en)}" data-mr-zh="${esc(copy.zh)}"${attributes}>${esc(copy.en)}</${tag}>`;
+
+export function renderInquiry(data) {
+  const scope = {URLSearchParams};
+  runInNewContext(fs.readFileSync(path.join(root, 'assets/js/manufacturing-context.js'), 'utf8'), scope);
+  return scope.SS_MANUFACTURING_CONTEXT.render({path:data.route,lang:'en',categoryKey:data.category_id});
+}
 
 export function pdfLink(item) {
   const value = item.pdf_url || item.source_url || '';
@@ -29,12 +36,12 @@ export function renderReferences(data) {
   const checks = data.checks.map((check, index) => `<div class="mr-check">${localized('h4', 'mr-check-label', { en: `${String(index + 1).padStart(2, '0')}  ${check.title.en}`, zh: `${String(index + 1).padStart(2, '0')}  ${check.title.zh}` })}${localized('p', 'mr-check-copy', check.copy)}</div>`).join('\n');
   return `<!-- MODEL REFERENCES START -->
 <section id="category-model-references" class="mr-section" aria-labelledby="mr-title">
-<header class="mr-header">${localized('p', 'mr-kicker', data.kicker)}${localized('h2', 'mr-title', data.title, ' id="mr-title"')}${localized('p', 'mr-intro', data.intro)}</header>
+<header class="mr-header"><div class="mr-header-copy">${localized('p', 'mr-kicker', data.kicker)}${localized('h2', 'mr-title', data.title, ' id="mr-title"')}${localized('p', 'mr-intro', data.intro)}</div>${localized('a', 'mr-to-top', {en:'Back to Top ↑',zh:'返回顶部 ↑'}, ' href="#page-top"')}</header>
 <div class="mr-toolbar">${localized('label', 'mr-search-label', data.search_label, ' for="mr-search"')}<input id="mr-search" class="mr-search" type="search" placeholder="${esc(data.search_placeholder.en)}" data-mr-placeholder-en="${esc(data.search_placeholder.en)}" data-mr-placeholder-zh="${esc(data.search_placeholder.zh)}" aria-describedby="mr-search-status" autocomplete="off" spellcheck="false">${localized('button', 'mr-clear', data.clear, ' id="mr-clear" type="button" disabled')}<p id="mr-search-status" class="mr-search-status" role="status" aria-live="polite">${data.products.length + data.materials.length} references · Search by brand or part number</p></div>
 ${localized('p', '', data.empty, ' id="mr-no-results" hidden')}
 <div class="mr-groups">${data.groups.map(group).join('\n')}</div>
 <section class="mr-checks" aria-labelledby="mr-checks-title">${localized('h3', 'mr-checks-title', data.checks_title, ' id="mr-checks-title"')}<div class="mr-check-grid">${checks}</div></section>
-${localized('p', 'mr-boundary', data.boundary)}<div class="mr-cta">${localized('p', '', data.cta.text)}${localized('a', '', data.cta.label, ` href="${esc(data.cta.url)}"`)}</div>
+${localized('p', 'mr-boundary', data.boundary)}
 </section>
 <!-- MODEL REFERENCES END -->`;
 }
@@ -43,14 +50,19 @@ export function patchPage(html, data) {
   html = html.replace(/<!-- MODEL REFERENCES START -->[\s\S]*?<!-- MODEL REFERENCES END -->\n?/, '');
   html = html.replace(/<link id="model-references-style"[^>]*>\n?/, '');
   html = html.replace(/<script id="model-references-script"[^>]*><\/script>\n?/, '');
+  html = html.replace(/<script id="category-inquiry-script"[^>]*><\/script>\n?/, '');
   html = html.replace(/<!-- MODEL REFERENCES JUMP START -->[\s\S]*?<!-- MODEL REFERENCES JUMP END -->/, '');
-  if (!html.includes('<section class="pcc-closing">')) throw new Error('Pilot closing section missing');
+  if (!html.includes('</main>')) throw new Error('Pilot main section missing');
   if (!html.includes('id="pcc-back"')) throw new Error('Pilot hero link missing');
   const jump = `<!-- MODEL REFERENCES JUMP START -->${localized('a', 'mr-jump-link', data.jump, ' href="#category-model-references"')}<!-- MODEL REFERENCES JUMP END -->`;
   html = html.replace('<a class="pcc-back-link" id="pcc-back"', jump + '<a class="pcc-back-link" id="pcc-back"');
-  html = html.replace('  <section class="pcc-closing">', renderReferences(data) + '\n  <section class="pcc-closing">');
-  html = html.replace('<link id="example-product-links-style"', '<link id="model-references-style" rel="stylesheet" href="/assets/css/model-references.css?v=20261015-compact2">\n<link id="example-product-links-style"');
-  return html.replace('<!-- PRODUCT PHOTO DIALOG START -->', '<script id="model-references-script" defer src="/assets/js/model-references.js?v=20261015-compact2"></script>\n<!-- PRODUCT PHOTO DIALOG START -->');
+  html = html.replace(/\s*<section class="pcc-closing">[\s\S]*?<\/section>\s*/, '\n');
+  html = html.replace('</main>', renderReferences(data) + '\n</main>');
+  html = html.replace(/<!-- MANUFACTURING CONTEXT START -->[\s\S]*?<!-- MANUFACTURING CONTEXT END -->/, `<!-- MANUFACTURING CONTEXT START -->\n${renderInquiry(data)}\n<!-- MANUFACTURING CONTEXT END -->`);
+  html = html.replace(/<body\b(?![^>]*\bid=)/, '<body id="page-top"');
+  html = html.replace(/manufacturing-context\.js\?v=[^"']+/g, 'manufacturing-context.js?v=20261015-inquiry1');
+  html = html.replace('<link id="example-product-links-style"', '<link id="model-references-style" rel="stylesheet" href="/assets/css/model-references.css?v=20261015-inquiry1">\n<link id="example-product-links-style"');
+  return html.replace('<!-- PRODUCT PHOTO DIALOG START -->', '<script id="model-references-script" defer src="/assets/js/model-references.js?v=20261015-inquiry1"></script>\n<script id="category-inquiry-script" defer src="/assets/js/category-inquiry.js?v=20261015-inquiry1"></script>\n<!-- PRODUCT PHOTO DIALOG START -->');
 }
 
 if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {

@@ -116,8 +116,12 @@ test('all 203 initial manufacturing sections equal runtime EN and preserve route
     assert.equal(match[1].trim(), rendered, page.route);
     assert.equal((html.match(/id="manufacturing-context"/g) || []).length, 1, page.route);
     assert.ok(html.indexOf('MANUFACTURING CONTEXT END') < html.indexOf('<footer'), page.route);
-    const quote = decode(rendered.match(/class="mc-quote" href="([^"]+)"/)[1]);
+    const unified = rendered.includes('data-unified-inquiry');
+    const quote = decode(unified ? rendered.match(/<form\b[^>]*action="([^"]+)"/)[1] : rendered.match(/class="mc-quote" href="([^"]+)"/)[1]);
     const target = new URL(quote, 'https://supersmile-tech.com');
+    if(unified) for(const field of rendered.matchAll(/<input\b[^>]*type="hidden"[^>]*>/g)) {
+      target.searchParams.set(decode(field[0].match(/name="([^"]+)"/)[1]),decode(field[0].match(/value="([^"]*)"/)[1]));
+    }
     assert.equal(target.pathname, '/contact', page.route);
     assert.equal(target.searchParams.get('source_page'), page.route, page.route);
     assert.equal(target.searchParams.get('category'), page.categoryKey || null, page.route);

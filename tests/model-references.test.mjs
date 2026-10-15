@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { patchPage, renderReferences, pdfLink } from '../tools/build_model_reference_section.mjs';
+import { patchPage, renderReferences, renderInquiry, pdfLink } from '../tools/build_model_reference_section.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const read = filename => fs.readFileSync(path.join(root, filename), 'utf8');
@@ -53,11 +53,25 @@ test('compact entries have the approved service sentence and only PDF external l
 
 test('pilot enhancement survives the existing category renderer and rebuilds without duplication', () => {
   assert.ok(page.indexOf('<!-- MODEL REFERENCES START -->') > page.indexOf('pcc-rich-faq'));
-  assert.ok(page.indexOf('<!-- MODEL REFERENCES END -->') < page.indexOf('<section class="pcc-closing">'));
+  assert.ok(page.indexOf('<!-- MODEL REFERENCES END -->') < page.indexOf('</main>'));
+  assert.ok(page.indexOf('</main>') < page.indexOf('data-unified-inquiry'));
+  assert.doesNotMatch(page, /class="pcc-closing"|class="mr-cta"/);
   assert.equal(patchPage(page, data), page);
   assert.equal(renderReferences(data), page.match(/<!-- MODEL REFERENCES START -->[\s\S]*?<!-- MODEL REFERENCES END -->/)[0]);
   assert.equal((page.match(/id="model-references-script"/g) || []).length, 1);
   assert.equal((page.match(/class="pcc-gallery-item"/g) || []).length, 13);
+  assert.equal(page.match(/<!-- MANUFACTURING CONTEXT START -->\n([\s\S]*?)\n<!-- MANUFACTURING CONTEXT END -->/)[1], renderInquiry(data));
+});
+
+test('pilot has one bottom inquiry with an optional part number and a real top anchor', () => {
+  assert.equal((page.match(/id="category-inquiry-form"/g)||[]).length, 1);
+  assert.equal((page.match(/class="mc-quote"/g)||[]).length, 1);
+  assert.match(page, /<form[^>]*id="category-inquiry-form"[^>]*action="\/contact"[^>]*method="get"/);
+  assert.match(page, /id="ci-use-part"[^>]*aria-controls="ci-part-field"/);
+  assert.match(page, /id="ci-part-number"[^>]*maxlength="500"[^>]*disabled/);
+  assert.match(page, /class="mr-to-top"[^>]*href="#page-top"/);
+  assert.match(page, /<body id="page-top"/);
+  assert.match(page, /data-unified-inquiry/);
 });
 
 test('only industrial pilot is enabled and every translatable new text has both languages', () => {

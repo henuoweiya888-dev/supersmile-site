@@ -12,7 +12,7 @@
     const previous = pagination?.querySelector('[data-mr-page="previous"]');
     const next = pagination?.querySelector('[data-mr-page="next"]');
     const items = [...group.querySelectorAll('[data-mr-entry]')];
-    return { group, pagination, previous, next, items, matches: items, page: 1,
+    return { group, pagination, previous, next, items, list: group.querySelector('.mr-list'), matches: items, page: 1,
       pageSize: previous && next ? 20 : Infinity,
       pageStatus: pagination?.querySelector('.mr-page-status') };
   });
@@ -25,6 +25,50 @@
   const normalize = value => String(value || '').normalize('NFKC').toLowerCase().replace(/[\s\-‐‑‒–—−_]+/g, '');
   const searchable = new Map(entries.map(entry => [entry, normalize(entry.getAttribute('data-mr-search') || entry.textContent)]));
   let lastQuery = null;
+  const view = typeof window === 'object' ? window : null;
+  const alignedEntries = new Set();
+  const alignedLists = new Set();
+  let alignmentFrame = 0;
+
+  function alignRows() {
+    alignmentFrame = 0;
+    alignedEntries.forEach(entry => { entry.style.minHeight = ''; });
+    alignedLists.forEach(list => { list.style.marginTop = ''; });
+    alignedEntries.clear();
+    alignedLists.clear();
+    // The two indexes share row rules only while they sit side by side.
+    // Measure their natural content first so long identifiers remain uncut.
+    const visibleGroups = groups.filter(state => !state.group.hidden && state.list?.getBoundingClientRect);
+    if (!view || view.innerWidth <= 760 || visibleGroups.length !== 2) return;
+    const columns = view.innerWidth >= 1200 ? 2 : 1;
+    const visibleEntries = visibleGroups.map(state => state.items.filter(entry => !entry.hidden));
+    const listTops = visibleGroups.map(state => state.list.getBoundingClientRect().top);
+    const listTop = Math.max(...listTops);
+    const rows = Array.from({ length: Math.ceil(Math.max(...visibleEntries.map(items => items.length)) / columns) }, (_, index) => {
+      const items = visibleEntries.flatMap(list => list.slice(index * columns, (index + 1) * columns));
+      return { items, height: Math.max(...items.map(entry => entry.getBoundingClientRect().height)) };
+    });
+    // Different title or pagination wrapping must not offset the first row.
+    visibleGroups.forEach((state, index) => {
+      const offset = Math.ceil((listTop - listTops[index]) * 100) / 100;
+      if (offset > 0) {
+        state.list.style.marginTop = `${offset}px`;
+        alignedLists.add(state.list);
+      }
+    });
+    rows.forEach(({ items, height }) => {
+      const minHeight = `${Math.ceil(height * 100) / 100}px`;
+      items.forEach(entry => {
+        entry.style.minHeight = minHeight;
+        alignedEntries.add(entry);
+      });
+    });
+  }
+
+  function scheduleAlignment() {
+    if (!view?.requestAnimationFrame || alignmentFrame) return;
+    alignmentFrame = view.requestAnimationFrame(alignRows);
+  }
 
   function renderGroup(state) {
     const count = state.matches.length;
@@ -40,6 +84,7 @@
     if (state.pageStatus) state.pageStatus.textContent = language === 'zh'
       ? `第 ${state.page} / ${pages} 页 · ${count} 项`
       : `Page ${state.page} of ${pages} · ${count} items`;
+    scheduleAlignment();
   }
 
   function filter() {
@@ -111,5 +156,21 @@
       localize();
     }
   }).observe(document.documentElement, { attributes: true, attributeFilter: ['lang'] });
+  view?.addEventListener('resize', scheduleAlignment, { passive: true });
+  const groupLayout = section.querySelector('.mr-groups');
+  if (view?.ResizeObserver && groupLayout) {
+    let observedWidth = -1;
+    new view.ResizeObserver(changes => {
+      const width = changes[0]?.contentRect.width;
+      // Our row heights change the container height; only width should retrigger
+      // measurement, otherwise ResizeObserver would create a layout loop.
+      if (Number.isFinite(width) && Math.abs(width - observedWidth) > 0.5) {
+        observedWidth = width;
+        scheduleAlignment();
+      }
+    }).observe(groupLayout);
+  }
+  document.fonts?.ready?.then(scheduleAlignment, () => {});
+  document.fonts?.addEventListener?.('loadingdone', scheduleAlignment);
   localize();
 })();
