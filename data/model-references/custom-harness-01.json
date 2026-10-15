@@ -1,0 +1,330 @@
+{
+  "version": 1,
+  "category_id": "custom-harness-01",
+  "route": "/products/industrial-equipment-harness",
+  "title": {
+    "en": "Interface References & Harness Selection",
+    "zh": "接口型号与线束选型"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Start with an existing cable model or connector part number, then compare interface coding, pin routing, shield termination and the machine route. Similar connector shapes can serve different circuits and installation conditions.",
+    "zh": "从已有电缆型号或连接器料号开始，逐项核对接口编码、针脚路径、屏蔽接地和设备布线。相同接口外形，仍可能对应不同电路与安装条件。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Search these references",
+    "zh": "搜索本页选型参考"
+  },
+  "search_placeholder": {
+    "en": "Brand, part number or cable specification",
+    "zh": "输入品牌、型号、料号或线缆规格"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Finished Cable References",
+        "zh": "成品电缆参考"
+      },
+      "intro": {
+        "en": "Compare known endpoint combinations and cable constructions. For a custom machine harness, confirm the pin map, branch layout and installed length separately.",
+        "zh": "用于比较已有的两端接口组合与线缆结构。定制设备线束仍需另行确认针脚定义、分支布局和安装长度。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material References",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Identify the connector, contact, seal, cable or protection item within the BOM. A component reference does not define a complete prewired assembly.",
+        "zh": "用于明确BOM中的连接器、触点、密封件、线缆或防护材料。单个物料编号不能定义完整的预制组件。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Six Decisions Behind the Part Number",
+    "zh": "型号背后的六个选型要点"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Interface & Keying",
+        "zh": "接口与防错"
+      },
+      "copy": {
+        "en": "Confirm the connector family, coding, contact sex and straight or angled exit. Check the mating half and installation orientation together.",
+        "zh": "确认连接器系列、编码、触点公母和直头或弯头出线，并结合对插件与安装方向一起核对。"
+      }
+    },
+    {
+      "title": {
+        "en": "Pin Map & Electrical Load",
+        "zh": "针脚与电气负载"
+      },
+      "copy": {
+        "en": "Define every power, signal and ground position, including conductor size, working voltage and current. Keep power and sensitive signals separated where the circuit requires it.",
+        "zh": "逐针定义供电、信号与接地位置，并确认线径、工作电压和电流。按电路要求处理动力与敏感信号的分区。"
+      }
+    },
+    {
+      "title": {
+        "en": "Shield & Ground Path",
+        "zh": "屏蔽与接地路径"
+      },
+      "copy": {
+        "en": "Specify pairs, foil or braid, drain wires and the shield connection at the connector or enclosure. Follow the equipment grounding design rather than a universal termination rule.",
+        "zh": "明确线对、铝箔或编织屏蔽、排流线，以及连接器或机壳处的屏蔽连接。端接方式服从设备接地设计。"
+      }
+    },
+    {
+      "title": {
+        "en": "Route & Installation",
+        "zh": "布线与安装"
+      },
+      "copy": {
+        "en": "Set length datums, branch positions, exit directions and service loops. Check cabinet depth, connector clearance and the order in which the harness will be fitted.",
+        "zh": "确定长度基准、分支位置、出线方向和检修余量，并核对柜体深度、接头空间及线束安装顺序。"
+      }
+    },
+    {
+      "title": {
+        "en": "Motion & Exposure",
+        "zh": "运动与环境"
+      },
+      "copy": {
+        "en": "Identify fixed routing, drag-chain travel or torsion duty, then define bend radius and clamp points. Review jacket and protection against the actual temperature, oil and abrasion exposure.",
+        "zh": "区分固定布线、拖链往复或扭转工况，再确定弯曲半径和固定点。结合实际温度、油污与磨损选择护套和防护结构。"
+      }
+    },
+    {
+      "title": {
+        "en": "Verification & Repeat Builds",
+        "zh": "验证与重复制造"
+      },
+      "copy": {
+        "en": "Keep the drawing, BOM, wire labels and pin map aligned. Define electrical, mechanical and environmental acceptance checks for the actual configured harness.",
+        "zh": "保持图纸、BOM、线号和针脚定义一致，并针对实际配置确定电气、机械与环境验收项目。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Third-party references identify interfaces and materials for project review; they do not imply brand authorization or direct replacement compatibility.",
+    "zh": "第三方编号用于项目接口与材料核对，不代表品牌授权或直接替代兼容关系。"
+  },
+  "cta": {
+    "text": {
+      "en": "Have a reference number? Send it with connector photos, a pin map or your machine drawing. We will review the interfaces and manufacturing requirements with you.",
+      "zh": "已有参考编号？请一并提供连接器照片、针脚表或设备图纸，我们会结合接口与制造要求评审您的项目。"
+    },
+    "label": {
+      "en": "Send a Part Number for Project Review",
+      "zh": "按型号提交项目需求"
+    },
+    "url": "/contact?category=custom-harness-01&source=part-number-review"
+  },
+  "source_label": {
+    "en": "Manufacturer specifications",
+    "zh": "原厂规格依据"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1405501",
+      "aliases": [],
+      "description": {
+        "zh": "M8 A编码3位公对母传感器线；1m；PUR；3×0.25mm²；非屏蔽",
+        "en": "M8 A-coded 3-position male-to-female sensor cable; 1 m; PUR; 3 × 0.25 mm²; unshielded"
+      },
+      "engineering_use": {
+        "zh": "核对设备两端的M8编码、3芯针脚定义和安装路径，再确认定制长度与线材。",
+        "en": "Review the M8 coding, three-wire pin assignment and installation route before confirming the custom length and cable."
+      },
+      "source_url": "https://www.phoenixcontact.com/en-us/products/sensor-actuator-cable-sac-3p-m-8ms-10-pur-4p-m8fs-2-1405501"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "77 3419 0000 50003-0200",
+      "aliases": [],
+      "description": {
+        "zh": "M12 A编码3位公头预制电缆；2m；PUR；3×0.34mm²；非屏蔽",
+        "en": "M12 A-coded 3-position male preassembled cable; 2 m; PUR; 3 × 0.34 mm²; unshielded"
+      },
+      "engineering_use": {
+        "zh": "以传感器与执行器连接为讨论起点，确认装配方向、线规、长度及另一端的端接要求。",
+        "en": "Use this sensor/actuator construction to discuss connector orientation, conductor size, length and termination at the other end."
+      },
+      "source_url": "https://www.binder-connector.com/en/products/automation-technology/m12-a/77-3419-0000-50003-0200-m12-a-male-cable-connector-contacts-3-unshielded-moulded-on-cable-ip68-ul-pur-black-3-x-034-mm2-2-m"
+    },
+    {
+      "brand": "Turck",
+      "identifier": "U2188-94",
+      "aliases": [
+        "RK 4.5T-5"
+      ],
+      "description": {
+        "zh": "RK 4.5T-5单端仪表连接线；M12 A编码5位母头；5m；PVC；5×22AWG",
+        "en": "RK 4.5T-5 single-ended signal cordset; M12 A-coded 5-position female; 5 m; PVC; 5 × 22 AWG"
+      },
+      "engineering_use": {
+        "zh": "评审五芯信号分配、另一端处理、走线空间，以及现场耐油和运动要求。",
+        "en": "Review the five-wire signal assignment, free-end termination, routing space and the site requirements for oil exposure and motion."
+      },
+      "source_url": "https://www.turck.us/en/product/U2188-94"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "31 5237 500 520",
+      "aliases": [],
+      "description": {
+        "zh": "A型电磁阀母连接器预制线；2+2PE；5m；PUR；Z20电路与PNP LED",
+        "en": "Form A female solenoid-valve cordset; 2+2PE contacts; 5 m; PUR; Z20 circuit with PNP LED"
+      },
+      "engineering_use": {
+        "zh": "确认阀体接口、保护地分配、控制电压和指示电路，避免只按外形选型。",
+        "en": "Confirm the valve interface, protective-earth assignment, control voltage and indicator circuit before selecting the assembly."
+      },
+      "source_url": "https://www.binder-connector.com/en/products/automation-technology-actuatorics-solenoid-valve-connectors/model-a/31-5237-500-520-type-a-female-solenoid-valve-connector-contacts-2-2pe-unshielded-moulded-on-cable-ip67-pur-black-circuit-z20-5-m"
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1448836",
+      "aliases": [],
+      "description": {
+        "zh": "屏蔽工业网络线；4位弯头M12至直头RJ45；10m；22AWG；CAT5",
+        "en": "Shielded industrial network cable; 4-position angled M12 to straight RJ45; 10 m; 22 AWG; CAT5"
+      },
+      "engineering_use": {
+        "zh": "结合设备协议、屏蔽连续性、M12安装方向及柜内RJ45空间，确认网络连接方案。",
+        "en": "Review the equipment protocol, shield continuity, M12 orientation and cabinet-side RJ45 space when defining the network connection."
+      },
+      "source_url": "https://www.phoenixcontact.com/en-us/products/network-cable-vs-m12mrds-ip20-93b-100-sks-1448836"
+    },
+    {
+      "brand": "Turck",
+      "identifier": "P-RSV RKV 101-1189XL-10M",
+      "aliases": [],
+      "description": {
+        "zh": "EX60过程设备主干成品线；10m；用于分线盒至控制柜的连接",
+        "en": "EX60 process-equipment home-run cordset; 10 m; junction-box-to-control-panel connection"
+      },
+      "engineering_use": {
+        "zh": "用于讨论过程设备主干布线：逐项确认针位、总芯数、屏蔽处理和分线盒至控制柜的长度。",
+        "en": "Use this home-run example to review the pin assignments, conductor count, shield termination and route from the junction box to the control panel."
+      },
+      "source_url": "https://www.turck.com.mx/attachment/B2700.pdf"
+    }
+  ],
+  "materials": [
+    {
+      "brand": "Binder",
+      "identifier": "99 1487 814 08",
+      "aliases": [],
+      "description": {
+        "zh": "M12 A编码8位公连接器；螺钉压线；可屏蔽；电缆出口4–6mm",
+        "en": "M12 A-coded 8-position male cable connector; screw-clamp termination; shieldable; 4–6 mm cable outlet"
+      },
+      "engineering_use": {
+        "zh": "核对8位电路、配对接口及护套外径，再确定现场装配或工厂预装方案。",
+        "en": "Match the eight-contact circuit, mating interface and jacket diameter before choosing field assembly or factory preassembly."
+      },
+      "source_url": "https://www.binder-connector.com/en/products/automation-technology/m12-a/99-1487-814-08-m12-a-male-cable-connector-contacts-8-40-60-mm-shieldable-screw-clamp-ip67"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "86 0531 1121 00004",
+      "aliases": [],
+      "description": {
+        "zh": "M12 A编码4位公面板连接器；THT；PG9；后安装；灌封",
+        "en": "M12 A-coded 4-position male panel connector; THT; PG9; rear mounting; potted"
+      },
+      "engineering_use": {
+        "zh": "评审面板开孔、后侧安装空间、PCB连接方向与灌封边界。",
+        "en": "Review the panel cut-out, rear clearance, PCB connection direction and potting boundary."
+      },
+      "source_url": "https://www.binder-connector.com/en/products/automation-technology/m12-a/86-0531-1121-00004-m12-a-male-panel-mount-connector-contacts-4-shieldable-tht-ip68-ul-pg-9-front-fastened"
+    },
+    {
+      "brand": "Binder",
+      "identifier": "08 3080 000 000",
+      "aliases": [],
+      "description": {
+        "zh": "PUR散装电缆；3×0.34mm²；非屏蔽；黑色；原厂标称长度100m",
+        "en": "PUR bulk cable; 3 × 0.34 mm²; unshielded; black; manufacturer-listed length: 100 m"
+      },
+      "engineering_use": {
+        "zh": "将芯数、截面积、护套外径和弯曲要求写入线材规格，成品线长单独定义。",
+        "en": "Specify conductor count, cross-section, jacket diameter and bending requirements; define the finished assembly length separately."
+      },
+      "source_url": "https://www.binder-connector.com/en/products/purpvc-cable/unshielded-cable/08-3080-000-000-pur-cable-contacts-3-wires-unshielded-ul-standard-pur-black-ral-9005-3-x-034-mm2-100-m"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11102",
+      "aliases": [
+        "HG-SW13"
+      ],
+      "description": {
+        "zh": "HelaGuard HG-SW13标准壁厚PA6波纹管；外径13.0mm；内径9.8mm",
+        "en": "HelaGuard HG-SW13 standard-weight PA6 conduit; OD 13.0 mm; ID 9.8 mm"
+      },
+      "engineering_use": {
+        "zh": "根据线束最大外径、填充率、最小弯曲半径及两端固定方式选择防护管。",
+        "en": "Select the conduit against the harness diameter, fill ratio, minimum bend radius and end-fixing method."
+      },
+      "source_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11203",
+      "aliases": [
+        "HG-LW16"
+      ],
+      "description": {
+        "zh": "HelaGuard HG-LW16轻型PA6波纹管；外径15.8mm；内径12.0mm",
+        "en": "HelaGuard HG-LW16 lightweight PA6 conduit; OD 15.8 mm; ID 12.0 mm"
+      },
+      "engineering_use": {
+        "zh": "对照重量、柔性与耐磨需求，评审轻型防护结构是否适合设备路径。",
+        "en": "Review whether a lightweight protective construction suits the route, weight, flexibility and abrasion requirements."
+      },
+      "source_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11402",
+      "aliases": [
+        "HG-FR16"
+      ],
+      "description": {
+        "zh": "HelaGuard HG-FR16阻燃PA6FR波纹管；外径15.8mm；内径11.8mm",
+        "en": "HelaGuard HG-FR16 flame-retardant PA6FR conduit; OD 15.8 mm; ID 11.8 mm"
+      },
+      "engineering_use": {
+        "zh": "把防护材料要求与完整线束要求分别确认，按项目核对所需阻燃试验及材料文件。",
+        "en": "Confirm protective-material requirements separately from the finished harness, including the project fire test and material documentation."
+      },
+      "source_url": "https://www.hellermanntyton.com/binaries/content/assets/downloads/com/product_catalogue/ht_cable_protection_systems_2025_com_ecgt.pdf"
+    }
+  ]
+}
