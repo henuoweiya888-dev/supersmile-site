@@ -1,0 +1,2021 @@
+{
+  "version": 2,
+  "category_id": "cable-assembly-05",
+  "route": "/products/audio-cable-assembly",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Finished cable and harness references for this interface or application.",
+        "zh": "此接口或应用方向的成品电缆与线束参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Connector, wire and process-material references for project selection.",
+        "zh": "供项目选型的连接器、线材与工艺材料参考。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Audio topology",
+        "zh": "音频拓扑"
+      },
+      "copy": {
+        "en": "Confirm balanced or unbalanced wiring, channel count and the actual source and load interfaces.",
+        "zh": "确认平衡或非平衡接法、声道数及实际音源和负载接口。"
+      }
+    },
+    {
+      "title": {
+        "en": "Contact assignment",
+        "zh": "触点定义"
+      },
+      "copy": {
+        "en": "Specify TRS/TRRS or speaker-contact mapping, ground allocation and any microphone/control circuit.",
+        "zh": "明确TRS/TRRS或扬声器触点对应、地线分配及麦克风/控制电路。"
+      }
+    },
+    {
+      "title": {
+        "en": "Noise control",
+        "zh": "噪声控制"
+      },
+      "copy": {
+        "en": "Select twisted pairs, shield coverage and shield termination for the installation and grounding arrangement.",
+        "zh": "按安装环境与接地方式选择双绞线对、屏蔽覆盖及屏蔽端接。"
+      }
+    },
+    {
+      "title": {
+        "en": "Load and conductor size",
+        "zh": "负载与线规"
+      },
+      "copy": {
+        "en": "Separate low-level signal leads from speaker-power cables when choosing gauge and contact ratings.",
+        "zh": "选择线规与触点额定值时，区分小信号线与扬声器功率线。"
+      }
+    },
+    {
+      "title": {
+        "en": "Mechanical routing",
+        "zh": "机械走线"
+      },
+      "copy": {
+        "en": "Confirm plug angle, splitter position, exposed length and the route behind the panel or enclosure.",
+        "zh": "确认插头角度、分线点、外露长度及面板或机壳后的布线。"
+      }
+    },
+    {
+      "title": {
+        "en": "Functional verification",
+        "zh": "功能验证"
+      },
+      "copy": {
+        "en": "Agree channel continuity, polarity and audio checks with the intended equipment.",
+        "zh": "结合实际设备约定声道导通、极性与音频功能检验。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=cable-assembly-05&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "American Autowire",
+      "identifier": "40044",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Mazda",
+      "identifier": "00008FZ08",
+      "aliases": [
+        "0000-8F-Z08",
+        "8FZ08"
+      ],
+      "description": {
+        "en": "3.5 mm audio cable",
+        "zh": "3.5毫米音频线"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02133",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39955",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03754",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39954",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03749",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39907",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03724",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39906",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03722",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39905",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03720",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39904",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03718",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39903",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03230",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39875",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03229",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39874",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03227",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39868",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03226",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39849",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03215",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39843",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03209",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39796",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03206",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39795",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03205",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36091",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03203",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36090",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03202",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36089",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03200",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CG53526",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03194",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "33245",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03193",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "28075",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03191",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "28010",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02153",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27820",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02150",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "28015",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02149",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "28025",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02141",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "28300",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02140",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "02060",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02136",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "33345",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02132",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "08210",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02046",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA58080",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00332",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA50747",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-05999",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA01559",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03753",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "PL56270",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03752",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39751",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03751",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39750",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03750",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39749",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03725",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39726",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03723",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39709",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03721",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE78220",
+      "aliases": [],
+      "description": {
+        "en": "Radio accessory wiring harness",
+        "zh": "收音机附件线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03719",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CE64335",
+      "aliases": [],
+      "description": {
+        "en": "Radio accessory wiring harness",
+        "zh": "收音机附件线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03707",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CG01423",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03412",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH28078",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03411",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH28077",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03410",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH01480",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03409",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH01428",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03408",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH01427",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03407",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH01426",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03406",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH01425",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03405",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CG50858",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03404",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA70068",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03403",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CH01530",
+      "aliases": [],
+      "description": {
+        "en": "Radio accessory wiring harness",
+        "zh": "收音机附件线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03402",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "09315",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03401",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "41578",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03231",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40784",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03228",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "NV09425",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03225",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "NV01468",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03224",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "NV28079",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03223",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA61959",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03222",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA73890",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03221",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "CA87135",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03220",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38574",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03219",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38572",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03218",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "37833",
+      "aliases": [],
+      "description": {
+        "en": "Speaker wiring harness",
+        "zh": "扬声器线束"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03217",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03216",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03214",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03213",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03212",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03211",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03210",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03208",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03207",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03204",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03201",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03199",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03198",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03197",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03196",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03195",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03192",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03190",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02845",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02844",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02843",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02284",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02283",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02282",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02281",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02155",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02154",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02152",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02151",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02148",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02145",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02144",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02143",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02142",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02139",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02138",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02137",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02135",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02134",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02131",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02130",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02048",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02047",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02045",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00341",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00340",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00331",
+      "aliases": [],
+      "description": {
+        "en": "Audio cable assembly",
+        "zh": "音频电缆组件"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "brand": "Tensility",
+      "identifier": "30-00811",
+      "aliases": [],
+      "description": {
+        "en": "Cable wire material",
+        "zh": "线缆用导线材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00653",
+      "aliases": [],
+      "description": {
+        "en": "Cable wire material",
+        "zh": "线缆用导线材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00495",
+      "aliases": [],
+      "description": {
+        "en": "Cable wire material",
+        "zh": "线缆用导线材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00176",
+      "aliases": [],
+      "description": {
+        "en": "Cable wire material",
+        "zh": "线缆用导线材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00179",
+      "aliases": [],
+      "description": {
+        "en": "Cable wire material",
+        "zh": "线缆用导线材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00397",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01375",
+      "aliases": [],
+      "description": {
+        "en": "Cable wire material",
+        "zh": "线缆用导线材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01374",
+      "aliases": [],
+      "description": {
+        "en": "Cable wire material",
+        "zh": "线缆用导线材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00396",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00041",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00039",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00177",
+      "aliases": [],
+      "description": {
+        "en": "Cable wire material",
+        "zh": "线缆用导线材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00401",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00501",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00181",
+      "aliases": [],
+      "description": {
+        "en": "Cable wire material",
+        "zh": "线缆用导线材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00403",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00178",
+      "aliases": [],
+      "description": {
+        "en": "Cable wire material",
+        "zh": "线缆用导线材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00904",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00180",
+      "aliases": [],
+      "description": {
+        "en": "Cable wire material",
+        "zh": "线缆用导线材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00903",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00402",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00082",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00081",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "54-00080",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00819",
+      "aliases": [],
+      "description": {
+        "en": "Cable wire material",
+        "zh": "线缆用导线材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00185",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00423",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00400",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00502",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00407",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "线缆用连接器材料"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Audio Cable Assembly",
+    "zh": "音频电缆组件"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "audited_subset",
+    "reason": {
+      "en": "This is the verified subset for the category. The target of 200 finished models and 200 materials remains incomplete.",
+      "zh": "此处为本类已核验子集，200个成品型号和200个材料料号的目标仍待继续补充。"
+    },
+    "audit_id": "resume-cable-specialty-approved-manifest.json",
+    "verified_counts": {
+      "products": 173,
+      "materials": 30
+    },
+    "target_status": "incomplete",
+    "target_counts": {
+      "products": 200,
+      "materials": 200
+    }
+  }
+}

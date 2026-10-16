@@ -1,0 +1,2495 @@
+{
+  "version": 2,
+  "category_id": "cable-assembly-08",
+  "route": "/products/battery-cable-assembly",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Finished cable and harness references for this interface or application.",
+        "zh": "此接口或应用方向的成品电缆与线束参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Connector, wire and process-material references for project selection.",
+        "zh": "供项目选型的连接器、线材与工艺材料参考。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Load profile",
+        "zh": "负载工况"
+      },
+      "copy": {
+        "en": "Specify continuous and peak current, duty cycle and the expected cable temperature.",
+        "zh": "明确持续电流、峰值电流、工作周期及预期线缆温度。"
+      }
+    },
+    {
+      "title": {
+        "en": "Voltage drop and length",
+        "zh": "压降与长度"
+      },
+      "copy": {
+        "en": "Select conductor size from the complete positive-and-return path and the allowed loaded voltage drop.",
+        "zh": "按完整正负回路与允许带载压降选择导体截面积。"
+      }
+    },
+    {
+      "title": {
+        "en": "Terminal interface",
+        "zh": "端子接口"
+      },
+      "copy": {
+        "en": "Confirm battery post type, stud diameter, lug geometry, plating and rotation at each end.",
+        "zh": "确认电池柱类型、螺柱直径、线鼻几何形状、镀层与两端角度。"
+      }
+    },
+    {
+      "title": {
+        "en": "Routing and protection",
+        "zh": "布线与防护"
+      },
+      "copy": {
+        "en": "Define abrasion, heat exposure, clamps, boots and protection around chassis penetrations.",
+        "zh": "定义磨损与热暴露、固定夹、端子护套及穿车架位置的防护。"
+      }
+    },
+    {
+      "title": {
+        "en": "Circuit protection",
+        "zh": "回路保护"
+      },
+      "copy": {
+        "en": "Confirm fuse, disconnect and polarity requirements from the equipment circuit design.",
+        "zh": "按设备电路设计确认熔断、断开开关及极性要求。"
+      }
+    },
+    {
+      "title": {
+        "en": "Crimp and electrical checks",
+        "zh": "压接与电气检验"
+      },
+      "copy": {
+        "en": "Approve lug tooling, pull-force criteria, resistance and polarity checks for the actual cable gauge.",
+        "zh": "按实际线规确认线鼻工装、拉力标准、电阻及极性检验。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=cable-assembly-08&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "American Autowire",
+      "identifier": "15020",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "40142",
+      "aliases": [],
+      "description": {
+        "en": "Terminated ground strap assembly",
+        "zh": "已端接接地带组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "31895",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "40141",
+      "aliases": [],
+      "description": {
+        "en": "Terminated ground strap assembly",
+        "zh": "已端接接地带组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44799",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "40140",
+      "aliases": [],
+      "description": {
+        "en": "Terminated ground strap assembly",
+        "zh": "已端接接地带组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44798",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44797",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44796",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44794",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "40100",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable kit with installed battery terminals",
+        "zh": "已装电池端子的电池电缆套件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44793",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44792",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44795",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44791",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44790",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44789",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44788",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44787",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44786",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44785",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40228",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40227",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40229",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40225",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40232",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40231",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "44008",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39655",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40216",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40207",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40209",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40220",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "39654",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40213",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40212",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40211",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40210",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40208",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "40206",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "13230",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "21110",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "21320",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36236",
+      "aliases": [],
+      "description": {
+        "en": "Ground strap assembly",
+        "zh": "接地带组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23340",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36103",
+      "aliases": [],
+      "description": {
+        "en": "Ground strap kit",
+        "zh": "接地带套件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36104",
+      "aliases": [],
+      "description": {
+        "en": "Ground strap kit",
+        "zh": "接地带套件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36078",
+      "aliases": [],
+      "description": {
+        "en": "Ground strap kit",
+        "zh": "接地带套件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36087",
+      "aliases": [],
+      "description": {
+        "en": "Ground strap kit",
+        "zh": "接地带套件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36102",
+      "aliases": [],
+      "description": {
+        "en": "Ground strap kit",
+        "zh": "接地带套件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23690",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23685",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "35020",
+      "aliases": [],
+      "description": {
+        "en": "Ground strap kit",
+        "zh": "接地带套件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "35015",
+      "aliases": [],
+      "description": {
+        "en": "Ground strap kit",
+        "zh": "接地带套件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "35010",
+      "aliases": [],
+      "description": {
+        "en": "Ground strap kit",
+        "zh": "接地带套件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "35005",
+      "aliases": [],
+      "description": {
+        "en": "Ground strap kit",
+        "zh": "接地带套件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "35000",
+      "aliases": [],
+      "description": {
+        "en": "Ground strap kit",
+        "zh": "接地带套件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "34995",
+      "aliases": [],
+      "description": {
+        "en": "Ground strap kit",
+        "zh": "接地带套件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "34990",
+      "aliases": [],
+      "description": {
+        "en": "Ground strap kit",
+        "zh": "接地带套件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "34985",
+      "aliases": [],
+      "description": {
+        "en": "Ground strap kit",
+        "zh": "接地带套件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "34975",
+      "aliases": [],
+      "description": {
+        "en": "Ground strap kit",
+        "zh": "接地带套件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "34715",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "34710",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "33995",
+      "aliases": [],
+      "description": {
+        "en": "Ground strap kit",
+        "zh": "接地带套件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "34000",
+      "aliases": [],
+      "description": {
+        "en": "Ground strap kit",
+        "zh": "接地带套件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "33990",
+      "aliases": [],
+      "description": {
+        "en": "Ground strap kit",
+        "zh": "接地带套件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "33985",
+      "aliases": [],
+      "description": {
+        "en": "Ground strap kit",
+        "zh": "接地带套件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "32625",
+      "aliases": [],
+      "description": {
+        "en": "Ground strap kit",
+        "zh": "接地带套件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "32620",
+      "aliases": [],
+      "description": {
+        "en": "Ground strap kit",
+        "zh": "接地带套件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "32610",
+      "aliases": [],
+      "description": {
+        "en": "Ground strap kit",
+        "zh": "接地带套件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "32600",
+      "aliases": [],
+      "description": {
+        "en": "Ground strap kit",
+        "zh": "接地带套件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27875",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23680",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "03425",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "21125",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04020",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "33240",
+      "aliases": [],
+      "description": {
+        "en": "Ground strap assembly",
+        "zh": "接地带组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22360",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22365",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22370",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "15280",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "13190",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "20910",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "09240",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "09235",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04415",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04410",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "03785",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27220",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36260",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27215",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22355",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22345",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22350",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "15285",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "21720",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "20575",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "18595",
+      "aliases": [],
+      "description": {
+        "en": "Ground strap assembly",
+        "zh": "接地带组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27210",
+      "aliases": [],
+      "description": {
+        "en": "Ground strap assembly",
+        "zh": "接地带组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36030",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "36031",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "35957",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27640",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04265",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "21560",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "13200",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29465",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22940",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22965",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22995",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22985",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22970",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22975",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22980",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22320",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22325",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22330",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22310",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22315",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "15120",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "14850",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22690",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "15235",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "13240",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "13195",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "13235",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "15025",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38844",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38843",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38830",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29455",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22645",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38832",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "38831",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29445",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22650",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22815",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22800",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22805",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22795",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22820",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22810",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "15035",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "15030",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04015",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "03635",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "02800",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29680",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29590",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29720",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29610",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29575",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29565",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29580",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29630",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29605",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29615",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22190",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "28665",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "26885",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "26895",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "26880",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "26890",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "26705",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23700",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23345",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23695",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23600",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "26740",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "26735",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29685",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29690",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29570",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29585",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29640",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29625",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "28680",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23590",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23350",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23360",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23365",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "26745",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "21570",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "28695",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "27280",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "26710",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23595",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "26700",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23720",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "14610",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23660",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "09910",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "09905",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "13300",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23705",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23665",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "05435",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "09890",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "26875",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "14655",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "14650",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "14645",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "23650",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "09815",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04535",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "05350",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04210",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "03940",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "03260",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "10525",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "31935",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22860",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22865",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22835",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22840",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "21800",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "21795",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "21770",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "14580",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "12520",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "12530",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "12525",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "09915",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "12465",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "09825",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22215",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "09800",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "09445",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "06205",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "05420",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "04640",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "09245",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22830",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "22195",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29740",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "29675",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable assembly",
+        "zh": "电池电缆组件"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "brand": "American Autowire",
+      "identifier": "510904",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable installation materials kit",
+        "zh": "电池线缆安装材料套件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "80140",
+      "aliases": [],
+      "description": {
+        "en": "Battery circuit disconnect switch kit",
+        "zh": "电池回路断开开关套件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500726",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable installation materials kit",
+        "zh": "电池线缆安装材料套件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "50710",
+      "aliases": [],
+      "description": {
+        "en": "Battery circuit disconnect switch kit",
+        "zh": "电池回路断开开关套件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500725",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable installation materials kit",
+        "zh": "电池线缆安装材料套件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "40112",
+      "aliases": [],
+      "description": {
+        "en": "Battery circuit disconnect solenoid kit",
+        "zh": "电池回路断开电磁开关套件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500724",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable installation materials kit",
+        "zh": "电池线缆安装材料套件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "40106",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable junction terminal kit",
+        "zh": "电池线接线端子套件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500723",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable installation materials kit",
+        "zh": "电池线缆安装材料套件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "40103",
+      "aliases": [],
+      "description": {
+        "en": "Dual-battery control system component",
+        "zh": "双电池控制系统组件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "500337",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable installation materials kit",
+        "zh": "电池线缆安装材料套件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "40102",
+      "aliases": [],
+      "description": {
+        "en": "Dual-battery control system component",
+        "zh": "双电池控制系统组件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "40030",
+      "aliases": [],
+      "description": {
+        "en": "Electrical system surge protector",
+        "zh": "电气系统浪涌保护器"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "40026",
+      "aliases": [],
+      "description": {
+        "en": "Vehicle body grounding wire kit",
+        "zh": "车身接地线材料套件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30206",
+      "aliases": [],
+      "description": {
+        "en": "Battery circuit disconnect solenoid kit",
+        "zh": "电池回路断开电磁开关套件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "30204",
+      "aliases": [],
+      "description": {
+        "en": "Battery circuit disconnect switch kit",
+        "zh": "电池回路断开开关套件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "40105",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable and loose-terminal materials kit",
+        "zh": "电池线与散装端子材料套件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "40107",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable and loose-terminal materials kit",
+        "zh": "电池线与散装端子材料套件"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "40113",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable and loose-terminal materials kit",
+        "zh": "电池线与散装端子材料套件"
+      }
+    },
+    {
+      "brand": "American Autowire",
+      "identifier": "03882795",
+      "aliases": [],
+      "description": {
+        "en": "Battery cable junction block",
+        "zh": "电池电缆接线柱座"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Battery Cable Assembly",
+    "zh": "电池电缆组件"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "audited_subset",
+    "reason": {
+      "en": "This is the verified subset for the category. The target of 200 finished models and 200 materials remains incomplete.",
+      "zh": "此处为本类已核验子集，200个成品型号和200个材料料号的目标仍待继续补充。"
+    },
+    "audit_id": "resume-cable-specialty-approved-manifest.json",
+    "verified_counts": {
+      "products": 236,
+      "materials": 20
+    },
+    "target_status": "incomplete",
+    "target_counts": {
+      "products": 200,
+      "materials": 200
+    }
+  }
+}

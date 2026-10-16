@@ -1,0 +1,194 @@
+{
+  "version": 2,
+  "category_id": "connector-systems-18",
+  "route": "/products/conxall-compatible",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Finished cable and harness references for this interface or application.",
+        "zh": "此接口或应用方向的成品电缆与线束参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Connector, wire and process-material references for project selection.",
+        "zh": "供项目选型的连接器、线材与工艺材料参考。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Conxall Series",
+        "zh": "Conxall系列"
+      },
+      "copy": {
+        "en": "Identify the exact Micro-Con-X, Mini-Con-X, Multi-Con-X or shielded interface.",
+        "zh": "识别准确的Micro-Con-X、Mini-Con-X、Multi-Con-X或屏蔽型接口。"
+      }
+    },
+    {
+      "title": {
+        "en": "Contact Arrangement",
+        "zh": "触点排列"
+      },
+      "copy": {
+        "en": "Record the mating halves, contact sex and cavity view on the connection drawing.",
+        "zh": "在接线图中记录两侧对插件、触点公母与腔位观察方向。"
+      }
+    },
+    {
+      "title": {
+        "en": "Termination",
+        "zh": "端接方式"
+      },
+      "copy": {
+        "en": "Check the terminal method, conductor size and insulation diameter before preparing the cable.",
+        "zh": "制作线缆前核对端子方式、导体截面与绝缘外径。"
+      }
+    },
+    {
+      "title": {
+        "en": "Cable Entry",
+        "zh": "进线结构"
+      },
+      "copy": {
+        "en": "Match cable diameter, clamp and strain relief to the selected connector.",
+        "zh": "将线缆外径、夹持及应力释放结构与所选接头配套。"
+      }
+    },
+    {
+      "title": {
+        "en": "Panel or Inline",
+        "zh": "面板或直连"
+      },
+      "copy": {
+        "en": "Confirm mounting dimensions, exit direction and service clearance.",
+        "zh": "确认安装尺寸、出线方向与检修空间。"
+      }
+    },
+    {
+      "title": {
+        "en": "Mated Assembly Checks",
+        "zh": "对插组件检查"
+      },
+      "copy": {
+        "en": "Agree continuity, retention and any required sealing checks for the assembled mating state.",
+        "zh": "约定完整对插状态下的导通、保持及所需密封检查。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=connector-systems-18&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [],
+  "materials": [
+    {
+      "brand": "Switchcraft / Conxall",
+      "identifier": "6282-3SG-3DCW",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Con-X female solder-cup cable connector",
+        "zh": "Mini-Con-X 母端焊杯电缆连接器"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Conxall Compatible",
+    "zh": "Conxall兼容电缆组件"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "material_scope",
+    "reason": {
+      "en": "These references are connectors, wire or process materials; they are not counted as finished terminated assemblies.",
+      "zh": "这些编号属于连接器、线材或工艺材料，不计为已端接成品组件。"
+    },
+    "audit_id": "resume-brand-material-approved-manifest.json",
+    "verified_counts": {
+      "products": 0,
+      "materials": 1
+    }
+  }
+}

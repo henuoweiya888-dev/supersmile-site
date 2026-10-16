@@ -1,0 +1,536 @@
+{
+  "version": 2,
+  "category_id": "custom-harness-05",
+  "route": "/products/appliance-harness",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Finished cable and harness references for this interface or application.",
+        "zh": "此接口或应用方向的成品电缆与线束参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Connector, wire and process-material references for project selection.",
+        "zh": "供项目选型的连接器、线材与工艺材料参考。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Heater and cabinet temperature zones",
+        "zh": "加热区与机内温区"
+      },
+      "copy": {
+        "en": "Locate heater bodies, compressor surfaces and restricted ventilation before choosing insulation and sleeving. Review the actual local wire temperature rather than the appliance room temperature alone.",
+        "zh": "选择绝缘与套管前先标出加热体、压缩机表面及通风受限区域，审核导线所在位置的实际温度，不能只参考设备外部环境温度。"
+      }
+    },
+    {
+      "title": {
+        "en": "Power, motor and sensor branches",
+        "zh": "供电、电机与传感分支"
+      },
+      "copy": {
+        "en": "Separate the current and termination requirements of heaters, motors and control sensors. Record startup loads and branch lengths before selecting conductor sizes.",
+        "zh": "分别确认加热器、电机与控制传感器的电流及端接要求，选择导体规格前记录启动负载和各分支长度。"
+      }
+    },
+    {
+      "title": {
+        "en": "Board revision and appliance variant",
+        "zh": "控制板版本与设备变型"
+      },
+      "copy": {
+        "en": "Use the appliance variant, board revision and connector cavity map to identify the harness. A matching connector shape or appliance family name does not establish the same circuit.",
+        "zh": "依据设备变型、控制板版本和接口孔位表识别线束；接口外形相同或属于同一设备系列，并不能证明回路一致。"
+      }
+    },
+    {
+      "title": {
+        "en": "Edges, clips and moving parts",
+        "zh": "锐边、卡扣与运动部件"
+      },
+      "copy": {
+        "en": "Place grommets and fixing clips at sheet-metal entries, fan zones and moving assemblies. Check the assembly path so a finished connector is not forced through an undersized opening.",
+        "zh": "在钣金入口、风扇区域和运动组件附近安排护线圈与固定卡扣，并核对装配路径，避免已端接接口被迫穿过尺寸不足的开口。"
+      }
+    },
+    {
+      "title": {
+        "en": "Branch order and service access",
+        "zh": "分支顺序与维修可达性"
+      },
+      "copy": {
+        "en": "Set branch order around the production sequence and removable appliance panels. Labels and connector orientation should let a service technician replace a branch without disturbing unrelated wiring.",
+        "zh": "围绕生产装配顺序及可拆面板安排分支，标签与接口方向应便于维修人员更换局部分支，减少对其他布线的扰动。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sample and electrical acceptance",
+        "zh": "样品与电气验收"
+      },
+      "copy": {
+        "en": "Agree pin mapping, continuity, terminal retention, routing and the project-specific electrical inspection plan. Record the approved appliance variant and drawing revision with the sample.",
+        "zh": "约定针脚对应、导通、端子保持、布线以及项目适用的电气检验计划，并与样品一起记录已确认的设备变型和图纸版本。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=custom-harness-05&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "Maytag / Whirlpool",
+      "identifier": "W10920818",
+      "aliases": [],
+      "description": {
+        "en": "HMI board-to-board jumper harness",
+        "zh": "HMI板间跳线线束"
+      }
+    },
+    {
+      "brand": "Maytag / Whirlpool",
+      "identifier": "W11036819",
+      "aliases": [],
+      "description": {
+        "en": "Appliance Wi-Fi wiring harness",
+        "zh": "电器Wi-Fi连接线束"
+      }
+    },
+    {
+      "brand": "Maytag / Whirlpool",
+      "identifier": "W11157867",
+      "aliases": [],
+      "description": {
+        "en": "Appliance main wiring harness",
+        "zh": "电器主线束"
+      }
+    },
+    {
+      "brand": "Maytag / Whirlpool",
+      "identifier": "W10298258",
+      "aliases": [],
+      "description": {
+        "en": "Appliance sensor harness",
+        "zh": "电器传感器线束"
+      }
+    },
+    {
+      "brand": "Maytag / Whirlpool",
+      "identifier": "PT220L",
+      "aliases": [],
+      "description": {
+        "en": "Three-wire dryer power cord",
+        "zh": "三线干衣机电源线"
+      }
+    },
+    {
+      "brand": "Maytag / Whirlpool",
+      "identifier": "PT400L",
+      "aliases": [],
+      "description": {
+        "en": "Four-wire dryer power cord",
+        "zh": "四线干衣机电源线"
+      }
+    },
+    {
+      "brand": "Maytag / Whirlpool",
+      "identifier": "PT600L",
+      "aliases": [],
+      "description": {
+        "en": "Four-wire dryer power cord",
+        "zh": "四线干衣机电源线"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "brand": "Belden",
+      "identifier": "39126 010100",
+      "aliases": [
+        "39126 0101000",
+        "39126 0105000"
+      ],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39126 013100",
+      "aliases": [
+        "39126 0131000",
+        "39126 0135000"
+      ],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39126 0035000",
+      "aliases": [],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39126 001100",
+      "aliases": [
+        "39126 0011000",
+        "39126 0015000"
+      ],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39126 008100",
+      "aliases": [
+        "39126 0081000",
+        "39126 0085000"
+      ],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39126 005100",
+      "aliases": [
+        "39126 0051000",
+        "39126 0055000"
+      ],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39126 0031000",
+      "aliases": [],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39126 002100",
+      "aliases": [
+        "39126 0021000",
+        "39126 0025000"
+      ],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39126 007100",
+      "aliases": [
+        "39126 0071000",
+        "39126 0075000"
+      ],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39126 009100",
+      "aliases": [
+        "39126 0091000",
+        "39126 0095000"
+      ],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39126 004100",
+      "aliases": [
+        "39126 0041000",
+        "39126 0045000"
+      ],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "BE41490.00300",
+      "aliases": [],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "BE41490.05300",
+      "aliases": [],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "BE41490.04300",
+      "aliases": [],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "BE41490.06300",
+      "aliases": [],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "BE41490.03300",
+      "aliases": [],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "BE41490.02300",
+      "aliases": [],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "BE41490.01300",
+      "aliases": [],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "BE41508.00300",
+      "aliases": [
+        "BE41508.001500"
+      ],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "BE41508.05300",
+      "aliases": [
+        "BE41508.051500"
+      ],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "BE41508.03300",
+      "aliases": [
+        "BE41508.031500"
+      ],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "BE41508.04300",
+      "aliases": [
+        "BE41508.041500"
+      ],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "BE41508.02300",
+      "aliases": [
+        "BE41508.021500"
+      ],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "BE41508.01300",
+      "aliases": [
+        "BE41508.011500"
+      ],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Maytag / Whirlpool",
+      "identifier": "279318",
+      "aliases": [],
+      "description": {
+        "en": "Appliance terminal kit",
+        "zh": "电器接线端子套件"
+      }
+    },
+    {
+      "brand": "Maytag / Whirlpool",
+      "identifier": "3397659",
+      "aliases": [],
+      "description": {
+        "en": "Appliance terminal block",
+        "zh": "电器接线端子座"
+      }
+    },
+    {
+      "brand": "Maytag / Whirlpool",
+      "identifier": "279457",
+      "aliases": [],
+      "description": {
+        "en": "Heater wiring repair terminal kit",
+        "zh": "加热器线束维修端子套件"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Appliance Harness",
+    "zh": "电器设备线束"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "audited_subset",
+    "reason": {
+      "en": "This is the verified subset for the category. The target of 200 finished models and 200 materials remains incomplete.",
+      "zh": "此处为本类已核验子集，200个成品型号和200个材料料号的目标仍待继续补充。"
+    },
+    "audit_id": "resume-custom-harness-final-readback.json",
+    "verified_counts": {
+      "products": 7,
+      "materials": 27
+    },
+    "target_status": "incomplete",
+    "target_counts": {
+      "products": 200,
+      "materials": 200
+    }
+  }
+}

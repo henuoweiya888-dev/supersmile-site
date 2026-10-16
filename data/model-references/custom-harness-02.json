@@ -1,0 +1,7357 @@
+{
+  "version": 2,
+  "category_id": "custom-harness-02",
+  "route": "/products/control-panel-harness",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Finished cable and harness references for this interface or application.",
+        "zh": "此接口或应用方向的成品电缆与线束参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Connector, wire and process-material references for project selection.",
+        "zh": "供项目选型的连接器、线材与工艺材料参考。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Terminal schedule and connector views",
+        "zh": "端子表与接口视图"
+      },
+      "copy": {
+        "en": "Match each wire number to the terminal schedule and controller I/O list. Record whether connector views show the mating face or wire-entry side before freezing the pin map.",
+        "zh": "把每个线号对应到端子表与控制器I/O清单，并在冻结针脚表前注明接口图采用对插面还是进线面视图。"
+      }
+    },
+    {
+      "title": {
+        "en": "Door movement and service loops",
+        "zh": "柜门运动与检修余量"
+      },
+      "copy": {
+        "en": "Use door opening angle, hinge position and cable anchoring points to define a movement loop. Check branch reach with the door both open and closed.",
+        "zh": "依据柜门开启角度、铰链位置与固定点定义运动余量，并在柜门开启和关闭两种状态下核对分支长度。"
+      }
+    },
+    {
+      "title": {
+        "en": "Power and signal routes",
+        "zh": "动力与信号路径"
+      },
+      "copy": {
+        "en": "Mark power, relay-switching and sensitive signal branches on the layout. Define twisted pairs, shield exits and ground termination with the controller and cabinet design.",
+        "zh": "在布局图上标出动力、继电器开关与敏感信号分支，并配合控制器及柜体设计定义双绞、屏蔽出线与接地端接。"
+      }
+    },
+    {
+      "title": {
+        "en": "Ferrules and terminal access",
+        "zh": "管形端头与端子操作空间"
+      },
+      "copy": {
+        "en": "Confirm conductor size, ferrule barrel length and terminal clamping range together. Leave access for the specified screwdriver, connector latch and later replacement.",
+        "zh": "一起确认导体规格、管形端头管长与端子夹持范围，并为指定螺丝刀、接口卡扣和后续更换预留操作空间。"
+      }
+    },
+    {
+      "title": {
+        "en": "Ducts, conduit and labels",
+        "zh": "线槽、波纹管与标识"
+      },
+      "copy": {
+        "en": "Select duct size and branch exits from the actual bundle and installation sequence. Keep wire numbers readable after ducts, sleeves and retainers are installed.",
+        "zh": "根据实际线束束径和安装顺序选择线槽尺寸与分支出口，安装线槽、套管和挡线件后仍需能辨认线号。"
+      }
+    },
+    {
+      "title": {
+        "en": "Loose sets or panel-side assembly",
+        "zh": "散装套件或面板预装"
+      },
+      "copy": {
+        "en": "State which parts arrive fitted and which are installed by the customer. Approve a fixture or actual-panel fit check, terminal locations and continuity record for the first article.",
+        "zh": "明确哪些部件预装交付、哪些由客户安装，并为首件确认工装或实物面板适配检查、端子位置与导通记录。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=custom-harness-02&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1369904",
+      "aliases": [
+        "CABLE-FLK14/AXIO/OE/0,14/2,0M"
+      ],
+      "description": {
+        "en": "Preassembled controller system cable",
+        "zh": "控制器预制系统电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2904073",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299987",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2293857",
+      "aliases": [
+        "FLK 14/16/EZ-DR/ 250/S7"
+      ],
+      "description": {
+        "en": "Preassembled controller system cable",
+        "zh": "控制器预制系统电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305761",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2302052",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299013",
+      "aliases": [
+        "FLK 14/EZ-DR/ 300/KONFEK/S"
+      ],
+      "description": {
+        "en": "Preassembled controller system cable",
+        "zh": "控制器预制系统电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2318127",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2302120",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299466",
+      "aliases": [
+        "FLK 26/EZ-DR/1000/KONFEK"
+      ],
+      "description": {
+        "en": "Preassembled controller system cable",
+        "zh": "控制器预制系统电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305826",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2302191",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2314545",
+      "aliases": [
+        "FLK 40-PA/EZ-DR/KS/2500/YUC"
+      ],
+      "description": {
+        "en": "Preassembled controller system cable",
+        "zh": "控制器预制系统电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305871",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2302269",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305253",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299990",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2318130",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2302065",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305305",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2302133",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305350",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2302201",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2904075",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2302272",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305266",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2300009",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2318143",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2302078",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305318",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2302146",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305363",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2302214",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2904076",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2302285",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305279",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2302010",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2318156",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2302081",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305321",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2302159",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305376",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2302227",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2904077",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2302298",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305282",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2302023",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305334",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2302094",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305389",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2302162",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2904078",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2302230",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305295",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2302308",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2318172",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2302036",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305347",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2302104",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305392",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2302175",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305774",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2302243",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2318185",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2302311",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305839",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2302049",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305884",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2302117",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2904080",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2302188",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305787",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2302256",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2318198",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2302324",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305842",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305415",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305897",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305444",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305790",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305473",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2318208",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305509",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305855",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305541",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305907",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305428",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305800",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305457",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2318211",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305486",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305868",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305512",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305910",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305554",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299204",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305431",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2288901",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305460",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299291",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305499",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2296391",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305525",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299385",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305567",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299479",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2900759",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2288985",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2900760",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2289065",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2900761",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299217",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2900762",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2288914",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2900763",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299301",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2900764",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2296401",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305570",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299398",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305606",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299482",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305635",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2288998",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305664",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2289078",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305693",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299220",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305583",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2288927",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305619",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299314",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305648",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2296472",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305677",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299408",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305703",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299495",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305596",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2289007",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305622",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2289081",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305651",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299233",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305680",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2288930",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305716",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299327",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066591",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2296485",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066600",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299411",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066665",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299505",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066608",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2289010",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066678",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2289094",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066592",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2288943",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066602",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2289023",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066666",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2289104",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066609",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299246",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066679",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2288956",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066593",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299330",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066603",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2296498",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066667",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299424",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066611",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299518",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066681",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2289036",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066587",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2289117",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066597",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2288969",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066657",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2289049",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2908516",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2289120",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066672",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299259",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066588",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2288972",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066598",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299343",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066660",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2296508",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2908517",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299437",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066673",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299521",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066589",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2289052",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066599",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2289133",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066664",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299262",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2908518",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2290863",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066674",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299356",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066594",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2296511",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066604",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299440",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066668",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299534",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066612",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299589",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066682",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2289609",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066595",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299275",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066606",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299563",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066669",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299369",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066614",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2296524",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066683",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299453",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066596",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299547",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066607",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299592",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066671",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2289641",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066615",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299576",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1066684",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299372",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926014",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2296537",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926085",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299550",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926153",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299602",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926221",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2289683",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926292",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2296977",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926027",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299097",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926098",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305952",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926166",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2314134",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926234",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2296980",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926302",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299107",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926030",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305965",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926108",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2314147",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926179",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2296993",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926247",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299110",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926315",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305978",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926043",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2314150",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926111",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2297002",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926182",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299123",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926250",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305981",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926328",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2314163",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926056",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2305994",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926124",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2314176",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926195",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299136",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926263",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2304759",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926331",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2314189",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926069",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299026",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926137",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299149",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926205",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2304762",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926276",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2314192",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926344",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299039",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926072",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299152",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926140",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2306003",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926218",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299042",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926289",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299055",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926357",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299178",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926360",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2314244",
+      "aliases": [],
+      "description": {
+        "en": "IDC/FLK preassembled controller cable",
+        "zh": "IDC/FLK控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926438",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926506",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926577",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926645",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926373",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926441",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926519",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926580",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926658",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926386",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926454",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926522",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926593",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926661",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926399",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926467",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926535",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926603",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926674",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926409",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926470",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926548",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926616",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926687",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926412",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926483",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926551",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926629",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926690",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926425",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926496",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926564",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926632",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2926700",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2304649",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2304652",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2304665",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2304678",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2908519",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2908520",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2908521",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2908522",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1119198",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1119200",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1119202",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1119204",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1331995",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1331992",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1331987",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1331982",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1258787",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1258793",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1258819",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1258820",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1276251",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1276385",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1276387",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1276388",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1210707",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1210706",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1210708",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1222442",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1222438",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1222447",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1222255",
+      "aliases": [],
+      "description": {
+        "en": "D-SUB preassembled controller cable",
+        "zh": "D-SUB控制器预制电缆"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11100",
+      "aliases": [
+        "HG-SW10"
+      ],
+      "description": {
+        "en": "Corrugated cable-protection conduit",
+        "zh": "线缆防护波纹管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-00060",
+      "aliases": [
+        "HEGPX06"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "184-10068",
+      "aliases": [
+        "HTWD-PN-25X40"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "164-11008",
+      "aliases": [
+        "HelaDuct Flex10"
+      ],
+      "description": {
+        "en": "Flexible cabinet cable support",
+        "zh": "控制柜柔性线缆支撑件"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-50480",
+      "aliases": [
+        "HTWD-BWR-40X80"
+      ],
+      "description": {
+        "en": "Wiring-duct fixing or retaining component",
+        "zh": "布线槽固定或挡线配件"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2322265",
+      "aliases": [
+        "VIP-3/SC/FLK14/8IM/LED/PLC"
+      ],
+      "description": {
+        "en": "Controller sensor interface module",
+        "zh": "控制器传感器接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903787",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2295554",
+      "aliases": [],
+      "description": {
+        "en": "Controller relay interface adapter",
+        "zh": "控制器继电器接口适配器"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11101",
+      "aliases": [
+        "HG-SW11"
+      ],
+      "description": {
+        "en": "Corrugated cable-protection conduit",
+        "zh": "线缆防护波纹管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-00090",
+      "aliases": [
+        "HEGPX09"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "184-10138",
+      "aliases": [
+        "HTWD-PN-25X60"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "164-11108",
+      "aliases": [
+        "HelaDuct Flex10SK"
+      ],
+      "description": {
+        "en": "Flexible cabinet cable support",
+        "zh": "控制柜柔性线缆支撑件"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-50440",
+      "aliases": [
+        "HTWD-BWR-40X40"
+      ],
+      "description": {
+        "en": "Wiring-duct fixing or retaining component",
+        "zh": "布线槽固定或挡线配件"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2315010",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2304102",
+      "aliases": [],
+      "description": {
+        "en": "Controller relay interface adapter",
+        "zh": "控制器继电器接口适配器"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11102",
+      "aliases": [
+        "HG-SW13"
+      ],
+      "description": {
+        "en": "Corrugated cable-protection conduit",
+        "zh": "线缆防护波纹管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-00120",
+      "aliases": [
+        "HEGPX12"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "184-10198",
+      "aliases": [
+        "HTWD-PN-25X80"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "164-21008",
+      "aliases": [
+        "HelaDuct Flex20"
+      ],
+      "description": {
+        "en": "Flexible cabinet cable support",
+        "zh": "控制柜柔性线缆支撑件"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-50460",
+      "aliases": [
+        "HTWD-BWR-40X60"
+      ],
+      "description": {
+        "en": "Wiring-duct fixing or retaining component",
+        "zh": "布线槽固定或挡线配件"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903788",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2296553",
+      "aliases": [],
+      "description": {
+        "en": "Controller relay interface adapter",
+        "zh": "控制器继电器接口适配器"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11103",
+      "aliases": [
+        "HG-SW16",
+        "166-11110"
+      ],
+      "description": {
+        "en": "Corrugated cable-protection conduit",
+        "zh": "线缆防护波纹管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-00200",
+      "aliases": [
+        "HEGPX20"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "184-10078",
+      "aliases": [
+        "HTWD-PN-40X40"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "164-21108",
+      "aliases": [
+        "HelaDuct Flex20SK"
+      ],
+      "description": {
+        "en": "Flexible cabinet cable support",
+        "zh": "控制柜柔性线缆支撑件"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-50660",
+      "aliases": [
+        "HTWD-BWR-60X60"
+      ],
+      "description": {
+        "en": "Wiring-duct fixing or retaining component",
+        "zh": "布线槽固定或挡线配件"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2315023",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2304115",
+      "aliases": [],
+      "description": {
+        "en": "Controller relay interface adapter",
+        "zh": "控制器继电器接口适配器"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11104",
+      "aliases": [
+        "HG-SW21",
+        "166-11111"
+      ],
+      "description": {
+        "en": "Corrugated cable-protection conduit",
+        "zh": "线缆防护波纹管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-00300",
+      "aliases": [
+        "HEGPX30"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "184-10148",
+      "aliases": [
+        "HTWD-PN-40X60"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "164-31008",
+      "aliases": [
+        "HelaDuct Flex30"
+      ],
+      "description": {
+        "en": "Flexible cabinet cable support",
+        "zh": "控制柜柔性线缆支撑件"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-50680",
+      "aliases": [
+        "HTWD-BWR-60X80"
+      ],
+      "description": {
+        "en": "Wiring-duct fixing or retaining component",
+        "zh": "布线槽固定或挡线配件"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903789",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2296061",
+      "aliases": [],
+      "description": {
+        "en": "Controller relay interface adapter",
+        "zh": "控制器继电器接口适配器"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11112",
+      "aliases": [
+        "HG-SW28",
+        "166-11105"
+      ],
+      "description": {
+        "en": "Corrugated cable-protection conduit",
+        "zh": "线缆防护波纹管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-00400",
+      "aliases": [
+        "HEGPX40"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "184-10208",
+      "aliases": [
+        "HTWD-PN-40X80"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "164-31108",
+      "aliases": [
+        "HelaDuct Flex30SK"
+      ],
+      "description": {
+        "en": "Flexible cabinet cable support",
+        "zh": "控制柜柔性线缆支撑件"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-50690",
+      "aliases": [
+        "HTWD-BWR-60X100"
+      ],
+      "description": {
+        "en": "Wiring-duct fixing or retaining component",
+        "zh": "布线槽固定或挡线配件"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2315036",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2296087",
+      "aliases": [],
+      "description": {
+        "en": "Controller relay interface adapter",
+        "zh": "控制器继电器接口适配器"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11118",
+      "aliases": [
+        "HG-SW34",
+        "166-11106"
+      ],
+      "description": {
+        "en": "Corrugated cable-protection conduit",
+        "zh": "线缆防护波纹管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "184-10258",
+      "aliases": [
+        "HTWD-PN-40X100"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "164-41008",
+      "aliases": [
+        "HelaDuct Flex40"
+      ],
+      "description": {
+        "en": "Flexible cabinet cable support",
+        "zh": "控制柜柔性线缆支撑件"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-50640",
+      "aliases": [
+        "HTWD-BWR-60X40"
+      ],
+      "description": {
+        "en": "Wiring-duct fixing or retaining component",
+        "zh": "布线槽固定或挡线配件"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903790",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2296058",
+      "aliases": [],
+      "description": {
+        "en": "Controller relay interface adapter",
+        "zh": "控制器继电器接口适配器"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11113",
+      "aliases": [
+        "HG-SW42"
+      ],
+      "description": {
+        "en": "Corrugated cable-protection conduit",
+        "zh": "线缆防护波纹管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "184-10088",
+      "aliases": [
+        "HTWD-PN-60X40"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "164-41108",
+      "aliases": [
+        "HelaDuct Flex40SK"
+      ],
+      "description": {
+        "en": "Flexible cabinet cable support",
+        "zh": "控制柜柔性线缆支撑件"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-50860",
+      "aliases": [
+        "HTWD-BWR-80X60"
+      ],
+      "description": {
+        "en": "Wiring-duct fixing or retaining component",
+        "zh": "布线槽固定或挡线配件"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2315049",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2296074",
+      "aliases": [],
+      "description": {
+        "en": "Controller relay interface adapter",
+        "zh": "控制器继电器接口适配器"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11114",
+      "aliases": [
+        "HG-SW54"
+      ],
+      "description": {
+        "en": "Corrugated cable-protection conduit",
+        "zh": "线缆防护波纹管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "184-10158",
+      "aliases": [
+        "HTWD-PN-60X60"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-50880",
+      "aliases": [
+        "HTWD-BWR-80X80"
+      ],
+      "description": {
+        "en": "Wiring-duct fixing or retaining component",
+        "zh": "布线槽固定或挡线配件"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903791",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2299660",
+      "aliases": [],
+      "description": {
+        "en": "Controller relay interface adapter",
+        "zh": "控制器继电器接口适配器"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11109",
+      "aliases": [
+        "HG-SW67"
+      ],
+      "description": {
+        "en": "Corrugated cable-protection conduit",
+        "zh": "线缆防护波纹管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "184-10218",
+      "aliases": [
+        "HTWD-PN-60X80"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-50890",
+      "aliases": [
+        "HTWD-BWR-80X100"
+      ],
+      "description": {
+        "en": "Wiring-duct fixing or retaining component",
+        "zh": "布线槽固定或挡线配件"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2315052",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2304306",
+      "aliases": [],
+      "description": {
+        "en": "Controller relay interface adapter",
+        "zh": "控制器继电器接口适配器"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11200",
+      "aliases": [
+        "HG-LW10"
+      ],
+      "description": {
+        "en": "Corrugated cable-protection conduit",
+        "zh": "线缆防护波纹管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "184-10268",
+      "aliases": [
+        "HTWD-PN-60X100"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-51090",
+      "aliases": [
+        "HTWD-BWR-100X100"
+      ],
+      "description": {
+        "en": "Wiring-duct fixing or retaining component",
+        "zh": "布线槽固定或挡线配件"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903792",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1104789",
+      "aliases": [],
+      "description": {
+        "en": "Controller relay interface adapter",
+        "zh": "控制器继电器接口适配器"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11201",
+      "aliases": [
+        "HG-LW11"
+      ],
+      "description": {
+        "en": "Corrugated cable-protection conduit",
+        "zh": "线缆防护波纹管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "184-10098",
+      "aliases": [
+        "HTWD-PN-80X40"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-51060",
+      "aliases": [
+        "HTWD-BWR-100X60"
+      ],
+      "description": {
+        "en": "Wiring-duct fixing or retaining component",
+        "zh": "布线槽固定或挡线配件"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2315065",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2905195",
+      "aliases": [],
+      "description": {
+        "en": "Controller relay interface adapter",
+        "zh": "控制器继电器接口适配器"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11202",
+      "aliases": [
+        "HG-LW13"
+      ],
+      "description": {
+        "en": "Corrugated cable-protection conduit",
+        "zh": "线缆防护波纹管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "184-10168",
+      "aliases": [
+        "HTWD-PN-80X60"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-51080",
+      "aliases": [
+        "HTWD-BWR-100X80"
+      ],
+      "description": {
+        "en": "Wiring-duct fixing or retaining component",
+        "zh": "布线槽固定或挡线配件"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903793",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2900314",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11203",
+      "aliases": [
+        "HG-LW16"
+      ],
+      "description": {
+        "en": "Corrugated cable-protection conduit",
+        "zh": "线缆防护波纹管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "184-10228",
+      "aliases": [
+        "HTWD-PN-80X80"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-51280",
+      "aliases": [
+        "HTWD-BWR-120X80"
+      ],
+      "description": {
+        "en": "Wiring-duct fixing or retaining component",
+        "zh": "布线槽固定或挡线配件"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2315078",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2966320",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11204",
+      "aliases": [
+        "HG-LW21"
+      ],
+      "description": {
+        "en": "Corrugated cable-protection conduit",
+        "zh": "线缆防护波纹管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "184-10329",
+      "aliases": [
+        "HTWD-PN-80X100"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-51260",
+      "aliases": [
+        "HTWD-BWR-120X60"
+      ],
+      "description": {
+        "en": "Wiring-duct fixing or retaining component",
+        "zh": "布线槽固定或挡线配件"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903794",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2900315",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11205",
+      "aliases": [
+        "HG-LW28"
+      ],
+      "description": {
+        "en": "Corrugated cable-protection conduit",
+        "zh": "线缆防护波纹管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "184-10108",
+      "aliases": [
+        "HTWD-PN-100X40"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-51590",
+      "aliases": [
+        "HTWD-BWR-150X100"
+      ],
+      "description": {
+        "en": "Wiring-duct fixing or retaining component",
+        "zh": "布线槽固定或挡线配件"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2315081",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2966333",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11206",
+      "aliases": [
+        "HG-LW34"
+      ],
+      "description": {
+        "en": "Corrugated cable-protection conduit",
+        "zh": "线缆防护波纹管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "184-10178",
+      "aliases": [
+        "HTWD-PN-100X60"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-10020",
+      "aliases": [
+        "HTWD-NFWR"
+      ],
+      "description": {
+        "en": "Wiring-duct fixing or retaining component",
+        "zh": "布线槽固定或挡线配件"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903795",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2900313",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11207",
+      "aliases": [
+        "HG-LW42"
+      ],
+      "description": {
+        "en": "Corrugated cable-protection conduit",
+        "zh": "线缆防护波纹管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "184-10238",
+      "aliases": [
+        "HTWD-PN-100X80"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-10010",
+      "aliases": [
+        "HTWD-WFWR"
+      ],
+      "description": {
+        "en": "Wiring-duct fixing or retaining component",
+        "zh": "布线槽固定或挡线配件"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2315094",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2966317",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11208",
+      "aliases": [
+        "HG-LW54"
+      ],
+      "description": {
+        "en": "Corrugated cable-protection conduit",
+        "zh": "线缆防护波纹管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "184-10278",
+      "aliases": [
+        "HTWD-PN-100X100"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-45029",
+      "aliases": [
+        "HTWD-CTH"
+      ],
+      "description": {
+        "en": "Wiring-duct fixing or retaining component",
+        "zh": "布线槽固定或挡线配件"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903796",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2900359",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11209",
+      "aliases": [
+        "HG-LW67"
+      ],
+      "description": {
+        "en": "Corrugated cable-protection conduit",
+        "zh": "线缆防护波纹管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "184-10188",
+      "aliases": [
+        "HTWD-PN-120X60"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-42400",
+      "aliases": [
+        "HTWD-R4"
+      ],
+      "description": {
+        "en": "Wiring-duct fixing or retaining component",
+        "zh": "布线槽固定或挡线配件"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2315104",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2966799",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11800",
+      "aliases": [
+        "HG-DC11"
+      ],
+      "description": {
+        "en": "Corrugated cable-protection conduit",
+        "zh": "线缆防护波纹管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "184-10248",
+      "aliases": [
+        "HTWD-PN-120X80"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-42600",
+      "aliases": [
+        "HTWD-R6"
+      ],
+      "description": {
+        "en": "Wiring-duct fixing or retaining component",
+        "zh": "布线槽固定或挡线配件"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903777",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2900361",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11801",
+      "aliases": [
+        "HG-DC13"
+      ],
+      "description": {
+        "en": "Corrugated cable-protection conduit",
+        "zh": "线缆防护波纹管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-10018",
+      "aliases": [
+        "HTWD-PW-15X18"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-42500",
+      "aliases": [],
+      "description": {
+        "en": "Wiring-duct fixing or retaining component",
+        "zh": "布线槽固定或挡线配件"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2315117",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2966809",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11802",
+      "aliases": [
+        "HG-DC16"
+      ],
+      "description": {
+        "en": "Corrugated cable-protection conduit",
+        "zh": "线缆防护波纹管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-10038",
+      "aliases": [
+        "HTWD-PW-15X30"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903779",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2900358",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11803",
+      "aliases": [
+        "HG-DC21"
+      ],
+      "description": {
+        "en": "Corrugated cable-protection conduit",
+        "zh": "线缆防护波纹管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-10058",
+      "aliases": [
+        "HTWD-PW-15X40"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2315120",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2966773",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11804",
+      "aliases": [
+        "HG-DC28"
+      ],
+      "description": {
+        "en": "Corrugated cable-protection conduit",
+        "zh": "线缆防护波纹管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-10118",
+      "aliases": [
+        "HTWD-PW-15X60"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903781",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2900312",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11805",
+      "aliases": [
+        "HG-DC34"
+      ],
+      "description": {
+        "en": "Corrugated cable-protection conduit",
+        "zh": "线缆防护波纹管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-10028",
+      "aliases": [
+        "HTWD-PW-25X30"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2315133",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2966210",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11806",
+      "aliases": [
+        "HG-DC42"
+      ],
+      "description": {
+        "en": "Corrugated cable-protection conduit",
+        "zh": "线缆防护波纹管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-10068",
+      "aliases": [
+        "HTWD-PW-25X40"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903783",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2900299",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "166-11807",
+      "aliases": [
+        "HG-DC54"
+      ],
+      "description": {
+        "en": "Corrugated cable-protection conduit",
+        "zh": "线缆防护波纹管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-10138",
+      "aliases": [
+        "HTWD-PW-25X60"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2315146",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2966171",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-10198",
+      "aliases": [
+        "HTWD-PW-25X80"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903785",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2900376",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-10328",
+      "aliases": [
+        "HTWD-PW-25X100"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2315159",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2966676",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-10078",
+      "aliases": [
+        "HTWD-PW-40X40"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903778",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2900369",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-10148",
+      "aliases": [
+        "HTWD-PW-40X60"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2315162",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2967840",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-10208",
+      "aliases": [
+        "HTWD-PW-40X80"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903780",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2900364",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-10258",
+      "aliases": [
+        "HTWD-PW-40X100"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2315175",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2966634",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-10088",
+      "aliases": [
+        "HTWD-PW-60X40"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903782",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2900291",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-10158",
+      "aliases": [
+        "HTWD-PW-60X60"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2315188",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2967620",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-10218",
+      "aliases": [
+        "HTWD-PW-60X80"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903784",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1078683",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-10268",
+      "aliases": [
+        "HTWD-PW-60X100"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2315191",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1078680",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-10098",
+      "aliases": [
+        "HTWD-PW-80X40"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903786",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2900330",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-10168",
+      "aliases": [
+        "HTWD-PW-80X60"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2315201",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2967060",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-10228",
+      "aliases": [
+        "HTWD-PW-80X80"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2904269",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1194158",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-10329",
+      "aliases": [
+        "HTWD-PW-80X100"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2322375",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2982786",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-10108",
+      "aliases": [
+        "HTWD-PW-100X40"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2904270",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903342",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-10178",
+      "aliases": [
+        "HTWD-PW-100X60"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2322388",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903358",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-10238",
+      "aliases": [
+        "HTWD-PW-100X80"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2904271",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903334",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-10278",
+      "aliases": [
+        "HTWD-PW-100X100"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2322391",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903350",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-10188",
+      "aliases": [
+        "HTWD-PW-120X60"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2904272",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903338",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-10248",
+      "aliases": [
+        "HTWD-PW-120X80"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2322401",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903354",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "181-10288",
+      "aliases": [
+        "HTWD-PW-150X100"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2904273",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903330",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "185-42020",
+      "aliases": [
+        "HTWD-PD-20X20"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2322414",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903346",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "185-42037",
+      "aliases": [
+        "HTWD-PD-20X37.5"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2904274",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2979472",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "185-42050",
+      "aliases": [
+        "HTWD-PD-20X50"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2322427",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2969055",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "185-42525",
+      "aliases": [
+        "HTWD-PD-25X25"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2904275",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1089344",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "185-42550",
+      "aliases": [
+        "HTWD-PD-25X50"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2322430",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2311108",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "185-42575",
+      "aliases": [
+        "HTWD-PD-25X75"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2904290",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2900899",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "185-43725",
+      "aliases": [
+        "HTWD-PD-37.5X25"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2900701",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2311111",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "185-43737",
+      "aliases": [
+        "HTWD-PD-37.5X37.5"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2315256",
+      "aliases": [],
+      "description": {
+        "en": "Potential distribution module",
+        "zh": "电位分配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2900898",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "185-43750",
+      "aliases": [
+        "HTWD-PD-37.5X50"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903797",
+      "aliases": [],
+      "description": {
+        "en": "Potential distribution module",
+        "zh": "电位分配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2310222",
+      "aliases": [],
+      "description": {
+        "en": "Control-cabinet relay module",
+        "zh": "控制柜继电器模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "185-43775",
+      "aliases": [
+        "HTWD-PD-37.5X75"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903603",
+      "aliases": [],
+      "description": {
+        "en": "Potential distribution module",
+        "zh": "电位分配模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "185-45050",
+      "aliases": [
+        "HTWD-PD-50X50"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2315269",
+      "aliases": [],
+      "description": {
+        "en": "Potential distribution module",
+        "zh": "电位分配模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "185-45075",
+      "aliases": [
+        "HTWD-PD-50X75"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903798",
+      "aliases": [],
+      "description": {
+        "en": "Potential distribution module",
+        "zh": "电位分配模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "185-45010",
+      "aliases": [
+        "HTWD-PD-50X100"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2315272",
+      "aliases": [],
+      "description": {
+        "en": "Potential distribution module",
+        "zh": "电位分配模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "185-47550",
+      "aliases": [
+        "HTWD-PD-75X50"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903799",
+      "aliases": [],
+      "description": {
+        "en": "Potential distribution module",
+        "zh": "电位分配模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "185-47575",
+      "aliases": [
+        "HTWD-PD-75X75"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903717",
+      "aliases": [],
+      "description": {
+        "en": "Potential distribution module",
+        "zh": "电位分配模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "185-47510",
+      "aliases": [
+        "HTWD-PD-75X100"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903800",
+      "aliases": [],
+      "description": {
+        "en": "Potential distribution module",
+        "zh": "电位分配模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "185-41050",
+      "aliases": [
+        "HTWD-PD-100X50"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2976284",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "185-41075",
+      "aliases": [
+        "HTWD-PD-100X75"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2976297",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "185-41010",
+      "aliases": [
+        "HTWD-PD-100X100"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2975890",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "185-41250",
+      "aliases": [
+        "HTWD-PD-125X50"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2975900",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "185-41275",
+      "aliases": [
+        "HTWD-PD-125X75"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903052",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "183-22525",
+      "aliases": [
+        "HTWD-HF-25X25"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2283870",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "183-22540",
+      "aliases": [
+        "HTWD-HF-25X40"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903063",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "183-25060",
+      "aliases": [
+        "HTWD-HF-25X60"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2287135",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "183-22580",
+      "aliases": [
+        "HTWD-HF-25X80"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903054",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "183-24025",
+      "aliases": [
+        "HTWD-HF-40X25"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2280297",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "183-24040",
+      "aliases": [
+        "HTWD-HF-40X40"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903065",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "183-24060",
+      "aliases": [
+        "HTWD-HF-40X60"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2280307",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "183-24080",
+      "aliases": [
+        "HTWD-HF-40X80"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903055",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "183-26040",
+      "aliases": [
+        "HTWD-HF-60X40"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2280310",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "183-26060",
+      "aliases": [
+        "HTWD-HF-60X60"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903067",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "183-26080",
+      "aliases": [
+        "HTWD-HF-60X80"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2280323",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "183-26010",
+      "aliases": [
+        "HTWD-HF-60X100"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903056",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "183-28040",
+      "aliases": [
+        "HTWD-HF-80X40"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2280336",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "183-28060",
+      "aliases": [
+        "HTWD-HF-80X60"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903069",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "183-28080",
+      "aliases": [
+        "HTWD-HF-80X80"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2280349",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "183-28010",
+      "aliases": [
+        "HTWD-HF-80X100"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903058",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "183-22040",
+      "aliases": [
+        "HTWD-HF-100X40"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2291286",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "183-21060",
+      "aliases": [
+        "HTWD-HF-100X60"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903070",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "183-21080",
+      "aliases": [
+        "HTWD-HF-100X80"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2287669",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "183-21010",
+      "aliases": [
+        "HTWD-HF-100X100"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1278826",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "183-21260",
+      "aliases": [
+        "HTWD-HF-120X60"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1278825",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "183-21280",
+      "aliases": [
+        "HTWD-HF-120X80"
+      ],
+      "description": {
+        "en": "Control-panel wiring duct",
+        "zh": "控制面板布线槽"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1278799",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1278798",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1278824",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1278800",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1278796",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1278794",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1278788",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal interface module",
+        "zh": "控制器端子接口模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903801",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2315214",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2904284",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2322294",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2904283",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2322281",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2904282",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2322278",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2290423",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2304539",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2304513",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2304526",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2302861",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903803",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2315227",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2904286",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2322317",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2289719",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2291121",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2284523",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2290614",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2904288",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2322333",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2901423",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2322029",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2900622",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2900924",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2901879",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2904277",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2900676",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2904278",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2900786",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2904276",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2900675",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2903208",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1099751",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1166173",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1076338",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1100967",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1100964",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1274077",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1274083",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1274065",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1089346",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1089345",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2907384",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2907383",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2907382",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2907381",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2907386",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2907385",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2908496",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2908495",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2908499",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2908497",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2909893",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2908465",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2908464",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2908846",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2908845",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2909894",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2314451",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2901896",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2901013",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2311360",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2314464",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2321884",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2321923",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2314642",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2314723",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2901056",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2314752",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2314286",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2314273",
+      "aliases": [],
+      "description": {
+        "en": "Controller terminal or front-adapter module",
+        "zh": "控制器端子或前接线适配模块"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Control Panel Harness",
+    "zh": "控制面板线束"
+  }
+}

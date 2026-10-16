@@ -1,0 +1,1800 @@
+{
+  "version": 2,
+  "category_id": "custom-harness-09",
+  "route": "/products/braided-protection-harness",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Finished cable and harness references for this interface or application.",
+        "zh": "此接口或应用方向的成品电缆与线束参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Connector, wire and process-material references for project selection.",
+        "zh": "供项目选型的连接器、线材与工艺材料参考。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Mechanical protection or shielding",
+        "zh": "机械防护或屏蔽用途"
+      },
+      "copy": {
+        "en": "Specify whether the sleeve provides abrasion protection, bundle organisation or electrical shielding. Conductive braid requires a separate end-termination and grounding definition.",
+        "zh": "明确套管用于耐磨、整理束线还是电气屏蔽；导电编织层还需单独定义端部端接和接地方式。"
+      }
+    },
+    {
+      "title": {
+        "en": "Maximum bundle and connector envelope",
+        "zh": "最大束径与接口外廓"
+      },
+      "copy": {
+        "en": "Measure the largest bundle, splice and connector that the sleeve must pass over. Check expansion and recovery on a sample; nominal braid size alone does not define the installation fit.",
+        "zh": "测量套管需要穿过的最大束径、接点和接口外廓，并通过样品核对扩张与回缩情况，不能只按编织套标称尺寸判断装配适配。"
+      }
+    },
+    {
+      "title": {
+        "en": "Split or closed construction",
+        "zh": "开口式或闭口式结构"
+      },
+      "copy": {
+        "en": "Choose closed sleeving for assembly before termination or a split/reclosable sleeve for later access. Define overlap at bends and branch exits to avoid gaps after routing.",
+        "zh": "端接前装配可选择闭口套管，需要后续拆装可选择开口或可重复闭合套管，并定义弯曲处与分支出口的搭接量，避免布线后露缝。"
+      }
+    },
+    {
+      "title": {
+        "en": "Cut edges and branch transitions",
+        "zh": "切口与分支过渡"
+      },
+      "copy": {
+        "en": "Match cutting and edge restraint to the sleeve material. Confirm end fixation, local heat-shrink or binding and the transition at every breakout on the first article.",
+        "zh": "让裁切和切口收束方式匹配套管材料，并在首件上确认端部固定、局部热缩或绑扎以及每处分支的过渡。"
+      }
+    },
+    {
+      "title": {
+        "en": "Environment and rubbing points",
+        "zh": "使用环境与摩擦位置"
+      },
+      "copy": {
+        "en": "Identify recurring contact with brackets, fluids, heat and moving equipment. Review sleeve material and local reinforcement at those points instead of applying one protection choice everywhere.",
+        "zh": "识别与支架反复摩擦、接触液体、靠近热源或设备运动的位置，再逐处审核套管材料及局部加强方式。"
+      }
+    },
+    {
+      "title": {
+        "en": "Appearance and repeatable coverage",
+        "zh": "外观与覆盖一致性"
+      },
+      "copy": {
+        "en": "Define the exposed length, braid coverage, fastening locations and branch appearance on the sample. Use these dimensions as production inspection points rather than a general appearance request.",
+        "zh": "在样品上定义裸露长度、编织覆盖、固定位置及分支外观，并把具体尺寸作为量产检验点。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=custom-harness-09&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [],
+  "materials": [
+    {
+      "brand": "Painless Performance",
+      "identifier": "70973",
+      "aliases": [],
+      "description": {
+        "en": "Braided protective sleeving kit",
+        "zh": "编织防护套管材料包"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "70971",
+      "aliases": [],
+      "description": {
+        "en": "Braided protective sleeving kit",
+        "zh": "编织防护套管材料包"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "70970",
+      "aliases": [],
+      "description": {
+        "en": "Braided protective sleeving kit",
+        "zh": "编织防护套管材料包"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "70960",
+      "aliases": [],
+      "description": {
+        "en": "Braided protective sleeving",
+        "zh": "编织防护套管"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "70959",
+      "aliases": [],
+      "description": {
+        "en": "Braided protective sleeving",
+        "zh": "编织防护套管"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "70958",
+      "aliases": [],
+      "description": {
+        "en": "Braided protective sleeving",
+        "zh": "编织防护套管"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "70957",
+      "aliases": [],
+      "description": {
+        "en": "Braided protective sleeving",
+        "zh": "编织防护套管"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "70956",
+      "aliases": [],
+      "description": {
+        "en": "Braided protective sleeving",
+        "zh": "编织防护套管"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "70923",
+      "aliases": [],
+      "description": {
+        "en": "Braided protective sleeving kit",
+        "zh": "编织防护套管材料包"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "70922",
+      "aliases": [],
+      "description": {
+        "en": "Braided protective sleeving kit",
+        "zh": "编织防护套管材料包"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "70921",
+      "aliases": [],
+      "description": {
+        "en": "Braided protective sleeving kit",
+        "zh": "编织防护套管材料包"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "70920",
+      "aliases": [],
+      "description": {
+        "en": "Braided protective sleeving kit",
+        "zh": "编织防护套管材料包"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "70916",
+      "aliases": [],
+      "description": {
+        "en": "Braided protective sleeving",
+        "zh": "编织防护套管"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "70910",
+      "aliases": [],
+      "description": {
+        "en": "Braided protective sleeving",
+        "zh": "编织防护套管"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "70904",
+      "aliases": [],
+      "description": {
+        "en": "Braided protective sleeving",
+        "zh": "编织防护套管"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "70903",
+      "aliases": [],
+      "description": {
+        "en": "Braided protective sleeving",
+        "zh": "编织防护套管"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "70902",
+      "aliases": [],
+      "description": {
+        "en": "Braided protective sleeving",
+        "zh": "编织防护套管"
+      }
+    },
+    {
+      "brand": "Painless Performance",
+      "identifier": "70901",
+      "aliases": [],
+      "description": {
+        "en": "Braided protective sleeving",
+        "zh": "编织防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-10300",
+      "aliases": [
+        "HEGP03"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-10400",
+      "aliases": [
+        "HEGP04"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-10500",
+      "aliases": [
+        "HEGP05"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-10600",
+      "aliases": [
+        "HEGP06"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-10800",
+      "aliases": [
+        "HEGP08"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-11000",
+      "aliases": [
+        "HEGP10"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-11200",
+      "aliases": [
+        "HEGP12"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-11500",
+      "aliases": [
+        "HEGP15"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-12000",
+      "aliases": [
+        "HEGP20"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-12500",
+      "aliases": [
+        "HEGP25"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-13000",
+      "aliases": [
+        "HEGP30"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-14000",
+      "aliases": [
+        "HEGP40"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-15000",
+      "aliases": [
+        "HEGP50"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-00060",
+      "aliases": [
+        "HEGPX06"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-00090",
+      "aliases": [
+        "HEGPX09"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-00120",
+      "aliases": [
+        "HEGPX12"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-00200",
+      "aliases": [
+        "HEGPX20"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-00300",
+      "aliases": [
+        "HEGPX30"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-00400",
+      "aliases": [
+        "HEGPX40"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-81001",
+      "aliases": [
+        "HEGPETFR04"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-81002",
+      "aliases": [
+        "HEGPETFR05"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-81003",
+      "aliases": [
+        "HEGPETFR06"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-81004",
+      "aliases": [
+        "HEGPETFR08"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-81005",
+      "aliases": [
+        "HEGPETFR10"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-81006",
+      "aliases": [
+        "HEGPETFR12"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-81007",
+      "aliases": [
+        "HEGPETFR15"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-81008",
+      "aliases": [
+        "HEGPETFR20"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-81009",
+      "aliases": [
+        "HEGPETFR25"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-81010",
+      "aliases": [
+        "HEGPETFR30"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-81011",
+      "aliases": [
+        "HEGPETFR40"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-81012",
+      "aliases": [
+        "HEGPETFR50"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-81100",
+      "aliases": [
+        "HEGPETFRX03"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-81101",
+      "aliases": [
+        "HEGPETFRX06"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-81102",
+      "aliases": [
+        "HEGPETFRX09"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-81103",
+      "aliases": [
+        "HEGPETFRX12"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-81104",
+      "aliases": [
+        "HEGPETFRX20"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-81105",
+      "aliases": [
+        "HEGPETFRX30"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-81106",
+      "aliases": [
+        "HEGPETFRX40"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-81107",
+      "aliases": [
+        "HEGPETFRX50"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-40400",
+      "aliases": [
+        "HEGPA6604"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-40600",
+      "aliases": [
+        "HEGPA6606"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-40800",
+      "aliases": [
+        "HEGPA6608"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-41000",
+      "aliases": [
+        "HEGPA6610"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-41200",
+      "aliases": [
+        "HEGPA6612"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-41600",
+      "aliases": [
+        "HEGPA6616"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-42000",
+      "aliases": [
+        "HEGPA6620"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-42500",
+      "aliases": [
+        "HEGPA6625"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-43000",
+      "aliases": [
+        "HEGPA6630"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-44000",
+      "aliases": [
+        "HEGPA6640"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-45000",
+      "aliases": [
+        "HEGPA6650"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-46000",
+      "aliases": [
+        "HEGPA6660"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-80503",
+      "aliases": [
+        "HEGPL03"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-80506",
+      "aliases": [
+        "HEGPL06"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-80512",
+      "aliases": [
+        "HEGPL12"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-80520",
+      "aliases": [
+        "HEGPL20"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-80530",
+      "aliases": [
+        "HEGPL30"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-80540",
+      "aliases": [
+        "HEGPL40"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-80550",
+      "aliases": [
+        "HEGPL50"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-80150",
+      "aliases": [
+        "HLB15"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-80250",
+      "aliases": [
+        "HLB25"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-80350",
+      "aliases": [
+        "HLB35"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-02100",
+      "aliases": [
+        "HEGMAN-02"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-02101",
+      "aliases": [
+        "HEGMAN-04"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-02102",
+      "aliases": [
+        "HEGMAN-06"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-02103",
+      "aliases": [
+        "HEGMAN-08"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-02104",
+      "aliases": [
+        "HEGMAN-10"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-02105",
+      "aliases": [
+        "HEGMAN-15"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-02106",
+      "aliases": [
+        "HEGMAN-20"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-02107",
+      "aliases": [
+        "HEGMAN-25"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-02108",
+      "aliases": [
+        "HEGMAN-30"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-02000",
+      "aliases": [
+        "HEGMANWO-02"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-02001",
+      "aliases": [
+        "HEGMANWO-04"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-02002",
+      "aliases": [
+        "HEGMANWO-06"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-02003",
+      "aliases": [
+        "HEGMANWO-08"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-02004",
+      "aliases": [
+        "HEGMANWO-10"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-02005",
+      "aliases": [
+        "HEGMANWO-15"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-02006",
+      "aliases": [
+        "HEGMANWO-20"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-02007",
+      "aliases": [
+        "HEGMANWO-25"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-02008",
+      "aliases": [
+        "HEGMANWO-30"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01000",
+      "aliases": [
+        "Twist-In 05",
+        "170-01011"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01001",
+      "aliases": [
+        "Twist-In 08",
+        "170-01012"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01002",
+      "aliases": [
+        "Twist-In 13",
+        "170-01013"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01004",
+      "aliases": [
+        "Twist-In 19",
+        "170-01014"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01005",
+      "aliases": [
+        "Twist-In 25",
+        "170-01015"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01006",
+      "aliases": [
+        "Twist-In 29",
+        "170-01016"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01007",
+      "aliases": [
+        "Twist-In 32",
+        "170-01017"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01008",
+      "aliases": [
+        "Twist-In 38",
+        "170-01018"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01010",
+      "aliases": [
+        "Twist-In 50"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01100",
+      "aliases": [
+        "Twist-In-FR"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01101",
+      "aliases": [
+        "Twist-In-FR"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01102",
+      "aliases": [
+        "Twist-In-FR"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01104",
+      "aliases": [
+        "Twist-In-FR"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01105",
+      "aliases": [
+        "Twist-In-FR"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01106",
+      "aliases": [
+        "Twist-In-FR"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01107",
+      "aliases": [
+        "Twist-In-FR"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01108",
+      "aliases": [
+        "Twist-In-FR"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01109",
+      "aliases": [
+        "Twist-In-FR"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01250",
+      "aliases": [
+        "Twist-In-EMIZ-05"
+      ],
+      "description": {
+        "en": "Conductive shielding sleeve material",
+        "zh": "导电屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01251",
+      "aliases": [
+        "Twist-In-EMIZ-08"
+      ],
+      "description": {
+        "en": "Conductive shielding sleeve material",
+        "zh": "导电屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01252",
+      "aliases": [
+        "Twist-In-EMIZ-13"
+      ],
+      "description": {
+        "en": "Conductive shielding sleeve material",
+        "zh": "导电屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01253",
+      "aliases": [
+        "Twist-In-EMIZ_19"
+      ],
+      "description": {
+        "en": "Conductive shielding sleeve material",
+        "zh": "导电屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01254",
+      "aliases": [
+        "Twist-In-EMIZ_25"
+      ],
+      "description": {
+        "en": "Conductive shielding sleeve material",
+        "zh": "导电屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01255",
+      "aliases": [
+        "Twist-In-EMIZ_32"
+      ],
+      "description": {
+        "en": "Conductive shielding sleeve material",
+        "zh": "导电屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01256",
+      "aliases": [
+        "Twist-In-EMIZ_38"
+      ],
+      "description": {
+        "en": "Conductive shielding sleeve material",
+        "zh": "导电屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01257",
+      "aliases": [
+        "Twist-In-EMIZ-50"
+      ],
+      "description": {
+        "en": "Conductive shielding sleeve material",
+        "zh": "导电屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01258",
+      "aliases": [
+        "Twist-In-EMIZ_80"
+      ],
+      "description": {
+        "en": "Conductive shielding sleeve material",
+        "zh": "导电屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01161",
+      "aliases": [
+        "Twist-In-RR-13",
+        "170-01175"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01162",
+      "aliases": [
+        "Twist-In-RR-19",
+        "170-01176"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01163",
+      "aliases": [
+        "Twist-In-RR-29",
+        "170-01177"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01164",
+      "aliases": [
+        "Twist-In-RR-32",
+        "170-01178"
+      ],
+      "description": {
+        "en": "Braided or woven protective sleeve",
+        "zh": "编织或织物防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-05100",
+      "aliases": [
+        "HELAHOOK10"
+      ],
+      "description": {
+        "en": "Recloseable protective sleeve",
+        "zh": "可重复闭合防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-05150",
+      "aliases": [
+        "HELAHOOK15"
+      ],
+      "description": {
+        "en": "Recloseable protective sleeve",
+        "zh": "可重复闭合防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-05200",
+      "aliases": [
+        "HELAHOOK20"
+      ],
+      "description": {
+        "en": "Recloseable protective sleeve",
+        "zh": "可重复闭合防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-05250",
+      "aliases": [
+        "HELAHOOK25"
+      ],
+      "description": {
+        "en": "Recloseable protective sleeve",
+        "zh": "可重复闭合防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-05300",
+      "aliases": [
+        "HELAHOOK30"
+      ],
+      "description": {
+        "en": "Recloseable protective sleeve",
+        "zh": "可重复闭合防护套管"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "173-01600",
+      "aliases": [
+        "HEGEMIP16"
+      ],
+      "description": {
+        "en": "Conductive shielding sleeve material",
+        "zh": "导电屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "173-01800",
+      "aliases": [
+        "HEGEMIP18"
+      ],
+      "description": {
+        "en": "Conductive shielding sleeve material",
+        "zh": "导电屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "173-02000",
+      "aliases": [
+        "HEGEMIP20"
+      ],
+      "description": {
+        "en": "Conductive shielding sleeve material",
+        "zh": "导电屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "173-02001",
+      "aliases": [
+        "HEGEMIP-HY20"
+      ],
+      "description": {
+        "en": "Conductive shielding sleeve material",
+        "zh": "导电屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "173-03000",
+      "aliases": [
+        "HEGEMIP-HY30"
+      ],
+      "description": {
+        "en": "Conductive shielding sleeve material",
+        "zh": "导电屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "173-03501",
+      "aliases": [
+        "HEGEMIP-HY35"
+      ],
+      "description": {
+        "en": "Conductive shielding sleeve material",
+        "zh": "导电屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "173-04000",
+      "aliases": [
+        "HEGEMIP-HY40"
+      ],
+      "description": {
+        "en": "Conductive shielding sleeve material",
+        "zh": "导电屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "173-05000",
+      "aliases": [
+        "HEGEMIP-HY50"
+      ],
+      "description": {
+        "en": "Conductive shielding sleeve material",
+        "zh": "导电屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "173-06000",
+      "aliases": [
+        "HEGEMIP-HY60"
+      ],
+      "description": {
+        "en": "Conductive shielding sleeve material",
+        "zh": "导电屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "173-00200",
+      "aliases": [
+        "HEGEMIP-VG03"
+      ],
+      "description": {
+        "en": "Conductive shielding sleeve material",
+        "zh": "导电屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "173-00201",
+      "aliases": [
+        "HEGEMIP-VG04"
+      ],
+      "description": {
+        "en": "Conductive shielding sleeve material",
+        "zh": "导电屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "173-00202",
+      "aliases": [
+        "HEGEMIP-VG06"
+      ],
+      "description": {
+        "en": "Conductive shielding sleeve material",
+        "zh": "导电屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "173-00203",
+      "aliases": [
+        "HEGEMIP-VG07.5"
+      ],
+      "description": {
+        "en": "Conductive shielding sleeve material",
+        "zh": "导电屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "173-00204",
+      "aliases": [
+        "HEGEMIP-VG10"
+      ],
+      "description": {
+        "en": "Conductive shielding sleeve material",
+        "zh": "导电屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "173-00205",
+      "aliases": [
+        "HEGEMIP-VG12.5"
+      ],
+      "description": {
+        "en": "Conductive shielding sleeve material",
+        "zh": "导电屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "173-00206",
+      "aliases": [
+        "HEGEMIP-VG20"
+      ],
+      "description": {
+        "en": "Conductive shielding sleeve material",
+        "zh": "导电屏蔽套管材料"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Braided Protection Harness",
+    "zh": "编织防护线束"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "material_scope",
+    "reason": {
+      "en": "These references are connectors, wire or process materials; they are not counted as finished terminated assemblies.",
+      "zh": "这些编号属于连接器、线材或工艺材料，不计为已端接成品组件。"
+    },
+    "audit_id": "resume-custom-harness-final-readback.json",
+    "verified_counts": {
+      "products": 0,
+      "materials": 149
+    }
+  }
+}

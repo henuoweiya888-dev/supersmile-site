@@ -1,0 +1,374 @@
+{
+  "version": 2,
+  "category_id": "wire-cable-16",
+  "route": "/products/flat-ribbon-wire-and-cable",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Finished cable and harness references for this interface or application.",
+        "zh": "此接口或应用方向的成品电缆与线束参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Connector, wire and process-material references for project selection.",
+        "zh": "供项目选型的连接器、线材与工艺材料参考。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Interface & Application",
+        "zh": "接口与应用"
+      },
+      "copy": {
+        "en": "Round-conductor ribbon cable is not interchangeable with laminated FFC or printed-circuit FPC.",
+        "zh": "圆导体排线不能与层压式 FFC 或印刷式 FPC 直接互换。"
+      }
+    },
+    {
+      "title": {
+        "en": "Project Inputs",
+        "zh": "项目输入"
+      },
+      "copy": {
+        "en": "Provide conductor count, pitch, gauge, connector part numbers, pin-1 view, route and bend duty.",
+        "zh": "请提供芯数、间距、线规、连接器料号、1 号针视角、路径与弯折工况。"
+      }
+    },
+    {
+      "title": {
+        "en": "Release Requirements",
+        "zh": "放行要求"
+      },
+      "copy": {
+        "en": "Release the complete labelled assembly against its approved pin map and first article.",
+        "zh": "按获认可的针脚表与首件放行完整标识组件。"
+      }
+    },
+    {
+      "title": {
+        "en": "Mating & Termination",
+        "zh": "对插与端接"
+      },
+      "copy": {
+        "en": "Identify the mating part number and termination method before confirming the assembly drawing.",
+        "zh": "确认对插件料号和端接方式，再确定组件图纸。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sample Review",
+        "zh": "样品审核"
+      },
+      "copy": {
+        "en": "Compare the sample with the approved pin map, dimensions and material list.",
+        "zh": "按确认的针脚对应、尺寸和材料清单审核样品。"
+      }
+    },
+    {
+      "title": {
+        "en": "Build Records",
+        "zh": "制造记录"
+      },
+      "copy": {
+        "en": "Retain the approved part list and inspection results for repeat production.",
+        "zh": "保留确认物料清单与检验结果，作为重复生产依据。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=wire-cable-16&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [],
+  "materials": [
+    {
+      "brand": "3M",
+      "identifier": "3365/06",
+      "aliases": [],
+      "description": {
+        "en": "3365 flat ribbon cable material",
+        "zh": "3365系列扁平排线材料"
+      }
+    },
+    {
+      "brand": "3M",
+      "identifier": "3365/08",
+      "aliases": [],
+      "description": {
+        "en": "3365 flat ribbon cable material",
+        "zh": "3365系列扁平排线材料"
+      }
+    },
+    {
+      "brand": "3M",
+      "identifier": "3365/09",
+      "aliases": [],
+      "description": {
+        "en": "3365 flat ribbon cable material",
+        "zh": "3365系列扁平排线材料"
+      }
+    },
+    {
+      "brand": "3M",
+      "identifier": "3365/10",
+      "aliases": [],
+      "description": {
+        "en": "3365 flat ribbon cable material",
+        "zh": "3365系列扁平排线材料"
+      }
+    },
+    {
+      "brand": "3M",
+      "identifier": "3365/12",
+      "aliases": [],
+      "description": {
+        "en": "3365 flat ribbon cable material",
+        "zh": "3365系列扁平排线材料"
+      }
+    },
+    {
+      "brand": "3M",
+      "identifier": "3365/14",
+      "aliases": [],
+      "description": {
+        "en": "3365 flat ribbon cable material",
+        "zh": "3365系列扁平排线材料"
+      }
+    },
+    {
+      "brand": "3M",
+      "identifier": "3365/15",
+      "aliases": [],
+      "description": {
+        "en": "3365 flat ribbon cable material",
+        "zh": "3365系列扁平排线材料"
+      }
+    },
+    {
+      "brand": "3M",
+      "identifier": "3365/16",
+      "aliases": [],
+      "description": {
+        "en": "3365 flat ribbon cable material",
+        "zh": "3365系列扁平排线材料"
+      }
+    },
+    {
+      "brand": "3M",
+      "identifier": "3365/20",
+      "aliases": [],
+      "description": {
+        "en": "3365 flat ribbon cable material",
+        "zh": "3365系列扁平排线材料"
+      }
+    },
+    {
+      "brand": "3M",
+      "identifier": "3365/24",
+      "aliases": [],
+      "description": {
+        "en": "3365 flat ribbon cable material",
+        "zh": "3365系列扁平排线材料"
+      }
+    },
+    {
+      "brand": "3M",
+      "identifier": "3365/25",
+      "aliases": [],
+      "description": {
+        "en": "3365 flat ribbon cable material",
+        "zh": "3365系列扁平排线材料"
+      }
+    },
+    {
+      "brand": "3M",
+      "identifier": "3365/26",
+      "aliases": [],
+      "description": {
+        "en": "3365 flat ribbon cable material",
+        "zh": "3365系列扁平排线材料"
+      }
+    },
+    {
+      "brand": "3M",
+      "identifier": "3365/30",
+      "aliases": [],
+      "description": {
+        "en": "3365 flat ribbon cable material",
+        "zh": "3365系列扁平排线材料"
+      }
+    },
+    {
+      "brand": "3M",
+      "identifier": "3365/34",
+      "aliases": [],
+      "description": {
+        "en": "3365 flat ribbon cable material",
+        "zh": "3365系列扁平排线材料"
+      }
+    },
+    {
+      "brand": "3M",
+      "identifier": "3365/36",
+      "aliases": [],
+      "description": {
+        "en": "3365 flat ribbon cable material",
+        "zh": "3365系列扁平排线材料"
+      }
+    },
+    {
+      "brand": "3M",
+      "identifier": "3365/37",
+      "aliases": [],
+      "description": {
+        "en": "3365 flat ribbon cable material",
+        "zh": "3365系列扁平排线材料"
+      }
+    },
+    {
+      "brand": "3M",
+      "identifier": "3365/40",
+      "aliases": [],
+      "description": {
+        "en": "3365 flat ribbon cable material",
+        "zh": "3365系列扁平排线材料"
+      }
+    },
+    {
+      "brand": "3M",
+      "identifier": "3365/44",
+      "aliases": [],
+      "description": {
+        "en": "3365 flat ribbon cable material",
+        "zh": "3365系列扁平排线材料"
+      }
+    },
+    {
+      "brand": "3M",
+      "identifier": "3365/50",
+      "aliases": [],
+      "description": {
+        "en": "3365 flat ribbon cable material",
+        "zh": "3365系列扁平排线材料"
+      }
+    },
+    {
+      "brand": "3M",
+      "identifier": "3365/60",
+      "aliases": [],
+      "description": {
+        "en": "3365 flat ribbon cable material",
+        "zh": "3365系列扁平排线材料"
+      }
+    },
+    {
+      "brand": "3M",
+      "identifier": "3365/64",
+      "aliases": [],
+      "description": {
+        "en": "3365 flat ribbon cable material",
+        "zh": "3365系列扁平排线材料"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Flat Ribbon Wire & Cable",
+    "zh": "扁平排线电缆"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "material_scope",
+    "reason": {
+      "en": "These references are connectors, wire or process materials; they are not counted as finished terminated assemblies.",
+      "zh": "这些编号属于连接器、线材或工艺材料，不计为已端接成品组件。"
+    },
+    "audit_id": "resume-brand-material-approved-manifest.json",
+    "verified_counts": {
+      "products": 0,
+      "materials": 21
+    }
+  }
+}

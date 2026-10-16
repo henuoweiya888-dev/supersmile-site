@@ -1,0 +1,312 @@
+{
+  "version": 2,
+  "category_id": "specialty-02",
+  "route": "/products/molded-strain-relief",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Finished cable and harness references for this interface or application.",
+        "zh": "此接口或应用方向的成品电缆与线束参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Connector, wire and process-material references for project selection.",
+        "zh": "供项目选型的连接器、线材与工艺材料参考。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Cable exit load",
+        "zh": "出线受力"
+      },
+      "copy": {
+        "en": "Define expected pull, bend and twist directions before shaping the strain relief.",
+        "zh": "成型应力消除结构前，明确预期拉伸、弯曲及扭转方向。"
+      }
+    },
+    {
+      "title": {
+        "en": "Molded or separate component",
+        "zh": "成型或分体结构"
+      },
+      "copy": {
+        "en": "Distinguish an integral molded boot from a separate snap-in bushing or cord grip.",
+        "zh": "区分一体成型护尾与分体卡入式护套或线夹。"
+      }
+    },
+    {
+      "title": {
+        "en": "Material interface",
+        "zh": "材料界面"
+      },
+      "copy": {
+        "en": "Confirm cable jacket, mold resin and connector insert materials with actual samples.",
+        "zh": "使用真实样件确认护套、成型胶料及连接器嵌件材质。"
+      }
+    },
+    {
+      "title": {
+        "en": "Support geometry",
+        "zh": "支撑几何形状"
+      },
+      "copy": {
+        "en": "Set taper, supported length, exit angle and the minimum available bend space.",
+        "zh": "设定渐变结构、支撑长度、出线角度及最小可用弯曲空间。"
+      }
+    },
+    {
+      "title": {
+        "en": "Panel fit",
+        "zh": "面板配合"
+      },
+      "copy": {
+        "en": "For separate parts, confirm panel thickness, hole geometry and the actual cable diameter range.",
+        "zh": "对分体件确认板厚、开孔几何形状及真实线缆外径范围。"
+      }
+    },
+    {
+      "title": {
+        "en": "Mechanical validation",
+        "zh": "机械验证"
+      },
+      "copy": {
+        "en": "Agree pull, flex and twist tests on the complete assembly and its installed fixture.",
+        "zh": "约定完整组件及安装夹具上的拉伸、弯折与扭转测试。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=specialty-02&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "Amphenol",
+      "identifier": "CS-DSPMDB09MF-002.5",
+      "aliases": [],
+      "description": {
+        "en": "Shielded DB9 cable with overmolded strain relief",
+        "zh": "带包胶护尾的屏蔽DB9电缆组件"
+      }
+    },
+    {
+      "brand": "Amphenol Sine Systems",
+      "identifier": "CA0912C800815012",
+      "aliases": [],
+      "description": {
+        "en": "M16 cable assembly with molded strain relief",
+        "zh": "带成型护尾的M16电缆组件"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "brand": "Heyco",
+      "identifier": "1080",
+      "aliases": [],
+      "description": {
+        "en": "Snap-in strain relief bushing",
+        "zh": "卡入式应力消除护线套"
+      }
+    },
+    {
+      "brand": "Heyco",
+      "identifier": "1081",
+      "aliases": [],
+      "description": {
+        "en": "Snap-in strain relief bushing",
+        "zh": "卡入式应力消除护线套"
+      }
+    },
+    {
+      "brand": "Heyco",
+      "identifier": "1354",
+      "aliases": [],
+      "description": {
+        "en": "Snap-in strain relief bushing",
+        "zh": "卡入式应力消除护线套"
+      }
+    },
+    {
+      "brand": "Heyco",
+      "identifier": "1355",
+      "aliases": [],
+      "description": {
+        "en": "Snap-in strain relief bushing",
+        "zh": "卡入式应力消除护线套"
+      }
+    },
+    {
+      "brand": "Heyco",
+      "identifier": "1130",
+      "aliases": [],
+      "description": {
+        "en": "Snap-in strain relief bushing",
+        "zh": "卡入式应力消除护线套"
+      }
+    },
+    {
+      "brand": "Heyco",
+      "identifier": "1131",
+      "aliases": [],
+      "description": {
+        "en": "Snap-in strain relief bushing",
+        "zh": "卡入式应力消除护线套"
+      }
+    },
+    {
+      "brand": "Heyco",
+      "identifier": "1157",
+      "aliases": [],
+      "description": {
+        "en": "Snap-in strain relief bushing",
+        "zh": "卡入式应力消除护线套"
+      }
+    },
+    {
+      "brand": "Heyco",
+      "identifier": "1158",
+      "aliases": [],
+      "description": {
+        "en": "Snap-in strain relief bushing",
+        "zh": "卡入式应力消除护线套"
+      }
+    },
+    {
+      "brand": "Heyco",
+      "identifier": "1140",
+      "aliases": [],
+      "description": {
+        "en": "Snap-in strain relief bushing",
+        "zh": "卡入式应力消除护线套"
+      }
+    },
+    {
+      "brand": "Heyco",
+      "identifier": "1141",
+      "aliases": [],
+      "description": {
+        "en": "Snap-in strain relief bushing",
+        "zh": "卡入式应力消除护线套"
+      }
+    },
+    {
+      "brand": "Heyco",
+      "identifier": "1590",
+      "aliases": [],
+      "description": {
+        "en": "Snap-in strain relief bushing",
+        "zh": "卡入式应力消除护线套"
+      }
+    },
+    {
+      "brand": "Heyco",
+      "identifier": "1591",
+      "aliases": [],
+      "description": {
+        "en": "Snap-in strain relief bushing",
+        "zh": "卡入式应力消除护线套"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Molded Strain Relief",
+    "zh": "模制应力消除"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "process_or_delivery",
+    "reason": {
+      "en": "The verified references are shown at their actual counts. Identify the required interface and configuration before manufacture or sourcing.",
+      "zh": "按实际数量展示已核验参考编号，制作或采购前确认所需接口与配置。"
+    },
+    "audit_id": "resume-cable-specialty-approved-manifest.json",
+    "verified_counts": {
+      "products": 2,
+      "materials": 12
+    }
+  }
+}

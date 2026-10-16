@@ -1,0 +1,2345 @@
+{
+  "version": 2,
+  "category_id": "connector-systems-17",
+  "route": "/products/yazaki-interface-harness-project",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Finished cable and harness references for this interface or application.",
+        "zh": "此接口或应用方向的成品电缆与线束参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Connector, wire and process-material references for project selection.",
+        "zh": "供项目选型的连接器、线材与工艺材料参考。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Interface & Application",
+        "zh": "接口与应用"
+      },
+      "copy": {
+        "en": "Yazaki's automotive connector catalog spans sealed and unsealed, wire-to-wire and device-side structures. Names such as YESC, YMT 1.2, 0.64 (025), 1.5 (060) and 2.3 (090) help locate a family, but cavity count, keying, terminal size and sealing must still be resolved by part number and drawing.",
+        "zh": "矢崎汽车连接器目录同时包含防水与非防水、线对线与设备端等不同结构。YESC、YMT 1.2、0.64（025）、1.5（060）、2.3（090）等名称有助于定位系列，但极数、防错编码、端子尺寸与密封方式仍须落实到料号和图纸。"
+      }
+    },
+    {
+      "title": {
+        "en": "Project Inputs",
+        "zh": "项目输入"
+      },
+      "copy": {
+        "en": "For quotation, provide housing and mating part numbers, mating-face pin views, terminals and seals, circuit map, conductors, environment and temperature, fixing points, branch dimensions, quantity and acceptance criteria. Photos or an old sample aid identification but do not authorize unseen electrical functions or substitute parts.",
+        "zh": "询价请提供两侧壳体与对插件料号、正视针脚图、端子和线封、回路表、导体规格、环境与温度、固定点、分支尺寸、数量和验收要求。照片和旧样可辅助识别，却不能证明不可见的电气功能或替代料获准。"
+      }
+    },
+    {
+      "title": {
+        "en": "Release Requirements",
+        "zh": "放行要求"
+      },
+      "copy": {
+        "en": "Approved inputs become a controlled BOM, pin map, assembly instructions and first-article checkpoints. Check crimps, terminal retention, seal position, secondary lock, branch dimensions, continuity and mating. Ingress, vibration, dielectric or vehicle-level suitability requires exact component data and separately agreed project validation.",
+        "zh": "批准后的配置转化为受控 BOM、针脚表、加工与首件检查点。核查压接、端子保持、线封位置、二次锁、支路尺寸、导通与对插；防水、耐振、耐压或整车适配须以指定零件资料和项目试验单独确认。"
+      }
+    },
+    {
+      "title": {
+        "en": "Mating & Termination",
+        "zh": "对插与端接"
+      },
+      "copy": {
+        "en": "Identify the mating part number and termination method before confirming the assembly drawing.",
+        "zh": "确认对插件料号和端接方式，再确定组件图纸。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sample Review",
+        "zh": "样品审核"
+      },
+      "copy": {
+        "en": "Compare the sample with the approved pin map, dimensions and material list.",
+        "zh": "按确认的针脚对应、尺寸和材料清单审核样品。"
+      }
+    },
+    {
+      "title": {
+        "en": "Build Records",
+        "zh": "制造记录"
+      },
+      "copy": {
+        "en": "Retain the approved part list and inspection results for repeat production.",
+        "zh": "保留确认物料清单与检验结果，作为重复生产依据。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=connector-systems-17&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [],
+  "materials": [
+    {
+      "brand": "Yazaki",
+      "identifier": "7009-1325",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7009-2280-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7010-3014",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-1170",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-1230",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-1231-08",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-1232",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-1257-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-1260",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-1300",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-1304",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-1456",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-1466-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-1467-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-1470",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-1471",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-1670-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-1680-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-2020",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-2100",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-2870",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-2873",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-2882-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-3095-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-3250",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-3611-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-4020",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-4030",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-4060-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-4100-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-4102-06",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-4110-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-4111-08",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-4120-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-4231-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-4415-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-4618-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-4720-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-4728-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-4764-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-5623-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-6040",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7114-7386-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-1080",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-1180",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-1230",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-1232",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-1240",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-1257-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-1257-08",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-1261",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-1300",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-1304",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-1348-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-1456",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-1466-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-1467-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-1470",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-1471",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-1486-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-1670-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-1680-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-2031",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-2090",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-2270",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-2640",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-2870",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-2873",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-2921-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-3094-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-3153-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-3250",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-3252",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-4028-08",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-4030",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-4100-08",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-4231-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-4415-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-4415-08",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-4660-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-5110",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-5625-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-5749-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-6040",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-7068-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-7275-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7116-7389-02",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7120-1010",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7120-1060",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7120-2010",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7120-3011",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7120-3020",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7120-3080",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7120-3090",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7120-3140",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7120-3310",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7120-3330",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-1210",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-1280",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-1300",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-1330",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-1360",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-1430",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-1480",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-1520",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-1610",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-1620",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-1630",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-1640",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-1660",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-1680",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-1700",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-1814-40",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-1823-30",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-1834-40",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-1844-40",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-1864-40",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-1884-40",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-1910",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-1920",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-1933",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-4110",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-4123-30",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-4310-30",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-4320-30",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-6010",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-6015-80",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-6020",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-6030",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-6040",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-6060",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-6083-30",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-6224-40",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-6326-30",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-6336-90",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-6346-30",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-6366-30",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-6386-30",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-7820",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-7830",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-7841-30",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-7860",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-7880",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-7900",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-7920",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-7960",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-8305",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-8307",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-8325",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-8326",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-8335",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-8345",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-8346",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-8365",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-8385",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7122-8386",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-1210",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-1300",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-1330",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-1355",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-1360",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-1424-40",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-1430",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-1480",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-1520",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-1610",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-1620",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-1630",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-1640",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-1660",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-1680",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-1700",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-1835",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-1865-40",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-1910",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-1920",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-1933",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-3617",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-4110",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-4123-30",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-4210-30",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-4220-30",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-4310-30",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-4314-10",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-6010",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-6015-80",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-6020",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-6030",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-6040",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-6060",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-6083-30",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-6125-40",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-6214-40",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-6234-40",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-6244-40",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-6336-90",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-6346-30",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-6366-30",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-6386-30",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-6423-30",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-6504-40",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-6524-40",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-6535-80",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-6554-40",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-6564-40",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-6584-40",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-7414-40",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-7434-40",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-7444-40",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-7464-40",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-7484-40",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-7544-40",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-7564-40",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-7730-40",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-7735",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-7740-40",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-7760-40",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-7780-40",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-7820",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-7830",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-7840",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-7860",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-7880",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-7900",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-7920",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-7923-40",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-7960",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-8305",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-8307",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-8325",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-8326",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-8335",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-8345",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-8346",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-8365",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-8385",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-8386",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7123-8520-40",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki connector housing",
+        "zh": "Yazaki 连接器壳体"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7137-9089-30",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki wire seal",
+        "zh": "Yazaki 电线密封件"
+      }
+    },
+    {
+      "brand": "Yazaki",
+      "identifier": "7157-3560",
+      "aliases": [],
+      "description": {
+        "en": "Yazaki wire seal",
+        "zh": "Yazaki 电线密封件"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Yazaki Interface Harness Project",
+    "zh": "Yazaki接口线束项目"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "material_scope",
+    "reason": {
+      "en": "These references are connectors, wire or process materials; they are not counted as finished terminated assemblies.",
+      "zh": "这些编号属于连接器、线材或工艺材料，不计为已端接成品组件。"
+    },
+    "audit_id": "resume-brand-material-approved-manifest.json",
+    "verified_counts": {
+      "products": 0,
+      "materials": 240
+    }
+  }
+}

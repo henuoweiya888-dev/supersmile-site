@@ -1,0 +1,344 @@
+{
+  "version": 2,
+  "category_id": "cable-assembly-19",
+  "route": "/products/oil-and-gas-equipment-cable-assembly",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Finished cable and harness references for this interface or application.",
+        "zh": "此接口或应用方向的成品电缆与线束参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Connector, wire and process-material references for project selection.",
+        "zh": "供项目选型的连接器、线材与工艺材料参考。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Area and approval boundary",
+        "zh": "区域与认证边界"
+      },
+      "copy": {
+        "en": "Identify the installation zone and the exact approved equipment/interface requirements before selecting parts.",
+        "zh": "选料前明确安装区域及准确的获准设备和接口要求。"
+      }
+    },
+    {
+      "title": {
+        "en": "Process connection",
+        "zh": "过程设备接口"
+      },
+      "copy": {
+        "en": "Specify instrument or home-run topology, pin mapping, connector keying and mating parts.",
+        "zh": "明确仪表或主干拓扑、针脚表、接口防呆及对配件。"
+      }
+    },
+    {
+      "title": {
+        "en": "Cable environment",
+        "zh": "线缆环境"
+      },
+      "copy": {
+        "en": "Define oil, chemical, water, UV, temperature and mechanical exposure for the actual route.",
+        "zh": "按实际路线定义油、化学品、水、紫外线、温度及机械暴露。"
+      }
+    },
+    {
+      "title": {
+        "en": "Shield and grounding",
+        "zh": "屏蔽与接地"
+      },
+      "copy": {
+        "en": "Review screen termination, grounding and instrument signal requirements as a circuit.",
+        "zh": "将屏蔽端接、接地及仪表信号要求作为完整电路审核。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sealing and retention",
+        "zh": "密封与保持"
+      },
+      "copy": {
+        "en": "Confirm connector seals, cable diameters, retention and installation access.",
+        "zh": "确认接口密封、线缆外径、保持力及安装操作空间。"
+      }
+    },
+    {
+      "title": {
+        "en": "Project verification",
+        "zh": "项目验证"
+      },
+      "copy": {
+        "en": "Agree assembly tests and required component documentation; a reference cordset does not qualify a custom assembly for a hazardous location.",
+        "zh": "约定组件测试与所需组件文件；参考线组不能使定制成品自动取得危险区域资格。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=cable-assembly-19&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "Turck",
+      "identifier": "P-RSV RKV 101-1189XL-10M",
+      "aliases": [],
+      "description": {
+        "en": "EX60 instrument/home-run cordset",
+        "zh": "EX60仪表及主干连接线组"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "P-RSV RKV 101-1189XL-15M",
+      "aliases": [],
+      "description": {
+        "en": "EX60 instrument/home-run cordset",
+        "zh": "EX60仪表及主干连接线组"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "P-RSV RKV 190-1484XL-10M",
+      "aliases": [],
+      "description": {
+        "en": "EX60 instrument/home-run cordset",
+        "zh": "EX60仪表及主干连接线组"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "P-RSV RKV 190-1484XL-15M",
+      "aliases": [],
+      "description": {
+        "en": "EX60 instrument/home-run cordset",
+        "zh": "EX60仪表及主干连接线组"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "P-RSV RKV 40-1188XL-10M",
+      "aliases": [],
+      "description": {
+        "en": "EX60 instrument/home-run cordset",
+        "zh": "EX60仪表及主干连接线组"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "P-RSV RKV 40-1188XL-15M",
+      "aliases": [],
+      "description": {
+        "en": "EX60 instrument/home-run cordset",
+        "zh": "EX60仪表及主干连接线组"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "P-RSV RKV 40-1188XL-1M",
+      "aliases": [],
+      "description": {
+        "en": "EX60 instrument/home-run cordset",
+        "zh": "EX60仪表及主干连接线组"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "P-RSV RKV 40-1188XL-2M",
+      "aliases": [],
+      "description": {
+        "en": "EX60 instrument/home-run cordset",
+        "zh": "EX60仪表及主干连接线组"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "P-RSV RKV 40-1188XL-5M",
+      "aliases": [],
+      "description": {
+        "en": "EX60 instrument/home-run cordset",
+        "zh": "EX60仪表及主干连接线组"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "P-RSV RKV 66-2176XL-10M",
+      "aliases": [],
+      "description": {
+        "en": "EX60 instrument/home-run cordset",
+        "zh": "EX60仪表及主干连接线组"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "P-RSV RKV 66-2176XL-15M",
+      "aliases": [],
+      "description": {
+        "en": "EX60 instrument/home-run cordset",
+        "zh": "EX60仪表及主干连接线组"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "P-RSV RKV 66-2176XL-1M",
+      "aliases": [],
+      "description": {
+        "en": "EX60 instrument/home-run cordset",
+        "zh": "EX60仪表及主干连接线组"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "P-RSV RKV 66-2176XL-2M",
+      "aliases": [],
+      "description": {
+        "en": "EX60 instrument/home-run cordset",
+        "zh": "EX60仪表及主干连接线组"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "P-RSV RKV 66-2176XL-5M",
+      "aliases": [],
+      "description": {
+        "en": "EX60 instrument/home-run cordset",
+        "zh": "EX60仪表及主干连接线组"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "brand": "Turck",
+      "identifier": "RF52176",
+      "aliases": [],
+      "description": {
+        "en": "EX60 bulk cable material",
+        "zh": "EX60线缆材料"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "LOCK-MINI",
+      "aliases": [],
+      "description": {
+        "en": "Instrument connector coupling guard",
+        "zh": "仪表连接器防松保护件"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "LOCK-MINI-B&C",
+      "aliases": [],
+      "description": {
+        "en": "Instrument connector coupling guard",
+        "zh": "仪表连接器防松保护件"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Oil & Gas Equipment Cable Assembly",
+    "zh": "油气设备电缆组件"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "audited_subset",
+    "reason": {
+      "en": "This is the verified subset for the category. The target of 200 finished models and 200 materials remains incomplete.",
+      "zh": "此处为本类已核验子集，200个成品型号和200个材料料号的目标仍待继续补充。"
+    },
+    "audit_id": "resume-cable-specialty-approved-manifest.json",
+    "verified_counts": {
+      "products": 14,
+      "materials": 3
+    },
+    "target_status": "incomplete",
+    "target_counts": {
+      "products": 200,
+      "materials": 200
+    }
+  }
+}

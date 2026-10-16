@@ -1,0 +1,440 @@
+{
+  "version": 2,
+  "category_id": "wire-cable-02",
+  "route": "/products/appliance-wire-and-cable",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Finished cable and harness references for this interface or application.",
+        "zh": "此接口或应用方向的成品电缆与线束参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Connector, wire and process-material references for project selection.",
+        "zh": "供项目选型的连接器、线材与工艺材料参考。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Interface & Application",
+        "zh": "接口与应用"
+      },
+      "copy": {
+        "en": "Internal wiring, AWM, flexible cord and the completed appliance have different specification and approval boundaries. The exact construction and use conditions must be identified.",
+        "zh": "内部配线、AWM、柔性软线与完整电器具有不同规范和批准边界，必须明确准确结构与使用条件。"
+      }
+    },
+    {
+      "title": {
+        "en": "Project Inputs",
+        "zh": "项目输入"
+      },
+      "copy": {
+        "en": "Provide the destination market, appliance zone map, circuit loads, temperatures, exposure, movement, wire or cord designation, terminal system and validation plan.",
+        "zh": "请提供目标市场、电器分区图、回路负载、温度、环境暴露、运动状态、线材或软线型号、端子系统与验证方案。"
+      }
+    },
+    {
+      "title": {
+        "en": "Release Requirements",
+        "zh": "放行要求"
+      },
+      "copy": {
+        "en": "Release records the exact wire or cord, conductor and insulation construction, marking, termination, routing, protection, traceability and agreed assembly checks.",
+        "zh": "放行文件记录准确线材或软线、导体与绝缘结构、印字、端接、布线、防护、追溯及约定组件检查。"
+      }
+    },
+    {
+      "title": {
+        "en": "Mating & Termination",
+        "zh": "对插与端接"
+      },
+      "copy": {
+        "en": "Identify the mating part number and termination method before confirming the assembly drawing.",
+        "zh": "确认对插件料号和端接方式，再确定组件图纸。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sample Review",
+        "zh": "样品审核"
+      },
+      "copy": {
+        "en": "Compare the sample with the approved pin map, dimensions and material list.",
+        "zh": "按确认的针脚对应、尺寸和材料清单审核样品。"
+      }
+    },
+    {
+      "title": {
+        "en": "Build Records",
+        "zh": "制造记录"
+      },
+      "copy": {
+        "en": "Retain the approved part list and inspection results for repeat production.",
+        "zh": "保留确认物料清单与检验结果，作为重复生产依据。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=wire-cable-02&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [],
+  "materials": [
+    {
+      "brand": "Belden",
+      "identifier": "39126 010100",
+      "aliases": [
+        "39126 0101000",
+        "39126 0105000"
+      ],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39126 013100",
+      "aliases": [
+        "39126 0131000",
+        "39126 0135000"
+      ],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39126 0035000",
+      "aliases": [],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39126 001100",
+      "aliases": [
+        "39126 0011000",
+        "39126 0015000"
+      ],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39126 008100",
+      "aliases": [
+        "39126 0081000",
+        "39126 0085000"
+      ],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39126 005100",
+      "aliases": [
+        "39126 0051000",
+        "39126 0055000"
+      ],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39126 0031000",
+      "aliases": [],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39126 002100",
+      "aliases": [
+        "39126 0021000",
+        "39126 0025000"
+      ],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39126 007100",
+      "aliases": [
+        "39126 0071000",
+        "39126 0075000"
+      ],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39126 009100",
+      "aliases": [
+        "39126 0091000",
+        "39126 0095000"
+      ],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39126 004100",
+      "aliases": [
+        "39126 0041000",
+        "39126 0045000"
+      ],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "BE41490.00300",
+      "aliases": [],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "BE41490.05300",
+      "aliases": [],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "BE41490.04300",
+      "aliases": [],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "BE41490.06300",
+      "aliases": [],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "BE41490.03300",
+      "aliases": [],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "BE41490.02300",
+      "aliases": [],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "BE41490.01300",
+      "aliases": [],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "BE41508.00300",
+      "aliases": [
+        "BE41508.001500"
+      ],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "BE41508.05300",
+      "aliases": [
+        "BE41508.051500"
+      ],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "BE41508.03300",
+      "aliases": [
+        "BE41508.031500"
+      ],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "BE41508.04300",
+      "aliases": [
+        "BE41508.041500"
+      ],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "BE41508.02300",
+      "aliases": [
+        "BE41508.021500"
+      ],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "BE41508.01300",
+      "aliases": [
+        "BE41508.011500"
+      ],
+      "description": {
+        "en": "Appliance hook-up wire material",
+        "zh": "电器内部配线材料"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Appliance Wire & Cable",
+    "zh": "电器电线电缆"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "material_scope",
+    "reason": {
+      "en": "These references are connectors, wire or process materials; they are not counted as finished terminated assemblies.",
+      "zh": "这些编号属于连接器、线材或工艺材料，不计为已端接成品组件。"
+    },
+    "audit_id": "resume-brand-material-approved-manifest.json",
+    "verified_counts": {
+      "products": 0,
+      "materials": 24
+    }
+  }
+}

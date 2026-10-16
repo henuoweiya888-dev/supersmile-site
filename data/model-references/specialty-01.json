@@ -1,0 +1,328 @@
+{
+  "version": 2,
+  "category_id": "specialty-01",
+  "route": "/products/32awg-fine-pitch-harness",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Finished cable and harness references for this interface or application.",
+        "zh": "此接口或应用方向的成品电缆与线束参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Connector, wire and process-material references for project selection.",
+        "zh": "供项目选型的连接器、线材与工艺材料参考。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Fine-pitch mating pair",
+        "zh": "细间距对配"
+      },
+      "copy": {
+        "en": "Confirm pitch, row count, contact count, keying and the mating board connector drawing.",
+        "zh": "确认间距、排数、针数、防呆及对配板端图纸。"
+      }
+    },
+    {
+      "title": {
+        "en": "32AWG wire construction",
+        "zh": "32AWG导体结构"
+      },
+      "copy": {
+        "en": "Specify conductor strand construction, insulation and finished diameter rather than gauge alone.",
+        "zh": "除线规外，明确导体绞合、绝缘及成品外径。"
+      }
+    },
+    {
+      "title": {
+        "en": "Current and resistance",
+        "zh": "电流与电阻"
+      },
+      "copy": {
+        "en": "Check load and permitted resistance for the actual wire length and connector contact.",
+        "zh": "按实际线长与连接器触点审核负载和允许电阻。"
+      }
+    },
+    {
+      "title": {
+        "en": "Termination and handling",
+        "zh": "端接与操作"
+      },
+      "copy": {
+        "en": "Set strip length, termination tooling and handling controls appropriate to the small conductor.",
+        "zh": "针对细导体设定剥线长度、端接工装及操作控制。"
+      }
+    },
+    {
+      "title": {
+        "en": "Route and retention",
+        "zh": "布线与保持"
+      },
+      "copy": {
+        "en": "Provide bend clearance, support and connector retention so the lead does not carry equipment movement.",
+        "zh": "提供弯曲空间、支撑和接口保持，避免设备运动直接拉扯导线。"
+      }
+    },
+    {
+      "title": {
+        "en": "Small-wire verification",
+        "zh": "细线检验"
+      },
+      "copy": {
+        "en": "Agree continuity, pull-force and visual inspection criteria for the complete assembly.",
+        "zh": "约定完整组件的导通、拉力与外观检验标准。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=specialty-01&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-10-32-G-03.0-L",
+      "aliases": [],
+      "description": {
+        "en": "32AWG fine-pitch cable assembly",
+        "zh": "32AWG细间距电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-10-32-G-09.7-L1",
+      "aliases": [],
+      "description": {
+        "en": "32AWG fine-pitch cable assembly",
+        "zh": "32AWG细间距电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-10-32-G-10.4-L",
+      "aliases": [],
+      "description": {
+        "en": "32AWG fine-pitch cable assembly",
+        "zh": "32AWG细间距电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-10-32-G-14.9-L1",
+      "aliases": [],
+      "description": {
+        "en": "32AWG fine-pitch cable assembly",
+        "zh": "32AWG细间距电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-10-32-G-15.0-L1",
+      "aliases": [],
+      "description": {
+        "en": "32AWG fine-pitch cable assembly",
+        "zh": "32AWG细间距电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-15-32-G-17.7-L1",
+      "aliases": [],
+      "description": {
+        "en": "32AWG fine-pitch cable assembly",
+        "zh": "32AWG细间距电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-20-32-G-03.0-L1",
+      "aliases": [],
+      "description": {
+        "en": "32AWG fine-pitch cable assembly",
+        "zh": "32AWG细间距电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-20-32-G-03.0-L2",
+      "aliases": [],
+      "description": {
+        "en": "32AWG fine-pitch cable assembly",
+        "zh": "32AWG细间距电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-20-32-G-38.0-L2",
+      "aliases": [],
+      "description": {
+        "en": "32AWG fine-pitch cable assembly",
+        "zh": "32AWG细间距电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-20-32-G-40.0-L2",
+      "aliases": [],
+      "description": {
+        "en": "32AWG fine-pitch cable assembly",
+        "zh": "32AWG细间距电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-20-32-G-50.0-L2",
+      "aliases": [],
+      "description": {
+        "en": "32AWG fine-pitch cable assembly",
+        "zh": "32AWG细间距电缆组件"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "brand": "Harwin",
+      "identifier": "M40-9070099",
+      "aliases": [],
+      "description": {
+        "en": "32AWG precrimped lead component",
+        "zh": "32AWG预压接导线材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5013340000",
+      "aliases": [
+        "5013340100"
+      ],
+      "description": {
+        "en": "Pico-Clasp crimp contact, 32–28AWG",
+        "zh": "Pico-Clasp压接触点，32–28AWG"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "DWCT-32-01-TC",
+      "aliases": [],
+      "description": {
+        "en": "32AWG cable wire material",
+        "zh": "32AWG电缆导线材料"
+      }
+    },
+    {
+      "brand": "Harwin",
+      "identifier": "M40-1000046",
+      "aliases": [],
+      "description": {
+        "en": "Crimp contact component",
+        "zh": "压接触点材料"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "32AWG Fine-Pitch Harness",
+    "zh": "32AWG细间距线束"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "audited_subset",
+    "reason": {
+      "en": "This is the verified subset for the category. The target of 200 finished models and 200 materials remains incomplete.",
+      "zh": "此处为本类已核验子集，200个成品型号和200个材料料号的目标仍待继续补充。"
+    },
+    "audit_id": "resume-cable-specialty-approved-manifest.json",
+    "verified_counts": {
+      "products": 11,
+      "materials": 4
+    },
+    "target_status": "incomplete",
+    "target_counts": {
+      "products": 200,
+      "materials": 200
+    }
+  }
+}

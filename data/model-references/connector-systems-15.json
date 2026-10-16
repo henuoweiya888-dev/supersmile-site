@@ -1,0 +1,2387 @@
+{
+  "version": 2,
+  "category_id": "connector-systems-15",
+  "route": "/products/anderson-interface-cable-project",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Finished cable and harness references for this interface or application.",
+        "zh": "此接口或应用方向的成品电缆与线束参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Connector, wire and process-material references for project selection.",
+        "zh": "供项目选型的连接器、线材与工艺材料参考。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Interface & Application",
+        "zh": "接口与应用"
+      },
+      "copy": {
+        "en": "Powerpole modular housings and two-pole SB housings are different connection systems. A family name alone does not establish mating fit, current rating or polarity. Contact part number, cable cross-section, temperature rise, assembly method and the manufacturer's series-specific documentation all matter.",
+        "zh": "模块化 Powerpole 与双极 SB 属于不同连接体系。仅凭系列名称不能认定可对插、电流额定值或极性。触点料号、线径、温升、装配方法及制造商对应系列资料都必须纳入审核。"
+      }
+    },
+    {
+      "title": {
+        "en": "Project Inputs",
+        "zh": "项目输入"
+      },
+      "copy": {
+        "en": "Supply the manufacturer and complete connector series or part number, mating-side photograph and contact view, circuit and polarity drawing, continuous and peak load, voltage, wire size and cable length, opposite-end interface, installation environment, quantity and acceptance criteria. Identify auxiliary contacts or battery-monitoring circuits separately.",
+        "zh": "请提供制造商及完整接口系列／料号、对插侧照片与触点视图、回路和极性图、连续与峰值负载、电压、线径与长度、另一端接口、安装环境、数量和接收标准。辅助触点或电池监测回路须单独标明。"
+      }
+    },
+    {
+      "title": {
+        "en": "Release Requirements",
+        "zh": "放行要求"
+      },
+      "copy": {
+        "en": "The approved inputs become a controlled connector-and-contact BOM, cable drawing, polarity map, assembly instructions and first-article checklist. The inspection scope can cover wire identity, crimp geometry, contact retention, housing keying, cable length and agreed electrical checks. Continuity alone cannot prove rated-load temperature, charging-system compatibility or equipment safety.",
+        "zh": "批准资料将转成受控的壳体与触点物料表、线缆图、极性表、装配指引和首件核对清单。检验范围可包括线号、压接几何、触点保持、壳体防错、长度及约定电气项目。导通合格不能单独证明额定负载温升、充电系统兼容或设备安全。"
+      }
+    },
+    {
+      "title": {
+        "en": "Mating & Termination",
+        "zh": "对插与端接"
+      },
+      "copy": {
+        "en": "Identify the mating part number and termination method before confirming the assembly drawing.",
+        "zh": "确认对插件料号和端接方式，再确定组件图纸。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sample Review",
+        "zh": "样品审核"
+      },
+      "copy": {
+        "en": "Compare the sample with the approved pin map, dimensions and material list.",
+        "zh": "按确认的针脚对应、尺寸和材料清单审核样品。"
+      }
+    },
+    {
+      "title": {
+        "en": "Build Records",
+        "zh": "制造记录"
+      },
+      "copy": {
+        "en": "Retain the approved part list and inspection results for repeat production.",
+        "zh": "保留确认物料清单与检验结果，作为重复生产依据。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=connector-systems-15&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "Anderson Power",
+      "identifier": "DJ00-1YABRK-EM00-2R5",
+      "aliases": [],
+      "description": {
+        "en": "SB350 cable assembly",
+        "zh": "SB350 电缆组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "DJ00-1WABRK-EL00-2R5",
+      "aliases": [],
+      "description": {
+        "en": "SB350 cable assembly",
+        "zh": "SB350 电缆组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "DJ00-1UABRK-EK00-2R5",
+      "aliases": [],
+      "description": {
+        "en": "SB350 cable assembly",
+        "zh": "SB350 电缆组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "CH00-1TABRK-EE00-2R5",
+      "aliases": [],
+      "description": {
+        "en": "SB175 cable assembly",
+        "zh": "SB175 电缆组件"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "brand": "Anderson Power",
+      "identifier": "111812P6",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "111812P5",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "111812P16",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "110G9",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "110G68",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "110G51",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "110g50",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "110G20",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "110G19",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "110G18",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "110G17",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "110G16",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "110G12",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "110G10",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "5916",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1384",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1383",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1382",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1381",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1331",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1327",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1321",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "H1835P3",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "2003G2-LPBK",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "SBO60HDLRED",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "SBE80HDLYEL",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "SBE80HDLORN",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "113953P1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "B02266P7",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "A320HL-MK",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "109G4",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "SBS75XBRN",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "SBS75XBLK",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "SBS75GWHT",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "SBS75GBRN",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "SBS75GBLU",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "SBS75GBLK",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "SBS50WHT",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "SBS50RED",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "SBS50GRA",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "SBS50BRN",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "SBS50BLU",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "SBS50BLK",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1340G3",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1340G2",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1340g1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1339g5",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1339G3",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1339g2",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "PC5934T",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "PC5934S",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "PC5933T",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "PC5933S",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "P1827G2",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "P1399G26",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "BMPP10-45R",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "75LOKWHT",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "75LOKBLK",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "5927G6",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "5916G7",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "5916G6",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "5916G5",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "5916G4",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "5916G16",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "5916G15",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "5916G14",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "2-8831P2",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "2-8831P1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "269G3-LPBK",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "269G2-LPBK",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "262G1-LPBK",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1875G3",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1875G2",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1875g1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1827GA",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1827G1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1470g4",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1470G3",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1470G2",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1470G1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1461G3",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1461G2",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1461G1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1460g4",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1460G3",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1460G2",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1399G9",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1399G8",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1399G7",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1399G6",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1399G2",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1399G25",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1399G23",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1399G21",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1399G20",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1399G1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1399G19",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1399G17",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1381G4",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1381G3",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1381G2",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1381G1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1377G4",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1377G3",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1377G1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1328G2",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1328G1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1327G8FP",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1327G8",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1327G7FP",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1327G7",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1327G6FP",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1327G6",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1327G5FP",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1327G5",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1327G17",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1327G16",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1321G4",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1321G3",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1321G2",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1321G1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1317G4",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1317G3",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1317G2",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1317G1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1317G13",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1317G12",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1317G11",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1205G1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1204G1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "115G8",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "115G7",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "115G4",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "115G3",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "115G2",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "115107G1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "SB50-HDL-RED",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "SB350-LOCKOUT",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "SB175-LOCKOUT",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "SB120-HDL-RED",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "P992G2",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "P992",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "P949",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "P940",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "P913",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "P906",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "P6810G3",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "P6810G1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "H1216P8",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "H1120P60",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "B02644P1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "B02644GKIT1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "B02019P1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "B01998P1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "B01997P1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "997G1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "996G1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "992G7",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "992G6",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "992G5",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "992G4",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "992G2",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "992G1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "992",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "990G2",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "990G1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "990",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "981G2",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "981G1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "949",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "946G1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "945G3",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "945",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "943",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "942",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "941",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "940",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "932",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "931",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "922G1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "919G1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "917",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "916",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "914",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "913",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "912",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "910",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "908",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "907",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "906",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "75BBS",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "6810g3",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "6810G2",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "6810G1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "5953",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "5952",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "5915",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "5913-BK",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "5905-BK",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "5900",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "3-6055P2",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "3-6055P1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "3-6054P2",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "3-6054P1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "3-6037P1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "3-6036P1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "3-6035P1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "3-6034P1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "350BBS",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "3-5074P5",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "3-5074P3",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "3-5074P1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "2-7252G11",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "2-7250G8",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "180BBS",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1467G1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "134G4",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "134G3",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "134G2",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "134G1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1348-BK",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1347-BK",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1323G2",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1323G1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1319G6",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1319G4",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1319",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "1307",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "120BBS",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "113890P3",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "113890P2",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "113890P1",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "110g73",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "110G34",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "106G7",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "106G6",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "105G8",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "919",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "902",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    },
+    {
+      "brand": "Anderson Power",
+      "identifier": "PM16S2024S32-50",
+      "aliases": [],
+      "description": {
+        "en": "Anderson connector component",
+        "zh": "Anderson 连接系统组件"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Anderson Interface Cable Project",
+    "zh": "Anderson接口电缆项目"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "audited_subset",
+    "reason": {
+      "en": "This is the verified subset for the category. The target of 200 finished models and 200 materials remains incomplete.",
+      "zh": "此处为本类已核验子集，200个成品型号和200个材料料号的目标仍待继续补充。"
+    },
+    "audit_id": "resume-brand-material-approved-manifest.json",
+    "verified_counts": {
+      "products": 4,
+      "materials": 240
+    },
+    "target_status": "incomplete",
+    "target_counts": {
+      "products": 200,
+      "materials": 200
+    }
+  }
+}

@@ -1,0 +1,208 @@
+{
+  "version": 2,
+  "category_id": "cable-assembly-18",
+  "route": "/products/switch-cable-assembly",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Finished cable and harness references for this interface or application.",
+        "zh": "此接口或应用方向的成品电缆与线束参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Connector, wire and process-material references for project selection.",
+        "zh": "供项目选型的连接器、线材与工艺材料参考。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Switch function",
+        "zh": "开关功能"
+      },
+      "copy": {
+        "en": "Specify which conductors are switched and the required normal and operated states.",
+        "zh": "明确开断哪些导体，以及常态与动作后的状态。"
+      }
+    },
+    {
+      "title": {
+        "en": "Power versus data",
+        "zh": "供电与数据"
+      },
+      "copy": {
+        "en": "Confirm whether the assembly carries data, power only or both; connector shape does not establish this.",
+        "zh": "确认组件承载数据、仅供电或两者兼有；接口外形不能确定功能。"
+      }
+    },
+    {
+      "title": {
+        "en": "Switch rating",
+        "zh": "开关额定要求"
+      },
+      "copy": {
+        "en": "Define voltage, continuous current, inrush and cycle life for the actual switched load.",
+        "zh": "按真实负载定义电压、持续电流、浪涌及动作寿命。"
+      }
+    },
+    {
+      "title": {
+        "en": "Inline module structure",
+        "zh": "在线模块结构"
+      },
+      "copy": {
+        "en": "Set switch position, enclosure dimensions, sealing and supported cable exits.",
+        "zh": "安排开关位置、外壳尺寸、密封及出线支撑。"
+      }
+    },
+    {
+      "title": {
+        "en": "Cable and termination",
+        "zh": "线材与端接"
+      },
+      "copy": {
+        "en": "Match conductor gauge, insulation and strain relief to the load and handling conditions.",
+        "zh": "按负载与操作条件匹配线规、绝缘和应力释放。"
+      }
+    },
+    {
+      "title": {
+        "en": "Functional test",
+        "zh": "功能测试"
+      },
+      "copy": {
+        "en": "Agree on/off continuity, voltage-drop and any data-path checks with the intended device.",
+        "zh": "结合目标设备约定开断导通、压降及数据通路测试。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=cable-assembly-18&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "Adafruit",
+      "identifier": "2379",
+      "aliases": [],
+      "description": {
+        "en": "USB-A to Micro-B switched power-only cable",
+        "zh": "USB-A转Micro-B带开关供电线，不传输数据"
+      }
+    },
+    {
+      "brand": "SparkFun",
+      "identifier": "CAB-25579",
+      "aliases": [],
+      "description": {
+        "en": "USB-C extension cable with power switch and data wiring",
+        "zh": "带电源开关及数据接线的USB-C延长线"
+      }
+    }
+  ],
+  "materials": [],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Switch Cable Assembly",
+    "zh": "开关电缆组件"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "audited_subset",
+    "reason": {
+      "en": "This is the verified subset for the category. The target of 200 finished models and 200 materials remains incomplete.",
+      "zh": "此处为本类已核验子集，200个成品型号和200个材料料号的目标仍待继续补充。"
+    },
+    "audit_id": "resume-cable-specialty-approved-manifest.json",
+    "verified_counts": {
+      "products": 2,
+      "materials": 0
+    },
+    "target_status": "incomplete",
+    "target_counts": {
+      "products": 200,
+      "materials": 200
+    }
+  }
+}

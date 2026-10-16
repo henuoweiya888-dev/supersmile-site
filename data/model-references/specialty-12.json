@@ -1,0 +1,235 @@
+{
+  "version": 2,
+  "category_id": "specialty-12",
+  "route": "/products/spiral-coiled-cable",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Finished cable and harness references for this interface or application.",
+        "zh": "此接口或应用方向的成品电缆与线束参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Connector, wire and process-material references for project selection.",
+        "zh": "供项目选型的连接器、线材与工艺材料参考。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Contracted and extended size",
+        "zh": "收缩与展开尺寸"
+      },
+      "copy": {
+        "en": "Specify contracted length, working extension, coil diameter and straight tails independently.",
+        "zh": "分别明确收缩长度、工作展开长度、线圈直径及两端直尾。"
+      }
+    },
+    {
+      "title": {
+        "en": "Restoring force",
+        "zh": "回弹力"
+      },
+      "copy": {
+        "en": "Define acceptable restoring force and travel so the coil does not load the device or operator.",
+        "zh": "定义允许回弹力与行程，避免线圈对设备或操作人员施加过大负荷。"
+      }
+    },
+    {
+      "title": {
+        "en": "Circuit function",
+        "zh": "电路功能"
+      },
+      "copy": {
+        "en": "Confirm power, signal and data requirements; coiled shape does not imply a particular protocol or data rate.",
+        "zh": "确认供电、信号与数据要求；螺旋形状不能说明协议或速率。"
+      }
+    },
+    {
+      "title": {
+        "en": "Material and conductor",
+        "zh": "材料与导体"
+      },
+      "copy": {
+        "en": "Choose conductor construction, jacket and reinforcement for the required coil memory and environment.",
+        "zh": "按保形回弹与环境要求选择导体结构、护套及加强层。"
+      }
+    },
+    {
+      "title": {
+        "en": "End support",
+        "zh": "端部支撑"
+      },
+      "copy": {
+        "en": "Set connector angle, cable-tail routing and strain relief at both coil transitions.",
+        "zh": "安排接口角度、直尾布线及线圈两端过渡的应力释放。"
+      }
+    },
+    {
+      "title": {
+        "en": "Motion verification",
+        "zh": "运动验证"
+      },
+      "copy": {
+        "en": "Agree extension cycles, electrical checks and recovery criteria at the intended operating temperature.",
+        "zh": "在预期使用温度下约定伸缩次数、电气检验及回缩判定。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=specialty-12&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "StarTech.com",
+      "identifier": "R2ACC-1M-USB-CABLE",
+      "aliases": [],
+      "description": {
+        "en": "Coiled USB-A to USB-C charge/data cable",
+        "zh": "USB-A转USB-C螺旋充电及数据线"
+      }
+    },
+    {
+      "brand": "StarTech.com",
+      "identifier": "R2CCC-1M-USB-CABLE",
+      "aliases": [],
+      "description": {
+        "en": "Coiled USB-C charge/data cable, USB 2.0, no video",
+        "zh": "USB-C螺旋充电及数据线，USB 2.0，不支持视频"
+      }
+    },
+    {
+      "brand": "StarTech.com",
+      "identifier": "RUSB2ALT1MBC",
+      "aliases": [],
+      "description": {
+        "en": "Coiled USB-A to Lightning charge/data cable",
+        "zh": "USB-A转Lightning螺旋充电及数据线"
+      }
+    },
+    {
+      "brand": "StarTech.com",
+      "identifier": "R2ACC-50C-USB-CABLE",
+      "aliases": [],
+      "description": {
+        "en": "Coiled USB-A to USB-C charge/data cable",
+        "zh": "USB-A转USB-C螺旋充电及数据线"
+      }
+    },
+    {
+      "brand": "StarTech.com",
+      "identifier": "RUSB2ALT50CMBC",
+      "aliases": [],
+      "description": {
+        "en": "Coiled USB-A to Lightning charge/data cable",
+        "zh": "USB-A转Lightning螺旋充电及数据线"
+      }
+    }
+  ],
+  "materials": [],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Spiral Coiled Cable",
+    "zh": "螺旋电缆组件"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "audited_subset",
+    "reason": {
+      "en": "This is the verified subset for the category. The target of 200 finished models and 200 materials remains incomplete.",
+      "zh": "此处为本类已核验子集，200个成品型号和200个材料料号的目标仍待继续补充。"
+    },
+    "audit_id": "resume-cable-specialty-approved-manifest.json",
+    "verified_counts": {
+      "products": 5,
+      "materials": 0
+    },
+    "target_status": "incomplete",
+    "target_counts": {
+      "products": 200,
+      "materials": 200
+    }
+  }
+}

@@ -1,0 +1,321 @@
+{
+  "version": 2,
+  "category_id": "connector-systems-14",
+  "route": "/products/littelfuse-bussmann-fuse-harness",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Finished cable and harness references for this interface or application.",
+        "zh": "此接口或应用方向的成品电缆与线束参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Connector, wire and process-material references for project selection.",
+        "zh": "供项目选型的连接器、线材与工艺材料参考。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Interface & Application",
+        "zh": "接口与应用"
+      },
+      "copy": {
+        "en": "Fuse, holder, conductor, busbar, enclosure and fault conditions form one protection system.",
+        "zh": "熔断器、底座、导体、母排、外壳与故障条件共同构成保护系统。"
+      }
+    },
+    {
+      "title": {
+        "en": "Project Inputs",
+        "zh": "项目输入"
+      },
+      "copy": {
+        "en": "Provide exact part numbers, circuit duty, fault current, cable sizes, environment and validation requirements.",
+        "zh": "提供准确料号、回路工况、故障电流、线缆规格、环境与验证要求。"
+      }
+    },
+    {
+      "title": {
+        "en": "Release Requirements",
+        "zh": "放行要求"
+      },
+      "copy": {
+        "en": "Approve the schematic, BOM, sample, torque and electrical inspection records before repeat production.",
+        "zh": "重复生产前确认原理图、BOM、样品、扭矩及电气检验记录。"
+      }
+    },
+    {
+      "title": {
+        "en": "Mating & Termination",
+        "zh": "对插与端接"
+      },
+      "copy": {
+        "en": "Identify the mating part number and termination method before confirming the assembly drawing.",
+        "zh": "确认对插件料号和端接方式，再确定组件图纸。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sample Review",
+        "zh": "样品审核"
+      },
+      "copy": {
+        "en": "Compare the sample with the approved pin map, dimensions and material list.",
+        "zh": "按确认的针脚对应、尺寸和材料清单审核样品。"
+      }
+    },
+    {
+      "title": {
+        "en": "Build Records",
+        "zh": "制造记录"
+      },
+      "copy": {
+        "en": "Retain the approved part list and inspection results for repeat production.",
+        "zh": "保留确认物料清单与检验结果，作为重复生产依据。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=connector-systems-14&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "Littelfuse",
+      "identifier": "FHAC0001LXN",
+      "aliases": [],
+      "description": {
+        "en": "FHAC in-line fuse-holder lead assembly",
+        "zh": "FHAC 在线保险丝座引线组件"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "FHAC0001SXJ",
+      "aliases": [
+        "FHAC0001XP"
+      ],
+      "description": {
+        "en": "FHAC in-line fuse-holder lead assembly",
+        "zh": "FHAC 在线保险丝座引线组件"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "FHAC0001ZXJ",
+      "aliases": [],
+      "description": {
+        "en": "FHAC in-line fuse-holder lead assembly",
+        "zh": "FHAC 在线保险丝座引线组件"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "FHAC0001ZXJA",
+      "aliases": [],
+      "description": {
+        "en": "FHAC in-line fuse-holder lead assembly",
+        "zh": "FHAC 在线保险丝座引线组件"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "FHAC0001ZXJE",
+      "aliases": [],
+      "description": {
+        "en": "FHAC in-line fuse-holder lead assembly",
+        "zh": "FHAC 在线保险丝座引线组件"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "FHAC0001ZXJG",
+      "aliases": [],
+      "description": {
+        "en": "FHAC in-line fuse-holder lead assembly",
+        "zh": "FHAC 在线保险丝座引线组件"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "FHAC0001ZXJK",
+      "aliases": [],
+      "description": {
+        "en": "FHAC in-line fuse-holder lead assembly",
+        "zh": "FHAC 在线保险丝座引线组件"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "FHAC0001ZXJL",
+      "aliases": [],
+      "description": {
+        "en": "FHAC in-line fuse-holder lead assembly",
+        "zh": "FHAC 在线保险丝座引线组件"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "FHAC0001ZXJM",
+      "aliases": [],
+      "description": {
+        "en": "FHAC in-line fuse-holder lead assembly",
+        "zh": "FHAC 在线保险丝座引线组件"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "FHAC0002LXN",
+      "aliases": [],
+      "description": {
+        "en": "FHAC in-line fuse-holder lead assembly",
+        "zh": "FHAC 在线保险丝座引线组件"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "FHAC0002SXJ",
+      "aliases": [
+        "FHAC0002XP",
+        "FHAC0002ZXJ"
+      ],
+      "description": {
+        "en": "FHAC in-line fuse-holder lead assembly",
+        "zh": "FHAC 在线保险丝座引线组件"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "FHAC0002ZXJA",
+      "aliases": [],
+      "description": {
+        "en": "FHAC in-line fuse-holder lead assembly",
+        "zh": "FHAC 在线保险丝座引线组件"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "FHAC0002ZXJD",
+      "aliases": [],
+      "description": {
+        "en": "FHAC in-line fuse-holder lead assembly",
+        "zh": "FHAC 在线保险丝座引线组件"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "FHAC0003ZXJB",
+      "aliases": [],
+      "description": {
+        "en": "FHAC in-line fuse-holder lead assembly",
+        "zh": "FHAC 在线保险丝座引线组件"
+      }
+    }
+  ],
+  "materials": [],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Littelfuse / Bussmann Fuse Harness",
+    "zh": "Littelfuse / Bussmann保险丝线束"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "audited_subset",
+    "reason": {
+      "en": "This is the verified subset for the category. The target of 200 finished models and 200 materials remains incomplete.",
+      "zh": "此处为本类已核验子集，200个成品型号和200个材料料号的目标仍待继续补充。"
+    },
+    "audit_id": "resume-brand-material-approved-manifest.json",
+    "verified_counts": {
+      "products": 14,
+      "materials": 0
+    },
+    "target_status": "incomplete",
+    "target_counts": {
+      "products": 200,
+      "materials": 200
+    }
+  }
+}

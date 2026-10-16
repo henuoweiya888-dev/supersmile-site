@@ -1,0 +1,2684 @@
+{
+  "version": 2,
+  "category_id": "connector-systems-10",
+  "route": "/products/lemo-compatible",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Finished cable and harness references for this interface or application.",
+        "zh": "此接口或应用方向的成品电缆与线束参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Connector, wire and process-material references for project selection.",
+        "zh": "供项目选型的连接器、线材与工艺材料参考。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Interface & Application",
+        "zh": "接口与应用"
+      },
+      "copy": {
+        "en": "Match the connector series, cable construction and handling conditions.",
+        "zh": "匹配接头系列、线缆结构及操作条件。"
+      }
+    },
+    {
+      "title": {
+        "en": "Project Inputs",
+        "zh": "项目输入"
+      },
+      "copy": {
+        "en": "Provide the full mating reference, circuit map, cable dimensions and environment.",
+        "zh": "提供完整对插料号、回路表、线缆尺寸及环境。"
+      }
+    },
+    {
+      "title": {
+        "en": "Release Requirements",
+        "zh": "放行要求"
+      },
+      "copy": {
+        "en": "Approve the sample and controlled specification before repeat manufacture.",
+        "zh": "重复制造前认可样品及受控规范。"
+      }
+    },
+    {
+      "title": {
+        "en": "Mating & Termination",
+        "zh": "对插与端接"
+      },
+      "copy": {
+        "en": "Identify the mating part number and termination method before confirming the assembly drawing.",
+        "zh": "确认对插件料号和端接方式，再确定组件图纸。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sample Review",
+        "zh": "样品审核"
+      },
+      "copy": {
+        "en": "Compare the sample with the approved pin map, dimensions and material list.",
+        "zh": "按确认的针脚对应、尺寸和材料清单审核样品。"
+      }
+    },
+    {
+      "title": {
+        "en": "Build Records",
+        "zh": "制造记录"
+      },
+      "copy": {
+        "en": "Retain the approved part list and inspection results for repeat production.",
+        "zh": "保留确认物料清单与检验结果，作为重复生产依据。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=connector-systems-10&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.LTE010",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial cable assembly",
+        "zh": "LEMO 同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.RTE005",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial delay-line assembly",
+        "zh": "LEMO 同轴延迟线组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.LTE020",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial cable assembly",
+        "zh": "LEMO 同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.RTE010",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial delay-line assembly",
+        "zh": "LEMO 同轴延迟线组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.LTE030",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial cable assembly",
+        "zh": "LEMO 同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.RTE020",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial delay-line assembly",
+        "zh": "LEMO 同轴延迟线组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.LTE040",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial cable assembly",
+        "zh": "LEMO 同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.RTE030",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial delay-line assembly",
+        "zh": "LEMO 同轴延迟线组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.LTE050",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial cable assembly",
+        "zh": "LEMO 同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.RTE040",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial delay-line assembly",
+        "zh": "LEMO 同轴延迟线组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.LTE060",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial cable assembly",
+        "zh": "LEMO 同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.RTE050",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial delay-line assembly",
+        "zh": "LEMO 同轴延迟线组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.LTE080",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial cable assembly",
+        "zh": "LEMO 同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.RTE060",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial delay-line assembly",
+        "zh": "LEMO 同轴延迟线组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.LTE100",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial cable assembly",
+        "zh": "LEMO 同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.RTE080",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial delay-line assembly",
+        "zh": "LEMO 同轴延迟线组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.LTE150",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial cable assembly",
+        "zh": "LEMO 同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.RTE100",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial delay-line assembly",
+        "zh": "LEMO 同轴延迟线组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.LTE200",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial cable assembly",
+        "zh": "LEMO 同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.RTE160",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial delay-line assembly",
+        "zh": "LEMO 同轴延迟线组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.LTE300",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial cable assembly",
+        "zh": "LEMO 同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.RTE200",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial delay-line assembly",
+        "zh": "LEMO 同轴延迟线组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.LTE400",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial cable assembly",
+        "zh": "LEMO 同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.RTE320",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial delay-line assembly",
+        "zh": "LEMO 同轴延迟线组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.LTE500",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial cable assembly",
+        "zh": "LEMO 同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.RTE640",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial delay-line assembly",
+        "zh": "LEMO 同轴延迟线组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.LTE010",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial cable assembly",
+        "zh": "LEMO 同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.RTE005",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial delay-line assembly",
+        "zh": "LEMO 同轴延迟线组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.LTE020",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial cable assembly",
+        "zh": "LEMO 同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.RTE010",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial delay-line assembly",
+        "zh": "LEMO 同轴延迟线组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.LTE030",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial cable assembly",
+        "zh": "LEMO 同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.RTE020",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial delay-line assembly",
+        "zh": "LEMO 同轴延迟线组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.LTE040",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial cable assembly",
+        "zh": "LEMO 同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.RTE030",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial delay-line assembly",
+        "zh": "LEMO 同轴延迟线组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.LTE050",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial cable assembly",
+        "zh": "LEMO 同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.RTE040",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial delay-line assembly",
+        "zh": "LEMO 同轴延迟线组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.LTE060",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial cable assembly",
+        "zh": "LEMO 同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.RTE050",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial delay-line assembly",
+        "zh": "LEMO 同轴延迟线组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.LTE080",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial cable assembly",
+        "zh": "LEMO 同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.RTE060",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial delay-line assembly",
+        "zh": "LEMO 同轴延迟线组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.LTE100",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial cable assembly",
+        "zh": "LEMO 同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.RTE080",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial delay-line assembly",
+        "zh": "LEMO 同轴延迟线组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.LTE150",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial cable assembly",
+        "zh": "LEMO 同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.RTE100",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial delay-line assembly",
+        "zh": "LEMO 同轴延迟线组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.LTE200",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial cable assembly",
+        "zh": "LEMO 同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.RTE160",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial delay-line assembly",
+        "zh": "LEMO 同轴延迟线组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.LTE300",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial cable assembly",
+        "zh": "LEMO 同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.RTE200",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial delay-line assembly",
+        "zh": "LEMO 同轴延迟线组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.LTE400",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial cable assembly",
+        "zh": "LEMO 同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.RTE320",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial delay-line assembly",
+        "zh": "LEMO 同轴延迟线组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.LTE500",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial cable assembly",
+        "zh": "LEMO 同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.RTE640",
+      "aliases": [],
+      "description": {
+        "en": "LEMO coaxial delay-line assembly",
+        "zh": "LEMO 同轴延迟线组件"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.305.CLAD22",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.309.CLAD22",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.1B.303.CLAD72",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.302.CLAD82",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.304.CLAD92",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.307.CLAD42",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.310.CLAD52",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.314.CLAD62",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.318.CLAD82",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.326.CLAD92",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.0B.304.CLL",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.1B.302.CLL",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.1B.307.CLL",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.2B.302.CYM",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.302.CLAD22",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.305.CLAD32",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.309.CLAD32",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.1B.303.CLAD76",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.302.CLAD92",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.304.CLAD99",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.307.CLAD52",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.310.CLAD62",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.314.CLAD72",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.318.CLAD92",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.326.CLAD99",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.0B.304.CLN",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.1B.302.CLN",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.1B.307.CLN",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.2B.303.CLL",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.302.CLAD32",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.305.CLAD42",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.309.CLAD42",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.1B.304.CLAD42",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.302.CLAD99",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.305.CLAD52",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.307.CLAD62",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.310.CLAD72",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.314.CLAD82",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.318.CLAD99",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.332.CLAD52",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.0B.304.CYM",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.1B.302.CYM",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.1B.307.CYM",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.2B.303.CLN",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.302.CLAD42",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.305.CLAD52",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.309.CLAD52",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.1B.304.CLAD52",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.303.CLAD42",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.305.CLAD62",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.307.CLAD72",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.310.CLAD82",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.314.CLAD92",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.319.CLAD42",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.332.CLAD62",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.0B.305.CLL",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.1B.303.CLL",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.1B.308.CLL",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.2B.303.CYM",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.302.CLAD52",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.305.CLAD56",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.309.CLAD56",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.1B.304.CLAD62",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.303.CLAD52",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.305.CLAD72",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.307.CLAD82",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.310.CLAD92",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.314.CLAD99",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.319.CLAD52",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.332.CLAD72",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.0B.305.CLN",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.1B.303.CLN",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.1B.308.CLLC",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.2B.304.CLL",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.302.CLAD56",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.306.CLAD22",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.312.CLAD22",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.1B.304.CLAD76",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.303.CLAD62",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.305.CLAD82",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.307.CLAD92",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.310.CLAD99",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.316.CLAD42",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.319.CLAD62",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.332.CLAD82",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.0B.305.CYM",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.1B.303.CYM",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.1B.308.CLN",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.2B.304.CLN",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.303.CLAD22",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.306.CLAD32",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.312.CLAD52",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.1B.305.CLAD42",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.303.CLAD72",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.305.CLAD92",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.307.CLAD99",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.312.CLAD42",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.316.CLAD52",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.319.CLAD72",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.332.CLAD92",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.0B.306.CLL",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.1B.304.CLL",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.1B.308.CYM",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.2B.304.CYM",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.303.CLAD32",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.306.CLAD42",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.1B.302.CLAD42",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.1B.305.CLAD52",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.303.CLAD82",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.305.CLAD99",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.308.CLAD42",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.312.CLAD52",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.316.CLAD62",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.319.CLAD82",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.332.CLAD99",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.0B.306.CLLC",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.1B.304.CLN",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.1B.310.CLL",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.2B.305.CLL",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.303.CLAD42",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.306.CLAD52",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.1B.302.CLAD52",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.1B.305.CLAD62",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.303.CLAD92",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.306.CLAD42",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.308.CLAD52",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.312.CLAD62",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.316.CLAD72",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.319.CLAD92",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FWG.0B.304.CLV",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.0B.306.CLN",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.1B.304.CYM",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.1B.310.CLN",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.2B.305.CLN",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.303.CLAD52",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.306.CLAD56",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.1B.302.CLAD62",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.1B.305.CLAD72",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.303.CLAD99",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.306.CLAD52",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.308.CLAD62",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.312.CLAD72",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.316.CLAD82",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.319.CLAD99",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.0B.302.CLL",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.0B.306.CYM",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.1B.305.CLL",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.1B.314.CLL",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.2B.305.CYM",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.303.CLAD56",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.307.CLAD22",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.1B.302.CLAD72",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.1B.305.CLAD76",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.304.CLAD42",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.306.CLAD62",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.308.CLAD72",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.312.CLAD82",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.316.CLAD92",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.326.CLAD42",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.0B.302.CLN",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.0B.307.CLL",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.1B.305.CLN",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.1B.314.CLN",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.2B.306.CLL",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.304.CLAD22",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.307.CLAD32",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.1B.302.CLAD76",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.1B.306.CLAD42",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.304.CLAD52",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.306.CLAD72",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.308.CLAD82",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.312.CLAD92",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.316.CLAD99",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.326.CLAD52",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.0B.302.CYM",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.0B.307.CLN",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.1B.305.CYM",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.1B.316.CLL",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.2B.306.CLN",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.304.CLAD32",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.307.CLAD42",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.1B.303.CLAD42",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.1B.306.CLAD52",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.304.CLAD62",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.306.CLAD82",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.308.CLAD92",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.312.CLAD99",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.318.CLAD52",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.326.CLAD62",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.0B.303.CLL",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.0B.309.CLL",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.1B.306.CLL",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.1B.316.CLN",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.2B.306.CYM",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.304.CLAD42",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.307.CLAD52",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.1B.303.CLAD52",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.1B.306.CLAD62",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.304.CLAD72",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.306.CLAD92",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.308.CLAD99",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.314.CLAD42",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.318.CLAD62",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.326.CLAD72",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.0B.303.CLN",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.0B.309.CLN",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.1B.306.CLN",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.2B.302.CLL",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.2B.307.CLL",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.304.CLAD52",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.307.CLAD56",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.1B.303.CLAD62",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.1B.306.CLAD72",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.304.CLAD82",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.306.CLAD99",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.310.CLAD42",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.314.CLAD52",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.318.CLAD72",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.2B.326.CLAD82",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.0B.303.CYM",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.0B.312.CLN",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.1B.306.CYM",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.2B.302.CLN",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "ECG.2B.307.CLN",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "FGG.0B.304.CLAD56",
+      "aliases": [],
+      "description": {
+        "en": "LEMO connector",
+        "zh": "LEMO 连接器"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "LEMO Compatible",
+    "zh": "LEMO兼容组件"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "audited_subset",
+    "reason": {
+      "en": "This is the verified subset for the category. The target of 200 finished models and 200 materials remains incomplete.",
+      "zh": "此处为本类已核验子集，200个成品型号和200个材料料号的目标仍待继续补充。"
+    },
+    "audit_id": "resume-brand-material-approved-manifest.json",
+    "verified_counts": {
+      "products": 52,
+      "materials": 225
+    },
+    "target_status": "incomplete",
+    "target_counts": {
+      "products": 200,
+      "materials": 200
+    }
+  }
+}

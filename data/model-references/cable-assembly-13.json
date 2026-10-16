@@ -1,0 +1,389 @@
+{
+  "version": 2,
+  "category_id": "cable-assembly-13",
+  "route": "/products/medical-equipment-assembly",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Finished cable and harness references for this interface or application.",
+        "zh": "此接口或应用方向的成品电缆与线束参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Connector, wire and process-material references for project selection.",
+        "zh": "供项目选型的连接器、线材与工艺材料参考。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Equipment and contact boundary",
+        "zh": "设备与接触边界"
+      },
+      "copy": {
+        "en": "Confirm the equipment interface and whether any cable material contacts patients or requires a defined cleaning process.",
+        "zh": "确认设备接口，以及线缆材料是否接触患者或需要特定清洁流程。"
+      }
+    },
+    {
+      "title": {
+        "en": "Electrical function",
+        "zh": "电气功能"
+      },
+      "copy": {
+        "en": "Separate patient signals, power and controls; confirm the device-specific circuit and insulation requirements.",
+        "zh": "区分患者信号、电源与控制，并确认设备专用电路和绝缘要求。"
+      }
+    },
+    {
+      "title": {
+        "en": "Material grade selection",
+        "zh": "材料牌号选择"
+      },
+      "copy": {
+        "en": "Specify jacket and molded-part grades with the required material evidence; a supplier grade is not a finished-device approval.",
+        "zh": "明确护套及成型件牌号和所需材料证据；供应商牌号不等于成品设备获批。"
+      }
+    },
+    {
+      "title": {
+        "en": "Cleaning and sterilization",
+        "zh": "清洁与灭菌"
+      },
+      "copy": {
+        "en": "Name the cleaning agents or sterilization method and the intended number of cycles for assembly testing.",
+        "zh": "列明清洁剂或灭菌方式及预期次数，以便验证完整组件。"
+      }
+    },
+    {
+      "title": {
+        "en": "Handling and service",
+        "zh": "操作与维修"
+      },
+      "copy": {
+        "en": "Review flexing, connector retention, grip, service access and strain relief in the actual use position.",
+        "zh": "按实际使用姿态审核弯折、接口保持力、握持、维修空间及应力释放。"
+      }
+    },
+    {
+      "title": {
+        "en": "Controlled acceptance",
+        "zh": "受控验收"
+      },
+      "copy": {
+        "en": "Agree continuity, insulation, identification and traceability records under the customer’s equipment requirements.",
+        "zh": "按客户设备要求约定导通、绝缘、标识及追溯记录。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=cable-assembly-13&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "Baxter",
+      "identifier": "176612",
+      "aliases": [],
+      "description": {
+        "en": "Medical equipment power cable assembly",
+        "zh": "医疗设备电源电缆组件"
+      }
+    },
+    {
+      "brand": "GE HealthCare",
+      "identifier": "418497-002",
+      "aliases": [],
+      "description": {
+        "en": "Dinalink telemetry interface cable assembly",
+        "zh": "Dinalink遥测接口电缆组件"
+      }
+    },
+    {
+      "brand": "OCP Group",
+      "identifier": "DPP1-140SPBL-060",
+      "aliases": [],
+      "description": {
+        "en": "SureLine Plex 1 connector cable assembly",
+        "zh": "SureLine Plex 1连接电缆组件"
+      }
+    },
+    {
+      "brand": "Baxter",
+      "identifier": "9293-040-50",
+      "aliases": [],
+      "description": {
+        "en": "Patient/ECG equipment cable assembly",
+        "zh": "患者及心电设备电缆组件"
+      }
+    },
+    {
+      "brand": "OCP Group",
+      "identifier": "SPP1-140SPBL-030",
+      "aliases": [],
+      "description": {
+        "en": "SureLine Plex 1 connector cable assembly",
+        "zh": "SureLine Plex 1连接电缆组件"
+      }
+    },
+    {
+      "brand": "Baxter",
+      "identifier": "21256003S",
+      "aliases": [],
+      "description": {
+        "en": "Medical equipment power cable assembly",
+        "zh": "医疗设备电源电缆组件"
+      }
+    },
+    {
+      "brand": "Baxter",
+      "identifier": "206634",
+      "aliases": [],
+      "description": {
+        "en": "Medical equipment power cable assembly",
+        "zh": "医疗设备电源电缆组件"
+      }
+    },
+    {
+      "brand": "Baxter",
+      "identifier": "152344S",
+      "aliases": [],
+      "description": {
+        "en": "Medical equipment interconnect cable assembly",
+        "zh": "医疗设备互连电缆组件"
+      }
+    },
+    {
+      "brand": "Baxter",
+      "identifier": "145412",
+      "aliases": [],
+      "description": {
+        "en": "Medical equipment interconnect cable assembly",
+        "zh": "医疗设备互连电缆组件"
+      }
+    },
+    {
+      "brand": "Baxter",
+      "identifier": "177355",
+      "aliases": [],
+      "description": {
+        "en": "Medical equipment interconnect cable assembly",
+        "zh": "医疗设备互连电缆组件"
+      }
+    },
+    {
+      "brand": "Baxter",
+      "identifier": "SA1698",
+      "aliases": [],
+      "description": {
+        "en": "Medical equipment interconnect cable assembly",
+        "zh": "医疗设备互连电缆组件"
+      }
+    },
+    {
+      "brand": "Baxter",
+      "identifier": "035390-004",
+      "aliases": [],
+      "description": {
+        "en": "Medical equipment interconnect cable assembly",
+        "zh": "医疗设备互连电缆组件"
+      }
+    },
+    {
+      "brand": "Baxter",
+      "identifier": "25020-063-50",
+      "aliases": [],
+      "description": {
+        "en": "Medical equipment power cable assembly",
+        "zh": "医疗设备电源电缆组件"
+      }
+    },
+    {
+      "brand": "Baxter",
+      "identifier": "25004-003-52",
+      "aliases": [],
+      "description": {
+        "en": "Medical equipment interconnect cable assembly",
+        "zh": "医疗设备互连电缆组件"
+      }
+    },
+    {
+      "brand": "Baxter",
+      "identifier": "4024807",
+      "aliases": [],
+      "description": {
+        "en": "Medical equipment wiring harness",
+        "zh": "医疗设备线束"
+      }
+    },
+    {
+      "brand": "Baxter",
+      "identifier": "4023757",
+      "aliases": [],
+      "description": {
+        "en": "Medical equipment wiring harness",
+        "zh": "医疗设备线束"
+      }
+    },
+    {
+      "brand": "Baxter",
+      "identifier": "26025-038-50",
+      "aliases": [],
+      "description": {
+        "en": "Patient/ECG equipment cable assembly",
+        "zh": "患者及心电设备电缆组件"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "brand": "Baxter",
+      "identifier": "3924018",
+      "aliases": [],
+      "description": {
+        "en": "Equipment grounding wire",
+        "zh": "设备接地导线材料"
+      }
+    },
+    {
+      "brand": "Teknor Apex",
+      "identifier": "Medalist MD-84348",
+      "aliases": [],
+      "description": {
+        "en": "TPE grade for medical cable jackets and molded connectors",
+        "zh": "医疗线缆护套及连接器成型用TPE牌号"
+      }
+    },
+    {
+      "brand": "Teknor Apex",
+      "identifier": "Medalist MD-84368",
+      "aliases": [],
+      "description": {
+        "en": "TPE grade for medical cable jackets and molded connectors",
+        "zh": "医疗线缆护套及连接器成型用TPE牌号"
+      }
+    },
+    {
+      "brand": "Teknor Apex",
+      "identifier": "Medalist MD-84383",
+      "aliases": [],
+      "description": {
+        "en": "TPE grade for medical cable jackets and molded connectors",
+        "zh": "医疗线缆护套及连接器成型用TPE牌号"
+      }
+    },
+    {
+      "brand": "Teknor Apex",
+      "identifier": "Medalist MD-84388",
+      "aliases": [],
+      "description": {
+        "en": "TPE grade for medical cable jackets and molded connectors",
+        "zh": "医疗线缆护套及连接器成型用TPE牌号"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Medical Equipment Assembly",
+    "zh": "医疗设备电缆组件"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "audited_subset",
+    "reason": {
+      "en": "This is the verified subset for the category. The target of 200 finished models and 200 materials remains incomplete.",
+      "zh": "此处为本类已核验子集，200个成品型号和200个材料料号的目标仍待继续补充。"
+    },
+    "audit_id": "resume-cable-specialty-approved-manifest.json",
+    "verified_counts": {
+      "products": 17,
+      "materials": 5
+    },
+    "target_status": "incomplete",
+    "target_counts": {
+      "products": 200,
+      "materials": 200
+    }
+  }
+}

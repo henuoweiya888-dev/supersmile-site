@@ -1,0 +1,2918 @@
+{
+  "version": 2,
+  "category_id": "cable-assembly-11",
+  "route": "/products/rf-and-coaxial-assembly",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Finished cable and harness references for this interface or application.",
+        "zh": "此接口或应用方向的成品电缆与线束参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Connector, wire and process-material references for project selection.",
+        "zh": "供项目选型的连接器、线材与工艺材料参考。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "RF interface",
+        "zh": "射频接口"
+      },
+      "copy": {
+        "en": "Confirm connector series, gender, polarity, impedance and the permitted mating torque.",
+        "zh": "确认接口系列、公母、极性、阻抗及允许对插扭矩。"
+      }
+    },
+    {
+      "title": {
+        "en": "Frequency and loss budget",
+        "zh": "频率与损耗预算"
+      },
+      "copy": {
+        "en": "Specify the operating band, cable length and allowed insertion and return loss.",
+        "zh": "明确工作频段、长度及允许插损和回损。"
+      }
+    },
+    {
+      "title": {
+        "en": "Cable construction",
+        "zh": "同轴结构"
+      },
+      "copy": {
+        "en": "Choose flexible or semi-rigid coax with the required conductor, dielectric and shielding construction.",
+        "zh": "按导体、介质及屏蔽要求选择柔性或半刚同轴结构。"
+      }
+    },
+    {
+      "title": {
+        "en": "Termination geometry",
+        "zh": "端接几何形状"
+      },
+      "copy": {
+        "en": "Use the actual cable/connector combination to set strip dimensions, soldering and crimp tooling.",
+        "zh": "根据真实线缆与连接器组合确定剥线尺寸、焊接及压接工装。"
+      }
+    },
+    {
+      "title": {
+        "en": "Phase and routing",
+        "zh": "相位与布线"
+      },
+      "copy": {
+        "en": "Define bend radius, phase matching and routing sensitivity when the RF system requires them.",
+        "zh": "在系统有要求时定义弯曲半径、相位匹配及布线敏感性。"
+      }
+    },
+    {
+      "title": {
+        "en": "RF verification",
+        "zh": "射频检验"
+      },
+      "copy": {
+        "en": "Agree test frequency, calibration reference planes and pass limits for each completed assembly.",
+        "zh": "约定每条成品的测试频点、校准参考面及判定限值。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=cable-assembly-11&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0066-006",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.LTE010",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0067-006",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.LTE020",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0066-012",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.LTE030",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0067-012",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.LTE040",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0066-018",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.LTE050",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0067-018",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.LTE060",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0066-024",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.LTE080",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0067-024",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.LTE100",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0068-MM150",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.LTE150",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0069-MM150",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.LTE200",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0068-006",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.LTE300",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0069-006",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.LTE400",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0068-MM250",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.LTE500",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0069-MM250",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.RTE005",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0068-012",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.RTE010",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0069-012",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.RTE020",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0068-018",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.RTE030",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0069-018",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.RTE040",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0068-MM500",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.RTE050",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0069-MM500",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.RTE060",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0068-024",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.RTE080",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0069-024",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.RTE100",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0068-MM750",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.RTE160",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0069-MM750",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.RTE200",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0070-MM150",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.RTE320",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0071-MM150",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.00.250.RTE640",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0070-006",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.LTE010",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0071-006",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.LTE020",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0070-MM250",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.LTE030",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0071-MM250",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.LTE040",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0070-012",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.LTE050",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0071-012",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.LTE060",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0070-018",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.LTE080",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0071-018",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.LTE100",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0070-MM500",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.LTE150",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0071-MM500",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.LTE200",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0070-024",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.LTE300",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0071-024",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.LTE400",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0070-MM750",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.LTE500",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0071-MM750",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.RTE005",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0070-036",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.RTE010",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0071-036",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.RTE020",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0070-M1.0",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.RTE030",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0071-M1.0",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.RTE040",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0072-006",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.RTE050",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0073-MM150",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.RTE060",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0072-012",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.RTE080",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0073-006",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.RTE100",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0072-018",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.RTE160",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0073-MM250",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.RTE200",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0072-024",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.RTE320",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0073-012",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MSB.00.250.RTE640",
+      "aliases": [],
+      "description": {
+        "en": "00-series coaxial cable assembly",
+        "zh": "00系列同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0072-036",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0073-018",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0073-MM500",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0073-024",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0073-MM750",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0073-036",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0073-M1.0",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0014-006",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0018-024",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0014-012",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0018-030",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0014-018",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0018-036",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0014-024",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0020-006",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0014-030",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0020-012",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0014-036",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0020-018",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0018-006",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0020-024",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0018-012",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0020-030",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0018-018",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0020-036",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0016-MM150",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0016-MM500",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0016-006",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0016-024",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0016-MM250",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0016-MM750",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0016-012",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0016-030",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0016-018",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0016-036",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0016-M1.0",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0017-006",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0017-024",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0017-012",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0017-030",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0017-018",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0017-036",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0015-MM150",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0019-MM250",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0015-006",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0019-012",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0015-MM250",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0019-024",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0015-012",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0019-MM750",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0015-018",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0019-036",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0015-MM500",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0019-M1.0",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0015-024",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0021-006",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0015-MM750",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0021-012",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0015-036",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0021-018",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0015-M1.0",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0021-024",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0019-MM150",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0021-036",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0019-006",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0022-006",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0023-006",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0022-012",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0023-012",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0022-018",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0023-018",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0022-024",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0023-024",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0022-030",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0023-030",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0022-036",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0023-036",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0024-006",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0024-024",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0024-012",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0024-030",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0024-018",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0024-036",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0025-MM150",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0033-012",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0025-006",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0033-018",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0025-MM250",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0033-MM500",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0025-012",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0033-024",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0025-018",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0033-MM750",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0025-MM500",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0033-036",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0025-024",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0033-048",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0025-MM750",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0033-M1.0",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0025-036",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0033-M1.5",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0025-048",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0033-M2.0",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0025-M1.0",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0038-MM250",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0025-M1.5",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0038-012",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0029-MM150",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0038-MM500",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0029-006",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0038-024",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0029-MM250",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0029-012",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0038-048",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0029-018",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0038-M1.0",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0029-MM500",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0038-M1.5",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0029-024",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0038-060",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0029-MM750",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0038-M2.0",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0029-036",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0043-MM250",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0029-048",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0043-012",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0029-M1.0",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0043-MM500",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0029-M1.5",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0043-024",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0029-M2.0",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0043-036",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0029-M3.0",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0043-M1.0",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0033-MM150",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "415-0043-048",
+      "aliases": [],
+      "description": {
+        "en": "RF coaxial cable assembly",
+        "zh": "射频同轴电缆组件"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "brand": "Avient",
+      "identifier": "ECCOH 5549 LM",
+      "aliases": [],
+      "description": {
+        "en": "LAN/coaxial cable jacket compound",
+        "zh": "网络及同轴线缆护套材料牌号"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "135-3402-001",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "ECCOH 5865/1",
+      "aliases": [],
+      "description": {
+        "en": "LAN/coaxial cable jacket compound",
+        "zh": "网络及同轴线缆护套材料牌号"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "135-3403-001",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Avient",
+      "identifier": "ECCOH 5836",
+      "aliases": [],
+      "description": {
+        "en": "LAN/coaxial cable jacket compound",
+        "zh": "网络及同轴线缆护套材料牌号"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "135-3402-101",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "135-3403-101",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "142-0302-431",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "142-0303-411",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "133-3402-021",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "133-3403-001",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "133-3404-001",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "133-3303-401",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "133-3403-101",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "133-3402-101",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "133-3404-101",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "133-8433-001",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "133-8445-001",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "133-8445-101",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "142-0402-011",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "142-0403-011",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "142-0404-011",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "142-0407-011",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "142-0408-011",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "142-0693-001",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "142-0694-001",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "142-0304-411",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "142-0307-411",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "142-0308-411",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "142-0402-101",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "142-0403-101",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "142-0404-101",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "142-0408-101",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "142-0407-101",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "142-1403-001",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "142-1404-001",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "142-1408-001",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "131-1403-001",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "131-3402-001",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "131-1402-101",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "131-1403-101",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "131-1404-001",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "131-1404-101",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "131-8403-011",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "131-8404-011",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "131-8403-111",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "131-8404-111",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "131-8445-101",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "CPN-1",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "CPN-142T",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "CPN-8",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "CPMC-88-1",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "CPMC-88-10",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "CPMC-88-2",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "CPMC-88-18",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "CPMC-68-2",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "CPMC-68-35",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "CPMC-68-18",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "CPMC-68-3",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "CPMC-68-33",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "CPMC-68-45",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "CPM-88-19",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    },
+    {
+      "brand": "Cinch Connectivity Solutions Johnson",
+      "identifier": "CPMC-88-13",
+      "aliases": [],
+      "description": {
+        "en": "RF connector component",
+        "zh": "射频连接器材料"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "RF & Coaxial Assembly",
+    "zh": "RF与同轴电缆组件"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "audited_subset",
+    "reason": {
+      "en": "This is the verified subset for the category. The target of 200 finished models and 200 materials remains incomplete.",
+      "zh": "此处为本类已核验子集，200个成品型号和200个材料料号的目标仍待继续补充。"
+    },
+    "audit_id": "resume-cable-specialty-approved-manifest.json",
+    "verified_counts": {
+      "products": 240,
+      "materials": 63
+    },
+    "target_status": "incomplete",
+    "target_counts": {
+      "products": 200,
+      "materials": 200
+    }
+  }
+}

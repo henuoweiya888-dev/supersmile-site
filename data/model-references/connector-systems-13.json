@@ -1,0 +1,4281 @@
+{
+  "version": 2,
+  "category_id": "connector-systems-13",
+  "route": "/products/panduit-compatible",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Finished cable and harness references for this interface or application.",
+        "zh": "此接口或应用方向的成品电缆与线束参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Connector, wire and process-material references for project selection.",
+        "zh": "供项目选型的连接器、线材与工艺材料参考。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Interface & Application",
+        "zh": "接口与应用"
+      },
+      "copy": {
+        "en": "A component family name does not define a complete harness; control the circuit, conductor, route, installation and acceptance method together.",
+        "zh": "部件系列名称不能定义完整线束，仍需共同控制回路、导体、路径、安装与验收方法。"
+      }
+    },
+    {
+      "title": {
+        "en": "Project Inputs",
+        "zh": "项目输入"
+      },
+      "copy": {
+        "en": "Provide original part numbers, wire range, bundle diameter, environment, drawings and the approved substitution boundary.",
+        "zh": "提供原始料号、适用线径、束径、环境、图纸及认可替代边界。"
+      }
+    },
+    {
+      "title": {
+        "en": "Release Requirements",
+        "zh": "放行要求"
+      },
+      "copy": {
+        "en": "Approve the component schedule, harness-board baseline, workmanship sample and inspection record before repeat production.",
+        "zh": "重复生产前确认部件清单、线束板基准、工艺样品及检验记录。"
+      }
+    },
+    {
+      "title": {
+        "en": "Mating & Termination",
+        "zh": "对插与端接"
+      },
+      "copy": {
+        "en": "Identify the mating part number and termination method before confirming the assembly drawing.",
+        "zh": "确认对插件料号和端接方式，再确定组件图纸。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sample Review",
+        "zh": "样品审核"
+      },
+      "copy": {
+        "en": "Compare the sample with the approved pin map, dimensions and material list.",
+        "zh": "按确认的针脚对应、尺寸和材料清单审核样品。"
+      }
+    },
+    {
+      "title": {
+        "en": "Build Records",
+        "zh": "制造记录"
+      },
+      "copy": {
+        "en": "Retain the approved part list and inspection results for repeat production.",
+        "zh": "保留确认物料清单与检验结果，作为重复生产依据。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=connector-systems-13&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "Panduit",
+      "identifier": "NK6APC1",
+      "aliases": [],
+      "description": {
+        "en": "NetKey copper patch cord",
+        "zh": "NetKey网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "QZPBCCB0001F010",
+      "aliases": [],
+      "description": {
+        "en": "QuickNet preterminated copper trunk",
+        "zh": "QuickNet预端接铜缆主干组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP28X0.2MBL",
+      "aliases": [],
+      "description": {
+        "en": "28AWG shielded copper patch cord",
+        "zh": "28AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP6X0.2MBL",
+      "aliases": [],
+      "description": {
+        "en": "26AWG shielded copper patch cord",
+        "zh": "26AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP1",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X1",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX1",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTPSP10BLY",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "NK6APC1BU",
+      "aliases": [],
+      "description": {
+        "en": "NetKey copper patch cord",
+        "zh": "NetKey网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "QZPBCJB0001F010",
+      "aliases": [],
+      "description": {
+        "en": "QuickNet preterminated copper trunk",
+        "zh": "QuickNet预端接铜缆主干组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP28X0.2MBU",
+      "aliases": [],
+      "description": {
+        "en": "28AWG shielded copper patch cord",
+        "zh": "28AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP6X0.2MBU",
+      "aliases": [],
+      "description": {
+        "en": "26AWG shielded copper patch cord",
+        "zh": "26AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP10",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X10",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX10",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTPSP10BUY",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "QZPBCUB0001F010",
+      "aliases": [],
+      "description": {
+        "en": "QuickNet preterminated copper trunk",
+        "zh": "QuickNet预端接铜缆主干组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP28X0.2MGR",
+      "aliases": [],
+      "description": {
+        "en": "28AWG shielded copper patch cord",
+        "zh": "28AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP6X0.2MGR",
+      "aliases": [],
+      "description": {
+        "en": "26AWG shielded copper patch cord",
+        "zh": "26AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP10BL",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X10BL",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX10BL",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTPSP10GRY",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "QZRBCCB0001F010",
+      "aliases": [],
+      "description": {
+        "en": "QuickNet preterminated copper trunk",
+        "zh": "QuickNet预端接铜缆主干组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP28X0.2MIG",
+      "aliases": [],
+      "description": {
+        "en": "28AWG shielded copper patch cord",
+        "zh": "28AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP6X0.2MIG",
+      "aliases": [],
+      "description": {
+        "en": "26AWG shielded copper patch cord",
+        "zh": "26AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP10BU",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X10BU",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX10BU",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTPSP10RDY",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "QZRBCJB0001F010",
+      "aliases": [],
+      "description": {
+        "en": "QuickNet preterminated copper trunk",
+        "zh": "QuickNet预端接铜缆主干组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP28X0.5MBL",
+      "aliases": [],
+      "description": {
+        "en": "28AWG shielded copper patch cord",
+        "zh": "28AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP6X0.5MBL",
+      "aliases": [],
+      "description": {
+        "en": "26AWG shielded copper patch cord",
+        "zh": "26AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP10GR",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X10GR",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX10GR",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTPSP10Y",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "QZRBCUB0001F010",
+      "aliases": [],
+      "description": {
+        "en": "QuickNet preterminated copper trunk",
+        "zh": "QuickNet预端接铜缆主干组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP28X0.5MBU",
+      "aliases": [],
+      "description": {
+        "en": "28AWG shielded copper patch cord",
+        "zh": "28AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP6X0.5MBU",
+      "aliases": [],
+      "description": {
+        "en": "26AWG shielded copper patch cord",
+        "zh": "26AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP10RD",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X10RD",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX10RD",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTPSP10YLY",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP28X0.5MGR",
+      "aliases": [],
+      "description": {
+        "en": "28AWG shielded copper patch cord",
+        "zh": "28AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP6X0.5MGR",
+      "aliases": [],
+      "description": {
+        "en": "26AWG shielded copper patch cord",
+        "zh": "26AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP10YL",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X10YL",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX10YL",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTPSP15BLY",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP28X0.5MIG",
+      "aliases": [],
+      "description": {
+        "en": "28AWG shielded copper patch cord",
+        "zh": "28AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP6X0.5MIG",
+      "aliases": [],
+      "description": {
+        "en": "26AWG shielded copper patch cord",
+        "zh": "26AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP15",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X15",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX15",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTPSP15BUY",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP28X1.5MBL",
+      "aliases": [],
+      "description": {
+        "en": "28AWG shielded copper patch cord",
+        "zh": "28AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP6X1.5MBL",
+      "aliases": [],
+      "description": {
+        "en": "26AWG shielded copper patch cord",
+        "zh": "26AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP15BL",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X15BL",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX15BL",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTPSP15GRY",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP28X1.5MBU",
+      "aliases": [],
+      "description": {
+        "en": "28AWG shielded copper patch cord",
+        "zh": "28AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP6X1.5MBU",
+      "aliases": [],
+      "description": {
+        "en": "26AWG shielded copper patch cord",
+        "zh": "26AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP15BU",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X15BU",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX15BU",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTPSP15RDY",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP28X1.5MGR",
+      "aliases": [],
+      "description": {
+        "en": "28AWG shielded copper patch cord",
+        "zh": "28AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP6X1.5MGR",
+      "aliases": [],
+      "description": {
+        "en": "26AWG shielded copper patch cord",
+        "zh": "26AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP15GR",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X15GR",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX15GR",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTPSP15Y",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP28X1.5MIG",
+      "aliases": [],
+      "description": {
+        "en": "28AWG shielded copper patch cord",
+        "zh": "28AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP6X1.5MIG",
+      "aliases": [],
+      "description": {
+        "en": "26AWG shielded copper patch cord",
+        "zh": "26AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP15RD",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X15RD",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX15RD",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTPSP15YLY",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP28X1MBL",
+      "aliases": [],
+      "description": {
+        "en": "28AWG shielded copper patch cord",
+        "zh": "28AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP6X1MBL",
+      "aliases": [],
+      "description": {
+        "en": "26AWG shielded copper patch cord",
+        "zh": "26AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP15YL",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X15YL",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX15YL",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTPSP1BLY",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP28X1MBU",
+      "aliases": [],
+      "description": {
+        "en": "28AWG shielded copper patch cord",
+        "zh": "28AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP6X1MBU",
+      "aliases": [],
+      "description": {
+        "en": "26AWG shielded copper patch cord",
+        "zh": "26AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP1BL",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X1BL",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX1BL",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTPSP1BUY",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP28X1MGR",
+      "aliases": [],
+      "description": {
+        "en": "28AWG shielded copper patch cord",
+        "zh": "28AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP6X1MGR",
+      "aliases": [],
+      "description": {
+        "en": "26AWG shielded copper patch cord",
+        "zh": "26AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP1BU",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X1BU",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX1BU",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTPSP1GRY",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP28X1MIG",
+      "aliases": [],
+      "description": {
+        "en": "28AWG shielded copper patch cord",
+        "zh": "28AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP6X1MIG",
+      "aliases": [],
+      "description": {
+        "en": "26AWG shielded copper patch cord",
+        "zh": "26AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP1GR",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X1GR",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX1GR",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTPSP1RDY",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP28X2MBL",
+      "aliases": [],
+      "description": {
+        "en": "28AWG shielded copper patch cord",
+        "zh": "28AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP6X2MBL",
+      "aliases": [],
+      "description": {
+        "en": "26AWG shielded copper patch cord",
+        "zh": "26AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP1RD",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X1RD",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX1RD",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTPSP1Y",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP28X2MBU",
+      "aliases": [],
+      "description": {
+        "en": "28AWG shielded copper patch cord",
+        "zh": "28AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP6X2MBU",
+      "aliases": [],
+      "description": {
+        "en": "26AWG shielded copper patch cord",
+        "zh": "26AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP1YL",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X1YL",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX1YL",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTPSP1YLY",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP28X2MGR",
+      "aliases": [],
+      "description": {
+        "en": "28AWG shielded copper patch cord",
+        "zh": "28AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP6X2MGR",
+      "aliases": [],
+      "description": {
+        "en": "26AWG shielded copper patch cord",
+        "zh": "26AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP3",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X3",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX2",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTPSP3BLY",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP28X2MIG",
+      "aliases": [],
+      "description": {
+        "en": "28AWG shielded copper patch cord",
+        "zh": "28AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP6X2MIG",
+      "aliases": [],
+      "description": {
+        "en": "26AWG shielded copper patch cord",
+        "zh": "26AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP3BL",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X3BL",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX2BU",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTPSP3BUY",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP28X3MBL",
+      "aliases": [],
+      "description": {
+        "en": "28AWG shielded copper patch cord",
+        "zh": "28AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP6X3MBL",
+      "aliases": [],
+      "description": {
+        "en": "26AWG shielded copper patch cord",
+        "zh": "26AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP3BU",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X3BU",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX3",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTPSP3GRY",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP28X3MBU",
+      "aliases": [],
+      "description": {
+        "en": "28AWG shielded copper patch cord",
+        "zh": "28AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP6X3MBU",
+      "aliases": [],
+      "description": {
+        "en": "26AWG shielded copper patch cord",
+        "zh": "26AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP3GR",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X3GR",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX3BL",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTPSP3RDY",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP28X3MGR",
+      "aliases": [],
+      "description": {
+        "en": "28AWG shielded copper patch cord",
+        "zh": "28AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP6X3MGR",
+      "aliases": [],
+      "description": {
+        "en": "26AWG shielded copper patch cord",
+        "zh": "26AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP3RD",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X3RD",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX3BU",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTPSP3Y",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP28X3MIG",
+      "aliases": [],
+      "description": {
+        "en": "28AWG shielded copper patch cord",
+        "zh": "28AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP6X3MIG",
+      "aliases": [],
+      "description": {
+        "en": "26AWG shielded copper patch cord",
+        "zh": "26AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP3YL",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X3YL",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX3GR",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTPSP3YLY",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP28X5MBL",
+      "aliases": [],
+      "description": {
+        "en": "28AWG shielded copper patch cord",
+        "zh": "28AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP6X5MBL",
+      "aliases": [],
+      "description": {
+        "en": "26AWG shielded copper patch cord",
+        "zh": "26AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP5",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X5",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX3RD",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTPSP5BLY",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP28X5MBU",
+      "aliases": [],
+      "description": {
+        "en": "28AWG shielded copper patch cord",
+        "zh": "28AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP6X5MBU",
+      "aliases": [],
+      "description": {
+        "en": "26AWG shielded copper patch cord",
+        "zh": "26AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP5BL",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X5BL",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX3YL",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTPSP5BUY",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP28X5MGR",
+      "aliases": [],
+      "description": {
+        "en": "28AWG shielded copper patch cord",
+        "zh": "28AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP6X5MGR",
+      "aliases": [],
+      "description": {
+        "en": "26AWG shielded copper patch cord",
+        "zh": "26AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP5BU",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X5BU",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX5",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTPSP5GRY",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP28X5MIG",
+      "aliases": [],
+      "description": {
+        "en": "28AWG shielded copper patch cord",
+        "zh": "28AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "STP6X5MIG",
+      "aliases": [],
+      "description": {
+        "en": "26AWG shielded copper patch cord",
+        "zh": "26AWG屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP5GR",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X5GR",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX5BL",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTPSP5RDY",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP5RD",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X5RD",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX5BU",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTPSP5Y",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP5YL",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X5YL",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX5GR",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTPSP5YLY",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP7",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X7",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX5RD",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTPSP7BLY",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP7BL",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X7BL",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX5YL",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTPSP7BUY",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP7BU",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X7BU",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX7",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTPSP7GRY",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP7GR",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X7GR",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX7BL",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTPSP7RDY",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP7RD",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X7RD",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX7BU",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTPSP7Y",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP7YL",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X7YL",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX7GR",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTPSP7YLY",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP8IN",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X8IN",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX7RD",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP8INBL",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X8INBL",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP6AX7YL",
+      "aliases": [],
+      "description": {
+        "en": "24AWG unshielded copper patch cord",
+        "zh": "24AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP8INBU",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X8INBU",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP8INGR",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X8INGR",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28SP8INRD",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UTP28X8INRD",
+      "aliases": [],
+      "description": {
+        "en": "28AWG unshielded copper patch cord",
+        "zh": "28AWG非屏蔽网络跳线"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "brand": "Panduit",
+      "identifier": "ABM100-A-C",
+      "aliases": [
+        "ABM100-A-D"
+      ],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "AST20-5-C100",
+      "aliases": [],
+      "description": {
+        "en": "Harness bundling cable tie",
+        "zh": "线束捆扎扎带"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PFO6X04BL-CEG",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "CC688BL",
+      "aliases": [],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "BS10-D",
+      "aliases": [],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "ABMT-A-C",
+      "aliases": [],
+      "description": {
+        "en": "Hook-loop tie or harness mounting component",
+        "zh": "扎带与线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "ABMM-A-C",
+      "aliases": [
+        "ABMM-A-D"
+      ],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "BC2S-S10-C",
+      "aliases": [
+        "BC2S-S10-D"
+      ],
+      "description": {
+        "en": "Harness bundling cable tie",
+        "zh": "线束捆扎扎带"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PFP6X04BU-UGZ",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "CCS6X88BL",
+      "aliases": [],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "BSH10-E",
+      "aliases": [],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "ERT2M-C20",
+      "aliases": [],
+      "description": {
+        "en": "Hook-loop tie or harness mounting component",
+        "zh": "扎带与线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "ABMQS-A-C",
+      "aliases": [],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "BT1.5I-C",
+      "aliases": [
+        "BT1.5I-M"
+      ],
+      "description": {
+        "en": "Harness bundling cable tie",
+        "zh": "线束捆扎扎带"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PFR6X04BU-CGZ",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "CJ688TGBL",
+      "aliases": [
+        "CJ688TGBL-24",
+        "CJ688TGBL-C"
+      ],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "BSN10-L",
+      "aliases": [],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "HLB2S-C0",
+      "aliases": [],
+      "description": {
+        "en": "Hook-loop tie or harness mounting component",
+        "zh": "扎带与线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "ABMS-A-C",
+      "aliases": [
+        "ABMS-A-D"
+      ],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "CBR1.5I-M0",
+      "aliases": [],
+      "description": {
+        "en": "Harness bundling cable tie",
+        "zh": "线束捆扎扎带"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PUFP6X04BU-UG",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "CJS688TGBUY",
+      "aliases": [],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "BSV10X-Q",
+      "aliases": [
+        "BSV10X-D"
+      ],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "HLSP1.5S-X0",
+      "aliases": [],
+      "description": {
+        "en": "Hook-loop tie or harness mounting component",
+        "zh": "扎带与线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "ACC19-A-C",
+      "aliases": [
+        "ACC19-A-M"
+      ],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "HV9150-C0",
+      "aliases": [],
+      "description": {
+        "en": "Harness bundling cable tie",
+        "zh": "线束捆扎扎带"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PUFR6X04BU-UG",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "FP6X88MTG",
+      "aliases": [
+        "FP6X88MTG-X"
+      ],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "DNF10-250FI-L",
+      "aliases": [
+        "DNF10-250FI-D"
+      ],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "HLT2I-M0",
+      "aliases": [
+        "HLT2I-X0"
+      ],
+      "description": {
+        "en": "Hook-loop tie or harness mounting component",
+        "zh": "扎带与线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "AJC25-A-C",
+      "aliases": [],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PLDC1.5EH-C350",
+      "aliases": [
+        "PLDC1.5EH-L350"
+      ],
+      "description": {
+        "en": "Harness bundling cable tie",
+        "zh": "线束捆扎扎带"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PUO6AS04BL-G",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "FPS6X88MTG",
+      "aliases": [
+        "FPS6X88MTG-X"
+      ],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "DNFR14-250B-L",
+      "aliases": [
+        "DNFR14-250B-M"
+      ],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "HLTP2I-X12",
+      "aliases": [],
+      "description": {
+        "en": "Hook-loop tie or harness mounting component",
+        "zh": "扎带与线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "BEC38-A-L",
+      "aliases": [],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PLT1.5M-C71",
+      "aliases": [],
+      "description": {
+        "en": "Harness bundling cable tie",
+        "zh": "线束捆扎扎带"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PUP6004BU-ULPZ",
+      "aliases": [
+        "PUP6004BU-WLPZ"
+      ],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "FPUD6X88MTG",
+      "aliases": [],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "DV10-250-L",
+      "aliases": [],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UCT3S-X0",
+      "aliases": [],
+      "description": {
+        "en": "Hook-loop tie or harness mounting component",
+        "zh": "扎带与线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "FCC-A-C8",
+      "aliases": [
+        "FCC-A-D8"
+      ],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PLWP1SB-D",
+      "aliases": [],
+      "description": {
+        "en": "Harness bundling cable tie",
+        "zh": "线束捆扎扎带"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PUR6AHD04BU-G",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "NK688MBL",
+      "aliases": [
+        "NK688MBL-Q"
+      ],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "F82-10-M",
+      "aliases": [],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UGCTC3S-X0",
+      "aliases": [],
+      "description": {
+        "en": "Hook-loop tie or harness mounting component",
+        "zh": "扎带与线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "FCM1-A-C14",
+      "aliases": [
+        "FCM1-A-T14"
+      ],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "AST25-5-C100",
+      "aliases": [],
+      "description": {
+        "en": "Harness bundling cable tie",
+        "zh": "线束捆扎扎带"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PFP6C04BU-UGZ",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "SKJ688BL",
+      "aliases": [
+        "SKJ688BL-C"
+      ],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "FSD73-8-D",
+      "aliases": [],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "UGCTE3S-X0",
+      "aliases": [],
+      "description": {
+        "en": "Hook-loop tie or harness mounting component",
+        "zh": "扎带与线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "HCMP06B12-M20",
+      "aliases": [],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "BC2S-S10-D0",
+      "aliases": [],
+      "description": {
+        "en": "Harness bundling cable tie",
+        "zh": "线束捆扎扎带"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PFR6C04BU-UGZ",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "SP628-C",
+      "aliases": [],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "FTD75-8-D",
+      "aliases": [],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "ABMT-A-C20",
+      "aliases": [
+        "ABMT-A-Q20"
+      ],
+      "description": {
+        "en": "Hook-loop tie or harness mounting component",
+        "zh": "扎带与线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "LWC25-A-C",
+      "aliases": [
+        "LWC25-A-D"
+      ],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "BT1.5I-C0",
+      "aliases": [
+        "BT1.5I-M0"
+      ],
+      "description": {
+        "en": "Harness bundling cable tie",
+        "zh": "线束捆扎扎带"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PUFP6X04WH-UG",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "SPS688-C",
+      "aliases": [],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "JN218-216-C",
+      "aliases": [
+        "JN218-216-M"
+      ],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "HLSP3S-X0",
+      "aliases": [],
+      "description": {
+        "en": "Hook-loop tie or harness mounting component",
+        "zh": "扎带与线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "MACC25-A-C",
+      "aliases": [
+        "MACC25-A-D"
+      ],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "CBR1M-M",
+      "aliases": [],
+      "description": {
+        "en": "Harness bundling cable tie",
+        "zh": "线束捆扎扎带"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PUFR6X04WH-UG",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "CJ688TGBU",
+      "aliases": [
+        "CJ688TGBU-24"
+      ],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "P10-10R-L",
+      "aliases": [
+        "P10-10R-D"
+      ],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "HLT2I-X6",
+      "aliases": [],
+      "description": {
+        "en": "Hook-loop tie or harness mounting component",
+        "zh": "扎带与线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "SGABM20-A-C",
+      "aliases": [],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PLDC2.5EH-C350",
+      "aliases": [
+        "PLDC2.5EH-L350"
+      ],
+      "description": {
+        "en": "Harness bundling cable tie",
+        "zh": "线束捆扎扎带"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PUP6004WH-WLPZ",
+      "aliases": [
+        "PUP6004WH-ULPZ"
+      ],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "CJE6X88TGBU",
+      "aliases": [],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PN10-10F-L",
+      "aliases": [],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "HLTP3I-X0",
+      "aliases": [],
+      "description": {
+        "en": "Hook-loop tie or harness mounting component",
+        "zh": "扎带与线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "TA1S10-M",
+      "aliases": [],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PLT10LH-C",
+      "aliases": [],
+      "description": {
+        "en": "Harness bundling cable tie",
+        "zh": "线束捆扎扎带"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PUR6004BU-WZ",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "CJSLRCAPBU-X",
+      "aliases": [],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PS12-L",
+      "aliases": [],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "ABMT-S6-C",
+      "aliases": [],
+      "description": {
+        "en": "Hook-loop tie or harness mounting component",
+        "zh": "扎带与线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "TM1S6-C",
+      "aliases": [
+        "TM1S6-M"
+      ],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "BC4LH-S25-L0",
+      "aliases": [
+        "BC4LH-S25-TL0"
+      ],
+      "description": {
+        "en": "Harness bundling cable tie",
+        "zh": "线束捆扎扎带"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PFO6X04BL-CGZ",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "CJSLRCAPIW-X",
+      "aliases": [],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PV10-10F-L",
+      "aliases": [],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "HLSP3S-X12",
+      "aliases": [],
+      "description": {
+        "en": "Hook-loop tie or harness mounting component",
+        "zh": "扎带与线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "TMEH-S10-C0",
+      "aliases": [
+        "TMEH-S10-Q0",
+        "TMEH-S10-X0"
+      ],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "BT1.5I-M30",
+      "aliases": [],
+      "description": {
+        "en": "Harness bundling cable tie",
+        "zh": "线束捆扎扎带"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PUO6C04BL-CEG",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "CJSUDCAPBU-X",
+      "aliases": [],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "BSH14-Q",
+      "aliases": [],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "HLT3I-M0",
+      "aliases": [
+        "HLT3I-X0"
+      ],
+      "description": {
+        "en": "Hook-loop tie or harness mounting component",
+        "zh": "扎带与线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "ABM100-A-D20",
+      "aliases": [],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "CBR1M-M0",
+      "aliases": [],
+      "description": {
+        "en": "Harness bundling cable tie",
+        "zh": "线束捆扎扎带"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PUP6004BU-WZ",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "CJSUDCAPIW-X",
+      "aliases": [],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "BSN14-C",
+      "aliases": [
+        "BSN14-M",
+        "BSN14-3K"
+      ],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "HLTP3I-X12",
+      "aliases": [],
+      "description": {
+        "en": "Hook-loop tie or harness mounting component",
+        "zh": "扎带与线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "ABMM-A-C20",
+      "aliases": [],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PLT1M-C186",
+      "aliases": [],
+      "description": {
+        "en": "Harness bundling cable tie",
+        "zh": "线束捆扎扎带"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PUR6AS04BU-Z",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "FC-ISC",
+      "aliases": [],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "BSV14X-L",
+      "aliases": [
+        "BSV14X-M"
+      ],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "ABMT-S6-C20",
+      "aliases": [],
+      "description": {
+        "en": "Hook-loop tie or harness mounting component",
+        "zh": "扎带与线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "ACC19-AT-M0",
+      "aliases": [],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "BT1.5M-C0",
+      "aliases": [
+        "BT1.5M-M0"
+      ],
+      "description": {
+        "en": "Harness bundling cable tie",
+        "zh": "线束捆扎扎带"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PFP6C04WH-UGZ",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "SP-1LSA22BL",
+      "aliases": [],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "DNF10-250FIB-L",
+      "aliases": [
+        "DNF10-250FIB-D"
+      ],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "HLSP5S-X0",
+      "aliases": [],
+      "description": {
+        "en": "Hook-loop tie or harness mounting component",
+        "zh": "扎带与线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "BEC62-A-T",
+      "aliases": [],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "CBR2M-M",
+      "aliases": [],
+      "description": {
+        "en": "Harness bundling cable tie",
+        "zh": "线束捆扎扎带"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PFR6C04WH-UGZ",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "CC6X88BL",
+      "aliases": [],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "DNFR14-250FIB-M",
+      "aliases": [],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "HLT3I-X10",
+      "aliases": [],
+      "description": {
+        "en": "Hook-loop tie or harness mounting component",
+        "zh": "扎带与线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "FCC5-A-D8",
+      "aliases": [],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PLT1M-C702Y",
+      "aliases": [],
+      "description": {
+        "en": "Harness bundling cable tie",
+        "zh": "线束捆扎扎带"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PUP6004WH-WZ",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "CJ6X88TGBL",
+      "aliases": [
+        "CJ6X88TGBL-24",
+        "CJ6X88TGBL-C"
+      ],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "DV14-250B-C",
+      "aliases": [],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "HLSP5S-X12",
+      "aliases": [],
+      "description": {
+        "en": "Hook-loop tie or harness mounting component",
+        "zh": "扎带与线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "FCM1.2-A-C14",
+      "aliases": [],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "BT1.5M-M",
+      "aliases": [],
+      "description": {
+        "en": "Harness bundling cable tie",
+        "zh": "线束捆扎扎带"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PUR6004WH-WZ",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "CJS688TGY",
+      "aliases": [
+        "CJS688TGY-24"
+      ],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "F83-12-D",
+      "aliases": [],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "HLT3I-X6",
+      "aliases": [],
+      "description": {
+        "en": "Hook-loop tie or harness mounting component",
+        "zh": "扎带与线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "LWC25-A-C14",
+      "aliases": [],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "CBR2S-M0",
+      "aliases": [],
+      "description": {
+        "en": "Harness bundling cable tie",
+        "zh": "线束捆扎扎带"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PUO6C04BL-CGZ",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "NK688MWH",
+      "aliases": [
+        "NK688MWH-Q"
+      ],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "FSD74-8-D",
+      "aliases": [],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "MACC62-A-D",
+      "aliases": [],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PLT1M-C71",
+      "aliases": [],
+      "description": {
+        "en": "Harness bundling cable tie",
+        "zh": "线束捆扎扎带"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PUP6C04BU-W",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "SKJ6X88BL",
+      "aliases": [
+        "SKJ6X88BL-C"
+      ],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "FTD77-10-D",
+      "aliases": [],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "SGABM20-AT-C0",
+      "aliases": [],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "BT1M-C",
+      "aliases": [
+        "BT1M-M"
+      ],
+      "description": {
+        "en": "Harness bundling cable tie",
+        "zh": "线束捆扎扎带"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PUR6C04BU-F",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "SP688E-C",
+      "aliases": [],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "JN224-318-M",
+      "aliases": [],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "TA1S8-C",
+      "aliases": [
+        "TA1S8-M"
+      ],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "CBR2S-M39",
+      "aliases": [],
+      "description": {
+        "en": "Harness bundling cable tie",
+        "zh": "线束捆扎扎带"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PFP6X04WH-UGZ",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "SPS6X88-C",
+      "aliases": [],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "P10-10RHT6-L",
+      "aliases": [],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "TM2S6-C",
+      "aliases": [
+        "TM2S6-M"
+      ],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PLT1M-C76",
+      "aliases": [
+        "PLT1M-M76"
+      ],
+      "description": {
+        "en": "Harness bundling cable tie",
+        "zh": "线束捆扎扎带"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PFR6X04WH-CGZ",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "CJ688TGEI",
+      "aliases": [
+        "CJ688TGEI-24"
+      ],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PN10-10R-L",
+      "aliases": [
+        "PN10-10R-D"
+      ],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "TMEH-S10-C100",
+      "aliases": [],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PUP6AHD04BU-G",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "CJE6X88TGIW",
+      "aliases": [],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PV10-10LF-L",
+      "aliases": [],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "ABM100-AT-C",
+      "aliases": [],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PUR6AS04BU-GZ",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "CJS6X88TGBUY",
+      "aliases": [],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "BSH18-Q",
+      "aliases": [],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "ABMM-AT-C",
+      "aliases": [
+        "ABMM-AT-D"
+      ],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PUO6C2204BL-GZ",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "NK6X88MWH",
+      "aliases": [
+        "NK6X88MWH-Q"
+      ],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "BSN18-C",
+      "aliases": [
+        "BSN18-M",
+        "BSN18-3K"
+      ],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "ACC38-A-C",
+      "aliases": [
+        "ACC38-A-M"
+      ],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PUP6C04BU-WLPZ",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "SP6X88-C",
+      "aliases": [],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "BSV18X-LY",
+      "aliases": [
+        "BSV18X-MY"
+      ],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "BEC75-A-T",
+      "aliases": [],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PUP6AHD04WH-G",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "CJ688TGGR",
+      "aliases": [
+        "CJ688TGGR-24"
+      ],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "DNF14-250-C",
+      "aliases": [
+        "DNF14-250-M"
+      ],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "FCM1.2-S6-C14",
+      "aliases": [
+        "FCM1.2-S6-T14"
+      ],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PUR6AS04WH-GZ",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "CJS6X88TGY",
+      "aliases": [
+        "CJS6X88TGY-24"
+      ],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "DNFR18-250B-M",
+      "aliases": [],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "LWC38-A-C14",
+      "aliases": [
+        "LWC38-A-D14"
+      ],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PUO6X04BL-CEG",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "SP6X88PHD-C",
+      "aliases": [],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "F86-25-C",
+      "aliases": [],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "SGABM20-AV-C300",
+      "aliases": [],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PUP6C04BU-WZ",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "CJ688TGIG",
+      "aliases": [
+        "CJ688TGIG-24"
+      ],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "FSD75-10-D",
+      "aliases": [],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "TM2S8-C",
+      "aliases": [
+        "TM2S8-M"
+      ],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PUP6C04WH-WLPZ",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "SP6X88SD-C",
+      "aliases": [],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "FTD77-8-D",
+      "aliases": [],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "TMEH-S25-C0",
+      "aliases": [
+        "TMEH-S25-Q0",
+        "TMEH-S25-X0"
+      ],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PUR6C04BU-WZ",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "CJ688TGIW-24",
+      "aliases": [
+        "CJ688TGIW"
+      ],
+      "description": {
+        "en": "Network connector component",
+        "zh": "网络连接器组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "JN314-412-C",
+      "aliases": [],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "ABM100-AT-C0",
+      "aliases": [
+        "ABM100-AT-D0"
+      ],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PUP6C2204BL-WZ",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "P10-14R-L",
+      "aliases": [
+        "P10-14R-D"
+      ],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "ABMM-AT-C0",
+      "aliases": [
+        "ABMM-AT-D0"
+      ],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PUP6C04WH-WZ",
+      "aliases": [],
+      "description": {
+        "en": "Bulk network cable material",
+        "zh": "网络电缆材料"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PN10-14R-L",
+      "aliases": [
+        "PN10-14R-D"
+      ],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "ACC38-AV-M300",
+      "aliases": [],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "PV10-10R-L",
+      "aliases": [
+        "PV10-10R-D"
+      ],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "FCM2-A-C14",
+      "aliases": [
+        "FCM2-A-T14"
+      ],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "BSN22-C",
+      "aliases": [],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "LWC38-A-C20",
+      "aliases": [],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "DNF14-250FIB-C",
+      "aliases": [
+        "DNF14-250FIB-M"
+      ],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "SGABM25-A-C",
+      "aliases": [],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "DNFR18-250FIB-M",
+      "aliases": [],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "TM2S8-C0",
+      "aliases": [
+        "TM2S8-M0"
+      ],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "F89-25-L",
+      "aliases": [],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "TMEH-S8-C0",
+      "aliases": [
+        "TMEH-S8-Q0"
+      ],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "FSD75-8-D",
+      "aliases": [],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "ABM100-AV-C",
+      "aliases": [],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "FTD78-12-D",
+      "aliases": [],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "ABMM-AV-C",
+      "aliases": [],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "JN418-212-C",
+      "aliases": [
+        "JN418-212-D"
+      ],
+      "description": {
+        "en": "Wire termination component",
+        "zh": "导线端接组件"
+      }
+    },
+    {
+      "brand": "Panduit",
+      "identifier": "ACC62-A-C",
+      "aliases": [
+        "ACC62-A-D"
+      ],
+      "description": {
+        "en": "Harness mounting component",
+        "zh": "线束固定组件"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Panduit Compatible",
+    "zh": "Panduit兼容组件"
+  }
+}

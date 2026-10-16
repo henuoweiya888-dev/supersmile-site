@@ -1,0 +1,1092 @@
+{
+  "version": 2,
+  "category_id": "specialty-06",
+  "route": "/products/micro-d-cable-assembly",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Finished cable and harness references for this interface or application.",
+        "zh": "此接口或应用方向的成品电缆与线束参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Connector, wire and process-material references for project selection.",
+        "zh": "供项目选型的连接器、线材与工艺材料参考。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Micro-D configuration",
+        "zh": "Micro-D配置"
+      },
+      "copy": {
+        "en": "Confirm contact count, plug/socket, shell finish, jackscrew hardware and mating drawing.",
+        "zh": "确认针数、公母、壳体表面处理、锁紧硬件及对配图纸。"
+      }
+    },
+    {
+      "title": {
+        "en": "Wire termination type",
+        "zh": "引线端接类型"
+      },
+      "copy": {
+        "en": "Separate insulated wire-lead versions from solder cups, PCB tails and short solid-wire terminations.",
+        "zh": "区分绝缘引线版本、焊杯、板端尾针及短实心线端接。"
+      }
+    },
+    {
+      "title": {
+        "en": "Literal part identity",
+        "zh": "字面型号身份"
+      },
+      "copy": {
+        "en": "Check the printed MIL code and manufacturer cross-reference; do not generate unlisted combinations from a coding matrix.",
+        "zh": "核对实际列出的军标代码及厂家交叉号，不从编码矩阵生成未列出的组合。"
+      }
+    },
+    {
+      "title": {
+        "en": "Wire and length",
+        "zh": "线材与长度"
+      },
+      "copy": {
+        "en": "Specify wire standard, color, lead length, circuit map and the required free-end preparation.",
+        "zh": "明确线材规范、颜色、引线长度、回路表及自由端处理。"
+      }
+    },
+    {
+      "title": {
+        "en": "Mechanical support",
+        "zh": "机械支撑"
+      },
+      "copy": {
+        "en": "Review backshell, potting, shield bond and bend clearance for the installed assembly.",
+        "zh": "按安装状态审核尾罩、灌封、屏蔽搭接及弯曲净空。"
+      }
+    },
+    {
+      "title": {
+        "en": "Evidence at delivery",
+        "zh": "交付证据"
+      },
+      "copy": {
+        "en": "Agree traceability and inspection records; a MIL reference does not itself prove current QPL or finished-assembly qualification.",
+        "zh": "约定追溯与检验记录；军标参考号本身不能证明当前QPL或成品鉴定资格。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=specialty-06&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D03N",
+      "aliases": [
+        "100RN25S-4E6AB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-C15C",
+      "aliases": [
+        "100RC21S-4F1CB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-C15K",
+      "aliases": [
+        "100RK21S-4F1CB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-C15N",
+      "aliases": [
+        "100RN21S-4F1CB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-C15P",
+      "aliases": [
+        "104R21S-4F1CB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-C15T",
+      "aliases": [
+        "100RT21S-4F1CB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-C16A",
+      "aliases": [
+        "100RL21S-4F5CB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-C16C",
+      "aliases": [
+        "100RC21S-4F5CB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-C16K",
+      "aliases": [
+        "100RK21S-4F5CB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-C16N",
+      "aliases": [
+        "100RN21S-4F5CB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-C16P",
+      "aliases": [
+        "104R21S-4F5CB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-C16T",
+      "aliases": [
+        "100RT21S-4F5CB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D01A",
+      "aliases": [
+        "100RL25S-4E1AB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D01C",
+      "aliases": [
+        "100RC25S-4E1AB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D01K",
+      "aliases": [
+        "100RK25S-4E1AB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D01N",
+      "aliases": [
+        "100RN25S-4E1AB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D01P",
+      "aliases": [
+        "104R25S-4E1AB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D01T",
+      "aliases": [
+        "100RT25S-4E1AB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D02A",
+      "aliases": [
+        "100RL25S-4E1BB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D02C",
+      "aliases": [
+        "100RC25S-4E1BB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D02K",
+      "aliases": [
+        "100RK25S-4E1BB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D02N",
+      "aliases": [
+        "100RN25S-4E1BB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D02P",
+      "aliases": [
+        "104R25S-4E1BB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D02T",
+      "aliases": [
+        "100RT25S-4E1BB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D03A",
+      "aliases": [
+        "100RL25S-4E6AB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D03C",
+      "aliases": [
+        "100RC25S-4E6AB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D03K",
+      "aliases": [
+        "100RK25S-4E6AB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D03P",
+      "aliases": [
+        "104R25S-4E6AB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D03T",
+      "aliases": [
+        "100RT25S-4E6AB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D04A",
+      "aliases": [
+        "100RL25S-4E6BB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D04C",
+      "aliases": [
+        "100RC25S-4E6BB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D04K",
+      "aliases": [
+        "100RK25S-4E6BB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D04N",
+      "aliases": [
+        "100RN25S-4E6BB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D04P",
+      "aliases": [
+        "104R25S-4E6BB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D04T",
+      "aliases": [
+        "100RT25S-4E6BB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D09A",
+      "aliases": [
+        "100RL25S-4F1AB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D09C",
+      "aliases": [
+        "100RC25S-4F1AB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D09K",
+      "aliases": [
+        "100RK25S-4F1AB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D09N",
+      "aliases": [
+        "100RN25S-4F1AB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D09P",
+      "aliases": [
+        "104R25S-4F1AB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D09T",
+      "aliases": [
+        "100RT25S-4F1AB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D10A",
+      "aliases": [
+        "100RL25S-4F1BB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D10C",
+      "aliases": [
+        "100RC25S-4F1BB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D10K",
+      "aliases": [
+        "100RK25S-4F1BB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D10N",
+      "aliases": [
+        "100RN25S-4F1BB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D10P",
+      "aliases": [
+        "104R25S-4F1BB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D10T",
+      "aliases": [
+        "100RT25S-4F1BB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D11A",
+      "aliases": [
+        "100RL25S-4F5AB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D11C",
+      "aliases": [
+        "100RC25S-4F5AB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D11K",
+      "aliases": [
+        "100RK25S-4F5AB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D11N",
+      "aliases": [
+        "100RN25S-4F5AB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D11P",
+      "aliases": [
+        "104R25S-4F5AB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D11T",
+      "aliases": [
+        "100RT25S-4F5AB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D12A",
+      "aliases": [
+        "100RL25S-4F5BB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D12C",
+      "aliases": [
+        "100RC25S-4F5BB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D12K",
+      "aliases": [
+        "100RK25S-4F5BB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D12N",
+      "aliases": [
+        "100RN25S-4F5BB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-D12P",
+      "aliases": [
+        "104R25S-4F5BB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-E01A",
+      "aliases": [
+        "100RL31S-4E1AB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-E01C",
+      "aliases": [
+        "100RC31S-4E1AB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-E01K",
+      "aliases": [
+        "100RK31S-4E1AB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-E01N",
+      "aliases": [
+        "100RN31S-4E1AB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-E01P",
+      "aliases": [
+        "104R31S-4E1AB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-E01T",
+      "aliases": [
+        "100RT31S-4E1AB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-E02A",
+      "aliases": [
+        "100RL31S-4E1BB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-E02C",
+      "aliases": [
+        "100RC31S-4E1BB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-E02K",
+      "aliases": [
+        "100RK31S-4E1BB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-E02N",
+      "aliases": [
+        "100RN31S-4E1BB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-E02P",
+      "aliases": [
+        "104R31S-4E1BB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-E02T",
+      "aliases": [
+        "100RT31S-4E1BB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-E03A",
+      "aliases": [
+        "100RL31S-4E6AB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-E03C",
+      "aliases": [
+        "100RC31S-4E6AB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-E03K",
+      "aliases": [
+        "100RK31S-4E6AB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-E03N",
+      "aliases": [
+        "100RN31S-4E6AB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-E03P",
+      "aliases": [
+        "104R31S-4E6AB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-E03T",
+      "aliases": [
+        "100RT31S-4E6AB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-E04A",
+      "aliases": [
+        "100RL31S-4E6BB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-E04C",
+      "aliases": [
+        "100RC31S-4E6BB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-E04K",
+      "aliases": [
+        "100RK31S-4E6BB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-E04N",
+      "aliases": [
+        "100RN31S-4E6BB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-E04P",
+      "aliases": [
+        "104R31S-4E6BB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    },
+    {
+      "brand": "Amphenol Canada",
+      "identifier": "M83513/04-E04T",
+      "aliases": [
+        "100RT31S-4E6BB"
+      ],
+      "description": {
+        "en": "Micro-D receptacle with insulated wire leads",
+        "zh": "带绝缘引线的Micro-D插座组件"
+      }
+    }
+  ],
+  "materials": [],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Micro-D Cable Assembly",
+    "zh": "Micro-D线缆组件"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "audited_subset",
+    "reason": {
+      "en": "This is the verified subset for the category. The target of 200 finished models and 200 materials remains incomplete.",
+      "zh": "此处为本类已核验子集，200个成品型号和200个材料料号的目标仍待继续补充。"
+    },
+    "audit_id": "resume-cable-specialty-approved-manifest.json",
+    "verified_counts": {
+      "products": 82,
+      "materials": 0
+    },
+    "target_status": "incomplete",
+    "target_counts": {
+      "products": 200,
+      "materials": 200
+    }
+  }
+}

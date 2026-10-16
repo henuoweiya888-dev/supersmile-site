@@ -1,0 +1,199 @@
+{
+  "version": 2,
+  "category_id": "cable-assembly-06",
+  "route": "/products/video-cable-assembly",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Finished cable and harness references for this interface or application.",
+        "zh": "此接口或应用方向的成品电缆与线束参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Connector, wire and process-material references for project selection.",
+        "zh": "供项目选型的连接器、线材与工艺材料参考。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Video link",
+        "zh": "视频链路"
+      },
+      "copy": {
+        "en": "Identify the actual protocol, resolution, refresh rate and source-to-display direction.",
+        "zh": "明确实际协议、分辨率、刷新率及信号从源端到显示端的方向。"
+      }
+    },
+    {
+      "title": {
+        "en": "Conversion function",
+        "zh": "转换功能"
+      },
+      "copy": {
+        "en": "Distinguish passive wiring from an active converter and define any required power or protocol electronics.",
+        "zh": "区分被动接线与有源转换器，并定义所需供电或协议电路。"
+      }
+    },
+    {
+      "title": {
+        "en": "Connector and orientation",
+        "zh": "接口与方向"
+      },
+      "copy": {
+        "en": "Confirm connector gender, latch and angular orientation at the installed devices.",
+        "zh": "确认设备安装状态下的接口公母、锁扣及转角方向。"
+      }
+    },
+    {
+      "title": {
+        "en": "Signal integrity",
+        "zh": "信号完整性"
+      },
+      "copy": {
+        "en": "Review differential pairs, shielding and length with the link budget and actual display test.",
+        "zh": "结合链路预算及实际显示测试审核差分线对、屏蔽和长度。"
+      }
+    },
+    {
+      "title": {
+        "en": "Enclosure route",
+        "zh": "机内布线"
+      },
+      "copy": {
+        "en": "Set bend clearance and strain relief so the cable does not load the display or board connector.",
+        "zh": "安排弯曲净空与应力释放，避免线缆对显示器或板端接口施力。"
+      }
+    },
+    {
+      "title": {
+        "en": "Display validation",
+        "zh": "显示验证"
+      },
+      "copy": {
+        "en": "Verify image stability, control/identification signals and startup behavior with the target equipment.",
+        "zh": "使用目标设备验证画面稳定性、控制/识别信号及开机行为。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=cable-assembly-06&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "CableWholesale",
+      "identifier": "10H1-64106",
+      "aliases": [],
+      "description": {
+        "en": "DisplayPort-to-HDMI video cable",
+        "zh": "DisplayPort转HDMI视频电缆"
+      }
+    }
+  ],
+  "materials": [],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Video Cable Assembly",
+    "zh": "视频电缆组件"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "audited_subset",
+    "reason": {
+      "en": "This is the verified subset for the category. The target of 200 finished models and 200 materials remains incomplete.",
+      "zh": "此处为本类已核验子集，200个成品型号和200个材料料号的目标仍待继续补充。"
+    },
+    "audit_id": "resume-cable-specialty-approved-manifest.json",
+    "verified_counts": {
+      "products": 1,
+      "materials": 0
+    },
+    "target_status": "incomplete",
+    "target_counts": {
+      "products": 200,
+      "materials": 200
+    }
+  }
+}

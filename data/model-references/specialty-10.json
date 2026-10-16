@@ -1,0 +1,420 @@
+{
+  "version": 2,
+  "category_id": "specialty-10",
+  "route": "/products/emi-shielded-cable-design",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Finished cable and harness references for this interface or application.",
+        "zh": "此接口或应用方向的成品电缆与线束参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Connector, wire and process-material references for project selection.",
+        "zh": "供项目选型的连接器、线材与工艺材料参考。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Interference path",
+        "zh": "干扰路径"
+      },
+      "copy": {
+        "en": "Identify the relevant noise source, sensitive circuit and frequency range before selecting shielding.",
+        "zh": "选择屏蔽前明确干扰源、敏感回路及频段。"
+      }
+    },
+    {
+      "title": {
+        "en": "Cable screen construction",
+        "zh": "线缆屏蔽结构"
+      },
+      "copy": {
+        "en": "Select braid, foil, conductive sleeve or a combined screen with the required coverage and flexibility.",
+        "zh": "按覆盖与柔性要求选择编织、箔、导电套管或组合屏蔽。"
+      }
+    },
+    {
+      "title": {
+        "en": "Termination and bonding",
+        "zh": "端接与搭接"
+      },
+      "copy": {
+        "en": "Define how each screen connects to the connector shell or chassis at both ends.",
+        "zh": "定义各屏蔽层在两端如何连接到接口外壳或机壳。"
+      }
+    },
+    {
+      "title": {
+        "en": "Branch and enclosure gaps",
+        "zh": "分支与机壳间隙"
+      },
+      "copy": {
+        "en": "Review screen continuity at branches, service breaks and panel entries.",
+        "zh": "审核分支、可拆连接及面板入口处的屏蔽连续性。"
+      }
+    },
+    {
+      "title": {
+        "en": "Mechanical protection",
+        "zh": "机械防护"
+      },
+      "copy": {
+        "en": "Check sleeve diameter, bend radius, abrasion and strain relief with the finished harness.",
+        "zh": "结合完整线束检查套管直径、弯曲半径、磨损及应力释放。"
+      }
+    },
+    {
+      "title": {
+        "en": "System-level validation",
+        "zh": "系统验证"
+      },
+      "copy": {
+        "en": "Agree grounding and EMC test conditions on the target equipment; material shielding alone does not establish system performance.",
+        "zh": "在目标设备上约定接地和EMC测试条件；屏蔽材料本身不能证明系统性能。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=specialty-10&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "Amphenol",
+      "identifier": "CS-DSPMDB09MF-002.5",
+      "aliases": [],
+      "description": {
+        "en": "Shielded DB9 cable with overmolded strain relief",
+        "zh": "带包胶护尾的屏蔽DB9电缆组件"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01250",
+      "aliases": [],
+      "description": {
+        "en": "EMI shielding sleeve material",
+        "zh": "EMI屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01251",
+      "aliases": [],
+      "description": {
+        "en": "EMI shielding sleeve material",
+        "zh": "EMI屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01252",
+      "aliases": [],
+      "description": {
+        "en": "EMI shielding sleeve material",
+        "zh": "EMI屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01253",
+      "aliases": [],
+      "description": {
+        "en": "EMI shielding sleeve material",
+        "zh": "EMI屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01254",
+      "aliases": [],
+      "description": {
+        "en": "EMI shielding sleeve material",
+        "zh": "EMI屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01255",
+      "aliases": [],
+      "description": {
+        "en": "EMI shielding sleeve material",
+        "zh": "EMI屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01256",
+      "aliases": [],
+      "description": {
+        "en": "EMI shielding sleeve material",
+        "zh": "EMI屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01257",
+      "aliases": [],
+      "description": {
+        "en": "EMI shielding sleeve material",
+        "zh": "EMI屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "170-01258",
+      "aliases": [],
+      "description": {
+        "en": "EMI shielding sleeve material",
+        "zh": "EMI屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "173-01600",
+      "aliases": [],
+      "description": {
+        "en": "EMI shielding sleeve material",
+        "zh": "EMI屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "173-01800",
+      "aliases": [],
+      "description": {
+        "en": "EMI shielding sleeve material",
+        "zh": "EMI屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "173-02000",
+      "aliases": [],
+      "description": {
+        "en": "EMI shielding sleeve material",
+        "zh": "EMI屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "173-02001",
+      "aliases": [],
+      "description": {
+        "en": "EMI shielding sleeve material",
+        "zh": "EMI屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "173-03000",
+      "aliases": [],
+      "description": {
+        "en": "EMI shielding sleeve material",
+        "zh": "EMI屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "173-03501",
+      "aliases": [],
+      "description": {
+        "en": "EMI shielding sleeve material",
+        "zh": "EMI屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "173-04000",
+      "aliases": [],
+      "description": {
+        "en": "EMI shielding sleeve material",
+        "zh": "EMI屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "173-05000",
+      "aliases": [],
+      "description": {
+        "en": "EMI shielding sleeve material",
+        "zh": "EMI屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "173-06000",
+      "aliases": [],
+      "description": {
+        "en": "EMI shielding sleeve material",
+        "zh": "EMI屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "173-00200",
+      "aliases": [],
+      "description": {
+        "en": "EMI shielding sleeve material",
+        "zh": "EMI屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "173-00201",
+      "aliases": [],
+      "description": {
+        "en": "EMI shielding sleeve material",
+        "zh": "EMI屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "173-00202",
+      "aliases": [],
+      "description": {
+        "en": "EMI shielding sleeve material",
+        "zh": "EMI屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "173-00203",
+      "aliases": [],
+      "description": {
+        "en": "EMI shielding sleeve material",
+        "zh": "EMI屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "173-00204",
+      "aliases": [],
+      "description": {
+        "en": "EMI shielding sleeve material",
+        "zh": "EMI屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "173-00205",
+      "aliases": [],
+      "description": {
+        "en": "EMI shielding sleeve material",
+        "zh": "EMI屏蔽套管材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "173-00206",
+      "aliases": [],
+      "description": {
+        "en": "EMI shielding sleeve material",
+        "zh": "EMI屏蔽套管材料"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "EMI-Shielded Cable Design",
+    "zh": "EMI屏蔽电缆设计"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "process_or_delivery",
+    "reason": {
+      "en": "The verified references are shown at their actual counts. Identify the required interface and configuration before manufacture or sourcing.",
+      "zh": "按实际数量展示已核验参考编号，制作或采购前确认所需接口与配置。"
+    },
+    "audit_id": "resume-cable-specialty-approved-manifest.json",
+    "verified_counts": {
+      "products": 1,
+      "materials": 25
+    }
+  }
+}

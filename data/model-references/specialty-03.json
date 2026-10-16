@@ -1,0 +1,204 @@
+{
+  "version": 2,
+  "category_id": "specialty-03",
+  "route": "/products/ptfe-cable-termination",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Finished cable and harness references for this interface or application.",
+        "zh": "此接口或应用方向的成品电缆与线束参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Connector, wire and process-material references for project selection.",
+        "zh": "供项目选型的连接器、线材与工艺材料参考。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "PTFE layer identity",
+        "zh": "PTFE层身份"
+      },
+      "copy": {
+        "en": "Confirm whether PTFE is the insulation, jacket or coax dielectric before specifying the termination.",
+        "zh": "端接设计前确认PTFE属于绝缘、护套还是同轴介质。"
+      }
+    },
+    {
+      "title": {
+        "en": "Conductor and interface",
+        "zh": "导体与接口"
+      },
+      "copy": {
+        "en": "Define conductor alloy, plating, gauge and the actual connector or free-end preparation.",
+        "zh": "定义导体合金、镀层、线规及实际接口或自由端处理。"
+      }
+    },
+    {
+      "title": {
+        "en": "Strip method",
+        "zh": "剥线方法"
+      },
+      "copy": {
+        "en": "Approve the stripping method and dimensions with limits for insulation cuts and conductor damage.",
+        "zh": "确认剥线方法和尺寸，并规定绝缘切伤及导体损伤限值。"
+      }
+    },
+    {
+      "title": {
+        "en": "Thermal termination",
+        "zh": "热端接"
+      },
+      "copy": {
+        "en": "Review soldering exposure or crimp conditions for the selected wire and connector combination.",
+        "zh": "按所选线材与接口组合审核焊接热暴露或压接条件。"
+      }
+    },
+    {
+      "title": {
+        "en": "Support and sealing",
+        "zh": "支撑与密封"
+      },
+      "copy": {
+        "en": "Select strain relief and sealing methods that suit the low-adhesion fluoropolymer surface.",
+        "zh": "选择适合低附着力氟聚合物表面的应力释放与密封方法。"
+      }
+    },
+    {
+      "title": {
+        "en": "Assembly conditions",
+        "zh": "组件工况"
+      },
+      "copy": {
+        "en": "Agree electrical, mechanical and temperature verification for the finished assembly rather than using a bulk-material rating.",
+        "zh": "约定成品组件的电气、机械与温度验证，不能直接套用原材料额定值。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=specialty-03&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "PCB Piezotronics",
+      "identifier": "055BP050BZ",
+      "aliases": [],
+      "description": {
+        "en": "Shielded PTFE sensor cable assembly with free wire ends",
+        "zh": "屏蔽PTFE传感器电缆组件，另一端为自由线端"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "brand": "Pasternack",
+      "identifier": "PECX004-BULK",
+      "aliases": [],
+      "description": {
+        "en": "RF cable material with PTFE dielectric",
+        "zh": "PTFE介质射频电缆材料"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "PTFE Cable Termination",
+    "zh": "PTFE电缆端接"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "process_or_delivery",
+    "reason": {
+      "en": "The verified references are shown at their actual counts. Identify the required interface and configuration before manufacture or sourcing.",
+      "zh": "按实际数量展示已核验参考编号，制作或采购前确认所需接口与配置。"
+    },
+    "audit_id": "resume-cable-specialty-approved-manifest.json",
+    "verified_counts": {
+      "products": 1,
+      "materials": 1
+    }
+  }
+}

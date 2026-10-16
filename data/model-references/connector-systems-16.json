@@ -1,0 +1,820 @@
+{
+  "version": 2,
+  "category_id": "connector-systems-16",
+  "route": "/products/harting-interface-cable-project",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Finished cable and harness references for this interface or application.",
+        "zh": "此接口或应用方向的成品电缆与线束参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Connector, wire and process-material references for project selection.",
+        "zh": "供项目选型的连接器、线材与工艺材料参考。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Interface & Application",
+        "zh": "接口与应用"
+      },
+      "copy": {
+        "en": "Han is a family of rectangular industrial connectors, not one fixed pinout. A configuration may include hood, housing, monobloc insert or Han-Modular frame, power/signal/data modules, contacts, latches and cable entry. Electrical and environmental performance belongs to the specified complete assembly and its installation conditions.",
+        "zh": "Han 是矩形工业连接器家族，不是一种固定针位的插头。选型可能涉及外壳、底座、单体插芯或 Han-Modular 框架、功率／信号／数据模块、触点、锁扣与进线件。实际电气和环境能力取决于所选整套部件及其装配条件。"
+      }
+    },
+    {
+      "title": {
+        "en": "Project Inputs",
+        "zh": "项目输入"
+      },
+      "copy": {
+        "en": "For quotation, provide the Han series and housing size; part numbers for each hood, base, insert or module and contact; mating-face view, pin and circuit map, load and voltage, conductors and jacket, cable-exit direction, gland and latch choice, environment, quantity and acceptance criteria. Compatible work does not imply HARTING authorization or certification.",
+        "zh": "询价请提供 Han 系列与外壳尺寸、每个外壳／底座／插芯或模块／触点的料号、对插面视图、针脚与回路表、负载与电压、导体和护套、出线方向、格兰头与锁扣形式、安装环境、数量及验收要求。品牌兼容不代表 HARTING 授权或认证。"
+      }
+    },
+    {
+      "title": {
+        "en": "Release Requirements",
+        "zh": "放行要求"
+      },
+      "copy": {
+        "en": "Approved inputs become a controlled BOM, circuit drawing, termination and assembly instructions, first-article checkpoints and agreed inspections. Check insert orientation, contact position and seating, latch closure, cable-entry retention, length and continuity. IP, vibration or rated-load performance requires the exact product data and separately defined project evidence.",
+        "zh": "经客户确认后形成受控物料表、回路图、端接与装配指引、首件核对点和约定检验项目。重点核对插芯朝向、接点位置、触点入位、锁扣闭合、进线夹持、线长与导通；IP、防振或额定负载表现须按准确产品资料与项目试验单独证明。"
+      }
+    },
+    {
+      "title": {
+        "en": "Mating & Termination",
+        "zh": "对插与端接"
+      },
+      "copy": {
+        "en": "Identify the mating part number and termination method before confirming the assembly drawing.",
+        "zh": "确认对插件料号和端接方式，再确定组件图纸。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sample Review",
+        "zh": "样品审核"
+      },
+      "copy": {
+        "en": "Compare the sample with the approved pin map, dimensions and material list.",
+        "zh": "按确认的针脚对应、尺寸和材料清单审核样品。"
+      }
+    },
+    {
+      "title": {
+        "en": "Build Records",
+        "zh": "制造记录"
+      },
+      "copy": {
+        "en": "Retain the approved part list and inspection results for repeat production.",
+        "zh": "保留确认物料清单与检验结果，作为重复生产依据。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=connector-systems-16&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 929 2405 005",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 929 2405 010",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 929 2405 015",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 929 2405 020",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 929 2405 050",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 929 2405 075",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 929 2405 100",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 929 3405 005",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 929 3405 010",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 929 3405 015",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 929 3405 020",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 929 3405 050",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 929 3405 075",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 929 3405 100",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 920 0405 005",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 920 0405 010",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 920 0405 015",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 920 0405 020",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 920 0405 050",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 920 0405 075",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 920 0405 100",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 930 0405 005",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 930 0405 010",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 930 0405 015",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 930 0405 020",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 930 0405 050",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 930 0405 075",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 930 0405 100",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 949 4405 005",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 949 4405 010",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 949 4405 015",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 949 4405 020",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 949 4405 050",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 949 4405 075",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 949 4405 100",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 929 2477 005",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 929 2477 010",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 929 2477 015",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 929 2477 020",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 929 2477 050",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 929 2477 075",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 929 2477 100",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 929 3477 005",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 929 3477 010",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 929 3477 015",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 929 3477 020",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 929 3477 050",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 929 3477 075",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 929 3477 100",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 920 0477 005",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 920 0477 010",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 920 0477 015",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 920 0477 020",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 920 0477 050",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 920 0477 075",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 920 0477 100",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 930 0477 005",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 930 0477 010",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 930 0477 015",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 930 0477 020",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 930 0477 050",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 930 0477 075",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 930 0477 100",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 949 4477 005",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 949 4477 010",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 949 4477 015",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 949 4477 020",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 949 4477 050",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 949 4477 075",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    },
+    {
+      "brand": "HARTING",
+      "identifier": "21 34 949 4477 100",
+      "aliases": [],
+      "description": {
+        "en": "M12 Ethernet cord assembly",
+        "zh": "M12 以太网电缆组件"
+      }
+    }
+  ],
+  "materials": [],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Harting Interface Cable Project",
+    "zh": "Harting接口电缆项目"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "audited_subset",
+    "reason": {
+      "en": "This is the verified subset for the category. The target of 200 finished models and 200 materials remains incomplete.",
+      "zh": "此处为本类已核验子集，200个成品型号和200个材料料号的目标仍待继续补充。"
+    },
+    "audit_id": "resume-brand-material-approved-manifest.json",
+    "verified_counts": {
+      "products": 70,
+      "materials": 0
+    },
+    "target_status": "incomplete",
+    "target_counts": {
+      "products": 200,
+      "materials": 200
+    }
+  }
+}

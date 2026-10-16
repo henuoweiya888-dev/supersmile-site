@@ -1,0 +1,208 @@
+{
+  "version": 2,
+  "category_id": "custom-harness-12",
+  "route": "/products/low-voltage-new-energy-harness",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Finished cable and harness references for this interface or application.",
+        "zh": "此接口或应用方向的成品电缆与线束参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Connector, wire and process-material references for project selection.",
+        "zh": "供项目选型的连接器、线材与工艺材料参考。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Low-voltage scope and circuit list",
+        "zh": "低压范围与回路清单"
+      },
+      "copy": {
+        "en": "Identify auxiliary supply, sensing, communication and service circuits with their nominal and maximum voltages. Keep the traction and battery main-power paths outside this low-voltage definition.",
+        "zh": "逐项识别辅助供电、传感、通信和检修回路及其标称与最高电压，将牵引和电池主动力路径与本低压范围分开定义。"
+      }
+    },
+    {
+      "title": {
+        "en": "BMS interface and pin definition",
+        "zh": "BMS接口与针脚定义"
+      },
+      "copy": {
+        "en": "Record the controller and battery interface revisions, connector views and signal assignments. Type A and Type B BMS cables are separate pin configurations and need the correct system documentation.",
+        "zh": "记录控制器与电池接口版本、接口视图及信号定义；A型与B型BMS电缆对应不同针脚配置，需要以正确的系统文件确认。"
+      }
+    },
+    {
+      "title": {
+        "en": "Communication pair and shield routing",
+        "zh": "通信线对与屏蔽路径"
+      },
+      "copy": {
+        "en": "Define CAN or other communication pairs, reference ground and shield termination from the actual interface specification. Keep high-current switching branches away from sensitive signal routes where the layout requires it.",
+        "zh": "依据实际接口规范定义CAN或其他通信线对、参考地和屏蔽端接，并按布局需要隔离大电流开关分支与敏感信号路径。"
+      }
+    },
+    {
+      "title": {
+        "en": "Auxiliary load and protection review",
+        "zh": "辅助负载与保护配合"
+      },
+      "copy": {
+        "en": "Record continuous and startup current for pumps, fans, coils and auxiliary controllers. Review conductor length, voltage drop, terminal range and circuit protection together.",
+        "zh": "记录泵、风扇、线圈与辅助控制器的持续和启动电流，并一起审核导体长度、压降、端子范围与回路保护。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sealing and platform routing",
+        "zh": "密封与平台布线"
+      },
+      "copy": {
+        "en": "Define installation zones, splash exposure, service loops and fixation points. Housing, terminal, seal, cavity plug and wire diameter must be reviewed as one interface system.",
+        "zh": "定义安装区域、溅水暴露、检修余量和固定点，并把壳体、端子、密封、堵孔与线径作为一个接口系统审核。"
+      }
+    },
+    {
+      "title": {
+        "en": "Configuration and sample verification",
+        "zh": "配置与样品验证"
+      },
+      "copy": {
+        "en": "Approve the drawing, pin map, labels and material list before recurring builds. Check continuity and polarity, then use the agreed system-side functional test without transferring an OEM cable approval to a custom assembly.",
+        "zh": "重复生产前确认图纸、针脚表、标签与物料清单，检查导通和极性后按约定进行系统侧功能验证；原厂电缆的认证不能直接转用于定制组件。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=custom-harness-12&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "Victron Energy",
+      "identifier": "ASS030710018",
+      "aliases": [],
+      "description": {
+        "en": "BMS communication cable, type A",
+        "zh": "BMS通信电缆，A型"
+      }
+    },
+    {
+      "brand": "Victron Energy",
+      "identifier": "ASS030720018",
+      "aliases": [],
+      "description": {
+        "en": "BMS communication cable, type B",
+        "zh": "BMS通信电缆，B型"
+      }
+    }
+  ],
+  "materials": [],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Low-Voltage New-Energy Harness",
+    "zh": "新能源低压线束"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "audited_subset",
+    "reason": {
+      "en": "This is the verified subset for the category. The target of 200 finished models and 200 materials remains incomplete.",
+      "zh": "此处为本类已核验子集，200个成品型号和200个材料料号的目标仍待继续补充。"
+    },
+    "audit_id": "resume-custom-harness-final-readback.json",
+    "verified_counts": {
+      "products": 2,
+      "materials": 0
+    },
+    "target_status": "incomplete",
+    "target_counts": {
+      "products": 200,
+      "materials": 200
+    }
+  }
+}

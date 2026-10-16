@@ -1,0 +1,1424 @@
+{
+  "version": 2,
+  "category_id": "cable-assembly-15",
+  "route": "/products/solar-cable-assembly",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Finished cable and harness references for this interface or application.",
+        "zh": "此接口或应用方向的成品电缆与线束参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Connector, wire and process-material references for project selection.",
+        "zh": "供项目选型的连接器、线材与工艺材料参考。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "PV connector system",
+        "zh": "光伏连接器体系"
+      },
+      "copy": {
+        "en": "Confirm both mating connector part numbers and the manufacturer’s permitted mating combinations.",
+        "zh": "确认双方对配连接器料号及厂家允许的配对组合。"
+      }
+    },
+    {
+      "title": {
+        "en": "Cable and conductor size",
+        "zh": "线材与截面积"
+      },
+      "copy": {
+        "en": "Specify PV cable grade, conductor section, outer diameter and the required system voltage and current.",
+        "zh": "明确光伏线牌号、截面积、外径及系统电压电流。"
+      }
+    },
+    {
+      "title": {
+        "en": "Crimp and sealing range",
+        "zh": "压接与密封范围"
+      },
+      "copy": {
+        "en": "Match terminals, crimp tooling and seals to the actual cable dimensions.",
+        "zh": "按真实线缆尺寸匹配端子、压接工装与密封件。"
+      }
+    },
+    {
+      "title": {
+        "en": "Outdoor route",
+        "zh": "户外走线"
+      },
+      "copy": {
+        "en": "Review sunlight, water, temperature, cable support and abrasion in the intended installation.",
+        "zh": "结合安装位置审核日照、水、温度、线缆固定及磨损。"
+      }
+    },
+    {
+      "title": {
+        "en": "Polarity and branching",
+        "zh": "极性与分支"
+      },
+      "copy": {
+        "en": "Define positive/negative identification, extension direction and any branch or splitter topology.",
+        "zh": "定义正负极识别、延长方向及分支或分流器拓扑。"
+      }
+    },
+    {
+      "title": {
+        "en": "Assembly inspection",
+        "zh": "组件检验"
+      },
+      "copy": {
+        "en": "Agree polarity, continuity, crimp and sealing checks for the completed solar cable assembly.",
+        "zh": "约定太阳能成品线的极性、导通、压接及密封检验。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=cable-assembly-15&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "Powerwerx",
+      "identifier": "EXMC4-10-3",
+      "aliases": [],
+      "description": {
+        "en": "Solar extension cable assembly",
+        "zh": "光伏延长电缆组件"
+      }
+    },
+    {
+      "brand": "Renogy",
+      "identifier": "RNG-EXTCB-1.5FT-12-US",
+      "aliases": [],
+      "description": {
+        "en": "Solar extension cable assembly",
+        "zh": "光伏延长电缆组件"
+      }
+    },
+    {
+      "brand": "Powerwerx",
+      "identifier": "EXMC4-10-5",
+      "aliases": [],
+      "description": {
+        "en": "Solar extension cable assembly",
+        "zh": "光伏延长电缆组件"
+      }
+    },
+    {
+      "brand": "Renogy",
+      "identifier": "RNG-EXTCB-1.5FT-10-US",
+      "aliases": [],
+      "description": {
+        "en": "Solar extension cable assembly",
+        "zh": "光伏延长电缆组件"
+      }
+    },
+    {
+      "brand": "Powerwerx",
+      "identifier": "EXMC4-10-10",
+      "aliases": [],
+      "description": {
+        "en": "Solar extension cable assembly",
+        "zh": "光伏延长电缆组件"
+      }
+    },
+    {
+      "brand": "Renogy",
+      "identifier": "RNG-EXTCB-5FT-12-US",
+      "aliases": [],
+      "description": {
+        "en": "Solar extension cable assembly",
+        "zh": "光伏延长电缆组件"
+      }
+    },
+    {
+      "brand": "Powerwerx",
+      "identifier": "EXMC4-10-25",
+      "aliases": [],
+      "description": {
+        "en": "Solar extension cable assembly",
+        "zh": "光伏延长电缆组件"
+      }
+    },
+    {
+      "brand": "Renogy",
+      "identifier": "RNG-EXTCB-5FT-10-US",
+      "aliases": [],
+      "description": {
+        "en": "Solar extension cable assembly",
+        "zh": "光伏延长电缆组件"
+      }
+    },
+    {
+      "brand": "Powerwerx",
+      "identifier": "EXMC4-10-50",
+      "aliases": [],
+      "description": {
+        "en": "Solar extension cable assembly",
+        "zh": "光伏延长电缆组件"
+      }
+    },
+    {
+      "brand": "Renogy",
+      "identifier": "RNG-EXTCB-10FT-12-US",
+      "aliases": [],
+      "description": {
+        "en": "Solar extension cable assembly",
+        "zh": "光伏延长电缆组件"
+      }
+    },
+    {
+      "brand": "Powerwerx",
+      "identifier": "EXMC4-12-5",
+      "aliases": [],
+      "description": {
+        "en": "Solar extension cable assembly",
+        "zh": "光伏延长电缆组件"
+      }
+    },
+    {
+      "brand": "Renogy",
+      "identifier": "RNG-EXTCB-10FT-10-US",
+      "aliases": [],
+      "description": {
+        "en": "Solar extension cable assembly",
+        "zh": "光伏延长电缆组件"
+      }
+    },
+    {
+      "brand": "Powerwerx",
+      "identifier": "EXMC4-12-10",
+      "aliases": [],
+      "description": {
+        "en": "Solar extension cable assembly",
+        "zh": "光伏延长电缆组件"
+      }
+    },
+    {
+      "brand": "Renogy",
+      "identifier": "RNG-EXTCB-20FT-12-US",
+      "aliases": [],
+      "description": {
+        "en": "Solar extension cable assembly",
+        "zh": "光伏延长电缆组件"
+      }
+    },
+    {
+      "brand": "Renogy",
+      "identifier": "RNG-EXTCB-20FT-10-US",
+      "aliases": [],
+      "description": {
+        "en": "Solar extension cable assembly",
+        "zh": "光伏延长电缆组件"
+      }
+    },
+    {
+      "brand": "Renogy",
+      "identifier": "RNG-EXTCB-40FT-12-US",
+      "aliases": [],
+      "description": {
+        "en": "Solar extension cable assembly",
+        "zh": "光伏延长电缆组件"
+      }
+    },
+    {
+      "brand": "Renogy",
+      "identifier": "RNG-EXTCB-40FT-10-US",
+      "aliases": [],
+      "description": {
+        "en": "Solar extension cable assembly",
+        "zh": "光伏延长电缆组件"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "brand": "LAPP",
+      "identifier": "0023982",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166698",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166699",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428268",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428269",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166810",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166811",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428272",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector contact",
+        "zh": "光伏连接器触点"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428273",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector contact",
+        "zh": "光伏连接器触点"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166461",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166462",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428201",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428200",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428204",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428203",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428239",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector contact",
+        "zh": "光伏连接器触点"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428219",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector contact",
+        "zh": "光伏连接器触点"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428275",
+      "aliases": [],
+      "description": {
+        "en": "Solar branch connector component",
+        "zh": "光伏分支连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428274",
+      "aliases": [],
+      "description": {
+        "en": "Solar branch connector component",
+        "zh": "光伏分支连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428227",
+      "aliases": [],
+      "description": {
+        "en": "Solar branch connector component",
+        "zh": "光伏分支连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428226",
+      "aliases": [],
+      "description": {
+        "en": "Solar branch connector component",
+        "zh": "光伏分支连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "38115808",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120812",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120851",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120813",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120809",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120857",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120806",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120805",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120803",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120815",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120856",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120810",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120907",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120915",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120865",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120863",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120862",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120811",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120814",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120854",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120858",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120859",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120807",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120904",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120912",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120914",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120902",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120901",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120801",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120802",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120852",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120855",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120808",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120853",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120804",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120906",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120908",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120909",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120910",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120911",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120913",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120903",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120864",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120861",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120860",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "85120905",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1023728",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1023726",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1023727",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1023737",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1023738",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1023736",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1023717",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1023718",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1023716",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1023641",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1023632",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1023649",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1023631",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1023636",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1023630",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "1023640",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "38115818",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "38115825",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "38115811",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "38115817",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "38115824",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "38115810",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "38115812",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "38115819",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "38115805",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "38115816",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "38115823",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "38115809",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023988",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0023986",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "38115821",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "38115807",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "38115813",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "38115820",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "38115806",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "38115815",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "38115822",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "38115814",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428217",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector contact",
+        "zh": "光伏连接器触点"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428240",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector contact",
+        "zh": "光伏连接器触点"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428220",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector contact",
+        "zh": "光伏连接器触点"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428218",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector contact",
+        "zh": "光伏连接器触点"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428255",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428260",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428262",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428237",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428235",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428233",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428263",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428261",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428238",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428236",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428234",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Solar Cable Assembly",
+    "zh": "太阳能电缆组件"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "audited_subset",
+    "reason": {
+      "en": "This is the verified subset for the category. The target of 200 finished models and 200 materials remains incomplete.",
+      "zh": "此处为本类已核验子集，200个成品型号和200个材料料号的目标仍待继续补充。"
+    },
+    "audit_id": "resume-cable-specialty-approved-manifest.json",
+    "verified_counts": {
+      "products": 17,
+      "materials": 120
+    },
+    "target_status": "incomplete",
+    "target_counts": {
+      "products": 200,
+      "materials": 200
+    }
+  }
+}

@@ -1,0 +1,2345 @@
+{
+  "version": 2,
+  "category_id": "connector-systems-03",
+  "route": "/products/jst-compatible",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Finished cable and harness references for this interface or application.",
+        "zh": "此接口或应用方向的成品电缆与线束参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Connector, wire and process-material references for project selection.",
+        "zh": "供项目选型的连接器、线材与工艺材料参考。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Interface & Application",
+        "zh": "接口与应用"
+      },
+      "copy": {
+        "en": "JST identifies a manufacturer, not a universal plug. PH, XH, SH, GH, SM and JWPF differ in pitch, mating geometry and application limits.",
+        "zh": "JST 是制造商名称，不是通用插头。PH、XH、SH、GH、SM 和 JWPF 的间距、对插几何及应用限制各不相同。"
+      }
+    },
+    {
+      "title": {
+        "en": "Project Inputs",
+        "zh": "项目输入"
+      },
+      "copy": {
+        "en": "Send the mating part number, cavity view, circuit list, wire size, lengths, environmental conditions and required verification.",
+        "zh": "请提供对插件型号、腔位视图、回路表、线径、长度、环境条件和所需验证。"
+      }
+    },
+    {
+      "title": {
+        "en": "Release Requirements",
+        "zh": "放行要求"
+      },
+      "copy": {
+        "en": "Review the interface and BOM, confirm the first article, then manufacture and inspect against the approved documents.",
+        "zh": "审核接口及物料，确认首件后按认可文件制造与检验。"
+      }
+    },
+    {
+      "title": {
+        "en": "Mating & Termination",
+        "zh": "对插与端接"
+      },
+      "copy": {
+        "en": "Identify the mating part number and termination method before confirming the assembly drawing.",
+        "zh": "确认对插件料号和端接方式，再确定组件图纸。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sample Review",
+        "zh": "样品审核"
+      },
+      "copy": {
+        "en": "Compare the sample with the approved pin map, dimensions and material list.",
+        "zh": "按确认的针脚对应、尺寸和材料清单审核样品。"
+      }
+    },
+    {
+      "title": {
+        "en": "Build Records",
+        "zh": "制造记录"
+      },
+      "copy": {
+        "en": "Retain the approved part list and inspection results for repeat production.",
+        "zh": "保留确认物料清单与检验结果，作为重复生产依据。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=connector-systems-03&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [],
+  "materials": [
+    {
+      "brand": "JST",
+      "identifier": "SAGH-002GU-P0.3",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SSH-003T-P0.2-H",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SSH-003GA-P0.2",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SSHL-003T-P0.2",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SSHL-003GA1-P0.2",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHLVP-21V-S-1",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SACHL-003G-P0.2",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "NSHR-02V-S",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SACHF-003GAC-P0.2",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SNSHD-003T-P0.2",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SSHJ-003T-P0.2",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SSFG-003T-P0.2",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SLBTAD-01T-M0.5",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SGEZD-002T-C0.2A",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "GERDR-10V-K",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM02B-NSHSS-A-TB",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SACH-003G-P0.2",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SXH-001T-P0.6",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "AGHR-03V-1-H",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHR-02V-S-B",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHDR-20V-S-B",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHLP-02V-S-B",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHLDP-20V-S(B)",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHLVP-31V-S-1",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "ACHLR-02V-S",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "NSHR-03V-S",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "ACHFR-03V-H",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "NSHDR-16V-Z",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHJP-02V-S(HF)",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SFGR-05V-S",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "LBTAR-03V-2K-K(HF)",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "GEZR-02V-K",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "GERDR-12V-K",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM03B-NSHSS-A-TB",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SACH-003G-P0.2B",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SXH-001T-P0.6N",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM03B5.6-AGHS-GG-TF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHR-03V-S-B",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHDR-30V-S-B",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHLP-05V-S-B",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHLDP-30V-S(B)",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM21B-SHLVS-G-TBT",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM02B-ACHLKS-GAN-ETF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "NSHR-04V-S",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "ACHFR-04V-H",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "NSHDR-20V-Z",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHJP-06V-S(HF)",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SM05B-SFGH-TF(HF)",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "LBTAR-05V-2K-K(HF)",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "GEZR-03V-K",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "GERDR-14V-K",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM04B-NSHSS-A-TB",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "ACHR-02V-S",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SXH-002T-P0.6",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM03B3.9-AGHS-GH-TF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHR-04V-S-B",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHDR-40V-S-B",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHLP-06V-S-B",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHLDP-40V-S(B)",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM31B-SHLVS-G-TBT",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "NSHR-05V-S",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "ACHFR-06V-H",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "NSHDR-24V-Z",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM06B-SHJS-TB(HF)",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "LBTAR-07V-2K-K(HF)",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "GEZR-04V-K",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "GERDR-16V-K",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM05B-NSHSS-A-TB",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "ACHR-03V-S",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "XHP-1",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHR-05V-S-B",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHDR-50V-S-B",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHLP-07V-S-B",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHLDP-50V-S(B)",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SM21B-SHLVS-G-TB",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "NSHR-06V-S",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM03B-ACHFKS-GACN-ETF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "NSHDR-28V-Z",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SM02B-SHJH-TF(HF)",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "LBTAR-09V-2K-K(HF)",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "GEZR-05V-K",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "GERDR-18V-K",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM06B-NSHSS-A-TB",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "ACHR-01V-A-S",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "XHP-2",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHR-06V-S-B",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM20B-SRDS-G-TF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHLP-08V-S-B",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHLDP-20V-S-1(B)",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SM31B-SHLVS-G-TB",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "NSHR-07V-S",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM04B-ACHFKS-GACN-ETF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "NSHDR-32V-1-Z",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SM06B-SHJH-TF(HF)",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SM03B-LBTAKS-TD-N2T-K(HF)",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "GEZR-06V-K",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "GERDR-20V-K",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM07B-NSHSS-A-TB",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "ACHR-04V-A-S",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "XHP-3",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHR-07V-S-B",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM30B-SRDS-G-TF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHLP-10V-S-B",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHLDP-30V-S-1(B)",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "NSHR-08V-S",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM06B-ACHFKS-GACN-ETF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "NSHDR-40V-2-Z",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SM05B-LBTAKS-TD-N2T-K(HF)",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "GEZR-07V-K",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "GERDR-22V-K",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM10B-NSHSS-A-TB",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "ACHR-05V-A-S",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "XHP-4",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHR-08V-S-B",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM40B-SRDS-G-TF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHLP-11V-S-B",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHLDP-40V-S-1(B)",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "NSHR-09V-S",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM16B-NSHDZS-TFT",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SM07B-LBTAKS-TD-N2T-K(HF)",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "GEZR-08V-K",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "GERDR-24V-K",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SM06B-NSHSS-A-TB",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM02B-ACHSS-GAN-ETF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "XHP-5",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHR-09V-S-B",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM50B-SRDS-G-TF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHLP-12V-S-B",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHLDP-50V-S-1(B)",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "NSHR-10V-S",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM20B-NSHDZS-TFT",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SM09B-LBTAKS-TD-N2T-K(HF)",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "GEZR-09V-K",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "GERDR-26V-K",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM03B-ACHSS-GAN-ETF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "XHP-6",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHR-10V-S-B",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM20B-SRDS-A-G-TF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHLP-14V-S-B",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM20B-SHLDS-G-TFT",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "NSHR-11V-S",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM24B-NSHDZS-TFT",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "GEZR-10V-K",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "GERDR-28V-K",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM01B-ACHSS-A-GAN-ETF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "XHP-7",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHR-11V-S-B",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM30B-SRDS-A-G-TF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHLP-16V-S-B",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM30B-SHLDS-G-TFT",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "NSHR-12V-S",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM28B-NSHDZS-TFT",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "GEZR-11V-K",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "GERDR-30V-K",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM04B-ACHSS-A-GAN-ETF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "XHP-8",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHR-12V-S-B",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM40B-SRDS-A-G-TF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHLP-20V-S-B",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM40B-SHLDS-G-TFT",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "NSHR-13V-S",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM32B-NSHDZS-1-TFT",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "GEZR-12V-K",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "GERDR-32V-K",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM05B-ACHSS-A-GAN-ETF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "XHP-9",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHR-13V-S-B",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM50B-SRDS-A-G-TF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHLP-22V-S-B",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM50B-SHLDS-G-TFT",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "NSHR-14V-S",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM40B-NSHDZS-1-TFT",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "GEZR-13V-K",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "GERDR-34V-K",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "XHP-10",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHR-14V-S-B",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SM20B-SRDS-G-TF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHLP-26V-S-B",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SM20B-SHLDS-G-TF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "NSHR-15V-S",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SM16B-NSHDZS-TF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "GEZR-14V-K",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "GERDR-36V-K",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "XHP-11",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHR-15V-S-B",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SM30B-SRDS-G-TF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHLP-30V-S-B",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SM30B-SHLDS-G-TF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM02B-NSHSS-TBT",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SM20B-NSHDZS-TF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "GEZR-15V-K",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "GERDR-38V-K",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "XHP-12",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHR-16V-S-B",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SM40B-SRDS-G-TF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SM02B-SHLS-TF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SM40B-SHLDS-G-TF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM03B-NSHSS-TBT",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SM24B-NSHDZS-TF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM02B-GEZK-TBT",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "GERDR-40V-K",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "XHP-13",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHR-20V-S-B",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SM50B-SRDS-G-TF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SM05B-SHLS-TF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SM50B-SHLDS-G-TF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM04B-NSHSS-TBT",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SM28B-NSHDZS-TF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM03B-GEZK-TBT",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM10B-GERDK-TF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "XHP-14",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHR-02V-S",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SM06B-SHLS-TF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM05B-NSHSS-TBT",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SM32B-NSHDZS-1-TF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM04B-GEZK-TBT",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM12B-GERDK-TF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "XHP-15",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHR-03V-S",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SM07B-SHLS-TF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM06B-NSHSS-TBT",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SM40B-NSHDZS-1-TF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM05B-GEZK-TBT",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM14B-GERDK-TF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "XHP-16",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHR-04V-S",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SM08B-SHLS-TF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM07B-NSHSS-TBT",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM06B-GEZK-TBT",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM16B-GERDK-TF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "XHP-20",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHR-05V-S",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SM10B-SHLS-TF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM08B-NSHSS-TBT",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM07B-GEZK-TBT",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM18B-GERDK-TF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "XHP-2(10.0)-U",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHR-06V-S",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SM11B-SHLS-TF",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM09B-NSHSS-TBT",
+      "aliases": [],
+      "description": {
+        "en": "JST connector component",
+        "zh": "JST 连接系统组件"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "JST Compatible",
+    "zh": "JST兼容组件"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "material_scope",
+    "reason": {
+      "en": "These references are connectors, wire or process materials; they are not counted as finished terminated assemblies.",
+      "zh": "这些编号属于连接器、线材或工艺材料，不计为已端接成品组件。"
+    },
+    "audit_id": "resume-brand-material-approved-manifest.json",
+    "verified_counts": {
+      "products": 0,
+      "materials": 240
+    }
+  }
+}

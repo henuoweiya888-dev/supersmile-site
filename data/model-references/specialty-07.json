@@ -1,0 +1,923 @@
+{
+  "version": 2,
+  "category_id": "specialty-07",
+  "route": "/products/panel-mount-cable",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Finished cable and harness references for this interface or application.",
+        "zh": "此接口或应用方向的成品电缆与线束参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Connector, wire and process-material references for project selection.",
+        "zh": "供项目选型的连接器、线材与工艺材料参考。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Panel geometry",
+        "zh": "面板几何形状"
+      },
+      "copy": {
+        "en": "Provide panel thickness, cutout, mounting side and the available interior space.",
+        "zh": "提供板厚、开孔、安装侧及内部可用空间。"
+      }
+    },
+    {
+      "title": {
+        "en": "Interface and retention",
+        "zh": "接口与保持"
+      },
+      "copy": {
+        "en": "Specify connector part number, keying, thread or fastener and required mating access.",
+        "zh": "明确接口料号、防呆、螺纹或紧固件及对插操作空间。"
+      }
+    },
+    {
+      "title": {
+        "en": "Cable transition",
+        "zh": "线缆过渡"
+      },
+      "copy": {
+        "en": "Choose wire leads, an internal cable or a board interface according to the equipment layout.",
+        "zh": "按设备布局选择引线、内部电缆或板端接口。"
+      }
+    },
+    {
+      "title": {
+        "en": "Edge and strain protection",
+        "zh": "边缘与应力防护"
+      },
+      "copy": {
+        "en": "Match grommets, edge protection and cord grips to the panel and actual cable diameter.",
+        "zh": "按面板和真实线缆外径匹配护线圈、边缘保护及线夹。"
+      }
+    },
+    {
+      "title": {
+        "en": "Seal and shield boundary",
+        "zh": "密封与屏蔽边界"
+      },
+      "copy": {
+        "en": "Define sealing faces, gasket compression and any chassis-to-shield bond.",
+        "zh": "定义密封面、垫片压缩及机壳到屏蔽层的搭接。"
+      }
+    },
+    {
+      "title": {
+        "en": "Installed verification",
+        "zh": "安装验证"
+      },
+      "copy": {
+        "en": "Verify fit, retention and electrical function in a representative panel fixture.",
+        "zh": "在代表性面板工装上验证配合、保持力及电气功能。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=specialty-07&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [],
+  "materials": [
+    {
+      "brand": "HellermannTyton",
+      "identifier": "251-10009",
+      "aliases": [],
+      "description": {
+        "en": "Panel-edge cable protection",
+        "zh": "面板边缘护线材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "251-10109",
+      "aliases": [],
+      "description": {
+        "en": "Panel-edge cable protection",
+        "zh": "面板边缘护线材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "251-10209",
+      "aliases": [],
+      "description": {
+        "en": "Panel-edge cable protection",
+        "zh": "面板边缘护线材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "251-10309",
+      "aliases": [],
+      "description": {
+        "en": "Panel-edge cable protection",
+        "zh": "面板边缘护线材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "251-10409",
+      "aliases": [],
+      "description": {
+        "en": "Panel-edge cable protection",
+        "zh": "面板边缘护线材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "251-10509",
+      "aliases": [],
+      "description": {
+        "en": "Panel-edge cable protection",
+        "zh": "面板边缘护线材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "251-10609",
+      "aliases": [],
+      "description": {
+        "en": "Panel-edge cable protection",
+        "zh": "面板边缘护线材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "251-10709",
+      "aliases": [],
+      "description": {
+        "en": "Panel-edge cable protection",
+        "zh": "面板边缘护线材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "251-10809",
+      "aliases": [],
+      "description": {
+        "en": "Panel-edge cable protection",
+        "zh": "面板边缘护线材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "251-30109",
+      "aliases": [],
+      "description": {
+        "en": "Panel-edge cable protection",
+        "zh": "面板边缘护线材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "251-30209",
+      "aliases": [],
+      "description": {
+        "en": "Panel-edge cable protection",
+        "zh": "面板边缘护线材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "251-30309",
+      "aliases": [],
+      "description": {
+        "en": "Panel-edge cable protection",
+        "zh": "面板边缘护线材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "251-30409",
+      "aliases": [],
+      "description": {
+        "en": "Panel-edge cable protection",
+        "zh": "面板边缘护线材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "251-30509",
+      "aliases": [],
+      "description": {
+        "en": "Panel-edge cable protection",
+        "zh": "面板边缘护线材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "251-30609",
+      "aliases": [],
+      "description": {
+        "en": "Panel-edge cable protection",
+        "zh": "面板边缘护线材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "251-30709",
+      "aliases": [],
+      "description": {
+        "en": "Panel-edge cable protection",
+        "zh": "面板边缘护线材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "251-30809",
+      "aliases": [],
+      "description": {
+        "en": "Panel-edge cable protection",
+        "zh": "面板边缘护线材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "251-21109",
+      "aliases": [],
+      "description": {
+        "en": "Panel-edge cable protection",
+        "zh": "面板边缘护线材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "251-21209",
+      "aliases": [],
+      "description": {
+        "en": "Panel-edge cable protection",
+        "zh": "面板边缘护线材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "251-21309",
+      "aliases": [],
+      "description": {
+        "en": "Panel-edge cable protection",
+        "zh": "面板边缘护线材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "251-21509",
+      "aliases": [],
+      "description": {
+        "en": "Panel-edge cable protection",
+        "zh": "面板边缘护线材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "251-21609",
+      "aliases": [],
+      "description": {
+        "en": "Panel-edge cable protection",
+        "zh": "面板边缘护线材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "251-21709",
+      "aliases": [],
+      "description": {
+        "en": "Panel-edge cable protection",
+        "zh": "面板边缘护线材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "251-21809",
+      "aliases": [],
+      "description": {
+        "en": "Panel-edge cable protection",
+        "zh": "面板边缘护线材料"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "800-00200",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "800-00004",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "800-00001",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "631-08190",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "631-08199",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "631-08200",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "631-08209",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "631-08239",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "631-08259",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "631-58279",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "631-58289",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "631-08210",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "631-08219",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "632-01019",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "632-01010",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "632-01017",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "632-01020",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "632-01030",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "632-01040",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "632-01070",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "632-02060",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "632-02090",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "632-02100",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "632-02130",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "632-02280",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "634-31250",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "634-31260",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "634-31268",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "634-03210",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "634-01200",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "634-01210",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "633-01010",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "633-02120",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "633-02010",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "633-02020",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "633-02150",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "633-02090",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "633-02080",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "633-02070",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "633-02180",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "633-02160",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "633-02100",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "633-02030",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "633-02040",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "633-02060",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "633-02050",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "633-03030",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "633-03010",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "633-03020",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "633-03040",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "633-03050",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "633-03059",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "633-04010",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "633-04020",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "633-05020",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "633-06068",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "633-06078",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    },
+    {
+      "brand": "HellermannTyton",
+      "identifier": "633-06088",
+      "aliases": [],
+      "description": {
+        "en": "Panel feed-through cable grommet",
+        "zh": "穿板护线胶圈"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Panel-Mount Cable",
+    "zh": "面板安装电缆"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "material_scope",
+    "reason": {
+      "en": "These references are connectors, wire or process materials; they are not counted as finished terminated assemblies.",
+      "zh": "这些编号属于连接器、线材或工艺材料，不计为已端接成品组件。"
+    },
+    "audit_id": "resume-cable-specialty-approved-manifest.json",
+    "verified_counts": {
+      "products": 0,
+      "materials": 82
+    }
+  }
+}

@@ -1,0 +1,305 @@
+{
+  "version": 2,
+  "category_id": "specialty-05",
+  "route": "/products/fpc-ffc-assembly",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Finished cable and harness references for this interface or application.",
+        "zh": "此接口或应用方向的成品电缆与线束参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Connector, wire and process-material references for project selection.",
+        "zh": "供项目选型的连接器、线材与工艺材料参考。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "FFC or FPC interface",
+        "zh": "FFC或FPC接口"
+      },
+      "copy": {
+        "en": "Confirm whether the design needs a flat-flex jumper, printed flex circuit or connectorized FFC harness.",
+        "zh": "确认设计需要扁平柔性跳线、印制柔性电路还是带连接器的FFC组件。"
+      }
+    },
+    {
+      "title": {
+        "en": "Contact geometry",
+        "zh": "接点几何形状"
+      },
+      "copy": {
+        "en": "Define pitch, circuit count, contact side, exposed contact length and stiffener thickness.",
+        "zh": "定义间距、回路数、接点面、露铜长度及补强板厚度。"
+      }
+    },
+    {
+      "title": {
+        "en": "Mating connector",
+        "zh": "对配连接器"
+      },
+      "copy": {
+        "en": "Use the exact mating connector drawing to check contact orientation and insertion depth.",
+        "zh": "依据准确的对配接口图检查接点方向与插入深度。"
+      }
+    },
+    {
+      "title": {
+        "en": "Fold and dynamic route",
+        "zh": "折弯与运动路线"
+      },
+      "copy": {
+        "en": "Identify static folds, bend zones and any repeated motion before choosing the flex construction.",
+        "zh": "选择柔性结构前明确静态折叠、弯曲区域及反复运动。"
+      }
+    },
+    {
+      "title": {
+        "en": "Signal and ground plan",
+        "zh": "信号与地线方案"
+      },
+      "copy": {
+        "en": "For high-speed links, define impedance, ground allocation and any required shield layer.",
+        "zh": "高速链路需定义阻抗、地线分配及所需屏蔽层。"
+      }
+    },
+    {
+      "title": {
+        "en": "Assembly acceptance",
+        "zh": "组件验收"
+      },
+      "copy": {
+        "en": "Agree circuit mapping, dimensions, insertion/retention and device function checks.",
+        "zh": "约定回路对应、尺寸、插入保持及设备功能检验。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=specialty-05&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "Molex",
+      "identifier": "150390274",
+      "aliases": [
+        "0150390274",
+        "15039-0274"
+      ],
+      "description": {
+        "en": "Premo-Flex FFC jumper cable",
+        "zh": "Premo-Flex FFC跳线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150390243",
+      "aliases": [
+        "0150390243",
+        "15039-0243"
+      ],
+      "description": {
+        "en": "Premo-Flex FFC jumper cable",
+        "zh": "Premo-Flex FFC跳线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150390203",
+      "aliases": [
+        "0150390203",
+        "15039-0203"
+      ],
+      "description": {
+        "en": "Premo-Flex FFC jumper cable",
+        "zh": "Premo-Flex FFC跳线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150390265",
+      "aliases": [
+        "0150390265",
+        "15039-0265"
+      ],
+      "description": {
+        "en": "Premo-Flex FFC jumper cable",
+        "zh": "Premo-Flex FFC跳线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150200546",
+      "aliases": [
+        "15020-0546",
+        "0150200546"
+      ],
+      "description": {
+        "en": "Premo-Flex FFC jumper cable",
+        "zh": "Premo-Flex FFC跳线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "151660336",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex FFC jumper cable",
+        "zh": "Premo-Flex FFC跳线组件"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "brand": "Molex",
+      "identifier": "522070660",
+      "aliases": [],
+      "description": {
+        "en": "FFC/FPC connector component",
+        "zh": "FFC/FPC连接器材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "522710669",
+      "aliases": [],
+      "description": {
+        "en": "FFC/FPC connector component",
+        "zh": "FFC/FPC连接器材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "526100672",
+      "aliases": [],
+      "description": {
+        "en": "FFC/FPC connector component",
+        "zh": "FFC/FPC连接器材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2005280060",
+      "aliases": [],
+      "description": {
+        "en": "FFC/FPC connector component",
+        "zh": "FFC/FPC连接器材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2005280061",
+      "aliases": [],
+      "description": {
+        "en": "FFC/FPC connector component",
+        "zh": "FFC/FPC连接器材料"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "FPC / FFC Assembly",
+    "zh": "FPC / FFC组件"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "audited_subset",
+    "reason": {
+      "en": "This is the verified subset for the category. The target of 200 finished models and 200 materials remains incomplete.",
+      "zh": "此处为本类已核验子集，200个成品型号和200个材料料号的目标仍待继续补充。"
+    },
+    "audit_id": "resume-cable-specialty-approved-manifest.json",
+    "verified_counts": {
+      "products": 6,
+      "materials": 5
+    },
+    "target_status": "incomplete",
+    "target_counts": {
+      "products": 200,
+      "materials": 200
+    }
+  }
+}

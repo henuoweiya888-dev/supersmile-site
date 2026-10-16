@@ -147,6 +147,30 @@ test('engineering-only process exceptions show real schemes without empty invent
   }
 });
 
+test('reviewed subsets preserve incomplete quantity targets and exact searchable references', () => {
+  const data = fixture();
+  data.products = data.products.slice(0, 5);
+  data.materials = data.materials.slice(0, 24);
+  data.quantity_exception = {
+    approved: true, kind: 'audited_subset', audit_id: 'independent-source-review',
+    reason: { en: 'The verified subset is shown at its actual counts; further identifier research remains.', zh: '按实际数量展示已核验子集，型号料号仍有待继续补充。' },
+    verified_counts: { products: 5, materials: 24 },
+    target_status: 'incomplete', target_counts: { products: 200, materials: 200 }
+  };
+  validateReferenceData(data);
+  assert.equal((renderReferences(data).match(/data-mr-entry\b/g) || []).length, 29);
+  for (const mutate of [
+    value => { delete value.quantity_exception.target_status; },
+    value => { value.quantity_exception.target_status = 'complete'; },
+    value => { value.quantity_exception.target_counts.products = 5; },
+    value => { value.quantity_exception.verified_counts.materials = 200; },
+    value => { value.products = []; value.materials = []; value.quantity_exception.verified_counts = { products: 0, materials: 0 }; }
+  ]) {
+    const invalid = structuredClone(data); mutate(invalid);
+    assert.throws(() => validateReferenceData(invalid));
+  }
+});
+
 test('the standard large-count layout stays parallel while small approved ranges stack', () => {
   assert.match(renderReferences(fixture()), /class="mr-groups"/);
   assert.doesNotMatch(renderReferences(fixture()), /mr-groups--stacked/);

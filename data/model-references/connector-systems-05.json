@@ -1,0 +1,2345 @@
+{
+  "version": 2,
+  "category_id": "connector-systems-05",
+  "route": "/products/aptiv-compatible",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Finished cable and harness references for this interface or application.",
+        "zh": "此接口或应用方向的成品电缆与线束参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Connector, wire and process-material references for project selection.",
+        "zh": "供项目选型的连接器、线材与工艺材料参考。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Interface & Application",
+        "zh": "接口与应用"
+      },
+      "copy": {
+        "en": "Weather-Pack, Metri-Pack and GT are distinct systems; match the complete mating references.",
+        "zh": "Weather-Pack、Metri-Pack 与 GT 是不同系统，需匹配完整对插型号。"
+      }
+    },
+    {
+      "title": {
+        "en": "Project Inputs",
+        "zh": "项目输入"
+      },
+      "copy": {
+        "en": "Confirm part references, pin mapping, wire dimensions, environment and quantities.",
+        "zh": "确认零件料号、针脚映射、线材尺寸、环境与数量。"
+      }
+    },
+    {
+      "title": {
+        "en": "Release Requirements",
+        "zh": "放行要求"
+      },
+      "copy": {
+        "en": "Approve the BOM, tooling and first article before repeat production.",
+        "zh": "认可物料表、工装和首件后，再开展重复生产。"
+      }
+    },
+    {
+      "title": {
+        "en": "Mating & Termination",
+        "zh": "对插与端接"
+      },
+      "copy": {
+        "en": "Identify the mating part number and termination method before confirming the assembly drawing.",
+        "zh": "确认对插件料号和端接方式，再确定组件图纸。"
+      }
+    },
+    {
+      "title": {
+        "en": "Sample Review",
+        "zh": "样品审核"
+      },
+      "copy": {
+        "en": "Compare the sample with the approved pin map, dimensions and material list.",
+        "zh": "按确认的针脚对应、尺寸和材料清单审核样品。"
+      }
+    },
+    {
+      "title": {
+        "en": "Build Records",
+        "zh": "制造记录"
+      },
+      "copy": {
+        "en": "Retain the approved part list and inspection results for repeat production.",
+        "zh": "保留确认物料清单与检验结果，作为重复生产依据。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=connector-systems-05&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [],
+  "materials": [
+    {
+      "brand": "Aptiv",
+      "identifier": "13819159",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15432237",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15432235",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15432233",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15493005",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15493007",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15493009",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13733481",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15396711",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15396712",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15482337",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15396713",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13988133",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15482338",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13596791",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15482339",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13596792",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15482340",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15432208",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15432210",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15432212",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15492999",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15493001",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15493003",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13626010",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13611693",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13626012",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33118031",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33118034",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15482325",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15482326",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15482327",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15482328",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33118033",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33120088",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13894097",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15327913",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15327918",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15339412",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "12198198",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13943809",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15457847",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15457848",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15457849",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13943933",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13799599",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13799601",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13799603",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13882331",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "10774271",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "10774272",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "10756896",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15446673",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15446674",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15446675",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13799598",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13799600",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13799602",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "10756351",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "10756352",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "10756353",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33500680",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33505427",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33500683",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15339967",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15339838",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "12059168",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15337197",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "10730124",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13976098",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13976099",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13976100",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13976101",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13976102",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13984278",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13984290",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13984291",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13984302",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13984307",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13976114",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13976115",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13976116",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13976117",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13976118",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13984320",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13984321",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13984322",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13984323",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "13984326",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15363779",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15363604",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15327864",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15363605",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "15344647",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "12066082",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "35034194",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "35034363",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "35034195",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33136690",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33136691",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "35129604",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "35129605",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33156624",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33156623",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33219801",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33219796",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33219797",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33219798",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33219799",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33252407",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33252408",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33252409",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33252410",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33252411",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33276642",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33200044",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33276638",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33188785",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33276639",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33188784",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33276640",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33188783",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33276630",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33101162",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33276631",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33101320",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33276632",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33101321",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33276633",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33101322",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33276634",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33237993",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33276635",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33237994",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33276636",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33237995",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33276637",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33237996",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33283998",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33207220",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33283999",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33207221",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33284000",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33207222",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33284001",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33207223",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33284519",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33207134",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33284520",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33207138",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33284521",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33207143",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33284522",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33207144",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33273782",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33111401",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33273783",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33111402",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33276705",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33198862",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33276706",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33198863",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33337581",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33337577",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33337582",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33337578",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33337583",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33337579",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33337584",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33337580",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33276719",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33213199",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33276720",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33213200",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33276721",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33213201",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33276722",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33213202",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33253266",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33253267",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33253268",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33253269",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33253554",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33253557",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33253560",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33253563",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33254221",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33254220",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33254108",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33254107",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33285119",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33341146",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33341398",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33341399",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33285118",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33341143",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33341144",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33341145",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33341148",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33341400",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33341401",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33341402",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33253275",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33253276",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33253277",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33253551",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33254285",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33254281",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33254267",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33254231",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33254098",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33254088",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33254085",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33254084",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33308974",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33308975",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33308976",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33308977",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33308731",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33308735",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33308962",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33308973",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33308978",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33308979",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33308980",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33308981",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33308961",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33308963",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33308964",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33308965",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33308982",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33308909",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33308910",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33308911",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33308912",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33308913",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33308914",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33308915",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33285164",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    },
+    {
+      "brand": "Aptiv",
+      "identifier": "33285165",
+      "aliases": [],
+      "description": {
+        "en": "CTCS connection component",
+        "zh": "CTCS 连接系统组件"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Aptiv Compatible",
+    "zh": "Aptiv兼容组件"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "material_scope",
+    "reason": {
+      "en": "These references are connectors, wire or process materials; they are not counted as finished terminated assemblies.",
+      "zh": "这些编号属于连接器、线材或工艺材料，不计为已端接成品组件。"
+    },
+    "audit_id": "resume-brand-material-approved-manifest.json",
+    "verified_counts": {
+      "products": 0,
+      "materials": 240
+    }
+  }
+}

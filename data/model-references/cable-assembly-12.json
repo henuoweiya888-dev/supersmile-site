@@ -1,0 +1,217 @@
+{
+  "version": 2,
+  "category_id": "cable-assembly-12",
+  "route": "/products/aerospace-project-assembly",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Finished cable and harness references for this interface or application.",
+        "zh": "此接口或应用方向的成品电缆与线束参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Connector, wire and process-material references for project selection.",
+        "zh": "供项目选型的连接器、线材与工艺材料参考。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Program interface baseline",
+        "zh": "项目接口基线"
+      },
+      "copy": {
+        "en": "Start from the controlled aircraft or spacecraft interface drawing and approved connector specification.",
+        "zh": "从受控航空航天接口图及批准的连接器规范开始。"
+      }
+    },
+    {
+      "title": {
+        "en": "Qualification boundary",
+        "zh": "鉴定边界"
+      },
+      "copy": {
+        "en": "Identify which purchased components require qualification and what evidence the finished project assembly needs.",
+        "zh": "明确哪些采购组件要求鉴定，以及项目成品需要哪些证据。"
+      }
+    },
+    {
+      "title": {
+        "en": "Circuit and segregation",
+        "zh": "电路与隔离"
+      },
+      "copy": {
+        "en": "Define power, signal and RF circuits, shield bonds and required separation in the equipment.",
+        "zh": "定义电源、信号、射频回路、屏蔽搭接及设备内隔离要求。"
+      }
+    },
+    {
+      "title": {
+        "en": "Material and traceability",
+        "zh": "材料与追溯"
+      },
+      "copy": {
+        "en": "Agree wire construction, finish, lot traceability and restrictions on substitutions before purchasing.",
+        "zh": "采购前约定线材结构、表面处理、批次追溯及替代限制。"
+      }
+    },
+    {
+      "title": {
+        "en": "Environment and routing",
+        "zh": "环境与布线"
+      },
+      "copy": {
+        "en": "Specify vibration, thermal range, fluids, mass and routing constraints for the actual installation.",
+        "zh": "按真实安装定义振动、温度、流体、重量及布线约束。"
+      }
+    },
+    {
+      "title": {
+        "en": "Acceptance documents",
+        "zh": "验收文件"
+      },
+      "copy": {
+        "en": "Define first-article inspection, electrical tests and the project records required at delivery.",
+        "zh": "定义首件检验、电气测试及交付所需项目记录。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=cable-assembly-12&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "W. L. Gore & Associates",
+      "identifier": "GSC-01-86038-00",
+      "aliases": [],
+      "description": {
+        "en": "Aircraft hybrid umbilical cable assembly reference",
+        "zh": "航空混合式脐带电缆组件参考型号"
+      }
+    },
+    {
+      "brand": "W. L. Gore & Associates",
+      "identifier": "GSC-01-86039-00",
+      "aliases": [],
+      "description": {
+        "en": "Aircraft hybrid umbilical cable assembly reference",
+        "zh": "航空混合式脐带电缆组件参考型号"
+      }
+    },
+    {
+      "brand": "W. L. Gore & Associates",
+      "identifier": "GSC-01-85806-00",
+      "aliases": [],
+      "description": {
+        "en": "Aircraft hybrid umbilical cable assembly reference",
+        "zh": "航空混合式脐带电缆组件参考型号"
+      }
+    }
+  ],
+  "materials": [],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Aerospace Project Assembly",
+    "zh": "航空航天项目组件"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "audited_subset",
+    "reason": {
+      "en": "This is the verified subset for the category. The target of 200 finished models and 200 materials remains incomplete.",
+      "zh": "此处为本类已核验子集，200个成品型号和200个材料料号的目标仍待继续补充。"
+    },
+    "audit_id": "resume-cable-specialty-approved-manifest.json",
+    "verified_counts": {
+      "products": 3,
+      "materials": 0
+    },
+    "target_status": "incomplete",
+    "target_counts": {
+      "products": 200,
+      "materials": 200
+    }
+  }
+}

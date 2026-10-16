@@ -1,0 +1,393 @@
+{
+  "version": 2,
+  "category_id": "cable-assembly-01",
+  "route": "/products/overmolded-cable-assembly",
+  "title": {
+    "en": "Models, Part Numbers & Sourcing",
+    "zh": "型号料号与定制采购"
+  },
+  "kicker": {
+    "en": "PART NUMBER / INTERFACE / MATERIAL",
+    "zh": "型号 / 接口 / 材料"
+  },
+  "intro": {
+    "en": "Find a cable model or material part number, then send it for a custom replacement or original-part sourcing review.",
+    "zh": "按成品型号或材料料号查找，提交编号即可沟通兼容替代件制作或原厂件采购。"
+  },
+  "jump": {
+    "en": "Find Models & Material Part Numbers",
+    "zh": "查找型号与材料料号"
+  },
+  "search_label": {
+    "en": "Find a model or part number",
+    "zh": "查找型号或料号"
+  },
+  "search_placeholder": {
+    "en": "Brand, model, part number or product type",
+    "zh": "输入品牌、型号、料号或产品类型"
+  },
+  "clear": {
+    "en": "Clear",
+    "zh": "清空"
+  },
+  "empty": {
+    "en": "No matching references. Try a brand, full part number or a listed alias.",
+    "zh": "未找到匹配项，请尝试品牌、完整料号或已列出的别名。"
+  },
+  "groups": [
+    {
+      "key": "products",
+      "title": {
+        "en": "Cable & Harness Models",
+        "zh": "成品电缆与线束型号"
+      },
+      "intro": {
+        "en": "Finished cable and harness references for this interface or application.",
+        "zh": "此接口或应用方向的成品电缆与线束参考。"
+      }
+    },
+    {
+      "key": "materials",
+      "title": {
+        "en": "Connector & Material Part Numbers",
+        "zh": "连接器与材料料号"
+      },
+      "intro": {
+        "en": "Connector, wire and process-material references for project selection.",
+        "zh": "供项目选型的连接器、线材与工艺材料参考。"
+      }
+    }
+  ],
+  "checks_title": {
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
+  },
+  "checks": [
+    {
+      "title": {
+        "en": "Insert and mating envelope",
+        "zh": "嵌件与对插空间"
+      },
+      "copy": {
+        "en": "Confirm connector part numbers, latch travel, keying and space that the mold must leave clear.",
+        "zh": "确认连接器料号、锁扣行程、防呆及模具必须避让的对插空间。"
+      }
+    },
+    {
+      "title": {
+        "en": "Jacket-to-resin interface",
+        "zh": "护套与包胶界面"
+      },
+      "copy": {
+        "en": "Select the mold resin with the actual cable jacket and insert materials; verify adhesion on assembled samples.",
+        "zh": "结合真实线缆护套与嵌件材质选胶，并用成型样件验证结合效果。"
+      }
+    },
+    {
+      "title": {
+        "en": "Cable exit and support",
+        "zh": "出线与应力释放"
+      },
+      "copy": {
+        "en": "Define exit angle, supported length, bend clearance and the cable pull direction at installation.",
+        "zh": "定义出线角度、支撑长度、弯曲空间与安装后的受拉方向。"
+      }
+    },
+    {
+      "title": {
+        "en": "Mold and thermal exposure",
+        "zh": "模具与热暴露"
+      },
+      "copy": {
+        "en": "Review gate location, insert positioning, molding pressure and thermal exposure against the connector limits.",
+        "zh": "按连接器限制审核进胶位置、嵌件定位、成型压力与热暴露。"
+      }
+    },
+    {
+      "title": {
+        "en": "Seal boundary",
+        "zh": "密封边界"
+      },
+      "copy": {
+        "en": "Specify the required sealed interfaces and test the completed assembly in its actual mating state.",
+        "zh": "明确要求密封的界面，并在实际对插状态验证完整组件。"
+      }
+    },
+    {
+      "title": {
+        "en": "Controlled first article",
+        "zh": "首件确认"
+      },
+      "copy": {
+        "en": "Approve molded dimensions, flash limits, pin mapping and electrical tests before releasing the tooling revision.",
+        "zh": "放行模具版本前确认成型尺寸、飞边限值、针脚对应与电气测试。"
+      }
+    }
+  ],
+  "boundary": {
+    "en": "Send the part number, drawing or sample to confirm the replacement configuration and sourcing plan.",
+    "zh": "请提供型号、图纸或样品，具体替代配置与原厂件采购方案按项目确认。"
+  },
+  "cta": {
+    "text": {
+      "en": "Send the model or part number to discuss your project.",
+      "zh": "提交型号或料号，沟通您的定制与采购需求。"
+    },
+    "label": {
+      "en": "Discuss Custom Manufacturing & Sourcing",
+      "zh": "咨询定制与采购"
+    },
+    "url": "/contact?category=cable-assembly-01&source=part-number-review"
+  },
+  "source_label": {
+    "en": "PDF datasheet",
+    "zh": "PDF 规格书"
+  },
+  "alias_label": {
+    "en": "Manufacturer type: ",
+    "zh": "原厂型号："
+  },
+  "products": [
+    {
+      "brand": "Molex",
+      "identifier": "2451350810",
+      "aliases": [],
+      "description": {
+        "en": "Overmolded rectangular cable assembly",
+        "zh": "矩形接口包覆成型电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03449",
+      "aliases": [],
+      "description": {
+        "en": "Overmolded rectangular cable assembly",
+        "zh": "矩形接口包覆成型电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03446",
+      "aliases": [],
+      "description": {
+        "en": "Overmolded rectangular cable assembly",
+        "zh": "矩形接口包覆成型电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03443",
+      "aliases": [],
+      "description": {
+        "en": "Overmolded rectangular cable assembly",
+        "zh": "矩形接口包覆成型电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03440",
+      "aliases": [],
+      "description": {
+        "en": "Overmolded rectangular cable assembly",
+        "zh": "矩形接口包覆成型电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03437",
+      "aliases": [],
+      "description": {
+        "en": "Overmolded rectangular cable assembly",
+        "zh": "矩形接口包覆成型电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03434",
+      "aliases": [],
+      "description": {
+        "en": "Overmolded rectangular cable assembly",
+        "zh": "矩形接口包覆成型电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03431",
+      "aliases": [],
+      "description": {
+        "en": "Overmolded rectangular cable assembly",
+        "zh": "矩形接口包覆成型电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03428",
+      "aliases": [],
+      "description": {
+        "en": "Overmolded rectangular cable assembly",
+        "zh": "矩形接口包覆成型电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03425",
+      "aliases": [],
+      "description": {
+        "en": "Overmolded rectangular cable assembly",
+        "zh": "矩形接口包覆成型电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03422",
+      "aliases": [],
+      "description": {
+        "en": "Overmolded rectangular cable assembly",
+        "zh": "矩形接口包覆成型电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03419",
+      "aliases": [],
+      "description": {
+        "en": "Overmolded rectangular cable assembly",
+        "zh": "矩形接口包覆成型电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-03416",
+      "aliases": [],
+      "description": {
+        "en": "Overmolded rectangular cable assembly",
+        "zh": "矩形接口包覆成型电缆组件"
+      }
+    }
+  ],
+  "materials": [
+    {
+      "brand": "Teknor Apex",
+      "identifier": "Medalist MD-84348",
+      "aliases": [],
+      "description": {
+        "en": "TPE grade for medical cable jackets and molded connectors",
+        "zh": "医疗线缆护套及连接器成型用TPE牌号"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01337",
+      "aliases": [],
+      "description": {
+        "en": "Cable wire material",
+        "zh": "线缆用导线材料"
+      }
+    },
+    {
+      "brand": "Teknor Apex",
+      "identifier": "Medalist MD-84368",
+      "aliases": [],
+      "description": {
+        "en": "TPE grade for medical cable jackets and molded connectors",
+        "zh": "医疗线缆护套及连接器成型用TPE牌号"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01313",
+      "aliases": [],
+      "description": {
+        "en": "Cable wire material",
+        "zh": "线缆用导线材料"
+      }
+    },
+    {
+      "brand": "Teknor Apex",
+      "identifier": "Medalist MD-84383",
+      "aliases": [],
+      "description": {
+        "en": "TPE grade for medical cable jackets and molded connectors",
+        "zh": "医疗线缆护套及连接器成型用TPE牌号"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01289",
+      "aliases": [],
+      "description": {
+        "en": "Cable wire material",
+        "zh": "线缆用导线材料"
+      }
+    },
+    {
+      "brand": "Teknor Apex",
+      "identifier": "Medalist MD-84388",
+      "aliases": [],
+      "description": {
+        "en": "TPE grade for medical cable jackets and molded connectors",
+        "zh": "医疗线缆护套及连接器成型用TPE牌号"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00686",
+      "aliases": [],
+      "description": {
+        "en": "Cable wire material",
+        "zh": "线缆用导线材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00383",
+      "aliases": [],
+      "description": {
+        "en": "Cable wire material",
+        "zh": "线缆用导线材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00368",
+      "aliases": [],
+      "description": {
+        "en": "Cable wire material",
+        "zh": "线缆用导线材料"
+      }
+    }
+  ],
+  "service_label": {
+    "en": "Custom compatible replacements · Original-parts sourcing",
+    "zh": "可制作兼容替代件、自有原厂采购渠道"
+  },
+  "pagination": {
+    "previous": {
+      "en": "Previous",
+      "zh": "上一页"
+    },
+    "next": {
+      "en": "Next",
+      "zh": "下一页"
+    }
+  },
+  "validated": true,
+  "category_name": {
+    "en": "Overmolded Cable Assembly",
+    "zh": "包覆成型电缆组件"
+  },
+  "quantity_exception": {
+    "approved": true,
+    "kind": "process_or_delivery",
+    "reason": {
+      "en": "The verified references are shown at their actual counts. Identify the required interface and configuration before manufacture or sourcing.",
+      "zh": "按实际数量展示已核验参考编号，制作或采购前确认所需接口与配置。"
+    },
+    "audit_id": "resume-cable-specialty-approved-manifest.json",
+    "verified_counts": {
+      "products": 13,
+      "materials": 10
+    }
+  }
+}

@@ -42,8 +42,8 @@
         "zh": "成品电缆与线束型号"
       },
       "intro": {
-        "en": "Verified finished assemblies are added only when an exact current identifier is available.",
-        "zh": "取得可核验的现行准确编号后纳入成品组件。"
+        "en": "Finished cable and harness references for this interface or application.",
+        "zh": "此接口或应用方向的成品电缆与线束参考。"
       }
     },
     {
@@ -53,74 +53,74 @@
         "zh": "连接器与材料料号"
       },
       "intro": {
-        "en": "CF98.PLUS and CF99.PLUS cable materials for small-bend-radius configurations.",
-        "zh": "小弯曲半径配置用 CF98.PLUS 与 CF99.PLUS 原线材料。"
+        "en": "Connector, wire and process-material references for project selection.",
+        "zh": "供项目选型的连接器、线材与工艺材料参考。"
       }
     }
   ],
   "checks_title": {
-    "en": "Six Decisions Behind the Part Number",
-    "zh": "型号背后的六个选型要点"
+    "en": "Configuration & Project Review",
+    "zh": "配置与项目确认"
   },
   "checks": [
     {
       "title": {
-        "en": "Movement Envelope",
-        "zh": "运动空间"
+        "en": "Interface & Application",
+        "zh": "接口与应用"
       },
       "copy": {
-        "en": "Define the available moving bend radius and the required cable route.",
-        "zh": "定义可用的动态弯曲半径及线缆布线路径。"
+        "en": "Fine stranding, core lay, jacket, support and termination jointly govern the moving assembly.",
+        "zh": "细绞导体、芯线绞合、护套、支撑和端接共同决定活动组件的表现。"
       }
     },
     {
       "title": {
-        "en": "Conductor Construction",
-        "zh": "导体结构"
+        "en": "Project Inputs",
+        "zh": "项目输入"
       },
       "copy": {
-        "en": "Choose conductor size and strand construction for the actual electrical and motion requirements.",
-        "zh": "按实际电气与运动要求选择线径和绞合结构。"
+        "en": "Provide bend radius, cycle and torsion duty, connector drawings and environmental exposure.",
+        "zh": "请提供弯曲半径、循环与扭转工况、接头图纸及环境条件。"
       }
     },
     {
       "title": {
-        "en": "Shield Configuration",
-        "zh": "屏蔽配置"
+        "en": "Release Requirements",
+        "zh": "放行要求"
       },
       "copy": {
-        "en": "Confirm whether shielding is required and how it is terminated at each end.",
-        "zh": "确认是否需要屏蔽，以及两端的端接方式。"
+        "en": "Release the cable and its finished interfaces against project-specific first-article and acceptance checks.",
+        "zh": "按项目特定的首件与验收要求，放行线缆及完整接口。"
       }
     },
     {
       "title": {
-        "en": "End Interfaces",
-        "zh": "两端接口"
+        "en": "Mating & Termination",
+        "zh": "对插与端接"
       },
       "copy": {
-        "en": "Specify the mating connectors, pin map and cable-exit support.",
-        "zh": "定义对插件、针脚对应与线缆出口支撑。"
+        "en": "Identify the mating part number and termination method before confirming the assembly drawing.",
+        "zh": "确认对插件料号和端接方式，再确定组件图纸。"
       }
     },
     {
       "title": {
-        "en": "Routing & Clamping",
-        "zh": "布线与固定"
+        "en": "Sample Review",
+        "zh": "样品审核"
       },
       "copy": {
-        "en": "Set clamp positions and keep the moving section free from imposed twist or sharp bends.",
-        "zh": "确定固定位置，避免运动段受到额外扭转或急弯。"
+        "en": "Compare the sample with the approved pin map, dimensions and material list.",
+        "zh": "按确认的针脚对应、尺寸和材料清单审核样品。"
       }
     },
     {
       "title": {
-        "en": "Prototype Movement",
-        "zh": "样品运动验证"
+        "en": "Build Records",
+        "zh": "制造记录"
       },
       "copy": {
-        "en": "Check the completed cable through the actual travel before approving repeated manufacture.",
-        "zh": "在确认重复制造前，按实际行程检查完整组件。"
+        "en": "Retain the approved part list and inspection results for repeat production.",
+        "zh": "保留确认物料清单与检验结果，作为重复生产依据。"
       }
     }
   ],
@@ -150,12 +150,1272 @@
   "products": [],
   "materials": [
     {
+      "brand": "LAPP",
+      "identifier": "0028100",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028105",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028126",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028135",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028136",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028195",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028110",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028116",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028145",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028146",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028160",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028164",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028170",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028171",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028172",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028174",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028176",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028178",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028180",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028181",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028182",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028185",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028186",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028187",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028188",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028189",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028190",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028191",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028198",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0028400",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029590",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029591",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029592",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029593",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029594",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029595",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029596",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029599",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029600",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029601",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029608",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029609",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029610",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029611",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029612",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029614",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029615",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029616",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029617",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029618",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029619",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029620",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029621",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029622",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029624",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029625",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029627",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029629",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029630",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029631",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029632",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029641",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029653",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029654",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029655",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029656",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029657",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029658",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029664",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029665",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029689",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029690",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029691",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "0029692",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand robotic cable material",
+        "zh": "细绞导体机器人线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.01.12",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.01.18",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.02.04",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.02.08",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.02.12",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.02.25",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.03.05.INI",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.05.04",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.05.05",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.05.07",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.05.12",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.05.18",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.05.25",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.07.04",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.07.05",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.07.07",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.07.12",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.07.20",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.07.25",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.10.02",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.10.03",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.10.04",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.10.05",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.10.07",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.10.12",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.10.18",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.10.25",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.15.04",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.15.05",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.15.07",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.15.12",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.15.18",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.25.04",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.25.07",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.25.12",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.40.04",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.40.05",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.UL.02.04",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.UL.02.08",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.UL.02.12",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.UL.02.25",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.UL.05.04",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.UL.05.05",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.UL.05.12",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.UL.05.25",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.UL.07.04",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.UL.07.05",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.UL.07.07",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.UL.07.12",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.UL.07.20",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.UL.07.25",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.UL.10.02",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.UL.10.03",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.UL.10.04",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.UL.10.05",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.UL.10.07",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.UL.10.25",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.UL.15.04",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.UL.15.05",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.UL.15.07",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.UL.15.12",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.UL.15.18",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.UL.25.04",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.UL.25.07",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.UL.25.12",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF10.UL.40.04",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
       "brand": "igus",
       "identifier": "CF98.PLUS.01.02",
       "aliases": [],
       "description": {
-        "en": "Small-bend-radius control cable material",
-        "zh": "小弯曲半径控制电缆材料"
+        "en": "Small-radius flexible control cable material",
+        "zh": "小弯曲半径柔性控制线材"
       }
     },
     {
@@ -163,8 +1423,8 @@
       "identifier": "CF98.PLUS.01.03",
       "aliases": [],
       "description": {
-        "en": "Small-bend-radius control cable material",
-        "zh": "小弯曲半径控制电缆材料"
+        "en": "Small-radius flexible control cable material",
+        "zh": "小弯曲半径柔性控制线材"
       }
     },
     {
@@ -172,8 +1432,8 @@
       "identifier": "CF98.PLUS.01.04",
       "aliases": [],
       "description": {
-        "en": "Small-bend-radius control cable material",
-        "zh": "小弯曲半径控制电缆材料"
+        "en": "Small-radius flexible control cable material",
+        "zh": "小弯曲半径柔性控制线材"
       }
     },
     {
@@ -181,8 +1441,8 @@
       "identifier": "CF98.PLUS.01.08",
       "aliases": [],
       "description": {
-        "en": "Small-bend-radius control cable material",
-        "zh": "小弯曲半径控制电缆材料"
+        "en": "Small-radius flexible control cable material",
+        "zh": "小弯曲半径柔性控制线材"
       }
     },
     {
@@ -190,8 +1450,8 @@
       "identifier": "CF98.PLUS.02.03.INI",
       "aliases": [],
       "description": {
-        "en": "Small-bend-radius control cable material",
-        "zh": "小弯曲半径控制电缆材料"
+        "en": "Small-radius flexible control cable material",
+        "zh": "小弯曲半径柔性控制线材"
       }
     },
     {
@@ -199,8 +1459,8 @@
       "identifier": "CF98.PLUS.02.04",
       "aliases": [],
       "description": {
-        "en": "Small-bend-radius control cable material",
-        "zh": "小弯曲半径控制电缆材料"
+        "en": "Small-radius flexible control cable material",
+        "zh": "小弯曲半径柔性控制线材"
       }
     },
     {
@@ -208,8 +1468,8 @@
       "identifier": "CF98.PLUS.02.08",
       "aliases": [],
       "description": {
-        "en": "Small-bend-radius control cable material",
-        "zh": "小弯曲半径控制电缆材料"
+        "en": "Small-radius flexible control cable material",
+        "zh": "小弯曲半径柔性控制线材"
       }
     },
     {
@@ -217,8 +1477,8 @@
       "identifier": "CF98.PLUS.03.04.INI",
       "aliases": [],
       "description": {
-        "en": "Small-bend-radius control cable material",
-        "zh": "小弯曲半径控制电缆材料"
+        "en": "Small-radius flexible control cable material",
+        "zh": "小弯曲半径柔性控制线材"
       }
     },
     {
@@ -226,8 +1486,8 @@
       "identifier": "CF98.PLUS.05.04",
       "aliases": [],
       "description": {
-        "en": "Small-bend-radius control cable material",
-        "zh": "小弯曲半径控制电缆材料"
+        "en": "Small-radius flexible control cable material",
+        "zh": "小弯曲半径柔性控制线材"
       }
     },
     {
@@ -235,8 +1495,8 @@
       "identifier": "CF99.PLUS.01.02",
       "aliases": [],
       "description": {
-        "en": "Small-bend-radius control cable material",
-        "zh": "小弯曲半径控制电缆材料"
+        "en": "Small-radius flexible control cable material",
+        "zh": "小弯曲半径柔性控制线材"
       }
     },
     {
@@ -244,8 +1504,8 @@
       "identifier": "CF99.PLUS.01.04",
       "aliases": [],
       "description": {
-        "en": "Small-bend-radius control cable material",
-        "zh": "小弯曲半径控制电缆材料"
+        "en": "Small-radius flexible control cable material",
+        "zh": "小弯曲半径柔性控制线材"
       }
     },
     {
@@ -253,8 +1513,8 @@
       "identifier": "CF99.PLUS.01.08",
       "aliases": [],
       "description": {
-        "en": "Small-bend-radius control cable material",
-        "zh": "小弯曲半径控制电缆材料"
+        "en": "Small-radius flexible control cable material",
+        "zh": "小弯曲半径柔性控制线材"
       }
     },
     {
@@ -262,8 +1522,8 @@
       "identifier": "CF99.PLUS.02.04",
       "aliases": [],
       "description": {
-        "en": "Small-bend-radius control cable material",
-        "zh": "小弯曲半径控制电缆材料"
+        "en": "Small-radius flexible control cable material",
+        "zh": "小弯曲半径柔性控制线材"
       }
     },
     {
@@ -271,8 +1531,8 @@
       "identifier": "CF99.PLUS.02.08",
       "aliases": [],
       "description": {
-        "en": "Small-bend-radius control cable material",
-        "zh": "小弯曲半径控制电缆材料"
+        "en": "Small-radius flexible control cable material",
+        "zh": "小弯曲半径柔性控制线材"
       }
     },
     {
@@ -280,8 +1540,368 @@
       "identifier": "CF99.PLUS.03.08",
       "aliases": [],
       "description": {
-        "en": "Small-bend-radius control cable material",
-        "zh": "小弯曲半径控制电缆材料"
+        "en": "Small-radius flexible control cable material",
+        "zh": "小弯曲半径柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.02.02",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.02.03.INI",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.02.04",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.02.06",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.02.08",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.02.12",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.03.04.INI",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.03.05.INI",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.03.06",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.03.08",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.05.02",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.05.03",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.05.04",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.05.05",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.05.07",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.05.12",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.05.18",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.05.36",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.07.05",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.07.07",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.07.12",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.07.25",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.10.03",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.10.04",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.10.12",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.10.18",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.10.25",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.15.04",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.15.05",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.15.07",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.15.12",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.15.18",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.15.25",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.25.04",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.25.05",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.25.07",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.25.12",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.25.18",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.25.25",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF9.UL.40.04",
+      "aliases": [],
+      "description": {
+        "en": "Fine-strand high-flex control cable material",
+        "zh": "细绞导体高柔性控制线材"
       }
     }
   ],
@@ -308,13 +1928,13 @@
     "approved": true,
     "kind": "material_scope",
     "reason": {
-      "en": "Only current manufacturer-identified small-bend-radius cable materials are included; phased-out assembled models are retained in the internal research only.",
-      "zh": "仅纳入原厂可核验的现行小弯曲半径线材，退市组件型号只留内部研究。"
+      "en": "These references are connectors, wire or process materials; they are not counted as finished terminated assemblies.",
+      "zh": "这些编号属于连接器、线材或工艺材料，不计为已端接成品组件。"
     },
-    "audit_id": "wire-cable-17-motion-literal-candidates.json",
+    "audit_id": "resume-brand-material-approved-manifest.json",
     "verified_counts": {
       "products": 0,
-      "materials": 15
+      "materials": 195
     }
   }
 }
