@@ -163,6 +163,45 @@
     },
     {
       "brand": "Belden",
+      "identifier": "39110 010100",
+      "aliases": [
+        "39110 0101000",
+        "39110 0105000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28066",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "30117",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29466",
+      "aliases": [],
+      "description": {
+        "en": "05VV-F PVC appliance connection cable",
+        "zh": "05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
       "identifier": "39126 013100",
       "aliases": [
         "39126 0131000",
@@ -175,11 +214,88 @@
     },
     {
       "brand": "Belden",
+      "identifier": "39110 013100",
+      "aliases": [
+        "39110 0135000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "31105",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "30115",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29467",
+      "aliases": [],
+      "description": {
+        "en": "05VV-F PVC appliance connection cable",
+        "zh": "05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
       "identifier": "39126 0035000",
       "aliases": [],
       "description": {
         "en": "Appliance hook-up wire material",
         "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39110 001100",
+      "aliases": [
+        "39110 0011000",
+        "39110 0015000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28034",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29450",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29474",
+      "aliases": [],
+      "description": {
+        "en": "05VV-F PVC appliance connection cable",
+        "zh": "05VV-F PVC 电器连接软电缆"
       }
     },
     {
@@ -196,6 +312,44 @@
     },
     {
       "brand": "Belden",
+      "identifier": "39110 008100",
+      "aliases": [
+        "39110 0085000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28050",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29451",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29475",
+      "aliases": [],
+      "description": {
+        "en": "05VV-F PVC appliance connection cable",
+        "zh": "05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
       "identifier": "39126 008100",
       "aliases": [
         "39126 0081000",
@@ -204,6 +358,44 @@
       "description": {
         "en": "Appliance hook-up wire material",
         "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39110 0051000",
+      "aliases": [
+        "39110 0055000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28067",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "30127",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29486",
+      "aliases": [],
+      "description": {
+        "en": "05VV-F PVC appliance connection cable",
+        "zh": "05VV-F PVC 电器连接软电缆"
       }
     },
     {
@@ -220,11 +412,78 @@
     },
     {
       "brand": "Belden",
+      "identifier": "39110 189100",
+      "aliases": [
+        "39110 1895000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "31115",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "30125",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29487",
+      "aliases": [],
+      "description": {
+        "en": "05VV-F PVC appliance connection cable",
+        "zh": "05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
       "identifier": "39126 0031000",
       "aliases": [],
       "description": {
         "en": "Appliance hook-up wire material",
         "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39110 003100",
+      "aliases": [
+        "39110 0035000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28035",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29452",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
       }
     },
     {
@@ -241,6 +500,36 @@
     },
     {
       "brand": "Belden",
+      "identifier": "39110 002100",
+      "aliases": [
+        "39110 0021000",
+        "39110 0025000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28051",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29453",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
       "identifier": "39126 007100",
       "aliases": [
         "39126 0071000",
@@ -249,6 +538,35 @@
       "description": {
         "en": "Appliance hook-up wire material",
         "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39110 007100",
+      "aliases": [
+        "39110 0075000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28068",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "30137",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
       }
     },
     {
@@ -265,6 +583,35 @@
     },
     {
       "brand": "Belden",
+      "identifier": "39110 009100",
+      "aliases": [
+        "39110 0095000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "31125",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "30135",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
       "identifier": "39126 004100",
       "aliases": [
         "39126 0041000",
@@ -273,6 +620,35 @@
       "description": {
         "en": "Appliance hook-up wire material",
         "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39110 004100",
+      "aliases": [
+        "39110 0045000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28036",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29454",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
       }
     },
     {
@@ -286,11 +662,71 @@
     },
     {
       "brand": "Belden",
+      "identifier": "39112 010100",
+      "aliases": [
+        "39112 0101000",
+        "39112 0105000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28052",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29455",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
       "identifier": "BE41490.05300",
       "aliases": [],
       "description": {
         "en": "Appliance hook-up wire material",
         "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39112 013100",
+      "aliases": [
+        "39112 0131000",
+        "39112 0135000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28069",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "30147",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
       }
     },
     {
@@ -304,11 +740,69 @@
     },
     {
       "brand": "Belden",
+      "identifier": "39112 0011000",
+      "aliases": [
+        "39112 0015000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "31135",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "30145",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
       "identifier": "BE41490.06300",
       "aliases": [],
       "description": {
         "en": "Appliance hook-up wire material",
         "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39112 008100",
+      "aliases": [
+        "39112 0085000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28037",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29456",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
       }
     },
     {
@@ -322,6 +816,36 @@
     },
     {
       "brand": "Belden",
+      "identifier": "39112 005100",
+      "aliases": [
+        "39112 0051000",
+        "39112 0055000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28053",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29457",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
       "identifier": "BE41490.02300",
       "aliases": [],
       "description": {
@@ -331,11 +855,71 @@
     },
     {
       "brand": "Belden",
+      "identifier": "39112 189100",
+      "aliases": [
+        "39112 1891000",
+        "39112 1895000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28070",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "30157",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
       "identifier": "BE41490.01300",
       "aliases": [],
       "description": {
         "en": "Appliance hook-up wire material",
         "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39112 003100",
+      "aliases": [
+        "39112 0031000",
+        "39112 0035000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "31145",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "30155",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
       }
     },
     {
@@ -351,6 +935,36 @@
     },
     {
       "brand": "Belden",
+      "identifier": "39112 002100",
+      "aliases": [
+        "39112 0021000",
+        "39112 0025000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28038",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29458",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
       "identifier": "BE41508.05300",
       "aliases": [
         "BE41508.051500"
@@ -358,6 +972,33 @@
       "description": {
         "en": "Appliance hook-up wire material",
         "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39112 0075000",
+      "aliases": [],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28054",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29459",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
       }
     },
     {
@@ -373,6 +1014,36 @@
     },
     {
       "brand": "Belden",
+      "identifier": "39112 009100",
+      "aliases": [
+        "39112 0091000",
+        "39112 0095000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28071",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "30167",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
       "identifier": "BE41508.04300",
       "aliases": [
         "BE41508.041500"
@@ -380,6 +1051,33 @@
       "description": {
         "en": "Appliance hook-up wire material",
         "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39112 0045000",
+      "aliases": [],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "31155",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "30165",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
       }
     },
     {
@@ -395,6 +1093,36 @@
     },
     {
       "brand": "Belden",
+      "identifier": "39114 010100",
+      "aliases": [
+        "39114 0101000",
+        "39114 0105000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28039",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29460",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
       "identifier": "BE41508.01300",
       "aliases": [
         "BE41508.011500"
@@ -402,6 +1130,1619 @@
       "description": {
         "en": "Appliance hook-up wire material",
         "zh": "电器内部配线材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39114 013100",
+      "aliases": [
+        "39114 0131000",
+        "39114 0135000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28055",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29461",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39114 001100",
+      "aliases": [
+        "39114 0011000",
+        "39114 0015000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28072",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "30177",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39114 008100",
+      "aliases": [
+        "39114 0085000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "31165",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "30175",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39114 005100",
+      "aliases": [
+        "39114 0051000",
+        "39114 0055000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28040",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29462",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39114 189100",
+      "aliases": [
+        "39114 1891000",
+        "39114 1895000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28056",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29463",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39114 003100",
+      "aliases": [
+        "39114 0035000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28073",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "30187",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39114 002100",
+      "aliases": [
+        "39114 0021000",
+        "39114 0025000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "31175",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "30185",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39114 0075000",
+      "aliases": [],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28041",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29464",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39114 009100",
+      "aliases": [
+        "39114 0091000",
+        "39114 0095000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28057",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29465",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39114 004100",
+      "aliases": [
+        "39114 0045000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28074",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "30207",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39116 010100",
+      "aliases": [
+        "39116 0101000",
+        "39116 0105000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "31185",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "30205",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39116 013100",
+      "aliases": [
+        "39116 0131000",
+        "39116 0135000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28042",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29484",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39116 001100",
+      "aliases": [
+        "39116 0011000",
+        "39116 0015000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28058",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29485",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39116 008100",
+      "aliases": [
+        "39116 0081000",
+        "39116 0085000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28075",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "30217",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39116 005100",
+      "aliases": [
+        "39116 0055000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "31195",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "30215",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39116 189100",
+      "aliases": [
+        "39116 1891000",
+        "39116 1895000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28043",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29468",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39116 003100",
+      "aliases": [
+        "39116 0035000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28059",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29469",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39116 002100",
+      "aliases": [
+        "39116 0021000",
+        "39116 0025000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28076",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "30227",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39116 0075000",
+      "aliases": [],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "31205",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "30225",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39116 009100",
+      "aliases": [
+        "39116 0091000",
+        "39116 0095000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28044",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29470",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39116 004100",
+      "aliases": [
+        "39116 0041000",
+        "39116 0045000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28060",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29471",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39118 010100",
+      "aliases": [
+        "39118 0101000",
+        "39118 0105000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28077",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "11021857",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39118 013100",
+      "aliases": [
+        "39118 0131000",
+        "39118 0135000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "31215",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "30237",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39118 001100",
+      "aliases": [
+        "39118 0011000",
+        "39118 0015000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28045",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "30235",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39118 008100",
+      "aliases": [
+        "39118 0081000",
+        "39118 0085000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28061",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29472",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39118 005100",
+      "aliases": [
+        "39118 0051000",
+        "39118 0055000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28078",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29473",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39118 189100",
+      "aliases": [
+        "39118 1891000",
+        "39118 1895000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "31225",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29476",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39118 003100",
+      "aliases": [
+        "39118 0031000",
+        "39118 0035000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28046",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "30247",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39118 002100",
+      "aliases": [
+        "39118 0021000",
+        "39118 0025000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28062",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "30245",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39118 007100",
+      "aliases": [
+        "39118 0071000",
+        "39118 0075000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28079",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29478",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39118 009100",
+      "aliases": [
+        "39118 0091000",
+        "39118 0095000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "31235",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29479",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39118 004100",
+      "aliases": [
+        "39118 0041000",
+        "39118 0045000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28047",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "30257",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39120 010100",
+      "aliases": [
+        "39120 0101000",
+        "39120 0105000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28063",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "30255",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39120 013100",
+      "aliases": [
+        "39120 0131000",
+        "39120 0135000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28080",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29480",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39120 001100",
+      "aliases": [
+        "39120 0011000",
+        "39120 0015000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "31245",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29481",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39120 008100",
+      "aliases": [
+        "39120 0085000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28048",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "30267",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39120 005100",
+      "aliases": [
+        "39120 0051000",
+        "39120 0055000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28064",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "30265",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39120 003100",
+      "aliases": [
+        "39120 0031000",
+        "39120 0035000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28081",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29482",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39120 002100",
+      "aliases": [
+        "39120 0021000",
+        "39120 0025000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "31255",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29483",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39120 007100",
+      "aliases": [
+        "39120 0071000",
+        "39120 0075000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28049",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29825",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39120 009100",
+      "aliases": [
+        "39120 0091000",
+        "39120 0095000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "28065",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F/SJT PVC appliance connection cable",
+        "zh": "H05VV-F/SJT PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29826",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39120 004100",
+      "aliases": [
+        "39120 0041000",
+        "39120 0045000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29488",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39124 010100",
+      "aliases": [
+        "39124 0101000",
+        "39124 0105000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29489",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39124 013100",
+      "aliases": [
+        "39124 0131000",
+        "39124 0135000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29490",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39124 001100",
+      "aliases": [
+        "39124 0011000",
+        "39124 0015000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "HELUKABEL / HELU",
+      "identifier": "29491",
+      "aliases": [],
+      "description": {
+        "en": "H05VV-F PVC appliance connection cable",
+        "zh": "H05VV-F PVC 电器连接软电缆"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39124 008100",
+      "aliases": [
+        "39124 0085000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39124 005100",
+      "aliases": [
+        "39124 0051000",
+        "39124 0055000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39124 003100",
+      "aliases": [
+        "39124 0035000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39124 002100",
+      "aliases": [
+        "39124 0021000",
+        "39124 0025000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39124 007100",
+      "aliases": [
+        "39124 0071000",
+        "39124 0075000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39124 009100",
+      "aliases": [
+        "39124 0091000",
+        "39124 0095000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39124 004100",
+      "aliases": [
+        "39124 0045000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39122 010100",
+      "aliases": [
+        "39122 0101000",
+        "39122 0105000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39122 013100",
+      "aliases": [
+        "39122 0131000",
+        "39122 0135000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39122 001100",
+      "aliases": [
+        "39122 0011000",
+        "39122 0015000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39122 008100",
+      "aliases": [
+        "39122 0081000",
+        "39122 0085000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39122 005100",
+      "aliases": [
+        "39122 0051000",
+        "39122 0055000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39122 003100",
+      "aliases": [
+        "39122 0031000",
+        "39122 0035000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39122 002100",
+      "aliases": [
+        "39122 0021000",
+        "39122 0025000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39122 007100",
+      "aliases": [
+        "39122 0071000",
+        "39122 0075000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39122 009100",
+      "aliases": [
+        "39122 0091000",
+        "39122 0095000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39122 004100",
+      "aliases": [
+        "39122 0041000",
+        "39122 0045000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39128 010100",
+      "aliases": [
+        "39128 0101000",
+        "39128 0105000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39128 0135000",
+      "aliases": [],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39128 0011000",
+      "aliases": [
+        "39128 0015000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39128 008100",
+      "aliases": [
+        "39128 0081000",
+        "39128 0085000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39128 005100",
+      "aliases": [
+        "39128 0055000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39128 003100",
+      "aliases": [
+        "39128 0031000",
+        "39128 0035000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39128 0025000",
+      "aliases": [],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39128 0071000",
+      "aliases": [
+        "39128 0075000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39128 009100",
+      "aliases": [
+        "39128 0091000",
+        "39128 0095000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "39128 004100",
+      "aliases": [
+        "39128 0045000"
+      ],
+      "description": {
+        "en": "PPO insulated appliance hook-up wire",
+        "zh": "PPO 绝缘电器内部连接线"
       }
     }
   ],
@@ -431,10 +2772,15 @@
       "en": "These references are connectors, wire or process materials; they are not counted as finished terminated assemblies.",
       "zh": "这些编号属于连接器、线材或工艺材料，不计为已端接成品组件。"
     },
-    "audit_id": "resume-brand-material-approved-manifest.json",
+    "audit_id": "next-wave/third-wave/fifth-wave/wire-materials/wire-cable-02-belden-helu-appliance-independent-audit.json",
     "verified_counts": {
       "products": 0,
-      "materials": 24
+      "materials": 257
+    },
+    "target_status": "material_target_met",
+    "target_counts": {
+      "products": 0,
+      "materials": 200
     }
   }
 }

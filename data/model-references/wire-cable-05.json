@@ -170,6 +170,65 @@
       }
     },
     {
+      "brand": "Belden",
+      "identifier": "1855A 010500",
+      "aliases": [
+        "1855A 0101000",
+        "1855A 010N1000",
+        "1855A 010Z1000",
+        "1855A 0105000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "9116",
+      "aliases": [],
+      "description": {
+        "en": "RG6 coaxial cable material",
+        "zh": "RG6 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1523A",
+      "aliases": [],
+      "description": {
+        "en": "RG11 coaxial cable material",
+        "zh": "RG11 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "89108",
+      "aliases": [],
+      "description": {
+        "en": "RG59 coaxial cable material",
+        "zh": "RG59 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "3092A",
+      "aliases": [],
+      "description": {
+        "en": "ControlNet coaxial cable material",
+        "zh": "ControlNet 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4694P",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm coaxial cable material",
+        "zh": "75 Ω 同轴电缆材料"
+      }
+    },
+    {
       "brand": "Avient",
       "identifier": "5549 LM",
       "aliases": [
@@ -187,6 +246,63 @@
       "description": {
         "en": "Coaxial cable material",
         "zh": "同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1855A 0061000",
+      "aliases": [
+        "1855A 006N1000",
+        "1855A 006Z1000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1829A",
+      "aliases": [],
+      "description": {
+        "en": "RG6 coaxial cable material",
+        "zh": "RG6 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1523R",
+      "aliases": [],
+      "description": {
+        "en": "RG11 coaxial cable material",
+        "zh": "RG11 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "82108",
+      "aliases": [],
+      "description": {
+        "en": "RG59 coaxial cable material",
+        "zh": "RG59 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "3092F",
+      "aliases": [],
+      "description": {
+        "en": "ControlNet coaxial cable material",
+        "zh": "ControlNet 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "179DT",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm coaxial cable material",
+        "zh": "75 Ω 同轴电缆材料"
       }
     },
     {
@@ -210,12 +326,124 @@
       }
     },
     {
+      "brand": "Belden",
+      "identifier": "1855A 0011000",
+      "aliases": [
+        "1855A 001N1000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "9116R",
+      "aliases": [],
+      "description": {
+        "en": "RG6 coaxial cable material",
+        "zh": "RG6 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1523AP",
+      "aliases": [],
+      "description": {
+        "en": "RG11 coaxial cable material",
+        "zh": "RG11 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "9104",
+      "aliases": [],
+      "description": {
+        "en": "RG59 coaxial cable material",
+        "zh": "RG59 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "3092T",
+      "aliases": [],
+      "description": {
+        "en": "ControlNet coaxial cable material",
+        "zh": "ControlNet 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1505F",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm coaxial cable material",
+        "zh": "75 Ω 同轴电缆材料"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "2170000",
       "aliases": [],
       "description": {
         "en": "Coaxial cable material",
         "zh": "同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1855A 0081000",
+      "aliases": [
+        "1855A 008N1000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1829R",
+      "aliases": [],
+      "description": {
+        "en": "RG6 coaxial cable material",
+        "zh": "RG6 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1525A",
+      "aliases": [],
+      "description": {
+        "en": "RG11 coaxial cable material",
+        "zh": "RG11 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "9104P",
+      "aliases": [],
+      "description": {
+        "en": "RG59 coaxial cable material",
+        "zh": "RG59 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "3093A",
+      "aliases": [],
+      "description": {
+        "en": "ControlNet coaxial cable material",
+        "zh": "ControlNet 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1694F",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm coaxial cable material",
+        "zh": "75 Ω 同轴电缆材料"
       }
     },
     {
@@ -228,12 +456,126 @@
       }
     },
     {
+      "brand": "Belden",
+      "identifier": "1855A N3U1000",
+      "aliases": [
+        "1855A N3UN1000",
+        "1855A N3UZ1000",
+        "1855A N3U5000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "9116P",
+      "aliases": [],
+      "description": {
+        "en": "RG6 coaxial cable material",
+        "zh": "RG6 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1524AM",
+      "aliases": [],
+      "description": {
+        "en": "RG11 coaxial cable material",
+        "zh": "RG11 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "9110",
+      "aliases": [],
+      "description": {
+        "en": "RG59 coaxial cable material",
+        "zh": "RG59 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "123092A",
+      "aliases": [],
+      "description": {
+        "en": "ControlNet coaxial cable material",
+        "zh": "ControlNet 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1694RW",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm coaxial cable material",
+        "zh": "75 Ω 同轴电缆材料"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "2170002",
       "aliases": [],
       "description": {
         "en": "Coaxial cable material",
         "zh": "同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1855A 0031000",
+      "aliases": [
+        "1855A 003N1000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1829P",
+      "aliases": [],
+      "description": {
+        "en": "RG6 coaxial cable material",
+        "zh": "RG6 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1617A",
+      "aliases": [],
+      "description": {
+        "en": "RG11 coaxial cable material",
+        "zh": "RG11 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1151A",
+      "aliases": [],
+      "description": {
+        "en": "RG59 coaxial cable material",
+        "zh": "RG59 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "133092A",
+      "aliases": [],
+      "description": {
+        "en": "ControlNet coaxial cable material",
+        "zh": "ControlNet 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "7731RW",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm coaxial cable material",
+        "zh": "75 Ω 同轴电缆材料"
       }
     },
     {
@@ -246,12 +588,118 @@
       }
     },
     {
+      "brand": "Belden",
+      "identifier": "1855A 0021000",
+      "aliases": [
+        "1855A 002N1000",
+        "1855A 002Z1000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "9066",
+      "aliases": [],
+      "description": {
+        "en": "RG6 coaxial cable material",
+        "zh": "RG6 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1618A",
+      "aliases": [],
+      "description": {
+        "en": "RG11 coaxial cable material",
+        "zh": "RG11 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1186A",
+      "aliases": [],
+      "description": {
+        "en": "RG59 coaxial cable material",
+        "zh": "RG59 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "383092A",
+      "aliases": [],
+      "description": {
+        "en": "ControlNet coaxial cable material",
+        "zh": "ControlNet 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1694WB",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm coaxial cable material",
+        "zh": "75 Ω 同轴电缆材料"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "2170005",
       "aliases": [],
       "description": {
         "en": "Coaxial cable material",
         "zh": "同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1855A 0071000",
+      "aliases": [
+        "1855A 007N1000",
+        "1855A 007Z1000",
+        "1855A 0075000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1829B",
+      "aliases": [],
+      "description": {
+        "en": "RG6 coaxial cable material",
+        "zh": "RG6 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1619AM",
+      "aliases": [],
+      "description": {
+        "en": "RG11 coaxial cable material",
+        "zh": "RG11 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "3132A",
+      "aliases": [],
+      "description": {
+        "en": "ControlNet coaxial cable material",
+        "zh": "ControlNet 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "7731WB",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm coaxial cable material",
+        "zh": "75 Ω 同轴电缆材料"
       }
     },
     {
@@ -264,12 +712,107 @@
       }
     },
     {
+      "brand": "Belden",
+      "identifier": "1855A 0091000",
+      "aliases": [
+        "1855A 009N1000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "9117M",
+      "aliases": [],
+      "description": {
+        "en": "RG6 coaxial cable material",
+        "zh": "RG6 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "9064",
+      "aliases": [],
+      "description": {
+        "en": "RG11 coaxial cable material",
+        "zh": "RG11 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "3094A",
+      "aliases": [],
+      "description": {
+        "en": "ControlNet coaxial cable material",
+        "zh": "ControlNet 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1371R",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm coaxial cable material",
+        "zh": "75 Ω 同轴电缆材料"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "2170007",
       "aliases": [],
       "description": {
         "en": "Coaxial cable material",
         "zh": "同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1855A 0041000",
+      "aliases": [
+        "1855A 004N1000",
+        "1855A 0045000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1839A",
+      "aliases": [],
+      "description": {
+        "en": "RG6 coaxial cable material",
+        "zh": "RG6 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "9764",
+      "aliases": [],
+      "description": {
+        "en": "RG11 coaxial cable material",
+        "zh": "RG11 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "123094A",
+      "aliases": [],
+      "description": {
+        "en": "ControlNet coaxial cable material",
+        "zh": "ControlNet 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1370R",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm coaxial cable material",
+        "zh": "75 Ω 同轴电缆材料"
       }
     },
     {
@@ -282,12 +825,115 @@
       }
     },
     {
+      "brand": "Belden",
+      "identifier": "1694A.00305",
+      "aliases": [
+        "1694A.K0305",
+        "1694A 010500",
+        "1694A 010Z500",
+        "1694A.00500",
+        "1694A 0101000",
+        "1694A 010N1000",
+        "1694A 010Z1000",
+        "1694A.001000",
+        "1694A.001372",
+        "1694A 0105000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "9077",
+      "aliases": [],
+      "description": {
+        "en": "RG6 coaxial cable material",
+        "zh": "RG6 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "9065M",
+      "aliases": [],
+      "description": {
+        "en": "RG11 coaxial cable material",
+        "zh": "RG11 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "133094A",
+      "aliases": [],
+      "description": {
+        "en": "ControlNet coaxial cable material",
+        "zh": "ControlNet 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1370P",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm coaxial cable material",
+        "zh": "75 Ω 同轴电缆材料"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "2170009",
       "aliases": [],
       "description": {
         "en": "Coaxial cable material",
         "zh": "同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1694A.05305",
+      "aliases": [
+        "1694A.051372"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1841A",
+      "aliases": [],
+      "description": {
+        "en": "RG6 coaxial cable material",
+        "zh": "RG6 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "9011",
+      "aliases": [],
+      "description": {
+        "en": "RG11 coaxial cable material",
+        "zh": "RG11 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "3095A",
+      "aliases": [],
+      "description": {
+        "en": "ControlNet coaxial cable material",
+        "zh": "ControlNet 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1369R",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm coaxial cable material",
+        "zh": "75 Ω 同轴电缆材料"
       }
     },
     {
@@ -300,12 +946,68 @@
       }
     },
     {
+      "brand": "Belden",
+      "identifier": "1694A 0061000",
+      "aliases": [
+        "1694A 00610000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1530A",
+      "aliases": [],
+      "description": {
+        "en": "RG6 coaxial cable material",
+        "zh": "RG6 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1153A",
+      "aliases": [],
+      "description": {
+        "en": "RG11 coaxial cable material",
+        "zh": "RG11 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1369P",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm coaxial cable material",
+        "zh": "75 Ω 同轴电缆材料"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "2170011",
       "aliases": [],
       "description": {
         "en": "Coaxial cable material",
         "zh": "同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1694A 0011000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1530AP",
+      "aliases": [],
+      "description": {
+        "en": "RG6 coaxial cable material",
+        "zh": "RG6 同轴电缆材料"
       }
     },
     {
@@ -318,12 +1020,48 @@
       }
     },
     {
+      "brand": "Belden",
+      "identifier": "1694A.09500",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1532A",
+      "aliases": [],
+      "description": {
+        "en": "RG6 coaxial cable material",
+        "zh": "RG6 同轴电缆材料"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "2170016",
       "aliases": [],
       "description": {
         "en": "Coaxial cable material",
         "zh": "同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1694A 0081000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1531AM",
+      "aliases": [],
+      "description": {
+        "en": "RG6 coaxial cable material",
+        "zh": "RG6 同轴电缆材料"
       }
     },
     {
@@ -336,12 +1074,55 @@
       }
     },
     {
+      "brand": "Belden",
+      "identifier": "1694A.08305",
+      "aliases": [
+        "1694A.081372"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "9118",
+      "aliases": [],
+      "description": {
+        "en": "RG6 coaxial cable material",
+        "zh": "RG6 同轴电缆材料"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "3800720",
       "aliases": [],
       "description": {
         "en": "Coaxial cable material",
         "zh": "同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1694A.06152",
+      "aliases": [
+        "1694A.06305",
+        "1694A.061219",
+        "1694A.061372",
+        "1694A.064000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1837A",
+      "aliases": [],
+      "description": {
+        "en": "RG6 coaxial cable material",
+        "zh": "RG6 同轴电缆材料"
       }
     },
     {
@@ -354,12 +1135,53 @@
       }
     },
     {
+      "brand": "Belden",
+      "identifier": "1694A N3U1000",
+      "aliases": [
+        "1694A N3UN1000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "9119M",
+      "aliases": [],
+      "description": {
+        "en": "RG6 coaxial cable material",
+        "zh": "RG6 同轴电缆材料"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "3801313",
       "aliases": [],
       "description": {
         "en": "Coaxial cable material",
         "zh": "同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1694A.03305",
+      "aliases": [
+        "1694A 0031000",
+        "1694A.031372"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1189A",
+      "aliases": [],
+      "description": {
+        "en": "RG6 coaxial cable material",
+        "zh": "RG6 同轴电缆材料"
       }
     },
     {
@@ -372,6 +1194,27 @@
       }
     },
     {
+      "brand": "Belden",
+      "identifier": "1694A.01305",
+      "aliases": [
+        "1694A 0021000",
+        "1694A.011372"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "7916A",
+      "aliases": [],
+      "description": {
+        "en": "RG6 coaxial cable material",
+        "zh": "RG6 同轴电缆材料"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "3803951",
       "aliases": [],
@@ -381,12 +1224,1230 @@
       }
     },
     {
+      "brand": "Belden",
+      "identifier": "1694A.02305",
+      "aliases": [
+        "1694A 0071000",
+        "1694A 007N1000",
+        "1694A 007Z1000",
+        "1694A.021000",
+        "1694A.021372",
+        "1694A 0075000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1322R",
+      "aliases": [],
+      "description": {
+        "en": "RG6 coaxial cable material",
+        "zh": "RG6 同轴电缆材料"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "3804606",
       "aliases": [],
       "description": {
         "en": "Coaxial cable material",
         "zh": "同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1694A.07305",
+      "aliases": [
+        "1694A 0091000",
+        "1694A 009N1000",
+        "1694A 009Z1000",
+        "1694A.071372"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1189AP",
+      "aliases": [],
+      "description": {
+        "en": "RG6 coaxial cable material",
+        "zh": "RG6 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1694A.04305",
+      "aliases": [
+        "1694A 0041000",
+        "1694A 004N1000",
+        "1694A.041372"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1190A",
+      "aliases": [],
+      "description": {
+        "en": "RG6 coaxial cable material",
+        "zh": "RG6 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1505A.00100",
+      "aliases": [
+        "1505A.00152",
+        "1505A.00305",
+        "1505A 010500",
+        "1505A 0101000",
+        "1505A 010N1000",
+        "1505A.001525",
+        "1505A 0105000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1191AM",
+      "aliases": [],
+      "description": {
+        "en": "RG6 coaxial cable material",
+        "zh": "RG6 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1505A.05152",
+      "aliases": [
+        "1505A.05305",
+        "1505A.051525"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "9058",
+      "aliases": [],
+      "description": {
+        "en": "RG6 coaxial cable material",
+        "zh": "RG6 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1505A 006500",
+      "aliases": [
+        "1505A 0061000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "9062",
+      "aliases": [],
+      "description": {
+        "en": "RG6 coaxial cable material",
+        "zh": "RG6 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1505A 0011000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "9059M",
+      "aliases": [],
+      "description": {
+        "en": "RG6 coaxial cable material",
+        "zh": "RG6 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1505A 0081000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "7915A",
+      "aliases": [],
+      "description": {
+        "en": "RG6 coaxial cable material",
+        "zh": "RG6 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1505A.08305",
+      "aliases": [
+        "1505A.081525"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "89120",
+      "aliases": [],
+      "description": {
+        "en": "RG6 coaxial cable material",
+        "zh": "RG6 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1505A.06305",
+      "aliases": [
+        "1505A.061525"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "82120",
+      "aliases": [],
+      "description": {
+        "en": "RG6 coaxial cable material",
+        "zh": "RG6 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1505A N3U1000",
+      "aliases": [
+        "1505A N3UN1000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1152A",
+      "aliases": [],
+      "description": {
+        "en": "RG6 coaxial cable material",
+        "zh": "RG6 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1505A.03305",
+      "aliases": [
+        "1505A 0031000",
+        "1505A 003N1000",
+        "1505A.031525"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1505A.02152",
+      "aliases": [
+        "1505A.02305",
+        "1505A 002500",
+        "1505A 0021000",
+        "1505A 002N1000",
+        "1505A.021525"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1505A.01152",
+      "aliases": [
+        "1505A.01305",
+        "1505A 0071000",
+        "1505A 007N1000",
+        "1505A.011525",
+        "1505A 0075000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1505A.07305",
+      "aliases": [
+        "1505A 0091000",
+        "1505A.071525"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1505A.04305",
+      "aliases": [
+        "1505A 0041000",
+        "1505A 004N1000",
+        "1505A.041525"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4694R 0101000",
+      "aliases": [
+        "4694R 0105000",
+        "4694R 01010000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4694R 0061000",
+      "aliases": [
+        "4694R 0065000",
+        "4694R 00610000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4694R N3U1000",
+      "aliases": [
+        "4694R N3U5000",
+        "4694R N3U10000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4694R 0031000",
+      "aliases": [
+        "4694R 0035000",
+        "4694R 00310000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4694R 0071000",
+      "aliases": [
+        "4694R 0075000",
+        "4694R 00710000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4694R 0021000",
+      "aliases": [
+        "4694R 0025000",
+        "4694R 00210000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4694R 0091000",
+      "aliases": [
+        "4694R 0095000",
+        "4694R 00910000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4694R 0041000",
+      "aliases": [
+        "4694R 0045000",
+        "4694R 00410000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4855R 0101000",
+      "aliases": [
+        "4855R 0105000",
+        "4855R 01010000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4855R 0061000",
+      "aliases": [
+        "4855R 0065000",
+        "4855R 00610000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4855R N3U5000",
+      "aliases": [
+        "4855R N3U10000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4855R N3U1000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4855R 0031000",
+      "aliases": [
+        "4855R 0035000",
+        "4855R 00310000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4855R 0071000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4855R 0021000",
+      "aliases": [
+        "4855R 0025000",
+        "4855R 00210000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4855R 0075000",
+      "aliases": [
+        "4855R 00710000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4855R 0095000",
+      "aliases": [
+        "4855R 00910000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4855R 0041000",
+      "aliases": [
+        "4855R 0045000",
+        "4855R 00410000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4505R 0101000",
+      "aliases": [
+        "4505R 0105000",
+        "4505R 01010000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4505R 0061000",
+      "aliases": [
+        "4505R 0065000",
+        "4505R 00610000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4505R N3U1000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4505R 0031000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4505R 0071000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4505R 0021000",
+      "aliases": [
+        "4505R 0025000",
+        "4505R 00210000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4505R 0075000",
+      "aliases": [
+        "4505R 00710000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4505R 0091000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4794R 0101000",
+      "aliases": [
+        "4794R 0102500"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4794R 0061000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4794R N3U1000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4794R 0031000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4794R 0071000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4794R 0021000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4794R 0091000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4794R 0041000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1695A 010500",
+      "aliases": [
+        "1695A 010Z500",
+        "1695A 0101000",
+        "1695A 010Z1000",
+        "1695A 0105000",
+        "1695A 01010000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1695A 006500",
+      "aliases": [
+        "1695A 0061000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1695A 0011000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1695A 0081000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1695A N3U1000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1695A 877500",
+      "aliases": [
+        "1695A 8771000",
+        "1695A 877Z1000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1695A 0031000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1695A 0021000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1695A 0071000",
+      "aliases": [
+        "1695A 007Z1000",
+        "1695A 0075000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1695A 0041000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1506A 010500",
+      "aliases": [
+        "1506A 0101000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1506A 0061000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1506A 0011000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1506A 0081000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1506A N3U1000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1506A 877500",
+      "aliases": [
+        "1506A 8771000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1506A 0031000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1506A 0021000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1506A 0071000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1506A 0041000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "7731A.00152",
+      "aliases": [
+        "7731A.00305",
+        "7731A 0101000",
+        "7731A.001220",
+        "7731A.002000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "7731A.03152",
+      "aliases": [
+        "7731A.03305",
+        "7731A.031220"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "7731A 0011000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "7731A 0081000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "7731A.08305",
+      "aliases": [
+        "7731A.081220"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "7731A.02305",
+      "aliases": [
+        "7731A.021220"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "7731A.06305",
+      "aliases": [
+        "7731A.061220"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "7731A.05305",
+      "aliases": [
+        "7731A.051220"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "7731A.01152",
+      "aliases": [
+        "7731A.01305",
+        "7731A.011220"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "7731A.07305",
+      "aliases": [
+        "7731A.071220"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "7731A.04305",
+      "aliases": [
+        "7731A.041220"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1794A 0101000",
+      "aliases": [
+        "1794A 010N1000",
+        "1794A 0102500"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1794A 0061000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1794A 0011000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1794A N3U1000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1794A 0071000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1794A 0041000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4731R 0101000",
+      "aliases": [
+        "4731R 0104000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4731R 0061000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4731R N3U1000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4731R 0031000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4731R 0071000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "4731R 0021000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1855P 0101000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1855P 0061000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1855P 0081000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1855P N3U1000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1855P 8771000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1855P 0031000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1855P 0021000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1855P 0071000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1855P 0041000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "7732A 010500",
+      "aliases": [
+        "7732A 0101000",
+        "7732A 0103000"
+      ],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "7732A 0061000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "7732A 8771000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "7732A 0041000",
+      "aliases": [],
+      "description": {
+        "en": "75-ohm SDI coaxial cable material",
+        "zh": "75 Ω SDI 同轴电缆材料"
       }
     }
   ],
@@ -416,10 +2477,15 @@
       "en": "Wire, bulk cable and polymer grades are materials. They are not counted as terminated cable assemblies.",
       "zh": "电线、卷装电缆与胶料牌号属于材料，不计为已端接电缆组件。"
     },
-    "audit_id": "wire-material-batches/wire-cable-05-materials-strict-ready.json",
+    "audit_id": "next-wave/third-wave/fifth-wave/wire-materials/wire-cable-05-belden-lapp-coax-independent-audit.json",
     "verified_counts": {
       "products": 0,
-      "materials": 26
+      "materials": 230
+    },
+    "target_status": "material_target_met",
+    "target_counts": {
+      "products": 0,
+      "materials": 200
     }
   }
 }
