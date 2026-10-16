@@ -186,6 +186,501 @@
       }
     },
     {
+      "brand": "SAB Bröckskes",
+      "identifier": "66242251",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "SAB Bröckskes",
+      "identifier": "06502241",
+      "aliases": [
+        "0650-2241"
+      ],
+      "description": {
+        "en": "DeviceNet CAN-based bus bulk cable",
+        "zh": "基于CAN的DeviceNet总线电缆线材"
+      }
+    },
+    {
+      "brand": "SAB Bröckskes",
+      "identifier": "L63359002",
+      "aliases": [],
+      "description": {
+        "en": "Hybrid CAN bus and power bulk cable",
+        "zh": "CAN总线与电源混合电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "81286",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "LÜTZE",
+      "identifier": "104386",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "LÜTZE",
+      "identifier": "104288",
+      "aliases": [],
+      "description": {
+        "en": "DeviceNet CAN-based bus bulk cable",
+        "zh": "基于CAN的DeviceNet总线电缆线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF888.021",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170385",
+      "aliases": [],
+      "description": {
+        "en": "Vehicle CAN bus bulk cable",
+        "zh": "车辆CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170295",
+      "aliases": [],
+      "description": {
+        "en": "CAN-based SafetyBUS bulk cable",
+        "zh": "基于CAN的SafetyBUS电缆线材"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "3105A",
+      "aliases": [
+        "3105A 01010000",
+        "3105A.00152",
+        "3105A.00305",
+        "3105A.K0305",
+        "3105A 010500",
+        "3105A.00610",
+        "3105A 0101000",
+        "3105A.001000",
+        "3105A.001525",
+        "3105A.003050",
+        "3105A 0105000"
+      ],
+      "description": {
+        "en": "CANopen bus bulk cable",
+        "zh": "CANopen总线电缆线材"
+      }
+    },
+    {
+      "brand": "LEONI",
+      "identifier": "79116800A",
+      "aliases": [
+        "LEONI Dacar 520"
+      ],
+      "description": {
+        "en": "Automotive CAN bus bulk cable",
+        "zh": "汽车CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "BizLink",
+      "identifier": "L45467-F19-C16",
+      "aliases": [],
+      "description": {
+        "en": "Marine CAN bus bulk cable",
+        "zh": "船用CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "Nexans",
+      "identifier": "10545822",
+      "aliases": [
+        "1008014"
+      ],
+      "description": {
+        "en": "CAN-compatible paired bulk cable",
+        "zh": "适用于CAN的成对电缆线材"
+      }
+    },
+    {
+      "brand": "NEK Kabel",
+      "identifier": "3020010",
+      "aliases": [],
+      "description": {
+        "en": "Hybrid CAN bus and power bulk cable",
+        "zh": "CAN总线与电源混合电缆线材"
+      }
+    },
+    {
+      "brand": "NEK Kabel",
+      "identifier": "1087383",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable with MUD-resistant jacket",
+        "zh": "耐泥浆护套CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "NEK Kabel",
+      "identifier": "1087386",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable with SHF2 jacket",
+        "zh": "SHF2护套CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "NEK Kabel",
+      "identifier": "1091046",
+      "aliases": [],
+      "description": {
+        "en": "Purple-jacket CAN bus bulk cable",
+        "zh": "紫色护套CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "NEK Kabel",
+      "identifier": "1091090",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable with SHF1 jacket",
+        "zh": "SHF1护套CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1529344",
+      "aliases": [
+        "SAC-5P-M12FS CAN TR"
+      ],
+      "description": {
+        "en": "CANopen M12 A-coded termination resistor",
+        "zh": "CANopen M12 A编码终端电阻"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1401999",
+      "aliases": [
+        "SAC-5P-M12MSB CAN TR"
+      ],
+      "description": {
+        "en": "CANopen M12 B-coded termination resistor",
+        "zh": "CANopen M12 B编码终端电阻"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1564545",
+      "aliases": [
+        "SAC-5P-M12FS CAN TR 2X120 OHM"
+      ],
+      "description": {
+        "en": "CANopen M12 dual-resistor terminator",
+        "zh": "CANopen M12双电阻终端件"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1507816",
+      "aliases": [
+        "SAC-5P-M12MS CAN TR"
+      ],
+      "description": {
+        "en": "CANopen M12 male termination resistor",
+        "zh": "CANopen M12公端终端电阻"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "U2251-1",
+      "aliases": [
+        "RSE 57-TR2"
+      ],
+      "description": {
+        "en": "CANopen M12 male termination resistor",
+        "zh": "CANopen M12公端终端电阻"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "U2251-5",
+      "aliases": [
+        "RKE 57-TR2"
+      ],
+      "description": {
+        "en": "CANopen M12 female termination resistor",
+        "zh": "CANopen M12母端终端电阻"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "U0102-1",
+      "aliases": [
+        "RKM 57-TR2"
+      ],
+      "description": {
+        "en": "CANopen 7/8-inch female termination resistor",
+        "zh": "CANopen 7/8英寸母端终端电阻"
+      }
+    },
+    {
+      "brand": "Turck",
+      "identifier": "U0102",
+      "aliases": [
+        "RSM 57-TR2"
+      ],
+      "description": {
+        "en": "CANopen 7/8-inch male termination resistor",
+        "zh": "CANopen 7/8英寸公端终端电阻"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2902322",
+      "aliases": [
+        "SUBCON-PLUS-CAN/90/PG/M12"
+      ],
+      "description": {
+        "en": "CANopen D-sub/M12 connector with programming port",
+        "zh": "带编程口的CANopen D-sub/M12连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2744694",
+      "aliases": [
+        "SUBCON-PLUS-CAN"
+      ],
+      "description": {
+        "en": "CANopen field-wire D-sub connector",
+        "zh": "CANopen现场接线D-sub连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2902323",
+      "aliases": [
+        "SUBCON-PLUS-CAN/90/M12"
+      ],
+      "description": {
+        "en": "CANopen D-sub/M12 bus connector",
+        "zh": "CANopen D-sub/M12总线连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1424670",
+      "aliases": [
+        "SACC-M12MS-5PL SH DN"
+      ],
+      "description": {
+        "en": "CANopen shielded M12 male field-wire connector",
+        "zh": "CANopen屏蔽M12公端现场接线连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2708119",
+      "aliases": [
+        "SUBCON-PLUS-CAN/PG"
+      ],
+      "description": {
+        "en": "CANopen D-sub connector with programming port",
+        "zh": "带编程口的CANopen D-sub连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1507793",
+      "aliases": [
+        "SAC-M12T/2XM12 CAN"
+      ],
+      "description": {
+        "en": "CANopen M12 T-distributor",
+        "zh": "CANopen M12 T型分支件"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1012966",
+      "aliases": [
+        "SACC-M12MS-5PL M DN"
+      ],
+      "description": {
+        "en": "CANopen M12 male field-wire connector",
+        "zh": "CANopen M12公端现场接线连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1424673",
+      "aliases": [
+        "SACC-M12FR-5PL SH DN"
+      ],
+      "description": {
+        "en": "CANopen angled M12 female field-wire connector",
+        "zh": "CANopen弯式M12母端现场接线连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2306566",
+      "aliases": [
+        "SUBCON-PLUS-CAN/AX"
+      ],
+      "description": {
+        "en": "CANopen axial D-sub field-wire connector",
+        "zh": "CANopen轴向D-sub现场接线连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2708999",
+      "aliases": [
+        "SUBCON-PLUS-CAN/SC2"
+      ],
+      "description": {
+        "en": "CANopen dual-terminal-row D-sub connector",
+        "zh": "CANopen双排端子D-sub连接器"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1424712",
+      "aliases": [
+        "SAC-5PT-F/F-M VP"
+      ],
+      "description": {
+        "en": "CANopen unshielded M12 T-distributor",
+        "zh": "CANopen非屏蔽M12 T型分支件"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "1256941",
+      "aliases": [
+        "SAC-5PT-F/F-M VP SH"
+      ],
+      "description": {
+        "en": "CANopen shielded M12 T-distributor",
+        "zh": "CANopen屏蔽M12 T型分支件"
+      }
+    },
+    {
+      "brand": "Weidmüller",
+      "identifier": "1550600000",
+      "aliases": [
+        "CAN SUB-D SK35 TERM"
+      ],
+      "description": {
+        "en": "CAN field-wire D-sub connector with terminator",
+        "zh": "带终端电阻的CAN现场接线D-sub连接器"
+      }
+    },
+    {
+      "brand": "Weidmüller",
+      "identifier": "1555290000",
+      "aliases": [
+        "CAN SUB-D M12 180 TERM"
+      ],
+      "description": {
+        "en": "CAN D-sub/M12 axial bus connector",
+        "zh": "CAN D-sub/M12轴向总线连接器"
+      }
+    },
+    {
+      "brand": "Weidmüller",
+      "identifier": "1555270000",
+      "aliases": [
+        "CAN SUB-D M12 TERM"
+      ],
+      "description": {
+        "en": "CAN D-sub/M12 angled bus connector",
+        "zh": "CAN D-sub/M12弯式总线连接器"
+      }
+    },
+    {
+      "brand": "Weidmüller",
+      "identifier": "1555280000",
+      "aliases": [
+        "CAN SUB-D M12 TERM PS"
+      ],
+      "description": {
+        "en": "CAN D-sub/M12 connector with programming port",
+        "zh": "带编程口的CAN D-sub/M12连接器"
+      }
+    },
+    {
+      "brand": "Weidmüller",
+      "identifier": "1555300000",
+      "aliases": [
+        "CAN SUB-D SK"
+      ],
+      "description": {
+        "en": "CAN field-wire D-sub connector",
+        "zh": "CAN现场接线D-sub连接器"
+      }
+    },
+    {
+      "brand": "Weidmüller",
+      "identifier": "1550590000",
+      "aliases": [
+        "CAN SUB-D SK TERM PS"
+      ],
+      "description": {
+        "en": "CAN field-wire D-sub connector with programming port",
+        "zh": "带编程口的CAN现场接线D-sub连接器"
+      }
+    },
+    {
+      "brand": "Weidmüller",
+      "identifier": "1550610000",
+      "aliases": [
+        "CAN SUB-D SK35 TERM PS"
+      ],
+      "description": {
+        "en": "CAN angled D-sub connector with programming port",
+        "zh": "带编程口的CAN弯式D-sub连接器"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "7897A",
+      "aliases": [],
+      "description": {
+        "en": "DeviceNet bus cable material",
+        "zh": "DeviceNet总线电缆线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFBUS.030",
+      "aliases": [],
+      "description": {
+        "en": "DeviceNet bus cable material",
+        "zh": "DeviceNet总线电缆线材"
+      }
+    },
+    {
       "brand": "Turck",
       "identifier": "RF52323",
       "aliases": [],
@@ -222,6 +717,140 @@
       }
     },
     {
+      "brand": "SAB Bröckskes",
+      "identifier": "66242341",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "SAB Bröckskes",
+      "identifier": "06502781",
+      "aliases": [
+        "0650-2781"
+      ],
+      "description": {
+        "en": "DeviceNet CAN-based bus bulk cable",
+        "zh": "基于CAN的DeviceNet总线电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "803344",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "LÜTZE",
+      "identifier": "104387",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "LÜTZE",
+      "identifier": "104282",
+      "aliases": [],
+      "description": {
+        "en": "DeviceNet CAN-based bus bulk cable",
+        "zh": "基于CAN的DeviceNet总线电缆线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CF898.021",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170386",
+      "aliases": [],
+      "description": {
+        "en": "Vehicle CAN bus bulk cable",
+        "zh": "车辆CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170885",
+      "aliases": [],
+      "description": {
+        "en": "CAN-based SafetyBUS bulk cable",
+        "zh": "基于CAN的SafetyBUS电缆线材"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "3106A",
+      "aliases": [],
+      "description": {
+        "en": "CANopen bus bulk cable",
+        "zh": "CANopen总线电缆线材"
+      }
+    },
+    {
+      "brand": "LEONI",
+      "identifier": "76731000A",
+      "aliases": [
+        "LEONI Dacar 560"
+      ],
+      "description": {
+        "en": "Automotive CAN bus bulk cable",
+        "zh": "汽车CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "Phoenix Contact",
+      "identifier": "2761871",
+      "aliases": [
+        "SUBCON-PLUS F3"
+      ],
+      "description": {
+        "en": "CANopen field-wire D-sub connector",
+        "zh": "CANopen现场接线D-sub连接器"
+      }
+    },
+    {
+      "brand": "Weidmüller",
+      "identifier": "1550580000",
+      "aliases": [
+        "CAN SUB-D SK TERM"
+      ],
+      "description": {
+        "en": "CAN field-wire D-sub connector with terminator",
+        "zh": "带终端电阻的CAN现场接线D-sub连接器"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "7896A",
+      "aliases": [],
+      "description": {
+        "en": "DeviceNet bus cable material",
+        "zh": "DeviceNet总线电缆线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFBUS.031",
+      "aliases": [],
+      "description": {
+        "en": "DeviceNet bus cable material",
+        "zh": "DeviceNet总线电缆线材"
+      }
+    },
+    {
       "brand": "igus",
       "identifier": "CFBUS.022",
       "aliases": [],
@@ -246,6 +875,100 @@
       "description": {
         "en": "DeviceNet fieldbus cable",
         "zh": "DeviceNet 现场总线电缆"
+      }
+    },
+    {
+      "brand": "SAB Bröckskes",
+      "identifier": "66244501",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "SAB Bröckskes",
+      "identifier": "06572241",
+      "aliases": [
+        "0657-2241"
+      ],
+      "description": {
+        "en": "DeviceNet CAN-based bus bulk cable",
+        "zh": "基于CAN的DeviceNet总线电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "800571",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "LÜTZE",
+      "identifier": "104388",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "LÜTZE",
+      "identifier": "104279",
+      "aliases": [],
+      "description": {
+        "en": "DeviceNet CAN-based bus bulk cable",
+        "zh": "基于CAN的DeviceNet总线电缆线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFBUS.PUR.020",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170387",
+      "aliases": [],
+      "description": {
+        "en": "Vehicle CAN bus bulk cable",
+        "zh": "车辆CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "3107A",
+      "aliases": [],
+      "description": {
+        "en": "CANopen bus bulk cable",
+        "zh": "CANopen总线电缆线材"
+      }
+    },
+    {
+      "brand": "LEONI",
+      "identifier": "76731010A",
+      "aliases": [
+        "LEONI Dacar 562"
+      ],
+      "description": {
+        "en": "Automotive CAN bus bulk cable",
+        "zh": "汽车CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "7900A",
+      "aliases": [],
+      "description": {
+        "en": "DeviceNet bus cable material",
+        "zh": "DeviceNet总线电缆线材"
       }
     },
     {
@@ -276,6 +999,107 @@
       }
     },
     {
+      "brand": "SAB Bröckskes",
+      "identifier": "06272251",
+      "aliases": [
+        "0627-2251"
+      ],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "SAB Bröckskes",
+      "identifier": "06572781",
+      "aliases": [
+        "0657-2781"
+      ],
+      "description": {
+        "en": "DeviceNet CAN-based bus bulk cable",
+        "zh": "基于CAN的DeviceNet总线电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "803722",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "LÜTZE",
+      "identifier": "104389",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "LÜTZE",
+      "identifier": "104289",
+      "aliases": [],
+      "description": {
+        "en": "DeviceNet CAN-based bus bulk cable",
+        "zh": "基于CAN的DeviceNet总线电缆线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFBUS.PUR.021",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "2170388",
+      "aliases": [],
+      "description": {
+        "en": "Vehicle CAN bus bulk cable",
+        "zh": "车辆CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "123107A",
+      "aliases": [],
+      "description": {
+        "en": "CANopen bus bulk cable",
+        "zh": "CANopen总线电缆线材"
+      }
+    },
+    {
+      "brand": "LEONI",
+      "identifier": "76981030A",
+      "aliases": [
+        "LEONI Dacar 565"
+      ],
+      "description": {
+        "en": "Automotive CAN bus bulk cable",
+        "zh": "汽车CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "3082A",
+      "aliases": [
+        "3082A T5U1000",
+        "3082A T5U500",
+        "3082A T5U2000",
+        "3082A T5U3000"
+      ],
+      "description": {
+        "en": "DeviceNet bus cable material",
+        "zh": "DeviceNet总线电缆线材"
+      }
+    },
+    {
       "brand": "igus",
       "identifier": "CFBUS.LB.021",
       "aliases": [],
@@ -300,6 +1124,73 @@
       "description": {
         "en": "DeviceNet fieldbus cable",
         "zh": "DeviceNet 现场总线电缆"
+      }
+    },
+    {
+      "brand": "SAB Bröckskes",
+      "identifier": "06272341",
+      "aliases": [
+        "0627-2341"
+      ],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "SAB Bröckskes",
+      "identifier": "06582241",
+      "aliases": [
+        "0658-2241"
+      ],
+      "description": {
+        "en": "DeviceNet CAN-based bus bulk cable",
+        "zh": "基于CAN的DeviceNet总线电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "801572",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "LÜTZE",
+      "identifier": "104390",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFBUS.PUR.022",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "3108A",
+      "aliases": [],
+      "description": {
+        "en": "CANopen bus bulk cable",
+        "zh": "CANopen总线电缆线材"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "3082F",
+      "aliases": [],
+      "description": {
+        "en": "DeviceNet bus cable material",
+        "zh": "DeviceNet总线电缆线材"
       }
     },
     {
@@ -330,6 +1221,64 @@
       }
     },
     {
+      "brand": "SAB Bröckskes",
+      "identifier": "06272501",
+      "aliases": [
+        "0627-2501"
+      ],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "SAB Bröckskes",
+      "identifier": "06582781",
+      "aliases": [
+        "0658-2781"
+      ],
+      "description": {
+        "en": "DeviceNet CAN-based bus bulk cable",
+        "zh": "基于CAN的DeviceNet总线电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "82509",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "LÜTZE",
+      "identifier": "104391",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "3109A",
+      "aliases": [],
+      "description": {
+        "en": "CANopen bus bulk cable",
+        "zh": "CANopen总线电缆线材"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1345F",
+      "aliases": [],
+      "description": {
+        "en": "DeviceNet bus cable material",
+        "zh": "DeviceNet总线电缆线材"
+      }
+    },
+    {
       "brand": "igus",
       "identifier": "CFBUS.PVC.020",
       "aliases": [],
@@ -354,6 +1303,55 @@
       "description": {
         "en": "DeviceNet fieldbus cable",
         "zh": "DeviceNet 现场总线电缆"
+      }
+    },
+    {
+      "brand": "SAB Bröckskes",
+      "identifier": "06272751",
+      "aliases": [
+        "0627-2751"
+      ],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "SAB Bröckskes",
+      "identifier": "06589007",
+      "aliases": [
+        "0658-9007"
+      ],
+      "description": {
+        "en": "DeviceNet CAN-based bus bulk cable",
+        "zh": "基于CAN的DeviceNet总线电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "81912",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "3105Z",
+      "aliases": [],
+      "description": {
+        "en": "CANopen bus bulk cable",
+        "zh": "CANopen总线电缆线材"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "3083A",
+      "aliases": [],
+      "description": {
+        "en": "DeviceNet bus cable material",
+        "zh": "DeviceNet总线电缆线材"
       }
     },
     {
@@ -384,6 +1382,44 @@
       }
     },
     {
+      "brand": "SAB Bröckskes",
+      "identifier": "06282251",
+      "aliases": [
+        "0628-2251"
+      ],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "802339",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "933105Z",
+      "aliases": [],
+      "description": {
+        "en": "CANopen bus bulk cable",
+        "zh": "CANopen总线电缆线材"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "3084A",
+      "aliases": [],
+      "description": {
+        "en": "DeviceNet bus cable material",
+        "zh": "DeviceNet总线电缆线材"
+      }
+    },
+    {
       "brand": "igus",
       "identifier": "CFBUS.PVC.022",
       "aliases": [],
@@ -402,12 +1438,88 @@
       }
     },
     {
+      "brand": "SAB Bröckskes",
+      "identifier": "06282341",
+      "aliases": [
+        "0628-2341"
+      ],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "81911",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "3107Z",
+      "aliases": [],
+      "description": {
+        "en": "CANopen bus bulk cable",
+        "zh": "CANopen总线电缆线材"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "3084F",
+      "aliases": [],
+      "description": {
+        "en": "DeviceNet bus cable material",
+        "zh": "DeviceNet总线电缆线材"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "2170269",
       "aliases": [],
       "description": {
         "en": "CAN fieldbus cable",
         "zh": "CAN 现场总线电缆"
+      }
+    },
+    {
+      "brand": "SAB Bröckskes",
+      "identifier": "06282501",
+      "aliases": [
+        "0628-2501"
+      ],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "81287",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "3108Z",
+      "aliases": [],
+      "description": {
+        "en": "CANopen bus bulk cable",
+        "zh": "CANopen总线电缆线材"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "1346F",
+      "aliases": [],
+      "description": {
+        "en": "DeviceNet bus cable material",
+        "zh": "DeviceNet总线电缆线材"
       }
     },
     {
@@ -420,12 +1532,88 @@
       }
     },
     {
+      "brand": "SAB Bröckskes",
+      "identifier": "06274251",
+      "aliases": [
+        "0627-4251"
+      ],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "800685",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "3109Z",
+      "aliases": [],
+      "description": {
+        "en": "CANopen bus bulk cable",
+        "zh": "CANopen总线电缆线材"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "3085A",
+      "aliases": [],
+      "description": {
+        "en": "DeviceNet bus cable material",
+        "zh": "DeviceNet总线电缆线材"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "2170266",
       "aliases": [],
       "description": {
         "en": "CAN fieldbus cable",
         "zh": "CAN 现场总线电缆"
+      }
+    },
+    {
+      "brand": "SAB Bröckskes",
+      "identifier": "06274341",
+      "aliases": [
+        "0627-4341"
+      ],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "803383",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "3105T",
+      "aliases": [],
+      "description": {
+        "en": "CANopen bus bulk cable",
+        "zh": "CANopen总线电缆线材"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "7895A",
+      "aliases": [],
+      "description": {
+        "en": "DeviceNet bus cable material",
+        "zh": "DeviceNet总线电缆线材"
       }
     },
     {
@@ -438,12 +1626,88 @@
       }
     },
     {
+      "brand": "SAB Bröckskes",
+      "identifier": "06274501",
+      "aliases": [
+        "0627-4501"
+      ],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "805685",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "773105T",
+      "aliases": [],
+      "description": {
+        "en": "CANopen bus bulk cable",
+        "zh": "CANopen总线电缆线材"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "7896Z",
+      "aliases": [],
+      "description": {
+        "en": "DeviceNet bus cable material",
+        "zh": "DeviceNet总线电缆线材"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "2170263",
       "aliases": [],
       "description": {
         "en": "CAN fieldbus cable",
         "zh": "CAN 现场总线电缆"
+      }
+    },
+    {
+      "brand": "SAB Bröckskes",
+      "identifier": "06274751",
+      "aliases": [
+        "0627-4751"
+      ],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "804269",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "3107T",
+      "aliases": [],
+      "description": {
+        "en": "CANopen bus bulk cable",
+        "zh": "CANopen总线电缆线材"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "7896T",
+      "aliases": [],
+      "description": {
+        "en": "DeviceNet bus cable material",
+        "zh": "DeviceNet总线电缆线材"
       }
     },
     {
@@ -456,12 +1720,236 @@
       }
     },
     {
+      "brand": "SAB Bröckskes",
+      "identifier": "06284251",
+      "aliases": [
+        "0628-4251"
+      ],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "802182",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "773107T",
+      "aliases": [],
+      "description": {
+        "en": "CANopen bus bulk cable",
+        "zh": "CANopen总线电缆线材"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "977896Z",
+      "aliases": [],
+      "description": {
+        "en": "DeviceNet bus cable material",
+        "zh": "DeviceNet总线电缆线材"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "2170260",
       "aliases": [],
       "description": {
         "en": "CAN fieldbus cable",
         "zh": "CAN 现场总线电缆"
+      }
+    },
+    {
+      "brand": "SAB Bröckskes",
+      "identifier": "06284341",
+      "aliases": [
+        "0628-4341"
+      ],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "805696",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "3108T",
+      "aliases": [],
+      "description": {
+        "en": "CANopen bus bulk cable",
+        "zh": "CANopen总线电缆线材"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "777896T",
+      "aliases": [],
+      "description": {
+        "en": "DeviceNet bus cable material",
+        "zh": "DeviceNet总线电缆线材"
+      }
+    },
+    {
+      "brand": "SAB Bröckskes",
+      "identifier": "06284501",
+      "aliases": [
+        "0628-4501"
+      ],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "801982",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "773108T",
+      "aliases": [],
+      "description": {
+        "en": "CANopen bus bulk cable",
+        "zh": "CANopen总线电缆线材"
+      }
+    },
+    {
+      "brand": "SAB Bröckskes",
+      "identifier": "06899005",
+      "aliases": [
+        "0689-9005"
+      ],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "803384",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "3109T",
+      "aliases": [],
+      "description": {
+        "en": "CANopen bus bulk cable",
+        "zh": "CANopen总线电缆线材"
+      }
+    },
+    {
+      "brand": "SAB Bröckskes",
+      "identifier": "06262251",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "801573",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "Belden",
+      "identifier": "773109T",
+      "aliases": [],
+      "description": {
+        "en": "CANopen bus bulk cable",
+        "zh": "CANopen总线电缆线材"
+      }
+    },
+    {
+      "brand": "SAB Bröckskes",
+      "identifier": "06252251",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "804268",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "SAB Bröckskes",
+      "identifier": "56202251",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11027797",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "SAB Bröckskes",
+      "identifier": "66202251",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11027795",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11027796",
+      "aliases": [],
+      "description": {
+        "en": "CAN bus bulk cable",
+        "zh": "CAN总线电缆线材"
       }
     }
   ],
@@ -491,10 +1979,10 @@
       "en": "Wire, bulk cable and polymer grades are materials. They are not counted as terminated cable assemblies.",
       "zh": "电线、卷装电缆与胶料牌号属于材料，不计为已端接电缆组件。"
     },
-    "audit_id": "next-wave/third-wave/fifth-wave/wire-materials/wire-cable-04-can-independent-audit.json",
+    "audit_id": "next-wave/third-wave/ninth-wave/can-materials/root-can-master-source-union-approval.json",
     "verified_counts": {
       "products": 0,
-      "materials": 35
+      "materials": 186
     },
     "target_status": "incomplete",
     "target_counts": {
