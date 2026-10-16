@@ -133,9 +133,9 @@
       }), {threshold: 0.08, rootMargin: '0px 0px -30px'});
       host.querySelectorAll('.ht-head,.ht-story,.ht-inputs,.ht-faq details').forEach(node => observer.observe(node));
     } catch (error) {
-      host.innerHTML = `<p class="ht-error">${isZh() ? '内容暂时无法载入。' : 'Content could not load.'}</p>`;
+      host.innerHTML = `<p class="ht-error">${isZh() ? '内容暂时无法载入。' : 'Content could not load.'}</p>`;return false;;
     }
   }
 
-  render();
+  globalThis.SuperSmileEditorial.mount({host: host, rootClass: 'ht-page', render});
 })();

@@ -48,8 +48,8 @@
       const credits=`<details class="md-credits"><summary>${zh?'图片来源与技术依据':'Photo sources and technical references'}</summary><p>${zh?'图片用于说明接口、结构、工艺、应用或检验概念，不代表超斯迈尔产品实拍、指定 Micro-D 料号或项目认证。':'Images illustrate interfaces, construction, process, applications or inspection. They do not represent Super Smile product photography, specified Micro-D parts or project certification.'}</p><a href="${root}SOURCES.md" target="_blank" rel="noopener">${zh?'查看图片许可与技术来源':'View photo licenses and technical sources'}</a></details>`;
       host.innerHTML=`<div class="md-page">${opening}${nav}${interfaceSection}${build}${mechanics}${signal}${use}${release}${faq}${credits}</div>`;
       if(!matchMedia('(prefers-reduced-motion:reduce)').matches){const o=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('is-visible');o.unobserve(e.target)}}),{threshold:.08,rootMargin:'0px 0px -5%'});host.querySelectorAll('.md-header,.md-story').forEach(n=>o.observe(n));}
-    }catch(e){host.innerHTML=`<p class="md-error">${isZh()?'页面内容暂时无法载入，请刷新重试。':'This page could not load. Please refresh and try again.'}</p>`}
+    }catch(e){host.innerHTML=`<p class="md-error">${isZh()?'页面内容暂时无法载入，请刷新重试。':'This page could not load. Please refresh and try again.'}</p>`;return false;}
   }
   function sectionHeader(n,title,sub){return `<header class="md-header"><span>${n}</span><div><p>${esc(sub)}</p><h2>${esc(title)}</h2></div></header>`}
-  render(); setTimeout(render,1400); setTimeout(render,3200);
+  globalThis.SuperSmileEditorial.mount({host: host, rootClass: 'md-page', render});
 })();

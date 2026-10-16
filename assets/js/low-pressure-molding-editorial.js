@@ -51,7 +51,7 @@
       const intr=`<section class="lpm-section lpm-interface" id="lpm-interface">${head('04',zh?'成型结束后，电气组件才真正开始接受验证':'VALIDATION STARTS AFTER THE MOLD OPENS',zh?'线缆出线、应力释放与组合验证':'Cable Exits, Strain Relief and Assembly Validation')}<div class="lpm-interface-grid">${story(t[6],zh)}${story(t[7],zh)}</div></section>`;
       const release=`<section class="lpm-section lpm-release">${head('05',zh?'用工程输入替代外观猜测':'REPLACE APPEARANCE-BASED ASSUMPTIONS WITH ENGINEERING INPUTS',zh?'报价、打样与放行资料':'Quotation, Sampling and Release Data')}<div class="lpm-release-grid"><div class="lpm-inputs"><ol>${page.inputs.map((item,i)=>`<li><b>${String(i+1).padStart(2,'0')}</b><span>${esc(pick(item,zh))}</span></li>`).join('')}</ol><div class="lpm-release-note"><span class="lpm-label">${zh?'受控放行':'CONTROLLED RELEASE'}</span><p>${esc(pick(data.delivery,zh))}</p></div></div><div class="lpm-faq"><h3>${zh?'低压成型常见问题':'Low-Pressure Molding Questions'}</h3>${page.faq.map(item=>`<details><summary>${esc(pick(item.q,zh))}</summary><p>${esc(pick(item.a,zh))}</p></details>`).join('')}</div></div></section><details class="lpm-credits"><summary>${zh?'图片来源与技术依据':'Image sources and technical references'}</summary><p>${zh?'图片用于解释材料、设备接口与验证概念，不代表我司量产实物、现有设备、既有试验结果或认证。':'Images explain materials, equipment interfaces and validation concepts; they do not represent our production parts, equipment, completed tests or certification.'}</p><a href="${root}SOURCES.md">${zh?'查看来源与适用说明':'View sources and applicability notes'}</a></details>`;
       host.innerHTML=`<div class="lpm-page">${opening}${index}${boundary}${material}${tool}${intr}${release}</div>`;
-    } catch (err) { host.innerHTML=`<p class="lpm-error">${isZh()?'内容暂时无法载入。':'Content could not load.'}</p>`; }
+    } catch (err) { host.innerHTML=`<p class="lpm-error">${isZh()?'内容暂时无法载入。':'Content could not load.'}</p>`;return false;; }
   }
-  render();
+  globalThis.SuperSmileEditorial.mount({host: host, rootClass: 'lpm-page', render});
 })();

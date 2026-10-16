@@ -89,8 +89,8 @@
         "zh": "线对与阻抗方案"
       },
       "copy": {
-        "en": "Review differential-pair construction, impedance and length matching for the actual LVDS implementation.",
-        "zh": "按实际LVDS方案审核差分线对结构、阻抗与等长要求。"
+        "en": "Review differential pairs, impedance and length matching for the intended link. A 90-ohm cable and a 100-ohm cable are distinct configurations.",
+        "zh": "按目标链路审核差分线对、阻抗与等长要求；90Ω与100Ω线缆是不同配置。"
       }
     },
     {
@@ -156,9 +156,1189 @@
         "en": "EQCD high-speed cable assembly for LVDS evaluation",
         "zh": "用于LVDS评估的EQCD高速电缆组件"
       }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150210215",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150210224",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150210233",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150210415",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150210424",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150210433",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150210615",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150210624",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150210633",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150210815",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150210824",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150210833",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150211015",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150211024",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150211033",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150211215",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150211224",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150211233",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150212415",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150212424",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150212433",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150220230",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150220240",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150220250",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150220280",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150220430",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150220440",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150220450",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150220480",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150220630",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150220640",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150220650",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150220680",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150220830",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150220840",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150220850",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150220880",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150221030",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150230241",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150230251",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150230441",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150230451",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150230641",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150230651",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150230841",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150230851",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150231041",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150231051",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150231241",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150231251",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150232441",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150232451",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150260210",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150260220",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150260230",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150260235",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150260240",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150260250",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150260251",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150260260",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150260270",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150260280",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150260410",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150260420",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150260430",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150260435",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150260440",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150260450",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150260451",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150260460",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150260470",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150260480",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150260610",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150260620",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150260630",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150260635",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "150260640",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "159220230",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "159220240",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "159220250",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "159220430",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "159220440",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "159220450",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "159220630",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "159220640",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "159220650",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "159220830",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "159220840",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "159220850",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "159221030",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "159221040",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "159221050",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "159221230",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "159221240",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "159221250",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "159222430",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "159222440",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "159222450",
+      "aliases": [],
+      "description": {
+        "en": "Premo-Flex LVDS FFC jumper",
+        "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
     }
   ],
-  "materials": [],
+  "materials": [
+    {
+      "brand": "Molex",
+      "identifier": "2004850010",
+      "aliases": [],
+      "description": {
+        "en": "FFC board connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2004850020",
+      "aliases": [],
+      "description": {
+        "en": "FFC board connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2004850030",
+      "aliases": [],
+      "description": {
+        "en": "FFC board connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2004850035",
+      "aliases": [],
+      "description": {
+        "en": "FFC board connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2004850040",
+      "aliases": [],
+      "description": {
+        "en": "FFC board connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2004850050",
+      "aliases": [],
+      "description": {
+        "en": "FFC board connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2004850051",
+      "aliases": [],
+      "description": {
+        "en": "FFC board connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2004850060",
+      "aliases": [],
+      "description": {
+        "en": "FFC board connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2004850070",
+      "aliases": [],
+      "description": {
+        "en": "FFC board connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2004850080",
+      "aliases": [],
+      "description": {
+        "en": "FFC board connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2004850110",
+      "aliases": [],
+      "description": {
+        "en": "FFC board connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2004850120",
+      "aliases": [],
+      "description": {
+        "en": "FFC board connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2004850130",
+      "aliases": [],
+      "description": {
+        "en": "FFC board connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2004850135",
+      "aliases": [],
+      "description": {
+        "en": "FFC board connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2004850140",
+      "aliases": [],
+      "description": {
+        "en": "FFC board connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2004850150",
+      "aliases": [],
+      "description": {
+        "en": "FFC board connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2004850151",
+      "aliases": [],
+      "description": {
+        "en": "FFC board connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2004850160",
+      "aliases": [],
+      "description": {
+        "en": "FFC board connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2004850170",
+      "aliases": [],
+      "description": {
+        "en": "FFC board connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2004850180",
+      "aliases": [],
+      "description": {
+        "en": "FFC board connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2004850210",
+      "aliases": [],
+      "description": {
+        "en": "FFC board connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2004850220",
+      "aliases": [],
+      "description": {
+        "en": "FFC board connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2004850230",
+      "aliases": [],
+      "description": {
+        "en": "FFC board connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2004850235",
+      "aliases": [],
+      "description": {
+        "en": "FFC board connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2004850240",
+      "aliases": [],
+      "description": {
+        "en": "FFC board connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5017863091",
+      "aliases": [],
+      "description": {
+        "en": "FFC board connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5017864091",
+      "aliases": [],
+      "description": {
+        "en": "FFC board connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5017865081",
+      "aliases": [],
+      "description": {
+        "en": "FFC board connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5017865091",
+      "aliases": [],
+      "description": {
+        "en": "FFC board connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5018643091",
+      "aliases": [],
+      "description": {
+        "en": "FFC board connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5018644091",
+      "aliases": [],
+      "description": {
+        "en": "FFC board connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5018645081",
+      "aliases": [],
+      "description": {
+        "en": "FFC board connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5018645091",
+      "aliases": [],
+      "description": {
+        "en": "FFC board connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    }
+  ],
   "service_label": {
     "en": "Custom compatible replacements · Original-parts sourcing",
     "zh": "可制作兼容替代件、自有原厂采购渠道"
@@ -185,10 +1365,10 @@
       "en": "This is the verified subset for the category. The target of 200 finished models and 200 materials remains incomplete.",
       "zh": "此处为本类已核验子集，200个成品型号和200个材料料号的目标仍待继续补充。"
     },
-    "audit_id": "resume-cable-specialty-approved-manifest.json",
+    "audit_id": "next-wave/root-lvds-independent-audit.json",
     "verified_counts": {
-      "products": 1,
-      "materials": 0
+      "products": 99,
+      "materials": 33
     },
     "target_status": "incomplete",
     "target_counts": {

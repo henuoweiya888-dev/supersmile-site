@@ -159,11 +159,47 @@
     },
     {
       "brand": "JAE Electronics",
+      "identifier": "JF08R0R041020UA",
+      "aliases": [],
+      "description": {
+        "en": "FFC cable harness",
+        "zh": "FFC 电缆组件"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "DX07550B20K19510",
+      "aliases": [],
+      "description": {
+        "en": "USB-C cable harness",
+        "zh": "USB-C 电缆组件"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
       "identifier": "DX07518S20K18747",
       "aliases": [],
       "description": {
         "en": "DX07 USB-C cable harness",
         "zh": "DX07 USB-C 电缆组件"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "JF08R0R041030UA",
+      "aliases": [],
+      "description": {
+        "en": "FFC cable harness",
+        "zh": "FFC 电缆组件"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "DX07550B10N19510",
+      "aliases": [],
+      "description": {
+        "en": "USB-C cable harness",
+        "zh": "USB-C 电缆组件"
       }
     },
     {
@@ -177,15 +213,2421 @@
     },
     {
       "brand": "JAE Electronics",
+      "identifier": "JF08R0R041040UA",
+      "aliases": [],
+      "description": {
+        "en": "FFC cable harness",
+        "zh": "FFC 电缆组件"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "DX07C19S10L26338",
+      "aliases": [],
+      "description": {
+        "en": "USB-C cable harness",
+        "zh": "USB-C 电缆组件"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
       "identifier": "DX07518B20K19114",
       "aliases": [],
       "description": {
         "en": "DX07 USB-C cable harness",
         "zh": "DX07 USB-C 电缆组件"
       }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "JF08R0R051020UA",
+      "aliases": [],
+      "description": {
+        "en": "FFC cable harness",
+        "zh": "FFC 电缆组件"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "JF08R0R051030UA",
+      "aliases": [],
+      "description": {
+        "en": "FFC cable harness",
+        "zh": "FFC 电缆组件"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "JF08R0R051040UA",
+      "aliases": [],
+      "description": {
+        "en": "FFC cable harness",
+        "zh": "FFC 电缆组件"
+      }
     }
   ],
-  "materials": [],
+  "materials": [
+    {
+      "brand": "JAE Electronics",
+      "identifier": "FI-X30MA1",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector plug",
+        "zh": "电缆端连接器插头"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "FI-X30HL",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector housing",
+        "zh": "电缆端连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "FI-X30CH-NPB-7000",
+      "aliases": [],
+      "description": {
+        "en": "Connector shell",
+        "zh": "连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "FI-XC3B-1-15000",
+      "aliases": [],
+      "description": {
+        "en": "Connector contact",
+        "zh": "连接器触点"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "FI-X30SSLA-HF",
+      "aliases": [
+        "FI-X30SSLA-HF-R2500"
+      ],
+      "description": {
+        "en": "PCB connector receptacle",
+        "zh": "PCB 连接器插座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-3S-S3C2-SA",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-2P-S3T2-SA",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "M34S75C4F1",
+      "aliases": [],
+      "description": {
+        "en": "Connector socket contact",
+        "zh": "连接器插孔触点"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "M34P75C4F1",
+      "aliases": [],
+      "description": {
+        "en": "Connector pin contact",
+        "zh": "连接器插针触点"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34020PF1",
+      "aliases": [],
+      "description": {
+        "en": "Pin connector housing",
+        "zh": "插头连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "FI-RE41S-HF",
+      "aliases": [],
+      "description": {
+        "en": "Connector receptacle",
+        "zh": "连接器插座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "FI-RE41HL",
+      "aliases": [],
+      "description": {
+        "en": "Connector housing",
+        "zh": "连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "FI-X30M-NPB",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector plug",
+        "zh": "电缆端连接器插头"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "FI-X30H",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector housing",
+        "zh": "电缆端连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-C2-SC-1-10000",
+      "aliases": [],
+      "description": {
+        "en": "Connector contact",
+        "zh": "连接器触点"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "FI-XB30SSRLA-HF16",
+      "aliases": [],
+      "description": {
+        "en": "PCB connector receptacle",
+        "zh": "PCB 连接器插座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-4S-S3C2-SA",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-3P-S3T2-SA",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "M34S75C4F2",
+      "aliases": [],
+      "description": {
+        "en": "Connector socket contact",
+        "zh": "连接器插孔触点"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "M34P75C4F2",
+      "aliases": [],
+      "description": {
+        "en": "Connector pin contact",
+        "zh": "连接器插针触点"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34012PF1",
+      "aliases": [],
+      "description": {
+        "en": "Pin connector housing",
+        "zh": "插头连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "FI-RE51S-HF",
+      "aliases": [],
+      "description": {
+        "en": "Connector receptacle",
+        "zh": "连接器插座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "FI-RE51HL",
+      "aliases": [],
+      "description": {
+        "en": "Connector housing",
+        "zh": "连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "FI-X30MR-NPB",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector plug",
+        "zh": "电缆端连接器插头"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "FI-X30HL-B",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector housing",
+        "zh": "电缆端连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-C2-SC-10000",
+      "aliases": [],
+      "description": {
+        "en": "Connector contact",
+        "zh": "连接器触点"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-5S-S3C2-SA",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-4P-S3T2-SA",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "M34S75C4F3",
+      "aliases": [],
+      "description": {
+        "en": "Connector socket contact",
+        "zh": "连接器插孔触点"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "M34P75C4F5",
+      "aliases": [],
+      "description": {
+        "en": "Connector pin contact",
+        "zh": "连接器插针触点"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34016PF1",
+      "aliases": [],
+      "description": {
+        "en": "Pin connector housing",
+        "zh": "插头连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "FI-RE41S-VF",
+      "aliases": [],
+      "description": {
+        "en": "Connector receptacle",
+        "zh": "连接器插座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "FI-RE31HL",
+      "aliases": [],
+      "description": {
+        "en": "Connector housing",
+        "zh": "连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-AG5-C1-5000",
+      "aliases": [],
+      "description": {
+        "en": "Connector contact",
+        "zh": "连接器触点"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-6S-S3C2-SA",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-5P-S3T2-SA",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "M34S75C4F4",
+      "aliases": [],
+      "description": {
+        "en": "Connector socket contact",
+        "zh": "连接器插孔触点"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "031-55234",
+      "aliases": [],
+      "description": {
+        "en": "Connector pin contact",
+        "zh": "连接器插针触点"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-AG5-22P-D3C1",
+      "aliases": [],
+      "description": {
+        "en": "Pin connector housing",
+        "zh": "插头连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "FI-RE21S-HF",
+      "aliases": [],
+      "description": {
+        "en": "Connector receptacle",
+        "zh": "连接器插座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "FI-RE21HL",
+      "aliases": [],
+      "description": {
+        "en": "Connector housing",
+        "zh": "连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-AG5-PC1-5000",
+      "aliases": [],
+      "description": {
+        "en": "Connector contact",
+        "zh": "连接器触点"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-7S-S3C2-SA",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-6P-S3T2-SA",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "M34S75C4F5",
+      "aliases": [],
+      "description": {
+        "en": "Connector socket contact",
+        "zh": "连接器插孔触点"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "031-55235",
+      "aliases": [],
+      "description": {
+        "en": "Connector pin contact",
+        "zh": "连接器插针触点"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-AG5-6P-S3C1",
+      "aliases": [],
+      "description": {
+        "en": "Pin connector housing",
+        "zh": "插头连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "FI-RE31S-VF",
+      "aliases": [],
+      "description": {
+        "en": "Connector receptacle",
+        "zh": "连接器插座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "FI-RC3-1A-1E-15000",
+      "aliases": [],
+      "description": {
+        "en": "Connector contact",
+        "zh": "连接器触点"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-8S-S3C2-SA",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-7P-S3T2-SA",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "031-54619",
+      "aliases": [],
+      "description": {
+        "en": "Connector socket contact",
+        "zh": "连接器插孔触点"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "FI-RE31S-HF",
+      "aliases": [],
+      "description": {
+        "en": "Connector receptacle",
+        "zh": "连接器插座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "FI-RC3-1B-1E-15000",
+      "aliases": [],
+      "description": {
+        "en": "Connector contact",
+        "zh": "连接器触点"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-9S-S3C2-SA",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-9P-S3T2-SA",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "031-54620",
+      "aliases": [],
+      "description": {
+        "en": "Connector socket contact",
+        "zh": "连接器插孔触点"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "FI-RE51S-VF",
+      "aliases": [],
+      "description": {
+        "en": "Connector receptacle",
+        "zh": "连接器插座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-10S-S3C2-SA",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-10P-S3T2-SA",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "FI-RE21S-VF",
+      "aliases": [],
+      "description": {
+        "en": "Connector receptacle",
+        "zh": "连接器插座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-11S-S3C2-SA",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-11P-S3T2-SA",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-12S-S3C2-SA",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-12P-S3T2-SA",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-13S-S3C2-SA",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-2P-S3L2-SA",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-15S-S3C2-SA",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-3P-S3L2-SA",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-2S-S3C2-SA",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-4P-S3L2-SA",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-14S-S3C2-SA",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-5P-S3L2-SA",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34028SF1",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-6P-S3L2-SA",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34020SF1",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-7P-S3L2-SA",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34016SF1",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-8P-S3L2-SA",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34032SF1",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-9P-S3L2-SA",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34040SF1",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-10P-S3L2-SA",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34036SF1",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-11P-S3L2-SA",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34024SF1",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-12P-S3L2-SA",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34012SF1",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-13P-S3T2-SA",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34003SF1",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-14P-S3T2-SA",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34005SF1",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-15P-S3T2-SA",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34007SF1",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-13P-S3L2-SA",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34016AF1",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-14P-S3L2-SA",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34024AF1",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-15P-S3L2-SA",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34032AF1",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-6P-S3T2-SA-1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34E08SF1",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-2P-S3T2-SA-1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34024SF4",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-3P-S3T2-SA-1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34012SF4",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-4P-S3T2-SA-1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34036SF4",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-5P-S3T2-SA-1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34008SF4",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-7P-S3T2-SA-1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34020AF1",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-8P-S3T2-SA-1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34028AF1",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-9P-S3T2-SA-1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34007SF4",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-10P-S3T2-SA-1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34007AF1",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-11P-S3T2-SA-1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34007SF8",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-12P-S3T2-SA-1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34032SF8",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-13P-S3T2-SA-1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34032SF4",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-14P-S3T2-SA-1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34024SF8",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-15P-S3T2-SA-1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34032SF5",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-2P-S3L2-SA-1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34005SF8",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-3P-S3L2-SA-1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34012SF8",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-4P-S3L2-SA-1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34020SF8",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-5P-S3L2-SA-1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34016SF4",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-6P-S3L2-SA-1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-AG5-5S-S3C1",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-7P-S3L2-SA-1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-AG5-5SK-S3C1-LB",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-8P-S3L2-SA-1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-AG5-6S-S3C1",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-9P-S3L2-SA-1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-AG5-6SK-S3C1-LB",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-10P-S3L2-SA-1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-AG5-7S-S3C1",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-11P-S3L2-SA-1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-AG5-16S-D3C1-A",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-12P-S3L2-SA-1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-AG5-22S-D3C1",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-13P-S3L2-SA-1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-AG5-30S-D3C1",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-14P-S3L2-SA-1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-AG5-18S-D3C1",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-15P-S3L2-SA-1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-AG5-4S-S3C1",
+      "aliases": [],
+      "description": {
+        "en": "Socket connector housing",
+        "zh": "插座连接器外壳"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-G-8P-S3T2-SA",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34020UF1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34016UF1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34020NF1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34016NF1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34024UF1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34024NF1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34012NF1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34012UF1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34003NF1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34005NF1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34005UF1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34007UF1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34007NF1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34028NF2",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34032NF2",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34036NF2",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34040NF2",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34028UF2",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34032UF2",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34036UF2",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34040UF2",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34E08NF1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34R32VF1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34R20VF1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34012NF3",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34016NF3",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34020NF3",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34024NF3",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34028NF3",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34032NF3",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34036NF3",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34040NF3",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34012UF3",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34016UF3",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34020UF3",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34024UF3",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34028UF3",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34032UF3",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34036UF3",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34040UF3",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34024NF4",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34012UF4",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34036NF4",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34R12VF1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34007UF4",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34R08HF4T",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34003NF3",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34R20HF4T",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34R03HF4T",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34R05HF4T",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34R07HF4T",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34R12HF4T",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34R16HF4T",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34R24HF4T",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34R32HF4T",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34R36HF4T",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34032NF4",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34032NF5",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34R32HFDT",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34R12HF8T",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34R16HF4TA",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34005NF3",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34E08NF3",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34R05HF4R150",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34R07HF4R150",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34R16HF4R110",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34R36HF4R110",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34012NF4",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34Q32BTF1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34R28HF4T",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34Q32BTF1T30",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34Q32BTF1R200",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34Q20ATF8T40",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "045-52662-001",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "045-53047",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34Q32BTF2-1T20",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34TG16NF1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34TG24NF1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34TG28NF1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34TG32NF1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34TG36NF1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34TG08NF2",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34TG12NF1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34TG12NF2",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "MX34TG16NF2",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-AG5-5P-S3T2",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-AG5-5P-S3L2",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-AG5-5PK-S3T2-LB",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-AG5-5PK-S3L2-LB",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-AG5-6P-S3T2",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-AG5-6P-S3L2",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-AG5-6PK-S3L2-LB",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-AG5-7P-S3T2",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-AG5-7P-S3L2",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-AG5-16P-D3T2-A",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-AG5-16P-D3L2-A",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-AG5-22P-D3L2",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-AG5-30P-D3T2",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-AG5-30P-D3L2",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-AG5-18P-D3L2",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-AG5-22PK-D3L2-LB",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-AG5-4P-S3T2",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-AG5-4P-S3L2",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-AG5-7P-S3C1",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    },
+    {
+      "brand": "JAE Electronics",
+      "identifier": "IL-AG5-22P-D3T2",
+      "aliases": [],
+      "description": {
+        "en": "PCB pin header",
+        "zh": "PCB 连接器针座"
+      }
+    }
+  ],
   "service_label": {
     "en": "Custom compatible replacements · Original-parts sourcing",
     "zh": "可制作兼容替代件、自有原厂采购渠道"
@@ -212,10 +2654,10 @@
       "en": "This is the verified subset for the category. The target of 200 finished models and 200 materials remains incomplete.",
       "zh": "此处为本类已核验子集，200个成品型号和200个材料料号的目标仍待继续补充。"
     },
-    "audit_id": "resume-brand-material-approved-manifest.json",
+    "audit_id": "next-wave/root-jae-independent-audit.json",
     "verified_counts": {
-      "products": 4,
-      "materials": 0
+      "products": 13,
+      "materials": 262
     },
     "target_status": "incomplete",
     "target_counts": {

@@ -71,17 +71,19 @@ export async function captureEquipment(language = 'en', { fail = false, initialM
     return nodes.get(id);
   };
   const observers = [];
+  Object.defineProperty(node('eqw-content'), 'firstElementChild', {get:()=>({classList:{contains:cls=>node('eqw-content').innerHTML.startsWith('<div class=\"'+cls+'\">')}})});
   const context = createContext({
-    console, URLSearchParams,
+    console, URLSearchParams, queueMicrotask,
     location: { search: language === 'en' ? '' : `?lang=${language}` },
     localStorage: { getItem: () => language },
     document: { getElementById: node, querySelector: () => null, documentElement: { lang: language } },
-    MutationObserver: class { constructor(callback) { observers.push(callback); } observe() {} },
+    MutationObserver: class { constructor(callback) { this.callback=callback; } observe(target,options) { if(options.attributeFilter?.includes('lang'))observers.push(this.callback); } disconnect() {} },
     fetch: async () => {
       if (fail) throw Error('Controlled unavailable source');
       return { ok: true, json: async () => JSON.parse(source) };
     },
   });
+  runInContext(await read('assets/js/editorial-lifecycle.js'),context,{filename:'editorial-lifecycle.js'});
   runInContext(script, context, { filename: 'equipment-wire-editorial.js' });
   await new Promise(resolve => setImmediate(resolve));
   return { markup: node('eqw-content').innerHTML, nodes, context, observers };

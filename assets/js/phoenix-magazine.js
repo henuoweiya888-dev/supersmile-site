@@ -91,15 +91,7 @@
 
       };
       syncHeader();
-      const headerObserver = new MutationObserver(syncHeader);
-      ['pcc-title', 'pcc-intro', 'pcc-closing-title', 'pcc-hero-image'].forEach(id => {
-        const node = document.getElementById(id);
-        if (!node) return;
-        if (id === 'pcc-hero-image') headerObserver.observe(node, {attributes: true, attributeFilter: ['src']});
-        else headerObserver.observe(node, {subtree: true, childList: true, characterData: true});
-      });
-      window.setTimeout(() => headerObserver.disconnect(), 2500);
-      window.setTimeout(syncHeader, 3000);
+
 
       const opening = `
         <section class="ph-opening">
@@ -138,10 +130,9 @@
       }), {threshold: .18, rootMargin: '0px 0px -10%'});
       host.querySelectorAll('.ph-section-header').forEach(header => observer ? observer.observe(header) : header.classList.add('is-visible'));
     } catch (error) {
-      host.innerHTML = `<p class="ph-error">${navigator.language.startsWith('zh') ? '页面内容暂时无法载入，请刷新重试。' : 'This page could not load. Please refresh and try again.'}</p>`;
+      host.innerHTML = `<p class="ph-error">${navigator.language.startsWith('zh') ? '页面内容暂时无法载入，请刷新重试。' : 'This page could not load. Please refresh and try again.'}</p>`;return false;;
     }
   }
 
-  render();
-  window.setTimeout(render, 1600);
+  globalThis.SuperSmileEditorial.mount({host: host, rootClass: 'ph-page', render});
 })();

@@ -78,8 +78,8 @@
       const observer = new IntersectionObserver(entries=>entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.add('is-visible');observer.unobserve(entry.target);}}),{threshold:.1,rootMargin:'0px 0px -6%'});
       host.querySelectorAll('.ff-section-header,.ff-story,.ff-mating article').forEach(node=>observer.observe(node));
     } catch (error) {
-      host.innerHTML = `<p class="ff-error">${langZh()?'页面内容暂时无法载入，请刷新重试。':'This page could not load. Please refresh and try again.'}</p>`;
+      host.innerHTML = `<p class="ff-error">${langZh()?'页面内容暂时无法载入，请刷新重试。':'This page could not load. Please refresh and try again.'}</p>`;return false;;
     }
   }
-  render(); setTimeout(render,1400); setTimeout(render,3200);
+  globalThis.SuperSmileEditorial.mount({host: host, rootClass: 'ff-page', render});
 })();

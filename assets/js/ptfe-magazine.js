@@ -99,11 +99,9 @@
       }), {threshold: .15, rootMargin: '0px 0px -8%'});
       host.querySelectorAll('.pte-section-header,.pte-story').forEach(node => observer.observe(node));
     } catch (error) {
-      host.innerHTML = `<p class="pte-error">${navigator.language.startsWith('zh') ? '页面内容暂时无法载入，请刷新重试。' : 'This page could not load. Please refresh and try again.'}</p>`;
+      host.innerHTML = `<p class="pte-error">${navigator.language.startsWith('zh') ? '页面内容暂时无法载入，请刷新重试。' : 'This page could not load. Please refresh and try again.'}</p>`;return false;;
     }
   }
 
-  render();
-  window.setTimeout(render, 1400);
-  window.setTimeout(render, 3200);
+  globalThis.SuperSmileEditorial.mount({host: host, rootClass: 'pte-page', render});
 })();

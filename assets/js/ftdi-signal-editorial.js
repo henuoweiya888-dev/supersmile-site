@@ -45,7 +45,7 @@
       const credits=`<details class="fe-credits"><summary>${zh?'图片来源与技术依据':'Photo sources and technical references'}</summary><p>${zh?'图片用于说明有源转换、接口、电路、软件、应用或验证概念，不代表超斯迈尔成品实拍、指定芯片、测试结果或认证。':'Images illustrate active conversion, interfaces, circuits, software, applications or validation. They do not represent Super Smile finished-product photography, a specified chip, test results or certification.'}</p><a href="${root}SOURCES.md" target="_blank" rel="noopener">${zh?'查看图片许可与技术来源':'View image licenses and technical sources'}</a></details>`;
       host.innerHTML=`<div class="fe-page">${opening}${nav}${core}${map}${build}${use}${release}${faq}${credits}</div>`;
       if(!matchMedia('(prefers-reduced-motion:reduce)').matches){const o=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('is-visible');o.unobserve(e.target)}}),{threshold:.06,rootMargin:'0px 0px -4%'});host.querySelectorAll('.fe-header,.fe-story,.fe-note').forEach(n=>o.observe(n));}
-    }catch(e){host.innerHTML=`<p class="fe-error">${isZh()?'页面内容暂时无法载入，请刷新重试。':'This page could not load. Please refresh and try again.'}</p>`;}
+    }catch(e){host.innerHTML=`<p class="fe-error">${isZh()?'页面内容暂时无法载入，请刷新重试。':'This page could not load. Please refresh and try again.'}</p>`;return false;;}
   }
-  render(); setTimeout(render,1400); setTimeout(render,3200);
+  globalThis.SuperSmileEditorial.mount({host: host, rootClass: 'fe-page', render});
 })();

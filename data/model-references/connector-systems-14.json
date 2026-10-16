@@ -53,8 +53,8 @@
         "zh": "连接器与材料料号"
       },
       "intro": {
-        "en": "Connector, wire and process-material references for project selection.",
-        "zh": "供项目选型的连接器、线材与工艺材料参考。"
+        "en": "Fuses, fuse holders and connection materials for fuse-harness selection and original-parts sourcing.",
+        "zh": "用于保险丝线束选型与原厂件采购的保险丝、保险丝座及连接材料。"
       }
     }
   ],
@@ -155,6 +155,33 @@
       "description": {
         "en": "FHAC in-line fuse-holder lead assembly",
         "zh": "FHAC 在线保险丝座引线组件"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "01500312H",
+      "aliases": [],
+      "description": {
+        "en": "In-line fuse-holder lead assembly",
+        "zh": "在线保险丝座引线组件"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "01500322H",
+      "aliases": [],
+      "description": {
+        "en": "In-line fuse-holder assembly with tinned-copper leads",
+        "zh": "镀锡铜引线在线保险丝座组件"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "01500322HXBLK",
+      "aliases": [],
+      "description": {
+        "en": "In-line fuse-holder assembly with bare-copper leads",
+        "zh": "裸铜引线在线保险丝座组件"
       }
     },
     {
@@ -280,7 +307,3167 @@
       }
     }
   ],
-  "materials": [],
+  "materials": [
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANL-35",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "BAF-1/4",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C520-100-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C518-100-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "01500330HXU",
+      "aliases": [],
+      "description": {
+        "en": "Fuse-holder housing and terminal set without wire",
+        "zh": "不带电线的保险丝座壳体与端子套件"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANL-125",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "BAF-1-8/10",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C520-500-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C518-375-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANL-250",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "BAF-6",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C520-2.5-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C518-2-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANL-500",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "BAF-12",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C520-5-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C518-3.5-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANL-40",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "BAF-1/2",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C520-125-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C518-125-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANL-130",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "BAF-2",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C520-750-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C518-500-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANL-275",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "BAF-6-1/4",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C520-3-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C518-2.5-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANL-600",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "BAF-15",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C520-250-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C518-4-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANL-50",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "BAF-6/10",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C520-1.5-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C518-250-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANL-150",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "BAF-2-1/2",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C520-3.5-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C518-750-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANL-300",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "BAF-7",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C520-375-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C518-3-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANL-675",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "BAF-20",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C520-2-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C518-5-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANL-60",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "BAF-8/10",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C520-4-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C515-125-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANL-175",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "BAF-3",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C519-125-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C515-750-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANL-325",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "BAF-8",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C519-600-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C515-2-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANL-750",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "BAF-25",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C519-1.6-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C515-5-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANL-80",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "BAF-1",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C519-3.5-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C515-250-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANL-200",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "BAF-4",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C519-250-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C515-800-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANL-350",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "BAF-9",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C519-750-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C515-2.25-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANL-100",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "BAF-30",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C519-2-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C515-6-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANL-225",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "BAF-1-1/2",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C519-4-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C515-350-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANL-400",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "BAF-5",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C519-350-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C515-1-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANN-10",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "BAF-10",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C519-1-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C515-2.5-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANN-90",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KTK-1/10",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C519-2.25-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C515-7-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANN-225",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KTK-3/4",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C519-5-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C515-375-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANN-400",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KTK-4",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C519-375-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C515-1.25-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANN-35",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KTK-12",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C519-1.25-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C515-3-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANN-100",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KTK-1/8",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C519-2.5-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C515-500-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANN-250",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KTK-1",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C519-500-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C515-1.5-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANN-500",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KTK-5",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C519-1.5-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C515-3.5-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANN-40",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KTK-15",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C519-3-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C515-600-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANN-125",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KTK-2/10",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S500-32-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C515-1.6-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANN-275",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KTK-1-1/4",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S500-160-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C515-4-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANN-600",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KTK-6",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S500-800-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "C517-3-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANN-50",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KTK-20",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S500-4-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S505SCH-3.15-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANN-150",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KTK-1/4",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S500-40-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S505SCH-5-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANN-300",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KTK-1-1/2",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S500-200-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S505SCH-6.3-R",
+      "aliases": [],
+      "description": {
+        "en": "Axial-lead fuse",
+        "zh": "轴向引线保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANN-700",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KTK-7",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S500-1-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANN-60",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KTK-25",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S500-5-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANN-175",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KTK-3/10",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S500-50-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANN-325",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KTK-2",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S500-250-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANN-800",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KTK-7-1/2",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S500-1.25-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANN-80",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KTK-30",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S500-6.3-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANN-200",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KTK-4/10",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S500-63-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ANN-350",
+      "aliases": [],
+      "description": {
+        "en": "Bolt-on fuse",
+        "zh": "螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KTK-2-1/2",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S500-315-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KTK-8",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S500-1.6-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KTK-1/2",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S500-8-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KTK-3",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S500-80-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KTK-9",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S500-400-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KTK-6/10",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S500-2-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KTK-3-1/2",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S500-10-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KTK-10",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S500-100-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KLM-1/10",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S500-500-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KLM-1",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S500-2.5-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KLM-5",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S500-125-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KLM-15",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S500-630-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KLM-1/8",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S500-3.15-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KLM-1-1/4",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S501-50-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KLM-6",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S501-200-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KLM-20",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S501-800-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KLM-2/10",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S501-3.15-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KLM-1-1/2",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S501-63-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KLM-7",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S501-250-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KLM-25",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S501-1-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KLM-1/4",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S501-4-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KLM-2",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S501-80-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KLM-8",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S501-315-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KLM-30",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S501-1.25-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KLM-3/10",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S501-5-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KLM-2-1/2",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S501-100-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KLM-9",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S501-400-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KLM-1/2",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S501-1.6-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KLM-3",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S501-6.3-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KLM-10",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S501-125-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KLM-3/4",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S501-500-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KLM-4",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S501-2-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "KLM-12",
+      "aliases": [],
+      "description": {
+        "en": "Supplemental fuse",
+        "zh": "补充保护保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S501-8-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S501-160-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S501-630-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S501-2.5-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S501-10-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S505-500-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S505-1.6-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S505-4-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S505-10-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S505-800-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S505-2-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S505-5-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S505-12-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S505-1-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S505-2.5-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S505-6.3-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S505-1.25-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S505-3.15-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S505-8-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S506-32-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S506-160-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S506-800-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S506-4-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S506-40-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S506-200-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S506-1-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S506-5-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S506-50-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S506-250-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S506-1.25-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S506-6.3-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S506-63-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S506-315-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S506-1.6-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S506-8-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S506-80-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S506-400-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S506-2-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S506-10-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S506-100-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S506-500-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S506-2.5-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S506-12.5-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S506-125-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S506-630-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S506-3.15-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S506-15-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S505H-500-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S505H-1.6-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S505H-4-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S505H-10-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S505H-800-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S505H-2-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S505H-5-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S505H-1-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S505H-2.5-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S505H-6.3-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S505H-1.25-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S505H-3.15-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "S505H-8-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMC-63-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMC-315-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMC-1.25-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMC-5-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMC-80-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMC-400-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMC-1.5-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMC-6-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMC-100-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMC-500-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMC-1.6-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMC-6.3-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMC-125-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMC-600-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMC-2-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMC-7-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMC-150-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMC-630-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMC-2.5-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMC-8-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMC-200-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMC-750-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMC-3.15-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMC-10-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMC-250-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMC-800-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMC-3.5-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMC-300-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMC-1-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMC-4-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMA-63-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMA-600-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMA-2-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMA-7-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMA-100-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMA-750-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMA-2.5-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMA-8-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMA-125-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMA-800-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMA-3.15-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMA-10-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMA-200-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMA-1-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMA-3.5-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMA-15-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMA-250-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMA-1.25-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMA-4-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMA-300-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMA-1.5-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMA-5-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMA-500-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMA-1.6-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "GMA-6-R",
+      "aliases": [],
+      "description": {
+        "en": "Cartridge fuse",
+        "zh": "管状保险丝"
+      }
+    }
+  ],
   "service_label": {
     "en": "Custom compatible replacements · Original-parts sourcing",
     "zh": "可制作兼容替代件、自有原厂采购渠道"
@@ -307,10 +3494,10 @@
       "en": "This is the verified subset for the category. The target of 200 finished models and 200 materials remains incomplete.",
       "zh": "此处为本类已核验子集，200个成品型号和200个材料料号的目标仍待继续补充。"
     },
-    "audit_id": "resume-brand-material-approved-manifest.json",
+    "audit_id": "next-wave/root-fuse-independent-audit.json",
     "verified_counts": {
-      "products": 14,
-      "materials": 0
+      "products": 17,
+      "materials": 351
     },
     "target_status": "incomplete",
     "target_counts": {

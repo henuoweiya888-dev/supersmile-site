@@ -105,32 +105,22 @@ test('wire-special follows language changes for alt and inquiry without observin
 });
 
 test('an asynchronous editorial fetch still renders body, images and inquiry while preserving policy metadata', async () => {
-  const source = await read('low-pressure-molding-editorial.js');
-  const data = JSON.parse(await fs.readFile(path.join(root, 'content/product-category-drafts/low-pressure-molding.json'), 'utf8'));
-  for (const requested of ['', '?lang=zh', '?lang=de']) {
-    const nodes = new Map();
-    const node = id => {
-      if (!nodes.has(id)) nodes.set(id, { textContent: '', innerHTML: '', attributes: {}, setAttribute(name, value) { this.attributes[name] = value; } });
-      return nodes.get(id);
-    };
-    const documentElement = {};
-    Object.defineProperty(documentElement, 'lang', { get: () => 'en', set: () => { throw new Error('Global language overwrite'); } });
-    const document = { documentElement, getElementById: node, querySelector() { throw new Error('Metadata access'); } };
-    Object.defineProperty(document, 'title', { get: () => 'Unified policy title', set: () => { throw new Error('Title overwrite'); } });
-    runInNewContext(source, {
-      document, location: { search: requested }, URLSearchParams,
-      localStorage: { getItem: () => '' }, fetch: async () => ({ ok: true, json: async () => data })
-    });
-    await new Promise(resolve => setImmediate(resolve));
-    const zh = requested === '?lang=zh';
-    assert.equal(node('lpm-title').textContent, data.page.displayTitle[zh ? 'zh' : 'en']);
-    assert.match(node('lpm-content').innerHTML, /class="lpm-page"/);
-    assert.match(node('lpm-content').innerHTML, /<img[^>]*alt=/);
-    assert.match(node('lpm-content').innerHTML, /<details><summary>/);
-    const inquiry = new URL(node('lpm-cta').attributes.href, 'https://supersmile-tech.com');
-    assert.equal(inquiry.pathname, '/contact');
-    assert.equal(inquiry.searchParams.get('category'), 'specialty-14');
-    assert.equal(document.title, 'Unified policy title');
-    assert.equal(documentElement.lang, 'en');
+  const {fixture,flush}=await import('./editorial-lifecycle-fixture.mjs');
+  const data=JSON.parse(await fs.readFile(path.join(root,'content/product-category-drafts/low-pressure-molding.json'),'utf8'));
+  for(const requested of ['', '?lang=zh', '?lang=de']) {
+    const f=fixture('low-pressure-molding','lpm-content','en');
+    f.sandbox.location.search=requested;
+    Object.defineProperty(f.sandbox.document,'title',{get:()=> 'Unified policy title',set:()=>{throw Error('Title overwrite');}});
+    f.sandbox.document.querySelector=()=>{throw Error('Metadata access');};
+    f.load('low-pressure-molding-editorial');await flush();
+    const zh=requested==='?lang=zh';
+    assert.equal(f.nodes.get('lpm-title').textContent,data.page.displayTitle[zh?'zh':'en']);
+    assert.match(f.host.innerHTML,/class="lpm-page"/);
+    assert.match(f.host.innerHTML,/<img[^>]*alt=/);
+    assert.match(f.host.innerHTML,/<details><summary>/);
+    const inquiry=new URL(f.nodes.get('lpm-cta').href,'https://supersmile-tech.com');
+    assert.equal(inquiry.pathname,'/contact');assert.equal(inquiry.searchParams.get('category'),'specialty-14');
+    assert.equal(f.sandbox.document.title,'Unified policy title');
+    assert.equal(f.sandbox.document.documentElement.lang,'en');
   }
 });

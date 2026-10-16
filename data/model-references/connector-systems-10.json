@@ -168,6 +168,87 @@
     },
     {
       "brand": "LEMO",
+      "identifier": "MFZ.1D.U32.M10UN00",
+      "aliases": [],
+      "description": {
+        "en": "D-series USB 3.2 Gen 2 single-ended cable assembly",
+        "zh": "D 系列 USB 3.2 Gen 2 单端电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFP.1D.U32.D30UN00",
+      "aliases": [],
+      "description": {
+        "en": "D-series USB 3.2 Gen 2 plug-to-socket cable assembly",
+        "zh": "D 系列 USB 3.2 Gen 2 插头转插座电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.1D.U32.D30UN00",
+      "aliases": [],
+      "description": {
+        "en": "D-series USB 3.2 Gen 2 plug-to-plug cable assembly",
+        "zh": "D 系列 USB 3.2 Gen 2 插头转插头电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFZ.0D.U20.M10UN00",
+      "aliases": [],
+      "description": {
+        "en": "D-series USB 2.0 single-ended cable assembly",
+        "zh": "D 系列 USB 2.0 单端电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFP.0D.U20.D30UN00",
+      "aliases": [],
+      "description": {
+        "en": "D-series USB 2.0 plug-to-socket cable assembly",
+        "zh": "D 系列 USB 2.0 插头转插座电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.0D.U20.D30UN00",
+      "aliases": [],
+      "description": {
+        "en": "D-series USB 2.0 plug-to-plug cable assembly",
+        "zh": "D 系列 USB 2.0 插头转插头电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFZ.0D.309.M10UN00",
+      "aliases": [],
+      "description": {
+        "en": "D-series multipole single-ended cable assembly",
+        "zh": "D 系列多芯 单端电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFP.0D.309.D30UN00",
+      "aliases": [],
+      "description": {
+        "en": "D-series multipole plug-to-socket cable assembly",
+        "zh": "D 系列多芯 插头转插座电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.0D.309.D30UN00",
+      "aliases": [],
+      "description": {
+        "en": "D-series multipole plug-to-plug cable assembly",
+        "zh": "D 系列多芯 插头转插头电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
       "identifier": "MFB.00.250.LTE020",
       "aliases": [],
       "description": {
@@ -182,6 +263,87 @@
       "description": {
         "en": "LEMO coaxial delay-line assembly",
         "zh": "LEMO 同轴延迟线组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MBZ.1D.U32.M10UN00",
+      "aliases": [],
+      "description": {
+        "en": "D-series USB 3.2 Gen 2 single-ended cable assembly",
+        "zh": "D 系列 USB 3.2 Gen 2 单端电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFP.1D.U32.D75UN00",
+      "aliases": [],
+      "description": {
+        "en": "D-series USB 3.2 Gen 2 plug-to-socket cable assembly",
+        "zh": "D 系列 USB 3.2 Gen 2 插头转插座电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.1D.U32.D75UN00",
+      "aliases": [],
+      "description": {
+        "en": "D-series USB 3.2 Gen 2 plug-to-plug cable assembly",
+        "zh": "D 系列 USB 3.2 Gen 2 插头转插头电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MBZ.0D.U20.M10UN00",
+      "aliases": [],
+      "description": {
+        "en": "D-series USB 2.0 single-ended cable assembly",
+        "zh": "D 系列 USB 2.0 单端电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFP.0D.U20.D75UN00",
+      "aliases": [],
+      "description": {
+        "en": "D-series USB 2.0 plug-to-socket cable assembly",
+        "zh": "D 系列 USB 2.0 插头转插座电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.0D.U20.D75UN00",
+      "aliases": [],
+      "description": {
+        "en": "D-series USB 2.0 plug-to-plug cable assembly",
+        "zh": "D 系列 USB 2.0 插头转插头电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MBZ.0D.309.M10UN00",
+      "aliases": [],
+      "description": {
+        "en": "D-series multipole single-ended cable assembly",
+        "zh": "D 系列多芯 单端电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFP.0D.309.D75UN00",
+      "aliases": [],
+      "description": {
+        "en": "D-series multipole plug-to-socket cable assembly",
+        "zh": "D 系列多芯 插头转插座电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MFB.0D.309.D75UN00",
+      "aliases": [],
+      "description": {
+        "en": "D-series multipole plug-to-plug cable assembly",
+        "zh": "D 系列多芯 插头转插头电缆组件"
       }
     },
     {
@@ -204,6 +366,51 @@
     },
     {
       "brand": "LEMO",
+      "identifier": "MPZ.1D.U32.M10UN00",
+      "aliases": [],
+      "description": {
+        "en": "D-series USB 3.2 Gen 2 single-ended cable assembly",
+        "zh": "D 系列 USB 3.2 Gen 2 单端电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MBP.1D.U32.D30UN00",
+      "aliases": [],
+      "description": {
+        "en": "D-series USB 3.2 Gen 2 plug-to-socket cable assembly",
+        "zh": "D 系列 USB 3.2 Gen 2 插头转插座电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MPZ.0D.U20.M10UN00",
+      "aliases": [],
+      "description": {
+        "en": "D-series USB 2.0 single-ended cable assembly",
+        "zh": "D 系列 USB 2.0 单端电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MBP.0D.U20.D30UN00",
+      "aliases": [],
+      "description": {
+        "en": "D-series USB 2.0 plug-to-socket cable assembly",
+        "zh": "D 系列 USB 2.0 插头转插座电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MPZ.0D.309.M10UN00",
+      "aliases": [],
+      "description": {
+        "en": "D-series multipole single-ended cable assembly",
+        "zh": "D 系列多芯 单端电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
       "identifier": "MFB.00.250.LTE040",
       "aliases": [],
       "description": {
@@ -218,6 +425,24 @@
       "description": {
         "en": "LEMO coaxial delay-line assembly",
         "zh": "LEMO 同轴延迟线组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MBP.1D.U32.D75UN00",
+      "aliases": [],
+      "description": {
+        "en": "D-series USB 3.2 Gen 2 plug-to-socket cable assembly",
+        "zh": "D 系列 USB 3.2 Gen 2 插头转插座电缆组件"
+      }
+    },
+    {
+      "brand": "LEMO",
+      "identifier": "MBP.0D.U20.D75UN00",
+      "aliases": [],
+      "description": {
+        "en": "D-series USB 2.0 plug-to-socket cable assembly",
+        "zh": "D 系列 USB 2.0 插头转插座电缆组件"
       }
     },
     {
@@ -2670,9 +2895,9 @@
       "en": "This is the verified subset for the category. The target of 200 finished models and 200 materials remains incomplete.",
       "zh": "此处为本类已核验子集，200个成品型号和200个材料料号的目标仍待继续补充。"
     },
-    "audit_id": "resume-brand-material-approved-manifest.json",
+    "audit_id": "root-next-brand-independent-audit.json",
     "verified_counts": {
-      "products": 52,
+      "products": 77,
       "materials": 225
     },
     "target_status": "incomplete",

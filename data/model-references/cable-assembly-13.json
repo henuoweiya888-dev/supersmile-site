@@ -42,8 +42,8 @@
         "zh": "成品电缆与线束型号"
       },
       "intro": {
-        "en": "Finished cable and harness references for this interface or application.",
-        "zh": "此接口或应用方向的成品电缆与线束参考。"
+        "en": "Equipment interface cable references. Patient connections and regulated device requirements are reviewed separately.",
+        "zh": "用于设备接口连接的成品参考；患者连接及受监管设备要求需单独审核。"
       }
     },
     {
@@ -185,89 +185,8 @@
       }
     },
     {
-      "brand": "OCP Group",
-      "identifier": "SPP1-140SPBL-030",
-      "aliases": [],
-      "description": {
-        "en": "SureLine Plex 1 connector cable assembly",
-        "zh": "SureLine Plex 1连接电缆组件"
-      }
-    },
-    {
-      "brand": "Baxter",
-      "identifier": "21256003S",
-      "aliases": [],
-      "description": {
-        "en": "Medical equipment power cable assembly",
-        "zh": "医疗设备电源电缆组件"
-      }
-    },
-    {
-      "brand": "Baxter",
-      "identifier": "206634",
-      "aliases": [],
-      "description": {
-        "en": "Medical equipment power cable assembly",
-        "zh": "医疗设备电源电缆组件"
-      }
-    },
-    {
       "brand": "Baxter",
       "identifier": "152344S",
-      "aliases": [],
-      "description": {
-        "en": "Medical equipment interconnect cable assembly",
-        "zh": "医疗设备互连电缆组件"
-      }
-    },
-    {
-      "brand": "Baxter",
-      "identifier": "145412",
-      "aliases": [],
-      "description": {
-        "en": "Medical equipment interconnect cable assembly",
-        "zh": "医疗设备互连电缆组件"
-      }
-    },
-    {
-      "brand": "Baxter",
-      "identifier": "177355",
-      "aliases": [],
-      "description": {
-        "en": "Medical equipment interconnect cable assembly",
-        "zh": "医疗设备互连电缆组件"
-      }
-    },
-    {
-      "brand": "Baxter",
-      "identifier": "SA1698",
-      "aliases": [],
-      "description": {
-        "en": "Medical equipment interconnect cable assembly",
-        "zh": "医疗设备互连电缆组件"
-      }
-    },
-    {
-      "brand": "Baxter",
-      "identifier": "035390-004",
-      "aliases": [],
-      "description": {
-        "en": "Medical equipment interconnect cable assembly",
-        "zh": "医疗设备互连电缆组件"
-      }
-    },
-    {
-      "brand": "Baxter",
-      "identifier": "25020-063-50",
-      "aliases": [],
-      "description": {
-        "en": "Medical equipment power cable assembly",
-        "zh": "医疗设备电源电缆组件"
-      }
-    },
-    {
-      "brand": "Baxter",
-      "identifier": "25004-003-52",
       "aliases": [],
       "description": {
         "en": "Medical equipment interconnect cable assembly",
@@ -284,12 +203,48 @@
       }
     },
     {
-      "brand": "Baxter",
-      "identifier": "4023757",
+      "brand": "Amphenol Cables on Demand",
+      "identifier": "CS-DSPMHD15MM-005",
       "aliases": [],
       "description": {
-        "en": "Medical equipment wiring harness",
-        "zh": "医疗设备线束"
+        "en": "HD15 shielded equipment interface cable",
+        "zh": "HD15屏蔽设备接口电缆组件"
+      }
+    },
+    {
+      "brand": "Amphenol Cables on Demand",
+      "identifier": "CS-DSPMDB25MM-050",
+      "aliases": [],
+      "description": {
+        "en": "DB25 shielded equipment interface cable",
+        "zh": "DB25屏蔽设备接口电缆组件"
+      }
+    },
+    {
+      "brand": "Amphenol Cables on Demand",
+      "identifier": "CS-DSPMDB09MM-005",
+      "aliases": [],
+      "description": {
+        "en": "DB9 shielded equipment interface cable",
+        "zh": "DB9屏蔽设备接口电缆组件"
+      }
+    },
+    {
+      "brand": "Baxter",
+      "identifier": "21256003S",
+      "aliases": [],
+      "description": {
+        "en": "Medical equipment power cable assembly",
+        "zh": "医疗设备电源电缆组件"
+      }
+    },
+    {
+      "brand": "OCP Group",
+      "identifier": "SPP1-140SPBL-030",
+      "aliases": [],
+      "description": {
+        "en": "SureLine Plex 1 connector cable assembly",
+        "zh": "SureLine Plex 1连接电缆组件"
       }
     },
     {
@@ -299,6 +254,168 @@
       "description": {
         "en": "Patient/ECG equipment cable assembly",
         "zh": "患者及心电设备电缆组件"
+      }
+    },
+    {
+      "brand": "Baxter",
+      "identifier": "145412",
+      "aliases": [],
+      "description": {
+        "en": "Medical equipment interconnect cable assembly",
+        "zh": "医疗设备互连电缆组件"
+      }
+    },
+    {
+      "brand": "Baxter",
+      "identifier": "4023757",
+      "aliases": [],
+      "description": {
+        "en": "Medical equipment wiring harness",
+        "zh": "医疗设备线束"
+      }
+    },
+    {
+      "brand": "Amphenol Cables on Demand",
+      "identifier": "CS-DSPMHD15MM-002.5",
+      "aliases": [],
+      "description": {
+        "en": "HD15 shielded equipment interface cable",
+        "zh": "HD15屏蔽设备接口电缆组件"
+      }
+    },
+    {
+      "brand": "Amphenol Cables on Demand",
+      "identifier": "CS-DSPMDB25MF-050",
+      "aliases": [],
+      "description": {
+        "en": "DB25 shielded equipment interface cable",
+        "zh": "DB25屏蔽设备接口电缆组件"
+      }
+    },
+    {
+      "brand": "Amphenol Cables on Demand",
+      "identifier": "CS-DSPMDB09MM-006",
+      "aliases": [],
+      "description": {
+        "en": "DB9 shielded equipment interface cable",
+        "zh": "DB9屏蔽设备接口电缆组件"
+      }
+    },
+    {
+      "brand": "Baxter",
+      "identifier": "206634",
+      "aliases": [],
+      "description": {
+        "en": "Medical equipment power cable assembly",
+        "zh": "医疗设备电源电缆组件"
+      }
+    },
+    {
+      "brand": "Baxter",
+      "identifier": "177355",
+      "aliases": [],
+      "description": {
+        "en": "Medical equipment interconnect cable assembly",
+        "zh": "医疗设备互连电缆组件"
+      }
+    },
+    {
+      "brand": "Amphenol Cables on Demand",
+      "identifier": "CS-DSPMHD15MM-006",
+      "aliases": [],
+      "description": {
+        "en": "HD15 shielded equipment interface cable",
+        "zh": "HD15屏蔽设备接口电缆组件"
+      }
+    },
+    {
+      "brand": "Amphenol Cables on Demand",
+      "identifier": "CS-DSPMDB09MM-001",
+      "aliases": [],
+      "description": {
+        "en": "DB9 shielded equipment interface cable",
+        "zh": "DB9屏蔽设备接口电缆组件"
+      }
+    },
+    {
+      "brand": "Baxter",
+      "identifier": "25020-063-50",
+      "aliases": [],
+      "description": {
+        "en": "Medical equipment power cable assembly",
+        "zh": "医疗设备电源电缆组件"
+      }
+    },
+    {
+      "brand": "Baxter",
+      "identifier": "SA1698",
+      "aliases": [],
+      "description": {
+        "en": "Medical equipment interconnect cable assembly",
+        "zh": "医疗设备互连电缆组件"
+      }
+    },
+    {
+      "brand": "Amphenol Cables on Demand",
+      "identifier": "CS-DSPMHD15MF-050",
+      "aliases": [],
+      "description": {
+        "en": "HD15 shielded equipment interface cable",
+        "zh": "HD15屏蔽设备接口电缆组件"
+      }
+    },
+    {
+      "brand": "Amphenol Cables on Demand",
+      "identifier": "CS-DSPMDB09MF-012",
+      "aliases": [],
+      "description": {
+        "en": "DB9 shielded equipment interface cable",
+        "zh": "DB9屏蔽设备接口电缆组件"
+      }
+    },
+    {
+      "brand": "Baxter",
+      "identifier": "035390-004",
+      "aliases": [],
+      "description": {
+        "en": "Medical equipment interconnect cable assembly",
+        "zh": "医疗设备互连电缆组件"
+      }
+    },
+    {
+      "brand": "Amphenol Cables on Demand",
+      "identifier": "CS-DSPMHD15MM-015",
+      "aliases": [],
+      "description": {
+        "en": "HD15 shielded equipment interface cable",
+        "zh": "HD15屏蔽设备接口电缆组件"
+      }
+    },
+    {
+      "brand": "Baxter",
+      "identifier": "25004-003-52",
+      "aliases": [],
+      "description": {
+        "en": "Medical equipment interconnect cable assembly",
+        "zh": "医疗设备互连电缆组件"
+      }
+    },
+    {
+      "brand": "Amphenol Cables on Demand",
+      "identifier": "CS-DSPMHD15MM-010",
+      "aliases": [],
+      "description": {
+        "en": "HD15 shielded equipment interface cable",
+        "zh": "HD15屏蔽设备接口电缆组件"
+      }
+    },
+    {
+      "brand": "Amphenol Cables on Demand",
+      "identifier": "CS-DSPMHD15MF-012",
+      "aliases": [],
+      "description": {
+        "en": "HD15 shielded equipment interface cable",
+        "zh": "HD15屏蔽设备接口电缆组件"
       }
     }
   ],
@@ -322,12 +439,48 @@
       }
     },
     {
+      "brand": "HELUKABEL",
+      "identifier": "86303",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220107",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
       "brand": "Teknor Apex",
       "identifier": "Medalist MD-84368",
       "aliases": [],
       "description": {
         "en": "TPE grade for medical cable jackets and molded connectors",
         "zh": "医疗线缆护套及连接器成型用TPE牌号"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86306",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220108",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
       }
     },
     {
@@ -340,12 +493,1146 @@
       }
     },
     {
+      "brand": "HELUKABEL",
+      "identifier": "86308",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220109",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
       "brand": "Teknor Apex",
       "identifier": "Medalist MD-84388",
       "aliases": [],
       "description": {
         "en": "TPE grade for medical cable jackets and molded connectors",
         "zh": "医疗线缆护套及连接器成型用TPE牌号"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86311",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220110",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86315",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220111",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86319",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220112",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86322",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220113",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86324",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220114",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86327",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "71220115",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86331",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "71220116",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86335",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "71220117",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86338",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "71220118",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86340",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "71220119",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86343",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "71220120",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86347",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "71220121",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86351",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "71220122",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86354",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220123",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86356",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220124",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86359",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220125",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86363",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220126",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86367",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220127",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86370",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220128",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86372",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220129",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86375",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220130",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86379",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "71220131",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "84903",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "71220132",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "84906",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "71220133",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "84908",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "71220134",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "84911",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "71220135",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "84915",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "71220136",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86383",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "71220137",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86386",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "71220138",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86388",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220139",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86391",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220140",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86395",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220141",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86399",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220142",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86402",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220143",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86404",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220144",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86407",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220145",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86411",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220146",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86415",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220147",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86418",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220148",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86420",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220149",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86423",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220150",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86427",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "71220151",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86463",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "71220152",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86466",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "71220153",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86468",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "71220154",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86471",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220155",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86475",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220156",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "84919",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220157",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "84922",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220158",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "84924",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220159",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "84927",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220160",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "84931",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220161",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "84951",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "73220162",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "84954",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "71220163",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "84956",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "71220164",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "84959",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "71220165",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "84963",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "71220166",
+      "aliases": [],
+      "description": {
+        "en": "PUR spiral power and control cable material",
+        "zh": "PUR螺旋电源与控制电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "84967",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "84970",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "84972",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "84975",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "84979",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86479",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86482",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86484",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86487",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "86491",
+      "aliases": [],
+      "description": {
+        "en": "Black PUR spiral cable material",
+        "zh": "黑色PUR螺旋电缆线材"
       }
     }
   ],
@@ -375,10 +1662,10 @@
       "en": "This is the verified subset for the category. The target of 200 finished models and 200 materials remains incomplete.",
       "zh": "此处为本类已核验子集，200个成品型号和200个材料料号的目标仍待继续补充。"
     },
-    "audit_id": "resume-cable-specialty-approved-manifest.json",
+    "audit_id": "next-wave/root-medical-cod-independent-audit.json + next-wave/coiled-medical-materials-independent-audit.json",
     "verified_counts": {
-      "products": 17,
-      "materials": 5
+      "products": 30,
+      "materials": 135
     },
     "target_status": "incomplete",
     "target_counts": {
