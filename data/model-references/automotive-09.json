@@ -525,6 +525,60 @@
         "en": "Weatherproof Universal Style Pre-Wired 20 Circuit Fuse Block",
         "zh": "继电器与配电线束"
       }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "HHC",
+      "aliases": [],
+      "description": {
+        "en": "Leaded inline ATC fuse-holder assembly",
+        "zh": "带引线ATC线内保险丝座组件"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "HHD",
+      "aliases": [],
+      "description": {
+        "en": "Leaded inline ATC fuse-holder assembly",
+        "zh": "带引线ATC线内保险丝座组件"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "HHF",
+      "aliases": [],
+      "description": {
+        "en": "Leaded inline ATC fuse-holder assembly",
+        "zh": "带引线ATC线内保险丝座组件"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "HHG",
+      "aliases": [],
+      "description": {
+        "en": "Leaded inline ATC fuse-holder assembly",
+        "zh": "带引线ATC线内保险丝座组件"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "HHR",
+      "aliases": [],
+      "description": {
+        "en": "Leaded inline ATC fuse-holder assembly",
+        "zh": "带引线ATC线内保险丝座组件"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ATC-FHID",
+      "aliases": [],
+      "description": {
+        "en": "Leaded inline ATC fuse-holder assembly",
+        "zh": "带引线ATC线内保险丝座组件"
+      }
     }
   ],
   "materials": [
@@ -1546,6 +1600,144 @@
       }
     },
     {
+      "brand": "Littelfuse",
+      "identifier": "0297002.LXN",
+      "aliases": [],
+      "description": {
+        "en": "MINI automotive blade fuse",
+        "zh": "MINI汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0891002.H",
+      "aliases": [],
+      "description": {
+        "en": "Low-profile MINI automotive blade fuse",
+        "zh": "低矮型MINI汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0257001.LXN",
+      "aliases": [],
+      "description": {
+        "en": "ATO automotive blade fuse",
+        "zh": "ATO汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "162.6185.4106",
+      "aliases": [],
+      "description": {
+        "en": "FKS ATO-style automotive blade fuse",
+        "zh": "FKS ATO式汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0299020.TXN",
+      "aliases": [],
+      "description": {
+        "en": "MAXI automotive blade fuse",
+        "zh": "MAXI汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "166.6885.5201",
+      "aliases": [],
+      "description": {
+        "en": "FK3 MAXI-style automotive blade fuse",
+        "zh": "FK3 MAXI式汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "153.5631.5301",
+      "aliases": [],
+      "description": {
+        "en": "BF1 automotive fuse",
+        "zh": "BF1汽车保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0298080.TXN",
+      "aliases": [],
+      "description": {
+        "en": "MEGA automotive bolt-down fuse",
+        "zh": "MEGA汽车螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0498030.TXN",
+      "aliases": [],
+      "description": {
+        "en": "0498-series automotive fuse",
+        "zh": "0498系列汽车保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "155.0892.5501",
+      "aliases": [],
+      "description": {
+        "en": "Compact automotive fuse",
+        "zh": "紧凑型汽车保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "156.5611.5301",
+      "aliases": [],
+      "description": {
+        "en": "Automotive fuse strip with housing",
+        "zh": "带壳汽车保险条"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "156.5610.5251",
+      "aliases": [],
+      "description": {
+        "en": "Automotive fuse strip without housing",
+        "zh": "无壳汽车保险条"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "156.5677.5301",
+      "aliases": [],
+      "description": {
+        "en": "HSB automotive fuse",
+        "zh": "HSB汽车保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ATC-1",
+      "aliases": [
+        "BK/ATC-1",
+        "BP/ATC-1-RP"
+      ],
+      "description": {
+        "en": "ATC automotive blade fuse",
+        "zh": "ATC汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "1A5600",
+      "aliases": [],
+      "description": {
+        "en": "PCB fuse clip for ATC automotive fuse",
+        "zh": "ATC汽车保险丝用PCB夹片"
+      }
+    },
+    {
       "brand": "American Autowire",
       "identifier": "04749164",
       "aliases": [],
@@ -1591,6 +1783,144 @@
       }
     },
     {
+      "brand": "Littelfuse",
+      "identifier": "0297003.LXN",
+      "aliases": [],
+      "description": {
+        "en": "MINI automotive blade fuse",
+        "zh": "MINI汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0891005.H",
+      "aliases": [],
+      "description": {
+        "en": "Low-profile MINI automotive blade fuse",
+        "zh": "低矮型MINI汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0257002.LXN",
+      "aliases": [],
+      "description": {
+        "en": "ATO automotive blade fuse",
+        "zh": "ATO汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "162.6185.4206",
+      "aliases": [],
+      "description": {
+        "en": "FKS ATO-style automotive blade fuse",
+        "zh": "FKS ATO式汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0299025.TXN",
+      "aliases": [],
+      "description": {
+        "en": "MAXI automotive blade fuse",
+        "zh": "MAXI汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "166.6885.5301",
+      "aliases": [],
+      "description": {
+        "en": "FK3 MAXI-style automotive blade fuse",
+        "zh": "FK3 MAXI式汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "153.5631.5401",
+      "aliases": [],
+      "description": {
+        "en": "BF1 automotive fuse",
+        "zh": "BF1汽车保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0298100.TXN",
+      "aliases": [],
+      "description": {
+        "en": "MEGA automotive bolt-down fuse",
+        "zh": "MEGA汽车螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0498040.TXN",
+      "aliases": [],
+      "description": {
+        "en": "0498-series automotive fuse",
+        "zh": "0498系列汽车保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "155.0892.5751",
+      "aliases": [],
+      "description": {
+        "en": "Compact automotive fuse",
+        "zh": "紧凑型汽车保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "156.5611.5401",
+      "aliases": [],
+      "description": {
+        "en": "Automotive fuse strip with housing",
+        "zh": "带壳汽车保险条"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "156.5610.5301",
+      "aliases": [],
+      "description": {
+        "en": "Automotive fuse strip without housing",
+        "zh": "无壳汽车保险条"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "156.5677.5401",
+      "aliases": [],
+      "description": {
+        "en": "HSB automotive fuse",
+        "zh": "HSB汽车保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ATC-2",
+      "aliases": [
+        "BK/ATC-2",
+        "BP/ATC-2-RP"
+      ],
+      "description": {
+        "en": "ATC automotive blade fuse",
+        "zh": "ATC汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "1A5780",
+      "aliases": [],
+      "description": {
+        "en": "PCB fuse clip for ATC automotive fuse",
+        "zh": "ATC汽车保险丝用PCB夹片"
+      }
+    },
+    {
       "brand": "American Autowire",
       "identifier": "04849850",
       "aliases": [],
@@ -1618,6 +1948,136 @@
       }
     },
     {
+      "brand": "Littelfuse",
+      "identifier": "0297004.LXN",
+      "aliases": [],
+      "description": {
+        "en": "MINI automotive blade fuse",
+        "zh": "MINI汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0891010.H",
+      "aliases": [],
+      "description": {
+        "en": "Low-profile MINI automotive blade fuse",
+        "zh": "低矮型MINI汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0257003.LXN",
+      "aliases": [],
+      "description": {
+        "en": "ATO automotive blade fuse",
+        "zh": "ATO汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "162.6185.4306",
+      "aliases": [],
+      "description": {
+        "en": "FKS ATO-style automotive blade fuse",
+        "zh": "FKS ATO式汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0299030.TXN",
+      "aliases": [],
+      "description": {
+        "en": "MAXI automotive blade fuse",
+        "zh": "MAXI汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "166.6885.5401",
+      "aliases": [],
+      "description": {
+        "en": "FK3 MAXI-style automotive blade fuse",
+        "zh": "FK3 MAXI式汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "153.5631.5501",
+      "aliases": [],
+      "description": {
+        "en": "BF1 automotive fuse",
+        "zh": "BF1汽车保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0298125.TXN",
+      "aliases": [],
+      "description": {
+        "en": "MEGA automotive bolt-down fuse",
+        "zh": "MEGA汽车螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0498050.TXN",
+      "aliases": [],
+      "description": {
+        "en": "0498-series automotive fuse",
+        "zh": "0498系列汽车保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "155.0892.6101",
+      "aliases": [],
+      "description": {
+        "en": "Compact automotive fuse",
+        "zh": "紧凑型汽车保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "156.5611.5501",
+      "aliases": [],
+      "description": {
+        "en": "Automotive fuse strip with housing",
+        "zh": "带壳汽车保险条"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "156.5610.5401",
+      "aliases": [],
+      "description": {
+        "en": "Automotive fuse strip without housing",
+        "zh": "无壳汽车保险条"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "156.5677.5501",
+      "aliases": [],
+      "description": {
+        "en": "HSB automotive fuse",
+        "zh": "HSB汽车保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ATC-3",
+      "aliases": [
+        "ATC-3RLD",
+        "BK/ATC-3",
+        "BP/ATC-3-RP"
+      ],
+      "description": {
+        "en": "ATC automotive blade fuse",
+        "zh": "ATC汽车插片保险丝"
+      }
+    },
+    {
       "brand": "American Autowire",
       "identifier": "500406",
       "aliases": [],
@@ -1636,12 +2096,1041 @@
       }
     },
     {
+      "brand": "Littelfuse",
+      "identifier": "0297005.LXN",
+      "aliases": [],
+      "description": {
+        "en": "MINI automotive blade fuse",
+        "zh": "MINI汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0891015.H",
+      "aliases": [],
+      "description": {
+        "en": "Low-profile MINI automotive blade fuse",
+        "zh": "低矮型MINI汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0257004.LXN",
+      "aliases": [],
+      "description": {
+        "en": "ATO automotive blade fuse",
+        "zh": "ATO汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "162.6185.4406",
+      "aliases": [],
+      "description": {
+        "en": "FKS ATO-style automotive blade fuse",
+        "zh": "FKS ATO式汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0299035.TXN",
+      "aliases": [],
+      "description": {
+        "en": "MAXI automotive blade fuse",
+        "zh": "MAXI汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "166.6885.5501",
+      "aliases": [],
+      "description": {
+        "en": "FK3 MAXI-style automotive blade fuse",
+        "zh": "FK3 MAXI式汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "153.5631.5601",
+      "aliases": [],
+      "description": {
+        "en": "BF1 automotive fuse",
+        "zh": "BF1汽车保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0298150.TXN",
+      "aliases": [],
+      "description": {
+        "en": "MEGA automotive bolt-down fuse",
+        "zh": "MEGA汽车螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0498060.TXN",
+      "aliases": [],
+      "description": {
+        "en": "0498-series automotive fuse",
+        "zh": "0498系列汽车保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "155.0892.6121",
+      "aliases": [],
+      "description": {
+        "en": "Compact automotive fuse",
+        "zh": "紧凑型汽车保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "156.5611.5601",
+      "aliases": [],
+      "description": {
+        "en": "Automotive fuse strip with housing",
+        "zh": "带壳汽车保险条"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "156.5610.5501",
+      "aliases": [],
+      "description": {
+        "en": "Automotive fuse strip without housing",
+        "zh": "无壳汽车保险条"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "156.5677.5601",
+      "aliases": [],
+      "description": {
+        "en": "HSB automotive fuse",
+        "zh": "HSB汽车保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ATC-4",
+      "aliases": [
+        "ATC-4RLD",
+        "BK/ATC-4",
+        "BP/ATC-4-RP"
+      ],
+      "description": {
+        "en": "ATC automotive blade fuse",
+        "zh": "ATC汽车插片保险丝"
+      }
+    },
+    {
       "brand": "American Autowire",
       "identifier": "37880",
       "aliases": [],
       "description": {
         "en": "Fuse/Flasher Kit - 22 Pcs",
         "zh": "保险丝与配电组件"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0297010.LXN",
+      "aliases": [],
+      "description": {
+        "en": "MINI automotive blade fuse",
+        "zh": "MINI汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0891020.H",
+      "aliases": [],
+      "description": {
+        "en": "Low-profile MINI automotive blade fuse",
+        "zh": "低矮型MINI汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0257005.LXN",
+      "aliases": [],
+      "description": {
+        "en": "ATO automotive blade fuse",
+        "zh": "ATO汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "162.6185.4506",
+      "aliases": [],
+      "description": {
+        "en": "FKS ATO-style automotive blade fuse",
+        "zh": "FKS ATO式汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0299040.TXN",
+      "aliases": [],
+      "description": {
+        "en": "MAXI automotive blade fuse",
+        "zh": "MAXI汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "169.6885.5201",
+      "aliases": [],
+      "description": {
+        "en": "FK3 MAXI-style automotive blade fuse",
+        "zh": "FK3 MAXI式汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "153.5631.5701",
+      "aliases": [],
+      "description": {
+        "en": "BF1 automotive fuse",
+        "zh": "BF1汽车保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0298175.TXN",
+      "aliases": [],
+      "description": {
+        "en": "MEGA automotive bolt-down fuse",
+        "zh": "MEGA汽车螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0498070.TXN",
+      "aliases": [],
+      "description": {
+        "en": "0498-series automotive fuse",
+        "zh": "0498系列汽车保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "155.0892.6151",
+      "aliases": [],
+      "description": {
+        "en": "Compact automotive fuse",
+        "zh": "紧凑型汽车保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "156.5611.5701",
+      "aliases": [],
+      "description": {
+        "en": "Automotive fuse strip with housing",
+        "zh": "带壳汽车保险条"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "156.5610.5601",
+      "aliases": [],
+      "description": {
+        "en": "Automotive fuse strip without housing",
+        "zh": "无壳汽车保险条"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "156.5677.5801",
+      "aliases": [],
+      "description": {
+        "en": "HSB automotive fuse",
+        "zh": "HSB汽车保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ATC-5",
+      "aliases": [
+        "ATC-5RLD",
+        "BK/ATC-5",
+        "BP/ATC-5-RP",
+        "VP/ATC-5RP"
+      ],
+      "description": {
+        "en": "ATC automotive blade fuse",
+        "zh": "ATC汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0297015.LXN",
+      "aliases": [],
+      "description": {
+        "en": "MINI automotive blade fuse",
+        "zh": "MINI汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0891025.H",
+      "aliases": [],
+      "description": {
+        "en": "Low-profile MINI automotive blade fuse",
+        "zh": "低矮型MINI汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0257010.LXN",
+      "aliases": [],
+      "description": {
+        "en": "ATO automotive blade fuse",
+        "zh": "ATO汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "162.6185.4756",
+      "aliases": [],
+      "description": {
+        "en": "FKS ATO-style automotive blade fuse",
+        "zh": "FKS ATO式汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0299050.TXN",
+      "aliases": [],
+      "description": {
+        "en": "MAXI automotive blade fuse",
+        "zh": "MAXI汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "169.6885.5301",
+      "aliases": [],
+      "description": {
+        "en": "FK3 MAXI-style automotive blade fuse",
+        "zh": "FK3 MAXI式汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "153.5631.5801",
+      "aliases": [],
+      "description": {
+        "en": "BF1 automotive fuse",
+        "zh": "BF1汽车保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0298200.TXN",
+      "aliases": [],
+      "description": {
+        "en": "MEGA automotive bolt-down fuse",
+        "zh": "MEGA汽车螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0498080.TXN",
+      "aliases": [],
+      "description": {
+        "en": "0498-series automotive fuse",
+        "zh": "0498系列汽车保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "155.0892.6171",
+      "aliases": [],
+      "description": {
+        "en": "Compact automotive fuse",
+        "zh": "紧凑型汽车保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "156.5611.5801",
+      "aliases": [],
+      "description": {
+        "en": "Automotive fuse strip with housing",
+        "zh": "带壳汽车保险条"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "156.5610.5701",
+      "aliases": [],
+      "description": {
+        "en": "Automotive fuse strip without housing",
+        "zh": "无壳汽车保险条"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "156.5677.6111",
+      "aliases": [],
+      "description": {
+        "en": "HSB automotive fuse",
+        "zh": "HSB汽车保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ATC-10",
+      "aliases": [
+        "ATC-10RLD",
+        "BK/ATC-10",
+        "BP/ATC-10-RP",
+        "VP/ATC-10-RP"
+      ],
+      "description": {
+        "en": "ATC automotive blade fuse",
+        "zh": "ATC汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0297020.LXN",
+      "aliases": [],
+      "description": {
+        "en": "MINI automotive blade fuse",
+        "zh": "MINI汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0891030.H",
+      "aliases": [],
+      "description": {
+        "en": "Low-profile MINI automotive blade fuse",
+        "zh": "低矮型MINI汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0257015.LXN",
+      "aliases": [],
+      "description": {
+        "en": "ATO automotive blade fuse",
+        "zh": "ATO汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "162.6185.5106",
+      "aliases": [],
+      "description": {
+        "en": "FKS ATO-style automotive blade fuse",
+        "zh": "FKS ATO式汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0299060.TXN",
+      "aliases": [],
+      "description": {
+        "en": "MAXI automotive blade fuse",
+        "zh": "MAXI汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "169.6885.5401",
+      "aliases": [],
+      "description": {
+        "en": "FK3 MAXI-style automotive blade fuse",
+        "zh": "FK3 MAXI式汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "153.5631.6101",
+      "aliases": [],
+      "description": {
+        "en": "BF1 automotive fuse",
+        "zh": "BF1汽车保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0298225.TXN",
+      "aliases": [],
+      "description": {
+        "en": "MEGA automotive bolt-down fuse",
+        "zh": "MEGA汽车螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0498100.TXN",
+      "aliases": [],
+      "description": {
+        "en": "0498-series automotive fuse",
+        "zh": "0498系列汽车保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "155.0892.6201",
+      "aliases": [],
+      "description": {
+        "en": "Compact automotive fuse",
+        "zh": "紧凑型汽车保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "156.5611.6101",
+      "aliases": [],
+      "description": {
+        "en": "Automotive fuse strip with housing",
+        "zh": "带壳汽车保险条"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "156.5610.5801",
+      "aliases": [],
+      "description": {
+        "en": "Automotive fuse strip without housing",
+        "zh": "无壳汽车保险条"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "156.5677.6151",
+      "aliases": [],
+      "description": {
+        "en": "HSB automotive fuse",
+        "zh": "HSB汽车保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ATC-15",
+      "aliases": [
+        "ATC-15RLD",
+        "BK/ATC-15",
+        "BP/ATC-15-RP",
+        "VP/ATC-15-RP"
+      ],
+      "description": {
+        "en": "ATC automotive blade fuse",
+        "zh": "ATC汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0297025.LXN",
+      "aliases": [],
+      "description": {
+        "en": "MINI automotive blade fuse",
+        "zh": "MINI汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0257020.LXN",
+      "aliases": [],
+      "description": {
+        "en": "ATO automotive blade fuse",
+        "zh": "ATO汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "162.6185.5156",
+      "aliases": [],
+      "description": {
+        "en": "FKS ATO-style automotive blade fuse",
+        "zh": "FKS ATO式汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0299070.TXN",
+      "aliases": [],
+      "description": {
+        "en": "MAXI automotive blade fuse",
+        "zh": "MAXI汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "169.6885.5501",
+      "aliases": [],
+      "description": {
+        "en": "FK3 MAXI-style automotive blade fuse",
+        "zh": "FK3 MAXI式汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "153.5631.6121",
+      "aliases": [],
+      "description": {
+        "en": "BF1 automotive fuse",
+        "zh": "BF1汽车保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0298250.TXN",
+      "aliases": [],
+      "description": {
+        "en": "MEGA automotive bolt-down fuse",
+        "zh": "MEGA汽车螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0498125.TXN",
+      "aliases": [],
+      "description": {
+        "en": "0498-series automotive fuse",
+        "zh": "0498系列汽车保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "155.0892.6251",
+      "aliases": [],
+      "description": {
+        "en": "Compact automotive fuse",
+        "zh": "紧凑型汽车保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "156.5611.6111",
+      "aliases": [],
+      "description": {
+        "en": "Automotive fuse strip with housing",
+        "zh": "带壳汽车保险条"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "156.5610.6101",
+      "aliases": [],
+      "description": {
+        "en": "Automotive fuse strip without housing",
+        "zh": "无壳汽车保险条"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ATC-20",
+      "aliases": [
+        "ATC-20RLD",
+        "BK/ATC-20",
+        "BP/ATC-20-RP",
+        "VP/ATC-20-RP"
+      ],
+      "description": {
+        "en": "ATC automotive blade fuse",
+        "zh": "ATC汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0297030.LXN",
+      "aliases": [],
+      "description": {
+        "en": "MINI automotive blade fuse",
+        "zh": "MINI汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0257025.LXN",
+      "aliases": [],
+      "description": {
+        "en": "ATO automotive blade fuse",
+        "zh": "ATO汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "162.6185.5206",
+      "aliases": [],
+      "description": {
+        "en": "FKS ATO-style automotive blade fuse",
+        "zh": "FKS ATO式汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0299080.TXN",
+      "aliases": [],
+      "description": {
+        "en": "MAXI automotive blade fuse",
+        "zh": "MAXI汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "169.6885.5601",
+      "aliases": [],
+      "description": {
+        "en": "FK3 MAXI-style automotive blade fuse",
+        "zh": "FK3 MAXI式汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "153.5631.6151",
+      "aliases": [],
+      "description": {
+        "en": "BF1 automotive fuse",
+        "zh": "BF1汽车保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0298300.TXN",
+      "aliases": [],
+      "description": {
+        "en": "MEGA automotive bolt-down fuse",
+        "zh": "MEGA汽车螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0498150.TXN",
+      "aliases": [],
+      "description": {
+        "en": "0498-series automotive fuse",
+        "zh": "0498系列汽车保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "155.0892.6301",
+      "aliases": [],
+      "description": {
+        "en": "Compact automotive fuse",
+        "zh": "紧凑型汽车保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "156.5611.6121",
+      "aliases": [],
+      "description": {
+        "en": "Automotive fuse strip with housing",
+        "zh": "带壳汽车保险条"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "156.5610.6111",
+      "aliases": [],
+      "description": {
+        "en": "Automotive fuse strip without housing",
+        "zh": "无壳汽车保险条"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ATC-25",
+      "aliases": [
+        "ATC-25RLD",
+        "BK/ATC-25",
+        "BP/ATC-25-RP",
+        "VP/ATC-25-RP"
+      ],
+      "description": {
+        "en": "ATC automotive blade fuse",
+        "zh": "ATC汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0257030.LXN",
+      "aliases": [],
+      "description": {
+        "en": "ATO automotive blade fuse",
+        "zh": "ATO汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "162.6185.5256",
+      "aliases": [],
+      "description": {
+        "en": "FKS ATO-style automotive blade fuse",
+        "zh": "FKS ATO式汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "169.6885.5701",
+      "aliases": [],
+      "description": {
+        "en": "FK3 MAXI-style automotive blade fuse",
+        "zh": "FK3 MAXI式汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0298350.TXN",
+      "aliases": [],
+      "description": {
+        "en": "MEGA automotive bolt-down fuse",
+        "zh": "MEGA汽车螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0498200.TXN",
+      "aliases": [],
+      "description": {
+        "en": "0498-series automotive fuse",
+        "zh": "0498系列汽车保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "156.5611.6151",
+      "aliases": [],
+      "description": {
+        "en": "Automotive fuse strip with housing",
+        "zh": "带壳汽车保险条"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "156.5610.6121",
+      "aliases": [],
+      "description": {
+        "en": "Automotive fuse strip without housing",
+        "zh": "无壳汽车保险条"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ATC-30",
+      "aliases": [
+        "ATC-30RLD",
+        "BK/ATC-30",
+        "BP/ATC-30-RP",
+        "VP/ATC-30-RP"
+      ],
+      "description": {
+        "en": "ATC automotive blade fuse",
+        "zh": "ATC汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0257035.LXN",
+      "aliases": [],
+      "description": {
+        "en": "ATO automotive blade fuse",
+        "zh": "ATO汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "162.6185.5306",
+      "aliases": [],
+      "description": {
+        "en": "FKS ATO-style automotive blade fuse",
+        "zh": "FKS ATO式汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "169.6885.5801",
+      "aliases": [],
+      "description": {
+        "en": "FK3 MAXI-style automotive blade fuse",
+        "zh": "FK3 MAXI式汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0298400.TXN",
+      "aliases": [],
+      "description": {
+        "en": "MEGA automotive bolt-down fuse",
+        "zh": "MEGA汽车螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "156.5610.6151",
+      "aliases": [],
+      "description": {
+        "en": "Automotive fuse strip without housing",
+        "zh": "无壳汽车保险条"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ATC-35",
+      "aliases": [
+        "BK/ATC-35"
+      ],
+      "description": {
+        "en": "ATC automotive blade fuse",
+        "zh": "ATC汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0257040.LXN",
+      "aliases": [],
+      "description": {
+        "en": "ATO automotive blade fuse",
+        "zh": "ATO汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "162.6185.5356",
+      "aliases": [],
+      "description": {
+        "en": "FKS ATO-style automotive blade fuse",
+        "zh": "FKS ATO式汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "169.6885.6101",
+      "aliases": [],
+      "description": {
+        "en": "FK3 MAXI-style automotive blade fuse",
+        "zh": "FK3 MAXI式汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0298450.TXN",
+      "aliases": [],
+      "description": {
+        "en": "MEGA automotive bolt-down fuse",
+        "zh": "MEGA汽车螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Eaton Bussmann",
+      "identifier": "ATC-40",
+      "aliases": [
+        "BK/ATC-40",
+        "BP/ATC-40-RP"
+      ],
+      "description": {
+        "en": "ATC automotive blade fuse",
+        "zh": "ATC汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "162.6185.5406",
+      "aliases": [],
+      "description": {
+        "en": "FKS ATO-style automotive blade fuse",
+        "zh": "FKS ATO式汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "0298500.TXN",
+      "aliases": [],
+      "description": {
+        "en": "MEGA automotive bolt-down fuse",
+        "zh": "MEGA汽车螺栓安装保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "166.7000.4306",
+      "aliases": [],
+      "description": {
+        "en": "FKS ATO-style automotive blade fuse",
+        "zh": "FKS ATO式汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "166.7000.4406",
+      "aliases": [],
+      "description": {
+        "en": "FKS ATO-style automotive blade fuse",
+        "zh": "FKS ATO式汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "166.7000.4506",
+      "aliases": [],
+      "description": {
+        "en": "FKS ATO-style automotive blade fuse",
+        "zh": "FKS ATO式汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "166.7000.4756",
+      "aliases": [],
+      "description": {
+        "en": "FKS ATO-style automotive blade fuse",
+        "zh": "FKS ATO式汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "166.7000.5106",
+      "aliases": [],
+      "description": {
+        "en": "FKS ATO-style automotive blade fuse",
+        "zh": "FKS ATO式汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "166.7000.5156",
+      "aliases": [],
+      "description": {
+        "en": "FKS ATO-style automotive blade fuse",
+        "zh": "FKS ATO式汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "166.7000.5206",
+      "aliases": [],
+      "description": {
+        "en": "FKS ATO-style automotive blade fuse",
+        "zh": "FKS ATO式汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "166.7000.5256",
+      "aliases": [],
+      "description": {
+        "en": "FKS ATO-style automotive blade fuse",
+        "zh": "FKS ATO式汽车插片保险丝"
+      }
+    },
+    {
+      "brand": "Littelfuse",
+      "identifier": "166.7000.5306",
+      "aliases": [],
+      "description": {
+        "en": "FKS ATO-style automotive blade fuse",
+        "zh": "FKS ATO式汽车插片保险丝"
       }
     }
   ],
@@ -1668,13 +3157,13 @@
     "approved": true,
     "kind": "audited_subset",
     "reason": {
-      "en": "Application-specific references are shown at their audited counts. Materials require their own category evidence and are not assumed to be the BOM of every listed assembly. This verified subset does not yet meet the target of 200 finished models and 200 material part numbers.",
-      "zh": "应用专用编号按核验的实际数量展示；材料须有独立类别依据，不将其视为每件成品的通用 BOM。 此处为已核验子集，200个成品型号和200个材料料号的目标仍待补充。"
+      "en": "This is the verified subset for the category. The target of 200 finished models and 200 materials remains incomplete.",
+      "zh": "此处为本类已核验子集，200个成品型号和200个材料料号的目标仍待继续补充。"
     },
-    "audit_id": "automotive-validated/automotive-09.json",
+    "audit_id": "next-wave/third-wave/fifth-wave/relay-fuse/automotive-09-relay-fuse-fifth-wave-independent-audit.json",
     "verified_counts": {
-      "products": 42,
-      "materials": 124
+      "products": 48,
+      "materials": 278
     },
     "target_status": "incomplete",
     "target_counts": {
