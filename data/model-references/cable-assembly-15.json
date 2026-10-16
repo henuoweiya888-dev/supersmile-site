@@ -323,56 +323,560 @@
     },
     {
       "brand": "LAPP",
-      "identifier": "381166699",
-      "aliases": [],
-      "description": {
-        "en": "Solar connector component",
-        "zh": "光伏连接器材料"
-      }
-    },
-    {
-      "brand": "LAPP",
-      "identifier": "44428268",
-      "aliases": [],
-      "description": {
-        "en": "Solar connector component",
-        "zh": "光伏连接器材料"
-      }
-    },
-    {
-      "brand": "LAPP",
-      "identifier": "44428269",
-      "aliases": [],
-      "description": {
-        "en": "Solar connector component",
-        "zh": "光伏连接器材料"
-      }
-    },
-    {
-      "brand": "LAPP",
-      "identifier": "381166810",
-      "aliases": [],
-      "description": {
-        "en": "Solar connector component",
-        "zh": "光伏连接器材料"
-      }
-    },
-    {
-      "brand": "LAPP",
-      "identifier": "381166811",
-      "aliases": [],
-      "description": {
-        "en": "Solar connector component",
-        "zh": "光伏连接器材料"
-      }
-    },
-    {
-      "brand": "LAPP",
       "identifier": "44428272",
       "aliases": [],
       "description": {
         "en": "Solar connector contact",
         "zh": "光伏连接器触点"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428275",
+      "aliases": [],
+      "description": {
+        "en": "Solar branch connector component",
+        "zh": "光伏分支连接器材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "713544",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 2.5 mm², blue",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，2.5 mm²，蓝色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "713543",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 2.5 mm², red",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，2.5 mm²，红色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "713529",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 2.5 mm², black",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，2.5 mm²，黑色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "713546",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 4 mm², blue",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，4 mm²，蓝色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "713545",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 4 mm², red",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，4 mm²，红色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "713530",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 4 mm², black",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，4 mm²，黑色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "713570",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 6 mm², blue",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，6 mm²，蓝色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "713569",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 6 mm², red",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，6 mm²，红色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "713531",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 6 mm², black",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，6 mm²，黑色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "713572",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 10 mm², blue",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，10 mm²，蓝色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "713571",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 10 mm², red",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，10 mm²，红色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "713532",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 10 mm², black",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，10 mm²，黑色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022069",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 16 mm², blue",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，16 mm²，蓝色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022068",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 16 mm², red",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，16 mm²，红色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022067",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 16 mm², black",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，16 mm²，黑色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022072",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 25 mm², blue",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，25 mm²，蓝色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022071",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 25 mm², red",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，25 mm²，红色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022070",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 25 mm², black",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，25 mm²，黑色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022075",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 35 mm², blue",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，35 mm²，蓝色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022074",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 35 mm², red",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，35 mm²，红色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022073",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 35 mm², black",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，35 mm²，黑色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022078",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 50 mm², blue",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，50 mm²，蓝色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022077",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 50 mm², red",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，50 mm²，红色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022076",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 50 mm², black",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，50 mm²，黑色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022081",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 70 mm², blue",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，70 mm²，蓝色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022080",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 70 mm², red",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，70 mm²，红色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022079",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 70 mm², black",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，70 mm²，黑色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022084",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 95 mm², blue",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，95 mm²，蓝色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022083",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 95 mm², red",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，95 mm²，红色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022082",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 95 mm², black",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，95 mm²，黑色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022087",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 120 mm², blue",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，120 mm²，蓝色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022086",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 120 mm², red",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，120 mm²，红色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022085",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 120 mm², black",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，120 mm²，黑色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022090",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 150 mm², blue",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，150 mm²，蓝色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022089",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 150 mm², red",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，150 mm²，红色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022088",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 150 mm², black",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，150 mm²，黑色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022093",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 185 mm², blue",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，185 mm²，蓝色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022092",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 185 mm², red",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，185 mm²，红色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022091",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 185 mm², black",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，185 mm²，黑色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022096",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 240 mm², blue",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，240 mm²，蓝色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022095",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 240 mm², red",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，240 mm²，红色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022094",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K solar wire, 240 mm², black",
+        "zh": "SOLARFLEX H1Z2Z2-K 光伏线材，240 mm²，黑色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022800",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K NTS solar wire, 4 mm², blue",
+        "zh": "SOLARFLEX H1Z2Z2-K NTS 光伏线材，4 mm²，蓝色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022803",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K NTS solar wire, 4 mm², red",
+        "zh": "SOLARFLEX H1Z2Z2-K NTS 光伏线材，4 mm²，红色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "17000101",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K NTS solar wire, 4 mm², black",
+        "zh": "SOLARFLEX H1Z2Z2-K NTS 光伏线材，4 mm²，黑色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022801",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K NTS solar wire, 6 mm², blue",
+        "zh": "SOLARFLEX H1Z2Z2-K NTS 光伏线材，6 mm²，蓝色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022804",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K NTS solar wire, 6 mm², red",
+        "zh": "SOLARFLEX H1Z2Z2-K NTS 光伏线材，6 mm²，红色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "17000102",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K NTS solar wire, 6 mm², black",
+        "zh": "SOLARFLEX H1Z2Z2-K NTS 光伏线材，6 mm²，黑色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022802",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K NTS solar wire, 10 mm², blue",
+        "zh": "SOLARFLEX H1Z2Z2-K NTS 光伏线材，10 mm²，蓝色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022805",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K NTS solar wire, 10 mm², red",
+        "zh": "SOLARFLEX H1Z2Z2-K NTS 光伏线材，10 mm²，红色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "17000103",
+      "aliases": [],
+      "description": {
+        "en": "SOLARFLEX H1Z2Z2-K NTS solar wire, 10 mm², black",
+        "zh": "SOLARFLEX H1Z2Z2-K NTS 光伏线材，10 mm²，黑色"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11025147",
+      "aliases": [],
+      "description": {
+        "en": "HELUPOWER SOLARFLEX H1Z2Z2-K UL solar wire, 4 mm²",
+        "zh": "HELUPOWER SOLARFLEX H1Z2Z2-K UL 光伏线材，4 mm²"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11025148",
+      "aliases": [],
+      "description": {
+        "en": "HELUPOWER SOLARFLEX H1Z2Z2-K UL solar wire, 6 mm²",
+        "zh": "HELUPOWER SOLARFLEX H1Z2Z2-K UL 光伏线材，6 mm²"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11025149",
+      "aliases": [],
+      "description": {
+        "en": "HELUPOWER SOLARFLEX H1Z2Z2-K UL solar wire, 10 mm²",
+        "zh": "HELUPOWER SOLARFLEX H1Z2Z2-K UL 光伏线材，10 mm²"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "905206",
+      "aliases": [],
+      "description": {
+        "en": "PV coupling connector component",
+        "zh": "光伏对接连接器组件"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "905228",
+      "aliases": [],
+      "description": {
+        "en": "PV branch connector component",
+        "zh": "光伏分支连接器组件"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "905241",
+      "aliases": [],
+      "description": {
+        "en": "PV-installation cable gland",
+        "zh": "光伏布线电缆接头"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "90061",
+      "aliases": [],
+      "description": {
+        "en": "PV-installation cable protection conduit",
+        "zh": "光伏布线防护软管"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "38115808",
+      "aliases": [],
+      "description": {
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166699",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
       }
     },
     {
@@ -386,52 +890,61 @@
     },
     {
       "brand": "LAPP",
-      "identifier": "381166461",
+      "identifier": "44428274",
       "aliases": [],
       "description": {
-        "en": "Solar connector component",
-        "zh": "光伏连接器材料"
+        "en": "Solar branch connector component",
+        "zh": "光伏分支连接器材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "905208",
+      "aliases": [],
+      "description": {
+        "en": "PV coupling connector component",
+        "zh": "光伏对接连接器组件"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "905229",
+      "aliases": [],
+      "description": {
+        "en": "PV branch connector component",
+        "zh": "光伏分支连接器组件"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "905242",
+      "aliases": [],
+      "description": {
+        "en": "PV-installation cable gland",
+        "zh": "光伏布线电缆接头"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "90064",
+      "aliases": [],
+      "description": {
+        "en": "PV-installation cable protection conduit",
+        "zh": "光伏布线防护软管"
       }
     },
     {
       "brand": "LAPP",
-      "identifier": "381166462",
+      "identifier": "85120812",
       "aliases": [],
       "description": {
-        "en": "Solar connector component",
-        "zh": "光伏连接器材料"
+        "en": "Solar cable material",
+        "zh": "光伏线缆材料"
       }
     },
     {
       "brand": "LAPP",
-      "identifier": "44428201",
-      "aliases": [],
-      "description": {
-        "en": "Solar connector component",
-        "zh": "光伏连接器材料"
-      }
-    },
-    {
-      "brand": "LAPP",
-      "identifier": "44428200",
-      "aliases": [],
-      "description": {
-        "en": "Solar connector component",
-        "zh": "光伏连接器材料"
-      }
-    },
-    {
-      "brand": "LAPP",
-      "identifier": "44428204",
-      "aliases": [],
-      "description": {
-        "en": "Solar connector component",
-        "zh": "光伏连接器材料"
-      }
-    },
-    {
-      "brand": "LAPP",
-      "identifier": "44428203",
+      "identifier": "44428268",
       "aliases": [],
       "description": {
         "en": "Solar connector component",
@@ -449,33 +962,6 @@
     },
     {
       "brand": "LAPP",
-      "identifier": "44428219",
-      "aliases": [],
-      "description": {
-        "en": "Solar connector contact",
-        "zh": "光伏连接器触点"
-      }
-    },
-    {
-      "brand": "LAPP",
-      "identifier": "44428275",
-      "aliases": [],
-      "description": {
-        "en": "Solar branch connector component",
-        "zh": "光伏分支连接器材料"
-      }
-    },
-    {
-      "brand": "LAPP",
-      "identifier": "44428274",
-      "aliases": [],
-      "description": {
-        "en": "Solar branch connector component",
-        "zh": "光伏分支连接器材料"
-      }
-    },
-    {
-      "brand": "LAPP",
       "identifier": "44428227",
       "aliases": [],
       "description": {
@@ -484,30 +970,39 @@
       }
     },
     {
-      "brand": "LAPP",
-      "identifier": "44428226",
+      "brand": "HELUKABEL",
+      "identifier": "905210",
       "aliases": [],
       "description": {
-        "en": "Solar branch connector component",
-        "zh": "光伏分支连接器材料"
+        "en": "PV coupling connector component",
+        "zh": "光伏对接连接器组件"
       }
     },
     {
-      "brand": "LAPP",
-      "identifier": "38115808",
+      "brand": "HELUKABEL",
+      "identifier": "905226",
       "aliases": [],
       "description": {
-        "en": "Solar cable material",
-        "zh": "光伏线缆材料"
+        "en": "PV branch connector component",
+        "zh": "光伏分支连接器组件"
       }
     },
     {
-      "brand": "LAPP",
-      "identifier": "85120812",
+      "brand": "HELUKABEL",
+      "identifier": "93937",
       "aliases": [],
       "description": {
-        "en": "Solar cable material",
-        "zh": "光伏线缆材料"
+        "en": "PV-installation cable gland",
+        "zh": "光伏布线电缆接头"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "90062",
+      "aliases": [],
+      "description": {
+        "en": "PV-installation cable protection conduit",
+        "zh": "光伏布线防护软管"
       }
     },
     {
@@ -521,11 +1016,119 @@
     },
     {
       "brand": "LAPP",
+      "identifier": "44428269",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428219",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector contact",
+        "zh": "光伏连接器触点"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428226",
+      "aliases": [],
+      "description": {
+        "en": "Solar branch connector component",
+        "zh": "光伏分支连接器材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "904963",
+      "aliases": [],
+      "description": {
+        "en": "PV coupling connector component",
+        "zh": "光伏对接连接器组件"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "905227",
+      "aliases": [],
+      "description": {
+        "en": "PV branch connector component",
+        "zh": "光伏分支连接器组件"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "92669",
+      "aliases": [],
+      "description": {
+        "en": "PV-installation cable gland",
+        "zh": "光伏布线电缆接头"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "90065",
+      "aliases": [],
+      "description": {
+        "en": "PV-installation cable protection conduit",
+        "zh": "光伏布线防护软管"
+      }
+    },
+    {
+      "brand": "LAPP",
       "identifier": "85120813",
       "aliases": [],
       "description": {
         "en": "Solar cable material",
         "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166810",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428217",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector contact",
+        "zh": "光伏连接器触点"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "905863",
+      "aliases": [],
+      "description": {
+        "en": "PV coupling connector component",
+        "zh": "光伏对接连接器组件"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "93939",
+      "aliases": [],
+      "description": {
+        "en": "PV-installation cable gland",
+        "zh": "光伏布线电缆接头"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "90063",
+      "aliases": [],
+      "description": {
+        "en": "PV-installation cable protection conduit",
+        "zh": "光伏布线防护软管"
       }
     },
     {
@@ -539,11 +1142,101 @@
     },
     {
       "brand": "LAPP",
+      "identifier": "381166811",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428240",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector contact",
+        "zh": "光伏连接器触点"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "905207",
+      "aliases": [],
+      "description": {
+        "en": "PV coupling connector component",
+        "zh": "光伏对接连接器组件"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "93940",
+      "aliases": [],
+      "description": {
+        "en": "PV-installation cable gland",
+        "zh": "光伏布线电缆接头"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "906156",
+      "aliases": [],
+      "description": {
+        "en": "PV-installation cable protection conduit",
+        "zh": "光伏布线防护软管"
+      }
+    },
+    {
+      "brand": "LAPP",
       "identifier": "85120857",
       "aliases": [],
       "description": {
         "en": "Solar cable material",
         "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "381166461",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428220",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector contact",
+        "zh": "光伏连接器触点"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "905209",
+      "aliases": [],
+      "description": {
+        "en": "PV coupling connector component",
+        "zh": "光伏对接连接器组件"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "93941",
+      "aliases": [],
+      "description": {
+        "en": "PV-installation cable gland",
+        "zh": "光伏布线电缆接头"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "906161",
+      "aliases": [],
+      "description": {
+        "en": "PV-installation cable protection conduit",
+        "zh": "光伏布线防护软管"
       }
     },
     {
@@ -557,11 +1250,92 @@
     },
     {
       "brand": "LAPP",
+      "identifier": "381166462",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428218",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector contact",
+        "zh": "光伏连接器触点"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "905211",
+      "aliases": [],
+      "description": {
+        "en": "PV coupling connector component",
+        "zh": "光伏对接连接器组件"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "93942",
+      "aliases": [],
+      "description": {
+        "en": "PV-installation cable gland",
+        "zh": "光伏布线电缆接头"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "906157",
+      "aliases": [],
+      "description": {
+        "en": "PV-installation cable protection conduit",
+        "zh": "光伏布线防护软管"
+      }
+    },
+    {
+      "brand": "LAPP",
       "identifier": "85120805",
       "aliases": [],
       "description": {
         "en": "Solar cable material",
         "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428201",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "904964",
+      "aliases": [],
+      "description": {
+        "en": "PV coupling connector component",
+        "zh": "光伏对接连接器组件"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "93943",
+      "aliases": [],
+      "description": {
+        "en": "PV-installation cable gland",
+        "zh": "光伏布线电缆接头"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "906162",
+      "aliases": [],
+      "description": {
+        "en": "PV-installation cable protection conduit",
+        "zh": "光伏布线防护软管"
       }
     },
     {
@@ -575,11 +1349,74 @@
     },
     {
       "brand": "LAPP",
+      "identifier": "44428200",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "905864",
+      "aliases": [],
+      "description": {
+        "en": "PV coupling connector component",
+        "zh": "光伏对接连接器组件"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "93944",
+      "aliases": [],
+      "description": {
+        "en": "PV-installation cable gland",
+        "zh": "光伏布线电缆接头"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "906158",
+      "aliases": [],
+      "description": {
+        "en": "PV-installation cable protection conduit",
+        "zh": "光伏布线防护软管"
+      }
+    },
+    {
+      "brand": "LAPP",
       "identifier": "85120815",
       "aliases": [],
       "description": {
         "en": "Solar cable material",
         "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428204",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "905593",
+      "aliases": [],
+      "description": {
+        "en": "PV coupling connector component",
+        "zh": "光伏对接连接器组件"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "906163",
+      "aliases": [],
+      "description": {
+        "en": "PV-installation cable protection conduit",
+        "zh": "光伏布线防护软管"
       }
     },
     {
@@ -593,11 +1430,65 @@
     },
     {
       "brand": "LAPP",
+      "identifier": "44428203",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "905595",
+      "aliases": [],
+      "description": {
+        "en": "PV coupling connector component",
+        "zh": "光伏对接连接器组件"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "906159",
+      "aliases": [],
+      "description": {
+        "en": "PV-installation cable protection conduit",
+        "zh": "光伏布线防护软管"
+      }
+    },
+    {
+      "brand": "LAPP",
       "identifier": "85120810",
       "aliases": [],
       "description": {
         "en": "Solar cable material",
         "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428255",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "905937",
+      "aliases": [],
+      "description": {
+        "en": "PV coupling connector component",
+        "zh": "光伏对接连接器组件"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "906164",
+      "aliases": [],
+      "description": {
+        "en": "PV-installation cable protection conduit",
+        "zh": "光伏布线防护软管"
       }
     },
     {
@@ -611,11 +1502,56 @@
     },
     {
       "brand": "LAPP",
+      "identifier": "44428260",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "905594",
+      "aliases": [],
+      "description": {
+        "en": "PV coupling connector component",
+        "zh": "光伏对接连接器组件"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "906160",
+      "aliases": [],
+      "description": {
+        "en": "PV-installation cable protection conduit",
+        "zh": "光伏布线防护软管"
+      }
+    },
+    {
+      "brand": "LAPP",
       "identifier": "85120915",
       "aliases": [],
       "description": {
         "en": "Solar cable material",
         "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428262",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "905596",
+      "aliases": [],
+      "description": {
+        "en": "PV coupling connector component",
+        "zh": "光伏对接连接器组件"
       }
     },
     {
@@ -629,11 +1565,47 @@
     },
     {
       "brand": "LAPP",
+      "identifier": "44428237",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "905938",
+      "aliases": [],
+      "description": {
+        "en": "PV coupling connector component",
+        "zh": "光伏对接连接器组件"
+      }
+    },
+    {
+      "brand": "LAPP",
       "identifier": "85120863",
       "aliases": [],
       "description": {
         "en": "Solar cable material",
         "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428235",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "905202",
+      "aliases": [],
+      "description": {
+        "en": "PV coupling connector component",
+        "zh": "光伏对接连接器组件"
       }
     },
     {
@@ -647,11 +1619,47 @@
     },
     {
       "brand": "LAPP",
+      "identifier": "44428233",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "905204",
+      "aliases": [],
+      "description": {
+        "en": "PV coupling connector component",
+        "zh": "光伏对接连接器组件"
+      }
+    },
+    {
+      "brand": "LAPP",
       "identifier": "85120811",
       "aliases": [],
       "description": {
         "en": "Solar cable material",
         "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428263",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "904955",
+      "aliases": [],
+      "description": {
+        "en": "PV coupling connector component",
+        "zh": "光伏对接连接器组件"
       }
     },
     {
@@ -665,11 +1673,47 @@
     },
     {
       "brand": "LAPP",
+      "identifier": "44428261",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "904957",
+      "aliases": [],
+      "description": {
+        "en": "PV coupling connector component",
+        "zh": "光伏对接连接器组件"
+      }
+    },
+    {
+      "brand": "LAPP",
       "identifier": "85120854",
       "aliases": [],
       "description": {
         "en": "Solar cable material",
         "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428238",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "905203",
+      "aliases": [],
+      "description": {
+        "en": "PV coupling connector component",
+        "zh": "光伏对接连接器组件"
       }
     },
     {
@@ -683,11 +1727,47 @@
     },
     {
       "brand": "LAPP",
+      "identifier": "44428236",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "905205",
+      "aliases": [],
+      "description": {
+        "en": "PV coupling connector component",
+        "zh": "光伏对接连接器组件"
+      }
+    },
+    {
+      "brand": "LAPP",
       "identifier": "85120859",
       "aliases": [],
       "description": {
         "en": "Solar cable material",
         "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "LAPP",
+      "identifier": "44428234",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector component",
+        "zh": "光伏连接器材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "904956",
+      "aliases": [],
+      "description": {
+        "en": "PV coupling connector component",
+        "zh": "光伏对接连接器组件"
       }
     },
     {
@@ -700,12 +1780,30 @@
       }
     },
     {
+      "brand": "HELUKABEL",
+      "identifier": "904958",
+      "aliases": [],
+      "description": {
+        "en": "PV coupling connector component",
+        "zh": "光伏对接连接器组件"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "85120904",
       "aliases": [],
       "description": {
         "en": "Solar cable material",
         "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "905244",
+      "aliases": [],
+      "description": {
+        "en": "PV coupling connector component",
+        "zh": "光伏对接连接器组件"
       }
     },
     {
@@ -718,12 +1816,30 @@
       }
     },
     {
+      "brand": "HELUKABEL",
+      "identifier": "905246",
+      "aliases": [],
+      "description": {
+        "en": "PV coupling connector component",
+        "zh": "光伏对接连接器组件"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "85120914",
       "aliases": [],
       "description": {
         "en": "Solar cable material",
         "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "904959",
+      "aliases": [],
+      "description": {
+        "en": "PV coupling connector component",
+        "zh": "光伏对接连接器组件"
       }
     },
     {
@@ -736,12 +1852,30 @@
       }
     },
     {
+      "brand": "HELUKABEL",
+      "identifier": "904961",
+      "aliases": [],
+      "description": {
+        "en": "PV coupling connector component",
+        "zh": "光伏对接连接器组件"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "85120901",
       "aliases": [],
       "description": {
         "en": "Solar cable material",
         "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "905245",
+      "aliases": [],
+      "description": {
+        "en": "PV coupling connector component",
+        "zh": "光伏对接连接器组件"
       }
     },
     {
@@ -754,12 +1888,30 @@
       }
     },
     {
+      "brand": "HELUKABEL",
+      "identifier": "905247",
+      "aliases": [],
+      "description": {
+        "en": "PV coupling connector component",
+        "zh": "光伏对接连接器组件"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "85120802",
       "aliases": [],
       "description": {
         "en": "Solar cable material",
         "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "904960",
+      "aliases": [],
+      "description": {
+        "en": "PV coupling connector component",
+        "zh": "光伏对接连接器组件"
       }
     },
     {
@@ -772,6 +1924,15 @@
       }
     },
     {
+      "brand": "HELUKABEL",
+      "identifier": "904962",
+      "aliases": [],
+      "description": {
+        "en": "PV coupling connector component",
+        "zh": "光伏对接连接器组件"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "85120855",
       "aliases": [],
@@ -781,12 +1942,30 @@
       }
     },
     {
+      "brand": "HELUKABEL",
+      "identifier": "909165",
+      "aliases": [],
+      "description": {
+        "en": "PV coupling connector component",
+        "zh": "光伏对接连接器组件"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "85120808",
       "aliases": [],
       "description": {
         "en": "Solar cable material",
         "zh": "光伏线缆材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "906166",
+      "aliases": [],
+      "description": {
+        "en": "PV coupling connector component",
+        "zh": "光伏对接连接器组件"
       }
     },
     {
@@ -1247,141 +2426,6 @@
         "en": "Solar cable material",
         "zh": "光伏线缆材料"
       }
-    },
-    {
-      "brand": "LAPP",
-      "identifier": "44428217",
-      "aliases": [],
-      "description": {
-        "en": "Solar connector contact",
-        "zh": "光伏连接器触点"
-      }
-    },
-    {
-      "brand": "LAPP",
-      "identifier": "44428240",
-      "aliases": [],
-      "description": {
-        "en": "Solar connector contact",
-        "zh": "光伏连接器触点"
-      }
-    },
-    {
-      "brand": "LAPP",
-      "identifier": "44428220",
-      "aliases": [],
-      "description": {
-        "en": "Solar connector contact",
-        "zh": "光伏连接器触点"
-      }
-    },
-    {
-      "brand": "LAPP",
-      "identifier": "44428218",
-      "aliases": [],
-      "description": {
-        "en": "Solar connector contact",
-        "zh": "光伏连接器触点"
-      }
-    },
-    {
-      "brand": "LAPP",
-      "identifier": "44428255",
-      "aliases": [],
-      "description": {
-        "en": "Solar connector component",
-        "zh": "光伏连接器材料"
-      }
-    },
-    {
-      "brand": "LAPP",
-      "identifier": "44428260",
-      "aliases": [],
-      "description": {
-        "en": "Solar connector component",
-        "zh": "光伏连接器材料"
-      }
-    },
-    {
-      "brand": "LAPP",
-      "identifier": "44428262",
-      "aliases": [],
-      "description": {
-        "en": "Solar connector component",
-        "zh": "光伏连接器材料"
-      }
-    },
-    {
-      "brand": "LAPP",
-      "identifier": "44428237",
-      "aliases": [],
-      "description": {
-        "en": "Solar connector component",
-        "zh": "光伏连接器材料"
-      }
-    },
-    {
-      "brand": "LAPP",
-      "identifier": "44428235",
-      "aliases": [],
-      "description": {
-        "en": "Solar connector component",
-        "zh": "光伏连接器材料"
-      }
-    },
-    {
-      "brand": "LAPP",
-      "identifier": "44428233",
-      "aliases": [],
-      "description": {
-        "en": "Solar connector component",
-        "zh": "光伏连接器材料"
-      }
-    },
-    {
-      "brand": "LAPP",
-      "identifier": "44428263",
-      "aliases": [],
-      "description": {
-        "en": "Solar connector component",
-        "zh": "光伏连接器材料"
-      }
-    },
-    {
-      "brand": "LAPP",
-      "identifier": "44428261",
-      "aliases": [],
-      "description": {
-        "en": "Solar connector component",
-        "zh": "光伏连接器材料"
-      }
-    },
-    {
-      "brand": "LAPP",
-      "identifier": "44428238",
-      "aliases": [],
-      "description": {
-        "en": "Solar connector component",
-        "zh": "光伏连接器材料"
-      }
-    },
-    {
-      "brand": "LAPP",
-      "identifier": "44428236",
-      "aliases": [],
-      "description": {
-        "en": "Solar connector component",
-        "zh": "光伏连接器材料"
-      }
-    },
-    {
-      "brand": "LAPP",
-      "identifier": "44428234",
-      "aliases": [],
-      "description": {
-        "en": "Solar connector component",
-        "zh": "光伏连接器材料"
-      }
     }
   ],
   "service_label": {
@@ -1410,10 +2454,10 @@
       "en": "This is the verified subset for the category. The target of 200 finished models and 200 materials remains incomplete.",
       "zh": "此处为本类已核验子集，200个成品型号和200个材料料号的目标仍待继续补充。"
     },
-    "audit_id": "resume-cable-specialty-approved-manifest.json",
+    "audit_id": "solar-helukabel-independent-audit.json",
     "verified_counts": {
       "products": 17,
-      "materials": 120
+      "materials": 236
     },
     "target_status": "incomplete",
     "target_counts": {

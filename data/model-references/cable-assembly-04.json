@@ -212,6 +212,105 @@
       }
     },
     {
+      "brand": "StarTech.com",
+      "identifier": "R2CCC-1M-USB-CABLE",
+      "aliases": [],
+      "description": {
+        "en": "Coiled USB-C charge/data cable, USB 2.0, no video",
+        "zh": "USB-C螺旋充电及数据线，USB 2.0，不支持视频"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "US232R-100-BULK",
+      "aliases": [],
+      "description": {
+        "en": "USB-to-RS232 converter cable",
+        "zh": "USB转RS232电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "USB-RS422-WE-1800-BT",
+      "aliases": [],
+      "description": {
+        "en": "USB-to-RS422 converter cable",
+        "zh": "USB转RS422电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "C232HM-DDHSL-0",
+      "aliases": [],
+      "description": {
+        "en": "USB MPSSE converter cable",
+        "zh": "USB MPSSE转换电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "USB-RS485-WE-1800-BT",
+      "aliases": [],
+      "description": {
+        "en": "USB-to-RS485 converter cable",
+        "zh": "USB转RS485电缆"
+      }
+    },
+    {
+      "brand": "StarTech.com",
+      "identifier": "USB2HAB1M",
+      "aliases": [],
+      "description": {
+        "en": "USB-A to USB-B cable, 1m",
+        "zh": "USB-A转USB-B电缆，1米"
+      }
+    },
+    {
+      "brand": "StarTech.com",
+      "identifier": "USB2HAB2M",
+      "aliases": [],
+      "description": {
+        "en": "USB-A to USB-B cable, 2m",
+        "zh": "USB-A转USB-B电缆，2米"
+      }
+    },
+    {
+      "brand": "StarTech.com",
+      "identifier": "USB2CC1M",
+      "aliases": [],
+      "description": {
+        "en": "USB-C charge/data cable, USB 2.0, no video",
+        "zh": "USB-C充电及数据线，USB 2.0，不支持视频"
+      }
+    },
+    {
+      "brand": "StarTech.com",
+      "identifier": "USB31AC1M",
+      "aliases": [],
+      "description": {
+        "en": "USB-A to USB-C charge/data cable",
+        "zh": "USB-A转USB-C充电及数据线"
+      }
+    },
+    {
+      "brand": "StarTech.com",
+      "identifier": "USB2AC15CMBK",
+      "aliases": [],
+      "description": {
+        "en": "USB-A to USB-C charge/data cable, USB 2.0, no video",
+        "zh": "USB-A转USB-C充电及数据线，USB 2.0，不支持视频"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "CX60-24S-1000-C1",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C double-ended cable assembly",
+        "zh": "USB Type-C双端成品电缆"
+      }
+    },
+    {
       "brand": "FTDI",
       "identifier": "TTL-232R-3V3-AJ",
       "aliases": [],
@@ -231,11 +330,11 @@
     },
     {
       "brand": "StarTech.com",
-      "identifier": "R2CCC-1M-USB-CABLE",
+      "identifier": "R2ACC-50C-USB-CABLE",
       "aliases": [],
       "description": {
-        "en": "Coiled USB-C charge/data cable, USB 2.0, no video",
-        "zh": "USB-C螺旋充电及数据线，USB 2.0，不支持视频"
+        "en": "Coiled USB-A to USB-C charge/data cable",
+        "zh": "USB-A转USB-C螺旋充电及数据线"
       }
     },
     {
@@ -245,6 +344,51 @@
       "description": {
         "en": "USB cable assembly",
         "zh": "USB电缆组件"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "USB-RS232-WE-5000-BT_5.0",
+      "aliases": [],
+      "description": {
+        "en": "USB-to-RS232 converter cable",
+        "zh": "USB转RS232电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "USB-RS422-WE-5000-BT",
+      "aliases": [],
+      "description": {
+        "en": "USB-to-RS422 converter cable",
+        "zh": "USB转RS422电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "C232HM-EDHSL-0",
+      "aliases": [],
+      "description": {
+        "en": "USB MPSSE converter cable",
+        "zh": "USB MPSSE转换电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "USB-RS485-WE-5000-BT",
+      "aliases": [],
+      "description": {
+        "en": "USB-to-RS485 converter cable",
+        "zh": "USB转RS485电缆"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "CX60-24S-1000-CD",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C double-ended cable assembly",
+        "zh": "USB Type-C双端成品电缆"
       }
     },
     {
@@ -266,21 +410,30 @@
       }
     },
     {
-      "brand": "StarTech.com",
-      "identifier": "R2ACC-50C-USB-CABLE",
-      "aliases": [],
-      "description": {
-        "en": "Coiled USB-A to USB-C charge/data cable",
-        "zh": "USB-A转USB-C螺旋充电及数据线"
-      }
-    },
-    {
       "brand": "Tensility",
       "identifier": "10-06149",
       "aliases": [],
       "description": {
         "en": "USB cable assembly",
         "zh": "USB电缆组件"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "USB-RS232-WE-1800-BT_3.3",
+      "aliases": [],
+      "description": {
+        "en": "USB-to-RS232 converter cable",
+        "zh": "USB转RS232电缆"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "CX60-24S-1000-CS",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C double-ended cable assembly",
+        "zh": "USB Type-C双端成品电缆"
       }
     },
     {
@@ -312,6 +465,15 @@
     },
     {
       "brand": "FTDI",
+      "identifier": "USB-RS232-WE-5000-BT_3.3",
+      "aliases": [],
+      "description": {
+        "en": "USB-to-RS232 converter cable",
+        "zh": "USB转RS232电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
       "identifier": "TTL-232R-5V",
       "aliases": [],
       "description": {
@@ -326,6 +488,15 @@
       "description": {
         "en": "USB cable assembly",
         "zh": "USB电缆组件"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "US232B-100-BULK",
+      "aliases": [],
+      "description": {
+        "en": "USB-to-RS232 converter cable",
+        "zh": "USB转RS232电缆"
       }
     },
     {
@@ -348,6 +519,17 @@
     },
     {
       "brand": "FTDI",
+      "identifier": "US232B/LC-BULK",
+      "aliases": [
+        "US232B/LC-BLISTER"
+      ],
+      "description": {
+        "en": "USB-to-RS232 converter cable",
+        "zh": "USB转RS232电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
       "identifier": "TTL-232R-3V3-2MM",
       "aliases": [],
       "description": {
@@ -366,11 +548,20 @@
     },
     {
       "brand": "FTDI",
-      "identifier": "US232R-100-BULK",
+      "identifier": "Chipi-X10",
       "aliases": [],
       "description": {
         "en": "USB-to-RS232 converter cable",
         "zh": "USB转RS232电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "USB NMC-2.5M",
+      "aliases": [],
+      "description": {
+        "en": "USB-to-TTL UART converter cable",
+        "zh": "USB转TTL UART电缆"
       }
     },
     {
@@ -384,7 +575,16 @@
     },
     {
       "brand": "FTDI",
-      "identifier": "USB NMC-2.5M",
+      "identifier": "US232R-10-BULK",
+      "aliases": [],
+      "description": {
+        "en": "USB-to-RS232 converter cable",
+        "zh": "USB转RS232电缆"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "C232HD-EDHSP-0",
       "aliases": [],
       "description": {
         "en": "USB-to-TTL UART converter cable",
@@ -402,148 +602,11 @@
     },
     {
       "brand": "FTDI",
-      "identifier": "USB-RS232-WE-5000-BT_5.0",
+      "identifier": "UC232R-10",
       "aliases": [],
       "description": {
         "en": "USB-to-RS232 converter cable",
         "zh": "USB转RS232电缆"
-      }
-    },
-    {
-      "brand": "Tensility",
-      "identifier": "10-03678",
-      "aliases": [],
-      "description": {
-        "en": "USB cable assembly",
-        "zh": "USB电缆组件"
-      }
-    },
-    {
-      "brand": "FTDI",
-      "identifier": "USB-RS232-WE-1800-BT_3.3",
-      "aliases": [],
-      "description": {
-        "en": "USB-to-RS232 converter cable",
-        "zh": "USB转RS232电缆"
-      }
-    },
-    {
-      "brand": "Tensility",
-      "identifier": "10-03677",
-      "aliases": [],
-      "description": {
-        "en": "USB cable assembly",
-        "zh": "USB电缆组件"
-      }
-    },
-    {
-      "brand": "FTDI",
-      "identifier": "USB-RS232-WE-5000-BT_3.3",
-      "aliases": [],
-      "description": {
-        "en": "USB-to-RS232 converter cable",
-        "zh": "USB转RS232电缆"
-      }
-    },
-    {
-      "brand": "Tensility",
-      "identifier": "10-03676",
-      "aliases": [],
-      "description": {
-        "en": "USB cable assembly",
-        "zh": "USB电缆组件"
-      }
-    },
-    {
-      "brand": "FTDI",
-      "identifier": "US232B-100-BULK",
-      "aliases": [],
-      "description": {
-        "en": "USB-to-RS232 converter cable",
-        "zh": "USB转RS232电缆"
-      }
-    },
-    {
-      "brand": "Tensility",
-      "identifier": "10-03675",
-      "aliases": [],
-      "description": {
-        "en": "USB cable assembly",
-        "zh": "USB电缆组件"
-      }
-    },
-    {
-      "brand": "FTDI",
-      "identifier": "US232B/LC-BULK",
-      "aliases": [
-        "US232B/LC-BLISTER"
-      ],
-      "description": {
-        "en": "USB-to-RS232 converter cable",
-        "zh": "USB转RS232电缆"
-      }
-    },
-    {
-      "brand": "Tensility",
-      "identifier": "10-03387",
-      "aliases": [],
-      "description": {
-        "en": "USB cable assembly",
-        "zh": "USB电缆组件"
-      }
-    },
-    {
-      "brand": "FTDI",
-      "identifier": "Chipi-X10",
-      "aliases": [],
-      "description": {
-        "en": "USB-to-RS232 converter cable",
-        "zh": "USB转RS232电缆"
-      }
-    },
-    {
-      "brand": "Tensility",
-      "identifier": "10-02360",
-      "aliases": [],
-      "description": {
-        "en": "USB cable assembly",
-        "zh": "USB电缆组件"
-      }
-    },
-    {
-      "brand": "FTDI",
-      "identifier": "US232R-10-BULK",
-      "aliases": [],
-      "description": {
-        "en": "USB-to-RS232 converter cable",
-        "zh": "USB转RS232电缆"
-      }
-    },
-    {
-      "brand": "Tensility",
-      "identifier": "10-02359",
-      "aliases": [],
-      "description": {
-        "en": "USB cable assembly",
-        "zh": "USB电缆组件"
-      }
-    },
-    {
-      "brand": "FTDI",
-      "identifier": "C232HD-EDHSP-0",
-      "aliases": [],
-      "description": {
-        "en": "USB-to-TTL UART converter cable",
-        "zh": "USB转TTL UART电缆"
-      }
-    },
-    {
-      "brand": "Tensility",
-      "identifier": "10-02358",
-      "aliases": [],
-      "description": {
-        "en": "USB cable assembly",
-        "zh": "USB电缆组件"
       }
     },
     {
@@ -557,11 +620,20 @@
     },
     {
       "brand": "Tensility",
-      "identifier": "10-02357",
+      "identifier": "10-03678",
       "aliases": [],
       "description": {
         "en": "USB cable assembly",
         "zh": "USB电缆组件"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "UC232R-10-NE",
+      "aliases": [],
+      "description": {
+        "en": "USB-to-RS232 converter cable",
+        "zh": "USB转RS232电缆"
       }
     },
     {
@@ -575,11 +647,20 @@
     },
     {
       "brand": "Tensility",
-      "identifier": "10-02356",
+      "identifier": "10-03677",
       "aliases": [],
       "description": {
         "en": "USB cable assembly",
         "zh": "USB电缆组件"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "USB-RS232-WE-1800-BT_0.0",
+      "aliases": [],
+      "description": {
+        "en": "USB-to-RS232 converter cable",
+        "zh": "USB转RS232电缆"
       }
     },
     {
@@ -593,11 +674,20 @@
     },
     {
       "brand": "Tensility",
-      "identifier": "10-02355",
+      "identifier": "10-03676",
       "aliases": [],
       "description": {
         "en": "USB cable assembly",
         "zh": "USB电缆组件"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "USB-RS232-WE-1800-BT_5.0",
+      "aliases": [],
+      "description": {
+        "en": "USB-to-RS232 converter cable",
+        "zh": "USB转RS232电缆"
       }
     },
     {
@@ -611,11 +701,20 @@
     },
     {
       "brand": "Tensility",
-      "identifier": "10-02347",
+      "identifier": "10-03675",
       "aliases": [],
       "description": {
         "en": "USB cable assembly",
         "zh": "USB电缆组件"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "USB-RS232-WE-5000-BT_0.0",
+      "aliases": [],
+      "description": {
+        "en": "USB-to-RS232 converter cable",
+        "zh": "USB转RS232电缆"
       }
     },
     {
@@ -629,11 +728,20 @@
     },
     {
       "brand": "Tensility",
-      "identifier": "10-02346",
+      "identifier": "10-03387",
       "aliases": [],
       "description": {
         "en": "USB cable assembly",
         "zh": "USB电缆组件"
+      }
+    },
+    {
+      "brand": "FTDI",
+      "identifier": "UT232R-500",
+      "aliases": [],
+      "description": {
+        "en": "USB-to-RS232 converter cable",
+        "zh": "USB转RS232电缆"
       }
     },
     {
@@ -647,7 +755,7 @@
     },
     {
       "brand": "Tensility",
-      "identifier": "10-02345",
+      "identifier": "10-02360",
       "aliases": [],
       "description": {
         "en": "USB cable assembly",
@@ -665,7 +773,7 @@
     },
     {
       "brand": "Tensility",
-      "identifier": "10-02340",
+      "identifier": "10-02359",
       "aliases": [],
       "description": {
         "en": "USB cable assembly",
@@ -683,7 +791,7 @@
     },
     {
       "brand": "Tensility",
-      "identifier": "10-02336",
+      "identifier": "10-02358",
       "aliases": [],
       "description": {
         "en": "USB cable assembly",
@@ -701,7 +809,7 @@
     },
     {
       "brand": "Tensility",
-      "identifier": "10-00662",
+      "identifier": "10-02357",
       "aliases": [],
       "description": {
         "en": "USB cable assembly",
@@ -719,7 +827,7 @@
     },
     {
       "brand": "Tensility",
-      "identifier": "10-00252",
+      "identifier": "10-02356",
       "aliases": [],
       "description": {
         "en": "USB cable assembly",
@@ -737,7 +845,7 @@
     },
     {
       "brand": "Tensility",
-      "identifier": "10-06155",
+      "identifier": "10-02355",
       "aliases": [],
       "description": {
         "en": "USB cable assembly",
@@ -755,7 +863,7 @@
     },
     {
       "brand": "Tensility",
-      "identifier": "10-01938",
+      "identifier": "10-02347",
       "aliases": [],
       "description": {
         "en": "USB cable assembly",
@@ -763,12 +871,75 @@
       }
     },
     {
-      "brand": "FTDI",
-      "identifier": "USB-RS422-WE-1800-BT",
+      "brand": "Tensility",
+      "identifier": "10-02346",
       "aliases": [],
       "description": {
-        "en": "USB-to-RS422 converter cable",
-        "zh": "USB转RS422电缆"
+        "en": "USB cable assembly",
+        "zh": "USB电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02345",
+      "aliases": [],
+      "description": {
+        "en": "USB cable assembly",
+        "zh": "USB电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02340",
+      "aliases": [],
+      "description": {
+        "en": "USB cable assembly",
+        "zh": "USB电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-02336",
+      "aliases": [],
+      "description": {
+        "en": "USB cable assembly",
+        "zh": "USB电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00662",
+      "aliases": [],
+      "description": {
+        "en": "USB cable assembly",
+        "zh": "USB电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-00252",
+      "aliases": [],
+      "description": {
+        "en": "USB cable assembly",
+        "zh": "USB电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-06155",
+      "aliases": [],
+      "description": {
+        "en": "USB cable assembly",
+        "zh": "USB电缆组件"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "10-01938",
+      "aliases": [],
+      "description": {
+        "en": "USB cable assembly",
+        "zh": "USB电缆组件"
       }
     },
     {
@@ -781,30 +952,12 @@
       }
     },
     {
-      "brand": "FTDI",
-      "identifier": "USB-RS422-WE-5000-BT",
-      "aliases": [],
-      "description": {
-        "en": "USB-to-RS422 converter cable",
-        "zh": "USB转RS422电缆"
-      }
-    },
-    {
       "brand": "Tensility",
       "identifier": "10-06154",
       "aliases": [],
       "description": {
         "en": "USB cable assembly",
         "zh": "USB电缆组件"
-      }
-    },
-    {
-      "brand": "FTDI",
-      "identifier": "C232HM-DDHSL-0",
-      "aliases": [],
-      "description": {
-        "en": "USB MPSSE converter cable",
-        "zh": "USB MPSSE转换电缆"
       }
     },
     {
@@ -817,30 +970,12 @@
       }
     },
     {
-      "brand": "FTDI",
-      "identifier": "C232HM-EDHSL-0",
-      "aliases": [],
-      "description": {
-        "en": "USB MPSSE converter cable",
-        "zh": "USB MPSSE转换电缆"
-      }
-    },
-    {
       "brand": "Tensility",
       "identifier": "10-06148",
       "aliases": [],
       "description": {
         "en": "USB cable assembly",
         "zh": "USB电缆组件"
-      }
-    },
-    {
-      "brand": "FTDI",
-      "identifier": "UC232R-10",
-      "aliases": [],
-      "description": {
-        "en": "USB-to-RS232 converter cable",
-        "zh": "USB转RS232电缆"
       }
     },
     {
@@ -853,30 +988,12 @@
       }
     },
     {
-      "brand": "FTDI",
-      "identifier": "UC232R-10-NE",
-      "aliases": [],
-      "description": {
-        "en": "USB-to-RS232 converter cable",
-        "zh": "USB转RS232电缆"
-      }
-    },
-    {
       "brand": "Tensility",
       "identifier": "10-06144",
       "aliases": [],
       "description": {
         "en": "USB cable assembly",
         "zh": "USB电缆组件"
-      }
-    },
-    {
-      "brand": "FTDI",
-      "identifier": "USB-RS232-WE-1800-BT_0.0",
-      "aliases": [],
-      "description": {
-        "en": "USB-to-RS232 converter cable",
-        "zh": "USB转RS232电缆"
       }
     },
     {
@@ -889,30 +1006,12 @@
       }
     },
     {
-      "brand": "FTDI",
-      "identifier": "USB-RS232-WE-1800-BT_5.0",
-      "aliases": [],
-      "description": {
-        "en": "USB-to-RS232 converter cable",
-        "zh": "USB转RS232电缆"
-      }
-    },
-    {
       "brand": "Tensility",
       "identifier": "10-06142",
       "aliases": [],
       "description": {
         "en": "USB cable assembly",
         "zh": "USB电缆组件"
-      }
-    },
-    {
-      "brand": "FTDI",
-      "identifier": "USB-RS232-WE-5000-BT_0.0",
-      "aliases": [],
-      "description": {
-        "en": "USB-to-RS232 converter cable",
-        "zh": "USB转RS232电缆"
       }
     },
     {
@@ -925,15 +1024,6 @@
       }
     },
     {
-      "brand": "FTDI",
-      "identifier": "USB-RS485-WE-1800-BT",
-      "aliases": [],
-      "description": {
-        "en": "USB-to-RS485 converter cable",
-        "zh": "USB转RS485电缆"
-      }
-    },
-    {
       "brand": "Tensility",
       "identifier": "10-06138",
       "aliases": [],
@@ -943,30 +1033,12 @@
       }
     },
     {
-      "brand": "FTDI",
-      "identifier": "USB-RS485-WE-5000-BT",
-      "aliases": [],
-      "description": {
-        "en": "USB-to-RS485 converter cable",
-        "zh": "USB转RS485电缆"
-      }
-    },
-    {
       "brand": "Tensility",
       "identifier": "10-06136",
       "aliases": [],
       "description": {
         "en": "USB cable assembly",
         "zh": "USB电缆组件"
-      }
-    },
-    {
-      "brand": "FTDI",
-      "identifier": "UT232R-500",
-      "aliases": [],
-      "description": {
-        "en": "USB-to-RS232 converter cable",
-        "zh": "USB转RS232电缆"
       }
     },
     {
@@ -1904,165 +1976,12 @@
         "en": "USB cable assembly",
         "zh": "USB电缆组件"
       }
-    },
-    {
-      "brand": "StarTech.com",
-      "identifier": "USB2HAB1M",
-      "aliases": [],
-      "description": {
-        "en": "USB-A to USB-B cable, 1m",
-        "zh": "USB-A转USB-B电缆，1米"
-      }
-    },
-    {
-      "brand": "StarTech.com",
-      "identifier": "USB2HAB2M",
-      "aliases": [],
-      "description": {
-        "en": "USB-A to USB-B cable, 2m",
-        "zh": "USB-A转USB-B电缆，2米"
-      }
-    },
-    {
-      "brand": "StarTech.com",
-      "identifier": "USB2CC1M",
-      "aliases": [],
-      "description": {
-        "en": "USB-C charge/data cable, USB 2.0, no video",
-        "zh": "USB-C充电及数据线，USB 2.0，不支持视频"
-      }
-    },
-    {
-      "brand": "StarTech.com",
-      "identifier": "USB31AC1M",
-      "aliases": [],
-      "description": {
-        "en": "USB-A to USB-C charge/data cable",
-        "zh": "USB-A转USB-C充电及数据线"
-      }
-    },
-    {
-      "brand": "StarTech.com",
-      "identifier": "USB2AC15CMBK",
-      "aliases": [],
-      "description": {
-        "en": "USB-A to USB-C charge/data cable, USB 2.0, no video",
-        "zh": "USB-A转USB-C充电及数据线，USB 2.0，不支持视频"
-      }
     }
   ],
   "materials": [
     {
       "brand": "Tensility",
       "identifier": "30-03504",
-      "aliases": [],
-      "description": {
-        "en": "Cable wire material",
-        "zh": "线缆用导线材料"
-      }
-    },
-    {
-      "brand": "Tensility",
-      "identifier": "30-03503",
-      "aliases": [],
-      "description": {
-        "en": "Cable wire material",
-        "zh": "线缆用导线材料"
-      }
-    },
-    {
-      "brand": "Tensility",
-      "identifier": "30-03502",
-      "aliases": [],
-      "description": {
-        "en": "Cable wire material",
-        "zh": "线缆用导线材料"
-      }
-    },
-    {
-      "brand": "Tensility",
-      "identifier": "30-03506",
-      "aliases": [],
-      "description": {
-        "en": "Cable wire material",
-        "zh": "线缆用导线材料"
-      }
-    },
-    {
-      "brand": "Tensility",
-      "identifier": "30-03505",
-      "aliases": [],
-      "description": {
-        "en": "Cable wire material",
-        "zh": "线缆用导线材料"
-      }
-    },
-    {
-      "brand": "Tensility",
-      "identifier": "30-03508",
-      "aliases": [],
-      "description": {
-        "en": "Cable wire material",
-        "zh": "线缆用导线材料"
-      }
-    },
-    {
-      "brand": "Tensility",
-      "identifier": "30-03507",
-      "aliases": [],
-      "description": {
-        "en": "Cable wire material",
-        "zh": "线缆用导线材料"
-      }
-    },
-    {
-      "brand": "Tensility",
-      "identifier": "30-03509",
-      "aliases": [],
-      "description": {
-        "en": "Cable wire material",
-        "zh": "线缆用导线材料"
-      }
-    },
-    {
-      "brand": "Tensility",
-      "identifier": "30-00873",
-      "aliases": [],
-      "description": {
-        "en": "Cable wire material",
-        "zh": "线缆用导线材料"
-      }
-    },
-    {
-      "brand": "Tensility",
-      "identifier": "30-00872",
-      "aliases": [],
-      "description": {
-        "en": "Cable wire material",
-        "zh": "线缆用导线材料"
-      }
-    },
-    {
-      "brand": "Tensility",
-      "identifier": "30-00099",
-      "aliases": [],
-      "description": {
-        "en": "Cable wire material",
-        "zh": "线缆用导线材料"
-      }
-    },
-    {
-      "brand": "Tensility",
-      "identifier": "30-00088",
-      "aliases": [],
-      "description": {
-        "en": "Cable wire material",
-        "zh": "线缆用导线材料"
-      }
-    },
-    {
-      "brand": "Tensility",
-      "identifier": "30-00008",
       "aliases": [],
       "description": {
         "en": "Cable wire material",
@@ -2079,12 +1998,244 @@
       }
     },
     {
+      "brand": "Molex",
+      "identifier": "1050170001",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1054440001",
+      "aliases": [],
+      "description": {
+        "en": "USB plug connector",
+        "zh": "USB插头连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "ZX62-B-5PA(33)",
+      "aliases": [
+        "CL0242-0033-8-33"
+      ],
+      "description": {
+        "en": "Micro-USB receptacle connector",
+        "zh": "Micro-USB母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "ZX40-B-5S-UNIT(31)",
+      "aliases": [
+        "CL0242-0002-4-31"
+      ],
+      "description": {
+        "en": "Micro-USB unterminated plug unit",
+        "zh": "Micro-USB未接线插头组件"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "ZX40-B-SLDA",
+      "aliases": [
+        "CL0242-0003-7-00"
+      ],
+      "description": {
+        "en": "Micro-USB connector shield cover",
+        "zh": "Micro-USB连接器屏蔽盖"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "ZX80-B-5S(30)",
+      "aliases": [
+        "CL0242-0017-1-30"
+      ],
+      "description": {
+        "en": "Micro-USB cradle plug connector",
+        "zh": "Micro-USB底座插头连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "CX90MW9-24P",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "CX81B-24S",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C PCB plug connector",
+        "zh": "USB Type-C板装插头连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "CX60-24S-UNIT",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C unterminated plug unit",
+        "zh": "USB Type-C未接线插头组件"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "CX60-SLDA",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C plug shield shell",
+        "zh": "USB Type-C插头屏蔽壳"
+      }
+    },
+    {
+      "brand": "Kycon",
+      "identifier": "KUSBX-AS1N-B30",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Kycon",
+      "identifier": "KUSBX-SMT2-AP3S-B30-NP-TR",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-A plug connector",
+        "zh": "USB Type-A插头连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03503",
+      "aliases": [],
+      "description": {
+        "en": "Cable wire material",
+        "zh": "线缆用导线材料"
+      }
+    },
+    {
       "brand": "Tensility",
       "identifier": "50-00026",
       "aliases": [],
       "description": {
         "en": "Cable connector component",
         "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1050170002",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1054440011",
+      "aliases": [],
+      "description": {
+        "en": "USB plug connector",
+        "zh": "USB插头连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "ZX62D-B-5PA8(30)",
+      "aliases": [
+        "CL0242-0056-3-30"
+      ],
+      "description": {
+        "en": "Micro-USB receptacle connector",
+        "zh": "Micro-USB母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "ZX20-B-5S-UNIT(30)",
+      "aliases": [
+        "CL0242-0012-8-30"
+      ],
+      "description": {
+        "en": "Micro-USB unterminated plug unit",
+        "zh": "Micro-USB未接线插头组件"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "ZX40-SLDB",
+      "aliases": [
+        "CL0242-0004-0-00"
+      ],
+      "description": {
+        "en": "Micro-USB connector shield cover",
+        "zh": "Micro-USB连接器屏蔽盖"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "ZX80-B-5SA(30)",
+      "aliases": [
+        "CL0242-0019-7-30"
+      ],
+      "description": {
+        "en": "Micro-USB cradle plug connector",
+        "zh": "Micro-USB底座插头连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "CX90MW9-24P1",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "CX81B-24S1",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C PCB plug connector",
+        "zh": "USB Type-C板装插头连接器"
+      }
+    },
+    {
+      "brand": "Kycon",
+      "identifier": "KUSBX-AS1N-W30",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Kycon",
+      "identifier": "KUSBX-SMT2-AP1S-W30",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-A plug connector",
+        "zh": "USB Type-A插头连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03502",
+      "aliases": [],
+      "description": {
+        "en": "Cable wire material",
+        "zh": "线缆用导线材料"
       }
     },
     {
@@ -2097,12 +2248,175 @@
       }
     },
     {
+      "brand": "Molex",
+      "identifier": "1050171001",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2188470001",
+      "aliases": [],
+      "description": {
+        "en": "USB plug connector",
+        "zh": "USB插头连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "ZX62R-B-5P(30)",
+      "aliases": [
+        "CL0242-0028-8-30"
+      ],
+      "description": {
+        "en": "Micro-USB receptacle connector",
+        "zh": "Micro-USB母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "ZX40-A-5S-UNIT(30)",
+      "aliases": [
+        "CL0242-0010-2-30"
+      ],
+      "description": {
+        "en": "Micro-USB unterminated plug unit",
+        "zh": "Micro-USB未接线插头组件"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "ZX20-B-SLDC",
+      "aliases": [
+        "CL0242-0022-1-00"
+      ],
+      "description": {
+        "en": "Micro-USB connector shield cover",
+        "zh": "Micro-USB连接器屏蔽盖"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "CX90MWD2-24P",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Kycon",
+      "identifier": "KUSBX-AS2N-B30",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Kycon",
+      "identifier": "KUSBX-SMT2-AP5S-B30",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-A plug connector",
+        "zh": "USB Type-A插头连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03506",
+      "aliases": [],
+      "description": {
+        "en": "Cable wire material",
+        "zh": "线缆用导线材料"
+      }
+    },
+    {
       "brand": "Tensility",
       "identifier": "50-01060",
       "aliases": [],
       "description": {
         "en": "Cable connector component",
         "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1050570001",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "480370001",
+      "aliases": [],
+      "description": {
+        "en": "USB plug connector",
+        "zh": "USB插头连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "ZX62M-B-5P(30)",
+      "aliases": [
+        "CL0242-0024-7-30"
+      ],
+      "description": {
+        "en": "Micro-USB receptacle connector",
+        "zh": "Micro-USB母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "ZX40-A-SLDA",
+      "aliases": [
+        "CL0242-0011-5-00"
+      ],
+      "description": {
+        "en": "Micro-USB connector shield cover",
+        "zh": "Micro-USB连接器屏蔽盖"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "CX90MWD2G-24P",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Kycon",
+      "identifier": "KUSBX-AS2N-W30",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Kycon",
+      "identifier": "KUSBX-SMT2-AP1S-B30",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-A plug connector",
+        "zh": "USB Type-A插头连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03505",
+      "aliases": [],
+      "description": {
+        "en": "Cable wire material",
+        "zh": "线缆用导线材料"
       }
     },
     {
@@ -2115,12 +2429,142 @@
       }
     },
     {
+      "brand": "Molex",
+      "identifier": "484040003",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "480371000",
+      "aliases": [],
+      "description": {
+        "en": "USB plug connector",
+        "zh": "USB插头连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "ZX62-AB-5PA(31)",
+      "aliases": [
+        "CL0242-0045-7-31"
+      ],
+      "description": {
+        "en": "Micro-USB receptacle connector",
+        "zh": "Micro-USB母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "CX90MW6-16P",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Kycon",
+      "identifier": "KUSBX-ASBS2N-B30",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Kycon",
+      "identifier": "KUSBX-SMT2-AP5S-W30",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-A plug connector",
+        "zh": "USB Type-A插头连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03508",
+      "aliases": [],
+      "description": {
+        "en": "Cable wire material",
+        "zh": "线缆用导线材料"
+      }
+    },
+    {
       "brand": "Tensility",
       "identifier": "50-01063",
       "aliases": [],
       "description": {
         "en": "Cable connector component",
         "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1051330001",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "480372100",
+      "aliases": [],
+      "description": {
+        "en": "USB plug connector",
+        "zh": "USB插头连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "ZX62D-AB-5P8(30)",
+      "aliases": [
+        "CL0242-0027-5-30"
+      ],
+      "description": {
+        "en": "Micro-USB receptacle connector",
+        "zh": "Micro-USB母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "CX90MW8-16P",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Kycon",
+      "identifier": "KUSBX-ASBS2N-W30",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Kycon",
+      "identifier": "KUSBX-SMT2-AP3S-B30TR",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-A plug connector",
+        "zh": "USB Type-A插头连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03507",
+      "aliases": [],
+      "description": {
+        "en": "Cable wire material",
+        "zh": "线缆用导线材料"
       }
     },
     {
@@ -2133,12 +2577,113 @@
       }
     },
     {
+      "brand": "Molex",
+      "identifier": "1051330002",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "480372200",
+      "aliases": [],
+      "description": {
+        "en": "USB plug connector",
+        "zh": "USB插头连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "ZX62RD-AB-5P8(30)",
+      "aliases": [
+        "CL0242-0025-0-30"
+      ],
+      "description": {
+        "en": "Micro-USB receptacle connector",
+        "zh": "Micro-USB母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "CX90MW8-16P1",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Kycon",
+      "identifier": "KUSBX-BS1N-W30",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-03509",
+      "aliases": [],
+      "description": {
+        "en": "Cable wire material",
+        "zh": "线缆用导线材料"
+      }
+    },
+    {
       "brand": "Tensility",
       "identifier": "50-01065",
       "aliases": [],
       "description": {
         "en": "Cable connector component",
         "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1051330011",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "ZX62MD2-B-5PA(30)",
+      "aliases": [],
+      "description": {
+        "en": "Micro-USB receptacle connector",
+        "zh": "Micro-USB母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "CX90BW1-24P",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Kycon",
+      "identifier": "KUSBX-BS1N-B30",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00873",
+      "aliases": [],
+      "description": {
+        "en": "Cable wire material",
+        "zh": "线缆用导线材料"
       }
     },
     {
@@ -2151,12 +2696,84 @@
       }
     },
     {
+      "brand": "Molex",
+      "identifier": "1051330021",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "CX90BW1-24P1",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Kycon",
+      "identifier": "KUSBX-SL2-AS1N-B",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00872",
+      "aliases": [],
+      "description": {
+        "en": "Cable wire material",
+        "zh": "线缆用导线材料"
+      }
+    },
+    {
       "brand": "Tensility",
       "identifier": "50-01064",
       "aliases": [],
       "description": {
         "en": "Cable connector component",
         "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1051330031",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "CX90BW-16P(001)",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Kycon",
+      "identifier": "KUSBX-SMT-AS1N-W30",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00099",
+      "aliases": [],
+      "description": {
+        "en": "Cable wire material",
+        "zh": "线缆用导线材料"
       }
     },
     {
@@ -2169,6 +2786,42 @@
       }
     },
     {
+      "brand": "Molex",
+      "identifier": "1051330311",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "CX90BW-16P1",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Kycon",
+      "identifier": "KUSBX-SMT-AS1N-B30",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00088",
+      "aliases": [],
+      "description": {
+        "en": "Cable wire material",
+        "zh": "线缆用导线材料"
+      }
+    },
+    {
       "brand": "Tensility",
       "identifier": "50-00950",
       "aliases": [],
@@ -2178,8 +2831,35 @@
       }
     },
     {
+      "brand": "Molex",
+      "identifier": "1051330411",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "CX70M-24P1",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Kycon",
+      "identifier": "KUSBLX-AS-2-N-B30",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
       "brand": "Tensility",
-      "identifier": "30-01385",
+      "identifier": "30-00008",
       "aliases": [],
       "description": {
         "en": "Cable wire material",
@@ -2196,12 +2876,77 @@
       }
     },
     {
+      "brand": "Molex",
+      "identifier": "1054500011",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "CX70M-24P2",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Kycon",
+      "identifier": "KUSBLX-AS-2-N-W30",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-01385",
+      "aliases": [],
+      "description": {
+        "en": "Cable wire material",
+        "zh": "线缆用导线材料"
+      }
+    },
+    {
       "brand": "Tensility",
       "identifier": "50-00574",
       "aliases": [],
       "description": {
         "en": "Cable connector component",
         "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1054500101",
+      "aliases": [
+        "1054500131"
+      ],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "CX70M1-24P",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Kycon",
+      "identifier": "KUSBVX-AS1-N-W30",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
       }
     },
     {
@@ -2223,6 +2968,33 @@
       }
     },
     {
+      "brand": "Molex",
+      "identifier": "1054500111",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "CX90M3-24P",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Kycon",
+      "identifier": "KUSBLX-AS1-N-W30",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
       "brand": "Tensility",
       "identifier": "30-01272",
       "aliases": [],
@@ -2241,111 +3013,30 @@
       }
     },
     {
-      "brand": "Tensility",
-      "identifier": "50-00056",
+      "brand": "Molex",
+      "identifier": "1054500121",
       "aliases": [],
       "description": {
-        "en": "Cable connector component",
-        "zh": "线缆用连接器材料"
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
       }
     },
     {
-      "brand": "Tensility",
-      "identifier": "50-00580",
+      "brand": "Hirose",
+      "identifier": "CX90M-16P",
       "aliases": [],
       "description": {
-        "en": "Cable connector component",
-        "zh": "线缆用连接器材料"
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
       }
     },
     {
-      "brand": "Tensility",
-      "identifier": "50-00577",
+      "brand": "Kycon",
+      "identifier": "KUSBLX-AS1-N-B30",
       "aliases": [],
       "description": {
-        "en": "Cable connector component",
-        "zh": "线缆用连接器材料"
-      }
-    },
-    {
-      "brand": "Tensility",
-      "identifier": "50-00582",
-      "aliases": [],
-      "description": {
-        "en": "Cable connector component",
-        "zh": "线缆用连接器材料"
-      }
-    },
-    {
-      "brand": "Tensility",
-      "identifier": "50-00578",
-      "aliases": [],
-      "description": {
-        "en": "Cable connector component",
-        "zh": "线缆用连接器材料"
-      }
-    },
-    {
-      "brand": "Tensility",
-      "identifier": "50-00575",
-      "aliases": [],
-      "description": {
-        "en": "Cable connector component",
-        "zh": "线缆用连接器材料"
-      }
-    },
-    {
-      "brand": "Tensility",
-      "identifier": "50-00576",
-      "aliases": [],
-      "description": {
-        "en": "Cable connector component",
-        "zh": "线缆用连接器材料"
-      }
-    },
-    {
-      "brand": "Tensility",
-      "identifier": "50-00186",
-      "aliases": [],
-      "description": {
-        "en": "Cable connector component",
-        "zh": "线缆用连接器材料"
-      }
-    },
-    {
-      "brand": "Tensility",
-      "identifier": "50-00431",
-      "aliases": [],
-      "description": {
-        "en": "Cable connector component",
-        "zh": "线缆用连接器材料"
-      }
-    },
-    {
-      "brand": "Tensility",
-      "identifier": "50-00425",
-      "aliases": [],
-      "description": {
-        "en": "Cable connector component",
-        "zh": "线缆用连接器材料"
-      }
-    },
-    {
-      "brand": "Tensility",
-      "identifier": "50-00424",
-      "aliases": [],
-      "description": {
-        "en": "Cable connector component",
-        "zh": "线缆用连接器材料"
-      }
-    },
-    {
-      "brand": "Tensility",
-      "identifier": "50-00429",
-      "aliases": [],
-      "description": {
-        "en": "Cable connector component",
-        "zh": "线缆用连接器材料"
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
       }
     },
     {
@@ -2359,11 +3050,29 @@
     },
     {
       "brand": "Tensility",
-      "identifier": "50-00928",
+      "identifier": "50-00056",
       "aliases": [],
       "description": {
         "en": "Cable connector component",
         "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2012670005",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "CX90MF-16P",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
       }
     },
     {
@@ -2377,11 +3086,326 @@
     },
     {
       "brand": "Tensility",
+      "identifier": "50-00580",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2024100002",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "CX80B1-24P",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "30-00145",
+      "aliases": [],
+      "description": {
+        "en": "Cable wire material",
+        "zh": "线缆用导线材料"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00577",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2130830005",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "CX80B2-24P",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00582",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2036150003",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "CX90B1-24P",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00578",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2171760001",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "CX90B1B-24P",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00575",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2047110001",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "CX90B2-24P",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00576",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2047110011",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "CX90B2-24P1",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00186",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2047110012",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "CX90B-16P",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00431",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2047110101",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "CX90B-16P1",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00425",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2216100001",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "CX90MWP1-24P",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00424",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2216100004",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00429",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2057141001",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
+      "identifier": "50-00928",
+      "aliases": [],
+      "description": {
+        "en": "Cable connector component",
+        "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1054550101",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Tensility",
       "identifier": "50-00030",
       "aliases": [],
       "description": {
         "en": "Cable connector component",
         "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "1054550105",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
       }
     },
     {
@@ -2394,12 +3418,30 @@
       }
     },
     {
+      "brand": "Molex",
+      "identifier": "2169900001",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
       "brand": "Tensility",
       "identifier": "50-00427",
       "aliases": [],
       "description": {
         "en": "Cable connector component",
         "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2169900002",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
       }
     },
     {
@@ -2412,12 +3454,30 @@
       }
     },
     {
+      "brand": "Molex",
+      "identifier": "2169900003",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
       "brand": "Tensility",
       "identifier": "50-00930",
       "aliases": [],
       "description": {
         "en": "Cable connector component",
         "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2171820001",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
       }
     },
     {
@@ -2430,12 +3490,30 @@
       }
     },
     {
+      "brand": "Molex",
+      "identifier": "2171750001",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
       "brand": "Tensility",
       "identifier": "50-00430",
       "aliases": [],
       "description": {
         "en": "Cable connector component",
         "zh": "线缆用连接器材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2171780001",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
       }
     },
     {
@@ -2448,6 +3526,15 @@
       }
     },
     {
+      "brand": "Molex",
+      "identifier": "2171770001",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
       "brand": "Tensility",
       "identifier": "50-00113",
       "aliases": [],
@@ -2457,12 +3544,372 @@
       }
     },
     {
-      "brand": "Tensility",
-      "identifier": "30-00145",
+      "brand": "Molex",
+      "identifier": "672983090",
       "aliases": [],
       "description": {
-        "en": "Cable wire material",
-        "zh": "线缆用导线材料"
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "672983091",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "672984090",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "672984091",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2171790001",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2171790003",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2171790004",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2171800001",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2171830001",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2171830003",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2171840001",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2178040001",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2193200001",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2169890001",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2169890002",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2169890011",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2169890022",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2216080001",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2137160001",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5022370517",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "484060001",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "484060003",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "673298000",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "673298001",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "673298020",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "673298021",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "673298040",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "676430910",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "676432910",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "676432911",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "676433910",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "676433911",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "847300010",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "670687041",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "670688000",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "670688001",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "670688010",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "670688011",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "670689000",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "670689001",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "670689011",
+      "aliases": [],
+      "description": {
+        "en": "USB receptacle connector",
+        "zh": "USB母座连接器"
       }
     }
   ],
@@ -2484,23 +3931,5 @@
   "category_name": {
     "en": "USB Cable Assembly",
     "zh": "USB电缆组件"
-  },
-  "quantity_exception": {
-    "approved": true,
-    "kind": "audited_subset",
-    "reason": {
-      "en": "This is the verified subset for the category. The target of 200 finished models and 200 materials remains incomplete.",
-      "zh": "此处为本类已核验子集，200个成品型号和200个材料料号的目标仍待继续补充。"
-    },
-    "audit_id": "resume-cable-specialty-approved-manifest.json",
-    "verified_counts": {
-      "products": 200,
-      "materials": 57
-    },
-    "target_status": "incomplete",
-    "target_counts": {
-      "products": 200,
-      "materials": 200
-    }
   }
 }

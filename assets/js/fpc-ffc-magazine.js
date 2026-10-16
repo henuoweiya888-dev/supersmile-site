@@ -59,9 +59,9 @@
       document.getElementById('pcc-hero-image').alt = title;
       document.getElementById('pcc-cta').textContent = zh ? '咨询这一类产品' : 'Ask About This Product Type';
       document.getElementById('pcc-back').textContent = zh ? '返回产品中心' : 'Back to Products';
-      document.getElementById('pcc-closing-title').textContent = title;
-      document.getElementById('pcc-closing-group').textContent = zh ? '特色电缆组件' : 'Specialty Cable Assemblies';
-      document.getElementById('pcc-closing-cta').textContent = zh ? '发送接口与图纸' : 'Send Interface Details';
+      { const node = document.getElementById('pcc-closing-title'); if (node) node.textContent = title; }
+      { const node = document.getElementById('pcc-closing-group'); if (node) node.textContent = zh ? '特色电缆组件' : 'Specialty Cable Assemblies'; }
+      { const node = document.getElementById('pcc-closing-cta'); if (node) node.textContent = zh ? '发送接口与图纸' : 'Send Interface Details'; }
 
       const opening = `<section class="ff-opening"><div><span>${zh ? '先辨别结构，再定义接口' : 'IDENTIFY THE CONSTRUCTION FIRST'}</span><h2>${zh ? '薄，不代表简单' : 'Thin does not mean simple'}</h2><p class="ff-lead">${esc(pick(page.lead, zh))}</p><h3>${esc(pick(topic[0].title,zh))}</h3><p>${esc(pick(topic[0].copy,zh))}</p><dl><div><dt>${zh?'几何':'GEOMETRY'}</dt><dd>${zh?'节距、厚度、触点面':'Pitch, thickness, contact side'}</dd></div><div><dt>${zh?'操作':'HANDLING'}</dt><dd>${zh?'插接、锁扣、弯折':'Insertion, latch, bending'}</dd></div><div><dt>${zh?'证据':'EVIDENCE'}</dt><dd>${zh?'放大检验与逐路电测':'Magnified inspection and circuit test'}</dd></div></dl></div>${photo(topic[0],zh)}</section>`;
       const nav = `<nav class="ff-contents" aria-label="${zh?'本页目录':'On this page'}"><a href="#ff-geometry"><span>01</span>${zh?'接口几何':'Interface'}</a><a href="#ff-mating"><span>02</span>${zh?'对插操作':'Mating'}</a><a href="#ff-motion"><span>03</span>${zh?'运动布线':'Motion'}</a><a href="#ff-use"><span>04</span>${zh?'应用边界':'Applications'}</a><a href="#ff-quality"><span>05</span>${zh?'检验放行':'Quality'}</a><a href="#ff-inputs"><span>06</span>${zh?'询价信息':'Inputs'}</a><a href="#ff-faq"><span>07</span>${zh?'常见问题':'FAQ'}</a></nav>`;
