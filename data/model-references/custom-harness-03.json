@@ -159,34 +159,16 @@
     },
     {
       "brand": "igus",
-      "identifier": "MAT904105010",
-      "aliases": [],
-      "description": {
-        "en": "Preassembled protective-earth cable",
-        "zh": "预制保护接地电缆"
-      }
-    },
-    {
-      "brand": "igus",
       "identifier": "MAT904117144",
       "aliases": [],
       "description": {
-        "en": "Preassembled protective-earth cable",
-        "zh": "预制保护接地电缆"
+        "en": "Preassembled robot connection cable",
+        "zh": "预制机器人连接电缆"
       }
     },
     {
       "brand": "igus",
       "identifier": "MAT904117093",
-      "aliases": [],
-      "description": {
-        "en": "Preassembled motor or power cable",
-        "zh": "预制电机或电源电缆"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "MAT904117097",
       "aliases": [],
       "description": {
         "en": "Preassembled motor or power cable",
@@ -222,15 +204,6 @@
     },
     {
       "brand": "igus",
-      "identifier": "MAT904117095",
-      "aliases": [],
-      "description": {
-        "en": "Preassembled industrial bus cable",
-        "zh": "预制工业总线电缆"
-      }
-    },
-    {
-      "brand": "igus",
       "identifier": "MAT904105013",
       "aliases": [],
       "description": {
@@ -240,97 +213,61 @@
     },
     {
       "brand": "igus",
-      "identifier": "MAT904105009",
+      "identifier": "MAT904117147",
       "aliases": [],
       "description": {
-        "en": "Preassembled drive connection cable",
-        "zh": "预制驱动连接电缆"
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
       }
     },
     {
       "brand": "igus",
-      "identifier": "MAT904152119",
+      "identifier": "MAT9872902",
       "aliases": [],
       "description": {
-        "en": "Preassembled motor or power cable",
-        "zh": "预制电机或电源电缆"
+        "en": "Preassembled servo cable",
+        "zh": "预制伺服电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671953",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671893",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "670849",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
       }
     },
     {
       "brand": "igus",
-      "identifier": "MAT904152122",
+      "identifier": "MAT904105010",
       "aliases": [],
       "description": {
-        "en": "Preassembled motor or power cable",
-        "zh": "预制电机或电源电缆"
+        "en": "Preassembled protective-earth cable",
+        "zh": "预制保护接地电缆"
       }
     },
     {
       "brand": "igus",
-      "identifier": "MAT904105006",
-      "aliases": [],
-      "description": {
-        "en": "Preassembled motor or power cable",
-        "zh": "预制电机或电源电缆"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "MAT904117092",
-      "aliases": [],
-      "description": {
-        "en": "Preassembled drive connection cable",
-        "zh": "预制驱动连接电缆"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "MAT904105007",
-      "aliases": [],
-      "description": {
-        "en": "Preassembled motor or power cable",
-        "zh": "预制电机或电源电缆"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "MAT904152118",
-      "aliases": [],
-      "description": {
-        "en": "Preassembled industrial bus cable",
-        "zh": "预制工业总线电缆"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "MAT904152121",
-      "aliases": [],
-      "description": {
-        "en": "Preassembled industrial bus cable",
-        "zh": "预制工业总线电缆"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "MAT904151684",
-      "aliases": [],
-      "description": {
-        "en": "Preassembled industrial bus cable",
-        "zh": "预制工业总线电缆"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "MAT904151685",
-      "aliases": [],
-      "description": {
-        "en": "Preassembled motor or power cable",
-        "zh": "预制电机或电源电缆"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "MAT904105008",
+      "identifier": "MAT904117097",
       "aliases": [],
       "description": {
         "en": "Preassembled motor or power cable",
@@ -348,7 +285,70 @@
     },
     {
       "brand": "igus",
-      "identifier": "MAT904105012",
+      "identifier": "MAT904117094",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled data cable",
+        "zh": "预制数据电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904117095",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled industrial bus cable",
+        "zh": "预制工业总线电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904105009",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled drive connection cable",
+        "zh": "预制驱动连接电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904128548",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671954",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671894",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "670850",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904152119",
       "aliases": [],
       "description": {
         "en": "Preassembled motor or power cable",
@@ -366,11 +366,146 @@
     },
     {
       "brand": "igus",
+      "identifier": "MAT904117098",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled data cable",
+        "zh": "预制数据电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904152118",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled industrial bus cable",
+        "zh": "预制工业总线电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904117092",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled drive connection cable",
+        "zh": "预制驱动连接电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT9872901",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled encoder or feedback cable",
+        "zh": "预制编码器或反馈电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671956",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671896",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "670851",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904152122",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
       "identifier": "MAT904141226",
       "aliases": [],
       "description": {
         "en": "Preassembled hybrid drive cable",
         "zh": "预制复合驱动电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904152120",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled data cable",
+        "zh": "预制数据电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904152121",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled industrial bus cable",
+        "zh": "预制工业总线电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904117143",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled drive connection cable",
+        "zh": "预制驱动连接电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671957",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671897",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "670852",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904105006",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
       }
     },
     {
@@ -384,11 +519,137 @@
     },
     {
       "brand": "igus",
+      "identifier": "MAT904152123",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled data cable",
+        "zh": "预制数据电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904151684",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled industrial bus cable",
+        "zh": "预制工业总线电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904128541",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled drive connection cable",
+        "zh": "预制驱动连接电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671963",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671899",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "670853",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904105007",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "igus",
       "identifier": "MAT904141230",
       "aliases": [],
       "description": {
         "en": "Preassembled hybrid drive cable",
         "zh": "预制复合驱动电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904151686",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled data cable",
+        "zh": "预制数据电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904151687",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled industrial bus cable",
+        "zh": "预制工业总线电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904128540",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled drive connection cable",
+        "zh": "预制驱动连接电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671964",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671903",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "670861",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904151685",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
       }
     },
     {
@@ -402,61 +663,43 @@
     },
     {
       "brand": "igus",
-      "identifier": "MAT904105003",
+      "identifier": "MAT904151689",
       "aliases": [],
       "description": {
-        "en": "Preassembled motor or power cable",
-        "zh": "预制电机或电源电缆"
+        "en": "Preassembled data cable",
+        "zh": "预制数据电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671966",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671904",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "670862",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
       }
     },
     {
       "brand": "igus",
-      "identifier": "MAT904105004",
-      "aliases": [],
-      "description": {
-        "en": "Preassembled motor or power cable",
-        "zh": "预制电机或电源电缆"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "MAT904105011",
-      "aliases": [],
-      "description": {
-        "en": "Preassembled motor or power cable",
-        "zh": "预制电机或电源电缆"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "MAT904105014",
-      "aliases": [],
-      "description": {
-        "en": "Preassembled motor or power cable",
-        "zh": "预制电机或电源电缆"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "MAT904105015",
-      "aliases": [],
-      "description": {
-        "en": "Preassembled motor or power cable",
-        "zh": "预制电机或电源电缆"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "MAT904117147",
-      "aliases": [],
-      "description": {
-        "en": "Preassembled encoder or feedback cable",
-        "zh": "预制编码器或反馈电缆"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "MAT904117146",
+      "identifier": "MAT904105008",
       "aliases": [],
       "description": {
         "en": "Preassembled motor or power cable",
@@ -473,12 +716,39 @@
       }
     },
     {
-      "brand": "igus",
-      "identifier": "MAT904117143",
+      "brand": "HELUKABEL",
+      "identifier": "671967",
       "aliases": [],
       "description": {
-        "en": "Preassembled drive connection cable",
-        "zh": "预制驱动连接电缆"
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671906",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "670863",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904105012",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
       }
     },
     {
@@ -491,6 +761,42 @@
       }
     },
     {
+      "brand": "HELUKABEL",
+      "identifier": "671969",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671907",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "670864",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904105003",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
       "brand": "igus",
       "identifier": "MAT904141223",
       "aliases": [],
@@ -500,48 +806,39 @@
       }
     },
     {
+      "brand": "HELUKABEL",
+      "identifier": "671973",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671909",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "670865",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
+      }
+    },
+    {
       "brand": "igus",
-      "identifier": "MAT904117141",
+      "identifier": "MAT904105004",
       "aliases": [],
       "description": {
         "en": "Preassembled motor or power cable",
         "zh": "预制电机或电源电缆"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "MAT904117142",
-      "aliases": [],
-      "description": {
-        "en": "Preassembled motor or power cable",
-        "zh": "预制电机或电源电缆"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "MAT904128548",
-      "aliases": [],
-      "description": {
-        "en": "Preassembled encoder or feedback cable",
-        "zh": "预制编码器或反馈电缆"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "MAT904128547",
-      "aliases": [],
-      "description": {
-        "en": "Preassembled motor or power cable",
-        "zh": "预制电机或电源电缆"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "MAT904128541",
-      "aliases": [],
-      "description": {
-        "en": "Preassembled drive connection cable",
-        "zh": "预制驱动连接电缆"
       }
     },
     {
@@ -554,6 +851,42 @@
       }
     },
     {
+      "brand": "HELUKABEL",
+      "identifier": "671974",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671913",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671356",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904105011",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
       "brand": "igus",
       "identifier": "MAT904141220",
       "aliases": [],
@@ -563,12 +896,39 @@
       }
     },
     {
-      "brand": "igus",
-      "identifier": "MAT904128540",
+      "brand": "HELUKABEL",
+      "identifier": "671976",
       "aliases": [],
       "description": {
-        "en": "Preassembled drive connection cable",
-        "zh": "预制驱动连接电缆"
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671914",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "670822",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904105014",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
       }
     },
     {
@@ -581,12 +941,84 @@
       }
     },
     {
+      "brand": "HELUKABEL",
+      "identifier": "671977",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671916",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "670823",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904105015",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
       "brand": "igus",
       "identifier": "MAT904145760",
       "aliases": [],
       "description": {
         "en": "Preassembled hybrid drive cable",
         "zh": "预制复合驱动电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671979",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671917",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "670824",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904117146",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
       }
     },
     {
@@ -599,12 +1031,174 @@
       }
     },
     {
+      "brand": "HELUKABEL",
+      "identifier": "671983",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671919",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "670825",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904117141",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671984",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671923",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671351",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904117142",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671986",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671924",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "670834",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "MAT904128547",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled motor or power cable",
+        "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671989",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671926",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "670835",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
+      }
+    },
+    {
       "brand": "igus",
       "identifier": "MAT904128539",
       "aliases": [],
       "description": {
         "en": "Preassembled motor or power cable",
         "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671993",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671927",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "670836",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
       }
     },
     {
@@ -617,12 +1211,66 @@
       }
     },
     {
+      "brand": "HELUKABEL",
+      "identifier": "671994",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671929",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "670837",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
+      }
+    },
+    {
       "brand": "igus",
       "identifier": "MAT904128543",
       "aliases": [],
       "description": {
         "en": "Preassembled motor or power cable",
         "zh": "预制电机或电源电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671996",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671933",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671332",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
       }
     },
     {
@@ -635,84 +1283,723 @@
       }
     },
     {
-      "brand": "igus",
-      "identifier": "MAT904151687",
+      "brand": "HELUKABEL",
+      "identifier": "671997",
       "aliases": [],
       "description": {
-        "en": "Preassembled industrial bus cable",
-        "zh": "预制工业总线电缆"
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
       }
     },
     {
-      "brand": "igus",
-      "identifier": "MAT904117094",
+      "brand": "HELUKABEL",
+      "identifier": "671934",
       "aliases": [],
       "description": {
-        "en": "Preassembled data cable",
-        "zh": "预制数据电缆"
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
       }
     },
     {
-      "brand": "igus",
-      "identifier": "MAT904117098",
+      "brand": "HELUKABEL",
+      "identifier": "670826",
       "aliases": [],
       "description": {
-        "en": "Preassembled data cable",
-        "zh": "预制数据电缆"
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
       }
     },
     {
-      "brand": "igus",
-      "identifier": "MAT904152120",
+      "brand": "HELUKABEL",
+      "identifier": "671999",
       "aliases": [],
       "description": {
-        "en": "Preassembled data cable",
-        "zh": "预制数据电缆"
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
       }
     },
     {
-      "brand": "igus",
-      "identifier": "MAT904152123",
+      "brand": "HELUKABEL",
+      "identifier": "671936",
       "aliases": [],
       "description": {
-        "en": "Preassembled data cable",
-        "zh": "预制数据电缆"
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
       }
     },
     {
-      "brand": "igus",
-      "identifier": "MAT904151686",
+      "brand": "HELUKABEL",
+      "identifier": "670827",
       "aliases": [],
       "description": {
-        "en": "Preassembled data cable",
-        "zh": "预制数据电缆"
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
       }
     },
     {
-      "brand": "igus",
-      "identifier": "MAT904151689",
+      "brand": "HELUKABEL",
+      "identifier": "672003",
       "aliases": [],
       "description": {
-        "en": "Preassembled data cable",
-        "zh": "预制数据电缆"
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
       }
     },
     {
-      "brand": "igus",
-      "identifier": "MAT9872901",
+      "brand": "HELUKABEL",
+      "identifier": "671937",
       "aliases": [],
       "description": {
-        "en": "Preassembled encoder or feedback cable",
-        "zh": "预制编码器或反馈电缆"
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
       }
     },
     {
-      "brand": "igus",
-      "identifier": "MAT9872902",
+      "brand": "HELUKABEL",
+      "identifier": "670828",
       "aliases": [],
       "description": {
-        "en": "Preassembled servo cable",
-        "zh": "预制伺服电缆"
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "672004",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671939",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "670829",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "672006",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671943",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671333",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "672007",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671944",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "670838",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "672009",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671946",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "670839",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "672013",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671947",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "670840",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "672014",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671949",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "670841",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "672016",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671873",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671334",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "672017",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671874",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "670830",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "672019",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671876",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "670831",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "672023",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671877",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "670832",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "672024",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671879",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "670833",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "672026",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671883",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671335",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "672027",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671884",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "670842",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "672029",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671886",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "670843",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "672033",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671887",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "670844",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "672034",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671889",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "670845",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled M8 sensor cable",
+        "zh": "预制M8传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "672036",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671833",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "672037",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671834",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "672039",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor cable",
+        "zh": "预制屏蔽M12传感器电缆"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671836",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671837",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671839",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671843",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671844",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671846",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671847",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671849",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671854",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671850",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671851",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671852",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671853",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671859",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671855",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671856",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671857",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "671858",
+      "aliases": [],
+      "description": {
+        "en": "Preassembled shielded M12 sensor lead",
+        "zh": "预制屏蔽M12单端传感器线"
       }
     }
   ],
@@ -729,6 +2016,24 @@
       }
     },
     {
+      "brand": "igus",
+      "identifier": "CFROBOT2.07.04.C",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022017",
+      "aliases": [],
+      "description": {
+        "en": "ROBOFLEX PUR robot control cable material",
+        "zh": "ROBOFLEX PUR机器人控制电缆材料"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "10292515",
       "aliases": [
@@ -737,6 +2042,24 @@
       "description": {
         "en": "Robot torsion cable material",
         "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT2.07.05.C",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022018",
+      "aliases": [],
+      "description": {
+        "en": "ROBOFLEX PUR robot control cable material",
+        "zh": "ROBOFLEX PUR机器人控制电缆材料"
       }
     },
     {
@@ -751,6 +2074,24 @@
       }
     },
     {
+      "brand": "igus",
+      "identifier": "CFROBOT2.07.07.C",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022019",
+      "aliases": [],
+      "description": {
+        "en": "ROBOFLEX PUR robot control cable material",
+        "zh": "ROBOFLEX PUR机器人控制电缆材料"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "10292510",
       "aliases": [
@@ -759,6 +2100,24 @@
       "description": {
         "en": "Robot torsion cable material",
         "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT2.07.12.C",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022022",
+      "aliases": [],
+      "description": {
+        "en": "ROBOFLEX PUR robot control cable material",
+        "zh": "ROBOFLEX PUR机器人控制电缆材料"
       }
     },
     {
@@ -773,6 +2132,24 @@
       }
     },
     {
+      "brand": "igus",
+      "identifier": "CFROBOT2.07.18.C",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022024",
+      "aliases": [],
+      "description": {
+        "en": "ROBOFLEX PUR robot control cable material",
+        "zh": "ROBOFLEX PUR机器人控制电缆材料"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "10292537",
       "aliases": [
@@ -781,6 +2158,24 @@
       "description": {
         "en": "Robot torsion cable material",
         "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT7.07.03.02.02.C",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022026",
+      "aliases": [],
+      "description": {
+        "en": "ROBOFLEX PUR robot control cable material",
+        "zh": "ROBOFLEX PUR机器人控制电缆材料"
       }
     },
     {
@@ -795,6 +2190,24 @@
       }
     },
     {
+      "brand": "igus",
+      "identifier": "CFROBOT7.15.03.C",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022039",
+      "aliases": [],
+      "description": {
+        "en": "ROBOFLEX PUR robot control cable material",
+        "zh": "ROBOFLEX PUR机器人控制电缆材料"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "10292538",
       "aliases": [
@@ -803,6 +2216,24 @@
       "description": {
         "en": "Robot torsion cable material",
         "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT7.15.04.C",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022040",
+      "aliases": [],
+      "description": {
+        "en": "ROBOFLEX PUR robot control cable material",
+        "zh": "ROBOFLEX PUR机器人控制电缆材料"
       }
     },
     {
@@ -817,6 +2248,24 @@
       }
     },
     {
+      "brand": "igus",
+      "identifier": "CFROBOT7.15.15.02.02.C",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022041",
+      "aliases": [],
+      "description": {
+        "en": "ROBOFLEX PUR robot control cable material",
+        "zh": "ROBOFLEX PUR机器人控制电缆材料"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "10292525",
       "aliases": [
@@ -825,6 +2274,24 @@
       "description": {
         "en": "Robot torsion cable material",
         "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT7.25.03.C",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022042",
+      "aliases": [],
+      "description": {
+        "en": "ROBOFLEX PUR robot control cable material",
+        "zh": "ROBOFLEX PUR机器人控制电缆材料"
       }
     },
     {
@@ -839,6 +2306,24 @@
       }
     },
     {
+      "brand": "igus",
+      "identifier": "CFROBOT7.25.04.C",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022043",
+      "aliases": [],
+      "description": {
+        "en": "ROBOFLEX PUR robot control cable material",
+        "zh": "ROBOFLEX PUR机器人控制电缆材料"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "10292535",
       "aliases": [
@@ -847,6 +2332,24 @@
       "description": {
         "en": "Robot torsion cable material",
         "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT7.25.15.02.02.C",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022044",
+      "aliases": [],
+      "description": {
+        "en": "ROBOFLEX PUR robot control cable material",
+        "zh": "ROBOFLEX PUR机器人控制电缆材料"
       }
     },
     {
@@ -861,6 +2364,24 @@
       }
     },
     {
+      "brand": "igus",
+      "identifier": "CFROBOT7.40.02.02.04.C",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022045",
+      "aliases": [],
+      "description": {
+        "en": "ROBOFLEX PUR robot control cable material",
+        "zh": "ROBOFLEX PUR机器人控制电缆材料"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "10282539",
       "aliases": [
@@ -869,6 +2390,24 @@
       "description": {
         "en": "Robot torsion cable material",
         "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT7.60.04.C",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022046",
+      "aliases": [],
+      "description": {
+        "en": "ROBOFLEX PUR robot control cable material",
+        "zh": "ROBOFLEX PUR机器人控制电缆材料"
       }
     },
     {
@@ -883,6 +2422,24 @@
       }
     },
     {
+      "brand": "igus",
+      "identifier": "CFROBOT3.02.03.02",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022047",
+      "aliases": [],
+      "description": {
+        "en": "ROBOFLEX PUR robot control cable material",
+        "zh": "ROBOFLEX PUR机器人控制电缆材料"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "10282540",
       "aliases": [
@@ -891,6 +2448,24 @@
       "description": {
         "en": "Robot torsion cable material",
         "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT3.02.04.02",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022048",
+      "aliases": [],
+      "description": {
+        "en": "ROBOFLEX PUR robot control cable material",
+        "zh": "ROBOFLEX PUR机器人控制电缆材料"
       }
     },
     {
@@ -905,6 +2480,24 @@
       }
     },
     {
+      "brand": "igus",
+      "identifier": "CFROBOT3.02.06.02",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022049",
+      "aliases": [],
+      "description": {
+        "en": "ROBOFLEX PUR robot control cable material",
+        "zh": "ROBOFLEX PUR机器人控制电缆材料"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "10282529",
       "aliases": [
@@ -913,6 +2506,24 @@
       "description": {
         "en": "Robot torsion cable material",
         "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT3.02.08.02",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022050",
+      "aliases": [],
+      "description": {
+        "en": "ROBOFLEX PUR robot control cable material",
+        "zh": "ROBOFLEX PUR机器人控制电缆材料"
       }
     },
     {
@@ -927,6 +2538,24 @@
       }
     },
     {
+      "brand": "igus",
+      "identifier": "CFROBOT3.05.05.02",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022051",
+      "aliases": [],
+      "description": {
+        "en": "ROBOFLEX PUR robot control cable material",
+        "zh": "ROBOFLEX PUR机器人控制电缆材料"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "10282545",
       "aliases": [
@@ -935,6 +2564,24 @@
       "description": {
         "en": "Robot torsion cable material",
         "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT4.001",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022052",
+      "aliases": [],
+      "description": {
+        "en": "ROBOFLEX PUR robot control cable material",
+        "zh": "ROBOFLEX PUR机器人控制电缆材料"
       }
     },
     {
@@ -949,6 +2596,24 @@
       }
     },
     {
+      "brand": "igus",
+      "identifier": "CFROBOT4.006",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022053",
+      "aliases": [],
+      "description": {
+        "en": "ROBOFLEX PUR robot control cable material",
+        "zh": "ROBOFLEX PUR机器人控制电缆材料"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "10282636",
       "aliases": [
@@ -957,6 +2622,24 @@
       "description": {
         "en": "Robot torsion cable material",
         "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT4.009",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022054",
+      "aliases": [],
+      "description": {
+        "en": "ROBOFLEX PUR robot control cable material",
+        "zh": "ROBOFLEX PUR机器人控制电缆材料"
       }
     },
     {
@@ -971,6 +2654,24 @@
       }
     },
     {
+      "brand": "igus",
+      "identifier": "CFROBOT4.015",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11022055",
+      "aliases": [],
+      "description": {
+        "en": "ROBOFLEX PUR robot control cable material",
+        "zh": "ROBOFLEX PUR机器人控制电缆材料"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "10282663",
       "aliases": [
@@ -979,6 +2680,24 @@
       "description": {
         "en": "Robot torsion cable material",
         "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT4.028",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
+      "brand": "HELUKABEL",
+      "identifier": "11023004",
+      "aliases": [],
+      "description": {
+        "en": "ROBOFLEX PUR robot control cable material",
+        "zh": "ROBOFLEX PUR机器人控制电缆材料"
       }
     },
     {
@@ -993,6 +2712,15 @@
       }
     },
     {
+      "brand": "igus",
+      "identifier": "CFROBOT5.500",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "10282647",
       "aliases": [
@@ -1001,6 +2729,15 @@
       "description": {
         "en": "Robot torsion cable material",
         "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT5.501",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
       }
     },
     {
@@ -1015,6 +2752,15 @@
       }
     },
     {
+      "brand": "igus",
+      "identifier": "CFROBOT8.PLUS.001",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "10282619",
       "aliases": [
@@ -1023,6 +2769,15 @@
       "description": {
         "en": "Robot torsion cable material",
         "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT8.PLUS.022",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
       }
     },
     {
@@ -1037,6 +2792,15 @@
       }
     },
     {
+      "brand": "igus",
+      "identifier": "CFROBOT8.PLUS.030",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "10282638",
       "aliases": [
@@ -1045,6 +2809,15 @@
       "description": {
         "en": "Robot torsion cable material",
         "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT8.PLUS.045",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
       }
     },
     {
@@ -1059,6 +2832,15 @@
       }
     },
     {
+      "brand": "igus",
+      "identifier": "CFROBOT8.PLUS.049",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "10282649",
       "aliases": [
@@ -1067,6 +2849,15 @@
       "description": {
         "en": "Robot torsion cable material",
         "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT8.PLUS.050",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
       }
     },
     {
@@ -1081,6 +2872,15 @@
       }
     },
     {
+      "brand": "igus",
+      "identifier": "CFROBOT8.PLUS.052",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "10282642",
       "aliases": [
@@ -1089,6 +2889,15 @@
       "description": {
         "en": "Robot torsion cable material",
         "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT8.PLUS.060",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
       }
     },
     {
@@ -1103,6 +2912,15 @@
       }
     },
     {
+      "brand": "igus",
+      "identifier": "CFROBOT.035",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "10282629",
       "aliases": [
@@ -1111,6 +2929,15 @@
       "description": {
         "en": "Robot torsion cable material",
         "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT.036",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
       }
     },
     {
@@ -1125,6 +2952,15 @@
       }
     },
     {
+      "brand": "igus",
+      "identifier": "CFROBOT.037",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "10282654",
       "aliases": [
@@ -1133,6 +2969,15 @@
       "description": {
         "en": "Robot torsion cable material",
         "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFROBOT.038",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
       }
     },
     {
@@ -1147,6 +2992,15 @@
       }
     },
     {
+      "brand": "igus",
+      "identifier": "CFSPECIAL.792.011",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "10282646",
       "aliases": [
@@ -1155,6 +3009,15 @@
       "description": {
         "en": "Robot torsion cable material",
         "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFSPECIAL.792.012",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
       }
     },
     {
@@ -1169,6 +3032,15 @@
       }
     },
     {
+      "brand": "igus",
+      "identifier": "CFSPECIAL.792.013",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "10292646",
       "aliases": [
@@ -1177,6 +3049,15 @@
       "description": {
         "en": "Robot torsion cable material",
         "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFSPECIAL.792.014",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
       }
     },
     {
@@ -1191,6 +3072,15 @@
       }
     },
     {
+      "brand": "igus",
+      "identifier": "CFSPECIAL.792.015",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
+      }
+    },
+    {
       "brand": "LAPP",
       "identifier": "10292619",
       "aliases": [
@@ -1199,6 +3089,15 @@
       "description": {
         "en": "Robot torsion cable material",
         "zh": "机器人扭转电缆材料"
+      }
+    },
+    {
+      "brand": "igus",
+      "identifier": "CFSPECIAL.792.016",
+      "aliases": [],
+      "description": {
+        "en": "Robot cable material",
+        "zh": "机器人电缆材料"
       }
     },
     {
@@ -2377,402 +4276,6 @@
         "en": "Robot torsion cable material",
         "zh": "机器人扭转电缆材料"
       }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT2.07.04.C",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT2.07.05.C",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT2.07.07.C",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT2.07.12.C",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT2.07.18.C",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT7.07.03.02.02.C",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT7.15.03.C",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT7.15.04.C",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT7.15.15.02.02.C",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT7.25.03.C",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT7.25.04.C",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT7.25.15.02.02.C",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT7.40.02.02.04.C",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT7.60.04.C",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT3.02.03.02",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT3.02.04.02",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT3.02.06.02",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT3.02.08.02",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT3.05.05.02",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT4.001",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT4.006",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT4.009",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT4.015",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT4.028",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT5.500",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT5.501",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT8.PLUS.001",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT8.PLUS.022",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT8.PLUS.030",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT8.PLUS.045",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT8.PLUS.049",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT8.PLUS.050",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT8.PLUS.052",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT8.PLUS.060",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT.035",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT.036",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT.037",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFROBOT.038",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFSPECIAL.792.011",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFSPECIAL.792.012",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFSPECIAL.792.013",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFSPECIAL.792.014",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFSPECIAL.792.015",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
-    },
-    {
-      "brand": "igus",
-      "identifier": "CFSPECIAL.792.016",
-      "aliases": [],
-      "description": {
-        "en": "Robot cable material",
-        "zh": "机器人电缆材料"
-      }
     }
   ],
   "service_label": {
@@ -2793,23 +4296,5 @@
   "category_name": {
     "en": "Robotic Harness",
     "zh": "机器人线束"
-  },
-  "quantity_exception": {
-    "approved": true,
-    "kind": "audited_subset",
-    "reason": {
-      "en": "Manufacturer-verified robot cable references are shown at their actual audited count; raw cable is counted as material only. This verified subset does not yet meet the target of 200 finished models and 200 material part numbers.",
-      "zh": "机器人专用电缆按原厂可核验的实际数量展示，裸缆只计入材料。 此处为已核验子集，200个成品型号和200个材料料号的目标仍待补充。"
-    },
-    "audit_id": "custom-harness-03-motion-literal-candidates.json",
-    "verified_counts": {
-      "products": 63,
-      "materials": 195
-    },
-    "target_status": "incomplete",
-    "target_counts": {
-      "products": 200,
-      "materials": 200
-    }
   }
 }
