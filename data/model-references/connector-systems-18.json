@@ -155,7 +155,70 @@
       "aliases": [],
       "description": {
         "en": "Mini-Con-X female solder-cup cable connector",
-        "zh": "Mini-Con-X 母端焊杯电缆连接器"
+        "zh": "Mini-Con-X母端焊杯线端连接器"
+      }
+    },
+    {
+      "brand": "Switchcraft / Conxall",
+      "identifier": "7251-3PG-300",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Con-X wide-board right-angle PCB connector",
+        "zh": "Mini-Con-X宽板弯式板端连接器"
+      }
+    },
+    {
+      "brand": "Switchcraft / Conxall",
+      "identifier": "7261-3PG-300",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Con-X narrow-board right-angle PCB connector",
+        "zh": "Mini-Con-X窄板弯式板端连接器"
+      }
+    },
+    {
+      "brand": "Switchcraft / Conxall",
+      "identifier": "7280-3PG-300",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Con-X male crimp panel connector",
+        "zh": "Mini-Con-X公端压接面板连接器"
+      }
+    },
+    {
+      "brand": "Switchcraft / Conxall",
+      "identifier": "7281-3PG-300",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Con-X male PC-tail panel connector",
+        "zh": "Mini-Con-X公端板端引脚面板连接器"
+      }
+    },
+    {
+      "brand": "Switchcraft / Conxall",
+      "identifier": "7282-3PG-300",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Con-X male solder-cup panel connector",
+        "zh": "Mini-Con-X公端焊杯面板连接器"
+      }
+    },
+    {
+      "brand": "Switchcraft / Conxall",
+      "identifier": "8280-3PG-311",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Con-X male crimp in-line connector",
+        "zh": "Mini-Con-X公端压接线对线连接器"
+      }
+    },
+    {
+      "brand": "Switchcraft / Conxall",
+      "identifier": "8282-3PG-311",
+      "aliases": [],
+      "description": {
+        "en": "Mini-Con-X male solder-cup in-line connector",
+        "zh": "Mini-Con-X公端焊杯线对线连接器"
       }
     }
   ],
@@ -185,10 +248,15 @@
       "en": "These references are connectors, wire or process materials; they are not counted as finished terminated assemblies.",
       "zh": "这些编号属于连接器、线材或工艺材料，不计为已端接成品组件。"
     },
-    "audit_id": "resume-brand-material-approved-manifest.json",
+    "audit_id": "next-wave/third-wave/seventh-wave/connector-materials/connector-systems-18-material-seventh-wave-independent-audit.json",
     "verified_counts": {
       "products": 0,
-      "materials": 1
+      "materials": 8
+    },
+    "target_status": "incomplete",
+    "target_counts": {
+      "products": 0,
+      "materials": 200
     }
   }
 }

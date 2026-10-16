@@ -152,10 +152,12 @@
     {
       "brand": "Hirose Electric",
       "identifier": "DF13-2630SCF(41)",
-      "aliases": [],
+      "aliases": [
+        "CL0536-0300-5-41"
+      ],
       "description": {
-        "en": "DF13 crimp contact",
-        "zh": "DF13 压接触点"
+        "en": "DF13 socket crimp contact",
+        "zh": "DF13插座压接触点"
       }
     },
     {
@@ -163,8 +165,323 @@
       "identifier": "DF13-2S-1.25C",
       "aliases": [],
       "description": {
-        "en": "DF13 connector housing",
-        "zh": "DF13 连接器壳体"
+        "en": "DF13 wire-side socket housing",
+        "zh": "DF13线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "ZX62-B-5PA(33)",
+      "aliases": [
+        "CL0242-0033-8-33"
+      ],
+      "description": {
+        "en": "Micro-USB receptacle connector",
+        "zh": "Micro-USB母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "ZX40-B-5S-UNIT(31)",
+      "aliases": [
+        "CL0242-0002-4-31"
+      ],
+      "description": {
+        "en": "Micro-USB unterminated plug unit",
+        "zh": "Micro-USB未接线插头组件"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "ZX40-B-SLDA",
+      "aliases": [
+        "CL0242-0003-7-00"
+      ],
+      "description": {
+        "en": "Micro-USB connector shield cover",
+        "zh": "Micro-USB连接器屏蔽盖"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "ZX80-B-5S(30)",
+      "aliases": [
+        "CL0242-0017-1-30"
+      ],
+      "description": {
+        "en": "Micro-USB cradle plug connector",
+        "zh": "Micro-USB底座插头连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "CX90MW9-24P",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "CX81B-24S",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C PCB plug connector",
+        "zh": "USB Type-C板装插头连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "CX60-24S-UNIT",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C unterminated plug unit",
+        "zh": "USB Type-C未接线插头组件"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "CX60-SLDA",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C plug shield shell",
+        "zh": "USB Type-C插头屏蔽壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "FX15-2830PCFB",
+      "aliases": [],
+      "description": {
+        "en": "FX15 Crimp contact",
+        "zh": "FX15 压接触点"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "FX15-31S-0.5SV",
+      "aliases": [
+        "FX15-31S-0.5SV(30)"
+      ],
+      "description": {
+        "en": "FX15 Board receptacle",
+        "zh": "FX15 板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "FX15M-21P-C",
+      "aliases": [],
+      "description": {
+        "en": "FX15 Cable plug connector",
+        "zh": "FX15 线端插头连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "FX15S-41P-GND",
+      "aliases": [],
+      "description": {
+        "en": "FX15 Connector ground plate",
+        "zh": "FX15 连接器接地片"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "FX15-31P-C",
+      "aliases": [],
+      "description": {
+        "en": "FX15 Cable plug connector cover",
+        "zh": "FX15 线端插头连接器外壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF19G-8P-1H(52)",
+      "aliases": [],
+      "description": {
+        "en": "DF19 PCB header",
+        "zh": "DF19 板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF19-14S-1C",
+      "aliases": [],
+      "description": {
+        "en": "DF19 Crimp socket housing",
+        "zh": "DF19 压接插座胶壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF19-2830SCFA",
+      "aliases": [],
+      "description": {
+        "en": "DF19 Crimp contact",
+        "zh": "DF19 压接触点"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "GT43-1P-H(A)",
+      "aliases": [],
+      "description": {
+        "en": "GT43 Video coaxial board receptacle",
+        "zh": "GT43 视频同轴板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "GT43-1P/S-CSB",
+      "aliases": [],
+      "description": {
+        "en": "GT43 Coaxial connector shielding plate",
+        "zh": "GT43 同轴连接器屏蔽片"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "GT43-1P/S-R",
+      "aliases": [],
+      "description": {
+        "en": "GT43 Coaxial connector retainer",
+        "zh": "GT43 同轴连接器保持架"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "GT43-1PP-HU(D)",
+      "aliases": [],
+      "description": {
+        "en": "GT43 Video coaxial connector housing",
+        "zh": "GT43 视频同轴连接器胶壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "GT43-2428/1.6-2.9PCF",
+      "aliases": [],
+      "description": {
+        "en": "GT43 Video coaxial contact",
+        "zh": "GT43 视频同轴触点"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "GT43P-HRMJ",
+      "aliases": [],
+      "description": {
+        "en": "GT43 SMA evaluation adapter",
+        "zh": "GT43 SMA评估转接件"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "GT43D-1P-H(F)",
+      "aliases": [],
+      "description": {
+        "en": "GT43 Video coaxial board receptacle with ground spring",
+        "zh": "GT43 带接地弹片视频同轴板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "KW30-2S-2V(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 vertical PCB receptacle",
+        "zh": "KW30直式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "KW30-2S-2H(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 right-angle PCB receptacle",
+        "zh": "KW30弯式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "KW30-2P-2C(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 wire-side plug housing",
+        "zh": "KW30线端插头外壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "KW30-3032PCFA(800)",
+      "aliases": [],
+      "description": {
+        "en": "30-32AWG KW30 plug crimp contact",
+        "zh": "30–32AWG KW30插头压接触点"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF13-2P-1.25DS(25)",
+      "aliases": [],
+      "description": {
+        "en": "DF13 right-angle PCB header",
+        "zh": "DF13弯式板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF13-3032SCF",
+      "aliases": [],
+      "description": {
+        "en": "30-32AWG DF13 socket crimp contact",
+        "zh": "30–32AWG DF13插座压接触点"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11-4DS-2C",
+      "aliases": [
+        "CL0543-0568-6-00"
+      ],
+      "description": {
+        "en": "DF11 crimp socket housing",
+        "zh": "DF11压接插座胶壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11CZ-4DS-2V(22)",
+      "aliases": [
+        "CL0543-2063-0-22"
+      ],
+      "description": {
+        "en": "DF11 SMT board receptacle",
+        "zh": "DF11贴片板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11CZ-4DP-2V(27)",
+      "aliases": [
+        "CL0543-2047-4-27"
+      ],
+      "description": {
+        "en": "DF11 SMT PCB header",
+        "zh": "DF11贴片板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11-4DEP-2C",
+      "aliases": [
+        "CL0543-0619-5-00"
+      ],
+      "description": {
+        "en": "DF11 in-line plug housing",
+        "zh": "DF11线对线插头胶壳"
       }
     },
     {
@@ -172,8 +489,260 @@
       "identifier": "DF13-3S-1.25C",
       "aliases": [],
       "description": {
-        "en": "DF13 connector housing",
-        "zh": "DF13 连接器壳体"
+        "en": "DF13 wire-side socket housing",
+        "zh": "DF13线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "ZX62D-B-5PA8(30)",
+      "aliases": [
+        "CL0242-0056-3-30"
+      ],
+      "description": {
+        "en": "Micro-USB receptacle connector",
+        "zh": "Micro-USB母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "ZX20-B-5S-UNIT(30)",
+      "aliases": [
+        "CL0242-0012-8-30"
+      ],
+      "description": {
+        "en": "Micro-USB unterminated plug unit",
+        "zh": "Micro-USB未接线插头组件"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "ZX40-SLDB",
+      "aliases": [
+        "CL0242-0004-0-00"
+      ],
+      "description": {
+        "en": "Micro-USB connector shield cover",
+        "zh": "Micro-USB连接器屏蔽盖"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "ZX80-B-5SA(30)",
+      "aliases": [
+        "CL0242-0019-7-30"
+      ],
+      "description": {
+        "en": "Micro-USB cradle plug connector",
+        "zh": "Micro-USB底座插头连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "CX90MW9-24P1",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "CX81B-24S1",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C PCB plug connector",
+        "zh": "USB Type-C板装插头连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "FX15-3032PCFA",
+      "aliases": [],
+      "description": {
+        "en": "FX15 Crimp contact",
+        "zh": "FX15 压接触点"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "FX15M-21S-0.5SH",
+      "aliases": [],
+      "description": {
+        "en": "FX15 Board receptacle",
+        "zh": "FX15 板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "FX15M-31P-C",
+      "aliases": [],
+      "description": {
+        "en": "FX15 Cable plug connector",
+        "zh": "FX15 线端插头连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "FX15S-51P-GND",
+      "aliases": [],
+      "description": {
+        "en": "FX15 Connector ground plate",
+        "zh": "FX15 连接器接地片"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF19G-14P-1H(52)",
+      "aliases": [],
+      "description": {
+        "en": "DF19 PCB header",
+        "zh": "DF19 板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF19-20S-1C",
+      "aliases": [],
+      "description": {
+        "en": "DF19 Crimp socket housing",
+        "zh": "DF19 压接插座胶壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF19A-2830SCFA",
+      "aliases": [
+        "DF19A-2830SCFA(41)"
+      ],
+      "description": {
+        "en": "DF19 Crimp contact",
+        "zh": "DF19 压接触点"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "GT43-1P-H(B)",
+      "aliases": [],
+      "description": {
+        "en": "GT43 Video coaxial board receptacle",
+        "zh": "GT43 视频同轴板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "GT43-1S-HU(A)",
+      "aliases": [],
+      "description": {
+        "en": "GT43 Video coaxial connector housing",
+        "zh": "GT43 视频同轴连接器胶壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "GT43-2428/1.6-2.9SCF",
+      "aliases": [],
+      "description": {
+        "en": "GT43 Video coaxial contact",
+        "zh": "GT43 视频同轴触点"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "GT43S-HRMJ",
+      "aliases": [],
+      "description": {
+        "en": "GT43 SMA evaluation adapter",
+        "zh": "GT43 SMA评估转接件"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "KW30-3S-1V(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 vertical PCB receptacle",
+        "zh": "KW30直式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "KW30-3S-1H(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 right-angle PCB receptacle",
+        "zh": "KW30弯式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "KW30-3P-1C(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 wire-side plug housing",
+        "zh": "KW30线端插头外壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF13-3P-1.25DS(25)",
+      "aliases": [],
+      "description": {
+        "en": "DF13 right-angle PCB header",
+        "zh": "DF13弯式板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF13-3032SCFA",
+      "aliases": [],
+      "description": {
+        "en": "30-32AWG DF13 socket crimp contact",
+        "zh": "30–32AWG DF13插座压接触点"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11-6DS-2C",
+      "aliases": [
+        "CL0543-0502-8-00"
+      ],
+      "description": {
+        "en": "DF11 crimp socket housing",
+        "zh": "DF11压接插座胶壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11CZ-6DS-2V(22)",
+      "aliases": [
+        "CL0543-2064-3-22"
+      ],
+      "description": {
+        "en": "DF11 SMT board receptacle",
+        "zh": "DF11贴片板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11C-4DP-2V(57)",
+      "aliases": [
+        "CL0543-0682-1-57"
+      ],
+      "description": {
+        "en": "DF11 SMT PCB header",
+        "zh": "DF11贴片板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11-6DEP-2C",
+      "aliases": [
+        "CL0543-0620-4-00"
+      ],
+      "description": {
+        "en": "DF11 in-line plug housing",
+        "zh": "DF11线对线插头胶壳"
       }
     },
     {
@@ -181,8 +750,204 @@
       "identifier": "DF13-4S-1.25C",
       "aliases": [],
       "description": {
-        "en": "DF13 connector housing",
-        "zh": "DF13 连接器壳体"
+        "en": "DF13 wire-side socket housing",
+        "zh": "DF13线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "ZX62R-B-5P(30)",
+      "aliases": [
+        "CL0242-0028-8-30"
+      ],
+      "description": {
+        "en": "Micro-USB receptacle connector",
+        "zh": "Micro-USB母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "ZX40-A-5S-UNIT(30)",
+      "aliases": [
+        "CL0242-0010-2-30"
+      ],
+      "description": {
+        "en": "Micro-USB unterminated plug unit",
+        "zh": "Micro-USB未接线插头组件"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "ZX20-B-SLDC",
+      "aliases": [
+        "CL0242-0022-1-00"
+      ],
+      "description": {
+        "en": "Micro-USB connector shield cover",
+        "zh": "Micro-USB连接器屏蔽盖"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "CX90MWD2-24P",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "FX15-3032PCFB",
+      "aliases": [],
+      "description": {
+        "en": "FX15 Crimp contact",
+        "zh": "FX15 压接触点"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "FX15M-31S-0.5SH",
+      "aliases": [],
+      "description": {
+        "en": "FX15 Board receptacle",
+        "zh": "FX15 板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "FX15S-31P-C",
+      "aliases": [],
+      "description": {
+        "en": "FX15 Cable plug connector",
+        "zh": "FX15 线端插头连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF19G-20P-1H(52)",
+      "aliases": [],
+      "description": {
+        "en": "DF19 PCB header",
+        "zh": "DF19 板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF19-30S-1C",
+      "aliases": [],
+      "description": {
+        "en": "DF19 Crimp socket housing",
+        "zh": "DF19 压接插座胶壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF19A-3032SCFA",
+      "aliases": [
+        "DF19A-3032SCFA(41)"
+      ],
+      "description": {
+        "en": "DF19 Crimp contact",
+        "zh": "DF19 压接触点"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "GT43-1P-H(C)",
+      "aliases": [],
+      "description": {
+        "en": "GT43 Video coaxial board receptacle",
+        "zh": "GT43 视频同轴板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "GT43-1S-HU(C)",
+      "aliases": [],
+      "description": {
+        "en": "GT43 Video coaxial connector housing",
+        "zh": "GT43 视频同轴连接器胶壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "KW30-4S-1V(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 vertical PCB receptacle",
+        "zh": "KW30直式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "KW30-4S-1H(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 right-angle PCB receptacle",
+        "zh": "KW30弯式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "KW30-4P-1C(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 wire-side plug housing",
+        "zh": "KW30线端插头外壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF13-4P-1.25DS(25)",
+      "aliases": [],
+      "description": {
+        "en": "DF13 right-angle PCB header",
+        "zh": "DF13弯式板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11-8DS-2C",
+      "aliases": [
+        "CL0543-0503-0-00"
+      ],
+      "description": {
+        "en": "DF11 crimp socket housing",
+        "zh": "DF11压接插座胶壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11CZ-6DS-2V(52)",
+      "aliases": [
+        "CL0543-2064-3-52"
+      ],
+      "description": {
+        "en": "DF11 SMT board receptacle",
+        "zh": "DF11贴片板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11CZ-6DP-2V(27)",
+      "aliases": [
+        "CL0543-2048-7-27"
+      ],
+      "description": {
+        "en": "DF11 SMT PCB header",
+        "zh": "DF11贴片板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11-8DEP-2C",
+      "aliases": [
+        "CL0543-0621-7-00"
+      ],
+      "description": {
+        "en": "DF11 in-line plug housing",
+        "zh": "DF11线对线插头胶壳"
       }
     },
     {
@@ -190,8 +955,173 @@
       "identifier": "DF13-5S-1.25C",
       "aliases": [],
       "description": {
-        "en": "DF13 connector housing",
-        "zh": "DF13 连接器壳体"
+        "en": "DF13 wire-side socket housing",
+        "zh": "DF13线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "ZX62M-B-5P(30)",
+      "aliases": [
+        "CL0242-0024-7-30"
+      ],
+      "description": {
+        "en": "Micro-USB receptacle connector",
+        "zh": "Micro-USB母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "ZX40-A-SLDA",
+      "aliases": [
+        "CL0242-0011-5-00"
+      ],
+      "description": {
+        "en": "Micro-USB connector shield cover",
+        "zh": "Micro-USB连接器屏蔽盖"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "CX90MWD2G-24P",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "FX15S-31S-0.5SH",
+      "aliases": [],
+      "description": {
+        "en": "FX15 Board receptacle",
+        "zh": "FX15 板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "FX15S-41P-0.5SD",
+      "aliases": [],
+      "description": {
+        "en": "FX15 Cable plug connector",
+        "zh": "FX15 线端插头连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF19G-30P-1H(52)",
+      "aliases": [],
+      "description": {
+        "en": "DF19 PCB header",
+        "zh": "DF19 板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF19G-8S-1C(06)",
+      "aliases": [],
+      "description": {
+        "en": "DF19 Crimp socket housing",
+        "zh": "DF19 压接插座胶壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "GT43-1P-H(D)",
+      "aliases": [],
+      "description": {
+        "en": "GT43 Video coaxial board receptacle",
+        "zh": "GT43 视频同轴板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "GT43-1S-HU(D)",
+      "aliases": [],
+      "description": {
+        "en": "GT43 Video coaxial connector housing",
+        "zh": "GT43 视频同轴连接器胶壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "KW30-5S-1V(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 vertical PCB receptacle",
+        "zh": "KW30直式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "KW30-5S-1H(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 right-angle PCB receptacle",
+        "zh": "KW30弯式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "KW30-5P-1C(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 wire-side plug housing",
+        "zh": "KW30线端插头外壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF13-5P-1.25DS(25)",
+      "aliases": [],
+      "description": {
+        "en": "DF13 right-angle PCB header",
+        "zh": "DF13弯式板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11-10DS-2C",
+      "aliases": [
+        "CL0543-0504-3-00"
+      ],
+      "description": {
+        "en": "DF11 crimp socket housing",
+        "zh": "DF11压接插座胶壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11CZ-8DS-2V(22)",
+      "aliases": [
+        "CL0543-2065-6-22"
+      ],
+      "description": {
+        "en": "DF11 SMT board receptacle",
+        "zh": "DF11贴片板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11C-6DP-2V(57)",
+      "aliases": [
+        "CL0543-0683-4-57"
+      ],
+      "description": {
+        "en": "DF11 SMT PCB header",
+        "zh": "DF11贴片板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11-10DEP-2C",
+      "aliases": [
+        "CL0543-0622-0-00"
+      ],
+      "description": {
+        "en": "DF11 in-line plug housing",
+        "zh": "DF11线对线插头胶壳"
       }
     },
     {
@@ -199,8 +1129,162 @@
       "identifier": "DF13-6S-1.25C",
       "aliases": [],
       "description": {
-        "en": "DF13 connector housing",
-        "zh": "DF13 连接器壳体"
+        "en": "DF13 wire-side socket housing",
+        "zh": "DF13线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "ZX62-AB-5PA(31)",
+      "aliases": [
+        "CL0242-0045-7-31"
+      ],
+      "description": {
+        "en": "Micro-USB receptacle connector",
+        "zh": "Micro-USB母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "CX90MW6-16P",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "FX15S-41S-0.5SH",
+      "aliases": [],
+      "description": {
+        "en": "FX15 Board receptacle",
+        "zh": "FX15 板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "FX15S-41P-C",
+      "aliases": [],
+      "description": {
+        "en": "FX15 Cable plug connector",
+        "zh": "FX15 线端插头连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF19K-20P-1H(52)",
+      "aliases": [],
+      "description": {
+        "en": "DF19 PCB header",
+        "zh": "DF19 板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF19G-14S-1C(06)",
+      "aliases": [],
+      "description": {
+        "en": "DF19 Crimp socket housing",
+        "zh": "DF19 压接插座胶壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "GT43-1P-H(E)",
+      "aliases": [],
+      "description": {
+        "en": "GT43 Video coaxial board receptacle",
+        "zh": "GT43 视频同轴板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "GT43-1S-HU(F)",
+      "aliases": [],
+      "description": {
+        "en": "GT43 Video coaxial connector housing",
+        "zh": "GT43 视频同轴连接器胶壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "KW30-6S-1V(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 vertical PCB receptacle",
+        "zh": "KW30直式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "KW30-6S-1H(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 right-angle PCB receptacle",
+        "zh": "KW30弯式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "KW30-6P-1C(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 wire-side plug housing",
+        "zh": "KW30线端插头外壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF13-6P-1.25DS(25)",
+      "aliases": [],
+      "description": {
+        "en": "DF13 right-angle PCB header",
+        "zh": "DF13弯式板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11-12DS-2C",
+      "aliases": [
+        "CL0543-0505-6-00"
+      ],
+      "description": {
+        "en": "DF11 crimp socket housing",
+        "zh": "DF11压接插座胶壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11CZ-8DS-2V(52)",
+      "aliases": [
+        "CL0543-2065-6-52"
+      ],
+      "description": {
+        "en": "DF11 SMT board receptacle",
+        "zh": "DF11贴片板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11CZ-8DP-2V(27)",
+      "aliases": [
+        "CL0543-2049-0-27"
+      ],
+      "description": {
+        "en": "DF11 SMT PCB header",
+        "zh": "DF11贴片板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11-12DEP-2C",
+      "aliases": [
+        "CL0543-0623-2-00"
+      ],
+      "description": {
+        "en": "DF11 in-line plug housing",
+        "zh": "DF11线对线插头胶壳"
       }
     },
     {
@@ -208,8 +1292,162 @@
       "identifier": "DF13-7S-1.25C",
       "aliases": [],
       "description": {
-        "en": "DF13 connector housing",
-        "zh": "DF13 连接器壳体"
+        "en": "DF13 wire-side socket housing",
+        "zh": "DF13线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "ZX62D-AB-5P8(30)",
+      "aliases": [
+        "CL0242-0027-5-30"
+      ],
+      "description": {
+        "en": "Micro-USB receptacle connector",
+        "zh": "Micro-USB母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "CX90MW8-16P",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "FX15S-51S-0.5SH",
+      "aliases": [],
+      "description": {
+        "en": "FX15 Board receptacle",
+        "zh": "FX15 板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "FX15S-51P-0.5SD",
+      "aliases": [],
+      "description": {
+        "en": "FX15 Cable plug connector",
+        "zh": "FX15 线端插头连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF19K-30P-1H(52)",
+      "aliases": [],
+      "description": {
+        "en": "DF19 PCB header",
+        "zh": "DF19 板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF19G-20S-1C(06)",
+      "aliases": [],
+      "description": {
+        "en": "DF19 Crimp socket housing",
+        "zh": "DF19 压接插座胶壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "GT43-1P-H(F)",
+      "aliases": [],
+      "description": {
+        "en": "GT43 Video coaxial board receptacle",
+        "zh": "GT43 视频同轴板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "GT43-1S-HU(H)",
+      "aliases": [],
+      "description": {
+        "en": "GT43 Video coaxial connector housing",
+        "zh": "GT43 视频同轴连接器胶壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "KW30-7S-1V(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 vertical PCB receptacle",
+        "zh": "KW30直式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "KW30-6S-1H(805)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 right-angle PCB receptacle",
+        "zh": "KW30弯式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "KW30-7P-1C(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 wire-side plug housing",
+        "zh": "KW30线端插头外壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF13-7P-1.25DS(25)",
+      "aliases": [],
+      "description": {
+        "en": "DF13 right-angle PCB header",
+        "zh": "DF13弯式板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11-14DS-2C",
+      "aliases": [
+        "CL0543-0506-9-00"
+      ],
+      "description": {
+        "en": "DF11 crimp socket housing",
+        "zh": "DF11压接插座胶壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11CZ-10DS-2V(22)",
+      "aliases": [
+        "CL0543-2066-9-22"
+      ],
+      "description": {
+        "en": "DF11 SMT board receptacle",
+        "zh": "DF11贴片板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11C-8DP-2V(57)",
+      "aliases": [
+        "CL0543-0684-7-57"
+      ],
+      "description": {
+        "en": "DF11 SMT PCB header",
+        "zh": "DF11贴片板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11-14DEP-2C",
+      "aliases": [
+        "CL0543-0624-5-00"
+      ],
+      "description": {
+        "en": "DF11 in-line plug housing",
+        "zh": "DF11线对线插头胶壳"
       }
     },
     {
@@ -217,8 +1455,153 @@
       "identifier": "DF13-8S-1.25C",
       "aliases": [],
       "description": {
-        "en": "DF13 connector housing",
-        "zh": "DF13 连接器壳体"
+        "en": "DF13 wire-side socket housing",
+        "zh": "DF13线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "ZX62RD-AB-5P8(30)",
+      "aliases": [
+        "CL0242-0025-0-30"
+      ],
+      "description": {
+        "en": "Micro-USB receptacle connector",
+        "zh": "Micro-USB母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "CX90MW8-16P1",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "FX15SC-41S-0.5SH",
+      "aliases": [],
+      "description": {
+        "en": "FX15 Board receptacle",
+        "zh": "FX15 板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "FX15S-51P-C",
+      "aliases": [],
+      "description": {
+        "en": "FX15 Cable plug connector",
+        "zh": "FX15 线端插头连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF19L-14P-1H(52)",
+      "aliases": [],
+      "description": {
+        "en": "DF19 PCB header",
+        "zh": "DF19 板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF19G-30S-1C(06)",
+      "aliases": [],
+      "description": {
+        "en": "DF19 Crimp socket housing",
+        "zh": "DF19 压接插座胶壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "GT43-1P-H(H)",
+      "aliases": [],
+      "description": {
+        "en": "GT43 Video coaxial board receptacle",
+        "zh": "GT43 视频同轴板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "KW30-8S-1V(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 vertical PCB receptacle",
+        "zh": "KW30直式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "KW30-7S-1H(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 right-angle PCB receptacle",
+        "zh": "KW30弯式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "KW30-8P-1C(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 wire-side plug housing",
+        "zh": "KW30线端插头外壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF13-8P-1.25DS(25)",
+      "aliases": [],
+      "description": {
+        "en": "DF13 right-angle PCB header",
+        "zh": "DF13弯式板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11-16DS-2C",
+      "aliases": [
+        "CL0543-0507-1-00"
+      ],
+      "description": {
+        "en": "DF11 crimp socket housing",
+        "zh": "DF11压接插座胶壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11CZ-10DS-2V(52)",
+      "aliases": [
+        "CL0543-2066-9-52"
+      ],
+      "description": {
+        "en": "DF11 SMT board receptacle",
+        "zh": "DF11贴片板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11CZ-10DP-2V(27)",
+      "aliases": [
+        "CL0543-2050-9-27"
+      ],
+      "description": {
+        "en": "DF11 SMT PCB header",
+        "zh": "DF11贴片板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11-16DEP-2C",
+      "aliases": [
+        "CL0543-0625-8-00"
+      ],
+      "description": {
+        "en": "DF11 in-line plug housing",
+        "zh": "DF11线对线插头胶壳"
       }
     },
     {
@@ -226,8 +1609,133 @@
       "identifier": "DF13-9S-1.25C",
       "aliases": [],
       "description": {
-        "en": "DF13 connector housing",
-        "zh": "DF13 连接器壳体"
+        "en": "DF13 wire-side socket housing",
+        "zh": "DF13线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "ZX62MD2-B-5PA(30)",
+      "aliases": [],
+      "description": {
+        "en": "Micro-USB receptacle connector",
+        "zh": "Micro-USB母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "CX90BW1-24P",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "FX15SC-41S-0.5SV",
+      "aliases": [],
+      "description": {
+        "en": "FX15 Board receptacle",
+        "zh": "FX15 板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "FX15SW-31P-C",
+      "aliases": [],
+      "description": {
+        "en": "FX15 Cable plug connector",
+        "zh": "FX15 线端插头连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF19L-20P-1H(52)",
+      "aliases": [],
+      "description": {
+        "en": "DF19 PCB header",
+        "zh": "DF19 板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "KW30-9S-1V(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 vertical PCB receptacle",
+        "zh": "KW30直式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "KW30-8S-1H(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 right-angle PCB receptacle",
+        "zh": "KW30弯式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "KW30-9P-1C(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 wire-side plug housing",
+        "zh": "KW30线端插头外壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF13-9P-1.25DS(25)",
+      "aliases": [],
+      "description": {
+        "en": "DF13 right-angle PCB header",
+        "zh": "DF13弯式板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11-18DS-2C",
+      "aliases": [
+        "CL0543-0508-4-00"
+      ],
+      "description": {
+        "en": "DF11 crimp socket housing",
+        "zh": "DF11压接插座胶壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11CZ-12DS-2V(22)",
+      "aliases": [
+        "CL0543-2067-1-22"
+      ],
+      "description": {
+        "en": "DF11 SMT board receptacle",
+        "zh": "DF11贴片板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11C-10DP-2V(57)",
+      "aliases": [
+        "CL0543-0685-0-57"
+      ],
+      "description": {
+        "en": "DF11 SMT PCB header",
+        "zh": "DF11贴片板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11-18DEP-2C",
+      "aliases": [
+        "CL0543-0626-0-00"
+      ],
+      "description": {
+        "en": "DF11 in-line plug housing",
+        "zh": "DF11线对线插头胶壳"
       }
     },
     {
@@ -235,8 +1743,115 @@
       "identifier": "DF13-10S-1.25C",
       "aliases": [],
       "description": {
-        "en": "DF13 connector housing",
-        "zh": "DF13 连接器壳体"
+        "en": "DF13 wire-side socket housing",
+        "zh": "DF13线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "CX90BW1-24P1",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "FX15SC-51S-0.5SH",
+      "aliases": [],
+      "description": {
+        "en": "FX15 Board receptacle",
+        "zh": "FX15 板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF19L-30P-1H(52)",
+      "aliases": [],
+      "description": {
+        "en": "DF19 PCB header",
+        "zh": "DF19 板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "KW30-10S-1V(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 vertical PCB receptacle",
+        "zh": "KW30直式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "KW30-9S-1H(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 right-angle PCB receptacle",
+        "zh": "KW30弯式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "KW30-10P-1C(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 wire-side plug housing",
+        "zh": "KW30线端插头外壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF13-10P-1.25DS(25)",
+      "aliases": [],
+      "description": {
+        "en": "DF13 right-angle PCB header",
+        "zh": "DF13弯式板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11-20DS-2C",
+      "aliases": [
+        "CL0543-0509-7-00"
+      ],
+      "description": {
+        "en": "DF11 crimp socket housing",
+        "zh": "DF11压接插座胶壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11CZ-12DS-2V(52)",
+      "aliases": [
+        "CL0543-2067-1-52"
+      ],
+      "description": {
+        "en": "DF11 SMT board receptacle",
+        "zh": "DF11贴片板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11CZ-12DP-2V(27)",
+      "aliases": [
+        "CL0543-2051-1-27"
+      ],
+      "description": {
+        "en": "DF11 SMT PCB header",
+        "zh": "DF11贴片板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11-20DEP-2C",
+      "aliases": [
+        "CL0543-0627-3-00"
+      ],
+      "description": {
+        "en": "DF11 in-line plug housing",
+        "zh": "DF11线对线插头胶壳"
       }
     },
     {
@@ -244,8 +1859,115 @@
       "identifier": "DF13-11S-1.25C",
       "aliases": [],
       "description": {
-        "en": "DF13 connector housing",
-        "zh": "DF13 连接器壳体"
+        "en": "DF13 wire-side socket housing",
+        "zh": "DF13线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "CX90BW-16P(001)",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "FX15SC-51S-0.5SV",
+      "aliases": [],
+      "description": {
+        "en": "FX15 Board receptacle",
+        "zh": "FX15 板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF19KR-20P-1H(52)",
+      "aliases": [],
+      "description": {
+        "en": "DF19 PCB header",
+        "zh": "DF19 板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "KW30-15S-1V(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 vertical PCB receptacle",
+        "zh": "KW30直式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "KW30-10S-1H(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 right-angle PCB receptacle",
+        "zh": "KW30弯式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "KW30-15P-1C(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 wire-side plug housing",
+        "zh": "KW30线端插头外壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF13-11P-1.25DS(25)",
+      "aliases": [],
+      "description": {
+        "en": "DF13 right-angle PCB header",
+        "zh": "DF13弯式板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11-22DS-2C",
+      "aliases": [
+        "CL0543-0510-6-00"
+      ],
+      "description": {
+        "en": "DF11 crimp socket housing",
+        "zh": "DF11压接插座胶壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11CZ-14DS-2V(22)",
+      "aliases": [
+        "CL0543-2068-4-22"
+      ],
+      "description": {
+        "en": "DF11 SMT board receptacle",
+        "zh": "DF11贴片板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11C-12DP-2V(57)",
+      "aliases": [
+        "CL0543-0686-2-57"
+      ],
+      "description": {
+        "en": "DF11 SMT PCB header",
+        "zh": "DF11贴片板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11-22DEP-2C",
+      "aliases": [
+        "CL0543-0628-6-00"
+      ],
+      "description": {
+        "en": "DF11 in-line plug housing",
+        "zh": "DF11线对线插头胶壳"
       }
     },
     {
@@ -253,8 +1975,79 @@
       "identifier": "DF13-12S-1.25C",
       "aliases": [],
       "description": {
-        "en": "DF13 connector housing",
-        "zh": "DF13 连接器壳体"
+        "en": "DF13 wire-side socket housing",
+        "zh": "DF13线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "CX90BW-16P1",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "KW30-15S-1H(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 right-angle PCB receptacle",
+        "zh": "KW30弯式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF13-12P-1.25DS(25)",
+      "aliases": [],
+      "description": {
+        "en": "DF13 right-angle PCB header",
+        "zh": "DF13弯式板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11-24DS-2C",
+      "aliases": [
+        "CL0543-0511-9-00"
+      ],
+      "description": {
+        "en": "DF11 crimp socket housing",
+        "zh": "DF11压接插座胶壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11CZ-14DS-2V(52)",
+      "aliases": [
+        "CL0543-2068-4-52"
+      ],
+      "description": {
+        "en": "DF11 SMT board receptacle",
+        "zh": "DF11贴片板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11CZ-14DP-2V(27)",
+      "aliases": [
+        "CL0543-2052-4-27"
+      ],
+      "description": {
+        "en": "DF11 SMT PCB header",
+        "zh": "DF11贴片板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11-24DEP-2C",
+      "aliases": [
+        "CL0543-0629-9-00"
+      ],
+      "description": {
+        "en": "DF11 in-line plug housing",
+        "zh": "DF11线对线插头胶壳"
       }
     },
     {
@@ -262,8 +2055,70 @@
       "identifier": "DF13-13S-1.25C",
       "aliases": [],
       "description": {
-        "en": "DF13 connector housing",
-        "zh": "DF13 连接器壳体"
+        "en": "DF13 wire-side socket housing",
+        "zh": "DF13线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "CX70M-24P1",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF13-14P-1.25DS(25)",
+      "aliases": [],
+      "description": {
+        "en": "DF13 right-angle PCB header",
+        "zh": "DF13弯式板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11-26DS-2C",
+      "aliases": [
+        "CL0543-0512-1-00"
+      ],
+      "description": {
+        "en": "DF11 crimp socket housing",
+        "zh": "DF11压接插座胶壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11CZ-16DS-2V(22)",
+      "aliases": [
+        "CL0543-2069-7-22"
+      ],
+      "description": {
+        "en": "DF11 SMT board receptacle",
+        "zh": "DF11贴片板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11C-14DP-2V(57)",
+      "aliases": [
+        "CL0543-0687-5-57"
+      ],
+      "description": {
+        "en": "DF11 SMT PCB header",
+        "zh": "DF11贴片板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11-26DEP-2C",
+      "aliases": [
+        "CL0543-0630-8-00"
+      ],
+      "description": {
+        "en": "DF11 in-line plug housing",
+        "zh": "DF11线对线插头胶壳"
       }
     },
     {
@@ -271,8 +2126,70 @@
       "identifier": "DF13-14S-1.25C",
       "aliases": [],
       "description": {
-        "en": "DF13 connector housing",
-        "zh": "DF13 连接器壳体"
+        "en": "DF13 wire-side socket housing",
+        "zh": "DF13线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "CX70M-24P2",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF13-15P-1.25DS(25)",
+      "aliases": [],
+      "description": {
+        "en": "DF13 right-angle PCB header",
+        "zh": "DF13弯式板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11-28DS-2C",
+      "aliases": [
+        "CL0543-0513-4-00"
+      ],
+      "description": {
+        "en": "DF11 crimp socket housing",
+        "zh": "DF11压接插座胶壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11CZ-18DS-2V(22)",
+      "aliases": [
+        "CL0543-2070-6-22"
+      ],
+      "description": {
+        "en": "DF11 SMT board receptacle",
+        "zh": "DF11贴片板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11CZ-16DP-2V(27)",
+      "aliases": [
+        "CL0543-2053-7-27"
+      ],
+      "description": {
+        "en": "DF11 SMT PCB header",
+        "zh": "DF11贴片板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11-28DEP-2C",
+      "aliases": [
+        "CL0543-0631-0-00"
+      ],
+      "description": {
+        "en": "DF11 in-line plug housing",
+        "zh": "DF11线对线插头胶壳"
       }
     },
     {
@@ -280,8 +2197,61 @@
       "identifier": "DF13-15S-1.25C",
       "aliases": [],
       "description": {
-        "en": "DF13 connector housing",
-        "zh": "DF13 连接器壳体"
+        "en": "DF13 wire-side socket housing",
+        "zh": "DF13线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "CX70M1-24P",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11-30DS-2C",
+      "aliases": [
+        "CL0543-0514-7-00"
+      ],
+      "description": {
+        "en": "DF11 crimp socket housing",
+        "zh": "DF11压接插座胶壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11CZ-18DS-2V(52)",
+      "aliases": [
+        "CL0543-2070-6-52"
+      ],
+      "description": {
+        "en": "DF11 SMT board receptacle",
+        "zh": "DF11贴片板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11C-16DP-2V(57)",
+      "aliases": [
+        "CL0543-0688-8-57"
+      ],
+      "description": {
+        "en": "DF11 SMT PCB header",
+        "zh": "DF11贴片板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11-30DEP-2C",
+      "aliases": [
+        "CL0543-0632-3-00"
+      ],
+      "description": {
+        "en": "DF11 in-line plug housing",
+        "zh": "DF11线对线插头胶壳"
       }
     },
     {
@@ -289,8 +2259,61 @@
       "identifier": "DF13-10DS-1.25C",
       "aliases": [],
       "description": {
-        "en": "DF13 connector housing",
-        "zh": "DF13 连接器壳体"
+        "en": "DF13 wire-side socket housing",
+        "zh": "DF13线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "CX90M3-24P",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11-32DS-2C",
+      "aliases": [
+        "CL0543-0515-0-00"
+      ],
+      "description": {
+        "en": "DF11 crimp socket housing",
+        "zh": "DF11压接插座胶壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11CZ-20DS-2V(22)",
+      "aliases": [
+        "CL0543-2071-9-22"
+      ],
+      "description": {
+        "en": "DF11 SMT board receptacle",
+        "zh": "DF11贴片板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11CZ-18DP-2V(27)",
+      "aliases": [
+        "CL0543-2054-0-27"
+      ],
+      "description": {
+        "en": "DF11 SMT PCB header",
+        "zh": "DF11贴片板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11-32DEP-2C",
+      "aliases": [
+        "CL0543-0633-6-00"
+      ],
+      "description": {
+        "en": "DF11 in-line plug housing",
+        "zh": "DF11线对线插头胶壳"
       }
     },
     {
@@ -298,8 +2321,356 @@
       "identifier": "DF13-20DS-1.25C",
       "aliases": [],
       "description": {
-        "en": "DF13 connector housing",
-        "zh": "DF13 连接器壳体"
+        "en": "DF13 wire-side socket housing",
+        "zh": "DF13线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "CX90M-16P",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11CZ-20DS-2V(52)",
+      "aliases": [
+        "CL0543-2071-9-52"
+      ],
+      "description": {
+        "en": "DF11 SMT board receptacle",
+        "zh": "DF11贴片板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11C-18DP-2V(57)",
+      "aliases": [
+        "CL0543-0689-0-57"
+      ],
+      "description": {
+        "en": "DF11 SMT PCB header",
+        "zh": "DF11贴片板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF13-30DS-1.25C(10)",
+      "aliases": [],
+      "description": {
+        "en": "DF13 wire-side socket housing",
+        "zh": "DF13线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "CX90MF-16P",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11CZ-22DS-2V(22)",
+      "aliases": [
+        "CL0543-2072-1-22"
+      ],
+      "description": {
+        "en": "DF11 SMT board receptacle",
+        "zh": "DF11贴片板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11CZ-20DP-2V(27)",
+      "aliases": [
+        "CL0543-2055-2-27"
+      ],
+      "description": {
+        "en": "DF11 SMT PCB header",
+        "zh": "DF11贴片板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF13-40DS-1.25C(10)",
+      "aliases": [],
+      "description": {
+        "en": "DF13 wire-side socket housing",
+        "zh": "DF13线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "CX80B1-24P",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11CZ-24DS-2V(22)",
+      "aliases": [
+        "CL0543-2073-4-22"
+      ],
+      "description": {
+        "en": "DF11 SMT board receptacle",
+        "zh": "DF11贴片板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11C-20DP-2V(57)",
+      "aliases": [
+        "CL0543-0690-0-57"
+      ],
+      "description": {
+        "en": "DF11 SMT PCB header",
+        "zh": "DF11贴片板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "CX80B2-24P",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11CZ-26DS-2V(22)",
+      "aliases": [
+        "CL0543-2074-7-22"
+      ],
+      "description": {
+        "en": "DF11 SMT board receptacle",
+        "zh": "DF11贴片板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11CZ-22DP-2V(27)",
+      "aliases": [
+        "CL0543-2056-5-27"
+      ],
+      "description": {
+        "en": "DF11 SMT PCB header",
+        "zh": "DF11贴片板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "CX90B1-24P",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11CZ-30DS-2V(22)",
+      "aliases": [
+        "CL0543-2076-2-22"
+      ],
+      "description": {
+        "en": "DF11 SMT board receptacle",
+        "zh": "DF11贴片板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11C-22DP-2V(57)",
+      "aliases": [
+        "CL0543-0691-2-57"
+      ],
+      "description": {
+        "en": "DF11 SMT PCB header",
+        "zh": "DF11贴片板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "CX90B1B-24P",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11CZ-30DS-2V(52)",
+      "aliases": [
+        "CL0543-2076-2-52"
+      ],
+      "description": {
+        "en": "DF11 SMT board receptacle",
+        "zh": "DF11贴片板端插座"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11CZ-24DP-2V(27)",
+      "aliases": [
+        "CL0543-2057-8-27"
+      ],
+      "description": {
+        "en": "DF11 SMT PCB header",
+        "zh": "DF11贴片板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "CX90B2-24P",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11C-24DP-2V(57)",
+      "aliases": [
+        "CL0543-0692-5-57"
+      ],
+      "description": {
+        "en": "DF11 SMT PCB header",
+        "zh": "DF11贴片板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "CX90B2-24P1",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11CZ-26DP-2V(27)",
+      "aliases": [
+        "CL0543-2058-0-27"
+      ],
+      "description": {
+        "en": "DF11 SMT PCB header",
+        "zh": "DF11贴片板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "CX90B-16P",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11C-26DP-2V(57)",
+      "aliases": [
+        "CL0543-0693-8-57"
+      ],
+      "description": {
+        "en": "DF11 SMT PCB header",
+        "zh": "DF11贴片板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "CX90B-16P1",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11CZ-28DP-2V(27)",
+      "aliases": [
+        "CL0543-2059-3-27"
+      ],
+      "description": {
+        "en": "DF11 SMT PCB header",
+        "zh": "DF11贴片板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "CX90MWP1-24P",
+      "aliases": [],
+      "description": {
+        "en": "USB Type-C receptacle connector",
+        "zh": "USB Type-C母座连接器"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11C-28DP-2V(57)",
+      "aliases": [
+        "CL0543-0694-0-57"
+      ],
+      "description": {
+        "en": "DF11 SMT PCB header",
+        "zh": "DF11贴片板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11CZ-30DP-2V(27)",
+      "aliases": [
+        "CL0543-2060-2-27"
+      ],
+      "description": {
+        "en": "DF11 SMT PCB header",
+        "zh": "DF11贴片板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11C-30DP-2V(57)",
+      "aliases": [
+        "CL0543-0695-3-57"
+      ],
+      "description": {
+        "en": "DF11 SMT PCB header",
+        "zh": "DF11贴片板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11CZ-32DP-2V(27)",
+      "aliases": [
+        "CL0543-2061-5-27"
+      ],
+      "description": {
+        "en": "DF11 SMT PCB header",
+        "zh": "DF11贴片板端插头"
+      }
+    },
+    {
+      "brand": "Hirose Electric",
+      "identifier": "DF11C-32DP-2V(57)",
+      "aliases": [
+        "CL0543-0696-6-57"
+      ],
+      "description": {
+        "en": "DF11 SMT PCB header",
+        "zh": "DF11贴片板端插头"
       }
     }
   ],
@@ -329,10 +2700,15 @@
       "en": "These references are connectors, wire or process materials; they are not counted as finished terminated assemblies.",
       "zh": "这些编号属于连接器、线材或工艺材料，不计为已端接成品组件。"
     },
-    "audit_id": "resume-brand-material-approved-manifest.json",
+    "audit_id": "next-wave/third-wave/seventh-wave/connector-materials/connector-systems-07-material-seventh-wave-independent-audit.json",
     "verified_counts": {
       "products": 0,
-      "materials": 17
+      "materials": 258
+    },
+    "target_status": "material_target_met",
+    "target_counts": {
+      "products": 0,
+      "materials": 200
     }
   }
 }
