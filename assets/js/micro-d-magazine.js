@@ -32,7 +32,7 @@
   let zh=true;
   async function render(){
     try{
-      zh=isZh(); const data=await fetch('/content/product-category-drafts/micro-d-cable-assembly.json',{cache:'no-store'}).then(r=>r.json()); const p=data.page,t=p.chapters;
+      zh=isZh(); const data=await globalThis.SuperSmileEditorial.fetchContent('/content/product-category-drafts/micro-d-cable-assembly.json',{cache:'no-store'}).then(r=>r.json()); const p=data.page,t=p.chapters;
 
 
       const title=pick(p.displayTitle,zh); document.getElementById('pcc-title').textContent=title; document.getElementById('pcc-intro').textContent=pick(data.intro,zh); document.getElementById('pcc-eyebrow').textContent=zh?'产品小类 · 高密度微型互连':'PRODUCT CATEGORY · HIGH-DENSITY INTERCONNECT'; document.getElementById('pcc-group').textContent=zh?'特色电缆组件':'Specialty Cable Assemblies'; document.getElementById('pcc-cta').textContent=zh?'咨询这一类产品':'Ask About This Product Type'; document.getElementById('pcc-back').textContent=zh?'返回产品中心':'Back to Products'; { const node = document.getElementById('pcc-closing-title'); if (node) node.textContent = title; } { const node = document.getElementById('pcc-closing-group'); if (node) node.textContent = zh?'特色电缆组件':'Specialty Cable Assemblies'; } { const node = document.getElementById('pcc-closing-cta'); if (node) node.textContent = zh?'发送接口与图纸':'Send Interface Details'; }

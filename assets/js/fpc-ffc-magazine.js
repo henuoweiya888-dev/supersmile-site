@@ -44,7 +44,7 @@
   async function render() {
     try {
       zh = langZh();
-      const data = await fetch('/content/product-category-drafts/fpc-ffc-assembly.json', {cache:'no-store'}).then(response => response.json());
+      const data = await globalThis.SuperSmileEditorial.fetchContent('/content/product-category-drafts/fpc-ffc-assembly.json', {cache:'no-store'}).then(response => response.json());
       const page = data.page;
       const topic = page.chapters;
 

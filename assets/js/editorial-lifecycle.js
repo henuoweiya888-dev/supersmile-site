@@ -1,5 +1,31 @@
 (() => {
   const mounted = new WeakMap();
+  const content = new Map();
+
+  // A language switch changes copy, not the underlying bilingual source. Reuse
+  // a successfully parsed source for this document, and evict failed requests.
+  function fetchContent(url, options) {
+    if (!content.has(url)) {
+      const embedded = document.getElementById('editorial-page-data');
+      if (embedded?.dataset?.source === url) {
+        try {
+          const data = JSON.parse(embedded.textContent);
+          content.set(url, Promise.resolve({ok: true, status: 200, json: async () => data}));
+          return content.get(url);
+        } catch {}
+      }
+      const request = fetch(url, options).then(async response => {
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        const data = await response.json();
+        return {ok: true, status: response.status, json: async () => data};
+      }).catch(error => {
+        content.delete(url);
+        throw error;
+      });
+      content.set(url, request);
+    }
+    return content.get(url);
+  }
 
   // The shared category renderer may finish after a dedicated article renderer.
   // Keep the article's owner alive across both that replacement and language changes.
@@ -73,5 +99,5 @@
     request();
     return controller;
   }
-  globalThis.SuperSmileEditorial = {mount};
+  globalThis.SuperSmileEditorial = {mount, fetchContent};
 })();

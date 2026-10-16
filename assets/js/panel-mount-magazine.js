@@ -32,7 +32,7 @@
   const head=(n,k,t)=>`<header class="pm-header"><span>${n}</span><div><p>${esc(k)}</p><h2>${esc(t)}</h2></div></header>`;
   async function render(){
     try{
-      const zh=isZh(),data=await fetch('/content/product-category-drafts/panel-mount-cable.json',{cache:'no-store'}).then(r=>r.json()),p=data.page,t=p.chapters;
+      const zh=isZh(),data=await globalThis.SuperSmileEditorial.fetchContent('/content/product-category-drafts/panel-mount-cable.json',{cache:'no-store'}).then(r=>r.json()),p=data.page,t=p.chapters;
 
 
       const title=pick(p.displayTitle,zh); document.getElementById('pcc-title').textContent=title; document.getElementById('pcc-intro').textContent=pick(data.intro,zh); document.getElementById('pcc-eyebrow').textContent=zh?'产品小类 · 设备边界接口':'PRODUCT CATEGORY · EQUIPMENT INTERFACE'; document.getElementById('pcc-group').textContent=zh?'特色电缆组件':'Specialty Cable Assemblies'; document.getElementById('pcc-cta').textContent=zh?'咨询这一类产品':'Ask About This Product Type'; document.getElementById('pcc-back').textContent=zh?'返回产品中心':'Back to Products'; { const node = document.getElementById('pcc-closing-title'); if (node) node.textContent = title; } { const node = document.getElementById('pcc-closing-group'); if (node) node.textContent = zh?'特色电缆组件':'Specialty Cable Assemblies'; } { const node = document.getElementById('pcc-closing-cta'); if (node) node.textContent = zh?'发送面板与接口资料':'Send Panel Details'; }

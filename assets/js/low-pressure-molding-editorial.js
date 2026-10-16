@@ -32,7 +32,7 @@
   async function render() {
     try {
       const zh = isZh();
-      const res = await fetch('/content/product-category-drafts/low-pressure-molding.json', {cache:'no-store'});
+      const res = await globalThis.SuperSmileEditorial.fetchContent('/content/product-category-drafts/low-pressure-molding.json', {cache:'no-store'});
       if (!res.ok) throw new Error(String(res.status));
       const data = await res.json(); const page = data.page; const t = page.chapters; const title = pick(page.displayTitle, zh);
 

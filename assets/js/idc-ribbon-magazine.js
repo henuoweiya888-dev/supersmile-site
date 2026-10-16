@@ -41,7 +41,7 @@
 
   async function render() {
     try {
-      const response = await fetch('/content/product-category-drafts/idc-ribbon-cable-assembly.json', {cache: 'no-store'});
+      const response = await globalThis.SuperSmileEditorial.fetchContent('/content/product-category-drafts/idc-ribbon-cable-assembly.json', {cache: 'no-store'});
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       const data = await response.json();
       const page = data.page;

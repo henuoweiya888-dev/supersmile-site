@@ -42,8 +42,8 @@
         "zh": "成品电缆与线束型号"
       },
       "intro": {
-        "en": "Finished cable and harness references for this interface or application.",
-        "zh": "此接口或应用方向的成品电缆与线束参考。"
+        "en": "Fine-wire assemblies and 32AWG termination references; confirm wire gauge and interface for the exact part.",
+        "zh": "细线组件与32AWG端接方案参考，线规和接口按具体料号核对。"
       }
     },
     {
@@ -53,8 +53,8 @@
         "zh": "连接器与材料料号"
       },
       "intro": {
-        "en": "Connector, wire and process-material references for project selection.",
-        "zh": "供项目选型的连接器、线材与工艺材料参考。"
+        "en": "32AWG contacts and their matching housings and board connectors; confirm the complete wire and interface combination.",
+        "zh": "含32AWG触点及其匹配壳体、针座，整套接口与线材组合按项目确认。"
       }
     }
   ],
@@ -159,11 +159,47 @@
     },
     {
       "brand": "Samtec",
+      "identifier": "SESDT-10-32-G-08.0-L3",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2079901000",
+      "aliases": [],
+      "description": {
+        "en": "32AWG SlimSAS cable assembly",
+        "zh": "32AWG SlimSAS细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
       "identifier": "SESDT-10-32-G-09.7-L1",
       "aliases": [],
       "description": {
         "en": "32AWG fine-pitch cable assembly",
         "zh": "32AWG细间距电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-10-32-G-06.0-L3",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2079901001",
+      "aliases": [],
+      "description": {
+        "en": "32AWG SlimSAS cable assembly",
+        "zh": "32AWG SlimSAS细线电缆组件"
       }
     },
     {
@@ -177,11 +213,47 @@
     },
     {
       "brand": "Samtec",
+      "identifier": "SESDT-10-32-G-05.0-L3",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2079901002",
+      "aliases": [],
+      "description": {
+        "en": "32AWG SlimSAS cable assembly",
+        "zh": "32AWG SlimSAS细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
       "identifier": "SESDT-10-32-G-14.9-L1",
       "aliases": [],
       "description": {
         "en": "32AWG fine-pitch cable assembly",
         "zh": "32AWG细间距电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-10-32-G-04.0-L3",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2079901300",
+      "aliases": [],
+      "description": {
+        "en": "32AWG SlimSAS cable assembly",
+        "zh": "32AWG SlimSAS细线电缆组件"
       }
     },
     {
@@ -195,11 +267,47 @@
     },
     {
       "brand": "Samtec",
+      "identifier": "SESDT-10-32-G-03.0-L3",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2079901301",
+      "aliases": [],
+      "description": {
+        "en": "32AWG SlimSAS cable assembly",
+        "zh": "32AWG SlimSAS细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
       "identifier": "SESDT-15-32-G-17.7-L1",
       "aliases": [],
       "description": {
         "en": "32AWG fine-pitch cable assembly",
         "zh": "32AWG细间距电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-10-32-G-18.0-L3",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2079901302",
+      "aliases": [],
+      "description": {
+        "en": "32AWG SlimSAS cable assembly",
+        "zh": "32AWG SlimSAS细线电缆组件"
       }
     },
     {
@@ -213,11 +321,47 @@
     },
     {
       "brand": "Samtec",
+      "identifier": "SESDT-10-32-G-31.5-L3",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2073681001",
+      "aliases": [],
+      "description": {
+        "en": "32AWG SlimSAS cable assembly",
+        "zh": "32AWG SlimSAS细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
       "identifier": "SESDT-20-32-G-03.0-L2",
       "aliases": [],
       "description": {
         "en": "32AWG fine-pitch cable assembly",
         "zh": "32AWG细间距电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-10-32-G-43.5-L3",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2073681002",
+      "aliases": [],
+      "description": {
+        "en": "32AWG SlimSAS cable assembly",
+        "zh": "32AWG SlimSAS细线电缆组件"
       }
     },
     {
@@ -231,6 +375,24 @@
     },
     {
       "brand": "Samtec",
+      "identifier": "SESDT-10-32-G-18.0-L1",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2073681300",
+      "aliases": [],
+      "description": {
+        "en": "32AWG SlimSAS cable assembly",
+        "zh": "32AWG SlimSAS细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
       "identifier": "SESDT-20-32-G-40.0-L2",
       "aliases": [],
       "description": {
@@ -240,11 +402,533 @@
     },
     {
       "brand": "Samtec",
+      "identifier": "SESDT-10-32-G-19.7-L1",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2073681301",
+      "aliases": [],
+      "description": {
+        "en": "32AWG SlimSAS cable assembly",
+        "zh": "32AWG SlimSAS细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
       "identifier": "SESDT-20-32-G-50.0-L2",
       "aliases": [],
       "description": {
         "en": "32AWG fine-pitch cable assembly",
         "zh": "32AWG细间距电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-10-32-G-20.0-L1",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2073681302",
+      "aliases": [],
+      "description": {
+        "en": "32AWG SlimSAS cable assembly",
+        "zh": "32AWG SlimSAS细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-10-32-G-15.8-L1",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2073721001",
+      "aliases": [],
+      "description": {
+        "en": "32AWG SlimSAS cable assembly",
+        "zh": "32AWG SlimSAS细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-10-32-G-21.6-L1",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2073721002",
+      "aliases": [],
+      "description": {
+        "en": "32AWG SlimSAS cable assembly",
+        "zh": "32AWG SlimSAS细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-10-32-G-14.0-L1",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2073722001",
+      "aliases": [],
+      "description": {
+        "en": "32AWG SlimSAS cable assembly",
+        "zh": "32AWG SlimSAS细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-10-32-G-23.6-L1",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "2073722002",
+      "aliases": [],
+      "description": {
+        "en": "32AWG SlimSAS cable assembly",
+        "zh": "32AWG SlimSAS细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-10-32-G-24.0-L1",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-10-32-G-12.5-L1",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-10-32-G-12.0-L1",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-10-32-G-11.8-L1",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-10-32-G-10.0-L1",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-10-32-G-08.7-L1",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-10-32-G-08.0-L1",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-10-32-G-29.4-L1",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-10-32-G-07.5-L1",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-10-32-G-30.0-L1",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-10-32-G-07.0-L1",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-10-32-G-06.6-L1",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-15-32-G-20.0-L",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-15-32-G-19.0-L",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-15-32-G-24.0-L",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-15-32-G-16.0-L",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-15-32-G-25.0-L",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-15-32-G-15.0-L",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-15-32-G-12.0-L",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-15-32-G-11.8-L",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-15-32-G-11.0-L",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-15-32-G-30.0-L",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-15-32-G-10.0-L",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-15-32-G-08.0-L",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-15-32-G-33.0-L",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-15-32-G-07.0-L",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-15-32-G-06.0-L",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-15-32-G-05.0-L",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-15-32-G-36.0-L",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-15-32-G-04.0-L",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-15-32-G-03.2-L",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-15-32-G-03.0-L",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-10-32-G-118.1-L2",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-20-32-G-18.0-L3",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-20-32-G-31.5-L3",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-20-32-G-08.0-L3",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-20-32-G-04.0-L3",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-20-32-G-03.5-L3",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-20-32-G-03.2-L3",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-20-32-G-03.0-L3",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-20-32-G-43.5-L3",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-10-32-G-10.0-L3",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-10-32-G-18.5-L1",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-15-32-G-20.4-L",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-10-32-G-129.9-L2",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
+      }
+    },
+    {
+      "brand": "Samtec",
+      "identifier": "SESDT-20-32-G-20.0-L3",
+      "aliases": [],
+      "description": {
+        "en": "32AWG Micro Mate cable assembly",
+        "zh": "32AWG Micro Mate细线电缆组件"
       }
     }
   ],
@@ -286,6 +970,1005 @@
         "en": "Crimp contact component",
         "zh": "压接触点材料"
       }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "KW30-2S-2V(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 vertical PCB receptacle",
+        "zh": "KW30直式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "KW30-2S-2H(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 right-angle PCB receptacle",
+        "zh": "KW30弯式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "KW30-2P-2C(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 wire-side plug housing",
+        "zh": "KW30线端插头外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "KW30-3032PCFA(800)",
+      "aliases": [],
+      "description": {
+        "en": "30-32AWG KW30 plug crimp contact",
+        "zh": "30–32AWG KW30插头压接触点"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF13-2S-1.25C",
+      "aliases": [],
+      "description": {
+        "en": "DF13 wire-side socket housing",
+        "zh": "DF13线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF13-2P-1.25DS(25)",
+      "aliases": [],
+      "description": {
+        "en": "DF13 right-angle PCB header",
+        "zh": "DF13弯式板端插头"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF13-3032SCF",
+      "aliases": [],
+      "description": {
+        "en": "30-32AWG DF13 socket crimp contact",
+        "zh": "30–32AWG DF13插座压接触点"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "530470210",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade vertical PCB header",
+        "zh": "PicoBlade直式板端插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510210200",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade wire-side receptacle housing",
+        "zh": "PicoBlade线端插座外壳"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "500588001",
+      "aliases": [],
+      "description": {
+        "en": "28-32AWG PicoBlade socket crimp contact",
+        "zh": "28–32AWG PicoBlade插座压接触点"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5011937000",
+      "aliases": [],
+      "description": {
+        "en": "28-32AWG Pico-Clasp socket crimp contact",
+        "zh": "28–32AWG Pico-Clasp插座压接触点"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "FX15-3032PCFB",
+      "aliases": [],
+      "description": {
+        "en": "30-32AWG FX15 plug crimp contact",
+        "zh": "30–32AWG FX15插头压接触点"
+      }
+    },
+    {
+      "brand": "JAE",
+      "identifier": "FI-RC3-1A-1E-15000",
+      "aliases": [],
+      "description": {
+        "en": "30/32/36AWG FI-R crimp contact",
+        "zh": "30/32/36AWG FI-R压接触点"
+      }
+    },
+    {
+      "brand": "JAE",
+      "identifier": "FI-RE41HL",
+      "aliases": [],
+      "description": {
+        "en": "FI-R crimp connector housing",
+        "zh": "FI-R压接连接器外壳"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SSHL-003GA1-P0.2",
+      "aliases": [],
+      "description": {
+        "en": "28-32AWG SHLV crimp contact",
+        "zh": "28–32AWG SHLV压接触点"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHLVP-21V-S-1",
+      "aliases": [],
+      "description": {
+        "en": "SHLV socket housing",
+        "zh": "SHLV插座外壳"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM21B-SHLVS-G-TBT",
+      "aliases": [],
+      "description": {
+        "en": "SHLV top-entry PCB header",
+        "zh": "SHLV上方插入式板端插头"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SM21B-SHLVS-G-TB",
+      "aliases": [],
+      "description": {
+        "en": "SHLV side-entry PCB header",
+        "zh": "SHLV侧方插入式板端插头"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "KW30-3S-1V(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 vertical PCB receptacle",
+        "zh": "KW30直式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "KW30-3S-1H(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 right-angle PCB receptacle",
+        "zh": "KW30弯式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "KW30-3P-1C(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 wire-side plug housing",
+        "zh": "KW30线端插头外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF13-3S-1.25C",
+      "aliases": [],
+      "description": {
+        "en": "DF13 wire-side socket housing",
+        "zh": "DF13线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF13-3P-1.25DS(25)",
+      "aliases": [],
+      "description": {
+        "en": "DF13 right-angle PCB header",
+        "zh": "DF13弯式板端插头"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF13-3032SCFA",
+      "aliases": [],
+      "description": {
+        "en": "30-32AWG DF13 socket crimp contact",
+        "zh": "30–32AWG DF13插座压接触点"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "530470310",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade vertical PCB header",
+        "zh": "PicoBlade直式板端插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510210300",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade wire-side receptacle housing",
+        "zh": "PicoBlade线端插座外壳"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "500588020",
+      "aliases": [],
+      "description": {
+        "en": "28-32AWG PicoBlade socket crimp contact",
+        "zh": "28–32AWG PicoBlade插座压接触点"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5011938000",
+      "aliases": [],
+      "description": {
+        "en": "28-32AWG Pico-Clasp socket crimp contact",
+        "zh": "28–32AWG Pico-Clasp插座压接触点"
+      }
+    },
+    {
+      "brand": "JAE",
+      "identifier": "FI-RC3-1B-1E-15000",
+      "aliases": [],
+      "description": {
+        "en": "30/32/36AWG FI-R crimp contact",
+        "zh": "30/32/36AWG FI-R压接触点"
+      }
+    },
+    {
+      "brand": "JAE",
+      "identifier": "FI-RE51HL",
+      "aliases": [],
+      "description": {
+        "en": "FI-R crimp connector housing",
+        "zh": "FI-R压接连接器外壳"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHLVP-31V-S-1",
+      "aliases": [],
+      "description": {
+        "en": "SHLV socket housing",
+        "zh": "SHLV插座外壳"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM31B-SHLVS-G-TBT",
+      "aliases": [],
+      "description": {
+        "en": "SHLV top-entry PCB header",
+        "zh": "SHLV上方插入式板端插头"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SM31B-SHLVS-G-TB",
+      "aliases": [],
+      "description": {
+        "en": "SHLV side-entry PCB header",
+        "zh": "SHLV侧方插入式板端插头"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "KW30-4S-1V(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 vertical PCB receptacle",
+        "zh": "KW30直式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "KW30-4S-1H(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 right-angle PCB receptacle",
+        "zh": "KW30弯式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "KW30-4P-1C(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 wire-side plug housing",
+        "zh": "KW30线端插头外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF13-4S-1.25C",
+      "aliases": [],
+      "description": {
+        "en": "DF13 wire-side socket housing",
+        "zh": "DF13线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF13-4P-1.25DS(25)",
+      "aliases": [],
+      "description": {
+        "en": "DF13 right-angle PCB header",
+        "zh": "DF13弯式板端插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "530470410",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade vertical PCB header",
+        "zh": "PicoBlade直式板端插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510210400",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade wire-side receptacle housing",
+        "zh": "PicoBlade线端插座外壳"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "5011939000",
+      "aliases": [],
+      "description": {
+        "en": "28-32AWG Pico-Clasp socket crimp contact",
+        "zh": "28–32AWG Pico-Clasp插座压接触点"
+      }
+    },
+    {
+      "brand": "JAE",
+      "identifier": "FI-RE31HL",
+      "aliases": [],
+      "description": {
+        "en": "FI-R crimp connector housing",
+        "zh": "FI-R压接连接器外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "KW30-5S-1V(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 vertical PCB receptacle",
+        "zh": "KW30直式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "KW30-5S-1H(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 right-angle PCB receptacle",
+        "zh": "KW30弯式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "KW30-5P-1C(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 wire-side plug housing",
+        "zh": "KW30线端插头外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF13-5S-1.25C",
+      "aliases": [],
+      "description": {
+        "en": "DF13 wire-side socket housing",
+        "zh": "DF13线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF13-5P-1.25DS(25)",
+      "aliases": [],
+      "description": {
+        "en": "DF13 right-angle PCB header",
+        "zh": "DF13弯式板端插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "530470510",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade vertical PCB header",
+        "zh": "PicoBlade直式板端插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510210500",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade wire-side receptacle housing",
+        "zh": "PicoBlade线端插座外壳"
+      }
+    },
+    {
+      "brand": "JAE",
+      "identifier": "FI-RE21HL",
+      "aliases": [],
+      "description": {
+        "en": "FI-R crimp connector housing",
+        "zh": "FI-R压接连接器外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "KW30-6S-1V(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 vertical PCB receptacle",
+        "zh": "KW30直式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "KW30-6S-1H(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 right-angle PCB receptacle",
+        "zh": "KW30弯式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "KW30-6P-1C(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 wire-side plug housing",
+        "zh": "KW30线端插头外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF13-6S-1.25C",
+      "aliases": [],
+      "description": {
+        "en": "DF13 wire-side socket housing",
+        "zh": "DF13线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF13-6P-1.25DS(25)",
+      "aliases": [],
+      "description": {
+        "en": "DF13 right-angle PCB header",
+        "zh": "DF13弯式板端插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "530470610",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade vertical PCB header",
+        "zh": "PicoBlade直式板端插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510210600",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade wire-side receptacle housing",
+        "zh": "PicoBlade线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "KW30-7S-1V(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 vertical PCB receptacle",
+        "zh": "KW30直式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "KW30-6S-1H(805)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 right-angle PCB receptacle",
+        "zh": "KW30弯式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "KW30-7P-1C(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 wire-side plug housing",
+        "zh": "KW30线端插头外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF13-7S-1.25C",
+      "aliases": [],
+      "description": {
+        "en": "DF13 wire-side socket housing",
+        "zh": "DF13线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF13-7P-1.25DS(25)",
+      "aliases": [],
+      "description": {
+        "en": "DF13 right-angle PCB header",
+        "zh": "DF13弯式板端插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "530470710",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade vertical PCB header",
+        "zh": "PicoBlade直式板端插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510210700",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade wire-side receptacle housing",
+        "zh": "PicoBlade线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "KW30-8S-1V(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 vertical PCB receptacle",
+        "zh": "KW30直式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "KW30-7S-1H(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 right-angle PCB receptacle",
+        "zh": "KW30弯式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "KW30-8P-1C(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 wire-side plug housing",
+        "zh": "KW30线端插头外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF13-8S-1.25C",
+      "aliases": [],
+      "description": {
+        "en": "DF13 wire-side socket housing",
+        "zh": "DF13线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF13-8P-1.25DS(25)",
+      "aliases": [],
+      "description": {
+        "en": "DF13 right-angle PCB header",
+        "zh": "DF13弯式板端插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "530470810",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade vertical PCB header",
+        "zh": "PicoBlade直式板端插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510210800",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade wire-side receptacle housing",
+        "zh": "PicoBlade线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "KW30-9S-1V(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 vertical PCB receptacle",
+        "zh": "KW30直式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "KW30-8S-1H(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 right-angle PCB receptacle",
+        "zh": "KW30弯式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "KW30-9P-1C(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 wire-side plug housing",
+        "zh": "KW30线端插头外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF13-9S-1.25C",
+      "aliases": [],
+      "description": {
+        "en": "DF13 wire-side socket housing",
+        "zh": "DF13线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF13-9P-1.25DS(25)",
+      "aliases": [],
+      "description": {
+        "en": "DF13 right-angle PCB header",
+        "zh": "DF13弯式板端插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "530470910",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade vertical PCB header",
+        "zh": "PicoBlade直式板端插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510210900",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade wire-side receptacle housing",
+        "zh": "PicoBlade线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "KW30-10S-1V(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 vertical PCB receptacle",
+        "zh": "KW30直式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "KW30-9S-1H(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 right-angle PCB receptacle",
+        "zh": "KW30弯式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "KW30-10P-1C(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 wire-side plug housing",
+        "zh": "KW30线端插头外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF13-10S-1.25C",
+      "aliases": [],
+      "description": {
+        "en": "DF13 wire-side socket housing",
+        "zh": "DF13线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF13-10P-1.25DS(25)",
+      "aliases": [],
+      "description": {
+        "en": "DF13 right-angle PCB header",
+        "zh": "DF13弯式板端插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "530471010",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade vertical PCB header",
+        "zh": "PicoBlade直式板端插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510211000",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade wire-side receptacle housing",
+        "zh": "PicoBlade线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "KW30-15S-1V(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 vertical PCB receptacle",
+        "zh": "KW30直式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "KW30-10S-1H(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 right-angle PCB receptacle",
+        "zh": "KW30弯式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "KW30-15P-1C(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 wire-side plug housing",
+        "zh": "KW30线端插头外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF13-11S-1.25C",
+      "aliases": [],
+      "description": {
+        "en": "DF13 wire-side socket housing",
+        "zh": "DF13线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF13-11P-1.25DS(25)",
+      "aliases": [],
+      "description": {
+        "en": "DF13 right-angle PCB header",
+        "zh": "DF13弯式板端插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "530471110",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade vertical PCB header",
+        "zh": "PicoBlade直式板端插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510211100",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade wire-side receptacle housing",
+        "zh": "PicoBlade线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "KW30-15S-1H(800)",
+      "aliases": [],
+      "description": {
+        "en": "KW30 right-angle PCB receptacle",
+        "zh": "KW30弯式板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF13-12S-1.25C",
+      "aliases": [],
+      "description": {
+        "en": "DF13 wire-side socket housing",
+        "zh": "DF13线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF13-12P-1.25DS(25)",
+      "aliases": [],
+      "description": {
+        "en": "DF13 right-angle PCB header",
+        "zh": "DF13弯式板端插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "530471210",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade vertical PCB header",
+        "zh": "PicoBlade直式板端插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510211200",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade wire-side receptacle housing",
+        "zh": "PicoBlade线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF13-13S-1.25C",
+      "aliases": [],
+      "description": {
+        "en": "DF13 wire-side socket housing",
+        "zh": "DF13线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF13-14P-1.25DS(25)",
+      "aliases": [],
+      "description": {
+        "en": "DF13 right-angle PCB header",
+        "zh": "DF13弯式板端插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "530471310",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade vertical PCB header",
+        "zh": "PicoBlade直式板端插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510211300",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade wire-side receptacle housing",
+        "zh": "PicoBlade线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF13-14S-1.25C",
+      "aliases": [],
+      "description": {
+        "en": "DF13 wire-side socket housing",
+        "zh": "DF13线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF13-15P-1.25DS(25)",
+      "aliases": [],
+      "description": {
+        "en": "DF13 right-angle PCB header",
+        "zh": "DF13弯式板端插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "530471410",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade vertical PCB header",
+        "zh": "PicoBlade直式板端插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510211400",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade wire-side receptacle housing",
+        "zh": "PicoBlade线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF13-15S-1.25C",
+      "aliases": [],
+      "description": {
+        "en": "DF13 wire-side socket housing",
+        "zh": "DF13线端插座外壳"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "510211500",
+      "aliases": [],
+      "description": {
+        "en": "PicoBlade wire-side receptacle housing",
+        "zh": "PicoBlade线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF13-10DS-1.25C",
+      "aliases": [],
+      "description": {
+        "en": "DF13 wire-side socket housing",
+        "zh": "DF13线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF13-20DS-1.25C",
+      "aliases": [],
+      "description": {
+        "en": "DF13 wire-side socket housing",
+        "zh": "DF13线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF13-30DS-1.25C(10)",
+      "aliases": [],
+      "description": {
+        "en": "DF13 wire-side socket housing",
+        "zh": "DF13线端插座外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF13-40DS-1.25C(10)",
+      "aliases": [],
+      "description": {
+        "en": "DF13 wire-side socket housing",
+        "zh": "DF13线端插座外壳"
+      }
     }
   ],
   "service_label": {
@@ -314,10 +1997,10 @@
       "en": "This is the verified subset for the category. The target of 200 finished models and 200 materials remains incomplete.",
       "zh": "此处为本类已核验子集，200个成品型号和200个材料料号的目标仍待继续补充。"
     },
-    "audit_id": "resume-cable-specialty-approved-manifest.json",
+    "audit_id": "next-wave/third-wave/specialty-01-32awg-independent-audit.json",
     "verified_counts": {
-      "products": 11,
-      "materials": 4
+      "products": 87,
+      "materials": 115
     },
     "target_status": "incomplete",
     "target_counts": {

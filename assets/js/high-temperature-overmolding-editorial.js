@@ -52,7 +52,7 @@
   async function render() {
     try {
       const zh = isZh();
-      const response = await fetch('/content/product-category-drafts/high-temperature-overmolding.json', {cache: 'no-store'});
+      const response = await globalThis.SuperSmileEditorial.fetchContent('/content/product-category-drafts/high-temperature-overmolding.json', {cache: 'no-store'});
       if (!response.ok) throw new Error(String(response.status));
       const data = await response.json();
       const page = data.page;

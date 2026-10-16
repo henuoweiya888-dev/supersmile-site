@@ -22,7 +22,7 @@
     inspection: ['导通测试展示成品检验的一项基础检查，而非全部验证。','A continuity check illustrates one basic inspection, not the complete validation plan.']
   };
   async function render() {
-    const response = await fetch('/content/product-category-drafts/littelfuse-bussmann-fuse-harness.json', {cache:'no-store'}); if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    const response = await globalThis.SuperSmileEditorial.fetchContent('/content/product-category-drafts/littelfuse-bussmann-fuse-harness.json', {cache:'no-store'}); if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json(), page = data.page, lang = editorialLanguage(), zh = lang === 'zh', pick = value => value?.[zh ? 'zh' : 'en'] || '';
      const title = pick(page.displayTitle), heroTitle = zh ? '保险丝保护\n与配电线束' : 'Fuse Protection\nHarnesses';
     const syncHeader = () => {

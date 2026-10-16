@@ -42,8 +42,8 @@
         "zh": "成品电缆与线束型号"
       },
       "intro": {
-        "en": "Finished cable and harness references for this interface or application.",
-        "zh": "此接口或应用方向的成品电缆与线束参考。"
+        "en": "Includes flat harnesses and manufacturer-defined LVDS video coaxial assemblies; confirm architecture and impedance for the equipment.",
+        "zh": "包含扁平线束及原厂明确的LVDS视频同轴组件，架构与阻抗按设备核对。"
       }
     },
     {
@@ -89,8 +89,8 @@
         "zh": "线对与阻抗方案"
       },
       "copy": {
-        "en": "Review differential pairs, impedance and length matching for the intended link. A 90-ohm cable and a 100-ohm cable are distinct configurations.",
-        "zh": "按目标链路审核差分线对、阻抗与等长要求；90Ω与100Ω线缆是不同配置。"
+        "en": "Confirm the actual link architecture first. Differential-pair, 90-ohm, 100-ohm and video-coaxial constructions are distinct configurations.",
+        "zh": "先确认实际链路架构；差分线对、90Ω、100Ω及视频同轴结构属于不同配置。"
       }
     },
     {
@@ -167,12 +167,48 @@
       }
     },
     {
+      "brand": "Hirose",
+      "identifier": "WGT43GT43-1190",
+      "aliases": [],
+      "description": {
+        "en": "Factory cable assembly for LVDS video coaxial interconnect",
+        "zh": "LVDS视频同轴互连用成品电缆组件"
+      }
+    },
+    {
+      "brand": "JAE",
+      "identifier": "JF08R0R041020UA",
+      "aliases": [],
+      "description": {
+        "en": "Shielded FFC harness for LVDS interconnect selection",
+        "zh": "LVDS互连选型用屏蔽FFC成品线束"
+      }
+    },
+    {
       "brand": "Molex",
       "identifier": "150210224",
       "aliases": [],
       "description": {
         "en": "Premo-Flex LVDS FFC jumper",
         "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "WGT43GT43-1191",
+      "aliases": [],
+      "description": {
+        "en": "Factory cable assembly for LVDS video coaxial interconnect",
+        "zh": "LVDS视频同轴互连用成品电缆组件"
+      }
+    },
+    {
+      "brand": "JAE",
+      "identifier": "JF08R0R041030UA",
+      "aliases": [],
+      "description": {
+        "en": "Shielded FFC harness for LVDS interconnect selection",
+        "zh": "LVDS互连选型用屏蔽FFC成品线束"
       }
     },
     {
@@ -185,12 +221,39 @@
       }
     },
     {
+      "brand": "Hirose",
+      "identifier": "WGT43GT43-1192",
+      "aliases": [],
+      "description": {
+        "en": "Factory cable assembly for LVDS video coaxial interconnect",
+        "zh": "LVDS视频同轴互连用成品电缆组件"
+      }
+    },
+    {
+      "brand": "JAE",
+      "identifier": "JF08R0R041040UA",
+      "aliases": [],
+      "description": {
+        "en": "Shielded FFC harness for LVDS interconnect selection",
+        "zh": "LVDS互连选型用屏蔽FFC成品线束"
+      }
+    },
+    {
       "brand": "Molex",
       "identifier": "150210415",
       "aliases": [],
       "description": {
         "en": "Premo-Flex LVDS FFC jumper",
         "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "JAE",
+      "identifier": "JF08R0R051020UA",
+      "aliases": [],
+      "description": {
+        "en": "Shielded FFC harness for LVDS interconnect selection",
+        "zh": "LVDS互连选型用屏蔽FFC成品线束"
       }
     },
     {
@@ -203,12 +266,30 @@
       }
     },
     {
+      "brand": "JAE",
+      "identifier": "JF08R0R051030UA",
+      "aliases": [],
+      "description": {
+        "en": "Shielded FFC harness for LVDS interconnect selection",
+        "zh": "LVDS互连选型用屏蔽FFC成品线束"
+      }
+    },
+    {
       "brand": "Molex",
       "identifier": "150210433",
       "aliases": [],
       "description": {
         "en": "Premo-Flex LVDS FFC jumper",
         "zh": "Premo-Flex LVDS柔性扁平跳线"
+      }
+    },
+    {
+      "brand": "JAE",
+      "identifier": "JF08R0R051040UA",
+      "aliases": [],
+      "description": {
+        "en": "Shielded FFC harness for LVDS interconnect selection",
+        "zh": "LVDS互连选型用屏蔽FFC成品线束"
       }
     },
     {
@@ -1051,12 +1132,389 @@
       }
     },
     {
+      "brand": "Hirose",
+      "identifier": "FX15-2830PCFB",
+      "aliases": [],
+      "description": {
+        "en": "Crimp contact for LVDS cable connector selection",
+        "zh": "LVDS线缆连接器选型用压接触点"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "FX15-31S-0.5SV",
+      "aliases": [
+        "FX15-31S-0.5SV(30)"
+      ],
+      "description": {
+        "en": "Board receptacle for LVDS interconnect selection",
+        "zh": "LVDS互连选型用板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "FX15M-21P-C",
+      "aliases": [],
+      "description": {
+        "en": "Cable plug connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用线端插头连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "FX15S-41P-GND",
+      "aliases": [],
+      "description": {
+        "en": "Ground plate for LVDS cable connector selection",
+        "zh": "LVDS线缆连接器选型用接地片"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "FX15-31P-C",
+      "aliases": [],
+      "description": {
+        "en": "Cable plug cover for LVDS interconnect selection",
+        "zh": "LVDS互连选型用线端插头外壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF19G-8P-1H(52)",
+      "aliases": [],
+      "description": {
+        "en": "LVDS board header",
+        "zh": "LVDS板端插头"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF19-14S-1C",
+      "aliases": [],
+      "description": {
+        "en": "Crimp socket housing for LVDS wiring",
+        "zh": "LVDS配线用压接插座胶壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF19-2830SCFA",
+      "aliases": [],
+      "description": {
+        "en": "Crimp contact for LVDS wiring",
+        "zh": "LVDS配线用压接触点"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "GT43-1P-H(A)",
+      "aliases": [],
+      "description": {
+        "en": "Board receptacle for LVDS video coaxial interconnect",
+        "zh": "LVDS视频同轴互连用板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "GT43-1P/S-CSB",
+      "aliases": [],
+      "description": {
+        "en": "Shielding plate for LVDS video coaxial connector",
+        "zh": "LVDS视频同轴连接器用屏蔽片"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "GT43-1P/S-R",
+      "aliases": [],
+      "description": {
+        "en": "Retainer for LVDS video coaxial connector",
+        "zh": "LVDS视频同轴连接器用保持架"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "GT43-1PP-HU(D)",
+      "aliases": [],
+      "description": {
+        "en": "Housing for LVDS video coaxial connector",
+        "zh": "LVDS视频同轴连接器用胶壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "GT43-2428/1.6-2.9PCF",
+      "aliases": [],
+      "description": {
+        "en": "Coaxial contact for LVDS video connector selection",
+        "zh": "LVDS视频连接器选型用同轴触点"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "GT43P-HRMJ",
+      "aliases": [],
+      "description": {
+        "en": "SMA adapter for LVDS video coaxial connector evaluation",
+        "zh": "LVDS视频同轴连接器评估用SMA转接件"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "GT43D-1P-H(F)",
+      "aliases": [],
+      "description": {
+        "en": "Board receptacle with ground spring for LVDS video coaxial interconnect",
+        "zh": "LVDS视频同轴互连用带接地弹片板端插座"
+      }
+    },
+    {
+      "brand": "I-PEX",
+      "identifier": "20526-010E-01",
+      "aliases": [],
+      "description": {
+        "en": "FPC/FFC board connector for LVDS selection",
+        "zh": "LVDS选型用FPC/FFC板端连接器"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SSHL-003GA1-P0.2",
+      "aliases": [],
+      "description": {
+        "en": "Crimp contact for LVDS wiring",
+        "zh": "LVDS配线用压接触点"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHLVP-21V-S-1",
+      "aliases": [],
+      "description": {
+        "en": "Socket housing for LVDS wiring",
+        "zh": "LVDS配线用插座胶壳"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM21B-SHLVS-G-TBT",
+      "aliases": [],
+      "description": {
+        "en": "Top-entry LVDS board connector",
+        "zh": "上插式LVDS板端连接器"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SM21B-SHLVS-G-TB",
+      "aliases": [],
+      "description": {
+        "en": "Side-entry LVDS board connector",
+        "zh": "侧插式LVDS板端连接器"
+      }
+    },
+    {
+      "brand": "JAE",
+      "identifier": "FI-RE41S-HF",
+      "aliases": [
+        "FI-RE41S-HF-R1500"
+      ],
+      "description": {
+        "en": "Board receptacle for LVDS interconnect selection",
+        "zh": "LVDS互连选型用板端插座"
+      }
+    },
+    {
+      "brand": "JAE",
+      "identifier": "FI-RC3-1A-1E-15000",
+      "aliases": [],
+      "description": {
+        "en": "Crimp contact for LVDS wiring",
+        "zh": "LVDS配线用压接触点"
+      }
+    },
+    {
+      "brand": "JAE",
+      "identifier": "FI-RE41HL",
+      "aliases": [],
+      "description": {
+        "en": "Crimp plug housing for LVDS wiring",
+        "zh": "LVDS配线用压接插头胶壳"
+      }
+    },
+    {
       "brand": "Molex",
       "identifier": "2004850020",
       "aliases": [],
       "description": {
         "en": "FFC board connector for LVDS interconnect selection",
         "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "FX15-3032PCFA",
+      "aliases": [],
+      "description": {
+        "en": "Crimp contact for LVDS cable connector selection",
+        "zh": "LVDS线缆连接器选型用压接触点"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "FX15M-21S-0.5SH",
+      "aliases": [],
+      "description": {
+        "en": "Board receptacle for LVDS interconnect selection",
+        "zh": "LVDS互连选型用板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "FX15M-31P-C",
+      "aliases": [],
+      "description": {
+        "en": "Cable plug connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用线端插头连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "FX15S-51P-GND",
+      "aliases": [],
+      "description": {
+        "en": "Ground plate for LVDS cable connector selection",
+        "zh": "LVDS线缆连接器选型用接地片"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF19G-14P-1H(52)",
+      "aliases": [],
+      "description": {
+        "en": "LVDS board header",
+        "zh": "LVDS板端插头"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF19-20S-1C",
+      "aliases": [],
+      "description": {
+        "en": "Crimp socket housing for LVDS wiring",
+        "zh": "LVDS配线用压接插座胶壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF19A-2830SCFA",
+      "aliases": [
+        "DF19A-2830SCFA(41)"
+      ],
+      "description": {
+        "en": "Crimp contact for LVDS wiring",
+        "zh": "LVDS配线用压接触点"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "GT43-1P-H(B)",
+      "aliases": [],
+      "description": {
+        "en": "Board receptacle for LVDS video coaxial interconnect",
+        "zh": "LVDS视频同轴互连用板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "GT43-1S-HU(A)",
+      "aliases": [],
+      "description": {
+        "en": "Housing for LVDS video coaxial connector",
+        "zh": "LVDS视频同轴连接器用胶壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "GT43-2428/1.6-2.9SCF",
+      "aliases": [],
+      "description": {
+        "en": "Coaxial contact for LVDS video connector selection",
+        "zh": "LVDS视频连接器选型用同轴触点"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "GT43S-HRMJ",
+      "aliases": [],
+      "description": {
+        "en": "SMA adapter for LVDS video coaxial connector evaluation",
+        "zh": "LVDS视频同轴连接器评估用SMA转接件"
+      }
+    },
+    {
+      "brand": "I-PEX",
+      "identifier": "20526-015E-01",
+      "aliases": [],
+      "description": {
+        "en": "FPC/FFC board connector for LVDS selection",
+        "zh": "LVDS选型用FPC/FFC板端连接器"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SHLVP-31V-S-1",
+      "aliases": [],
+      "description": {
+        "en": "Socket housing for LVDS wiring",
+        "zh": "LVDS配线用插座胶壳"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "BM31B-SHLVS-G-TBT",
+      "aliases": [],
+      "description": {
+        "en": "Top-entry LVDS board connector",
+        "zh": "上插式LVDS板端连接器"
+      }
+    },
+    {
+      "brand": "JST",
+      "identifier": "SM31B-SHLVS-G-TB",
+      "aliases": [],
+      "description": {
+        "en": "Side-entry LVDS board connector",
+        "zh": "侧插式LVDS板端连接器"
+      }
+    },
+    {
+      "brand": "JAE",
+      "identifier": "FI-RE51S-HF",
+      "aliases": [
+        "FI-RE51S-HF-R1500"
+      ],
+      "description": {
+        "en": "Board receptacle for LVDS interconnect selection",
+        "zh": "LVDS互连选型用板端插座"
+      }
+    },
+    {
+      "brand": "JAE",
+      "identifier": "FI-RC3-1B-1E-15000",
+      "aliases": [],
+      "description": {
+        "en": "Crimp contact for LVDS wiring",
+        "zh": "LVDS配线用压接触点"
+      }
+    },
+    {
+      "brand": "JAE",
+      "identifier": "FI-RE51HL",
+      "aliases": [],
+      "description": {
+        "en": "Crimp plug housing for LVDS wiring",
+        "zh": "LVDS配线用压接插头胶壳"
       }
     },
     {
@@ -1069,12 +1527,198 @@
       }
     },
     {
+      "brand": "Hirose",
+      "identifier": "FX15-3032PCFB",
+      "aliases": [],
+      "description": {
+        "en": "Crimp contact for LVDS cable connector selection",
+        "zh": "LVDS线缆连接器选型用压接触点"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "FX15M-31S-0.5SH",
+      "aliases": [],
+      "description": {
+        "en": "Board receptacle for LVDS interconnect selection",
+        "zh": "LVDS互连选型用板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "FX15S-31P-C",
+      "aliases": [],
+      "description": {
+        "en": "Cable plug connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用线端插头连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF19G-20P-1H(52)",
+      "aliases": [],
+      "description": {
+        "en": "LVDS board header",
+        "zh": "LVDS板端插头"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF19-30S-1C",
+      "aliases": [],
+      "description": {
+        "en": "Crimp socket housing for LVDS wiring",
+        "zh": "LVDS配线用压接插座胶壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF19A-3032SCFA",
+      "aliases": [
+        "DF19A-3032SCFA(41)"
+      ],
+      "description": {
+        "en": "Crimp contact for LVDS wiring",
+        "zh": "LVDS配线用压接触点"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "GT43-1P-H(C)",
+      "aliases": [],
+      "description": {
+        "en": "Board receptacle for LVDS video coaxial interconnect",
+        "zh": "LVDS视频同轴互连用板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "GT43-1S-HU(C)",
+      "aliases": [],
+      "description": {
+        "en": "Housing for LVDS video coaxial connector",
+        "zh": "LVDS视频同轴连接器用胶壳"
+      }
+    },
+    {
+      "brand": "I-PEX",
+      "identifier": "20526-022E-01",
+      "aliases": [],
+      "description": {
+        "en": "FPC/FFC board connector for LVDS selection",
+        "zh": "LVDS选型用FPC/FFC板端连接器"
+      }
+    },
+    {
+      "brand": "JAE",
+      "identifier": "FI-RE41S-VF",
+      "aliases": [
+        "FI-RE41S-VF-R1300"
+      ],
+      "description": {
+        "en": "Board receptacle for LVDS interconnect selection",
+        "zh": "LVDS互连选型用板端插座"
+      }
+    },
+    {
+      "brand": "JAE",
+      "identifier": "FI-RE31HL",
+      "aliases": [],
+      "description": {
+        "en": "Crimp plug housing for LVDS wiring",
+        "zh": "LVDS配线用压接插头胶壳"
+      }
+    },
+    {
       "brand": "Molex",
       "identifier": "2004850035",
       "aliases": [],
       "description": {
         "en": "FFC board connector for LVDS interconnect selection",
         "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "FX15S-31S-0.5SH",
+      "aliases": [],
+      "description": {
+        "en": "Board receptacle for LVDS interconnect selection",
+        "zh": "LVDS互连选型用板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "FX15S-41P-0.5SD",
+      "aliases": [],
+      "description": {
+        "en": "Cable plug connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用线端插头连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF19G-30P-1H(52)",
+      "aliases": [],
+      "description": {
+        "en": "LVDS board header",
+        "zh": "LVDS板端插头"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF19G-8S-1C(06)",
+      "aliases": [],
+      "description": {
+        "en": "Crimp socket housing for LVDS wiring",
+        "zh": "LVDS配线用压接插座胶壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "GT43-1P-H(D)",
+      "aliases": [],
+      "description": {
+        "en": "Board receptacle for LVDS video coaxial interconnect",
+        "zh": "LVDS视频同轴互连用板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "GT43-1S-HU(D)",
+      "aliases": [],
+      "description": {
+        "en": "Housing for LVDS video coaxial connector",
+        "zh": "LVDS视频同轴连接器用胶壳"
+      }
+    },
+    {
+      "brand": "I-PEX",
+      "identifier": "20526-030E-01",
+      "aliases": [],
+      "description": {
+        "en": "FPC/FFC board connector for LVDS selection",
+        "zh": "LVDS选型用FPC/FFC板端连接器"
+      }
+    },
+    {
+      "brand": "JAE",
+      "identifier": "FI-RE21S-HF",
+      "aliases": [
+        "FI-RE21S-HF-R1500"
+      ],
+      "description": {
+        "en": "Board receptacle for LVDS interconnect selection",
+        "zh": "LVDS互连选型用板端插座"
+      }
+    },
+    {
+      "brand": "JAE",
+      "identifier": "FI-RE21HL",
+      "aliases": [],
+      "description": {
+        "en": "Crimp plug housing for LVDS wiring",
+        "zh": "LVDS配线用压接插头胶壳"
       }
     },
     {
@@ -1087,12 +1731,160 @@
       }
     },
     {
+      "brand": "Hirose",
+      "identifier": "FX15S-41S-0.5SH",
+      "aliases": [],
+      "description": {
+        "en": "Board receptacle for LVDS interconnect selection",
+        "zh": "LVDS互连选型用板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "FX15S-41P-C",
+      "aliases": [],
+      "description": {
+        "en": "Cable plug connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用线端插头连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF19K-20P-1H(52)",
+      "aliases": [],
+      "description": {
+        "en": "LVDS board header",
+        "zh": "LVDS板端插头"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF19G-14S-1C(06)",
+      "aliases": [],
+      "description": {
+        "en": "Crimp socket housing for LVDS wiring",
+        "zh": "LVDS配线用压接插座胶壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "GT43-1P-H(E)",
+      "aliases": [],
+      "description": {
+        "en": "Board receptacle for LVDS video coaxial interconnect",
+        "zh": "LVDS视频同轴互连用板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "GT43-1S-HU(F)",
+      "aliases": [],
+      "description": {
+        "en": "Housing for LVDS video coaxial connector",
+        "zh": "LVDS视频同轴连接器用胶壳"
+      }
+    },
+    {
+      "brand": "I-PEX",
+      "identifier": "20526-040E-01",
+      "aliases": [],
+      "description": {
+        "en": "FPC/FFC board connector for LVDS selection",
+        "zh": "LVDS选型用FPC/FFC板端连接器"
+      }
+    },
+    {
+      "brand": "JAE",
+      "identifier": "FI-RE31S-VF",
+      "aliases": [
+        "FI-RE31S-VF-R1300"
+      ],
+      "description": {
+        "en": "Board receptacle for LVDS interconnect selection",
+        "zh": "LVDS互连选型用板端插座"
+      }
+    },
+    {
       "brand": "Molex",
       "identifier": "2004850050",
       "aliases": [],
       "description": {
         "en": "FFC board connector for LVDS interconnect selection",
         "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "FX15S-51S-0.5SH",
+      "aliases": [],
+      "description": {
+        "en": "Board receptacle for LVDS interconnect selection",
+        "zh": "LVDS互连选型用板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "FX15S-51P-0.5SD",
+      "aliases": [],
+      "description": {
+        "en": "Cable plug connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用线端插头连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF19K-30P-1H(52)",
+      "aliases": [],
+      "description": {
+        "en": "LVDS board header",
+        "zh": "LVDS板端插头"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF19G-20S-1C(06)",
+      "aliases": [],
+      "description": {
+        "en": "Crimp socket housing for LVDS wiring",
+        "zh": "LVDS配线用压接插座胶壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "GT43-1P-H(F)",
+      "aliases": [],
+      "description": {
+        "en": "Board receptacle for LVDS video coaxial interconnect",
+        "zh": "LVDS视频同轴互连用板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "GT43-1S-HU(H)",
+      "aliases": [],
+      "description": {
+        "en": "Housing for LVDS video coaxial connector",
+        "zh": "LVDS视频同轴连接器用胶壳"
+      }
+    },
+    {
+      "brand": "I-PEX",
+      "identifier": "20526-045E-01",
+      "aliases": [],
+      "description": {
+        "en": "FPC/FFC board connector for LVDS selection",
+        "zh": "LVDS选型用FPC/FFC板端连接器"
+      }
+    },
+    {
+      "brand": "JAE",
+      "identifier": "FI-RE31S-HF",
+      "aliases": [
+        "FI-RE31S-HF-R1500"
+      ],
+      "description": {
+        "en": "Board receptacle for LVDS interconnect selection",
+        "zh": "LVDS互连选型用板端插座"
       }
     },
     {
@@ -1105,12 +1897,124 @@
       }
     },
     {
+      "brand": "Hirose",
+      "identifier": "FX15SC-41S-0.5SH",
+      "aliases": [],
+      "description": {
+        "en": "Board receptacle for LVDS interconnect selection",
+        "zh": "LVDS互连选型用板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "FX15S-51P-C",
+      "aliases": [],
+      "description": {
+        "en": "Cable plug connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用线端插头连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF19L-14P-1H(52)",
+      "aliases": [],
+      "description": {
+        "en": "LVDS board header",
+        "zh": "LVDS板端插头"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF19G-30S-1C(06)",
+      "aliases": [],
+      "description": {
+        "en": "Crimp socket housing for LVDS wiring",
+        "zh": "LVDS配线用压接插座胶壳"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "GT43-1P-H(H)",
+      "aliases": [],
+      "description": {
+        "en": "Board receptacle for LVDS video coaxial interconnect",
+        "zh": "LVDS视频同轴互连用板端插座"
+      }
+    },
+    {
+      "brand": "I-PEX",
+      "identifier": "20526-050E-01",
+      "aliases": [],
+      "description": {
+        "en": "FPC/FFC board connector for LVDS selection",
+        "zh": "LVDS选型用FPC/FFC板端连接器"
+      }
+    },
+    {
+      "brand": "JAE",
+      "identifier": "FI-RE51S-VF",
+      "aliases": [
+        "FI-RE51S-VF-R1300"
+      ],
+      "description": {
+        "en": "Board receptacle for LVDS interconnect selection",
+        "zh": "LVDS互连选型用板端插座"
+      }
+    },
+    {
       "brand": "Molex",
       "identifier": "2004850060",
       "aliases": [],
       "description": {
         "en": "FFC board connector for LVDS interconnect selection",
         "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "FX15SC-41S-0.5SV",
+      "aliases": [],
+      "description": {
+        "en": "Board receptacle for LVDS interconnect selection",
+        "zh": "LVDS互连选型用板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "FX15SW-31P-C",
+      "aliases": [],
+      "description": {
+        "en": "Cable plug connector for LVDS interconnect selection",
+        "zh": "LVDS互连选型用线端插头连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF19L-20P-1H(52)",
+      "aliases": [],
+      "description": {
+        "en": "LVDS board header",
+        "zh": "LVDS板端插头"
+      }
+    },
+    {
+      "brand": "I-PEX",
+      "identifier": "20526-060E-01",
+      "aliases": [],
+      "description": {
+        "en": "FPC/FFC board connector for LVDS selection",
+        "zh": "LVDS选型用FPC/FFC板端连接器"
+      }
+    },
+    {
+      "brand": "JAE",
+      "identifier": "FI-RE21S-VF",
+      "aliases": [
+        "FI-RE21S-VF-R1300"
+      ],
+      "description": {
+        "en": "Board receptacle for LVDS interconnect selection",
+        "zh": "LVDS互连选型用板端插座"
       }
     },
     {
@@ -1123,12 +2027,66 @@
       }
     },
     {
+      "brand": "Hirose",
+      "identifier": "FX15SC-51S-0.5SH",
+      "aliases": [],
+      "description": {
+        "en": "Board receptacle for LVDS interconnect selection",
+        "zh": "LVDS互连选型用板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF19L-30P-1H(52)",
+      "aliases": [],
+      "description": {
+        "en": "LVDS board header",
+        "zh": "LVDS板端插头"
+      }
+    },
+    {
+      "brand": "I-PEX",
+      "identifier": "20539-016E-01",
+      "aliases": [],
+      "description": {
+        "en": "FPC/FFC board connector for LVDS selection",
+        "zh": "LVDS选型用FPC/FFC板端连接器"
+      }
+    },
+    {
       "brand": "Molex",
       "identifier": "2004850080",
       "aliases": [],
       "description": {
         "en": "FFC board connector for LVDS interconnect selection",
         "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "FX15SC-51S-0.5SV",
+      "aliases": [],
+      "description": {
+        "en": "Board receptacle for LVDS interconnect selection",
+        "zh": "LVDS互连选型用板端插座"
+      }
+    },
+    {
+      "brand": "Hirose",
+      "identifier": "DF19KR-20P-1H(52)",
+      "aliases": [],
+      "description": {
+        "en": "LVDS board header",
+        "zh": "LVDS板端插头"
+      }
+    },
+    {
+      "brand": "I-PEX",
+      "identifier": "20539-022E-01",
+      "aliases": [],
+      "description": {
+        "en": "FPC/FFC board connector for LVDS selection",
+        "zh": "LVDS选型用FPC/FFC板端连接器"
       }
     },
     {
@@ -1141,12 +2099,30 @@
       }
     },
     {
+      "brand": "I-PEX",
+      "identifier": "20539-024E-01",
+      "aliases": [],
+      "description": {
+        "en": "FPC/FFC board connector for LVDS selection",
+        "zh": "LVDS选型用FPC/FFC板端连接器"
+      }
+    },
+    {
       "brand": "Molex",
       "identifier": "2004850120",
       "aliases": [],
       "description": {
         "en": "FFC board connector for LVDS interconnect selection",
         "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "I-PEX",
+      "identifier": "20539-026E-01",
+      "aliases": [],
+      "description": {
+        "en": "FPC/FFC board connector for LVDS selection",
+        "zh": "LVDS选型用FPC/FFC板端连接器"
       }
     },
     {
@@ -1159,12 +2135,30 @@
       }
     },
     {
+      "brand": "I-PEX",
+      "identifier": "20539-030E-01",
+      "aliases": [],
+      "description": {
+        "en": "FPC/FFC board connector for LVDS selection",
+        "zh": "LVDS选型用FPC/FFC板端连接器"
+      }
+    },
+    {
       "brand": "Molex",
       "identifier": "2004850135",
       "aliases": [],
       "description": {
         "en": "FFC board connector for LVDS interconnect selection",
         "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "I-PEX",
+      "identifier": "20539-040E-01",
+      "aliases": [],
+      "description": {
+        "en": "FPC/FFC board connector for LVDS selection",
+        "zh": "LVDS选型用FPC/FFC板端连接器"
       }
     },
     {
@@ -1177,12 +2171,30 @@
       }
     },
     {
+      "brand": "I-PEX",
+      "identifier": "20539-045E-01",
+      "aliases": [],
+      "description": {
+        "en": "FPC/FFC board connector for LVDS selection",
+        "zh": "LVDS选型用FPC/FFC板端连接器"
+      }
+    },
+    {
       "brand": "Molex",
       "identifier": "2004850150",
       "aliases": [],
       "description": {
         "en": "FFC board connector for LVDS interconnect selection",
         "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "I-PEX",
+      "identifier": "20539-050E-01",
+      "aliases": [],
+      "description": {
+        "en": "FPC/FFC board connector for LVDS selection",
+        "zh": "LVDS选型用FPC/FFC板端连接器"
       }
     },
     {
@@ -1195,12 +2207,30 @@
       }
     },
     {
+      "brand": "I-PEX",
+      "identifier": "20539-060E-01",
+      "aliases": [],
+      "description": {
+        "en": "FPC/FFC board connector for LVDS selection",
+        "zh": "LVDS选型用FPC/FFC板端连接器"
+      }
+    },
+    {
       "brand": "Molex",
       "identifier": "2004850160",
       "aliases": [],
       "description": {
         "en": "FFC board connector for LVDS interconnect selection",
         "zh": "LVDS互连选型用FFC板端连接器"
+      }
+    },
+    {
+      "brand": "I-PEX",
+      "identifier": "20539-080E-01",
+      "aliases": [],
+      "description": {
+        "en": "FPC/FFC board connector for LVDS selection",
+        "zh": "LVDS选型用FPC/FFC板端连接器"
       }
     },
     {
@@ -1365,10 +2395,10 @@
       "en": "This is the verified subset for the category. The target of 200 finished models and 200 materials remains incomplete.",
       "zh": "此处为本类已核验子集，200个成品型号和200个材料料号的目标仍待继续补充。"
     },
-    "audit_id": "next-wave/root-lvds-independent-audit.json",
+    "audit_id": "next-wave/third-wave/cable-assembly-10-lvds-third-wave-independent-audit.json",
     "verified_counts": {
-      "products": 99,
-      "materials": 33
+      "products": 108,
+      "materials": 136
     },
     "target_status": "incomplete",
     "target_counts": {

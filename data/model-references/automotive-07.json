@@ -53,8 +53,8 @@
         "zh": "连接器与材料料号"
       },
       "intro": {
-        "en": "Category-specific material references; the final BOM follows the approved configuration.",
-        "zh": "此类选型的材料参考；最终 BOM 以确认配置为准。"
+        "en": "DT wire-to-wire interface selection for low-voltage trailer lighting; confirm the exact lamp and vehicle interface.",
+        "zh": "DT料号用于挂车低压照明的线对线接口选型，具体灯具与车型接口另行核对。"
       }
     }
   ],
@@ -2392,6 +2392,24 @@
       }
     },
     {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-2S",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-2P",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
       "brand": "American Autowire",
       "identifier": "01993320",
       "aliases": [],
@@ -2464,6 +2482,24 @@
       }
     },
     {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-2S-E003",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-2P-E003",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
       "brand": "American Autowire",
       "identifier": "00370176",
       "aliases": [],
@@ -2518,6 +2554,24 @@
       }
     },
     {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-2S-E008",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-2P-E008",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
       "brand": "American Autowire",
       "identifier": "06273357",
       "aliases": [],
@@ -2563,6 +2617,24 @@
       }
     },
     {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-3S",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-3P",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
       "brand": "American Autowire",
       "identifier": "03948538",
       "aliases": [],
@@ -2596,6 +2668,24 @@
       "description": {
         "en": "Turn Signal Switch Assembly",
         "zh": "开关"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-3S-E003",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-3P-E003",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
       }
     },
     {
@@ -2635,6 +2725,24 @@
       }
     },
     {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-3S-E008",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-3P-E008",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
       "brand": "American Autowire",
       "identifier": "01994163",
       "aliases": [],
@@ -2659,6 +2767,24 @@
       "description": {
         "en": "Turn Signal Switch",
         "zh": "开关"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-4S",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-4P",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
       }
     },
     {
@@ -2689,6 +2815,24 @@
       }
     },
     {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-4S-E003",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-4P-E003",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
       "brand": "American Autowire",
       "identifier": "01993659",
       "aliases": [],
@@ -2713,6 +2857,24 @@
       "description": {
         "en": "Turn Signal Switch",
         "zh": "开关"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-4S-E008",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-4P-E008",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
       }
     },
     {
@@ -2743,6 +2905,24 @@
       }
     },
     {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-6S",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-6P",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
       "brand": "American Autowire",
       "identifier": "01993696",
       "aliases": [],
@@ -2767,6 +2947,24 @@
       "description": {
         "en": "Turn Signal Switch",
         "zh": "开关"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-6S-E003",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-6P-E003",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
       }
     },
     {
@@ -2797,6 +2995,24 @@
       }
     },
     {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-6S-E008",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-6P-E008",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
       "brand": "American Autowire",
       "identifier": "03909591",
       "aliases": [],
@@ -2821,6 +3037,24 @@
       "description": {
         "en": "Turn Signal Switch",
         "zh": "开关"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-2S-P012",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-2P-E004",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
       }
     },
     {
@@ -2851,12 +3085,48 @@
       }
     },
     {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-2S-EP06",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-2P-E005",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
       "brand": "American Autowire",
       "identifier": "05698897",
       "aliases": [],
       "description": {
         "en": "Turn Signal Switch",
         "zh": "开关"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-2S-EP11",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-2P-EE01",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
       }
     },
     {
@@ -2869,12 +3139,48 @@
       }
     },
     {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-3S-P012",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-3P-E004",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
       "brand": "American Autowire",
       "identifier": "01997938",
       "aliases": [],
       "description": {
         "en": "Turn Signal Switch",
         "zh": "开关"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-3S-EP06",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-3P-E005",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
       }
     },
     {
@@ -2887,12 +3193,48 @@
       }
     },
     {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-3S-EP11",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-3P-EE01",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
       "brand": "American Autowire",
       "identifier": "00387115",
       "aliases": [],
       "description": {
         "en": "Turn Signal Switch",
         "zh": "开关"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-4S-P012",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-4P-E004",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
       }
     },
     {
@@ -2905,12 +3247,48 @@
       }
     },
     {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-4S-EP06",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-4P-E005",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
       "brand": "American Autowire",
       "identifier": "01997985",
       "aliases": [],
       "description": {
         "en": "Turn Signal Switch",
         "zh": "开关"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-4S-EP11",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-6P-E004",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
       }
     },
     {
@@ -2923,12 +3301,1713 @@
       }
     },
     {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-6S-P012",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-6P-E005",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
       "brand": "American Autowire",
       "identifier": "01997988",
       "aliases": [],
       "description": {
         "en": "Turn Signal Switch",
         "zh": "开关"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-6S-EP06",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-2P-TN09",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-6S-EP11",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-2P-EE14",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-2S-TN09",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-3P-TN09",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-2S-EE14",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-3P-EE14",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-3S-TN09",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-4P-TN09",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-3S-EE14",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-4P-EE14",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-4S-TN09",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-6P-TN09",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-4S-EE14",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-6P-EE14",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-6S-TN09",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-2P-TN03",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-6S-EE14",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-2P-EE13",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-2S-TN03",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-3P-TN03",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-2S-EE13",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-3P-EE13",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-3S-TN03",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-4P-TN03",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-3S-EE13",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-4P-EE13",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-4S-TN03",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-6P-TN03",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-4S-EE13",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-6P-EE13",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-6S-TN03",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-2P-TN07",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-6S-EE13",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-2P-EE06",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-2S-TN07",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-3P-TN07",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-2S-EE06",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-3P-EE06",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-3S-TN07",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-4P-TN07",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-3S-EE06",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-4P-EE06",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-4S-TN07",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-6P-TN07",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-4S-EE06",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-6P-EE06",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-6S-TN07",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-08PA",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-6S-EE06",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-08PA-E003",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-08SA",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-08PA-E008",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-08SA-EP06",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-08PB",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-08SA-E008",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-08PB-E003",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-08SB",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-08PC",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-08SB-EP06",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-08PC-E003",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-08SC",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-08PD",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-08SC-EP06",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-08PD-E003",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-08SD",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-12PA",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-08SD-EP06",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-12PA-E003",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SA",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-12PA-E008",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SA-E003",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-12PB",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SA-E008",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-12PB-E003",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SB",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-12PC",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SB-E003",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-12PC-E003",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SB-E008",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-12PD",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SC",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-12PD-E003",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SC-E003",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-12PA-B016",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SD",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-12PA-BE02",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SD-E003",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-12PB-B016",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SA-P012",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-12PB-BE02",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SA-EP06",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-12PC-B016",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SA-EP20",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-12PC-BE02",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SB-P012",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-12PD-B016",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SB-EP06",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT04-12PD-BE02",
+      "aliases": [],
+      "description": {
+        "en": "DT receptacle housing for male terminals",
+        "zh": "DT插座胶壳（适配公端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SB-EP20",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SC-P012",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SC-EP06",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SC-EP20",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SD-P012",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SD-EP06",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SD-EP20",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-2S-C015",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-2S-CE01",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-2S-CE04",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-3S-C015",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-3S-CE01",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-3S-CE04",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-4S-C015",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-4S-CE01",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-4S-CE04",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-6S-C015",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-6S-CE01",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-6S-CE04",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-2S-CE06",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-2S-CE05",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-2S-CE13",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-3S-CE06",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-3S-CE05",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-3S-CE13",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-4S-CE06",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-4S-CE05",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-4S-CE13",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-6S-CE06",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-6S-CE05",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-6S-CE13",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-2S-TE09",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-2S-EE18",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-3S-TE09",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-3S-EE18",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-4S-TE09",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-4S-EE18",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-6S-TE09",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-6S-EE18",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-2S-TE03",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-2S-EE16",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-3S-TE03",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-3S-EE16",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-4S-TE03",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-4S-EE16",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-6S-TE03",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-6S-EE16",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-2S-TE07",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-2S-EE17",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-3S-TE07",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-3S-EE17",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-4S-TE07",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-4S-EE17",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-6S-TE07",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-6S-EE17",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-08SA-C015",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-08SA-CE05",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-08SA-CE13",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-08SB-C015",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-08SB-CE05",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-08SC-C015",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-08SC-CE05",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-08SD-C015",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-08SD-CE05",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SA-C015",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SA-CE01",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SA-CE04",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SB-C015",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SB-CE01",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SB-CE04",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SC-C015",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SC-CE01",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SC-CE04",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SD-C015",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SD-CE04",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SA-CE06",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SA-CE05",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SA-CE13",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SB-CE06",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SB-CE05",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SB-CE13",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SC-CE06",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SC-CE05",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SC-CE13",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SD-CE06",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SD-CE05",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
+      }
+    },
+    {
+      "brand": "TE Connectivity / DEUTSCH",
+      "identifier": "DT06-12SD-CE13",
+      "aliases": [],
+      "description": {
+        "en": "DT plug housing for female terminals",
+        "zh": "DT插头胶壳（适配母端子）"
       }
     }
   ],
@@ -2950,18 +5029,5 @@
   "category_name": {
     "en": "Vehicle Lighting Harness",
     "zh": "汽车灯线束"
-  },
-  "quantity_exception": {
-    "approved": true,
-    "kind": "narrow_published_range",
-    "reason": {
-      "en": "Application-specific references are shown at their audited counts. Materials require their own category evidence and are not assumed to be the BOM of every listed assembly.",
-      "zh": "应用专用编号按核验的实际数量展示；材料须有独立类别依据，不将其视为每件成品的通用 BOM。"
-    },
-    "audit_id": "automotive-validated/automotive-07.json",
-    "verified_counts": {
-      "products": 220,
-      "materials": 89
-    }
   }
 }
