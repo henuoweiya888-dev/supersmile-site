@@ -42,8 +42,8 @@
         "zh": "成品电缆与线束型号"
       },
       "intro": {
-        "en": "Finished cable and harness references for this interface or application.",
-        "zh": "此接口或应用方向的成品电缆与线束参考。"
+        "en": "Finished references for PV extension, branch and portable-power solar-input cables; confirm termination and polarity for the equipment.",
+        "zh": "光伏延长线、分支及便携储能太阳能输入线的成品参考，端接与极性按设备确认。"
       }
     },
     {
@@ -167,6 +167,159 @@
       }
     },
     {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLRRB-8-3F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-8-6F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV185",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPS009",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV extension cable pair",
+        "zh": "单端光伏延长线组"
+      }
+    },
+    {
+      "brand": "Renogy",
+      "identifier": "RNG-EXTCB-15FT-12-US",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "Renogy",
+      "identifier": "RNG-AK-10FT-12-US",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV panel-to-controller cable pair",
+        "zh": "单端光伏板至控制器线缆组"
+      }
+    },
+    {
+      "brand": "EcoFlow",
+      "identifier": "EFMC4-XT60CBL3.5M",
+      "aliases": [],
+      "description": {
+        "en": "Solar panel to XT60 charging cable",
+        "zh": "太阳能板至XT60充电线"
+      }
+    },
+    {
+      "brand": "EcoFlow",
+      "identifier": "LMC4-XT60i-2.5m",
+      "aliases": [],
+      "description": {
+        "en": "Solar panel to XT60i charging cable",
+        "zh": "太阳能板至XT60i充电线"
+      }
+    },
+    {
+      "brand": "EcoFlow",
+      "identifier": "EFMC4-3m",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "BougeRV",
+      "identifier": "ISE194",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV extension cable pair",
+        "zh": "单端光伏延长线组"
+      }
+    },
+    {
+      "brand": "BougeRV",
+      "identifier": "ISE063-N",
+      "aliases": [],
+      "description": {
+        "en": "PV extension cable pair with connectors at both ends",
+        "zh": "双端接头光伏延长线组"
+      }
+    },
+    {
+      "brand": "RICH SOLAR",
+      "identifier": "RS-10102",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "RICH SOLAR",
+      "identifier": "RS-10101",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV panel-to-controller cable pair",
+        "zh": "单端光伏板至控制器线缆组"
+      }
+    },
+    {
+      "brand": "RICH SOLAR",
+      "identifier": "RS-M2S",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector to SAE adapter cable",
+        "zh": "光伏接头至SAE转接线"
+      }
+    },
+    {
+      "brand": "Jackery",
+      "identifier": "21-0006-000028",
+      "aliases": [],
+      "description": {
+        "en": "DC extension cable for solar panel connection",
+        "zh": "太阳能板连接用DC延长线"
+      }
+    },
+    {
+      "brand": "Jackery",
+      "identifier": "21-0006-000114",
+      "aliases": [],
+      "description": {
+        "en": "Flat MC4 solar cable",
+        "zh": "扁平MC4太阳能线缆"
+      }
+    },
+    {
+      "brand": "Jackery",
+      "identifier": "21-0006-000086",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
       "brand": "Powerwerx",
       "identifier": "EXMC4-10-5",
       "aliases": [],
@@ -182,6 +335,123 @@
       "description": {
         "en": "Solar extension cable assembly",
         "zh": "光伏延长电缆组件"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLRRB-8-5F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-8-6F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV189",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPS004",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV extension cable pair",
+        "zh": "单端光伏延长线组"
+      }
+    },
+    {
+      "brand": "Renogy",
+      "identifier": "RNG-EXTCB-15FT-10-US",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "Renogy",
+      "identifier": "RNG-AK-20FT-12-US",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV panel-to-controller cable pair",
+        "zh": "单端光伏板至控制器线缆组"
+      }
+    },
+    {
+      "brand": "EcoFlow",
+      "identifier": "EFMC4-XT60CBL5M",
+      "aliases": [],
+      "description": {
+        "en": "Solar panel to XT60 charging cable",
+        "zh": "太阳能板至XT60充电线"
+      }
+    },
+    {
+      "brand": "BougeRV",
+      "identifier": "ISE195",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV extension cable pair",
+        "zh": "单端光伏延长线组"
+      }
+    },
+    {
+      "brand": "BougeRV",
+      "identifier": "ISE003-N",
+      "aliases": [],
+      "description": {
+        "en": "PV extension cable pair with connectors at both ends",
+        "zh": "双端接头光伏延长线组"
+      }
+    },
+    {
+      "brand": "RICH SOLAR",
+      "identifier": "RS-15102",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "RICH SOLAR",
+      "identifier": "RS-20101",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV panel-to-controller cable pair",
+        "zh": "单端光伏板至控制器线缆组"
+      }
+    },
+    {
+      "brand": "RICH SOLAR",
+      "identifier": "RS-M2SRP",
+      "aliases": [],
+      "description": {
+        "en": "Solar connector to SAE adapter cable",
+        "zh": "光伏接头至SAE转接线"
+      }
+    },
+    {
+      "brand": "Jackery",
+      "identifier": "21-0006-000202",
+      "aliases": [],
+      "description": {
+        "en": "DC extension cable for solar panel connection",
+        "zh": "太阳能板连接用DC延长线"
       }
     },
     {
@@ -203,6 +473,87 @@
       }
     },
     {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLRRB-8-15F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-8-10F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV173",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPS005",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV extension cable pair",
+        "zh": "单端光伏延长线组"
+      }
+    },
+    {
+      "brand": "Renogy",
+      "identifier": "RNG-AK-30FT-12-US",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV panel-to-controller cable pair",
+        "zh": "单端光伏板至控制器线缆组"
+      }
+    },
+    {
+      "brand": "BougeRV",
+      "identifier": "ISE126",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV extension cable pair",
+        "zh": "单端光伏延长线组"
+      }
+    },
+    {
+      "brand": "BougeRV",
+      "identifier": "ISE004-N",
+      "aliases": [],
+      "description": {
+        "en": "PV extension cable pair with connectors at both ends",
+        "zh": "双端接头光伏延长线组"
+      }
+    },
+    {
+      "brand": "RICH SOLAR",
+      "identifier": "RS-20102",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "RICH SOLAR",
+      "identifier": "RS-30101",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV panel-to-controller cable pair",
+        "zh": "单端光伏板至控制器线缆组"
+      }
+    },
+    {
       "brand": "Powerwerx",
       "identifier": "EXMC4-10-25",
       "aliases": [],
@@ -218,6 +569,78 @@
       "description": {
         "en": "Solar extension cable assembly",
         "zh": "光伏延长电缆组件"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLRRB-8-25F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-8-10F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV181",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPS003",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV extension cable pair",
+        "zh": "单端光伏延长线组"
+      }
+    },
+    {
+      "brand": "Renogy",
+      "identifier": "RNG-AK-40FT-12-US",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV panel-to-controller cable pair",
+        "zh": "单端光伏板至控制器线缆组"
+      }
+    },
+    {
+      "brand": "BougeRV",
+      "identifier": "ISE127",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV extension cable pair",
+        "zh": "单端光伏延长线组"
+      }
+    },
+    {
+      "brand": "BougeRV",
+      "identifier": "ISE031-N",
+      "aliases": [],
+      "description": {
+        "en": "PV extension cable pair with connectors at both ends",
+        "zh": "双端接头光伏延长线组"
+      }
+    },
+    {
+      "brand": "RICH SOLAR",
+      "identifier": "RS-30102",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
       }
     },
     {
@@ -239,6 +662,78 @@
       }
     },
     {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLRRB-8-70F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-8-20F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV323",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPS011",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV extension cable pair",
+        "zh": "单端光伏延长线组"
+      }
+    },
+    {
+      "brand": "Renogy",
+      "identifier": "RNG-AK-10FT-10-US",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV panel-to-controller cable pair",
+        "zh": "单端光伏板至控制器线缆组"
+      }
+    },
+    {
+      "brand": "BougeRV",
+      "identifier": "ISE128",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV extension cable pair",
+        "zh": "单端光伏延长线组"
+      }
+    },
+    {
+      "brand": "BougeRV",
+      "identifier": "ISE086-N",
+      "aliases": [],
+      "description": {
+        "en": "PV extension cable pair with connectors at both ends",
+        "zh": "双端接头光伏延长线组"
+      }
+    },
+    {
+      "brand": "RICH SOLAR",
+      "identifier": "RS-50102",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
       "brand": "Powerwerx",
       "identifier": "EXMC4-12-5",
       "aliases": [],
@@ -254,6 +749,69 @@
       "description": {
         "en": "Solar extension cable assembly",
         "zh": "光伏延长电缆组件"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLRRB-8-90F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-8-20F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV169",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPS002",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV extension cable pair",
+        "zh": "单端光伏延长线组"
+      }
+    },
+    {
+      "brand": "Renogy",
+      "identifier": "RNG-AK-20FT-10-US",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV panel-to-controller cable pair",
+        "zh": "单端光伏板至控制器线缆组"
+      }
+    },
+    {
+      "brand": "BougeRV",
+      "identifier": "ISE196",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV extension cable pair",
+        "zh": "单端光伏延长线组"
+      }
+    },
+    {
+      "brand": "RICH SOLAR",
+      "identifier": "RS-75102",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
       }
     },
     {
@@ -275,12 +833,129 @@
       }
     },
     {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLRRB-8-125F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-8-30F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV197",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPS501",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV extension cable pair",
+        "zh": "单端光伏延长线组"
+      }
+    },
+    {
+      "brand": "Renogy",
+      "identifier": "RNG-AK-30FT-10-US",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV panel-to-controller cable pair",
+        "zh": "单端光伏板至控制器线缆组"
+      }
+    },
+    {
+      "brand": "BougeRV",
+      "identifier": "ISE063",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV extension cable pair",
+        "zh": "单端光伏延长线组"
+      }
+    },
+    {
+      "brand": "RICH SOLAR",
+      "identifier": "RS-100102",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
       "brand": "Renogy",
       "identifier": "RNG-EXTCB-20FT-10-US",
       "aliases": [],
       "description": {
         "en": "Solar extension cable assembly",
         "zh": "光伏延长电缆组件"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLRRB-8-150F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-8-30F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV177",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPS012",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV extension cable pair",
+        "zh": "单端光伏延长线组"
+      }
+    },
+    {
+      "brand": "Renogy",
+      "identifier": "RNG-AK-40FT-10-US",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV panel-to-controller cable pair",
+        "zh": "单端光伏板至控制器线缆组"
+      }
+    },
+    {
+      "brand": "BougeRV",
+      "identifier": "ISE003-B021",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV extension cable pair",
+        "zh": "单端光伏延长线组"
       }
     },
     {
@@ -293,12 +968,1497 @@
       }
     },
     {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLRRB-10-5F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-8-40F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV240",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPS006",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV extension cable pair",
+        "zh": "单端光伏延长线组"
+      }
+    },
+    {
+      "brand": "Renogy",
+      "identifier": "RNG-AK-9IN-12-US",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV panel-to-controller cable pair",
+        "zh": "单端光伏板至控制器线缆组"
+      }
+    },
+    {
+      "brand": "BougeRV",
+      "identifier": "ISE004-B021",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV extension cable pair",
+        "zh": "单端光伏延长线组"
+      }
+    },
+    {
       "brand": "Renogy",
       "identifier": "RNG-EXTCB-40FT-10-US",
       "aliases": [],
       "description": {
         "en": "Solar extension cable assembly",
         "zh": "光伏延长电缆组件"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLRRB-10-15F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-8-40F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV299",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPS018",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV extension cable pair",
+        "zh": "单端光伏延长线组"
+      }
+    },
+    {
+      "brand": "Renogy",
+      "identifier": "RNG-AK-9IN-10-US",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV panel-to-controller cable pair",
+        "zh": "单端光伏板至控制器线缆组"
+      }
+    },
+    {
+      "brand": "BougeRV",
+      "identifier": "ISE031",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV extension cable pair",
+        "zh": "单端光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLRRB-10-25F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-8-50F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV385",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPS015",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV extension cable pair",
+        "zh": "单端光伏延长线组"
+      }
+    },
+    {
+      "brand": "BougeRV",
+      "identifier": "ISE101",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV extension cable pair",
+        "zh": "单端光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLRRB-10-70F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-8-50F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV307",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPS010",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV extension cable pair",
+        "zh": "单端光伏延长线组"
+      }
+    },
+    {
+      "brand": "BougeRV",
+      "identifier": "ISE086",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV extension cable pair",
+        "zh": "单端光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLRRB-10-90F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-8-60F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV321",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPS017",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV extension cable pair",
+        "zh": "单端光伏延长线组"
+      }
+    },
+    {
+      "brand": "BougeRV",
+      "identifier": "ISE109",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV extension cable pair",
+        "zh": "单端光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLRRB-10-125F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-8-60F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV213",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPS016",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV extension cable pair",
+        "zh": "单端光伏延长线组"
+      }
+    },
+    {
+      "brand": "BougeRV",
+      "identifier": "ISE110",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV extension cable pair",
+        "zh": "单端光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLRRB-10-150F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-8-80F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV193",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPS014",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV extension cable pair",
+        "zh": "单端光伏延长线组"
+      }
+    },
+    {
+      "brand": "BougeRV",
+      "identifier": "ISE111",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV extension cable pair",
+        "zh": "单端光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLRRB-12-3F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-8-80F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV205",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPS013",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV extension cable pair",
+        "zh": "单端光伏延长线组"
+      }
+    },
+    {
+      "brand": "BougeRV",
+      "identifier": "ISE071",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV extension cable pair",
+        "zh": "单端光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLRRB-12-5F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-8-100F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV247",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPS008",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV extension cable pair",
+        "zh": "单端光伏延长线组"
+      }
+    },
+    {
+      "brand": "BougeRV",
+      "identifier": "ISE072",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV extension cable pair",
+        "zh": "单端光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLRRB-12-15F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-8-100F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV301",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPS007",
+      "aliases": [],
+      "description": {
+        "en": "Single-ended PV extension cable pair",
+        "zh": "单端光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLRRB-12-25F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-8-120F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV242",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLRRB-12-70F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-8-120F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV303",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLRRB-12-90F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-8-140F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV304",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLRRB-12-125F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-8-140F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV239",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLRRB-12-150F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-8-160F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV298",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-8-160F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV300",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-8-180F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV306",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-8-180F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV319",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-8-200F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV238",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-8-200F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV244",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-8-250F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV243",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-8-250F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV201",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-8-300F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV271",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-8-300F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV302",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-10-3F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV269",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-10-3F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV320",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-10-6F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV710",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-10-6F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV318",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-10-10F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV241",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-10-10F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV270",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-10-20F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV268",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-10-20F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV277",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-10-30F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV274",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-10-30F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV305",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-10-40F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV273",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-10-40F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV272",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-10-50F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV245",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-10-50F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV276",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-10-60F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "TEMCo Industrial",
+      "identifier": "CPV275",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable pair",
+        "zh": "已端接光伏延长线组"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-10-60F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-10-80F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-10-80F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-10-100F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-10-100F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-10-120F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-10-120F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-10-140F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-10-140F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-10-160F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-10-160F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-10-180F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-10-180F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-10-200F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-10-200F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-10-250F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-10-250F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-10-300F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-10-300F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-12-6F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-12-6F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-12-10F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-12-10F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-12-20F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-12-20F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-12-30F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-12-30F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-12-40F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-12-40F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-12-50F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-12-50F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-12-60F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-12-60F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-12-80F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-12-80F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-12-100F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-12-100F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-12-120F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-12-120F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-12-140F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-12-140F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-12-160F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-12-160F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-12-180F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-12-180F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-12-200F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-12-200F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-12-250F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-12-250F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-BLACK-12-300F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
+      }
+    },
+    {
+      "brand": "WindyNation",
+      "identifier": "CBL-SLR-RED-12-300F",
+      "aliases": [],
+      "description": {
+        "en": "Preterminated PV extension cable",
+        "zh": "已端接光伏延长线"
       }
     }
   ],
@@ -2446,23 +4606,5 @@
   "category_name": {
     "en": "Solar Cable Assembly",
     "zh": "太阳能电缆组件"
-  },
-  "quantity_exception": {
-    "approved": true,
-    "kind": "audited_subset",
-    "reason": {
-      "en": "This is the verified subset for the category. The target of 200 finished models and 200 materials remains incomplete.",
-      "zh": "此处为本类已核验子集，200个成品型号和200个材料料号的目标仍待继续补充。"
-    },
-    "audit_id": "solar-helukabel-independent-audit.json",
-    "verified_counts": {
-      "products": 17,
-      "materials": 236
-    },
-    "target_status": "incomplete",
-    "target_counts": {
-      "products": 200,
-      "materials": 200
-    }
   }
 }

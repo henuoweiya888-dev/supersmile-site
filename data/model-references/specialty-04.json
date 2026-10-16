@@ -147,20 +147,1245 @@
     "en": "Manufacturer type: ",
     "zh": "原厂型号："
   },
-  "products": [],
+  "products": [
+    {
+      "brand": "Molex",
+      "identifier": "923180607",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex Z式IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923150401",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-IDT ribbon cable assembly",
+        "zh": "Picoflex双端IDT排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923160406",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923170413",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT ribbon cable assembly",
+        "zh": "Picoflex Z式IDT排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205076-3",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-MOW IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至MOW双端IDC排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205068-1",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-paddle-board IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至桨板式IDC排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923180817",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex Z式IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923150406",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-IDT ribbon cable assembly",
+        "zh": "Picoflex双端IDT排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923160408",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923170414",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT ribbon cable assembly",
+        "zh": "Picoflex Z式IDT排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205076-2",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-MOW IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至MOW双端IDC排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205068-3",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-paddle-board IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至桨板式IDC排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923181006",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex Z式IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923150408",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-IDT ribbon cable assembly",
+        "zh": "Picoflex双端IDT排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923160409",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923170419",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT ribbon cable assembly",
+        "zh": "Picoflex Z式IDT排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205076-1",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-MOW IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至MOW双端IDC排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205069-1",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-paddle-board IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至桨板式IDC排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923181008",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex Z式IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923150410",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-IDT ribbon cable assembly",
+        "zh": "Picoflex双端IDT排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923160415",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923170420",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT ribbon cable assembly",
+        "zh": "Picoflex Z式IDT排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205067-3",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-MOW IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至MOW双端IDC排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205069-2",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-paddle-board IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至桨板式IDC排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923181010",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex Z式IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923150413",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-IDT ribbon cable assembly",
+        "zh": "Picoflex双端IDT排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923160420",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923170421",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT ribbon cable assembly",
+        "zh": "Picoflex Z式IDT排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205067-2",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-MOW IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至MOW双端IDC排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205069-3",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-paddle-board IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至桨板式IDC排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923181018",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex Z式IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923150415",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-IDT ribbon cable assembly",
+        "zh": "Picoflex双端IDT排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923160608",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923170436",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT ribbon cable assembly",
+        "zh": "Picoflex Z式IDT排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205067-1",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-MOW IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至MOW双端IDC排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205070-1",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-paddle-board IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至桨板式IDC排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923181207",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex Z式IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923150416",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-IDT ribbon cable assembly",
+        "zh": "Picoflex双端IDT排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923160610",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923170450",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT ribbon cable assembly",
+        "zh": "Picoflex Z式IDT排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205066-3",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-MOW IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至MOW双端IDC排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205070-2",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-paddle-board IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至桨板式IDC排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923181223",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex Z式IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923150417",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-IDT ribbon cable assembly",
+        "zh": "Picoflex双端IDT排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923160614",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923170460",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT ribbon cable assembly",
+        "zh": "Picoflex Z式IDT排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205066-2",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-MOW IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至MOW双端IDC排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205070-3",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-paddle-board IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至桨板式IDC排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923181407",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex Z式IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923150420",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-IDT ribbon cable assembly",
+        "zh": "Picoflex双端IDT排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923160615",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923170607",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT ribbon cable assembly",
+        "zh": "Picoflex Z式IDT排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205066-1",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-MOW IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至MOW双端IDC排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205071-1",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-paddle-board IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至桨板式IDC排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923181414",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex Z式IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923150422",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-IDT ribbon cable assembly",
+        "zh": "Picoflex双端IDT排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923160618",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923170610",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT ribbon cable assembly",
+        "zh": "Picoflex Z式IDT排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205065-3",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-MOW IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至MOW双端IDC排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205071-2",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-paddle-board IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至桨板式IDC排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923181425",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex Z式IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923150424",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-IDT ribbon cable assembly",
+        "zh": "Picoflex双端IDT排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923160620",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923170614",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT ribbon cable assembly",
+        "zh": "Picoflex Z式IDT排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205065-2",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-MOW IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至MOW双端IDC排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205071-3",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-paddle-board IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至桨板式IDC排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923181615",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex Z式IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923150425",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-IDT ribbon cable assembly",
+        "zh": "Picoflex双端IDT排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923160625",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923170615",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT ribbon cable assembly",
+        "zh": "Picoflex Z式IDT排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205065-1",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-MOW IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至MOW双端IDC排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205072-2",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-paddle-board IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至桨板式IDC排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923181815",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex Z式IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923150430",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-IDT ribbon cable assembly",
+        "zh": "Picoflex双端IDT排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923160635",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923170618",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT ribbon cable assembly",
+        "zh": "Picoflex Z式IDT排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205064-3",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-MOW IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至MOW双端IDC排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205072-3",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-paddle-board IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至桨板式IDC排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923182611",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex Z式IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923150432",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-IDT ribbon cable assembly",
+        "zh": "Picoflex双端IDT排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923160665",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923170620",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT ribbon cable assembly",
+        "zh": "Picoflex Z式IDT排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205064-2",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-MOW IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至MOW双端IDC排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205073-3",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-paddle-board IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至桨板式IDC排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923182616",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex Z式IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923150436",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-IDT ribbon cable assembly",
+        "zh": "Picoflex双端IDT排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923160808",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923170625",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT ribbon cable assembly",
+        "zh": "Picoflex Z式IDT排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205064-1",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-MOW IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至MOW双端IDC排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205074-1",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-paddle-board IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至桨板式IDC排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923182618",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex Z式IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923150440",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-IDT ribbon cable assembly",
+        "zh": "Picoflex双端IDT排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923160810",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923170627",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT ribbon cable assembly",
+        "zh": "Picoflex Z式IDT排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205063-3",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-MOW IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至MOW双端IDC排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205074-2",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-paddle-board IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至桨板式IDC排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923150450",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-IDT ribbon cable assembly",
+        "zh": "Picoflex双端IDT排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923160815",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923170632",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT ribbon cable assembly",
+        "zh": "Picoflex Z式IDT排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205063-2",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-MOW IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至MOW双端IDC排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205074-3",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-paddle-board IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至桨板式IDC排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923150480",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-IDT ribbon cable assembly",
+        "zh": "Picoflex双端IDT排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923160820",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923170640",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT ribbon cable assembly",
+        "zh": "Picoflex Z式IDT排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205063-1",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-MOW IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至MOW双端IDC排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205075-1",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-paddle-board IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至桨板式IDC排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923150601",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-IDT ribbon cable assembly",
+        "zh": "Picoflex双端IDT排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923160830",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923170680",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT ribbon cable assembly",
+        "zh": "Picoflex Z式IDT排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205062-3",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-MOW IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至MOW双端IDC排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205075-2",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-paddle-board IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至桨板式IDC排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923150603",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-IDT ribbon cable assembly",
+        "zh": "Picoflex双端IDT排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923160832",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923170810",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT ribbon cable assembly",
+        "zh": "Picoflex Z式IDT排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205062-2",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-MOW IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至MOW双端IDC排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923150606",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-IDT ribbon cable assembly",
+        "zh": "Picoflex双端IDT排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923161006",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923170835",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT ribbon cable assembly",
+        "zh": "Picoflex Z式IDT排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205062-1",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-MOW IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至MOW双端IDC排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923150607",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-IDT ribbon cable assembly",
+        "zh": "Picoflex双端IDT排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923161007",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923170869",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT ribbon cable assembly",
+        "zh": "Picoflex Z式IDT排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205061-3",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-MOW IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至MOW双端IDC排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923150608",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-IDT ribbon cable assembly",
+        "zh": "Picoflex双端IDT排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923161008",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923170880",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT ribbon cable assembly",
+        "zh": "Picoflex Z式IDT排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205061-2",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-MOW IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至MOW双端IDC排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923150609",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-IDT ribbon cable assembly",
+        "zh": "Picoflex双端IDT排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923161010",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923171002",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT ribbon cable assembly",
+        "zh": "Picoflex Z式IDT排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205061-1",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-MOW IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至MOW双端IDC排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923150610",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-IDT ribbon cable assembly",
+        "zh": "Picoflex双端IDT排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923161012",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT-to-board-in ribbon cable assembly",
+        "zh": "Picoflex IDT至板插式排线组件"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "923171007",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex Z-style IDT ribbon cable assembly",
+        "zh": "Picoflex Z式IDT排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205060-3",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-MOW IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至MOW双端IDC排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205060-2",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-MOW IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至MOW双端IDC排线组件"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2205060-1",
+      "aliases": [],
+      "description": {
+        "en": "Micro-MaTch MOW-to-MOW IDC ribbon cable assembly",
+        "zh": "Micro-MaTch MOW至MOW双端IDC排线组件"
+      }
+    }
+  ],
   "materials": [
     {
       "brand": "3M",
       "identifier": "4650-B300",
-      "aliases": [],
-      "description": {
-        "en": "IDC ribbon cable connector component",
-        "zh": "IDC排线连接器材料"
-      }
-    },
-    {
-      "brand": "3M",
-      "identifier": "89110-0001HA",
       "aliases": [],
       "description": {
         "en": "IDC ribbon cable connector component",
@@ -177,12 +1402,195 @@
       }
     },
     {
+      "brand": "Molex",
+      "identifier": "14562021",
+      "aliases": [],
+      "description": {
+        "en": "SL IDC ribbon cable receptacle",
+        "zh": "SL IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "14441202",
+      "aliases": [],
+      "description": {
+        "en": "SL IDC ribbon cable plug",
+        "zh": "SL IDC排线插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "875681063",
+      "aliases": [],
+      "description": {
+        "en": "Milli-Grid IDC ribbon cable receptacle",
+        "zh": "Milli-Grid IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903250004",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903270304",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT ribbon cable receptacle",
+        "zh": "Picoflex IDT排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "905841304",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex board-in IDT ribbon connector",
+        "zh": "Picoflex板插式IDT排线连接器"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "1-215079-8",
+      "aliases": [
+        "8-215079-8"
+      ],
+      "description": {
+        "en": "PCB receptacle for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插座"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "215464-4",
+      "aliases": [
+        "7-215464-4"
+      ],
+      "description": {
+        "en": "PCB header for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "215083-4",
+      "aliases": [
+        "7-215083-4"
+      ],
+      "description": {
+        "en": "Micro-MaTch male-on-wire IDC ribbon connector",
+        "zh": "Micro-MaTch线端IDC排线插头"
+      }
+    },
+    {
+      "brand": "3M",
+      "identifier": "89110-0001HA",
+      "aliases": [],
+      "description": {
+        "en": "IDC ribbon cable connector component",
+        "zh": "IDC排线连接器材料"
+      }
+    },
+    {
       "brand": "3M",
       "identifier": "3365/08",
       "aliases": [],
       "description": {
         "en": "3365 flat ribbon cable material",
         "zh": "3365系列扁平排线材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "14562022",
+      "aliases": [],
+      "description": {
+        "en": "SL IDC ribbon cable receptacle",
+        "zh": "SL IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "14441203",
+      "aliases": [],
+      "description": {
+        "en": "SL IDC ribbon cable plug",
+        "zh": "SL IDC排线插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "875681064",
+      "aliases": [],
+      "description": {
+        "en": "Milli-Grid IDC ribbon cable receptacle",
+        "zh": "Milli-Grid IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903250006",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903270306",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT ribbon cable receptacle",
+        "zh": "Picoflex IDT排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "905841306",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex board-in IDT ribbon connector",
+        "zh": "Picoflex板插式IDT排线连接器"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2-215079-0",
+      "aliases": [
+        "9-215079-0"
+      ],
+      "description": {
+        "en": "PCB receptacle for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插座"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "215464-6",
+      "aliases": [
+        "7-215464-6"
+      ],
+      "description": {
+        "en": "PCB header for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "215083-6",
+      "aliases": [
+        "7-215083-6"
+      ],
+      "description": {
+        "en": "Micro-MaTch male-on-wire IDC ribbon connector",
+        "zh": "Micro-MaTch线端IDC排线插头"
       }
     },
     {
@@ -195,12 +1603,186 @@
       }
     },
     {
+      "brand": "Molex",
+      "identifier": "14562023",
+      "aliases": [],
+      "description": {
+        "en": "SL IDC ribbon cable receptacle",
+        "zh": "SL IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "14441204",
+      "aliases": [],
+      "description": {
+        "en": "SL IDC ribbon cable plug",
+        "zh": "SL IDC排线插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "875681073",
+      "aliases": [],
+      "description": {
+        "en": "Milli-Grid IDC ribbon cable receptacle",
+        "zh": "Milli-Grid IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903250008",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903270308",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT ribbon cable receptacle",
+        "zh": "Picoflex IDT排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "905841308",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex board-in IDT ribbon connector",
+        "zh": "Picoflex板插式IDT排线连接器"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "7-215079-4",
+      "aliases": [
+        "215079-4"
+      ],
+      "description": {
+        "en": "PCB receptacle for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插座"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "215464-8",
+      "aliases": [
+        "7-215464-8"
+      ],
+      "description": {
+        "en": "PCB header for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "215083-8",
+      "aliases": [
+        "7-215083-8"
+      ],
+      "description": {
+        "en": "Micro-MaTch male-on-wire IDC ribbon connector",
+        "zh": "Micro-MaTch线端IDC排线插头"
+      }
+    },
+    {
       "brand": "3M",
       "identifier": "3365/10",
       "aliases": [],
       "description": {
         "en": "3365 flat ribbon cable material",
         "zh": "3365系列扁平排线材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "14562024",
+      "aliases": [],
+      "description": {
+        "en": "SL IDC ribbon cable receptacle",
+        "zh": "SL IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "14441206",
+      "aliases": [],
+      "description": {
+        "en": "SL IDC ribbon cable plug",
+        "zh": "SL IDC排线插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "875681074",
+      "aliases": [],
+      "description": {
+        "en": "Milli-Grid IDC ribbon cable receptacle",
+        "zh": "Milli-Grid IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903250010",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903270310",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT ribbon cable receptacle",
+        "zh": "Picoflex IDT排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "905841310",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex board-in IDT ribbon connector",
+        "zh": "Picoflex板插式IDT排线连接器"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "7-215079-6",
+      "aliases": [
+        "215079-6"
+      ],
+      "description": {
+        "en": "PCB receptacle for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插座"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "1-215464-0",
+      "aliases": [
+        "8-215464-0"
+      ],
+      "description": {
+        "en": "PCB header for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "1-215083-0",
+      "aliases": [
+        "8-215083-0"
+      ],
+      "description": {
+        "en": "Micro-MaTch male-on-wire IDC ribbon connector",
+        "zh": "Micro-MaTch线端IDC排线插头"
       }
     },
     {
@@ -213,12 +1795,186 @@
       }
     },
     {
+      "brand": "Molex",
+      "identifier": "14562028",
+      "aliases": [],
+      "description": {
+        "en": "SL IDC ribbon cable receptacle",
+        "zh": "SL IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "14441209",
+      "aliases": [],
+      "description": {
+        "en": "SL IDC ribbon cable plug",
+        "zh": "SL IDC排线插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "875681263",
+      "aliases": [],
+      "description": {
+        "en": "Milli-Grid IDC ribbon cable receptacle",
+        "zh": "Milli-Grid IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903250012",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903270312",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT ribbon cable receptacle",
+        "zh": "Picoflex IDT排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "905841312",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex board-in IDT ribbon connector",
+        "zh": "Picoflex板插式IDT排线连接器"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "7-215079-8",
+      "aliases": [
+        "215079-8"
+      ],
+      "description": {
+        "en": "PCB receptacle for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插座"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "1-215464-2",
+      "aliases": [
+        "8-215464-2"
+      ],
+      "description": {
+        "en": "PCB header for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "1-215083-2",
+      "aliases": [
+        "8-215083-2"
+      ],
+      "description": {
+        "en": "Micro-MaTch male-on-wire IDC ribbon connector",
+        "zh": "Micro-MaTch线端IDC排线插头"
+      }
+    },
+    {
       "brand": "3M",
       "identifier": "3365/14",
       "aliases": [],
       "description": {
         "en": "3365 flat ribbon cable material",
         "zh": "3365系列扁平排线材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "14562029",
+      "aliases": [],
+      "description": {
+        "en": "SL IDC ribbon cable receptacle",
+        "zh": "SL IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "14441210",
+      "aliases": [],
+      "description": {
+        "en": "SL IDC ribbon cable plug",
+        "zh": "SL IDC排线插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "875681264",
+      "aliases": [],
+      "description": {
+        "en": "Milli-Grid IDC ribbon cable receptacle",
+        "zh": "Milli-Grid IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903250014",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903270314",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT ribbon cable receptacle",
+        "zh": "Picoflex IDT排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "905841314",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex board-in IDT ribbon connector",
+        "zh": "Picoflex板插式IDT排线连接器"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "8-215079-0",
+      "aliases": [
+        "1-215079-0"
+      ],
+      "description": {
+        "en": "PCB receptacle for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插座"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "1-215464-4",
+      "aliases": [
+        "8-215464-4"
+      ],
+      "description": {
+        "en": "PCB header for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "1-215083-4",
+      "aliases": [
+        "8-215083-4"
+      ],
+      "description": {
+        "en": "Micro-MaTch male-on-wire IDC ribbon connector",
+        "zh": "Micro-MaTch线端IDC排线插头"
       }
     },
     {
@@ -231,12 +1987,177 @@
       }
     },
     {
+      "brand": "Molex",
+      "identifier": "14562031",
+      "aliases": [],
+      "description": {
+        "en": "SL IDC ribbon cable receptacle",
+        "zh": "SL IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "14441212",
+      "aliases": [],
+      "description": {
+        "en": "SL IDC ribbon cable plug",
+        "zh": "SL IDC排线插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "875681273",
+      "aliases": [],
+      "description": {
+        "en": "Milli-Grid IDC ribbon cable receptacle",
+        "zh": "Milli-Grid IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903250016",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903270316",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT ribbon cable receptacle",
+        "zh": "Picoflex IDT排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "905841316",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex board-in IDT ribbon connector",
+        "zh": "Picoflex板插式IDT排线连接器"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "8-215079-2",
+      "aliases": [
+        "1-215079-2"
+      ],
+      "description": {
+        "en": "PCB receptacle for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插座"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "1-215464-6",
+      "aliases": [
+        "8-215464-6"
+      ],
+      "description": {
+        "en": "PCB header for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "1-215083-6",
+      "aliases": [
+        "8-215083-6"
+      ],
+      "description": {
+        "en": "Micro-MaTch male-on-wire IDC ribbon connector",
+        "zh": "Micro-MaTch线端IDC排线插头"
+      }
+    },
+    {
       "brand": "3M",
       "identifier": "3365/16",
       "aliases": [],
       "description": {
         "en": "3365 flat ribbon cable material",
         "zh": "3365系列扁平排线材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "14562032",
+      "aliases": [],
+      "description": {
+        "en": "SL IDC ribbon cable receptacle",
+        "zh": "SL IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "875681274",
+      "aliases": [],
+      "description": {
+        "en": "Milli-Grid IDC ribbon cable receptacle",
+        "zh": "Milli-Grid IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903250018",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903270318",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT ribbon cable receptacle",
+        "zh": "Picoflex IDT排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "905841318",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex board-in IDT ribbon connector",
+        "zh": "Picoflex板插式IDT排线连接器"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "8-215079-4",
+      "aliases": [
+        "1-215079-4"
+      ],
+      "description": {
+        "en": "PCB receptacle for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插座"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "1-215464-8",
+      "aliases": [
+        "8-215464-8"
+      ],
+      "description": {
+        "en": "PCB header for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "1-215083-8",
+      "aliases": [
+        "8-215083-8"
+      ],
+      "description": {
+        "en": "Micro-MaTch male-on-wire IDC ribbon connector",
+        "zh": "Micro-MaTch线端IDC排线插头"
       }
     },
     {
@@ -249,12 +2170,164 @@
       }
     },
     {
+      "brand": "Molex",
+      "identifier": "14562034",
+      "aliases": [],
+      "description": {
+        "en": "SL IDC ribbon cable receptacle",
+        "zh": "SL IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "875681443",
+      "aliases": [],
+      "description": {
+        "en": "Milli-Grid IDC ribbon cable receptacle",
+        "zh": "Milli-Grid IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903250020",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903270320",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT ribbon cable receptacle",
+        "zh": "Picoflex IDT排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "905841320",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex board-in IDT ribbon connector",
+        "zh": "Picoflex板插式IDT排线连接器"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "8-215079-6",
+      "aliases": [
+        "1-215079-6"
+      ],
+      "description": {
+        "en": "PCB receptacle for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插座"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2-215464-0",
+      "aliases": [
+        "9-215464-0"
+      ],
+      "description": {
+        "en": "PCB header for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2-215083-0",
+      "aliases": [
+        "9-215083-0"
+      ],
+      "description": {
+        "en": "Micro-MaTch male-on-wire IDC ribbon connector",
+        "zh": "Micro-MaTch线端IDC排线插头"
+      }
+    },
+    {
       "brand": "3M",
       "identifier": "3365/24",
       "aliases": [],
       "description": {
         "en": "3365 flat ribbon cable material",
         "zh": "3365系列扁平排线材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "14562036",
+      "aliases": [],
+      "description": {
+        "en": "SL IDC ribbon cable receptacle",
+        "zh": "SL IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "875681444",
+      "aliases": [],
+      "description": {
+        "en": "Milli-Grid IDC ribbon cable receptacle",
+        "zh": "Milli-Grid IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903250022",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903270322",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT ribbon cable receptacle",
+        "zh": "Picoflex IDT排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "905841322",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex board-in IDT ribbon connector",
+        "zh": "Picoflex板插式IDT排线连接器"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "338068-4",
+      "aliases": [],
+      "description": {
+        "en": "PCB receptacle for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插座"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "338728-4",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2-215083-4",
+      "aliases": [
+        "9-215083-4"
+      ],
+      "description": {
+        "en": "Micro-MaTch male-on-wire IDC ribbon connector",
+        "zh": "Micro-MaTch线端IDC排线插头"
       }
     },
     {
@@ -267,12 +2340,120 @@
       }
     },
     {
+      "brand": "Molex",
+      "identifier": "14562037",
+      "aliases": [],
+      "description": {
+        "en": "SL IDC ribbon cable receptacle",
+        "zh": "SL IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "875681463",
+      "aliases": [],
+      "description": {
+        "en": "Milli-Grid IDC ribbon cable receptacle",
+        "zh": "Milli-Grid IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903250024",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903270324",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT ribbon cable receptacle",
+        "zh": "Picoflex IDT排线插座"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "338068-6",
+      "aliases": [],
+      "description": {
+        "en": "PCB receptacle for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插座"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "338728-6",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插头"
+      }
+    },
+    {
       "brand": "3M",
       "identifier": "3365/26",
       "aliases": [],
       "description": {
         "en": "3365 flat ribbon cable material",
         "zh": "3365系列扁平排线材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "14562041",
+      "aliases": [],
+      "description": {
+        "en": "SL IDC ribbon cable receptacle",
+        "zh": "SL IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "875681464",
+      "aliases": [],
+      "description": {
+        "en": "Milli-Grid IDC ribbon cable receptacle",
+        "zh": "Milli-Grid IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903250026",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903270326",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT ribbon cable receptacle",
+        "zh": "Picoflex IDT排线插座"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "338068-8",
+      "aliases": [],
+      "description": {
+        "en": "PCB receptacle for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插座"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "338728-8",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插头"
       }
     },
     {
@@ -285,12 +2466,120 @@
       }
     },
     {
+      "brand": "Molex",
+      "identifier": "14562042",
+      "aliases": [],
+      "description": {
+        "en": "SL IDC ribbon cable receptacle",
+        "zh": "SL IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "875681483",
+      "aliases": [],
+      "description": {
+        "en": "Milli-Grid IDC ribbon cable receptacle",
+        "zh": "Milli-Grid IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903253004",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903273304",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT ribbon cable receptacle",
+        "zh": "Picoflex IDT排线插座"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "1-338068-0",
+      "aliases": [],
+      "description": {
+        "en": "PCB receptacle for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插座"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "1-338728-0",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插头"
+      }
+    },
+    {
       "brand": "3M",
       "identifier": "3365/34",
       "aliases": [],
       "description": {
         "en": "3365 flat ribbon cable material",
         "zh": "3365系列扁平排线材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "14562044",
+      "aliases": [],
+      "description": {
+        "en": "SL IDC ribbon cable receptacle",
+        "zh": "SL IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "875681484",
+      "aliases": [],
+      "description": {
+        "en": "Milli-Grid IDC ribbon cable receptacle",
+        "zh": "Milli-Grid IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903253006",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903273306",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT ribbon cable receptacle",
+        "zh": "Picoflex IDT排线插座"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "1-338068-2",
+      "aliases": [],
+      "description": {
+        "en": "PCB receptacle for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插座"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "1-338728-4",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插头"
       }
     },
     {
@@ -303,12 +2592,111 @@
       }
     },
     {
+      "brand": "Molex",
+      "identifier": "14562046",
+      "aliases": [],
+      "description": {
+        "en": "SL IDC ribbon cable receptacle",
+        "zh": "SL IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "875681493",
+      "aliases": [],
+      "description": {
+        "en": "Milli-Grid IDC ribbon cable receptacle",
+        "zh": "Milli-Grid IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903253008",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903273308",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT ribbon cable receptacle",
+        "zh": "Picoflex IDT排线插座"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "1-338068-4",
+      "aliases": [],
+      "description": {
+        "en": "PCB receptacle for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插座"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "1-338728-6",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插头"
+      }
+    },
+    {
       "brand": "3M",
       "identifier": "3365/37",
       "aliases": [],
       "description": {
         "en": "3365 flat ribbon cable material",
         "zh": "3365系列扁平排线材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "14562047",
+      "aliases": [],
+      "description": {
+        "en": "SL IDC ribbon cable receptacle",
+        "zh": "SL IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "875681494",
+      "aliases": [],
+      "description": {
+        "en": "Milli-Grid IDC ribbon cable receptacle",
+        "zh": "Milli-Grid IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903253010",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903273310",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT ribbon cable receptacle",
+        "zh": "Picoflex IDT排线插座"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "1-338068-6",
+      "aliases": [],
+      "description": {
+        "en": "PCB receptacle for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插座"
       }
     },
     {
@@ -321,12 +2709,102 @@
       }
     },
     {
+      "brand": "Molex",
+      "identifier": "14562048",
+      "aliases": [],
+      "description": {
+        "en": "SL IDC ribbon cable receptacle",
+        "zh": "SL IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "875681643",
+      "aliases": [],
+      "description": {
+        "en": "Milli-Grid IDC ribbon cable receptacle",
+        "zh": "Milli-Grid IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903253012",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903273312",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT ribbon cable receptacle",
+        "zh": "Picoflex IDT排线插座"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "1-338068-8",
+      "aliases": [],
+      "description": {
+        "en": "PCB receptacle for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插座"
+      }
+    },
+    {
       "brand": "3M",
       "identifier": "3365/44",
       "aliases": [],
       "description": {
         "en": "3365 flat ribbon cable material",
         "zh": "3365系列扁平排线材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "14562051",
+      "aliases": [],
+      "description": {
+        "en": "SL IDC ribbon cable receptacle",
+        "zh": "SL IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "875681644",
+      "aliases": [],
+      "description": {
+        "en": "Milli-Grid IDC ribbon cable receptacle",
+        "zh": "Milli-Grid IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903253014",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903273314",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT ribbon cable receptacle",
+        "zh": "Picoflex IDT排线插座"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2-338068-0",
+      "aliases": [],
+      "description": {
+        "en": "PCB receptacle for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插座"
       }
     },
     {
@@ -339,6 +2817,51 @@
       }
     },
     {
+      "brand": "Molex",
+      "identifier": "14562052",
+      "aliases": [],
+      "description": {
+        "en": "SL IDC ribbon cable receptacle",
+        "zh": "SL IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "875681663",
+      "aliases": [],
+      "description": {
+        "en": "Milli-Grid IDC ribbon cable receptacle",
+        "zh": "Milli-Grid IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903253016",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903273316",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT ribbon cable receptacle",
+        "zh": "Picoflex IDT排线插座"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "338069-4",
+      "aliases": [],
+      "description": {
+        "en": "PCB receptacle for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插座"
+      }
+    },
+    {
       "brand": "3M",
       "identifier": "3365/60",
       "aliases": [],
@@ -348,12 +2871,745 @@
       }
     },
     {
+      "brand": "Molex",
+      "identifier": "14562053",
+      "aliases": [],
+      "description": {
+        "en": "SL IDC ribbon cable receptacle",
+        "zh": "SL IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "875681664",
+      "aliases": [],
+      "description": {
+        "en": "Milli-Grid IDC ribbon cable receptacle",
+        "zh": "Milli-Grid IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903253018",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903273318",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT ribbon cable receptacle",
+        "zh": "Picoflex IDT排线插座"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "338069-6",
+      "aliases": [],
+      "description": {
+        "en": "PCB receptacle for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插座"
+      }
+    },
+    {
       "brand": "3M",
       "identifier": "3365/64",
       "aliases": [],
       "description": {
         "en": "3365 flat ribbon cable material",
         "zh": "3365系列扁平排线材料"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "14562054",
+      "aliases": [],
+      "description": {
+        "en": "SL IDC ribbon cable receptacle",
+        "zh": "SL IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "875681683",
+      "aliases": [],
+      "description": {
+        "en": "Milli-Grid IDC ribbon cable receptacle",
+        "zh": "Milli-Grid IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903253020",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903273320",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT ribbon cable receptacle",
+        "zh": "Picoflex IDT排线插座"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "338069-8",
+      "aliases": [],
+      "description": {
+        "en": "PCB receptacle for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "14562061",
+      "aliases": [],
+      "description": {
+        "en": "SL IDC ribbon cable receptacle",
+        "zh": "SL IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "875681684",
+      "aliases": [],
+      "description": {
+        "en": "Milli-Grid IDC ribbon cable receptacle",
+        "zh": "Milli-Grid IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903253022",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903273322",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT ribbon cable receptacle",
+        "zh": "Picoflex IDT排线插座"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "1-338069-0",
+      "aliases": [],
+      "description": {
+        "en": "PCB receptacle for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "14562062",
+      "aliases": [],
+      "description": {
+        "en": "SL IDC ribbon cable receptacle",
+        "zh": "SL IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "875681693",
+      "aliases": [],
+      "description": {
+        "en": "Milli-Grid IDC ribbon cable receptacle",
+        "zh": "Milli-Grid IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903253024",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903273324",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT ribbon cable receptacle",
+        "zh": "Picoflex IDT排线插座"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "1-338069-2",
+      "aliases": [],
+      "description": {
+        "en": "PCB receptacle for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "14562064",
+      "aliases": [],
+      "description": {
+        "en": "SL IDC ribbon cable receptacle",
+        "zh": "SL IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "875681694",
+      "aliases": [],
+      "description": {
+        "en": "Milli-Grid IDC ribbon cable receptacle",
+        "zh": "Milli-Grid IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903253026",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "903273326",
+      "aliases": [],
+      "description": {
+        "en": "Picoflex IDT ribbon cable receptacle",
+        "zh": "Picoflex IDT排线插座"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "188275-4",
+      "aliases": [],
+      "description": {
+        "en": "PCB receptacle for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "14562067",
+      "aliases": [],
+      "description": {
+        "en": "SL IDC ribbon cable receptacle",
+        "zh": "SL IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "875682043",
+      "aliases": [],
+      "description": {
+        "en": "Milli-Grid IDC ribbon cable receptacle",
+        "zh": "Milli-Grid IDC排线插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "907790001",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "188275-6",
+      "aliases": [],
+      "description": {
+        "en": "PCB receptacle for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "907790002",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "188275-8",
+      "aliases": [],
+      "description": {
+        "en": "PCB receptacle for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "907790003",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "1-188275-0",
+      "aliases": [],
+      "description": {
+        "en": "PCB receptacle for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "907790004",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "1-188275-2",
+      "aliases": [],
+      "description": {
+        "en": "PCB receptacle for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "907790005",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "1-188275-4",
+      "aliases": [],
+      "description": {
+        "en": "PCB receptacle for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "907790006",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "1-188275-6",
+      "aliases": [],
+      "description": {
+        "en": "PCB receptacle for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "907790007",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "1-188275-8",
+      "aliases": [],
+      "description": {
+        "en": "PCB receptacle for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "907790008",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "TE Connectivity",
+      "identifier": "2-188275-0",
+      "aliases": [],
+      "description": {
+        "en": "PCB receptacle for Micro-MaTch IDC ribbon system",
+        "zh": "Micro-MaTch IDC排线系统用PCB插座"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "907790010",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "908140204",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "908140206",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "908140208",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "908140210",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "908140212",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "908140214",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "908140216",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "908140218",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "908140220",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "908140222",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "908140224",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "908140226",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "908140504",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "908140506",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "908140508",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "908140510",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "908140512",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "908140514",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "908140516",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "908140520",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "908140526",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "908160004",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "908160006",
+      "aliases": [
+        "908160206"
+      ],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "908160008",
+      "aliases": [
+        "908160208"
+      ],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "908160010",
+      "aliases": [
+        "908160210"
+      ],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "908160012",
+      "aliases": [
+        "908160212"
+      ],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "908160014",
+      "aliases": [
+        "908160214"
+      ],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "908160016",
+      "aliases": [
+        "908160216"
+      ],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "908160018",
+      "aliases": [
+        "908160218"
+      ],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "908160020",
+      "aliases": [
+        "908160220"
+      ],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "908160022",
+      "aliases": [
+        "908160222"
+      ],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "908160024",
+      "aliases": [
+        "908160224"
+      ],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "908160026",
+      "aliases": [
+        "908160226"
+      ],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "908160506",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
+      }
+    },
+    {
+      "brand": "Molex",
+      "identifier": "908160514",
+      "aliases": [],
+      "description": {
+        "en": "PCB header for Picoflex IDT ribbon system",
+        "zh": "Picoflex IDT排线系统用PCB插头"
       }
     }
   ],
@@ -378,15 +3634,20 @@
   },
   "quantity_exception": {
     "approved": true,
-    "kind": "material_scope",
+    "kind": "audited_subset",
     "reason": {
-      "en": "These references are connectors, wire or process materials; they are not counted as finished terminated assemblies.",
-      "zh": "这些编号属于连接器、线材或工艺材料，不计为已端接成品组件。"
+      "en": "This is the verified subset for the category. The target of 200 finished models and 200 materials remains incomplete.",
+      "zh": "此处为本类已核验子集，200个成品型号和200个材料料号的目标仍待继续补充。"
     },
-    "audit_id": "resume-cable-specialty-approved-manifest.json",
+    "audit_id": "next-wave/third-wave/fourth-wave/specialty-04-idc-ribbon-fourth-wave-independent-audit.json",
     "verified_counts": {
-      "products": 0,
-      "materials": 23
+      "products": 137,
+      "materials": 239
+    },
+    "target_status": "incomplete",
+    "target_counts": {
+      "products": 200,
+      "materials": 200
     }
   }
 }

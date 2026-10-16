@@ -2796,15 +2796,20 @@
   },
   "quantity_exception": {
     "approved": true,
-    "kind": "narrow_published_range",
+    "kind": "audited_subset",
     "reason": {
-      "en": "Manufacturer-verified robot cable references are shown at their actual audited count; raw cable is counted as material only.",
-      "zh": "机器人专用电缆按原厂可核验的实际数量展示，裸缆只计入材料。"
+      "en": "Manufacturer-verified robot cable references are shown at their actual audited count; raw cable is counted as material only. This verified subset does not yet meet the target of 200 finished models and 200 material part numbers.",
+      "zh": "机器人专用电缆按原厂可核验的实际数量展示，裸缆只计入材料。 此处为已核验子集，200个成品型号和200个材料料号的目标仍待补充。"
     },
     "audit_id": "custom-harness-03-motion-literal-candidates.json",
     "verified_counts": {
       "products": 63,
       "materials": 195
+    },
+    "target_status": "incomplete",
+    "target_counts": {
+      "products": 200,
+      "materials": 200
     }
   }
 }

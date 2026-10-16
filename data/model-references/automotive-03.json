@@ -207,15 +207,20 @@
   },
   "quantity_exception": {
     "approved": true,
-    "kind": "narrow_published_range",
+    "kind": "audited_subset",
     "reason": {
-      "en": "Application-specific references are shown at their audited counts. Materials require their own category evidence and are not assumed to be the BOM of every listed assembly.",
-      "zh": "应用专用编号按核验的实际数量展示；材料须有独立类别依据，不将其视为每件成品的通用 BOM。"
+      "en": "Application-specific references are shown at their audited counts. Materials require their own category evidence and are not assumed to be the BOM of every listed assembly. This verified subset does not yet meet the target of 200 finished models and 200 material part numbers.",
+      "zh": "应用专用编号按核验的实际数量展示；材料须有独立类别依据，不将其视为每件成品的通用 BOM。 此处为已核验子集，200个成品型号和200个材料料号的目标仍待补充。"
     },
     "audit_id": "automotive-validated/automotive-03.json",
     "verified_counts": {
       "products": 4,
       "materials": 0
+    },
+    "target_status": "incomplete",
+    "target_counts": {
+      "products": 200,
+      "materials": 200
     }
   }
 }
