@@ -32,7 +32,7 @@
 
   function photo(topic, zh, loading = 'lazy') {
     const caption = captions[topic.id] || ['', ''];
-    return `<figure class="idc-photo"><img src="${imagePath}${topic.id}.jpg" alt="${escapeHtml(pick(topic.title, zh))}" width="1400" height="930" loading="${loading}" decoding="async"><figcaption>${escapeHtml(caption[zh ? 0 : 1])}</figcaption></figure>`;
+    return `<figure class="idc-photo"><img src="${imagePath}${topic.id === 'equipment' ? 'board' : topic.id}.jpg" alt="${escapeHtml(pick(topic.title, zh))}" width="1400" height="930" loading="${loading}" decoding="async"><figcaption>${escapeHtml(caption[zh ? 0 : 1])}</figcaption></figure>`;
   }
 
   function story(topic, zh, modifier = '') {

@@ -62,7 +62,8 @@ test('each category renders its own gallery once, directly after the existing he
     assert.equal((html.match(/class="pcc-gallery-item"/g)||[]).length,galleries[key].photos.length,key);
     assert.ok(html.includes('</section>\n<!-- PRODUCT GALLERY START -->'),key);
     const stylesheets = html.match(/<link\b[^>]*rel="stylesheet"[^>]*>/g) || [];
-    assert.ok(stylesheets.at(-1)?.includes('id="product-gallery-style"'),key);
+    assert.ok(stylesheets.at(-2)?.includes('id="product-gallery-style"'),key);
+    assert.ok(stylesheets.at(-1)?.includes('id="category-media-balance-style"'),key);
     for (const photo of galleries[key].photos) assert.ok(html.includes(`data-full-image="${photo.src}"`),key);
   }
 });

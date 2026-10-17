@@ -52,6 +52,7 @@ export function withProductGallery(input, key) {
     .replace(/<script\b[^>]*id="product-gallery-script"[^>]*>[\s\S]*?<\/script>\n/g, '')
     .replace(/<link\b[^>]*id="example-product-links-style"[^>]*>\n/g, '')
     .replace(/<script\b[^>]*id="example-product-links-script"[^>]*>[\s\S]*?<\/script>\n/g, '')
+    .replace(/<link\b[^>]*id="category-media-balance-style"[^>]*>\n/g, '')
     .replace(/\b has-product-gallery\b/g, '');
   const gallery = productGalleryMarkup(key);
   if (!gallery) return html;
@@ -71,7 +72,7 @@ export function withProductGallery(input, key) {
   html = html.replace(/<body\b([^>]*\bclass=")([^"]*)"/, '<body$1$2 has-product-gallery"');
   const hasDetails = gallery.includes('data-product-detail-path=');
   const detailStyle = hasDetails ? `<link id="example-product-links-style" rel="stylesheet" href="/assets/css/example-product-links.css?v=${exampleLinkVersion}">\n` : '';
-  html = html.replace('</head>', `${detailStyle}<link id="product-gallery-style" rel="stylesheet" href="/assets/css/product-gallery.css?v=${version}">\n</head>`);
+  html = html.replace('</head>', `${detailStyle}<link id="product-gallery-style" rel="stylesheet" href="/assets/css/product-gallery.css?v=${version}">\n<link id="category-media-balance-style" rel="stylesheet" href="/assets/css/category-media-balance.css?v=20261016-layout1">\n</head>`);
   const dialog = `<!-- PRODUCT PHOTO DIALOG START -->
 <dialog class="pcc-photo-dialog" aria-labelledby="pcc-dialog-title"><header class="pcc-dialog-head"><h2 class="pcc-dialog-title" id="pcc-dialog-title"></h2><button class="pcc-dialog-close" type="button" aria-label="Close photograph">×</button></header><img class="pcc-dialog-image" alt="" width="1200" height="1200"></dialog>
 <!-- PRODUCT PHOTO DIALOG END -->

@@ -1,0 +1,622 @@
+/* Category editorial media balance. Preserve the existing brand and distinct
+   chapter layouts; normalize only audited peer groups. Loaded after legacy CSS. */
+
+
+
+/* Old even-item offsets shrink the second/fourth photograph by22% in
+   braided protection and labeling/identification solution strips. */
+body.page-product-category .pcc-solution-list > .pcc-photo-note:nth-child(n) {
+  margin-inline:0!important;
+}
+
+@media(min-width:821px) {
+  /* Industrial equipment: remove inherited7/5-span capability mosaic.
+     Keep its existing compact two-column illustrated briefs. */
+  body[data-category-key="custom-harness-01"] .pcc-variant-list {
+    display:grid!important;
+    grid-template-columns:repeat(2,minmax(0,1fr))!important;
+    gap:28px 42px!important;
+  }
+  body[data-category-key="custom-harness-01"] .pcc-variant-list > .pcc-photo-note:nth-child(n) {
+    display:grid!important;
+    grid-column:auto!important;
+    grid-template-columns:190px minmax(0,1fr)!important;
+    align-items:start;
+    gap:22px;
+    min-width:0;
+    min-height:0;
+    margin:0!important;
+  }
+  body[data-category-key="custom-harness-01"] .pcc-variant-list > .pcc-photo-note:nth-child(n) > .pcc-item-media {
+    grid-column:1!important;
+    grid-row:1!important;
+    width:190px!important;
+    height:156px!important;
+    min-height:0!important;
+    max-height:none!important;
+    aspect-ratio:auto!important;
+    margin:0!important;
+  }
+  body[data-category-key="custom-harness-01"] .pcc-variant-list > .pcc-photo-note:nth-child(n) > .pcc-photo-copy {
+    grid-column:2!important;
+    grid-row:1!important;
+    min-width:0;
+    padding:0!important;
+  }
+
+  /* Overmolding: all6 configurations are peers. Keep3 columns, give every
+     configuration the same photograph above its text. The previous secondrow
+     switched to nested42% photos, making images344px versus144px wide. */
+  body[data-category-key="cable-assembly-01"] .pcc-variant-list {
+    display:grid!important;
+    grid-template-columns:repeat(3,minmax(0,1fr))!important;
+    gap:28px 26px!important;
+  }
+  body[data-category-key="cable-assembly-01"] .pcc-solution-list {
+    display:grid!important;
+    grid-template-columns:repeat(2,minmax(0,1fr))!important;
+    gap:30px 44px!important;
+  }
+  body[data-category-key="cable-assembly-01"] :is(.pcc-variant-list,.pcc-solution-list) > .pcc-photo-note:nth-child(n) {
+    display:flex!important;
+    flex-direction:column!important;
+    grid-column:auto!important;
+    min-width:0;
+    min-height:0;
+    gap:0;
+    margin:0!important;
+  }
+  body[data-category-key="cable-assembly-01"] :is(.pcc-variant-list,.pcc-solution-list) > .pcc-photo-note:nth-child(n) > .pcc-item-media {
+    position:relative;
+    grid-column:auto!important;
+    grid-row:auto!important;
+    width:100%!important;
+    height:auto!important;
+    min-height:0!important;
+    max-height:none!important;
+    aspect-ratio:3/2!important;
+    margin:0!important;
+  }
+  body[data-category-key="cable-assembly-01"] :is(.pcc-variant-list,.pcc-solution-list) > .pcc-photo-note:nth-child(n) > .pcc-item-media > img {
+    position:absolute;
+    inset:0;
+    display:block;
+    width:100%;
+    height:100%;
+  }
+  body[data-category-key="cable-assembly-01"] :is(.pcc-variant-list,.pcc-solution-list) > .pcc-photo-note:nth-child(n) > .pcc-photo-copy {
+    grid-column:auto!important;
+    grid-row:auto!important;
+    min-width:0;
+    padding:18px 0 0!important;
+  }
+
+  /* Braided and identification material strips inherit42/58 versus58/42
+     incorrectly. Alternate placement remains, but image weight is equal. */
+  body:is([data-category-key="custom-harness-09"],[data-category-key="custom-harness-11"]) .pcc-material-list > .pcc-photo-note:nth-child(n) {
+    display:grid!important;
+    grid-template-columns:minmax(0,.42fr) minmax(0,.58fr)!important;
+    min-width:0;
+  }
+  body:is([data-category-key="custom-harness-09"],[data-category-key="custom-harness-11"]) .pcc-material-list > .pcc-photo-note:nth-child(even) {
+    grid-template-columns:minmax(0,.58fr) minmax(0,.42fr)!important;
+  }
+  body:is([data-category-key="custom-harness-09"],[data-category-key="custom-harness-11"]) .pcc-material-list > .pcc-photo-note:nth-child(n) > .pcc-item-media {
+    width:100%!important;
+    height:190px!important;
+    min-height:0!important;
+    aspect-ratio:auto!important;
+    margin:0!important;
+  }
+}
+
+/* Battery solutions and application stories are parallel explanatory units.
+   Both images now lead the same-width column and use the same landscape frame. */
+body[data-category-key="automotive-10"] .bl-context {
+  grid-template-columns:repeat(2,minmax(0,1fr));
+}
+body[data-category-key="automotive-10"] .bl-context::after {left:50%;}
+body[data-category-key="automotive-10"] .bl-context > .bl-topic {
+  min-width:0;
+  padding:28px var(--bl-gutter);
+}
+body[data-category-key="automotive-10"] .bl-context > .bl-topic > .bl-copy {padding:0;}
+body[data-category-key="automotive-10"] .bl-context > .bl-topic > .bl-photo {
+  order:-1;
+  width:100%;
+  margin:0;
+}
+body[data-category-key="automotive-10"] .bl-context > .bl-topic > .bl-photo > img {
+  height:auto;
+  aspect-ratio:16/9;
+}
+
+@media(max-width:820px) {
+  /* Photographs beside long technical copy should no longer stretch to the
+     paragraph's changing height. These4 pages were the only generic groups
+     with actual stretched peerframes at the390px baseline. */
+  body[data-category-key="custom-harness-01"] :is(.pcc-variant-list,.pcc-material-list) > .pcc-photo-note:nth-child(n),
+  body[data-category-key="custom-harness-02"] :is(.pcc-material-list,.pcc-reliability-list) > .pcc-photo-note:nth-child(n),
+  body[data-category-key="custom-harness-09"] .pcc-material-list > .pcc-photo-note:nth-child(n),
+  body[data-category-key="cable-assembly-01"] :is(.pcc-material-list,.pcc-solution-list) > .pcc-photo-note:nth-child(n) {
+    display:grid!important;
+    grid-template-columns:122px minmax(0,1fr)!important;
+    grid-column:auto!important;
+    align-items:start!important;
+    gap:17px!important;
+    min-width:0;
+    min-height:0!important;
+    margin:0!important;
+  }
+  body[data-category-key="custom-harness-01"] :is(.pcc-variant-list,.pcc-material-list) > .pcc-photo-note:nth-child(n) > .pcc-item-media,
+  body[data-category-key="custom-harness-02"] :is(.pcc-material-list,.pcc-reliability-list) > .pcc-photo-note:nth-child(n) > .pcc-item-media,
+  body[data-category-key="custom-harness-09"] .pcc-material-list > .pcc-photo-note:nth-child(n) > .pcc-item-media,
+  body[data-category-key="cable-assembly-01"] :is(.pcc-material-list,.pcc-solution-list) > .pcc-photo-note:nth-child(n) > .pcc-item-media {
+    position:relative;
+    grid-column:1!important;
+    grid-row:1!important;
+    width:122px!important;
+    height:116px!important;
+    min-height:0!important;
+    max-height:none!important;
+    aspect-ratio:auto!important;
+    margin:0!important;
+  }
+  body[data-category-key="custom-harness-01"] :is(.pcc-variant-list,.pcc-material-list) > .pcc-photo-note:nth-child(n) > .pcc-photo-copy,
+  body[data-category-key="custom-harness-02"] :is(.pcc-material-list,.pcc-reliability-list) > .pcc-photo-note:nth-child(n) > .pcc-photo-copy,
+  body[data-category-key="custom-harness-09"] .pcc-material-list > .pcc-photo-note:nth-child(n) > .pcc-photo-copy,
+  body[data-category-key="cable-assembly-01"] :is(.pcc-material-list,.pcc-solution-list) > .pcc-photo-note:nth-child(n) > .pcc-photo-copy {
+    grid-column:2!important;
+    grid-row:1!important;
+    min-width:0;
+    padding:0!important;
+  }
+  body[data-category-key="custom-harness-01"] :is(.pcc-variant-list,.pcc-material-list),
+  body[data-category-key="custom-harness-02"] :is(.pcc-material-list,.pcc-reliability-list),
+  body[data-category-key="custom-harness-09"] .pcc-material-list,
+  body[data-category-key="cable-assembly-01"] :is(.pcc-material-list,.pcc-solution-list) {
+    display:grid!important;
+    grid-template-columns:minmax(0,1fr)!important;
+    gap:24px!important;
+    padding-inline:16px!important;
+  }
+  body[data-category-key="automotive-10"] .bl-context {
+    display:grid;
+    grid-template-columns:minmax(0,1fr);
+  }
+  body[data-category-key="automotive-10"] .bl-context > .bl-topic {padding:24px 16px;}
+  body[data-category-key="automotive-10"] .bl-context::after {display:none;}
+
+  /* Technicaleditorial pairs already have equal images at1280 and390.
+     This only brings their existing mobile arrangement up to820px to avoid
+     narrow floattext at intermediate widths; no desktop visual replacement. */
+  body.page-product-category .te-pair {display:block;}
+  body.page-product-category .te-pair::after {display:none;}
+  body.page-product-category .te-pair > .te-topic {
+    display:flex!important;
+    flex-direction:column;
+    align-items:stretch;
+    padding:23px 16px;
+    gap:0;
+  }
+  body.page-product-category .te-pair > .te-topic > .te-photo {
+    float:none!important;
+    order:2;
+    width:100%!important;
+    min-width:0;
+    margin:16px 0 0!important;
+  }
+  body.page-product-category .te-pair > .te-topic > .te-photo > img {
+    height:auto!important;
+    aspect-ratio:16/10;
+  }
+}
+
+/* Intermediate measure: preserve readable copy beside fixed thumbnails. */
+@media(min-width:821px) and (max-width:1100px) {
+  body[data-category-key="custom-harness-01"] .pcc-variant-list {grid-template-columns:minmax(0,1fr)!important;}
+  body[data-category-key="cable-assembly-01"] .pcc-variant-list {grid-template-columns:repeat(2,minmax(0,1fr))!important;}
+}
+
+
+
+/* A. Two-column technical chapters: one nested lead and one whole-column image
+   currently produce 1.4–3.6× width differences. Use two readable equal studies;
+   each image gets one 250px stage and the complete paragraph beneath it.
+   Other chapters retain their established horizontal or full-row compositions. */
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) :is(
+  .can-identity-grid,.can-path-grid,.can-interface-grid,
+  .awc-boundary-grid,.awc-install-grid,.awc-release-grid,
+  .apw-spec-grid,.apw-env-grid,.apw-release-stories,
+  .eqw-scope-grid,.eqw-route-grid,.eqw-release-grid,
+  .coax-foundation-grid,.ht-thermal-grid,.ht-tool-grid,.ht-evidence-grid,
+  .lpm-boundary-grid,.lpm-interface-grid,.md-interface-grid,.md-signal-grid,
+  .wd-rating-grid,.wd-material-grid,.ee-feature,.ee-validation-grid,
+  .pte-installation .pte-spread,.pte-verification .pte-spread,
+  .pm-use-grid
+) {
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:32px;
+  align-items:start;
+}
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) :is(
+  .can-identity-grid,.can-path-grid,.can-interface-grid,
+  .awc-boundary-grid,.awc-install-grid,.awc-release-grid,
+  .apw-spec-grid,.apw-env-grid,.apw-release-stories,
+  .eqw-scope-grid,.eqw-route-grid,.eqw-release-grid,
+  .coax-foundation-grid,.ht-thermal-grid,.ht-tool-grid,.ht-evidence-grid,
+  .lpm-boundary-grid,.lpm-interface-grid,.md-interface-grid,.md-signal-grid,
+  .wd-rating-grid,.wd-material-grid,.ee-feature,.ee-validation-grid,
+  .pte-installation .pte-spread,.pte-verification .pte-spread,
+  .pm-use-grid
+) > article {
+  display:block;
+  min-width:0;
+  padding-inline:0;
+  border-left:0;
+}
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) :is(
+  .can-identity-grid,.can-path-grid,.can-interface-grid,
+  .awc-boundary-grid,.awc-install-grid,.awc-release-grid,
+  .apw-spec-grid,.apw-env-grid,.apw-release-stories,
+  .eqw-scope-grid,.eqw-route-grid,.eqw-release-grid,
+  .coax-foundation-grid,.ht-thermal-grid,.ht-tool-grid,.ht-evidence-grid,
+  .lpm-boundary-grid,.lpm-interface-grid,.md-interface-grid,.md-signal-grid,
+  .wd-rating-grid,.wd-material-grid,.ee-feature,.ee-validation-grid,
+  .pte-installation .pte-spread,.pte-verification .pte-spread,
+  .pm-use-grid
+) > article > figure {
+  width:100%!important;
+  min-width:0;
+  height:auto;
+  margin:0;
+  align-self:start;
+}
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) :is(
+  .can-identity-grid,.can-path-grid,.can-interface-grid,
+  .awc-boundary-grid,.awc-install-grid,.awc-release-grid,
+  .apw-spec-grid,.apw-env-grid,.apw-release-stories,
+  .eqw-scope-grid,.eqw-route-grid,.eqw-release-grid,
+  .coax-foundation-grid,.ht-thermal-grid,.ht-tool-grid,.ht-evidence-grid,
+  .lpm-boundary-grid,.lpm-interface-grid,.md-interface-grid,.md-signal-grid,
+  .wd-rating-grid,.wd-material-grid,.ee-feature,.ee-validation-grid,
+  .pte-installation .pte-spread,.pte-verification .pte-spread,
+  .pm-use-grid
+) > article > figure > img {
+  display:block;
+  width:100%;
+  height:250px;
+  max-height:none;
+  aspect-ratio:auto;
+}
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) :is(
+  .can-identity-grid,.can-path-grid,.can-interface-grid,
+  .awc-boundary-grid,.awc-install-grid,.awc-release-grid,
+  .apw-spec-grid,.apw-env-grid,.apw-release-stories,
+  .eqw-scope-grid,.eqw-route-grid,.eqw-release-grid,
+  .coax-foundation-grid,.ht-thermal-grid,.ht-tool-grid,.ht-evidence-grid,
+  .lpm-boundary-grid,.lpm-interface-grid,.md-interface-grid,.md-signal-grid,
+  .wd-rating-grid,.wd-material-grid,.ee-feature,.ee-validation-grid,
+  .pte-installation .pte-spread,.pte-verification .pte-spread,
+  .pm-use-grid
+) > article > :is(.can-copy,.awc-copy,.apw-copy,.eqw-copy,.coax-copy,
+  .ht-copy,.lpm-copy,.md-copy,.wd-copy,.ee-copy,.pte-copy,.pm-copy) {
+  min-width:0;
+  padding:18px 0 0;
+}
+
+/* B. Already-horizontal peer studies were unequal because auto minimums let
+   long EN copy enlarge one nested image track. Keep the horizontal layout. */
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) :is(.can-signal-grid,.awc-thermal-grid,
+  .eqw-material-grid,.coax-construction-grid) {
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:32px;
+}
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) :is(.can-signal-grid,.awc-thermal-grid,
+  .eqw-material-grid,.coax-construction-grid) > article {
+  min-width:0;
+  grid-template-columns:minmax(0,.78fr) minmax(0,1.22fr);
+  gap:22px;
+  align-items:start;
+}
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) :is(.can-signal-grid,.awc-thermal-grid,
+  .eqw-material-grid,.coax-construction-grid) :is(figure,[class$="-copy"]) {
+  min-width:0;
+}
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) :is(.can-signal-grid,.awc-thermal-grid,
+  .eqw-material-grid,.coax-construction-grid) figure > img {
+  width:100%;
+  height:250px;
+  max-height:none;
+  aspect-ratio:auto;
+}
+
+/* C. Spiral cable: remove the 55%/65% peer-image exceptions. Both peers use
+   the same 220px stage, with copy underneath; no tiny supporting thumbnail. */
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) :is(.coil-duet,.coil-interface-grid) {
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:32px;
+}
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) :is(.coil-duet,.coil-interface-grid) > .coil-story {
+  display:block;
+  min-width:0;
+}
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) :is(.coil-duet,.coil-interface-grid) .coil-photo {
+  width:100%;
+  margin:0;
+}
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) :is(.coil-duet,.coil-interface-grid) .coil-photo img {
+  width:100%;
+  height:220px;
+  aspect-ratio:auto;
+}
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) :is(.coil-duet,.coil-interface-grid) .coil-copy {
+  padding-top:18px;
+  min-width:0;
+}
+
+/* D. FTDI: the 390px driver picture and 165px supporting images are direct
+   engineering peers. Three equal reports make their relation readable. */
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) :is(.fe-core-grid,.fe-map-grid,.fe-use-grid) {
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:32px;
+}
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) .fe-build-grid {
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:28px;
+}
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) :is(.fe-core-grid,.fe-map-grid,.fe-build-grid,.fe-use-grid) > .fe-story {
+  display:block;
+  min-width:0;
+  grid-column:auto;
+  grid-row:auto;
+  padding-inline:0;
+  border-left:0;
+}
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) :is(.fe-core-grid,.fe-map-grid,.fe-build-grid,.fe-use-grid) .fe-photo img {
+  width:100%;
+  height:230px;
+  aspect-ratio:auto;
+}
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) :is(.fe-core-grid,.fe-map-grid,.fe-build-grid,.fe-use-grid) .fe-copy {
+  padding:18px 0 0;
+  min-width:0;
+}
+
+/* E. Mechanical verification: avoid a 470px illustration spanning two rows
+   beside 155px photographs. The three tests get equal image stages. The
+   separate geometry full-width load-path lead remains untouched. */
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) .sr-validation > div {
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:28px;
+}
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) .sr-validation .sr-card {
+  display:block;
+  min-width:0;
+  grid-column:auto;
+  grid-row:auto;
+}
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) .sr-validation .sr-card figure {height:220px;}
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) .sr-validation .sr-card > div {padding-top:18px;}
+
+/* F. Mobile natural-height exceptions: desktop ultrasonic stages are already
+   balanced. EMI boundary desktop contain stages are likewise already equal. */
+
+/* G. Binder: some photographs remain direct figure children, so a height on
+   button alone is ineffective. Bound direct and button-wrapped image stages.
+   Keep every existing contain/cover assignment and lead composition. */
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) .bm-interfaces {--peer-stage:180px;}
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) .bm-workmanship {--peer-stage:230px;}
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) .bm-solutions {--peer-stage:190px;}
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) .bm-materials {--peer-stage:180px;}
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) .bm-protection {--peer-stage:190px;}
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) .bm-applications {--peer-stage:202px;}
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) .bm-quality {--peer-stage:180px;}
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) .bm-specification {--peer-stage:130px;}
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) .bm-group .te-photo > :is(img,button),
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) .bm-group .te-photo > button > img {
+  width:100%!important;
+  height:var(--peer-stage,190px)!important;
+  max-height:none!important;
+  aspect-ratio:auto;
+  min-width:0;
+}
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) .bm-group .te-photo > button {display:block;overflow:hidden;}
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) .bm-protection .bm-story {
+  grid-template-columns:minmax(150px,.72fr) minmax(0,1fr);
+}
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) .bm-protection .bm-story-2 {
+  grid-template-columns:minmax(0,1fr) minmax(150px,.72fr);
+}
+/* Quality rows already use matching tracks with opposite direction. Their
+   object silhouettes may differ; stage rectangles should not. */
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) .bm-quality .te-photo > :is(img,button),
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) .bm-quality .te-photo > button > img {height:180px!important;}
+
+/* H. Phoenix: preserve full-row interface/advantages/verification leads;
+   normalize only the same-level secondary product and environment studies.
+   The environment third-item 'order:2' put its image in the larger copy track;
+   reset image order instead of pretending the two tracks were equal. */
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) .ph-interfaces .ph-story:not(:first-child) .ph-photo img {
+  width:100%;
+  height:150px!important;
+  max-height:none;
+  aspect-ratio:auto;
+}
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) .ph-environment .ph-photo {
+  order:0!important;
+  min-width:0;
+  width:100%;
+}
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) .ph-environment .ph-photo img {
+  width:100%;
+  height:150px!important;
+  max-height:none;
+  aspect-ratio:auto;
+}
+
+/* I. Preserve the FPC motion full-row lead + secondary note hierarchy and
+   PTFE material lead + construction/conductor notes. Their large/small ratio
+   is intentional; no proposal flattens those sections. Still make peer copy
+   tracks shrinkable, so source pixels never dictate text width. */
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) :is(.ff-mating-grid,.ff-use-grid,.ff-quality-grid,
+  .pte-applications .pte-spread) > article {min-width:0;}
+body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) :is(.ff-quality-grid,.pte-applications .pte-spread) > article > div {min-width:0;}
+
+@media(max-width:820px) {
+  /* Explicit single-column stacking protects long EN paragraphs on phones. */
+  body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) :is(
+    .can-identity-grid,.can-signal-grid,.can-path-grid,.can-interface-grid,
+    .awc-boundary-grid,.awc-thermal-grid,.awc-install-grid,.awc-release-grid,
+    .apw-spec-grid,.apw-env-grid,.apw-release-stories,
+    .eqw-scope-grid,.eqw-material-grid,.eqw-route-grid,.eqw-release-grid,
+    .coax-foundation-grid,.coax-construction-grid,
+    .coil-duet,.coil-interface-grid,.ht-thermal-grid,.ht-tool-grid,.ht-evidence-grid,
+    .lpm-boundary-grid,.lpm-interface-grid,.md-interface-grid,.md-signal-grid,
+    .wd-rating-grid,.wd-material-grid,.ee-feature,.ee-validation-grid,
+    .pte-installation .pte-spread,.pte-verification .pte-spread,
+    .fe-core-grid,.fe-map-grid,.fe-build-grid,.fe-use-grid,.sr-validation > div,
+    .pm-use-grid
+  ) {grid-template-columns:minmax(0,1fr);gap:28px;}
+  body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) :is(.can-signal-grid,.awc-thermal-grid,
+    .eqw-material-grid,.coax-construction-grid) > article {display:block;}
+  body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) :is(.can-signal-grid,.awc-thermal-grid,
+    .eqw-material-grid,.coax-construction-grid) article > div {padding-top:16px;}
+  body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) :is(
+    .can-identity-grid,.can-signal-grid,.can-path-grid,.can-interface-grid,
+    .awc-boundary-grid,.awc-thermal-grid,.awc-install-grid,.awc-release-grid,
+    .apw-spec-grid,.apw-env-grid,.apw-release-stories,
+    .eqw-scope-grid,.eqw-material-grid,.eqw-route-grid,.eqw-release-grid,
+    .coax-foundation-grid,.coax-construction-grid,
+    .coil-duet,.coil-interface-grid,.ht-thermal-grid,.ht-tool-grid,.ht-evidence-grid,
+    .lpm-boundary-grid,.lpm-interface-grid,.md-interface-grid,.md-signal-grid,
+    .wd-rating-grid,.wd-material-grid,.ee-feature,.ee-validation-grid,
+    .pte-installation .pte-spread,.pte-verification .pte-spread,
+    .fe-core-grid,.fe-map-grid,.fe-build-grid,.fe-use-grid,.pm-use-grid
+  ) figure > img {height:220px;max-height:none;aspect-ratio:auto;}
+  body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) .sr-validation .sr-card figure {height:220px;}
+  body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) :is(.us-build-grid,.us-proof-grid) .us-story .us-photo img,
+  body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) .ee-boundary-grid .ee-photo img {
+    width:100%;height:220px;max-height:none;aspect-ratio:auto;
+  }
+  /* Binder's existing small object+copy rows remain compact. Photographic
+     applications/solutions remain larger within their own coherent chapters. */
+  body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) .bm-group {--peer-stage:115px;}
+  body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) :is(.bm-solutions,.bm-materials,.bm-applications) {--peer-stage:160px;}
+  body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) .bm-quality .te-photo > :is(img,button),
+  body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) .bm-quality .te-photo > button > img {height:115px!important;}
+  body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) .bm-protection .bm-story,
+  body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) .bm-protection .bm-story-2 {
+    grid-template-columns:102px minmax(0,1fr);
+  }
+  /* The 390px Phoenix source illustration currently breaks the mobile peer
+     rhythm. Preserve contain on those product illustrations. */
+  body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) .ph-interfaces .ph-story:not(:first-child) .ph-photo img,
+  body.page-product-category :is(#pcc-rich-content,#can-content,#awc-content,#apw-content,#eqw-content,#coax-content,#coil-content,#ht-content,#lpm-content) .ph-environment .ph-photo img {height:220px!important;}
+}
+
+
+@media (min-width: 821px) {
+  /* Parallel foundation studies share equal columns. Flexible foundation is
+     deliberately excluded because its two full-width spreads are already equal. */
+  .wire-special[data-variant="motion"] .ws-foundation .ws-topic-grid,
+  .wire-special[data-variant="medical"] .ws-foundation .ws-topic-grid,
+  .wire-special[data-variant="measure"] .ws-foundation .ws-topic-grid,
+  .wire-special[data-variant="voltage"] .ws-foundation .ws-topic-grid,
+  .wire-special[data-variant="material"] .ws-foundation .ws-topic-grid,
+  .wire-special[data-variant="marine"] .ws-foundation .ws-topic-grid,
+  .wire-special[data-variant="outdoor"] .ws-foundation .ws-topic-grid,
+  .wire-special[data-variant="crosslink"] .ws-foundation .ws-topic-grid,
+  .wire-special[data-variant="thermal"] .ws-foundation .ws-topic-grid,
+  .wire-special[data-variant="outdoor"] .ws-engineering .ws-topic-grid,
+  .wire-special[data-variant="crosslink"] .ws-engineering .ws-topic-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  /* Remove the nested image/copy split applied to only one of two peer cards.
+     It previously shrank that photo to 38–50% of its neighbour's width. */
+  .wire-special[data-variant="motion"] .ws-foundation .ws-topic:first-child,
+  .wire-special[data-variant="medical"] .ws-foundation .ws-topic:first-child,
+  .wire-special[data-variant="signal"] .ws-engineering .ws-topic:first-child {
+    display: block;
+  }
+  .wire-special[data-variant="motion"] .ws-foundation .ws-topic:first-child .ws-copy,
+  .wire-special[data-variant="medical"] .ws-foundation .ws-topic:first-child .ws-copy,
+  .wire-special[data-variant="signal"] .ws-engineering .ws-topic:first-child .ws-copy {
+    padding-top: 17px;
+  }
+
+  /* One-sided inset padding made the second high-voltage image visibly smaller
+     even after equalizing the column tracks. */
+  .wire-special[data-variant="voltage"] .ws-foundation .ws-topic:nth-child(2) {
+    padding-left: 0;
+    border-left: 0;
+  }
+
+  /* Keep the established first image's crop ratio and align its peer to it. */
+  .wire-special[data-variant="voltage"] .ws-foundation .ws-topic .ws-media-frame {
+    aspect-ratio: 16 / 9;
+  }
+  .wire-special[data-variant="crosslink"] .ws-foundation .ws-topic .ws-media-frame {
+    aspect-ratio: 4 / 3;
+  }
+  .wire-special[data-variant="outdoor"] .ws-foundation .ws-topic .ws-media-frame {
+    aspect-ratio: 2 / 1;
+  }
+
+  /* Equal peer image tops replace decorative offsets within the same chapter. */
+  .wire-special[data-variant="motion"] .ws-engineering .ws-topic:nth-child(2),
+  .wire-special[data-variant="measure"] .ws-engineering .ws-topic:nth-child(2) {
+    padding-top: 0;
+  }
+}
+
+@media(max-width:600px){
+ body[data-category-key="custom-harness-01"] :is(.pcc-variant-list,.pcc-material-list) > .pcc-photo-note:nth-child(n),
+ body[data-category-key="custom-harness-02"] :is(.pcc-material-list,.pcc-reliability-list) > .pcc-photo-note:nth-child(n),
+ body[data-category-key="custom-harness-09"] .pcc-material-list > .pcc-photo-note:nth-child(n),
+ body[data-category-key="cable-assembly-01"] :is(.pcc-material-list,.pcc-solution-list) > .pcc-photo-note:nth-child(n){display:flex!important;flex-direction:column!important;gap:16px!important}
+ body[data-category-key="custom-harness-01"] :is(.pcc-variant-list,.pcc-material-list) > .pcc-photo-note:nth-child(n) > .pcc-item-media,
+ body[data-category-key="custom-harness-02"] :is(.pcc-material-list,.pcc-reliability-list) > .pcc-photo-note:nth-child(n) > .pcc-item-media,
+ body[data-category-key="custom-harness-09"] .pcc-material-list > .pcc-photo-note:nth-child(n) > .pcc-item-media,
+ body[data-category-key="cable-assembly-01"] :is(.pcc-material-list,.pcc-solution-list) > .pcc-photo-note:nth-child(n) > .pcc-item-media{width:100%!important;height:auto!important;aspect-ratio:16/10!important;order:0!important}
+ body[data-category-key="custom-harness-01"] :is(.pcc-variant-list,.pcc-material-list) > .pcc-photo-note:nth-child(n) > .pcc-photo-copy,
+ body[data-category-key="custom-harness-02"] :is(.pcc-material-list,.pcc-reliability-list) > .pcc-photo-note:nth-child(n) > .pcc-photo-copy,
+ body[data-category-key="custom-harness-09"] .pcc-material-list > .pcc-photo-note:nth-child(n) > .pcc-photo-copy,
+ body[data-category-key="cable-assembly-01"] :is(.pcc-material-list,.pcc-solution-list) > .pcc-photo-note:nth-child(n) > .pcc-photo-copy{width:100%;order:1!important}
+}
+
+/* Keep both horizontal studies' images in the same small track. An inherited
+   copy order otherwise placed the second image in the wider text track. */
+body.page-product-category :is(#can-content,#awc-content,#eqw-content,#coax-content) :is(.can-signal-grid,.awc-thermal-grid,.eqw-material-grid,.coax-construction-grid) > article {padding-top:0}
+body.page-product-category :is(#can-content,#awc-content,#eqw-content,#coax-content) :is(.can-signal-grid,.awc-thermal-grid,.eqw-material-grid,.coax-construction-grid) > article > figure {order:0}
+body.page-product-category :is(#can-content,#awc-content,#eqw-content,#coax-content) :is(.can-signal-grid,.awc-thermal-grid,.eqw-material-grid,.coax-construction-grid) > article > div {order:0}
+
+/* The older industrial mosaic used higher-specificity important minimums. */
+@media(min-width:821px){
+ body.page-product-category.pcc-rich-page[data-category-key="custom-harness-01"] .pcc-variant-list > .pcc-photo-note:nth-child(n) > .pcc-item-media{height:156px!important;min-height:0!important;max-height:none!important}
+ body.page-product-category.pcc-rich-page[data-category-key="custom-harness-01"] .pcc-variant-list > .pcc-photo-note:nth-child(n) > .pcc-item-media > img{height:100%!important;min-height:0!important}
+}
+/* Relay solutions and applications form a paired chapter, like battery links. */
+body[data-category-key="automotive-09"] .re-context{grid-template-columns:repeat(2,minmax(0,1fr))}
+body[data-category-key="automotive-09"] .re-context::after{left:50%}
+body[data-category-key="automotive-09"] .re-context > .re-topic{padding:28px var(--re-gutter);min-width:0}
+body[data-category-key="automotive-09"] .re-context > .re-topic > .re-copy{padding:0}
+body[data-category-key="automotive-09"] .re-context > .re-topic > .pcc-relay-photo{order:-1;width:100%;margin:0}
+body[data-category-key="automotive-09"] .re-context > .re-topic > .pcc-relay-photo > img{height:auto;aspect-ratio:16/9}
+@media(max-width:820px){
+ body[data-category-key="automotive-09"] .re-context{display:grid;grid-template-columns:minmax(0,1fr)}
+ body[data-category-key="automotive-09"] .re-context::after{display:none}
+ body[data-category-key="automotive-09"] .re-context > .re-topic{display:flex;flex-direction:column;padding:24px 16px}
+ body.page-product-category.pcc-rich-page[data-category-key="custom-harness-12"] .pcc-application-index > .pcc-photo-note:nth-child(n){display:flex!important;flex-direction:column;gap:16px;min-width:0}
+ body.page-product-category.pcc-rich-page[data-category-key="custom-harness-12"] .pcc-application-index > .pcc-photo-note:nth-child(n) > .pcc-item-media{width:100%!important;height:220px!important;min-height:0!important;max-height:none!important;margin:0!important;order:0!important}
+ body.page-product-category.pcc-rich-page[data-category-key="custom-harness-12"] .pcc-application-index > .pcc-photo-note:nth-child(n) > .pcc-item-media > img{height:100%!important;min-height:0!important}
+ body.page-product-category.pcc-rich-page[data-category-key="custom-harness-12"] .pcc-application-index > .pcc-photo-note:nth-child(n) > .pcc-photo-copy{width:100%;padding:0;order:1!important}
+}
+
+/* Keep all peer image tops aligned after replacing the former staggered spreads. */
+@media(min-width:821px){
+ body.page-product-category :is(#can-content,#awc-content,#eqw-content,#ht-content,#apw-content) :is(.can-path-grid,.awc-install-grid,.eqw-route-grid,.ht-process-grid,.apw-package-grid) > article {padding-block-start:0;margin-block-start:0}
+ body.page-product-category #pcc-rich-content .fe-build-grid {grid-template-areas:none}
+ body.page-product-category #pcc-rich-content .fe-build-grid > .fe-story {padding:0!important;margin:0!important;border:0;grid-area:auto;min-width:0}
+}
