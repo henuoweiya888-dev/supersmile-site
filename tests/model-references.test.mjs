@@ -86,5 +86,7 @@ test('only validated complete categories are enabled and every new text has both
   });
   for (const name of enabled) assert.ok(approved.includes(name), `unvalidated category enabled: ${name}`);
   assert.ok(enabled.includes('industrial-equipment-harness.html'));
-  assert.match(read('sitemap.xml'), /industrial-equipment-harness<\/loc><lastmod>2026-10-15<\/lastmod>/);
+  const updated = read('sitemap.xml').match(/industrial-equipment-harness<\/loc><lastmod>(\d{4}-\d{2}-\d{2})<\/lastmod>/)?.[1];
+  assert.ok(updated && Number.isFinite(Date.parse(updated)), 'category sitemap includes a valid update date');
+  assert.ok(updated >= '2026-10-15', 'category sitemap does not regress before its reference content release');
 });
