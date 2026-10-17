@@ -620,3 +620,108 @@ body[data-category-key="automotive-09"] .re-context > .re-topic > .pcc-relay-pho
  body.page-product-category #pcc-rich-content .fe-build-grid {grid-template-areas:none}
  body.page-product-category #pcc-rich-content .fe-build-grid > .fe-story {padding:0!important;margin:0!important;border:0;grid-area:auto;min-width:0}
 }
+
+/* Image-to-copy balance, October 17. In these full-width chapters a percentage
+   image height contributed its intrinsic portrait size to the grid's auto row.
+   Let the copy and heading size the row; the photograph fills that finite frame.
+   The original image fit, focal point, alternating order and colour stay intact. */
+body.page-product-category.pcc-rich-page #pcc-rich-content .pcc-rich-faq>.pcc-rich-heading{min-width:0}
+body.page-product-category.pcc-rich-page #pcc-rich-content .pcc-rich-faq>.pcc-rich-heading h2{white-space:normal;overflow-wrap:anywhere;max-width:100%;text-wrap:balance}
+/* These nested note sections inherited the page section's large vertical
+   padding. Keep their rule/indent styling, but size them as short notes. */
+body.page-product-category #pcc-rich-content :is(.pcc-rf-points,.pcc-aerospace-points,.pcc-medical-points)>section{padding-block:0}
+body.page-product-category #pcc-rich-content .pcc-power-points>section{padding-block:12px 0}
+body.page-product-category #pcc-rich-content .pcc-field-points>section{padding-block:10px 0}
+body.page-product-category #pcc-rich-content :is(.pcc-audio-points,.pcc-trans-points)>section{padding-block:9px 0}
+body.page-product-category #pcc-rich-content .pcc-video-points>section{padding-block:8px 0}
+@media(min-width:821px){
+ body.page-product-category #pcc-rich-content :is(
+  .pcc-aerospace-chapter,.pcc-battery-chapter,.pcc-construction-chapter,
+  .pcc-diagnostic-chapter,.pcc-ecu-chapter,.pcc-engine-chapter,.pcc-eth-chapter,
+  .pcc-field-chapter,.pcc-j1939-chapter,.pcc-led-chapter,.pcc-lighting-chapter,
+  .pcc-lvds-chapter,.pcc-medical-chapter,.pcc-power-chapter,.pcc-rf-chapter,
+  .pcc-solar-chapter,.pcc-trailer-chapter,.pcc-truck-chapter
+ ):nth-child(n){min-height:240px;align-items:stretch}
+ body.page-product-category #pcc-rich-content :is(
+  .pcc-aerospace-chapter,.pcc-battery-chapter,.pcc-construction-chapter,
+  .pcc-diagnostic-chapter,.pcc-ecu-chapter,.pcc-engine-chapter,.pcc-eth-chapter,
+  .pcc-field-chapter,.pcc-j1939-chapter,.pcc-led-chapter,.pcc-lighting-chapter,
+  .pcc-lvds-chapter,.pcc-medical-chapter,.pcc-power-chapter,.pcc-rf-chapter,
+  .pcc-solar-chapter,.pcc-trailer-chapter,.pcc-truck-chapter
+ ):nth-child(n)>figure{position:relative;align-self:stretch;height:auto;min-height:0;aspect-ratio:auto}
+ body.page-product-category #pcc-rich-content :is(
+  .pcc-aerospace-chapter,.pcc-battery-chapter,.pcc-construction-chapter,
+  .pcc-diagnostic-chapter,.pcc-ecu-chapter,.pcc-engine-chapter,.pcc-eth-chapter,
+  .pcc-field-chapter,.pcc-j1939-chapter,.pcc-led-chapter,.pcc-lighting-chapter,
+  .pcc-lvds-chapter,.pcc-medical-chapter,.pcc-power-chapter,.pcc-rf-chapter,
+  .pcc-solar-chapter,.pcc-trailer-chapter,.pcc-truck-chapter
+ ):nth-child(n)>figure>img{position:absolute;inset:0;width:100%;height:100%;min-height:0;max-height:none;aspect-ratio:auto}
+
+ /* Chapter introductions remain prominent, but a short introduction no longer
+    inherits a 400px photograph. Longer translated copy can expand naturally. */
+ body.page-product-category #pcc-rich-content :is(
+  .pcc-aerospace-opening,.pcc-ag-opening,.pcc-atlas-opening,.pcc-audio-opening,
+  .pcc-battery-opening,.pcc-cockpit-opening,.pcc-construction-opening,
+  .pcc-diagnostic-opening,.pcc-dsub-opening,.pcc-ecu-opening,.pcc-engine-opening,
+  .pcc-eth-opening,.pcc-field-opening,.pcc-fuel-opening,.pcc-j1939-opening,
+  .pcc-led-opening,.pcc-lighting-opening,.pcc-lvds-opening,.pcc-medical-opening,
+  .pcc-power-opening,.pcc-rf-opening,.pcc-solar-opening,.pcc-trailer-opening,
+  .pcc-trans-opening,.pcc-truck-opening,.pcc-usb-opening,.pcc-video-opening
+ ){height:auto;min-height:220px;align-items:stretch}
+ body.page-product-category #pcc-rich-content :is(
+  .pcc-aerospace-opening,.pcc-ag-opening,.pcc-atlas-opening,.pcc-audio-opening,
+  .pcc-battery-opening,.pcc-cockpit-opening,.pcc-construction-opening,
+  .pcc-diagnostic-opening,.pcc-dsub-opening,.pcc-ecu-opening,.pcc-engine-opening,
+  .pcc-eth-opening,.pcc-field-opening,.pcc-fuel-opening,.pcc-j1939-opening,
+  .pcc-led-opening,.pcc-lighting-opening,.pcc-lvds-opening,.pcc-medical-opening,
+  .pcc-power-opening,.pcc-rf-opening,.pcc-solar-opening,.pcc-trailer-opening,
+  .pcc-trans-opening,.pcc-truck-opening,.pcc-usb-opening,.pcc-video-opening
+ )>figure{position:relative;align-self:stretch;height:auto;min-height:0;aspect-ratio:auto}
+ body.page-product-category #pcc-rich-content :is(
+  .pcc-aerospace-opening,.pcc-ag-opening,.pcc-atlas-opening,.pcc-audio-opening,
+  .pcc-battery-opening,.pcc-cockpit-opening,.pcc-construction-opening,
+  .pcc-diagnostic-opening,.pcc-dsub-opening,.pcc-ecu-opening,.pcc-engine-opening,
+  .pcc-eth-opening,.pcc-field-opening,.pcc-fuel-opening,.pcc-j1939-opening,
+  .pcc-led-opening,.pcc-lighting-opening,.pcc-lvds-opening,.pcc-medical-opening,
+  .pcc-power-opening,.pcc-rf-opening,.pcc-solar-opening,.pcc-trailer-opening,
+  .pcc-trans-opening,.pcc-truck-opening,.pcc-usb-opening,.pcc-video-opening
+ )>figure>img{position:absolute;inset:0;width:100%;height:100%;min-height:0;max-height:none;aspect-ratio:auto}
+
+ /* These introductory paragraphs have their chapter heading above the grid.
+    Use a supporting landscape image, rather than a second large opening. */
+ body.page-product-category.pcc-rich-page #pcc-rich-content .pcc-rich-intro-grid{
+  grid-template-columns:minmax(0,1fr) minmax(240px,.45fr);gap:32px;align-items:center
+ }
+ body.page-product-category.pcc-rich-page #pcc-rich-content .pcc-rich-intro-grid>figure{
+  width:100%;height:180px;min-height:0;max-height:none;aspect-ratio:auto
+ }
+ body.page-product-category.pcc-rich-page #pcc-rich-content .pcc-rich-intro-grid>figure>img{height:100%;min-height:0}
+
+ /* Full-row supporting studies: retain the spread, give the copy more room. */
+ body.page-product-category.wire-special:not([data-variant="conxall"]) .ws-evidence .ws-topic:only-child .ws-media-frame{height:220px;aspect-ratio:auto}
+ body.page-product-category.wire-special:is([data-variant="oilgas"],[data-variant="hybrid"]) .ws-engineering .ws-topic .ws-media-frame{height:240px;aspect-ratio:auto}
+ body.page-product-category #us-window .us-window-grid{grid-template-columns:minmax(260px,.7fr) minmax(0,1.3fr);gap:36px}
+ body.page-product-category #us-window .us-photo img{height:290px;max-height:none;object-fit:contain}
+ body.page-product-category .ph-interfaces .ph-story:first-child{grid-template-columns:minmax(280px,.65fr) minmax(0,1.35fr)}
+ body.page-product-category .ph-interfaces .ph-story:first-child .ph-photo img{height:240px;aspect-ratio:auto}
+ body.page-product-category .ph-story-matching .ph-photo img,
+ body.page-product-category .ph-story-release .ph-photo img{height:230px;aspect-ratio:auto}
+ body.page-product-category .ff-motion-grid .ff-story:first-child{grid-template-columns:minmax(280px,.72fr) minmax(0,1.28fr);gap:32px}
+ body.page-product-category .ff-motion-grid .ff-story:first-child .ff-photo img{height:235px;aspect-ratio:auto}
+ body.page-product-category .idc-story-lead{grid-template-columns:minmax(280px,.7fr) minmax(0,1.3fr);gap:32px}
+ body.page-product-category .idc-story-lead .idc-photo img{height:235px;aspect-ratio:auto}
+ body.page-product-category .idc-routing article{grid-template-columns:minmax(280px,.75fr) minmax(0,1.25fr);gap:36px}
+ body.page-product-category .idc-routing .idc-photo img{height:245px;aspect-ratio:auto}
+ body.page-product-category .sr-geometry .sr-load-path{grid-template-columns:minmax(300px,.72fr) minmax(0,1.28fr);gap:32px}
+ body.page-product-category .sr-geometry .sr-load-path figure{height:220px}
+ body.page-product-category .fp-opening{grid-template-columns:minmax(0,1.25fr) minmax(300px,.75fr);gap:42px}
+ body.page-product-category .fp-opening figure img{height:285px}
+ body.page-product-category .fp-process .fp-card figure img{height:215px}
+ body.page-product-category .fh-opening{grid-template-columns:minmax(280px,.7fr) minmax(0,1.3fr);gap:42px}
+ body.page-product-category .fh-opening figure img{height:295px}
+ body.page-product-category .fh-topic.fh-pdu figure img{height:220px}
+ body.page-product-category .pte-opening{grid-template-columns:minmax(0,1.15fr) minmax(320px,.85fr);gap:42px}
+ body.page-product-category .pte-opening-photo img{height:280px;aspect-ratio:auto}
+ body.page-product-category .pm-materials .pm-story{grid-template-columns:minmax(240px,.65fr) minmax(0,1.35fr);gap:28px}
+ body.page-product-category .pm-materials .pm-photo img{height:235px;aspect-ratio:auto}
+}
